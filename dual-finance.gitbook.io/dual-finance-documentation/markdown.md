@@ -149,7 +149,7 @@ Finance](https://www.dual.finance/)
 [NextStaking Options (SO)](/dual-finance-documentation/product-suite/staking-
 options-so)
 
-Last updated 27 days ago
+Last updated 28 days ago
 
 On this page
 

@@ -1,59 +1,79 @@
-[
-    "https://app.realms.today/realm/dual%20dao/hub",
-    "https://app.realms.today/realm/dual%20dao/hub",
-    "https://beta.dual.finance/",
-    "https://discord.gg/P3uH9AvEp5",
-    "https://dual-finance.gitbook.io/dual-finance-documentation",
-    "https://dual-finance.gitbook.io/dual-finance-documentation",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/dual-tokenomics/dual-dao",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/dual-tokenomics/dual-dao/constitution",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/dual-tokenomics/dual-dao/council",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/dual-tokenomics/dual-dao/governance-proposals",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/dual-tokenomics/fair-launch",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/dual-tokenomics/token-liquidity",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/dual-tokenomics/token-liquidity/limit-orders",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/dual-tokenomics/token-liquidity/oracle-price",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/extra/partners",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/extra/program-addresses",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/extra/progress-reports",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/extra/risk-manager-rm",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/extra/risk-manager-rm/demos",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/extra/risk-manager-rm/performance",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/extra/roadmap",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/extra/security",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/extra/status",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/extra/whitepaper",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/faq/general",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/faq/partnerships",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/faq/products",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/faq/risks",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/faq/token",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/integrations/realms",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/integrations/realms/dual-airdrop",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/integrations/realms/dual-airdrop/design-specs",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/integrations/realms/proof-of-governance",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/integrations/realms/proof-of-governance/project-guide",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/integrations/realms/proof-of-governance/user-demo",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/integrations/sdk",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/integrations/studio",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/product-suite/dual-investment-pools-dip",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/product-suite/dual-investment-pools-dip/contract-specifications",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/product-suite/dual-investment-pools-dip/demos",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/product-suite/dual-investment-pools-dip/liquidity-staking-options-lso",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/product-suite/liquidity-service",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/product-suite/liquidity-service/loans",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/product-suite/staking-options-so",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/product-suite/staking-options-so",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/product-suite/staking-options-so/demo",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/product-suite/staking-options-so/lockup-staking-options",
-    "https://dual-finance.gitbook.io/dual-finance-documentation/product-suite/staking-options-so/partnership-program",
-    "https://github.com/Dual-Finance",
-    "https://medium.com/@dualfinance",
-    "https://twitter.com/DualFinance",
-    "https://www.dual.finance/",
-    "https://www.dual.finance/",
-    "https://www.dual.finance/",
-    "https://www.gitbook.com/?utm_source=content&utm_medium=trademark&utm_campaign=bsQwTZST7WBDVtaZcTWp",
-    "https://www.instagram.com/dual.finance/?hl=en",
-    "https://www.youtube.com/@dualfinance691"
-]
+{
+    "target_url": "https://dual-finance.gitbook.io/dual-finance-documentation",
+    "domains": {
+        "app.realms.today": [
+            "https://app.realms.today/realm/dual%20dao/hub"
+        ],
+        "beta.dual.finance": [
+            "https://beta.dual.finance/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/P3uH9AvEp5"
+        ],
+        "dual-finance.gitbook.io": [
+            "https://dual-finance.gitbook.io/dual-finance-documentation",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/dual-tokenomics/dual-dao",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/dual-tokenomics/dual-dao/constitution",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/dual-tokenomics/dual-dao/council",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/dual-tokenomics/dual-dao/governance-proposals",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/dual-tokenomics/fair-launch",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/dual-tokenomics/token-liquidity",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/dual-tokenomics/token-liquidity/limit-orders",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/dual-tokenomics/token-liquidity/oracle-price",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/extra/partners",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/extra/program-addresses",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/extra/progress-reports",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/extra/risk-manager-rm",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/extra/risk-manager-rm/demos",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/extra/risk-manager-rm/performance",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/extra/roadmap",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/extra/security",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/extra/status",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/extra/whitepaper",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/faq/general",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/faq/partnerships",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/faq/products",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/faq/risks",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/faq/token",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/integrations/realms",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/integrations/realms/dual-airdrop",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/integrations/realms/dual-airdrop/design-specs",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/integrations/realms/proof-of-governance",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/integrations/realms/proof-of-governance/project-guide",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/integrations/realms/proof-of-governance/user-demo",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/integrations/sdk",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/integrations/studio",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/product-suite/dual-investment-pools-dip",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/product-suite/dual-investment-pools-dip/contract-specifications",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/product-suite/dual-investment-pools-dip/demos",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/product-suite/dual-investment-pools-dip/liquidity-staking-options-lso",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/product-suite/liquidity-service",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/product-suite/liquidity-service/loans",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/product-suite/staking-options-so",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/product-suite/staking-options-so/demo",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/product-suite/staking-options-so/lockup-staking-options",
+            "https://dual-finance.gitbook.io/dual-finance-documentation/product-suite/staking-options-so/partnership-program"
+        ],
+        "github.com": [
+            "https://github.com/Dual-Finance"
+        ],
+        "medium.com": [
+            "https://medium.com/@dualfinance"
+        ],
+        "twitter.com": [
+            "https://twitter.com/DualFinance"
+        ],
+        "www.dual.finance": [
+            "https://www.dual.finance/"
+        ],
+        "www.gitbook.com": [
+            "https://www.gitbook.com/?utm_source=content&utm_medium=trademark&utm_campaign=bsQwTZST7WBDVtaZcTWp"
+        ],
+        "www.instagram.com": [
+            "https://www.instagram.com/dual.finance/?hl=en"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/@dualfinance691"
+        ]
+    }
+}
