@@ -1,7 +1,13 @@
-[
-    "https://enable-javascript.com/",
-    "https://enable-javascript.com/",
-    "https://substack.com/ccpa#personal-data-collected",
-    "https://substack.com/privacy",
-    "https://substack.com/tos"
-]
+{
+    "target_url": "https://news.madlads.com",
+    "domains": {
+        "enable-javascript.com": [
+            "https://enable-javascript.com/"
+        ],
+        "substack.com": [
+            "https://substack.com/ccpa#personal-data-collected",
+            "https://substack.com/privacy",
+            "https://substack.com/tos"
+        ]
+    }
+}
