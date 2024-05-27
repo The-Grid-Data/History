@@ -1,42 +1,61 @@
-[
-    "https://discord.com/invite/rendernetwork",
-    "https://github.com/rendernetwork/",
-    "https://github.com/rendernetwork/RNPs/blob/main/RNP-004.md",
-    "https://github.com/rendernetwork/RNPs/blob/main/RNP-005.md",
-    "https://github.com/rendernetwork/RNPs/blob/main/RNP-007.md",
-    "https://know.rendernetwork.com/",
-    "https://medium.com/@rendernetwork",
-    "https://medium.com/render-token/",
-    "https://renderfoundation.com/",
-    "https://renderfoundation.com/",
-    "https://renderfoundation.com/",
-    "https://renderfoundation.com/",
-    "https://renderfoundation.com/governance",
-    "https://renderfoundation.com/governance",
-    "https://renderfoundation.com/governance",
-    "https://renderfoundation.com/gpu",
-    "https://renderfoundation.com/grants",
-    "https://renderfoundation.com/jobs-3",
-    "https://renderfoundation.com/support",
-    "https://renderfoundation.com/team",
-    "https://renderfoundation.com/team",
-    "https://renderfoundation.com/tutorials",
-    "https://renderfoundation.com/tutorials",
-    "https://renderfoundation.com/upgrade",
-    "https://renderfoundation.com/upgrade",
-    "https://renderfoundation.com/upgrade",
-    "https://renderfoundation.com/whitepaper",
-    "https://renderfoundation.com/whitepaper",
-    "https://rndr.x.io/",
-    "https://rndr.x.io/",
-    "https://stats.renderfoundation.com/",
-    "https://stats.renderfoundation.com/",
-    "https://superrare.com/zomax",
-    "https://t.me/rendernetwork",
-    "https://twitter.com/jstngraphics",
-    "https://twitter.com/rendernetwork",
-    "https://www.annibalesiconolfi.com",
-    "https://www.facebook.com/rendernetwork",
-    "https://www.instagram.com/rendertoken/",
-    "https://www.reddit.com/r/RenderNetwork/"
-]
+{
+    "target_url": "https://renderfoundation.com",
+    "domains": {
+        "discord.com": [
+            "https://discord.com/invite/rendernetwork"
+        ],
+        "github.com": [
+            "https://github.com/rendernetwork/",
+            "https://github.com/rendernetwork/RNPs/blob/main/RNP-004.md",
+            "https://github.com/rendernetwork/RNPs/blob/main/RNP-005.md",
+            "https://github.com/rendernetwork/RNPs/blob/main/RNP-007.md"
+        ],
+        "know.rendernetwork.com": [
+            "https://know.rendernetwork.com/"
+        ],
+        "medium.com": [
+            "https://medium.com/@rendernetwork",
+            "https://medium.com/render-token/"
+        ],
+        "renderfoundation.com": [
+            "https://renderfoundation.com/",
+            "https://renderfoundation.com/governance",
+            "https://renderfoundation.com/gpu",
+            "https://renderfoundation.com/grants",
+            "https://renderfoundation.com/jobs-3",
+            "https://renderfoundation.com/support",
+            "https://renderfoundation.com/team",
+            "https://renderfoundation.com/tutorials",
+            "https://renderfoundation.com/upgrade",
+            "https://renderfoundation.com/whitepaper"
+        ],
+        "rndr.x.io": [
+            "https://rndr.x.io/"
+        ],
+        "stats.renderfoundation.com": [
+            "https://stats.renderfoundation.com/"
+        ],
+        "superrare.com": [
+            "https://superrare.com/zomax"
+        ],
+        "t.me": [
+            "https://t.me/rendernetwork"
+        ],
+        "twitter.com": [
+            "https://twitter.com/jstngraphics",
+            "https://twitter.com/rendernetwork"
+        ],
+        "www.annibalesiconolfi.com": [
+            "https://www.annibalesiconolfi.com"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/rendernetwork"
+        ],
+        "www.instagram.com": [
+            "https://www.instagram.com/rendertoken/"
+        ],
+        "www.reddit.com": [
+            "https://www.reddit.com/r/RenderNetwork/"
+        ]
+    }
+}
