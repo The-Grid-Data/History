@@ -1,0 +1,702 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snowflake - Solana Multisig Wallet</title>
+  <meta name="description" content="Snowflake is the most trusted, institutional-grade multisig wallet and on-chain automation built for teams, DAOs and secured individuals on Solana.">
+  <meta name="keywords" content="Solana multisig, multi-signature wallet for solana, secure multisig wallet, solana">
+  <meta property="og:image" content="https://snowflake.so/assets/snowflake.svg">
+  <meta property="og:title" content="Secure solana multisig wallet &amp; on-chain automation">
+  <meta property="og:description" content="The most trusted multisig wallet and on-chain automation for Solana">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poiret+One" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <link rel="shortcut icon" type="image/svg" href="/assets/snowflake.svg">
+  <link href="/css/styles.css?v=6" rel="stylesheet" type="text/css">
+  <link href="/css/styles-snowflake.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" type="text/css" media="screen">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide@latest/dist/css/glide.core.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide@latest/dist/css/glide.theme.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide@latest/dist/glide.min.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-8F4NYBEVEG"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-8F4NYBEVEG');
+  </script>
+
+  <script type="text/javascript">
+
+    $(document).ready(function() {
+      $(".video").fancybox({
+        fitToView: false,
+        maxWidth: "90%" // or whatever you need
+      });
+    }); // ready
+
+  </script>
+
+</head>
+
+<body>
+
+<div id="banner">
+<!--  <div id="banner-content" style="background-color: #d425fc;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px;">
+    Snowflake will be winded down by Oct 31st, 2023. Please read our
+    <a target="_blank" href="/legals/Snowflake-Announcement.pdf" style="text-decoration: underline"> announcement</a> for details.
+  </div>-->
+</div>
+<nav class="navbar navbar-default" stylenftpaymentaction.tsx="color:grey; font-weight: bold; z-index: 2" id="main-content">
+  <div class="container">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/">
+      <div style="float:left; margin-top: 5px; display: table">
+
+        <img src="/assets/snowflake.svg" style="width: 45px;border-radius: 4px;margin-right: 8px;">
+        <span style="font-size: 28px; display: table-cell; vertical-align: middle; color: white; font-weight: 500; font-family: FreeMono, Courier, monospace;font-family: monospace">SNOWFLAKE</span>
+
+      </div></a>
+    </div>
+
+    <div class="collapse navbar-collapse navbar-right" id="myNavbar" style="margin-top: 6px">
+      <ul class="nav navbar-nav" style="color:white">
+        <li>
+        <div class="dropdown" style="display: inline-block">
+          <button class="btn btn-lg dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false" style="cursor: default; background: none; text-transform: uppercase; font-size: 14px; margin-top:5px; color: #e0e1e4">
+            Products &nbsp; <i class="fa fa-caret-down" aria-hidden="true"></i>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="background: #1a1e31; left: 0; right: auto; border: 1px solid darkslategrey;">
+            <li><a href="/" style="padding-top:10px; padding-bottom:10px; color: white; font-weight: bold; font-size: medium" class="dropdown-item">
+              Snowflake Safe</a></li>
+            <li><a href="/automation.html" style="padding-top:10px; padding-bottom:10px; color: white; font-weight: bold; font-size: medium" class="dropdown-item">
+              Snowflake Automation</a></li>
+          </ul>
+        </div>
+        </li>
+        <li><a href="/press.html"><i class="fa fa-discord"></i>PRESS</a></li>
+        <li><a target="_blank" href="https://github.com/snowflake-so">GITHUB</a></li>
+        <li><a target="_blank" href="https://medium.com/@snowflake_so">BLOGS</a></li>
+        <li><a target="_blank" href="https://docs.snowflake.so">DOCS</a></li>
+        <li><a target="_blank" href="https://twitter.com/snowflake_sol">TWITTER </a></li>
+        <li><a target="_blank" href="https://discord.gg/9qWK2BNaMD">DISCORD</a></li>
+      </ul>
+      <form class="navbar-form navbar-left" ;="" style="margin-top: 0px">
+        <div class="dropdown" style="display: inline-block">
+         <!-- <button class=" btn btn-primary btn-lg dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"
+          style="cursor: default">
+            Launch App &nbsp; <i class="fa fa-caret-down" aria-hidden="true"></i>
+          </button>-->
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="background: #0f263b; left: 0; right: auto; border: 1px solid #2043da;">
+            <li><a href="https://safe.snowflake.so" style="padding-top:10px; padding-bottom:10px; color: white; font-weight: bold; font-size: medium" class="dropdown-item">
+               Snowflake Safe</a></li>
+            <li><a href="https://app.snowflake.so" style="padding-top:10px; padding-bottom:10px; color: white; font-weight: bold; font-size: medium" class="dropdown-item">
+               Snowflake Automation</a></li>
+          </ul>
+        </div>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<main class="page-content" aria-label="Content">
+    <div class="wrapper">
+        <div class="section section_intro">
+    <div class="container">
+
+
+        <div class="row order-reverse-sm">
+            <div class="col-sm-8 text-center-sm">
+                <a class="video" href="https://www.youtube.com/watch?v=-KEldtBgt0I&amp;autoplay=1" style="color: white">
+                <img src="/assets/safe_preview.png" style="width: 90%;border-radius: 20px; border: 4px solid">
+                </a>
+            </div>
+            <div class="col-sm-4" style="margin: auto; text-align: center">
+                <h1 style="line-height: 1.5; margin-bottom: 30px">
+                    The most <span class="line-break-lg"><br></span>feature-rich <br> multisig platform on Solana
+                </h1>
+
+                <a target="_blank" href="https://safe.snowflake.so" class="btn btn-primary btn-xlarge">
+                    Launch App
+                </a> &nbsp; <br><br><br>
+                <div style="text-align: center; margin-bottom: 20px; margin-top: 10px">
+                    <div style="width: 280px; background: #1f222e78; padding: 12px; font-weight: normal; font-size: medium; margin: auto">
+                        Audited by  <img src="/icons/eco/ottersec.jpeg" style="width: 35px; border-radius: 50px; margin-right: 20px; margin-left: 20px"><img src="/icons/eco/certik.png" style="width: 35px; border-radius: 50px">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>
+                    Trusted by
+                </h1>
+                <div class="customers customer-card customer-card-sm">
+                    <div>
+                        <img src="/icons/eco/pyth.svg"> Pyth
+                    </div>
+                    <div>
+                        <img src="/icons/eco/tulip.png"> Tulip
+                    </div>
+                    <div>
+                        <img src="/icons/eco/genopets.png"> Genopets
+                    </div>
+                    <div>
+                        <img src="/icons/eco/notifi.jpeg"> Notifi
+                    </div>
+                    <div>
+                        <img src="/icons/eco/zeta.jpeg"> Zeta
+                    </div>
+
+                    <div>
+                        <img src="/icons/eco/solend.svg"> Solend
+                    </div>
+
+                    <div>
+                        <img src="/icons/eco/monkeyleauge.png"> M League
+                    </div>
+                    <div>
+                        <img src="/icons/eco/elusiv.jpeg"> Elusiv
+                    </div>
+                    <div>
+                        <img src="/icons/eco/atlas_dex.png"> Atlas Dex
+                    </div>
+                    <div>
+                        <img src="/icons/eco/goldblin.jpeg"> Goblin
+                    </div>
+                    <div>
+                        <img src="/icons/eco/hedge.svg" style="width: 100px !important;">
+                    </div>
+
+                    <div>
+                        <img src="/icons/eco/friktion.png"> Friktion
+                    </div>
+                    <div>
+                        <img src="/icons/eco/hedgehog.png"> Hedgehog
+                    </div>
+                    <div>
+                        <img src="/icons/eco/nova.svg"> Nova
+                    </div>
+
+                    <div>
+                        <img style="width: 120px !important;" src="/icons/eco/everlend.svg">
+                    </div>
+                    <div>
+                        <img src="/icons/eco/solvent.jpg"> Solvent
+                    </div>
+
+                    <div>
+                        <img src="/icons/eco/sentry.png"> Sentry
+                    </div>
+                    <div>
+                        <img src="/icons/eco/lido.jpg"> Lido
+                    </div>
+                    <div>
+                        <img src="/icons/eco/everstake.png"> Everstake
+                    </div>
+                    <div>
+                        <img src="/icons/eco/rentii.jpg"> Rentii
+                    </div>
+                </div>
+            </div>
+            <div style="width: 100%; margin-top: 30px">
+                <a href="/press.html" class="btn btn-lg btn-secondary">
+                    View Press Release
+                </a>
+            </div>
+
+        </div>
+
+        <div class="glide glide--ltr glide--carousel glide--swipeable" style="margin-bottom: 60px">
+    <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides" style="transition: transform 0ms linear 0s; width: 14036px; transform: translate3d(-2552px, 0px, 0px);">
+            <li class="slider__frame glide__slide glide__slide--clone" style="width: 628px; margin-right: 5px;">
+                <div class="user"><img src="/icons/founder/ottersec.jpeg">
+                    <div>OtterSec</div></div>
+                <p>"We have recently completed our audit on
+                    @snowflake_sol
+                    multisig wallet program, and we were impressed by the team’s attention to detail and their strong commitment
+                    to building one of the most secured products in the space!"</p>
+            </li><li class="slider__frame glide__slide glide__slide--clone" style="width: 628px; margin-left: 5px; margin-right: 5px;">
+                <div class="user"><img src="https://pbs.twimg.com/profile_images/1568608006895554561/A8DsiE0e_400x400.jpg">
+                    <div>Deborah Otton<br>Nova Finance</div></div>
+                <p>"@NovaFinance_
+                    currently uses #Snowflake Safe which has astonishing features such as an asset manager,
+                    #token vesting, token swap, integration, and many more."</p>
+            </li><li class="slider__frame glide__slide glide__slide--clone" style="width: 628px; margin-left: 5px; margin-right: 5px;">
+                <div class="user"><img src="/icons/founder/jerome.png">
+                    <div>Jerome<br>Founder, Interlink</div></div>
+                <p>"After researching what multi-signature wallets are available we have chosen
+                    @snowflake_sol.
+
+
+                    Snowflake standout for a number of reasons - professionally qualified team, aesthetically pleasing UI and even smoother UX packed with a number of advanced apps"</p>
+            </li><li class="slider__frame glide__slide glide__slide--clone" style="width: 628px; margin-left: 5px; margin-right: 5px;">
+                <div class="user"><img src="/icons/founder/pyth.jpeg">
+                    <div>Pyth</div></div>
+                <p>"It’s always an honor to build powerful public tooling with teams like
+                    @snowflake_sol
+                    ! ❄️
+
+                    We look forward to supporting even more innovative developments to empower users and smart contracts alike "</p>
+            </li><li class="slider__frame glide__slide glide__slide--clone" style="width: 628px; margin-left: 5px; margin-right: 5px;">
+                <div class="user"><img src="/icons/founder/soju.jpeg">
+                    <div>Soju<br>Head of BD, Solend</div></div>
+                <p>"Snowflake team have great execution, rapidly utilizing the solend SDK and toolkit to integrate cToken minting for all their users. Big props to them!"</p>
+            </li><li class="slider__frame glide__slide glide__slide--active" style="width: 628px; margin-left: 5px; margin-right: 5px;">
+                <div class="user"><img src="/icons/founder/udav.jpeg">
+                    <div>Uddhav Marwaha <br>CEO, Friktion Labs</div></div>
+                <p>"Snowflake provides some of Solana’s most powerful, institutional-grade infrastructure. At Friktion Institutional, we believe DeFi
+                requires enhanced security and real yield generation in order to scale and are proud users of Snowflake."</p>
+
+            </li>
+
+            <li class="slider__frame glide__slide" style="width: 628px; margin-left: 5px; margin-right: 5px;">
+                <div class="user"><img src="/icons/founder/tristan.jpeg">
+                    <div>Tristan <br>CEO, Zeta Market</div></div>
+                <p>"We chose Snowflake because of its strong security and powerful automation capabilities, backed by multiple audits from the leading firms.
+                    Its composability made integration with Zeta Flex a breeze and its powerful automation features made streaming and
+                    scheduled distributions of Zeta tokenized options super easy to set up."</p>
+
+            </li>
+
+            <li class="slider__frame glide__slide" style="width: 628px; margin-left: 5px; margin-right: 5px;">
+                <div class="user"><img src="/icons/founder/0xnallok.jpeg">
+                    <div>0xNallok <br>CTO, Sentries</div></div>
+                <p>"Snowflake is paramount to operating the modern business.
+                    The flexibility and tooling provided by Snowflake is second to none.
+                    Snowflake has met our higest security standard for multisig and continues to exceed our demands in this space.
+                    We encourage anyone operating on Solana to check them out."</p>
+            </li>
+
+
+            <li class="slider__frame glide__slide" style="width: 628px; margin-left: 5px; margin-right: 5px;">
+                <div class="user"><img src="/icons/founder/paul.jpeg">
+                    <div>Paul Kim <br>CEO, Notifi</div></div>
+                <p>"Snowflake Safe‘s clean UI makes it incredibly easy to schedule future on-chain transactions and clearly see when they next occur."</p>
+            </li>
+
+            <li class="slider__frame glide__slide" style="width: 628px; margin-left: 5px; margin-right: 5px;">
+                <div class="user"><img src="/icons/founder/yy.jpeg">
+                    <div>YY <br>Switchboard</div></div>
+                <p>"Had a call with builders from
+                    @snowflake_sol
+                    and got a showcase on their product: I’ve got to say the level of customisation and service provided is top notch; urge every treasury to start utilising multisig and keeping funds safe."</p>
+            </li>
+            <li class="slider__frame glide__slide" style="width: 628px; margin-left: 5px; margin-right: 5px;">
+                <div class="user"><img src="/icons/founder/bohdan.jpg">
+                    <div>Bohdan<br>COO, Everstake</div></div>
+                <p>"Having an in-depth understanding of what is important makes Snowflake second to none.
+                    Flawless UI makes us feel at home, and everything is just in the right place. The commitment and painstaking of Snowflakes' expert team allow us to enjoy the security of blockchain to its fullest extent."</p>
+            </li>
+
+            <li class="slider__frame glide__slide" style="width: 628px; margin-left: 5px; margin-right: 5px;">
+                <div class="user"><img src="/icons/founder/drumil.jpeg">
+                    <div>Dhrumil Mehta<br>Founder, Solvent</div></div>
+                <p>"We use
+                    @snowflake_sol
+                    at Solvent and it is awesome. The gnosis-safe like UX is extremely easy to use. Multiple audits from leading firms and highly experienced team."</p>
+            </li>
+            <li class="slider__frame glide__slide" style="width: 628px; margin-left: 5px; margin-right: 5px;">
+                <div class="user"><img src="/icons/founder/ottersec.jpeg">
+                    <div>OtterSec</div></div>
+                <p>"We have recently completed our audit on
+                    @snowflake_sol
+                    multisig wallet program, and we were impressed by the team’s attention to detail and their strong commitment
+                    to building one of the most secured products in the space!"</p>
+            </li>
+            <li class="slider__frame glide__slide" style="width: 628px; margin-left: 5px; margin-right: 5px;">
+                <div class="user"><img src="https://pbs.twimg.com/profile_images/1568608006895554561/A8DsiE0e_400x400.jpg">
+                    <div>Deborah Otton<br>Nova Finance</div></div>
+                <p>"@NovaFinance_
+                    currently uses #Snowflake Safe which has astonishing features such as an asset manager,
+                    #token vesting, token swap, integration, and many more."</p>
+            </li>
+            <li class="slider__frame glide__slide" style="width: 628px; margin-left: 5px; margin-right: 5px;">
+                <div class="user"><img src="/icons/founder/jerome.png">
+                    <div>Jerome<br>Founder, Interlink</div></div>
+                <p>"After researching what multi-signature wallets are available we have chosen
+                    @snowflake_sol.
+
+
+                    Snowflake standout for a number of reasons - professionally qualified team, aesthetically pleasing UI and even smoother UX packed with a number of advanced apps"</p>
+            </li>
+            <li class="slider__frame glide__slide" style="width: 628px; margin-left: 5px; margin-right: 5px;">
+                <div class="user"><img src="/icons/founder/pyth.jpeg">
+                    <div>Pyth</div></div>
+                <p>"It’s always an honor to build powerful public tooling with teams like
+                    @snowflake_sol
+                    ! ❄️
+
+                    We look forward to supporting even more innovative developments to empower users and smart contracts alike "</p>
+            </li>
+            <li class="slider__frame glide__slide" style="width: 628px; margin-left: 5px; margin-right: 5px;">
+                <div class="user"><img src="/icons/founder/soju.jpeg">
+                    <div>Soju<br>Head of BD, Solend</div></div>
+                <p>"Snowflake team have great execution, rapidly utilizing the solend SDK and toolkit to integrate cToken minting for all their users. Big props to them!"</p>
+            </li>
+
+        <li class="slider__frame glide__slide glide__slide--clone" style="width: 628px; margin-left: 5px; margin-right: 5px;">
+                <div class="user"><img src="/icons/founder/udav.jpeg">
+                    <div>Uddhav Marwaha <br>CEO, Friktion Labs</div></div>
+                <p>"Snowflake provides some of Solana’s most powerful, institutional-grade infrastructure. At Friktion Institutional, we believe DeFi
+                requires enhanced security and real yield generation in order to scale and are proud users of Snowflake."</p>
+
+            </li><li class="slider__frame glide__slide glide__slide--clone" style="width: 628px; margin-left: 5px; margin-right: 5px;">
+                <div class="user"><img src="/icons/founder/tristan.jpeg">
+                    <div>Tristan <br>CEO, Zeta Market</div></div>
+                <p>"We chose Snowflake because of its strong security and powerful automation capabilities, backed by multiple audits from the leading firms.
+                    Its composability made integration with Zeta Flex a breeze and its powerful automation features made streaming and
+                    scheduled distributions of Zeta tokenized options super easy to set up."</p>
+
+            </li><li class="slider__frame glide__slide glide__slide--clone" style="width: 628px; margin-left: 5px; margin-right: 5px;">
+                <div class="user"><img src="/icons/founder/0xnallok.jpeg">
+                    <div>0xNallok <br>CTO, Sentries</div></div>
+                <p>"Snowflake is paramount to operating the modern business.
+                    The flexibility and tooling provided by Snowflake is second to none.
+                    Snowflake has met our higest security standard for multisig and continues to exceed our demands in this space.
+                    We encourage anyone operating on Solana to check them out."</p>
+            </li><li class="slider__frame glide__slide glide__slide--clone" style="width: 628px; margin-left: 5px; margin-right: 5px;">
+                <div class="user"><img src="/icons/founder/paul.jpeg">
+                    <div>Paul Kim <br>CEO, Notifi</div></div>
+                <p>"Snowflake Safe‘s clean UI makes it incredibly easy to schedule future on-chain transactions and clearly see when they next occur."</p>
+            </li><li class="slider__frame glide__slide glide__slide--clone" style="width: 628px; margin-left: 5px;">
+                <div class="user"><img src="/icons/founder/yy.jpeg">
+                    <div>YY <br>Switchboard</div></div>
+                <p>"Had a call with builders from
+                    @snowflake_sol
+                    and got a showcase on their product: I’ve got to say the level of customisation and service provided is top notch; urge every treasury to start utilising multisig and keeping funds safe."</p>
+            </li></ul>
+    </div>
+
+</div>
+
+<script>
+    // new Glide('.glide').mount()
+
+    new Glide('.glide', {
+        type: 'carousel',
+        /*autoplay: 1000,
+        animationDuration: 4000,*/
+        autoplay: 2000,
+        perView: 3,
+        breakpoints: {
+            1024: {
+                perView: 3
+            },
+            600: {
+                perView: 1
+            }
+        },
+        animationTimingFunc: 'linear',
+        focusAt: 'center',
+    }).mount();
+</script>
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>
+                    Institutional-grade Security
+                </h1>
+                <h3>
+                    Multiple audits from the top-tier security firms.
+                </h3>
+                <p>Open-source &amp; peer reviewed by the leading teams in Solana.</p>
+                <a target="_blank" href="https://github.com/snowflake-so/snowflake-multisig-audit-reports" class="btn btn-lg btn-secondary" style="margin-top: 10px">
+                    View Reports
+                </a>
+                <br><br>
+                <div class="customers customer-card">
+                    <div>
+                        <img src="/icons/eco/ottersec.jpeg"> OtterSec
+                    </div>
+                    <div>
+                        <img src="/icons/eco/certik.png"> Certik
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+<!--
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>
+                    Founders & Investors
+                </h1>
+                <p>
+                    Built by founders with prior track records of
+                    creating world class products from zero to acquisition. <br/>Backed by credible investors in the space.
+                </p>
+
+
+                <div class="customer-card backers">
+                    <div>
+                        <img src="/backer/gbv.png" style="margin-top: -20px; margin-bottom: -20px; width: 90px"/>
+                    </div>
+                    <div>
+                        <img src="/backer/amber.png"/>
+                    </div>
+                    <div>
+                        <img src="/backer/token-venture.png" style="width: 180px; margin-top: -10px;    margin-bottom: -10px;"/>
+                    </div><br/>
+                    <div>
+                        <img src="/backer/petrocks.png"/>
+                    </div>
+                    <div>
+                        <img src="/backer/staking.png" style="width: 110px"/>
+                    </div>
+
+                </div>
+            </div>
+        </div>-->
+
+        <span class="feature">
+             <h1 class="text-center">
+                Unmatched Features
+            </h1>
+
+            <div class="row">
+                <div class="col-sm-5 text-left auto-margin">
+                    <h2>
+                        Multi-signature
+                    </h2>
+                    <p>
+                        Fully customize how you manage your company crypto assets, with the option to require a predefined number of signatures to confirm transactions.
+                        Require multiple team members to confirm every transaction in order to execute it, which helps prevent unauthorized access to company crypto.
+                    </p>
+                </div>
+                <div class="col-sm-7 text-right text-center-sm">
+                    <img src="/features/proposal.png" style="max-width: 450px">
+                </div>
+            </div>
+
+            <div class="row order-reverse-sm">
+                 <div class="col-sm-7 text-left text-center-sm">
+                    <img src="/features/assets.png">
+                </div>
+                <div class="col-sm-5 text-right auto-margin text-left-sm">
+                    <h2>
+                        Asset Manager
+                    </h2>
+                    <p>
+                       Securely manage all your assets including Coins and NFTs in one secure multisig. See fiat values of your assets and portfolio balance in real-time.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-5 text-left auto-margin">
+                    <h2>
+                        Token Vesting
+                    </h2>
+                    <p>
+                       Setup token vesting to your investors and partners within minutes. Snowflake Multisig supports vesting with flexible schedules and at near-zero of cost.
+                    </p>
+                </div>
+                <div class="col-sm-7 text-right text-center-sm">
+                    <img src="/features/vesting.png">
+                </div>
+            </div>
+
+            <div class="row order-reverse-sm">
+                 <div class="col-sm-7 text-left text-center-sm">
+                    <img src="/features/recurring.png">
+                </div>
+                <div class="col-sm-5 text-right auto-margin text-left-sm">
+                    <h2>
+                        Automate Your Team Operations
+                    </h2>
+                    <p>
+                       Schedule payroll, recurring payments and future payments. Automate all your crypto operations in a few clicks.
+                    </p>
+                </div>
+            </div>
+
+             <div class="row">
+                <div class="col-sm-5 text-left auto-margin">
+                    <h2>
+                       Address Book
+                    </h2>
+                    <p>
+                       Address Book let you manage your contacts securely and store privately on your local browsers. Sending funds using contacts and eliminating mistakes from entering addresses manually.
+                    </p>
+                </div>
+                <div class="col-sm-7 text-right text-center-sm">
+                    <img src="/features/contacts.png">
+                </div>
+            </div>
+
+            <div class="row order-reverse-sm">
+                 <div class="col-sm-7 text-left text-center-sm">
+                    <img src="/features/swap.png">
+                </div>
+                <div class="col-sm-5 text-right auto-margin text-left-sm">
+                    <h2>
+                        Swap Token
+                    </h2>
+                    <p>
+                       Snowflake Safe lets you manage your assets without having to move tokens in and out. You can swap tokens, setup DCA or stop loss protection directly from the multisig.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-5 text-left auto-margin">
+                    <h2>
+                       Invest and Earn Yields
+                    </h2>
+                    <p>
+                       Put your safe assets to work. Snowflake integrates seamlessly with Solend, Friktion, Marinade and other major protocols where you can invest and earn yields securely without leaving your safes.
+                    </p>
+                </div>
+                <div class="col-sm-7 text-right text-center-sm">
+                    <img src="/features/invest.png">
+                </div>
+            </div>
+
+            <div class="row order-reverse-sm">
+                 <div class="col-sm-7 text-left text-center-sm">
+                    <img src="/features/program-upgrade.png">
+                </div>
+                <div class="col-sm-5 text-right auto-margin text-left-sm">
+                    <h2>
+                        Secure Your Smart Contract
+                    </h2>
+                    <p>
+                        Snowflake Solana Program Management app helps to secure your smart contract upgrade authority.
+                        You can transfer program authorities into the multisig within a few clicks and initiate upgrade process directly from Snowflake.
+                    </p>
+                </div>
+            </div>
+
+             <div class="row">
+                <div class="col-sm-5 text-left auto-margin">
+                    <h2>
+                       Securely Manage NFT Metadata
+                    </h2>
+                    <p>
+                        Snowflake Metaplex app makes it simple and transparent for teams and DAOs to manage their NFT collections.
+                        You can easily transfer NFT authorities into the multisigs, view and update metadata within a secure multisig context.
+                    </p>
+                </div>
+                <div class="col-sm-7 text-right text-center-sm">
+                    <img src="/features/metaplex.png">
+                </div>
+            </div>
+
+             <div class="row order-reverse-sm">
+                 <div class="col-sm-7 text-left text-center-sm">
+                    <img src="/features/apps.png">
+                </div>
+                <div class="col-sm-5 text-right auto-margin text-left-sm">
+                    <h2>
+                        Safe App Store
+                    </h2>
+                    <p>
+                        Bringing multisig security to DeFi. Put your funds to work and interact directly with your favourite protocols directly from Snowflake interface.
+                        Use your digital assets to invest, earn, borrow, invoice, do payroll and more.
+                    </p>
+                </div>
+            </div>
+
+        </span>
+
+
+    </div>
+    <br><br><br><br>
+
+</div>
+
+    </div>
+</main>
+
+<div class="section_footer">
+  <div class="container">
+
+    <div class="row" style="margin-bottom: 10px">
+      <div class="col-sm-6" style="margin-bottom: 10px">
+
+        <div style="float:left; margin-top: 5px; display: table">
+          <img src="/assets/snowflake.svg" style="width: 45px;border-radius: 4px;margin-right: 8px;">
+          <span style="font-size: 28px; display: table-cell; vertical-align: middle; color: white; font-weight: 500; font-family: monospace">SNOWFLAKE</span>
+        </div>
+        <br><br>
+      </div>
+
+      <div class="col-sm-3" style="text-align: left; float: left; margin-top: 10px; min-width: 180px">
+        <b class="footer-link" style="color: white">Company</b>
+        <a target="_blank" href="https://docs.snowflake.so" style="display: block">
+          <div class="footer-link">Docs</div></a>
+        <a target="_blank" href="https://safe.snowflake.so" style="display: block">
+          <div class="footer-link">App</div></a>
+        <a target="_blank" href="/legals/Snowflake-TOS.pdf" style="display: block">
+          <div class="footer-link">Terms of Service</div></a>
+        <a target="_blank" href="/legals/Snowflake-Privacy.pdf" style="display: block">
+          <div class="footer-link">Privacy Policy</div></a>
+
+      </div>
+      <div class="col-sm-3" style="text-align: left; float: left; margin-top: 10px">
+        <b class="footer-link" style="color: white">Community</b>
+        <a target="_blank" style="display: block" href="https://twitter.com/snowflake_sol">
+          <i style="margin-bottom: 0px; padding-bottom: 8px " class="fa fa-twitter footer_icon"></i>
+          <div class="footer-link">@snowflake_sol</div></a>
+
+        <a target="_blank" style="display: block" href="mailto:team@snowflake.so"><i style="margin-bottom: 0px; padding-bottom: 8px " class="fa fa-envelope footer_icon"></i>
+          <div class="footer-link">team@snowflake.so</div></a>
+
+        <a target="_blank" href="https://medium.com/@snowflake_so" style="display: block">
+          <i style="margin-bottom: 0px; padding-bottom: 8px " class="fa fa-medium footer_icon"></i>
+          <div class="footer-link">@snowflake_so</div></a>
+
+        <a target="_blank" style="float:left; display: block" href="https://github.com/snowflake-so">
+          <i style="margin-bottom: 0px; padding-bottom: 8px " class="fa fa-github footer_icon"></i>
+          <div class="footer-link">snowflake-so</div></a>
+      </div>
+
+    </div>
+
+  </div>
+  <div style="text-align: center; font-size: 13px;" class="term-of-use">
+    <hr class="slimline">
+    <span style="">©2022 Snowflake Network</span>
+  </div>
+</div>
+
+<script>
+  window.intercomSettings = {
+    api_base: "https://api-iam.intercom.io",
+    app_id: "fthmb1qz"
+  };
+</script>
+
+<script>
+  // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/fthmb1qz'
+  (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/fthmb1qz';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(document.readyState==='complete'){l();}else if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+</script>
+
+
+
+
+</body></html>
