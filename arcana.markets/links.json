@@ -1,17 +1,23 @@
-[
-    "https://app.arcana.markets",
-    "https://app.arcana.markets",
-    "https://app.arcana.markets",
-    "https://app.arcana.markets/data",
-    "https://app.arcana.markets/data",
-    "https://arcana.markets/",
-    "https://arcana.markets/data",
-    "https://discord.gg/7BGB2mZvYW",
-    "https://github.com/arcana-markets",
-    "https://github.com/arcana-markets",
-    "https://github.com/arcana-markets",
-    "https://github.com/arcana-markets",
-    "https://github.com/arcana-markets/arcana-trading-bot",
-    "https://github.com/arcana-markets/arcana-trading-bot",
-    "https://x.com/arcanamarkets"
-]
+{
+    "target_url": "https://arcana.markets/",
+    "domains": {
+        "app.arcana.markets": [
+            "https://app.arcana.markets",
+            "https://app.arcana.markets/data"
+        ],
+        "arcana.markets": [
+            "https://arcana.markets/",
+            "https://arcana.markets/data"
+        ],
+        "discord.gg": [
+            "https://discord.gg/7BGB2mZvYW"
+        ],
+        "github.com": [
+            "https://github.com/arcana-markets",
+            "https://github.com/arcana-markets/arcana-trading-bot"
+        ],
+        "x.com": [
+            "https://x.com/arcanamarkets"
+        ]
+    }
+}
