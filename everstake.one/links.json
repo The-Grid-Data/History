@@ -1,65 +1,63 @@
-[
-    "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0P1Gk5eYeQcs5shpHMUuvO3WFZHgqZuq3ZNJitr-IfHxnIzPT_WDX-FRMukAHclS7wAhkY0Ahx",
-    "https://calendly.com/everstake-meeting/30min",
-    "https://calendly.com/everstake-meeting/30min",
-    "https://calendly.com/everstake-meeting/30min",
-    "https://discord.gg/NvcW47V3Xb",
-    "https://everstake.capital/",
-    "https://everstake.capital/",
-    "https://everstake.capital/",
-    "https://everstake.one/",
-    "https://everstake.one/",
-    "https://everstake.one/about",
-    "https://everstake.one/about",
-    "https://everstake.one/about",
-    "https://everstake.one/blog",
-    "https://everstake.one/bridges",
-    "https://everstake.one/bridges",
-    "https://everstake.one/crypto-reports",
-    "https://everstake.one/docs/privacy-policy.pdf",
-    "https://everstake.one/docs/privacy-policy.pdf",
-    "https://everstake.one/docs/terms-of-use.pdf",
-    "https://everstake.one/docs/terms-of-use.pdf",
-    "https://everstake.one/everstake-chatgpt-plugin-leading-crypto-ai-for-optimal-staking",
-    "https://everstake.one/institutional-staking",
-    "https://everstake.one/institutional-staking",
-    "https://everstake.one/institutional-staking",
-    "https://everstake.one/institutional-staking",
-    "https://everstake.one/institutional-staking",
-    "https://everstake.one/institutional-staking",
-    "https://everstake.one/liquid-staking",
-    "https://everstake.one/oracles",
-    "https://everstake.one/oracles",
-    "https://everstake.one/products",
-    "https://everstake.one/products",
-    "https://everstake.one/products/",
-    "https://everstake.one/report-vulnerability",
-    "https://everstake.one/staking",
-    "https://everstake.one/staking",
-    "https://everstake.one/staking",
-    "https://everstake.one/staking",
-    "https://everstake.one/staking",
-    "https://everstake.one/staking",
-    "https://everstake.one/staking",
-    "https://everstake.one/staking",
-    "https://everstake.one/staking/ethereum",
-    "https://everstake.one/staking/ethereum",
-    "https://extrnode.com/",
-    "https://stake.everstake.one/ethereum/",
-    "https://status.everstake.one/",
-    "https://twitter.com/ATielnova",
-    "https://twitter.com/ATielnova",
-    "https://twitter.com/anna_petrenkoo",
-    "https://twitter.com/anna_petrenkoo",
-    "https://twitter.com/bo_opryshko",
-    "https://twitter.com/bo_opryshko",
-    "https://twitter.com/everstake_pool",
-    "https://twitter.com/everstake_pool",
-    "https://twitter.com/sergattic",
-    "https://twitter.com/sergattic",
-    "https://twitter.com/sergattic",
-    "https://www.linkedin.com/company/everstakeofficial/",
-    "https://www.reddit.com/r/Everstake/",
-    "https://www.stakingrewards.com/savings/everstake/",
-    "https://www.youtube.com/@everstake7336"
-]
+{
+    "target_url": "https://everstake.one/",
+    "domains": {
+        "calendar.google.com": [
+            "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0P1Gk5eYeQcs5shpHMUuvO3WFZHgqZuq3ZNJitr-IfHxnIzPT_WDX-FRMukAHclS7wAhkY0Ahx"
+        ],
+        "calendly.com": [
+            "https://calendly.com/everstake-meeting/30min"
+        ],
+        "discord.gg": [
+            "https://discord.gg/NvcW47V3Xb"
+        ],
+        "everstake.capital": [
+            "https://everstake.capital/"
+        ],
+        "everstake.one": [
+            "https://everstake.one/",
+            "https://everstake.one/about",
+            "https://everstake.one/blog",
+            "https://everstake.one/bridges",
+            "https://everstake.one/crypto-reports",
+            "https://everstake.one/docs/privacy-policy.pdf",
+            "https://everstake.one/docs/terms-of-use.pdf",
+            "https://everstake.one/everstake-chatgpt-plugin-leading-crypto-ai-for-optimal-staking",
+            "https://everstake.one/institutional-staking",
+            "https://everstake.one/liquid-staking",
+            "https://everstake.one/oracles",
+            "https://everstake.one/products",
+            "https://everstake.one/products/",
+            "https://everstake.one/report-vulnerability",
+            "https://everstake.one/staking",
+            "https://everstake.one/staking/ethereum"
+        ],
+        "extrnode.com": [
+            "https://extrnode.com/"
+        ],
+        "stake.everstake.one": [
+            "https://stake.everstake.one/ethereum/"
+        ],
+        "status.everstake.one": [
+            "https://status.everstake.one/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ATielnova",
+            "https://twitter.com/anna_petrenkoo",
+            "https://twitter.com/bo_opryshko",
+            "https://twitter.com/everstake_pool",
+            "https://twitter.com/sergattic"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/everstakeofficial/"
+        ],
+        "www.reddit.com": [
+            "https://www.reddit.com/r/Everstake/"
+        ],
+        "www.stakingrewards.com": [
+            "https://www.stakingrewards.com/savings/everstake/"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/@everstake7336"
+        ]
+    }
+}
