@@ -182,3 +182,9 @@ On this page
 
 Was this helpful?
 
+This site uses cookies to deliver its service and to analyse traffic. By
+browsing this site, you accept the [privacy
+policy](https://staratlas.com/privacy-policy).
+
+AcceptReject
+
