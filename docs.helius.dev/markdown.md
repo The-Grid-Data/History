@@ -19,13 +19,13 @@ Ask or SearchCtrl \+ K
 
     * [☀️Helius RPCs Overview](/solana-rpc-nodes/helius-rpcs-overview)
 
+    * [📩(New) Sending Solana Transactions](/solana-rpc-nodes/new-sending-solana-transactions)
+
     * [🏆Private Dedicated Nodes](/solana-rpc-nodes/private-dedicated-nodes)
 
     * [🔓RPC Proxy — Protect Your Keys](/solana-rpc-nodes/rpc-proxy-protect-your-keys)
 
     * [🚥Priority Fee API](/solana-rpc-nodes/priority-fee-api)
-
-    * [📩Sending Solana Transactions](/solana-rpc-nodes/sending-solana-transactions)
 
   * Compression & DAS API
 
@@ -214,7 +214,7 @@ webhook.
 
 [NextPricing & Rate Limits](/welcome/pricing-and-rate-limits)
 
-Last updated 13 days ago
+Last updated 14 days ago
 
 On this page
 
