@@ -1,10 +1,26 @@
-[
-    "https://app.apricot.one",
-    "https://app.apricot.one",
-    "https://apricot.one/",
-    "https://apricotfinance.medium.com/",
-    "https://discord.gg/C6JrtqZF5U",
-    "https://docs.apricot.one",
-    "https://t.me/ApricotOfficial",
-    "https://twitter.com/ApricotFinance"
-]
+{
+    "target_url": "https://apricot.one",
+    "domains": {
+        "app.apricot.one": [
+            "https://app.apricot.one"
+        ],
+        "apricot.one": [
+            "https://apricot.one/"
+        ],
+        "apricotfinance.medium.com": [
+            "https://apricotfinance.medium.com/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/C6JrtqZF5U"
+        ],
+        "docs.apricot.one": [
+            "https://docs.apricot.one"
+        ],
+        "t.me": [
+            "https://t.me/ApricotOfficial"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ApricotFinance"
+        ]
+    }
+}
