@@ -1,20 +1,29 @@
-[
-    "https://help.magiceden.io/en/",
-    "https://help.magiceden.io/en/",
-    "https://help.magiceden.io/en/articles/9007058-exploring-diamond-earning-on-magic-eden-solana-evm-chains-and-bitcoin",
-    "https://help.magiceden.io/en/articles/9220231-how-to-buy-and-sell-runes-on-magic-eden-a-step-by-step-guide",
-    "https://help.magiceden.io/en/articles/9242455-magic-eden-s-redesigned-pools-a-guide",
-    "https://help.magiceden.io/en/collections/3285488-creator-resources",
-    "https://help.magiceden.io/en/collections/3287059-transactions",
-    "https://help.magiceden.io/en/collections/3426444-platform-basics",
-    "https://help.magiceden.io/en/collections/3426489-trust-and-safety",
-    "https://help.magiceden.io/en/collections/3629442-developer-tools",
-    "https://help.magiceden.io/en/collections/3849039-partnerships",
-    "https://help.magiceden.io/en/collections/6443083-legal-policies",
-    "https://help.magiceden.io/en/collections/6642921-magic-eden-wallet",
-    "https://help.magiceden.io/en/collections/7938682-magic-eden-rewards",
-    "https://www.linkedin.com/company/magic-eden/about/",
-    "https://www.magiceden.io/",
-    "https://www.magiceden.io/",
-    "https://www.twitter.com/MagicEden"
-]
+{
+    "target_url": "https://help.magiceden.io/en/",
+    "domains": {
+        "help.magiceden.io": [
+            "https://help.magiceden.io/en/",
+            "https://help.magiceden.io/en/articles/9007058-exploring-diamond-earning-on-magic-eden-solana-evm-chains-and-bitcoin",
+            "https://help.magiceden.io/en/articles/9220231-how-to-buy-and-sell-runes-on-magic-eden-a-step-by-step-guide",
+            "https://help.magiceden.io/en/articles/9242455-magic-eden-s-redesigned-pools-a-guide",
+            "https://help.magiceden.io/en/collections/3285488-creator-resources",
+            "https://help.magiceden.io/en/collections/3287059-transactions",
+            "https://help.magiceden.io/en/collections/3426444-platform-basics",
+            "https://help.magiceden.io/en/collections/3426489-trust-and-safety",
+            "https://help.magiceden.io/en/collections/3629442-developer-tools",
+            "https://help.magiceden.io/en/collections/3849039-partnerships",
+            "https://help.magiceden.io/en/collections/6443083-legal-policies",
+            "https://help.magiceden.io/en/collections/6642921-magic-eden-wallet",
+            "https://help.magiceden.io/en/collections/7938682-magic-eden-rewards"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/magic-eden/about/"
+        ],
+        "www.magiceden.io": [
+            "https://www.magiceden.io/"
+        ],
+        "www.twitter.com": [
+            "https://www.twitter.com/MagicEden"
+        ]
+    }
+}
