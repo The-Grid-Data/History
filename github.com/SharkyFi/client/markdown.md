@@ -114,7 +114,7 @@ session. Dismiss alert
 
 [ SharkyFi ](/SharkyFi) / **[client](/SharkyFi/client) ** Public
 
-  * [ Notifications ](/login?return_to=%2FSharkyFi%2Fclient)
+  * [ Notifications ](/login?return_to=%2FSharkyFi%2Fclient) You must be signed in to change notification settings
   * [ Fork 11 ](/login?return_to=%2FSharkyFi%2Fclient)
   * [ Star  30 ](/login?return_to=%2FSharkyFi%2Fclient)
 
@@ -132,7 +132,8 @@ Activity ](/SharkyFi/client/activity)
 
 [ Star  ](/login?return_to=%2FSharkyFi%2Fclient)
 
-[ Notifications ](/login?return_to=%2FSharkyFi%2Fclient)
+[ Notifications ](/login?return_to=%2FSharkyFi%2Fclient) You must be signed in
+to change notification settings
 
   * [ Code ](/SharkyFi/client)
   * [ Issues 2 ](/SharkyFi/client/issues)
