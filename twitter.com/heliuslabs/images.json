@@ -1,3 +1,8 @@
-[
-    "https://abs.twimg.com/errors/logo46x38.png"
-]
+{
+    "target_url": "https://twitter.com/heliuslabs",
+    "domains": {
+        "abs.twimg.com": [
+            "https://abs.twimg.com/errors/logo46x38.png"
+        ]
+    }
+}
