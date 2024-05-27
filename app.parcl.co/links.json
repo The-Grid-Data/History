@@ -1,32 +1,45 @@
-[
-    "http://status.parcl.co",
-    "https://app.parcl.co/",
-    "https://app.parcl.co/collection/active-markets",
-    "https://app.parcl.co/collection/active-markets",
-    "https://app.parcl.co/collection/active-markets",
-    "https://app.parcl.co/collection/forex",
-    "https://app.parcl.co/collection/non-trading",
-    "https://app.parcl.co/collection/real-estate",
-    "https://app.parcl.co/collection/token",
-    "https://app.parcl.co/collection/top-gainers",
-    "https://app.parcl.co/collection/top-gainers",
-    "https://app.parcl.co/collection/top-losers",
-    "https://app.parcl.co/collection/top-losers",
-    "https://app.parcl.co/contests",
-    "https://app.parcl.co/contests",
-    "https://app.parcl.co/lp",
-    "https://app.parcl.co/parcls/5377717",
-    "https://app.parcl.co/parcls/5381001",
-    "https://app.parcl.co/parcls/5384169",
-    "https://app.parcl.co/parcls/5387853",
-    "https://app.parcl.co/parcls/5407714",
-    "https://app.parcl.co/referrals",
-    "https://discord.gg/parcl",
-    "https://docs.parcl.co/",
-    "https://twitter.com/parcl",
-    "https://www.parcl.co/legal/privacy",
-    "https://www.parcl.co/legal/privacy",
-    "https://www.parcl.co/legal/terms-of-use",
-    "https://www.parcllabs.com/articles/parcl-labs-price-feed-whitepaper",
-    "https://www.parcllimited.com/"
-]
+{
+    "target_url": "https://app.parcl.co/",
+    "domains": {
+        "app.parcl.co": [
+            "https://app.parcl.co/",
+            "https://app.parcl.co/collection/active-markets",
+            "https://app.parcl.co/collection/forex",
+            "https://app.parcl.co/collection/non-trading",
+            "https://app.parcl.co/collection/real-estate",
+            "https://app.parcl.co/collection/token",
+            "https://app.parcl.co/collection/top-gainers",
+            "https://app.parcl.co/collection/top-losers",
+            "https://app.parcl.co/contests",
+            "https://app.parcl.co/lp",
+            "https://app.parcl.co/parcls/5377717",
+            "https://app.parcl.co/parcls/5381001",
+            "https://app.parcl.co/parcls/5384169",
+            "https://app.parcl.co/parcls/5387853",
+            "https://app.parcl.co/parcls/5407714",
+            "https://app.parcl.co/referrals"
+        ],
+        "discord.gg": [
+            "https://discord.gg/parcl"
+        ],
+        "docs.parcl.co": [
+            "https://docs.parcl.co/"
+        ],
+        "status.parcl.co": [
+            "http://status.parcl.co"
+        ],
+        "twitter.com": [
+            "https://twitter.com/parcl"
+        ],
+        "www.parcl.co": [
+            "https://www.parcl.co/legal/privacy",
+            "https://www.parcl.co/legal/terms-of-use"
+        ],
+        "www.parcllabs.com": [
+            "https://www.parcllabs.com/articles/parcl-labs-price-feed-whitepaper"
+        ],
+        "www.parcllimited.com": [
+            "https://www.parcllimited.com/"
+        ]
+    }
+}

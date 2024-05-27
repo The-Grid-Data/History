@@ -1,22 +1,29 @@
-[
-    "https://app.parcl.co/images/archetype_dark.svg",
-    "https://app.parcl.co/images/coinbase_dark.svg",
-    "https://app.parcl.co/images/collections-icons/forex-collection.svg",
-    "https://app.parcl.co/images/collections-icons/real-estate-collection.svg",
-    "https://app.parcl.co/images/collections-icons/token-collection.svg",
-    "https://app.parcl.co/images/dragonfly_dark.svg",
-    "https://app.parcl.co/images/vp_1.svg",
-    "https://res.cloudinary.com/dmqaw62wn/image/upload/c_crop,h_0.50,w_1.00/a_vflip,e_gradient_fade,y_-0.7,o_20/b_transparent/c_limit,w_150,g_north/f_auto/q_1/v1/dapp/Contest_Jumbotron_May2024_r5qloc?_a=BAVAfVDW0",
-    "https://res.cloudinary.com/dmqaw62wn/image/upload/c_crop,h_0.50,w_1.00/a_vflip,e_gradient_fade,y_-0.7,o_20/b_transparent/c_limit,w_150,g_north/f_auto/q_1/v1/dapp/lpbanner?_a=BAVAfVDW0",
-    "https://res.cloudinary.com/dmqaw62wn/image/upload/c_limit,w_3840,g_north/f_auto/q_auto/v1/dapp/Contest_Jumbotron_May2024_r5qloc?_a=BAVAfVDW0",
-    "https://res.cloudinary.com/dmqaw62wn/image/upload/c_limit,w_720/f_auto/q_auto/v1/dapp/Contest_Jumbotron_May2024_r5qloc?_a=BAVAfVDW0",
-    "https://res.cloudinary.com/dmqaw62wn/image/upload/c_limit,w_720/f_auto/q_auto/v1/dapp/New_Markets_Banner_wokanw?_a=BAVAfVDW0",
-    "https://res.cloudinary.com/dmqaw62wn/image/upload/c_limit,w_720/f_auto/q_auto/v1/dapp/Token_Jumbotron_April2024_zlejbd?_a=BAVAfVDW0",
-    "https://res.cloudinary.com/dmqaw62wn/image/upload/c_limit,w_720/f_auto/q_auto/v1/dapp/lpbanner?_a=BAVAfVDW0",
-    "https://res.cloudinary.com/dmqaw62wn/image/upload/c_limit,w_720/f_auto/q_auto/v1/dapp/referrals3?_a=BAVAfVDW0",
-    "https://res.cloudinary.com/dmqaw62wn/image/upload/c_thumb,w_150,h_50,g_north/f_auto/q_1/v1/dapp/Contest_Jumbotron_May2024_r5qloc?_a=BAVAfVDW0",
-    "https://res.cloudinary.com/dmqaw62wn/image/upload/c_thumb,w_150,h_50,g_north/f_auto/q_1/v1/dapp/lpbanner?_a=BAVAfVDW0",
-    "https://res.cloudinary.com/dmqaw62wn/image/upload/c_thumb,w_806,h_400,g_auto/f_auto/q_auto/v1/dapp/irknd5mk8ajot3cyrtvz?_a=BAVAfVDW0",
-    "https://res.cloudinary.com/dmqaw62wn/image/upload/c_thumb,w_806,h_400,g_auto/f_auto/q_auto/v1/dapp/iuwwfig2u32wc8l3dylv?_a=BAVAfVDW0",
-    "https://res.cloudinary.com/dmqaw62wn/image/upload/c_thumb,w_806,h_400,g_auto/f_auto/q_auto/v1/dapp/jrmx7qetb4qoukg5rayl?_a=BAVAfVDW0"
-]
+{
+    "target_url": "https://app.parcl.co/",
+    "domains": {
+        "app.parcl.co": [
+            "https://app.parcl.co/images/archetype_dark.svg",
+            "https://app.parcl.co/images/coinbase_dark.svg",
+            "https://app.parcl.co/images/collections-icons/forex-collection.svg",
+            "https://app.parcl.co/images/collections-icons/real-estate-collection.svg",
+            "https://app.parcl.co/images/collections-icons/token-collection.svg",
+            "https://app.parcl.co/images/dragonfly_dark.svg",
+            "https://app.parcl.co/images/vp_1.svg"
+        ],
+        "res.cloudinary.com": [
+            "https://res.cloudinary.com/dmqaw62wn/image/upload/c_crop,h_0.50,w_1.00/a_vflip,e_gradient_fade,y_-0.7,o_20/b_transparent/c_limit,w_150,g_north/f_auto/q_1/v1/dapp/Contest_Jumbotron_May2024_r5qloc?_a=BAVAfVDW0",
+            "https://res.cloudinary.com/dmqaw62wn/image/upload/c_crop,h_0.50,w_1.00/a_vflip,e_gradient_fade,y_-0.7,o_20/b_transparent/c_limit,w_150,g_north/f_auto/q_1/v1/dapp/lpbanner?_a=BAVAfVDW0",
+            "https://res.cloudinary.com/dmqaw62wn/image/upload/c_limit,w_3840,g_north/f_auto/q_auto/v1/dapp/Contest_Jumbotron_May2024_r5qloc?_a=BAVAfVDW0",
+            "https://res.cloudinary.com/dmqaw62wn/image/upload/c_limit,w_720/f_auto/q_auto/v1/dapp/Contest_Jumbotron_May2024_r5qloc?_a=BAVAfVDW0",
+            "https://res.cloudinary.com/dmqaw62wn/image/upload/c_limit,w_720/f_auto/q_auto/v1/dapp/New_Markets_Banner_wokanw?_a=BAVAfVDW0",
+            "https://res.cloudinary.com/dmqaw62wn/image/upload/c_limit,w_720/f_auto/q_auto/v1/dapp/Token_Jumbotron_April2024_zlejbd?_a=BAVAfVDW0",
+            "https://res.cloudinary.com/dmqaw62wn/image/upload/c_limit,w_720/f_auto/q_auto/v1/dapp/lpbanner?_a=BAVAfVDW0",
+            "https://res.cloudinary.com/dmqaw62wn/image/upload/c_limit,w_720/f_auto/q_auto/v1/dapp/referrals3?_a=BAVAfVDW0",
+            "https://res.cloudinary.com/dmqaw62wn/image/upload/c_thumb,w_150,h_50,g_north/f_auto/q_1/v1/dapp/Contest_Jumbotron_May2024_r5qloc?_a=BAVAfVDW0",
+            "https://res.cloudinary.com/dmqaw62wn/image/upload/c_thumb,w_150,h_50,g_north/f_auto/q_1/v1/dapp/lpbanner?_a=BAVAfVDW0",
+            "https://res.cloudinary.com/dmqaw62wn/image/upload/c_thumb,w_806,h_400,g_auto/f_auto/q_auto/v1/dapp/irknd5mk8ajot3cyrtvz?_a=BAVAfVDW0",
+            "https://res.cloudinary.com/dmqaw62wn/image/upload/c_thumb,w_806,h_400,g_auto/f_auto/q_auto/v1/dapp/iuwwfig2u32wc8l3dylv?_a=BAVAfVDW0",
+            "https://res.cloudinary.com/dmqaw62wn/image/upload/c_thumb,w_806,h_400,g_auto/f_auto/q_auto/v1/dapp/jrmx7qetb4qoukg5rayl?_a=BAVAfVDW0"
+        ]
+    }
+}
