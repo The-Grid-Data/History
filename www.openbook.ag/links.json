@@ -1,23 +1,30 @@
-[
-    "https://discord.com/invite/pFvxfWcsvt",
-    "https://discord.gg/pFvxfWcsvt",
-    "https://discord.gg/pFvxfWcsvt",
-    "https://github.com/openbook-dex",
-    "https://github.com/openbook-dex",
-    "https://github.com/openbook-dex/openbook-docs",
-    "https://github.com/openbook-dex/openbook-v2",
-    "https://github.com/openbook-dex/openbook-v2",
-    "https://github.com/openbook-dex/openbook-v2",
-    "https://github.com/openbook-dex/openbook-v2",
-    "https://github.com/openbook-dex/openbook-v2/blob/master/audit/openbook_audit.pdf",
-    "https://prism.ag/trade",
-    "https://prism.ag/trade",
-    "https://www.openbook.ag/",
-    "https://www.openbook.ag/",
-    "https://www.openbook.ag/",
-    "https://www.openbook.ag/ecosystem",
-    "https://www.openbook.ag/ecosystem",
-    "https://www.openbook.ag/ecosystem",
-    "https://x.com/openbookdex",
-    "mailto:info@openbook.com"
-]
+{
+    "target_url": "https://www.openbook.ag/",
+    "domains": {
+        "": [
+            "mailto:info@openbook.com"
+        ],
+        "discord.com": [
+            "https://discord.com/invite/pFvxfWcsvt"
+        ],
+        "discord.gg": [
+            "https://discord.gg/pFvxfWcsvt"
+        ],
+        "github.com": [
+            "https://github.com/openbook-dex",
+            "https://github.com/openbook-dex/openbook-docs",
+            "https://github.com/openbook-dex/openbook-v2",
+            "https://github.com/openbook-dex/openbook-v2/blob/master/audit/openbook_audit.pdf"
+        ],
+        "prism.ag": [
+            "https://prism.ag/trade"
+        ],
+        "www.openbook.ag": [
+            "https://www.openbook.ag/",
+            "https://www.openbook.ag/ecosystem"
+        ],
+        "x.com": [
+            "https://x.com/openbookdex"
+        ]
+    }
+}
