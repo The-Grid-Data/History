@@ -1,55 +1,60 @@
-[
-    "https://discord.gg/wormholecrypto",
-    "https://discord.gg/wormholecrypto",
-    "https://docs.wormhole.com/",
-    "https://docs.wormhole.com/",
-    "https://docs.wormhole.com/",
-    "https://docs.wormhole.com/",
-    "https://docs.wormhole.com/",
-    "https://docs.wormhole.com/wormhole",
-    "https://github.com/wormhole-foundation",
-    "https://github.com/wormhole-foundation/wormhole",
-    "https://github.com/wormhole-foundation/wormhole",
-    "https://immunefi.com/bug-bounty/wormhole/",
-    "https://t.me/wormholecrypto",
-    "https://t.me/wormholecrypto",
-    "https://twitter.com/wormhole",
-    "https://twitter.com/wormhole",
-    "https://uniswap.notion.site/Bridge-Assessment-Report-0c8477afadce425abac9c0bd175ca382",
-    "https://wormhole.com/",
-    "https://wormhole.com/blog",
-    "https://wormhole.com/blog/announcing-wormholes-zk-roadmap",
-    "https://wormhole.com/blog/w-is-now-natively-multichain-on-ethereum-and-layer-2s",
-    "https://wormhole.com/brand-and-press",
-    "https://wormhole.com/case-studies",
-    "https://wormhole.com/case-studies/pyth",
-    "https://wormhole.com/community/hub",
-    "https://wormhole.com/community/hub",
-    "https://wormhole.com/ecosystem/ecosystem-programs",
-    "https://wormhole.com/ecosystem/ecosystem-programs",
-    "https://wormhole.com/ecosystem/multichain-apps",
-    "https://wormhole.com/ecosystem/multichain-apps",
-    "https://wormhole.com/ecosystem/multichain-apps",
-    "https://wormhole.com/ecosystem/w-token",
-    "https://wormhole.com/pages/data-protection-and-privacy-policy",
-    "https://wormhole.com/pages/terms-of-use",
-    "https://wormhole.com/platform/blockchains",
-    "https://wormhole.com/platform/blockchains",
-    "https://wormhole.com/platform/gateway",
-    "https://wormhole.com/platform/security",
-    "https://wormhole.com/platform/security",
-    "https://wormhole.com/products/connect",
-    "https://wormhole.com/products/connect",
-    "https://wormhole.com/products/messaging",
-    "https://wormhole.com/products/messaging",
-    "https://wormhole.com/products/native-token-transfers",
-    "https://wormhole.com/products/native-token-transfers",
-    "https://wormhole.com/products/queries",
-    "https://wormhole.com/products/queries",
-    "https://wormhole.com/products/sdk",
-    "https://wormhole.com/products/sdk",
-    "https://wormholescan.io/",
-    "https://www.coindesk.com/consensus-magazine/2024/03/06/native-token-transfers-are-the-next-evolution-of-interoperability/",
-    "https://www.youtube.com/@wormholecrypto",
-    "https://www.youtube.com/@wormholecrypto"
-]
+{
+    "target_url": "https://wormhole.com",
+    "domains": {
+        "discord.gg": [
+            "https://discord.gg/wormholecrypto"
+        ],
+        "docs.wormhole.com": [
+            "https://docs.wormhole.com/",
+            "https://docs.wormhole.com/wormhole"
+        ],
+        "github.com": [
+            "https://github.com/wormhole-foundation",
+            "https://github.com/wormhole-foundation/wormhole"
+        ],
+        "immunefi.com": [
+            "https://immunefi.com/bug-bounty/wormhole/"
+        ],
+        "t.me": [
+            "https://t.me/wormholecrypto"
+        ],
+        "twitter.com": [
+            "https://twitter.com/wormhole"
+        ],
+        "uniswap.notion.site": [
+            "https://uniswap.notion.site/Bridge-Assessment-Report-0c8477afadce425abac9c0bd175ca382"
+        ],
+        "wormhole.com": [
+            "https://wormhole.com/",
+            "https://wormhole.com/blog",
+            "https://wormhole.com/blog/announcing-wormholes-zk-roadmap",
+            "https://wormhole.com/blog/w-is-now-natively-multichain-on-ethereum-and-layer-2s",
+            "https://wormhole.com/brand-and-press",
+            "https://wormhole.com/case-studies",
+            "https://wormhole.com/case-studies/pyth",
+            "https://wormhole.com/community/hub",
+            "https://wormhole.com/ecosystem/ecosystem-programs",
+            "https://wormhole.com/ecosystem/multichain-apps",
+            "https://wormhole.com/ecosystem/w-token",
+            "https://wormhole.com/pages/data-protection-and-privacy-policy",
+            "https://wormhole.com/pages/terms-of-use",
+            "https://wormhole.com/platform/blockchains",
+            "https://wormhole.com/platform/gateway",
+            "https://wormhole.com/platform/security",
+            "https://wormhole.com/products/connect",
+            "https://wormhole.com/products/messaging",
+            "https://wormhole.com/products/native-token-transfers",
+            "https://wormhole.com/products/queries",
+            "https://wormhole.com/products/sdk"
+        ],
+        "wormholescan.io": [
+            "https://wormholescan.io/"
+        ],
+        "www.coindesk.com": [
+            "https://www.coindesk.com/consensus-magazine/2024/03/06/native-token-transfers-are-the-next-evolution-of-interoperability/"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/@wormholecrypto"
+        ]
+    }
+}

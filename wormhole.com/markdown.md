@@ -289,7 +289,7 @@ Wormhole Fellows
 community members
 
 ![marquee community
-members](https://images.ctfassets.net/n8aw1cra6v98/5uCi34SnLmgQrsh4UYtLqm/c291d2a2c703340dba0c4bd220af8738/marquee2.webp?w=828&q=75)
+members](https://images.ctfassets.net/n8aw1cra6v98/uKjwUrvSx4uSytn92Wi1r/32bc6724b202b338094fa229673089bb/AP1A8799.webp?w=828&q=75)
 
   * ![marquee community members](https://images.ctfassets.net/n8aw1cra6v98/4zILyTSTW8ZCzdTotViCGz/1be89ad91fd805cbe937485df1b5faae/marquee.webp?w=828&q=75)
   * ![marquee community members](https://images.ctfassets.net/n8aw1cra6v98/1CuHzihHnrzHBFb7maI89C/e78db142cc91fc76927eae614a565286/marquee3.webp?w=828&q=75)
