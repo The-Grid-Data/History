@@ -1,3 +1,8 @@
-[
-    "https://substackcdn.com/image/fetch/w_1360,c_limit,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1371c9a4-d315-4ff4-b231-6ac79db61006_1280x418.png"
-]
+{
+    "target_url": "https://blog.tensor.trade",
+    "domains": {
+        "substackcdn.com": [
+            "https://substackcdn.com/image/fetch/w_1360,c_limit,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1371c9a4-d315-4ff4-b231-6ac79db61006_1280x418.png"
+        ]
+    }
+}
