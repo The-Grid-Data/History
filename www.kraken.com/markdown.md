@@ -486,11 +486,3 @@ markets can lead to loss of funds. Tax may be payable on any return and/or on
 any increase in the value of your cryptoassets and you should seek independent
 advice on your taxation position. Geographic restrictions may apply._
 
-By clicking Accept, you consent to cookies and similar technologies for
-marketing and analytics and advertising purposes. Visit Cookie Settings to
-learn how Kraken uses cookies and to adjust your preferences.
-
-Accept[Cookie settings](/legal/cookies/)
-
-Accept[Cookie settings](/legal/cookies/)
-
