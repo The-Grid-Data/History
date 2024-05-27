@@ -1,61 +1,65 @@
-[
-    "http://app.drift.trade/stats",
-    "http://www.drift.trade/audit",
-    "http://www.drift.trade/connect-by-drift-security-audit-by-ottersec",
-    "https://app.drift.trade",
-    "https://app.drift.trade/stats",
-    "https://app.drift.trade/stats",
-    "https://assets-global.website-files.com/611580035ad59b20437eb024/61293b57e3103934ddc5535f_v0 Devnet Feature Paper - Revision 1.1.pdf",
-    "https://discord.com/invite/fMcZBH8ErM",
-    "https://discord.com/invite/fMcZBH8ErM",
-    "https://docs.drift.trade/",
-    "https://docs.drift.trade/",
-    "https://docs.drift.trade/legal-and-regulations/privacy-policy",
-    "https://docs.drift.trade/legal-and-regulations/terms-of-use",
-    "https://drift-labs.github.io/v2-teacher/",
-    "https://drift-labs.github.io/v2-teacher/",
-    "https://drift.trade/",
-    "https://drift.trade/blog",
-    "https://drift.trade/blog",
-    "https://drift.trade/blog",
-    "https://drift.trade/blog",
-    "https://drift.trade/blog",
-    "https://drift.trade/blog",
-    "https://drift.trade/blog",
-    "https://drift.trade/blog/best-solana-wallets",
-    "https://drift.trade/blog/best-solana-wallets",
-    "https://drift.trade/blog/centralised-exchange-vs-decentralised-exchange",
-    "https://drift.trade/blog/centralised-exchange-vs-decentralised-exchange",
-    "https://drift.trade/blog/different-types-of-decentralised-exchanges-dexs",
-    "https://drift.trade/blog/different-types-of-decentralised-exchanges-dexs",
-    "https://drift.trade/blog/ethereum-vs-solana",
-    "https://drift.trade/blog/ethereum-vs-solana",
-    "https://drift.trade/blog/how-to-arbitrage-between-cexs-dexs",
-    "https://drift.trade/blog/how-to-arbitrage-between-cexs-dexs",
-    "https://drift.trade/blog/perpetual-futures",
-    "https://drift.trade/blog/perpetual-futures",
-    "https://drift.trade/blog/perpetual-futures-vs-options",
-    "https://drift.trade/blog/perpetual-futures-vs-options",
-    "https://drift.trade/blog/stop-loss-take-profit",
-    "https://drift.trade/blog/stop-loss-take-profit",
-    "https://drift.trade/blog/stop-loss-vs-stop-limit",
-    "https://drift.trade/blog/stop-loss-vs-stop-limit",
-    "https://drift.trade/blog/web2-vs-web3",
-    "https://drift.trade/blog/web2-vs-web3",
-    "https://drift.trade/blog/what-is-defi",
-    "https://drift.trade/blog/what-is-defi",
-    "https://drift.trade/drift-governance-token",
-    "https://drift.trade/governance",
-    "https://drift.trade/learn",
-    "https://drift.trade/updates",
-    "https://driftprotocol.notion.site/Drift-Career-Opportunities-45de6a825f264388b13cd866b707d157",
-    "https://driftprotocol.notion.site/Drift-Career-Opportunities-45de6a825f264388b13cd866b707d157",
-    "https://drive.google.com/drive/u/3/folders/15LZhkSzc6P488zkISIm7zBJ45UF01joG",
-    "https://github.com/drift-labs",
-    "https://github.com/drift-labs/driftpy",
-    "https://github.com/drift-labs/protocol-v2",
-    "https://github.com/drift-labs/protocol-v2/tree/master/sdk",
-    "https://metrics.drift.trade/",
-    "https://twitter.com/driftprotocol",
-    "https://twitter.com/driftprotocol"
-]
+{
+    "target_url": "https://drift.trade/blog",
+    "domains": {
+        "app.drift.trade": [
+            "http://app.drift.trade/stats",
+            "https://app.drift.trade",
+            "https://app.drift.trade/stats"
+        ],
+        "assets-global.website-files.com": [
+            "https://assets-global.website-files.com/611580035ad59b20437eb024/61293b57e3103934ddc5535f_v0 Devnet Feature Paper - Revision 1.1.pdf"
+        ],
+        "discord.com": [
+            "https://discord.com/invite/fMcZBH8ErM"
+        ],
+        "docs.drift.trade": [
+            "https://docs.drift.trade/",
+            "https://docs.drift.trade/legal-and-regulations/privacy-policy",
+            "https://docs.drift.trade/legal-and-regulations/terms-of-use"
+        ],
+        "drift-labs.github.io": [
+            "https://drift-labs.github.io/v2-teacher/"
+        ],
+        "drift.trade": [
+            "https://drift.trade/",
+            "https://drift.trade/blog",
+            "https://drift.trade/blog/best-solana-wallets",
+            "https://drift.trade/blog/centralised-exchange-vs-decentralised-exchange",
+            "https://drift.trade/blog/different-types-of-decentralised-exchanges-dexs",
+            "https://drift.trade/blog/ethereum-vs-solana",
+            "https://drift.trade/blog/how-to-arbitrage-between-cexs-dexs",
+            "https://drift.trade/blog/perpetual-futures",
+            "https://drift.trade/blog/perpetual-futures-vs-options",
+            "https://drift.trade/blog/stop-loss-take-profit",
+            "https://drift.trade/blog/stop-loss-vs-stop-limit",
+            "https://drift.trade/blog/web2-vs-web3",
+            "https://drift.trade/blog/what-is-defi",
+            "https://drift.trade/drift-governance-token",
+            "https://drift.trade/governance",
+            "https://drift.trade/learn",
+            "https://drift.trade/updates"
+        ],
+        "driftprotocol.notion.site": [
+            "https://driftprotocol.notion.site/Drift-Career-Opportunities-45de6a825f264388b13cd866b707d157"
+        ],
+        "drive.google.com": [
+            "https://drive.google.com/drive/u/3/folders/15LZhkSzc6P488zkISIm7zBJ45UF01joG"
+        ],
+        "github.com": [
+            "https://github.com/drift-labs",
+            "https://github.com/drift-labs/driftpy",
+            "https://github.com/drift-labs/protocol-v2",
+            "https://github.com/drift-labs/protocol-v2/tree/master/sdk"
+        ],
+        "metrics.drift.trade": [
+            "https://metrics.drift.trade/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/driftprotocol"
+        ],
+        "www.drift.trade": [
+            "http://www.drift.trade/audit",
+            "http://www.drift.trade/connect-by-drift-security-audit-by-ottersec"
+        ]
+    }
+}

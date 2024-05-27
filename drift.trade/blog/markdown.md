@@ -183,6 +183,6 @@ Drift Protocol, 2024. All rights reserved.
 
 English
 
-  * íêµ­ì´
-  * ä¸­æ (ç®ä½)
+  * [íêµ­ì´]()
+  * [ä¸­æ (ç®ä½)]()
 
