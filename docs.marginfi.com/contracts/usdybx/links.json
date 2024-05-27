@@ -1,54 +1,83 @@
-[
-    "https://3821122071-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F8hWN5YwVh2AYTRXK1REu%2Fuploads%2FZaPfQS2F3hsNBySduIQ5%2Fybx_v1_final.pdf?alt=media&token=660703cb-0428-4ff4-b85b-38dd93baec97",
-    "https://analytics.marginfi.com",
-    "https://app.marginfi.com",
-    "https://app.marginfi.com",
-    "https://brand.marginfi.com",
-    "https://discord.com/invite/wbKERVhQcs",
-    "https://discord.gg/wbKERVhQcs",
-    "https://docs.marginfi.com/",
-    "https://docs.marginfi.com/",
-    "https://docs.marginfi.com/analytics/realtime-24h-analytics",
-    "https://docs.marginfi.com/concepts/liquid-staking-token-lst-user-guide",
-    "https://docs.marginfi.com/concepts/listing-criteria",
-    "https://docs.marginfi.com/concepts/mechanism-design",
-    "https://docs.marginfi.com/concepts/mechanism-design/interest-rate-mechanism",
-    "https://docs.marginfi.com/concepts/mechanism-design/oracle-usage",
-    "https://docs.marginfi.com/concepts/mechanism-design/risk-management",
-    "https://docs.marginfi.com/concepts/mechanism-design/risk-management/risk-engine",
-    "https://docs.marginfi.com/concepts/mechanism-design/risk-management/risk-engine/configuring-protocol-constraints",
-    "https://docs.marginfi.com/concepts/mechanism-design/risk-management/risk-engine/liquidator-execution-capacity",
-    "https://docs.marginfi.com/concepts/mechanism-design/risk-management/risk-engine/market-depth",
-    "https://docs.marginfi.com/concepts/mechanism-design/risk-management/risk-engine/market-depth-recovery-time",
-    "https://docs.marginfi.com/concepts/mechanism-design/risk-management/risk-tiers",
-    "https://docs.marginfi.com/concepts/mrgnlend-user-guide",
-    "https://docs.marginfi.com/concepts/the-basics",
-    "https://docs.marginfi.com/concepts/the-basics/account-health",
-    "https://docs.marginfi.com/concepts/the-basics/fees-+-yield",
-    "https://docs.marginfi.com/concepts/the-basics/lending-+-borrowing",
-    "https://docs.marginfi.com/contracts/liquidity-incentive-program-lip",
-    "https://docs.marginfi.com/contracts/liquidity-incentive-program-lip",
-    "https://docs.marginfi.com/contracts/marginfi-v2-mrgnlend",
-    "https://docs.marginfi.com/contracts/usdybx",
-    "https://docs.marginfi.com/contributing/developers",
-    "https://docs.marginfi.com/contributing/technical-writers",
-    "https://docs.marginfi.com/marginfi-protocol",
-    "https://docs.marginfi.com/sdks/rust",
-    "https://docs.marginfi.com/sdks/typescript",
-    "https://docs.marginfi.com/security/audits",
-    "https://docs.marginfi.com/security/audits",
-    "https://docs.marginfi.com/security/fuzz-tests",
-    "https://github.com/mrgnlabs",
-    "https://github.com/mrgnlabs",
-    "https://github.com/mrgnlabs/mrgn-ts",
-    "https://github.com/mrgnlabs/mrgn-ts/tree/main/apps/alpha-liquidator",
-    "https://marginfi.canny.io/mrgnlend",
-    "https://medium.com/marginfi",
-    "https://mrgn.substack.com/",
-    "https://open.spotify.com/show/0sgdNFaGijvlT5y9BeQ97l",
-    "https://twitter.com/marginfi",
-    "https://twitter.com/marginfi",
-    "https://www.dropbox.com/sh/5ljf5fniaoync7k/AACH_wTQQRdcy7Ipcy7ODmt1a?e=2&dl=0",
-    "https://www.gitbook.com/?utm_source=content&utm_medium=trademark&utm_campaign=8hWN5YwVh2AYTRXK1REu",
-    "https://www.marginfi.com"
-]
+{
+    "target_url": "https://docs.marginfi.com/contracts/usdybx",
+    "domains": {
+        "3821122071-files.gitbook.io": [
+            "https://3821122071-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F8hWN5YwVh2AYTRXK1REu%2Fuploads%2FZaPfQS2F3hsNBySduIQ5%2Fybx_v1_final.pdf?alt=media&token=660703cb-0428-4ff4-b85b-38dd93baec97"
+        ],
+        "analytics.marginfi.com": [
+            "https://analytics.marginfi.com"
+        ],
+        "app.marginfi.com": [
+            "https://app.marginfi.com"
+        ],
+        "brand.marginfi.com": [
+            "https://brand.marginfi.com"
+        ],
+        "discord.com": [
+            "https://discord.com/invite/wbKERVhQcs"
+        ],
+        "discord.gg": [
+            "https://discord.gg/wbKERVhQcs"
+        ],
+        "docs.marginfi.com": [
+            "https://docs.marginfi.com/",
+            "https://docs.marginfi.com/analytics/realtime-24h-analytics",
+            "https://docs.marginfi.com/concepts/liquid-staking-token-lst-user-guide",
+            "https://docs.marginfi.com/concepts/listing-criteria",
+            "https://docs.marginfi.com/concepts/mechanism-design",
+            "https://docs.marginfi.com/concepts/mechanism-design/interest-rate-mechanism",
+            "https://docs.marginfi.com/concepts/mechanism-design/oracle-usage",
+            "https://docs.marginfi.com/concepts/mechanism-design/risk-management",
+            "https://docs.marginfi.com/concepts/mechanism-design/risk-management/risk-engine",
+            "https://docs.marginfi.com/concepts/mechanism-design/risk-management/risk-engine/configuring-protocol-constraints",
+            "https://docs.marginfi.com/concepts/mechanism-design/risk-management/risk-engine/liquidator-execution-capacity",
+            "https://docs.marginfi.com/concepts/mechanism-design/risk-management/risk-engine/market-depth",
+            "https://docs.marginfi.com/concepts/mechanism-design/risk-management/risk-engine/market-depth-recovery-time",
+            "https://docs.marginfi.com/concepts/mechanism-design/risk-management/risk-tiers",
+            "https://docs.marginfi.com/concepts/mrgnlend-user-guide",
+            "https://docs.marginfi.com/concepts/the-basics",
+            "https://docs.marginfi.com/concepts/the-basics/account-health",
+            "https://docs.marginfi.com/concepts/the-basics/fees-+-yield",
+            "https://docs.marginfi.com/concepts/the-basics/lending-+-borrowing",
+            "https://docs.marginfi.com/contracts/liquidity-incentive-program-lip",
+            "https://docs.marginfi.com/contracts/marginfi-v2-mrgnlend",
+            "https://docs.marginfi.com/contracts/usdybx",
+            "https://docs.marginfi.com/contributing/developers",
+            "https://docs.marginfi.com/contributing/technical-writers",
+            "https://docs.marginfi.com/marginfi-protocol",
+            "https://docs.marginfi.com/sdks/rust",
+            "https://docs.marginfi.com/sdks/typescript",
+            "https://docs.marginfi.com/security/audits",
+            "https://docs.marginfi.com/security/fuzz-tests"
+        ],
+        "github.com": [
+            "https://github.com/mrgnlabs",
+            "https://github.com/mrgnlabs/mrgn-ts",
+            "https://github.com/mrgnlabs/mrgn-ts/tree/main/apps/alpha-liquidator"
+        ],
+        "marginfi.canny.io": [
+            "https://marginfi.canny.io/mrgnlend"
+        ],
+        "medium.com": [
+            "https://medium.com/marginfi"
+        ],
+        "mrgn.substack.com": [
+            "https://mrgn.substack.com/"
+        ],
+        "open.spotify.com": [
+            "https://open.spotify.com/show/0sgdNFaGijvlT5y9BeQ97l"
+        ],
+        "twitter.com": [
+            "https://twitter.com/marginfi"
+        ],
+        "www.dropbox.com": [
+            "https://www.dropbox.com/sh/5ljf5fniaoync7k/AACH_wTQQRdcy7Ipcy7ODmt1a?e=2&dl=0"
+        ],
+        "www.gitbook.com": [
+            "https://www.gitbook.com/?utm_source=content&utm_medium=trademark&utm_campaign=8hWN5YwVh2AYTRXK1REu"
+        ],
+        "www.marginfi.com": [
+            "https://www.marginfi.com"
+        ]
+    }
+}
