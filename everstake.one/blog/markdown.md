@@ -197,7 +197,13 @@ Stader
   * Babylon
   * Stader
 
-[![How to Stake and Delegate EIGEN on EigenLayer: a Step-by-Step
+[![Introducing Puffer Finance in 3 Minutes or So](https://blog-
+api.everstake.one/assets/63dfb2a9-75f0-4470-8843-55cbf2521d1c.webp) eigenlayer
+Introducing Puffer Finance in 3 Minutes or So Dive into Puffer, the next-gen
+decentralized staking protocol on EigenLayer. Learn how it works, why
+Everstake is a key partner, and how you can boost your ETH rewards through
+liquid restaking. 27 May 2024](/blog/introducing-puffer-finance-in-3-minutes-
+or-so)[![How to Stake and Delegate EIGEN on EigenLayer: a Step-by-Step
 Guide](https://blog-
 api.everstake.one/assets/4b9d0915-4371-4994-9256-1eb3aa665e48.webp) eigenlayer
 How to Stake and Delegate EIGEN on EigenLayer: a Step-by-Step Guide Want to
@@ -270,13 +276,7 @@ of Crypto  What is Proof-of-Stake (PoS) in Cryptocurrency? Proof-of-Stake
 delves into the core concepts of PoS, its established advantages over Proof-
 of-Work (PoW), and its ongoing role in shaping the present and future of
 digital investments. 02 May 2024](/blog/what-is-proofofstake-pos-in-
-cryptocurrency)[![Top Cosmos \(ATOM\) Wallets 2024: Secure & Easy
-](https://blog-
-api.everstake.one/assets/b45b354c-f903-4ec5-aba8-2ad07c3e2fd2.webp) cosmos
-Top Cosmos (ATOM) Wallets 2024: Secure & Easy  Find the perfect ATOM wallet
-for you - hot or cold, beginner-friendly or feature-packed. This guide unveils
-the top options to keep your crypto safe. 25 Apr 2024](/blog/top-cosmos-atom-
-wallets-2024-secure-easy-)
+cryptocurrency)
 
 ### subscribe
 
