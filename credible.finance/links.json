@@ -1,12 +1,9 @@
-[
-    "https://discord.gg/f2eDDRpXur",
-    "https://medium.com/@credible_finance",
-    "https://seracle.com",
-    "https://t.me/crediblefinance",
-    "https://twitter.com/crediblefin",
-    "https://twitter.com/crediblefin",
-    "https://www.google.com/intl/en/policies/privacy/",
-    "https://www.google.com/intl/en/policies/privacy/",
-    "https://www.google.com/intl/en/policies/terms/",
-    "https://www.google.com/intl/en/policies/terms/"
-]
+{
+    "target_url": "https://credible.finance",
+    "domains": {
+        "www.google.com": [
+            "https://www.google.com/intl/en/policies/privacy/",
+            "https://www.google.com/intl/en/policies/terms/"
+        ]
+    }
+}
