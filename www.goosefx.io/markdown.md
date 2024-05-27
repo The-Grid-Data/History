@@ -140,7 +140,7 @@ Learn More](https://docs.goosefx.io/tokenomics/stake-rewards-and-fee-share)
 
 # GOFX Staked
 
-696
+697
 
 ## M +
 
@@ -148,7 +148,7 @@ Learn More](https://docs.goosefx.io/tokenomics/stake-rewards-and-fee-share)
 
 ## $
 
-687
+689
 
 ## K +
 

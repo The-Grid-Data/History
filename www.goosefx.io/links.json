@@ -1,52 +1,51 @@
-[
-    "https://app.goosefx.io/farm",
-    "https://app.goosefx.io/farm",
-    "https://app.goosefx.io/farm",
-    "https://app.goosefx.io/farm",
-    "https://app.goosefx.io/farm",
-    "https://app.goosefx.io/farm?rewards=true",
-    "https://app.goosefx.io/trade/ExyWP65F2zsALQkC2wSQKfR7vrXyPWAG4SLWExVzgbaW",
-    "https://discord.com/channels/833693973687173121/833725691983822918",
-    "https://discord.com/channels/833693973687173121/833725691983822918",
-    "https://discord.com/channels/833693973687173121/833725691983822918",
-    "https://discord.com/invite/cDEPXpY26q",
-    "https://discord.com/invite/cDEPXpY26q",
-    "https://docs.goosefx.io/",
-    "https://docs.goosefx.io/",
-    "https://docs.goosefx.io/",
-    "https://docs.goosefx.io/features/farm",
-    "https://docs.goosefx.io/features/perpetual-futures",
-    "https://docs.goosefx.io/tokenomics/stake-rewards-and-fee-share",
-    "https://osec.io/",
-    "https://t.me/goosefx",
-    "https://t.me/goosefx",
-    "https://twitter.com/GooseFX1",
-    "https://twitter.com/GooseFX1",
-    "https://twitter.com/hashtag/Solana?src=hashtag_click",
-    "https://twitter.com/hashtag/defi?src=hashtag_click",
-    "https://twitter.com/solgumsol/status/1723688269819347192",
-    "https://www.goosefx.io",
-    "https://www.goosefx.io",
-    "https://www.goosefx.io",
-    "https://www.goosefx.io",
-    "https://www.goosefx.io#features",
-    "https://www.goosefx.io/",
-    "https://www.goosefx.io/",
-    "https://www.goosefx.io/",
-    "https://www.goosefx.io/",
-    "https://www.goosefx.io/",
-    "https://www.goosefx.io/",
-    "https://www.goosefx.io/about",
-    "https://www.goosefx.io/blog-posts/goosefx-tokenomics",
-    "https://www.goosefx.io/blog-posts/what-is-goosefx",
-    "https://www.goosefx.io/media-kit",
-    "https://www.goosefx.io/media-kit",
-    "https://www.goosefx.io/media-kit",
-    "https://www.goosefx.io/risks-and-disclaimers",
-    "https://www.goosefx.io/terms",
-    "https://www.youtube.com/@GooseFX1",
-    "https://x.com/KiannaVina/status/1722521237849858276?s=20",
-    "https://x.com/NotNPH/status/1725003824849474024?s=20",
-    "https://x.com/NotNPH/status/1725003824849474024?s=20",
-    "https://x.com/joemccann/status/1725963549804224919?s=20"
-]
+{
+    "target_url": "https://www.goosefx.io",
+    "domains": {
+        "app.goosefx.io": [
+            "https://app.goosefx.io/farm",
+            "https://app.goosefx.io/farm?rewards=true",
+            "https://app.goosefx.io/trade/ExyWP65F2zsALQkC2wSQKfR7vrXyPWAG4SLWExVzgbaW"
+        ],
+        "discord.com": [
+            "https://discord.com/channels/833693973687173121/833725691983822918",
+            "https://discord.com/invite/cDEPXpY26q"
+        ],
+        "docs.goosefx.io": [
+            "https://docs.goosefx.io/",
+            "https://docs.goosefx.io/features/farm",
+            "https://docs.goosefx.io/features/perpetual-futures",
+            "https://docs.goosefx.io/tokenomics/stake-rewards-and-fee-share"
+        ],
+        "osec.io": [
+            "https://osec.io/"
+        ],
+        "t.me": [
+            "https://t.me/goosefx"
+        ],
+        "twitter.com": [
+            "https://twitter.com/GooseFX1",
+            "https://twitter.com/hashtag/Solana?src=hashtag_click",
+            "https://twitter.com/hashtag/defi?src=hashtag_click",
+            "https://twitter.com/solgumsol/status/1723688269819347192"
+        ],
+        "www.goosefx.io": [
+            "https://www.goosefx.io",
+            "https://www.goosefx.io#features",
+            "https://www.goosefx.io/",
+            "https://www.goosefx.io/about",
+            "https://www.goosefx.io/blog-posts/goosefx-tokenomics",
+            "https://www.goosefx.io/blog-posts/what-is-goosefx",
+            "https://www.goosefx.io/media-kit",
+            "https://www.goosefx.io/risks-and-disclaimers",
+            "https://www.goosefx.io/terms"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/@GooseFX1"
+        ],
+        "x.com": [
+            "https://x.com/KiannaVina/status/1722521237849858276?s=20",
+            "https://x.com/NotNPH/status/1725003824849474024?s=20",
+            "https://x.com/joemccann/status/1725963549804224919?s=20"
+        ]
+    }
+}
