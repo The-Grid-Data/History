@@ -1,4 +1,9 @@
-[
-    "https://mintlify.s3-us-west-1.amazonaws.com/crossmint/logo/crossmint-dark.png",
-    "https://mintlify.s3-us-west-1.amazonaws.com/crossmint/logo/crossmint-light.png"
-]
+{
+    "target_url": "https://docs.crossmint.com/introduction/about-crossmint",
+    "domains": {
+        "mintlify.s3-us-west-1.amazonaws.com": [
+            "https://mintlify.s3-us-west-1.amazonaws.com/crossmint/logo/crossmint-dark.png",
+            "https://mintlify.s3-us-west-1.amazonaws.com/crossmint/logo/crossmint-light.png"
+        ]
+    }
+}

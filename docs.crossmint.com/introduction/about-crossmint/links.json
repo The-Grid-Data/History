@@ -1,38 +1,44 @@
-[
-    "https://blog.crossmint.com",
-    "https://discord.gg/crossmint",
-    "https://docs.crossmint.com/",
-    "https://docs.crossmint.com/",
-    "https://docs.crossmint.com/api-reference/introduction",
-    "https://docs.crossmint.com/api-reference/introduction",
-    "https://docs.crossmint.com/changelog/2024-04-30",
-    "https://docs.crossmint.com/introduction/about-crossmint",
-    "https://docs.crossmint.com/introduction/about-crossmint#explore-the-products",
-    "https://docs.crossmint.com/introduction/about-crossmint#explore-the-products",
-    "https://docs.crossmint.com/introduction/about-crossmint#get-started",
-    "https://docs.crossmint.com/introduction/about-crossmint#get-started",
-    "https://docs.crossmint.com/introduction/about-crossmint#introduction",
-    "https://docs.crossmint.com/introduction/about-crossmint#introduction",
-    "https://docs.crossmint.com/introduction/about-crossmint#why-use-crossmint",
-    "https://docs.crossmint.com/introduction/about-crossmint#why-use-crossmint",
-    "https://docs.crossmint.com/introduction/supported-chains",
-    "https://docs.crossmint.com/introduction/supported-chains",
-    "https://docs.crossmint.com/minting/introduction",
-    "https://docs.crossmint.com/minting/introduction",
-    "https://docs.crossmint.com/minting/quickstart",
-    "https://docs.crossmint.com/nft-checkout/introduction",
-    "https://docs.crossmint.com/nft-checkout/introduction",
-    "https://docs.crossmint.com/support/get-help",
-    "https://docs.crossmint.com/wallets/introduction",
-    "https://docs.crossmint.com/wallets/introduction",
-    "https://github.com/crossmint",
-    "https://mintlify.com?utm_campaign=poweredBy&utm_medium=docs&utm_source=docs.crossmint.com",
-    "https://staging.crossmint.com/console",
-    "https://twitter.com/crossmint",
-    "https://www.crossmint.com",
-    "https://www.crossmint.com/console",
-    "https://www.crossmint.com/console",
-    "https://www.crossmint.com/console",
-    "https://www.crossmint.com/console",
-    "https://www.crossmint.com/contact"
-]
+{
+    "target_url": "https://docs.crossmint.com/introduction/about-crossmint",
+    "domains": {
+        "blog.crossmint.com": [
+            "https://blog.crossmint.com"
+        ],
+        "discord.gg": [
+            "https://discord.gg/crossmint"
+        ],
+        "docs.crossmint.com": [
+            "https://docs.crossmint.com/",
+            "https://docs.crossmint.com/api-reference/introduction",
+            "https://docs.crossmint.com/changelog/2024-04-30",
+            "https://docs.crossmint.com/introduction/about-crossmint",
+            "https://docs.crossmint.com/introduction/about-crossmint#explore-the-products",
+            "https://docs.crossmint.com/introduction/about-crossmint#get-started",
+            "https://docs.crossmint.com/introduction/about-crossmint#introduction",
+            "https://docs.crossmint.com/introduction/about-crossmint#why-use-crossmint",
+            "https://docs.crossmint.com/introduction/supported-chains",
+            "https://docs.crossmint.com/minting/introduction",
+            "https://docs.crossmint.com/minting/quickstart",
+            "https://docs.crossmint.com/nft-checkout/introduction",
+            "https://docs.crossmint.com/support/get-help",
+            "https://docs.crossmint.com/wallets/introduction"
+        ],
+        "github.com": [
+            "https://github.com/crossmint"
+        ],
+        "mintlify.com": [
+            "https://mintlify.com?utm_campaign=poweredBy&utm_medium=docs&utm_source=docs.crossmint.com"
+        ],
+        "staging.crossmint.com": [
+            "https://staging.crossmint.com/console"
+        ],
+        "twitter.com": [
+            "https://twitter.com/crossmint"
+        ],
+        "www.crossmint.com": [
+            "https://www.crossmint.com",
+            "https://www.crossmint.com/console",
+            "https://www.crossmint.com/contact"
+        ]
+    }
+}
