@@ -112,7 +112,7 @@ session. Dismiss alert
 
 [ solana-beach ](/solana-beach) / **[api](/solana-beach/api) ** Public
 
-  * [ Notifications ](/login?return_to=%2Fsolana-beach%2Fapi)
+  * [ Notifications ](/login?return_to=%2Fsolana-beach%2Fapi) You must be signed in to change notification settings
   * [ Fork 10 ](/login?return_to=%2Fsolana-beach%2Fapi)
   * [ Star  30 ](/login?return_to=%2Fsolana-beach%2Fapi)
 
@@ -124,7 +124,8 @@ beach/api/tags) [ Activity ](/solana-beach/api/activity)
 
 [ Star  ](/login?return_to=%2Fsolana-beach%2Fapi)
 
-[ Notifications ](/login?return_to=%2Fsolana-beach%2Fapi)
+[ Notifications ](/login?return_to=%2Fsolana-beach%2Fapi) You must be signed
+in to change notification settings
 
   * [ Code ](/solana-beach/api)
   * [ Issues 1 ](/solana-beach/api/issues)

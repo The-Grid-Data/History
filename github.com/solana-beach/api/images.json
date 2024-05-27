@@ -1,6 +1,13 @@
-[
-    "https://avatars.githubusercontent.com/u/18364853?s=64&v=4",
-    "https://avatars.githubusercontent.com/u/42110373?s=64&v=4",
-    "https://avatars.githubusercontent.com/u/989725?s=64&v=4",
-    "https://github.com/solana-beach/api/raw/main/solanabeach.svg"
-]
+{
+    "target_url": "https://github.com/solana-beach/api?tab=readme-ov-file#readme",
+    "domains": {
+        "avatars.githubusercontent.com": [
+            "https://avatars.githubusercontent.com/u/18364853?s=64&v=4",
+            "https://avatars.githubusercontent.com/u/42110373?s=64&v=4",
+            "https://avatars.githubusercontent.com/u/989725?s=64&v=4"
+        ],
+        "github.com": [
+            "https://github.com/solana-beach/api/raw/main/solanabeach.svg"
+        ]
+    }
+}
