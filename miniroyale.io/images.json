@@ -1,4 +1,9 @@
-[
-    "https://miniroyale.io/discord_button2.png?v=1.1.126",
-    "https://miniroyale.io/logo.png?v=1.1.126"
-]
+{
+    "target_url": "https://miniroyale.io/",
+    "domains": {
+        "miniroyale.io": [
+            "https://miniroyale.io/discord_button2.png?v=1.1.126",
+            "https://miniroyale.io/logo.png?v=1.1.126"
+        ]
+    }
+}
