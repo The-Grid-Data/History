@@ -1,88 +1,93 @@
-[
-    "http://discord.gg/WrHUhqgnBd",
-    "https://all.art/",
-    "https://all.art/",
-    "https://all.art/",
-    "https://all.art/",
-    "https://all.art/",
-    "https://all.art/",
-    "https://all.art/",
-    "https://all.art/",
-    "https://all.art/#aarttoken",
-    "https://all.art/#aarttoken",
-    "https://all.art/#aarttoken",
-    "https://all.art/#credentee",
-    "https://all.art/#credentee",
-    "https://all.art/#mobile-language-menu",
-    "https://all.art/#mobile-menu",
-    "https://all.art/#products",
-    "https://all.art/#rwamarketplace",
-    "https://all.art/#rwamarketplace",
-    "https://all.art/#solsea",
-    "https://all.art/#solsea",
-    "https://all.art/#solutions",
-    "https://all.art/#solutions",
-    "https://all.art/#tokenregistry",
-    "https://all.art/#tokenregistry",
-    "https://all.art/#unitysolana",
-    "https://all.art/#unitysolana",
-    "https://all.art/#unitysui",
-    "https://all.art/#unitysui",
-    "https://all.art/collective/contact-us",
-    "https://all.art/collective/contact-us",
-    "https://all.art/collective/join-the-collective",
-    "https://all.art/collective/join-the-collective",
-    "https://all.art/de-DE",
-    "https://all.art/de-DE",
-    "https://all.art/en-US/collective/contact-us",
-    "https://all.art/en-US/collective/contact-us",
-    "https://all.art/fr-FR",
-    "https://all.art/fr-FR",
-    "https://all.art/id-ID",
-    "https://all.art/id-ID",
-    "https://all.art/it-IT",
-    "https://all.art/it-IT",
-    "https://all.art/news",
-    "https://all.art/news",
-    "https://all.art/news/allart-collective-to-launch-new-gaming-project-wit",
-    "https://all.art/news/allart-collective-to-launch-new-gaming-project-wit",
-    "https://all.art/news/allart-sets-new-standards-in-blockchain-based-cert",
-    "https://all.art/news/allart-sets-new-standards-in-blockchain-based-cert",
-    "https://all.art/news/category/gaming",
-    "https://all.art/news/category/solana",
-    "https://all.art/news/category/sui",
-    "https://all.art/news/category/sui",
-    "https://all.art/news/category/unity",
-    "https://all.art/news/category/unity",
-    "https://all.art/news/category/wallet",
-    "https://all.art/news/the-first-full-open-source-unity-sui-wallet",
-    "https://all.art/news/the-first-full-open-source-unity-sui-wallet",
-    "https://all.art/sr-Latn-RS",
-    "https://all.art/sr-Latn-RS",
-    "https://all.art/th-TH",
-    "https://all.art/th-TH",
-    "https://all.art/vi-VN",
-    "https://all.art/vi-VN",
-    "https://all.art/zh-CN",
-    "https://all.art/zh-CN",
-    "https://all.art/zh-Hant",
-    "https://all.art/zh-Hant",
-    "https://allart.medium.com/",
-    "https://coinmarketcap.com/community/profile/all_art/",
-    "https://credentee.io",
-    "https://fluxbeam.xyz/",
-    "https://github.com/allartprotocol/allart-unity-sui-wallet",
-    "https://github.com/allartprotocol/unity-solana-wallet",
-    "https://jup.ag/swap/USDC-AART",
-    "https://raydium.io/swap/?inputCurrency=F3nefJBcejYbtdREjui1T9DPh5dBgpkKq7u2GAAMXs5B&outputCurrency=sol&fixed=in",
-    "https://solsea.io",
-    "https://solsea.io/staking-page/",
-    "https://t.me/allartprotocol",
-    "https://twitter.com/allartprotocol",
-    "https://v1.orca.so/liquidity/browse?tokenMint=F3nefJBcejYbtdREjui1T9DPh5dBgpkKq7u2GAAMXs5B",
-    "https://www.coinex.com/en/exchange/aart-usdt?currency=USDT&dest=AART",
-    "https://www.coinstore.com/#/spot/AARTUSDT?invitCode=zEgJkS",
-    "https://www.gate.io/trade/AART_USDT?ref=3018394",
-    "https://www.lbank.com/trade/aart_usdt/",
-    "https://www.linkedin.com/company/all-art/"
-]
+{
+    "target_url": "https://all.art/",
+    "domains": {
+        "all.art": [
+            "https://all.art/",
+            "https://all.art/#aarttoken",
+            "https://all.art/#credentee",
+            "https://all.art/#mobile-language-menu",
+            "https://all.art/#mobile-menu",
+            "https://all.art/#products",
+            "https://all.art/#rwamarketplace",
+            "https://all.art/#solsea",
+            "https://all.art/#solutions",
+            "https://all.art/#tokenregistry",
+            "https://all.art/#unitysolana",
+            "https://all.art/#unitysui",
+            "https://all.art/collective/contact-us",
+            "https://all.art/collective/join-the-collective",
+            "https://all.art/de-DE",
+            "https://all.art/en-US/collective/contact-us",
+            "https://all.art/fr-FR",
+            "https://all.art/id-ID",
+            "https://all.art/it-IT",
+            "https://all.art/news",
+            "https://all.art/news/allart-collective-to-launch-new-gaming-project-wit",
+            "https://all.art/news/allart-sets-new-standards-in-blockchain-based-cert",
+            "https://all.art/news/category/gaming",
+            "https://all.art/news/category/solana",
+            "https://all.art/news/category/sui",
+            "https://all.art/news/category/unity",
+            "https://all.art/news/category/wallet",
+            "https://all.art/news/the-first-full-open-source-unity-sui-wallet",
+            "https://all.art/sr-Latn-RS",
+            "https://all.art/th-TH",
+            "https://all.art/vi-VN",
+            "https://all.art/zh-CN",
+            "https://all.art/zh-Hant"
+        ],
+        "allart.medium.com": [
+            "https://allart.medium.com/"
+        ],
+        "coinmarketcap.com": [
+            "https://coinmarketcap.com/community/profile/all_art/"
+        ],
+        "credentee.io": [
+            "https://credentee.io"
+        ],
+        "discord.gg": [
+            "http://discord.gg/WrHUhqgnBd"
+        ],
+        "fluxbeam.xyz": [
+            "https://fluxbeam.xyz/"
+        ],
+        "github.com": [
+            "https://github.com/allartprotocol/allart-unity-sui-wallet",
+            "https://github.com/allartprotocol/unity-solana-wallet"
+        ],
+        "jup.ag": [
+            "https://jup.ag/swap/USDC-AART"
+        ],
+        "raydium.io": [
+            "https://raydium.io/swap/?inputCurrency=F3nefJBcejYbtdREjui1T9DPh5dBgpkKq7u2GAAMXs5B&outputCurrency=sol&fixed=in"
+        ],
+        "solsea.io": [
+            "https://solsea.io",
+            "https://solsea.io/staking-page/"
+        ],
+        "t.me": [
+            "https://t.me/allartprotocol"
+        ],
+        "twitter.com": [
+            "https://twitter.com/allartprotocol"
+        ],
+        "v1.orca.so": [
+            "https://v1.orca.so/liquidity/browse?tokenMint=F3nefJBcejYbtdREjui1T9DPh5dBgpkKq7u2GAAMXs5B"
+        ],
+        "www.coinex.com": [
+            "https://www.coinex.com/en/exchange/aart-usdt?currency=USDT&dest=AART"
+        ],
+        "www.coinstore.com": [
+            "https://www.coinstore.com/#/spot/AARTUSDT?invitCode=zEgJkS"
+        ],
+        "www.gate.io": [
+            "https://www.gate.io/trade/AART_USDT?ref=3018394"
+        ],
+        "www.lbank.com": [
+            "https://www.lbank.com/trade/aart_usdt/"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/all-art/"
+        ]
+    }
+}
