@@ -1,35 +1,33 @@
-[
-    "https://drive.google.com/drive/u/0/folders/1KuEn60FLsmQZDSDDZ15dCPyxFgQAaAtL",
-    "https://jito-labs.gitbook.io/mev/references/privacy-policy",
-    "https://jito-labs.gitbook.io/mev/references/terms-of-service",
-    "https://www.jito.network/",
-    "https://www.jito.network/",
-    "https://www.jito.network/",
-    "https://www.jito.network/airdrop/",
-    "https://www.jito.network/blog/",
-    "https://www.jito.network/blog/",
-    "https://www.jito.network/blog/a-deep-dive-into-stakenet/",
-    "https://www.jito.network/blog/lsts-vs-native-assets/",
-    "https://www.jito.network/blog/lsts-vs-native-assets/",
-    "https://www.jito.network/blog/lsts-vs-native-assets/",
-    "https://www.jito.network/blog/reward-bearing-vs-rebasing-solana-liquid-staking-tokens/",
-    "https://www.jito.network/blog/solana-is-the-peoples-blockchain/",
-    "https://www.jito.network/bridge/",
-    "https://www.jito.network/bridge/",
-    "https://www.jito.network/defi/",
-    "https://www.jito.network/defi/",
-    "https://www.jito.network/defi/",
-    "https://www.jito.network/defi/",
-    "https://www.jito.network/docs/jitosol/disclaimer/",
-    "https://www.jito.network/faq/",
-    "https://www.jito.network/faq/",
-    "https://www.jito.network/harvest/",
-    "https://www.jito.network/jto/",
-    "https://www.jito.network/manage/",
-    "https://www.jito.network/points/",
-    "https://www.jito.network/referrals/",
-    "https://www.jito.network/stakenet/",
-    "https://www.jito.network/stakenet/",
-    "https://www.jito.network/staking/",
-    "https://www.jito.network/stats/"
-]
+{
+    "target_url": "https://www.jito.network/blog/",
+    "domains": {
+        "drive.google.com": [
+            "https://drive.google.com/drive/u/0/folders/1KuEn60FLsmQZDSDDZ15dCPyxFgQAaAtL"
+        ],
+        "jito-labs.gitbook.io": [
+            "https://jito-labs.gitbook.io/mev/references/privacy-policy",
+            "https://jito-labs.gitbook.io/mev/references/terms-of-service"
+        ],
+        "www.jito.network": [
+            "https://www.jito.network/",
+            "https://www.jito.network/airdrop/",
+            "https://www.jito.network/blog/",
+            "https://www.jito.network/blog/a-deep-dive-into-stakenet/",
+            "https://www.jito.network/blog/lsts-vs-native-assets/",
+            "https://www.jito.network/blog/reward-bearing-vs-rebasing-solana-liquid-staking-tokens/",
+            "https://www.jito.network/blog/solana-is-the-peoples-blockchain/",
+            "https://www.jito.network/bridge/",
+            "https://www.jito.network/defi/",
+            "https://www.jito.network/docs/jitosol/disclaimer/",
+            "https://www.jito.network/faq/",
+            "https://www.jito.network/harvest/",
+            "https://www.jito.network/jto/",
+            "https://www.jito.network/manage/",
+            "https://www.jito.network/points/",
+            "https://www.jito.network/referrals/",
+            "https://www.jito.network/stakenet/",
+            "https://www.jito.network/staking/",
+            "https://www.jito.network/stats/"
+        ]
+    }
+}
