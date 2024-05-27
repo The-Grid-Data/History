@@ -1,23 +1,22 @@
-[
-    "https://docs.solana.fm/",
-    "https://docs.solana.fm/",
-    "https://docs.solana.fm/",
-    "https://docs.solana.fm/",
-    "https://docs.solana.fm/#content",
-    "https://docs.solana.fm/discuss",
-    "https://docs.solana.fm/discuss",
-    "https://docs.solana.fm/docs",
-    "https://docs.solana.fm/docs",
-    "https://docs.solana.fm/page/webhooks",
-    "https://docs.solana.fm/page/webhooks",
-    "https://docs.solana.fm/recipes",
-    "https://docs.solana.fm/recipes",
-    "https://docs.solana.fm/reference",
-    "https://docs.solana.fm/reference",
-    "https://docs.solana.fm/reference",
-    "https://docs.solana.fm/reference",
-    "https://docs.solana.fm/search",
-    "https://portal.solana.fm/",
-    "https://solanafm.readme.io/recipes",
-    "https://solanafm.readme.io/reference/solanafm-api-overview-copy"
-]
+{
+    "target_url": "https://docs.solana.fm/",
+    "domains": {
+        "docs.solana.fm": [
+            "https://docs.solana.fm/",
+            "https://docs.solana.fm/#content",
+            "https://docs.solana.fm/discuss",
+            "https://docs.solana.fm/docs",
+            "https://docs.solana.fm/page/webhooks",
+            "https://docs.solana.fm/recipes",
+            "https://docs.solana.fm/reference",
+            "https://docs.solana.fm/search"
+        ],
+        "portal.solana.fm": [
+            "https://portal.solana.fm/"
+        ],
+        "solanafm.readme.io": [
+            "https://solanafm.readme.io/recipes",
+            "https://solanafm.readme.io/reference/solanafm-api-overview-copy"
+        ]
+    }
+}
