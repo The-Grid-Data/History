@@ -46,7 +46,7 @@ Mar 5
 
 Mar 5
 
-22h ago
+23h ago
 
 [![](https://yyz1.discourse-
 cdn.com/flex003/user_avatar/www.jupresear.ch/c2yptic/48/1911_2.png)](/u/c2yptic)
@@ -138,7 +138,7 @@ Over and out!
 ![](https://yyz1.discourse-
 cdn.com/flex003/user_avatar/www.jupresear.ch/c2yptic/24/1911_2.png) Mar 5
 
-  * #### [last reply ![](https://avatars.discourse-cdn.com/v4/letter/b/278dde/24.png) 22h  ](/t/lfg-launchpad-from-application-to-the-lfg-launch/7340/10)
+  * #### [last reply ![](https://avatars.discourse-cdn.com/v4/letter/b/278dde/24.png) 23h  ](/t/lfg-launchpad-from-application-to-the-lfg-launch/7340/10)
   * 5
 
 #### replies
@@ -225,7 +225,7 @@ Agree, everything has been super smooth. Big up guys
 
 [blondin](/u/blondin)
 
-[22h](/t/lfg-launchpad-from-application-to-the-lfg-launch/7340/10 "Post date")
+[23h](/t/lfg-launchpad-from-application-to-the-lfg-launch/7340/10 "Post date")
 
 i want to participate…i love your ecosystem!
 
