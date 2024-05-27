@@ -1,25 +1,40 @@
-[
-    "https://apply.workable.com/metaplex-studios/",
-    "https://developers.metaplex.com/",
-    "https://developers.metaplex.com/",
-    "https://discord.gg/6FaDSP2zms",
-    "https://docs.metaplex.com/",
-    "https://docs.metaplex.com/",
-    "https://docs.metaplex.com/",
-    "https://github.com/metaplex-foundation",
-    "https://github.com/metaplex-foundation",
-    "https://github.com/metaplex-foundation",
-    "https://github.com/metaplex-foundation/metaplex",
-    "https://studio.metaplex.com",
-    "https://studio.metaplex.com/",
-    "https://twitter.com/metaplex",
-    "https://www.instagram.com/metaplex/",
-    "https://www.metaplex.com/",
-    "https://www.metaplex.com/blog",
-    "https://www.metaplex.com/blog",
-    "https://www.metaplex.com/bounty-program",
-    "https://www.metaplex.com/learn-developers",
-    "https://www.metaplex.com/press",
-    "https://www.metaplex.com/privacy-policy",
-    "https://www.metaplex.com/terms-disclaimer"
-]
+{
+    "target_url": "https://www.metaplex.com/",
+    "domains": {
+        "apply.workable.com": [
+            "https://apply.workable.com/metaplex-studios/"
+        ],
+        "developers.metaplex.com": [
+            "https://developers.metaplex.com/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/6FaDSP2zms"
+        ],
+        "docs.metaplex.com": [
+            "https://docs.metaplex.com/"
+        ],
+        "github.com": [
+            "https://github.com/metaplex-foundation",
+            "https://github.com/metaplex-foundation/metaplex"
+        ],
+        "studio.metaplex.com": [
+            "https://studio.metaplex.com",
+            "https://studio.metaplex.com/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/metaplex"
+        ],
+        "www.instagram.com": [
+            "https://www.instagram.com/metaplex/"
+        ],
+        "www.metaplex.com": [
+            "https://www.metaplex.com/",
+            "https://www.metaplex.com/blog",
+            "https://www.metaplex.com/bounty-program",
+            "https://www.metaplex.com/learn-developers",
+            "https://www.metaplex.com/press",
+            "https://www.metaplex.com/privacy-policy",
+            "https://www.metaplex.com/terms-disclaimer"
+        ]
+    }
+}
