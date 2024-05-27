@@ -566,9 +566,7 @@ content/uploads/2021/11/logo-cb-s.png?v=2)
 
 ![](https://www.facebook.com/tr?id=237213137153741&ev=PageView&noscript=1)
 
-![](https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=30c73595-b249-4b6a-9a15-fe1ad48fe05d&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=7642eaba-
-ed3e-4af2-ae12-0e67828f6338&tw_document_href=https%3A%2F%2Fwww.ledger.com%2F&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30)![](https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=30c73595-b249-4b6a-9a15-fe1ad48fe05d&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=7642eaba-
-ed3e-4af2-ae12-0e67828f6338&tw_document_href=https%3A%2F%2Fwww.ledger.com%2F&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30)
+![](https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=adf56abf-7109-4837-9d9c-17a0b82ca42b&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=e0409d2d-9e0a-43a0-89b9-90018666f622&tw_document_href=https%3A%2F%2Fwww.ledger.com%2F&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30)![](https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=adf56abf-7109-4837-9d9c-17a0b82ca42b&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=e0409d2d-9e0a-43a0-89b9-90018666f622&tw_document_href=https%3A%2F%2Fwww.ledger.com%2F&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30)
 
 By clicking “Accept All Cookies”, you agree to the storing of cookies on your
 device to enhance site navigation, analyze site usage, and assist in our
@@ -697,9 +695,6 @@ Allow All
 Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/products/cookie-
 consent/)
 
-![](https://bat.bing.com/action/0?ti=134633242&tm=gtm002&Ver=2&mid=519587c1-4c77-4f73-9403-323396b0ea5a&sid=c7157b901c2111ef97f69f4cdb1d1f00&vid=c71595701c2111efa0b9a119e94ba6e4&vids=1&msclkid=N&pi=918639831&lg=en-
-US&sw=800&sh=600&sc=24&tl=Hardware%20Wallet%20%26%20Crypto%20Wallet%20-%20Security%20for%20Crypto%20%7C%20Ledger&p=https%3A%2F%2Fwww.ledger.com%2F&r=&lt=2930&evt=pageLoad&sv=1&rn=935762)
-
-![dot image
-pixel](https://sp.analytics.yahoo.com/sp.pl?a=10000&d=Mon%2C%2027%20May%202024%2012%3A08%3A07%20GMT&n=0&b=Hardware%20Wallet%20%26%20Crypto%20Wallet%20-%20Security%20for%20Crypto%20%7C%20Ledger&.yp=10159916&f=https%3A%2F%2Fwww.ledger.com%2F&enc=UTF-8&yv=1.15.1&tagmgr=gtm)
+![](https://bat.bing.com/action/0?ti=134633242&tm=gtm002&Ver=2&mid=e16b834b-7c4b-47ae-970a-15d41210086e&sid=05704ef01c3411efb2928fdc07079819&vid=057054d01c3411ef8a93df8bace688a8&vids=1&msclkid=N&pi=918639831&lg=en-
+US&sw=800&sh=600&sc=24&tl=Hardware%20Wallet%20%26%20Crypto%20Wallet%20-%20Security%20for%20Crypto%20%7C%20Ledger&p=https%3A%2F%2Fwww.ledger.com%2F&r=&lt=3139&evt=pageLoad&sv=1&rn=390557)
 
