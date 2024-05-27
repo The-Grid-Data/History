@@ -1,6 +1,15 @@
-[
-    "https://bit.ly/rome-roles",
-    "https://forms.gle/22aJghckv1qEUzpJ9",
-    "https://forms.gle/6U3DphkJCvFBsVjB8",
-    "https://twitter.com/romeprotocol"
-]
+{
+    "target_url": "https://romeprotocol.com",
+    "domains": {
+        "bit.ly": [
+            "https://bit.ly/rome-roles"
+        ],
+        "forms.gle": [
+            "https://forms.gle/22aJghckv1qEUzpJ9",
+            "https://forms.gle/6U3DphkJCvFBsVjB8"
+        ],
+        "twitter.com": [
+            "https://twitter.com/romeprotocol"
+        ]
+    }
+}
