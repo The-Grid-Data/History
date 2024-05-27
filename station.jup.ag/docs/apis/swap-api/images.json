@@ -1,4 +1,8 @@
-[
-    "https://station.jup.ag/img/jupiter-logo.svg",
-    "https://station.jup.ag/img/jupiter-logo.svg"
-]
+{
+    "target_url": "https://station.jup.ag/docs/apis/swap-api",
+    "domains": {
+        "station.jup.ag": [
+            "https://station.jup.ag/img/jupiter-logo.svg"
+        ]
+    }
+}
