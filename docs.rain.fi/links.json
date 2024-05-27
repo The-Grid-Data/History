@@ -1,45 +1,37 @@
-[
-    "https://discord.com/invite/usrMBX5adn",
-    "https://discord.gg/547RjHj83b",
-    "https://docs.rain.fi",
-    "https://docs.rain.fi/",
-    "https://docs.rain.fi/",
-    "https://docs.rain.fi/",
-    "https://docs.rain.fi/",
-    "https://docs.rain.fi/",
-    "https://docs.rain.fi/#-/interest",
-    "https://docs.rain.fi/#-classes--functions",
-    "https://docs.rain.fi/#-classes--functions",
-    "https://docs.rain.fi/#-classes--functions",
-    "https://docs.rain.fi/#-installation",
-    "https://docs.rain.fi/#-installation",
-    "https://docs.rain.fi/#-installation",
-    "https://docs.rain.fi/#-interest",
-    "https://docs.rain.fi/#-interest",
-    "https://docs.rain.fi/#-license",
-    "https://docs.rain.fi/#-license",
-    "https://docs.rain.fi/#-license",
-    "https://docs.rain.fi/#-program-ids",
-    "https://docs.rain.fi/#-program-ids",
-    "https://docs.rain.fi/#-program-ids",
-    "https://docs.rain.fi/#-start",
-    "https://docs.rain.fi/#-start",
-    "https://docs.rain.fi/#-start",
-    "https://docs.rain.fi/#docusaurus_skipToContent_fallback",
-    "https://docs.rain.fi/about",
-    "https://docs.rain.fi/category/classes",
-    "https://docs.rain.fi/category/classes",
-    "https://docs.rain.fi/category/interest",
-    "https://docs.rain.fi/category/utilities",
-    "https://docs.rain.fi/classes/overview",
-    "https://docs.rain.fi/classes/overview",
-    "https://docs.rain.fi/classes/overview",
-    "https://docs.rain.fi/classes/rain",
-    "https://docs.rain.fi/interest/overview",
-    "https://docs.rain.fi/utils/overview",
-    "https://docs.rain.fi/utils/overview",
-    "https://docs.rain.fi/utils/overview",
-    "https://rain.fi",
-    "https://twitter.com/rainfi_",
-    "https://twitter.com/rainfi_"
-]
+{
+    "target_url": "https://docs.rain.fi/",
+    "domains": {
+        "discord.com": [
+            "https://discord.com/invite/usrMBX5adn"
+        ],
+        "discord.gg": [
+            "https://discord.gg/547RjHj83b"
+        ],
+        "docs.rain.fi": [
+            "https://docs.rain.fi",
+            "https://docs.rain.fi/",
+            "https://docs.rain.fi/#-/interest",
+            "https://docs.rain.fi/#-classes--functions",
+            "https://docs.rain.fi/#-installation",
+            "https://docs.rain.fi/#-interest",
+            "https://docs.rain.fi/#-license",
+            "https://docs.rain.fi/#-program-ids",
+            "https://docs.rain.fi/#-start",
+            "https://docs.rain.fi/#docusaurus_skipToContent_fallback",
+            "https://docs.rain.fi/about",
+            "https://docs.rain.fi/category/classes",
+            "https://docs.rain.fi/category/interest",
+            "https://docs.rain.fi/category/utilities",
+            "https://docs.rain.fi/classes/overview",
+            "https://docs.rain.fi/classes/rain",
+            "https://docs.rain.fi/interest/overview",
+            "https://docs.rain.fi/utils/overview"
+        ],
+        "rain.fi": [
+            "https://rain.fi"
+        ],
+        "twitter.com": [
+            "https://twitter.com/rainfi_"
+        ]
+    }
+}
