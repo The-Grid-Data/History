@@ -26,8 +26,6 @@ LFG
 
 ❤️
 
-Priority:Fast
-
 ConnectConnect Wallet
 
 ConnectConnect Wallet
