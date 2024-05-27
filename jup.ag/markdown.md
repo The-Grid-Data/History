@@ -4,13 +4,13 @@
 
 LFG
 
-😻
+❤️
 
 [Trade](/)[PerpsBETABETA](/perps)
 
 LFG
 
-😻
+❤️
 
 # [![Jupiter](/svg/jupiter-logo.svg)Jupiter](/)
 
@@ -18,15 +18,13 @@ LFG
 
 LFG
 
-😻
+❤️
 
 [Trade](/)[PerpsBETABETA](/perps)
 
 LFG
 
-😻
-
-Priority:Fast
+❤️
 
 ConnectConnect Wallet
 
