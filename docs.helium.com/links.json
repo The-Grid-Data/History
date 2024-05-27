@@ -1,46 +1,51 @@
-[
-    "https://discord.gg/helium",
-    "https://docs.helium.com/",
-    "https://docs.helium.com/",
-    "https://docs.helium.com/",
-    "https://docs.helium.com/#__docusaurus_skipToContent_fallback",
-    "https://docs.helium.com/archive/blockchain",
-    "https://docs.helium.com/archive/blockchain/mining",
-    "https://docs.helium.com/devblog",
-    "https://docs.helium.com/faq/helium-network",
-    "https://docs.helium.com/faq/open-source",
-    "https://docs.helium.com/governance",
-    "https://docs.helium.com/governance",
-    "https://docs.helium.com/governance#participate",
-    "https://docs.helium.com/governance/hip",
-    "https://docs.helium.com/governance/hip",
-    "https://docs.helium.com/home/about-helium",
-    "https://docs.helium.com/home/about-helium",
-    "https://docs.helium.com/home/helium-history",
-    "https://docs.helium.com/iot",
-    "https://docs.helium.com/iot",
-    "https://docs.helium.com/iot",
-    "https://docs.helium.com/iot/devices",
-    "https://docs.helium.com/iot/lorawan-network-servers",
-    "https://docs.helium.com/iot/lorawan-on-helium",
-    "https://docs.helium.com/iot/proof-of-coverage",
-    "https://docs.helium.com/iot/setup-a-packet-forwarder",
-    "https://docs.helium.com/iot/transaction-fees",
-    "https://docs.helium.com/mobile/5g-on-helium",
-    "https://docs.helium.com/network-iot/hotspots-iot/full-hotspots#becoming-a-maker",
-    "https://docs.helium.com/solana",
-    "https://docs.helium.com/tokens/hnt-token",
-    "https://docs.helium.com/tokens/hnt-token",
-    "https://docs.helium.com/tokens/mine-iot",
-    "https://docs.helium.com/tokens/mine-iot",
-    "https://docs.helium.com/tokens/mine-iot",
-    "https://docs.helium.com/wallets",
-    "https://docs.helium.com/wallets",
-    "https://explorer.helium.com",
-    "https://explorer.helium.com/",
-    "https://github.com/helium",
-    "https://github.com/helium/docs/edit/master/docs/home/home.mdx",
-    "https://github.com/helium/gateway-rs",
-    "https://helium.com/mine",
-    "https://mappers.helium.com"
-]
+{
+    "target_url": "https://docs.helium.com",
+    "domains": {
+        "discord.gg": [
+            "https://discord.gg/helium"
+        ],
+        "docs.helium.com": [
+            "https://docs.helium.com",
+            "https://docs.helium.com#__docusaurus_skipToContent_fallback",
+            "https://docs.helium.com/",
+            "https://docs.helium.com/archive/blockchain",
+            "https://docs.helium.com/archive/blockchain/mining",
+            "https://docs.helium.com/devblog",
+            "https://docs.helium.com/faq/helium-network",
+            "https://docs.helium.com/faq/open-source",
+            "https://docs.helium.com/governance",
+            "https://docs.helium.com/governance#participate",
+            "https://docs.helium.com/governance/hip",
+            "https://docs.helium.com/home/about-helium",
+            "https://docs.helium.com/home/helium-history",
+            "https://docs.helium.com/iot",
+            "https://docs.helium.com/iot/devices",
+            "https://docs.helium.com/iot/lorawan-network-servers",
+            "https://docs.helium.com/iot/lorawan-on-helium",
+            "https://docs.helium.com/iot/proof-of-coverage",
+            "https://docs.helium.com/iot/setup-a-packet-forwarder",
+            "https://docs.helium.com/iot/transaction-fees",
+            "https://docs.helium.com/mobile/5g-on-helium",
+            "https://docs.helium.com/network-iot/hotspots-iot/full-hotspots#becoming-a-maker",
+            "https://docs.helium.com/solana",
+            "https://docs.helium.com/tokens/hnt-token",
+            "https://docs.helium.com/tokens/mine-iot",
+            "https://docs.helium.com/wallets"
+        ],
+        "explorer.helium.com": [
+            "https://explorer.helium.com",
+            "https://explorer.helium.com/"
+        ],
+        "github.com": [
+            "https://github.com/helium",
+            "https://github.com/helium/docs/edit/master/docs/home/home.mdx",
+            "https://github.com/helium/gateway-rs"
+        ],
+        "helium.com": [
+            "https://helium.com/mine"
+        ],
+        "mappers.helium.com": [
+            "https://mappers.helium.com"
+        ]
+    }
+}
