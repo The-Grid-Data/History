@@ -288,28 +288,6 @@ milestone-6751cad29d9e?source=collection_home---6------
 
 1
 
-[![Credix](https://cdn-
-images-1.medium.com/fit/c/36/36/1*THyUgavExXlC8bTVRECS4A.png)](https://medium.com/credix
-"Go to Credix")
-
-Credix
-
-Credix is the decentralized credit platform that gives borrowers in emerging
-countries access to previously untapped capital. Our marketplace provides
-credit lines to high-quality borrowers with an attractive yield for investors
-globally.
-
-[More information](https://medium.com/credix/about)
-
-Followers
-
-125
-
-Elsewhere
-
-[](mailto:info@credix.finance "Email")[](https://twitter.com/Credix_finance
-"Twitter profile")
-
 [About Credix](https://medium.com/credix/about "About Credix")[Latest
 Stories](https://medium.com/credix/latest "Latest Stories for
 Credix")[Archive](https://medium.com/credix/archive "Archive for
