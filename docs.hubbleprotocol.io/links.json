@@ -1,55 +1,70 @@
-[
-    "https://app.hubbleprotocol.io/?utm_source=Docs&utm_medium=Website&utm_campaign=Documentation_Recurring",
-    "https://blog.hubbleprotocol.io/?utm_source=Docs&utm_medium=Website&utm_campaign=Documentation_Recurring",
-    "https://daopool.monkedao.io/",
-    "https://discord.gg/7vv3WM8TQn",
-    "https://discord.gg/C4jzzFfVRZ",
-    "https://docs.hubbleprotocol.io/",
-    "https://docs.hubbleprotocol.io/",
-    "https://docs.hubbleprotocol.io/",
-    "https://docs.hubbleprotocol.io/#borrowing-made-easy-cheap-and-attractive",
-    "https://docs.hubbleprotocol.io/#earning-yield-on-collateral",
-    "https://docs.hubbleprotocol.io/#governance-for-the-benefit-of-the-community",
-    "https://docs.hubbleprotocol.io/#make-your-crypto-work-for-you-with-hubble-protocol",
-    "https://docs.hubbleprotocol.io/faq/borrowing",
-    "https://docs.hubbleprotocol.io/faq/borrowing/borrowing-fees",
-    "https://docs.hubbleprotocol.io/faq/borrowing/collateral",
-    "https://docs.hubbleprotocol.io/faq/borrowing/collateral-yield",
-    "https://docs.hubbleprotocol.io/faq/borrowing/collateral-yield",
-    "https://docs.hubbleprotocol.io/faq/borrowing/loan-auto-close",
-    "https://docs.hubbleprotocol.io/faq/general",
-    "https://docs.hubbleprotocol.io/faq/governance",
-    "https://docs.hubbleprotocol.io/faq/hubble-sdk",
-    "https://docs.hubbleprotocol.io/faq/liquidations",
-    "https://docs.hubbleprotocol.io/faq/liquidations/hybrid-liquidation-model",
-    "https://docs.hubbleprotocol.io/faq/liquidations/liquidation-example",
-    "https://docs.hubbleprotocol.io/faq/liquidations/redistribution",
-    "https://docs.hubbleprotocol.io/faq/mobile-app",
-    "https://docs.hubbleprotocol.io/faq/more-about-hubble",
-    "https://docs.hubbleprotocol.io/faq/risks",
-    "https://docs.hubbleprotocol.io/faq/security",
-    "https://docs.hubbleprotocol.io/faq/security/bug-bounty-program",
-    "https://docs.hubbleprotocol.io/faq/security/security-audits",
-    "https://docs.hubbleprotocol.io/faq/security/security-practices",
-    "https://docs.hubbleprotocol.io/faq/usdh-peg-stability",
-    "https://docs.hubbleprotocol.io/faq/usdh-peg-stability/peg-stability-module",
-    "https://docs.hubbleprotocol.io/faq/usdh-peg-stability/stability-fees",
-    "https://docs.hubbleprotocol.io/faq/usdh-peg-stability/stability-fees",
-    "https://docs.hubbleprotocol.io/faq/usdh-stablecoin",
-    "https://docs.hubbleprotocol.io/faq/usdh-stablecoin/acquire-usdh",
-    "https://docs.hubbleprotocol.io/faq/usdh-stablecoin/use-usdh",
-    "https://docs.hubbleprotocol.io/faq/usdh-vault",
-    "https://docs.hubbleprotocol.io/faq/usdh-vault",
-    "https://docs.hubbleprotocol.io/faq/usdh-vault/hubble-native-yield",
-    "https://docs.hubbleprotocol.io/faq/usdh-vault/stability-vault-liquidations",
-    "https://docs.hubbleprotocol.io/faq/usdh-vault/usdh-vault-model-liquidation",
-    "https://docs.hubbleprotocol.io/resources/community-resources",
-    "https://docs.hubbleprotocol.io/resources/litepaper",
-    "https://docs.hubbleprotocol.io/resources/technical-resources",
-    "https://docs.hubbleprotocol.io/why-use-hubble",
-    "https://docs.hubbleprotocol.io/why-use-hubble",
-    "https://marinade.finance/app/staking/",
-    "https://solana.lido.fi/",
-    "https://twitter.com/hubbleprotocol",
-    "https://www.gitbook.com/?utm_source=content&utm_medium=trademark&utm_campaign=yIf1jDNBmx2V2K9HSZqb"
-]
+{
+    "target_url": "https://docs.hubbleprotocol.io/",
+    "domains": {
+        "app.hubbleprotocol.io": [
+            "https://app.hubbleprotocol.io/?utm_source=Docs&utm_medium=Website&utm_campaign=Documentation_Recurring"
+        ],
+        "blog.hubbleprotocol.io": [
+            "https://blog.hubbleprotocol.io/?utm_source=Docs&utm_medium=Website&utm_campaign=Documentation_Recurring"
+        ],
+        "daopool.monkedao.io": [
+            "https://daopool.monkedao.io/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/7vv3WM8TQn",
+            "https://discord.gg/C4jzzFfVRZ"
+        ],
+        "docs.hubbleprotocol.io": [
+            "https://docs.hubbleprotocol.io/",
+            "https://docs.hubbleprotocol.io/#borrowing-made-easy-cheap-and-attractive",
+            "https://docs.hubbleprotocol.io/#earning-yield-on-collateral",
+            "https://docs.hubbleprotocol.io/#governance-for-the-benefit-of-the-community",
+            "https://docs.hubbleprotocol.io/#make-your-crypto-work-for-you-with-hubble-protocol",
+            "https://docs.hubbleprotocol.io/faq/borrowing",
+            "https://docs.hubbleprotocol.io/faq/borrowing/borrowing-fees",
+            "https://docs.hubbleprotocol.io/faq/borrowing/collateral",
+            "https://docs.hubbleprotocol.io/faq/borrowing/collateral-yield",
+            "https://docs.hubbleprotocol.io/faq/borrowing/loan-auto-close",
+            "https://docs.hubbleprotocol.io/faq/general",
+            "https://docs.hubbleprotocol.io/faq/governance",
+            "https://docs.hubbleprotocol.io/faq/hubble-sdk",
+            "https://docs.hubbleprotocol.io/faq/liquidations",
+            "https://docs.hubbleprotocol.io/faq/liquidations/hybrid-liquidation-model",
+            "https://docs.hubbleprotocol.io/faq/liquidations/liquidation-example",
+            "https://docs.hubbleprotocol.io/faq/liquidations/redistribution",
+            "https://docs.hubbleprotocol.io/faq/mobile-app",
+            "https://docs.hubbleprotocol.io/faq/more-about-hubble",
+            "https://docs.hubbleprotocol.io/faq/risks",
+            "https://docs.hubbleprotocol.io/faq/security",
+            "https://docs.hubbleprotocol.io/faq/security/bug-bounty-program",
+            "https://docs.hubbleprotocol.io/faq/security/security-audits",
+            "https://docs.hubbleprotocol.io/faq/security/security-practices",
+            "https://docs.hubbleprotocol.io/faq/usdh-peg-stability",
+            "https://docs.hubbleprotocol.io/faq/usdh-peg-stability/peg-stability-module",
+            "https://docs.hubbleprotocol.io/faq/usdh-peg-stability/stability-fees",
+            "https://docs.hubbleprotocol.io/faq/usdh-stablecoin",
+            "https://docs.hubbleprotocol.io/faq/usdh-stablecoin/acquire-usdh",
+            "https://docs.hubbleprotocol.io/faq/usdh-stablecoin/use-usdh",
+            "https://docs.hubbleprotocol.io/faq/usdh-vault",
+            "https://docs.hubbleprotocol.io/faq/usdh-vault/hubble-native-yield",
+            "https://docs.hubbleprotocol.io/faq/usdh-vault/stability-vault-liquidations",
+            "https://docs.hubbleprotocol.io/faq/usdh-vault/usdh-vault-model-liquidation",
+            "https://docs.hubbleprotocol.io/resources/community-resources",
+            "https://docs.hubbleprotocol.io/resources/litepaper",
+            "https://docs.hubbleprotocol.io/resources/technical-resources",
+            "https://docs.hubbleprotocol.io/why-use-hubble"
+        ],
+        "marinade.finance": [
+            "https://marinade.finance/app/staking/"
+        ],
+        "solana.lido.fi": [
+            "https://solana.lido.fi/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/hubbleprotocol"
+        ],
+        "www.gitbook.com": [
+            "https://www.gitbook.com/?utm_source=content&utm_medium=trademark&utm_campaign=yIf1jDNBmx2V2K9HSZqb"
+        ]
+    }
+}
