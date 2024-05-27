@@ -43,20 +43,11 @@ building and doubling down on driving Solana DeFi adoption, with:](/hawksight-
 solana-yield-optimizer-nft-upgrade-a87e6a44a52d?source=user_profile---------
 0----------------------------)
 
-[3 min read·Apr 20, 2023](/hawksight-solana-yield-optimizer-nft-
-upgrade-a87e6a44a52d?source=user_profile---------
-0----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fa87e6a44a52d&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
-solana-yield-optimizer-nft-
-upgrade-a87e6a44a52d&user=Hawksight+%7C+Solana+DeFi+Navigator&userId=71a7924bf27d&source=-----a87e6a44a52d
-----0-----------------clap_footer-----------)
-
-\--
+Apr 20, 2023
 
 [](/hawksight-solana-yield-optimizer-nft-
-upgrade-a87e6a44a52d?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------0----------------------------)
+upgrade-a87e6a44a52d?source=user_profile---------
+0----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fa87e6a44a52d&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
 solana-yield-optimizer-nft-upgrade-a87e6a44a52d&source=---------0
@@ -68,16 +59,11 @@ Growth](https://miro.medium.com/v2/resize:fill:160:106/1*RBjKPNB2MAF-I7AAX__PqQ.
 ![Hawksight Solana Yield Optimizer: Supercharing
 Growth](https://miro.medium.com/v2/resize:fill:320:214/1*RBjKPNB2MAF-I7AAX__PqQ.png)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fa87e6a44a52d&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
-solana-yield-optimizer-nft-
-upgrade-a87e6a44a52d&user=Hawksight+%7C+Solana+DeFi+Navigator&userId=71a7924bf27d&source=-----a87e6a44a52d
-----0-----------------clap_footer-----------)
-
-\--
+Apr 20, 2023
 
 [](/hawksight-solana-yield-optimizer-nft-
-upgrade-a87e6a44a52d?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------0----------------------------)
+upgrade-a87e6a44a52d?source=user_profile---------
+0----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fa87e6a44a52d&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
 solana-yield-optimizer-nft-upgrade-a87e6a44a52d&source=---------0
@@ -91,20 +77,10 @@ solana-yield-optimizer-nft-upgrade-a87e6a44a52d&source=---------0
 Product updates](/hawksight-progress-updates-higher-risk-seeking-yields-27th-
 jan23-8a7749d2f14b?source=user_profile---------1----------------------------)
 
-[2 min read·Jan 27, 2023](/hawksight-progress-updates-higher-risk-seeking-
-yields-27th-jan23-8a7749d2f14b?source=user_profile---------
-1----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F8a7749d2f14b&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
-progress-updates-higher-risk-seeking-yields-27th-
-jan23-8a7749d2f14b&user=Hawksight+%7C+Solana+DeFi+Navigator&userId=71a7924bf27d&source=-----8a7749d2f14b
-----1-----------------clap_footer-----------)
-
-\--
+Jan 27, 2023
 
 [](/hawksight-progress-updates-higher-risk-seeking-yields-27th-
-jan23-8a7749d2f14b?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------1----------------------------)
+jan23-8a7749d2f14b?source=user_profile---------1----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8a7749d2f14b&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
 progress-updates-higher-risk-seeking-yields-27th-
@@ -117,16 +93,10 @@ Jan’23\)](https://miro.medium.com/v2/resize:fill:160:106/1*CrWqDAULFebW2iNoF0G
 ![Hawksight Progress Updates — Higher risk-seeking yields \(27th
 Jan’23\)](https://miro.medium.com/v2/resize:fill:320:214/1*CrWqDAULFebW2iNoF0GIwg.png)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F8a7749d2f14b&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
-progress-updates-higher-risk-seeking-yields-27th-
-jan23-8a7749d2f14b&user=Hawksight+%7C+Solana+DeFi+Navigator&userId=71a7924bf27d&source=-----8a7749d2f14b
-----1-----------------clap_footer-----------)
-
-\--
+Jan 27, 2023
 
 [](/hawksight-progress-updates-higher-risk-seeking-yields-27th-
-jan23-8a7749d2f14b?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------1----------------------------)
+jan23-8a7749d2f14b?source=user_profile---------1----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8a7749d2f14b&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
 progress-updates-higher-risk-seeking-yields-27th-
@@ -142,20 +112,10 @@ Product updates](/hawksight-progress-updates-expanding-yield-
 opportunities-13th-jan23-54bf9dd5cf16?source=user_profile---------
 2----------------------------)
 
-[2 min read·Jan 13, 2023](/hawksight-progress-updates-expanding-yield-
-opportunities-13th-jan23-54bf9dd5cf16?source=user_profile---------
-2----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F54bf9dd5cf16&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
-progress-updates-expanding-yield-opportunities-13th-
-jan23-54bf9dd5cf16&user=Hawksight+%7C+Solana+DeFi+Navigator&userId=71a7924bf27d&source=-----54bf9dd5cf16
-----2-----------------clap_footer-----------)
-
-\--
+Jan 13, 2023
 
 [](/hawksight-progress-updates-expanding-yield-opportunities-13th-
-jan23-54bf9dd5cf16?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------2----------------------------)
+jan23-54bf9dd5cf16?source=user_profile---------2----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F54bf9dd5cf16&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
 progress-updates-expanding-yield-opportunities-13th-
@@ -168,16 +128,10 @@ Jan’23\)](https://miro.medium.com/v2/resize:fill:160:106/1*oLNmbHt3Xfbg-2EeitG
 ![Hawksight Progress Updates — Expanding yield opportunities \(13th
 Jan’23\)](https://miro.medium.com/v2/resize:fill:320:214/1*oLNmbHt3Xfbg-2EeitG2RA.png)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F54bf9dd5cf16&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
-progress-updates-expanding-yield-opportunities-13th-
-jan23-54bf9dd5cf16&user=Hawksight+%7C+Solana+DeFi+Navigator&userId=71a7924bf27d&source=-----54bf9dd5cf16
-----2-----------------clap_footer-----------)
-
-\--
+Jan 13, 2023
 
 [](/hawksight-progress-updates-expanding-yield-opportunities-13th-
-jan23-54bf9dd5cf16?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------2----------------------------)
+jan23-54bf9dd5cf16?source=user_profile---------2----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F54bf9dd5cf16&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
 progress-updates-expanding-yield-opportunities-13th-
@@ -193,20 +147,10 @@ Dec’22)✅ Product updates](/hawksight-progress-updates-shipping-hard-this-
 holiday-season-21nd-dec22-a9ecf485e183?source=user_profile---------
 3----------------------------)
 
-[3 min read·Dec 21, 2022](/hawksight-progress-updates-shipping-hard-this-
-holiday-season-21nd-dec22-a9ecf485e183?source=user_profile---------
-3----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fa9ecf485e183&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
-progress-updates-shipping-hard-this-holiday-season-21nd-
-dec22-a9ecf485e183&user=Hawksight+%7C+Solana+DeFi+Navigator&userId=71a7924bf27d&source=-----a9ecf485e183
-----3-----------------clap_footer-----------)
-
-\--
+Dec 21, 2022
 
 [2](/hawksight-progress-updates-shipping-hard-this-holiday-season-21nd-
-dec22-a9ecf485e183?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------3----------------------------)
+dec22-a9ecf485e183?source=user_profile---------3----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fa9ecf485e183&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
 progress-updates-shipping-hard-this-holiday-season-21nd-
@@ -219,16 +163,10 @@ Dec’22\)](https://miro.medium.com/v2/resize:fill:160:106/1*VaCBNRswkXvmUR2Nfaa
 ![Hawksight Progress Updates— Shipping hard this holiday season \(21nd
 Dec’22\)](https://miro.medium.com/v2/resize:fill:320:214/1*VaCBNRswkXvmUR2NfaaIjA.png)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fa9ecf485e183&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
-progress-updates-shipping-hard-this-holiday-season-21nd-
-dec22-a9ecf485e183&user=Hawksight+%7C+Solana+DeFi+Navigator&userId=71a7924bf27d&source=-----a9ecf485e183
-----3-----------------clap_footer-----------)
-
-\--
+Dec 21, 2022
 
 [2](/hawksight-progress-updates-shipping-hard-this-holiday-season-21nd-
-dec22-a9ecf485e183?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------3----------------------------)
+dec22-a9ecf485e183?source=user_profile---------3----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fa9ecf485e183&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
 progress-updates-shipping-hard-this-holiday-season-21nd-
@@ -243,18 +181,9 @@ bookmark_preview-----------)
 work?](/hawk-token-staking-accrual-value-faqs-143decb6c2a9?source=user_profile
 ---------4----------------------------)
 
-[4 min read·Dec 15, 2022](/hawk-token-staking-accrual-value-
-faqs-143decb6c2a9?source=user_profile---------4----------------------------)
+Dec 15, 2022
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F143decb6c2a9&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawk-
-token-staking-accrual-value-
-faqs-143decb6c2a9&user=Hawksight+%7C+Solana+DeFi+Navigator&userId=71a7924bf27d&source=-----143decb6c2a9
-----4-----------------clap_footer-----------)
-
-\--
-
-[](/hawk-token-staking-accrual-value-
-faqs-143decb6c2a9?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+[](/hawk-token-staking-accrual-value-faqs-143decb6c2a9?source=user_profile
 ---------4----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F143decb6c2a9&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawk-
@@ -267,15 +196,9 @@ FAQs](https://miro.medium.com/v2/resize:fill:160:106/1*uYIeDARC6MKjAetfupihbw.pn
 ![$HAWK token staking, accrual value, &
 FAQs](https://miro.medium.com/v2/resize:fill:320:214/1*uYIeDARC6MKjAetfupihbw.png)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F143decb6c2a9&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawk-
-token-staking-accrual-value-
-faqs-143decb6c2a9&user=Hawksight+%7C+Solana+DeFi+Navigator&userId=71a7924bf27d&source=-----143decb6c2a9
-----4-----------------clap_footer-----------)
+Dec 15, 2022
 
-\--
-
-[](/hawk-token-staking-accrual-value-
-faqs-143decb6c2a9?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+[](/hawk-token-staking-accrual-value-faqs-143decb6c2a9?source=user_profile
 ---------4----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F143decb6c2a9&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawk-
@@ -291,20 +214,10 @@ Nov’22)✅ Product updates](/hawksight-biweekly-progress-defi-navigator-frakt-
 integration-25th-nov22-6dc4ec121334?source=user_profile---------
 5----------------------------)
 
-[2 min read·Nov 25, 2022](/hawksight-biweekly-progress-defi-navigator-frakt-
-integration-25th-nov22-6dc4ec121334?source=user_profile---------
-5----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F6dc4ec121334&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
-biweekly-progress-defi-navigator-frakt-integration-25th-
-nov22-6dc4ec121334&user=Hawksight+%7C+Solana+DeFi+Navigator&userId=71a7924bf27d&source=-----6dc4ec121334
-----5-----------------clap_footer-----------)
-
-\--
+Nov 25, 2022
 
 [1](/hawksight-biweekly-progress-defi-navigator-frakt-integration-25th-
-nov22-6dc4ec121334?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------5----------------------------)
+nov22-6dc4ec121334?source=user_profile---------5----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F6dc4ec121334&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
 biweekly-progress-defi-navigator-frakt-integration-25th-
@@ -317,16 +230,10 @@ Nov’22\)](https://miro.medium.com/v2/resize:fill:160:106/1*xOaPEMAs4Js-J15BMb9
 ![Hawksight Biweekly Progress — DeFi Navigator & Frakt integration \(25th
 Nov’22\)](https://miro.medium.com/v2/resize:fill:320:214/1*xOaPEMAs4Js-J15BMb9Kqw.png)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F6dc4ec121334&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
-biweekly-progress-defi-navigator-frakt-integration-25th-
-nov22-6dc4ec121334&user=Hawksight+%7C+Solana+DeFi+Navigator&userId=71a7924bf27d&source=-----6dc4ec121334
-----5-----------------clap_footer-----------)
-
-\--
+Nov 25, 2022
 
 [1](/hawksight-biweekly-progress-defi-navigator-frakt-integration-25th-
-nov22-6dc4ec121334?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------5----------------------------)
+nov22-6dc4ec121334?source=user_profile---------5----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F6dc4ec121334&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
 biweekly-progress-defi-navigator-frakt-integration-25th-
@@ -343,20 +250,10 @@ We are building Solana’s Largest DeFi Yield Aggregator to
 automate…](/hawksight-biweekly-progress-new-ui-finalizing-pfp-art-27th-
 oct22-6528b4483663?source=user_profile---------6----------------------------)
 
-[2 min read·Oct 27, 2022](/hawksight-biweekly-progress-new-ui-finalizing-pfp-
-art-27th-oct22-6528b4483663?source=user_profile---------
-6----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F6528b4483663&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
-biweekly-progress-new-ui-finalizing-pfp-art-27th-
-oct22-6528b4483663&user=Hawksight+%7C+Solana+DeFi+Navigator&userId=71a7924bf27d&source=-----6528b4483663
-----6-----------------clap_footer-----------)
-
-\--
+Oct 27, 2022
 
 [1](/hawksight-biweekly-progress-new-ui-finalizing-pfp-art-27th-
-oct22-6528b4483663?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------6----------------------------)
+oct22-6528b4483663?source=user_profile---------6----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F6528b4483663&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
 biweekly-progress-new-ui-finalizing-pfp-art-27th-
@@ -371,16 +268,10 @@ PFgUJM76DSlQM4wg.png)
 Oct’22\)](https://miro.medium.com/v2/resize:fill:320:214/1*83vSD-
 PFgUJM76DSlQM4wg.png)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F6528b4483663&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
-biweekly-progress-new-ui-finalizing-pfp-art-27th-
-oct22-6528b4483663&user=Hawksight+%7C+Solana+DeFi+Navigator&userId=71a7924bf27d&source=-----6528b4483663
-----6-----------------clap_footer-----------)
-
-\--
+Oct 27, 2022
 
 [1](/hawksight-biweekly-progress-new-ui-finalizing-pfp-art-27th-
-oct22-6528b4483663?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------6----------------------------)
+oct22-6528b4483663?source=user_profile---------6----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F6528b4483663&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
 biweekly-progress-new-ui-finalizing-pfp-art-27th-
@@ -397,20 +288,10 @@ We are building Solana’s Largest DeFi Yield Aggregator to
 automate…](/hawksight-biweekly-progress-hawk-staking-defi-chatbot-13th-
 oct22-bcd55906ba0f?source=user_profile---------7----------------------------)
 
-[3 min read·Oct 13, 2022](/hawksight-biweekly-progress-hawk-staking-defi-
-chatbot-13th-oct22-bcd55906ba0f?source=user_profile---------
-7----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fbcd55906ba0f&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
-biweekly-progress-hawk-staking-defi-chatbot-13th-
-oct22-bcd55906ba0f&user=Hawksight+%7C+Solana+DeFi+Navigator&userId=71a7924bf27d&source=-----bcd55906ba0f
-----7-----------------clap_footer-----------)
-
-\--
+Oct 13, 2022
 
 [2](/hawksight-biweekly-progress-hawk-staking-defi-chatbot-13th-
-oct22-bcd55906ba0f?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------7----------------------------)
+oct22-bcd55906ba0f?source=user_profile---------7----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fbcd55906ba0f&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
 biweekly-progress-hawk-staking-defi-chatbot-13th-
@@ -423,16 +304,10 @@ Oct’22\)](https://miro.medium.com/v2/resize:fill:160:106/1*lLxFjL8dC7ezHERyyHB
 ![Hawksight Biweekly Progress — $HAWK staking & DeFi Chatbot \(13th
 Oct’22\)](https://miro.medium.com/v2/resize:fill:320:214/1*lLxFjL8dC7ezHERyyHBIVg.png)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fbcd55906ba0f&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
-biweekly-progress-hawk-staking-defi-chatbot-13th-
-oct22-bcd55906ba0f&user=Hawksight+%7C+Solana+DeFi+Navigator&userId=71a7924bf27d&source=-----bcd55906ba0f
-----7-----------------clap_footer-----------)
-
-\--
+Oct 13, 2022
 
 [2](/hawksight-biweekly-progress-hawk-staking-defi-chatbot-13th-
-oct22-bcd55906ba0f?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------7----------------------------)
+oct22-bcd55906ba0f?source=user_profile---------7----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fbcd55906ba0f&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
 biweekly-progress-hawk-staking-defi-chatbot-13th-
@@ -449,20 +324,10 @@ Solana’s Largest Yield Aggregator to automate…](/hawksight-weekly-progress-
 certik-audit-completed-29th-sep22-3687e3b0d35d?source=user_profile---------
 8----------------------------)
 
-[3 min read·Sep 29, 2022](/hawksight-weekly-progress-certik-audit-
-completed-29th-sep22-3687e3b0d35d?source=user_profile---------
-8----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F3687e3b0d35d&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
-weekly-progress-certik-audit-completed-29th-
-sep22-3687e3b0d35d&user=Hawksight+%7C+Solana+DeFi+Navigator&userId=71a7924bf27d&source=-----3687e3b0d35d
-----8-----------------clap_footer-----------)
-
-\--
+Sep 29, 2022
 
 [](/hawksight-weekly-progress-certik-audit-completed-29th-
-sep22-3687e3b0d35d?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------8----------------------------)
+sep22-3687e3b0d35d?source=user_profile---------8----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F3687e3b0d35d&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
 weekly-progress-certik-audit-completed-29th-
@@ -477,16 +342,10 @@ cFGqNjefbJcA.png)
 Sep’22\)](https://miro.medium.com/v2/resize:fill:320:214/1*y8kDM_cvS-
 cFGqNjefbJcA.png)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F3687e3b0d35d&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
-weekly-progress-certik-audit-completed-29th-
-sep22-3687e3b0d35d&user=Hawksight+%7C+Solana+DeFi+Navigator&userId=71a7924bf27d&source=-----3687e3b0d35d
-----8-----------------clap_footer-----------)
-
-\--
+Sep 29, 2022
 
 [](/hawksight-weekly-progress-certik-audit-completed-29th-
-sep22-3687e3b0d35d?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------8----------------------------)
+sep22-3687e3b0d35d?source=user_profile---------8----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F3687e3b0d35d&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
 weekly-progress-certik-audit-completed-29th-
@@ -503,20 +362,10 @@ We are building Solana’s Largest Yield Aggregator to automate…](/hawksight-
 weekly-progress-sol-yield-from-port-marinade-22nd-
 sep22-97ec1a6eb4f5?source=user_profile---------9----------------------------)
 
-[3 min read·Sep 22, 2022](/hawksight-weekly-progress-sol-yield-from-port-
-marinade-22nd-sep22-97ec1a6eb4f5?source=user_profile---------
-9----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F97ec1a6eb4f5&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
-weekly-progress-sol-yield-from-port-marinade-22nd-
-sep22-97ec1a6eb4f5&user=Hawksight+%7C+Solana+DeFi+Navigator&userId=71a7924bf27d&source=-----97ec1a6eb4f5
-----9-----------------clap_footer-----------)
-
-\--
+Sep 22, 2022
 
 [](/hawksight-weekly-progress-sol-yield-from-port-marinade-22nd-
-sep22-97ec1a6eb4f5?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------9----------------------------)
+sep22-97ec1a6eb4f5?source=user_profile---------9----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F97ec1a6eb4f5&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
 weekly-progress-sol-yield-from-port-marinade-22nd-
@@ -529,16 +378,10 @@ Sep’22\)](https://miro.medium.com/v2/resize:fill:160:106/1*pp07PzAEybKwNT4iw5x
 ![Hawksight Weekly Progress — SOL yield from Port & Marinade\(22nd
 Sep’22\)](https://miro.medium.com/v2/resize:fill:320:214/1*pp07PzAEybKwNT4iw5x-MA.png)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F97ec1a6eb4f5&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
-weekly-progress-sol-yield-from-port-marinade-22nd-
-sep22-97ec1a6eb4f5&user=Hawksight+%7C+Solana+DeFi+Navigator&userId=71a7924bf27d&source=-----97ec1a6eb4f5
-----9-----------------clap_footer-----------)
-
-\--
+Sep 22, 2022
 
 [](/hawksight-weekly-progress-sol-yield-from-port-marinade-22nd-
-sep22-97ec1a6eb4f5?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------9----------------------------)
+sep22-97ec1a6eb4f5?source=user_profile---------9----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F97ec1a6eb4f5&operation=register&redirect=https%3A%2F%2Fhawksight.medium.com%2Fhawksight-
 weekly-progress-sol-yield-from-port-marinade-22nd-
