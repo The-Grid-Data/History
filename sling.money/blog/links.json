@@ -1,21 +1,40 @@
-[
-    "https://avianlabs.net",
-    "https://intercom.help/sling-money/en/collections/3985639-frequently-asked-questions",
-    "https://sling.money/blog/",
-    "https://sling.money/blog/blog",
-    "https://sling.money/blog/careers",
-    "https://sling.money/blog/download",
-    "https://sling.money/blog/how-to-move-money-between-your-own-accounts",
-    "https://sling.money/blog/how-to-send-a-sling-link",
-    "https://sling.money/blog/how-to-send-money-in-a-different-currency",
-    "https://sling.money/blog/how-to-send-money-to-people-on-sling",
-    "https://sling.money/blog/how-to-withdraw-from-a-sling-link",
-    "https://sling.money/blog/legal",
-    "https://sling.money/blog/team",
-    "https://sling.money/blog/welcome-to-sling",
-    "https://statuspage.incident.io/sling",
-    "https://twitter.com/SlingMoney",
-    "https://www.facebook.com/Sling.Money/",
-    "https://www.instagram.com/Sling.Money/",
-    "https://www.linkedin.com/company/sling-money/"
-]
+{
+    "target_url": "https://sling.money/blog/",
+    "domains": {
+        "avianlabs.net": [
+            "https://avianlabs.net"
+        ],
+        "intercom.help": [
+            "https://intercom.help/sling-money/en/collections/3985639-frequently-asked-questions"
+        ],
+        "sling.money": [
+            "https://sling.money/blog/",
+            "https://sling.money/blog/blog",
+            "https://sling.money/blog/careers",
+            "https://sling.money/blog/download",
+            "https://sling.money/blog/how-to-move-money-between-your-own-accounts",
+            "https://sling.money/blog/how-to-send-a-sling-link",
+            "https://sling.money/blog/how-to-send-money-in-a-different-currency",
+            "https://sling.money/blog/how-to-send-money-to-people-on-sling",
+            "https://sling.money/blog/how-to-withdraw-from-a-sling-link",
+            "https://sling.money/blog/legal",
+            "https://sling.money/blog/team",
+            "https://sling.money/blog/welcome-to-sling"
+        ],
+        "statuspage.incident.io": [
+            "https://statuspage.incident.io/sling"
+        ],
+        "twitter.com": [
+            "https://twitter.com/SlingMoney"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/Sling.Money/"
+        ],
+        "www.instagram.com": [
+            "https://www.instagram.com/Sling.Money/"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/sling-money/"
+        ]
+    }
+}
