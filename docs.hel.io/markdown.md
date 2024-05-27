@@ -225,9 +225,3 @@ On this page
   * Is Helio supported on mobile devices
   * How do I go about getting a refund? Can Helio help me with this?
 
-This site uses cookies to deliver its service and to analyse traffic. By
-browsing this site, you accept the [privacy
-policy](https://info.docs.hel.io/privacy).
-
-AcceptReject
-
