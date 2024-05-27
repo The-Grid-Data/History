@@ -1,0 +1,1153 @@
+<!DOCTYPE html><html lang="en"><head>
+
+    <title>QuickNode - Blockchain API and Node Infrastructure | Blog</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preload" as="style" href="https://blog.quicknode.com/assets/built/screen.css?v=3bf5b7b0f6">
+    <link rel="preload" as="script" href="https://blog.quicknode.com/assets/built/casper.js?v=3bf5b7b0f6">
+
+    <link rel="stylesheet" type="text/css" href="https://blog.quicknode.com/assets/built/screen.css?v=3bf5b7b0f6">
+
+    <meta name="description" content="Catch up on all things QuickNode! Powering Web3 ⚡ with industry-leading blockchain infrastructure on a global network with support for 17+ blockchains 🌎">
+    <link rel="icon" href="https://blog.quicknode.com/content/images/size/w256h256/2022/06/mark.png" type="image/png">
+    <link rel="canonical" href="https://blog.quicknode.com/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <link rel="next" href="https://blog.quicknode.com/page/2/">
+    
+    <meta property="og:site_name" content="QuickNode Blog">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="QuickNode Blog">
+    <meta property="og:description" content="Catch up on all things QuickNode! Powering Web3 ⚡ with industry-leading blockchain infrastructure on a global network with support for 17+ blockchains 🌎">
+    <meta property="og:url" content="https://blog.quicknode.com/">
+    <meta property="og:image" content="https://blog.quicknode.com/content/images/size/w1200/2022/06/preview-2.png">
+    <meta property="article:publisher" content="https://www.facebook.com/quiknode">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="QuickNode Blog">
+    <meta name="twitter:description" content="Catch up on all things QuickNode! Powering Web3 ⚡ with industry-leading blockchain infrastructure on a global network with support for 17+ blockchains 🌎">
+    <meta name="twitter:url" content="https://blog.quicknode.com/">
+    <meta name="twitter:image" content="https://blog.quicknode.com/content/images/size/w1200/2022/06/preview-1.png">
+    <meta name="twitter:site" content="@quicknode">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="600">
+    
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-DYE4XLEMH3&amp;l=dataLayer&amp;cx=c"></script><script type="text/javascript" async="" src="//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"></script><script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "publisher": {
+        "@type": "Organization",
+        "name": "QuickNode Blog",
+        "url": "https://blog.quicknode.com/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://blog.quicknode.com/content/images/2022/06/OnDark-1.png"
+        }
+    },
+    "url": "https://blog.quicknode.com/",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://blog.quicknode.com/content/images/size/w1200/2022/06/bg-1.png",
+        "width": 1200,
+        "height": 440
+    },
+    "mainEntityOfPage": "https://blog.quicknode.com/",
+    "description": "Catch up on all things QuickNode! Powering Web3 ⚡ with industry-leading blockchain infrastructure on a global network with support for 17+ blockchains 🌎"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 5.82">
+    <link rel="alternate" type="application/rss+xml" title="QuickNode Blog" href="https://blog.quicknode.com/rss/">
+    <script defer="" src="https://cdn.jsdelivr.net/ghost/portal@~2.37/umd/portal.min.js" data-i18n="false" data-ghost="https://blog.quicknode.com/" data-key="81305dc93cbecdaaf067c5e2c9" data-api="https://quiknode.ghost.io/ghost/api/content/" crossorigin="anonymous"></script><style id="gh-members-styles">.gh-post-upgrade-cta-content,
+.gh-post-upgrade-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.gh-post-upgrade-cta-content {
+    border-radius: 8px;
+    padding: 40px 4vw;
+}
+
+.gh-post-upgrade-cta h2 {
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: -0.2px;
+    margin: 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta p {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta small {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+}
+
+.gh-post-upgrade-cta a {
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a:hover {
+    color: #ffffff;
+    opacity: 0.8;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a.gh-btn {
+    display: block;
+    background: #ffffff;
+    text-decoration: none;
+    margin: 28px 0 0;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gh-post-upgrade-cta a.gh-btn:hover {
+    opacity: 0.92;
+}</style>
+    <script defer="" src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/sodo-search.min.js" data-key="81305dc93cbecdaaf067c5e2c9" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/main.css" data-sodo-search="https://quiknode.ghost.io/" crossorigin="anonymous"></script>
+    
+    <link href="https://blog.quicknode.com/webmentions/receive/" rel="webmention">
+    <script defer="" src="/public/cards.min.js?v=3bf5b7b0f6"></script>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=3bf5b7b0f6">
+    <script defer="" src="/public/member-attribution.min.js?v=3bf5b7b0f6"></script>
+    <link href="//cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/themes/prism.min.css" rel="stylesheet">
+<script>window.upsettings = {'api_key': '9ee0d9d1-5694c-9ae0a0459'}</script><script>(function(){var w=window;var up=w.Upscribe;if(typeof up==="function"){up('reattach_activator');up('update',upsettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Upscribe=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://upscri.be/js/snippet.js';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if( w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+
+<meta name="google-site-verification" content="LanuoIhN930E3vvE16xPAdPHUNLzWdO2a-r1HpMTAKo">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-102961404-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-102961404-1');
+</script>
+<script type="text/javascript">
+(function(f,b){if(!b.__SV){var e,g,i,h;window.mixpanel=b;b._i=[];b.init=function(e,f,c){function g(a,d){var b=d.split(".");2==b.length&&(a=a[b[0]],d=b[1]);a[d]=function(){a.push([d].concat(Array.prototype.slice.call(arguments,0)))}}var a=b;"undefined"!==typeof c?a=b[c]=[]:c="mixpanel";a.people=a.people||[];a.toString=function(a){var d="mixpanel";"mixpanel"!==c&&(d+="."+c);a||(d+=" (stub)");return d};a.people.toString=function(){return a.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+for(h=0;h<i.length;h++)g(a,i[h]);var j="set set_once union unset remove delete".split(" ");a.get_group=function(){function b(c){d[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));a.push([e,call2])}}for(var d={},e=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<j.length;c++)b(j[c]);return d};b._i.push([e,f,c])};b.__SV=1.2;e=f.createElement("script");e.type="text/javascript";e.async=!0;e.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
+MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";g=f.getElementsByTagName("script")[0];g.parentNode.insertBefore(e,g)}})(document,window.mixpanel||[]);
+
+mixpanel.init('7f193b2b91c87538939243b6a7ad8816', { cross_subdomain_cookie: true }); 
+mixpanel.track_links('a', 'Clicked Blog Link');
+mixpanel.track('Loaded a Page', { type: 'Blog', title: document.title, url: window.location.href, path: window.location.pathname })
+</script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/themes/prism-tomorrow.min.css" integrity="sha512-vswe+cgvic/XBoF1OcM/TeJ2FW0OofqAVdCZiEYkd6dwGXthvkSFWOoGGJgS2CW70VK5dQM5Oh+7ne47s74VTg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<style>:root {--ghost-accent-color: #009FD1;}</style>
+
+<style>.gh-portal-account-header{display:flex;flex-direction:column;align-items:center;margin:0 0 32px}.gh-portal-account-header .gh-portal-avatar{margin:6px 0 8px!important}.gh-portal-account-data{margin-bottom:40px}footer.gh-portal-account-footer{display:flex}.gh-portal-account-footer.paid{margin-top:12px}.gh-portal-account-footermenu{display:flex;align-items:center;list-style:none;padding:0;margin:0}.gh-portal-account-footerright{display:flex;flex-grow:1;align-items:center;justify-content:flex-end}.gh-portal-account-footermenu li{margin-right:16px}.gh-portal-account-footermenu li:last-of-type{margin-right:0}.gh-portal-freeaccount-newsletter{display:flex;align-items:center;justify-content:space-between;margin-top:24px}.gh-portal-freeaccount-newsletter .label{display:flex;flex-direction:column;flex-grow:1}.gh-portal-free-ctatext{margin-top:-12px}.gh-portal-cancelcontinue-container{margin:24px 0 32px}.gh-portal-list-detail .gh-portal-email-notice{display:flex;align-items:center;gap:5px;margin-top:6px;color:var(--red);font-weight:500;font-size:1.25rem;letter-spacing:.2px}.gh-portal-email-notice-icon{width:20px;height:20px}.gh-portal-billing-button-loader{width:32px;height:32px;margin-right:-3px;opacity:.6}.gh-portal-product-icon{width:52px;margin-right:12px;border-radius:2px}.gh-portal-account-discountcontainer{position:relative;display:flex;align-items:center}.gh-portal-account-old-price{text-decoration:line-through;color:var(--grey9)!important}.gh-portal-account-tagicon{width:16px;height:16px;color:var(--brandcolor);margin-right:5px;z-index:999}@media (max-width: 390px){.gh-portal-account-footer{padding:0!important}}@media (max-width: 340px){.gh-portal-account-footer{padding:0!important;flex-wrap:wrap;gap:12px}.gh-portal-account-footer .gh-portal-account-footerright{justify-content:flex-start}}.gh-email-suppressed-page-title{margin-bottom:14px}.gh-email-suppressed-page-icon{display:block;width:38px;height:38px;margin:0 auto 18px}.gh-email-suppressed-page-text{padding:0 14px;text-align:center;color:var(--grey6)}.gh-email-faq-footer-text{color:var(--grey8)}.gh-portal-list-detail.email-newsletter .gh-email-faq-page-button{display:block;margin-top:3px}.gh-portal-action-footer .gh-email-faq-page-button{margin-left:4px}.emailReceivingFAQ .gh-portal-btn-back,.emailReceivingFAQ .gh-portal-btn-back:hover{left:calc(6vmin - 14px)}.emailReceivingFAQ .gh-portal-closeicon-container{right:calc(6vmin - 20px)}@media (max-width: 480px){.emailReceivingFAQ .gh-portal-btn-back,.emailReceivingFAQ .gh-portal-btn-back:hover{left:16px}.emailReceivingFAQ .gh-portal-closeicon-container{right:24px}}.gh-email-faq-page-button{color:var(--brandcolor);cursor:pointer;background:none;transition:color linear .1s;font-size:1.45rem}</style><style>.App{text-align:center}.App-logo{height:40vmin;pointer-events:none}@media (prefers-reduced-motion: no-preference){.App-logo{animation:App-logo-spin infinite 20s linear}}.App-header{background-color:#282c34;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:calc(10px + 2vmin);color:#fff}.App-link{color:#61dafb}@keyframes App-logo-spin{0%{transform:rotate(0)}to{transform:rotate(360deg)}}
+</style><style id="fit-vids-style">.fluid-width-video-container{flex-grow: 1;width:100%;}.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style></head>
+<body class="home-template is-head-left-logo has-cover">
+<div class="viewport">
+
+    <header id="gh-head" class="gh-head outer">
+        <div class="gh-head-inner inner">
+            <div class="gh-head-brand">
+                <a class="gh-head-logo" href="https://blog.quicknode.com">
+                        <img src="https://blog.quicknode.com/content/images/2022/06/OnDark-1.png" alt="QuickNode Blog">
+                </a>
+                <button class="gh-search gh-icon-btn" aria-label="Search this site" data-ghost-search=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></button>
+                <button class="gh-burger" aria-label="Main Menu"></button>
+            </div>
+
+            <nav class="gh-head-menu">
+                <ul class="nav">
+    
+    
+    
+    
+    
+</ul>
+
+            </nav>
+
+            <div class="gh-head-actions">
+                    <button class="gh-search gh-icon-btn" aria-label="Search this site" data-ghost-search=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></button>
+                    <div class="gh-head-members">
+                                <a class="gh-head-link gh-portal-close" href="#/portal/signin" data-portal="signin">Sign in</a>
+                                <a class="gh-head-button gh-portal-close" href="#/portal/signup" data-portal="signup">Subscribe</a>
+                    </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="site-content">
+        
+<div class="site-header-content outer">
+
+            <img class="site-header-cover" srcset="/content/images/size/w300/2022/06/bg-1.png 300w,
+                        /content/images/size/w600/2022/06/bg-1.png 600w,
+                        /content/images/size/w1000/2022/06/bg-1.png 1000w,
+                        /content/images/size/w2000/2022/06/bg-1.png 2000w" sizes="100vw" src="/content/images/size/w2000/2022/06/bg-1.png" alt="QuickNode Blog">
+
+        <div class="site-header-inner inner">
+                    <img class="site-logo" src="https://blog.quicknode.com/content/images/2022/06/OnDark-1.png" alt="QuickNode Blog">
+                <p class="site-description">Powering Web3 with industry-leading blockchain infrastructure ⚡️ Learn, Build, and Scale your app with fast, reliable APIs &amp; tooling across 30+ blockchains 🌎</p>
+        </div>
+
+</div>
+
+<main id="site-main" class="site-main outer">
+<div class="inner posts">
+
+    <div class="post-feed">
+            
+<article class="post-card post tag-feature-fridays post-card-large">
+
+    <a class="post-card-image-link" href="/feature-fridays-functionland/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2024/05/2x1--64-.png 300w,
+                    /content/images/size/w600/2024/05/2x1--64-.png 600w,
+                    /content/images/size/w1000/2024/05/2x1--64-.png 1000w,
+                    /content/images/size/w2000/2024/05/2x1--64-.png 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2024/05/2x1--64-.png" alt="Feature Fridays: Functionland" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/feature-fridays-functionland/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">Feature Fridays</span>
+                </div>
+                <h2 class="post-card-title">
+                    Feature Fridays: Functionland
+                </h2>
+            </header>
+                <div class="post-card-excerpt">Functionland is revolutionizing data storage through cutting-edge decentralized solutions.</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2024-05-24">May 24, 2024</time>
+                <span class="post-card-meta-length">3 min read</span>
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-asset-management tag-blockchain tag-etf tag-bitcoin dynamic">
+
+    <a class="post-card-image-link" href="/blockchain-asset-management-etf-creation/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2024/05/2x1--63-.png 300w,
+                    /content/images/size/w600/2024/05/2x1--63-.png 600w,
+                    /content/images/size/w1000/2024/05/2x1--63-.png 1000w,
+                    /content/images/size/w2000/2024/05/2x1--63-.png 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2024/05/2x1--63-.png" alt="Unbundling Blockchain-Powered ETF Creation and Asset Management" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/blockchain-asset-management-etf-creation/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">Asset Management</span>
+                </div>
+                <h2 class="post-card-title">
+                    Unbundling Blockchain-Powered ETF Creation and Asset Management
+                </h2>
+            </header>
+                <div class="post-card-excerpt">Discover how blockchain is revolutionizing asset management and ETFs, enhancing efficiency and redefining regulatory compliance.</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2024-05-22">May 22, 2024</time>
+                <span class="post-card-meta-length">5 min read</span>
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-streams tag-developer-tools tag-api tag-web3-developer tag-nodejs dynamic">
+
+    <a class="post-card-image-link" href="/traces-filters-for-streams/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2024/05/2x1--61-.png 300w,
+                    /content/images/size/w600/2024/05/2x1--61-.png 600w,
+                    /content/images/size/w1000/2024/05/2x1--61-.png 1000w,
+                    /content/images/size/w2000/2024/05/2x1--61-.png 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2024/05/2x1--61-.png" alt="Your Onchain Data, Now Upgraded: Traces and Filters for Streams" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/traces-filters-for-streams/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">Streams</span>
+                </div>
+                <h2 class="post-card-title">
+                    Your Onchain Data, Now Upgraded: Traces and Filters for Streams
+                </h2>
+            </header>
+                <div class="post-card-excerpt">Streams with Traces and Filters are now available on your QuickNode dashboard for accounts with the Build plan and higher. Get started today and experience the next level of blockchain data management</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2024-05-21">May 21, 2024</time>
+                <span class="post-card-meta-length">5 min read</span>
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-marketplace tag-partnership tag-web3-developer">
+
+    <a class="post-card-image-link" href="/quicknode-marketplace-unleashes-covalents-powerful-blockchain-data-tools/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2024/05/2x1--59-.png 300w,
+                    /content/images/size/w600/2024/05/2x1--59-.png 600w,
+                    /content/images/size/w1000/2024/05/2x1--59-.png 1000w,
+                    /content/images/size/w2000/2024/05/2x1--59-.png 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2024/05/2x1--59-.png" alt="QuickNode Marketplace Unleashes Covalent's Powerful Blockchain Data Tools" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/quicknode-marketplace-unleashes-covalents-powerful-blockchain-data-tools/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">Marketplace</span>
+                </div>
+                <h2 class="post-card-title">
+                    QuickNode Marketplace Unleashes Covalent's Powerful Blockchain Data Tools
+                </h2>
+            </header>
+                <div class="post-card-excerpt">The QuickNode Marketplace just got even better with the addition of 7 powerful add-ons from Covalent, a leading blockchain data solutions provider.</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2024-05-16">May 16, 2024</time>
+                <span class="post-card-meta-length">4 min read</span>
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-appchains tag-rollups tag-raas tag-custom-chains">
+
+    <a class="post-card-image-link" href="/appchain-rollups-quicknode/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2024/05/2x1--58-.png 300w,
+                    /content/images/size/w600/2024/05/2x1--58-.png 600w,
+                    /content/images/size/w1000/2024/05/2x1--58-.png 1000w,
+                    /content/images/size/w2000/2024/05/2x1--58-.png 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2024/05/2x1--58-.png" alt="Quickly Deploy Rollups and AppChains, Without Any Pain" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/appchain-rollups-quicknode/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">AppChains</span>
+                </div>
+                <h2 class="post-card-title">
+                    Quickly Deploy Rollups and AppChains, Without Any Pain
+                </h2>
+            </header>
+                <div class="post-card-excerpt">Discover how QuickNode's Rollups-as-a-Service revolutionizes blockchain development with customized solutions tailored for high performance.</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2024-05-16">May 16, 2024</time>
+                <span class="post-card-meta-length">5 min read</span>
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-cyber tag-account-abstraction tag-ethereum tag-opstack tag-superchain">
+
+    <a class="post-card-image-link" href="/quicknode-cyber-launch/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2024/05/1200x675--4-.png 300w,
+                    /content/images/size/w600/2024/05/1200x675--4-.png 600w,
+                    /content/images/size/w1000/2024/05/1200x675--4-.png 1000w,
+                    /content/images/size/w2000/2024/05/1200x675--4-.png 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2024/05/1200x675--4-.png" alt="QuickNode Launches Cyber Mainnet: An Ethereum L2 Powering Web3 Social" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/quicknode-cyber-launch/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">Cyber</span>
+                </div>
+                <h2 class="post-card-title">
+                    QuickNode Launches Cyber Mainnet: An Ethereum L2 Powering Web3 Social
+                </h2>
+            </header>
+                <div class="post-card-excerpt">Get ready to elevate your web3 social apps with QuickNode’s integration of Cyber Mainnet, the Ethereum L2 platform designed for scalability and flexibility. Discover how QuickNode can boost your project from idea to launch, streamlining your blockchain development journey.</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2024-05-15">May 15, 2024</time>
+                <span class="post-card-meta-length">5 min read</span>
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-feature-fridays">
+
+    <a class="post-card-image-link" href="/feature-fridays-splits/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2024/05/2x1--55--1.png 300w,
+                    /content/images/size/w600/2024/05/2x1--55--1.png 600w,
+                    /content/images/size/w1000/2024/05/2x1--55--1.png 1000w,
+                    /content/images/size/w2000/2024/05/2x1--55--1.png 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2024/05/2x1--55--1.png" alt="Feature Fridays: Splits" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/feature-fridays-splits/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">Feature Fridays</span>
+                </div>
+                <h2 class="post-card-title">
+                    Feature Fridays: Splits
+                </h2>
+            </header>
+                <div class="post-card-excerpt">Splits is transforming financial operations for on-chain teams through cutting-edge blockchain solutions.</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2024-05-10">May 10, 2024</time>
+                <span class="post-card-meta-length">3 min read</span>
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-airdrop tag-blast">
+
+    <a class="post-card-image-link" href="/blast-airdrop-guide-all-you-need-to-know-about-the-blast-airdrop/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2024/05/2x1--53-.png 300w,
+                    /content/images/size/w600/2024/05/2x1--53-.png 600w,
+                    /content/images/size/w1000/2024/05/2x1--53-.png 1000w,
+                    /content/images/size/w2000/2024/05/2x1--53-.png 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2024/05/2x1--53-.png" alt="Blast Airdrop Guide: All You Need to Know About the Blast Airdrop" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/blast-airdrop-guide-all-you-need-to-know-about-the-blast-airdrop/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">Airdrop</span>
+                </div>
+                <h2 class="post-card-title">
+                    Blast Airdrop Guide: All You Need to Know About the Blast Airdrop
+                </h2>
+            </header>
+                <div class="post-card-excerpt">Complete guide to the Blast ($BLAST) airdrop: Understanding eligibility and preparing for the event.</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2024-05-10">May 10, 2024</time>
+                <span class="post-card-meta-length">6 min read</span>
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-airdrop">
+
+    <a class="post-card-image-link" href="/base-airdrop-guide-all-you-need-to-know-about-the-base-airdrop/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2024/05/2x1--56-.png 300w,
+                    /content/images/size/w600/2024/05/2x1--56-.png 600w,
+                    /content/images/size/w1000/2024/05/2x1--56-.png 1000w,
+                    /content/images/size/w2000/2024/05/2x1--56-.png 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2024/05/2x1--56-.png" alt="Base Airdrop Guide: All You Need to Know About the Base Airdrop" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/base-airdrop-guide-all-you-need-to-know-about-the-base-airdrop/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">Airdrop</span>
+                </div>
+                <h2 class="post-card-title">
+                    Base Airdrop Guide: All You Need to Know About the Base Airdrop
+                </h2>
+            </header>
+                <div class="post-card-excerpt">Comprehensive guide to the Base ($Base) airdrop: Explore eligibility and how to prepare for the airdrop.</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2024-05-06">May 6, 2024</time>
+                <span class="post-card-meta-length">6 min read</span>
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post">
+
+    <a class="post-card-image-link" href="/top-defi-trading-tools-of-2024/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2024/04/2x1--39-.png 300w,
+                    /content/images/size/w600/2024/04/2x1--39-.png 600w,
+                    /content/images/size/w1000/2024/04/2x1--39-.png 1000w,
+                    /content/images/size/w2000/2024/04/2x1--39-.png 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2024/04/2x1--39-.png" alt="Best DeFi Trading Tools of 2024" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/top-defi-trading-tools-of-2024/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                </div>
+                <h2 class="post-card-title">
+                    Best DeFi Trading Tools of 2024
+                </h2>
+            </header>
+                <div class="post-card-excerpt">Explore the critical tools that are shaping the DeFi landscape in 2024.</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2024-05-06">May 6, 2024</time>
+                <span class="post-card-meta-length">6 min read</span>
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-feature-fridays">
+
+    <a class="post-card-image-link" href="/feature-fridays-capult/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2024/05/2x1--50-.png 300w,
+                    /content/images/size/w600/2024/05/2x1--50-.png 600w,
+                    /content/images/size/w1000/2024/05/2x1--50-.png 1000w,
+                    /content/images/size/w2000/2024/05/2x1--50-.png 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2024/05/2x1--50-.png" alt="Feature Fridays: Capult" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/feature-fridays-capult/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">Feature Fridays</span>
+                </div>
+                <h2 class="post-card-title">
+                    Feature Fridays: Capult
+                </h2>
+            </header>
+                <div class="post-card-excerpt">Capult is revolutionizing the way Solana builders create and manage blockchain applications through cutting-edge technology.</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2024-05-03">May 3, 2024</time>
+                <span class="post-card-meta-length">4 min read</span>
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-appchains tag-raas tag-rollups">
+
+    <a class="post-card-image-link" href="/deep-dive-into-appchains-and-rollups-as-a-service/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2024/05/2x1--49-.png 300w,
+                    /content/images/size/w600/2024/05/2x1--49-.png 600w,
+                    /content/images/size/w1000/2024/05/2x1--49-.png 1000w,
+                    /content/images/size/w2000/2024/05/2x1--49-.png 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2024/05/2x1--49-.png" alt="A Deep-dive Into Appchains and Rollups-as-a-Service (RaaS)" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/deep-dive-into-appchains-and-rollups-as-a-service/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">AppChains</span>
+                </div>
+                <h2 class="post-card-title">
+                    A Deep-dive Into Appchains and Rollups-as-a-Service (RaaS)
+                </h2>
+            </header>
+                <div class="post-card-excerpt">Appchains are bringing composable scalability to web3 and RaaS is accelerating appchain development. Learn more.</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2024-05-03">May 3, 2024</time>
+                <span class="post-card-meta-length">7 min read</span>
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post">
+
+    <a class="post-card-image-link" href="/quicknode-streams-making-blockchain-data-productive-with-etl-processes/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2024/04/2x1--45-.png 300w,
+                    /content/images/size/w600/2024/04/2x1--45-.png 600w,
+                    /content/images/size/w1000/2024/04/2x1--45-.png 1000w,
+                    /content/images/size/w2000/2024/04/2x1--45-.png 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2024/04/2x1--45-.png" alt="QuickNode Streams: Making Blockchain Data Productive With ETL Processes" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/quicknode-streams-making-blockchain-data-productive-with-etl-processes/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                </div>
+                <h2 class="post-card-title">
+                    QuickNode Streams: Making Blockchain Data Productive With ETL Processes
+                </h2>
+            </header>
+                <div class="post-card-excerpt">Blockchain ETL (Extract, transform, and load) services promise better utilization and monetization of blockchain data. Learn how they make this possible.</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2024-04-25">Apr 25, 2024</time>
+                <span class="post-card-meta-length">4 min read</span>
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-developer-tools tag-ethereum tag-evm tag-infrastructure tag-hyperchains tag-mantle">
+
+    <a class="post-card-image-link" href="/why-choose-quicknode-for-your-mantle-deployment/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2024/04/Social-OG--3-.png 300w,
+                    /content/images/size/w600/2024/04/Social-OG--3-.png 600w,
+                    /content/images/size/w1000/2024/04/Social-OG--3-.png 1000w,
+                    /content/images/size/w2000/2024/04/Social-OG--3-.png 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2024/04/Social-OG--3-.png" alt="Why Choose QuickNode for Your Mantle Deployment?" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/why-choose-quicknode-for-your-mantle-deployment/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">Developer Tools</span>
+                </div>
+                <h2 class="post-card-title">
+                    Why Choose QuickNode for Your Mantle Deployment?
+                </h2>
+            </header>
+                <div class="post-card-excerpt">Discover why QuickNode is the preferred platform for building on Mantle, the innovative Layer 2 solution. Learn how QuickNode simplifies the development process, allowing you to focus on creating high-performance, scalable decentralized applications with ease.</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2024-04-24">Apr 24, 2024</time>
+                <span class="post-card-meta-length">4 min read</span>
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-airdrop tag-solana-2">
+
+    <a class="post-card-image-link" href="/solana-airdrop-guide-all-you-need-to-know-about-airdrops-on-solana/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2024/04/2x1--40-.png 300w,
+                    /content/images/size/w600/2024/04/2x1--40-.png 600w,
+                    /content/images/size/w1000/2024/04/2x1--40-.png 1000w,
+                    /content/images/size/w2000/2024/04/2x1--40-.png 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2024/04/2x1--40-.png" alt="Solana Airdrop Guide: All You Need to Know About Airdrops on Solana 2024" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/solana-airdrop-guide-all-you-need-to-know-about-airdrops-on-solana/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">Airdrop</span>
+                </div>
+                <h2 class="post-card-title">
+                    Solana Airdrop Guide: All You Need to Know About Airdrops on Solana 2024
+                </h2>
+            </header>
+                <div class="post-card-excerpt">Comprehensive guide to airdrops on Solana: Explore eligibility and how to prepare for the airdrops.</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2024-04-22">Apr 22, 2024</time>
+                <span class="post-card-meta-length">7 min read</span>
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-feature-fridays">
+
+    <a class="post-card-image-link" href="/feature-fridays-the-colony/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2024/04/2x1--42-.png 300w,
+                    /content/images/size/w600/2024/04/2x1--42-.png 600w,
+                    /content/images/size/w1000/2024/04/2x1--42-.png 1000w,
+                    /content/images/size/w2000/2024/04/2x1--42-.png 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2024/04/2x1--42-.png" alt="Feature Fridays: The Colony" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/feature-fridays-the-colony/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">Feature Fridays</span>
+                </div>
+                <h2 class="post-card-title">
+                    Feature Fridays: The Colony
+                </h2>
+            </header>
+                <div class="post-card-excerpt">The Colony is revolutionizing the collectibles market through innovative blockchain technology. By leveraging Web3 capabilities, it empowers collectors and resellers to conduct transactions with unprecedented ease, while ensuring transparency and security.</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2024-04-19">Apr 19, 2024</time>
+                <span class="post-card-meta-length">7 min read</span>
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-onchain-report">
+
+    <a class="post-card-image-link" href="/q1-2024-onchain-report/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2024/04/Blog-Post--620-x-400-.png 300w,
+                    /content/images/size/w600/2024/04/Blog-Post--620-x-400-.png 600w,
+                    /content/images/size/w1000/2024/04/Blog-Post--620-x-400-.png 1000w,
+                    /content/images/size/w2000/2024/04/Blog-Post--620-x-400-.png 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2024/04/Blog-Post--620-x-400-.png" alt="QuickNode and Artemis Release Q1 2024 OnChain Report: Bitcoin ETF Kickstarts Crypto Spring with 146% Increase From Q3 in Daily Active Addresses" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/q1-2024-onchain-report/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">OnChain Report</span>
+                </div>
+                <h2 class="post-card-title">
+                    QuickNode and Artemis Release Q1 2024 OnChain Report: Bitcoin ETF Kickstarts Crypto Spring with 146% Increase From Q3 in Daily Active Addresses
+                </h2>
+            </header>
+                <div class="post-card-excerpt">Explore our Q1'24 OnChain Report for insights on blockchain's growth, driven by the recent approval of BTC ETF.</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2024-04-17">Apr 17, 2024</time>
+                <span class="post-card-meta-length">2 min read</span>
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-feature-fridays">
+
+    <a class="post-card-image-link" href="/feature-fridays-nexity-network/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2024/04/2x1--37-.png 300w,
+                    /content/images/size/w600/2024/04/2x1--37-.png 600w,
+                    /content/images/size/w1000/2024/04/2x1--37-.png 1000w,
+                    /content/images/size/w2000/2024/04/2x1--37-.png 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2024/04/2x1--37-.png" alt="Feature Fridays: Nexity Network" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/feature-fridays-nexity-network/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">Feature Fridays</span>
+                </div>
+                <h2 class="post-card-title">
+                    Feature Fridays: Nexity Network
+                </h2>
+            </header>
+                <div class="post-card-excerpt">Nexity Network is revolutionizing global trade and blockchain integration. Through Web3 technology, it empowers businesses to streamline their operations while ensuring transparency and security.</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2024-04-12">Apr 12, 2024</time>
+                <span class="post-card-meta-length">4 min read</span>
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post">
+
+    <a class="post-card-image-link" href="/trade-with-quickalerts/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2024/04/2x1--36-.png 300w,
+                    /content/images/size/w600/2024/04/2x1--36-.png 600w,
+                    /content/images/size/w1000/2024/04/2x1--36-.png 1000w,
+                    /content/images/size/w2000/2024/04/2x1--36-.png 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2024/04/2x1--36-.png" alt="Trade with QuickAlerts to outsmart onchain markets" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/trade-with-quickalerts/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                </div>
+                <h2 class="post-card-title">
+                    Trade with QuickAlerts to outsmart onchain markets
+                </h2>
+            </header>
+                <div class="post-card-excerpt">Utilize QuickAlerts to gain instant access to crucial market movements, including liquidity fluctuations, wallet activity, and the establishment of new pools, empowering traders to maintain a competitive edge in the rapidly evolving cryptocurrency landscape.</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2024-04-11">Apr 11, 2024</time>
+                <span class="post-card-meta-length">6 min read</span>
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post">
+
+    <a class="post-card-image-link" href="/introducing-clusters-by-quicknode/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2024/04/2x1--32-.png 300w,
+                    /content/images/size/w600/2024/04/2x1--32-.png 600w,
+                    /content/images/size/w1000/2024/04/2x1--32-.png 1000w,
+                    /content/images/size/w2000/2024/04/2x1--32-.png 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2024/04/2x1--32-.png" alt="Introducing Dedicated Clusters: Your Ultimate Blockchain Infrastructure Solution" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/introducing-clusters-by-quicknode/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                </div>
+                <h2 class="post-card-title">
+                    Introducing Dedicated Clusters: Your Ultimate Blockchain Infrastructure Solution
+                </h2>
+            </header>
+                <div class="post-card-excerpt">QuickNode is revolutionizing the web3 infrastructure landscape with the launch of Dedicated Clusters, offering unparalleled robustness and redundancy.</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2024-04-09">Apr 9, 2024</time>
+                <span class="post-card-meta-length">4 min read</span>
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-feature-fridays">
+
+    <a class="post-card-image-link" href="/feature-friday-blocksurvey/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2024/04/2x1--29-.png 300w,
+                    /content/images/size/w600/2024/04/2x1--29-.png 600w,
+                    /content/images/size/w1000/2024/04/2x1--29-.png 1000w,
+                    /content/images/size/w2000/2024/04/2x1--29-.png 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2024/04/2x1--29-.png" alt="Feature Fridays: BlockSurvey" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/feature-friday-blocksurvey/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">Feature Fridays</span>
+                </div>
+                <h2 class="post-card-title">
+                    Feature Fridays: BlockSurvey
+                </h2>
+            </header>
+                <div class="post-card-excerpt">BlockSurvey is pioneering the transformation of data collection and privacy, empowering individuals and businesses to securely gather insights while safeguarding respondent privacy through Web3 technology.</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2024-04-05">Apr 5, 2024</time>
+                <span class="post-card-meta-length">3 min read</span>
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post">
+
+    <a class="post-card-image-link" href="/bitcoin-halving-2024/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2024/04/2x1--26-.png 300w,
+                    /content/images/size/w600/2024/04/2x1--26-.png 600w,
+                    /content/images/size/w1000/2024/04/2x1--26-.png 1000w,
+                    /content/images/size/w2000/2024/04/2x1--26-.png 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2024/04/2x1--26-.png" alt="A Quick Guide to the 2024 Bitcoin Halving" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/bitcoin-halving-2024/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                </div>
+                <h2 class="post-card-title">
+                    A Quick Guide to the 2024 Bitcoin Halving
+                </h2>
+            </header>
+                <div class="post-card-excerpt">Bitcoin halving 2024 will reduce the rate of new Bitcoin coming into circulation. Learn more about the event, its history, and its impact.</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2024-04-04">Apr 4, 2024</time>
+                <span class="post-card-meta-length">9 min read</span>
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-feature-fridays">
+
+    <a class="post-card-image-link" href="/feature-fridays-d3coders/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2024/03/2x1--24-.png 300w,
+                    /content/images/size/w600/2024/03/2x1--24-.png 600w,
+                    /content/images/size/w1000/2024/03/2x1--24-.png 1000w,
+                    /content/images/size/w2000/2024/03/2x1--24-.png 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2024/03/2x1--24-.png" alt="Feature Fridays: Decod3rs" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/feature-fridays-d3coders/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">Feature Fridays</span>
+                </div>
+                <h2 class="post-card-title">
+                    Feature Fridays: Decod3rs
+                </h2>
+            </header>
+                <div class="post-card-excerpt">Decod3rs is spearheading the Watch-to-Earn YouTube channel movement, aligning content creators and their communities financially through Web3.</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2024-03-29">Mar 29, 2024</time>
+                <span class="post-card-meta-length">3 min read</span>
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post">
+
+    <a class="post-card-image-link" href="/web3-developer-stack-the-ultimate-guide/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2024/03/Templates-8.png 300w,
+                    /content/images/size/w600/2024/03/Templates-8.png 600w,
+                    /content/images/size/w1000/2024/03/Templates-8.png 1000w,
+                    /content/images/size/w2000/2024/03/Templates-8.png 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2024/03/Templates-8.png" alt="Web3 Developer Stack: The Ultimate Guide" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/web3-developer-stack-the-ultimate-guide/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                </div>
+                <h2 class="post-card-title">
+                    Web3 Developer Stack: The Ultimate Guide
+                </h2>
+            </header>
+                <div class="post-card-excerpt">Learn about the comprehensive suite of tools in the web3 developer stack to gain an edge in building decentralized applications.</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2024-03-27">Mar 27, 2024</time>
+                <span class="post-card-meta-length">12 min read</span>
+        </footer>
+
+    </div>
+
+</article>
+            
+<article class="post-card post tag-feature-fridays">
+
+    <a class="post-card-image-link" href="/feature-fridays-trueblocks/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2024/03/2x1--23-.png 300w,
+                    /content/images/size/w600/2024/03/2x1--23-.png 600w,
+                    /content/images/size/w1000/2024/03/2x1--23-.png 1000w,
+                    /content/images/size/w2000/2024/03/2x1--23-.png 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2024/03/2x1--23-.png" alt="Feature Fridays: TrueBlocks" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/feature-fridays-trueblocks/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                        <span class="post-card-primary-tag">Feature Fridays</span>
+                </div>
+                <h2 class="post-card-title">
+                    Feature Fridays: TrueBlocks
+                </h2>
+            </header>
+                <div class="post-card-excerpt">TrueBlocks is an innovative account-based indexer for EVM chains, revolutionizing the way users access blockchain data directly, bypassing intermediaries for a more transparent and efficient experience.</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2024-03-22">Mar 22, 2024</time>
+                <span class="post-card-meta-length">4 min read</span>
+        </footer>
+
+    </div>
+
+</article>
+    </div>
+
+    <nav class="pagination">
+    <span class="page-number">Page 1 of 11</span>
+        <a class="older-posts" href="/page/2/">Older Posts <span aria-hidden="true">→</span></a>
+</nav>
+
+
+</div>
+</main>
+
+    </div>
+
+    <footer class="site-footer outer">
+        <div class="inner">
+            <section class="copyright"><a href="https://blog.quicknode.com">QuickNode Blog</a> © 2024</section>
+            <nav class="site-footer-nav">
+                
+            </nav>
+            <div class="gh-powered-by"><a href="https://ghost.org/" target="_blank" rel="noopener">Powered by Ghost</a></div>
+        </div>
+    </footer>
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous">
+</script>
+<script src="https://blog.quicknode.com/assets/built/casper.js?v=3bf5b7b0f6"></script>
+<script>
+$(document).ready(function () {
+    // Mobile Menu Trigger
+    $('.gh-burger').click(function () {
+        $('body').toggleClass('gh-head-open');
+    });
+    // FitVids - Makes video embeds responsive
+    $(".gh-content").fitVids();
+});
+</script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/prism.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/components/prism-bash.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/components/prism-css.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/components/prism-html.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/components/prism-js.min.js"></script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/components/prism-java.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/components/prism-markdown.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/components/prism-scala.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/components/prism-wiki.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/components/prism-powershell.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/components/prism-rust.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/components/prism-wiki.min.js"></script>
+
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/components/prism-json.min.js"></script>
+
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async="" defer="" src="//js.hs-scripts.com/21784639.js"></script>
+<!-- End of HubSpot Embed Code -->
+
+<script id="speechkit-module" data-project-id="26404" src="https://proxy.beyondwords.io/npm/@beyondwords/audio-player@latest/dist/module/ghost-helper.js" type="module"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/components/prism-core.min.js" integrity="sha512-9khQRAUBYEJDCDVP2yw3LRUQvjJ0Pjx0EShmaQjcHa6AXiOv6qHQu9lCAIR8O+/D8FtaCoJ2c0Tf9Xo7hYH01Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-fTl/qcO1VgvKtOMApX2PdZzkziyr2stM65GYPLGuYMnuMm1z2JLJG6XVU7C/mR+E7xBUqCivykuhlzfqxXBXbg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+<div id="ghost-portal-root"></div><div id="sodo-search-root"></div></body></html>
