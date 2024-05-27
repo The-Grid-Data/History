@@ -1,8 +1,13 @@
-[
-    "https://nosana.io/_nuxt/img/Nosana_Logo_horizontal_color_white.9b9a5b4.svg",
-    "https://nosana.io/_nuxt/img/compute.5072379.png",
-    "https://nosana.io/_nuxt/img/environment.619f01a.png",
-    "https://nosana.io/_nuxt/img/footer-logo.85bfcff.svg",
-    "https://nosana.io/_nuxt/img/nodes.17b58fa.png",
-    "https://nosana.io/_nuxt/img/swirls-02_animated.7ede33f.svg"
-]
+{
+    "target_url": "https://nosana.io/",
+    "domains": {
+        "nosana.io": [
+            "https://nosana.io/_nuxt/img/Nosana_Logo_horizontal_color_white.9b9a5b4.svg",
+            "https://nosana.io/_nuxt/img/compute.5072379.png",
+            "https://nosana.io/_nuxt/img/environment.619f01a.png",
+            "https://nosana.io/_nuxt/img/footer-logo.85bfcff.svg",
+            "https://nosana.io/_nuxt/img/nodes.17b58fa.png",
+            "https://nosana.io/_nuxt/img/swirls-02_animated.7ede33f.svg"
+        ]
+    }
+}

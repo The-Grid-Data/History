@@ -1,22 +1,33 @@
-[
-    "https://app.nosana.io/stake/",
-    "https://discord.gg/nosana-ai",
-    "https://discord.gg/nosana-ai",
-    "https://docs.nosana.io",
-    "https://docs.nosana.io",
-    "https://docs.nosana.io",
-    "https://github.com/nosana-ci",
-    "https://github.com/nosana-ci",
-    "https://nosana.io/",
-    "https://nosana.io/",
-    "https://nosana.io/blog",
-    "https://nosana.io/contact",
-    "https://nosana.io/team",
-    "https://nosana.io/team",
-    "https://nosana.io/test-grid",
-    "https://nosana.medium.com/",
-    "https://t.me/NosanaCompute",
-    "https://t.me/NosanaCompute",
-    "https://twitter.com/nosana_ai",
-    "https://twitter.com/nosana_ai"
-]
+{
+    "target_url": "https://nosana.io/",
+    "domains": {
+        "app.nosana.io": [
+            "https://app.nosana.io/stake/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/nosana-ai"
+        ],
+        "docs.nosana.io": [
+            "https://docs.nosana.io"
+        ],
+        "github.com": [
+            "https://github.com/nosana-ci"
+        ],
+        "nosana.io": [
+            "https://nosana.io/",
+            "https://nosana.io/blog",
+            "https://nosana.io/contact",
+            "https://nosana.io/team",
+            "https://nosana.io/test-grid"
+        ],
+        "nosana.medium.com": [
+            "https://nosana.medium.com/"
+        ],
+        "t.me": [
+            "https://t.me/NosanaCompute"
+        ],
+        "twitter.com": [
+            "https://twitter.com/nosana_ai"
+        ]
+    }
+}
