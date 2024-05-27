@@ -1,43 +1,41 @@
-[
-    "https://decrypt.co/107521/jump-crypto-plans-solana-validator-client-boost-performance-decentralization",
-    "https://fortune.com/crypto/2022/08/16/jump-crypto-to-build-solana-software-a-second-and-new-validator-client/",
-    "https://github.com/JumpCrypto",
-    "https://github.com/firedancer-io/firedancer",
-    "https://jumpcrypto.com/",
-    "https://jumpcrypto.com/",
-    "https://jumpcrypto.com/brand/",
-    "https://jumpcrypto.com/chronicle/",
-    "https://jumpcrypto.com/collaborations/",
-    "https://jumpcrypto.com/connect/",
-    "https://jumpcrypto.com/connect/",
-    "https://jumpcrypto.com/connect/",
-    "https://jumpcrypto.com/cyclone/",
-    "https://jumpcrypto.com/cyclone/",
-    "https://jumpcrypto.com/cyclone/",
-    "https://jumpcrypto.com/data-protection-and-privacy-policy/",
-    "https://jumpcrypto.com/data-protection-and-privacy-policy/",
-    "https://jumpcrypto.com/firedancer/",
-    "https://jumpcrypto.com/firedancer/",
-    "https://jumpcrypto.com/firedancer/",
-    "https://jumpcrypto.com/media/",
-    "https://jumpcrypto.com/nfa/",
-    "https://jumpcrypto.com/nfa/",
-    "https://jumpcrypto.com/research/",
-    "https://jumpcrypto.com/research/",
-    "https://jumpcrypto.com/research/",
-    "https://jumpcrypto.com/terms-of-use/",
-    "https://jumpcrypto.com/terms-of-use/",
-    "https://jumpcrypto.com/thepit/",
-    "https://jumpcrypto.com/thepit/",
-    "https://jumpcrypto.com/thepit/",
-    "https://jumpcrypto.com/validator-security/",
-    "https://jumpcrypto.com/validator-security/",
-    "https://jumpcrypto.com/writing/",
-    "https://jumpcrypto.com/writing/",
-    "https://jumpcrypto.com/writing/",
-    "https://jumpcrypto.com/writing/",
-    "https://jumpcrypto.com/writing/",
-    "https://twitter.com/jump_",
-    "https://www.alchemy.com/overviews/what-is-firedancer",
-    "https://www.youtube.com/@jump_"
-]
+{
+    "target_url": "https://jumpcrypto.com/firedancer/",
+    "domains": {
+        "decrypt.co": [
+            "https://decrypt.co/107521/jump-crypto-plans-solana-validator-client-boost-performance-decentralization"
+        ],
+        "fortune.com": [
+            "https://fortune.com/crypto/2022/08/16/jump-crypto-to-build-solana-software-a-second-and-new-validator-client/"
+        ],
+        "github.com": [
+            "https://github.com/JumpCrypto",
+            "https://github.com/firedancer-io/firedancer"
+        ],
+        "jumpcrypto.com": [
+            "https://jumpcrypto.com/",
+            "https://jumpcrypto.com/brand/",
+            "https://jumpcrypto.com/chronicle/",
+            "https://jumpcrypto.com/collaborations/",
+            "https://jumpcrypto.com/connect/",
+            "https://jumpcrypto.com/cyclone/",
+            "https://jumpcrypto.com/data-protection-and-privacy-policy/",
+            "https://jumpcrypto.com/firedancer/",
+            "https://jumpcrypto.com/media/",
+            "https://jumpcrypto.com/nfa/",
+            "https://jumpcrypto.com/research/",
+            "https://jumpcrypto.com/terms-of-use/",
+            "https://jumpcrypto.com/thepit/",
+            "https://jumpcrypto.com/validator-security/",
+            "https://jumpcrypto.com/writing/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/jump_"
+        ],
+        "www.alchemy.com": [
+            "https://www.alchemy.com/overviews/what-is-firedancer"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/@jump_"
+        ]
+    }
+}
