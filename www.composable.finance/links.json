@@ -1,73 +1,84 @@
-[
-    "http://discord.gg/composable",
-    "http://discord.gg/composable",
-    "https://app.picasso.network",
-    "https://app.picasso.network",
-    "https://app.trustless.zone/",
-    "https://composable-finance.jobs.personio.com/?language=en",
-    "https://composablefoundation.com",
-    "https://docs.composable.finance/",
-    "https://docs.composable.finance/products/composable-ibc/",
-    "https://docs.composable.finance/products/composable-ibc/",
-    "https://docs.composable.finance/products/composable-ibc/",
-    "https://docs.composable.finance/products/composable-ibc/",
-    "https://docs.composable.finance/technology/cvm",
-    "https://docs.composable.finance/technology/ibc",
-    "https://docs.composable.finance/technology/ibc",
-    "https://docs.composable.finance/technology/mantis",
-    "https://docs.composable.finance/user-guides/",
-    "https://docs.picasso.network",
-    "https://explorer.picasso.network/",
-    "https://github.com/ComposableFi/",
-    "https://github.com/ComposableFi/",
-    "https://mantis.app",
-    "https://mantis.app",
-    "https://mantis.app",
-    "https://medium.com/@Picasso_Network/the-first-solana-ibc-connection-will-soon-be-realized-through-picasso-8bd85c959eaa",
-    "https://picasso.network",
-    "https://picasso.network/",
-    "https://research.composable.finance/",
-    "https://stats.picasso.network/d/b7ec4077-af14-4ac9-8abc-327ce6adecb3/composable-finance-stats-v1-1?orgId=1&refresh=1d",
-    "https://t.me/composable_chat",
-    "https://t.me/composable_chat",
-    "https://twitter.com/ComposableFin",
-    "https://twitter.com/ComposableFin",
-    "https://vaneck.com/",
-    "https://www.composable.finance/",
-    "https://www.composable.finance/",
-    "https://www.composable.finance/",
-    "https://www.composable.finance/",
-    "https://www.composable.finance/",
-    "https://www.composable.finance/",
-    "https://www.composable.finance/",
-    "https://www.composable.finance/",
-    "https://www.composable.finance/",
-    "https://www.composable.finance/",
-    "https://www.composable.finance/",
-    "https://www.composable.finance/",
-    "https://www.composable.finance/",
-    "https://www.composable.finance/",
-    "https://www.composable.finance/#1",
-    "https://www.composable.finance/#hero",
-    "https://www.composable.finance/#w-tabs-0-data-w-pane-0",
-    "https://www.composable.finance/#w-tabs-0-data-w-pane-1",
-    "https://www.composable.finance/#w-tabs-0-data-w-pane-2",
-    "https://www.composable.finance/#w-tabs-0-data-w-pane-3",
-    "https://www.composable.finance/#w-tabs-0-data-w-pane-4",
-    "https://www.composable.finance/#w-tabs-0-data-w-pane-5",
-    "https://www.composable.finance/code-of-conduct",
-    "https://www.composable.finance/community",
-    "https://www.composable.finance/community",
-    "https://www.composable.finance/ecosystem",
-    "https://www.composable.finance/ecosystem#contributors",
-    "https://www.composable.finance/ecosystem#ecosystem",
-    "https://www.composable.finance/ecosystem#ecosystem",
-    "https://www.composable.finance/ecosystem#ecosystem",
-    "https://www.composable.finance/ecosystem#ecosystem",
-    "https://www.composable.finance/ecosystem#ecosystem",
-    "https://www.composable.finance/ecosystem#ecosystem",
-    "https://www.composable.finance/privacy-policy",
-    "https://www.composable.finance/research",
-    "https://www.composable.finance/terms-of-use",
-    "https://www.linkedin.com/company/composable-finance/?originalSubdomain=cy"
-]
+{
+    "target_url": "https://www.composable.finance/",
+    "domains": {
+        "app.picasso.network": [
+            "https://app.picasso.network"
+        ],
+        "app.trustless.zone": [
+            "https://app.trustless.zone/"
+        ],
+        "composable-finance.jobs.personio.com": [
+            "https://composable-finance.jobs.personio.com/?language=en"
+        ],
+        "composablefoundation.com": [
+            "https://composablefoundation.com"
+        ],
+        "discord.gg": [
+            "http://discord.gg/composable"
+        ],
+        "docs.composable.finance": [
+            "https://docs.composable.finance/",
+            "https://docs.composable.finance/products/composable-ibc/",
+            "https://docs.composable.finance/technology/cvm",
+            "https://docs.composable.finance/technology/ibc",
+            "https://docs.composable.finance/technology/mantis",
+            "https://docs.composable.finance/user-guides/"
+        ],
+        "docs.picasso.network": [
+            "https://docs.picasso.network"
+        ],
+        "explorer.picasso.network": [
+            "https://explorer.picasso.network/"
+        ],
+        "github.com": [
+            "https://github.com/ComposableFi/"
+        ],
+        "mantis.app": [
+            "https://mantis.app"
+        ],
+        "medium.com": [
+            "https://medium.com/@Picasso_Network/the-first-solana-ibc-connection-will-soon-be-realized-through-picasso-8bd85c959eaa"
+        ],
+        "picasso.network": [
+            "https://picasso.network",
+            "https://picasso.network/"
+        ],
+        "research.composable.finance": [
+            "https://research.composable.finance/"
+        ],
+        "stats.picasso.network": [
+            "https://stats.picasso.network/d/b7ec4077-af14-4ac9-8abc-327ce6adecb3/composable-finance-stats-v1-1?orgId=1&refresh=1d"
+        ],
+        "t.me": [
+            "https://t.me/composable_chat"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ComposableFin"
+        ],
+        "vaneck.com": [
+            "https://vaneck.com/"
+        ],
+        "www.composable.finance": [
+            "https://www.composable.finance/",
+            "https://www.composable.finance/#1",
+            "https://www.composable.finance/#hero",
+            "https://www.composable.finance/#w-tabs-0-data-w-pane-0",
+            "https://www.composable.finance/#w-tabs-0-data-w-pane-1",
+            "https://www.composable.finance/#w-tabs-0-data-w-pane-2",
+            "https://www.composable.finance/#w-tabs-0-data-w-pane-3",
+            "https://www.composable.finance/#w-tabs-0-data-w-pane-4",
+            "https://www.composable.finance/#w-tabs-0-data-w-pane-5",
+            "https://www.composable.finance/code-of-conduct",
+            "https://www.composable.finance/community",
+            "https://www.composable.finance/ecosystem",
+            "https://www.composable.finance/ecosystem#contributors",
+            "https://www.composable.finance/ecosystem#ecosystem",
+            "https://www.composable.finance/privacy-policy",
+            "https://www.composable.finance/research",
+            "https://www.composable.finance/terms-of-use"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/composable-finance/?originalSubdomain=cy"
+        ]
+    }
+}
