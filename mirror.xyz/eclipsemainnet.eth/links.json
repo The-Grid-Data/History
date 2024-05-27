@@ -1,24 +1,25 @@
-[
-    "https://etherscan.io/enslookup-search?search=eclipselabs.eth",
-    "https://mirror.xyz/",
-    "https://mirror.xyz/eclipselabs.eth",
-    "https://mirror.xyz/eclipselabs.eth",
-    "https://mirror.xyz/eclipselabs.eth",
-    "https://mirror.xyz/eclipselabs.eth",
-    "https://mirror.xyz/eclipselabs.eth",
-    "https://mirror.xyz/eclipselabs.eth",
-    "https://mirror.xyz/eclipselabs.eth",
-    "https://mirror.xyz/eclipselabs.eth/0Q9NufkOPaRfCwi0yFj-_D4eONgscqpr00HGgYCwkHA",
-    "https://mirror.xyz/eclipselabs.eth/0Q9NufkOPaRfCwi0yFj-_D4eONgscqpr00HGgYCwkHA?collectors=true",
-    "https://mirror.xyz/eclipselabs.eth/GTrrYpmxSY1ubQ0SEV5akF7EZXgA2XFr7FEjM3CUuaE",
-    "https://mirror.xyz/eclipselabs.eth/GTrrYpmxSY1ubQ0SEV5akF7EZXgA2XFr7FEjM3CUuaE?collectors=true",
-    "https://mirror.xyz/eclipselabs.eth/STyh7rN2z9OUOPj7e2u30a8FvCr2IGQM3uwemy04tBw",
-    "https://mirror.xyz/eclipselabs.eth/STyh7rN2z9OUOPj7e2u30a8FvCr2IGQM3uwemy04tBw?collectors=true",
-    "https://mirror.xyz/eclipselabs.eth/collection",
-    "https://mirror.xyz/eclipselabs.eth/g_kdlnrbVXTjCMxGChfMMH5ZQcFjwq0VEnRj8FzuO6w",
-    "https://mirror.xyz/eclipselabs.eth/g_kdlnrbVXTjCMxGChfMMH5ZQcFjwq0VEnRj8FzuO6w?collectors=true",
-    "https://mirror.xyz/eclipselabs.eth/me7bXLWJDS177V6nl8j1uzF1mxpX6nbGOLNeyBAwXgs",
-    "https://mirror.xyz/eclipselabs.eth/me7bXLWJDS177V6nl8j1uzF1mxpX6nbGOLNeyBAwXgs?collectors=true",
-    "https://mirror.xyz/eclipselabs.eth/qIYObcXorTNP9EMZ-5R-5ZWBPrvgvWIPUZBAS85xn2Y",
-    "https://mirror.xyz/eclipselabs.eth/qIYObcXorTNP9EMZ-5R-5ZWBPrvgvWIPUZBAS85xn2Y?collectors=true"
-]
+{
+    "target_url": "https://mirror.xyz/eclipsemainnet.eth",
+    "domains": {
+        "etherscan.io": [
+            "https://etherscan.io/enslookup-search?search=eclipselabs.eth"
+        ],
+        "mirror.xyz": [
+            "https://mirror.xyz/",
+            "https://mirror.xyz/eclipselabs.eth",
+            "https://mirror.xyz/eclipselabs.eth/0Q9NufkOPaRfCwi0yFj-_D4eONgscqpr00HGgYCwkHA",
+            "https://mirror.xyz/eclipselabs.eth/0Q9NufkOPaRfCwi0yFj-_D4eONgscqpr00HGgYCwkHA?collectors=true",
+            "https://mirror.xyz/eclipselabs.eth/GTrrYpmxSY1ubQ0SEV5akF7EZXgA2XFr7FEjM3CUuaE",
+            "https://mirror.xyz/eclipselabs.eth/GTrrYpmxSY1ubQ0SEV5akF7EZXgA2XFr7FEjM3CUuaE?collectors=true",
+            "https://mirror.xyz/eclipselabs.eth/STyh7rN2z9OUOPj7e2u30a8FvCr2IGQM3uwemy04tBw",
+            "https://mirror.xyz/eclipselabs.eth/STyh7rN2z9OUOPj7e2u30a8FvCr2IGQM3uwemy04tBw?collectors=true",
+            "https://mirror.xyz/eclipselabs.eth/collection",
+            "https://mirror.xyz/eclipselabs.eth/g_kdlnrbVXTjCMxGChfMMH5ZQcFjwq0VEnRj8FzuO6w",
+            "https://mirror.xyz/eclipselabs.eth/g_kdlnrbVXTjCMxGChfMMH5ZQcFjwq0VEnRj8FzuO6w?collectors=true",
+            "https://mirror.xyz/eclipselabs.eth/me7bXLWJDS177V6nl8j1uzF1mxpX6nbGOLNeyBAwXgs",
+            "https://mirror.xyz/eclipselabs.eth/me7bXLWJDS177V6nl8j1uzF1mxpX6nbGOLNeyBAwXgs?collectors=true",
+            "https://mirror.xyz/eclipselabs.eth/qIYObcXorTNP9EMZ-5R-5ZWBPrvgvWIPUZBAS85xn2Y",
+            "https://mirror.xyz/eclipselabs.eth/qIYObcXorTNP9EMZ-5R-5ZWBPrvgvWIPUZBAS85xn2Y?collectors=true"
+        ]
+    }
+}

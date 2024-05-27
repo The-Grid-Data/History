@@ -1,9 +1,16 @@
-[
-    "https://images.mirror-media.xyz/nft/9xasGo78VH1UthElNTiZ7.png",
-    "https://images.mirror-media.xyz/nft/dDrU7LmIZ6wDHBLSV7UFU.png",
-    "https://images.mirror-media.xyz/publication-images/3tOlekjdL8K_WkzlecrOF.png?height=640&width=1280",
-    "https://images.mirror-media.xyz/publication-images/Xr11e-ocyZuOR28B2qUr7.png?height=1280&width=2560",
-    "https://images.mirror-media.xyz/publication-images/aRq6d6hmCVb-Lcp3wKDg4.png?height=1280&width=2560",
-    "https://images.mirror-media.xyz/publication-images/tsNtJZjm7QEajxkbAbMyQ.png?height=640&width=1280",
-    "https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FJeL4Es8XySKg7rj5NoyR4.jpg%3Fheight%3D720%26width%3D3395&w=3840&q=100"
-]
+{
+    "target_url": "https://mirror.xyz/eclipsemainnet.eth",
+    "domains": {
+        "images.mirror-media.xyz": [
+            "https://images.mirror-media.xyz/nft/9xasGo78VH1UthElNTiZ7.png",
+            "https://images.mirror-media.xyz/nft/dDrU7LmIZ6wDHBLSV7UFU.png",
+            "https://images.mirror-media.xyz/publication-images/3tOlekjdL8K_WkzlecrOF.png?height=640&width=1280",
+            "https://images.mirror-media.xyz/publication-images/Xr11e-ocyZuOR28B2qUr7.png?height=1280&width=2560",
+            "https://images.mirror-media.xyz/publication-images/aRq6d6hmCVb-Lcp3wKDg4.png?height=1280&width=2560",
+            "https://images.mirror-media.xyz/publication-images/tsNtJZjm7QEajxkbAbMyQ.png?height=640&width=1280"
+        ],
+        "mirror.xyz": [
+            "https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FJeL4Es8XySKg7rj5NoyR4.jpg%3Fheight%3D720%26width%3D3395&w=3840&q=100"
+        ]
+    }
+}
