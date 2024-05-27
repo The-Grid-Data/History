@@ -1,42 +1,45 @@
-[
-    "https://apps.apple.com/my/app/decaf-wallet/id1616564038",
-    "https://apps.apple.com/my/app/decaf-wallet/id1616564038",
-    "https://decaf-docs.notion.site/Buy-USDC-29ad4141f382475ea005fb25646ad3a5",
-    "https://decaf-docs.notion.site/How-Social-Logins-work-in-the-Decaf-Wallet-Full-e6e55b3c6cff4ed9ae1aed13e8f9a1d9#7bd2699c1212493a9135d33bb4eb3945",
-    "https://decaf-docs.notion.site/Manage-tokens-ff1f1ed32de742509b48ef26bc04ad42",
-    "https://decaf-docs.notion.site/Onboarding-a4a1af87e06e43b1bbc874ab622ae344",
-    "https://decaf-docs.notion.site/Unlock-bank-deposits-d50f3b57ec924bfab0beb3040960e14c",
-    "https://decaf-docs.notion.site/Wallet-719e79f8f2074fd99643dce91d46c04b",
-    "https://decaf-docs.notion.site/Wallet-719e79f8f2074fd99643dce91d46c04b",
-    "https://discord.com/invite/fVn2THZAkV",
-    "https://discord.com/invite/fVn2THZAkV",
-    "https://discord.com/invite/fVn2THZAkV",
-    "https://discord.com/invite/fVn2THZAkV",
-    "https://medium.com/@Decafpay/how-to-withdraw-cash-from-usdc-at-moneygram-using-the-decaf-wallet-cafbb8669d93",
-    "https://play.google.com/store/apps/details?id=so.decaf.wallet",
-    "https://play.google.com/store/apps/details?id=so.decaf.wallet",
-    "https://twitter.com/Decaf_so",
-    "https://twitter.com/Decaf_so",
-    "https://www.decaf.so/",
-    "https://www.decaf.so/",
-    "https://www.decaf.so/",
-    "https://www.decaf.so/",
-    "https://www.decaf.so/",
-    "https://www.decaf.so/",
-    "https://www.decaf.so/",
-    "https://www.decaf.so/",
-    "https://www.decaf.so/",
-    "https://www.decaf.so/",
-    "https://www.decaf.so/",
-    "https://www.decaf.so/#FAQ",
-    "https://www.decaf.so/#benefits",
-    "https://www.decaf.so/#functions",
-    "https://www.decaf.so/#header",
-    "https://www.decaf.so/#header",
-    "https://www.decaf.so/#testimonials",
-    "https://www.decaf.so/#w-tabs-0-data-w-pane-0",
-    "https://www.decaf.so/#w-tabs-0-data-w-pane-1",
-    "https://www.decaf.so/#w-tabs-0-data-w-pane-2",
-    "https://www.instagram.com/decaf.so/",
-    "https://www.linkedin.com/company/decafpay/"
-]
+{
+    "target_url": "https://www.decaf.so/",
+    "domains": {
+        "apps.apple.com": [
+            "https://apps.apple.com/my/app/decaf-wallet/id1616564038"
+        ],
+        "decaf-docs.notion.site": [
+            "https://decaf-docs.notion.site/Buy-USDC-29ad4141f382475ea005fb25646ad3a5",
+            "https://decaf-docs.notion.site/How-Social-Logins-work-in-the-Decaf-Wallet-Full-e6e55b3c6cff4ed9ae1aed13e8f9a1d9#7bd2699c1212493a9135d33bb4eb3945",
+            "https://decaf-docs.notion.site/Manage-tokens-ff1f1ed32de742509b48ef26bc04ad42",
+            "https://decaf-docs.notion.site/Onboarding-a4a1af87e06e43b1bbc874ab622ae344",
+            "https://decaf-docs.notion.site/Unlock-bank-deposits-d50f3b57ec924bfab0beb3040960e14c",
+            "https://decaf-docs.notion.site/Wallet-719e79f8f2074fd99643dce91d46c04b"
+        ],
+        "discord.com": [
+            "https://discord.com/invite/fVn2THZAkV"
+        ],
+        "medium.com": [
+            "https://medium.com/@Decafpay/how-to-withdraw-cash-from-usdc-at-moneygram-using-the-decaf-wallet-cafbb8669d93"
+        ],
+        "play.google.com": [
+            "https://play.google.com/store/apps/details?id=so.decaf.wallet"
+        ],
+        "twitter.com": [
+            "https://twitter.com/Decaf_so"
+        ],
+        "www.decaf.so": [
+            "https://www.decaf.so/",
+            "https://www.decaf.so/#FAQ",
+            "https://www.decaf.so/#benefits",
+            "https://www.decaf.so/#functions",
+            "https://www.decaf.so/#header",
+            "https://www.decaf.so/#testimonials",
+            "https://www.decaf.so/#w-tabs-0-data-w-pane-0",
+            "https://www.decaf.so/#w-tabs-0-data-w-pane-1",
+            "https://www.decaf.so/#w-tabs-0-data-w-pane-2"
+        ],
+        "www.instagram.com": [
+            "https://www.instagram.com/decaf.so/"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/decafpay/"
+        ]
+    }
+}
