@@ -1,55 +1,132 @@
-[
-    "http://t.me/samoyedcoin",
-    "https://app.kamino.finance/",
-    "https://app.kamino.finance/",
-    "https://banx.gg/",
-    "https://bingx.com/en-us/prices/samoyedcoin/",
-    "https://coinmarketcap.com/currencies/samoyedcoin/",
-    "https://discord.gg/samoyedcoin",
-    "https://discord.gg/samoyedcoin",
-    "https://dogcoincomparison.com/",
-    "https://dune.com/ennnas/samoyedcoin",
-    "https://jup.ag/",
-    "https://jup.ag/swap/USDC-SAMO",
-    "https://latoken.com/exchange/SAMO%5C_USDT",
-    "https://linktr.ee/samoyedcoin",
-    "https://magiceden.io/marketplace/samo_nft",
-    "https://medium.com/@officialsamoyedcoin",
-    "https://opensea.io/collection/samoyed-coin",
-    "https://poloniex.com/trade/SAMO_USDT?type=spot",
-    "https://rain.fi/",
-    "https://raydium.io/",
-    "https://raydium.io/",
-    "https://sharky.fi/",
-    "https://solanart.io/collections/samonft",
-    "https://solend.fi/",
-    "https://solend.fi/",
-    "https://thegivingblock.com/",
-    "https://thegivingblock.com/",
-    "https://tiplink.io/",
-    "https://tulip.garden/",
-    "https://twitter.com/samoyedcoin",
-    "https://twitter.com/samoyedcoin",
-    "https://www.betdex.com/",
-    "https://www.bitget.com/price/samoyedcoin",
-    "https://www.coingecko.com/en/coins/samoyedcoin",
-    "https://www.cube.exchange/trade/SAMOUSDC",
-    "https://www.elusiv.io/",
-    "https://www.elusiv.io/",
-    "https://www.gate.io/trade/SAMO_USDT",
-    "https://www.gemini.com/prices/samoyedcoin",
-    "https://www.instagram.com/officialsamoyedcoin/",
-    "https://www.kraken.com/prices/samoyedcoin",
-    "https://www.marginfi.com/",
-    "https://www.marginfi.com/",
-    "https://www.mexc.com/price/SAMO",
-    "https://www.okx.com/price/samoyedcoin-samo",
-    "https://www.orca.so/",
-    "https://www.orca.so/",
-    "https://www.orca.so/",
-    "https://www.reddit.com/r/SamoyedCoin/",
-    "https://www.shopping.io/",
-    "https://www.step.finance/",
-    "https://www.tensor.trade/trade/samo_nft",
-    "https://www.youtube.com/channel/UCYo0YR51vsWQ4hgtcRClauQ"
-]
+{
+    "target_url": "https://www.samoyedcoin.com/",
+    "domains": {
+        "app.kamino.finance": [
+            "https://app.kamino.finance/"
+        ],
+        "banx.gg": [
+            "https://banx.gg/"
+        ],
+        "bingx.com": [
+            "https://bingx.com/en-us/prices/samoyedcoin/"
+        ],
+        "coinmarketcap.com": [
+            "https://coinmarketcap.com/currencies/samoyedcoin/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/samoyedcoin"
+        ],
+        "dogcoincomparison.com": [
+            "https://dogcoincomparison.com/"
+        ],
+        "dune.com": [
+            "https://dune.com/ennnas/samoyedcoin"
+        ],
+        "jup.ag": [
+            "https://jup.ag/",
+            "https://jup.ag/swap/USDC-SAMO"
+        ],
+        "latoken.com": [
+            "https://latoken.com/exchange/SAMO%5C_USDT"
+        ],
+        "linktr.ee": [
+            "https://linktr.ee/samoyedcoin"
+        ],
+        "magiceden.io": [
+            "https://magiceden.io/marketplace/samo_nft"
+        ],
+        "medium.com": [
+            "https://medium.com/@officialsamoyedcoin"
+        ],
+        "opensea.io": [
+            "https://opensea.io/collection/samoyed-coin"
+        ],
+        "poloniex.com": [
+            "https://poloniex.com/trade/SAMO_USDT?type=spot"
+        ],
+        "rain.fi": [
+            "https://rain.fi/"
+        ],
+        "raydium.io": [
+            "https://raydium.io/"
+        ],
+        "sharky.fi": [
+            "https://sharky.fi/"
+        ],
+        "solanart.io": [
+            "https://solanart.io/collections/samonft"
+        ],
+        "solend.fi": [
+            "https://solend.fi/"
+        ],
+        "t.me": [
+            "http://t.me/samoyedcoin"
+        ],
+        "thegivingblock.com": [
+            "https://thegivingblock.com/"
+        ],
+        "tiplink.io": [
+            "https://tiplink.io/"
+        ],
+        "tulip.garden": [
+            "https://tulip.garden/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/samoyedcoin"
+        ],
+        "www.betdex.com": [
+            "https://www.betdex.com/"
+        ],
+        "www.bitget.com": [
+            "https://www.bitget.com/price/samoyedcoin"
+        ],
+        "www.coingecko.com": [
+            "https://www.coingecko.com/en/coins/samoyedcoin"
+        ],
+        "www.cube.exchange": [
+            "https://www.cube.exchange/trade/SAMOUSDC"
+        ],
+        "www.elusiv.io": [
+            "https://www.elusiv.io/"
+        ],
+        "www.gate.io": [
+            "https://www.gate.io/trade/SAMO_USDT"
+        ],
+        "www.gemini.com": [
+            "https://www.gemini.com/prices/samoyedcoin"
+        ],
+        "www.instagram.com": [
+            "https://www.instagram.com/officialsamoyedcoin/"
+        ],
+        "www.kraken.com": [
+            "https://www.kraken.com/prices/samoyedcoin"
+        ],
+        "www.marginfi.com": [
+            "https://www.marginfi.com/"
+        ],
+        "www.mexc.com": [
+            "https://www.mexc.com/price/SAMO"
+        ],
+        "www.okx.com": [
+            "https://www.okx.com/price/samoyedcoin-samo"
+        ],
+        "www.orca.so": [
+            "https://www.orca.so/"
+        ],
+        "www.reddit.com": [
+            "https://www.reddit.com/r/SamoyedCoin/"
+        ],
+        "www.shopping.io": [
+            "https://www.shopping.io/"
+        ],
+        "www.step.finance": [
+            "https://www.step.finance/"
+        ],
+        "www.tensor.trade": [
+            "https://www.tensor.trade/trade/samo_nft"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/channel/UCYo0YR51vsWQ4hgtcRClauQ"
+        ]
+    }
+}
