@@ -1,27 +1,32 @@
-[
-    "https://app.arcana.markets/",
-    "https://app.arcana.markets/",
-    "https://app.arcana.markets/",
-    "https://app.arcana.markets/",
-    "https://app.arcana.markets/",
-    "https://app.arcana.markets/",
-    "https://app.arcana.markets/data",
-    "https://app.arcana.markets/data",
-    "https://app.arcana.markets/media-kit",
-    "https://app.arcana.markets/swap",
-    "https://app.arcana.markets/swap",
-    "https://app.arcana.markets/vaults/aether",
-    "https://app.arcana.markets/vaults/arcanum",
-    "https://app.arcana.markets/vaults/augury",
-    "https://arcana.markets",
-    "https://discord.gg/7BGB2mZvYW",
-    "https://faucet.arcana.markets",
-    "https://github.com/arcana-markets",
-    "https://github.com/arcana-markets",
-    "https://github.com/arcana-markets/arcana-trading-bot",
-    "https://github.com/arcana-markets/arcana-trading-bot",
-    "https://github.com/arcana-markets/arcana-vaults",
-    "https://github.com/arcana-markets/docs",
-    "https://x.com/arcanamarkets",
-    "https://x.com/arcanamarkets"
-]
+{
+    "target_url": "https://app.arcana.markets/",
+    "domains": {
+        "app.arcana.markets": [
+            "https://app.arcana.markets/",
+            "https://app.arcana.markets/data",
+            "https://app.arcana.markets/media-kit",
+            "https://app.arcana.markets/swap",
+            "https://app.arcana.markets/vaults/aether",
+            "https://app.arcana.markets/vaults/arcanum",
+            "https://app.arcana.markets/vaults/augury"
+        ],
+        "arcana.markets": [
+            "https://arcana.markets"
+        ],
+        "discord.gg": [
+            "https://discord.gg/7BGB2mZvYW"
+        ],
+        "faucet.arcana.markets": [
+            "https://faucet.arcana.markets"
+        ],
+        "github.com": [
+            "https://github.com/arcana-markets",
+            "https://github.com/arcana-markets/arcana-trading-bot",
+            "https://github.com/arcana-markets/arcana-vaults",
+            "https://github.com/arcana-markets/docs"
+        ],
+        "x.com": [
+            "https://x.com/arcanamarkets"
+        ]
+    }
+}
