@@ -1,15 +1,31 @@
-[
-    "https://blog.mayan.finance",
-    "https://blog.mayan.finance",
-    "https://discord.com/invite/h5HUzkqrXK",
-    "https://docs.mayan.finance",
-    "https://docs.mayan.finance",
-    "https://docs.mayan.finance/audits",
-    "https://docs.mayan.finance/integration/swap-widget",
-    "https://explorer.mayan.finance",
-    "https://github.com/mayan-finance",
-    "https://swap.mayan.finance",
-    "https://swap.mayan.finance",
-    "https://twitter.com/mayanfinance",
-    "https://www.npmjs.com/package/@mayanfinance/swap-sdk"
-]
+{
+    "target_url": "https://mayan.finance/",
+    "domains": {
+        "blog.mayan.finance": [
+            "https://blog.mayan.finance"
+        ],
+        "discord.com": [
+            "https://discord.com/invite/h5HUzkqrXK"
+        ],
+        "docs.mayan.finance": [
+            "https://docs.mayan.finance",
+            "https://docs.mayan.finance/audits",
+            "https://docs.mayan.finance/integration/swap-widget"
+        ],
+        "explorer.mayan.finance": [
+            "https://explorer.mayan.finance"
+        ],
+        "github.com": [
+            "https://github.com/mayan-finance"
+        ],
+        "swap.mayan.finance": [
+            "https://swap.mayan.finance"
+        ],
+        "twitter.com": [
+            "https://twitter.com/mayanfinance"
+        ],
+        "www.npmjs.com": [
+            "https://www.npmjs.com/package/@mayanfinance/swap-sdk"
+        ]
+    }
+}
