@@ -1,4 +1,9 @@
-[
-    "https://clone.so/clone_icon.png",
-    "https://clone.so/logo-markets.svg"
-]
+{
+    "target_url": "https://clone.so",
+    "domains": {
+        "clone.so": [
+            "https://clone.so/clone_icon.png",
+            "https://clone.so/logo-markets.svg"
+        ]
+    }
+}
