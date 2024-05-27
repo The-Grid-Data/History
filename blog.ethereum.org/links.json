@@ -1,61 +1,52 @@
-[
-    "http://matomo.ethereum.org/piwik/index.php?module=CoreAdminHome&action=optOut",
-    "https://blog.ethereum.org",
-    "https://blog.ethereum.org",
-    "https://blog.ethereum.org#main-content",
-    "https://blog.ethereum.org/",
-    "https://blog.ethereum.org/",
-    "https://blog.ethereum.org/2024/02/21/zk-grants-round",
-    "https://blog.ethereum.org/2024/02/21/zk-grants-round",
-    "https://blog.ethereum.org/2024/02/27/dencun-mainnet-announcement",
-    "https://blog.ethereum.org/2024/02/27/dencun-mainnet-announcement",
-    "https://blog.ethereum.org/2024/02/29/scholars-stories",
-    "https://blog.ethereum.org/2024/02/29/scholars-stories",
-    "https://blog.ethereum.org/2024/03/14/devcon-sea-venue",
-    "https://blog.ethereum.org/2024/03/14/devcon-sea-venue",
-    "https://blog.ethereum.org/2024/03/21/sepolia-incident",
-    "https://blog.ethereum.org/2024/03/21/sepolia-incident",
-    "https://blog.ethereum.org/2024/04/22/epf-4-recap",
-    "https://blog.ethereum.org/2024/04/22/epf-4-recap",
-    "https://blog.ethereum.org/2024/05/13/epf-5-announcement",
-    "https://blog.ethereum.org/2024/05/13/epf-5-announcement",
-    "https://blog.ethereum.org/2024/05/14/esp-allocation-q124",
-    "https://blog.ethereum.org/2024/05/14/esp-allocation-q124",
-    "https://blog.ethereum.org/2024/05/22/nyota-interop-recap",
-    "https://blog.ethereum.org/2024/05/22/nyota-interop-recap",
-    "https://blog.ethereum.org/archive",
-    "https://blog.ethereum.org/category/ecosystem-support-program",
-    "https://blog.ethereum.org/category/ecosystem-support-program",
-    "https://blog.ethereum.org/category/ecosystem-support-program",
-    "https://blog.ethereum.org/category/ethereum-org",
-    "https://blog.ethereum.org/category/ethereum-org",
-    "https://blog.ethereum.org/category/events",
-    "https://blog.ethereum.org/category/events",
-    "https://blog.ethereum.org/category/events",
-    "https://blog.ethereum.org/category/next-billion",
-    "https://blog.ethereum.org/category/next-billion",
-    "https://blog.ethereum.org/category/next-billion",
-    "https://blog.ethereum.org/category/organizational",
-    "https://blog.ethereum.org/category/organizational",
-    "https://blog.ethereum.org/category/protocol",
-    "https://blog.ethereum.org/category/protocol",
-    "https://blog.ethereum.org/category/research-and-development",
-    "https://blog.ethereum.org/category/research-and-development",
-    "https://blog.ethereum.org/category/research-and-development",
-    "https://blog.ethereum.org/category/research-and-development",
-    "https://blog.ethereum.org/category/research-and-development",
-    "https://blog.ethereum.org/category/research-and-development",
-    "https://blog.ethereum.org/category/research-and-development",
-    "https://blog.ethereum.org/category/security",
-    "https://blog.ethereum.org/category/security",
-    "https://blog.ethereum.org/category/security",
-    "https://blog.ethereum.org/en/feed.xml",
-    "https://blog.ethereum.org/languages",
-    "https://esp.ethereum.foundation/en",
-    "https://ethereum.foundation",
-    "https://ethereum.org",
-    "https://ethereum.org/en/bug-bounty",
-    "https://github.com/ethereum",
-    "https://twitter.com/ethereum",
-    "mailto:info@ethereum.org"
-]
+{
+    "target_url": "https://blog.ethereum.org",
+    "domains": {
+        "": [
+            "mailto:info@ethereum.org"
+        ],
+        "blog.ethereum.org": [
+            "https://blog.ethereum.org",
+            "https://blog.ethereum.org#main-content",
+            "https://blog.ethereum.org/",
+            "https://blog.ethereum.org/2024/02/21/zk-grants-round",
+            "https://blog.ethereum.org/2024/02/27/dencun-mainnet-announcement",
+            "https://blog.ethereum.org/2024/02/29/scholars-stories",
+            "https://blog.ethereum.org/2024/03/14/devcon-sea-venue",
+            "https://blog.ethereum.org/2024/03/21/sepolia-incident",
+            "https://blog.ethereum.org/2024/04/22/epf-4-recap",
+            "https://blog.ethereum.org/2024/05/13/epf-5-announcement",
+            "https://blog.ethereum.org/2024/05/14/esp-allocation-q124",
+            "https://blog.ethereum.org/2024/05/22/nyota-interop-recap",
+            "https://blog.ethereum.org/archive",
+            "https://blog.ethereum.org/category/ecosystem-support-program",
+            "https://blog.ethereum.org/category/ethereum-org",
+            "https://blog.ethereum.org/category/events",
+            "https://blog.ethereum.org/category/next-billion",
+            "https://blog.ethereum.org/category/organizational",
+            "https://blog.ethereum.org/category/protocol",
+            "https://blog.ethereum.org/category/research-and-development",
+            "https://blog.ethereum.org/category/security",
+            "https://blog.ethereum.org/en/feed.xml",
+            "https://blog.ethereum.org/languages"
+        ],
+        "esp.ethereum.foundation": [
+            "https://esp.ethereum.foundation/en"
+        ],
+        "ethereum.foundation": [
+            "https://ethereum.foundation"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org",
+            "https://ethereum.org/en/bug-bounty"
+        ],
+        "github.com": [
+            "https://github.com/ethereum"
+        ],
+        "matomo.ethereum.org": [
+            "http://matomo.ethereum.org/piwik/index.php?module=CoreAdminHome&action=optOut"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ethereum"
+        ]
+    }
+}
