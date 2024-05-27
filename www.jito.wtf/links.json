@@ -1,7 +1,18 @@
-[
-    "https://discord.gg/jito",
-    "https://jito-labs.gitbook.io/mev/references/privacy-policy",
-    "https://jito-labs.gitbook.io/mev/references/terms-of-service",
-    "https://twitter.com/jito_labs",
-    "https://www.jito.wtf/"
-]
+{
+    "target_url": "https://www.jito.wtf/",
+    "domains": {
+        "discord.gg": [
+            "https://discord.gg/jito"
+        ],
+        "jito-labs.gitbook.io": [
+            "https://jito-labs.gitbook.io/mev/references/privacy-policy",
+            "https://jito-labs.gitbook.io/mev/references/terms-of-service"
+        ],
+        "twitter.com": [
+            "https://twitter.com/jito_labs"
+        ],
+        "www.jito.wtf": [
+            "https://www.jito.wtf/"
+        ]
+    }
+}
