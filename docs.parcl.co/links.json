@@ -1,18 +1,26 @@
-[
-    "https://docs.parcl.co/",
-    "https://docs.parcl.co/",
-    "https://docs.parcl.co/addresses",
-    "https://docs.parcl.co/links",
-    "https://docs.parcl.co/protocol-overview",
-    "https://docs.parcl.co/protocol-overview/account-model",
-    "https://docs.parcl.co/protocol-overview/risk-management-and-trading",
-    "https://docs.parcl.co/security",
-    "https://docs.parcl.co/v2-archive",
-    "https://docs.parcl.co/v2-archive/lite-paper",
-    "https://docs.parcl.co/v2-archive/provide-liquidity",
-    "https://docs.parcl.co/v2-archive/security",
-    "https://docs.parcl.co/v2-archive/smart-contracts-+-accounts",
-    "https://docs.parcl.co/v2-archive/trade",
-    "https://www.gitbook.com/?utm_source=content&utm_medium=trademark&utm_campaign=NuZ246vm7kzkKPRrYZr3",
-    "https://www.parcllabs.com/"
-]
+{
+    "target_url": "https://docs.parcl.co/",
+    "domains": {
+        "docs.parcl.co": [
+            "https://docs.parcl.co/",
+            "https://docs.parcl.co/addresses",
+            "https://docs.parcl.co/links",
+            "https://docs.parcl.co/protocol-overview",
+            "https://docs.parcl.co/protocol-overview/account-model",
+            "https://docs.parcl.co/protocol-overview/risk-management-and-trading",
+            "https://docs.parcl.co/security",
+            "https://docs.parcl.co/v2-archive",
+            "https://docs.parcl.co/v2-archive/lite-paper",
+            "https://docs.parcl.co/v2-archive/provide-liquidity",
+            "https://docs.parcl.co/v2-archive/security",
+            "https://docs.parcl.co/v2-archive/smart-contracts-+-accounts",
+            "https://docs.parcl.co/v2-archive/trade"
+        ],
+        "www.gitbook.com": [
+            "https://www.gitbook.com/?utm_source=content&utm_medium=trademark&utm_campaign=NuZ246vm7kzkKPRrYZr3"
+        ],
+        "www.parcllabs.com": [
+            "https://www.parcllabs.com/"
+        ]
+    }
+}
