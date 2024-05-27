@@ -1,17 +1,20 @@
-[
-    "https://superteam.fun/_app/immutable/assets/backpack.91462848.svg",
-    "https://superteam.fun/_app/immutable/assets/blog-card.5a5a9a6e.webp",
-    "https://superteam.fun/_app/immutable/assets/bottom-light.453cf672.svg",
-    "https://superteam.fun/_app/immutable/assets/circle.6534768d.svg",
-    "https://superteam.fun/_app/immutable/assets/foundation.d6de3091.svg",
-    "https://superteam.fun/_app/immutable/assets/left-light.e71073b7.svg",
-    "https://superteam.fun/_app/immutable/assets/mid-light.8215cbce.svg",
-    "https://superteam.fun/_app/immutable/assets/mid-light.8215cbce.svg",
-    "https://superteam.fun/_app/immutable/assets/mid-light.8215cbce.svg",
-    "https://superteam.fun/_app/immutable/assets/podcast-card.b897428b.webp",
-    "https://superteam.fun/_app/immutable/assets/right-light.cb18f64f.svg",
-    "https://superteam.fun/_app/immutable/assets/superteam_footer.f45ab4df.svg",
-    "https://superteam.fun/_app/immutable/assets/top-light.506ddce9.svg",
-    "https://superteam.fun/_app/immutable/assets/top-right-light.6b361ece.svg",
-    "https://superteam.fun/_app/immutable/assets/wormhole.7fe7cb51.svg"
-]
+{
+    "target_url": "https://superteam.fun/",
+    "domains": {
+        "superteam.fun": [
+            "https://superteam.fun/_app/immutable/assets/backpack.91462848.svg",
+            "https://superteam.fun/_app/immutable/assets/blog-card.5a5a9a6e.webp",
+            "https://superteam.fun/_app/immutable/assets/bottom-light.453cf672.svg",
+            "https://superteam.fun/_app/immutable/assets/circle.6534768d.svg",
+            "https://superteam.fun/_app/immutable/assets/foundation.d6de3091.svg",
+            "https://superteam.fun/_app/immutable/assets/left-light.e71073b7.svg",
+            "https://superteam.fun/_app/immutable/assets/mid-light.8215cbce.svg",
+            "https://superteam.fun/_app/immutable/assets/podcast-card.b897428b.webp",
+            "https://superteam.fun/_app/immutable/assets/right-light.cb18f64f.svg",
+            "https://superteam.fun/_app/immutable/assets/superteam_footer.f45ab4df.svg",
+            "https://superteam.fun/_app/immutable/assets/top-light.506ddce9.svg",
+            "https://superteam.fun/_app/immutable/assets/top-right-light.6b361ece.svg",
+            "https://superteam.fun/_app/immutable/assets/wormhole.7fe7cb51.svg"
+        ]
+    }
+}
