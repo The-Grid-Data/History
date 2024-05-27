@@ -1,0 +1,145 @@
+<!DOCTYPE html><html lang="en"><head>
+		<title>SolBlaze</title>
+		<link rel="icon" type="image/png" href="/favicon.png?v=2">
+<link rel="apple-touch-icon" type="image/png" href="/favicon.png?v=2">
+<link rel="stylesheet" type="text/css" href="/style.css?v=117">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://unpkg.com/@solana/web3.js@latest/lib/index.iife.min.js"></script>
+<script src="https://unpkg.com/@solana/spl-token@latest/lib/index.iife.min.js"></script>
+<script src="https://solpay.togatech.org/sdk.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+	</head>
+	<body>
+		<nav>
+			<a href="/">
+				<img class="nav-logo" src="/favicon.png">
+			</a>
+			<div class="nav-links-container">
+	<a class="nav-link" data-nav-id="0" onclick="goto('#/about')">About</a>
+	<a class="nav-link" data-nav-id="1" href="https://solfaucet.togatech.org/" target="_blank">Faucet</a>
+	<a class="nav-link" data-nav-id="2" href="https://solpay.togatech.org/" target="_blank">SDK</a>
+	<a class="nav-link" data-nav-id="3" href="https://stake.solblaze.org/" target="_blank">Stake</a>
+	<a class="nav-link" data-nav-id="4" href="https://rewards.solblaze.org/" target="_blank">Rewards</a>
+</div>
+<div class="btn top-right-button" onclick="goto('#/about')"><i class="fas fa-book"></i> <span>Learn More</span></div>
+<script>
+	window.navlinks = [
+		["/#/about"],
+		[]
+	]
+	function updateNavBar() {
+		if(window.location.hash == "" && window.location.pathname.includes("dashboard")) {
+			window.location.hash = "#/"
+		}
+		let url = (window.location.pathname + window.location.hash).replaceAll(".html", "");
+		let linkElements = document.querySelectorAll(".nav-link");
+		for(let i = 0; i < linkElements.length; i++) {
+			linkElements[i].classList.remove("nav-link-active");
+		}
+		for(let i = 0; i < window.navlinks.length; i++) {
+			if(window.navlinks[i].includes(url)) {
+				document.querySelector(`.nav-link[data-nav-id="${i}"]`).classList.add("nav-link-active");
+				return;
+			}
+		}
+	}
+
+	updateNavBar();
+	window.addEventListener("hashchange", function() {
+		updateNavBar();
+	}, false);
+
+	function goto(hash) {
+		if(window.location.pathname == "/") {
+			document.getElementById(hash.substring(1)).scrollIntoView({
+				behavior: "smooth",
+				block: "start"
+			});
+			setTimeout(() => {
+				window.location.hash = hash;
+			}, 1000);
+		} else {
+			window.location.href = "/" + hash;
+		}
+	}
+</script>		</nav>
+		<div class="solana-logos">
+						<img class="solana-logo" src="/solana.png?v=3" style="left: 10%; top: 25%; transform: translate(-50%, -50%) rotate(45deg);">
+						<img class="solana-logo" src="/solana.png?v=3" style="left: 80%; top: 65%; transform: translate(-50%, -50%) rotate(-30deg);">
+						<img class="solana-logo" src="/solana.png?v=3" style="left: 50%; top: 15%; transform: translate(-50%, -50%) rotate(-55deg);">
+						<img class="solana-logo" src="/solana.png?v=3" style="left: 66%; top: 32%; transform: translate(-50%, -50%) rotate(22deg);">
+						<img class="solana-logo" src="/solana.png?v=3" style="left: 37%; top: 36%; transform: translate(-50%, -50%) rotate(-27deg);">
+						<img class="solana-logo" src="/solana.png?v=3" style="left: 25%; top: 53%; transform: translate(-50%, -50%) rotate(37deg);">
+						<img class="solana-logo" src="/solana.png?v=3" style="left: 80%; top: 20%; transform: translate(-50%, -50%) rotate(27deg);">
+						<img class="solana-logo" src="/solana.png?v=3" style="left: 5%; top: 75%; transform: translate(-50%, -50%) rotate(-15deg);">
+						<img class="solana-logo" src="/solana.png?v=3" style="left: 95%; top: 35%; transform: translate(-50%, -50%) rotate(60deg);">
+					</div>
+		<main>
+			<div class="main-home">
+				<h1 class="title">Introducing SolBlaze,<br>Building Solana's Ecosystem</h1>
+				<div class="features">
+					<p class="feature"><i class="fas fa-check-circle"></i> Liquid Staking Pool</p>
+					<p class="feature"><i class="fas fa-check-circle"></i> Rewards Program</p>
+					<p class="feature"><i class="fas fa-check-circle"></i> Faucet and Games</p>
+					<br>
+					<p class="feature"><i class="fas fa-check-circle"></i> RPC Status</p>
+					<p class="feature"><i class="fas fa-check-circle"></i> Token Minter</p>
+					<p class="feature"><i class="fas fa-check-circle"></i> Payments SDK</p>
+				</div>
+				<button class="btn center-btn large-btn" onclick="goto('#/about')">Learn More!</button>
+			</div>
+			<div class="main-about" id="/about">
+				<div class="cards">
+					<div class="card">
+						<i class="fas fa-money-bill-wave icon"></i>
+						<br>
+						<h3>BlazeStake</h3>
+						<p>We have launched an innovative liquid staking pool that allows you to participate in a DAO-based treasury to support Solana ecosystem projects, join airdrops, or use your liquid tokens in DeFi applications.<br><br><a href="//stake.solblaze.org/" target="_blank">stake.solblaze.org</a></p>
+					</div>
+					<div class="card">
+						<i class="fas fa-bullseye icon"></i>
+						<br>
+						<h3>BlazeRewards</h3>
+						<p>We developed the first-ever global rewards program for SOL liquid staking and DeFi adoption on Solana. To gain rewards, simply stake SOL with BlazeStake and/or use bSOL in the Solana DeFi ecosystem.<br><br><a href="//rewards.solblaze.org/" target="_blank">rewards.solblaze.org</a></p>
+					</div>
+					<div class="card">
+						<i class="fas fa-faucet icon"></i>
+						<br>
+						<h3>SOL Faucet</h3>
+						<p>We built the first-ever mainnet Solana faucet, which allows you to claim daily and play free games to receive some Solana. The faucet is especially useful in emergencies in case you accidentally stake your entire balance.<br><br><a href="//solfaucet.togatech.org/" target="_blank">solfaucet.togatech.org</a></p>
+					</div>
+					<div class="card">
+						<i class="fas fa-project-diagram icon"></i>
+						<br>
+						<h3>Status</h3>
+						<p>We created the first-ever Solana RPC status page, which tracks the uptime of several RPC providers across the Solana ecosystem, including Triton One, GenesysGo, QuickNode, Ankr, and Blockdaemon.<br><br><a href="//status.solblaze.org/" target="_blank">status.solblaze.org</a></p>
+					</div>
+					<div class="card">
+						<i class="fas fa-coins icon"></i>
+						<br>
+						<h3>Token Minter</h3>
+						<p>We set up a simple token minter project to allow you easily mint your own SPL token on Solana. The minting tool uploads metadata to Metaplex and provides a variety of customization features for you.<br><br><a href="//mint.solblaze.org/" target="_blank">mint.solblaze.org</a></p>
+					</div>
+					<div class="card">
+						<i class="fas fa-laptop-code icon"></i>
+						<br>
+						<h3>SOL Pay SDK</h3>
+						<p>We created the first-ever fully non-custodial Solana payments front-end JavaScript SDK, allowing developers to quickly and easily integrate Solana payments into their apps. Transactions go directly from users to developers.<br><br><a href="//solpay.togatech.org/" target="_blank">solpay.togatech.org</a></p>
+					</div>
+					<!-- <div class="card">
+						<i class="fas fa-dollar-sign icon"></i>
+						<br>
+						<h3>BlazeRush</h3>
+						<p>We are currently in the process of setting up a way to use SPL tokens to pay the transaction fee on any Solana transactions or allow users to experience feeless transactions for participating applications.<br><br>Coming Soon</p>
+					</div>
+					<div class="card">
+						<i class="fas fa-wallet icon"></i>
+						<br>
+						<h3>BlazeWallet</h3>
+						<p>In the future, we will create a wallet software with innovative, cutting-edge features such as liquid staking, applications embedded into the wallet, and the ability to pay transaction fees in SPL tokens.<br><br>Coming Soon</p>
+					</div> -->
+				</div>
+			</div>
+		</main>
+	
+</body></html>
