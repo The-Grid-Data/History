@@ -1,4 +1,9 @@
-[
-    "https://docs.nosana.io/assets/logo_color.gif",
-    "https://docs.nosana.io/assets/token.png"
-]
+{
+    "target_url": "https://docs.nosana.io",
+    "domains": {
+        "docs.nosana.io": [
+            "https://docs.nosana.io/assets/logo_color.gif",
+            "https://docs.nosana.io/assets/token.png"
+        ]
+    }
+}
