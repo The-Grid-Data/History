@@ -1,19 +1,20 @@
-[
-    "https://vybenetwork.com/landing/benefits/benefit-1.svg",
-    "https://vybenetwork.com/landing/benefits/benefit-2.svg",
-    "https://vybenetwork.com/landing/benefits/benefit-3.svg",
-    "https://vybenetwork.com/landing/benefits/benefit-4.svg",
-    "https://vybenetwork.com/landing/contact-us/contact-us-icon.svg",
-    "https://vybenetwork.com/landing/endpoints/endpoints-icon.svg",
-    "https://vybenetwork.com/landing/faq/faq-icon.svg",
-    "https://vybenetwork.com/landing/next-level/next-level-icon.svg",
-    "https://vybenetwork.com/landing/plans/business.svg",
-    "https://vybenetwork.com/landing/plans/business.svg",
-    "https://vybenetwork.com/landing/plans/developer.svg",
-    "https://vybenetwork.com/landing/plans/developer.svg",
-    "https://vybenetwork.com/landing/plans/free.svg",
-    "https://vybenetwork.com/landing/plans/free.svg",
-    "https://vybenetwork.com/landing/plans/premium.svg",
-    "https://vybenetwork.com/landing/plans/premium.svg",
-    "https://vybenetwork.com/vybelogo.svg"
-]
+{
+    "target_url": "https://vybenetwork.com",
+    "domains": {
+        "vybenetwork.com": [
+            "https://vybenetwork.com/landing/benefits/benefit-1.svg",
+            "https://vybenetwork.com/landing/benefits/benefit-2.svg",
+            "https://vybenetwork.com/landing/benefits/benefit-3.svg",
+            "https://vybenetwork.com/landing/benefits/benefit-4.svg",
+            "https://vybenetwork.com/landing/contact-us/contact-us-icon.svg",
+            "https://vybenetwork.com/landing/endpoints/endpoints-icon.svg",
+            "https://vybenetwork.com/landing/faq/faq-icon.svg",
+            "https://vybenetwork.com/landing/next-level/next-level-icon.svg",
+            "https://vybenetwork.com/landing/plans/business.svg",
+            "https://vybenetwork.com/landing/plans/developer.svg",
+            "https://vybenetwork.com/landing/plans/free.svg",
+            "https://vybenetwork.com/landing/plans/premium.svg",
+            "https://vybenetwork.com/vybelogo.svg"
+        ]
+    }
+}
