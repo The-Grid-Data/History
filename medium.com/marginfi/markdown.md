@@ -30,7 +30,7 @@ xbDna018PeIGCQ.png)
 
 [marginfi](https://medium.com/marginfi?source=collection_home-------------------------------------)
 
-[349
+[350
 Followers](/marginfi/followers?source=collection_home-------------------------------------)
 
 Follow
