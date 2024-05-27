@@ -1,7 +1,17 @@
-[
-    "https://app.sujiko.trade/",
-    "https://app.sujiko.trade/",
-    "https://discord.com/invite/Qbd7yNcEPS",
-    "https://docs.sujiko.trade/liquidity-mechanism",
-    "https://twitter.com/sujiko_perps"
-]
+{
+    "target_url": "https://sujiko.trade/",
+    "domains": {
+        "app.sujiko.trade": [
+            "https://app.sujiko.trade/"
+        ],
+        "discord.com": [
+            "https://discord.com/invite/Qbd7yNcEPS"
+        ],
+        "docs.sujiko.trade": [
+            "https://docs.sujiko.trade/liquidity-mechanism"
+        ],
+        "twitter.com": [
+            "https://twitter.com/sujiko_perps"
+        ]
+    }
+}
