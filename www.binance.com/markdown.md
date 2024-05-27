@@ -61,7 +61,7 @@ Options](https://www.binance.com/en/download?utm_source=&utm_campaign=)
 
 #
 
-194,663,136
+194,692,846
 
 USERS
 
@@ -84,23 +84,23 @@ Popular
 
 New Listing
 
-[BTCBitcoin$68,423.42-1.04%](/en/price/bitcoin)[ETHEthereum$3,900.21+2.42%](/en/price/ethereum)[BNBBNB$602.10+0.07%](/en/price/bnb)[XRPRipple$0.5284-1.45%](/en/price/xrp)
+[BTCBitcoin$69,013.61-0.16%](/en/price/bitcoin)[ETHEthereum$3,939.91+3.48%](/en/price/ethereum)[BNBBNB$604.50+0.57%](/en/price/bnb)[XRPRipple$0.5353+0.39%](/en/price/xrp)
 
 [View All 350+ Coins](/en/register?registerChannel=homepage)
 
-[NOTNotcoin$0.006823+34.66%](/en/trade/NOT_USDT)[BBBounceBit$0.681+28.56%](/en/trade/BB_USDT)[REZRenzo$0.157+15.70%](/en/trade/REZ_USDT)[OMNIOmni
-Network$20.38+14.62%](/en/trade/OMNI_USDT)
+[NOTNotcoin$0.006895+36.67%](/en/trade/NOT_USDT)[BBBounceBit$0.6665+6.23%](/en/trade/BB_USDT)[REZRenzo$0.1548+8.40%](/en/trade/REZ_USDT)[OMNIOmni
+Network$19.67+11.26%](/en/trade/OMNI_USDT)
 
 [View More Coins](/markets/newListing)
 
-[Ripple's Market Behavior Indicates Uncertainty Among
-Traders](https://www.binance.com/en/square/post/8663250626626)[Top Two MAGA
-Coin Holders Identified As Same
-Entity](https://www.binance.com/en/square/post/8662892389954)[DYdX Chain
-Distributes Over 25 Million USDC To Its Network
-Stakers](https://www.binance.com/en/square/post/8662559003946)[Friend.Tech
-Plans To Migrate To Degen Chain Amidst Unstable Relations With
-Base](https://www.binance.com/en/square/post/8662548011018)
+[PancakeSwap Announces Destruction of Over 8 Million CAKE
+Tokens](https://www.binance.com/en/square/post/8667163150634)[Ethereum Staking
+Infrastructure SSV.Network Announces Expansion
+Plan](https://www.binance.com/en/square/post/8666969859881)[JPMorgan Executive
+Expresses Doubts Over Approval of Altcoin
+ETFs](https://www.binance.com/en/square/post/8666913808450)[Morgan Stanley
+Predicts No Further Approval of Cryptocurrency ETFs by
+SEC](https://www.binance.com/en/square/post/8666840796625)
 
 [View All News](/en/register?registerChannel=homepage_square)
 
