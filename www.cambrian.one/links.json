@@ -1,80 +1,51 @@
-[
-    "https://bitscale.vc/",
-    "https://bitscale.vc/",
-    "https://bitscale.vc/",
-    "https://bitscale.vc/",
-    "https://bitscale.vc/",
-    "https://bitscale.vc/",
-    "https://cambrianone.substack.com/",
-    "https://cambrianone.substack.com/",
-    "https://discord.gg/zBcVXKkteQ",
-    "https://docs.cambrian.one",
-    "https://docs.cambrian.one",
-    "https://docs.cambrian.one/avs-developers-guidelines",
-    "https://docs.cambrian.one/avs-developers-guidelines",
-    "https://docs.cambrian.one/cambrian-ecosystem",
-    "https://docs.cambrian.one/operators-guideline",
-    "https://docs.cambrian.one/operators-guideline",
-    "https://docs.cambrian.one/restaking-guidelines",
-    "https://squads.so/",
-    "https://squads.so/",
-    "https://squads.so/",
-    "https://squads.so/",
-    "https://squads.so/",
-    "https://squads.so/",
-    "https://twitter.com/Austin_Federa",
-    "https://twitter.com/Austin_Federa",
-    "https://twitter.com/Austin_Federa",
-    "https://twitter.com/Austin_Federa",
-    "https://twitter.com/Austin_Federa",
-    "https://twitter.com/Austin_Federa",
-    "https://twitter.com/cambrianone",
-    "https://www.anagram.xyz/",
-    "https://www.anagram.xyz/",
-    "https://www.anagram.xyz/",
-    "https://www.anagram.xyz/",
-    "https://www.anagram.xyz/",
-    "https://www.anagram.xyz/",
-    "https://www.cambrian.one/",
-    "https://www.cambrian.one/",
-    "https://www.cambrian.one/",
-    "https://www.cambrian.one/",
-    "https://www.cambrian.one/",
-    "https://www.cambrian.one/",
-    "https://www.cambrian.one/",
-    "https://www.cambrian.one/",
-    "https://www.cambrian.one/",
-    "https://www.cambrian.one/",
-    "https://www.cambrian.one/privacy-policy",
-    "https://www.cambrian.one/terms-of-use",
-    "https://www.coingecko.com/en/all-cryptocurrencies",
-    "https://www.coingecko.com/en/all-cryptocurrencies",
-    "https://www.coingecko.com/en/all-cryptocurrencies",
-    "https://www.coingecko.com/en/all-cryptocurrencies",
-    "https://www.coingecko.com/en/all-cryptocurrencies",
-    "https://www.coingecko.com/en/all-cryptocurrencies",
-    "https://www.edessa.capital/",
-    "https://www.edessa.capital/",
-    "https://www.edessa.capital/",
-    "https://www.edessa.capital/",
-    "https://www.edessa.capital/",
-    "https://www.edessa.capital/",
-    "https://www.mechanism.capital/",
-    "https://www.mechanism.capital/",
-    "https://www.mechanism.capital/",
-    "https://www.mechanism.capital/",
-    "https://www.mechanism.capital/",
-    "https://www.mechanism.capital/",
-    "https://www.nomadcapital.io/",
-    "https://www.nomadcapital.io/",
-    "https://www.nomadcapital.io/",
-    "https://www.nomadcapital.io/",
-    "https://www.nomadcapital.io/",
-    "https://www.nomadcapital.io/",
-    "https://www.orca.so/",
-    "https://www.orca.so/",
-    "https://www.orca.so/",
-    "https://www.orca.so/",
-    "https://www.orca.so/",
-    "https://www.orca.so/"
-]
+{
+    "target_url": "https://www.cambrian.one/",
+    "domains": {
+        "bitscale.vc": [
+            "https://bitscale.vc/"
+        ],
+        "cambrianone.substack.com": [
+            "https://cambrianone.substack.com/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/zBcVXKkteQ"
+        ],
+        "docs.cambrian.one": [
+            "https://docs.cambrian.one",
+            "https://docs.cambrian.one/avs-developers-guidelines",
+            "https://docs.cambrian.one/cambrian-ecosystem",
+            "https://docs.cambrian.one/operators-guideline",
+            "https://docs.cambrian.one/restaking-guidelines"
+        ],
+        "squads.so": [
+            "https://squads.so/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/Austin_Federa",
+            "https://twitter.com/cambrianone"
+        ],
+        "www.anagram.xyz": [
+            "https://www.anagram.xyz/"
+        ],
+        "www.cambrian.one": [
+            "https://www.cambrian.one/",
+            "https://www.cambrian.one/privacy-policy",
+            "https://www.cambrian.one/terms-of-use"
+        ],
+        "www.coingecko.com": [
+            "https://www.coingecko.com/en/all-cryptocurrencies"
+        ],
+        "www.edessa.capital": [
+            "https://www.edessa.capital/"
+        ],
+        "www.mechanism.capital": [
+            "https://www.mechanism.capital/"
+        ],
+        "www.nomadcapital.io": [
+            "https://www.nomadcapital.io/"
+        ],
+        "www.orca.so": [
+            "https://www.orca.so/"
+        ]
+    }
+}
