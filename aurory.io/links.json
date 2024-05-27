@@ -1,37 +1,54 @@
-[
-    "https://app.aurory.io/",
-    "https://app.aurory.io/",
-    "https://app.aurory.io/",
-    "https://app.aurory.io/",
-    "https://app.aurory.io//collection/nefties",
-    "https://app.aurory.io/amplifier",
-    "https://app.aurory.io/buy-aury",
-    "https://app.aurory.io/marketplace",
-    "https://app.aurory.io/seekers-of-tokane",
-    "https://aurory.io/",
-    "https://aurory.io/about-us/",
-    "https://aurory.io/about-us/",
-    "https://aurory.io/code-of-conduct/",
-    "https://aurory.io/privacy-policy/",
-    "https://aurory.io/terms-of-use/",
-    "https://aurory.substack.com/",
-    "https://aurory.substack.com/?utm_source=substack&utm_medium=web&utm_campaign=reader2&utm_source=%2Fsearch%2Faurory&utm_medium=reader2",
-    "https://discord.gg/aurory",
-    "https://discord.gg/aurory-project-836601552130801676",
-    "https://docs.aurory.io/aurory-faqs/",
-    "https://docs.aurory.io/aurory-faqs/support",
-    "https://docs.aurory.io/aurory-patch-notes/",
-    "https://docs.aurory.io/aurory-patch-notes/",
-    "https://docs.aurory.io/aurory-whitepaper/",
-    "https://docs.aurory.io/aurory-whitepaper/",
-    "https://t.me/aurory_project",
-    "https://twitter.com/AuroryProject",
-    "https://twitter.com/BouncyAUS/status/1623772710651432960",
-    "https://twitter.com/MrkvakEth/status/1586419879820886016",
-    "https://twitter.com/Oriono05/status/1595600354770575360",
-    "https://twitter.com/_Hvarl/status/1629074731671633920",
-    "https://twitter.com/marttineli/status/1628827402489962500",
-    "https://www.instagram.com/auroryproject/",
-    "https://www.twitter.com/AuroryProject",
-    "https://www.youtube.com/channel/UCcJNmpgOE3CpqQls8UH1mRw"
-]
+{
+    "target_url": "https://aurory.io/",
+    "domains": {
+        "app.aurory.io": [
+            "https://app.aurory.io/",
+            "https://app.aurory.io//collection/nefties",
+            "https://app.aurory.io/amplifier",
+            "https://app.aurory.io/buy-aury",
+            "https://app.aurory.io/marketplace",
+            "https://app.aurory.io/seekers-of-tokane"
+        ],
+        "aurory.io": [
+            "https://aurory.io/",
+            "https://aurory.io/about-us/",
+            "https://aurory.io/code-of-conduct/",
+            "https://aurory.io/privacy-policy/",
+            "https://aurory.io/terms-of-use/"
+        ],
+        "aurory.substack.com": [
+            "https://aurory.substack.com/",
+            "https://aurory.substack.com/?utm_source=substack&utm_medium=web&utm_campaign=reader2&utm_source=%2Fsearch%2Faurory&utm_medium=reader2"
+        ],
+        "discord.gg": [
+            "https://discord.gg/aurory",
+            "https://discord.gg/aurory-project-836601552130801676"
+        ],
+        "docs.aurory.io": [
+            "https://docs.aurory.io/aurory-faqs/",
+            "https://docs.aurory.io/aurory-faqs/support",
+            "https://docs.aurory.io/aurory-patch-notes/",
+            "https://docs.aurory.io/aurory-whitepaper/"
+        ],
+        "t.me": [
+            "https://t.me/aurory_project"
+        ],
+        "twitter.com": [
+            "https://twitter.com/AuroryProject",
+            "https://twitter.com/BouncyAUS/status/1623772710651432960",
+            "https://twitter.com/MrkvakEth/status/1586419879820886016",
+            "https://twitter.com/Oriono05/status/1595600354770575360",
+            "https://twitter.com/_Hvarl/status/1629074731671633920",
+            "https://twitter.com/marttineli/status/1628827402489962500"
+        ],
+        "www.instagram.com": [
+            "https://www.instagram.com/auroryproject/"
+        ],
+        "www.twitter.com": [
+            "https://www.twitter.com/AuroryProject"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/channel/UCcJNmpgOE3CpqQls8UH1mRw"
+        ]
+    }
+}
