@@ -1,12 +1,9 @@
-[
-    "https://solblaze.org/favicon.png",
-    "https://solblaze.org/solana.png?v=3",
-    "https://solblaze.org/solana.png?v=3",
-    "https://solblaze.org/solana.png?v=3",
-    "https://solblaze.org/solana.png?v=3",
-    "https://solblaze.org/solana.png?v=3",
-    "https://solblaze.org/solana.png?v=3",
-    "https://solblaze.org/solana.png?v=3",
-    "https://solblaze.org/solana.png?v=3",
-    "https://solblaze.org/solana.png?v=3"
-]
+{
+    "target_url": "https://solblaze.org",
+    "domains": {
+        "solblaze.org": [
+            "https://solblaze.org/favicon.png",
+            "https://solblaze.org/solana.png?v=3"
+        ]
+    }
+}

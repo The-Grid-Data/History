@@ -1,13 +1,26 @@
-[
-    "https://mint.solblaze.org/",
-    "https://rewards.solblaze.org/",
-    "https://rewards.solblaze.org/",
-    "https://solblaze.org/",
-    "https://solfaucet.togatech.org/",
-    "https://solfaucet.togatech.org/",
-    "https://solpay.togatech.org/",
-    "https://solpay.togatech.org/",
-    "https://stake.solblaze.org/",
-    "https://stake.solblaze.org/",
-    "https://status.solblaze.org/"
-]
+{
+    "target_url": "https://solblaze.org",
+    "domains": {
+        "mint.solblaze.org": [
+            "https://mint.solblaze.org/"
+        ],
+        "rewards.solblaze.org": [
+            "https://rewards.solblaze.org/"
+        ],
+        "solblaze.org": [
+            "https://solblaze.org/"
+        ],
+        "solfaucet.togatech.org": [
+            "https://solfaucet.togatech.org/"
+        ],
+        "solpay.togatech.org": [
+            "https://solpay.togatech.org/"
+        ],
+        "stake.solblaze.org": [
+            "https://stake.solblaze.org/"
+        ],
+        "status.solblaze.org": [
+            "https://status.solblaze.org/"
+        ]
+    }
+}
