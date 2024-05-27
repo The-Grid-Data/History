@@ -1,10 +1,19 @@
-[
-    "https://app.meteora.ag",
-    "https://app.meteora.ag",
-    "https://app.meteora.ag/dlmm",
-    "https://app.meteora.ag/vaults",
-    "https://discord.gg/meteora",
-    "https://discord.gg/meteora",
-    "https://proposals.meteora.ag/t/10-lp-stimulus-plan/9",
-    "https://x.com/MeteoraAG/status/1730784233885474869"
-]
+{
+    "target_url": "https://www.meteora.ag",
+    "domains": {
+        "app.meteora.ag": [
+            "https://app.meteora.ag",
+            "https://app.meteora.ag/dlmm",
+            "https://app.meteora.ag/vaults"
+        ],
+        "discord.gg": [
+            "https://discord.gg/meteora"
+        ],
+        "proposals.meteora.ag": [
+            "https://proposals.meteora.ag/t/10-lp-stimulus-plan/9"
+        ],
+        "x.com": [
+            "https://x.com/MeteoraAG/status/1730784233885474869"
+        ]
+    }
+}
