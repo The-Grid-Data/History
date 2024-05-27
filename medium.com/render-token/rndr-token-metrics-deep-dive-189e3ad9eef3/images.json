@@ -1,10 +1,15 @@
-[
-    "https://miro.medium.com/v2/da:true/resize:fit:0/5c50caa54067fd622d2f0fac18392213bf92f6e2fae89b691e62bceb40885e74",
-    "https://miro.medium.com/v2/resize:fill:144:144/1*ZifcaMAG2oeWSwB7vnL59g.png",
-    "https://miro.medium.com/v2/resize:fill:48:48/1*yrGA5gEAmIxsjoW9R54L9Q.png",
-    "https://miro.medium.com/v2/resize:fill:64:64/1*dmbNkD5D-u45r44go_cf0g.png",
-    "https://miro.medium.com/v2/resize:fill:64:64/1*yrGA5gEAmIxsjoW9R54L9Q.png",
-    "https://miro.medium.com/v2/resize:fill:88:88/1*ZifcaMAG2oeWSwB7vnL59g.png",
-    "https://miro.medium.com/v2/resize:fit:700/1*7F1GCjLwyl3fIrfKbm9RBA.png",
-    "https://miro.medium.com/v2/resize:fit:700/1*j-ZXXRESznULYFQcB6jGKQ.png"
-]
+{
+    "target_url": "https://medium.com/render-token/rndr-token-metrics-deep-dive-189e3ad9eef3",
+    "domains": {
+        "miro.medium.com": [
+            "https://miro.medium.com/v2/da:true/resize:fit:0/5c50caa54067fd622d2f0fac18392213bf92f6e2fae89b691e62bceb40885e74",
+            "https://miro.medium.com/v2/resize:fill:144:144/1*ZifcaMAG2oeWSwB7vnL59g.png",
+            "https://miro.medium.com/v2/resize:fill:48:48/1*yrGA5gEAmIxsjoW9R54L9Q.png",
+            "https://miro.medium.com/v2/resize:fill:64:64/1*dmbNkD5D-u45r44go_cf0g.png",
+            "https://miro.medium.com/v2/resize:fill:64:64/1*yrGA5gEAmIxsjoW9R54L9Q.png",
+            "https://miro.medium.com/v2/resize:fill:88:88/1*ZifcaMAG2oeWSwB7vnL59g.png",
+            "https://miro.medium.com/v2/resize:fit:700/1*7F1GCjLwyl3fIrfKbm9RBA.png",
+            "https://miro.medium.com/v2/resize:fit:700/1*j-ZXXRESznULYFQcB6jGKQ.png"
+        ]
+    }
+}
