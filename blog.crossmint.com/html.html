@@ -1,0 +1,1384 @@
+<!DOCTYPE html><html lang="en" class="gh-html-white-background gh-color-section-font-light" data-color-scheme="light"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Crossmint Blog | Learn how and what to build onchain</title>
+
+    <script>
+        const rootElem = document.querySelector("html[data-color-scheme]");
+
+        const detectSystemTheme = () => {
+            if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                rootElem.setAttribute("data-color-scheme", "dark");
+            } else {
+                rootElem.setAttribute("data-color-scheme", "light");
+            }
+        };
+
+        const initTheme = () => {
+            const localStoragePref = localStorage.getItem("color-scheme");
+
+            if (localStoragePref) {
+                rootElem.setAttribute("data-color-scheme", localStoragePref);
+            } else {
+                detectSystemTheme();
+            }
+        };
+
+        initTheme();
+
+        window
+            .matchMedia("(prefers-color-scheme: dark)")
+            .addEventListener("change", () => {
+                if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                    rootElem.setAttribute("data-color-scheme", "dark");
+                } else {
+                    rootElem.setAttribute("data-color-scheme", "light");
+                }
+            });
+    </script>
+
+    <style>
+    :root {
+        --border-radius-buttons: 100px;
+        --border-radius-containers: 8px;
+        --border-radius-tags: 4px;
+
+        --padding-buttons: 12px 22px;
+        --padding-subscribe-button: 20px 28px;
+    }
+</style>
+
+
+
+    <style>
+        :root {
+            --background-custom-color: #ffffff
+        }
+    </style>
+
+    <style>
+        :root {
+            --background-color-button: #03C768;
+        }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<style>
+    :root {
+        --font-family-headings: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+        --font-family-body: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+        --font-family-buttons: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+        --font-family-navigation: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+        --font-family-card-headings: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+
+        --font-weight-headings: 700;
+        --font-weight-navigation: 500;
+        --font-weight-card-heading: 600;
+        --font-weight-tags: 500;
+        --font-weight-footer-subtext: 500;
+        --font-weight-toggle-heading: 600;
+
+        --font-about-primary-line-height: 112%;
+        --font-about-secondary-line-height: 120%;
+        --font-latest-line-height: 116%;
+        --font-subscribe-cta-line-height: 116%;
+        --font-subscribe-sub-cta-line-height: 125%;
+        --font-card-heading-line-height: 116%;
+        --font-latest-card-heading-line-height: 120%;
+        --font-post-text-line-height: 145%;
+
+        --font-size-site-title: 24px;
+        --font-size-about-primary: 64px;
+        --font-size-about-secondary: 24px;
+        --font-size-navigation: 16px;
+        --font-size-main-buttons: 15px;
+        --font-size-subscribe-button: 16px;
+        --font-size-topic-grid-name: 32px;
+        --font-size-topic-grid-link: 15px;
+        --font-size-card-heading: 24px;
+        --font-size-card-heading-large: 28px;
+        --font-size-tags: 16px;
+        --font-size-tags--small: 15px;
+        --font-size-latest-heading: 56px;
+        --font-size-smallgrid-card-heading: 22px;
+        --font-size-subscribe-cta: 40px;
+        --font-size-article-headings: 56px;
+        --font-size-article-headings-wide: 64px;
+        --font-size-post-text: 20px;
+
+        --font-size-tags--laptop: 14px;
+        --font-size-tags--small--laptop: 14px;
+
+        --font-size-subscribe-button--laptop: 15px;
+
+        --letter-spacing-main: normal;
+        --letter-spacing-site-title: normal;
+        --letter-spacing-navigation: normal;
+        --letter-spacing-headings: normal;
+        --letter-spacing-about-secondary: normal;
+        --letter-spacing-card-titles: normal;
+        --letter-spacing-buttons: normal;
+        --letter-spacing-tags: normal;
+
+        --text-transfrom-navigation: normal;
+        --text-transform-tags: normal;
+        --text-transform-buttons: none;
+    }
+</style>
+
+
+
+
+    <link rel="stylesheet" href="https://blog.crossmint.com/assets/built/index.css?v=3ec965a31f">
+
+
+    <meta name="description" content="Crossmint is the leading platform for enterprises to build blockchain use cases. See the latest case studies, Web3 technical guides, and more.">
+    <link rel="icon" href="https://blog.crossmint.com/content/images/size/w256h256/2023/10/Frame-427319726.png" type="image/png">
+    <link rel="canonical" href="https://blog.crossmint.com/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <link rel="next" href="https://blog.crossmint.com/page/2/">
+    
+    <meta property="og:site_name" content="Crossmint Blog">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Crossmint Blog">
+    <meta property="og:description" content="Crossmint is the leading platform for enterprises to build blockchain use cases. See the latest case studies, Web3 technical guides, and more.">
+    <meta property="og:url" content="https://blog.crossmint.com/">
+    <meta property="og:image" content="https://blog.crossmint.com/content/images/size/w1200/2024/05/blog-hero-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Crossmint Blog">
+    <meta name="twitter:description" content="Crossmint is the leading platform for enterprises to build blockchain use cases. See the latest case studies, Web3 technical guides, and more.">
+    <meta name="twitter:url" content="https://blog.crossmint.com/">
+    <meta name="twitter:image" content="https://blog.crossmint.com/content/images/size/w1200/2023/10/Twitter-header-9-2.png">
+    <meta name="twitter:site" content="@crossmint">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="806">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Crossmint Blog",
+        "url": "https://blog.crossmint.com/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://blog.crossmint.com/content/images/2024/01/Dark_Horizontal--1-.png"
+        }
+    },
+    "url": "https://blog.crossmint.com/",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://blog.crossmint.com/content/images/size/w1200/2024/05/blog-hero-image.png",
+        "width": 1200,
+        "height": 806
+    },
+    "mainEntityOfPage": "https://blog.crossmint.com/",
+    "description": "Crossmint is the leading platform for enterprises to build blockchain use cases. See the latest case studies, Web3 technical guides, and more."
+}
+    </script>
+
+    <meta name="generator" content="Ghost 5.82">
+    <link rel="alternate" type="application/rss+xml" title="Crossmint Blog" href="https://blog.crossmint.com/rss/">
+    <script defer="" src="https://cdn.jsdelivr.net/ghost/portal@~2.37/umd/portal.min.js" data-i18n="false" data-ghost="https://blog.crossmint.com/" data-key="0b94c35a01cbb32c0f0d0d72e3" data-api="https://crossmint.ghost.io/ghost/api/content/" crossorigin="anonymous"></script><style id="gh-members-styles">.gh-post-upgrade-cta-content,
+.gh-post-upgrade-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.gh-post-upgrade-cta-content {
+    border-radius: 8px;
+    padding: 40px 4vw;
+}
+
+.gh-post-upgrade-cta h2 {
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: -0.2px;
+    margin: 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta p {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta small {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+}
+
+.gh-post-upgrade-cta a {
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a:hover {
+    color: #ffffff;
+    opacity: 0.8;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a.gh-btn {
+    display: block;
+    background: #ffffff;
+    text-decoration: none;
+    margin: 28px 0 0;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gh-post-upgrade-cta a.gh-btn:hover {
+    opacity: 0.92;
+}</style><script async="" src="https://js.stripe.com/v3/"></script>
+    <script defer="" src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/sodo-search.min.js" data-key="0b94c35a01cbb32c0f0d0d72e3" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/main.css" data-sodo-search="https://crossmint.ghost.io/" crossorigin="anonymous"></script>
+    
+    <link href="https://blog.crossmint.com/webmentions/receive/" rel="webmention">
+    <script defer="" src="/public/cards.min.js?v=3ec965a31f"></script>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=3ec965a31f">
+    <script defer="" src="/public/member-attribution.min.js?v=3ec965a31f"></script>
+    <!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-N2RGG346MR"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N2RGG346MR');
+
+</script>
+
+
+<style>
+  /* hide title on main page featured image */
+ .gh-hero-big-featured-post__title {
+    display: none;
+  }
+
+ .gh-hero-big-featured-post__excerpt {
+    display: none;
+  }
+  /* fix margin between author/date and tags */
+  .gh-hero-big-featured-post__tags-wrapper {
+    margin-top: 0;
+  }
+  /* change how dim the feature image is */
+  .gh-hero-big-featured-post-image {
+    filter: brightness(100%);
+  }
+  .gh-featured-tiles-big-post:hover .gh-featured-tiles-big-post-image {
+    filter: brightness(80%) !important;
+  }
+  /* fixes related to brightening the feature image */
+  .gh-featured-tiles-big-post-meta {
+    background-color: rgba(0,0,0, 0.6);
+    padding: 5px 15px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+  }
+  .gh-featured-tiles-big-post .gh-transparent-tag,
+  .gh-featured-tiles-big-post .gh-transparent-tag-icon {
+    background-color: rgba(0,0,0, 0.6);
+  }
+@media (max-width: 550px) {
+  .gh-featured-tiles-post-image {
+    height: 142px;
+    min-height: 142px;
+    min-width: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  .gh-featured-tiles-big-post {
+    height: 60vw;
+  }
+}
+  .gh-card-img-video-wrapper:before {
+	content: "";
+	float: left;
+	padding-top: 56.25%;
+ }
+.gh-foot-slider .swiper-wrapper .swiper-slide.gh-foot-slider-slide img {
+	content: "";
+	float: left;
+	padding-top: 45.25%;
+    visibility: hidden;
+ }
+
+
+
+  .gh-hero-section--right-slider .gh-hero-slider .swiper-wrapper .swiper-slide.gh-hero-slider-slide img {
+	content: "";
+	float: left;
+	padding-top: 45.25%;
+ }
+  .gh-article-page-content>h2 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .gh-article-page-content>h3 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+.gh-post-content pre>code {
+    min-width: 920px !important;
+}
+
+  .gh-tag-page__post-feed-wrapper {
+    padding-top: 40px;
+}
+
+.gh-footer-cover-image-wrapper {
+    right: 0px;
+    top: 0;
+    width: auto;
+    object-fit: contain;
+}
+</style>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/themes/prism-tomorrow.min.css" integrity="sha512-vswe+cgvic/XBoF1OcM/TeJ2FW0OofqAVdCZiEYkd6dwGXthvkSFWOoGGJgS2CW70VK5dQM5Oh+7ne47s74VTg==" crossorigin="anonymous" referrerpolicy="no-referrer"><style>:root {--ghost-accent-color: #03C768;}</style>
+<style>.gh-portal-account-header{display:flex;flex-direction:column;align-items:center;margin:0 0 32px}.gh-portal-account-header .gh-portal-avatar{margin:6px 0 8px!important}.gh-portal-account-data{margin-bottom:40px}footer.gh-portal-account-footer{display:flex}.gh-portal-account-footer.paid{margin-top:12px}.gh-portal-account-footermenu{display:flex;align-items:center;list-style:none;padding:0;margin:0}.gh-portal-account-footerright{display:flex;flex-grow:1;align-items:center;justify-content:flex-end}.gh-portal-account-footermenu li{margin-right:16px}.gh-portal-account-footermenu li:last-of-type{margin-right:0}.gh-portal-freeaccount-newsletter{display:flex;align-items:center;justify-content:space-between;margin-top:24px}.gh-portal-freeaccount-newsletter .label{display:flex;flex-direction:column;flex-grow:1}.gh-portal-free-ctatext{margin-top:-12px}.gh-portal-cancelcontinue-container{margin:24px 0 32px}.gh-portal-list-detail .gh-portal-email-notice{display:flex;align-items:center;gap:5px;margin-top:6px;color:var(--red);font-weight:500;font-size:1.25rem;letter-spacing:.2px}.gh-portal-email-notice-icon{width:20px;height:20px}.gh-portal-billing-button-loader{width:32px;height:32px;margin-right:-3px;opacity:.6}.gh-portal-product-icon{width:52px;margin-right:12px;border-radius:2px}.gh-portal-account-discountcontainer{position:relative;display:flex;align-items:center}.gh-portal-account-old-price{text-decoration:line-through;color:var(--grey9)!important}.gh-portal-account-tagicon{width:16px;height:16px;color:var(--brandcolor);margin-right:5px;z-index:999}@media (max-width: 390px){.gh-portal-account-footer{padding:0!important}}@media (max-width: 340px){.gh-portal-account-footer{padding:0!important;flex-wrap:wrap;gap:12px}.gh-portal-account-footer .gh-portal-account-footerright{justify-content:flex-start}}.gh-email-suppressed-page-title{margin-bottom:14px}.gh-email-suppressed-page-icon{display:block;width:38px;height:38px;margin:0 auto 18px}.gh-email-suppressed-page-text{padding:0 14px;text-align:center;color:var(--grey6)}.gh-email-faq-footer-text{color:var(--grey8)}.gh-portal-list-detail.email-newsletter .gh-email-faq-page-button{display:block;margin-top:3px}.gh-portal-action-footer .gh-email-faq-page-button{margin-left:4px}.emailReceivingFAQ .gh-portal-btn-back,.emailReceivingFAQ .gh-portal-btn-back:hover{left:calc(6vmin - 14px)}.emailReceivingFAQ .gh-portal-closeicon-container{right:calc(6vmin - 20px)}@media (max-width: 480px){.emailReceivingFAQ .gh-portal-btn-back,.emailReceivingFAQ .gh-portal-btn-back:hover{left:16px}.emailReceivingFAQ .gh-portal-closeicon-container{right:24px}}.gh-email-faq-page-button{color:var(--brandcolor);cursor:pointer;background:none;transition:color linear .1s;font-size:1.45rem}</style><style>.App{text-align:center}.App-logo{height:40vmin;pointer-events:none}@media (prefers-reduced-motion: no-preference){.App-logo{animation:App-logo-spin infinite 20s linear}}.App-header{background-color:#282c34;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:calc(10px + 2vmin);color:#fff}.App-link{color:#61dafb}@keyframes App-logo-spin{0%{transform:rotate(0)}to{transform:rotate(360deg)}}
+</style></head>
+
+<body class="home-template is-head-left-logo">
+    <div class="gh-viewport">
+        <header id="gh-head" class="gh-head">
+    <div class="gh-head-inner gh-container">
+        <div class="gh-head-brand-socials-wrapper">
+            <button class="gh-burger-btn" aria-label="Mobile menu button">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 16H32" stroke="#1D1D1F" stroke-width="1.5" stroke-linecap="round"></path>
+<path d="M8 24H24" stroke="#1D1D1F" stroke-width="1.5" stroke-linecap="round"></path>
+</svg>
+            </button>
+            <div class="gh-head-brand">
+                    <a class="gh-site-logo gh-site-logo-has-DM-logo" href="https://blog.crossmint.com" aria-label="Crossmint Blog logo and home page link">
+                            <img src="/content/images/2024/05/Light-Horizontal-1.png" alt="Crossmint Blog icon" class="gh-site-logo-img-dark-mode">
+                            <img src="/content/images/2024/01/Dark_Horizontal--1-.png" alt="Crossmint Blog icon" class="gh-site-logo-img">
+                    </a>
+                            </div>
+            
+<address class="gh-social-icons">
+        <a href="https://twitter.com/crossmint" target="_blank" rel="noopener noreferrer" aria-label="Crossmint Blog twitter link"><svg width="30" height="30" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g>
+        <path d="M18.5326 13.9627L28.4429 2.69632H26.0944L17.4894 12.4788L10.6165 2.69632H2.68945L13.0826 17.4891L2.68945 29.3037H5.03801L14.1252 18.9731L21.3835 29.3037H29.3105L18.532 13.9627H18.5326ZM15.3159 17.6195L14.2629 16.1464L5.88422 4.42537H9.49146L16.2531 13.8846L17.3062 15.3577L26.0956 27.6533H22.4883L15.3159 17.62V17.6195Z" fill="white"></path>
+    </g>
+</svg></a>
+</address>        </div>
+        <div class="gh-head-menu">
+                <ul class="nav">
+            <li class="nav-home"><a href="https://blog.crossmint.com/">Home</a></li>
+            <li class="nav-guides"><a href="https://blog.crossmint.com/tag/guides/">Guides</a></li>
+            <li class="nav-case-studies"><a href="https://blog.crossmint.com/tag/case-studies/">Case Studies</a></li>
+            <li class="nav-announcements"><a href="https://blog.crossmint.com/tag/announcements/">Announcements</a></li>
+        <li class="gh-subnav-icon show">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 5.375C10.8975 5.375 11.625 4.64746 11.625 3.75C11.625 2.85254 10.8975 2.125 10 2.125C9.10254 2.125 8.375 2.85254 8.375 3.75C8.375 4.64746 9.10254 5.375 10 5.375Z" fill="#1D1D1F"></path>
+                <path d="M10 11.625C10.8975 11.625 11.625 10.8975 11.625 10C11.625 9.10254 10.8975 8.375 10 8.375C9.10254 8.375 8.375 9.10254 8.375 10C8.375 10.8975 9.10254 11.625 10 11.625Z" fill="#1D1D1F"></path>
+                <path d="M10 17.875C10.8975 17.875 11.625 17.1475 11.625 16.25C11.625 15.3525 10.8975 14.625 10 14.625C9.10254 14.625 8.375 15.3525 8.375 16.25C8.375 17.1475 9.10254 17.875 10 17.875Z" fill="#1D1D1F"></path>
+            </svg>
+             <ul class="gh-header-subnav">
+                    <li class="nav-product-updates gh-subnav-item"><a href="https://blog.crossmint.com/tag/product-updates/">Product Updates</a></li>
+                    <li class="nav-glossary gh-subnav-item"><a href="https://blog.crossmint.com/tag/glossary/">Glossary</a></li>
+                    <li class="nav-docs gh-subnav-item"><a href="https://docs.crossmint.com/introduction/about-crossmint?utm_source=blog">Docs</a></li>
+                    <li class="nav-production-console gh-subnav-item"><a href="https://www.crossmint.com/signin?callbackUrl=/console/overview/?utm_source=blog">Production Console</a></li>
+                    <li class="nav-staging-console gh-subnav-item"><a href="https://staging.crossmint.com/signin?callbackUrl=/console/overview/?utm_source=blog">Staging Console</a></li>
+            </ul>
+        </li>
+    </ul>
+
+
+        </div>
+        <div class="gh-head-actions">
+            <div class="gh-head-actions-list">
+                <button class="gh-dark-mode-toggle-btn" aria-label="Dark mode toggle button">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="gh-sun-icon">
+    <path d="M8.99999 2.2966V1.80005M8.99999 16.2001V15.7035M15.7034 9.00005H16.2M1.79999 9.00005H2.29654M13.7405 4.26005L14.0916 3.90894M3.90836 14.0912L4.25947 13.7401M13.7405 13.74L14.0916 14.0912M3.90836 3.9089L4.25947 4.26002M12.9627 8.97289C12.9627 11.1668 11.1842 12.9453 8.99029 12.9453C6.79639 12.9453 5.01788 11.1668 5.01788 8.97289C5.01788 6.77899 6.79639 5.00048 8.99029 5.00048C11.1842 5.00048 12.9627 6.77899 12.9627 8.97289Z" stroke="#1D1D1F" stroke-width="1.3" stroke-linecap="round"></path>
+</svg>                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="gh-moon-icon">
+    <path d="M15 10.6498C14.4361 10.8208 13.8378 10.9128 13.218 10.9128C9.83172 10.9128 7.0866 8.16764 7.0866 4.78131C7.0866 4.16179 7.17848 3.56372 7.34936 3C4.8322 3.76338 3 6.10197 3 8.86851C3 12.2548 5.74511 15 9.13138 15C11.8981 15 14.2369 13.1674 15 10.6498Z" stroke="#1D1D1F" stroke-width="1.3" stroke-linejoin="round"></path>
+</svg>                </button>
+                <button class="gh-search" title="Search button" aria-label="Search button" data-ghost-search=""><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M14.1057 14.2L17 17M16.0667 9.53333C16.0667 13.1416 13.1416 16.0667 9.53333 16.0667C5.92507 16.0667 3 13.1416 3 9.53333C3 5.92507 5.92507 3 9.53333 3C13.1416 3 16.0667 5.92507 16.0667 9.53333Z" stroke="#1D1D1F" stroke-width="1.5" stroke-linecap="round"></path>
+</svg><span>Search</span></button>
+                    <a class="gh-main-button gh-member-button" href="https://blog.crossmint.com/signup" aria-label="Sign up button">Sign Up</a>
+            </div>
+        </div>
+    </div>
+    <div class="gh-mobile-menu">
+    <div class="gh-mobile-menu__header">
+            <a class="gh-site-logo gh-site-logo-has-DM-logo" href="https://blog.crossmint.com" aria-label="Crossmint Blog logo and homepage link">
+                    <img src="/content/images/2024/05/Light-Horizontal-1.png" alt="Crossmint Blog icon" class="gh-site-logo-img-dark-mode">
+                    <img src="/content/images/2024/01/Dark_Horizontal--1-.png" alt="Crossmint Blog icon" class="gh-site-logo-img">
+            </a>
+                <button class="gh-mobile-menu__close-btn" aria-label="Close mobile menu button">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M19 5L5 19M19 19L5 5" stroke="#1D1D1F" stroke-width="2" stroke-linecap="round"></path>
+</svg>        </button>
+    </div>
+    <div class="gh-mobile-menu-main">
+        <nav class="gh-mobile-menu__nav">
+            <ul class="gh-mobile-menu__nav-list">
+                <li class="gh-mobile-menu__nav-item"><a href="https://blog.crossmint.com/" aria-label="Home navigation link">Home</a></li>
+                <li class="gh-mobile-menu__nav-item"><a href="https://blog.crossmint.com/tag/guides/" aria-label="Guides navigation link">Guides</a></li>
+                <li class="gh-mobile-menu__nav-item"><a href="https://blog.crossmint.com/tag/case-studies/" aria-label="Case Studies navigation link">Case Studies</a></li>
+                <li class="gh-mobile-menu__nav-item"><a href="https://blog.crossmint.com/tag/announcements/" aria-label="Announcements navigation link">Announcements</a></li>
+                <li class="gh-mobile-menu__nav-item"><a href="https://blog.crossmint.com/tag/product-updates/" aria-label="Product Updates navigation link">Product Updates</a></li>
+                <li class="gh-mobile-menu__nav-item"><a href="https://blog.crossmint.com/tag/glossary/" aria-label="Glossary navigation link">Glossary</a></li>
+                <li class="gh-mobile-menu__nav-item"><a href="https://docs.crossmint.com/introduction/about-crossmint?utm_source=blog" aria-label="Docs navigation link">Docs</a></li>
+                <li class="gh-mobile-menu__nav-item"><a href="https://www.crossmint.com/signin?callbackUrl=/console/overview/?utm_source=blog" aria-label="Production Console navigation link">Production Console</a></li>
+                <li class="gh-mobile-menu__nav-item"><a href="https://staging.crossmint.com/signin?callbackUrl=/console/overview/?utm_source=blog" aria-label="Staging Console navigation link">Staging Console</a></li>
+            </ul>
+                <a class="gh-main-button gh-member-button" href="https://blog.crossmint.com/signup" aria-label="Sign up button">Sign Up</a>
+        </nav>
+            <div class="gh-mobile-menu__subscription-wrapper">
+                <div class="gh-mobile-menu__subscription">
+                    <h3 class="gh-mobile-menu__subscription-cta-text">
+                        Subscribe to our Blog
+                    </h3>
+                    <p class="gh-mobile-menu__subscription-cta-subtext">
+                        Subscribe to Crossmint's blog for free to receive updates on the latest studies, Web3 technical guides, and more.
+                    </p>
+                    <a class="gh-secondary-button" href="https://blog.crossmint.com/subscribe" aria-label="Subscribe button">Subscribe</a>
+                    <picture>
+                        <source srcset="/content/images/size/w500/format/webp/2024/05/blog-hero-image.png 500w, /content/images/size/w300/format/webp/2024/05/blog-hero-image.png 300w" sizes="(max-width: 500px) 90vw, 368px" type="image/webp">
+                        <img class="gh-mobile-menu__cover-img" srcset="/content/images/size/w500/2024/05/blog-hero-image.png 500w, /content/images/size/w300/2024/05/blog-hero-image.png 300w" sizes="(max-width: 500px) 90vw, 368px" src="/content/images/size/w500/2024/05/blog-hero-image.png" alt="Crossmint Blog cover image" loading="lazy">
+                    </picture>
+                </div>
+            </div>
+    </div>
+    <div class="gh-mobile-menu__footer">
+        
+<address class="gh-social-icons">
+        <a href="https://twitter.com/crossmint" target="_blank" rel="noopener noreferrer" aria-label="Crossmint Blog twitter link"><svg width="30" height="30" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g>
+        <path d="M18.5326 13.9627L28.4429 2.69632H26.0944L17.4894 12.4788L10.6165 2.69632H2.68945L13.0826 17.4891L2.68945 29.3037H5.03801L14.1252 18.9731L21.3835 29.3037H29.3105L18.532 13.9627H18.5326ZM15.3159 17.6195L14.2629 16.1464L5.88422 4.42537H9.49146L16.2531 13.8846L17.3062 15.3577L26.0956 27.6533H22.4883L15.3159 17.62V17.6195Z" fill="white"></path>
+    </g>
+</svg></a>
+</address>        <button class="gh-dark-mode-toggle-btn" aria-label="Dark mode toggle button">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="gh-sun-icon">
+    <path d="M8.99999 2.2966V1.80005M8.99999 16.2001V15.7035M15.7034 9.00005H16.2M1.79999 9.00005H2.29654M13.7405 4.26005L14.0916 3.90894M3.90836 14.0912L4.25947 13.7401M13.7405 13.74L14.0916 14.0912M3.90836 3.9089L4.25947 4.26002M12.9627 8.97289C12.9627 11.1668 11.1842 12.9453 8.99029 12.9453C6.79639 12.9453 5.01788 11.1668 5.01788 8.97289C5.01788 6.77899 6.79639 5.00048 8.99029 5.00048C11.1842 5.00048 12.9627 6.77899 12.9627 8.97289Z" stroke="#1D1D1F" stroke-width="1.3" stroke-linecap="round"></path>
+</svg>            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="gh-moon-icon">
+    <path d="M15 10.6498C14.4361 10.8208 13.8378 10.9128 13.218 10.9128C9.83172 10.9128 7.0866 8.16764 7.0866 4.78131C7.0866 4.16179 7.17848 3.56372 7.34936 3C4.8322 3.76338 3 6.10197 3 8.86851C3 12.2548 5.74511 15 9.13138 15C11.8981 15 14.2369 13.1674 15 10.6498Z" stroke="#1D1D1F" stroke-width="1.3" stroke-linejoin="round"></path>
+</svg>        </button>
+    </div>
+</div>    <div class="gh-overlay"></div>
+</header>        
+        
+<main class="gh-main">
+        <div class="gh-hero-section-wrapper">
+    <div class="gh-hero-section gh-container gh-hero-section--right-image">
+        <div class="gh-hero-section-inner">
+            <div class="gh-hero-section-content ">
+                <h2 class="gh-about-primary">Build with Crossmint</h2>
+                <p class="gh-about-secondary">Case studies, technical guides, product launches, and more.</p>
+                                <a class="gh-main-button gh-subscribe-button" href="https://blog.crossmint.com/subscribe" aria-label="Subscribe button">
+                                    Subscribe
+                                </a>
+            </div>
+                    <div class="gh-hero-section-cover-image-wrapper">
+                        <picture>
+                            <source srcset="/content/images/size/w1600/format/webp/2024/05/blog-hero-image.png 1600w, /content/images/size/w1200/format/webp/2024/05/blog-hero-image.png 1200w, /content/images/size/w800/format/webp/2024/05/blog-hero-image.png 800w, /content/images/size/w500/format/webp/2024/05/blog-hero-image.png 500w" sizes="(max-width: 500px): 500px, (max-width: 900px) 100vw, 50vw" type="image/webp">
+                            <img class="gh-hero-section-cover-image" srcset="/content/images/size/w1600/2024/05/blog-hero-image.png 1600w, /content/images/size/w1200/2024/05/blog-hero-image.png 1200w, /content/images/size/w800/2024/05/blog-hero-image.png 800w, /content/images/size/w500/2024/05/blog-hero-image.png 500w" sizes="(max-width: 500px): 500px, (max-width: 900px) 100vw, 50vw" src="/content/images/size/w1600/2024/05/blog-hero-image.png" alt="Hero Section Image" fetchpriority="high">
+                        </picture>
+                    </div>
+            <div class="gh-hero-section-sliders-wrapper">
+            </div>
+        </div>
+    </div>
+</div>    <div class="gh-container">
+        <div class="gh-postfeed">
+                   <section class="gh-topic-grid">
+                        <div class="gh-topic-grid-head">
+                            <a href="/tag/announcements/" aria-label="Announcements category link">
+                                <h2 class="gh-topic-grid-name">Announcements</h2>
+                            </a>
+                            <a class="gh-topic-grid-link" href="/tag/announcements/" aria-label="View Announcements category link">View Announcements <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.875 4.5L14.25 9M14.25 9L9.875 13.5M14.25 9L3.75 9" stroke="#8E8E8F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</a>
+                        </div>
+                        <div class="gh-topic-slider-wrapper">
+                            <div class="gh-topic-slider gh-topic-slider--large swiper-initialized swiper-horizontal swiper-backface-hidden">
+                                <div class="swiper-wrapper gh-topic-swiper-wrapper" id="swiper-wrapper-265062c8cac9c343" aria-live="polite">
+                                        <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 7" style="width: 613.333px; margin-right: 32px;">
+                                            <article class="gh-card post tag-announcements tag-case-studies tag-news featured ">
+    <div class="gh-card-image-video-outer">
+        <div class="gh-card-img-video-wrapper">
+            <a class="gh-card-image-wrapper-link" href="/tokenizing-the-fashion-industry-with-maison-margiela-the-fabricant/" aria-label="Tokenizing the fashion industry with Maison Margiela post link">
+                <picture>
+                    <source srcset="/content/images/size/w1000/format/webp/2024/04/image--7-.png 1000w, /content/images/size/w800/format/webp/2024/04/image--7-.png 800w, /content/images/size/w600/format/webp/2024/04/image--7-.png 600w, /content/images/size/w500/format/webp/2024/04/image--7-.png 500w" sizes="(max-width: 500px) 92vw, 30vw" type="image/webp">
+                    <img class="gh-card-image" srcset="/content/images/size/w1000/2024/04/image--7-.png 1000w, /content/images/size/w800/2024/04/image--7-.png 800w, /content/images/size/w600/2024/04/image--7-.png 600w, /content/images/size/w500/2024/04/image--7-.png 500w" sizes="(max-width: 500px) 92vw, 30vw" src="/content/images/size/w1000/2024/04/image--7-.png" alt="Tokenizing the fashion industry with Maison Margiela post image" loading="lazy">
+                </picture>
+            </a>
+        </div>
+    </div>
+    <div class="gh-card-content">
+        <div class="gh-card-content-main">
+            <div class="gh-card-tags">
+                    <span class="gh-card-tag-icon gh-card-tag-icon--featured">
+                        <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M4.58898 10.5316L9.47815 2.84862C9.7467 2.4266 10.4 2.61683 10.4 3.11705V8.50002C10.4 8.55525 10.4447 8.60002 10.5 8.60002H13.9396C14.3442 8.60002 14.5812 9.05537 14.3493 9.38676L9.50959 16.3006C9.22925 16.7011 8.59998 16.5027 8.59998 16.0138V11.4C8.59998 11.3448 8.5552 11.3 8.49998 11.3H5.01081C4.61627 11.3 4.37716 10.8644 4.58898 10.5316Z" stroke="#616162" stroke-width="1.4"></path>
+</svg>                    </span>
+                <a class="gh-card-tag" href="/tag/announcements/" aria-label="Announcements tag link">
+                    Announcements
+                </a>
+                <a class="gh-card-tag" href="/tag/case-studies/" aria-label="Case Studies tag link">
+                    Case Studies
+                </a>
+                <a class="gh-card-tag" href="/tag/news/" aria-label="News tag link">
+                    News
+                </a>
+            </div>
+            <a href="/tokenizing-the-fashion-industry-with-maison-margiela-the-fabricant/" aria-label="Tokenizing the fashion industry with Maison Margiela post link">
+                <h2 class="gh-card-title">Tokenizing the fashion industry with Maison Margiela</h2>
+            </a>
+        </div>
+        <span class="gh-post-meta">Updated on <time datetime="2024-04-17">Apr 17,                2024</time> </span>
+    </div>
+</article>                                        </div>
+                                        <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 7" style="width: 613.333px; margin-right: 32px;">
+                                            <article class="gh-card post tag-announcements tag-news featured ">
+    <div class="gh-card-image-video-outer">
+        <div class="gh-card-img-video-wrapper">
+            <a class="gh-card-image-wrapper-link" href="/crossmint-astar-and-hakuhodo-team-up-to-drive-web3-adoption-in-japan/" aria-label="Crossmint, Astar, and Hakuhodo Team Up to Boost Web3 in Japan post link">
+                <picture>
+                    <source srcset="/content/images/size/w1000/format/webp/2024/03/image--3-.png 1000w, /content/images/size/w800/format/webp/2024/03/image--3-.png 800w, /content/images/size/w600/format/webp/2024/03/image--3-.png 600w, /content/images/size/w500/format/webp/2024/03/image--3-.png 500w" sizes="(max-width: 500px) 92vw, 30vw" type="image/webp">
+                    <img class="gh-card-image" srcset="/content/images/size/w1000/2024/03/image--3-.png 1000w, /content/images/size/w800/2024/03/image--3-.png 800w, /content/images/size/w600/2024/03/image--3-.png 600w, /content/images/size/w500/2024/03/image--3-.png 500w" sizes="(max-width: 500px) 92vw, 30vw" src="/content/images/size/w1000/2024/03/image--3-.png" alt="Crossmint, Astar, and Hakuhodo Team Up to Boost Web3 in Japan post image" loading="lazy">
+                </picture>
+            </a>
+        </div>
+    </div>
+    <div class="gh-card-content">
+        <div class="gh-card-content-main">
+            <div class="gh-card-tags">
+                    <span class="gh-card-tag-icon gh-card-tag-icon--featured">
+                        <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M4.58898 10.5316L9.47815 2.84862C9.7467 2.4266 10.4 2.61683 10.4 3.11705V8.50002C10.4 8.55525 10.4447 8.60002 10.5 8.60002H13.9396C14.3442 8.60002 14.5812 9.05537 14.3493 9.38676L9.50959 16.3006C9.22925 16.7011 8.59998 16.5027 8.59998 16.0138V11.4C8.59998 11.3448 8.5552 11.3 8.49998 11.3H5.01081C4.61627 11.3 4.37716 10.8644 4.58898 10.5316Z" stroke="#616162" stroke-width="1.4"></path>
+</svg>                    </span>
+                <a class="gh-card-tag" href="/tag/announcements/" aria-label="Announcements tag link">
+                    Announcements
+                </a>
+                <a class="gh-card-tag" href="/tag/news/" aria-label="News tag link">
+                    News
+                </a>
+            </div>
+            <a href="/crossmint-astar-and-hakuhodo-team-up-to-drive-web3-adoption-in-japan/" aria-label="Crossmint, Astar, and Hakuhodo Team Up to Boost Web3 in Japan post link">
+                <h2 class="gh-card-title">Crossmint, Astar, and Hakuhodo Team Up to Boost Web3 in Japan</h2>
+            </a>
+        </div>
+        <span class="gh-post-meta">Updated on <time datetime="2024-03-22">Mar 22,                2024</time> </span>
+    </div>
+</article>                                        </div>
+                                        <div class="swiper-slide" role="group" aria-label="3 / 7" style="width: 613.333px; margin-right: 32px;">
+                                            <article class="gh-card post tag-announcements tag-hash-jean featured ">
+    <div class="gh-card-image-video-outer">
+        <div class="gh-card-img-video-wrapper">
+            <a class="gh-card-image-wrapper-link" href="/crossmint-acquires-winter-and-launches-new-cross-chain-payments-product/" aria-label="Crossmint acquires Winter and launches new cross-chain payments product post link">
+                <picture>
+                    <source srcset="/content/images/size/w1000/format/webp/2024/05/crossmint-acquires-winter.png 1000w, /content/images/size/w800/format/webp/2024/05/crossmint-acquires-winter.png 800w, /content/images/size/w600/format/webp/2024/05/crossmint-acquires-winter.png 600w, /content/images/size/w500/format/webp/2024/05/crossmint-acquires-winter.png 500w" sizes="(max-width: 500px) 92vw, 30vw" type="image/webp">
+                    <img class="gh-card-image" srcset="/content/images/size/w1000/2024/05/crossmint-acquires-winter.png 1000w, /content/images/size/w800/2024/05/crossmint-acquires-winter.png 800w, /content/images/size/w600/2024/05/crossmint-acquires-winter.png 600w, /content/images/size/w500/2024/05/crossmint-acquires-winter.png 500w" sizes="(max-width: 500px) 92vw, 30vw" src="/content/images/size/w1000/2024/05/crossmint-acquires-winter.png" alt="Crossmint acquires Winter and launches new cross-chain payments product post image" loading="lazy">
+                </picture>
+            </a>
+        </div>
+    </div>
+    <div class="gh-card-content">
+        <div class="gh-card-content-main">
+            <div class="gh-card-tags">
+                    <span class="gh-card-tag-icon gh-card-tag-icon--featured">
+                        <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M4.58898 10.5316L9.47815 2.84862C9.7467 2.4266 10.4 2.61683 10.4 3.11705V8.50002C10.4 8.55525 10.4447 8.60002 10.5 8.60002H13.9396C14.3442 8.60002 14.5812 9.05537 14.3493 9.38676L9.50959 16.3006C9.22925 16.7011 8.59998 16.5027 8.59998 16.0138V11.4C8.59998 11.3448 8.5552 11.3 8.49998 11.3H5.01081C4.61627 11.3 4.37716 10.8644 4.58898 10.5316Z" stroke="#616162" stroke-width="1.4"></path>
+</svg>                    </span>
+                <a class="gh-card-tag" href="/tag/announcements/" aria-label="Announcements tag link">
+                    Announcements
+                </a>
+            </div>
+            <a href="/crossmint-acquires-winter-and-launches-new-cross-chain-payments-product/" aria-label="Crossmint acquires Winter and launches new cross-chain payments product post link">
+                <h2 class="gh-card-title">Crossmint acquires Winter and launches new cross-chain payments product</h2>
+            </a>
+        </div>
+        <span class="gh-post-meta">Updated on <time datetime="2024-02-29">Feb 29,                2024</time> </span>
+    </div>
+</article>                                        </div>
+                                        <div class="swiper-slide" role="group" aria-label="4 / 7" style="width: 613.333px; margin-right: 32px;">
+                                            <article class="gh-card post tag-announcements tag-hash-jean featured ">
+    <div class="gh-card-image-video-outer">
+        <div class="gh-card-img-video-wrapper">
+            <a class="gh-card-image-wrapper-link" href="/crossmint-joins-mastercards-start-path-program/" aria-label="Crossmint joins Mastercard's Start Path Program to provide infra support to builders in Web3 post link">
+                <picture>
+                    <source srcset="/content/images/size/w1000/format/webp/2023/12/Crossmint-x-Mastercad-start-path-program--1-.png 1000w, /content/images/size/w800/format/webp/2023/12/Crossmint-x-Mastercad-start-path-program--1-.png 800w, /content/images/size/w600/format/webp/2023/12/Crossmint-x-Mastercad-start-path-program--1-.png 600w, /content/images/size/w500/format/webp/2023/12/Crossmint-x-Mastercad-start-path-program--1-.png 500w" sizes="(max-width: 500px) 92vw, 30vw" type="image/webp">
+                    <img class="gh-card-image" srcset="/content/images/size/w1000/2023/12/Crossmint-x-Mastercad-start-path-program--1-.png 1000w, /content/images/size/w800/2023/12/Crossmint-x-Mastercad-start-path-program--1-.png 800w, /content/images/size/w600/2023/12/Crossmint-x-Mastercad-start-path-program--1-.png 600w, /content/images/size/w500/2023/12/Crossmint-x-Mastercad-start-path-program--1-.png 500w" sizes="(max-width: 500px) 92vw, 30vw" src="/content/images/size/w1000/2023/12/Crossmint-x-Mastercad-start-path-program--1-.png" alt="Crossmint x Mastercads Start Path Program" loading="lazy">
+                </picture>
+            </a>
+        </div>
+    </div>
+    <div class="gh-card-content">
+        <div class="gh-card-content-main">
+            <div class="gh-card-tags">
+                    <span class="gh-card-tag-icon gh-card-tag-icon--featured">
+                        <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M4.58898 10.5316L9.47815 2.84862C9.7467 2.4266 10.4 2.61683 10.4 3.11705V8.50002C10.4 8.55525 10.4447 8.60002 10.5 8.60002H13.9396C14.3442 8.60002 14.5812 9.05537 14.3493 9.38676L9.50959 16.3006C9.22925 16.7011 8.59998 16.5027 8.59998 16.0138V11.4C8.59998 11.3448 8.5552 11.3 8.49998 11.3H5.01081C4.61627 11.3 4.37716 10.8644 4.58898 10.5316Z" stroke="#616162" stroke-width="1.4"></path>
+</svg>                    </span>
+                <a class="gh-card-tag" href="/tag/announcements/" aria-label="Announcements tag link">
+                    Announcements
+                </a>
+            </div>
+            <a href="/crossmint-joins-mastercards-start-path-program/" aria-label="Crossmint joins Mastercard's Start Path Program to provide infra support to builders in Web3 post link">
+                <h2 class="gh-card-title">Crossmint joins Mastercard's Start Path Program to provide infra support to builders in Web3</h2>
+            </a>
+        </div>
+        <span class="gh-post-meta">Updated on <time datetime="2023-12-12">Dec 12,                2023</time> </span>
+    </div>
+</article>                                        </div>
+                                        <div class="swiper-slide" role="group" aria-label="5 / 7" style="width: 613.333px; margin-right: 32px;">
+                                            <article class="gh-card post tag-announcements tag-hash-announcements tag-product-updates tag-hash-product-updates ">
+    <div class="gh-card-image-video-outer">
+        <div class="gh-card-img-video-wrapper">
+            <a class="gh-card-image-wrapper-link" href="/crossmint-partners-with-stytch-to-onboard-users-into-web3/" aria-label="Crossmint partners with Stytch to onboard users into web3 post link">
+                <picture>
+                    <source srcset="/content/images/size/w1000/format/webp/2023/12/Crossmint-x-Stytch.png 1000w, /content/images/size/w800/format/webp/2023/12/Crossmint-x-Stytch.png 800w, /content/images/size/w600/format/webp/2023/12/Crossmint-x-Stytch.png 600w, /content/images/size/w500/format/webp/2023/12/Crossmint-x-Stytch.png 500w" sizes="(max-width: 500px) 92vw, 30vw" type="image/webp">
+                    <img class="gh-card-image" srcset="/content/images/size/w1000/2023/12/Crossmint-x-Stytch.png 1000w, /content/images/size/w800/2023/12/Crossmint-x-Stytch.png 800w, /content/images/size/w600/2023/12/Crossmint-x-Stytch.png 600w, /content/images/size/w500/2023/12/Crossmint-x-Stytch.png 500w" sizes="(max-width: 500px) 92vw, 30vw" src="/content/images/size/w1000/2023/12/Crossmint-x-Stytch.png" alt="Crossmint partners with Stytch to onboard users into web3" loading="lazy">
+                </picture>
+            </a>
+        </div>
+    </div>
+    <div class="gh-card-content">
+        <div class="gh-card-content-main">
+            <div class="gh-card-tags">
+                <a class="gh-card-tag" href="/tag/announcements/" aria-label="Announcements tag link">
+                    Announcements
+                </a>
+                <a class="gh-card-tag" href="/tag/product-updates/" aria-label="Product Updates tag link">
+                    Product Updates
+                </a>
+            </div>
+            <a href="/crossmint-partners-with-stytch-to-onboard-users-into-web3/" aria-label="Crossmint partners with Stytch to onboard users into web3 post link">
+                <h2 class="gh-card-title">Crossmint partners with Stytch to onboard users into web3</h2>
+            </a>
+        </div>
+        <span class="gh-post-meta">Updated on <time datetime="2023-03-09">Mar 9,                2023</time> </span>
+    </div>
+</article>                                        </div>
+                                        <div class="swiper-slide" role="group" aria-label="6 / 7" style="width: 613.333px; margin-right: 32px;">
+                                            <article class="gh-card post tag-announcements tag-hash-announcements ">
+    <div class="gh-card-image-video-outer">
+        <div class="gh-card-img-video-wrapper">
+            <a class="gh-card-image-wrapper-link" href="/announcing-our-partnership-with-origin/" aria-label="Announcing our Partnership with Origin post link">
+                <picture>
+                    <source srcset="/content/images/size/w1000/format/webp/2023/12/Crossmint-x-Refik-Anadol--9--1.png 1000w, /content/images/size/w800/format/webp/2023/12/Crossmint-x-Refik-Anadol--9--1.png 800w, /content/images/size/w600/format/webp/2023/12/Crossmint-x-Refik-Anadol--9--1.png 600w, /content/images/size/w500/format/webp/2023/12/Crossmint-x-Refik-Anadol--9--1.png 500w" sizes="(max-width: 500px) 92vw, 30vw" type="image/webp">
+                    <img class="gh-card-image" srcset="/content/images/size/w1000/2023/12/Crossmint-x-Refik-Anadol--9--1.png 1000w, /content/images/size/w800/2023/12/Crossmint-x-Refik-Anadol--9--1.png 800w, /content/images/size/w600/2023/12/Crossmint-x-Refik-Anadol--9--1.png 600w, /content/images/size/w500/2023/12/Crossmint-x-Refik-Anadol--9--1.png 500w" sizes="(max-width: 500px) 92vw, 30vw" src="/content/images/size/w1000/2023/12/Crossmint-x-Refik-Anadol--9--1.png" alt="Announcing our Partnership with Origin post image" loading="lazy">
+                </picture>
+            </a>
+        </div>
+    </div>
+    <div class="gh-card-content">
+        <div class="gh-card-content-main">
+            <div class="gh-card-tags">
+                <a class="gh-card-tag" href="/tag/announcements/" aria-label="Announcements tag link">
+                    Announcements
+                </a>
+            </div>
+            <a href="/announcing-our-partnership-with-origin/" aria-label="Announcing our Partnership with Origin post link">
+                <h2 class="gh-card-title">Announcing our Partnership with Origin</h2>
+            </a>
+        </div>
+        <span class="gh-post-meta">Updated on <time datetime="2023-02-01">Feb 1,                2023</time> </span>
+    </div>
+</article>                                        </div>
+                                        <div class="swiper-slide" role="group" aria-label="7 / 7" style="width: 613.333px; margin-right: 32px;">
+                                            <article class="gh-card post tag-announcements tag-hash-announcements ">
+    <div class="gh-card-image-video-outer">
+        <div class="gh-card-img-video-wrapper">
+            <a class="gh-card-image-wrapper-link" href="/crossmint-partners-with-laliga-and-stadioplus-to-bring-soccer-to-the-metaverse/" aria-label="Crossmint Partners with LaLiga to Bring Soccer to the Metaverse post link">
+                <picture>
+                    <source srcset="/content/images/size/w1000/format/webp/2023/12/Crossmint-x-Refik-Anadol--10-.png 1000w, /content/images/size/w800/format/webp/2023/12/Crossmint-x-Refik-Anadol--10-.png 800w, /content/images/size/w600/format/webp/2023/12/Crossmint-x-Refik-Anadol--10-.png 600w, /content/images/size/w500/format/webp/2023/12/Crossmint-x-Refik-Anadol--10-.png 500w" sizes="(max-width: 500px) 92vw, 30vw" type="image/webp">
+                    <img class="gh-card-image" srcset="/content/images/size/w1000/2023/12/Crossmint-x-Refik-Anadol--10-.png 1000w, /content/images/size/w800/2023/12/Crossmint-x-Refik-Anadol--10-.png 800w, /content/images/size/w600/2023/12/Crossmint-x-Refik-Anadol--10-.png 600w, /content/images/size/w500/2023/12/Crossmint-x-Refik-Anadol--10-.png 500w" sizes="(max-width: 500px) 92vw, 30vw" src="/content/images/size/w1000/2023/12/Crossmint-x-Refik-Anadol--10-.png" alt="Crossmint Partners with LaLiga to Bring Soccer to the Metaverse post image" loading="lazy">
+                </picture>
+            </a>
+        </div>
+    </div>
+    <div class="gh-card-content">
+        <div class="gh-card-content-main">
+            <div class="gh-card-tags">
+                <a class="gh-card-tag" href="/tag/announcements/" aria-label="Announcements tag link">
+                    Announcements
+                </a>
+            </div>
+            <a href="/crossmint-partners-with-laliga-and-stadioplus-to-bring-soccer-to-the-metaverse/" aria-label="Crossmint Partners with LaLiga to Bring Soccer to the Metaverse post link">
+                <h2 class="gh-card-title">Crossmint Partners with LaLiga to Bring Soccer to the Metaverse</h2>
+            </a>
+        </div>
+        <span class="gh-post-meta">Updated on <time datetime="2023-01-12">Jan 12,                2023</time> </span>
+    </div>
+</article>                                        </div>
+                                </div>
+                                <button class="gh-prev-slide-btn swiper-button-disabled" aria-label="Previous slide" disabled="" tabindex="-1" aria-controls="swiper-wrapper-265062c8cac9c343" aria-disabled="true" style="top: -30px;"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M10.8333 18L5 12M5 12L10.8333 6M5 12L19 12" stroke="#1D1D1F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg></button>
+                                <button class="gh-next-slide-btn" aria-label="Next slide" tabindex="0" aria-controls="swiper-wrapper-265062c8cac9c343" aria-disabled="false" style="top: -30px;"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M13.1667 6L19 12M19 12L13.1667 18M19 12L5 12" stroke="#1D1D1F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg></button>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                        </div>
+                   </section>
+                    <section class="gh-topic-grid">
+                        <div class="gh-topic-grid-head">
+                            <a href="/tag/case-studies/" aria-label="Case Studies category link">
+                                <h2 class="gh-topic-grid-name">Case Studies</h2>
+                            </a>
+                            <a class="gh-topic-grid-link" href="/tag/case-studies/" aria-label="View Case Studies category link">View Case Studies <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.875 4.5L14.25 9M14.25 9L9.875 13.5M14.25 9L3.75 9" stroke="#8E8E8F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</a>
+                        </div>
+                        <div class="gh-topic-slider-wrapper">
+                            <div class="gh-topic-slider gh-topic-slider--small swiper-initialized swiper-horizontal swiper-backface-hidden">
+                                <div class="swiper-wrapper gh-topic-swiper-wrapper" id="swiper-wrapper-97b5e9584e045331" aria-live="polite">
+                                        <div class="swiper-slide gh-topic-slide swiper-slide-active" role="group" aria-label="1 / 7" style="width: 452px; margin-right: 32px;">
+                                            <article class="gh-card post tag-announcements tag-case-studies tag-news featured ">
+    <div class="gh-card-image-video-outer">
+        <div class="gh-card-img-video-wrapper">
+            <a class="gh-card-image-wrapper-link" href="/tokenizing-the-fashion-industry-with-maison-margiela-the-fabricant/" aria-label="Tokenizing the fashion industry with Maison Margiela post link">
+                <picture>
+                    <source srcset="/content/images/size/w1000/format/webp/2024/04/image--7-.png 1000w, /content/images/size/w800/format/webp/2024/04/image--7-.png 800w, /content/images/size/w600/format/webp/2024/04/image--7-.png 600w, /content/images/size/w500/format/webp/2024/04/image--7-.png 500w" sizes="(max-width: 500px) 92vw, 30vw" type="image/webp">
+                    <img class="gh-card-image" srcset="/content/images/size/w1000/2024/04/image--7-.png 1000w, /content/images/size/w800/2024/04/image--7-.png 800w, /content/images/size/w600/2024/04/image--7-.png 600w, /content/images/size/w500/2024/04/image--7-.png 500w" sizes="(max-width: 500px) 92vw, 30vw" src="/content/images/size/w1000/2024/04/image--7-.png" alt="Tokenizing the fashion industry with Maison Margiela post image" loading="lazy">
+                </picture>
+            </a>
+        </div>
+    </div>
+    <div class="gh-card-content">
+        <div class="gh-card-content-main">
+            <div class="gh-card-tags">
+                    <span class="gh-card-tag-icon gh-card-tag-icon--featured">
+                        <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M4.58898 10.5316L9.47815 2.84862C9.7467 2.4266 10.4 2.61683 10.4 3.11705V8.50002C10.4 8.55525 10.4447 8.60002 10.5 8.60002H13.9396C14.3442 8.60002 14.5812 9.05537 14.3493 9.38676L9.50959 16.3006C9.22925 16.7011 8.59998 16.5027 8.59998 16.0138V11.4C8.59998 11.3448 8.5552 11.3 8.49998 11.3H5.01081C4.61627 11.3 4.37716 10.8644 4.58898 10.5316Z" stroke="#616162" stroke-width="1.4"></path>
+</svg>                    </span>
+                <a class="gh-card-tag" href="/tag/announcements/" aria-label="Announcements tag link">
+                    Announcements
+                </a>
+                <a class="gh-card-tag" href="/tag/case-studies/" aria-label="Case Studies tag link">
+                    Case Studies
+                </a>
+                <a class="gh-card-tag" href="/tag/news/" aria-label="News tag link">
+                    News
+                </a>
+            </div>
+            <a href="/tokenizing-the-fashion-industry-with-maison-margiela-the-fabricant/" aria-label="Tokenizing the fashion industry with Maison Margiela post link">
+                <h2 class="gh-card-title">Tokenizing the fashion industry with Maison Margiela</h2>
+            </a>
+        </div>
+        <span class="gh-post-meta">Updated on <time datetime="2024-04-17">Apr 17,                2024</time> </span>
+    </div>
+</article>                                        </div>
+                                        <div class="swiper-slide gh-topic-slide swiper-slide-next" role="group" aria-label="2 / 7" style="width: 452px; margin-right: 32px;">
+                                            <article class="gh-card post tag-case-studies tag-hash-jean featured ">
+    <div class="gh-card-image-video-outer">
+        <div class="gh-card-img-video-wrapper">
+            <a class="gh-card-image-wrapper-link" href="/bobaguys-web3-loyalty/" aria-label="Boba Guys Leverages Web3 Loyalty to Boost Retail Sales post link">
+                <picture>
+                    <source srcset="/content/images/size/w1000/format/webp/2024/02/Crossmint-x-Boba-Guys--2-.jpg 1000w, /content/images/size/w800/format/webp/2024/02/Crossmint-x-Boba-Guys--2-.jpg 800w, /content/images/size/w600/format/webp/2024/02/Crossmint-x-Boba-Guys--2-.jpg 600w, /content/images/size/w500/format/webp/2024/02/Crossmint-x-Boba-Guys--2-.jpg 500w" sizes="(max-width: 500px) 92vw, 30vw" type="image/webp">
+                    <img class="gh-card-image" srcset="/content/images/size/w1000/2024/02/Crossmint-x-Boba-Guys--2-.jpg 1000w, /content/images/size/w800/2024/02/Crossmint-x-Boba-Guys--2-.jpg 800w, /content/images/size/w600/2024/02/Crossmint-x-Boba-Guys--2-.jpg 600w, /content/images/size/w500/2024/02/Crossmint-x-Boba-Guys--2-.jpg 500w" sizes="(max-width: 500px) 92vw, 30vw" src="/content/images/size/w1000/2024/02/Crossmint-x-Boba-Guys--2-.jpg" alt="Boba Guys Leverages Web3 Loyalty to Boost Retail Sales post image" loading="lazy">
+                </picture>
+            </a>
+        </div>
+    </div>
+    <div class="gh-card-content">
+        <div class="gh-card-content-main">
+            <div class="gh-card-tags">
+                    <span class="gh-card-tag-icon gh-card-tag-icon--featured">
+                        <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M4.58898 10.5316L9.47815 2.84862C9.7467 2.4266 10.4 2.61683 10.4 3.11705V8.50002C10.4 8.55525 10.4447 8.60002 10.5 8.60002H13.9396C14.3442 8.60002 14.5812 9.05537 14.3493 9.38676L9.50959 16.3006C9.22925 16.7011 8.59998 16.5027 8.59998 16.0138V11.4C8.59998 11.3448 8.5552 11.3 8.49998 11.3H5.01081C4.61627 11.3 4.37716 10.8644 4.58898 10.5316Z" stroke="#616162" stroke-width="1.4"></path>
+</svg>                    </span>
+                <a class="gh-card-tag" href="/tag/case-studies/" aria-label="Case Studies tag link">
+                    Case Studies
+                </a>
+            </div>
+            <a href="/bobaguys-web3-loyalty/" aria-label="Boba Guys Leverages Web3 Loyalty to Boost Retail Sales post link">
+                <h2 class="gh-card-title">Boba Guys Leverages Web3 Loyalty to Boost Retail Sales</h2>
+            </a>
+        </div>
+        <span class="gh-post-meta">Updated on <time datetime="2024-03-25">Mar 25,                2024</time> </span>
+    </div>
+</article>                                        </div>
+                                        <div class="swiper-slide gh-topic-slide" role="group" aria-label="3 / 7" style="width: 452px; margin-right: 32px;">
+                                            <article class="gh-card post tag-case-studies tag-hash-jean ">
+    <div class="gh-card-image-video-outer">
+        <div class="gh-card-img-video-wrapper">
+            <a class="gh-card-image-wrapper-link" href="/empowering-web3-native-brands-with-fiat-and-cross-chain-payments/" aria-label="Jack Butcher Leverages Cross Chain Payments to Boost Sales post link">
+                <picture>
+                    <source srcset="/content/images/size/w1000/format/webp/2024/03/Screenshot-2024-03-01-at-12.52.00-PM.png 1000w, /content/images/size/w800/format/webp/2024/03/Screenshot-2024-03-01-at-12.52.00-PM.png 800w, /content/images/size/w600/format/webp/2024/03/Screenshot-2024-03-01-at-12.52.00-PM.png 600w, /content/images/size/w500/format/webp/2024/03/Screenshot-2024-03-01-at-12.52.00-PM.png 500w" sizes="(max-width: 500px) 92vw, 30vw" type="image/webp">
+                    <img class="gh-card-image" srcset="/content/images/size/w1000/2024/03/Screenshot-2024-03-01-at-12.52.00-PM.png 1000w, /content/images/size/w800/2024/03/Screenshot-2024-03-01-at-12.52.00-PM.png 800w, /content/images/size/w600/2024/03/Screenshot-2024-03-01-at-12.52.00-PM.png 600w, /content/images/size/w500/2024/03/Screenshot-2024-03-01-at-12.52.00-PM.png 500w" sizes="(max-width: 500px) 92vw, 30vw" src="/content/images/size/w1000/2024/03/Screenshot-2024-03-01-at-12.52.00-PM.png" alt="Jack Butcher Leverages Cross Chain Payments to Boost Sales post image" loading="lazy">
+                </picture>
+            </a>
+        </div>
+    </div>
+    <div class="gh-card-content">
+        <div class="gh-card-content-main">
+            <div class="gh-card-tags">
+                <a class="gh-card-tag" href="/tag/case-studies/" aria-label="Case Studies tag link">
+                    Case Studies
+                </a>
+            </div>
+            <a href="/empowering-web3-native-brands-with-fiat-and-cross-chain-payments/" aria-label="Jack Butcher Leverages Cross Chain Payments to Boost Sales post link">
+                <h2 class="gh-card-title">Jack Butcher Leverages Cross Chain Payments to Boost Sales</h2>
+            </a>
+        </div>
+        <span class="gh-post-meta">Updated on <time datetime="2024-03-01">Mar 1,                2024</time> </span>
+    </div>
+</article>                                        </div>
+                                        <div class="swiper-slide gh-topic-slide" role="group" aria-label="4 / 7" style="width: 452px; margin-right: 32px;">
+                                            <article class="gh-card post tag-case-studies tag-hash-jean ">
+    <div class="gh-card-image-video-outer">
+        <div class="gh-card-img-video-wrapper">
+            <a class="gh-card-image-wrapper-link" href="/red-bull-creates-120-000-wallets-with-crossmint-to-onboard-artists/" aria-label="Red Bull Creates 120,000 Wallets with Crossmint to Onboard Artists post link">
+                <picture>
+                    <source srcset="/content/images/size/w1000/format/webp/2024/02/Crossmint-x-Red-Bull.jpg 1000w, /content/images/size/w800/format/webp/2024/02/Crossmint-x-Red-Bull.jpg 800w, /content/images/size/w600/format/webp/2024/02/Crossmint-x-Red-Bull.jpg 600w, /content/images/size/w500/format/webp/2024/02/Crossmint-x-Red-Bull.jpg 500w" sizes="(max-width: 500px) 92vw, 30vw" type="image/webp">
+                    <img class="gh-card-image" srcset="/content/images/size/w1000/2024/02/Crossmint-x-Red-Bull.jpg 1000w, /content/images/size/w800/2024/02/Crossmint-x-Red-Bull.jpg 800w, /content/images/size/w600/2024/02/Crossmint-x-Red-Bull.jpg 600w, /content/images/size/w500/2024/02/Crossmint-x-Red-Bull.jpg 500w" sizes="(max-width: 500px) 92vw, 30vw" src="/content/images/size/w1000/2024/02/Crossmint-x-Red-Bull.jpg" alt="Red Bull Creates 120,000 Wallets with Crossmint to Onboard Artists" loading="lazy">
+                </picture>
+            </a>
+        </div>
+    </div>
+    <div class="gh-card-content">
+        <div class="gh-card-content-main">
+            <div class="gh-card-tags">
+                <a class="gh-card-tag" href="/tag/case-studies/" aria-label="Case Studies tag link">
+                    Case Studies
+                </a>
+            </div>
+            <a href="/red-bull-creates-120-000-wallets-with-crossmint-to-onboard-artists/" aria-label="Red Bull Creates 120,000 Wallets with Crossmint to Onboard Artists post link">
+                <h2 class="gh-card-title">Red Bull Creates 120,000 Wallets with Crossmint to Onboard Artists</h2>
+            </a>
+        </div>
+        <span class="gh-post-meta">Updated on <time datetime="2024-02-28">Feb 28,                2024</time> </span>
+    </div>
+</article>                                        </div>
+                                        <div class="swiper-slide gh-topic-slide" role="group" aria-label="5 / 7" style="width: 452px; margin-right: 32px;">
+                                            <article class="gh-card post tag-case-studies tag-hash-jean featured ">
+    <div class="gh-card-image-video-outer">
+        <div class="gh-card-img-video-wrapper">
+            <a class="gh-card-image-wrapper-link" href="/snoop-doggs-nft-passport/" aria-label="Snoop Dogg's Evolving NFT Tour Passport post link">
+                <picture>
+                    <source srcset="/content/images/size/w1000/format/webp/2024/02/Crossmint-x-Snoop-Dogg.jpg 1000w, /content/images/size/w800/format/webp/2024/02/Crossmint-x-Snoop-Dogg.jpg 800w, /content/images/size/w600/format/webp/2024/02/Crossmint-x-Snoop-Dogg.jpg 600w, /content/images/size/w500/format/webp/2024/02/Crossmint-x-Snoop-Dogg.jpg 500w" sizes="(max-width: 500px) 92vw, 30vw" type="image/webp">
+                    <img class="gh-card-image" srcset="/content/images/size/w1000/2024/02/Crossmint-x-Snoop-Dogg.jpg 1000w, /content/images/size/w800/2024/02/Crossmint-x-Snoop-Dogg.jpg 800w, /content/images/size/w600/2024/02/Crossmint-x-Snoop-Dogg.jpg 600w, /content/images/size/w500/2024/02/Crossmint-x-Snoop-Dogg.jpg 500w" sizes="(max-width: 500px) 92vw, 30vw" src="/content/images/size/w1000/2024/02/Crossmint-x-Snoop-Dogg.jpg" alt="Snoop Dogg NFT passport" loading="lazy">
+                </picture>
+            </a>
+        </div>
+    </div>
+    <div class="gh-card-content">
+        <div class="gh-card-content-main">
+            <div class="gh-card-tags">
+                    <span class="gh-card-tag-icon gh-card-tag-icon--featured">
+                        <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M4.58898 10.5316L9.47815 2.84862C9.7467 2.4266 10.4 2.61683 10.4 3.11705V8.50002C10.4 8.55525 10.4447 8.60002 10.5 8.60002H13.9396C14.3442 8.60002 14.5812 9.05537 14.3493 9.38676L9.50959 16.3006C9.22925 16.7011 8.59998 16.5027 8.59998 16.0138V11.4C8.59998 11.3448 8.5552 11.3 8.49998 11.3H5.01081C4.61627 11.3 4.37716 10.8644 4.58898 10.5316Z" stroke="#616162" stroke-width="1.4"></path>
+</svg>                    </span>
+                <a class="gh-card-tag" href="/tag/case-studies/" aria-label="Case Studies tag link">
+                    Case Studies
+                </a>
+            </div>
+            <a href="/snoop-doggs-nft-passport/" aria-label="Snoop Dogg's Evolving NFT Tour Passport post link">
+                <h2 class="gh-card-title">Snoop Dogg's Evolving NFT Tour Passport</h2>
+            </a>
+        </div>
+        <span class="gh-post-meta">Updated on <time datetime="2024-02-21">Feb 21,                2024</time> </span>
+    </div>
+</article>                                        </div>
+                                        <div class="swiper-slide gh-topic-slide" role="group" aria-label="6 / 7" style="width: 452px; margin-right: 32px;">
+                                            <article class="gh-card post tag-case-studies tag-hash-case-studies featured ">
+    <div class="gh-card-image-video-outer">
+        <div class="gh-card-img-video-wrapper">
+            <a class="gh-card-image-wrapper-link" href="/tokenizing-sports-memorabilia-the-museum-of-mahomes-case-study/" aria-label="Museum of Mahomes: Sports Memorabilia NFTs post link">
+                <picture>
+                    <source srcset="/content/images/size/w1000/format/webp/2024/02/Crossmint-x-Museum-of-Machomes.jpg 1000w, /content/images/size/w800/format/webp/2024/02/Crossmint-x-Museum-of-Machomes.jpg 800w, /content/images/size/w600/format/webp/2024/02/Crossmint-x-Museum-of-Machomes.jpg 600w, /content/images/size/w500/format/webp/2024/02/Crossmint-x-Museum-of-Machomes.jpg 500w" sizes="(max-width: 500px) 92vw, 30vw" type="image/webp">
+                    <img class="gh-card-image" srcset="/content/images/size/w1000/2024/02/Crossmint-x-Museum-of-Machomes.jpg 1000w, /content/images/size/w800/2024/02/Crossmint-x-Museum-of-Machomes.jpg 800w, /content/images/size/w600/2024/02/Crossmint-x-Museum-of-Machomes.jpg 600w, /content/images/size/w500/2024/02/Crossmint-x-Museum-of-Machomes.jpg 500w" sizes="(max-width: 500px) 92vw, 30vw" src="/content/images/size/w1000/2024/02/Crossmint-x-Museum-of-Machomes.jpg" alt="Museum of Mahomes: Sports Memorabilia NFTs post image" loading="lazy">
+                </picture>
+            </a>
+        </div>
+    </div>
+    <div class="gh-card-content">
+        <div class="gh-card-content-main">
+            <div class="gh-card-tags">
+                    <span class="gh-card-tag-icon gh-card-tag-icon--featured">
+                        <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M4.58898 10.5316L9.47815 2.84862C9.7467 2.4266 10.4 2.61683 10.4 3.11705V8.50002C10.4 8.55525 10.4447 8.60002 10.5 8.60002H13.9396C14.3442 8.60002 14.5812 9.05537 14.3493 9.38676L9.50959 16.3006C9.22925 16.7011 8.59998 16.5027 8.59998 16.0138V11.4C8.59998 11.3448 8.5552 11.3 8.49998 11.3H5.01081C4.61627 11.3 4.37716 10.8644 4.58898 10.5316Z" stroke="#616162" stroke-width="1.4"></path>
+</svg>                    </span>
+                <a class="gh-card-tag" href="/tag/case-studies/" aria-label="Case Studies tag link">
+                    Case Studies
+                </a>
+            </div>
+            <a href="/tokenizing-sports-memorabilia-the-museum-of-mahomes-case-study/" aria-label="Museum of Mahomes: Sports Memorabilia NFTs post link">
+                <h2 class="gh-card-title">Museum of Mahomes: Sports Memorabilia NFTs</h2>
+            </a>
+        </div>
+        <span class="gh-post-meta">Updated on <time datetime="2024-02-14">Feb 14,                2024</time> </span>
+    </div>
+</article>                                        </div>
+                                        <div class="swiper-slide gh-topic-slide" role="group" aria-label="7 / 7" style="width: 452px; margin-right: 32px;">
+                                            <article class="gh-card post tag-hash-case-studies tag-case-studies tag-hash-jean featured ">
+    <div class="gh-card-image-video-outer">
+        <div class="gh-card-img-video-wrapper">
+            <a class="gh-card-image-wrapper-link" href="/nft-fundraising-amazon-tribe/" aria-label="Fundraising $4 million for a remote Amazon tribe using NFTs post link">
+                <picture>
+                    <source srcset="/content/images/size/w1000/format/webp/2023/12/Crossmint-x-Refik-Anadol.png 1000w, /content/images/size/w800/format/webp/2023/12/Crossmint-x-Refik-Anadol.png 800w, /content/images/size/w600/format/webp/2023/12/Crossmint-x-Refik-Anadol.png 600w, /content/images/size/w500/format/webp/2023/12/Crossmint-x-Refik-Anadol.png 500w" sizes="(max-width: 500px) 92vw, 30vw" type="image/webp">
+                    <img class="gh-card-image" srcset="/content/images/size/w1000/2023/12/Crossmint-x-Refik-Anadol.png 1000w, /content/images/size/w800/2023/12/Crossmint-x-Refik-Anadol.png 800w, /content/images/size/w600/2023/12/Crossmint-x-Refik-Anadol.png 600w, /content/images/size/w500/2023/12/Crossmint-x-Refik-Anadol.png 500w" sizes="(max-width: 500px) 92vw, 30vw" src="/content/images/size/w1000/2023/12/Crossmint-x-Refik-Anadol.png" alt="NFT fundraising" loading="lazy">
+                </picture>
+            </a>
+        </div>
+    </div>
+    <div class="gh-card-content">
+        <div class="gh-card-content-main">
+            <div class="gh-card-tags">
+                    <span class="gh-card-tag-icon gh-card-tag-icon--featured">
+                        <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M4.58898 10.5316L9.47815 2.84862C9.7467 2.4266 10.4 2.61683 10.4 3.11705V8.50002C10.4 8.55525 10.4447 8.60002 10.5 8.60002H13.9396C14.3442 8.60002 14.5812 9.05537 14.3493 9.38676L9.50959 16.3006C9.22925 16.7011 8.59998 16.5027 8.59998 16.0138V11.4C8.59998 11.3448 8.5552 11.3 8.49998 11.3H5.01081C4.61627 11.3 4.37716 10.8644 4.58898 10.5316Z" stroke="#616162" stroke-width="1.4"></path>
+</svg>                    </span>
+                <a class="gh-card-tag" href="/tag/case-studies/" aria-label="Case Studies tag link">
+                    Case Studies
+                </a>
+            </div>
+            <a href="/nft-fundraising-amazon-tribe/" aria-label="Fundraising $4 million for a remote Amazon tribe using NFTs post link">
+                <h2 class="gh-card-title">Fundraising $4 million for a remote Amazon tribe using NFTs</h2>
+            </a>
+        </div>
+        <span class="gh-post-meta">Updated on <time datetime="2023-12-26">Dec 26,                2023</time> </span>
+    </div>
+</article>                                        </div>
+                                </div>
+                                <button class="gh-prev-slide-btn swiper-button-disabled" aria-label="Previous slide" disabled="" tabindex="-1" aria-controls="swiper-wrapper-97b5e9584e045331" aria-disabled="true" style="top: -30px;"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M10.8333 18L5 12M5 12L10.8333 6M5 12L19 12" stroke="#1D1D1F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg></button>
+                                <button class="gh-next-slide-btn" aria-label="Next slide" tabindex="0" aria-controls="swiper-wrapper-97b5e9584e045331" aria-disabled="false" style="top: -30px;"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M13.1667 6L19 12M19 12L13.1667 18M19 12L5 12" stroke="#1D1D1F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg></button>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                        </div>
+                   </section>
+                    <section class="gh-big-grid-section gh-grid-section">
+                        <a href="/tag/guides/" aria-label="Guides category link">
+                            <h2 class="gh-topic-grid-name">Guides</h2>
+                        </a>
+                        <div class="gh-posts-feed">
+                                    <article class="gh-card post tag-guides tag-hash-guides ">
+    <div class="gh-card-image-video-outer">
+        <div class="gh-card-img-video-wrapper">
+            <a class="gh-card-image-wrapper-link" href="/how-to-create-and-mint-nfts-on-arbitrum-nova/" aria-label="How to Create and Mint NFTs on Arbitrum Nova post link">
+                <picture>
+                    <source srcset="/content/images/size/w1000/format/webp/2024/05/how-to-create-nfts-on-arbitrum-nova-1.png 1000w, /content/images/size/w800/format/webp/2024/05/how-to-create-nfts-on-arbitrum-nova-1.png 800w, /content/images/size/w600/format/webp/2024/05/how-to-create-nfts-on-arbitrum-nova-1.png 600w, /content/images/size/w500/format/webp/2024/05/how-to-create-nfts-on-arbitrum-nova-1.png 500w" sizes="(max-width: 500px) 92vw, 30vw" type="image/webp">
+                    <img class="gh-card-image" srcset="/content/images/size/w1000/2024/05/how-to-create-nfts-on-arbitrum-nova-1.png 1000w, /content/images/size/w800/2024/05/how-to-create-nfts-on-arbitrum-nova-1.png 800w, /content/images/size/w600/2024/05/how-to-create-nfts-on-arbitrum-nova-1.png 600w, /content/images/size/w500/2024/05/how-to-create-nfts-on-arbitrum-nova-1.png 500w" sizes="(max-width: 500px) 92vw, 30vw" src="/content/images/size/w1000/2024/05/how-to-create-nfts-on-arbitrum-nova-1.png" alt="How to Create and Mint NFTs on Arbitrum Nova post image" loading="lazy">
+                </picture>
+            </a>
+        </div>
+    </div>
+    <div class="gh-card-content">
+        <div class="gh-card-content-main">
+            <div class="gh-card-tags">
+                <a class="gh-card-tag" href="/tag/guides/" aria-label="Guides tag link">
+                    Guides
+                </a>
+            </div>
+            <a href="/how-to-create-and-mint-nfts-on-arbitrum-nova/" aria-label="How to Create and Mint NFTs on Arbitrum Nova post link">
+                <h2 class="gh-card-title">How to Create and Mint NFTs on Arbitrum Nova</h2>
+            </a>
+        </div>
+        <span class="gh-post-meta">Updated on <time datetime="2024-05-24">May 24,                2024</time> </span>
+    </div>
+</article>                                    <article class="gh-card post tag-guides tag-hash-guides ">
+    <div class="gh-card-image-video-outer">
+        <div class="gh-card-img-video-wrapper">
+            <a class="gh-card-image-wrapper-link" href="/how-to-build-a-custom-gpt-to-mint-nfts/" aria-label="How to Build a Custom GPT to Mint NFTs post link">
+                <picture>
+                    <source srcset="/content/images/size/w1000/format/webp/2024/05/how-to-build-custom-gpt-to-mint-nfts-3.png 1000w, /content/images/size/w800/format/webp/2024/05/how-to-build-custom-gpt-to-mint-nfts-3.png 800w, /content/images/size/w600/format/webp/2024/05/how-to-build-custom-gpt-to-mint-nfts-3.png 600w, /content/images/size/w500/format/webp/2024/05/how-to-build-custom-gpt-to-mint-nfts-3.png 500w" sizes="(max-width: 500px) 92vw, 30vw" type="image/webp">
+                    <img class="gh-card-image" srcset="/content/images/size/w1000/2024/05/how-to-build-custom-gpt-to-mint-nfts-3.png 1000w, /content/images/size/w800/2024/05/how-to-build-custom-gpt-to-mint-nfts-3.png 800w, /content/images/size/w600/2024/05/how-to-build-custom-gpt-to-mint-nfts-3.png 600w, /content/images/size/w500/2024/05/how-to-build-custom-gpt-to-mint-nfts-3.png 500w" sizes="(max-width: 500px) 92vw, 30vw" src="/content/images/size/w1000/2024/05/how-to-build-custom-gpt-to-mint-nfts-3.png" alt="How to Build a Custom GPT to Mint NFTs post image" loading="lazy">
+                </picture>
+            </a>
+        </div>
+    </div>
+    <div class="gh-card-content">
+        <div class="gh-card-content-main">
+            <div class="gh-card-tags">
+                <a class="gh-card-tag" href="/tag/guides/" aria-label="Guides tag link">
+                    Guides
+                </a>
+            </div>
+            <a href="/how-to-build-a-custom-gpt-to-mint-nfts/" aria-label="How to Build a Custom GPT to Mint NFTs post link">
+                <h2 class="gh-card-title">How to Build a Custom GPT to Mint NFTs</h2>
+            </a>
+        </div>
+        <span class="gh-post-meta">Updated on <time datetime="2024-05-22">May 22,                2024</time> </span>
+    </div>
+</article>                                    <article class="gh-card post tag-guides tag-hash-guides ">
+    <div class="gh-card-image-video-outer">
+        <div class="gh-card-img-video-wrapper">
+            <a class="gh-card-image-wrapper-link" href="/how-to-build-dynamic-nfts-on-base-for-onchain-summer/" aria-label="How to Build Dynamic NFTs on Base for Onchain Summer? post link">
+                <picture>
+                    <source srcset="/content/images/size/w1000/format/webp/2024/05/how-to-build-dynamic-nfts-base-onchain-summer.png 1000w, /content/images/size/w800/format/webp/2024/05/how-to-build-dynamic-nfts-base-onchain-summer.png 800w, /content/images/size/w600/format/webp/2024/05/how-to-build-dynamic-nfts-base-onchain-summer.png 600w, /content/images/size/w500/format/webp/2024/05/how-to-build-dynamic-nfts-base-onchain-summer.png 500w" sizes="(max-width: 500px) 92vw, 30vw" type="image/webp">
+                    <img class="gh-card-image" srcset="/content/images/size/w1000/2024/05/how-to-build-dynamic-nfts-base-onchain-summer.png 1000w, /content/images/size/w800/2024/05/how-to-build-dynamic-nfts-base-onchain-summer.png 800w, /content/images/size/w600/2024/05/how-to-build-dynamic-nfts-base-onchain-summer.png 600w, /content/images/size/w500/2024/05/how-to-build-dynamic-nfts-base-onchain-summer.png 500w" sizes="(max-width: 500px) 92vw, 30vw" src="/content/images/size/w1000/2024/05/how-to-build-dynamic-nfts-base-onchain-summer.png" alt="How to Build Dynamic NFTs on Base for Onchain Summer? post image" loading="lazy">
+                </picture>
+            </a>
+        </div>
+    </div>
+    <div class="gh-card-content">
+        <div class="gh-card-content-main">
+            <div class="gh-card-tags">
+                <a class="gh-card-tag" href="/tag/guides/" aria-label="Guides tag link">
+                    Guides
+                </a>
+            </div>
+            <a href="/how-to-build-dynamic-nfts-on-base-for-onchain-summer/" aria-label="How to Build Dynamic NFTs on Base for Onchain Summer? post link">
+                <h2 class="gh-card-title">How to Build Dynamic NFTs on Base for Onchain Summer?</h2>
+            </a>
+        </div>
+        <span class="gh-post-meta">Updated on <time datetime="2024-05-21">May 21,                2024</time> </span>
+    </div>
+</article>                                    <article class="gh-card post tag-guides tag-hash-guides ">
+    <div class="gh-card-image-video-outer">
+        <div class="gh-card-img-video-wrapper">
+            <a class="gh-card-image-wrapper-link" href="/how-to-create-and-mint-nfts-on-arbitrum/" aria-label="How to Create and Mint NFTs on Arbitrum post link">
+                <picture>
+                    <source srcset="/content/images/size/w1000/format/webp/2024/05/how-to-create-nfts-on-arbitrum-1.png 1000w, /content/images/size/w800/format/webp/2024/05/how-to-create-nfts-on-arbitrum-1.png 800w, /content/images/size/w600/format/webp/2024/05/how-to-create-nfts-on-arbitrum-1.png 600w, /content/images/size/w500/format/webp/2024/05/how-to-create-nfts-on-arbitrum-1.png 500w" sizes="(max-width: 500px) 92vw, 30vw" type="image/webp">
+                    <img class="gh-card-image" srcset="/content/images/size/w1000/2024/05/how-to-create-nfts-on-arbitrum-1.png 1000w, /content/images/size/w800/2024/05/how-to-create-nfts-on-arbitrum-1.png 800w, /content/images/size/w600/2024/05/how-to-create-nfts-on-arbitrum-1.png 600w, /content/images/size/w500/2024/05/how-to-create-nfts-on-arbitrum-1.png 500w" sizes="(max-width: 500px) 92vw, 30vw" src="/content/images/size/w1000/2024/05/how-to-create-nfts-on-arbitrum-1.png" alt="How to Create and Mint NFTs on Arbitrum post image" loading="lazy">
+                </picture>
+            </a>
+        </div>
+    </div>
+    <div class="gh-card-content">
+        <div class="gh-card-content-main">
+            <div class="gh-card-tags">
+                <a class="gh-card-tag" href="/tag/guides/" aria-label="Guides tag link">
+                    Guides
+                </a>
+            </div>
+            <a href="/how-to-create-and-mint-nfts-on-arbitrum/" aria-label="How to Create and Mint NFTs on Arbitrum post link">
+                <h2 class="gh-card-title">How to Create and Mint NFTs on Arbitrum</h2>
+            </a>
+        </div>
+        <span class="gh-post-meta">Updated on <time datetime="2024-05-14">May 14,                2024</time> </span>
+    </div>
+</article>                                    <article class="gh-card post tag-guides tag-hash-guides ">
+    <div class="gh-card-image-video-outer">
+        <div class="gh-card-img-video-wrapper">
+            <a class="gh-card-image-wrapper-link" href="/create-sell-and-send-nfts-with-0-code/" aria-label="Create, Sell and Send NFTs with zero code post link">
+                <picture>
+                    <source srcset="/content/images/size/w1000/format/webp/2024/05/how-to-create-sell-and-send-nfts.png 1000w, /content/images/size/w800/format/webp/2024/05/how-to-create-sell-and-send-nfts.png 800w, /content/images/size/w600/format/webp/2024/05/how-to-create-sell-and-send-nfts.png 600w, /content/images/size/w500/format/webp/2024/05/how-to-create-sell-and-send-nfts.png 500w" sizes="(max-width: 500px) 92vw, 30vw" type="image/webp">
+                    <img class="gh-card-image" srcset="/content/images/size/w1000/2024/05/how-to-create-sell-and-send-nfts.png 1000w, /content/images/size/w800/2024/05/how-to-create-sell-and-send-nfts.png 800w, /content/images/size/w600/2024/05/how-to-create-sell-and-send-nfts.png 600w, /content/images/size/w500/2024/05/how-to-create-sell-and-send-nfts.png 500w" sizes="(max-width: 500px) 92vw, 30vw" src="/content/images/size/w1000/2024/05/how-to-create-sell-and-send-nfts.png" alt="Create, Sell and Send NFTs with zero code post image" loading="lazy">
+                </picture>
+            </a>
+        </div>
+    </div>
+    <div class="gh-card-content">
+        <div class="gh-card-content-main">
+            <div class="gh-card-tags">
+                <a class="gh-card-tag" href="/tag/guides/" aria-label="Guides tag link">
+                    Guides
+                </a>
+            </div>
+            <a href="/create-sell-and-send-nfts-with-0-code/" aria-label="Create, Sell and Send NFTs with zero code post link">
+                <h2 class="gh-card-title">Create, Sell and Send NFTs with zero code</h2>
+            </a>
+        </div>
+        <span class="gh-post-meta">Updated on <time datetime="2024-05-07">May 7,                2024</time> </span>
+    </div>
+</article>                                    <article class="gh-card post tag-guides tag-hash-guides ">
+    <div class="gh-card-image-video-outer">
+        <div class="gh-card-img-video-wrapper">
+            <a class="gh-card-image-wrapper-link" href="/how-to-create-and-mint-nfts-on-zora-network/" aria-label="How to Create and Mint NFTs on the Zora Network post link">
+                <picture>
+                    <source srcset="/content/images/size/w1000/format/webp/2024/05/how-to-create-and-mint-nfts-on-zora-network.png 1000w, /content/images/size/w800/format/webp/2024/05/how-to-create-and-mint-nfts-on-zora-network.png 800w, /content/images/size/w600/format/webp/2024/05/how-to-create-and-mint-nfts-on-zora-network.png 600w, /content/images/size/w500/format/webp/2024/05/how-to-create-and-mint-nfts-on-zora-network.png 500w" sizes="(max-width: 500px) 92vw, 30vw" type="image/webp">
+                    <img class="gh-card-image" srcset="/content/images/size/w1000/2024/05/how-to-create-and-mint-nfts-on-zora-network.png 1000w, /content/images/size/w800/2024/05/how-to-create-and-mint-nfts-on-zora-network.png 800w, /content/images/size/w600/2024/05/how-to-create-and-mint-nfts-on-zora-network.png 600w, /content/images/size/w500/2024/05/how-to-create-and-mint-nfts-on-zora-network.png 500w" sizes="(max-width: 500px) 92vw, 30vw" src="/content/images/size/w1000/2024/05/how-to-create-and-mint-nfts-on-zora-network.png" alt="How to Create and Mint NFTs on the Zora Network post image" loading="lazy">
+                </picture>
+            </a>
+        </div>
+    </div>
+    <div class="gh-card-content">
+        <div class="gh-card-content-main">
+            <div class="gh-card-tags">
+                <a class="gh-card-tag" href="/tag/guides/" aria-label="Guides tag link">
+                    Guides
+                </a>
+            </div>
+            <a href="/how-to-create-and-mint-nfts-on-zora-network/" aria-label="How to Create and Mint NFTs on the Zora Network post link">
+                <h2 class="gh-card-title">How to Create and Mint NFTs on the Zora Network</h2>
+            </a>
+        </div>
+        <span class="gh-post-meta">Updated on <time datetime="2024-04-30">Apr 30,                2024</time> </span>
+    </div>
+</article>                                    <article class="gh-card post tag-guides tag-hash-guides ">
+    <div class="gh-card-image-video-outer">
+        <div class="gh-card-img-video-wrapper">
+            <a class="gh-card-image-wrapper-link" href="/how-to-create-and-mint-nfts-on-polygon/" aria-label="How to Create and Mint NFTs on Polygon post link">
+                <picture>
+                    <source srcset="/content/images/size/w1000/format/webp/2024/05/how-to-create-nfts-on-polygon.png 1000w, /content/images/size/w800/format/webp/2024/05/how-to-create-nfts-on-polygon.png 800w, /content/images/size/w600/format/webp/2024/05/how-to-create-nfts-on-polygon.png 600w, /content/images/size/w500/format/webp/2024/05/how-to-create-nfts-on-polygon.png 500w" sizes="(max-width: 500px) 92vw, 30vw" type="image/webp">
+                    <img class="gh-card-image" srcset="/content/images/size/w1000/2024/05/how-to-create-nfts-on-polygon.png 1000w, /content/images/size/w800/2024/05/how-to-create-nfts-on-polygon.png 800w, /content/images/size/w600/2024/05/how-to-create-nfts-on-polygon.png 600w, /content/images/size/w500/2024/05/how-to-create-nfts-on-polygon.png 500w" sizes="(max-width: 500px) 92vw, 30vw" src="/content/images/size/w1000/2024/05/how-to-create-nfts-on-polygon.png" alt="How to Create and Mint NFTs on Polygon post image" loading="lazy">
+                </picture>
+            </a>
+        </div>
+    </div>
+    <div class="gh-card-content">
+        <div class="gh-card-content-main">
+            <div class="gh-card-tags">
+                <a class="gh-card-tag" href="/tag/guides/" aria-label="Guides tag link">
+                    Guides
+                </a>
+            </div>
+            <a href="/how-to-create-and-mint-nfts-on-polygon/" aria-label="How to Create and Mint NFTs on Polygon post link">
+                <h2 class="gh-card-title">How to Create and Mint NFTs on Polygon</h2>
+            </a>
+        </div>
+        <span class="gh-post-meta">Updated on <time datetime="2024-04-23">Apr 23,                2024</time> </span>
+    </div>
+</article>                                    <article class="gh-card post tag-guides tag-hash-guides ">
+    <div class="gh-card-image-video-outer">
+        <div class="gh-card-img-video-wrapper">
+            <a class="gh-card-image-wrapper-link" href="/how-to-create-and-mint-nfts-on-binance-smart-chain/" aria-label="How to Create and Mint NFTs on Binance Smart Chain post link">
+                <picture>
+                    <source srcset="/content/images/size/w1000/format/webp/2024/05/how-to-create-and-mint-on-binance-1.png 1000w, /content/images/size/w800/format/webp/2024/05/how-to-create-and-mint-on-binance-1.png 800w, /content/images/size/w600/format/webp/2024/05/how-to-create-and-mint-on-binance-1.png 600w, /content/images/size/w500/format/webp/2024/05/how-to-create-and-mint-on-binance-1.png 500w" sizes="(max-width: 500px) 92vw, 30vw" type="image/webp">
+                    <img class="gh-card-image" srcset="/content/images/size/w1000/2024/05/how-to-create-and-mint-on-binance-1.png 1000w, /content/images/size/w800/2024/05/how-to-create-and-mint-on-binance-1.png 800w, /content/images/size/w600/2024/05/how-to-create-and-mint-on-binance-1.png 600w, /content/images/size/w500/2024/05/how-to-create-and-mint-on-binance-1.png 500w" sizes="(max-width: 500px) 92vw, 30vw" src="/content/images/size/w1000/2024/05/how-to-create-and-mint-on-binance-1.png" alt="How to Create and Mint NFTs on Binance Smart Chain post image" loading="lazy">
+                </picture>
+            </a>
+        </div>
+    </div>
+    <div class="gh-card-content">
+        <div class="gh-card-content-main">
+            <div class="gh-card-tags">
+                <a class="gh-card-tag" href="/tag/guides/" aria-label="Guides tag link">
+                    Guides
+                </a>
+            </div>
+            <a href="/how-to-create-and-mint-nfts-on-binance-smart-chain/" aria-label="How to Create and Mint NFTs on Binance Smart Chain post link">
+                <h2 class="gh-card-title">How to Create and Mint NFTs on Binance Smart Chain</h2>
+            </a>
+        </div>
+        <span class="gh-post-meta">Updated on <time datetime="2024-04-18">Apr 18,                2024</time> </span>
+    </div>
+</article>                        </div>
+                        <a rel="next" name="Guides" class="gh-secondary-button gh-load-more-button" aria-label="Load more posts button">Load More</a>
+                    </section>
+        </div>
+    </div>
+</main>
+
+        <footer class="gh-foot">
+    <div class="gh-foot-subscription-wrapper">
+        <div class="gh-foot-subscription-opacity-wrapper"></div>
+        <div class="gh-foot-subscription-bg-color"></div>
+        <div class="gh-container">
+            <div class="gh-foot-subscription">
+                <div class="gh-foot-subscription-content">
+                    <h3 class="gh-foot-subscription-cta-text">
+                        Subscribe to our Blog
+                    </h3>
+                    <p class="gh-foot-subscription-cta-subtext">
+                        Subscribe to Crossmint's blog for free to receive updates on the latest studies, Web3 technical guides, and more.
+                    </p>
+                                    <a class="gh-main-button gh-subscribe-button" href="https://blog.crossmint.com/subscribe" aria-label="Subscribe button">
+                                        Subscribe
+                                    </a>
+                </div>
+                    <div class="gh-foot-subscribtion-sliders-wrapper">
+                        <div class="gh-foot-slider-wrapper">
+                            <div class="gh-foot-slider gh-foot-slider--forward swiper-initialized swiper-vertical">
+                                <div class="swiper-wrapper" id="swiper-wrapper-cc30fbec11dc7e2d" aria-live="off" style="transition-duration: 0ms; transition-delay: 0ms;">
+                                            <div class="swiper-slide gh-foot-slider-slide swiper-slide-active" data-swiper-slide-index="0" role="group" aria-label="1 / 10">
+                                                <picture>
+                                                    <source srcset="/content/images/size/w600/format/webp/2024/05/how-to-create-nfts-on-base-2-1.png 600w, /content/images/size/w300/format/webp/2024/05/how-to-create-nfts-on-base-2-1.png 300w" sizes="224px" type="image/webp">
+                                                    <img srcset="/content/images/size/w600/2024/05/how-to-create-nfts-on-base-2-1.png 600w, /content/images/size/w300/2024/05/how-to-create-nfts-on-base-2-1.png 300w" sizes="224px" src="/content/images/size/w300/2024/05/how-to-create-nfts-on-base-2-1.png" alt="How to Create and Mint NFTs on Base post feature image" loading="lazy">
+                                                </picture>
+                                            </div>
+                                            <div class="swiper-slide gh-foot-slider-slide swiper-slide-next" data-swiper-slide-index="1" role="group" aria-label="2 / 10">
+                                                <picture>
+                                                    <source srcset="/content/images/size/w600/format/webp/2024/04/How-to-Integrate-Crossmint-and-Zapier--37-.png 600w, /content/images/size/w300/format/webp/2024/04/How-to-Integrate-Crossmint-and-Zapier--37-.png 300w" sizes="224px" type="image/webp">
+                                                    <img srcset="/content/images/size/w600/2024/04/How-to-Integrate-Crossmint-and-Zapier--37-.png 600w, /content/images/size/w300/2024/04/How-to-Integrate-Crossmint-and-Zapier--37-.png 300w" sizes="224px" src="/content/images/size/w300/2024/04/How-to-Integrate-Crossmint-and-Zapier--37-.png" alt="How to Create an NFT Collection and Mint NFTs with 0 Code post feature image" loading="lazy">
+                                                </picture>
+                                            </div>
+                                            <div class="swiper-slide gh-foot-slider-slide" data-swiper-slide-index="2" role="group" aria-label="3 / 10">
+                                                <picture>
+                                                    <source srcset="/content/images/size/w600/format/webp/2024/05/how-to-create-nfts-on-optimism.png 600w, /content/images/size/w300/format/webp/2024/05/how-to-create-nfts-on-optimism.png 300w" sizes="224px" type="image/webp">
+                                                    <img srcset="/content/images/size/w600/2024/05/how-to-create-nfts-on-optimism.png 600w, /content/images/size/w300/2024/05/how-to-create-nfts-on-optimism.png 300w" sizes="224px" src="/content/images/size/w300/2024/05/how-to-create-nfts-on-optimism.png" alt="How to Create and Mint NFTs on Optimism post feature image" loading="lazy">
+                                                </picture>
+                                            </div>
+                                            <div class="swiper-slide gh-foot-slider-slide" data-swiper-slide-index="3" role="group" aria-label="4 / 10">
+                                                <picture>
+                                                    <source srcset="/content/images/size/w600/format/webp/2024/05/how-to-create-nfts-on-ethereum.png 600w, /content/images/size/w300/format/webp/2024/05/how-to-create-nfts-on-ethereum.png 300w" sizes="224px" type="image/webp">
+                                                    <img srcset="/content/images/size/w600/2024/05/how-to-create-nfts-on-ethereum.png 600w, /content/images/size/w300/2024/05/how-to-create-nfts-on-ethereum.png 300w" sizes="224px" src="/content/images/size/w300/2024/05/how-to-create-nfts-on-ethereum.png" alt="How to Create and Mint NFTs on Ethereum post feature image" loading="lazy">
+                                                </picture>
+                                            </div>
+                                            <div class="swiper-slide gh-foot-slider-slide" data-swiper-slide-index="4" role="group" aria-label="5 / 10">
+                                                <picture>
+                                                    <source srcset="/content/images/size/w600/format/webp/2024/05/how-to-create-create-dynamic-nft-ultimate-guide-1.png 600w, /content/images/size/w300/format/webp/2024/05/how-to-create-create-dynamic-nft-ultimate-guide-1.png 300w" sizes="224px" type="image/webp">
+                                                    <img srcset="/content/images/size/w600/2024/05/how-to-create-create-dynamic-nft-ultimate-guide-1.png 600w, /content/images/size/w300/2024/05/how-to-create-create-dynamic-nft-ultimate-guide-1.png 300w" sizes="224px" src="/content/images/size/w300/2024/05/how-to-create-create-dynamic-nft-ultimate-guide-1.png" alt="How to Create Dynamic NFTs? The Ultimate Guide post feature image" loading="lazy">
+                                                </picture>
+                                            </div>
+                                            <div class="swiper-slide gh-foot-slider-slide" data-swiper-slide-index="5" role="group" aria-label="6 / 10">
+                                                <picture>
+                                                    <source srcset="/content/images/size/w600/format/webp/2024/05/how-to-create-nfts-on-solana-2.png 600w, /content/images/size/w300/format/webp/2024/05/how-to-create-nfts-on-solana-2.png 300w" sizes="224px" type="image/webp">
+                                                    <img srcset="/content/images/size/w600/2024/05/how-to-create-nfts-on-solana-2.png 600w, /content/images/size/w300/2024/05/how-to-create-nfts-on-solana-2.png 300w" sizes="224px" src="/content/images/size/w300/2024/05/how-to-create-nfts-on-solana-2.png" alt="How to Create and Mint NFTs on Solana post feature image" loading="lazy">
+                                                </picture>
+                                            </div>
+                                            <div class="swiper-slide gh-foot-slider-slide" data-swiper-slide-index="6" role="group" aria-label="7 / 10">
+                                                <picture>
+                                                    <source srcset="/content/images/size/w600/format/webp/2024/05/utility-nfts-explained.png 600w, /content/images/size/w300/format/webp/2024/05/utility-nfts-explained.png 300w" sizes="224px" type="image/webp">
+                                                    <img srcset="/content/images/size/w600/2024/05/utility-nfts-explained.png 600w, /content/images/size/w300/2024/05/utility-nfts-explained.png 300w" sizes="224px" src="/content/images/size/w300/2024/05/utility-nfts-explained.png" alt="Utility NFTs Explained - The Ultimate Guide post feature image" loading="lazy">
+                                                </picture>
+                                            </div>
+                                            <div class="swiper-slide gh-foot-slider-slide" data-swiper-slide-index="7" role="group" aria-label="8 / 10">
+                                                <picture>
+                                                    <source srcset="/content/images/size/w600/format/webp/2024/02/Crossmint-x-Boba-Guys--2-.jpg 600w, /content/images/size/w300/format/webp/2024/02/Crossmint-x-Boba-Guys--2-.jpg 300w" sizes="224px" type="image/webp">
+                                                    <img srcset="/content/images/size/w600/2024/02/Crossmint-x-Boba-Guys--2-.jpg 600w, /content/images/size/w300/2024/02/Crossmint-x-Boba-Guys--2-.jpg 300w" sizes="224px" src="/content/images/size/w300/2024/02/Crossmint-x-Boba-Guys--2-.jpg" alt="Boba Guys Leverages Web3 Loyalty to Boost Retail Sales post feature image" loading="lazy">
+                                                </picture>
+                                            </div>
+                                            <div class="swiper-slide gh-foot-slider-slide" data-swiper-slide-index="8" role="group" aria-label="9 / 10">
+                                                <picture>
+                                                    <source srcset="/content/images/size/w600/format/webp/2024/03/How-to-Integrate-Crossmint-and-Zapier--33-.png 600w, /content/images/size/w300/format/webp/2024/03/How-to-Integrate-Crossmint-and-Zapier--33-.png 300w" sizes="224px" type="image/webp">
+                                                    <img srcset="/content/images/size/w600/2024/03/How-to-Integrate-Crossmint-and-Zapier--33-.png 600w, /content/images/size/w300/2024/03/How-to-Integrate-Crossmint-and-Zapier--33-.png 300w" sizes="224px" src="/content/images/size/w300/2024/03/How-to-Integrate-Crossmint-and-Zapier--33-.png" alt="How to Enable Cross-Chain Crypto Payments with Embedded NFT Checkout post feature image" loading="lazy">
+                                                </picture>
+                                            </div>
+                                            <div class="swiper-slide gh-foot-slider-slide" data-swiper-slide-index="9" role="group" aria-label="10 / 10">
+                                                <picture>
+                                                    <source srcset="/content/images/size/w600/format/webp/2024/03/image--3-.png 600w, /content/images/size/w300/format/webp/2024/03/image--3-.png 300w" sizes="224px" type="image/webp">
+                                                    <img srcset="/content/images/size/w600/2024/03/image--3-.png 600w, /content/images/size/w300/2024/03/image--3-.png 300w" sizes="224px" src="/content/images/size/w300/2024/03/image--3-.png" alt="Crossmint, Astar, and Hakuhodo Team Up to Boost Web3 in Japan post feature image" loading="lazy">
+                                                </picture>
+                                            </div>
+                                </div>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                        </div>
+                        <div class="gh-foot-slider-wrapper">
+                            <div class="gh-foot-slider gh-foot-slider--reverse swiper-initialized swiper-vertical">
+                                <div class="swiper-wrapper" id="swiper-wrapper-6757112b10dfd9f47" aria-live="off" style="transition-duration: 0ms; transition-delay: 0ms;">
+                                            <div class="swiper-slide gh-foot-slider-slide swiper-slide-prev" data-swiper-slide-index="0" role="group" aria-label="1 / 10">
+                                                <picture>
+                                                    <source srcset="/content/images/size/w600/format/webp/2024/05/how-to-create-nfts-on-arbitrum-nova-1.png 600w, /content/images/size/w300/format/webp/2024/05/how-to-create-nfts-on-arbitrum-nova-1.png 300w" sizes="224px" type="image/webp">
+                                                    <img srcset="/content/images/size/w600/2024/05/how-to-create-nfts-on-arbitrum-nova-1.png 600w, /content/images/size/w300/2024/05/how-to-create-nfts-on-arbitrum-nova-1.png 300w" sizes="224px" src="/content/images/size/w300/2024/05/how-to-create-nfts-on-arbitrum-nova-1.png" alt="How to Create and Mint NFTs on Arbitrum Nova post feature image" loading="lazy">
+                                                </picture>
+                                            </div>
+                                            <div class="swiper-slide gh-foot-slider-slide swiper-slide-active" data-swiper-slide-index="1" role="group" aria-label="2 / 10">
+                                                <picture>
+                                                    <source srcset="/content/images/size/w600/format/webp/2024/05/how-to-build-custom-gpt-to-mint-nfts-3.png 600w, /content/images/size/w300/format/webp/2024/05/how-to-build-custom-gpt-to-mint-nfts-3.png 300w" sizes="224px" type="image/webp">
+                                                    <img srcset="/content/images/size/w600/2024/05/how-to-build-custom-gpt-to-mint-nfts-3.png 600w, /content/images/size/w300/2024/05/how-to-build-custom-gpt-to-mint-nfts-3.png 300w" sizes="224px" src="/content/images/size/w300/2024/05/how-to-build-custom-gpt-to-mint-nfts-3.png" alt="How to Build a Custom GPT to Mint NFTs post feature image" loading="lazy">
+                                                </picture>
+                                            </div>
+                                            <div class="swiper-slide gh-foot-slider-slide swiper-slide-next" data-swiper-slide-index="2" role="group" aria-label="3 / 10">
+                                                <picture>
+                                                    <source srcset="/content/images/size/w600/format/webp/2024/05/how-to-build-dynamic-nfts-base-onchain-summer.png 600w, /content/images/size/w300/format/webp/2024/05/how-to-build-dynamic-nfts-base-onchain-summer.png 300w" sizes="224px" type="image/webp">
+                                                    <img srcset="/content/images/size/w600/2024/05/how-to-build-dynamic-nfts-base-onchain-summer.png 600w, /content/images/size/w300/2024/05/how-to-build-dynamic-nfts-base-onchain-summer.png 300w" sizes="224px" src="/content/images/size/w300/2024/05/how-to-build-dynamic-nfts-base-onchain-summer.png" alt="How to Build Dynamic NFTs on Base for Onchain Summer? post feature image" loading="lazy">
+                                                </picture>
+                                            </div>
+                                            <div class="swiper-slide gh-foot-slider-slide" data-swiper-slide-index="3" role="group" aria-label="4 / 10">
+                                                <picture>
+                                                    <source srcset="/content/images/size/w600/format/webp/2024/05/eu-digital-passport.png 600w, /content/images/size/w300/format/webp/2024/05/eu-digital-passport.png 300w" sizes="224px" type="image/webp">
+                                                    <img srcset="/content/images/size/w600/2024/05/eu-digital-passport.png 600w, /content/images/size/w300/2024/05/eu-digital-passport.png 300w" sizes="224px" src="/content/images/size/w300/2024/05/eu-digital-passport.png" alt="Navigating the EU Digital Product Passport post feature image" loading="lazy">
+                                                </picture>
+                                            </div>
+                                            <div class="swiper-slide gh-foot-slider-slide" data-swiper-slide-index="4" role="group" aria-label="5 / 10">
+                                                <picture>
+                                                    <source srcset="/content/images/size/w600/format/webp/2024/05/how-to-create-nfts-on-arbitrum-1.png 600w, /content/images/size/w300/format/webp/2024/05/how-to-create-nfts-on-arbitrum-1.png 300w" sizes="224px" type="image/webp">
+                                                    <img srcset="/content/images/size/w600/2024/05/how-to-create-nfts-on-arbitrum-1.png 600w, /content/images/size/w300/2024/05/how-to-create-nfts-on-arbitrum-1.png 300w" sizes="224px" src="/content/images/size/w300/2024/05/how-to-create-nfts-on-arbitrum-1.png" alt="How to Create and Mint NFTs on Arbitrum post feature image" loading="lazy">
+                                                </picture>
+                                            </div>
+                                            <div class="swiper-slide gh-foot-slider-slide" data-swiper-slide-index="5" role="group" aria-label="6 / 10">
+                                                <picture>
+                                                    <source srcset="/content/images/size/w600/format/webp/2024/05/how-to-create-sell-and-send-nfts.png 600w, /content/images/size/w300/format/webp/2024/05/how-to-create-sell-and-send-nfts.png 300w" sizes="224px" type="image/webp">
+                                                    <img srcset="/content/images/size/w600/2024/05/how-to-create-sell-and-send-nfts.png 600w, /content/images/size/w300/2024/05/how-to-create-sell-and-send-nfts.png 300w" sizes="224px" src="/content/images/size/w300/2024/05/how-to-create-sell-and-send-nfts.png" alt="Create, Sell and Send NFTs with zero code post feature image" loading="lazy">
+                                                </picture>
+                                            </div>
+                                            <div class="swiper-slide gh-foot-slider-slide" data-swiper-slide-index="6" role="group" aria-label="7 / 10">
+                                                <picture>
+                                                    <source srcset="/content/images/size/w600/format/webp/2024/05/how-to-create-and-mint-nfts-on-zora-network.png 600w, /content/images/size/w300/format/webp/2024/05/how-to-create-and-mint-nfts-on-zora-network.png 300w" sizes="224px" type="image/webp">
+                                                    <img srcset="/content/images/size/w600/2024/05/how-to-create-and-mint-nfts-on-zora-network.png 600w, /content/images/size/w300/2024/05/how-to-create-and-mint-nfts-on-zora-network.png 300w" sizes="224px" src="/content/images/size/w300/2024/05/how-to-create-and-mint-nfts-on-zora-network.png" alt="How to Create and Mint NFTs on the Zora Network post feature image" loading="lazy">
+                                                </picture>
+                                            </div>
+                                            <div class="swiper-slide gh-foot-slider-slide" data-swiper-slide-index="7" role="group" aria-label="8 / 10">
+                                                <picture>
+                                                    <source srcset="/content/images/size/w600/format/webp/2024/05/how-to-create-nfts-on-polygon.png 600w, /content/images/size/w300/format/webp/2024/05/how-to-create-nfts-on-polygon.png 300w" sizes="224px" type="image/webp">
+                                                    <img srcset="/content/images/size/w600/2024/05/how-to-create-nfts-on-polygon.png 600w, /content/images/size/w300/2024/05/how-to-create-nfts-on-polygon.png 300w" sizes="224px" src="/content/images/size/w300/2024/05/how-to-create-nfts-on-polygon.png" alt="How to Create and Mint NFTs on Polygon post feature image" loading="lazy">
+                                                </picture>
+                                            </div>
+                                            <div class="swiper-slide gh-foot-slider-slide" data-swiper-slide-index="8" role="group" aria-label="9 / 10">
+                                                <picture>
+                                                    <source srcset="/content/images/size/w600/format/webp/2024/05/how-to-create-and-mint-on-binance-1.png 600w, /content/images/size/w300/format/webp/2024/05/how-to-create-and-mint-on-binance-1.png 300w" sizes="224px" type="image/webp">
+                                                    <img srcset="/content/images/size/w600/2024/05/how-to-create-and-mint-on-binance-1.png 600w, /content/images/size/w300/2024/05/how-to-create-and-mint-on-binance-1.png 300w" sizes="224px" src="/content/images/size/w300/2024/05/how-to-create-and-mint-on-binance-1.png" alt="How to Create and Mint NFTs on Binance Smart Chain post feature image" loading="lazy">
+                                                </picture>
+                                            </div>
+                                            <div class="swiper-slide gh-foot-slider-slide" data-swiper-slide-index="9" role="group" aria-label="10 / 10">
+                                                <picture>
+                                                    <source srcset="/content/images/size/w600/format/webp/2024/04/image--7-.png 600w, /content/images/size/w300/format/webp/2024/04/image--7-.png 300w" sizes="224px" type="image/webp">
+                                                    <img srcset="/content/images/size/w600/2024/04/image--7-.png 600w, /content/images/size/w300/2024/04/image--7-.png 300w" sizes="224px" src="/content/images/size/w300/2024/04/image--7-.png" alt="Tokenizing the fashion industry with Maison Margiela post feature image" loading="lazy">
+                                                </picture>
+                                            </div>
+                                </div>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="gh-foot-main-wrapper">
+        <div class="gh-container">
+            <div class="gh-foot-main-container">
+                <div class="gh-foot-main">
+                    <div class="gh-foot-main-content">
+                        <a class="gh-site-logo gh-site-logo-has-DM-logo" href="https://blog.crossmint.com" aria-label="Crossmint Blog logo and home page link">
+                                    <img src="/content/images/2024/05/Light-Horizontal-1.png" alt="Crossmint Blog icon" class="gh-site-logo-img-dark-mode">
+                                    <img src="/content/images/2024/01/Dark_Horizontal--1-.png" alt="Crossmint Blog icon" class="gh-site-logo-img">
+                        </a>
+                        <p class="gh-foot-main-text">
+                            Bringing the world onchain
+                        </p>
+                        
+<address class="gh-social-icons">
+        <a href="https://twitter.com/crossmint" target="_blank" rel="noopener noreferrer" aria-label="Crossmint Blog twitter link"><svg width="30" height="30" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g>
+        <path d="M18.5326 13.9627L28.4429 2.69632H26.0944L17.4894 12.4788L10.6165 2.69632H2.68945L13.0826 17.4891L2.68945 29.3037H5.03801L14.1252 18.9731L21.3835 29.3037H29.3105L18.532 13.9627H18.5326ZM15.3159 17.6195L14.2629 16.1464L5.88422 4.42537H9.49146L16.2531 13.8846L17.3062 15.3577L26.0956 27.6533H22.4883L15.3159 17.62V17.6195Z" fill="white"></path>
+    </g>
+</svg></a>
+</address>                    </div>
+                    <div class="gh-foot-navigation">
+                            <ul class="nav">
+            <li class="nav-console"><a href="https://www.crossmint.com/signin?callbackUrl=/console/overview/?utm_source=blog">Console</a></li>
+            <li class="nav-docs"><a href="https://docs.crossmint.com/?utm_source=blog">Docs</a></li>
+            <li class="nav-sales"><a href="https://www.crossmint.com/contact/sales/?utm_source=blog">Sales</a></li>
+    </ul>
+
+
+                    </div>
+                </div>
+                <div class="gh-foot-legal">
+                    <div class="gh-foot-legal-meta">
+                        Copyright © 2024 Crossmint Blog. Published with <a href="https://ghost.org" target="_blank" rel="noopener" aria-label="Ghost CMS official website link">Ghost</a> and <a href="https://blog.crossmint.com" aria-label="Crossmint Blog website link">Crossmint Blog</a>.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>    </div>
+    
+    <button class="gh-scroll-top-btn" type="button" title="Scroll to top button" aria-label="Scroll to top button">
+        <svg class="gh-scroll-top-arrow" width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6 10.8333L12 5M12 5L18 10.8333M12 5L12 19" stroke="#1D1D1F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+        <svg class="gh-scroll-top-progress" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path>
+        </svg>
+    </button>
+
+    <script src="https://blog.crossmint.com/assets/built/index.js?v=3ec965a31f"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/components/prism-core.min.js" integrity="sha512-9khQRAUBYEJDCDVP2yw3LRUQvjJ0Pjx0EShmaQjcHa6AXiOv6qHQu9lCAIR8O+/D8FtaCoJ2c0Tf9Xo7hYH01Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-fTl/qcO1VgvKtOMApX2PdZzkziyr2stM65GYPLGuYMnuMm1z2JLJG6XVU7C/mR+E7xBUqCivykuhlzfqxXBXbg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<div id="ghost-portal-root"></div><div id="sodo-search-root"></div></body></html>
