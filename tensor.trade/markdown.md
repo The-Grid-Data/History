@@ -78,7 +78,7 @@ Lite
 
 Pro
 
-![](/tensorians/6.png)
+![](/tensorians/11.png)
 
 $-
 
