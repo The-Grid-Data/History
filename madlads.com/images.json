@@ -1,5 +1,9 @@
-[
-    "https://madlads.com/backpack_white.svg",
-    "https://madlads.com/mad_lads_logo.svg",
-    "https://madlads.com/mad_lads_logo.svg"
-]
+{
+    "target_url": "https://madlads.com",
+    "domains": {
+        "madlads.com": [
+            "https://madlads.com/backpack_white.svg",
+            "https://madlads.com/mad_lads_logo.svg"
+        ]
+    }
+}
