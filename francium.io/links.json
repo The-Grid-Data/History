@@ -1,22 +1,41 @@
-[
-    "http://discord.gg/francium",
-    "https://docs.francium.io/",
-    "https://francium-defi.medium.com/francium-explained-what-is-leveraged-yield-farming-lyf-5a203a0d649",
-    "https://francium-defi.medium.com/francium-protocol-community-update-june-july-2021-166cfa781332",
-    "https://francium-defi.medium.com/why-build-defi-on-solana-cc8bc90afdec",
-    "https://francium.io/",
-    "https://francium.io/",
-    "https://francium.io/app",
-    "https://francium.io/app",
-    "https://francium.io/app",
-    "https://francium.io/app/invest/farm",
-    "https://francium.io/app/lend",
-    "https://github.com/Francium-DeFi",
-    "https://github.com/Francium-DeFi/materials/",
-    "https://medium.com/@Francium-Defi",
-    "https://medium.com/@Francium-Defi",
-    "https://t.me/franciumprotocol",
-    "https://twitter.com/Francium_Defi",
-    "https://www.certik.org/projects/francium",
-    "mailto:contact@francium.io"
-]
+{
+    "target_url": "https://francium.io/",
+    "domains": {
+        "": [
+            "mailto:contact@francium.io"
+        ],
+        "discord.gg": [
+            "http://discord.gg/francium"
+        ],
+        "docs.francium.io": [
+            "https://docs.francium.io/"
+        ],
+        "francium-defi.medium.com": [
+            "https://francium-defi.medium.com/francium-explained-what-is-leveraged-yield-farming-lyf-5a203a0d649",
+            "https://francium-defi.medium.com/francium-protocol-community-update-june-july-2021-166cfa781332",
+            "https://francium-defi.medium.com/why-build-defi-on-solana-cc8bc90afdec"
+        ],
+        "francium.io": [
+            "https://francium.io/",
+            "https://francium.io/app",
+            "https://francium.io/app/invest/farm",
+            "https://francium.io/app/lend"
+        ],
+        "github.com": [
+            "https://github.com/Francium-DeFi",
+            "https://github.com/Francium-DeFi/materials/"
+        ],
+        "medium.com": [
+            "https://medium.com/@Francium-Defi"
+        ],
+        "t.me": [
+            "https://t.me/franciumprotocol"
+        ],
+        "twitter.com": [
+            "https://twitter.com/Francium_Defi"
+        ],
+        "www.certik.org": [
+            "https://www.certik.org/projects/francium"
+        ]
+    }
+}
