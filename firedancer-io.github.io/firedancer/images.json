@@ -1,3 +1,8 @@
-[
-    "https://firedancer-io.github.io/firedancer/fire.svg"
-]
+{
+    "target_url": "https://firedancer-io.github.io/firedancer/",
+    "domains": {
+        "firedancer-io.github.io": [
+            "https://firedancer-io.github.io/firedancer/fire.svg"
+        ]
+    }
+}
