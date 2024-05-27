@@ -1,19 +1,19 @@
-[
-    "https://spherepay.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FSphere_Render.12c123d8.png&w=3840&q=75",
-    "https://spherepay.co/landing-page/Footer/github-grayLogo.svg",
-    "https://spherepay.co/landing-page/Footer/linkedin-grayLogo.svg",
-    "https://spherepay.co/landing-page/Footer/telegram-grayLogo.svg",
-    "https://spherepay.co/landing-page/Footer/twitter-grayLogo.svg",
-    "https://spherepay.co/landing-page/Pages/PaymentLinksPage/rightDoubleArrow.svg",
-    "https://spherepay.co/landing-page/burger.svg",
-    "https://spherepay.co/landing-page/home-icon.svg",
-    "https://spherepay.co/landing-page/info-icon.svg",
-    "https://spherepay.co/landing-page/plus.svg",
-    "https://spherepay.co/landing-page/plus.svg",
-    "https://spherepay.co/landing-page/plus.svg",
-    "https://spherepay.co/landing-page/plus.svg",
-    "https://spherepay.co/landing-page/plus.svg",
-    "https://spherepay.co/landing-page/plus.svg",
-    "https://spherepay.co/landing-page/sphere-logo.svg",
-    "https://spherepay.co/landing-page/upper-arrow.svg"
-]
+{
+    "target_url": "https://spherepay.co",
+    "domains": {
+        "spherepay.co": [
+            "https://spherepay.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FSphere_Render.12c123d8.png&w=3840&q=75",
+            "https://spherepay.co/landing-page/Footer/github-grayLogo.svg",
+            "https://spherepay.co/landing-page/Footer/linkedin-grayLogo.svg",
+            "https://spherepay.co/landing-page/Footer/telegram-grayLogo.svg",
+            "https://spherepay.co/landing-page/Footer/twitter-grayLogo.svg",
+            "https://spherepay.co/landing-page/Pages/PaymentLinksPage/rightDoubleArrow.svg",
+            "https://spherepay.co/landing-page/burger.svg",
+            "https://spherepay.co/landing-page/home-icon.svg",
+            "https://spherepay.co/landing-page/info-icon.svg",
+            "https://spherepay.co/landing-page/plus.svg",
+            "https://spherepay.co/landing-page/sphere-logo.svg",
+            "https://spherepay.co/landing-page/upper-arrow.svg"
+        ]
+    }
+}

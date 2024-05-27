@@ -1,16 +1,23 @@
-[
-    "https://github.com/Sphere-Laboratories/",
-    "https://share.hsforms.com/1sNPVsMc4SYeaYiNQ4x1VnArgfcw",
-    "https://share.hsforms.com/1sNPVsMc4SYeaYiNQ4x1VnArgfcw",
-    "https://share.hsforms.com/1sNPVsMc4SYeaYiNQ4x1VnArgfcw",
-    "https://share.hsforms.com/1sNPVsMc4SYeaYiNQ4x1VnArgfcw",
-    "https://spherepay.co/",
-    "https://spherepay.co/",
-    "https://spherepay.co/about",
-    "https://spherepay.co/about",
-    "https://spherepay.co/legal/terms",
-    "https://spherepay.co/legal/terms",
-    "https://spherepay.co/login",
-    "https://twitter.com/sphere_labs",
-    "https://www.linkedin.com/company/sphere-laboratories/"
-]
+{
+    "target_url": "https://spherepay.co",
+    "domains": {
+        "github.com": [
+            "https://github.com/Sphere-Laboratories/"
+        ],
+        "share.hsforms.com": [
+            "https://share.hsforms.com/1sNPVsMc4SYeaYiNQ4x1VnArgfcw"
+        ],
+        "spherepay.co": [
+            "https://spherepay.co/",
+            "https://spherepay.co/about",
+            "https://spherepay.co/legal/terms",
+            "https://spherepay.co/login"
+        ],
+        "twitter.com": [
+            "https://twitter.com/sphere_labs"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/sphere-laboratories/"
+        ]
+    }
+}
