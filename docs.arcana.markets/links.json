@@ -1,23 +1,27 @@
-[
-    "https://docs.arcana.markets#arcana-introduction",
-    "https://docs.arcana.markets#benefits",
-    "https://docs.arcana.markets#markets-supported",
-    "https://docs.arcana.markets#source-code",
-    "https://docs.arcana.markets#start-using-arcana-getting-started",
-    "https://docs.arcana.markets/bots.html",
-    "https://docs.arcana.markets/contribute.html",
-    "https://docs.arcana.markets/example_strat_1.html",
-    "https://docs.arcana.markets/example_strat_2.html",
-    "https://docs.arcana.markets/gettingstarted.html",
-    "https://docs.arcana.markets/gettingstarted.html",
-    "https://docs.arcana.markets/gettingstarted.html",
-    "https://docs.arcana.markets/gettingstarted.html",
-    "https://docs.arcana.markets/index.html",
-    "https://docs.arcana.markets/jupiter.html",
-    "https://docs.arcana.markets/pricing_sources.html",
-    "https://docs.arcana.markets/print.html",
-    "https://docs.arcana.markets/pyth.html",
-    "https://docs.arcana.markets/strats.html",
-    "https://github.com/openbook-dex",
-    "https://github.com/skynetcap/arcana"
-]
+{
+    "target_url": "https://docs.arcana.markets",
+    "domains": {
+        "docs.arcana.markets": [
+            "https://docs.arcana.markets#arcana-introduction",
+            "https://docs.arcana.markets#benefits",
+            "https://docs.arcana.markets#markets-supported",
+            "https://docs.arcana.markets#source-code",
+            "https://docs.arcana.markets#start-using-arcana-getting-started",
+            "https://docs.arcana.markets/bots.html",
+            "https://docs.arcana.markets/contribute.html",
+            "https://docs.arcana.markets/example_strat_1.html",
+            "https://docs.arcana.markets/example_strat_2.html",
+            "https://docs.arcana.markets/gettingstarted.html",
+            "https://docs.arcana.markets/index.html",
+            "https://docs.arcana.markets/jupiter.html",
+            "https://docs.arcana.markets/pricing_sources.html",
+            "https://docs.arcana.markets/print.html",
+            "https://docs.arcana.markets/pyth.html",
+            "https://docs.arcana.markets/strats.html"
+        ],
+        "github.com": [
+            "https://github.com/openbook-dex",
+            "https://github.com/skynetcap/arcana"
+        ]
+    }
+}
