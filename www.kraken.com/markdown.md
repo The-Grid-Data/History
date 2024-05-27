@@ -475,6 +475,11 @@ Take your crypto trading to the next level.
   * [Cookies Policy](/legal/cookies)
   * [Disclosures](/legal/disclosures)
 
+Language
+
+EnglishEspañolFrançaisItalianoPortuguêsРусскийTiếng
+ViệtTürkçeУкраїнська中文Nederlands
+
  _These materials are for general information purposes only and are not
 investment advice or a recommendation or solicitation to buy, sell, stake or
 hold any cryptoasset or to engage in any specific trading strategy. Kraken
@@ -485,4 +490,12 @@ regulatory protection schemes. The unpredictable nature of the crypto-asset
 markets can lead to loss of funds. Tax may be payable on any return and/or on
 any increase in the value of your cryptoassets and you should seek independent
 advice on your taxation position. Geographic restrictions may apply._
+
+By clicking Accept, you consent to cookies and similar technologies for
+marketing and analytics and advertising purposes. Visit Cookie Settings to
+learn how Kraken uses cookies and to adjust your preferences.
+
+Accept[Cookie settings](/legal/cookies/)
+
+Accept[Cookie settings](/legal/cookies/)
 
