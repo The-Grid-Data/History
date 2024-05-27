@@ -1,99 +1,160 @@
-[
-    "https://aldrin.com/",
-    "https://aldrin.com/",
-    "https://allbridge.io/assets/docs/Allbridge%20-%20Cookies%20Policy.pdf",
-    "https://allbridge.io/assets/docs/Allbridge%20-%20Disclaimer.pdf",
-    "https://allbridge.io/assets/docs/Allbridge%20-%20Privacy%20and%20GDPR%20Policy.pdf",
-    "https://allbridge.io/assets/docs/Allbridge%20-%20Terms%20and%20Conditions.pdf",
-    "https://allbridge.io/assets/docs/reports/24-01-1500-REP-Allbridge Soroban Bridge-v1.2.pdf",
-    "https://allbridge.io/assets/docs/reports/24-03-1573-REP-Allbridge-Estrela-Review-V1.1.pdf",
-    "https://allbridge.io/classic",
-    "https://allbridge.io/classic/",
-    "https://allbridge.io/core",
-    "https://allbridge.io/core/",
-    "https://allbridge.medium.com/",
-    "https://app.allbridge.io/",
-    "https://app.allbridge.io/",
-    "https://app.apeswap.finance/swap",
-    "https://app.apeswap.finance/swap",
-    "https://app.rose.fi/#/",
-    "https://app.rose.fi/#/",
-    "https://aurora.dev/",
-    "https://aurora.dev/",
-    "https://bridge-core-sdk.web.app/",
-    "https://celo.org/",
-    "https://celo.org/",
-    "https://core.allbridge.io/",
-    "https://core.allbridge.io/",
-    "https://core.allbridge.io/",
-    "https://discord.com/invite/ASuPY8d3E6",
-    "https://discord.com/invite/ASuPY8d3E6",
-    "https://discord.com/invite/ASuPY8d3E6",
-    "https://docs-core.allbridge.io/",
-    "https://docs-core.allbridge.io/",
-    "https://docs-core.allbridge.io/product/how-does-allbridge-core-work",
-    "https://docs-core.allbridge.io/sdk/guides",
-    "https://docs.allbridge.io/allbridge-overview/reports",
-    "https://drive.google.com/file/d/1PV5MN6L5FGCLYEUnLa8D5LI4Ev5157EX/view?usp=sharing",
-    "https://drive.google.com/file/d/1geBAoT0iuLy3s7EnlUBDKfXr-BwZWpHZ/view",
-    "https://exnetworkcapital.com/",
-    "https://exnetworkcapital.com/",
-    "https://fuse.io/",
-    "https://fuse.io/",
-    "https://github.com/allbridge-io/allbridge-core-js-sdk",
-    "https://hacken.io/",
-    "https://hacken.io/",
-    "https://hackenproof.com/allbridge/allbridge",
-    "https://jup.ag/",
-    "https://jup.ag/",
-    "https://klaytn.foundation/",
-    "https://klaytn.foundation/",
-    "https://kudelskisecurity.com/wp-content/uploads/Stable-Bridge-Secure-Code-Review-v3.1-public-redacted-1.pdf",
-    "https://marinade.finance/",
-    "https://marinade.finance/",
-    "https://messari.io/report/allbridge-stablecoin-bridging-unwrapped?referrer=category:all-research",
-    "https://messari.io/report/from-burning-bridges-to-allbridges",
-    "https://near.org/",
-    "https://near.org/",
-    "https://quickswap.exchange/#/swap",
-    "https://quickswap.exchange/#/swap",
-    "https://quipuswap.com/swap",
-    "https://quipuswap.com/swap",
-    "https://race.capital/",
-    "https://race.capital/",
-    "https://smartpad.network/",
-    "https://smartpad.network/",
-    "https://solana.com/",
-    "https://solana.com/",
-    "https://stellar.org/",
-    "https://stellar.org/",
-    "https://t.me/allbridge_official",
-    "https://tezos.com/",
-    "https://tezos.com/",
-    "https://twitter.com/Allbridge_io",
-    "https://ubeswap.org/",
-    "https://ubeswap.org/",
-    "https://wormhole.com/",
-    "https://wormhole.com/",
-    "https://www.beets.fi/",
-    "https://www.beets.fi/",
-    "https://www.hapi.one/",
-    "https://www.hapi.one/",
-    "https://www.harmony.one/",
-    "https://www.harmony.one/",
-    "https://www.mobius.money/#/swap",
-    "https://www.mobius.money/#/swap",
-    "https://www.orca.so/",
-    "https://www.orca.so/",
-    "https://www.reddit.com/r/allbridge/",
-    "https://www.sologenic.com/",
-    "https://www.sologenic.com/",
-    "https://www.spiritswap.finance/",
-    "https://www.spiritswap.finance/",
-    "https://www.trisolaris.io/#/swap",
-    "https://www.trisolaris.io/#/swap",
-    "https://xrpl.org/index.html",
-    "https://xrpl.org/index.html",
-    "mailto: collaboration@allbridge.io",
-    "mailto: support@allbridge.io"
-]
+{
+    "target_url": "https://allbridge.io/",
+    "domains": {
+        "": [
+            "mailto: collaboration@allbridge.io",
+            "mailto: support@allbridge.io"
+        ],
+        "aldrin.com": [
+            "https://aldrin.com/"
+        ],
+        "allbridge.io": [
+            "https://allbridge.io/assets/docs/Allbridge%20-%20Cookies%20Policy.pdf",
+            "https://allbridge.io/assets/docs/Allbridge%20-%20Disclaimer.pdf",
+            "https://allbridge.io/assets/docs/Allbridge%20-%20Privacy%20and%20GDPR%20Policy.pdf",
+            "https://allbridge.io/assets/docs/Allbridge%20-%20Terms%20and%20Conditions.pdf",
+            "https://allbridge.io/assets/docs/reports/24-01-1500-REP-Allbridge Soroban Bridge-v1.2.pdf",
+            "https://allbridge.io/assets/docs/reports/24-03-1573-REP-Allbridge-Estrela-Review-V1.1.pdf",
+            "https://allbridge.io/classic",
+            "https://allbridge.io/classic/",
+            "https://allbridge.io/core",
+            "https://allbridge.io/core/"
+        ],
+        "allbridge.medium.com": [
+            "https://allbridge.medium.com/"
+        ],
+        "app.allbridge.io": [
+            "https://app.allbridge.io/"
+        ],
+        "app.apeswap.finance": [
+            "https://app.apeswap.finance/swap"
+        ],
+        "app.rose.fi": [
+            "https://app.rose.fi/#/"
+        ],
+        "aurora.dev": [
+            "https://aurora.dev/"
+        ],
+        "bridge-core-sdk.web.app": [
+            "https://bridge-core-sdk.web.app/"
+        ],
+        "celo.org": [
+            "https://celo.org/"
+        ],
+        "core.allbridge.io": [
+            "https://core.allbridge.io/"
+        ],
+        "discord.com": [
+            "https://discord.com/invite/ASuPY8d3E6"
+        ],
+        "docs-core.allbridge.io": [
+            "https://docs-core.allbridge.io/",
+            "https://docs-core.allbridge.io/product/how-does-allbridge-core-work",
+            "https://docs-core.allbridge.io/sdk/guides"
+        ],
+        "docs.allbridge.io": [
+            "https://docs.allbridge.io/allbridge-overview/reports"
+        ],
+        "drive.google.com": [
+            "https://drive.google.com/file/d/1PV5MN6L5FGCLYEUnLa8D5LI4Ev5157EX/view?usp=sharing",
+            "https://drive.google.com/file/d/1geBAoT0iuLy3s7EnlUBDKfXr-BwZWpHZ/view"
+        ],
+        "exnetworkcapital.com": [
+            "https://exnetworkcapital.com/"
+        ],
+        "fuse.io": [
+            "https://fuse.io/"
+        ],
+        "github.com": [
+            "https://github.com/allbridge-io/allbridge-core-js-sdk"
+        ],
+        "hacken.io": [
+            "https://hacken.io/"
+        ],
+        "hackenproof.com": [
+            "https://hackenproof.com/allbridge/allbridge"
+        ],
+        "jup.ag": [
+            "https://jup.ag/"
+        ],
+        "klaytn.foundation": [
+            "https://klaytn.foundation/"
+        ],
+        "kudelskisecurity.com": [
+            "https://kudelskisecurity.com/wp-content/uploads/Stable-Bridge-Secure-Code-Review-v3.1-public-redacted-1.pdf"
+        ],
+        "marinade.finance": [
+            "https://marinade.finance/"
+        ],
+        "messari.io": [
+            "https://messari.io/report/allbridge-stablecoin-bridging-unwrapped?referrer=category:all-research",
+            "https://messari.io/report/from-burning-bridges-to-allbridges"
+        ],
+        "near.org": [
+            "https://near.org/"
+        ],
+        "quickswap.exchange": [
+            "https://quickswap.exchange/#/swap"
+        ],
+        "quipuswap.com": [
+            "https://quipuswap.com/swap"
+        ],
+        "race.capital": [
+            "https://race.capital/"
+        ],
+        "smartpad.network": [
+            "https://smartpad.network/"
+        ],
+        "solana.com": [
+            "https://solana.com/"
+        ],
+        "stellar.org": [
+            "https://stellar.org/"
+        ],
+        "t.me": [
+            "https://t.me/allbridge_official"
+        ],
+        "tezos.com": [
+            "https://tezos.com/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/Allbridge_io"
+        ],
+        "ubeswap.org": [
+            "https://ubeswap.org/"
+        ],
+        "wormhole.com": [
+            "https://wormhole.com/"
+        ],
+        "www.beets.fi": [
+            "https://www.beets.fi/"
+        ],
+        "www.hapi.one": [
+            "https://www.hapi.one/"
+        ],
+        "www.harmony.one": [
+            "https://www.harmony.one/"
+        ],
+        "www.mobius.money": [
+            "https://www.mobius.money/#/swap"
+        ],
+        "www.orca.so": [
+            "https://www.orca.so/"
+        ],
+        "www.reddit.com": [
+            "https://www.reddit.com/r/allbridge/"
+        ],
+        "www.sologenic.com": [
+            "https://www.sologenic.com/"
+        ],
+        "www.spiritswap.finance": [
+            "https://www.spiritswap.finance/"
+        ],
+        "www.trisolaris.io": [
+            "https://www.trisolaris.io/#/swap"
+        ],
+        "xrpl.org": [
+            "https://xrpl.org/index.html"
+        ]
+    }
+}
