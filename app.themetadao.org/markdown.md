@@ -37,6 +37,8 @@ Connect Wallet
 
   * [Careers](https://jobs.metadao.fi)
 
+  * [Leave Feedback](https://metadao.canny.io/beta-feedback)
+
   * [Media Kit](https://docs.metadao.fi/media-kit/metadao)
 
 We're using
