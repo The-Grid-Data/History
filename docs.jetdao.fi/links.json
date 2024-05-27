@@ -1,25 +1,32 @@
-[
-    "https://docs.jetdao.fi/",
-    "https://docs.jetdao.fi/",
-    "https://docs.jetdao.fi/about/jet-association",
-    "https://docs.jetdao.fi/about/jet-governance-process",
-    "https://docs.jetdao.fi/about/jetdao",
-    "https://docs.jetdao.fi/about/jetdao",
-    "https://docs.jetdao.fi/about/jetgovern-app-audit",
-    "https://docs.jetdao.fi/about/program-structure",
-    "https://docs.jetdao.fi/about/retroactive-airdrop-and-usdjet-staking",
-    "https://docs.jetdao.fi/getting-started/jet-protocol-fundamentals",
-    "https://docs.jetdao.fi/getting-started/staking",
-    "https://docs.jetdao.fi/getting-started/terms-and-definitions",
-    "https://docs.jetdao.fi/getting-started/voting",
-    "https://docs.jetdao.fi/guides/asset-onboarding-framework",
-    "https://docs.jetdao.fi/guides/asset-onboarding-framework/asset-onboarding-application-template",
-    "https://docs.jetdao.fi/guides/asset-onboarding-framework/collateral-onboarding-domain-evaluation-criteria-codec",
-    "https://docs.jetdao.fi/guides/asset-onboarding-framework/usdc-onboarding-application",
-    "https://docs.jetdao.fi/legal/privacy-policy",
-    "https://docs.jetdao.fi/legal/terms-of-service",
-    "https://docs.jetdao.fi/troubleshooting/sms-verification",
-    "https://github.com/jet-lab/jet-governance/blob/master/reports/jet-governance-audit-public.pdf",
-    "https://github.com/jet-lab/jet-v2/pull/232/files",
-    "https://www.gitbook.com/?utm_source=content&utm_medium=trademark&utm_campaign=Q1E6tHuobJ52TC4hQlSM"
-]
+{
+    "target_url": "https://docs.jetdao.fi",
+    "domains": {
+        "docs.jetdao.fi": [
+            "https://docs.jetdao.fi/",
+            "https://docs.jetdao.fi/about/jet-association",
+            "https://docs.jetdao.fi/about/jet-governance-process",
+            "https://docs.jetdao.fi/about/jetdao",
+            "https://docs.jetdao.fi/about/jetgovern-app-audit",
+            "https://docs.jetdao.fi/about/program-structure",
+            "https://docs.jetdao.fi/about/retroactive-airdrop-and-usdjet-staking",
+            "https://docs.jetdao.fi/getting-started/jet-protocol-fundamentals",
+            "https://docs.jetdao.fi/getting-started/staking",
+            "https://docs.jetdao.fi/getting-started/terms-and-definitions",
+            "https://docs.jetdao.fi/getting-started/voting",
+            "https://docs.jetdao.fi/guides/asset-onboarding-framework",
+            "https://docs.jetdao.fi/guides/asset-onboarding-framework/asset-onboarding-application-template",
+            "https://docs.jetdao.fi/guides/asset-onboarding-framework/collateral-onboarding-domain-evaluation-criteria-codec",
+            "https://docs.jetdao.fi/guides/asset-onboarding-framework/usdc-onboarding-application",
+            "https://docs.jetdao.fi/legal/privacy-policy",
+            "https://docs.jetdao.fi/legal/terms-of-service",
+            "https://docs.jetdao.fi/troubleshooting/sms-verification"
+        ],
+        "github.com": [
+            "https://github.com/jet-lab/jet-governance/blob/master/reports/jet-governance-audit-public.pdf",
+            "https://github.com/jet-lab/jet-v2/pull/232/files"
+        ],
+        "www.gitbook.com": [
+            "https://www.gitbook.com/?utm_source=content&utm_medium=trademark&utm_campaign=Q1E6tHuobJ52TC4hQlSM"
+        ]
+    }
+}
