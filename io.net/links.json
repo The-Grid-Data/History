@@ -1,56 +1,69 @@
-[
-    "https://aptosfoundation.org",
-    "https://cloud.io.net",
-    "https://cloud.io.net",
-    "https://cloud.io.net/",
-    "https://cloud.io.net/",
-    "https://developers.io.net/docs",
-    "https://discord.com/invite/ionetofficial",
-    "https://discord.com/invite/ionetofficial",
-    "https://discord.com/invite/ionetofficial",
-    "https://docs.io.net/",
-    "https://docs.io.net/docs/io-cloud",
-    "https://docs.io.net/docs/io-coin",
-    "https://docs.io.net/docs/io-explorer",
-    "https://docs.io.net/docs/io-id",
-    "https://docs.io.net/docs/io-worker",
-    "https://explorer.io.net",
-    "https://explorer.io.net",
-    "https://io.net/",
-    "https://io.net/",
-    "https://io.net/about-us",
-    "https://io.net/about-us",
-    "https://io.net/about-us",
-    "https://io.net/contact-us",
-    "https://io.net/contact-us",
-    "https://io.net/contact-us",
-    "https://io.net/faq",
-    "https://io.net/faq",
-    "https://io.net/faq",
-    "https://io.net/media-kit",
-    "https://io.net/media-kit",
-    "https://io.net/media-kit",
-    "https://io.net/policy",
-    "https://io.net/team-investors",
-    "https://io.net/team-investors",
-    "https://io.net/team-investors",
-    "https://io.net/terms",
-    "https://io.ventures",
-    "https://ionet.medium.com",
-    "https://ionet.medium.com",
-    "https://rendernetwork.com",
-    "https://solana.com",
-    "https://status.io.net",
-    "https://t.me/+vr2_-Vr9YOZhNDNh",
-    "https://t.me/+vr2_-Vr9YOZhNDNh",
-    "https://t.me/+vr2_-Vr9YOZhNDNh",
-    "https://twitter.com/ionet",
-    "https://twitter.com/ionet",
-    "https://twitter.com/ionet",
-    "https://worker.io.net",
-    "https://worker.io.net",
-    "https://www.linkedin.com/company/ionet-official",
-    "https://www.linkedin.com/company/ionet-official",
-    "https://www.linkedin.com/company/ionet-official",
-    "mailto:support@io.net"
-]
+{
+    "target_url": "https://io.net",
+    "domains": {
+        "": [
+            "mailto:support@io.net"
+        ],
+        "aptosfoundation.org": [
+            "https://aptosfoundation.org"
+        ],
+        "cloud.io.net": [
+            "https://cloud.io.net",
+            "https://cloud.io.net/"
+        ],
+        "developers.io.net": [
+            "https://developers.io.net/docs"
+        ],
+        "discord.com": [
+            "https://discord.com/invite/ionetofficial"
+        ],
+        "docs.io.net": [
+            "https://docs.io.net/",
+            "https://docs.io.net/docs/io-cloud",
+            "https://docs.io.net/docs/io-coin",
+            "https://docs.io.net/docs/io-explorer",
+            "https://docs.io.net/docs/io-id",
+            "https://docs.io.net/docs/io-worker"
+        ],
+        "explorer.io.net": [
+            "https://explorer.io.net"
+        ],
+        "io.net": [
+            "https://io.net/",
+            "https://io.net/about-us",
+            "https://io.net/contact-us",
+            "https://io.net/faq",
+            "https://io.net/media-kit",
+            "https://io.net/policy",
+            "https://io.net/team-investors",
+            "https://io.net/terms"
+        ],
+        "io.ventures": [
+            "https://io.ventures"
+        ],
+        "ionet.medium.com": [
+            "https://ionet.medium.com"
+        ],
+        "rendernetwork.com": [
+            "https://rendernetwork.com"
+        ],
+        "solana.com": [
+            "https://solana.com"
+        ],
+        "status.io.net": [
+            "https://status.io.net"
+        ],
+        "t.me": [
+            "https://t.me/+vr2_-Vr9YOZhNDNh"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ionet"
+        ],
+        "worker.io.net": [
+            "https://worker.io.net"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/ionet-official"
+        ]
+    }
+}
