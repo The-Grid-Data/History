@@ -9,9 +9,15 @@ CollectionsRunes
 
 [Mint](/launchpad)
 
+Ctrl
+
+K
+
 Connect Wallet
 
 Connect Wallet
+
+All Chains
 
 Loading...
 
@@ -383,4 +389,14 @@ WildPass](/collections/polygon/0xef41141fbc0a7c870f30fee81c6214582dc2a494)
 #### Follow
 
 [Twitter](https://twitter.com/MagicEden)[Discord](https://discord.gg/magiceden)[YouTube](https://www.youtube.com/channel/UCOeUcnlgATreezd7jRB5w-g)[Blog](https://community.magiceden.io/)[Instagram](https://instagram.com/magicedenofficial)
+
+  * Loading...
+
+  * Loading...
+
+  * Loading...
+
+  * Loading...
+
+Support
 
