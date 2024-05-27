@@ -1,57 +1,47 @@
-[
-    "https://backpack.app/",
-    "https://backpack.app/",
-    "https://backpack.app/",
-    "https://backpack.app/",
-    "https://backpack.app/",
-    "https://backpack.app/",
-    "https://backpack.app/download",
-    "https://backpack.app/download",
-    "https://backpack.app/download",
-    "https://backpack.app/media-kit",
-    "https://backpack.app/media-kit",
-    "https://backpack.app/media-kit",
-    "https://backpack.app/media-kit",
-    "https://backpack.app/news",
-    "https://backpack.app/news",
-    "https://backpack.app/privacy",
-    "https://backpack.app/privacy",
-    "https://backpack.app/privacy",
-    "https://backpack.app/privacy",
-    "https://backpack.app/terms",
-    "https://backpack.app/terms",
-    "https://backpack.app/terms",
-    "https://backpack.app/terms",
-    "https://backpack.exchange",
-    "https://backpack.exchange",
-    "https://chromewebstore.google.com/detail/backpack/aflkmfhebedbjioipglgcbcmnbpgliof",
-    "https://discord.com/invite/backpack",
-    "https://discord.com/invite/backpack",
-    "https://discord.com/invite/backpack",
-    "https://discord.com/invite/backpack",
-    "https://github.com/coral-xyz/backpack",
-    "https://github.com/coral-xyz/backpack",
-    "https://github.com/coral-xyz/backpack",
-    "https://github.com/coral-xyz/backpack",
-    "https://support.backpack.exchange/",
-    "https://support.backpack.exchange/",
-    "https://support.backpack.exchange/en/articles/979073",
-    "https://twitter.com/Backpack",
-    "https://twitter.com/Backpack",
-    "https://twitter.com/Backpack",
-    "https://twitter.com/Backpack",
-    "https://www.linkedin.com/company/backpackexchange",
-    "https://www.linkedin.com/company/backpackexchange",
-    "https://www.linkedin.com/company/backpackexchange",
-    "https://www.linkedin.com/company/backpackexchange",
-    "https://www.marginfi.com",
-    "https://www.marginfi.com",
-    "https://www.notion.so/7c1995182f4a491ba8a9501ee15cbd01?v=0604ca8976fa4e5e81c5494f7c95abc4",
-    "https://www.notion.so/7c1995182f4a491ba8a9501ee15cbd01?v=0604ca8976fa4e5e81c5494f7c95abc4",
-    "https://www.notion.so/7c1995182f4a491ba8a9501ee15cbd01?v=0604ca8976fa4e5e81c5494f7c95abc4",
-    "https://www.notion.so/7c1995182f4a491ba8a9501ee15cbd01?v=0604ca8976fa4e5e81c5494f7c95abc4",
-    "https://www.tensor.trade",
-    "https://www.tensor.trade",
-    "https://www.zeta.markets",
-    "https://www.zeta.markets"
-]
+{
+    "target_url": "https://backpack.app",
+    "domains": {
+        "backpack.app": [
+            "https://backpack.app/",
+            "https://backpack.app/download",
+            "https://backpack.app/media-kit",
+            "https://backpack.app/news",
+            "https://backpack.app/privacy",
+            "https://backpack.app/terms"
+        ],
+        "backpack.exchange": [
+            "https://backpack.exchange"
+        ],
+        "chromewebstore.google.com": [
+            "https://chromewebstore.google.com/detail/backpack/aflkmfhebedbjioipglgcbcmnbpgliof"
+        ],
+        "discord.com": [
+            "https://discord.com/invite/backpack"
+        ],
+        "github.com": [
+            "https://github.com/coral-xyz/backpack"
+        ],
+        "support.backpack.exchange": [
+            "https://support.backpack.exchange/",
+            "https://support.backpack.exchange/en/articles/979073"
+        ],
+        "twitter.com": [
+            "https://twitter.com/Backpack"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/backpackexchange"
+        ],
+        "www.marginfi.com": [
+            "https://www.marginfi.com"
+        ],
+        "www.notion.so": [
+            "https://www.notion.so/7c1995182f4a491ba8a9501ee15cbd01?v=0604ca8976fa4e5e81c5494f7c95abc4"
+        ],
+        "www.tensor.trade": [
+            "https://www.tensor.trade"
+        ],
+        "www.zeta.markets": [
+            "https://www.zeta.markets"
+        ]
+    }
+}
