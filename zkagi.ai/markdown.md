@@ -1,0 +1,2 @@
+![](/icons/logo_primary.svg)
+
