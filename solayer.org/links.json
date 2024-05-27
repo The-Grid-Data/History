@@ -1,22 +1,34 @@
-[
-    "https://app.solayer.org",
-    "https://discord.gg/solayerlabs",
-    "https://docs.solayer.org/",
-    "https://docs.solayer.org/",
-    "https://github.com/solayer-labs",
-    "https://github.com/solayer-labs",
-    "https://github.com/solayer-labs/solayer-pm/blob/main/Request-For-AVS.md",
-    "https://jobs.solana.com/companies/solayer-labs",
-    "https://jobs.solana.com/companies/solayer-labs#content",
-    "https://solayer.org/",
-    "https://solayer.org/",
-    "https://solayer.org/about",
-    "https://solayer.org/about",
-    "https://solayer.org/blog",
-    "https://solayer.org/changelog",
-    "https://solayer.org/community",
-    "https://solayer.org/community",
-    "https://solayer.org/privacy-policy",
-    "https://solayer.org/terms&condition",
-    "https://twitter.com/solayer_labs"
-]
+{
+    "target_url": "https://solayer.org",
+    "domains": {
+        "app.solayer.org": [
+            "https://app.solayer.org"
+        ],
+        "discord.gg": [
+            "https://discord.gg/solayerlabs"
+        ],
+        "docs.solayer.org": [
+            "https://docs.solayer.org/"
+        ],
+        "github.com": [
+            "https://github.com/solayer-labs",
+            "https://github.com/solayer-labs/solayer-pm/blob/main/Request-For-AVS.md"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/companies/solayer-labs",
+            "https://jobs.solana.com/companies/solayer-labs#content"
+        ],
+        "solayer.org": [
+            "https://solayer.org/",
+            "https://solayer.org/about",
+            "https://solayer.org/blog",
+            "https://solayer.org/changelog",
+            "https://solayer.org/community",
+            "https://solayer.org/privacy-policy",
+            "https://solayer.org/terms&condition"
+        ],
+        "twitter.com": [
+            "https://twitter.com/solayer_labs"
+        ]
+    }
+}
