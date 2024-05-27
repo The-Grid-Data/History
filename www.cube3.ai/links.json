@@ -1,47 +1,48 @@
-[
-    "https://blog.cube3.ai/",
-    "https://blog.cube3.ai/2023/10/06/mastercard-selects-cube3-ai-for-start-path-blockchain-and-digital-assets-program/",
-    "https://decrypt.co/151849/cube3-ai-secures-8-2m-to-launch-ai-powered-blockchain-security-app",
-    "https://panorama.cube3.ai/",
-    "https://panorama.cube3.ai/",
-    "https://t.me/CUBE3aiCommunity",
-    "https://twitter.com/cube3ai",
-    "https://www.coindesk.com/business/2023/08/09/web3-security-startup-cube3ai-emerges-from-stealth-with-82m-seed-funding/",
-    "https://www.cube3.ai/",
-    "https://www.cube3.ai/",
-    "https://www.cube3.ai/",
-    "https://www.cube3.ai/",
-    "https://www.cube3.ai/",
-    "https://www.cube3.ai/",
-    "https://www.cube3.ai/",
-    "https://www.cube3.ai/",
-    "https://www.cube3.ai/",
-    "https://www.cube3.ai/",
-    "https://www.cube3.ai/",
-    "https://www.cube3.ai/",
-    "https://www.cube3.ai/",
-    "https://www.cube3.ai/about-us",
-    "https://www.cube3.ai/book",
-    "https://www.cube3.ai/book",
-    "https://www.cube3.ai/contact",
-    "https://www.cube3.ai/detect",
-    "https://www.cube3.ai/detect",
-    "https://www.cube3.ai/getting-started",
-    "https://www.cube3.ai/getting-started",
-    "https://www.cube3.ai/iso27001",
-    "https://www.cube3.ai/manage",
-    "https://www.cube3.ai/manage",
-    "https://www.cube3.ai/monitor",
-    "https://www.cube3.ai/partnerships",
-    "https://www.cube3.ai/policies",
-    "https://www.cube3.ai/policies",
-    "https://www.cube3.ai/pricing",
-    "https://www.cube3.ai/protect",
-    "https://www.cube3.ai/protect",
-    "https://www.cube3.ai/publications",
-    "https://www.cube3.ai/publications",
-    "https://www.cube3.ai/solutions",
-    "https://www.linkedin.com/company/cube3ai/",
-    "https://www.linkedin.com/posts/michaelmiebach_blockchain-digitalassets-nft-ugcPost-7114639866000207872-G0Cr/",
-    "mailto:hello@cube3.ai?subject=Cube3.AI"
-]
+{
+    "target_url": "https://www.cube3.ai/",
+    "domains": {
+        "": [
+            "mailto:hello@cube3.ai?subject=Cube3.AI"
+        ],
+        "blog.cube3.ai": [
+            "https://blog.cube3.ai/",
+            "https://blog.cube3.ai/2023/10/06/mastercard-selects-cube3-ai-for-start-path-blockchain-and-digital-assets-program/"
+        ],
+        "decrypt.co": [
+            "https://decrypt.co/151849/cube3-ai-secures-8-2m-to-launch-ai-powered-blockchain-security-app"
+        ],
+        "panorama.cube3.ai": [
+            "https://panorama.cube3.ai/"
+        ],
+        "t.me": [
+            "https://t.me/CUBE3aiCommunity"
+        ],
+        "twitter.com": [
+            "https://twitter.com/cube3ai"
+        ],
+        "www.coindesk.com": [
+            "https://www.coindesk.com/business/2023/08/09/web3-security-startup-cube3ai-emerges-from-stealth-with-82m-seed-funding/"
+        ],
+        "www.cube3.ai": [
+            "https://www.cube3.ai/",
+            "https://www.cube3.ai/about-us",
+            "https://www.cube3.ai/book",
+            "https://www.cube3.ai/contact",
+            "https://www.cube3.ai/detect",
+            "https://www.cube3.ai/getting-started",
+            "https://www.cube3.ai/iso27001",
+            "https://www.cube3.ai/manage",
+            "https://www.cube3.ai/monitor",
+            "https://www.cube3.ai/partnerships",
+            "https://www.cube3.ai/policies",
+            "https://www.cube3.ai/pricing",
+            "https://www.cube3.ai/protect",
+            "https://www.cube3.ai/publications",
+            "https://www.cube3.ai/solutions"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/cube3ai/",
+            "https://www.linkedin.com/posts/michaelmiebach_blockchain-digitalassets-nft-ugcPost-7114639866000207872-G0Cr/"
+        ]
+    }
+}
