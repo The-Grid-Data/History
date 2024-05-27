@@ -1,70 +1,78 @@
-[
-    "https://discord.com/invite/helio",
-    "https://docs.google.com/forms/d/e/1FAIpQLSfMGYdiYwhZ1Qepfbo-oXUzpftUzwHeg09JeoeShhz3jCXqzQ/viewform",
-    "https://docs.hel.io#does-helio-custody-funds",
-    "https://docs.hel.io#does-helio-custody-funds",
-    "https://docs.hel.io#faqs",
-    "https://docs.hel.io#faqs",
-    "https://docs.hel.io#helio-intro-video",
-    "https://docs.hel.io#helio-intro-video",
-    "https://docs.hel.io#how-do-i-go-about-getting-a-refund-can-helio-help-me-with-this",
-    "https://docs.hel.io#how-do-i-go-about-getting-a-refund-can-helio-help-me-with-this",
-    "https://docs.hel.io#how-much-does-helio-cost",
-    "https://docs.hel.io#how-much-does-helio-cost",
-    "https://docs.hel.io#is-helio-audited",
-    "https://docs.hel.io#is-helio-audited",
-    "https://docs.hel.io#is-helio-supported-on-mobile-devices",
-    "https://docs.hel.io#is-helio-supported-on-mobile-devices",
-    "https://docs.hel.io#what-blockchains-does-helio-support",
-    "https://docs.hel.io#what-blockchains-does-helio-support",
-    "https://docs.hel.io#what-digital-currencies-do-you-support",
-    "https://docs.hel.io#what-digital-currencies-do-you-support",
-    "https://docs.hel.io#what-is-a-heliox-pass",
-    "https://docs.hel.io#what-is-a-heliox-pass",
-    "https://docs.hel.io#whats-a-crypto-wallet",
-    "https://docs.hel.io#whats-a-crypto-wallet",
-    "https://docs.hel.io#whos-behind-helio",
-    "https://docs.hel.io#whos-behind-helio",
-    "https://docs.hel.io/",
-    "https://docs.hel.io/",
-    "https://docs.hel.io/developers/autofill-user-data",
-    "https://docs.hel.io/developers/create-pay-links-via-api",
-    "https://docs.hel.io/developers/google-app-script",
-    "https://docs.hel.io/developers/helio-api-key",
-    "https://docs.hel.io/developers/helio-checkout-widget",
-    "https://docs.hel.io/developers/quick-start-code-examples",
-    "https://docs.hel.io/developers/test-helio-on-devnet",
-    "https://docs.hel.io/developers/webhooks",
-    "https://docs.hel.io/introduction/pricing-and-fees",
-    "https://docs.hel.io/introduction/pricing-and-fees",
-    "https://docs.hel.io/introduction/pricing-and-fees",
-    "https://docs.hel.io/other-docs/og-demo-solana-hacker-house",
-    "https://docs.hel.io/other-docs/security",
-    "https://docs.hel.io/product-guides/discord-memberships",
-    "https://docs.hel.io/product-guides/gated-payments",
-    "https://docs.hel.io/product-guides/other-options",
-    "https://docs.hel.io/product-guides/other-options/affiliate-links",
-    "https://docs.hel.io/product-guides/other-options/cnft-airdrops",
-    "https://docs.hel.io/product-guides/other-options/discounts",
-    "https://docs.hel.io/product-guides/other-options/helio-wallet",
-    "https://docs.hel.io/product-guides/other-options/nft-private-listing-helio-otc",
-    "https://docs.hel.io/product-guides/other-options/receipts-and-refunds",
-    "https://docs.hel.io/product-guides/other-options/split-payments",
-    "https://docs.hel.io/product-guides/other-options/subscriptions",
-    "https://docs.hel.io/product-guides/other-options/tradingview",
-    "https://docs.hel.io/product-guides/other-options/verification-and-safety",
-    "https://docs.hel.io/product-guides/other-options/video-paywall-helio-play",
-    "https://docs.hel.io/product-guides/pre-sales",
-    "https://docs.hel.io/product-guides/quick-start-guide",
-    "https://docs.hel.io/product-guides/quick-start-guide",
-    "https://docs.hel.io/product-guides/solana-pay-shopify-plugin",
-    "https://docs.hel.io/product-guides/woocommerce-plugin",
-    "https://helio.co/",
-    "https://info.docs.hel.io/",
-    "https://join.hel.io/",
-    "https://magiceden.io/marketplace/helions",
-    "https://twitter.com/helio_pay",
-    "https://www.gitbook.com/?utm_source=content&utm_medium=trademark&utm_campaign=7QGlYdZDcto9BLxhv810",
-    "https://www.hel.io/",
-    "https://www.hel.io/dashboard."
-]
+{
+    "target_url": "https://docs.hel.io",
+    "domains": {
+        "discord.com": [
+            "https://discord.com/invite/helio"
+        ],
+        "docs.google.com": [
+            "https://docs.google.com/forms/d/e/1FAIpQLSfMGYdiYwhZ1Qepfbo-oXUzpftUzwHeg09JeoeShhz3jCXqzQ/viewform"
+        ],
+        "docs.hel.io": [
+            "https://docs.hel.io#does-helio-custody-funds",
+            "https://docs.hel.io#faqs",
+            "https://docs.hel.io#helio-intro-video",
+            "https://docs.hel.io#how-do-i-go-about-getting-a-refund-can-helio-help-me-with-this",
+            "https://docs.hel.io#how-much-does-helio-cost",
+            "https://docs.hel.io#is-helio-audited",
+            "https://docs.hel.io#is-helio-supported-on-mobile-devices",
+            "https://docs.hel.io#what-blockchains-does-helio-support",
+            "https://docs.hel.io#what-digital-currencies-do-you-support",
+            "https://docs.hel.io#what-is-a-heliox-pass",
+            "https://docs.hel.io#whats-a-crypto-wallet",
+            "https://docs.hel.io#whos-behind-helio",
+            "https://docs.hel.io/",
+            "https://docs.hel.io/developers/autofill-user-data",
+            "https://docs.hel.io/developers/create-pay-links-via-api",
+            "https://docs.hel.io/developers/google-app-script",
+            "https://docs.hel.io/developers/helio-api-key",
+            "https://docs.hel.io/developers/helio-checkout-widget",
+            "https://docs.hel.io/developers/quick-start-code-examples",
+            "https://docs.hel.io/developers/test-helio-on-devnet",
+            "https://docs.hel.io/developers/webhooks",
+            "https://docs.hel.io/introduction/pricing-and-fees",
+            "https://docs.hel.io/other-docs/og-demo-solana-hacker-house",
+            "https://docs.hel.io/other-docs/security",
+            "https://docs.hel.io/product-guides/discord-memberships",
+            "https://docs.hel.io/product-guides/gated-payments",
+            "https://docs.hel.io/product-guides/other-options",
+            "https://docs.hel.io/product-guides/other-options/affiliate-links",
+            "https://docs.hel.io/product-guides/other-options/cnft-airdrops",
+            "https://docs.hel.io/product-guides/other-options/discounts",
+            "https://docs.hel.io/product-guides/other-options/helio-wallet",
+            "https://docs.hel.io/product-guides/other-options/nft-private-listing-helio-otc",
+            "https://docs.hel.io/product-guides/other-options/receipts-and-refunds",
+            "https://docs.hel.io/product-guides/other-options/split-payments",
+            "https://docs.hel.io/product-guides/other-options/subscriptions",
+            "https://docs.hel.io/product-guides/other-options/tradingview",
+            "https://docs.hel.io/product-guides/other-options/verification-and-safety",
+            "https://docs.hel.io/product-guides/other-options/video-paywall-helio-play",
+            "https://docs.hel.io/product-guides/pre-sales",
+            "https://docs.hel.io/product-guides/quick-start-guide",
+            "https://docs.hel.io/product-guides/solana-pay-shopify-plugin",
+            "https://docs.hel.io/product-guides/woocommerce-plugin"
+        ],
+        "helio.co": [
+            "https://helio.co/"
+        ],
+        "info.docs.hel.io": [
+            "https://info.docs.hel.io/",
+            "https://info.docs.hel.io/privacy"
+        ],
+        "join.hel.io": [
+            "https://join.hel.io/"
+        ],
+        "magiceden.io": [
+            "https://magiceden.io/marketplace/helions"
+        ],
+        "twitter.com": [
+            "https://twitter.com/helio_pay"
+        ],
+        "www.gitbook.com": [
+            "https://www.gitbook.com/?utm_source=content&utm_medium=trademark&utm_campaign=7QGlYdZDcto9BLxhv810"
+        ],
+        "www.hel.io": [
+            "https://www.hel.io/",
+            "https://www.hel.io/dashboard."
+        ]
+    }
+}
