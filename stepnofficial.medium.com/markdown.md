@@ -48,9 +48,18 @@ Community Engagement with Healthy Living and Rewards](/stepn-go-new-social-
 lifestyle-app-edd97db2e6c0?source=user_profile---------
 0----------------------------)
 
-4d ago
+[2 min read·4 days ago](/stepn-go-new-social-lifestyle-app-
+edd97db2e6c0?source=user_profile---------0----------------------------)
 
-[](/stepn-go-new-social-lifestyle-app-edd97db2e6c0?source=user_profile
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fedd97db2e6c0&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fstepn-
+go-new-social-lifestyle-app-
+edd97db2e6c0&user=STEPN+Official&userId=343ca8528a45&source=-----edd97db2e6c0
+----0-----------------clap_footer-----------)
+
+\--
+
+[](/stepn-go-new-social-lifestyle-app-
+edd97db2e6c0?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
 ---------0----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fedd97db2e6c0&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fstepn-
@@ -63,9 +72,15 @@ bookmark_preview-----------)
 ![STEPN GO — New Social Lifestyle App!
 🚀](https://miro.medium.com/v2/resize:fill:320:214/1*ScpYMsP0V2Kae7IjOCAfAw.png)
 
-4d ago
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fedd97db2e6c0&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fstepn-
+go-new-social-lifestyle-app-
+edd97db2e6c0&user=STEPN+Official&userId=343ca8528a45&source=-----edd97db2e6c0
+----0-----------------clap_footer-----------)
 
-[](/stepn-go-new-social-lifestyle-app-edd97db2e6c0?source=user_profile
+\--
+
+[](/stepn-go-new-social-lifestyle-app-
+edd97db2e6c0?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
 ---------0----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fedd97db2e6c0&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fstepn-
@@ -84,11 +99,20 @@ global leader in the sporting goods industry.](/stepn-is-partnering-with-
 adidas-to-revolutionise-the-web3-industry-f6ba7051efb1?source=user_profile
 ---------1----------------------------)
 
-Apr 22
+[2 min read·Apr 22, 2024](/stepn-is-partnering-with-adidas-to-revolutionise-
+the-web3-industry-f6ba7051efb1?source=user_profile---------
+1----------------------------)
+
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Ff6ba7051efb1&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fstepn-
+is-partnering-with-adidas-to-revolutionise-the-
+web3-industry-f6ba7051efb1&user=STEPN+Official&userId=343ca8528a45&source=-----f6ba7051efb1
+----1-----------------clap_footer-----------)
+
+\--
 
 [](/stepn-is-partnering-with-adidas-to-revolutionise-the-
-web3-industry-f6ba7051efb1?source=user_profile---------
-1----------------------------)
+web3-industry-f6ba7051efb1?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------1----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Ff6ba7051efb1&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fstepn-
 is-partnering-with-adidas-to-revolutionise-the-
@@ -101,11 +125,16 @@ industry](https://miro.medium.com/v2/resize:fill:160:106/1*3W6PbRi8uZ6-jMrlMlgXx
 ![STEPN is partnering with adidas to revolutionise the web3
 industry](https://miro.medium.com/v2/resize:fill:320:214/1*3W6PbRi8uZ6-jMrlMlgXxw.png)
 
-Apr 22
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Ff6ba7051efb1&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fstepn-
+is-partnering-with-adidas-to-revolutionise-the-
+web3-industry-f6ba7051efb1&user=STEPN+Official&userId=343ca8528a45&source=-----f6ba7051efb1
+----1-----------------clap_footer-----------)
+
+\--
 
 [](/stepn-is-partnering-with-adidas-to-revolutionise-the-
-web3-industry-f6ba7051efb1?source=user_profile---------
-1----------------------------)
+web3-industry-f6ba7051efb1?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------1----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Ff6ba7051efb1&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fstepn-
 is-partnering-with-adidas-to-revolutionise-the-
@@ -125,11 +154,21 @@ members.](/stepn-launches-its-third-trailblazer-airdrop-a-
 massive-100-000-000-gmt-giveaway-for-their-a237bba04e9b?source=user_profile
 ---------2----------------------------)
 
-Apr 10
+[3 min read·Apr 10, 2024](/stepn-launches-its-third-trailblazer-airdrop-a-
+massive-100-000-000-gmt-giveaway-for-their-a237bba04e9b?source=user_profile
+---------2----------------------------)
+
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fa237bba04e9b&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fstepn-
+launches-its-third-trailblazer-airdrop-a-massive-100-000-000-gmt-giveaway-for-
+their-a237bba04e9b&user=STEPN+Official&userId=343ca8528a45&source=-----a237bba04e9b
+----2-----------------clap_footer-----------)
+
+\--
 
 [](/stepn-launches-its-third-trailblazer-airdrop-a-massive-100-000-000-gmt-
-giveaway-for-their-a237bba04e9b?source=user_profile---------
-2----------------------------)
+giveaway-for-
+their-a237bba04e9b?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------2----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fa237bba04e9b&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fstepn-
 launches-its-third-trailblazer-airdrop-a-massive-100-000-000-gmt-giveaway-for-
@@ -144,11 +183,17 @@ their…](https://miro.medium.com/v2/resize:fill:160:106/1*5jsGjFMDjudXtYAWQLnxF
 Giveaway for
 their…](https://miro.medium.com/v2/resize:fill:320:214/1*5jsGjFMDjudXtYAWQLnxFQ.png)
 
-Apr 10
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fa237bba04e9b&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fstepn-
+launches-its-third-trailblazer-airdrop-a-massive-100-000-000-gmt-giveaway-for-
+their-a237bba04e9b&user=STEPN+Official&userId=343ca8528a45&source=-----a237bba04e9b
+----2-----------------clap_footer-----------)
+
+\--
 
 [](/stepn-launches-its-third-trailblazer-airdrop-a-massive-100-000-000-gmt-
-giveaway-for-their-a237bba04e9b?source=user_profile---------
-2----------------------------)
+giveaway-for-
+their-a237bba04e9b?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------2----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fa237bba04e9b&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fstepn-
 launches-its-third-trailblazer-airdrop-a-massive-100-000-000-gmt-giveaway-for-
@@ -167,11 +212,20 @@ has undergone. From innovative…](/stepns-2023-a-year-of-groundbreaking-
 achievements-120f34acf240?source=user_profile---------
 3----------------------------)
 
-Jan 1
-
-[](/stepns-2023-a-year-of-groundbreaking-
+[5 min read·Jan 1, 2024](/stepns-2023-a-year-of-groundbreaking-
 achievements-120f34acf240?source=user_profile---------
 3----------------------------)
+
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F120f34acf240&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fstepns-2023-a-year-
+of-groundbreaking-
+achievements-120f34acf240&user=STEPN+Official&userId=343ca8528a45&source=-----120f34acf240
+----3-----------------clap_footer-----------)
+
+\--
+
+[](/stepns-2023-a-year-of-groundbreaking-
+achievements-120f34acf240?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------3----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F120f34acf240&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fstepns-2023-a-year-
 of-groundbreaking-achievements-120f34acf240&source=---------3-----------------
@@ -183,11 +237,16 @@ Achievements](https://miro.medium.com/v2/resize:fill:160:106/1*j4ApoCRPMoXDE2ns8
 ![STEPN’s 2023: A Year of Groundbreaking
 Achievements](https://miro.medium.com/v2/resize:fill:320:214/1*j4ApoCRPMoXDE2ns88zeCQ.png)
 
-Jan 1
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F120f34acf240&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fstepns-2023-a-year-
+of-groundbreaking-
+achievements-120f34acf240&user=STEPN+Official&userId=343ca8528a45&source=-----120f34acf240
+----3-----------------clap_footer-----------)
+
+\--
 
 [](/stepns-2023-a-year-of-groundbreaking-
-achievements-120f34acf240?source=user_profile---------
-3----------------------------)
+achievements-120f34acf240?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------3----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F120f34acf240&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fstepns-2023-a-year-
 of-groundbreaking-achievements-120f34acf240&source=---------3-----------------
@@ -205,10 +264,20 @@ of the philosophy behind our upcoming collection.](/introducing-the-fsl-
 legacy-drop-a-symphony-of-fitness-web3-and-
 gaming-17902e4c3143?source=user_profile---------4----------------------------)
 
-Nov 21, 2023
+[3 min read·Nov 21, 2023](/introducing-the-fsl-legacy-drop-a-symphony-of-
+fitness-web3-and-gaming-17902e4c3143?source=user_profile---------
+4----------------------------)
+
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F17902e4c3143&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fintroducing-
+the-fsl-legacy-drop-a-symphony-of-fitness-web3-and-
+gaming-17902e4c3143&user=STEPN+Official&userId=343ca8528a45&source=-----17902e4c3143
+----4-----------------clap_footer-----------)
+
+\--
 
 [](/introducing-the-fsl-legacy-drop-a-symphony-of-fitness-web3-and-
-gaming-17902e4c3143?source=user_profile---------4----------------------------)
+gaming-17902e4c3143?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------4----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F17902e4c3143&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fintroducing-
 the-fsl-legacy-drop-a-symphony-of-fitness-web3-and-
@@ -221,10 +290,16 @@ Gaming](https://miro.medium.com/v2/resize:fill:160:106/1*L2RPeex5AGlvyO4Gu81s8Q.
 ![Introducing the “FSL Legacy Drop”: A Symphony of Fitness, Web3, and
 Gaming](https://miro.medium.com/v2/resize:fill:320:214/1*L2RPeex5AGlvyO4Gu81s8Q.png)
 
-Nov 21, 2023
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F17902e4c3143&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fintroducing-
+the-fsl-legacy-drop-a-symphony-of-fitness-web3-and-
+gaming-17902e4c3143&user=STEPN+Official&userId=343ca8528a45&source=-----17902e4c3143
+----4-----------------clap_footer-----------)
+
+\--
 
 [](/introducing-the-fsl-legacy-drop-a-symphony-of-fitness-web3-and-
-gaming-17902e4c3143?source=user_profile---------4----------------------------)
+gaming-17902e4c3143?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------4----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F17902e4c3143&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fintroducing-
 the-fsl-legacy-drop-a-symphony-of-fitness-web3-and-
@@ -243,10 +318,20 @@ perceive gaming, wellness, and decentralised technology, it’s only…](/stepn-
 merch-store-wear-a-piece-of-fsls-legacy-and-be-cool-while-doing-
 it-634b92170814?source=user_profile---------5----------------------------)
 
-Nov 15, 2023
+[3 min read·Nov 15, 2023](/stepn-merch-store-wear-a-piece-of-fsls-legacy-and-
+be-cool-while-doing-it-634b92170814?source=user_profile---------
+5----------------------------)
+
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F634b92170814&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fstepn-
+merch-store-wear-a-piece-of-fsls-legacy-and-be-cool-while-doing-
+it-634b92170814&user=STEPN+Official&userId=343ca8528a45&source=-----634b92170814
+----5-----------------clap_footer-----------)
+
+\--
 
 [](/stepn-merch-store-wear-a-piece-of-fsls-legacy-and-be-cool-while-doing-
-it-634b92170814?source=user_profile---------5----------------------------)
+it-634b92170814?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------5----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F634b92170814&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fstepn-
 merch-store-wear-a-piece-of-fsls-legacy-and-be-cool-while-doing-
@@ -258,10 +343,16 @@ It](https://miro.medium.com/v2/resize:fill:160:106/1*qFBuw35BRKsDhsUWz2DDXA.png)
 ![STEPN Merch Store: Wear a Piece of FSL’s Legacy and Be Cool While Doing
 It](https://miro.medium.com/v2/resize:fill:320:214/1*qFBuw35BRKsDhsUWz2DDXA.png)
 
-Nov 15, 2023
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F634b92170814&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fstepn-
+merch-store-wear-a-piece-of-fsls-legacy-and-be-cool-while-doing-
+it-634b92170814&user=STEPN+Official&userId=343ca8528a45&source=-----634b92170814
+----5-----------------clap_footer-----------)
+
+\--
 
 [](/stepn-merch-store-wear-a-piece-of-fsls-legacy-and-be-cool-while-doing-
-it-634b92170814?source=user_profile---------5----------------------------)
+it-634b92170814?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------5----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F634b92170814&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fstepn-
 merch-store-wear-a-piece-of-fsls-legacy-and-be-cool-while-doing-
@@ -278,10 +369,19 @@ collides with the pulse of music, there’s an unmissable rhythm that
 emerges.](/syncing-beats-and-steps-stepn-x-steve-
 aoki-436139ade62c?source=user_profile---------6----------------------------)
 
-Oct 30, 2023
+[3 min read·Oct 30, 2023](/syncing-beats-and-steps-stepn-x-steve-
+aoki-436139ade62c?source=user_profile---------6----------------------------)
+
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F436139ade62c&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fsyncing-
+beats-and-steps-stepn-x-steve-
+aoki-436139ade62c&user=STEPN+Official&userId=343ca8528a45&source=-----436139ade62c
+----6-----------------clap_footer-----------)
+
+\--
 
 [](/syncing-beats-and-steps-stepn-x-steve-
-aoki-436139ade62c?source=user_profile---------6----------------------------)
+aoki-436139ade62c?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------6----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F436139ade62c&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fsyncing-
 beats-and-steps-stepn-x-steve-aoki-436139ade62c&source=---------6
@@ -293,10 +393,16 @@ Aoki](https://miro.medium.com/v2/resize:fill:160:106/1*7m0Gitnt1HXE1YQ_noGp-Q.pn
 ![Syncing Beats and Steps: STEPN x Steve
 Aoki](https://miro.medium.com/v2/resize:fill:320:214/1*7m0Gitnt1HXE1YQ_noGp-Q.png)
 
-Oct 30, 2023
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F436139ade62c&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fsyncing-
+beats-and-steps-stepn-x-steve-
+aoki-436139ade62c&user=STEPN+Official&userId=343ca8528a45&source=-----436139ade62c
+----6-----------------clap_footer-----------)
+
+\--
 
 [](/syncing-beats-and-steps-stepn-x-steve-
-aoki-436139ade62c?source=user_profile---------6----------------------------)
+aoki-436139ade62c?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------6----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F436139ade62c&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fsyncing-
 beats-and-steps-stepn-x-steve-aoki-436139ade62c&source=---------6
@@ -315,11 +421,22 @@ STEPN…](/apple-music-another-milestone-integration-made-in-collaboration-with-
 apple-for-web3-app-stepn-697d31361e0c?source=user_profile---------
 7----------------------------)
 
-Oct 13, 2023
+[3 min read·Oct 13, 2023](/apple-music-another-milestone-integration-made-in-
+collaboration-with-apple-for-web3-app-stepn-697d31361e0c?source=user_profile
+---------7----------------------------)
+
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F697d31361e0c&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fapple-
+music-another-milestone-integration-made-in-collaboration-with-apple-for-
+web3-app-
+stepn-697d31361e0c&user=STEPN+Official&userId=343ca8528a45&source=-----697d31361e0c
+----7-----------------clap_footer-----------)
+
+\--
 
 [1](/apple-music-another-milestone-integration-made-in-collaboration-with-
-apple-for-web3-app-stepn-697d31361e0c?source=user_profile---------
-7----------------------------)
+apple-for-web3-app-
+stepn-697d31361e0c?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------7----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F697d31361e0c&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fapple-
 music-another-milestone-integration-made-in-collaboration-with-apple-for-
@@ -334,11 +451,18 @@ STEPN](https://miro.medium.com/v2/resize:fill:160:106/1*95ommw3cg7oMHk8tSeWwcw.p
 for Web3 App
 STEPN](https://miro.medium.com/v2/resize:fill:320:214/1*95ommw3cg7oMHk8tSeWwcw.png)
 
-Oct 13, 2023
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F697d31361e0c&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fapple-
+music-another-milestone-integration-made-in-collaboration-with-apple-for-
+web3-app-
+stepn-697d31361e0c&user=STEPN+Official&userId=343ca8528a45&source=-----697d31361e0c
+----7-----------------clap_footer-----------)
+
+\--
 
 [1](/apple-music-another-milestone-integration-made-in-collaboration-with-
-apple-for-web3-app-stepn-697d31361e0c?source=user_profile---------
-7----------------------------)
+apple-for-web3-app-
+stepn-697d31361e0c?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------7----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F697d31361e0c&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fapple-
 music-another-milestone-integration-made-in-collaboration-with-apple-for-
@@ -356,9 +480,18 @@ that our new game, Gas Hero, will be launching on Polygon.](/gas-hero-badge-
 migration-how-to-guide-db1419648dd5?source=user_profile---------
 8----------------------------)
 
-Sep 14, 2023
+[2 min read·Sep 14, 2023](/gas-hero-badge-migration-how-to-guide-
+db1419648dd5?source=user_profile---------8----------------------------)
 
-[](/gas-hero-badge-migration-how-to-guide-db1419648dd5?source=user_profile
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fdb1419648dd5&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fgas-
+hero-badge-migration-how-to-guide-
+db1419648dd5&user=STEPN+Official&userId=343ca8528a45&source=-----db1419648dd5
+----8-----------------clap_footer-----------)
+
+\--
+
+[](/gas-hero-badge-migration-how-to-guide-
+db1419648dd5?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
 ---------8----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fdb1419648dd5&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fgas-
@@ -371,9 +504,15 @@ Guide](https://miro.medium.com/v2/resize:fill:160:106/1*ddw1O0ulUOvo2vqVEJJVGw.j
 ![Gas Hero Badge Migration : How to
 Guide](https://miro.medium.com/v2/resize:fill:320:214/1*ddw1O0ulUOvo2vqVEJJVGw.jpeg)
 
-Sep 14, 2023
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fdb1419648dd5&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fgas-
+hero-badge-migration-how-to-guide-
+db1419648dd5&user=STEPN+Official&userId=343ca8528a45&source=-----db1419648dd5
+----8-----------------clap_footer-----------)
 
-[](/gas-hero-badge-migration-how-to-guide-db1419648dd5?source=user_profile
+\--
+
+[](/gas-hero-badge-migration-how-to-guide-
+db1419648dd5?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
 ---------8----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fdb1419648dd5&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fgas-
@@ -392,10 +531,19 @@ discussion, we examined the emergence…](/social-prescribing-healing-through-
 stepn-part-2-bd956c00631a?source=user_profile---------
 9----------------------------)
 
-Jun 20, 2023
+[3 min read·Jun 20, 2023](/social-prescribing-healing-through-stepn-
+part-2-bd956c00631a?source=user_profile---------9----------------------------)
+
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fbd956c00631a&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fsocial-
+prescribing-healing-through-stepn-
+part-2-bd956c00631a&user=STEPN+Official&userId=343ca8528a45&source=-----bd956c00631a
+----9-----------------clap_footer-----------)
+
+\--
 
 [](/social-prescribing-healing-through-stepn-
-part-2-bd956c00631a?source=user_profile---------9----------------------------)
+part-2-bd956c00631a?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------9----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fbd956c00631a&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fsocial-
 prescribing-healing-through-stepn-part-2-bd956c00631a&source=---------9
@@ -407,10 +555,16 @@ prescribing-healing-through-stepn-part-2-bd956c00631a&source=---------9
 ![Social Prescribing: Healing Through STEPN \(Part
 2\)](https://miro.medium.com/v2/da:true/resize:fill:320:214/0*HhQ9Qe_YbanUCxQP)
 
-Jun 20, 2023
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fbd956c00631a&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fsocial-
+prescribing-healing-through-stepn-
+part-2-bd956c00631a&user=STEPN+Official&userId=343ca8528a45&source=-----bd956c00631a
+----9-----------------clap_footer-----------)
+
+\--
 
 [](/social-prescribing-healing-through-stepn-
-part-2-bd956c00631a?source=user_profile---------9----------------------------)
+part-2-bd956c00631a?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------9----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fbd956c00631a&operation=register&redirect=https%3A%2F%2Fstepnofficial.medium.com%2Fsocial-
 prescribing-healing-through-stepn-part-2-bd956c00631a&source=---------9
