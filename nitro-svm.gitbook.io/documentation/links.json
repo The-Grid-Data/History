@@ -1,18 +1,25 @@
-[
-    "https://nitro-svm.gitbook.io/documentation",
-    "https://nitro-svm.gitbook.io/documentation",
-    "https://nitro-svm.gitbook.io/documentation#the-nitro-vision",
-    "https://nitro-svm.gitbook.io/documentation#the-nitro-vision",
-    "https://nitro-svm.gitbook.io/documentation#what-is-nitro",
-    "https://nitro-svm.gitbook.io/documentation#what-is-nitro",
-    "https://nitro-svm.gitbook.io/documentation/introduction/how-nitro-works",
-    "https://nitro-svm.gitbook.io/documentation/introduction/how-nitro-works",
-    "https://nitro-svm.gitbook.io/documentation/introduction/how-nitro-works/nitro-user-manual",
-    "https://nitro-svm.gitbook.io/documentation/introduction/how-nitro-works/nitros-modular-structure",
-    "https://nitro-svm.gitbook.io/documentation/introduction/why-cosmos",
-    "https://nitro-svm.gitbook.io/documentation/introduction/why-solana-vm",
-    "https://nitro-svm.gitbook.io/documentation/introduction/why-solana-vm/building-on-sealevel-vm",
-    "https://twitter.com/Nitro_Labs",
-    "https://www.gitbook.com/?utm_source=content&utm_medium=trademark&utm_campaign=Vkei3hPl3HKf8KIppIiE",
-    "https://www.nitro.technology/"
-]
+{
+    "target_url": "https://nitro-svm.gitbook.io/documentation",
+    "domains": {
+        "nitro-svm.gitbook.io": [
+            "https://nitro-svm.gitbook.io/documentation",
+            "https://nitro-svm.gitbook.io/documentation#the-nitro-vision",
+            "https://nitro-svm.gitbook.io/documentation#what-is-nitro",
+            "https://nitro-svm.gitbook.io/documentation/introduction/how-nitro-works",
+            "https://nitro-svm.gitbook.io/documentation/introduction/how-nitro-works/nitro-user-manual",
+            "https://nitro-svm.gitbook.io/documentation/introduction/how-nitro-works/nitros-modular-structure",
+            "https://nitro-svm.gitbook.io/documentation/introduction/why-cosmos",
+            "https://nitro-svm.gitbook.io/documentation/introduction/why-solana-vm",
+            "https://nitro-svm.gitbook.io/documentation/introduction/why-solana-vm/building-on-sealevel-vm"
+        ],
+        "twitter.com": [
+            "https://twitter.com/Nitro_Labs"
+        ],
+        "www.gitbook.com": [
+            "https://www.gitbook.com/?utm_source=content&utm_medium=trademark&utm_campaign=Vkei3hPl3HKf8KIppIiE"
+        ],
+        "www.nitro.technology": [
+            "https://www.nitro.technology/"
+        ]
+    }
+}
