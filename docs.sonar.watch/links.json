@@ -1,50 +1,61 @@
-[
-    "http://discord.gg/gG4DvM2JGw",
-    "https://docs.sonar.watch/",
-    "https://docs.sonar.watch/",
-    "https://docs.sonar.watch/#id-1.-dashboard",
-    "https://docs.sonar.watch/#id-1.-dashboard",
-    "https://docs.sonar.watch/#id-2.-api",
-    "https://docs.sonar.watch/#id-2.-api",
-    "https://docs.sonar.watch/#what-is-sonarwatch",
-    "https://docs.sonar.watch/#what-is-sonarwatch",
-    "https://docs.sonar.watch/api/endpoints",
-    "https://docs.sonar.watch/api/endpoints/names",
-    "https://docs.sonar.watch/api/endpoints/portfolio",
-    "https://docs.sonar.watch/api/endpoints/tokens",
-    "https://docs.sonar.watch/api/introduction",
-    "https://docs.sonar.watch/api/introduction",
-    "https://docs.sonar.watch/api/lexicon",
-    "https://docs.sonar.watch/api/lexicon/requests-parameters",
-    "https://docs.sonar.watch/api/lexicon/requests-parameters/address",
-    "https://docs.sonar.watch/api/lexicon/requests-parameters/addresssystem",
-    "https://docs.sonar.watch/api/lexicon/requests-parameters/usecache",
-    "https://docs.sonar.watch/api/lexicon/response-data",
-    "https://docs.sonar.watch/api/lexicon/response-data/element",
-    "https://docs.sonar.watch/api/lexicon/response-data/elementtype",
-    "https://docs.sonar.watch/api/lexicon/response-data/label",
-    "https://docs.sonar.watch/api/lexicon/response-data/name",
-    "https://docs.sonar.watch/api/lexicon/response-data/network",
-    "https://docs.sonar.watch/api/lexicon/response-data/platform",
-    "https://docs.sonar.watch/dashboard/connect-your-public-key",
-    "https://docs.sonar.watch/dashboard/connect-your-public-key",
-    "https://docs.sonar.watch/dashboard/multichain",
-    "https://docs.sonar.watch/dashboard/play-with-the-platform",
-    "https://docs.sonar.watch/dashboard/setup-your-address-book",
-    "https://docs.sonar.watch/open-source/introduction",
-    "https://docs.sonar.watch/open-source/list-a-token",
-    "https://docs.sonar.watch/open-source/list-your-project",
-    "https://docs.sonar.watch/open-source/list-your-project/fetchers",
-    "https://docs.sonar.watch/open-source/list-your-project/jobs",
-    "https://docs.sonar.watch/open-source/list-your-project/plugins",
-    "https://docs.sonar.watch/open-source/list-your-project/setup-your-environment",
-    "https://docs.sonar.watch/open-source/list-your-project/submit-your-work",
-    "https://docs.sonar.watch/open-source/list-your-project/useful-functions",
-    "https://docs.sonar.watch/open-source/submit-your-contribution",
-    "https://github.com/sonarwatch",
-    "https://sonar.watch/",
-    "https://sonar.watch/docs/SonarWatch_Media_kit.zip",
-    "https://sonarwatch.medium.com/",
-    "https://twitter.com/Sonarwatch",
-    "https://www.gitbook.com/?utm_source=content&utm_medium=trademark&utm_campaign=-Mi6TuvA4xamYehdeSXU"
-]
+{
+    "target_url": "https://docs.sonar.watch/",
+    "domains": {
+        "discord.gg": [
+            "http://discord.gg/gG4DvM2JGw"
+        ],
+        "docs.sonar.watch": [
+            "https://docs.sonar.watch/",
+            "https://docs.sonar.watch/#id-1.-dashboard",
+            "https://docs.sonar.watch/#id-2.-api",
+            "https://docs.sonar.watch/#what-is-sonarwatch",
+            "https://docs.sonar.watch/api/endpoints",
+            "https://docs.sonar.watch/api/endpoints/names",
+            "https://docs.sonar.watch/api/endpoints/portfolio",
+            "https://docs.sonar.watch/api/endpoints/tokens",
+            "https://docs.sonar.watch/api/introduction",
+            "https://docs.sonar.watch/api/lexicon",
+            "https://docs.sonar.watch/api/lexicon/requests-parameters",
+            "https://docs.sonar.watch/api/lexicon/requests-parameters/address",
+            "https://docs.sonar.watch/api/lexicon/requests-parameters/addresssystem",
+            "https://docs.sonar.watch/api/lexicon/requests-parameters/usecache",
+            "https://docs.sonar.watch/api/lexicon/response-data",
+            "https://docs.sonar.watch/api/lexicon/response-data/element",
+            "https://docs.sonar.watch/api/lexicon/response-data/elementtype",
+            "https://docs.sonar.watch/api/lexicon/response-data/label",
+            "https://docs.sonar.watch/api/lexicon/response-data/name",
+            "https://docs.sonar.watch/api/lexicon/response-data/network",
+            "https://docs.sonar.watch/api/lexicon/response-data/platform",
+            "https://docs.sonar.watch/dashboard/connect-your-public-key",
+            "https://docs.sonar.watch/dashboard/multichain",
+            "https://docs.sonar.watch/dashboard/play-with-the-platform",
+            "https://docs.sonar.watch/dashboard/setup-your-address-book",
+            "https://docs.sonar.watch/open-source/introduction",
+            "https://docs.sonar.watch/open-source/list-a-token",
+            "https://docs.sonar.watch/open-source/list-your-project",
+            "https://docs.sonar.watch/open-source/list-your-project/fetchers",
+            "https://docs.sonar.watch/open-source/list-your-project/jobs",
+            "https://docs.sonar.watch/open-source/list-your-project/plugins",
+            "https://docs.sonar.watch/open-source/list-your-project/setup-your-environment",
+            "https://docs.sonar.watch/open-source/list-your-project/submit-your-work",
+            "https://docs.sonar.watch/open-source/list-your-project/useful-functions",
+            "https://docs.sonar.watch/open-source/submit-your-contribution"
+        ],
+        "github.com": [
+            "https://github.com/sonarwatch"
+        ],
+        "sonar.watch": [
+            "https://sonar.watch/",
+            "https://sonar.watch/docs/SonarWatch_Media_kit.zip"
+        ],
+        "sonarwatch.medium.com": [
+            "https://sonarwatch.medium.com/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/Sonarwatch"
+        ],
+        "www.gitbook.com": [
+            "https://www.gitbook.com/?utm_source=content&utm_medium=trademark&utm_campaign=-Mi6TuvA4xamYehdeSXU"
+        ]
+    }
+}
