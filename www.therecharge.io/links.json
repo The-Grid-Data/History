@@ -1,64 +1,96 @@
-[
-    "https://blog.naver.com/therecharge",
-    "https://bscscan.com/token/0x2D94172436D869c1e3c094BeaD272508faB0d9E3",
-    "https://bscscan.com/token/0x2D94172436D869c1e3c094BeaD272508faB0d9E3",
-    "https://cobak.co.kr/community/146",
-    "https://coinmarketcap.com/currencies/recharge/",
-    "https://crypto.com/",
-    "https://defi.therecharge.io",
-    "https://defi.therecharge.io/",
-    "https://defi.therecharge.io/",
-    "https://ethereum.org/en/",
-    "https://etherscan.io/token/0xe74bE071f3b62f6A4aC23cA68E5E2A39797A3c30",
-    "https://github.com/therecharge",
-    "https://medium.com/therecharge",
-    "https://nft.therecharge.io/",
-    "https://s3.ap-southeast-1.amazonaws.com/static.recharge.io/The_Recharge_logo.zip",
-    "https://s3.ap-southeast-1.amazonaws.com/static.recharge.io/The_Recharge_logo.zip",
-    "https://s3.ap-southeast-1.amazonaws.com/static.recharge.io/The_Recharge_logo.zip",
-    "https://scan.kcc.io/address/0xe74bE071f3b62f6A4aC23cA68E5E2A39797A3c30",
-    "https://snapshot.org/#/therecharge.eth",
-    "https://solana.com/ko",
-    "https://solscan.io/token/3TM1bok2dpqR674ubX5FDQZtkyycnx1GegRcd13pQgko",
-    "https://t.me/therecharge_official",
-    "https://the-recharge.gitbook.io/therecharge/",
-    "https://the-recharge.gitbook.io/therecharge/",
-    "https://the-recharge.gitbook.io/therecharge/",
-    "https://the-recharge.gitbook.io/therecharge/6.-disclaimers",
-    "https://the-recharge.gitbook.io/therecharge/6.-disclaimers",
-    "https://the-recharge.gitbook.io/therecharge/6.-disclaimers",
-    "https://twitter.com/TheRecharge_ad",
-    "https://www.binance.org/en/smartChain",
-    "https://www.certik.com/projects/therecharge",
-    "https://www.certik.com/projects/therecharge",
-    "https://www.certik.com/projects/therecharge",
-    "https://www.certik.com/projects/therecharge",
-    "https://www.coingecko.com/en/coins/recharge",
-    "https://www.hecochain.com/en-us/",
-    "https://www.kcc.io",
-    "https://www.mexc.com/",
-    "https://www.therecharge.io/",
-    "https://www.therecharge.io/",
-    "https://www.therecharge.io/",
-    "https://www.therecharge.io/",
-    "https://www.therecharge.io/",
-    "https://www.therecharge.io/",
-    "https://www.therecharge.io/",
-    "https://www.therecharge.io/# about",
-    "https://www.therecharge.io/#about",
-    "https://www.therecharge.io/#about",
-    "https://www.therecharge.io/#advisors",
-    "https://www.therecharge.io/#advisors",
-    "https://www.therecharge.io/#nft",
-    "https://www.therecharge.io/#nft",
-    "https://www.therecharge.io/#nft",
-    "https://www.therecharge.io/#roadmap",
-    "https://www.therecharge.io/#roadmap",
-    "https://www.therecharge.io/#token",
-    "https://www.therecharge.io/#tokens",
-    "https://www.therecharge.io/#tokens",
-    "https://www.therecharge.io/UserGuide.pdf",
-    "https://www.therecharge.io/UserGuide.pdf",
-    "https://www.therecharge.io/UserGuide.pdf",
-    "https://xangle.io/project/RCG/key-info"
-]
+{
+    "target_url": "https://www.therecharge.io/",
+    "domains": {
+        "blog.naver.com": [
+            "https://blog.naver.com/therecharge"
+        ],
+        "bscscan.com": [
+            "https://bscscan.com/token/0x2D94172436D869c1e3c094BeaD272508faB0d9E3"
+        ],
+        "cobak.co.kr": [
+            "https://cobak.co.kr/community/146"
+        ],
+        "coinmarketcap.com": [
+            "https://coinmarketcap.com/currencies/recharge/"
+        ],
+        "crypto.com": [
+            "https://crypto.com/"
+        ],
+        "defi.therecharge.io": [
+            "https://defi.therecharge.io",
+            "https://defi.therecharge.io/"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/en/"
+        ],
+        "etherscan.io": [
+            "https://etherscan.io/token/0xe74bE071f3b62f6A4aC23cA68E5E2A39797A3c30"
+        ],
+        "github.com": [
+            "https://github.com/therecharge"
+        ],
+        "medium.com": [
+            "https://medium.com/therecharge"
+        ],
+        "nft.therecharge.io": [
+            "https://nft.therecharge.io/"
+        ],
+        "s3.ap-southeast-1.amazonaws.com": [
+            "https://s3.ap-southeast-1.amazonaws.com/static.recharge.io/The_Recharge_logo.zip"
+        ],
+        "scan.kcc.io": [
+            "https://scan.kcc.io/address/0xe74bE071f3b62f6A4aC23cA68E5E2A39797A3c30"
+        ],
+        "snapshot.org": [
+            "https://snapshot.org/#/therecharge.eth"
+        ],
+        "solana.com": [
+            "https://solana.com/ko"
+        ],
+        "solscan.io": [
+            "https://solscan.io/token/3TM1bok2dpqR674ubX5FDQZtkyycnx1GegRcd13pQgko"
+        ],
+        "t.me": [
+            "https://t.me/therecharge_official"
+        ],
+        "the-recharge.gitbook.io": [
+            "https://the-recharge.gitbook.io/therecharge/",
+            "https://the-recharge.gitbook.io/therecharge/6.-disclaimers"
+        ],
+        "twitter.com": [
+            "https://twitter.com/TheRecharge_ad"
+        ],
+        "www.binance.org": [
+            "https://www.binance.org/en/smartChain"
+        ],
+        "www.certik.com": [
+            "https://www.certik.com/projects/therecharge"
+        ],
+        "www.coingecko.com": [
+            "https://www.coingecko.com/en/coins/recharge"
+        ],
+        "www.hecochain.com": [
+            "https://www.hecochain.com/en-us/"
+        ],
+        "www.kcc.io": [
+            "https://www.kcc.io"
+        ],
+        "www.mexc.com": [
+            "https://www.mexc.com/"
+        ],
+        "www.therecharge.io": [
+            "https://www.therecharge.io/",
+            "https://www.therecharge.io/# about",
+            "https://www.therecharge.io/#about",
+            "https://www.therecharge.io/#advisors",
+            "https://www.therecharge.io/#nft",
+            "https://www.therecharge.io/#roadmap",
+            "https://www.therecharge.io/#token",
+            "https://www.therecharge.io/#tokens",
+            "https://www.therecharge.io/UserGuide.pdf"
+        ],
+        "xangle.io": [
+            "https://xangle.io/project/RCG/key-info"
+        ]
+    }
+}
