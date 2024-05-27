@@ -1,72 +1,78 @@
-[
-    "https://blog.medium.com/?source=---two_column_layout_sidebar----------------------------------",
-    "https://cajundiscordian.medium.com/?source=blogrolls_sidebar---two_column_layout_sidebar----------------------------------",
-    "https://dexlab-space.medium.com/?source=blogrolls_sidebar---two_column_layout_sidebar----------------------------------",
-    "https://help.medium.com/hc/en-us?source=---two_column_layout_sidebar----------------------------------",
-    "https://medium.com/?source=---two_column_layout_nav----------------------------------",
-    "https://medium.com/@ann0x?source=blogrolls_sidebar---two_column_layout_sidebar----------------------------------",
-    "https://medium.com/about?autoplay=1&source=---two_column_layout_sidebar----------------------------------",
-    "https://medium.com/business?source=---two_column_layout_sidebar----------------------------------",
-    "https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=---two_column_layout_sidebar----------------------------------",
-    "https://medium.com/m/signin?actionUrl=%2F_%2Fapi%2Fsubscriptions%2Fnewsletters%2Fb7e80d5e3982&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2F&newsletterV3=5a13d1805981&newsletterV3Id=b7e80d5e3982&user=Nosana&userId=5a13d1805981&source=---two_column_layout_sidebar-----------------------subscribe_user-----------",
-    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F3794a511f8ac&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fnosanas-nos-rewards-farm-on-raydium-3794a511f8ac&source=---------1-----------------bookmark_preview-----------",
-    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F3794a511f8ac&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fnosanas-nos-rewards-farm-on-raydium-3794a511f8ac&source=---------1-----------------bookmark_preview-----------",
-    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F77b98d78ea06&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fnosanas-new-direction-ai-inference-77b98d78ea06&source=---------3-----------------bookmark_preview-----------",
-    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F77b98d78ea06&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fnosanas-new-direction-ai-inference-77b98d78ea06&source=---------3-----------------bookmark_preview-----------",
-    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8b2ec90249d5&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fbreakpoint-2023-bridging-the-global-gpu-shortage-8b2ec90249d5&source=---------2-----------------bookmark_preview-----------",
-    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8b2ec90249d5&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fbreakpoint-2023-bridging-the-global-gpu-shortage-8b2ec90249d5&source=---------2-----------------bookmark_preview-----------",
-    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fc3ff2d2e764e&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fnosana-launches-incentivized-public-test-grid-with-3-million-nos-c3ff2d2e764e&source=---------0-----------------bookmark_preview-----------",
-    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fc3ff2d2e764e&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fnosana-launches-incentivized-public-test-grid-with-3-million-nos-c3ff2d2e764e&source=---------0-----------------bookmark_preview-----------",
-    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F3794a511f8ac&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fnosanas-nos-rewards-farm-on-raydium-3794a511f8ac&user=Nosana&userId=5a13d1805981&source=-----3794a511f8ac----1-----------------clap_footer-----------",
-    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F3794a511f8ac&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fnosanas-nos-rewards-farm-on-raydium-3794a511f8ac&user=Nosana&userId=5a13d1805981&source=-----3794a511f8ac----1-----------------clap_footer-----------",
-    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F77b98d78ea06&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fnosanas-new-direction-ai-inference-77b98d78ea06&user=Nosana&userId=5a13d1805981&source=-----77b98d78ea06----3-----------------clap_footer-----------",
-    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F77b98d78ea06&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fnosanas-new-direction-ai-inference-77b98d78ea06&user=Nosana&userId=5a13d1805981&source=-----77b98d78ea06----3-----------------clap_footer-----------",
-    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F8b2ec90249d5&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fbreakpoint-2023-bridging-the-global-gpu-shortage-8b2ec90249d5&user=Nosana&userId=5a13d1805981&source=-----8b2ec90249d5----2-----------------clap_footer-----------",
-    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F8b2ec90249d5&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fbreakpoint-2023-bridging-the-global-gpu-shortage-8b2ec90249d5&user=Nosana&userId=5a13d1805981&source=-----8b2ec90249d5----2-----------------clap_footer-----------",
-    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fc3ff2d2e764e&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fnosana-launches-incentivized-public-test-grid-with-3-million-nos-c3ff2d2e764e&user=Nosana&userId=5a13d1805981&source=-----c3ff2d2e764e----0-----------------clap_footer-----------",
-    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fc3ff2d2e764e&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fnosana-launches-incentivized-public-test-grid-with-3-million-nos-c3ff2d2e764e&user=Nosana&userId=5a13d1805981&source=-----c3ff2d2e764e----0-----------------clap_footer-----------",
-    "https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fnosana.medium.com%2F&source=user_profile---two_column_layout_nav-----------------------global_nav-----------",
-    "https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fnosana.medium.com%2F&source=user_profile---two_column_layout_nav-----------------------global_nav-----------",
-    "https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2Fnew-story&source=---two_column_layout_nav-----------------------new_post_topnav-----------",
-    "https://medium.com/search?source=---two_column_layout_nav----------------------------------",
-    "https://medium.statuspage.io/?source=---two_column_layout_sidebar----------------------------------",
-    "https://nosana.medium.com/?source=---two_column_layout_sidebar----------------------------------",
-    "https://nosana.medium.com/?source=---two_column_layout_sidebar----------------------------------",
-    "https://nosana.medium.com/?source=user_profile-------------------------------------",
-    "https://nosana.medium.com/?source=user_profile-------------------------------------",
-    "https://nosana.medium.com/?source=user_profile---------0----------------------------",
-    "https://nosana.medium.com/?source=user_profile---------0----------------------------",
-    "https://nosana.medium.com/?source=user_profile---------1----------------------------",
-    "https://nosana.medium.com/?source=user_profile---------1----------------------------",
-    "https://nosana.medium.com/?source=user_profile---------2----------------------------",
-    "https://nosana.medium.com/?source=user_profile---------2----------------------------",
-    "https://nosana.medium.com/?source=user_profile---------3----------------------------",
-    "https://nosana.medium.com/?source=user_profile---------3----------------------------",
-    "https://nosana.medium.com/about?source=user_profile-------------------------------------",
-    "https://nosana.medium.com/breakpoint-2023-bridging-the-global-gpu-shortage-8b2ec90249d5?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile---------2----------------------------",
-    "https://nosana.medium.com/breakpoint-2023-bridging-the-global-gpu-shortage-8b2ec90249d5?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile---------2----------------------------",
-    "https://nosana.medium.com/breakpoint-2023-bridging-the-global-gpu-shortage-8b2ec90249d5?source=user_profile---------2----------------------------",
-    "https://nosana.medium.com/breakpoint-2023-bridging-the-global-gpu-shortage-8b2ec90249d5?source=user_profile---------2----------------------------",
-    "https://nosana.medium.com/followers?source=---two_column_layout_sidebar----------------------------------",
-    "https://nosana.medium.com/followers?source=user_profile-------------------------------------",
-    "https://nosana.medium.com/following?source=blogrolls_sidebar---two_column_layout_sidebar----------------------------------",
-    "https://nosana.medium.com/nosana-launches-incentivized-public-test-grid-with-3-million-nos-c3ff2d2e764e?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile---------0----------------------------",
-    "https://nosana.medium.com/nosana-launches-incentivized-public-test-grid-with-3-million-nos-c3ff2d2e764e?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile---------0----------------------------",
-    "https://nosana.medium.com/nosana-launches-incentivized-public-test-grid-with-3-million-nos-c3ff2d2e764e?source=user_profile---------0----------------------------",
-    "https://nosana.medium.com/nosana-launches-incentivized-public-test-grid-with-3-million-nos-c3ff2d2e764e?source=user_profile---------0----------------------------",
-    "https://nosana.medium.com/nosanas-new-direction-ai-inference-77b98d78ea06?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile---------3----------------------------",
-    "https://nosana.medium.com/nosanas-new-direction-ai-inference-77b98d78ea06?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile---------3----------------------------",
-    "https://nosana.medium.com/nosanas-new-direction-ai-inference-77b98d78ea06?source=user_profile---------3----------------------------",
-    "https://nosana.medium.com/nosanas-new-direction-ai-inference-77b98d78ea06?source=user_profile---------3----------------------------",
-    "https://nosana.medium.com/nosanas-nos-rewards-farm-on-raydium-3794a511f8ac?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile---------1----------------------------",
-    "https://nosana.medium.com/nosanas-nos-rewards-farm-on-raydium-3794a511f8ac?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile---------1----------------------------",
-    "https://nosana.medium.com/nosanas-nos-rewards-farm-on-raydium-3794a511f8ac?source=user_profile---------1----------------------------",
-    "https://nosana.medium.com/nosanas-nos-rewards-farm-on-raydium-3794a511f8ac?source=user_profile---------1----------------------------",
-    "https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=---two_column_layout_sidebar----------------------------------",
-    "https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=---two_column_layout_sidebar----------------------------------",
-    "https://rsci.app.link/?%24canonical_url=https%3A%2F%2Fmedium.com%2F&%7Efeature=LoOpenInAppButton&%7Echannel=ShowUser&source=---two_column_layout_nav----------------------------------",
-    "https://speechify.com/medium?source=---two_column_layout_sidebar----------------------------------",
-    "https://staratlasgame.medium.com/?source=blogrolls_sidebar---two_column_layout_sidebar----------------------------------",
-    "https://thecointimes.medium.com/?source=blogrolls_sidebar---two_column_layout_sidebar----------------------------------",
-    "mailto:pressinquiries@medium.com?source=---two_column_layout_sidebar----------------------------------"
-]
+{
+    "target_url": "https://nosana.medium.com",
+    "domains": {
+        "": [
+            "mailto:pressinquiries@medium.com?source=---two_column_layout_sidebar----------------------------------"
+        ],
+        "blog.medium.com": [
+            "https://blog.medium.com/?source=---two_column_layout_sidebar----------------------------------"
+        ],
+        "cajundiscordian.medium.com": [
+            "https://cajundiscordian.medium.com/?source=blogrolls_sidebar---two_column_layout_sidebar----------------------------------"
+        ],
+        "dexlab-space.medium.com": [
+            "https://dexlab-space.medium.com/?source=blogrolls_sidebar---two_column_layout_sidebar----------------------------------"
+        ],
+        "help.medium.com": [
+            "https://help.medium.com/hc/en-us?source=---two_column_layout_sidebar----------------------------------"
+        ],
+        "medium.com": [
+            "https://medium.com/?source=---two_column_layout_nav----------------------------------",
+            "https://medium.com/@ann0x?source=blogrolls_sidebar---two_column_layout_sidebar----------------------------------",
+            "https://medium.com/about?autoplay=1&source=---two_column_layout_sidebar----------------------------------",
+            "https://medium.com/business?source=---two_column_layout_sidebar----------------------------------",
+            "https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=---two_column_layout_sidebar----------------------------------",
+            "https://medium.com/m/signin?actionUrl=%2F_%2Fapi%2Fsubscriptions%2Fnewsletters%2Fb7e80d5e3982&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2F&newsletterV3=5a13d1805981&newsletterV3Id=b7e80d5e3982&user=Nosana&userId=5a13d1805981&source=---two_column_layout_sidebar-----------------------subscribe_user-----------",
+            "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F3794a511f8ac&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fnosanas-nos-rewards-farm-on-raydium-3794a511f8ac&source=---------1-----------------bookmark_preview-----------",
+            "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F77b98d78ea06&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fnosanas-new-direction-ai-inference-77b98d78ea06&source=---------3-----------------bookmark_preview-----------",
+            "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8b2ec90249d5&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fbreakpoint-2023-bridging-the-global-gpu-shortage-8b2ec90249d5&source=---------2-----------------bookmark_preview-----------",
+            "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fc3ff2d2e764e&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fnosana-launches-incentivized-public-test-grid-with-3-million-nos-c3ff2d2e764e&source=---------0-----------------bookmark_preview-----------",
+            "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F3794a511f8ac&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fnosanas-nos-rewards-farm-on-raydium-3794a511f8ac&user=Nosana&userId=5a13d1805981&source=-----3794a511f8ac----1-----------------clap_footer-----------",
+            "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F77b98d78ea06&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fnosanas-new-direction-ai-inference-77b98d78ea06&user=Nosana&userId=5a13d1805981&source=-----77b98d78ea06----3-----------------clap_footer-----------",
+            "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F8b2ec90249d5&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fbreakpoint-2023-bridging-the-global-gpu-shortage-8b2ec90249d5&user=Nosana&userId=5a13d1805981&source=-----8b2ec90249d5----2-----------------clap_footer-----------",
+            "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fc3ff2d2e764e&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fnosana-launches-incentivized-public-test-grid-with-3-million-nos-c3ff2d2e764e&user=Nosana&userId=5a13d1805981&source=-----c3ff2d2e764e----0-----------------clap_footer-----------",
+            "https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fnosana.medium.com%2F&source=user_profile---two_column_layout_nav-----------------------global_nav-----------",
+            "https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2Fnew-story&source=---two_column_layout_nav-----------------------new_post_topnav-----------",
+            "https://medium.com/search?source=---two_column_layout_nav----------------------------------"
+        ],
+        "medium.statuspage.io": [
+            "https://medium.statuspage.io/?source=---two_column_layout_sidebar----------------------------------"
+        ],
+        "nosana.medium.com": [
+            "https://nosana.medium.com/?source=---two_column_layout_sidebar----------------------------------",
+            "https://nosana.medium.com/?source=user_profile-------------------------------------",
+            "https://nosana.medium.com/?source=user_profile---------0----------------------------",
+            "https://nosana.medium.com/?source=user_profile---------1----------------------------",
+            "https://nosana.medium.com/?source=user_profile---------2----------------------------",
+            "https://nosana.medium.com/?source=user_profile---------3----------------------------",
+            "https://nosana.medium.com/about?source=user_profile-------------------------------------",
+            "https://nosana.medium.com/breakpoint-2023-bridging-the-global-gpu-shortage-8b2ec90249d5?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile---------2----------------------------",
+            "https://nosana.medium.com/breakpoint-2023-bridging-the-global-gpu-shortage-8b2ec90249d5?source=user_profile---------2----------------------------",
+            "https://nosana.medium.com/followers?source=---two_column_layout_sidebar----------------------------------",
+            "https://nosana.medium.com/followers?source=user_profile-------------------------------------",
+            "https://nosana.medium.com/following?source=blogrolls_sidebar---two_column_layout_sidebar----------------------------------",
+            "https://nosana.medium.com/nosana-launches-incentivized-public-test-grid-with-3-million-nos-c3ff2d2e764e?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile---------0----------------------------",
+            "https://nosana.medium.com/nosana-launches-incentivized-public-test-grid-with-3-million-nos-c3ff2d2e764e?source=user_profile---------0----------------------------",
+            "https://nosana.medium.com/nosanas-new-direction-ai-inference-77b98d78ea06?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile---------3----------------------------",
+            "https://nosana.medium.com/nosanas-new-direction-ai-inference-77b98d78ea06?source=user_profile---------3----------------------------",
+            "https://nosana.medium.com/nosanas-nos-rewards-farm-on-raydium-3794a511f8ac?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile---------1----------------------------",
+            "https://nosana.medium.com/nosanas-nos-rewards-farm-on-raydium-3794a511f8ac?source=user_profile---------1----------------------------"
+        ],
+        "policy.medium.com": [
+            "https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=---two_column_layout_sidebar----------------------------------",
+            "https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=---two_column_layout_sidebar----------------------------------"
+        ],
+        "rsci.app.link": [
+            "https://rsci.app.link/?%24canonical_url=https%3A%2F%2Fmedium.com%2F&%7Efeature=LoOpenInAppButton&%7Echannel=ShowUser&source=---two_column_layout_nav----------------------------------"
+        ],
+        "speechify.com": [
+            "https://speechify.com/medium?source=---two_column_layout_sidebar----------------------------------"
+        ],
+        "staratlasgame.medium.com": [
+            "https://staratlasgame.medium.com/?source=blogrolls_sidebar---two_column_layout_sidebar----------------------------------"
+        ],
+        "thecointimes.medium.com": [
+            "https://thecointimes.medium.com/?source=blogrolls_sidebar---two_column_layout_sidebar----------------------------------"
+        ]
+    }
+}
