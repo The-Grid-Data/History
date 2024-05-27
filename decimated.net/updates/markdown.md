@@ -13,7 +13,32 @@
 
 # Updates
 
-all
+all Updates Dev
+
+[Where to buy DIOMay 27, 2024](https://decimated.net/updates/where-to-buy-
+dio)[Community Code of ConductMay 14,
+2024](https://decimated.net/updates/community-code-of-conduct)[Decimated CEO
+Interview by Paul BarronMarch 19,
+2024](https://decimated.net/updates/decimated-ceo-interview-by-paul-
+barron)[Decimated Interview by Fungible GamesFebruary 02,
+2024](https://decimated.net/updates/decimated-interview-by-fungible-
+games)[Development And Integration Of Advanced Payment And Trading Systems For
+DecimatedNovember 16, 2023](https://decimated.net/updates/development-and-
+integration-of-advanced-payment-and-trading-systems-for-decimated)[Decimated
+Development News #16October 13, 2023](https://decimated.net/updates/decimated-
+development-news-15-6460537)[Decimated Development News #15September 22,
+2023](https://decimated.net/updates/decimated-development-news-15)[Decimated
+Development News #14September 01,
+2023](https://decimated.net/updates/decimated-development-news-14)[Decimated
+Development News #13August 18, 2023](https://decimated.net/updates/decimated-
+development-news-13)[Decimated Development News #12July 06,
+2023](https://decimated.net/updates/decimated-development-
+news-11-5948358)[Decimated Development News #11June 16,
+2023](https://decimated.net/updates/decimated-development-news-11)[Decimated
+Development News #10June 05, 2023](https://decimated.net/updates/decimated-
+development-news-10)
+
+Show more Show moreShow moreShow moreShow moreShow more
 
 Subscribe
 
@@ -45,5 +70,17 @@ with this, but you can opt-out if you wish.
 
 Accept  AcceptAcceptAcceptAcceptAccept
 
-![](https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=2d5c43ae-073a-4118-b568-c2dcc9ec2235&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=164574b1-ec27-4797-89c3-d5cb3f502a48&tw_document_href=https%3A%2F%2Fdecimated.net%2Fupdates&tw_iframe_status=0&txn_id=o8fa8&type=javascript&version=2.3.30)![](https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=2d5c43ae-073a-4118-b568-c2dcc9ec2235&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=164574b1-ec27-4797-89c3-d5cb3f502a48&tw_document_href=https%3A%2F%2Fdecimated.net%2Fupdates&tw_iframe_status=0&txn_id=o8fa8&type=javascript&version=2.3.30)
+![](https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=83b71108-c7a7-4500-8c1f-d7549398dabf&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=be1a7ec5-b049-475c-8727-b8672f23ca64&tw_document_href=https%3A%2F%2Fdecimated.net%2Fupdates&tw_iframe_status=0&txn_id=o8fa8&type=javascript&version=2.3.30)![](https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=83b71108-c7a7-4500-8c1f-d7549398dabf&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=be1a7ec5-b049-475c-8727-b8672f23ca64&tw_document_href=https%3A%2F%2Fdecimated.net%2Fupdates&tw_iframe_status=0&txn_id=o8fa8&type=javascript&version=2.3.30)
+
+Recaptcha requires verification.
+
+[Privacy](https://www.google.com/intl/en/policies/privacy/) \-
+[Terms](https://www.google.com/intl/en/policies/terms/)
+
+protected by **reCAPTCHA**
+
+[Privacy](https://www.google.com/intl/en/policies/privacy/) \-
+[Terms](https://www.google.com/intl/en/policies/terms/)
+
+Help
 
