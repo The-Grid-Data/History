@@ -1,57 +1,79 @@
-[
-    "https://class.claynosaurz.com",
-    "https://claynosaurz.com/",
-    "https://claynosaurz.com/characters",
-    "https://claynosaurz.com/characters",
-    "https://claynosaurz.com/characters",
-    "https://claynosaurz.com/claynotopia",
-    "https://claynosaurz.com/claynotopia",
-    "https://claynosaurz.com/collectibles",
-    "https://claynosaurz.com/collectibles",
-    "https://claynosaurz.com/collectibles",
-    "https://claynosaurz.com/collectibles/call-of-saga",
-    "https://claynosaurz.com/collectibles/clay",
-    "https://claynosaurz.com/collectibles/claymaker",
-    "https://claynosaurz.com/collectibles/claynosaurz",
-    "https://claynosaurz.com/collectibles/claynosaurz?Species=Ankylo",
-    "https://claynosaurz.com/collectibles/claynosaurz?Species=Bronto",
-    "https://claynosaurz.com/collectibles/claynosaurz?Species=Dactyl",
-    "https://claynosaurz.com/collectibles/claynosaurz?Species=Raptor",
-    "https://claynosaurz.com/collectibles/claynosaurz?Species=Rex",
-    "https://claynosaurz.com/collectibles/claynosaurz?Species=Stego",
-    "https://claynosaurz.com/collectibles/claynosaurz?Species=Trice",
-    "https://claynosaurz.com/collectibles/dactyl",
-    "https://claynosaurz.com/community",
-    "https://claynosaurz.com/lore",
-    "https://claynosaurz.com/lore",
-    "https://claynosaurz.com/media",
-    "https://claynosaurz.com/news",
-    "https://claynosaurz.com/news",
-    "https://claynosaurz.com/news/a-playful-adventure-at-the-toy-fair-with-claynosaurz",
-    "https://claynosaurz.com/news/crafting-the-future-of-entertainment-with-claynosaurz",
-    "https://claynosaurz.com/news/one-claynosaur-zoomed-into-the-fast-lane-at-the-f1-track",
-    "https://claynosaurz.com/press",
-    "https://claynosaurz.com/privacy-policy",
-    "https://claynosaurz.com/team",
-    "https://claynosaurz.com/team",
-    "https://claynosaurz.com/team",
-    "https://claynosaurz.com/terms-and-conditions",
-    "https://discord.com/invite/claynosaurz",
-    "https://discord.gg/claynosaurz",
-    "https://tensor.trade",
-    "https://twitter.com/Claynosaurz",
-    "https://www.conductortech.com/coreweave",
-    "https://www.coreweave.com/",
-    "https://www.instagram.com/claynosaurz/",
-    "https://www.instagram.com/claynosaurz/",
-    "https://www.linkedin.com/company/claynosaurz",
-    "https://www.metaplex.com",
-    "https://www.solana.org",
-    "https://www.tiktok.com/@claynosaurz",
-    "https://www.tiktok.com/@claynosaurz",
-    "https://www.tiktok.com/@claynosaurz",
-    "https://www.youtube.com/@Claynosaurz_Official",
-    "https://www.youtube.com/@Claynosaurz_Official",
-    "https://x.com/claynosaurz",
-    "mailto:info@claynosaurz.com"
-]
+{
+    "target_url": "https://claynosaurz.com/",
+    "domains": {
+        "": [
+            "mailto:info@claynosaurz.com"
+        ],
+        "class.claynosaurz.com": [
+            "https://class.claynosaurz.com"
+        ],
+        "claynosaurz.com": [
+            "https://claynosaurz.com/",
+            "https://claynosaurz.com/characters",
+            "https://claynosaurz.com/claynotopia",
+            "https://claynosaurz.com/collectibles",
+            "https://claynosaurz.com/collectibles/call-of-saga",
+            "https://claynosaurz.com/collectibles/clay",
+            "https://claynosaurz.com/collectibles/claymaker",
+            "https://claynosaurz.com/collectibles/claynosaurz",
+            "https://claynosaurz.com/collectibles/claynosaurz?Species=Ankylo",
+            "https://claynosaurz.com/collectibles/claynosaurz?Species=Bronto",
+            "https://claynosaurz.com/collectibles/claynosaurz?Species=Dactyl",
+            "https://claynosaurz.com/collectibles/claynosaurz?Species=Raptor",
+            "https://claynosaurz.com/collectibles/claynosaurz?Species=Rex",
+            "https://claynosaurz.com/collectibles/claynosaurz?Species=Stego",
+            "https://claynosaurz.com/collectibles/claynosaurz?Species=Trice",
+            "https://claynosaurz.com/collectibles/dactyl",
+            "https://claynosaurz.com/community",
+            "https://claynosaurz.com/lore",
+            "https://claynosaurz.com/media",
+            "https://claynosaurz.com/news",
+            "https://claynosaurz.com/news/a-playful-adventure-at-the-toy-fair-with-claynosaurz",
+            "https://claynosaurz.com/news/crafting-the-future-of-entertainment-with-claynosaurz",
+            "https://claynosaurz.com/news/one-claynosaur-zoomed-into-the-fast-lane-at-the-f1-track",
+            "https://claynosaurz.com/press",
+            "https://claynosaurz.com/privacy-policy",
+            "https://claynosaurz.com/team",
+            "https://claynosaurz.com/terms-and-conditions"
+        ],
+        "discord.com": [
+            "https://discord.com/invite/claynosaurz"
+        ],
+        "discord.gg": [
+            "https://discord.gg/claynosaurz"
+        ],
+        "tensor.trade": [
+            "https://tensor.trade"
+        ],
+        "twitter.com": [
+            "https://twitter.com/Claynosaurz"
+        ],
+        "www.conductortech.com": [
+            "https://www.conductortech.com/coreweave"
+        ],
+        "www.coreweave.com": [
+            "https://www.coreweave.com/"
+        ],
+        "www.instagram.com": [
+            "https://www.instagram.com/claynosaurz/"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/claynosaurz"
+        ],
+        "www.metaplex.com": [
+            "https://www.metaplex.com"
+        ],
+        "www.solana.org": [
+            "https://www.solana.org"
+        ],
+        "www.tiktok.com": [
+            "https://www.tiktok.com/@claynosaurz"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/@Claynosaurz_Official"
+        ],
+        "x.com": [
+            "https://x.com/claynosaurz"
+        ]
+    }
+}
