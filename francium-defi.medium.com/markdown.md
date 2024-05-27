@@ -47,10 +47,20 @@ Airdrop program for dApps. As promised, these tokens will be…](/announcing-
 franciums-pyth-token-allocation-rewarding-early-
 users-8434bc73e222?source=user_profile---------0----------------------------)
 
-Mar 28
+[2 min read·Mar 28, 2024](/announcing-franciums-pyth-token-allocation-
+rewarding-early-users-8434bc73e222?source=user_profile---------
+0----------------------------)
+
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F8434bc73e222&operation=register&redirect=https%3A%2F%2Ffrancium-
+defi.medium.com%2Fannouncing-franciums-pyth-token-allocation-rewarding-early-
+users-8434bc73e222&user=Francium&userId=a6669cbe3486&source=-----8434bc73e222
+----0-----------------clap_footer-----------)
+
+\--
 
 [](/announcing-franciums-pyth-token-allocation-rewarding-early-
-users-8434bc73e222?source=user_profile---------0----------------------------)
+users-8434bc73e222?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------0----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8434bc73e222&operation=register&redirect=https%3A%2F%2Ffrancium-
 defi.medium.com%2Fannouncing-franciums-pyth-token-allocation-rewarding-early-
@@ -63,10 +73,16 @@ Users](https://miro.medium.com/v2/resize:fill:160:106/1*vqKztNUax4LoKe31b2w22A.p
 ![Announcing Francium’s $PYTH Token Allocation: Rewarding Early
 Users](https://miro.medium.com/v2/resize:fill:320:214/1*vqKztNUax4LoKe31b2w22A.png)
 
-Mar 28
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F8434bc73e222&operation=register&redirect=https%3A%2F%2Ffrancium-
+defi.medium.com%2Fannouncing-franciums-pyth-token-allocation-rewarding-early-
+users-8434bc73e222&user=Francium&userId=a6669cbe3486&source=-----8434bc73e222
+----0-----------------clap_footer-----------)
+
+\--
 
 [](/announcing-franciums-pyth-token-allocation-rewarding-early-
-users-8434bc73e222?source=user_profile---------0----------------------------)
+users-8434bc73e222?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------0----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8434bc73e222&operation=register&redirect=https%3A%2F%2Ffrancium-
 defi.medium.com%2Fannouncing-franciums-pyth-token-allocation-rewarding-early-
@@ -83,11 +99,21 @@ ProgramBrief Intro to Francium](/francium-receives-pyth-tokens-from-pyth-
 retrospective-airdrop-program-6f59ec13972f?source=user_profile---------
 1----------------------------)
 
-Feb 8
+[3 min read·Feb 8, 2024](/francium-receives-pyth-tokens-from-pyth-
+retrospective-airdrop-program-6f59ec13972f?source=user_profile---------
+1----------------------------)
+
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F6f59ec13972f&operation=register&redirect=https%3A%2F%2Ffrancium-
+defi.medium.com%2Ffrancium-receives-pyth-tokens-from-pyth-retrospective-
+airdrop-
+program-6f59ec13972f&user=Francium&userId=a6669cbe3486&source=-----6f59ec13972f
+----1-----------------clap_footer-----------)
+
+\--
 
 [](/francium-receives-pyth-tokens-from-pyth-retrospective-airdrop-
-program-6f59ec13972f?source=user_profile---------
-1----------------------------)
+program-6f59ec13972f?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------1----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F6f59ec13972f&operation=register&redirect=https%3A%2F%2Ffrancium-
 defi.medium.com%2Ffrancium-receives-pyth-tokens-from-pyth-retrospective-
@@ -100,11 +126,17 @@ Program](https://miro.medium.com/v2/resize:fill:160:106/1*gqKfCvMJxZOZ9nx9GXOIyw
 ![Francium Receives $PYTH Tokens from Pyth Retrospective Airdrop
 Program](https://miro.medium.com/v2/resize:fill:320:214/1*gqKfCvMJxZOZ9nx9GXOIyw.png)
 
-Feb 8
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F6f59ec13972f&operation=register&redirect=https%3A%2F%2Ffrancium-
+defi.medium.com%2Ffrancium-receives-pyth-tokens-from-pyth-retrospective-
+airdrop-
+program-6f59ec13972f&user=Francium&userId=a6669cbe3486&source=-----6f59ec13972f
+----1-----------------clap_footer-----------)
+
+\--
 
 [](/francium-receives-pyth-tokens-from-pyth-retrospective-airdrop-
-program-6f59ec13972f?source=user_profile---------
-1----------------------------)
+program-6f59ec13972f?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------1----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F6f59ec13972f&operation=register&redirect=https%3A%2F%2Ffrancium-
 defi.medium.com%2Ffrancium-receives-pyth-tokens-from-pyth-retrospective-
@@ -123,11 +155,21 @@ performance-for-francium-v3-with-mantle-
 network-7a2bf3c9bb30?source=user_profile---------
 2----------------------------)
 
-Jul 17, 2023
+[4 min read·Jul 17, 2023](/achieving-hyperscale-performance-for-
+francium-v3-with-mantle-network-7a2bf3c9bb30?source=user_profile---------
+2----------------------------)
+
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F7a2bf3c9bb30&operation=register&redirect=https%3A%2F%2Ffrancium-
+defi.medium.com%2Fachieving-hyperscale-performance-for-francium-v3-with-
+mantle-
+network-7a2bf3c9bb30&user=Francium&userId=a6669cbe3486&source=-----7a2bf3c9bb30
+----2-----------------clap_footer-----------)
+
+\--
 
 [](/achieving-hyperscale-performance-for-francium-v3-with-mantle-
-network-7a2bf3c9bb30?source=user_profile---------
-2----------------------------)
+network-7a2bf3c9bb30?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------2----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F7a2bf3c9bb30&operation=register&redirect=https%3A%2F%2Ffrancium-
 defi.medium.com%2Fachieving-hyperscale-performance-for-francium-v3-with-
@@ -140,11 +182,17 @@ Network](https://miro.medium.com/v2/resize:fill:160:106/1*BaPJN7xttZjOj2AsgmDk6g
 ![Achieving Hyperscale Performance for Francium V3 with Mantle
 Network](https://miro.medium.com/v2/resize:fill:320:214/1*BaPJN7xttZjOj2AsgmDk6g.png)
 
-Jul 17, 2023
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F7a2bf3c9bb30&operation=register&redirect=https%3A%2F%2Ffrancium-
+defi.medium.com%2Fachieving-hyperscale-performance-for-francium-v3-with-
+mantle-
+network-7a2bf3c9bb30&user=Francium&userId=a6669cbe3486&source=-----7a2bf3c9bb30
+----2-----------------clap_footer-----------)
+
+\--
 
 [](/achieving-hyperscale-performance-for-francium-v3-with-mantle-
-network-7a2bf3c9bb30?source=user_profile---------
-2----------------------------)
+network-7a2bf3c9bb30?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------2----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F7a2bf3c9bb30&operation=register&redirect=https%3A%2F%2Ffrancium-
 defi.medium.com%2Fachieving-hyperscale-performance-for-francium-v3-with-
@@ -162,9 +210,19 @@ secure farming experience. Now…](/how-to-use-trust-wallet-with-
 francium-62ce8cfb8ba?source=user_profile---------
 3----------------------------)
 
-Jul 11, 2023
+[3 min read·Jul 11, 2023](/how-to-use-trust-wallet-with-
+francium-62ce8cfb8ba?source=user_profile---------
+3----------------------------)
 
-[](/how-to-use-trust-wallet-with-francium-62ce8cfb8ba?source=user_profile
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F62ce8cfb8ba&operation=register&redirect=https%3A%2F%2Ffrancium-
+defi.medium.com%2Fhow-to-use-trust-wallet-with-
+francium-62ce8cfb8ba&user=Francium&userId=a6669cbe3486&source=-----62ce8cfb8ba
+----3-----------------clap_footer-----------)
+
+\--
+
+[](/how-to-use-trust-wallet-with-
+francium-62ce8cfb8ba?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
 ---------3----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F62ce8cfb8ba&operation=register&redirect=https%3A%2F%2Ffrancium-
@@ -178,9 +236,15 @@ Francium](https://miro.medium.com/v2/resize:fill:160:106/1*CoDjjOoTvxXOkI25xz9Mo
 ![How to Use Trust Wallet with
 Francium](https://miro.medium.com/v2/resize:fill:320:214/1*CoDjjOoTvxXOkI25xz9Mog.png)
 
-Jul 11, 2023
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F62ce8cfb8ba&operation=register&redirect=https%3A%2F%2Ffrancium-
+defi.medium.com%2Fhow-to-use-trust-wallet-with-
+francium-62ce8cfb8ba&user=Francium&userId=a6669cbe3486&source=-----62ce8cfb8ba
+----3-----------------clap_footer-----------)
 
-[](/how-to-use-trust-wallet-with-francium-62ce8cfb8ba?source=user_profile
+\--
+
+[](/how-to-use-trust-wallet-with-
+francium-62ce8cfb8ba?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
 ---------3----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F62ce8cfb8ba&operation=register&redirect=https%3A%2F%2Ffrancium-
@@ -197,10 +261,20 @@ bookmark_preview-----------)
 february-2023-4403fe7cfa1c?source=user_profile---------
 4----------------------------)
 
-Mar 1, 2023
-
-[](/monthly-routine-february-2023-4403fe7cfa1c?source=user_profile---------
+[3 min read·Mar 1, 2023](/monthly-routine-
+february-2023-4403fe7cfa1c?source=user_profile---------
 4----------------------------)
+
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F4403fe7cfa1c&operation=register&redirect=https%3A%2F%2Ffrancium-
+defi.medium.com%2Fmonthly-routine-
+february-2023-4403fe7cfa1c&user=Francium&userId=a6669cbe3486&source=-----4403fe7cfa1c
+----4-----------------clap_footer-----------)
+
+\--
+
+[](/monthly-routine-
+february-2023-4403fe7cfa1c?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------4----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F4403fe7cfa1c&operation=register&redirect=https%3A%2F%2Ffrancium-
 defi.medium.com%2Fmonthly-routine-february-2023-4403fe7cfa1c&source=---------4
@@ -214,10 +288,16 @@ RTzoA.jpeg)
 \)](https://miro.medium.com/v2/resize:fill:320:214/1*BgNwLI2PVj__gjsP-
 RTzoA.jpeg)
 
-Mar 1, 2023
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F4403fe7cfa1c&operation=register&redirect=https%3A%2F%2Ffrancium-
+defi.medium.com%2Fmonthly-routine-
+february-2023-4403fe7cfa1c&user=Francium&userId=a6669cbe3486&source=-----4403fe7cfa1c
+----4-----------------clap_footer-----------)
 
-[](/monthly-routine-february-2023-4403fe7cfa1c?source=user_profile---------
-4----------------------------)
+\--
+
+[](/monthly-routine-
+february-2023-4403fe7cfa1c?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------4----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F4403fe7cfa1c&operation=register&redirect=https%3A%2F%2Ffrancium-
 defi.medium.com%2Fmonthly-routine-february-2023-4403fe7cfa1c&source=---------4
@@ -234,19 +314,35 @@ Apart from that…](/monthly-routine-
 january-2023-8dc6527977b?source=user_profile---------
 5----------------------------)
 
-Feb 2, 2023
-
-[](/monthly-routine-january-2023-8dc6527977b?source=user_profile---------
+[4 min read·Feb 2, 2023](/monthly-routine-
+january-2023-8dc6527977b?source=user_profile---------
 5----------------------------)
+
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F8dc6527977b&operation=register&redirect=https%3A%2F%2Ffrancium-
+defi.medium.com%2Fmonthly-routine-
+january-2023-8dc6527977b&user=Francium&userId=a6669cbe3486&source=-----8dc6527977b
+----5-----------------clap_footer-----------)
+
+\--
+
+[](/monthly-routine-
+january-2023-8dc6527977b?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------5----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8dc6527977b&operation=register&redirect=https%3A%2F%2Ffrancium-
 defi.medium.com%2Fmonthly-routine-january-2023-8dc6527977b&source=---------5
 -----------------bookmark_preview-----------)
 
-Feb 2, 2023
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F8dc6527977b&operation=register&redirect=https%3A%2F%2Ffrancium-
+defi.medium.com%2Fmonthly-routine-
+january-2023-8dc6527977b&user=Francium&userId=a6669cbe3486&source=-----8dc6527977b
+----5-----------------clap_footer-----------)
 
-[](/monthly-routine-january-2023-8dc6527977b?source=user_profile---------
-5----------------------------)
+\--
+
+[](/monthly-routine-
+january-2023-8dc6527977b?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------5----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8dc6527977b&operation=register&redirect=https%3A%2F%2Ffrancium-
 defi.medium.com%2Fmonthly-routine-january-2023-8dc6527977b&source=---------5
@@ -263,10 +359,20 @@ community-based activities…](/monthly-routine-
 december-2022-d9a0b90b2e78?source=user_profile---------
 6----------------------------)
 
-Jan 3, 2023
-
-[](/monthly-routine-december-2022-d9a0b90b2e78?source=user_profile---------
+[3 min read·Jan 3, 2023](/monthly-routine-
+december-2022-d9a0b90b2e78?source=user_profile---------
 6----------------------------)
+
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fd9a0b90b2e78&operation=register&redirect=https%3A%2F%2Ffrancium-
+defi.medium.com%2Fmonthly-routine-
+december-2022-d9a0b90b2e78&user=Francium&userId=a6669cbe3486&source=-----d9a0b90b2e78
+----6-----------------clap_footer-----------)
+
+\--
+
+[](/monthly-routine-
+december-2022-d9a0b90b2e78?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------6----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fd9a0b90b2e78&operation=register&redirect=https%3A%2F%2Ffrancium-
 defi.medium.com%2Fmonthly-routine-december-2022-d9a0b90b2e78&source=---------6
@@ -280,10 +386,16 @@ gA.jpeg)
 2022\)](https://miro.medium.com/v2/resize:fill:320:214/1*fY9uN025cQkeRyVSgKG-
 gA.jpeg)
 
-Jan 3, 2023
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fd9a0b90b2e78&operation=register&redirect=https%3A%2F%2Ffrancium-
+defi.medium.com%2Fmonthly-routine-
+december-2022-d9a0b90b2e78&user=Francium&userId=a6669cbe3486&source=-----d9a0b90b2e78
+----6-----------------clap_footer-----------)
 
-[](/monthly-routine-december-2022-d9a0b90b2e78?source=user_profile---------
-6----------------------------)
+\--
+
+[](/monthly-routine-
+december-2022-d9a0b90b2e78?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------6----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fd9a0b90b2e78&operation=register&redirect=https%3A%2F%2Ffrancium-
 defi.medium.com%2Fmonthly-routine-december-2022-d9a0b90b2e78&source=---------6
@@ -300,10 +412,20 @@ have organized…](/monthly-routine-
 november-2022-9d57c94c9c5f?source=user_profile---------
 7----------------------------)
 
-Dec 1, 2022
-
-[](/monthly-routine-november-2022-9d57c94c9c5f?source=user_profile---------
+[3 min read·Dec 1, 2022](/monthly-routine-
+november-2022-9d57c94c9c5f?source=user_profile---------
 7----------------------------)
+
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F9d57c94c9c5f&operation=register&redirect=https%3A%2F%2Ffrancium-
+defi.medium.com%2Fmonthly-routine-
+november-2022-9d57c94c9c5f&user=Francium&userId=a6669cbe3486&source=-----9d57c94c9c5f
+----7-----------------clap_footer-----------)
+
+\--
+
+[](/monthly-routine-
+november-2022-9d57c94c9c5f?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------7----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F9d57c94c9c5f&operation=register&redirect=https%3A%2F%2Ffrancium-
 defi.medium.com%2Fmonthly-routine-november-2022-9d57c94c9c5f&source=---------7
@@ -315,10 +437,16 @@ defi.medium.com%2Fmonthly-routine-november-2022-9d57c94c9c5f&source=---------7
 ![Monthly Routine \(November
 2022\)](https://miro.medium.com/v2/resize:fill:320:214/1*DNuEdpsU2KPZwHR4_23sFA.jpeg)
 
-Dec 1, 2022
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F9d57c94c9c5f&operation=register&redirect=https%3A%2F%2Ffrancium-
+defi.medium.com%2Fmonthly-routine-
+november-2022-9d57c94c9c5f&user=Francium&userId=a6669cbe3486&source=-----9d57c94c9c5f
+----7-----------------clap_footer-----------)
 
-[](/monthly-routine-november-2022-9d57c94c9c5f?source=user_profile---------
-7----------------------------)
+\--
+
+[](/monthly-routine-
+november-2022-9d57c94c9c5f?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------7----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F9d57c94c9c5f&operation=register&redirect=https%3A%2F%2Ffrancium-
 defi.medium.com%2Fmonthly-routine-november-2022-9d57c94c9c5f&source=---------7
@@ -334,10 +462,20 @@ several protocols. We have also participated in certain AMAs’. Apart from that
 Francium is…](/monthly-routine-october-2022-6ed9bf51319?source=user_profile
 ---------8----------------------------)
 
-Nov 3, 2022
-
-[](/monthly-routine-october-2022-6ed9bf51319?source=user_profile---------
+[4 min read·Nov 3, 2022](/monthly-routine-
+october-2022-6ed9bf51319?source=user_profile---------
 8----------------------------)
+
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F6ed9bf51319&operation=register&redirect=https%3A%2F%2Ffrancium-
+defi.medium.com%2Fmonthly-routine-
+october-2022-6ed9bf51319&user=Francium&userId=a6669cbe3486&source=-----6ed9bf51319
+----8-----------------clap_footer-----------)
+
+\--
+
+[](/monthly-routine-
+october-2022-6ed9bf51319?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------8----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F6ed9bf51319&operation=register&redirect=https%3A%2F%2Ffrancium-
 defi.medium.com%2Fmonthly-routine-october-2022-6ed9bf51319&source=---------8
@@ -349,10 +487,16 @@ defi.medium.com%2Fmonthly-routine-october-2022-6ed9bf51319&source=---------8
 ![Monthly Routine \(October
 2022\)](https://miro.medium.com/v2/resize:fill:320:214/1*bbDjlKDXzjTsOdQePxZQrA.jpeg)
 
-Nov 3, 2022
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F6ed9bf51319&operation=register&redirect=https%3A%2F%2Ffrancium-
+defi.medium.com%2Fmonthly-routine-
+october-2022-6ed9bf51319&user=Francium&userId=a6669cbe3486&source=-----6ed9bf51319
+----8-----------------clap_footer-----------)
 
-[](/monthly-routine-october-2022-6ed9bf51319?source=user_profile---------
-8----------------------------)
+\--
+
+[](/monthly-routine-
+october-2022-6ed9bf51319?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------8----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F6ed9bf51319&operation=register&redirect=https%3A%2F%2Ffrancium-
 defi.medium.com%2Fmonthly-routine-october-2022-6ed9bf51319&source=---------8
@@ -370,11 +514,22 @@ one…](/francium-twitter-sharing-event-share-the-performance-of-your-position-
 and-win-rewards-5e92ebb6d58f?source=user_profile---------
 9----------------------------)
 
-Aug 19, 2022
+[2 min read·Aug 19, 2022](/francium-twitter-sharing-event-share-the-
+performance-of-your-position-and-win-rewards-5e92ebb6d58f?source=user_profile
+---------9----------------------------)
+
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F5e92ebb6d58f&operation=register&redirect=https%3A%2F%2Ffrancium-
+defi.medium.com%2Ffrancium-twitter-sharing-event-share-the-performance-of-
+your-position-and-win-
+rewards-5e92ebb6d58f&user=Francium&userId=a6669cbe3486&source=-----5e92ebb6d58f
+----9-----------------clap_footer-----------)
+
+\--
 
 [](/francium-twitter-sharing-event-share-the-performance-of-your-position-and-
-win-rewards-5e92ebb6d58f?source=user_profile---------
-9----------------------------)
+win-
+rewards-5e92ebb6d58f?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------9----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F5e92ebb6d58f&operation=register&redirect=https%3A%2F%2Ffrancium-
 defi.medium.com%2Ffrancium-twitter-sharing-event-share-the-performance-of-
@@ -389,11 +544,18 @@ Rewards!](https://miro.medium.com/v2/resize:fill:160:106/1*GLn5PwDct4a-C3Qc13xzG
 Win
 Rewards!](https://miro.medium.com/v2/resize:fill:320:214/1*GLn5PwDct4a-C3Qc13xzGQ.jpeg)
 
-Aug 19, 2022
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F5e92ebb6d58f&operation=register&redirect=https%3A%2F%2Ffrancium-
+defi.medium.com%2Ffrancium-twitter-sharing-event-share-the-performance-of-
+your-position-and-win-
+rewards-5e92ebb6d58f&user=Francium&userId=a6669cbe3486&source=-----5e92ebb6d58f
+----9-----------------clap_footer-----------)
+
+\--
 
 [](/francium-twitter-sharing-event-share-the-performance-of-your-position-and-
-win-rewards-5e92ebb6d58f?source=user_profile---------
-9----------------------------)
+win-
+rewards-5e92ebb6d58f?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------9----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F5e92ebb6d58f&operation=register&redirect=https%3A%2F%2Ffrancium-
 defi.medium.com%2Ffrancium-twitter-sharing-event-share-the-performance-of-
