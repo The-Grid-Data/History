@@ -1,11 +1,16 @@
-[
-    "https://app.hubbleprotocol.io/assets/discord.b17b327b.svg",
-    "https://app.hubbleprotocol.io/assets/docs-icon.7b45a671.svg",
-    "https://app.hubbleprotocol.io/assets/forum-icon.60062cab.svg",
-    "https://app.hubbleprotocol.io/assets/ghost.0091701f.svg",
-    "https://app.hubbleprotocol.io/assets/github.7610b0b8.svg",
-    "https://app.hubbleprotocol.io/assets/hubble.1b517315.svg",
-    "https://app.hubbleprotocol.io/assets/logo.91da2dec.svg",
-    "https://app.hubbleprotocol.io/assets/telegram.c82c87ba.svg",
-    "https://app.hubbleprotocol.io/assets/twitter.816fe8a0.svg"
-]
+{
+    "target_url": "https://app.hubbleprotocol.io/",
+    "domains": {
+        "app.hubbleprotocol.io": [
+            "https://app.hubbleprotocol.io/assets/discord.b17b327b.svg",
+            "https://app.hubbleprotocol.io/assets/docs-icon.7b45a671.svg",
+            "https://app.hubbleprotocol.io/assets/forum-icon.60062cab.svg",
+            "https://app.hubbleprotocol.io/assets/ghost.0091701f.svg",
+            "https://app.hubbleprotocol.io/assets/github.7610b0b8.svg",
+            "https://app.hubbleprotocol.io/assets/hubble.1b517315.svg",
+            "https://app.hubbleprotocol.io/assets/logo.91da2dec.svg",
+            "https://app.hubbleprotocol.io/assets/telegram.c82c87ba.svg",
+            "https://app.hubbleprotocol.io/assets/twitter.816fe8a0.svg"
+        ]
+    }
+}
