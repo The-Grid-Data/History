@@ -1,19 +1,13 @@
-[
-    "https://moon.ly/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdiamond.e7075421.png&w=96&q=100",
-    "https://moon.ly/_next/image?url=%2Fimages%2Fimage-not-found.png&w=384&q=100",
-    "https://moon.ly/_next/image?url=%2Fimages%2Fimage-not-found.png&w=3840&q=100",
-    "https://moon.ly/_next/image?url=%2Fimages%2Fimage-not-found.png&w=3840&q=100",
-    "https://moon.ly/_next/image?url=%2Fimages%2Fimage-not-found.png&w=96&q=100",
-    "https://moon.ly/_next/image?url=%2Fimages%2Fimage-not-found.png&w=96&q=100",
-    "https://moon.ly/_next/image?url=%2Fimages%2Fimage-not-found.png&w=96&q=100",
-    "https://moon.ly/_next/image?url=%2Fimages%2Fimage-not-found.png&w=96&q=100",
-    "https://moon.ly/_next/image?url=%2Fimages%2Fimage-not-found.png&w=96&q=100",
-    "https://moon.ly/_next/image?url=%2Fimages%2Fimage-not-found.png&w=96&q=100",
-    "https://moon.ly/_next/image?url=https%3A%2F%2Fimg.moon.ly%2Fimages%2Fnft%2F56%2F56%2FbG9jYWw6Ly8vdXBsb2Fkcy9uZnQvNTZiZTZkMDAtNzg1NS00NzdlLTkzOTEtNzFjOGVmOTIzZWY4LndlYnA.webp&w=128&q=100",
-    "https://moon.ly/images/blockchains/polygon-logo.svg",
-    "https://moon.ly/images/blockchains/polygon-logo.svg",
-    "https://moon.ly/images/blockchains/polygon-logo.svg",
-    "https://moon.ly/images/blockchains/polygon-logo.svg",
-    "https://moon.ly/images/blockchains/polygon-logo.svg",
-    "https://moon.ly/images/blockchains/polygon-logo.svg"
-]
+{
+    "target_url": "https://moon.ly",
+    "domains": {
+        "moon.ly": [
+            "https://moon.ly/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdiamond.e7075421.png&w=96&q=100",
+            "https://moon.ly/_next/image?url=%2Fimages%2Fimage-not-found.png&w=384&q=100",
+            "https://moon.ly/_next/image?url=%2Fimages%2Fimage-not-found.png&w=3840&q=100",
+            "https://moon.ly/_next/image?url=%2Fimages%2Fimage-not-found.png&w=96&q=100",
+            "https://moon.ly/_next/image?url=https%3A%2F%2Fimg.moon.ly%2Fimages%2Fnft%2F56%2F56%2FbG9jYWw6Ly8vdXBsb2Fkcy9uZnQvNTZiZTZkMDAtNzg1NS00NzdlLTkzOTEtNzFjOGVmOTIzZWY4LndlYnA.webp&w=128&q=100",
+            "https://moon.ly/images/blockchains/polygon-logo.svg"
+        ]
+    }
+}
