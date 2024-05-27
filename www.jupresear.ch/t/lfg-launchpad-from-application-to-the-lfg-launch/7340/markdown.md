@@ -44,9 +44,9 @@ Mar 5
 
 2 / 6
 
-Mar 5
+Mar 4
 
-23h ago
+1d ago
 
 [![](https://yyz1.discourse-
 cdn.com/flex003/user_avatar/www.jupresear.ch/c2yptic/48/1911_2.png)](/u/c2yptic)
@@ -59,7 +59,7 @@ Let’s take a look at the whole LFG launchpad application to launch the
 process.
 
 Anyone can apply through our open process via the [Jupiter Research Forum
-931](https://www.jupresear.ch/). The J.U.P DAO then votes on who is accepted
+935](https://www.jupresear.ch/). The J.U.P DAO then votes on who is accepted
 to the LFG Launchpad through on-chain governance using the JUP token.
 
 ## This is a 4-step process
@@ -73,7 +73,7 @@ Step 4 - Launch!
 **Step 1 - The Jupresearch forum post**
 
 Anyone can apply by posting on the Forum in the [LFG Introduction section
-767](https://www.jupresear.ch/c/lfg-intros/12) and following the rough outline
+769](https://www.jupresear.ch/c/lfg-intros/12) and following the rough outline
 provided in [the first forum post 231](https://www.jupresear.ch/t/lfg-
 launchpad-introducing-your-project-to-the-community/5234/2) explaining the LFG
 introduction section in this forum, and then make your case to the DAO. Every
@@ -138,12 +138,12 @@ Over and out!
 ![](https://yyz1.discourse-
 cdn.com/flex003/user_avatar/www.jupresear.ch/c2yptic/24/1911_2.png) Mar 5
 
-  * #### [last reply ![](https://avatars.discourse-cdn.com/v4/letter/b/278dde/24.png) 23h  ](/t/lfg-launchpad-from-application-to-the-lfg-launch/7340/10)
+  * #### [last reply ![](https://avatars.discourse-cdn.com/v4/letter/b/278dde/24.png) 1d  ](/t/lfg-launchpad-from-application-to-the-lfg-launch/7340/10)
   * 5
 
 #### replies
 
-  * 54.6k
+  * 54.9k
 
 #### views
 
@@ -213,7 +213,7 @@ experience. Can’t wait for all that’s in store for JUP and the community! LF
 cdn.com/flex003/user_avatar/www.jupresear.ch/solseeker/24/1119_2.png)
 SOLseeker
 
-[16d](/t/lfg-launchpad-from-application-to-the-lfg-launch/7340/8 "Post date")
+[17d](/t/lfg-launchpad-from-application-to-the-lfg-launch/7340/8 "Post date")
 
 Agree, everything has been super smooth. Big up guys
 
@@ -225,7 +225,7 @@ Agree, everything has been super smooth. Big up guys
 
 [blondin](/u/blondin)
 
-[23h](/t/lfg-launchpad-from-application-to-the-lfg-launch/7340/10 "Post date")
+[1d](/t/lfg-launchpad-from-application-to-the-lfg-launch/7340/10 "Post date")
 
 i want to participate…i love your ecosystem!
 

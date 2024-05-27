@@ -1,21 +1,28 @@
-[
-    "https://avatars.discourse-cdn.com/v4/letter/b/278dde/24.png",
-    "https://avatars.discourse-cdn.com/v4/letter/b/278dde/48.png",
-    "https://avatars.discourse-cdn.com/v4/letter/b/278dde/48.png",
-    "https://avatars.discourse-cdn.com/v4/letter/b/e9c0ed/48.png",
-    "https://avatars.discourse-cdn.com/v4/letter/d/ba8739/48.png",
-    "https://avatars.discourse-cdn.com/v4/letter/k/b38774/48.png",
-    "https://avatars.discourse-cdn.com/v4/letter/v/b5a626/48.png",
-    "https://avatars.discourse-cdn.com/v4/letter/w/7ab992/48.png",
-    "https://emoji.discourse-cdn.com/twitter/rocket.png?v=12",
-    "https://global.discourse-cdn.com/flex003/uploads/jupresear/original/1X/6b98a89bd06a06a391033c1a4d94fdaca61574b1.png",
-    "https://yyz1.discourse-cdn.com/flex003/user_avatar/www.jupresear.ch/9yointern/48/3_2.png",
-    "https://yyz1.discourse-cdn.com/flex003/user_avatar/www.jupresear.ch/c2yptic/24/1911_2.png",
-    "https://yyz1.discourse-cdn.com/flex003/user_avatar/www.jupresear.ch/c2yptic/24/1911_2.png",
-    "https://yyz1.discourse-cdn.com/flex003/user_avatar/www.jupresear.ch/c2yptic/48/1911_2.png",
-    "https://yyz1.discourse-cdn.com/flex003/user_avatar/www.jupresear.ch/c2yptic/48/1911_2.png",
-    "https://yyz1.discourse-cdn.com/flex003/user_avatar/www.jupresear.ch/digijoe7/48/1716_2.png",
-    "https://yyz1.discourse-cdn.com/flex003/user_avatar/www.jupresear.ch/solseeker/24/1119_2.png",
-    "https://yyz1.discourse-cdn.com/flex003/user_avatar/www.jupresear.ch/solseeker/48/1119_2.png",
-    "https://yyz1.discourse-cdn.com/flex003/user_avatar/www.jupresear.ch/solseeker/48/1119_2.png"
-]
+{
+    "target_url": "https://www.jupresear.ch/t/lfg-launchpad-from-application-to-the-lfg-launch/7340",
+    "domains": {
+        "avatars.discourse-cdn.com": [
+            "https://avatars.discourse-cdn.com/v4/letter/b/278dde/24.png",
+            "https://avatars.discourse-cdn.com/v4/letter/b/278dde/48.png",
+            "https://avatars.discourse-cdn.com/v4/letter/b/e9c0ed/48.png",
+            "https://avatars.discourse-cdn.com/v4/letter/d/ba8739/48.png",
+            "https://avatars.discourse-cdn.com/v4/letter/k/b38774/48.png",
+            "https://avatars.discourse-cdn.com/v4/letter/v/b5a626/48.png",
+            "https://avatars.discourse-cdn.com/v4/letter/w/7ab992/48.png"
+        ],
+        "emoji.discourse-cdn.com": [
+            "https://emoji.discourse-cdn.com/twitter/rocket.png?v=12"
+        ],
+        "global.discourse-cdn.com": [
+            "https://global.discourse-cdn.com/flex003/uploads/jupresear/original/1X/6b98a89bd06a06a391033c1a4d94fdaca61574b1.png"
+        ],
+        "yyz1.discourse-cdn.com": [
+            "https://yyz1.discourse-cdn.com/flex003/user_avatar/www.jupresear.ch/9yointern/48/3_2.png",
+            "https://yyz1.discourse-cdn.com/flex003/user_avatar/www.jupresear.ch/c2yptic/24/1911_2.png",
+            "https://yyz1.discourse-cdn.com/flex003/user_avatar/www.jupresear.ch/c2yptic/48/1911_2.png",
+            "https://yyz1.discourse-cdn.com/flex003/user_avatar/www.jupresear.ch/digijoe7/48/1716_2.png",
+            "https://yyz1.discourse-cdn.com/flex003/user_avatar/www.jupresear.ch/solseeker/24/1119_2.png",
+            "https://yyz1.discourse-cdn.com/flex003/user_avatar/www.jupresear.ch/solseeker/48/1119_2.png"
+        ]
+    }
+}
