@@ -1,16 +1,21 @@
-[
-    "https://www.marginfi.com/_next/image?url=%2Fimages%2Farticles%2Fmrgnlend-explore.jpg&w=3840&q=75",
-    "https://www.marginfi.com/_next/image?url=%2Fimages%2Farticles%2Fybx-introducing.jpg&w=3840&q=75",
-    "https://www.marginfi.com/_next/image?url=%2Fimages%2Farticles%2Fybx-whitepaper.jpg&w=3840&q=75",
-    "https://www.marginfi.com/_next/image?url=%2Fimages%2Finvestors%2Fanagram.jpg&w=128&q=75",
-    "https://www.marginfi.com/_next/image?url=%2Fimages%2Finvestors%2Fevan_ss6.jpg&w=96&q=75",
-    "https://www.marginfi.com/_next/image?url=%2Fimages%2Finvestors%2Fmulticoin.jpg&w=128&q=75",
-    "https://www.marginfi.com/_next/image?url=%2Fimages%2Finvestors%2Fpantera.jpg&w=128&q=75",
-    "https://www.marginfi.com/_next/image?url=%2Fimages%2Finvestors%2Fsantiagoroel.jpg&w=96&q=75",
-    "https://www.marginfi.com/_next/image?url=%2Fimages%2Finvestors%2Fsolanaventures.png&w=128&q=75",
-    "https://www.marginfi.com/_next/image?url=%2Fimages%2Finvestors%2Fsplitcapital.jpg&w=96&q=75",
-    "https://www.marginfi.com/_next/image?url=%2Fimages%2Finvestors%2Ftarunchitra.jpg&w=96&q=75",
-    "https://www.marginfi.com/illustrations/1.svg",
-    "https://www.marginfi.com/illustrations/2.svg",
-    "https://www.marginfi.com/illustrations/3.svg"
-]
+{
+    "target_url": "https://www.marginfi.com",
+    "domains": {
+        "www.marginfi.com": [
+            "https://www.marginfi.com/_next/image?url=%2Fimages%2Farticles%2Fmrgnlend-explore.jpg&w=3840&q=75",
+            "https://www.marginfi.com/_next/image?url=%2Fimages%2Farticles%2Fybx-introducing.jpg&w=3840&q=75",
+            "https://www.marginfi.com/_next/image?url=%2Fimages%2Farticles%2Fybx-whitepaper.jpg&w=3840&q=75",
+            "https://www.marginfi.com/_next/image?url=%2Fimages%2Finvestors%2Fanagram.jpg&w=128&q=75",
+            "https://www.marginfi.com/_next/image?url=%2Fimages%2Finvestors%2Fevan_ss6.jpg&w=96&q=75",
+            "https://www.marginfi.com/_next/image?url=%2Fimages%2Finvestors%2Fmulticoin.jpg&w=128&q=75",
+            "https://www.marginfi.com/_next/image?url=%2Fimages%2Finvestors%2Fpantera.jpg&w=128&q=75",
+            "https://www.marginfi.com/_next/image?url=%2Fimages%2Finvestors%2Fsantiagoroel.jpg&w=96&q=75",
+            "https://www.marginfi.com/_next/image?url=%2Fimages%2Finvestors%2Fsolanaventures.png&w=128&q=75",
+            "https://www.marginfi.com/_next/image?url=%2Fimages%2Finvestors%2Fsplitcapital.jpg&w=96&q=75",
+            "https://www.marginfi.com/_next/image?url=%2Fimages%2Finvestors%2Ftarunchitra.jpg&w=96&q=75",
+            "https://www.marginfi.com/illustrations/1.svg",
+            "https://www.marginfi.com/illustrations/2.svg",
+            "https://www.marginfi.com/illustrations/3.svg"
+        ]
+    }
+}

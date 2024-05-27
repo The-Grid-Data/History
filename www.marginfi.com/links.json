@@ -1,32 +1,58 @@
-[
-    "https://app.marginfi.com/",
-    "https://app.marginfi.com/ecosystem",
-    "https://app.marginfi.com/mint",
-    "https://discord.gg/mrgn",
-    "https://discord.gg/mrgn",
-    "https://docs.marginfi.com",
-    "https://docs.marginfi.com/contracts/usdybx",
-    "https://github.com/mrgnlabs/",
-    "https://github.com/mrgnlabs/",
-    "https://github.com/mrgnlabs/marginfi-v2/tree/main/audits",
-    "https://medium.com/marginfi/exploring-mrgnlend-a-guide-to-decentralized-lending-and-borrowing-1e05a422a505",
-    "https://mrgn.grafana.net/public-dashboards/a2700f1bbca64aeaa5582a90dbaeb276?orgId=1&refresh=1m",
-    "https://mrgn.substack.com/",
-    "https://mrgn.substack.com/p/introducing-ybx",
-    "https://multicoin.capital/",
-    "https://panteracapital.com/firm/",
-    "https://solana.ventures/",
-    "https://twitter.com/Evan_ss6",
-    "https://twitter.com/SplitCapital",
-    "https://twitter.com/marginfi",
-    "https://twitter.com/santiagoroel",
-    "https://twitter.com/tarunchitra",
-    "https://www.anagram.xyz/",
-    "https://www.marginfi.com",
-    "https://www.marginfi.com#ecosystem",
-    "https://www.marginfi.com#highlights",
-    "https://www.marginfi.com#products",
-    "https://www.marginfi.com#products",
-    "https://www.marginfi.com#stats",
-    "https://www.marginfi.com/"
-]
+{
+    "target_url": "https://www.marginfi.com",
+    "domains": {
+        "app.marginfi.com": [
+            "https://app.marginfi.com/",
+            "https://app.marginfi.com/ecosystem",
+            "https://app.marginfi.com/mint"
+        ],
+        "discord.gg": [
+            "https://discord.gg/mrgn"
+        ],
+        "docs.marginfi.com": [
+            "https://docs.marginfi.com",
+            "https://docs.marginfi.com/contracts/usdybx"
+        ],
+        "github.com": [
+            "https://github.com/mrgnlabs/",
+            "https://github.com/mrgnlabs/marginfi-v2/tree/main/audits"
+        ],
+        "medium.com": [
+            "https://medium.com/marginfi/exploring-mrgnlend-a-guide-to-decentralized-lending-and-borrowing-1e05a422a505"
+        ],
+        "mrgn.grafana.net": [
+            "https://mrgn.grafana.net/public-dashboards/a2700f1bbca64aeaa5582a90dbaeb276?orgId=1&refresh=1m"
+        ],
+        "mrgn.substack.com": [
+            "https://mrgn.substack.com/",
+            "https://mrgn.substack.com/p/introducing-ybx"
+        ],
+        "multicoin.capital": [
+            "https://multicoin.capital/"
+        ],
+        "panteracapital.com": [
+            "https://panteracapital.com/firm/"
+        ],
+        "solana.ventures": [
+            "https://solana.ventures/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/Evan_ss6",
+            "https://twitter.com/SplitCapital",
+            "https://twitter.com/marginfi",
+            "https://twitter.com/santiagoroel",
+            "https://twitter.com/tarunchitra"
+        ],
+        "www.anagram.xyz": [
+            "https://www.anagram.xyz/"
+        ],
+        "www.marginfi.com": [
+            "https://www.marginfi.com",
+            "https://www.marginfi.com#ecosystem",
+            "https://www.marginfi.com#highlights",
+            "https://www.marginfi.com#products",
+            "https://www.marginfi.com#stats",
+            "https://www.marginfi.com/"
+        ]
+    }
+}
