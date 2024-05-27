@@ -170,7 +170,7 @@ Discord: [http://discord.gg/francium](https://discord.gg/francium)
 
 Telegram: [ ](https://t.me/franciumprotocol)<https://t.me/franciumprotocol>
 
-Mail: contact@francium.io
+Mail: [[email protected]](/cdn-cgi/l/email-protection)
 
 [Next⭐️ Honourable Mentions](/honourable-mentions)
 
