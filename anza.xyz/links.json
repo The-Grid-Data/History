@@ -1,27 +1,37 @@
-[
-    "https://anza.xyz/",
-    "https://anza.xyz/#about",
-    "https://anza.xyz/#about",
-    "https://anza.xyz/#products",
-    "https://anza.xyz/#products",
-    "https://anza.xyz/#validator",
-    "https://anza.xyz/#validator",
-    "https://anza.xyz/blog",
-    "https://anza.xyz/blog",
-    "https://anza.xyz/privacy",
-    "https://anza.xyz/termsofuse",
-    "https://apply.workable.com/anza-xyz/",
-    "https://apply.workable.com/anza-xyz/?lng=en",
-    "https://discord.com/invite/anza-xyz",
-    "https://discord.com/invite/anza-xyz",
-    "https://form.jotform.com/240256129208048",
-    "https://github.com/anza-xyz",
-    "https://github.com/anza-xyz",
-    "https://github.com/anza-xyz/agave",
-    "https://github.com/anza-xyz/move",
-    "https://github.com/anza-xyz/platform-tools",
-    "https://github.com/anza-xyz/solana-web3.js",
-    "https://solana.com/solutions/token-extensions",
-    "https://twitter.com/anza_xyz",
-    "https://twitter.com/anza_xyz"
-]
+{
+    "target_url": "https://anza.xyz",
+    "domains": {
+        "anza.xyz": [
+            "https://anza.xyz/",
+            "https://anza.xyz/#about",
+            "https://anza.xyz/#products",
+            "https://anza.xyz/#validator",
+            "https://anza.xyz/blog",
+            "https://anza.xyz/privacy",
+            "https://anza.xyz/termsofuse"
+        ],
+        "apply.workable.com": [
+            "https://apply.workable.com/anza-xyz/",
+            "https://apply.workable.com/anza-xyz/?lng=en"
+        ],
+        "discord.com": [
+            "https://discord.com/invite/anza-xyz"
+        ],
+        "form.jotform.com": [
+            "https://form.jotform.com/240256129208048"
+        ],
+        "github.com": [
+            "https://github.com/anza-xyz",
+            "https://github.com/anza-xyz/agave",
+            "https://github.com/anza-xyz/move",
+            "https://github.com/anza-xyz/platform-tools",
+            "https://github.com/anza-xyz/solana-web3.js"
+        ],
+        "solana.com": [
+            "https://solana.com/solutions/token-extensions"
+        ],
+        "twitter.com": [
+            "https://twitter.com/anza_xyz"
+        ]
+    }
+}
