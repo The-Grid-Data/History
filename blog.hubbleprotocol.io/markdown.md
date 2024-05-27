@@ -49,20 +49,10 @@ Protocol](https://miro.medium.com/v2/resize:fill:40:40/1*HHvEKlMAw8fpEzNusLHW1Q.
 Immutable.](/introducing-hubble-protocol-2-0-4df8d2c942b2?source=user_profile
 ---------0----------------------------)
 
-[8 min read·Jan 3, 2024](/introducing-hubble-
-protocol-2-0-4df8d2c942b2?source=user_profile---------
+Jan 3
+
+[5](/introducing-hubble-protocol-2-0-4df8d2c942b2?source=user_profile---------
 0----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F4df8d2c942b2&operation=register&redirect=https%3A%2F%2Fblog.hubbleprotocol.io%2Fintroducing-
-hubble-
-protocol-2-0-4df8d2c942b2&user=Hubble+Protocol&userId=83014ad176ab&source=-----4df8d2c942b2
-----0-----------------clap_footer-----------)
-
-\--
-
-[5](/introducing-hubble-
-protocol-2-0-4df8d2c942b2?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------0----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F4df8d2c942b2&operation=register&redirect=https%3A%2F%2Fblog.hubbleprotocol.io%2Fintroducing-
 hubble-protocol-2-0-4df8d2c942b2&source=---------0-----------------
@@ -74,16 +64,10 @@ bookmark_preview-----------)
 ![Introducing Hubble Protocol
 2.0](https://miro.medium.com/v2/resize:fill:320:214/1*7SebXX8i7klFCFU37hKlnA.png)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F4df8d2c942b2&operation=register&redirect=https%3A%2F%2Fblog.hubbleprotocol.io%2Fintroducing-
-hubble-
-protocol-2-0-4df8d2c942b2&user=Hubble+Protocol&userId=83014ad176ab&source=-----4df8d2c942b2
-----0-----------------clap_footer-----------)
+Jan 3
 
-\--
-
-[5](/introducing-hubble-
-protocol-2-0-4df8d2c942b2?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------0----------------------------)
+[5](/introducing-hubble-protocol-2-0-4df8d2c942b2?source=user_profile---------
+0----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F4df8d2c942b2&operation=register&redirect=https%3A%2F%2Fblog.hubbleprotocol.io%2Fintroducing-
 hubble-protocol-2-0-4df8d2c942b2&source=---------0-----------------
