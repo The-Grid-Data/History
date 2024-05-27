@@ -1,67 +1,80 @@
-[
-    "https://docs.github.com",
-    "https://docs.github.com/",
-    "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
-    "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
-    "https://docs.github.com/site-policy/github-terms/github-terms-of-service",
-    "https://docs.github.com/site-policy/privacy-policies/github-privacy-statement",
-    "https://education.github.com",
-    "https://github.blog",
-    "https://github.com",
-    "https://github.com/",
-    "https://github.com/QuekzDev",
-    "https://github.com/QuekzDev",
-    "https://github.com/QuekzDev",
-    "https://github.com/QuekzDev#start-of-content",
-    "https://github.com/QuekzDev/snapshot",
-    "https://github.com/QuekzDev/snapshot",
-    "https://github.com/QuekzDev/snapshot/issues",
-    "https://github.com/QuekzDev/snapshot/pulls",
-    "https://github.com/QuekzDev/snapshot/stargazers",
-    "https://github.com/QuekzDev/snapshot/stargazers",
-    "https://github.com/collections",
-    "https://github.com/customer-stories",
-    "https://github.com/enterprise",
-    "https://github.com/enterprise/startups",
-    "https://github.com/features",
-    "https://github.com/features/actions",
-    "https://github.com/features/code-review",
-    "https://github.com/features/codespaces",
-    "https://github.com/features/copilot",
-    "https://github.com/features/discussions",
-    "https://github.com/features/issues",
-    "https://github.com/features/packages",
-    "https://github.com/features/security",
-    "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FQuekzDev",
-    "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FQuekzDev",
-    "https://github.com/orgs/QuekzDev/followers",
-    "https://github.com/orgs/QuekzDev/packages",
-    "https://github.com/orgs/QuekzDev/packages",
-    "https://github.com/orgs/QuekzDev/people",
-    "https://github.com/orgs/QuekzDev/people",
-    "https://github.com/orgs/QuekzDev/people",
-    "https://github.com/orgs/QuekzDev/projects",
-    "https://github.com/orgs/QuekzDev/projects",
-    "https://github.com/orgs/QuekzDev/repositories",
-    "https://github.com/orgs/QuekzDev/repositories",
-    "https://github.com/orgs/QuekzDev/repositories?language=javascript&type=all",
-    "https://github.com/pricing",
-    "https://github.com/readme",
-    "https://github.com/security",
-    "https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Corg-login%3E&source=header",
-    "https://github.com/solutions/ci-cd",
-    "https://github.com/solutions/devops",
-    "https://github.com/sponsors",
-    "https://github.com/team",
-    "https://github.com/topics",
-    "https://github.com/trending",
-    "https://partner.github.com",
-    "https://quekz.com",
-    "https://resources.github.com",
-    "https://resources.github.com/devops/fundamentals/devsecops",
-    "https://resources.github.com/learn/pathways",
-    "https://skills.github.com",
-    "https://support.github.com?tags=dotcom-footer",
-    "https://twitter.com/quekz_",
-    "https://www.githubstatus.com/"
-]
+{
+    "target_url": "https://github.com/QuekzDev",
+    "domains": {
+        "docs.github.com": [
+            "https://docs.github.com",
+            "https://docs.github.com/",
+            "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+            "https://docs.github.com/site-policy/github-terms/github-terms-of-service",
+            "https://docs.github.com/site-policy/privacy-policies/github-privacy-statement"
+        ],
+        "education.github.com": [
+            "https://education.github.com"
+        ],
+        "github.blog": [
+            "https://github.blog"
+        ],
+        "github.com": [
+            "https://github.com",
+            "https://github.com/",
+            "https://github.com/QuekzDev",
+            "https://github.com/QuekzDev#start-of-content",
+            "https://github.com/QuekzDev/snapshot",
+            "https://github.com/QuekzDev/snapshot/issues",
+            "https://github.com/QuekzDev/snapshot/pulls",
+            "https://github.com/QuekzDev/snapshot/stargazers",
+            "https://github.com/collections",
+            "https://github.com/customer-stories",
+            "https://github.com/enterprise",
+            "https://github.com/enterprise/startups",
+            "https://github.com/features",
+            "https://github.com/features/actions",
+            "https://github.com/features/code-review",
+            "https://github.com/features/codespaces",
+            "https://github.com/features/copilot",
+            "https://github.com/features/discussions",
+            "https://github.com/features/issues",
+            "https://github.com/features/packages",
+            "https://github.com/features/security",
+            "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FQuekzDev",
+            "https://github.com/orgs/QuekzDev/followers",
+            "https://github.com/orgs/QuekzDev/packages",
+            "https://github.com/orgs/QuekzDev/people",
+            "https://github.com/orgs/QuekzDev/projects",
+            "https://github.com/orgs/QuekzDev/repositories",
+            "https://github.com/pricing",
+            "https://github.com/readme",
+            "https://github.com/security",
+            "https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Corg-login%3E&source=header",
+            "https://github.com/solutions/ci-cd",
+            "https://github.com/solutions/devops",
+            "https://github.com/sponsors",
+            "https://github.com/team",
+            "https://github.com/topics",
+            "https://github.com/trending"
+        ],
+        "partner.github.com": [
+            "https://partner.github.com"
+        ],
+        "quekz.com": [
+            "https://quekz.com"
+        ],
+        "resources.github.com": [
+            "https://resources.github.com",
+            "https://resources.github.com/devops/fundamentals/devsecops",
+            "https://resources.github.com/learn/pathways"
+        ],
+        "skills.github.com": [
+            "https://skills.github.com"
+        ],
+        "support.github.com": [
+            "https://support.github.com?tags=dotcom-footer"
+        ],
+        "twitter.com": [
+            "https://twitter.com/quekz_"
+        ],
+        "www.githubstatus.com": [
+            "https://www.githubstatus.com/"
+        ]
+    }
+}

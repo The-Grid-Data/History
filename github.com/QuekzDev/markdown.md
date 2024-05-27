@@ -177,7 +177,7 @@ part of this organization.
 
 #### Top languages
 
-[ JavaScript ](/orgs/QuekzDev/repositories?language=javascript&type=all)
+Loading…
 
 #### Most used topics
 
