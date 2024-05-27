@@ -1,25 +1,37 @@
-[
-    "http://hawkai.xyz/",
-    "http://hawkai.xyz/",
-    "https://discord.gg/7ZDVwAaqWk",
-    "https://hawksight.co/",
-    "https://hawksight.gitbook.io/#hawksight-users-get-optimized-and-risk-adjusted-yield-through",
-    "https://hawksight.gitbook.io/#why-hawksight",
-    "https://hawksight.gitbook.io/whitepaper",
-    "https://hawksight.gitbook.io/whitepaper",
-    "https://hawksight.gitbook.io/whitepaper/debonair-degen-hawks-ddh-nft",
-    "https://hawksight.gitbook.io/whitepaper/defi-safety-scoring-and-risks",
-    "https://hawksight.gitbook.io/whitepaper/faqs",
-    "https://hawksight.gitbook.io/whitepaper/hawksight-tutorial",
-    "https://hawksight.gitbook.io/whitepaper/hawksight-tutorial",
-    "https://hawksight.gitbook.io/whitepaper/hawksight-tutorial/auto-rebalance-and-auto-compound",
-    "https://hawksight.gitbook.io/whitepaper/hawksight-tutorial/concentrated-liquidity-risks",
-    "https://hawksight.gitbook.io/whitepaper/security-audits",
-    "https://hawksight.gitbook.io/whitepaper/team",
-    "https://hawksight.gitbook.io/whitepaper/trade-to-earn-usdhwk-token-utility",
-    "https://hawksight.gitbook.io/whitepaper/trade-to-earn-usdhwk-token-utility/tokenomics",
-    "https://hawksight.gitbook.io/whitepaper/trade-to-earn-usdhwk-token-utility/usdhawk-staking",
-    "https://hawksight.gitbook.io/whitepaper/~gitbook/pdf?page=-MkAAEUQO5ILb7V-h_HR&only=yes",
-    "https://www.gitbook.com/?utm_source=content&utm_medium=trademark&utm_campaign=-MkAAAkwc4rfI_zJDpZh",
-    "https://www.hawksight.co/"
-]
+{
+    "target_url": "https://hawksight.gitbook.io/",
+    "domains": {
+        "discord.gg": [
+            "https://discord.gg/7ZDVwAaqWk"
+        ],
+        "hawkai.xyz": [
+            "http://hawkai.xyz/"
+        ],
+        "hawksight.co": [
+            "https://hawksight.co/"
+        ],
+        "hawksight.gitbook.io": [
+            "https://hawksight.gitbook.io/#hawksight-users-get-optimized-and-risk-adjusted-yield-through",
+            "https://hawksight.gitbook.io/#why-hawksight",
+            "https://hawksight.gitbook.io/whitepaper",
+            "https://hawksight.gitbook.io/whitepaper/debonair-degen-hawks-ddh-nft",
+            "https://hawksight.gitbook.io/whitepaper/defi-safety-scoring-and-risks",
+            "https://hawksight.gitbook.io/whitepaper/faqs",
+            "https://hawksight.gitbook.io/whitepaper/hawksight-tutorial",
+            "https://hawksight.gitbook.io/whitepaper/hawksight-tutorial/auto-rebalance-and-auto-compound",
+            "https://hawksight.gitbook.io/whitepaper/hawksight-tutorial/concentrated-liquidity-risks",
+            "https://hawksight.gitbook.io/whitepaper/security-audits",
+            "https://hawksight.gitbook.io/whitepaper/team",
+            "https://hawksight.gitbook.io/whitepaper/trade-to-earn-usdhwk-token-utility",
+            "https://hawksight.gitbook.io/whitepaper/trade-to-earn-usdhwk-token-utility/tokenomics",
+            "https://hawksight.gitbook.io/whitepaper/trade-to-earn-usdhwk-token-utility/usdhawk-staking",
+            "https://hawksight.gitbook.io/whitepaper/~gitbook/pdf?page=-MkAAEUQO5ILb7V-h_HR&only=yes"
+        ],
+        "www.gitbook.com": [
+            "https://www.gitbook.com/?utm_source=content&utm_medium=trademark&utm_campaign=-MkAAAkwc4rfI_zJDpZh"
+        ],
+        "www.hawksight.co": [
+            "https://www.hawksight.co/"
+        ]
+    }
+}
