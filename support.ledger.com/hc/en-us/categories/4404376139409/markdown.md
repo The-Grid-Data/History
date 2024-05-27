@@ -176,5 +176,3 @@ Payment methods
   * [Cookie Policy](https://shop.ledger.com/pages/cookie-policy)
   * [Other](https://shop.ledger.com/pages/other)
 
-![](https://www.facebook.com/tr?id=237213137153741&ev=PageView&noscript=1)
-
