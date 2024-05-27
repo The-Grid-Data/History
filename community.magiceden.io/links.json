@@ -1,49 +1,42 @@
-[
-    "https://community.magiceden.io/",
-    "https://community.magiceden.io/",
-    "https://community.magiceden.io/",
-    "https://community.magiceden.io/",
-    "https://community.magiceden.io/",
-    "https://community.magiceden.io/",
-    "https://community.magiceden.io/",
-    "https://community.magiceden.io/#Top",
-    "https://community.magiceden.io/blog",
-    "https://community.magiceden.io/blog",
-    "https://community.magiceden.io/blog/magic-eden-wallet",
-    "https://community.magiceden.io/blog/magic-eden-wallet",
-    "https://community.magiceden.io/blog/may-perks",
-    "https://community.magiceden.io/blog/may-perks",
-    "https://community.magiceden.io/blog/may-perks",
-    "https://community.magiceden.io/blog/me-pudgy",
-    "https://community.magiceden.io/blog/me-pudgy",
-    "https://community.magiceden.io/culture",
-    "https://community.magiceden.io/culture",
-    "https://community.magiceden.io/culture/a-creative-journey-from-skate-culture-to-web3-art",
-    "https://community.magiceden.io/culture/a-creative-journey-from-skate-culture-to-web3-art",
-    "https://community.magiceden.io/culture/a-creative-journey-from-skate-culture-to-web3-art",
-    "https://community.magiceden.io/culture/liberty-square-violence-lore-and-authenticity",
-    "https://community.magiceden.io/culture/liberty-square-violence-lore-and-authenticity",
-    "https://community.magiceden.io/culture/liberty-square-violence-lore-and-authenticity",
-    "https://community.magiceden.io/culture/the-future-of-nfts-is-bright-with-creators-like-ote-jpeg",
-    "https://community.magiceden.io/culture/the-future-of-nfts-is-bright-with-creators-like-ote-jpeg",
-    "https://community.magiceden.io/culture/the-future-of-nfts-is-bright-with-creators-like-ote-jpeg",
-    "https://community.magiceden.io/learn",
-    "https://community.magiceden.io/learn",
-    "https://community.magiceden.io/learn/best-ordinals-wallet",
-    "https://community.magiceden.io/learn/bitcoin-wallet",
-    "https://community.magiceden.io/learn/ordinals-guide",
-    "https://community.magiceden.io/learn/rare-sats-guide",
-    "https://community.magiceden.io/learn/runes-guide",
-    "https://community.magiceden.io/learn/utxo-guide",
-    "https://discord.gg/magiceden",
-    "https://discord.gg/magiceden",
-    "https://magiceden.io/",
-    "https://magiceden.io/",
-    "https://twitter.com/magiceden",
-    "https://twitter.com/magiceden",
-    "https://www.instagram.com/magicedenofficial/",
-    "https://www.instagram.com/magicedenofficial/",
-    "https://www.magiceden.io",
-    "https://www.youtube.com/magiceden",
-    "https://www.youtube.com/magiceden"
-]
+{
+    "target_url": "https://community.magiceden.io/",
+    "domains": {
+        "community.magiceden.io": [
+            "https://community.magiceden.io/",
+            "https://community.magiceden.io/#Top",
+            "https://community.magiceden.io/blog",
+            "https://community.magiceden.io/blog/magic-eden-wallet",
+            "https://community.magiceden.io/blog/may-perks",
+            "https://community.magiceden.io/blog/me-pudgy",
+            "https://community.magiceden.io/culture",
+            "https://community.magiceden.io/culture/a-creative-journey-from-skate-culture-to-web3-art",
+            "https://community.magiceden.io/culture/liberty-square-violence-lore-and-authenticity",
+            "https://community.magiceden.io/culture/the-future-of-nfts-is-bright-with-creators-like-ote-jpeg",
+            "https://community.magiceden.io/learn",
+            "https://community.magiceden.io/learn/best-ordinals-wallet",
+            "https://community.magiceden.io/learn/bitcoin-wallet",
+            "https://community.magiceden.io/learn/ordinals-guide",
+            "https://community.magiceden.io/learn/rare-sats-guide",
+            "https://community.magiceden.io/learn/runes-guide",
+            "https://community.magiceden.io/learn/utxo-guide"
+        ],
+        "discord.gg": [
+            "https://discord.gg/magiceden"
+        ],
+        "magiceden.io": [
+            "https://magiceden.io/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/magiceden"
+        ],
+        "www.instagram.com": [
+            "https://www.instagram.com/magicedenofficial/"
+        ],
+        "www.magiceden.io": [
+            "https://www.magiceden.io"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/magiceden"
+        ]
+    }
+}
