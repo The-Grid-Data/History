@@ -1,15 +1,24 @@
-[
-    "http://discord.gg/lulo",
-    "https://docs.lulo.fi/",
-    "https://t.me/uselulo",
-    "https://www.lulo.finance/?type=double-points",
-    "https://www.lulo.finance/?type=double-points",
-    "https://www.lulo.finance/?type=yield",
-    "https://www.lulo.finance/?type=yield",
-    "https://www.lulo.finance/?type=yield",
-    "https://www.lulo.finance/apps",
-    "https://www.lulo.finance/portfolio?type=deposits",
-    "https://www.lulo.finance/portfolio?type=deposits",
-    "https://www.lulo.finance/portfolio?type=rewards",
-    "https://x.com/uselulo"
-]
+{
+    "target_url": "https://www.lulo.finance/",
+    "domains": {
+        "discord.gg": [
+            "http://discord.gg/lulo"
+        ],
+        "docs.lulo.fi": [
+            "https://docs.lulo.fi/"
+        ],
+        "t.me": [
+            "https://t.me/uselulo"
+        ],
+        "www.lulo.finance": [
+            "https://www.lulo.finance/?type=double-points",
+            "https://www.lulo.finance/?type=yield",
+            "https://www.lulo.finance/apps",
+            "https://www.lulo.finance/portfolio?type=deposits",
+            "https://www.lulo.finance/portfolio?type=rewards"
+        ],
+        "x.com": [
+            "https://x.com/uselulo"
+        ]
+    }
+}
