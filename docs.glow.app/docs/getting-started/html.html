@@ -1,0 +1,1312 @@
+<!DOCTYPE html><html lang="en" style="" data-color-mode="light" class=" useReactApp  "><head><script src="https://cdn.readme.io/public/js/force-firefox-anchor-jump.js?1716565823055"></script><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="readme-deploy" content="5.82.0"><meta name="readme-subdomain" content="glowwallet"><meta name="readme-version" content="1.0"><title>Glow Javascript SDK</title><meta name="twitter:title" content="Glow Javascript SDK"><meta name="description" property="og:description" content="Integrate your site with Glow wallet."><meta name="twitter:description" content="Integrate your site with Glow wallet."><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="twitter:card" content="summary_large_image"><meta name="title" property="og:title" content="Glow Javascript SDK"><meta property="og:site_name" content="Glow"><link id="favicon" rel="shortcut icon" href="https://files.readme.io/5934c04-small-Glow-WalletAdapter.png" type="image/png"><link rel="canonical" href="https://docs.glow.app/docs/getting-started"><script src="https://cdn.readme.io/public/js/cash-dom.min.js?1716565823055"></script><link data-chunk="New" rel="preload" as="style" href="https://cdn.readme.io/public/hub/web/New.c634e344a7ae973b9309.css">
+<link data-chunk="routes-Tutorials" rel="preload" as="style" href="https://cdn.readme.io/public/hub/web/routes-Tutorials.e6d19c34c9ba6a257af1.css">
+<link data-chunk="Page" rel="preload" as="style" href="https://cdn.readme.io/public/hub/web/Page.c634e344a7ae973b9309.css">
+<link data-chunk="routes-Changelog" rel="preload" as="style" href="https://cdn.readme.io/public/hub/web/routes-Changelog.322e76a9906b7996894b.css">
+<link data-chunk="Editor" rel="preload" as="style" href="https://cdn.readme.io/public/hub/web/Editor.0d1c9639db6c3b5a7f46.css">
+<link data-chunk="List" rel="preload" as="style" href="https://cdn.readme.io/public/hub/web/List.570226681f261faaf2e9.css">
+<link data-chunk="routes-Discuss" rel="preload" as="style" href="https://cdn.readme.io/public/hub/web/routes-Discuss.11bd2678511bf7c506af.css">
+<link data-chunk="CustomPage" rel="preload" as="style" href="https://cdn.readme.io/public/hub/web/CustomPage.38a39d6ce8b0e2afad5a.css">
+<link data-chunk="routes-Reference" rel="preload" as="style" href="https://cdn.readme.io/public/hub/web/routes-Reference.4a873443c19b0a28e34e.css">
+<link data-chunk="routes-Doc" rel="preload" as="style" href="https://cdn.readme.io/public/hub/web/routes-Doc.921b58c17b447c4e783e.css">
+<link data-chunk="routes-PageNotFound" rel="preload" as="style" href="https://cdn.readme.io/public/hub/web/routes-PageNotFound.d8afd1171cf7a455eed7.css">
+<link data-chunk="routes-Landing" rel="preload" as="style" href="https://cdn.readme.io/public/hub/web/routes-Landing.c5ea43d2f4b3b926ff1f.css">
+<link data-chunk="Header" rel="preload" as="style" href="https://cdn.readme.io/public/hub/web/Header.2a7e7e4a7fb3a188b458.css">
+<link data-chunk="routes-SuperHub-Island" rel="preload" as="style" href="https://cdn.readme.io/public/hub/web/routes-SuperHub-Island.a0f07841cb8a52404b19.css">
+<link data-chunk="routes-SuperHub-Island" rel="preload" as="style" href="https://cdn.readme.io/public/hub/web/4508.599e29707672a60e45ee.css">
+<link data-chunk="main" rel="preload" as="style" href="https://cdn.readme.io/public/hub/web/main.337c1e8ddd472635b9e0.css">
+<link data-chunk="main" rel="preload" as="style" href="https://cdn.readme.io/public/hub/web/ui-styles.258f730ca5147243a4ec.css">
+<link data-chunk="main" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/main.64de8ea37f4757d7d647.js">
+<link data-chunk="routes-SuperHub-Island" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/81.32e03f6de11f2cb94446.js">
+<link data-chunk="routes-SuperHub-Island" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/7974.819473970f9bf5b13f19.js">
+<link data-chunk="routes-SuperHub-Island" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/3280.6aabed26c066ae62269b.js">
+<link data-chunk="routes-SuperHub-Island" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/223.ea49cddcd5034e944cb9.js">
+<link data-chunk="routes-SuperHub-Island" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/7878.9c72a6e01b5de2025b6d.js">
+<link data-chunk="routes-SuperHub-Island" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/1284.09fc1b0460034ecebf6b.js">
+<link data-chunk="routes-SuperHub-Island" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/4855.9c8237f5c662c7033126.js">
+<link data-chunk="routes-SuperHub-Island" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/4676.b0bcfd38291bac1f8d95.js">
+<link data-chunk="routes-SuperHub-Island" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/4508.9a062c00e1a5baaa8421.js">
+<link data-chunk="routes-SuperHub-Island" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/5808.7c5a2d9f08eeda1bad60.js">
+<link data-chunk="routes-SuperHub-Island" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/routes-SuperHub-Island.12bd3be6468aa7844b6d.js">
+<link data-chunk="Header" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/951.b4289c2de5055253850e.js">
+<link data-chunk="Header" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/5283.d46c94d05287dd859635.js">
+<link data-chunk="Header" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/2726.8c6b0e0faf69f415c865.js">
+<link data-chunk="Header" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/8980.ef0ba97d816ab75d8609.js">
+<link data-chunk="Header" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/6023.8b759a1ab43983d249ce.js">
+<link data-chunk="Header" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/Header.08d0cf51a47ecb2f2318.js">
+<link data-chunk="routes-Landing" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/4414.164fc698f68e2ad8e303.js">
+<link data-chunk="routes-Landing" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/2004.d93a32d74002edf82208.js">
+<link data-chunk="routes-Landing" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/routes-Landing.59e6eba1dde4a3e00b9d.js">
+<link data-chunk="Footer" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/Footer.715e5aed45dcf69030be.js">
+<link data-chunk="routes-PageNotFound" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/routes-PageNotFound.cd41cdc9d730e21fec8e.js">
+<link data-chunk="core-icons-chevron-up-down-svg" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/core-icons-chevron-up-down-svg.446e81ab9226a91b9f43.js">
+<link data-chunk="routes-Doc" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/7452.3bb932d836aa61860c59.js">
+<link data-chunk="routes-Doc" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/3858.a383740051dc465ac4d6.js">
+<link data-chunk="routes-Doc" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/routes-Doc.06dcb711b60312296e41.js">
+<link data-chunk="core-icons-arrow-right-svg" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/core-icons-arrow-right-svg.c3858e56409cd416f202.js">
+<link data-chunk="routes-Reference" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/9152.4cab27eea4d83bd9745c.js">
+<link data-chunk="routes-Reference" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/4889.e99c3d06a0bea7804994.js">
+<link data-chunk="routes-Reference" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/7130.79fa8b76ab6609505c74.js">
+<link data-chunk="routes-Reference" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/3281.4255c993f32b3a0963bc.js">
+<link data-chunk="routes-Reference" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/4376.50dead439bf587069ac1.js">
+<link data-chunk="routes-Reference" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/8397.05634ae391898af265f1.js">
+<link data-chunk="routes-Reference" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/routes-Reference.8cd0ea11cf6946873fb5.js">
+<link data-chunk="CustomPage" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/5748.edfb6665749a9c534a51.js">
+<link data-chunk="CustomPage" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/CustomPage.2a29d92d7ea55e9fb338.js">
+<link data-chunk="core-icons-more-vertical-svg" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/core-icons-more-vertical-svg.280be53d25081dd127e2.js">
+<link data-chunk="core-icons-lock-svg" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/core-icons-lock-svg.2a52383d2efd2b68a202.js">
+<link data-chunk="routes-Discuss" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/routes-Discuss.83ee229dfcfb69a1c410.js">
+<link data-chunk="List" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/8231.8575c159ae47a9db0864.js">
+<link data-chunk="List" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/108.33ab83f0b2d82237a6ed.js">
+<link data-chunk="List" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/7055.d0f34d55f925f5cfbd3e.js">
+<link data-chunk="List" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/List.e3e476b80edfe4177c12.js">
+<link data-chunk="core-icons-star-svg" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/core-icons-star-svg.3639abe34a0f99273d1b.js">
+<link data-chunk="core-icons-trending-up-svg" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/core-icons-trending-up-svg.6294b69f75e32f34630b.js">
+<link data-chunk="core-icons-callout-info-svg" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/core-icons-callout-info-svg.2447588795d5f146d7fd.js">
+<link data-chunk="Editor" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/1953.d91d286c884e0f41c782.js">
+<link data-chunk="Editor" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/Editor.5c207281ffd028c5f509.js">
+<link data-chunk="core-icons-x-circle-svg" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/core-icons-x-circle-svg.586c5bf9fc6d359aac2e.js">
+<link data-chunk="core-icons-suggested-edits-svg" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/core-icons-suggested-edits-svg.28aa712e84ce36e8f647.js">
+<link data-chunk="core-icons-chevron-down-svg" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/core-icons-chevron-down-svg.69482defe71a0868b959.js">
+<link data-chunk="core-icons-copy-svg" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/core-icons-copy-svg.3c3aba2634cc2a885245.js">
+<link data-chunk="routes-Changelog" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/routes-Changelog.959a283f132667768666.js">
+<link data-chunk="Post" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/Post.a632ae1ea96fe4532aad.js">
+<link data-chunk="Page" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/9708.65321bf5cdf416e9dd07.js">
+<link data-chunk="Page" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/Page.8b6500d20eca6fb9a495.js">
+<link data-chunk="core-icons-arrow-up-right-svg" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/core-icons-arrow-up-right-svg.960d73747b79599e0415.js">
+<link data-chunk="routes-Tutorials" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/routes-Tutorials.f4453cf1de376d7495da.js">
+<link data-chunk="core-icons-key-svg" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/core-icons-key-svg.bf8c703405bba9ce8493.js">
+<link data-chunk="New" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/New.90deb01ab9657beb7491.js">
+<link data-chunk="core-icons-message-circle-svg" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/core-icons-message-circle-svg.2b34f4cfcc6bae1d5861.js">
+<link data-chunk="core-icons-inbox-svg" rel="preload" as="script" href="https://cdn.readme.io/public/hub/web/core-icons-inbox-svg.06cc96183cba63c0257d.js">
+<link data-chunk="main" rel="stylesheet" href="https://cdn.readme.io/public/hub/web/ui-styles.258f730ca5147243a4ec.css">
+<link data-chunk="main" rel="stylesheet" href="https://cdn.readme.io/public/hub/web/main.337c1e8ddd472635b9e0.css">
+<link data-chunk="routes-SuperHub-Island" rel="stylesheet" href="https://cdn.readme.io/public/hub/web/4508.599e29707672a60e45ee.css">
+<link data-chunk="routes-SuperHub-Island" rel="stylesheet" href="https://cdn.readme.io/public/hub/web/routes-SuperHub-Island.a0f07841cb8a52404b19.css">
+<link data-chunk="Header" rel="stylesheet" href="https://cdn.readme.io/public/hub/web/Header.2a7e7e4a7fb3a188b458.css">
+<link data-chunk="routes-Landing" rel="stylesheet" href="https://cdn.readme.io/public/hub/web/routes-Landing.c5ea43d2f4b3b926ff1f.css">
+<link data-chunk="routes-PageNotFound" rel="stylesheet" href="https://cdn.readme.io/public/hub/web/routes-PageNotFound.d8afd1171cf7a455eed7.css">
+<link data-chunk="routes-Doc" rel="stylesheet" href="https://cdn.readme.io/public/hub/web/routes-Doc.921b58c17b447c4e783e.css">
+<link data-chunk="routes-Reference" rel="stylesheet" href="https://cdn.readme.io/public/hub/web/routes-Reference.4a873443c19b0a28e34e.css">
+<link data-chunk="CustomPage" rel="stylesheet" href="https://cdn.readme.io/public/hub/web/CustomPage.38a39d6ce8b0e2afad5a.css">
+<link data-chunk="routes-Discuss" rel="stylesheet" href="https://cdn.readme.io/public/hub/web/routes-Discuss.11bd2678511bf7c506af.css">
+<link data-chunk="List" rel="stylesheet" href="https://cdn.readme.io/public/hub/web/List.570226681f261faaf2e9.css">
+<link data-chunk="Editor" rel="stylesheet" href="https://cdn.readme.io/public/hub/web/Editor.0d1c9639db6c3b5a7f46.css">
+<link data-chunk="routes-Changelog" rel="stylesheet" href="https://cdn.readme.io/public/hub/web/routes-Changelog.322e76a9906b7996894b.css">
+<link data-chunk="Page" rel="stylesheet" href="https://cdn.readme.io/public/hub/web/Page.c634e344a7ae973b9309.css">
+<link data-chunk="routes-Tutorials" rel="stylesheet" href="https://cdn.readme.io/public/hub/web/routes-Tutorials.e6d19c34c9ba6a257af1.css">
+<link data-chunk="New" rel="stylesheet" href="https://cdn.readme.io/public/hub/web/New.c634e344a7ae973b9309.css"><style title="rm-custom-css">:root{--project-color-primary:#bb2dc7;--project-color-inverse:#fff;--recipe-button-color:#bb2dc7;--recipe-button-color-hover:#6d1a74;--recipe-button-color-active:#46114a;--recipe-button-color-focus:rgba(187, 45, 199, 0.25);--recipe-button-color-disabled:#f1ccf4}[id=enterprise] .ReadMeUI[is=AlgoliaSearch]{--project-color-primary:#bb2dc7;--project-color-inverse:#fff}a{color:#bb2dc7}a:hover{color:#6d1a74}a.text-muted:hover{color:#bb2dc7}.btn.btn-primary{background-color:#bb2dc7}.btn.btn-primary:hover{background-color:#6d1a74}.theme-line #hub-landing-top h2{color:#bb2dc7}#hub-landing-top .btn:hover{color:#bb2dc7}.theme-line #hub-landing-top .btn:hover{color:#fff}.theme-solid header#hub-header #header-top{background-color:#bb2dc7}.theme-solid.header-gradient header#hub-header #header-top{background:linear-gradient(to bottom,#bb2dc7,#8b1295)}.theme-solid.header-custom header#hub-header #header-top{background-image:url(undefined)}.theme-line header#hub-header #header-top{border-bottom-color:#bb2dc7}.theme-line header#hub-header #header-top .btn{background-color:#bb2dc7}header#hub-header #header-top #header-logo{width:40px;height:40px;margin-top:0;background-image:url(https://files.readme.io/41e06ed-GlowIcon.svg)}#hub-subheader-parent #hub-subheader .hub-subheader-breadcrumbs .dropdown-menu a:hover{background-color:#bb2dc7}#subheader-links a.active{color:#bb2dc7!important;box-shadow:inset 0 -2px 0 #bb2dc7}#subheader-links a:hover{color:#bb2dc7!important;box-shadow:inset 0 -2px 0 #bb2dc7;opacity:.7}.discussion .submit-vote.submit-vote-parent.voted a.submit-vote-button{background-color:#bb2dc7}section#hub-discuss .discussion a .discuss-body h4{color:#bb2dc7}section#hub-discuss .discussion a:hover .discuss-body h4{color:#6d1a74}#hub-subheader-parent #hub-subheader.sticky-header.sticky{border-bottom-color:#bb2dc7}#hub-subheader-parent #hub-subheader.sticky-header.sticky .search-box{border-bottom-color:#bb2dc7}#hub-search-results h3 em{color:#bb2dc7}.main_background,.tag-item{background:#bb2dc7!important}.main_background:hover{background:#6d1a74!important}.main_color{color:#bb2dc7!important}.border_bottom_main_color{border-bottom:2px solid #bb2dc7}.main_color_hover:hover{color:#bb2dc7!important}section#hub-discuss h1{color:#bb2dc7}#hub-reference .hub-api .api-definition .api-try-it-out.active{border-color:#bb2dc7;background-color:#bb2dc7}#hub-reference .hub-api .api-definition .api-try-it-out.active:hover{background-color:#6d1a74;border-color:#6d1a74}#hub-reference .hub-api .api-definition .api-try-it-out:hover{border-color:#bb2dc7;color:#bb2dc7}#hub-reference .hub-reference .logs .logs-empty .logs-login-button,#hub-reference .hub-reference .logs .logs-login .logs-login-button{background-color:var(--project-color-primary,#bb2dc7);border-color:var(--project-color-primary,#bb2dc7)}#hub-reference .hub-reference .logs .logs-empty .logs-login-button:hover,#hub-reference .hub-reference .logs .logs-login .logs-login-button:hover{background-color:#6d1a74;border-color:#6d1a74}#hub-reference .hub-reference .logs .logs-empty>svg>path,#hub-reference .hub-reference .logs .logs-login>svg>path{fill:#bb2dc7;fill:var(--project-color-primary,#bb2dc7)}#hub-reference .hub-reference .logs:last-child .logs-empty,#hub-reference .hub-reference .logs:last-child .logs-login{margin-bottom:35px}#hub-reference .hub-reference .hub-reference-section .hub-reference-left header .hub-reference-edit:hover{color:#bb2dc7}.main-color-accent{border-bottom:3px solid #bb2dc7;padding-bottom:8px}</style><meta name="loadedProject" content="glowwallet"><script>var storedColorMode = `light` === 'system' ? window.localStorage.getItem('color-scheme') : `light`
+document.querySelector('[data-color-mode]').setAttribute('data-color-mode', storedColorMode)</script><script id="config" type="application/json" data-json="{&quot;algoliaIndex&quot;:&quot;readme_search_v2&quot;,&quot;amplitude&quot;:&quot;dc8065a65ef83d6ad23e37aaf014fc84&quot;,&quot;asset_url&quot;:&quot;https://cdn.readme.io&quot;,&quot;domain&quot;:&quot;readme.io&quot;,&quot;domainFull&quot;:&quot;https://dash.readme.com&quot;,&quot;encryptedLocalStorageKey&quot;:&quot;ekfls-2024-05&quot;,&quot;fullstory&quot;:{&quot;enabled&quot;:true},&quot;metrics&quot;:{&quot;dashUrl&quot;:&quot;https://m.readme.io&quot;,&quot;defaultUrl&quot;:&quot;https://metrics.readme.io&quot;,&quot;exportMaxRetries&quot;:12,&quot;wsUrl&quot;:&quot;wss://m.readme.io&quot;},&quot;readmeRecaptchaSiteKey&quot;:&quot;6LesVBYpAAAAAESOCHOyo2kF9SZXPVb54Nwf3i2x&quot;,&quot;releaseVersion&quot;:&quot;5.82.0&quot;,&quot;sentry&quot;:{&quot;dsn&quot;:&quot;https://3bbe57a973254129bcb93e47dc0cc46f@o343074.ingest.sentry.io/2052166&quot;,&quot;enabled&quot;:true,&quot;tracesSampleRate&quot;:0},&quot;sslGenerationService&quot;:&quot;ssl.readmessl.com&quot;,&quot;stripePk&quot;:&quot;pk_live_5103PML2qXbDukVh7GDAkQoR4NSuLqy8idd5xtdm9407XdPR6o3bo663C1ruEGhXJjpnb2YCpj8EU1UvQYanuCjtr00t1DRCf2a&quot;}"></script><style>/* BASICS */
+
+.CodeMirror {
+  /* Set height, width, borders, and global font properties here */
+  font-family: monospace;
+  height: 300px;
+  color: black;
+  direction: ltr;
+}
+
+/* PADDING */
+
+.CodeMirror-lines {
+  padding: 4px 0; /* Vertical padding around content */
+}
+.CodeMirror pre.CodeMirror-line,
+.CodeMirror pre.CodeMirror-line-like {
+  padding: 0 4px; /* Horizontal padding of content */
+}
+
+.CodeMirror-scrollbar-filler, .CodeMirror-gutter-filler {
+  background-color: white; /* The little square between H and V scrollbars */
+}
+
+/* GUTTER */
+
+.CodeMirror-gutters {
+  border-right: 1px solid #ddd;
+  background-color: #f7f7f7;
+  white-space: nowrap;
+}
+.CodeMirror-linenumbers {}
+.CodeMirror-linenumber {
+  padding: 0 3px 0 5px;
+  min-width: 20px;
+  text-align: right;
+  color: #999;
+  white-space: nowrap;
+}
+
+.CodeMirror-guttermarker { color: black; }
+.CodeMirror-guttermarker-subtle { color: #999; }
+
+/* CURSOR */
+
+.CodeMirror-cursor {
+  border-left: 1px solid black;
+  border-right: none;
+  width: 0;
+}
+/* Shown when moving in bi-directional text */
+.CodeMirror div.CodeMirror-secondarycursor {
+  border-left: 1px solid silver;
+}
+.cm-fat-cursor .CodeMirror-cursor {
+  width: auto;
+  border: 0 !important;
+  background: #7e7;
+}
+.cm-fat-cursor div.CodeMirror-cursors {
+  z-index: 1;
+}
+.cm-fat-cursor .CodeMirror-line::selection,
+.cm-fat-cursor .CodeMirror-line > span::selection, 
+.cm-fat-cursor .CodeMirror-line > span > span::selection { background: transparent; }
+.cm-fat-cursor .CodeMirror-line::-moz-selection,
+.cm-fat-cursor .CodeMirror-line > span::-moz-selection,
+.cm-fat-cursor .CodeMirror-line > span > span::-moz-selection { background: transparent; }
+.cm-fat-cursor { caret-color: transparent; }
+@-moz-keyframes blink {
+  0% {}
+  50% { background-color: transparent; }
+  100% {}
+}
+@-webkit-keyframes blink {
+  0% {}
+  50% { background-color: transparent; }
+  100% {}
+}
+@keyframes blink {
+  0% {}
+  50% { background-color: transparent; }
+  100% {}
+}
+
+/* Can style cursor different in overwrite (non-insert) mode */
+.CodeMirror-overwrite .CodeMirror-cursor {}
+
+.cm-tab { display: inline-block; text-decoration: inherit; }
+
+.CodeMirror-rulers {
+  position: absolute;
+  left: 0; right: 0; top: -50px; bottom: 0;
+  overflow: hidden;
+}
+.CodeMirror-ruler {
+  border-left: 1px solid #ccc;
+  top: 0; bottom: 0;
+  position: absolute;
+}
+
+/* DEFAULT THEME */
+
+.cm-s-default .cm-header {color: blue;}
+.cm-s-default .cm-quote {color: #090;}
+.cm-negative {color: #d44;}
+.cm-positive {color: #292;}
+.cm-header, .cm-strong {font-weight: bold;}
+.cm-em {font-style: italic;}
+.cm-link {text-decoration: underline;}
+.cm-strikethrough {text-decoration: line-through;}
+
+.cm-s-default .cm-keyword {color: #708;}
+.cm-s-default .cm-atom {color: #219;}
+.cm-s-default .cm-number {color: #164;}
+.cm-s-default .cm-def {color: #00f;}
+.cm-s-default .cm-variable,
+.cm-s-default .cm-punctuation,
+.cm-s-default .cm-property,
+.cm-s-default .cm-operator {}
+.cm-s-default .cm-variable-2 {color: #05a;}
+.cm-s-default .cm-variable-3, .cm-s-default .cm-type {color: #085;}
+.cm-s-default .cm-comment {color: #a50;}
+.cm-s-default .cm-string {color: #a11;}
+.cm-s-default .cm-string-2 {color: #f50;}
+.cm-s-default .cm-meta {color: #555;}
+.cm-s-default .cm-qualifier {color: #555;}
+.cm-s-default .cm-builtin {color: #30a;}
+.cm-s-default .cm-bracket {color: #997;}
+.cm-s-default .cm-tag {color: #170;}
+.cm-s-default .cm-attribute {color: #00c;}
+.cm-s-default .cm-hr {color: #999;}
+.cm-s-default .cm-link {color: #00c;}
+
+.cm-s-default .cm-error {color: #f00;}
+.cm-invalidchar {color: #f00;}
+
+.CodeMirror-composing { border-bottom: 2px solid; }
+
+/* Default styles for common addons */
+
+div.CodeMirror span.CodeMirror-matchingbracket {color: #0b0;}
+div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #a22;}
+.CodeMirror-matchingtag { background: rgba(255, 150, 0, .3); }
+.CodeMirror-activeline-background {background: #e8f2ff;}
+
+/* STOP */
+
+/* The rest of this file contains styles related to the mechanics of
+   the editor. You probably shouldn't touch them. */
+
+.CodeMirror {
+  position: relative;
+  overflow: hidden;
+  background: white;
+}
+
+.CodeMirror-scroll {
+  overflow: scroll !important; /* Things will break if this is overridden */
+  /* 50px is the magic margin used to hide the element's real scrollbars */
+  /* See overflow: hidden in .CodeMirror */
+  margin-bottom: -50px; margin-right: -50px;
+  padding-bottom: 50px;
+  height: 100%;
+  outline: none; /* Prevent dragging from highlighting the element */
+  position: relative;
+  z-index: 0;
+}
+.CodeMirror-sizer {
+  position: relative;
+  border-right: 50px solid transparent;
+}
+
+/* The fake, visible scrollbars. Used to force redraw during scrolling
+   before actual scrolling happens, thus preventing shaking and
+   flickering artifacts. */
+.CodeMirror-vscrollbar, .CodeMirror-hscrollbar, .CodeMirror-scrollbar-filler, .CodeMirror-gutter-filler {
+  position: absolute;
+  z-index: 6;
+  display: none;
+  outline: none;
+}
+.CodeMirror-vscrollbar {
+  right: 0; top: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.CodeMirror-hscrollbar {
+  bottom: 0; left: 0;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+.CodeMirror-scrollbar-filler {
+  right: 0; bottom: 0;
+}
+.CodeMirror-gutter-filler {
+  left: 0; bottom: 0;
+}
+
+.CodeMirror-gutters {
+  position: absolute; left: 0; top: 0;
+  min-height: 100%;
+  z-index: 3;
+}
+.CodeMirror-gutter {
+  white-space: normal;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: -50px;
+}
+.CodeMirror-gutter-wrapper {
+  position: absolute;
+  z-index: 4;
+  background: none !important;
+  border: none !important;
+}
+.CodeMirror-gutter-background {
+  position: absolute;
+  top: 0; bottom: 0;
+  z-index: 4;
+}
+.CodeMirror-gutter-elt {
+  position: absolute;
+  cursor: default;
+  z-index: 4;
+}
+.CodeMirror-gutter-wrapper ::selection { background-color: transparent }
+.CodeMirror-gutter-wrapper ::-moz-selection { background-color: transparent }
+
+.CodeMirror-lines {
+  cursor: text;
+  min-height: 1px; /* prevents collapsing before first draw */
+}
+.CodeMirror pre.CodeMirror-line,
+.CodeMirror pre.CodeMirror-line-like {
+  /* Reset some styles that the rest of the page might have set */
+  -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
+  border-width: 0;
+  background: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0;
+  white-space: pre;
+  word-wrap: normal;
+  line-height: inherit;
+  color: inherit;
+  z-index: 2;
+  position: relative;
+  overflow: visible;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-variant-ligatures: contextual;
+  font-variant-ligatures: contextual;
+}
+.CodeMirror-wrap pre.CodeMirror-line,
+.CodeMirror-wrap pre.CodeMirror-line-like {
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: normal;
+}
+
+.CodeMirror-linebackground {
+  position: absolute;
+  left: 0; right: 0; top: 0; bottom: 0;
+  z-index: 0;
+}
+
+.CodeMirror-linewidget {
+  position: relative;
+  z-index: 2;
+  padding: 0.1px; /* Force widget margins to stay inside of the container */
+}
+
+.CodeMirror-widget {}
+
+.CodeMirror-rtl pre { direction: rtl; }
+
+.CodeMirror-code {
+  outline: none;
+}
+
+/* Force content-box sizing for the elements where we expect it */
+.CodeMirror-scroll,
+.CodeMirror-sizer,
+.CodeMirror-gutter,
+.CodeMirror-gutters,
+.CodeMirror-linenumber {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.CodeMirror-measure {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.CodeMirror-cursor {
+  position: absolute;
+  pointer-events: none;
+}
+.CodeMirror-measure pre { position: static; }
+
+div.CodeMirror-cursors {
+  visibility: hidden;
+  position: relative;
+  z-index: 3;
+}
+div.CodeMirror-dragcursors {
+  visibility: visible;
+}
+
+.CodeMirror-focused div.CodeMirror-cursors {
+  visibility: visible;
+}
+
+.CodeMirror-selected { background: #d9d9d9; }
+.CodeMirror-focused .CodeMirror-selected { background: #d7d4f0; }
+.CodeMirror-crosshair { cursor: crosshair; }
+.CodeMirror-line::selection, .CodeMirror-line > span::selection, .CodeMirror-line > span > span::selection { background: #d7d4f0; }
+.CodeMirror-line::-moz-selection, .CodeMirror-line > span::-moz-selection, .CodeMirror-line > span > span::-moz-selection { background: #d7d4f0; }
+
+.cm-searching {
+  background-color: #ffa;
+  background-color: rgba(255, 255, 0, .4);
+}
+
+/* Used to force a border model for a node */
+.cm-force-border { padding-right: .1px; }
+
+@media print {
+  /* Hide the cursor when printing */
+  .CodeMirror div.CodeMirror-cursors {
+    visibility: hidden;
+  }
+}
+
+/* See issue #2901 */
+.cm-tab-wrap-hack:after { content: ''; }
+
+/* Help users use markselection to safely style text background */
+span.CodeMirror-selectedtext { background: none; }
+</style><style>/*
+  Name:       material
+  Author:     Mattia Astorino (http://github.com/equinusocio)
+  Website:    https://material-theme.site/
+*/
+
+.cm-s-material-palenight.CodeMirror {
+  background-color: #292D3E;
+  color: #A6ACCD;
+}
+
+.cm-s-material-palenight .CodeMirror-gutters {
+  background: #292D3E;
+  color: #676E95;
+  border: none;
+}
+
+.cm-s-material-palenight .CodeMirror-guttermarker,
+.cm-s-material-palenight .CodeMirror-guttermarker-subtle,
+.cm-s-material-palenight .CodeMirror-linenumber {
+  color: #676E95;
+}
+
+.cm-s-material-palenight .CodeMirror-cursor {
+  border-left: 1px solid #FFCC00;
+}
+.cm-s-material-palenight.cm-fat-cursor .CodeMirror-cursor {
+  background-color: #607c8b80 !important;
+}
+.cm-s-material-palenight .cm-animate-fat-cursor {
+  background-color: #607c8b80 !important;
+}
+
+.cm-s-material-palenight div.CodeMirror-selected {
+  background: rgba(113, 124, 180, 0.2);
+}
+
+.cm-s-material-palenight.CodeMirror-focused div.CodeMirror-selected {
+  background: rgba(113, 124, 180, 0.2);
+}
+
+.cm-s-material-palenight .CodeMirror-line::selection,
+.cm-s-material-palenight .CodeMirror-line>span::selection,
+.cm-s-material-palenight .CodeMirror-line>span>span::selection {
+  background: rgba(128, 203, 196, 0.2);
+}
+
+.cm-s-material-palenight .CodeMirror-line::-moz-selection,
+.cm-s-material-palenight .CodeMirror-line>span::-moz-selection,
+.cm-s-material-palenight .CodeMirror-line>span>span::-moz-selection {
+  background: rgba(128, 203, 196, 0.2);
+}
+
+.cm-s-material-palenight .CodeMirror-activeline-background {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.cm-s-material-palenight .cm-keyword {
+  color: #C792EA;
+}
+
+.cm-s-material-palenight .cm-operator {
+  color: #89DDFF;
+}
+
+.cm-s-material-palenight .cm-variable-2 {
+  color: #EEFFFF;
+}
+
+.cm-s-material-palenight .cm-variable-3,
+.cm-s-material-palenight .cm-type {
+  color: #f07178;
+}
+
+.cm-s-material-palenight .cm-builtin {
+  color: #FFCB6B;
+}
+
+.cm-s-material-palenight .cm-atom {
+  color: #F78C6C;
+}
+
+.cm-s-material-palenight .cm-number {
+  color: #FF5370;
+}
+
+.cm-s-material-palenight .cm-def {
+  color: #82AAFF;
+}
+
+.cm-s-material-palenight .cm-string {
+  color: #C3E88D;
+}
+
+.cm-s-material-palenight .cm-string-2 {
+  color: #f07178;
+}
+
+.cm-s-material-palenight .cm-comment {
+  color: #676E95;
+}
+
+.cm-s-material-palenight .cm-variable {
+  color: #f07178;
+}
+
+.cm-s-material-palenight .cm-tag {
+  color: #FF5370;
+}
+
+.cm-s-material-palenight .cm-meta {
+  color: #FFCB6B;
+}
+
+.cm-s-material-palenight .cm-attribute {
+  color: #C792EA;
+}
+
+.cm-s-material-palenight .cm-property {
+  color: #C792EA;
+}
+
+.cm-s-material-palenight .cm-qualifier {
+  color: #DECB6B;
+}
+
+.cm-s-material-palenight .cm-variable-3,
+.cm-s-material-palenight .cm-type {
+  color: #DECB6B;
+}
+
+
+.cm-s-material-palenight .cm-error {
+  color: rgba(255, 255, 255, 1.0);
+  background-color: #FF5370;
+}
+
+.cm-s-material-palenight .CodeMirror-matchingbracket {
+  text-decoration: underline;
+  color: white !important;
+}
+</style><style>/* neo theme for codemirror */
+
+/* Color scheme */
+
+.cm-s-neo.CodeMirror {
+  background-color:#ffffff;
+  color:#2e383c;
+  line-height:1.4375;
+}
+.cm-s-neo .cm-comment { color:#75787b; }
+.cm-s-neo .cm-keyword, .cm-s-neo .cm-property { color:#1d75b3; }
+.cm-s-neo .cm-atom,.cm-s-neo .cm-number { color:#75438a; }
+.cm-s-neo .cm-node,.cm-s-neo .cm-tag { color:#9c3328; }
+.cm-s-neo .cm-string { color:#b35e14; }
+.cm-s-neo .cm-variable,.cm-s-neo .cm-qualifier { color:#047d65; }
+
+
+/* Editor styling */
+
+.cm-s-neo pre {
+  padding:0;
+}
+
+.cm-s-neo .CodeMirror-gutters {
+  border:none;
+  border-right:10px solid transparent;
+  background-color:transparent;
+}
+
+.cm-s-neo .CodeMirror-linenumber {
+  padding:0;
+  color:#e0e2e5;
+}
+
+.cm-s-neo .CodeMirror-guttermarker { color: #1d75b3; }
+.cm-s-neo .CodeMirror-guttermarker-subtle { color: #e0e2e5; }
+
+.cm-s-neo .CodeMirror-cursor {
+  width: auto;
+  border: 0;
+  background: rgba(155,157,162,0.37);
+  z-index: 1;
+}
+</style><style>.CodeMirror-foldmarker {
+  color: blue;
+  text-shadow: #b9f 1px 1px 2px, #b9f -1px -1px 2px, #b9f 1px -1px 2px, #b9f -1px 1px 2px;
+  font-family: arial;
+  line-height: .3;
+  cursor: pointer;
+}
+.CodeMirror-foldgutter {
+  width: .7em;
+}
+.CodeMirror-foldgutter-open,
+.CodeMirror-foldgutter-folded {
+  cursor: pointer;
+}
+.CodeMirror-foldgutter-open:after {
+  content: "\25BE";
+}
+.CodeMirror-foldgutter-folded:after {
+  content: "\25B8";
+}
+</style><style>.CodeEditor{}
+</style><style>.CodeMirror-simplescroll-horizontal div,.CodeMirror-simplescroll-vertical div{position:absolute;background:#ccc;-moz-box-sizing:border-box;box-sizing:border-box;border:1px solid #bbb;border-radius:2px}.CodeMirror-simplescroll-horizontal,.CodeMirror-simplescroll-vertical{position:absolute;z-index:6;background:#eee}.CodeMirror-simplescroll-horizontal{bottom:0;left:0;height:8px}.CodeMirror-simplescroll-horizontal div{bottom:0;height:100%}.CodeMirror-simplescroll-vertical{right:0;top:0;width:8px}.CodeMirror-simplescroll-vertical div{right:0;width:100%}.CodeMirror-overlayscroll .CodeMirror-scrollbar-filler,.CodeMirror-overlayscroll .CodeMirror-gutter-filler{display:none}.CodeMirror-overlayscroll-horizontal div,.CodeMirror-overlayscroll-vertical div{position:absolute;background:#bcd;border-radius:3px}.CodeMirror-overlayscroll-horizontal,.CodeMirror-overlayscroll-vertical{position:absolute;z-index:6}.CodeMirror-overlayscroll-horizontal{bottom:0;left:0;height:6px}.CodeMirror-overlayscroll-horizontal div{bottom:0;height:100%}.CodeMirror-overlayscroll-vertical{right:0;top:0;width:6px}.CodeMirror-overlayscroll-vertical div{right:0;width:100%}
+</style><style>.CodeEditor.cm-s-material-palenight:not(.CodeEditor-Input_highlight) .cm-linerow.cm-overlay,.CodeEditor.cm-s-material-palenight:not(.CodeEditor-Input_highlight) .cm-linerow.cm-overlay>span,.CodeEditor.cm-s-material-palenight:not(.CodeEditor-Input_highlight) .cm-linerow.cm-overlay>p{color:rgba(255,255,255,0.5)}.CodeEditor.cm-s-material-palenight .cm-highlight{background:rgba(0,0,0,0.25)}.CodeEditor.cm-s-material-palenight .CodeMirror{background:#242e34;color:#fff}.CodeEditor.cm-s-neo:not(.CodeEditor-Input_highlight) .cm-linerow.cm-overlay,.CodeEditor.cm-s-neo:not(.CodeEditor-Input_highlight) .cm-linerow.cm-overlay>span,.CodeEditor.cm-s-neo:not(.CodeEditor-Input_highlight) .cm-linerow.cm-overlay>p{color:rgba(0,0,0,0.5)}.CodeEditor.cm-s-neo .cm-highlight{background:rgba(0,0,0,0.1)}.CodeEditor.cm-s-neo .CodeMirror{background:#fff;color:#000}.CodeEditor .cm-linerow.cm-overlay,.CodeEditor .cm-linerow.cm-overlay .cm-lineNumber{opacity:0.75}.CodeMirror-scrollbar-filler{display:none !important}.CodeMirror-overlayscroll-horizontal div,.CodeMirror-overlayscroll-vertical div{background:rgba(202,202,202,0.5) !important}.cm-linerow{position:relative;text-indent:47px;transition:background 0.5s cubic-bezier(0.16, 1, 0.3, 1),color 0.5s cubic-bezier(0.16, 1, 0.3, 1),opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1)}.cm-linerow>span,.cm-linerow>p{transition:color 0.5s cubic-bezier(0.16, 1, 0.3, 1)}.cm-lineNumber{color:#676e95;display:inline-block;left:0;margin:0;min-width:43px;padding:0 6px 0 10px;position:absolute;right:auto;text-align:right;text-indent:0;top:0;transition:opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1);-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+</style><style>/* BASICS */
+
+.CodeMirror {
+  /* Set height, width, borders, and global font properties here */
+  font-family: monospace;
+  height: 300px;
+  color: black;
+  direction: ltr;
+}
+
+/* PADDING */
+
+.CodeMirror-lines {
+  padding: 4px 0; /* Vertical padding around content */
+}
+.CodeMirror pre.CodeMirror-line,
+.CodeMirror pre.CodeMirror-line-like {
+  padding: 0 4px; /* Horizontal padding of content */
+}
+
+.CodeMirror-scrollbar-filler, .CodeMirror-gutter-filler {
+  background-color: white; /* The little square between H and V scrollbars */
+}
+
+/* GUTTER */
+
+.CodeMirror-gutters {
+  border-right: 1px solid #ddd;
+  background-color: #f7f7f7;
+  white-space: nowrap;
+}
+.CodeMirror-linenumbers {}
+.CodeMirror-linenumber {
+  padding: 0 3px 0 5px;
+  min-width: 20px;
+  text-align: right;
+  color: #999;
+  white-space: nowrap;
+}
+
+.CodeMirror-guttermarker { color: black; }
+.CodeMirror-guttermarker-subtle { color: #999; }
+
+/* CURSOR */
+
+.CodeMirror-cursor {
+  border-left: 1px solid black;
+  border-right: none;
+  width: 0;
+}
+/* Shown when moving in bi-directional text */
+.CodeMirror div.CodeMirror-secondarycursor {
+  border-left: 1px solid silver;
+}
+.cm-fat-cursor .CodeMirror-cursor {
+  width: auto;
+  border: 0 !important;
+  background: #7e7;
+}
+.cm-fat-cursor div.CodeMirror-cursors {
+  z-index: 1;
+}
+.cm-fat-cursor .CodeMirror-line::selection,
+.cm-fat-cursor .CodeMirror-line > span::selection, 
+.cm-fat-cursor .CodeMirror-line > span > span::selection { background: transparent; }
+.cm-fat-cursor .CodeMirror-line::-moz-selection,
+.cm-fat-cursor .CodeMirror-line > span::-moz-selection,
+.cm-fat-cursor .CodeMirror-line > span > span::-moz-selection { background: transparent; }
+.cm-fat-cursor { caret-color: transparent; }
+@-moz-keyframes blink {
+  0% {}
+  50% { background-color: transparent; }
+  100% {}
+}
+@-webkit-keyframes blink {
+  0% {}
+  50% { background-color: transparent; }
+  100% {}
+}
+@keyframes blink {
+  0% {}
+  50% { background-color: transparent; }
+  100% {}
+}
+
+/* Can style cursor different in overwrite (non-insert) mode */
+.CodeMirror-overwrite .CodeMirror-cursor {}
+
+.cm-tab { display: inline-block; text-decoration: inherit; }
+
+.CodeMirror-rulers {
+  position: absolute;
+  left: 0; right: 0; top: -50px; bottom: 0;
+  overflow: hidden;
+}
+.CodeMirror-ruler {
+  border-left: 1px solid #ccc;
+  top: 0; bottom: 0;
+  position: absolute;
+}
+
+/* DEFAULT THEME */
+
+.cm-s-default .cm-header {color: blue;}
+.cm-s-default .cm-quote {color: #090;}
+.cm-negative {color: #d44;}
+.cm-positive {color: #292;}
+.cm-header, .cm-strong {font-weight: bold;}
+.cm-em {font-style: italic;}
+.cm-link {text-decoration: underline;}
+.cm-strikethrough {text-decoration: line-through;}
+
+.cm-s-default .cm-keyword {color: #708;}
+.cm-s-default .cm-atom {color: #219;}
+.cm-s-default .cm-number {color: #164;}
+.cm-s-default .cm-def {color: #00f;}
+.cm-s-default .cm-variable,
+.cm-s-default .cm-punctuation,
+.cm-s-default .cm-property,
+.cm-s-default .cm-operator {}
+.cm-s-default .cm-variable-2 {color: #05a;}
+.cm-s-default .cm-variable-3, .cm-s-default .cm-type {color: #085;}
+.cm-s-default .cm-comment {color: #a50;}
+.cm-s-default .cm-string {color: #a11;}
+.cm-s-default .cm-string-2 {color: #f50;}
+.cm-s-default .cm-meta {color: #555;}
+.cm-s-default .cm-qualifier {color: #555;}
+.cm-s-default .cm-builtin {color: #30a;}
+.cm-s-default .cm-bracket {color: #997;}
+.cm-s-default .cm-tag {color: #170;}
+.cm-s-default .cm-attribute {color: #00c;}
+.cm-s-default .cm-hr {color: #999;}
+.cm-s-default .cm-link {color: #00c;}
+
+.cm-s-default .cm-error {color: #f00;}
+.cm-invalidchar {color: #f00;}
+
+.CodeMirror-composing { border-bottom: 2px solid; }
+
+/* Default styles for common addons */
+
+div.CodeMirror span.CodeMirror-matchingbracket {color: #0b0;}
+div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #a22;}
+.CodeMirror-matchingtag { background: rgba(255, 150, 0, .3); }
+.CodeMirror-activeline-background {background: #e8f2ff;}
+
+/* STOP */
+
+/* The rest of this file contains styles related to the mechanics of
+   the editor. You probably shouldn't touch them. */
+
+.CodeMirror {
+  position: relative;
+  overflow: hidden;
+  background: white;
+}
+
+.CodeMirror-scroll {
+  overflow: scroll !important; /* Things will break if this is overridden */
+  /* 50px is the magic margin used to hide the element's real scrollbars */
+  /* See overflow: hidden in .CodeMirror */
+  margin-bottom: -50px; margin-right: -50px;
+  padding-bottom: 50px;
+  height: 100%;
+  outline: none; /* Prevent dragging from highlighting the element */
+  position: relative;
+  z-index: 0;
+}
+.CodeMirror-sizer {
+  position: relative;
+  border-right: 50px solid transparent;
+}
+
+/* The fake, visible scrollbars. Used to force redraw during scrolling
+   before actual scrolling happens, thus preventing shaking and
+   flickering artifacts. */
+.CodeMirror-vscrollbar, .CodeMirror-hscrollbar, .CodeMirror-scrollbar-filler, .CodeMirror-gutter-filler {
+  position: absolute;
+  z-index: 6;
+  display: none;
+  outline: none;
+}
+.CodeMirror-vscrollbar {
+  right: 0; top: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.CodeMirror-hscrollbar {
+  bottom: 0; left: 0;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+.CodeMirror-scrollbar-filler {
+  right: 0; bottom: 0;
+}
+.CodeMirror-gutter-filler {
+  left: 0; bottom: 0;
+}
+
+.CodeMirror-gutters {
+  position: absolute; left: 0; top: 0;
+  min-height: 100%;
+  z-index: 3;
+}
+.CodeMirror-gutter {
+  white-space: normal;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: -50px;
+}
+.CodeMirror-gutter-wrapper {
+  position: absolute;
+  z-index: 4;
+  background: none !important;
+  border: none !important;
+}
+.CodeMirror-gutter-background {
+  position: absolute;
+  top: 0; bottom: 0;
+  z-index: 4;
+}
+.CodeMirror-gutter-elt {
+  position: absolute;
+  cursor: default;
+  z-index: 4;
+}
+.CodeMirror-gutter-wrapper ::selection { background-color: transparent }
+.CodeMirror-gutter-wrapper ::-moz-selection { background-color: transparent }
+
+.CodeMirror-lines {
+  cursor: text;
+  min-height: 1px; /* prevents collapsing before first draw */
+}
+.CodeMirror pre.CodeMirror-line,
+.CodeMirror pre.CodeMirror-line-like {
+  /* Reset some styles that the rest of the page might have set */
+  -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
+  border-width: 0;
+  background: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0;
+  white-space: pre;
+  word-wrap: normal;
+  line-height: inherit;
+  color: inherit;
+  z-index: 2;
+  position: relative;
+  overflow: visible;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-variant-ligatures: contextual;
+  font-variant-ligatures: contextual;
+}
+.CodeMirror-wrap pre.CodeMirror-line,
+.CodeMirror-wrap pre.CodeMirror-line-like {
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: normal;
+}
+
+.CodeMirror-linebackground {
+  position: absolute;
+  left: 0; right: 0; top: 0; bottom: 0;
+  z-index: 0;
+}
+
+.CodeMirror-linewidget {
+  position: relative;
+  z-index: 2;
+  padding: 0.1px; /* Force widget margins to stay inside of the container */
+}
+
+.CodeMirror-widget {}
+
+.CodeMirror-rtl pre { direction: rtl; }
+
+.CodeMirror-code {
+  outline: none;
+}
+
+/* Force content-box sizing for the elements where we expect it */
+.CodeMirror-scroll,
+.CodeMirror-sizer,
+.CodeMirror-gutter,
+.CodeMirror-gutters,
+.CodeMirror-linenumber {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.CodeMirror-measure {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.CodeMirror-cursor {
+  position: absolute;
+  pointer-events: none;
+}
+.CodeMirror-measure pre { position: static; }
+
+div.CodeMirror-cursors {
+  visibility: hidden;
+  position: relative;
+  z-index: 3;
+}
+div.CodeMirror-dragcursors {
+  visibility: visible;
+}
+
+.CodeMirror-focused div.CodeMirror-cursors {
+  visibility: visible;
+}
+
+.CodeMirror-selected { background: #d9d9d9; }
+.CodeMirror-focused .CodeMirror-selected { background: #d7d4f0; }
+.CodeMirror-crosshair { cursor: crosshair; }
+.CodeMirror-line::selection, .CodeMirror-line > span::selection, .CodeMirror-line > span > span::selection { background: #d7d4f0; }
+.CodeMirror-line::-moz-selection, .CodeMirror-line > span::-moz-selection, .CodeMirror-line > span > span::-moz-selection { background: #d7d4f0; }
+
+.cm-searching {
+  background-color: #ffa;
+  background-color: rgba(255, 255, 0, .4);
+}
+
+/* Used to force a border model for a node */
+.cm-force-border { padding-right: .1px; }
+
+@media print {
+  /* Hide the cursor when printing */
+  .CodeMirror div.CodeMirror-cursors {
+    visibility: hidden;
+  }
+}
+
+/* See issue #2901 */
+.cm-tab-wrap-hack:after { content: ''; }
+
+/* Help users use markselection to safely style text background */
+span.CodeMirror-selectedtext { background: none; }
+</style><style>/*
+  Name:       material
+  Author:     Mattia Astorino (http://github.com/equinusocio)
+  Website:    https://material-theme.site/
+*/
+
+.cm-s-material-palenight.CodeMirror {
+  background-color: #292D3E;
+  color: #A6ACCD;
+}
+
+.cm-s-material-palenight .CodeMirror-gutters {
+  background: #292D3E;
+  color: #676E95;
+  border: none;
+}
+
+.cm-s-material-palenight .CodeMirror-guttermarker,
+.cm-s-material-palenight .CodeMirror-guttermarker-subtle,
+.cm-s-material-palenight .CodeMirror-linenumber {
+  color: #676E95;
+}
+
+.cm-s-material-palenight .CodeMirror-cursor {
+  border-left: 1px solid #FFCC00;
+}
+.cm-s-material-palenight.cm-fat-cursor .CodeMirror-cursor {
+  background-color: #607c8b80 !important;
+}
+.cm-s-material-palenight .cm-animate-fat-cursor {
+  background-color: #607c8b80 !important;
+}
+
+.cm-s-material-palenight div.CodeMirror-selected {
+  background: rgba(113, 124, 180, 0.2);
+}
+
+.cm-s-material-palenight.CodeMirror-focused div.CodeMirror-selected {
+  background: rgba(113, 124, 180, 0.2);
+}
+
+.cm-s-material-palenight .CodeMirror-line::selection,
+.cm-s-material-palenight .CodeMirror-line>span::selection,
+.cm-s-material-palenight .CodeMirror-line>span>span::selection {
+  background: rgba(128, 203, 196, 0.2);
+}
+
+.cm-s-material-palenight .CodeMirror-line::-moz-selection,
+.cm-s-material-palenight .CodeMirror-line>span::-moz-selection,
+.cm-s-material-palenight .CodeMirror-line>span>span::-moz-selection {
+  background: rgba(128, 203, 196, 0.2);
+}
+
+.cm-s-material-palenight .CodeMirror-activeline-background {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.cm-s-material-palenight .cm-keyword {
+  color: #C792EA;
+}
+
+.cm-s-material-palenight .cm-operator {
+  color: #89DDFF;
+}
+
+.cm-s-material-palenight .cm-variable-2 {
+  color: #EEFFFF;
+}
+
+.cm-s-material-palenight .cm-variable-3,
+.cm-s-material-palenight .cm-type {
+  color: #f07178;
+}
+
+.cm-s-material-palenight .cm-builtin {
+  color: #FFCB6B;
+}
+
+.cm-s-material-palenight .cm-atom {
+  color: #F78C6C;
+}
+
+.cm-s-material-palenight .cm-number {
+  color: #FF5370;
+}
+
+.cm-s-material-palenight .cm-def {
+  color: #82AAFF;
+}
+
+.cm-s-material-palenight .cm-string {
+  color: #C3E88D;
+}
+
+.cm-s-material-palenight .cm-string-2 {
+  color: #f07178;
+}
+
+.cm-s-material-palenight .cm-comment {
+  color: #676E95;
+}
+
+.cm-s-material-palenight .cm-variable {
+  color: #f07178;
+}
+
+.cm-s-material-palenight .cm-tag {
+  color: #FF5370;
+}
+
+.cm-s-material-palenight .cm-meta {
+  color: #FFCB6B;
+}
+
+.cm-s-material-palenight .cm-attribute {
+  color: #C792EA;
+}
+
+.cm-s-material-palenight .cm-property {
+  color: #C792EA;
+}
+
+.cm-s-material-palenight .cm-qualifier {
+  color: #DECB6B;
+}
+
+.cm-s-material-palenight .cm-variable-3,
+.cm-s-material-palenight .cm-type {
+  color: #DECB6B;
+}
+
+
+.cm-s-material-palenight .cm-error {
+  color: rgba(255, 255, 255, 1.0);
+  background-color: #FF5370;
+}
+
+.cm-s-material-palenight .CodeMirror-matchingbracket {
+  text-decoration: underline;
+  color: white !important;
+}
+</style><style>/* neo theme for codemirror */
+
+/* Color scheme */
+
+.cm-s-neo.CodeMirror {
+  background-color:#ffffff;
+  color:#2e383c;
+  line-height:1.4375;
+}
+.cm-s-neo .cm-comment { color:#75787b; }
+.cm-s-neo .cm-keyword, .cm-s-neo .cm-property { color:#1d75b3; }
+.cm-s-neo .cm-atom,.cm-s-neo .cm-number { color:#75438a; }
+.cm-s-neo .cm-node,.cm-s-neo .cm-tag { color:#9c3328; }
+.cm-s-neo .cm-string { color:#b35e14; }
+.cm-s-neo .cm-variable,.cm-s-neo .cm-qualifier { color:#047d65; }
+
+
+/* Editor styling */
+
+.cm-s-neo pre {
+  padding:0;
+}
+
+.cm-s-neo .CodeMirror-gutters {
+  border:none;
+  border-right:10px solid transparent;
+  background-color:transparent;
+}
+
+.cm-s-neo .CodeMirror-linenumber {
+  padding:0;
+  color:#e0e2e5;
+}
+
+.cm-s-neo .CodeMirror-guttermarker { color: #1d75b3; }
+.cm-s-neo .CodeMirror-guttermarker-subtle { color: #e0e2e5; }
+
+.cm-s-neo .CodeMirror-cursor {
+  width: auto;
+  border: 0;
+  background: rgba(155,157,162,0.37);
+  z-index: 1;
+}
+</style><style>.CodeMirror-foldmarker {
+  color: blue;
+  text-shadow: #b9f 1px 1px 2px, #b9f -1px -1px 2px, #b9f 1px -1px 2px, #b9f -1px 1px 2px;
+  font-family: arial;
+  line-height: .3;
+  cursor: pointer;
+}
+.CodeMirror-foldgutter {
+  width: .7em;
+}
+.CodeMirror-foldgutter-open,
+.CodeMirror-foldgutter-folded {
+  cursor: pointer;
+}
+.CodeMirror-foldgutter-open:after {
+  content: "\25BE";
+}
+.CodeMirror-foldgutter-folded:after {
+  content: "\25B8";
+}
+</style><style>.CodeEditor{}
+</style><style>.CodeMirror-simplescroll-horizontal div,.CodeMirror-simplescroll-vertical div{position:absolute;background:#ccc;-moz-box-sizing:border-box;box-sizing:border-box;border:1px solid #bbb;border-radius:2px}.CodeMirror-simplescroll-horizontal,.CodeMirror-simplescroll-vertical{position:absolute;z-index:6;background:#eee}.CodeMirror-simplescroll-horizontal{bottom:0;left:0;height:8px}.CodeMirror-simplescroll-horizontal div{bottom:0;height:100%}.CodeMirror-simplescroll-vertical{right:0;top:0;width:8px}.CodeMirror-simplescroll-vertical div{right:0;width:100%}.CodeMirror-overlayscroll .CodeMirror-scrollbar-filler,.CodeMirror-overlayscroll .CodeMirror-gutter-filler{display:none}.CodeMirror-overlayscroll-horizontal div,.CodeMirror-overlayscroll-vertical div{position:absolute;background:#bcd;border-radius:3px}.CodeMirror-overlayscroll-horizontal,.CodeMirror-overlayscroll-vertical{position:absolute;z-index:6}.CodeMirror-overlayscroll-horizontal{bottom:0;left:0;height:6px}.CodeMirror-overlayscroll-horizontal div{bottom:0;height:100%}.CodeMirror-overlayscroll-vertical{right:0;top:0;width:6px}.CodeMirror-overlayscroll-vertical div{right:0;width:100%}
+</style><style>.CodeEditor.cm-s-material-palenight:not(.CodeEditor-Input_highlight) .cm-linerow.cm-overlay,.CodeEditor.cm-s-material-palenight:not(.CodeEditor-Input_highlight) .cm-linerow.cm-overlay>span,.CodeEditor.cm-s-material-palenight:not(.CodeEditor-Input_highlight) .cm-linerow.cm-overlay>p{color:rgba(255,255,255,0.5)}.CodeEditor.cm-s-material-palenight .cm-highlight{background:rgba(0,0,0,0.25)}.CodeEditor.cm-s-material-palenight .CodeMirror{background:#242e34;color:#fff}.CodeEditor.cm-s-neo:not(.CodeEditor-Input_highlight) .cm-linerow.cm-overlay,.CodeEditor.cm-s-neo:not(.CodeEditor-Input_highlight) .cm-linerow.cm-overlay>span,.CodeEditor.cm-s-neo:not(.CodeEditor-Input_highlight) .cm-linerow.cm-overlay>p{color:rgba(0,0,0,0.5)}.CodeEditor.cm-s-neo .cm-highlight{background:rgba(0,0,0,0.1)}.CodeEditor.cm-s-neo .CodeMirror{background:#fff;color:#000}.CodeEditor .cm-linerow.cm-overlay,.CodeEditor .cm-linerow.cm-overlay .cm-lineNumber{opacity:0.75}.CodeMirror-scrollbar-filler{display:none !important}.CodeMirror-overlayscroll-horizontal div,.CodeMirror-overlayscroll-vertical div{background:rgba(202,202,202,0.5) !important}.cm-linerow{position:relative;text-indent:47px;transition:background 0.5s cubic-bezier(0.16, 1, 0.3, 1),color 0.5s cubic-bezier(0.16, 1, 0.3, 1),opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1)}.cm-linerow>span,.cm-linerow>p{transition:color 0.5s cubic-bezier(0.16, 1, 0.3, 1)}.cm-lineNumber{color:#676e95;display:inline-block;left:0;margin:0;min-width:43px;padding:0 6px 0 10px;position:absolute;right:auto;text-align:right;text-indent:0;top:0;transition:opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1);-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+</style><style id="_goober"> @keyframes go2264125279{from{transform:scale(0) rotate(45deg);opacity:0;}to{transform:scale(1) rotate(45deg);opacity:1;}}@keyframes go3020080000{from{transform:scale(0);opacity:0;}to{transform:scale(1);opacity:1;}}@keyframes go463499852{from{transform:scale(0) rotate(90deg);opacity:0;}to{transform:scale(1) rotate(90deg);opacity:1;}}@keyframes go1268368563{from{transform:rotate(0deg);}to{transform:rotate(360deg);}}@keyframes go1310225428{from{transform:scale(0) rotate(45deg);opacity:0;}to{transform:scale(1) rotate(45deg);opacity:1;}}@keyframes go651618207{0%{height:0;width:0;opacity:0;}40%{height:0;width:6px;opacity:1;}100%{opacity:1;height:10px;}}@keyframes go901347462{from{transform:scale(0.6);opacity:0.4;}to{transform:scale(1);opacity:1;}}.go4109123758{z-index:9999;}.go4109123758 > *{pointer-events:auto;}</style></head><body class="toolbarCount_undefined body-none theme-solid header-solid header-bg-size-auto header-bg-pos-tl header-overlay-circuits reference-layout-row lumosity-normal "><div id="ssr-top"></div><div id="ssr-main"><div class="App ThemeContext ThemeContext_dark " style="--color-primary:#bb2dc7;--color-primary-inverse:#fff;--color-primary-alt:#8b1295;--color-primary-darken-10:#94249d;--color-primary-darken-20:#6d1a74;--color-primary-alpha-25:rgba(187, 45, 199, 0.25);--color-link-primary:#bb2dc7;--color-link-primary-darken-5:#a728b2;--color-link-primary-darken-10:#94249d;--color-link-primary-darken-20:#6d1a74;--color-link-primary-alpha-50:rgba(187, 45, 199, 0.5);--color-link-primary-alpha-25:rgba(187, 45, 199, 0.25);--color-link-background:rgba(187, 45, 199, 0.09);--color-link-text:#fff;--color-login-link:#018ef5;--color-login-link-text:#fff;--color-login-link-darken-10:#0171c2;--color-login-link-primary-alpha-50:rgba(1, 142, 245, 0.5)"><header class="Header3zzata9F_ZPQ rm-Header "><div class="rm-Header-top Header-topuTMpygDG4e1V"><div class="rm-Container rm-Container_flex"><div style="outline:none" tabindex="-1"><a href="#content" target="_self" class="Button Button_md rm-JumpTo Header-jumpTo3IWKQXmhSI5D Button_primary">Jump to Content</a></div><div class="rm-Header-left Header-leftADQdGVqx1wqU"><a class="rm-Logo Header-logo1Xy41PtkzbdG" href="https://glow.app" target="_self"><img alt="Glow" class="rm-Logo-img  Header-logo-img3YvV4lcGKkeb" src="https://files.readme.io/41e06ed-GlowIcon.svg"></a></div><div class="rm-Header-left Header-leftADQdGVqx1wqU Header-left_mobile1RG-X93lx6PF"><div><button aria-label="Toggle navigation menu" class="icon-menu menu3d6DYNDa3tk5" type="button"></button><div class=""><div class="Flyout95xhYIIoTKtc undefined rm-Flyout" data-testid="flyout"><div class="MobileFlyout1hHJpUd-nYkd"><a aria-current="page" class="rm-MobileFlyout-item NavItem-item1gDDTqaXGhm1 NavItem-item_mobile1qG3gd-Mkck-  active" href="/docs" target="_self"><i class="NavItem-item-anchorzz3banOxXKjr icon-guides"></i><span class="NavItem-textSlZuuL489uiw">Guides</span></a><a class="rm-MobileFlyout-item NavItem-item1gDDTqaXGhm1 NavItem-item_mobile1qG3gd-Mkck- " href="/reference" target="_self"><i class="NavItem-item-anchorzz3banOxXKjr icon-references"></i><span class="NavItem-textSlZuuL489uiw">API Reference</span></a><div class="NavItem-item1gDDTqaXGhm1 NavItem-item_inactiveMQoyhN045qAn">v<!-- -->1.0</div><hr class="MobileFlyout-divider10xf7R2X1MeW"><a class="rm-MobileFlyout-item NavItem-item1gDDTqaXGhm1 NavItem-item_mobile1qG3gd-Mkck- NavItem_dropdown-muted1xJVuczwGc74" href="/login?redirect_uri=/docs/getting-started" target="_self" to="/login?redirect_uri=/docs/getting-started">Log In</a><a class="MobileFlyout-logo3Lq1eTlk1K76 Header-logo1Xy41PtkzbdG rm-Logo" href="https://glow.app" target="_self"><img alt="Glow" class="Header-logo-img3YvV4lcGKkeb rm-Logo-img" src="https://files.readme.io/41e06ed-GlowIcon.svg"></a></div></div></div></div><div class="Header-left-nav2xWPWMNHOGf_"><i class="undefined Header-left-nav-icon10glJKFwewOv"></i></div></div><div class="rm-Header-right Header-right21PC2XTT6aMg"><span class="Header-right_desktop14ja01RUQ7HE"><a href="/login?redirect_uri=/docs/getting-started" target="_self" class="Button Button_slate_text Button_md Header-link2tXYTgXq85zW undefined NavItem_mdrYO3ChA2kYvP rm-Header-top-link rm-Header-top-link_login Button_primary">Log In</a></span><div class="Header-searchtb6Foi0-D9Vx"><button aria-label="Search" class="rm-SearchToggle" data-symbol="⌘"><div class="rm-SearchToggle-icon icon-search1"></div></button></div></div></div></div><div class="Header-bottom2eLKOFXMEmh5 rm-Header-bottom  "><div class="rm-Container rm-Container_flex"><nav class="Header-leftADQdGVqx1wqU"><span class="undefined NavItem_inactive1YE6SGanIJp5 rm-Header-bottom-link">v<!-- -->1.0</span><a aria-current="page" class="Button Button_md rm-Header-link rm-Header-bottom-link Button_slate_text Header-bottom-link_mobile  active" href="/docs" target="_self"><i class="icon-guides"></i><span>Guides</span></a><a class="Button Button_md rm-Header-link rm-Header-bottom-link Button_slate_text Header-bottom-link_mobile " href="/reference" target="_self"><i class="icon-references"></i><span>API Reference</span></a></nav><button align="center" justify="between" style="--flex-gap:var(--xs)" class="Button Button_sm Flex Flex_row MobileSubnav1DsTfasXloM2 Button_contrast Button_contrast_outline" type="button"><span class="Button-label">Loading…</span><span class="IconWrapper Icon-wrapper2z2wVIeGsiUy"><svg fill="none" viewBox="0 0 24 24" class="Icon Icon3_D2ysxFZ_ll Icon-svg2Lm7f6G9Ly5a" data-name="chevron-up-down" role="img" style="--icon-color:inherit;--icon-size:inherit;--icon-stroke-width:2px"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m6 16 6 6 6-6M18 8l-6-6-6 6" class="icon-stroke-width"></path></svg></span></button><div class="rm-Header-search Header-searchtb6Foi0-D9Vx rm-Header-search_feather Header-search_featherYsmQBn55F3d9"><button aria-label="Search" class="rm-SearchToggle" data-symbol="⌘"><div class="rm-SearchToggle-icon icon-search1"></div><div class="Header-search-placeholder3Vx4OmMPcjAi rm-SearchToggle-placeholder">Search</div><div class="rm-SearchToggle-shortcut"></div></button></div></div></div><div class="hub-search-results--reactApp " id="hub-search-results"><div class="hub-container"><div class="modal-backdrop show-modal rm-SearchModal" role="button" tabindex="0"></div></div></div></header><main class="rm-Guides"><div class="rm-Container rm-Container_flex"><nav aria-label="Page navigation" class="rm-Sidebar hub-sidebar reference-redesign Nav3C5f8FcjkaHj rm-Sidebar_guides" id="hub-sidebar"><div class="Sidebar1t2G1ZJq-vU1 rm-Sidebar hub-sidebar-content"><section class="Sidebar-listWrapper6Q9_yUrG906C rm-Sidebar-section"><h2 class="Sidebar-headingTRQyOa2pk0gh rm-Sidebar-heading">Integrating with Glow</h2><ul class=" Sidebar-list3cZWQLaBf9k8 rm-Sidebar-list"><li class="Sidebar-item23D-2Kd61_k3"><a aria-current="page" class="Sidebar-link2Dsha-r-GKh2 Sidebar-link_parent3OBrzjAJRSfq   text-wrap rm-Sidebar-link active" target="_self" href="/docs/getting-started"><span class="Sidebar-link-textLuTE1ySm4Kqn"><button aria-expanded="false" aria-label="Show subpages for Glow Javascript SDK" class="Sidebar-link-buttonWrapper3hnFHNku8_BJ"><i class="Sidebar-link-expandIcon2yVH6SarI6NW icon-chevron-rightward"></i></button><span>Glow Javascript SDK</span></span></a><ul class="subpages Sidebar-list3cZWQLaBf9k8 rm-Sidebar-list"><li class="Sidebar-item23D-2Kd61_k3"><a class="Sidebar-link2Dsha-r-GKh2   childless subpage text-wrap rm-Sidebar-link" target="_self" href="/docs/detecting-glow"><span class="Sidebar-link-textLuTE1ySm4Kqn"><span>Detecting Glow</span></span></a></li><li class="Sidebar-item23D-2Kd61_k3"><a class="Sidebar-link2Dsha-r-GKh2   childless subpage text-wrap rm-Sidebar-link" target="_self" href="/docs/connecting-signing-in"><span class="Sidebar-link-textLuTE1ySm4Kqn"><span>Connecting and Signing In</span></span></a></li><li class="Sidebar-item23D-2Kd61_k3"><a class="Sidebar-link2Dsha-r-GKh2   childless subpage text-wrap rm-Sidebar-link" target="_self" href="/docs/signing-messages"><span class="Sidebar-link-textLuTE1ySm4Kqn"><span>Signing Messages</span></span></a></li><li class="Sidebar-item23D-2Kd61_k3"><a class="Sidebar-link2Dsha-r-GKh2   childless subpage text-wrap rm-Sidebar-link" target="_self" href="/docs/executing-transactions"><span class="Sidebar-link-textLuTE1ySm4Kqn"><span>Executing Transactions</span></span></a></li></ul></li><li class="Sidebar-item23D-2Kd61_k3"><a class="Sidebar-link2Dsha-r-GKh2 Sidebar-link_parent3OBrzjAJRSfq   text-wrap rm-Sidebar-link" target="_self" href="/docs/glow-id"><span class="Sidebar-link-textLuTE1ySm4Kqn"><button aria-expanded="false" aria-label="Show subpages for Glow ID" class="Sidebar-link-buttonWrapper3hnFHNku8_BJ"><i class="Sidebar-link-expandIcon2yVH6SarI6NW icon-chevron-rightward"></i></button><span>Glow ID</span></span></a><ul class="subpages Sidebar-list3cZWQLaBf9k8 rm-Sidebar-list"><li class="Sidebar-item23D-2Kd61_k3"><a class="Sidebar-link2Dsha-r-GKh2   childless subpage text-wrap rm-Sidebar-link" target="_self" href="/docs/registering-for-glow-id"><span class="Sidebar-link-textLuTE1ySm4Kqn"><span>Registering for Glow ID</span></span></a></li><li class="Sidebar-item23D-2Kd61_k3"><a class="Sidebar-link2Dsha-r-GKh2   childless subpage text-wrap rm-Sidebar-link" target="_self" href="/docs/resolving-glow-id"><span class="Sidebar-link-textLuTE1ySm4Kqn"><span>Resolve Glow ID via Chain</span></span></a></li><li class="Sidebar-item23D-2Kd61_k3"><a class="Sidebar-link2Dsha-r-GKh2   childless subpage text-wrap rm-Sidebar-link" target="_self" href="/docs/resolve-glow-id-via-api"><span class="Sidebar-link-textLuTE1ySm4Kqn"><span>Resolve Glow ID via API</span></span></a></li></ul></li></ul></section><div class="readme-logo" id="readmeLogo">Powered by&nbsp;<a aria-label="ReadMe" href="https://readme.com?ref_src=hub&amp;project=glowwallet" style="color:unset"><i class="icon icon-readme" style="display:inline-block;min-width:71px"></i></a></div></div></nav><article class="rm-Article " id="content"><header id="content-head"><div class="row clearfix"><div class="col-xs-9"><h1>Glow Javascript SDK</h1><div class="excerpt"><div class="rm-Markdown markdown-body" data-testid="RDMD"><p>Integrate your site with Glow wallet.</p></div></div></div><div class="col-xs-3"><a class="suggestEdits" href="/edit/getting-started"><i class="icon icon-register"></i>Suggest Edits</a></div></div></header><div class="grid-container-fluid" id="content-container"><section class="content-body grid-75"><div dehydrated="<h2 class=&quot;heading heading-2 header-scroll&quot; align=&quot;&quot;><div class=&quot;heading-anchor anchor waypoint&quot; id=&quot;about-glow&quot;></div><div class=&quot;heading-text&quot;><div id=&quot;section-about-glow&quot; class=&quot;heading-anchor_backwardsCompatibility&quot;></div>About Glow</div><a aria-label=&quot;Skip link to About Glow&quot; class=&quot;heading-anchor-icon fa fa-anchor&quot; href=&quot;#about-glow&quot;></a></h2>
+<p>Glow is a non-custodial crypto wallet for the Solana blockchain.</p>
+<p>Glow is available as a browser extension, an iOS app, and an Android app. With the iOS app, Glow includes a mobile Safari extension that lets users interact with applications right from the Safari browser. For Android, a browser is built into the app.</p>
+<p>As a developer, you can use the same JavaScript SDK to integrate your site with Glow across all platforms.</p>
+<h2 class=&quot;heading heading-2 header-scroll&quot; align=&quot;&quot;><div class=&quot;heading-anchor anchor waypoint&quot; id=&quot;installing-the-sdk&quot;></div><div class=&quot;heading-text&quot;><div id=&quot;section-installing-the-sdk&quot; class=&quot;heading-anchor_backwardsCompatibility&quot;></div>Installing the SDK</div><a aria-label=&quot;Skip link to Installing the SDK&quot; class=&quot;heading-anchor-icon fa fa-anchor&quot; href=&quot;#installing-the-sdk&quot;></a></h2>
+<p>The library can be installed via <button aria-label=&quot;Copy Code&quot; class=&quot;rdmd-code-copy fa&quot;></button><code class=&quot;rdmd-code lang- theme-light&quot; data-lang=&quot;&quot; name=&quot;&quot; tabindex=&quot;0&quot;>npm</code> or <button aria-label=&quot;Copy Code&quot; class=&quot;rdmd-code-copy fa&quot;></button><code class=&quot;rdmd-code lang- theme-light&quot; data-lang=&quot;&quot; name=&quot;&quot; tabindex=&quot;0&quot;>yarn</code>:</p>
+<div class=&quot;CodeTabs CodeTabs_initial theme-light&quot;><div class=&quot;CodeTabs-toolbar&quot; role=&quot;tablist&quot;><button aria-selected=&quot;true&quot; class=&quot;CodeTabs_active&quot; role=&quot;tab&quot; type=&quot;button&quot;>Shell</button></div><div class=&quot;CodeTabs-inner&quot; role=&quot;tabpanel&quot;><pre><button aria-label=&quot;Copy Code&quot; class=&quot;rdmd-code-copy fa&quot;></button><code class=&quot;rdmd-code lang-shell theme-light&quot; data-lang=&quot;shell&quot; name=&quot;&quot; tabindex=&quot;0&quot;># Using npm
+npm install @glow-xyz/glow-client
+
+# Using yarn
+yarn add @glow-xyz/glow-client
+</code></pre></div></div>
+<p>In addition, a React wrapper is provided, which helpful if you are building a React app. To install, run:</p>
+<div class=&quot;CodeTabs CodeTabs_initial theme-light&quot;><div class=&quot;CodeTabs-toolbar&quot; role=&quot;tablist&quot;><button aria-selected=&quot;true&quot; class=&quot;CodeTabs_active&quot; role=&quot;tab&quot; type=&quot;button&quot;>Shell</button></div><div class=&quot;CodeTabs-inner&quot; role=&quot;tabpanel&quot;><pre><button aria-label=&quot;Copy Code&quot; class=&quot;rdmd-code-copy fa&quot;></button><code class=&quot;rdmd-code lang-shell theme-light&quot; data-lang=&quot;shell&quot; name=&quot;&quot; tabindex=&quot;0&quot;># Using npm
+npm install @glow-xyz/glow-react
+
+# Using yarn
+yarn add @glow-xyz/glow-react
+</code></pre></div></div>
+<h2 class=&quot;heading heading-2 header-scroll&quot; align=&quot;&quot;><div class=&quot;heading-anchor anchor waypoint&quot; id=&quot;getting-started&quot;></div><div class=&quot;heading-text&quot;><div id=&quot;section-getting-started&quot; class=&quot;heading-anchor_backwardsCompatibility&quot;></div>Getting Started</div><a aria-label=&quot;Skip link to Getting Started&quot; class=&quot;heading-anchor-icon fa fa-anchor&quot; href=&quot;#getting-started&quot;></a></h2>
+<p>Once you install the library, you are ready to connect your site to Glow. </p>
+<p>To do so, first detect whether the user has Glow installed. Then, prompt the user to sign in with Glow so that you can connect to the wallet, authenticate the user, and be ready to perform actions. Finally, use the connection to execute transactions or sign messages.</p>" style="margin-left:31px" class="rm-Markdown markdown-body rm-Markdown markdown-body ng-non-bindable" data-testid="RDMD"><h2 class="heading heading-2 header-scroll" align=""><div class="heading-anchor anchor waypoint" id="about-glow"></div><div class="heading-text"><div id="section-about-glow" class="heading-anchor_backwardsCompatibility"></div>About Glow</div><a aria-label="Skip link to About Glow" class="heading-anchor-icon fa fa-anchor" href="#about-glow"></a></h2>
+<p>Glow is a non-custodial crypto wallet for the Solana blockchain.</p>
+<p>Glow is available as a browser extension, an iOS app, and an Android app. With the iOS app, Glow includes a mobile Safari extension that lets users interact with applications right from the Safari browser. For Android, a browser is built into the app.</p>
+<p>As a developer, you can use the same JavaScript SDK to integrate your site with Glow across all platforms.</p>
+<h2 class="heading heading-2 header-scroll" align=""><div class="heading-anchor anchor waypoint" id="installing-the-sdk"></div><div class="heading-text"><div id="section-installing-the-sdk" class="heading-anchor_backwardsCompatibility"></div>Installing the SDK</div><a aria-label="Skip link to Installing the SDK" class="heading-anchor-icon fa fa-anchor" href="#installing-the-sdk"></a></h2>
+<p>The library can be installed via <button aria-label="Copy Code" class="rdmd-code-copy fa"></button><code class="rdmd-code lang- theme-light" data-lang="" name="" tabindex="0">npm</code> or <button aria-label="Copy Code" class="rdmd-code-copy fa"></button><code class="rdmd-code lang- theme-light" data-lang="" name="" tabindex="0">yarn</code>:</p>
+<div class="CodeTabs CodeTabs_initial theme-light"><div class="CodeTabs-toolbar" role="tablist"><button aria-selected="true" class="CodeTabs_active" role="tab" type="button">Shell</button></div><div class="CodeTabs-inner" role="tabpanel"><pre><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><code class="rdmd-code lang-shell theme-light" data-lang="shell" name="" tabindex="0"># Using npm
+npm install @glow-xyz/glow-client
+
+# Using yarn
+yarn add @glow-xyz/glow-client
+</code></pre></div></div>
+<p>In addition, a React wrapper is provided, which helpful if you are building a React app. To install, run:</p>
+<div class="CodeTabs CodeTabs_initial theme-light"><div class="CodeTabs-toolbar" role="tablist"><button aria-selected="true" class="CodeTabs_active" role="tab" type="button">Shell</button></div><div class="CodeTabs-inner" role="tabpanel"><pre><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><code class="rdmd-code lang-shell theme-light" data-lang="shell" name="" tabindex="0"># Using npm
+npm install @glow-xyz/glow-react
+
+# Using yarn
+yarn add @glow-xyz/glow-react
+</code></pre></div></div>
+<h2 class="heading heading-2 header-scroll" align=""><div class="heading-anchor anchor waypoint" id="getting-started"></div><div class="heading-text"><div id="section-getting-started" class="heading-anchor_backwardsCompatibility"></div>Getting Started</div><a aria-label="Skip link to Getting Started" class="heading-anchor-icon fa fa-anchor" href="#getting-started"></a></h2>
+<p>Once you install the library, you are ready to connect your site to Glow. </p>
+<p>To do so, first detect whether the user has Glow installed. Then, prompt the user to sign in with Glow so that you can connect to the wallet, authenticate the user, and be ready to perform actions. Finally, use the connection to execute transactions or sign messages.</p></div><div class="UpdatedAt"><p class="DateLine "><i class="icon icon-watch"></i>Updated<!-- --> <!-- -->over 1 year ago<!-- --> </p></div><hr class="NextStepsDivider"><nav aria-label="Pagination Controls" class="PaginationControlsjDYuqu8pBMUy rm-Pagination"></nav></section><section class="content-toc grid-25"><nav><ul class="toc-list"><li><a class="tocHeader" href="#"><i class="icon icon-text-align-left"></i>Table of Contents</a></li><li class="toc-children"><ul>
+<li><a href="#about-glow">About Glow</a></li>
+<li><a href="#installing-the-sdk">Installing the SDK</a></li>
+<li><a href="#getting-started">Getting Started</a></li>
+</ul></li></ul></nav></section></div><div class="ModalWrapper" id="tutorialmodal-root"></div></article></div></main><footer aria-label="Status banner" class="AppFooter rm-Banners"></footer><div class="ModalWrapper" id="ChatGPT-modal"></div></div></div><div class="ng-non-bindable"><script id="ssr-props" data-initial-props="{&quot;baseUrl&quot;:&quot;/&quot;,&quot;apiBaseUrl&quot;:&quot;/&quot;,&quot;search&quot;:{&quot;appId&quot;:&quot;T28YKFATPY&quot;,&quot;searchApiKey&quot;:&quot;MWM1NDliNmVhZDAzNzBkMGZhMjI5MWFjMjNkZGQ1ODkzM2I3ODUwNDg4OTExMjY1ZTRlZjhjMTFmZTc1OWIwNHRhZ0ZpbHRlcnM9KHByb2plY3Q6NjJiZTViY2FhZmIzYjEwMGU4OGQxM2I0KSwodmVyc2lvbjpub25lLHZlcnNpb246NjJiZTViY2JhZmIzYjEwMGU4OGQxM2I5KSwoaGlkZGVuOm5vbmUsaGlkZGVuOmZhbHNlKSwoaW5kZXg6Q3VzdG9tUGFnZSxpbmRleDpQYWdlKQ==&quot;,&quot;indexName&quot;:&quot;readme_search_v2&quot;,&quot;projectsMeta&quot;:[{&quot;modules&quot;:{&quot;landing&quot;:false,&quot;docs&quot;:true,&quot;examples&quot;:false,&quot;reference&quot;:true,&quot;graphql&quot;:false,&quot;changelog&quot;:false,&quot;discuss&quot;:false,&quot;suggested_edits&quot;:true,&quot;logs&quot;:false,&quot;custompages&quot;:false,&quot;tutorials&quot;:false},&quot;id&quot;:&quot;62be5bcaafb3b100e88d13b4&quot;,&quot;name&quot;:&quot;Glow&quot;,&quot;subdomain&quot;:&quot;glowwallet&quot;,&quot;subpath&quot;:&quot;&quot;,&quot;nav_names&quot;:{&quot;docs&quot;:&quot;&quot;,&quot;reference&quot;:&quot;&quot;,&quot;changelog&quot;:&quot;&quot;,&quot;discuss&quot;:&quot;&quot;,&quot;tutorials&quot;:&quot;&quot;,&quot;recipes&quot;:&quot;&quot;}}],&quot;UrlManager&quot;:{&quot;options&quot;:{&quot;child&quot;:false,&quot;parent&quot;:null,&quot;hasOneChild&quot;:false,&quot;project&quot;:null,&quot;version&quot;:null,&quot;lang&quot;:&quot;en&quot;},&quot;defaults&quot;:{&quot;lang&quot;:&quot;en&quot;}},&quot;urlManagerOpts&quot;:{&quot;lang&quot;:&quot;en&quot;,&quot;parent&quot;:{&quot;childrenProjects&quot;:[]},&quot;project&quot;:{&quot;subdomain&quot;:&quot;glowwallet&quot;},&quot;version&quot;:&quot;1.0&quot;}},&quot;sidebars&quot;:{&quot;docs&quot;:[{&quot;_id&quot;:&quot;62ca2c4d1c807d0023d5d00d&quot;,&quot;title&quot;:&quot;Integrating with Glow&quot;,&quot;slug&quot;:&quot;javascript-sdk&quot;,&quot;order&quot;:0,&quot;reference&quot;:false,&quot;project&quot;:&quot;62be5bcaafb3b100e88d13b4&quot;,&quot;version&quot;:&quot;62be5bcbafb3b100e88d13b9&quot;,&quot;createdAt&quot;:&quot;2022-07-10T01:33:01.214Z&quot;,&quot;__v&quot;:0,&quot;pages&quot;:[{&quot;_id&quot;:&quot;62be5bcdafb3b100e88d13be&quot;,&quot;api&quot;:{&quot;method&quot;:&quot;get&quot;,&quot;url&quot;:&quot;&quot;,&quot;auth&quot;:&quot;required&quot;,&quot;params&quot;:[],&quot;results&quot;:{&quot;codes&quot;:[{&quot;name&quot;:&quot;&quot;,&quot;code&quot;:&quot;{}&quot;,&quot;language&quot;:&quot;json&quot;,&quot;status&quot;:200},{&quot;name&quot;:&quot;&quot;,&quot;code&quot;:&quot;{}&quot;,&quot;language&quot;:&quot;json&quot;,&quot;status&quot;:400}]}},&quot;title&quot;:&quot;Glow Javascript SDK&quot;,&quot;type&quot;:&quot;basic&quot;,&quot;slug&quot;:&quot;getting-started&quot;,&quot;order&quot;:0,&quot;isReference&quot;:false,&quot;deprecated&quot;:false,&quot;hidden&quot;:false,&quot;sync_unique&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;,&quot;link_external&quot;:false,&quot;previousSlug&quot;:&quot;&quot;,&quot;category&quot;:&quot;62ca2c4d1c807d0023d5d00d&quot;,&quot;createdAt&quot;:&quot;2022-07-01T02:28:29.614Z&quot;,&quot;parentDoc&quot;:null,&quot;icon&quot;:&quot;&quot;,&quot;isBodyEmpty&quot;:false,&quot;children&quot;:[{&quot;_id&quot;:&quot;62cb361c8fb5fd01707a97ba&quot;,&quot;api&quot;:{&quot;method&quot;:&quot;get&quot;,&quot;url&quot;:&quot;&quot;,&quot;auth&quot;:&quot;required&quot;,&quot;results&quot;:{&quot;codes&quot;:[{&quot;name&quot;:&quot;&quot;,&quot;code&quot;:&quot;{}&quot;,&quot;language&quot;:&quot;json&quot;,&quot;status&quot;:200},{&quot;name&quot;:&quot;&quot;,&quot;code&quot;:&quot;{}&quot;,&quot;language&quot;:&quot;json&quot;,&quot;status&quot;:400}]},&quot;params&quot;:[]},&quot;title&quot;:&quot;Detecting Glow&quot;,&quot;type&quot;:&quot;basic&quot;,&quot;slug&quot;:&quot;detecting-glow&quot;,&quot;order&quot;:0,&quot;isReference&quot;:false,&quot;deprecated&quot;:false,&quot;hidden&quot;:false,&quot;sync_unique&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;,&quot;link_external&quot;:false,&quot;previousSlug&quot;:&quot;&quot;,&quot;createdAt&quot;:&quot;2022-07-10T20:27:08.766Z&quot;,&quot;parentDoc&quot;:&quot;62be5bcdafb3b100e88d13be&quot;,&quot;category&quot;:&quot;62ca2c4d1c807d0023d5d00d&quot;,&quot;icon&quot;:&quot;&quot;,&quot;isBodyEmpty&quot;:false,&quot;children&quot;:[]},{&quot;_id&quot;:&quot;62ca2d25465b8f00894c70b5&quot;,&quot;api&quot;:{&quot;method&quot;:&quot;get&quot;,&quot;url&quot;:&quot;&quot;,&quot;auth&quot;:&quot;required&quot;,&quot;results&quot;:{&quot;codes&quot;:[{&quot;name&quot;:&quot;&quot;,&quot;code&quot;:&quot;{}&quot;,&quot;language&quot;:&quot;json&quot;,&quot;status&quot;:200},{&quot;name&quot;:&quot;&quot;,&quot;code&quot;:&quot;{}&quot;,&quot;language&quot;:&quot;json&quot;,&quot;status&quot;:400}]},&quot;params&quot;:[]},&quot;title&quot;:&quot;Connecting and Signing In&quot;,&quot;type&quot;:&quot;basic&quot;,&quot;slug&quot;:&quot;connecting-signing-in&quot;,&quot;order&quot;:1,&quot;isReference&quot;:false,&quot;deprecated&quot;:false,&quot;hidden&quot;:false,&quot;sync_unique&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;,&quot;link_external&quot;:false,&quot;previousSlug&quot;:&quot;sign-in-with-glow&quot;,&quot;createdAt&quot;:&quot;2022-07-10T01:36:37.447Z&quot;,&quot;parentDoc&quot;:&quot;62be5bcdafb3b100e88d13be&quot;,&quot;category&quot;:&quot;62ca2c4d1c807d0023d5d00d&quot;,&quot;icon&quot;:&quot;&quot;,&quot;isBodyEmpty&quot;:false,&quot;children&quot;:[]},{&quot;_id&quot;:&quot;633215e708532f0026572281&quot;,&quot;api&quot;:{&quot;method&quot;:&quot;get&quot;,&quot;url&quot;:&quot;&quot;,&quot;auth&quot;:&quot;required&quot;,&quot;results&quot;:{&quot;codes&quot;:[{&quot;name&quot;:&quot;&quot;,&quot;code&quot;:&quot;{}&quot;,&quot;language&quot;:&quot;json&quot;,&quot;status&quot;:200},{&quot;name&quot;:&quot;&quot;,&quot;code&quot;:&quot;{}&quot;,&quot;language&quot;:&quot;json&quot;,&quot;status&quot;:400}]},&quot;params&quot;:[]},&quot;title&quot;:&quot;Signing Messages&quot;,&quot;icon&quot;:&quot;&quot;,&quot;type&quot;:&quot;basic&quot;,&quot;slug&quot;:&quot;signing-messages&quot;,&quot;order&quot;:2,&quot;isReference&quot;:false,&quot;deprecated&quot;:false,&quot;hidden&quot;:false,&quot;sync_unique&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;,&quot;link_external&quot;:false,&quot;previousSlug&quot;:&quot;&quot;,&quot;createdAt&quot;:&quot;2022-09-26T21:13:11.109Z&quot;,&quot;parentDoc&quot;:&quot;62be5bcdafb3b100e88d13be&quot;,&quot;category&quot;:&quot;62ca2c4d1c807d0023d5d00d&quot;,&quot;isBodyEmpty&quot;:false,&quot;children&quot;:[]},{&quot;_id&quot;:&quot;62cb5a51d1b36800af6d8124&quot;,&quot;api&quot;:{&quot;method&quot;:&quot;get&quot;,&quot;url&quot;:&quot;&quot;,&quot;auth&quot;:&quot;required&quot;,&quot;results&quot;:{&quot;codes&quot;:[{&quot;name&quot;:&quot;&quot;,&quot;code&quot;:&quot;{}&quot;,&quot;language&quot;:&quot;json&quot;,&quot;status&quot;:200},{&quot;name&quot;:&quot;&quot;,&quot;code&quot;:&quot;{}&quot;,&quot;language&quot;:&quot;json&quot;,&quot;status&quot;:400}]},&quot;params&quot;:[]},&quot;title&quot;:&quot;Executing Transactions&quot;,&quot;type&quot;:&quot;basic&quot;,&quot;slug&quot;:&quot;executing-transactions&quot;,&quot;order&quot;:3,&quot;isReference&quot;:false,&quot;deprecated&quot;:false,&quot;hidden&quot;:false,&quot;sync_unique&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;,&quot;link_external&quot;:false,&quot;previousSlug&quot;:&quot;&quot;,&quot;createdAt&quot;:&quot;2022-07-10T23:01:37.149Z&quot;,&quot;parentDoc&quot;:&quot;62be5bcdafb3b100e88d13be&quot;,&quot;category&quot;:&quot;62ca2c4d1c807d0023d5d00d&quot;,&quot;icon&quot;:&quot;&quot;,&quot;isBodyEmpty&quot;:false,&quot;children&quot;:[]}]},{&quot;_id&quot;:&quot;634651a0a0fd2f009cd70c43&quot;,&quot;api&quot;:{&quot;method&quot;:&quot;get&quot;,&quot;url&quot;:&quot;&quot;,&quot;auth&quot;:&quot;required&quot;,&quot;results&quot;:{&quot;codes&quot;:[{&quot;name&quot;:&quot;&quot;,&quot;code&quot;:&quot;{}&quot;,&quot;language&quot;:&quot;json&quot;,&quot;status&quot;:200},{&quot;name&quot;:&quot;&quot;,&quot;code&quot;:&quot;{}&quot;,&quot;language&quot;:&quot;json&quot;,&quot;status&quot;:400}]},&quot;params&quot;:[]},&quot;title&quot;:&quot;Glow ID&quot;,&quot;icon&quot;:&quot;&quot;,&quot;type&quot;:&quot;basic&quot;,&quot;slug&quot;:&quot;glow-id&quot;,&quot;order&quot;:999,&quot;isReference&quot;:false,&quot;deprecated&quot;:false,&quot;hidden&quot;:false,&quot;sync_unique&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;,&quot;link_external&quot;:false,&quot;previousSlug&quot;:&quot;&quot;,&quot;createdAt&quot;:&quot;2022-10-12T05:33:20.069Z&quot;,&quot;category&quot;:&quot;62ca2c4d1c807d0023d5d00d&quot;,&quot;isBodyEmpty&quot;:false,&quot;children&quot;:[{&quot;_id&quot;:&quot;634652c1f4502b00a67c8b35&quot;,&quot;api&quot;:{&quot;method&quot;:&quot;get&quot;,&quot;url&quot;:&quot;&quot;,&quot;auth&quot;:&quot;required&quot;,&quot;results&quot;:{&quot;codes&quot;:[{&quot;name&quot;:&quot;&quot;,&quot;code&quot;:&quot;{}&quot;,&quot;language&quot;:&quot;json&quot;,&quot;status&quot;:200},{&quot;name&quot;:&quot;&quot;,&quot;code&quot;:&quot;{}&quot;,&quot;language&quot;:&quot;json&quot;,&quot;status&quot;:400}]},&quot;params&quot;:[]},&quot;title&quot;:&quot;Registering for Glow ID&quot;,&quot;icon&quot;:&quot;&quot;,&quot;type&quot;:&quot;basic&quot;,&quot;slug&quot;:&quot;registering-for-glow-id&quot;,&quot;order&quot;:999,&quot;isReference&quot;:false,&quot;deprecated&quot;:false,&quot;hidden&quot;:false,&quot;sync_unique&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;,&quot;link_external&quot;:false,&quot;previousSlug&quot;:&quot;&quot;,&quot;createdAt&quot;:&quot;2022-10-12T05:38:09.844Z&quot;,&quot;parentDoc&quot;:&quot;634651a0a0fd2f009cd70c43&quot;,&quot;category&quot;:&quot;62ca2c4d1c807d0023d5d00d&quot;,&quot;isBodyEmpty&quot;:false,&quot;children&quot;:[]},{&quot;_id&quot;:&quot;634655eef5d249010223aeee&quot;,&quot;api&quot;:{&quot;method&quot;:&quot;get&quot;,&quot;url&quot;:&quot;&quot;,&quot;auth&quot;:&quot;required&quot;,&quot;results&quot;:{&quot;codes&quot;:[{&quot;name&quot;:&quot;&quot;,&quot;code&quot;:&quot;{}&quot;,&quot;language&quot;:&quot;json&quot;,&quot;status&quot;:200},{&quot;name&quot;:&quot;&quot;,&quot;code&quot;:&quot;{}&quot;,&quot;language&quot;:&quot;json&quot;,&quot;status&quot;:400}]},&quot;params&quot;:[]},&quot;title&quot;:&quot;Resolve Glow ID via Chain&quot;,&quot;icon&quot;:&quot;&quot;,&quot;type&quot;:&quot;basic&quot;,&quot;slug&quot;:&quot;resolving-glow-id&quot;,&quot;order&quot;:999,&quot;isReference&quot;:false,&quot;deprecated&quot;:false,&quot;hidden&quot;:false,&quot;sync_unique&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;,&quot;link_external&quot;:false,&quot;previousSlug&quot;:&quot;&quot;,&quot;createdAt&quot;:&quot;2022-10-12T05:51:42.844Z&quot;,&quot;parentDoc&quot;:&quot;634651a0a0fd2f009cd70c43&quot;,&quot;category&quot;:&quot;62ca2c4d1c807d0023d5d00d&quot;,&quot;isBodyEmpty&quot;:false,&quot;children&quot;:[]},{&quot;_id&quot;:&quot;6346eb309b533a00241e0adc&quot;,&quot;api&quot;:{&quot;method&quot;:&quot;get&quot;,&quot;url&quot;:&quot;&quot;,&quot;auth&quot;:&quot;required&quot;,&quot;results&quot;:{&quot;codes&quot;:[{&quot;name&quot;:&quot;&quot;,&quot;code&quot;:&quot;{}&quot;,&quot;language&quot;:&quot;json&quot;,&quot;status&quot;:200},{&quot;name&quot;:&quot;&quot;,&quot;code&quot;:&quot;{}&quot;,&quot;language&quot;:&quot;json&quot;,&quot;status&quot;:400}]},&quot;params&quot;:[]},&quot;title&quot;:&quot;Resolve Glow ID via API&quot;,&quot;icon&quot;:&quot;&quot;,&quot;type&quot;:&quot;basic&quot;,&quot;slug&quot;:&quot;resolve-glow-id-via-api&quot;,&quot;order&quot;:999,&quot;isReference&quot;:false,&quot;deprecated&quot;:false,&quot;hidden&quot;:false,&quot;sync_unique&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;,&quot;link_external&quot;:false,&quot;previousSlug&quot;:&quot;&quot;,&quot;createdAt&quot;:&quot;2022-10-12T16:28:32.295Z&quot;,&quot;parentDoc&quot;:&quot;634651a0a0fd2f009cd70c43&quot;,&quot;category&quot;:&quot;62ca2c4d1c807d0023d5d00d&quot;,&quot;isBodyEmpty&quot;:false,&quot;children&quot;:[]}]}]}],&quot;refs&quot;:[{&quot;_id&quot;:&quot;6346ebc3af3be3005af04016&quot;,&quot;title&quot;:&quot;Glow ID API&quot;,&quot;slug&quot;:&quot;glow-id-api&quot;,&quot;order&quot;:9999,&quot;reference&quot;:true,&quot;project&quot;:&quot;62be5bcaafb3b100e88d13b4&quot;,&quot;version&quot;:&quot;62be5bcbafb3b100e88d13b9&quot;,&quot;createdAt&quot;:&quot;2022-10-12T16:30:59.052Z&quot;,&quot;__v&quot;:0,&quot;pages&quot;:[{&quot;_id&quot;:&quot;6346ec805ceb19000f18324f&quot;,&quot;api&quot;:{&quot;method&quot;:&quot;get&quot;,&quot;url&quot;:&quot;/glow-id/resolve&quot;,&quot;auth&quot;:&quot;never&quot;,&quot;results&quot;:{&quot;codes&quot;:[{&quot;name&quot;:&quot;&quot;,&quot;code&quot;:&quot;{\n  \&quot;info\&quot;: {\n    \&quot;url\&quot;: \&quot;https://cdn.glow.app/g/cy/e3462w2jim.json\&quot;,\n    \&quot;name\&quot;: \&quot;Victor P\&quot;,\n    \&quot;image\&quot;: \&quot;https://cdn.glow.app/g/7z/40bc4c8e-34a4-4e6c-a022-a1a240e0af41\&quot;,\n    \&quot;bio\&quot;: \&quot;I’m a cofounder of Glow. \&quot;,\n    \&quot;handle\&quot;: \&quot;victor\&quot;,\n    \&quot;metadata_url\&quot;: \&quot;https://cdn.glow.app/g/cy/e3462w2jim.json\&quot;,\n    \&quot;resolved\&quot;: \&quot;vicFprL4kcqWTykrdz6icjv2re4CbM5iq3aHtoJmxrh\&quot;,\n    \&quot;joined_at\&quot;: \&quot;2022-06-18T02:35:10.000Z\&quot;,\n    \&quot;collection\&quot;: \&quot;22uE1g7t1JdmqNoz32cTV2xAW4sA5XoWKqz3Mgmjpp37\&quot;,\n    \&quot;twitter\&quot;: \&quot;victorpontis\&quot;,\n    \&quot;invited_by_handle\&quot;: \&quot;gm\&quot;\n  }\n}&quot;,&quot;language&quot;:&quot;json&quot;,&quot;status&quot;:200},{&quot;name&quot;:&quot;&quot;,&quot;code&quot;:&quot;{}&quot;,&quot;language&quot;:&quot;json&quot;,&quot;status&quot;:400}]},&quot;params&quot;:[{&quot;name&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;string&quot;,&quot;enumValues&quot;:&quot;&quot;,&quot;default&quot;:&quot;&quot;,&quot;desc&quot;:&quot;The handle of the Glow ID you want to look up.&quot;,&quot;required&quot;:false,&quot;in&quot;:&quot;query&quot;,&quot;ref&quot;:&quot;&quot;,&quot;_id&quot;:&quot;6346ec805ceb19000f183251&quot;},{&quot;name&quot;:&quot;wallet&quot;,&quot;type&quot;:&quot;string&quot;,&quot;enumValues&quot;:&quot;&quot;,&quot;default&quot;:&quot;&quot;,&quot;desc&quot;:&quot;The wallet of the Glow ID to look up. You should pass either wallet or handle.&quot;,&quot;required&quot;:false,&quot;in&quot;:&quot;query&quot;,&quot;ref&quot;:&quot;&quot;,&quot;_id&quot;:&quot;6346ec805ceb19000f183250&quot;}],&quot;examples&quot;:{&quot;codes&quot;:[]},&quot;apiSetting&quot;:&quot;6346ebc3af3be3005af04014&quot;},&quot;title&quot;:&quot;Resolve Glow ID&quot;,&quot;icon&quot;:&quot;&quot;,&quot;type&quot;:&quot;endpoint&quot;,&quot;slug&quot;:&quot;resolve-glow-id&quot;,&quot;order&quot;:999,&quot;isReference&quot;:true,&quot;deprecated&quot;:false,&quot;hidden&quot;:false,&quot;sync_unique&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;,&quot;link_external&quot;:false,&quot;previousSlug&quot;:&quot;&quot;,&quot;createdAt&quot;:&quot;2022-10-12T16:34:08.514Z&quot;,&quot;category&quot;:&quot;6346ebc3af3be3005af04016&quot;,&quot;isBodyEmpty&quot;:true,&quot;children&quot;:[]}]}]},&quot;activeDoc&quot;:&quot;getting-started&quot;,&quot;rdmd&quot;:{&quot;baseUrl&quot;:&quot;/&quot;,&quot;body&quot;:&quot;## About Glow\n\nGlow is a non-custodial crypto wallet for the Solana blockchain.\n\nGlow is available as a browser extension, an iOS app, and an Android app. With the iOS app, Glow includes a mobile Safari extension that lets users interact with applications right from the Safari browser. For Android, a browser is built into the app.\n\nAs a developer, you can use the same JavaScript SDK to integrate your site with Glow across all platforms.\n\n## Installing the SDK\n\nThe library can be installed via `npm` or `yarn`:\n[block:code]\n{\n  \&quot;codes\&quot;: [\n    {\n      \&quot;code\&quot;: \&quot;# Using npm\\nnpm install @glow-xyz/glow-client\\n\\n# Using yarn\\nyarn add @glow-xyz/glow-client\&quot;,\n      \&quot;language\&quot;: \&quot;shell\&quot;\n    }\n  ]\n}\n[/block]\nIn addition, a React wrapper is provided, which helpful if you are building a React app. To install, run:\n[block:code]\n{\n  \&quot;codes\&quot;: [\n    {\n      \&quot;code\&quot;: \&quot;# Using npm\\nnpm install @glow-xyz/glow-react\\n\\n# Using yarn\\nyarn add @glow-xyz/glow-react\&quot;,\n      \&quot;language\&quot;: \&quot;shell\&quot;\n    }\n  ]\n}\n[/block]\n## Getting Started\n\nOnce you install the library, you are ready to connect your site to Glow. \n\nTo do so, first detect whether the user has Glow installed. Then, prompt the user to sign in with Glow so that you can connect to the wallet, authenticate the user, and be ready to perform actions. Finally, use the connection to execute transactions or sign messages.&quot;,&quot;opts&quot;:{&quot;alwaysThrow&quot;:false,&quot;compatibilityMode&quot;:false,&quot;copyButtons&quot;:true,&quot;correctnewlines&quot;:false,&quot;markdownOptions&quot;:{&quot;fences&quot;:true,&quot;commonmark&quot;:true,&quot;gfm&quot;:true,&quot;ruleSpaces&quot;:false,&quot;listItemIndent&quot;:&quot;1&quot;,&quot;spacedTable&quot;:true,&quot;paddedTable&quot;:true},&quot;normalize&quot;:true,&quot;lazyImages&quot;:true,&quot;reusableContent&quot;:{&quot;tags&quot;:{},&quot;wrap&quot;:false},&quot;safeMode&quot;:false,&quot;settings&quot;:{&quot;position&quot;:true},&quot;theme&quot;:&quot;light&quot;,&quot;mdx&quot;:false,&quot;resourceID&quot;:&quot;62be5bcdafb3b100e88d13be&quot;,&quot;resourceType&quot;:&quot;page&quot;,&quot;baseUrl&quot;:&quot;/&quot;,&quot;terms&quot;:[{&quot;_id&quot;:&quot;62be5bcaafb3b100e88d13b5&quot;,&quot;term&quot;:&quot;parliament&quot;,&quot;definition&quot;:&quot;Owls are generally solitary, but when seen together the group is called a 'parliament'!&quot;}],&quot;variables&quot;:{&quot;user&quot;:{},&quot;defaults&quot;:[]}},&quot;terms&quot;:[{&quot;_id&quot;:&quot;62be5bcaafb3b100e88d13b5&quot;,&quot;term&quot;:&quot;parliament&quot;,&quot;definition&quot;:&quot;Owls are generally solitary, but when seen together the group is called a 'parliament'!&quot;}],&quot;variables&quot;:{&quot;user&quot;:{},&quot;defaults&quot;:[]},&quot;mdx&quot;:false,&quot;dehydrated&quot;:{&quot;toc&quot;:&quot;<nav><ul class=\&quot;toc-list\&quot;><li><a class=\&quot;tocHeader\&quot; href=\&quot;#\&quot;><i class=\&quot;icon icon-text-align-left\&quot;></i>Table of Contents</a></li><li class=\&quot;toc-children\&quot;><ul>\n<li><a href=\&quot;#about-glow\&quot;>About Glow</a></li>\n<li><a href=\&quot;#installing-the-sdk\&quot;>Installing the SDK</a></li>\n<li><a href=\&quot;#getting-started\&quot;>Getting Started</a></li>\n</ul></li></ul></nav>&quot;,&quot;body&quot;:&quot;<h2 class=\&quot;heading heading-2 header-scroll\&quot; align=\&quot;\&quot;><div class=\&quot;heading-anchor anchor waypoint\&quot; id=\&quot;about-glow\&quot;></div><div class=\&quot;heading-text\&quot;><div id=\&quot;section-about-glow\&quot; class=\&quot;heading-anchor_backwardsCompatibility\&quot;></div>About Glow</div><a aria-label=\&quot;Skip link to About Glow\&quot; class=\&quot;heading-anchor-icon fa fa-anchor\&quot; href=\&quot;#about-glow\&quot;></a></h2>\n<p>Glow is a non-custodial crypto wallet for the Solana blockchain.</p>\n<p>Glow is available as a browser extension, an iOS app, and an Android app. With the iOS app, Glow includes a mobile Safari extension that lets users interact with applications right from the Safari browser. For Android, a browser is built into the app.</p>\n<p>As a developer, you can use the same JavaScript SDK to integrate your site with Glow across all platforms.</p>\n<h2 class=\&quot;heading heading-2 header-scroll\&quot; align=\&quot;\&quot;><div class=\&quot;heading-anchor anchor waypoint\&quot; id=\&quot;installing-the-sdk\&quot;></div><div class=\&quot;heading-text\&quot;><div id=\&quot;section-installing-the-sdk\&quot; class=\&quot;heading-anchor_backwardsCompatibility\&quot;></div>Installing the SDK</div><a aria-label=\&quot;Skip link to Installing the SDK\&quot; class=\&quot;heading-anchor-icon fa fa-anchor\&quot; href=\&quot;#installing-the-sdk\&quot;></a></h2>\n<p>The library can be installed via <button aria-label=\&quot;Copy Code\&quot; class=\&quot;rdmd-code-copy fa\&quot;></button><code class=\&quot;rdmd-code lang- theme-light\&quot; data-lang=\&quot;\&quot; name=\&quot;\&quot; tabindex=\&quot;0\&quot;>npm</code> or <button aria-label=\&quot;Copy Code\&quot; class=\&quot;rdmd-code-copy fa\&quot;></button><code class=\&quot;rdmd-code lang- theme-light\&quot; data-lang=\&quot;\&quot; name=\&quot;\&quot; tabindex=\&quot;0\&quot;>yarn</code>:</p>\n<div class=\&quot;CodeTabs CodeTabs_initial theme-light\&quot;><div class=\&quot;CodeTabs-toolbar\&quot; role=\&quot;tablist\&quot;><button aria-selected=\&quot;true\&quot; class=\&quot;CodeTabs_active\&quot; role=\&quot;tab\&quot; type=\&quot;button\&quot;>Shell</button></div><div class=\&quot;CodeTabs-inner\&quot; role=\&quot;tabpanel\&quot;><pre><button aria-label=\&quot;Copy Code\&quot; class=\&quot;rdmd-code-copy fa\&quot;></button><code class=\&quot;rdmd-code lang-shell theme-light\&quot; data-lang=\&quot;shell\&quot; name=\&quot;\&quot; tabindex=\&quot;0\&quot;># Using npm\nnpm install @glow-xyz/glow-client\n\n# Using yarn\nyarn add @glow-xyz/glow-client\n</code></pre></div></div>\n<p>In addition, a React wrapper is provided, which helpful if you are building a React app. To install, run:</p>\n<div class=\&quot;CodeTabs CodeTabs_initial theme-light\&quot;><div class=\&quot;CodeTabs-toolbar\&quot; role=\&quot;tablist\&quot;><button aria-selected=\&quot;true\&quot; class=\&quot;CodeTabs_active\&quot; role=\&quot;tab\&quot; type=\&quot;button\&quot;>Shell</button></div><div class=\&quot;CodeTabs-inner\&quot; role=\&quot;tabpanel\&quot;><pre><button aria-label=\&quot;Copy Code\&quot; class=\&quot;rdmd-code-copy fa\&quot;></button><code class=\&quot;rdmd-code lang-shell theme-light\&quot; data-lang=\&quot;shell\&quot; name=\&quot;\&quot; tabindex=\&quot;0\&quot;># Using npm\nnpm install @glow-xyz/glow-react\n\n# Using yarn\nyarn add @glow-xyz/glow-react\n</code></pre></div></div>\n<h2 class=\&quot;heading heading-2 header-scroll\&quot; align=\&quot;\&quot;><div class=\&quot;heading-anchor anchor waypoint\&quot; id=\&quot;getting-started\&quot;></div><div class=\&quot;heading-text\&quot;><div id=\&quot;section-getting-started\&quot; class=\&quot;heading-anchor_backwardsCompatibility\&quot;></div>Getting Started</div><a aria-label=\&quot;Skip link to Getting Started\&quot; class=\&quot;heading-anchor-icon fa fa-anchor\&quot; href=\&quot;#getting-started\&quot;></a></h2>\n<p>Once you install the library, you are ready to connect your site to Glow. </p>\n<p>To do so, first detect whether the user has Glow installed. Then, prompt the user to sign in with Glow so that you can connect to the wallet, authenticate the user, and be ready to perform actions. Finally, use the connection to execute transactions or sign messages.</p>&quot;}},&quot;doc&quot;:{&quot;metadata&quot;:{&quot;image&quot;:[],&quot;title&quot;:&quot;&quot;,&quot;description&quot;:&quot;&quot;,&quot;keywords&quot;:&quot;&quot;,&quot;robots&quot;:&quot;index&quot;},&quot;api&quot;:{&quot;method&quot;:&quot;get&quot;,&quot;url&quot;:&quot;&quot;,&quot;auth&quot;:&quot;required&quot;,&quot;params&quot;:[],&quot;results&quot;:{&quot;codes&quot;:[{&quot;name&quot;:&quot;&quot;,&quot;code&quot;:&quot;{}&quot;,&quot;language&quot;:&quot;json&quot;,&quot;status&quot;:200},{&quot;name&quot;:&quot;&quot;,&quot;code&quot;:&quot;{}&quot;,&quot;language&quot;:&quot;json&quot;,&quot;status&quot;:400}]}},&quot;next&quot;:{&quot;description&quot;:&quot;&quot;,&quot;pages&quot;:[]},&quot;algolia&quot;:{&quot;recordCount&quot;:1,&quot;publishPending&quot;:false,&quot;translationFailure&quot;:false},&quot;title&quot;:&quot;Glow Javascript SDK&quot;,&quot;icon&quot;:&quot;&quot;,&quot;updates&quot;:[],&quot;type&quot;:&quot;basic&quot;,&quot;slug&quot;:&quot;getting-started&quot;,&quot;excerpt&quot;:&quot;Integrate your site with Glow wallet.&quot;,&quot;body&quot;:&quot;## About Glow\n\nGlow is a non-custodial crypto wallet for the Solana blockchain.\n\nGlow is available as a browser extension, an iOS app, and an Android app. With the iOS app, Glow includes a mobile Safari extension that lets users interact with applications right from the Safari browser. For Android, a browser is built into the app.\n\nAs a developer, you can use the same JavaScript SDK to integrate your site with Glow across all platforms.\n\n## Installing the SDK\n\nThe library can be installed via `npm` or `yarn`:\n[block:code]\n{\n  \&quot;codes\&quot;: [\n    {\n      \&quot;code\&quot;: \&quot;# Using npm\\nnpm install @glow-xyz/glow-client\\n\\n# Using yarn\\nyarn add @glow-xyz/glow-client\&quot;,\n      \&quot;language\&quot;: \&quot;shell\&quot;\n    }\n  ]\n}\n[/block]\nIn addition, a React wrapper is provided, which helpful if you are building a React app. To install, run:\n[block:code]\n{\n  \&quot;codes\&quot;: [\n    {\n      \&quot;code\&quot;: \&quot;# Using npm\\nnpm install @glow-xyz/glow-react\\n\\n# Using yarn\\nyarn add @glow-xyz/glow-react\&quot;,\n      \&quot;language\&quot;: \&quot;shell\&quot;\n    }\n  ]\n}\n[/block]\n## Getting Started\n\nOnce you install the library, you are ready to connect your site to Glow. \n\nTo do so, first detect whether the user has Glow installed. Then, prompt the user to sign in with Glow so that you can connect to the wallet, authenticate the user, and be ready to perform actions. Finally, use the connection to execute transactions or sign messages.&quot;,&quot;order&quot;:0,&quot;isReference&quot;:false,&quot;deprecated&quot;:false,&quot;hidden&quot;:false,&quot;sync_unique&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;,&quot;link_external&quot;:false,&quot;reusableContent&quot;:[],&quot;previousSlug&quot;:&quot;&quot;,&quot;slugUpdatedAt&quot;:&quot;2022-06-30T18:31:55.413Z&quot;,&quot;revision&quot;:2,&quot;_id&quot;:&quot;62be5bcdafb3b100e88d13be&quot;,&quot;pendingAlgoliaPublish&quot;:false,&quot;user&quot;:&quot;62be5ba2ffe1a30013a6565d&quot;,&quot;project&quot;:&quot;62be5bcaafb3b100e88d13b4&quot;,&quot;category&quot;:{&quot;title&quot;:&quot;Integrating with Glow&quot;,&quot;slug&quot;:&quot;javascript-sdk&quot;,&quot;order&quot;:0,&quot;reference&quot;:false,&quot;_id&quot;:&quot;62ca2c4d1c807d0023d5d00d&quot;,&quot;project&quot;:&quot;62be5bcaafb3b100e88d13b4&quot;,&quot;version&quot;:&quot;62be5bcbafb3b100e88d13b9&quot;,&quot;createdAt&quot;:&quot;2022-07-10T01:33:01.214Z&quot;,&quot;__v&quot;:0,&quot;type&quot;:&quot;guide&quot;,&quot;id&quot;:&quot;62ca2c4d1c807d0023d5d00d&quot;},&quot;createdAt&quot;:&quot;2022-07-01T02:28:29.614Z&quot;,&quot;updatedAt&quot;:&quot;2022-09-22T15:45:07.887Z&quot;,&quot;version&quot;:{&quot;version&quot;:&quot;1.0&quot;,&quot;version_clean&quot;:&quot;1.0.0&quot;,&quot;codename&quot;:&quot;&quot;,&quot;is_stable&quot;:true,&quot;is_beta&quot;:false,&quot;is_hidden&quot;:false,&quot;is_deprecated&quot;:false,&quot;categories&quot;:[&quot;62be5bcdafb3b100e88d13bb&quot;,&quot;62be5bcdafb3b100e88d13bb&quot;,&quot;62ca2c4d1c807d0023d5d00d&quot;,&quot;634650ad2392d8000fe10c94&quot;,&quot;6346ebc3af3be3005af04016&quot;,&quot;6376bf66127d990003174c57&quot;],&quot;_id&quot;:&quot;62be5bcbafb3b100e88d13b9&quot;,&quot;project&quot;:&quot;62be5bcaafb3b100e88d13b4&quot;,&quot;releaseDate&quot;:&quot;2022-07-01T02:28:27.340Z&quot;,&quot;createdAt&quot;:&quot;2022-07-01T02:28:27.340Z&quot;,&quot;__v&quot;:1},&quot;__v&quot;:3,&quot;parentDoc&quot;:null,&quot;isApi&quot;:false,&quot;tutorials&quot;:[],&quot;id&quot;:&quot;62be5bcdafb3b100e88d13be&quot;},&quot;hideTOC&quot;:false,&quot;meta&quot;:{&quot;slug&quot;:&quot;getting-started&quot;,&quot;type&quot;:&quot;docs&quot;,&quot;parent&quot;:null,&quot;image&quot;:[],&quot;title&quot;:&quot;Glow Javascript SDK&quot;,&quot;metaTitle&quot;:&quot;Glow Javascript SDK&quot;,&quot;description&quot;:&quot;Integrate your site with Glow wallet.&quot;,&quot;keywords&quot;:&quot;&quot;,&quot;robots&quot;:&quot;index&quot;,&quot;_id&quot;:&quot;62be5bcdafb3b100e88d13be&quot;,&quot;hidden&quot;:false},&quot;slugUrl&quot;:&quot;/docs/getting-started&quot;,&quot;config&quot;:{&quot;algoliaIndex&quot;:&quot;readme_search_v2&quot;,&quot;amplitude&quot;:&quot;dc8065a65ef83d6ad23e37aaf014fc84&quot;,&quot;asset_url&quot;:&quot;https://cdn.readme.io&quot;,&quot;domain&quot;:&quot;readme.io&quot;,&quot;domainFull&quot;:&quot;https://dash.readme.com&quot;,&quot;encryptedLocalStorageKey&quot;:&quot;ekfls-2024-05&quot;,&quot;fullstory&quot;:{&quot;enabled&quot;:true},&quot;metrics&quot;:{&quot;dashUrl&quot;:&quot;https://m.readme.io&quot;,&quot;defaultUrl&quot;:&quot;https://metrics.readme.io&quot;,&quot;exportMaxRetries&quot;:12,&quot;wsUrl&quot;:&quot;wss://m.readme.io&quot;},&quot;readmeRecaptchaSiteKey&quot;:&quot;6LesVBYpAAAAAESOCHOyo2kF9SZXPVb54Nwf3i2x&quot;,&quot;releaseVersion&quot;:&quot;5.82.0&quot;,&quot;sentry&quot;:{&quot;dsn&quot;:&quot;https://3bbe57a973254129bcb93e47dc0cc46f@o343074.ingest.sentry.io/2052166&quot;,&quot;enabled&quot;:true,&quot;tracesSampleRate&quot;:0},&quot;sslGenerationService&quot;:&quot;ssl.readmessl.com&quot;,&quot;stripePk&quot;:&quot;pk_live_5103PML2qXbDukVh7GDAkQoR4NSuLqy8idd5xtdm9407XdPR6o3bo663C1ruEGhXJjpnb2YCpj8EU1UvQYanuCjtr00t1DRCf2a&quot;},&quot;context&quot;:{&quot;labs&quot;:{},&quot;user&quot;:{},&quot;terms&quot;:[{&quot;_id&quot;:&quot;62be5bcaafb3b100e88d13b5&quot;,&quot;term&quot;:&quot;parliament&quot;,&quot;definition&quot;:&quot;Owls are generally solitary, but when seen together the group is called a 'parliament'!&quot;}],&quot;variables&quot;:{&quot;user&quot;:{},&quot;defaults&quot;:[]},&quot;project&quot;:{&quot;_id&quot;:&quot;62be5bcaafb3b100e88d13b4&quot;,&quot;appearance&quot;:{&quot;rdmd&quot;:{&quot;callouts&quot;:{&quot;useIconFont&quot;:false},&quot;theme&quot;:{&quot;background&quot;:&quot;&quot;,&quot;border&quot;:&quot;&quot;,&quot;markdownEdge&quot;:&quot;&quot;,&quot;markdownFont&quot;:&quot;&quot;,&quot;markdownFontSize&quot;:&quot;&quot;,&quot;markdownLineHeight&quot;:&quot;&quot;,&quot;markdownRadius&quot;:&quot;&quot;,&quot;markdownText&quot;:&quot;&quot;,&quot;markdownTitle&quot;:&quot;&quot;,&quot;markdownTitleFont&quot;:&quot;&quot;,&quot;mdCodeBackground&quot;:&quot;&quot;,&quot;mdCodeFont&quot;:&quot;&quot;,&quot;mdCodeRadius&quot;:&quot;&quot;,&quot;mdCodeTabs&quot;:&quot;&quot;,&quot;mdCodeText&quot;:&quot;&quot;,&quot;tableEdges&quot;:&quot;&quot;,&quot;tableHead&quot;:&quot;&quot;,&quot;tableHeadText&quot;:&quot;&quot;,&quot;tableRow&quot;:&quot;&quot;,&quot;tableStripe&quot;:&quot;&quot;,&quot;tableText&quot;:&quot;&quot;,&quot;text&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;}},&quot;main_body&quot;:{&quot;type&quot;:&quot;links&quot;},&quot;colors&quot;:{&quot;highlight&quot;:&quot;&quot;,&quot;main&quot;:&quot;#bb2dc7&quot;,&quot;main_alt&quot;:&quot;&quot;,&quot;header_text&quot;:&quot;&quot;,&quot;body_highlight&quot;:&quot;&quot;,&quot;custom_login_link_color&quot;:&quot;&quot;},&quot;typography&quot;:{&quot;headline&quot;:&quot;Open+Sans:400:sans-serif&quot;,&quot;body&quot;:&quot;Open+Sans:400:sans-serif&quot;,&quot;typekit&quot;:false,&quot;tk_key&quot;:&quot;&quot;,&quot;tk_headline&quot;:&quot;&quot;,&quot;tk_body&quot;:&quot;&quot;},&quot;header&quot;:{&quot;style&quot;:&quot;solid&quot;,&quot;img&quot;:[],&quot;img_size&quot;:&quot;auto&quot;,&quot;img_pos&quot;:&quot;tl&quot;},&quot;body&quot;:{&quot;style&quot;:&quot;none&quot;},&quot;global_landing_page&quot;:{&quot;html&quot;:&quot;&quot;,&quot;redirect&quot;:&quot;&quot;},&quot;referenceSimpleMode&quot;:true,&quot;referenceLayout&quot;:&quot;row&quot;,&quot;link_logo_to_url&quot;:true,&quot;theme&quot;:&quot;solid&quot;,&quot;overlay&quot;:&quot;circuits&quot;,&quot;landing&quot;:true,&quot;sticky&quot;:false,&quot;hide_logo&quot;:false,&quot;childrenAsPills&quot;:false,&quot;subheaderStyle&quot;:&quot;links&quot;,&quot;splitReferenceDocs&quot;:false,&quot;showMetricsInReference&quot;:true,&quot;logo&quot;:[&quot;https://files.readme.io/41e06ed-GlowIcon.svg&quot;,&quot;GlowIcon.svg&quot;,212,212,&quot;#000000&quot;],&quot;loginLogo&quot;:[],&quot;logo_white&quot;:[],&quot;logo_white_use&quot;:false,&quot;favicon&quot;:[&quot;https://files.readme.io/5934c04-small-Glow-WalletAdapter.png&quot;,&quot;Glow-WalletAdapter.png&quot;,32,32,&quot;#c369eb&quot;,&quot;https://files.readme.io/4637bcd-Glow-WalletAdapter.png&quot;],&quot;stylesheet&quot;:&quot;&quot;,&quot;stylesheet_hub2&quot;:&quot;&quot;,&quot;stylesheet_hub3&quot;:&quot;&quot;,&quot;javascript&quot;:&quot;&quot;,&quot;javascript_hub2&quot;:&quot;&quot;,&quot;html_promo&quot;:&quot;&quot;,&quot;html_body&quot;:&quot;&quot;,&quot;html_footer&quot;:&quot;&quot;,&quot;html_head&quot;:&quot;&quot;,&quot;html_footer_meta&quot;:&quot;&quot;,&quot;html_hidelinks&quot;:false,&quot;showVersion&quot;:true,&quot;hideTableOfContents&quot;:false,&quot;nextStepsLabel&quot;:&quot;&quot;,&quot;promos&quot;:[{&quot;extras&quot;:{&quot;type&quot;:&quot;buttons&quot;,&quot;buttonPrimary&quot;:&quot;get-started&quot;,&quot;buttonSecondary&quot;:&quot;none&quot;},&quot;title&quot;:&quot;The Glow Developer Hub&quot;,&quot;text&quot;:&quot;Welcome to the Glow developer hub. You'll find comprehensive guides and documentation to help you start working with Glow as quickly as possible, as well as support if you get stuck. Let's jump right in!&quot;,&quot;_id&quot;:&quot;62be5bcaafb3b100e88d13b6&quot;}],&quot;colorScheme&quot;:&quot;light&quot;,&quot;logo_large&quot;:false,&quot;changelog&quot;:{&quot;layoutExpanded&quot;:false,&quot;showAuthor&quot;:true,&quot;showExactDate&quot;:false},&quot;allowApiExplorerJsonEditor&quot;:false},&quot;custom_domain&quot;:&quot;docs.glow.app&quot;,&quot;childrenProjects&quot;:[],&quot;derivedPlan&quot;:&quot;startup2018&quot;,&quot;description&quot;:&quot;&quot;,&quot;error404&quot;:&quot;&quot;,&quot;experiments&quot;:[],&quot;first_page&quot;:&quot;landing&quot;,&quot;flags&quot;:{&quot;allow_hub2&quot;:false,&quot;enterprise&quot;:false,&quot;alwaysShowDocPublishStatus&quot;:false,&quot;hub2&quot;:true,&quot;migrationRun&quot;:false,&quot;migrationSwaggerRun&quot;:false,&quot;oauth&quot;:false,&quot;swagger&quot;:false,&quot;correctnewlines&quot;:false,&quot;rdmdCompatibilityMode&quot;:false,&quot;speedyRender&quot;:false,&quot;allowXFrame&quot;:false,&quot;newEditor&quot;:true,&quot;newEditorDash&quot;:true,&quot;reviewWorkflow&quot;:true,&quot;oldMarkdown&quot;:false,&quot;newMarkdownBetaProgram&quot;:true,&quot;useReactApp&quot;:true,&quot;disableAnonForum&quot;:false,&quot;directGoogleToStableVersion&quot;:false,&quot;translation&quot;:false,&quot;staging&quot;:false,&quot;newSearch&quot;:true,&quot;graphql&quot;:false,&quot;allowApiExplorerJsonEditor&quot;:false,&quot;singleProjectEnterprise&quot;:false,&quot;dashReact&quot;:false,&quot;useReactGLP&quot;:false,&quot;star&quot;:false,&quot;allowDarkMode&quot;:false,&quot;forceDarkMode&quot;:false,&quot;disablePasswordlessLogin&quot;:false,&quot;personalizedDocs&quot;:false,&quot;myDevelopers&quot;:false,&quot;allowReusableOTPs&quot;:false,&quot;allowUnsafeCustomHtmlSuggestionsFromNonAdmins&quot;:false,&quot;apiV2&quot;:false,&quot;customBlocks&quot;:false,&quot;disableAutoTranslate&quot;:false,&quot;disableSAMLScoping&quot;:false,&quot;git&quot;:{&quot;read&quot;:false,&quot;write&quot;:false},&quot;owlbotAi&quot;:false,&quot;superHub&quot;:false,&quot;superHubBeta&quot;:false,&quot;apiAccessRevoked&quot;:false,&quot;passwordlessLogin&quot;:&quot;default&quot;,&quot;disableSignups&quot;:false,&quot;billingRedesignEnabled&quot;:true,&quot;developerPortal&quot;:false,&quot;mdx&quot;:false,&quot;superHubDevelopment&quot;:false,&quot;annualBillingEnabled&quot;:false,&quot;devDashBillingRedesignEnabled&quot;:false},&quot;fullBaseUrl&quot;:&quot;https://docs.glow.app/&quot;,&quot;glossaryTerms&quot;:[{&quot;_id&quot;:&quot;62be5bcaafb3b100e88d13b5&quot;,&quot;term&quot;:&quot;parliament&quot;,&quot;definition&quot;:&quot;Owls are generally solitary, but when seen together the group is called a 'parliament'!&quot;}],&quot;graphqlSchema&quot;:&quot;&quot;,&quot;gracePeriod&quot;:{&quot;enabled&quot;:false,&quot;endsAt&quot;:null},&quot;shouldGateDash&quot;:false,&quot;hasOneChild&quot;:false,&quot;healthCheck&quot;:{&quot;provider&quot;:&quot;&quot;,&quot;settings&quot;:{}},&quot;intercom_secure_emailonly&quot;:false,&quot;intercom&quot;:&quot;&quot;,&quot;is_active&quot;:true,&quot;internal&quot;:&quot;&quot;,&quot;landing_bottom&quot;:[],&quot;metrics&quot;:{&quot;realtime&quot;:{&quot;dashEnabled&quot;:false,&quot;hubEnabled&quot;:false},&quot;monthlyLimit&quot;:0,&quot;planLimit&quot;:2000000,&quot;thumbsEnabled&quot;:true},&quot;modules&quot;:{&quot;landing&quot;:false,&quot;docs&quot;:true,&quot;examples&quot;:false,&quot;reference&quot;:true,&quot;graphql&quot;:false,&quot;changelog&quot;:false,&quot;discuss&quot;:false,&quot;suggested_edits&quot;:true,&quot;logs&quot;:false,&quot;custompages&quot;:false,&quot;tutorials&quot;:false},&quot;name&quot;:&quot;Glow&quot;,&quot;nav_names&quot;:{&quot;docs&quot;:&quot;&quot;,&quot;reference&quot;:&quot;&quot;,&quot;changelog&quot;:&quot;&quot;,&quot;discuss&quot;:&quot;&quot;,&quot;tutorials&quot;:&quot;&quot;,&quot;recipes&quot;:&quot;&quot;},&quot;oauth_url&quot;:&quot;&quot;,&quot;onboardingCompleted&quot;:{&quot;documentation&quot;:true,&quot;appearance&quot;:false,&quot;jwt&quot;:false,&quot;api&quot;:true,&quot;logs&quot;:false,&quot;domain&quot;:false,&quot;metricsSDK&quot;:false},&quot;owlbot&quot;:{&quot;enabled&quot;:false,&quot;isPaying&quot;:false,&quot;customization&quot;:{&quot;answerLength&quot;:&quot;long&quot;,&quot;customTone&quot;:&quot;&quot;,&quot;defaultAnswer&quot;:&quot;&quot;,&quot;forbiddenWords&quot;:&quot;&quot;,&quot;tone&quot;:&quot;neutral&quot;}},&quot;owner&quot;:{&quot;email&quot;:&quot;dan@lu.ma&quot;,&quot;name&quot;:&quot;Dan Liu&quot;},&quot;plan&quot;:&quot;startup2018&quot;,&quot;planOverride&quot;:&quot;&quot;,&quot;planSchedule&quot;:{&quot;stripeScheduleId&quot;:null,&quot;changeDate&quot;:null,&quot;nextPlan&quot;:null},&quot;planStatus&quot;:&quot;active&quot;,&quot;planTrial&quot;:&quot;startup2018&quot;,&quot;readmeScore&quot;:{&quot;components&quot;:{&quot;newDesign&quot;:{&quot;enabled&quot;:true,&quot;points&quot;:25},&quot;reference&quot;:{&quot;enabled&quot;:true,&quot;points&quot;:50},&quot;tryItNow&quot;:{&quot;enabled&quot;:true,&quot;points&quot;:35},&quot;syncingOAS&quot;:{&quot;enabled&quot;:false,&quot;points&quot;:10},&quot;customLogin&quot;:{&quot;enabled&quot;:false,&quot;points&quot;:25},&quot;metrics&quot;:{&quot;enabled&quot;:false,&quot;points&quot;:40},&quot;recipes&quot;:{&quot;enabled&quot;:false,&quot;points&quot;:15},&quot;pageVoting&quot;:{&quot;enabled&quot;:true,&quot;points&quot;:1},&quot;suggestedEdits&quot;:{&quot;enabled&quot;:true,&quot;points&quot;:10},&quot;support&quot;:{&quot;enabled&quot;:false,&quot;points&quot;:5},&quot;htmlLanding&quot;:{&quot;enabled&quot;:false,&quot;points&quot;:5},&quot;guides&quot;:{&quot;enabled&quot;:true,&quot;points&quot;:10},&quot;changelog&quot;:{&quot;enabled&quot;:false,&quot;points&quot;:5},&quot;glossary&quot;:{&quot;enabled&quot;:false,&quot;points&quot;:1},&quot;variables&quot;:{&quot;enabled&quot;:false,&quot;points&quot;:1},&quot;integrations&quot;:{&quot;enabled&quot;:false,&quot;points&quot;:2}},&quot;totalScore&quot;:131},&quot;reCaptchaSiteKey&quot;:&quot;&quot;,&quot;reference&quot;:{&quot;alwaysUseDefaults&quot;:true,&quot;defaultExpandResponseExample&quot;:false,&quot;defaultExpandResponseSchema&quot;:false},&quot;stable&quot;:{&quot;_id&quot;:&quot;62be5bcbafb3b100e88d13b9&quot;,&quot;version&quot;:&quot;1.0&quot;,&quot;version_clean&quot;:&quot;1.0.0&quot;,&quot;codename&quot;:&quot;&quot;,&quot;is_stable&quot;:true,&quot;is_beta&quot;:false,&quot;is_hidden&quot;:false,&quot;is_deprecated&quot;:false,&quot;categories&quot;:[&quot;62be5bcdafb3b100e88d13bb&quot;,&quot;62be5bcdafb3b100e88d13bb&quot;,&quot;62ca2c4d1c807d0023d5d00d&quot;,&quot;634650ad2392d8000fe10c94&quot;,&quot;6346ebc3af3be3005af04016&quot;,&quot;6376bf66127d990003174c57&quot;],&quot;project&quot;:&quot;62be5bcaafb3b100e88d13b4&quot;,&quot;releaseDate&quot;:&quot;2022-07-01T02:28:27.340Z&quot;,&quot;createdAt&quot;:&quot;2022-07-01T02:28:27.340Z&quot;,&quot;__v&quot;:1},&quot;subdomain&quot;:&quot;glowwallet&quot;,&quot;subpath&quot;:&quot;&quot;,&quot;topnav&quot;:{&quot;left&quot;:[],&quot;right&quot;:[{&quot;type&quot;:&quot;user&quot;,&quot;text&quot;:&quot;User&quot;,&quot;url&quot;:&quot;/login?redirect_uri=/docs/getting-started&quot;}],&quot;bottom&quot;:[],&quot;edited&quot;:false},&quot;trial&quot;:{&quot;trialDeadlineEnabled&quot;:true,&quot;trialEndsAt&quot;:&quot;2022-07-15T02:28:26.206Z&quot;},&quot;translate&quot;:{&quot;provider&quot;:&quot;transifex&quot;,&quot;show_widget&quot;:false,&quot;key_public&quot;:&quot;&quot;,&quot;key_secret&quot;:&quot;&quot;,&quot;org_name&quot;:&quot;&quot;,&quot;project_name&quot;:&quot;&quot;,&quot;languages&quot;:[]},&quot;url&quot;:&quot;https://glow.app&quot;,&quot;versions&quot;:[{&quot;_id&quot;:&quot;62be5bcbafb3b100e88d13b9&quot;,&quot;version&quot;:&quot;1.0&quot;,&quot;version_clean&quot;:&quot;1.0.0&quot;,&quot;codename&quot;:&quot;&quot;,&quot;is_stable&quot;:true,&quot;is_beta&quot;:false,&quot;is_hidden&quot;:false,&quot;is_deprecated&quot;:false,&quot;categories&quot;:[&quot;62be5bcdafb3b100e88d13bb&quot;,&quot;62be5bcdafb3b100e88d13bb&quot;,&quot;62ca2c4d1c807d0023d5d00d&quot;,&quot;634650ad2392d8000fe10c94&quot;,&quot;6346ebc3af3be3005af04016&quot;,&quot;6376bf66127d990003174c57&quot;],&quot;project&quot;:&quot;62be5bcaafb3b100e88d13b4&quot;,&quot;releaseDate&quot;:&quot;2022-07-01T02:28:27.340Z&quot;,&quot;createdAt&quot;:&quot;2022-07-01T02:28:27.340Z&quot;,&quot;__v&quot;:1}],&quot;variableDefaults&quot;:[],&quot;webhookEnabled&quot;:false,&quot;isHubEditable&quot;:true},&quot;projectStore&quot;:{&quot;data&quot;:{&quot;allow_crawlers&quot;:&quot;disabled&quot;,&quot;canonical_url&quot;:null,&quot;description&quot;:null,&quot;homepage_url&quot;:&quot;https://glow.app&quot;,&quot;id&quot;:&quot;62be5bcaafb3b100e88d13b4&quot;,&quot;name&quot;:&quot;Glow&quot;,&quot;redirects&quot;:[],&quot;sitemap&quot;:&quot;disabled&quot;,&quot;subdomain&quot;:&quot;glowwallet&quot;,&quot;suggested_edits&quot;:&quot;enabled&quot;,&quot;uri&quot;:&quot;/projects/me&quot;,&quot;custom_login&quot;:{&quot;login_url&quot;:null,&quot;logout_url&quot;:null},&quot;pages&quot;:{&quot;not_found&quot;:null},&quot;privacy&quot;:{&quot;view&quot;:&quot;public&quot;,&quot;password&quot;:null},&quot;reference&quot;:{&quot;defaults&quot;:&quot;always_use&quot;,&quot;response_examples&quot;:&quot;collapsed&quot;,&quot;response_schemas&quot;:&quot;collapsed&quot;},&quot;seo&quot;:{&quot;overwrite_title_tag&quot;:&quot;disabled&quot;},&quot;plan&quot;:{&quot;type&quot;:&quot;startup2018&quot;,&quot;grace_period&quot;:{&quot;enabled&quot;:false,&quot;end_date&quot;:null},&quot;trial&quot;:{&quot;expired&quot;:false,&quot;end_date&quot;:&quot;2022-07-15T02:28:26.206Z&quot;}},&quot;health_check&quot;:{&quot;provider&quot;:&quot;none&quot;,&quot;settings&quot;:{&quot;manual&quot;:{&quot;status&quot;:&quot;down&quot;,&quot;url&quot;:null},&quot;statuspage&quot;:{&quot;id&quot;:null}}},&quot;integrations&quot;:{&quot;bing&quot;:{&quot;verify&quot;:null},&quot;google&quot;:{&quot;analytics&quot;:null,&quot;site_verification&quot;:null},&quot;heap&quot;:{&quot;id&quot;:null},&quot;koala&quot;:{&quot;key&quot;:null},&quot;localize&quot;:{&quot;key&quot;:null},&quot;recaptcha&quot;:{&quot;site_key&quot;:null,&quot;secret_key&quot;:null},&quot;segment&quot;:{&quot;key&quot;:null,&quot;domain&quot;:null},&quot;typekit&quot;:{&quot;key&quot;:null},&quot;zendesk&quot;:{&quot;subdomain&quot;:null},&quot;intercom&quot;:{&quot;app_id&quot;:null,&quot;secure_mode&quot;:{&quot;key&quot;:null,&quot;email_only&quot;:false}}},&quot;permissions&quot;:{&quot;appearance&quot;:{&quot;private_label&quot;:&quot;disabled&quot;,&quot;custom_code&quot;:{&quot;css&quot;:&quot;disabled&quot;,&quot;html&quot;:&quot;enabled&quot;,&quot;js&quot;:&quot;disabled&quot;}}},&quot;appearance&quot;:{&quot;brand&quot;:{&quot;primary_color&quot;:&quot;#bb2dc7&quot;,&quot;link_color&quot;:null,&quot;theme&quot;:&quot;light&quot;},&quot;changelog&quot;:{&quot;layout&quot;:&quot;collapsed&quot;,&quot;show_author&quot;:true,&quot;show_exact_date&quot;:false},&quot;explorer&quot;:{&quot;json_editor&quot;:&quot;disabled&quot;},&quot;markdown&quot;:{&quot;callouts&quot;:{&quot;icon_font&quot;:&quot;emojis&quot;}},&quot;table_of_contents&quot;:&quot;enabled&quot;,&quot;whats_next_label&quot;:null,&quot;footer&quot;:{&quot;readme_logo&quot;:&quot;show&quot;},&quot;logo&quot;:{&quot;size&quot;:&quot;default&quot;,&quot;dark_mode&quot;:{&quot;uri&quot;:null,&quot;url&quot;:null,&quot;name&quot;:null,&quot;width&quot;:null,&quot;height&quot;:null,&quot;color&quot;:null,&quot;links&quot;:{&quot;original_url&quot;:null}},&quot;main&quot;:{&quot;uri&quot;:null,&quot;url&quot;:&quot;https://files.readme.io/41e06ed-GlowIcon.svg&quot;,&quot;name&quot;:&quot;GlowIcon.svg&quot;,&quot;width&quot;:212,&quot;height&quot;:212,&quot;color&quot;:&quot;#000000&quot;,&quot;links&quot;:{&quot;original_url&quot;:null}},&quot;favicon&quot;:{&quot;uri&quot;:null,&quot;url&quot;:&quot;https://files.readme.io/5934c04-small-Glow-WalletAdapter.png&quot;,&quot;name&quot;:&quot;Glow-WalletAdapter.png&quot;,&quot;width&quot;:32,&quot;height&quot;:32,&quot;color&quot;:&quot;#c369eb&quot;,&quot;links&quot;:{&quot;original_url&quot;:&quot;https://files.readme.io/4637bcd-Glow-WalletAdapter.png&quot;}}},&quot;custom_code&quot;:{&quot;css&quot;:null,&quot;js&quot;:null,&quot;html&quot;:{&quot;header&quot;:null,&quot;home_footer&quot;:null,&quot;page_footer&quot;:null}},&quot;header&quot;:{&quot;type&quot;:&quot;solid&quot;,&quot;gradient_color&quot;:null,&quot;overlay&quot;:{&quot;fill&quot;:&quot;auto&quot;,&quot;type&quot;:&quot;circuits&quot;,&quot;position&quot;:&quot;top-left&quot;,&quot;image&quot;:{&quot;uri&quot;:null,&quot;url&quot;:null,&quot;name&quot;:null,&quot;width&quot;:null,&quot;height&quot;:null,&quot;color&quot;:null,&quot;links&quot;:{&quot;original_url&quot;:null}}}},&quot;navigation&quot;:{&quot;first_page&quot;:&quot;landing_page&quot;,&quot;left&quot;:[],&quot;logo_link&quot;:&quot;homepage&quot;,&quot;right&quot;:[{&quot;type&quot;:&quot;user_controls&quot;,&quot;title&quot;:null,&quot;url&quot;:null,&quot;custom_page&quot;:null}],&quot;sub_nav&quot;:[],&quot;subheader_layout&quot;:&quot;links&quot;,&quot;version&quot;:&quot;enabled&quot;,&quot;links&quot;:{&quot;home&quot;:{&quot;label&quot;:&quot;Home&quot;,&quot;visibility&quot;:&quot;disabled&quot;},&quot;graphql&quot;:{&quot;label&quot;:&quot;GraphQL&quot;,&quot;visibility&quot;:&quot;disabled&quot;},&quot;guides&quot;:{&quot;label&quot;:&quot;Guides&quot;,&quot;alias&quot;:null,&quot;visibility&quot;:&quot;enabled&quot;},&quot;reference&quot;:{&quot;label&quot;:&quot;API Reference&quot;,&quot;alias&quot;:null,&quot;visibility&quot;:&quot;enabled&quot;},&quot;recipes&quot;:{&quot;label&quot;:&quot;Recipes&quot;,&quot;alias&quot;:null,&quot;visibility&quot;:&quot;disabled&quot;},&quot;changelog&quot;:{&quot;label&quot;:&quot;Changelog&quot;,&quot;alias&quot;:null,&quot;visibility&quot;:&quot;disabled&quot;},&quot;discussions&quot;:{&quot;label&quot;:&quot;Discussions&quot;,&quot;alias&quot;:null,&quot;visibility&quot;:&quot;disabled&quot;}}}}}},&quot;version&quot;:{&quot;_id&quot;:&quot;62be5bcbafb3b100e88d13b9&quot;,&quot;version&quot;:&quot;1.0&quot;,&quot;version_clean&quot;:&quot;1.0.0&quot;,&quot;codename&quot;:&quot;&quot;,&quot;is_stable&quot;:true,&quot;is_beta&quot;:false,&quot;is_hidden&quot;:false,&quot;is_deprecated&quot;:false,&quot;categories&quot;:[&quot;62be5bcdafb3b100e88d13bb&quot;,&quot;62be5bcdafb3b100e88d13bb&quot;,&quot;62ca2c4d1c807d0023d5d00d&quot;,&quot;634650ad2392d8000fe10c94&quot;,&quot;6346ebc3af3be3005af04016&quot;,&quot;6376bf66127d990003174c57&quot;],&quot;project&quot;:&quot;62be5bcaafb3b100e88d13b4&quot;,&quot;releaseDate&quot;:&quot;2022-07-01T02:28:27.340Z&quot;,&quot;createdAt&quot;:&quot;2022-07-01T02:28:27.340Z&quot;,&quot;__v&quot;:1}},&quot;reqUrl&quot;:&quot;/docs/getting-started&quot;,&quot;version&quot;:{&quot;_id&quot;:&quot;62be5bcbafb3b100e88d13b9&quot;,&quot;version&quot;:&quot;1.0&quot;,&quot;version_clean&quot;:&quot;1.0.0&quot;,&quot;codename&quot;:&quot;&quot;,&quot;is_stable&quot;:true,&quot;is_beta&quot;:false,&quot;is_hidden&quot;:false,&quot;is_deprecated&quot;:false,&quot;categories&quot;:[&quot;62be5bcdafb3b100e88d13bb&quot;,&quot;62be5bcdafb3b100e88d13bb&quot;,&quot;62ca2c4d1c807d0023d5d00d&quot;,&quot;634650ad2392d8000fe10c94&quot;,&quot;6346ebc3af3be3005af04016&quot;,&quot;6376bf66127d990003174c57&quot;],&quot;project&quot;:&quot;62be5bcaafb3b100e88d13b4&quot;,&quot;releaseDate&quot;:&quot;2022-07-01T02:28:27.340Z&quot;,&quot;createdAt&quot;:&quot;2022-07-01T02:28:27.340Z&quot;,&quot;__v&quot;:1},&quot;lang&quot;:&quot;en&quot;,&quot;langFull&quot;:&quot;Default&quot;,&quot;isDetachedProductionSite&quot;:false,&quot;rdmdOpts&quot;:{&quot;normalize&quot;:true,&quot;correctnewlines&quot;:false,&quot;compatibilityMode&quot;:false}}"></script></div><div class="hub-loading-indicator"></div><div id="hub-container"><div class="hub-container"><div state-container="" ng-attr-id="{{state.current().root !== 'docs' &amp;&amp; 'react-app-content-container'}}"><div id="replace-view" ng-non-bindable=""></div></div></div></div><footer></footer><script>var is_hub = true;
+var is_hub2 = true;
+var is_hub_edit = true;
+</script><div id="ssr-end"><script id="__LOADABLE_REQUIRED_CHUNKS__" type="application/json">[81,7974,3280,223,7878,1284,4855,4676,4508,5808,6991,951,5283,2726,8980,6023,9351,4414,2004,428,9097,4670,5954,7452,3858,3879,7667,9152,4889,7130,3281,4376,8397,788,5748,8011,295,7671,9556,8231,108,7055,6842,2647,5443,6605,1953,8196,6952,3337,748,6198,5079,2332,9708,439,4022,7815,7023,1217,6841,2652]</script><script id="__LOADABLE_REQUIRED_CHUNKS___ext" type="application/json">{"namedChunks":["routes-SuperHub-Island","Header","routes-Landing","Footer","routes-PageNotFound","core-icons-chevron-up-down-svg","routes-Doc","core-icons-arrow-right-svg","routes-Reference","CustomPage","core-icons-more-vertical-svg","core-icons-lock-svg","routes-Discuss","List","core-icons-star-svg","core-icons-trending-up-svg","core-icons-callout-info-svg","Editor","core-icons-x-circle-svg","core-icons-suggested-edits-svg","core-icons-chevron-down-svg","core-icons-copy-svg","routes-Changelog","Post","Page","routes-CustomPage","core-icons-arrow-up-right-svg","routes-Tutorials","core-icons-key-svg","core-graphics-json-svg","New","core-icons-message-circle-svg","core-icons-inbox-svg"]}</script>
+<script async="" data-chunk="main" src="https://cdn.readme.io/public/hub/web/main.64de8ea37f4757d7d647.js"></script>
+<script async="" data-chunk="routes-SuperHub-Island" src="https://cdn.readme.io/public/hub/web/81.32e03f6de11f2cb94446.js"></script>
+<script async="" data-chunk="routes-SuperHub-Island" src="https://cdn.readme.io/public/hub/web/7974.819473970f9bf5b13f19.js"></script>
+<script async="" data-chunk="routes-SuperHub-Island" src="https://cdn.readme.io/public/hub/web/3280.6aabed26c066ae62269b.js"></script>
+<script async="" data-chunk="routes-SuperHub-Island" src="https://cdn.readme.io/public/hub/web/223.ea49cddcd5034e944cb9.js"></script>
+<script async="" data-chunk="routes-SuperHub-Island" src="https://cdn.readme.io/public/hub/web/7878.9c72a6e01b5de2025b6d.js"></script>
+<script async="" data-chunk="routes-SuperHub-Island" src="https://cdn.readme.io/public/hub/web/1284.09fc1b0460034ecebf6b.js"></script>
+<script async="" data-chunk="routes-SuperHub-Island" src="https://cdn.readme.io/public/hub/web/4855.9c8237f5c662c7033126.js"></script>
+<script async="" data-chunk="routes-SuperHub-Island" src="https://cdn.readme.io/public/hub/web/4676.b0bcfd38291bac1f8d95.js"></script>
+<script async="" data-chunk="routes-SuperHub-Island" src="https://cdn.readme.io/public/hub/web/4508.9a062c00e1a5baaa8421.js"></script>
+<script async="" data-chunk="routes-SuperHub-Island" src="https://cdn.readme.io/public/hub/web/5808.7c5a2d9f08eeda1bad60.js"></script>
+<script async="" data-chunk="routes-SuperHub-Island" src="https://cdn.readme.io/public/hub/web/routes-SuperHub-Island.12bd3be6468aa7844b6d.js"></script>
+<script async="" data-chunk="Header" src="https://cdn.readme.io/public/hub/web/951.b4289c2de5055253850e.js"></script>
+<script async="" data-chunk="Header" src="https://cdn.readme.io/public/hub/web/5283.d46c94d05287dd859635.js"></script>
+<script async="" data-chunk="Header" src="https://cdn.readme.io/public/hub/web/2726.8c6b0e0faf69f415c865.js"></script>
+<script async="" data-chunk="Header" src="https://cdn.readme.io/public/hub/web/8980.ef0ba97d816ab75d8609.js"></script>
+<script async="" data-chunk="Header" src="https://cdn.readme.io/public/hub/web/6023.8b759a1ab43983d249ce.js"></script>
+<script async="" data-chunk="Header" src="https://cdn.readme.io/public/hub/web/Header.08d0cf51a47ecb2f2318.js"></script>
+<script async="" data-chunk="routes-Landing" src="https://cdn.readme.io/public/hub/web/4414.164fc698f68e2ad8e303.js"></script>
+<script async="" data-chunk="routes-Landing" src="https://cdn.readme.io/public/hub/web/2004.d93a32d74002edf82208.js"></script>
+<script async="" data-chunk="routes-Landing" src="https://cdn.readme.io/public/hub/web/routes-Landing.59e6eba1dde4a3e00b9d.js"></script>
+<script async="" data-chunk="Footer" src="https://cdn.readme.io/public/hub/web/Footer.715e5aed45dcf69030be.js"></script>
+<script async="" data-chunk="routes-PageNotFound" src="https://cdn.readme.io/public/hub/web/routes-PageNotFound.cd41cdc9d730e21fec8e.js"></script>
+<script async="" data-chunk="core-icons-chevron-up-down-svg" src="https://cdn.readme.io/public/hub/web/core-icons-chevron-up-down-svg.446e81ab9226a91b9f43.js"></script>
+<script async="" data-chunk="routes-Doc" src="https://cdn.readme.io/public/hub/web/7452.3bb932d836aa61860c59.js"></script>
+<script async="" data-chunk="routes-Doc" src="https://cdn.readme.io/public/hub/web/3858.a383740051dc465ac4d6.js"></script>
+<script async="" data-chunk="routes-Doc" src="https://cdn.readme.io/public/hub/web/routes-Doc.06dcb711b60312296e41.js"></script>
+<script async="" data-chunk="core-icons-arrow-right-svg" src="https://cdn.readme.io/public/hub/web/core-icons-arrow-right-svg.c3858e56409cd416f202.js"></script>
+<script async="" data-chunk="routes-Reference" src="https://cdn.readme.io/public/hub/web/9152.4cab27eea4d83bd9745c.js"></script>
+<script async="" data-chunk="routes-Reference" src="https://cdn.readme.io/public/hub/web/4889.e99c3d06a0bea7804994.js"></script>
+<script async="" data-chunk="routes-Reference" src="https://cdn.readme.io/public/hub/web/7130.79fa8b76ab6609505c74.js"></script>
+<script async="" data-chunk="routes-Reference" src="https://cdn.readme.io/public/hub/web/3281.4255c993f32b3a0963bc.js"></script>
+<script async="" data-chunk="routes-Reference" src="https://cdn.readme.io/public/hub/web/4376.50dead439bf587069ac1.js"></script>
+<script async="" data-chunk="routes-Reference" src="https://cdn.readme.io/public/hub/web/8397.05634ae391898af265f1.js"></script>
+<script async="" data-chunk="routes-Reference" src="https://cdn.readme.io/public/hub/web/routes-Reference.8cd0ea11cf6946873fb5.js"></script>
+<script async="" data-chunk="CustomPage" src="https://cdn.readme.io/public/hub/web/5748.edfb6665749a9c534a51.js"></script>
+<script async="" data-chunk="CustomPage" src="https://cdn.readme.io/public/hub/web/CustomPage.2a29d92d7ea55e9fb338.js"></script>
+<script async="" data-chunk="core-icons-more-vertical-svg" src="https://cdn.readme.io/public/hub/web/core-icons-more-vertical-svg.280be53d25081dd127e2.js"></script>
+<script async="" data-chunk="core-icons-lock-svg" src="https://cdn.readme.io/public/hub/web/core-icons-lock-svg.2a52383d2efd2b68a202.js"></script>
+<script async="" data-chunk="routes-Discuss" src="https://cdn.readme.io/public/hub/web/routes-Discuss.83ee229dfcfb69a1c410.js"></script>
+<script async="" data-chunk="List" src="https://cdn.readme.io/public/hub/web/8231.8575c159ae47a9db0864.js"></script>
+<script async="" data-chunk="List" src="https://cdn.readme.io/public/hub/web/108.33ab83f0b2d82237a6ed.js"></script>
+<script async="" data-chunk="List" src="https://cdn.readme.io/public/hub/web/7055.d0f34d55f925f5cfbd3e.js"></script>
+<script async="" data-chunk="List" src="https://cdn.readme.io/public/hub/web/List.e3e476b80edfe4177c12.js"></script>
+<script async="" data-chunk="core-icons-star-svg" src="https://cdn.readme.io/public/hub/web/core-icons-star-svg.3639abe34a0f99273d1b.js"></script>
+<script async="" data-chunk="core-icons-trending-up-svg" src="https://cdn.readme.io/public/hub/web/core-icons-trending-up-svg.6294b69f75e32f34630b.js"></script>
+<script async="" data-chunk="core-icons-callout-info-svg" src="https://cdn.readme.io/public/hub/web/core-icons-callout-info-svg.2447588795d5f146d7fd.js"></script>
+<script async="" data-chunk="Editor" src="https://cdn.readme.io/public/hub/web/1953.d91d286c884e0f41c782.js"></script>
+<script async="" data-chunk="Editor" src="https://cdn.readme.io/public/hub/web/Editor.5c207281ffd028c5f509.js"></script>
+<script async="" data-chunk="core-icons-x-circle-svg" src="https://cdn.readme.io/public/hub/web/core-icons-x-circle-svg.586c5bf9fc6d359aac2e.js"></script>
+<script async="" data-chunk="core-icons-suggested-edits-svg" src="https://cdn.readme.io/public/hub/web/core-icons-suggested-edits-svg.28aa712e84ce36e8f647.js"></script>
+<script async="" data-chunk="core-icons-chevron-down-svg" src="https://cdn.readme.io/public/hub/web/core-icons-chevron-down-svg.69482defe71a0868b959.js"></script>
+<script async="" data-chunk="core-icons-copy-svg" src="https://cdn.readme.io/public/hub/web/core-icons-copy-svg.3c3aba2634cc2a885245.js"></script>
+<script async="" data-chunk="routes-Changelog" src="https://cdn.readme.io/public/hub/web/routes-Changelog.959a283f132667768666.js"></script>
+<script async="" data-chunk="Post" src="https://cdn.readme.io/public/hub/web/Post.a632ae1ea96fe4532aad.js"></script>
+<script async="" data-chunk="Page" src="https://cdn.readme.io/public/hub/web/9708.65321bf5cdf416e9dd07.js"></script>
+<script async="" data-chunk="Page" src="https://cdn.readme.io/public/hub/web/Page.8b6500d20eca6fb9a495.js"></script>
+<script async="" data-chunk="core-icons-arrow-up-right-svg" src="https://cdn.readme.io/public/hub/web/core-icons-arrow-up-right-svg.960d73747b79599e0415.js"></script>
+<script async="" data-chunk="routes-Tutorials" src="https://cdn.readme.io/public/hub/web/routes-Tutorials.f4453cf1de376d7495da.js"></script>
+<script async="" data-chunk="core-icons-key-svg" src="https://cdn.readme.io/public/hub/web/core-icons-key-svg.bf8c703405bba9ce8493.js"></script>
+<script async="" data-chunk="New" src="https://cdn.readme.io/public/hub/web/New.90deb01ab9657beb7491.js"></script>
+<script async="" data-chunk="core-icons-message-circle-svg" src="https://cdn.readme.io/public/hub/web/core-icons-message-circle-svg.2b34f4cfcc6bae1d5861.js"></script>
+<script async="" data-chunk="core-icons-inbox-svg" src="https://cdn.readme.io/public/hub/web/core-icons-inbox-svg.06cc96183cba63c0257d.js"></script></div><script id="hub-me" type="application/json" data-json="{&quot;loggedIn&quot;:false,&quot;search&quot;:{&quot;app&quot;:&quot;T28YKFATPY&quot;,&quot;token&quot;:&quot;MWM1NDliNmVhZDAzNzBkMGZhMjI5MWFjMjNkZGQ1ODkzM2I3ODUwNDg4OTExMjY1ZTRlZjhjMTFmZTc1OWIwNHRhZ0ZpbHRlcnM9KHByb2plY3Q6NjJiZTViY2FhZmIzYjEwMGU4OGQxM2I0KSwodmVyc2lvbjpub25lLHZlcnNpb246NjJiZTViY2JhZmIzYjEwMGU4OGQxM2I5KSwoaGlkZGVuOm5vbmUsaGlkZGVuOmZhbHNlKSwoaW5kZXg6Q3VzdG9tUGFnZSxpbmRleDpQYWdlKQ==&quot;,&quot;filters&quot;:&quot;tagFilters=(project:62be5bcaafb3b100e88d13b4),(version:none,version:62be5bcbafb3b100e88d13b9),(hidden:none,hidden:false),(index:CustomPage,index:Page)&quot;,&quot;metaData&quot;:[{&quot;modules&quot;:{&quot;landing&quot;:false,&quot;docs&quot;:true,&quot;examples&quot;:false,&quot;reference&quot;:true,&quot;graphql&quot;:false,&quot;changelog&quot;:false,&quot;discuss&quot;:false,&quot;suggested_edits&quot;:true,&quot;logs&quot;:false,&quot;custompages&quot;:false,&quot;tutorials&quot;:false},&quot;id&quot;:&quot;62be5bcaafb3b100e88d13b4&quot;,&quot;name&quot;:&quot;Glow&quot;,&quot;subdomain&quot;:&quot;glowwallet&quot;,&quot;subpath&quot;:&quot;&quot;,&quot;nav_names&quot;:{&quot;docs&quot;:&quot;&quot;,&quot;reference&quot;:&quot;&quot;,&quot;changelog&quot;:&quot;&quot;,&quot;discuss&quot;:&quot;&quot;,&quot;tutorials&quot;:&quot;&quot;,&quot;recipes&quot;:&quot;&quot;}}]}}"></script><script id="readme-data-baseUrl" type="application/json" data-json="&quot;/&quot;"></script></body></html>
