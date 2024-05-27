@@ -1,24 +1,49 @@
-[
-    "https://analytics.step.finance/",
-    "https://analytics.step.finance/",
-    "https://app.step.finance/#/dashboard",
-    "https://app.step.finance/#/dashboard",
-    "https://app.step.finance/#/dashboard",
-    "https://app.step.finance/en/dashboard?watching=4CEWqVTmpDxML9s5nEin8c9cDv6rDEiYMp2trcmDuEpZ",
-    "https://apps.apple.com/us/app/step-finance/id6479612396",
-    "https://discord.gg/ZWRd2ZxrdR",
-    "https://docs.google.com/forms/d/e/1FAIpQLSex9ZlEuXZwjWUzTygDiYjN1fXC4KAZTrz_ZMp0tXgC8kIklw/viewform",
-    "https://docs.step.finance/",
-    "https://docs.step.finance/the-step-token/step-tokenomics",
-    "https://github.com/step-finance",
-    "https://play.google.com/store/apps/details?id=step.finance.prod&pli=1",
-    "https://solanamobile.com/",
-    "https://stepfinance.medium.com/",
-    "https://twitter.com/StepFinance_",
-    "https://www.step.finance/",
-    "https://www.step.finance/learn",
-    "https://www.step.finance/privacy-policy",
-    "https://www.step.finance/terms-conditions",
-    "mailto:support@step.finance?subject=Access%20to%20API",
-    "mailto:support@step.finance?subject=Access%20to%20API"
-]
+{
+    "target_url": "https://www.step.finance/",
+    "domains": {
+        "": [
+            "mailto:support@step.finance?subject=Access%20to%20API"
+        ],
+        "analytics.step.finance": [
+            "https://analytics.step.finance/"
+        ],
+        "app.step.finance": [
+            "https://app.step.finance/#/dashboard",
+            "https://app.step.finance/en/dashboard?watching=4CEWqVTmpDxML9s5nEin8c9cDv6rDEiYMp2trcmDuEpZ"
+        ],
+        "apps.apple.com": [
+            "https://apps.apple.com/us/app/step-finance/id6479612396"
+        ],
+        "discord.gg": [
+            "https://discord.gg/ZWRd2ZxrdR"
+        ],
+        "docs.google.com": [
+            "https://docs.google.com/forms/d/e/1FAIpQLSex9ZlEuXZwjWUzTygDiYjN1fXC4KAZTrz_ZMp0tXgC8kIklw/viewform"
+        ],
+        "docs.step.finance": [
+            "https://docs.step.finance/",
+            "https://docs.step.finance/the-step-token/step-tokenomics"
+        ],
+        "github.com": [
+            "https://github.com/step-finance"
+        ],
+        "play.google.com": [
+            "https://play.google.com/store/apps/details?id=step.finance.prod&pli=1"
+        ],
+        "solanamobile.com": [
+            "https://solanamobile.com/"
+        ],
+        "stepfinance.medium.com": [
+            "https://stepfinance.medium.com/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/StepFinance_"
+        ],
+        "www.step.finance": [
+            "https://www.step.finance/",
+            "https://www.step.finance/learn",
+            "https://www.step.finance/privacy-policy",
+            "https://www.step.finance/terms-conditions"
+        ]
+    }
+}
