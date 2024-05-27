@@ -1,44 +1,65 @@
-[
-    "https://dev.helius.xyz",
-    "https://discord.gg/aYjmtWsy6b",
-    "https://docs.helius.dev/",
-    "https://docs.helius.xyz/welcome/what-is-helius",
-    "https://forum.helius.dev/",
-    "https://jobs.solana.com/companies/helius",
-    "https://jobs.solana.com/companies/helius",
-    "https://pyre.helius.xyz/",
-    "https://testdrive.helius.xyz/",
-    "https://twitter.com/heliuslabs",
-    "https://www.helius.dev/",
-    "https://www.helius.dev/",
-    "https://www.helius.dev/blog",
-    "https://www.helius.dev/blog",
-    "https://www.helius.dev/blog/a-guide-to-testing-solana-programs",
-    "https://www.helius.dev/blog/how-to-deal-with-blockhash-errors-on-solana",
-    "https://www.helius.dev/blog/how-to-land-transactions-on-solana",
-    "https://www.helius.dev/blog/how-to-monitor-a-raydium-liquidity-pool",
-    "https://www.helius.dev/blog/how-to-monitor-solana-transactions-using-geyser-enhanced-websockets",
-    "https://www.helius.dev/blog/how-to-set-up-a-solana-validator",
-    "https://www.helius.dev/blog/how-to-stake-solana",
-    "https://www.helius.dev/blog?3f90d131_page=2",
-    "https://www.helius.dev/built-with-helius",
-    "https://www.helius.dev/built-with-helius",
-    "https://www.helius.dev/pricing",
-    "https://www.helius.dev/pricing",
-    "https://www.helius.dev/privacy-policy",
-    "https://www.helius.dev/solana-apis",
-    "https://www.helius.dev/solana-apis",
-    "https://www.helius.dev/solana-rpc-nodes",
-    "https://www.helius.dev/solana-rpc-nodes",
-    "https://www.helius.dev/solana-webhooks-websockets",
-    "https://www.helius.dev/solana-webhooks-websockets",
-    "https://www.helius.dev/terms",
-    "https://www.helius.dev/use-cases/defi",
-    "https://www.helius.dev/use-cases/depin",
-    "https://www.helius.dev/use-cases/nfts",
-    "https://www.helius.dev/use-cases/payments",
-    "https://www.helius.dev/use-cases/wallets",
-    "https://www.linkedin.com/company/heliusapi",
-    "https://www.youtube.com/@helius_labs",
-    "https://xray.helius.xyz/"
-]
+{
+    "target_url": "https://www.helius.dev/blog",
+    "domains": {
+        "dev.helius.xyz": [
+            "https://dev.helius.xyz"
+        ],
+        "discord.gg": [
+            "https://discord.gg/aYjmtWsy6b"
+        ],
+        "docs.helius.dev": [
+            "https://docs.helius.dev/"
+        ],
+        "docs.helius.xyz": [
+            "https://docs.helius.xyz/welcome/what-is-helius"
+        ],
+        "forum.helius.dev": [
+            "https://forum.helius.dev/"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/companies/helius"
+        ],
+        "pyre.helius.xyz": [
+            "https://pyre.helius.xyz/"
+        ],
+        "testdrive.helius.xyz": [
+            "https://testdrive.helius.xyz/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/heliuslabs"
+        ],
+        "www.helius.dev": [
+            "https://www.helius.dev/",
+            "https://www.helius.dev/blog",
+            "https://www.helius.dev/blog/a-guide-to-testing-solana-programs",
+            "https://www.helius.dev/blog/how-to-deal-with-blockhash-errors-on-solana",
+            "https://www.helius.dev/blog/how-to-land-transactions-on-solana",
+            "https://www.helius.dev/blog/how-to-monitor-a-raydium-liquidity-pool",
+            "https://www.helius.dev/blog/how-to-monitor-solana-transactions-using-geyser-enhanced-websockets",
+            "https://www.helius.dev/blog/how-to-set-up-a-solana-validator",
+            "https://www.helius.dev/blog/how-to-stake-solana",
+            "https://www.helius.dev/blog?3f90d131_page=2",
+            "https://www.helius.dev/built-with-helius",
+            "https://www.helius.dev/pricing",
+            "https://www.helius.dev/privacy-policy",
+            "https://www.helius.dev/solana-apis",
+            "https://www.helius.dev/solana-rpc-nodes",
+            "https://www.helius.dev/solana-webhooks-websockets",
+            "https://www.helius.dev/terms",
+            "https://www.helius.dev/use-cases/defi",
+            "https://www.helius.dev/use-cases/depin",
+            "https://www.helius.dev/use-cases/nfts",
+            "https://www.helius.dev/use-cases/payments",
+            "https://www.helius.dev/use-cases/wallets"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/heliusapi"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/@helius_labs"
+        ],
+        "xray.helius.xyz": [
+            "https://xray.helius.xyz/"
+        ]
+    }
+}
