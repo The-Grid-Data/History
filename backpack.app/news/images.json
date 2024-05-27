@@ -1,4 +1,8 @@
-[
-    "https://backpack.app/logo.svg",
-    "https://backpack.app/logo.svg"
-]
+{
+    "target_url": "https://backpack.app/news",
+    "domains": {
+        "backpack.app": [
+            "https://backpack.app/logo.svg"
+        ]
+    }
+}
