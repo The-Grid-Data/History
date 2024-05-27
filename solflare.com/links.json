@@ -1,32 +1,40 @@
-[
-    "https://academy.solflare.com",
-    "https://academy.solflare.com",
-    "https://academy.solflare.com/",
-    "https://academy.solflare.com/guides/?get_help=true",
-    "https://academy.solflare.com/guides/?get_help=true",
-    "https://academy.solflare.com/guides/?get_help=true",
-    "https://apps.apple.com/us/app/solflare/id1580902717",
-    "https://apps.apple.com/us/app/solflare/id1580902717",
-    "https://chrome.google.com/webstore/detail/solflare-wallet/bhhhlbepdkbapadjdnnojkbgioiodbic",
-    "https://docs.solflare.com/solflare/",
-    "https://elliwallet.com/",
-    "https://play.google.com/store/apps/details?id=com.solflare.mobile",
-    "https://risewallet.io/",
-    "https://solflare.com/",
-    "https://solflare.com/",
-    "https://solflare.com/",
-    "https://solflare.com/access",
-    "https://solflare.com/metamask",
-    "https://solflare.com/metamask",
-    "https://twitter.com/DegenTrashPanda",
-    "https://twitter.com/DegenTrashPanda",
-    "https://twitter.com/DegenTrashPanda",
-    "https://twitter.com/solflare_wallet",
-    "https://twitter.com/solflare_wallet",
-    "https://twitter.com/solflare_wallet",
-    "https://twitter.com/solflare_wallet",
-    "https://twitter.com/solflare_wallet",
-    "https://twitter.com/solflare_wallet",
-    "https://twitter.com/solflare_wallet",
-    "https://www.youtube.com/channel/UCFgH2FSi360EngaSr5056cQ"
-]
+{
+    "target_url": "https://solflare.com",
+    "domains": {
+        "academy.solflare.com": [
+            "https://academy.solflare.com",
+            "https://academy.solflare.com/",
+            "https://academy.solflare.com/guides/?get_help=true"
+        ],
+        "apps.apple.com": [
+            "https://apps.apple.com/us/app/solflare/id1580902717"
+        ],
+        "chrome.google.com": [
+            "https://chrome.google.com/webstore/detail/solflare-wallet/bhhhlbepdkbapadjdnnojkbgioiodbic"
+        ],
+        "docs.solflare.com": [
+            "https://docs.solflare.com/solflare/"
+        ],
+        "elliwallet.com": [
+            "https://elliwallet.com/"
+        ],
+        "play.google.com": [
+            "https://play.google.com/store/apps/details?id=com.solflare.mobile"
+        ],
+        "risewallet.io": [
+            "https://risewallet.io/"
+        ],
+        "solflare.com": [
+            "https://solflare.com/",
+            "https://solflare.com/access",
+            "https://solflare.com/metamask"
+        ],
+        "twitter.com": [
+            "https://twitter.com/DegenTrashPanda",
+            "https://twitter.com/solflare_wallet"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/channel/UCFgH2FSi360EngaSr5056cQ"
+        ]
+    }
+}
