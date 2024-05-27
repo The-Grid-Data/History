@@ -1,32 +1,26 @@
-[
-    "https://bin.bnbstatic.com/static/images/common/logo.png",
-    "https://public.bnbstatic.com/image/cms/blog/20230227/c4e4fa93-cbc8-4e83-a5b1-3829bd6b557f.png",
-    "https://public.bnbstatic.com/image/cms/blog/20230227/c4e4fa93-cbc8-4e83-a5b1-3829bd6b557f.png",
-    "https://public.bnbstatic.com/image/cms/blog/20230911/21f514e4-4a9d-43a4-aaf7-bae216852ceb.png",
-    "https://public.bnbstatic.com/image/cms/blog/20230911/21f514e4-4a9d-43a4-aaf7-bae216852ceb.png",
-    "https://public.bnbstatic.com/image/cms/blog/20231116/07bb0e8a-3928-465d-b668-a1eb45070c44.png",
-    "https://public.bnbstatic.com/image/cms/blog/20231116/07bb0e8a-3928-465d-b668-a1eb45070c44.png",
-    "https://public.bnbstatic.com/image/cms/blog/20231130/9012e398-2fac-4c84-b124-adc74b70aff9.png",
-    "https://public.bnbstatic.com/image/cms/blog/20231130/9012e398-2fac-4c84-b124-adc74b70aff9.png",
-    "https://public.bnbstatic.com/image/cms/blog/20231228/834584cf-71e6-4bd5-9b83-8304a5501bfc.png",
-    "https://public.bnbstatic.com/image/cms/blog/20231228/834584cf-71e6-4bd5-9b83-8304a5501bfc.png",
-    "https://public.bnbstatic.com/image/cms/blog/20231228/834584cf-71e6-4bd5-9b83-8304a5501bfc.png",
-    "https://public.bnbstatic.com/image/cms/blog/20240419/12787baf-4a66-46a2-84ce-6cb8b8b16122.png",
-    "https://public.bnbstatic.com/image/cms/blog/20240419/12787baf-4a66-46a2-84ce-6cb8b8b16122.png",
-    "https://public.bnbstatic.com/image/cms/blog/20240506/b55478b0-9a97-45b0-b09a-65e4efe04a2c.png",
-    "https://public.bnbstatic.com/image/cms/blog/20240506/b55478b0-9a97-45b0-b09a-65e4efe04a2c.png",
-    "https://public.bnbstatic.com/image/cms/blog/20240513/267c99da-5e57-45ca-b212-b08c6379e836.png",
-    "https://public.bnbstatic.com/image/cms/blog/20240513/bd8768e0-d58a-4d52-afb7-92cf83afb00b.png",
-    "https://public.bnbstatic.com/image/cms/blog/20240514/43944ef4-c44e-44bb-8eee-60238b6b2d28.png",
-    "https://public.bnbstatic.com/image/cms/blog/20240515/b04be6d1-e217-4166-bd4c-d243aec8929e.png",
-    "https://public.bnbstatic.com/image/cms/blog/20240516/04f08f0a-5ffc-47af-9b27-9abe2ecd951d.png",
-    "https://public.bnbstatic.com/image/cms/blog/20240516/0ab6554a-7889-4fda-8be6-38d57597fe2c.png",
-    "https://public.bnbstatic.com/image/cms/blog/20240516/d6e3eefb-6c8c-4f88-aa9b-4114108e3c9a.jpg",
-    "https://public.bnbstatic.com/image/cms/blog/20240516/dfcd4c5d-0bed-45f6-be91-d46f268e5593.png",
-    "https://public.bnbstatic.com/image/cms/blog/20240521/f4e02946-6b15-4a7f-acb1-ec3b0c0f9104.png",
-    "https://public.bnbstatic.com/image/cms/blog/20240522/69969506-968a-470d-974d-61b3b77a968f.png",
-    "https://public.bnbstatic.com/image/cms/blog/20240523/3eb4a57a-d3c7-4234-b304-d9b9fe7d53ac.png",
-    "https://public.bnbstatic.com/image/cms/blog/20240524/f4950d07-8f4c-4a53-bbc5-080590fb7032.png",
-    "https://public.bnbstatic.com/image/cms/blog/20240524/f4950d07-8f4c-4a53-bbc5-080590fb7032.png",
-    "https://public.bnbstatic.com/image/cms/blog/20240524/f4950d07-8f4c-4a53-bbc5-080590fb7032.png"
-]
+{
+    "target_url": "https://www.binance.com/en/blog",
+    "domains": {
+        "public.bnbstatic.com": [
+            "https://public.bnbstatic.com/image/cms/blog/20230227/c4e4fa93-cbc8-4e83-a5b1-3829bd6b557f.png",
+            "https://public.bnbstatic.com/image/cms/blog/20230911/21f514e4-4a9d-43a4-aaf7-bae216852ceb.png",
+            "https://public.bnbstatic.com/image/cms/blog/20231116/07bb0e8a-3928-465d-b668-a1eb45070c44.png",
+            "https://public.bnbstatic.com/image/cms/blog/20231130/9012e398-2fac-4c84-b124-adc74b70aff9.png",
+            "https://public.bnbstatic.com/image/cms/blog/20231228/834584cf-71e6-4bd5-9b83-8304a5501bfc.png",
+            "https://public.bnbstatic.com/image/cms/blog/20240419/12787baf-4a66-46a2-84ce-6cb8b8b16122.png",
+            "https://public.bnbstatic.com/image/cms/blog/20240506/b55478b0-9a97-45b0-b09a-65e4efe04a2c.png",
+            "https://public.bnbstatic.com/image/cms/blog/20240513/267c99da-5e57-45ca-b212-b08c6379e836.png",
+            "https://public.bnbstatic.com/image/cms/blog/20240513/bd8768e0-d58a-4d52-afb7-92cf83afb00b.png",
+            "https://public.bnbstatic.com/image/cms/blog/20240514/43944ef4-c44e-44bb-8eee-60238b6b2d28.png",
+            "https://public.bnbstatic.com/image/cms/blog/20240515/b04be6d1-e217-4166-bd4c-d243aec8929e.png",
+            "https://public.bnbstatic.com/image/cms/blog/20240516/04f08f0a-5ffc-47af-9b27-9abe2ecd951d.png",
+            "https://public.bnbstatic.com/image/cms/blog/20240516/0ab6554a-7889-4fda-8be6-38d57597fe2c.png",
+            "https://public.bnbstatic.com/image/cms/blog/20240516/d6e3eefb-6c8c-4f88-aa9b-4114108e3c9a.jpg",
+            "https://public.bnbstatic.com/image/cms/blog/20240516/dfcd4c5d-0bed-45f6-be91-d46f268e5593.png",
+            "https://public.bnbstatic.com/image/cms/blog/20240521/f4e02946-6b15-4a7f-acb1-ec3b0c0f9104.png",
+            "https://public.bnbstatic.com/image/cms/blog/20240522/69969506-968a-470d-974d-61b3b77a968f.png",
+            "https://public.bnbstatic.com/image/cms/blog/20240523/3eb4a57a-d3c7-4234-b304-d9b9fe7d53ac.png",
+            "https://public.bnbstatic.com/image/cms/blog/20240524/f4950d07-8f4c-4a53-bbc5-080590fb7032.png"
+        ]
+    }
+}
