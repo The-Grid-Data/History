@@ -441,9 +441,3 @@ Was this helpful?
 [Edit on GitHub](https://github.com/wormhole-
 foundation/docs.wormhole.com/blob/main/docs/README.md)
 
-This site uses cookies to deliver its service and to analyse traffic. By
-browsing this site, you accept the [privacy
-policy](https://policies.gitbook.com/privacy/cookies).
-
-AcceptReject
-
