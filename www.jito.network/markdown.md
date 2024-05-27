@@ -14,6 +14,10 @@ Governance
 
 [Stake Now](/staking/)
 
+Connect Wallet
+
+  * Change wallet
+
 LAST WEEK:
 
 [Total Tips](https://explorer.jito.wtf)
