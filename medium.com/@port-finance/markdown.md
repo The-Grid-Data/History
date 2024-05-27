@@ -48,19 +48,10 @@ latest addition to our Innovation Zone, Hedge!](/port-finance-launches-hedge-
 innovation-zone-c6fe287aad66?source=user_profile---------
 0----------------------------)
 
-[2 min read·Aug 1, 2022](/port-finance-launches-hedge-innovation-
-zone-c6fe287aad66?source=user_profile---------0----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fc6fe287aad66&operation=register&redirect=https%3A%2F%2Fport-
-finance.medium.com%2Fport-finance-launches-hedge-innovation-
-zone-c6fe287aad66&user=Port+Finance&userId=11133420d0fa&source=-----c6fe287aad66
-----0-----------------clap_footer-----------)
-
-\--
+Aug 1, 2022
 
 [](/port-finance-launches-hedge-innovation-
-zone-c6fe287aad66?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------0----------------------------)
+zone-c6fe287aad66?source=user_profile---------0----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fc6fe287aad66&operation=register&redirect=https%3A%2F%2Fport-
 finance.medium.com%2Fport-finance-launches-hedge-innovation-
@@ -73,16 +64,10 @@ Zone!](https://miro.medium.com/v2/da:true/resize:fill:160:106/0*e8fo8xhSTNlxhAqL
 ![Port Finance launches Hedge Innovation
 Zone!](https://miro.medium.com/v2/da:true/resize:fill:320:214/0*e8fo8xhSTNlxhAqL)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fc6fe287aad66&operation=register&redirect=https%3A%2F%2Fport-
-finance.medium.com%2Fport-finance-launches-hedge-innovation-
-zone-c6fe287aad66&user=Port+Finance&userId=11133420d0fa&source=-----c6fe287aad66
-----0-----------------clap_footer-----------)
-
-\--
+Aug 1, 2022
 
 [](/port-finance-launches-hedge-innovation-
-zone-c6fe287aad66?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------0----------------------------)
+zone-c6fe287aad66?source=user_profile---------0----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fc6fe287aad66&operation=register&redirect=https%3A%2F%2Fport-
 finance.medium.com%2Fport-finance-launches-hedge-innovation-
@@ -100,19 +85,10 @@ latest addition to our Innovation Zone, UXD Protocol!](/port-finance-launches-
 uxd-protocol-innovation-hub-b5876500fc82?source=user_profile---------
 1----------------------------)
 
-[2 min read·Jun 7, 2022](/port-finance-launches-uxd-protocol-innovation-
-hub-b5876500fc82?source=user_profile---------1----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fb5876500fc82&operation=register&redirect=https%3A%2F%2Fport-
-finance.medium.com%2Fport-finance-launches-uxd-protocol-innovation-
-hub-b5876500fc82&user=Port+Finance&userId=11133420d0fa&source=-----b5876500fc82
-----1-----------------clap_footer-----------)
-
-\--
+Jun 7, 2022
 
 [](/port-finance-launches-uxd-protocol-innovation-
-hub-b5876500fc82?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------1----------------------------)
+hub-b5876500fc82?source=user_profile---------1----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fb5876500fc82&operation=register&redirect=https%3A%2F%2Fport-
 finance.medium.com%2Fport-finance-launches-uxd-protocol-innovation-
@@ -125,16 +101,10 @@ Hub!](https://miro.medium.com/v2/resize:fill:160:106/1*2JncLVho1-qVQwJfhz7hew.jp
 ![Port Finance launches UXD Protocol Innovation
 Hub!](https://miro.medium.com/v2/resize:fill:320:214/1*2JncLVho1-qVQwJfhz7hew.jpeg)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fb5876500fc82&operation=register&redirect=https%3A%2F%2Fport-
-finance.medium.com%2Fport-finance-launches-uxd-protocol-innovation-
-hub-b5876500fc82&user=Port+Finance&userId=11133420d0fa&source=-----b5876500fc82
-----1-----------------clap_footer-----------)
-
-\--
+Jun 7, 2022
 
 [](/port-finance-launches-uxd-protocol-innovation-
-hub-b5876500fc82?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------1----------------------------)
+hub-b5876500fc82?source=user_profile---------1----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fb5876500fc82&operation=register&redirect=https%3A%2F%2Fport-
 finance.medium.com%2Fport-finance-launches-uxd-protocol-innovation-
@@ -154,22 +124,11 @@ launched Innovation…](/port-finance-partners-with-hubble-protocol-to-bolster-
 capital-efficiency-and-increase-the-usage-of-2ea080fe1a30?source=user_profile
 ---------2----------------------------)
 
-[5 min read·May 23, 2022](/port-finance-partners-with-hubble-protocol-to-
-bolster-capital-efficiency-and-increase-the-usage-
-of-2ea080fe1a30?source=user_profile---------2----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F2ea080fe1a30&operation=register&redirect=https%3A%2F%2Fport-
-finance.medium.com%2Fport-finance-partners-with-hubble-protocol-to-bolster-
-capital-efficiency-and-increase-the-usage-
-of-2ea080fe1a30&user=Port+Finance&userId=11133420d0fa&source=-----2ea080fe1a30
-----2-----------------clap_footer-----------)
-
-\--
+May 23, 2022
 
 [](/port-finance-partners-with-hubble-protocol-to-bolster-capital-efficiency-
-and-increase-the-usage-
-of-2ea080fe1a30?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------2----------------------------)
+and-increase-the-usage-of-2ea080fe1a30?source=user_profile---------
+2----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F2ea080fe1a30&operation=register&redirect=https%3A%2F%2Fport-
 finance.medium.com%2Fport-finance-partners-with-hubble-protocol-to-bolster-
@@ -184,18 +143,11 @@ of…](https://miro.medium.com/v2/da:true/resize:fill:160:106/0*HAu-Q85XUN5Smh7l
 increase the usage
 of…](https://miro.medium.com/v2/da:true/resize:fill:320:214/0*HAu-Q85XUN5Smh7l)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F2ea080fe1a30&operation=register&redirect=https%3A%2F%2Fport-
-finance.medium.com%2Fport-finance-partners-with-hubble-protocol-to-bolster-
-capital-efficiency-and-increase-the-usage-
-of-2ea080fe1a30&user=Port+Finance&userId=11133420d0fa&source=-----2ea080fe1a30
-----2-----------------clap_footer-----------)
-
-\--
+May 23, 2022
 
 [](/port-finance-partners-with-hubble-protocol-to-bolster-capital-efficiency-
-and-increase-the-usage-
-of-2ea080fe1a30?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------2----------------------------)
+and-increase-the-usage-of-2ea080fe1a30?source=user_profile---------
+2----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F2ea080fe1a30&operation=register&redirect=https%3A%2F%2Fport-
 finance.medium.com%2Fport-finance-partners-with-hubble-protocol-to-bolster-
@@ -216,20 +168,10 @@ in
 ## [Introducing Port DAOPort Finance x Tribeca](/introducing-port-
 dao-8159c6a974fc?source=user_profile---------3----------------------------)
 
-[3 min read·Jan 6, 2022](/introducing-port-
-dao-8159c6a974fc?source=user_profile---------3----------------------------)
+Jan 6, 2022
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fport-
-finance%2F8159c6a974fc&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fport-
-finance%2Fintroducing-port-
-dao-8159c6a974fc&user=Port+Finance&userId=11133420d0fa&source=-----8159c6a974fc
-----3-----------------clap_footer-----------)
-
-\--
-
-[](/introducing-port-
-dao-8159c6a974fc?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------3----------------------------)
+[](/introducing-port-dao-8159c6a974fc?source=user_profile---------
+3----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8159c6a974fc&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fport-
 finance%2Fintroducing-port-dao-8159c6a974fc&source=---------3-----------------
@@ -243,17 +185,10 @@ Mh)
 DAO](https://miro.medium.com/v2/da:true/resize:fill:320:214/0*1QNOXYU24XzDO-
 Mh)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fport-
-finance%2F8159c6a974fc&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fport-
-finance%2Fintroducing-port-
-dao-8159c6a974fc&user=Port+Finance&userId=11133420d0fa&source=-----8159c6a974fc
-----3-----------------clap_footer-----------)
+Jan 6, 2022
 
-\--
-
-[](/introducing-port-
-dao-8159c6a974fc?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------3----------------------------)
+[](/introducing-port-dao-8159c6a974fc?source=user_profile---------
+3----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8159c6a974fc&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fport-
 finance%2Fintroducing-port-dao-8159c6a974fc&source=---------3-----------------
@@ -274,20 +209,10 @@ in
 Strategic Series A Round](/port-finance-raises-5-3m-strategic-series-a-
 round-f572d79597cc?source=user_profile---------4----------------------------)
 
-[3 min read·Dec 24, 2021](/port-finance-raises-5-3m-strategic-series-a-
-round-f572d79597cc?source=user_profile---------4----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fport-
-finance%2Ff572d79597cc&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fport-
-finance%2Fport-finance-raises-5-3m-strategic-series-a-
-round-f572d79597cc&user=Port+Finance&userId=11133420d0fa&source=-----f572d79597cc
-----4-----------------clap_footer-----------)
-
-\--
+Dec 24, 2021
 
 [](/port-finance-raises-5-3m-strategic-series-a-
-round-f572d79597cc?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------4----------------------------)
+round-f572d79597cc?source=user_profile---------4----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Ff572d79597cc&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fport-
 finance%2Fport-finance-raises-5-3m-strategic-series-a-
@@ -300,17 +225,10 @@ Round](https://miro.medium.com/v2/da:true/resize:fill:160:106/0*PCGg6eSL2E5Gmd8a
 ![Port Finance Raises 5.3M Strategic Series A
 Round](https://miro.medium.com/v2/da:true/resize:fill:320:214/0*PCGg6eSL2E5Gmd8a)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fport-
-finance%2Ff572d79597cc&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fport-
-finance%2Fport-finance-raises-5-3m-strategic-series-a-
-round-f572d79597cc&user=Port+Finance&userId=11133420d0fa&source=-----f572d79597cc
-----4-----------------clap_footer-----------)
-
-\--
+Dec 24, 2021
 
 [](/port-finance-raises-5-3m-strategic-series-a-
-round-f572d79597cc?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------4----------------------------)
+round-f572d79597cc?source=user_profile---------4----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Ff572d79597cc&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fport-
 finance%2Fport-finance-raises-5-3m-strategic-series-a-
@@ -333,21 +251,11 @@ Lending on Port Finance](/introducing-fixed-rate-lending-on-port-
 finance-a9987ce27e1f?source=user_profile---------
 5----------------------------)
 
-[3 min read·Dec 15, 2021](/introducing-fixed-rate-lending-on-port-
-finance-a9987ce27e1f?source=user_profile---------
-5----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fport-
-finance%2Fa9987ce27e1f&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fport-
-finance%2Fintroducing-fixed-rate-lending-on-port-
-finance-a9987ce27e1f&user=Port+Finance&userId=11133420d0fa&source=-----a9987ce27e1f
-----5-----------------clap_footer-----------)
-
-\--
+Dec 15, 2021
 
 [](/introducing-fixed-rate-lending-on-port-
-finance-a9987ce27e1f?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------5----------------------------)
+finance-a9987ce27e1f?source=user_profile---------
+5----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fa9987ce27e1f&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fport-
 finance%2Fintroducing-fixed-rate-lending-on-port-
@@ -362,17 +270,11 @@ eYFVaiPYkMv9)
 Finance](https://miro.medium.com/v2/da:true/resize:fill:320:214/0*yA_-
 eYFVaiPYkMv9)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fport-
-finance%2Fa9987ce27e1f&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fport-
-finance%2Fintroducing-fixed-rate-lending-on-port-
-finance-a9987ce27e1f&user=Port+Finance&userId=11133420d0fa&source=-----a9987ce27e1f
-----5-----------------clap_footer-----------)
-
-\--
+Dec 15, 2021
 
 [](/introducing-fixed-rate-lending-on-port-
-finance-a9987ce27e1f?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------5----------------------------)
+finance-a9987ce27e1f?source=user_profile---------
+5----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fa9987ce27e1f&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fport-
 finance%2Fintroducing-fixed-rate-lending-on-port-
@@ -394,20 +296,10 @@ in
 Ecosystem Grants!](/announcing-port-ecosystem-
 grants-98f0850c6cfc?source=user_profile---------6----------------------------)
 
-[2 min read·Dec 1, 2021](/announcing-port-ecosystem-
-grants-98f0850c6cfc?source=user_profile---------6----------------------------)
+Dec 1, 2021
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fport-
-finance%2F98f0850c6cfc&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fport-
-finance%2Fannouncing-port-ecosystem-
-grants-98f0850c6cfc&user=Port+Finance&userId=11133420d0fa&source=-----98f0850c6cfc
-----6-----------------clap_footer-----------)
-
-\--
-
-[](/announcing-port-ecosystem-
-grants-98f0850c6cfc?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------6----------------------------)
+[](/announcing-port-ecosystem-grants-98f0850c6cfc?source=user_profile---------
+6----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F98f0850c6cfc&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fport-
 finance%2Fannouncing-port-ecosystem-grants-98f0850c6cfc&source=---------6
@@ -419,17 +311,10 @@ Grants](https://miro.medium.com/v2/da:true/resize:fill:160:106/0*5Rq9cMzRbfqdy7b
 ![Announcing Port Ecosystem
 Grants](https://miro.medium.com/v2/da:true/resize:fill:320:214/0*5Rq9cMzRbfqdy7b6)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fport-
-finance%2F98f0850c6cfc&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fport-
-finance%2Fannouncing-port-ecosystem-
-grants-98f0850c6cfc&user=Port+Finance&userId=11133420d0fa&source=-----98f0850c6cfc
-----6-----------------clap_footer-----------)
+Dec 1, 2021
 
-\--
-
-[](/announcing-port-ecosystem-
-grants-98f0850c6cfc?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------6----------------------------)
+[](/announcing-port-ecosystem-grants-98f0850c6cfc?source=user_profile---------
+6----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F98f0850c6cfc&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fport-
 finance%2Fannouncing-port-ecosystem-grants-98f0850c6cfc&source=---------6
@@ -451,20 +336,10 @@ and the future of fixed-rate products](/fixed-rate-lending-and-why-it-is-
 important-fc5c10813485?source=user_profile---------
 7----------------------------)
 
-[6 min read·Oct 11, 2021](/fixed-rate-lending-and-why-it-is-important-
-fc5c10813485?source=user_profile---------7----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fport-
-finance%2Ffc5c10813485&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fport-
-finance%2Ffixed-rate-lending-and-why-it-is-important-
-fc5c10813485&user=Port+Finance&userId=11133420d0fa&source=-----fc5c10813485
-----7-----------------clap_footer-----------)
-
-\--
+Oct 11, 2021
 
 [](/fixed-rate-lending-and-why-it-is-important-
-fc5c10813485?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------7----------------------------)
+fc5c10813485?source=user_profile---------7----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Ffc5c10813485&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fport-
 finance%2Ffixed-rate-lending-and-why-it-is-important-
@@ -476,17 +351,10 @@ important?](https://miro.medium.com/v2/da:true/resize:fill:160:106/0*2JvBTSZf8Pw
 ![Fixed Rate Lending and why it is
 important?](https://miro.medium.com/v2/da:true/resize:fill:320:214/0*2JvBTSZf8PwBDQjx)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fport-
-finance%2Ffc5c10813485&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fport-
-finance%2Ffixed-rate-lending-and-why-it-is-important-
-fc5c10813485&user=Port+Finance&userId=11133420d0fa&source=-----fc5c10813485
-----7-----------------clap_footer-----------)
-
-\--
+Oct 11, 2021
 
 [](/fixed-rate-lending-and-why-it-is-important-
-fc5c10813485?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------7----------------------------)
+fc5c10813485?source=user_profile---------7----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Ffc5c10813485&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fport-
 finance%2Ffixed-rate-lending-and-why-it-is-important-
@@ -508,20 +376,10 @@ Mining and the Future Road Map](/announcing-liquidity-mining-and-the-future-
 road-map-574d3d2f2d1?source=user_profile---------
 8----------------------------)
 
-[3 min read·Sep 9, 2021](/announcing-liquidity-mining-and-the-future-road-
-map-574d3d2f2d1?source=user_profile---------8----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fport-
-finance%2F574d3d2f2d1&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fport-
-finance%2Fannouncing-liquidity-mining-and-the-future-road-
-map-574d3d2f2d1&user=Port+Finance&userId=11133420d0fa&source=-----574d3d2f2d1
-----8-----------------clap_footer-----------)
-
-\--
+Sep 9, 2021
 
 [](/announcing-liquidity-mining-and-the-future-road-
-map-574d3d2f2d1?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------8----------------------------)
+map-574d3d2f2d1?source=user_profile---------8----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F574d3d2f2d1&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fport-
 finance%2Fannouncing-liquidity-mining-and-the-future-road-
@@ -533,17 +391,10 @@ Map](https://miro.medium.com/v2/resize:fill:160:106/1*Jg9uQmQUf3RKPMuZYzk5FA.png
 ![Announcing Liquidity Mining and the Future Road
 Map](https://miro.medium.com/v2/resize:fill:320:214/1*Jg9uQmQUf3RKPMuZYzk5FA.png)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fport-
-finance%2F574d3d2f2d1&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fport-
-finance%2Fannouncing-liquidity-mining-and-the-future-road-
-map-574d3d2f2d1&user=Port+Finance&userId=11133420d0fa&source=-----574d3d2f2d1
-----8-----------------clap_footer-----------)
-
-\--
+Sep 9, 2021
 
 [](/announcing-liquidity-mining-and-the-future-road-
-map-574d3d2f2d1?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------8----------------------------)
+map-574d3d2f2d1?source=user_profile---------8----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F574d3d2f2d1&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fport-
 finance%2Fannouncing-liquidity-mining-and-the-future-road-
@@ -563,20 +414,10 @@ in
 ## [Port Finance Incident Report](/port-finance-incident-
 report-90c11bfe0e2c?source=user_profile---------9----------------------------)
 
-[3 min read·Sep 4, 2021](/port-finance-incident-
-report-90c11bfe0e2c?source=user_profile---------9----------------------------)
+Sep 4, 2021
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fport-
-finance%2F90c11bfe0e2c&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fport-
-finance%2Fport-finance-incident-
-report-90c11bfe0e2c&user=Port+Finance&userId=11133420d0fa&source=-----90c11bfe0e2c
-----9-----------------clap_footer-----------)
-
-\--
-
-[](/port-finance-incident-
-report-90c11bfe0e2c?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------9----------------------------)
+[](/port-finance-incident-report-90c11bfe0e2c?source=user_profile---------
+9----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F90c11bfe0e2c&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fport-
 finance%2Fport-finance-incident-report-90c11bfe0e2c&source=---------9
@@ -588,17 +429,10 @@ Report](https://miro.medium.com/v2/da:true/resize:fill:160:106/0*SuJDMSKvsAQZsnH
 ![Port Finance Incident
 Report](https://miro.medium.com/v2/da:true/resize:fill:320:214/0*SuJDMSKvsAQZsnHh)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fport-
-finance%2F90c11bfe0e2c&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fport-
-finance%2Fport-finance-incident-
-report-90c11bfe0e2c&user=Port+Finance&userId=11133420d0fa&source=-----90c11bfe0e2c
-----9-----------------clap_footer-----------)
+Sep 4, 2021
 
-\--
-
-[](/port-finance-incident-
-report-90c11bfe0e2c?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------9----------------------------)
+[](/port-finance-incident-report-90c11bfe0e2c?source=user_profile---------
+9----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F90c11bfe0e2c&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fport-
 finance%2Fport-finance-incident-report-90c11bfe0e2c&source=---------9
