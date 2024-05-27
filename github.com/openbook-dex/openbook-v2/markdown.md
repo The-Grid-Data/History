@@ -114,7 +114,7 @@ session. Dismiss alert
 [ openbook-dex ](/openbook-dex) / **[openbook-v2](/openbook-dex/openbook-v2)
 ** Public
 
-  * [ Notifications ](/login?return_to=%2Fopenbook-dex%2Fopenbook-v2)
+  * [ Notifications ](/login?return_to=%2Fopenbook-dex%2Fopenbook-v2) You must be signed in to change notification settings
   * [ Fork 62 ](/login?return_to=%2Fopenbook-dex%2Fopenbook-v2)
   * [ Star  123 ](/login?return_to=%2Fopenbook-dex%2Fopenbook-v2)
 
@@ -133,7 +133,8 @@ dex/openbook-v2/activity)
 
 [ Star  ](/login?return_to=%2Fopenbook-dex%2Fopenbook-v2)
 
-[ Notifications ](/login?return_to=%2Fopenbook-dex%2Fopenbook-v2)
+[ Notifications ](/login?return_to=%2Fopenbook-dex%2Fopenbook-v2) You must be
+signed in to change notification settings
 
   * [ Code ](/openbook-dex/openbook-v2)
   * [ Issues 4 ](/openbook-dex/openbook-v2/issues)
@@ -635,7 +636,20 @@ No packages published
 
 ##  [ Contributors 18 ](/openbook-dex/openbook-v2/graphs/contributors)
 
-  *   *   *   *   *   *   *   *   *   *   *   *   *   * 
+  * [ ![@skrrb](https://avatars.githubusercontent.com/u/87660800?s=64&v=4) ](https://github.com/skrrb)
+  * [ ![@binyebarwe](https://avatars.githubusercontent.com/u/76444437?s=64&v=4) ](https://github.com/binyebarwe)
+  * [ ![@metaproph3t](https://avatars.githubusercontent.com/u/108694867?s=64&v=4) ](https://github.com/metaproph3t)
+  * [ ![@mschneider](https://avatars.githubusercontent.com/u/144124?s=64&v=4) ](https://github.com/mschneider)
+  * [ ![@silas-x](https://avatars.githubusercontent.com/u/95582913?s=64&v=4) ](https://github.com/silas-x)
+  * [ ![@Lou-Kamades](https://avatars.githubusercontent.com/u/128186011?s=64&v=4) ](https://github.com/Lou-Kamades)
+  * [ ![@riordanp](https://avatars.githubusercontent.com/u/2303243?s=64&v=4) ](https://github.com/riordanp)
+  * [ ![@godmodegalactus](https://avatars.githubusercontent.com/u/96341601?s=64&v=4) ](https://github.com/godmodegalactus)
+  * [ ![@0xbridges](https://avatars.githubusercontent.com/u/57316945?s=64&v=4) ](https://github.com/0xbridges)
+  * [ ![@ckamm](https://avatars.githubusercontent.com/u/833306?s=64&v=4) ](https://github.com/ckamm)
+  * [ ![@brittcyr](https://avatars.githubusercontent.com/u/1320260?s=64&v=4) ](https://github.com/brittcyr)
+  * [ ![@farnyser](https://avatars.githubusercontent.com/u/1619518?s=64&v=4) ](https://github.com/farnyser)
+  * [ ![@kizmt](https://avatars.githubusercontent.com/u/90412655?s=64&v=4) ](https://github.com/kizmt)
+  * [ ![@Ozodimgba](https://avatars.githubusercontent.com/u/75076112?s=64&v=4) ](https://github.com/Ozodimgba)
 
 [ \+ 4 contributors ](/openbook-dex/openbook-v2/graphs/contributors)
 
