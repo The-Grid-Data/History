@@ -1,9 +1,3 @@
-**Introducing QuickNode Courses!** Discover our new courses designed to
-enhance your expertise in web3 development.
-
-[Start learning
-](https://www.quicknode.com/courses/welcome?utm_source=banner&utm_medium=website)
-
 [](/)
 
   * Products
@@ -43,6 +37,7 @@ By Stage
     * [![startup icon bw 24x24](https://images.ctfassets.net/23fkqdsgbpuj/6RtORxqGncJuJhLStzZOoe/c413a2edbac93ac58fec90f4614bc333/startup_icon_bw_24x24.png)Start Up](/startup)
     * [![enterprise icon bw 24x24](https://images.ctfassets.net/23fkqdsgbpuj/6EqxKTC7W9WlEOWp9kO4tj/ec534f44b3f07abcc45f1b1a145fe6a3/enterprise_icon_bw_24x24.png)Enterprise](/enterprise)
     * [![partners icon](https://images.ctfassets.net/23fkqdsgbpuj/xhN6leuHklZ5GkPHVFhbQ/8d76daa4d841417c3b200e942271517e/partners_icon.png)Partners](/preferred-partner)
+    * [![Embedded RPC](https://images.ctfassets.net/23fkqdsgbpuj/1oAotRS97eBw3l9DExcFYy/214a8603b305e4c814a4c50d26814e5c/whitelabel.svg)Embedded RPC](https://www.quicknode.com/embedded-rpc)
     * [![vertical proserv icon v4](https://images.ctfassets.net/23fkqdsgbpuj/1fI5I8MHOReAWTPHsgzG8l/9875d7c12b19f73bed348623c32e4c63/vertical_proserv_icon_v4.svg)Pro Services](https://www.quicknode.com/professional-services)
 
   * Chains
@@ -58,7 +53,7 @@ By Stage
     * [![imx logo](https://images.ctfassets.net/23fkqdsgbpuj/4mWtyMBu7y4AWkzfAZbQqP/57720e48c96b223a60a097cde51fcd0b/immutable-symbol-blk-RGB.png)Immutable](/chains/imx)
     * [![blast-icon-white](https://images.ctfassets.net/23fkqdsgbpuj/68jcwc0it0Chck7l1o4BW3/67063416abdbb7cf0af92216d36af284/blast_figma_white.svg) BlastNEW](/chains/blast)
     * [![zkSync Era Flat Logo](https://images.ctfassets.net/23fkqdsgbpuj/4VeF1t5IQq7A4dCTu3sBQU/abc5645791a2b02b4fc9d154898b6773/zkSync-Flat-Logo.svg)zkSync Era](/chains/zksync)
-    * [View all 33 chains](/chains)
+    * [View all 35 chains](/chains)
 
   * Developers
 
@@ -122,6 +117,7 @@ By Stage
     * [![startup icon bw 24x24](https://images.ctfassets.net/23fkqdsgbpuj/6RtORxqGncJuJhLStzZOoe/c413a2edbac93ac58fec90f4614bc333/startup_icon_bw_24x24.png)Start Up](/startup)
     * [![enterprise icon bw 24x24](https://images.ctfassets.net/23fkqdsgbpuj/6EqxKTC7W9WlEOWp9kO4tj/ec534f44b3f07abcc45f1b1a145fe6a3/enterprise_icon_bw_24x24.png)Enterprise](/enterprise)
     * [![partners icon](https://images.ctfassets.net/23fkqdsgbpuj/xhN6leuHklZ5GkPHVFhbQ/8d76daa4d841417c3b200e942271517e/partners_icon.png)Partners](/preferred-partner)
+    * [![Embedded RPC](https://images.ctfassets.net/23fkqdsgbpuj/1oAotRS97eBw3l9DExcFYy/214a8603b305e4c814a4c50d26814e5c/whitelabel.svg)Embedded RPC](https://www.quicknode.com/embedded-rpc)
     * [![vertical proserv icon v4](https://images.ctfassets.net/23fkqdsgbpuj/1fI5I8MHOReAWTPHsgzG8l/9875d7c12b19f73bed348623c32e4c63/vertical_proserv_icon_v4.svg)Pro Services](https://www.quicknode.com/professional-services)
 
   * Chains
@@ -141,7 +137,7 @@ Chains
     * [![zkSync Era Flat Logo](https://images.ctfassets.net/23fkqdsgbpuj/4VeF1t5IQq7A4dCTu3sBQU/abc5645791a2b02b4fc9d154898b6773/zkSync-Flat-Logo.svg)zkSync Era](/chains/zksync)
     * [View all  chains](/chains)
 
-[View all 33 chains](/chains)
+[View all 35 chains](/chains)
 
   * Developers
 
@@ -195,9 +191,9 @@ allowing you to focus on your customers.
 On average, we have API response times 2.5x faster than our competitors,
 ensuring you receive the freshest data!
 
-  * #### 33 Chains....and counting
+  * #### 35 Chains....and counting
 
-Access 33 chains across 65\+ networks. Whether you need Mainnet, Testnet,
+Access 35 chains across 70\+ networks. Whether you need Mainnet, Testnet,
 Full, or Archive Data, we have you covered!
 
 [Browse the chains](/chains)
