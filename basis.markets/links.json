@@ -1,33 +1,56 @@
-[
-    "http://bte.basis.markets",
-    "http://bte.basis.markets",
-    "http://bte.basis.markets",
-    "https://basis-markets.gitbook.io/",
-    "https://basis-markets.gitbook.io/welcome-to-gitbook/",
-    "https://basis-markets.gitbook.io/welcome-to-gitbook/",
-    "https://basis-markets.gitbook.io/welcome-to-gitbook/",
-    "https://basis-markets.gitbook.io/welcome-to-gitbook/terms-and-conditions/privacy-policy",
-    "https://basis-markets.gitbook.io/welcome-to-gitbook/terms-and-conditions/terms-of-service",
-    "https://basis-markets.gitbook.io/welcome-to-gitbook/terms-and-conditions/terms-of-service#10.-certification-of-non-united-states-person-status",
-    "https://basis.markets/",
-    "https://basis.markets/",
-    "https://basis.markets/",
-    "https://basis.markets/o/fggBbt9Eg44awhb5796e/s/eP8HBG4v6oxzoDOwFBzR/~/changes/65/products/basis-trade-executor-btx",
-    "https://blog.basis.markets/",
-    "https://blog.basis.markets/",
-    "https://discord.basis.markets",
-    "https://discord.basis.markets",
-    "https://discord.basis.markets/",
-    "https://discord.com/invite/basismarkets",
-    "https://opensea.io/collection/basis-markets-2",
-    "https://rbasis.basis.markets",
-    "https://solana.com/",
-    "https://solsea.io/collection/618d9a3a2d782178e7e21035",
-    "https://staking.basis.markets/",
-    "https://twitter.com/Basismarkets",
-    "https://twitter.com/Basismarkets",
-    "https://www.discord.basis.markets",
-    "https://www.magiceden.io/marketplace/basis_markets",
-    "https://www.youtube.com/channel/UCEzEuQRuxRZfCD-DzlkGnMw",
-    "https://www.youtube.com/channel/UCEzEuQRuxRZfCD-DzlkGnMw"
-]
+{
+    "target_url": "https://basis.markets/",
+    "domains": {
+        "basis-markets.gitbook.io": [
+            "https://basis-markets.gitbook.io/",
+            "https://basis-markets.gitbook.io/welcome-to-gitbook/",
+            "https://basis-markets.gitbook.io/welcome-to-gitbook/terms-and-conditions/privacy-policy",
+            "https://basis-markets.gitbook.io/welcome-to-gitbook/terms-and-conditions/terms-of-service",
+            "https://basis-markets.gitbook.io/welcome-to-gitbook/terms-and-conditions/terms-of-service#10.-certification-of-non-united-states-person-status"
+        ],
+        "basis.markets": [
+            "https://basis.markets/",
+            "https://basis.markets/o/fggBbt9Eg44awhb5796e/s/eP8HBG4v6oxzoDOwFBzR/~/changes/65/products/basis-trade-executor-btx"
+        ],
+        "blog.basis.markets": [
+            "https://blog.basis.markets/"
+        ],
+        "bte.basis.markets": [
+            "http://bte.basis.markets"
+        ],
+        "discord.basis.markets": [
+            "https://discord.basis.markets",
+            "https://discord.basis.markets/"
+        ],
+        "discord.com": [
+            "https://discord.com/invite/basismarkets"
+        ],
+        "opensea.io": [
+            "https://opensea.io/collection/basis-markets-2"
+        ],
+        "rbasis.basis.markets": [
+            "https://rbasis.basis.markets"
+        ],
+        "solana.com": [
+            "https://solana.com/"
+        ],
+        "solsea.io": [
+            "https://solsea.io/collection/618d9a3a2d782178e7e21035"
+        ],
+        "staking.basis.markets": [
+            "https://staking.basis.markets/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/Basismarkets"
+        ],
+        "www.discord.basis.markets": [
+            "https://www.discord.basis.markets"
+        ],
+        "www.magiceden.io": [
+            "https://www.magiceden.io/marketplace/basis_markets"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/channel/UCEzEuQRuxRZfCD-DzlkGnMw"
+        ]
+    }
+}
