@@ -47,9 +47,18 @@ we’re in the second half of the year, it’s time to reflect on what we achiev
 and what’s ahead. As a team, we…](/2q2022-recap-whats-ahead-samo-is-
 coming-472a41b7d76e?source=user_profile---------0----------------------------)
 
-Jul 14, 2022
+[9 min read·Jul 14, 2022](/2q2022-recap-whats-ahead-samo-is-
+coming-472a41b7d76e?source=user_profile---------0----------------------------)
 
-[1](/2q2022-recap-whats-ahead-samo-is-coming-472a41b7d76e?source=user_profile
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F472a41b7d76e&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2F2q2022-recap-
+whats-ahead-samo-is-
+coming-472a41b7d76e&user=OfficialSamoyedCoin&userId=2f199174ea42&source=-----472a41b7d76e
+----0-----------------clap_footer-----------)
+
+\--
+
+[1](/2q2022-recap-whats-ahead-samo-is-
+coming-472a41b7d76e?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
 ---------0----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F472a41b7d76e&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2F2q2022-recap-
@@ -62,9 +71,15 @@ Coming](https://miro.medium.com/v2/resize:fill:160:106/1*uDnZo9D8QttX9XSHjVaj8w.
 ![2Q2022 Recap & What’s Ahead: SAMO Is
 Coming](https://miro.medium.com/v2/resize:fill:320:214/1*uDnZo9D8QttX9XSHjVaj8w.png)
 
-Jul 14, 2022
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F472a41b7d76e&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2F2q2022-recap-
+whats-ahead-samo-is-
+coming-472a41b7d76e&user=OfficialSamoyedCoin&userId=2f199174ea42&source=-----472a41b7d76e
+----0-----------------clap_footer-----------)
 
-[1](/2q2022-recap-whats-ahead-samo-is-coming-472a41b7d76e?source=user_profile
+\--
+
+[1](/2q2022-recap-whats-ahead-samo-is-
+coming-472a41b7d76e?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
 ---------0----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F472a41b7d76e&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2F2q2022-recap-
@@ -82,10 +97,20 @@ ended, we wanted to take a moment to reflect on all the progress Samoyedcoin
 has made —…](/1q2022-recap-what-samo-achieved-3c0791274eff?source=user_profile
 ---------1----------------------------)
 
-Apr 19, 2022
-
-[](/1q2022-recap-what-samo-achieved-3c0791274eff?source=user_profile---------
+[9 min read·Apr 19, 2022](/1q2022-recap-what-samo-
+achieved-3c0791274eff?source=user_profile---------
 1----------------------------)
+
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F3c0791274eff&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2F1q2022-recap-
+what-samo-
+achieved-3c0791274eff&user=OfficialSamoyedCoin&userId=2f199174ea42&source=-----3c0791274eff
+----1-----------------clap_footer-----------)
+
+\--
+
+[](/1q2022-recap-what-samo-
+achieved-3c0791274eff?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------1----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F3c0791274eff&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2F1q2022-recap-
 what-samo-achieved-3c0791274eff&source=---------1-----------------
@@ -97,10 +122,16 @@ Achieved](https://miro.medium.com/v2/resize:fill:160:106/1*9MhnIKq2MVl47kBuww8pc
 ![1Q2022 Recap: What SAMO
 Achieved](https://miro.medium.com/v2/resize:fill:320:214/1*9MhnIKq2MVl47kBuww8pcw.png)
 
-Apr 19, 2022
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F3c0791274eff&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2F1q2022-recap-
+what-samo-
+achieved-3c0791274eff&user=OfficialSamoyedCoin&userId=2f199174ea42&source=-----3c0791274eff
+----1-----------------clap_footer-----------)
 
-[](/1q2022-recap-what-samo-achieved-3c0791274eff?source=user_profile---------
-1----------------------------)
+\--
+
+[](/1q2022-recap-what-samo-
+achieved-3c0791274eff?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------1----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F3c0791274eff&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2F1q2022-recap-
 what-samo-achieved-3c0791274eff&source=---------1-----------------
@@ -116,10 +147,19 @@ bookmark_preview-----------)
 energy-use-report-fb3ed6d137c4?source=user_profile---------
 2----------------------------)
 
-Jan 9, 2022
+[4 min read·Jan 9, 2022](/samoyedcoins-energy-use-report-
+fb3ed6d137c4?source=user_profile---------2----------------------------)
 
-[1](/samoyedcoins-energy-use-report-fb3ed6d137c4?source=user_profile---------
-2----------------------------)
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Ffb3ed6d137c4&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Fsamoyedcoins-
+energy-use-report-
+fb3ed6d137c4&user=OfficialSamoyedCoin&userId=2f199174ea42&source=-----fb3ed6d137c4
+----2-----------------clap_footer-----------)
+
+\--
+
+[1](/samoyedcoins-energy-use-report-
+fb3ed6d137c4?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------2----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Ffb3ed6d137c4&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Fsamoyedcoins-
 energy-use-report-fb3ed6d137c4&source=---------2-----------------
@@ -131,10 +171,16 @@ Report](https://miro.medium.com/v2/resize:fill:160:106/0*jOILolJThDN_E9W1.jpg)
 ![Samoyedcoin’s Energy Use
 Report](https://miro.medium.com/v2/resize:fill:320:214/0*jOILolJThDN_E9W1.jpg)
 
-Jan 9, 2022
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Ffb3ed6d137c4&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Fsamoyedcoins-
+energy-use-report-
+fb3ed6d137c4&user=OfficialSamoyedCoin&userId=2f199174ea42&source=-----fb3ed6d137c4
+----2-----------------clap_footer-----------)
 
-[1](/samoyedcoins-energy-use-report-fb3ed6d137c4?source=user_profile---------
-2----------------------------)
+\--
+
+[1](/samoyedcoins-energy-use-report-
+fb3ed6d137c4?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------2----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Ffb3ed6d137c4&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Fsamoyedcoins-
 energy-use-report-fb3ed6d137c4&source=---------2-----------------
@@ -150,10 +196,19 @@ bookmark_preview-----------)
 achieved-in-2021-f9e8f5cf6ee?source=user_profile---------
 3----------------------------)
 
-Jan 3, 2022
+[11 min read·Jan 3, 2022](/what-we-achieved-
+in-2021-f9e8f5cf6ee?source=user_profile---------3----------------------------)
 
-[](/what-we-achieved-in-2021-f9e8f5cf6ee?source=user_profile---------
-3----------------------------)
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Ff9e8f5cf6ee&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Fwhat-
+we-achieved-
+in-2021-f9e8f5cf6ee&user=OfficialSamoyedCoin&userId=2f199174ea42&source=-----f9e8f5cf6ee
+----3-----------------clap_footer-----------)
+
+\--
+
+[](/what-we-achieved-
+in-2021-f9e8f5cf6ee?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------3----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Ff9e8f5cf6ee&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Fwhat-
 we-achieved-in-2021-f9e8f5cf6ee&source=---------3-----------------
@@ -165,10 +220,16 @@ bookmark_preview-----------)
 ![What We Achieved In
 2021](https://miro.medium.com/v2/resize:fill:320:214/1*mso_ARA5nq7SfrpE3KfODw.jpeg)
 
-Jan 3, 2022
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Ff9e8f5cf6ee&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Fwhat-
+we-achieved-
+in-2021-f9e8f5cf6ee&user=OfficialSamoyedCoin&userId=2f199174ea42&source=-----f9e8f5cf6ee
+----3-----------------clap_footer-----------)
 
-[](/what-we-achieved-in-2021-f9e8f5cf6ee?source=user_profile---------
-3----------------------------)
+\--
+
+[](/what-we-achieved-
+in-2021-f9e8f5cf6ee?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------3----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Ff9e8f5cf6ee&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Fwhat-
 we-achieved-in-2021-f9e8f5cf6ee&source=---------3-----------------
@@ -185,10 +246,19 @@ absolutely explosive for not only the Solana ecosystem, but the Samoyedcoin
 community too…](/the-samo-2022-roadmap-51c4a6e5054f?source=user_profile
 ---------4----------------------------)
 
-Nov 23, 2021
-
-[2](/the-samo-2022-roadmap-51c4a6e5054f?source=user_profile---------
+[7 min read·Nov 23, 2021](/the-
+samo-2022-roadmap-51c4a6e5054f?source=user_profile---------
 4----------------------------)
+
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F51c4a6e5054f&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Fthe-
+samo-2022-roadmap-51c4a6e5054f&user=OfficialSamoyedCoin&userId=2f199174ea42&source=-----51c4a6e5054f
+----4-----------------clap_footer-----------)
+
+\--
+
+[2](/the-
+samo-2022-roadmap-51c4a6e5054f?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------4----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F51c4a6e5054f&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Fthe-
 samo-2022-roadmap-51c4a6e5054f&source=---------4-----------------
@@ -200,10 +270,15 @@ Roadmap](https://miro.medium.com/v2/resize:fill:160:106/1*8EwWhWTM3ENUVF8TZOo0Mg
 ![The SAMO 2022
 Roadmap](https://miro.medium.com/v2/resize:fill:320:214/1*8EwWhWTM3ENUVF8TZOo0Mg.png)
 
-Nov 23, 2021
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F51c4a6e5054f&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Fthe-
+samo-2022-roadmap-51c4a6e5054f&user=OfficialSamoyedCoin&userId=2f199174ea42&source=-----51c4a6e5054f
+----4-----------------clap_footer-----------)
 
-[2](/the-samo-2022-roadmap-51c4a6e5054f?source=user_profile---------
-4----------------------------)
+\--
+
+[2](/the-
+samo-2022-roadmap-51c4a6e5054f?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------4----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F51c4a6e5054f&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Fthe-
 samo-2022-roadmap-51c4a6e5054f&source=---------4-----------------
@@ -219,10 +294,19 @@ bookmark_preview-----------)
 2021](/samodex-enhancements-bb5e4c9c2a53?source=user_profile---------
 5----------------------------)
 
-Nov 21, 2021
+[2 min read·Nov 21, 2021](/samodex-enhancements-
+bb5e4c9c2a53?source=user_profile---------5----------------------------)
 
-[](/samodex-enhancements-bb5e4c9c2a53?source=user_profile---------
-5----------------------------)
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fbb5e4c9c2a53&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Fsamodex-
+enhancements-
+bb5e4c9c2a53&user=OfficialSamoyedCoin&userId=2f199174ea42&source=-----bb5e4c9c2a53
+----5-----------------clap_footer-----------)
+
+\--
+
+[](/samodex-enhancements-
+bb5e4c9c2a53?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------5----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fbb5e4c9c2a53&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Fsamodex-
 enhancements-bb5e4c9c2a53&source=---------5-----------------
@@ -234,10 +318,16 @@ enhancements](https://miro.medium.com/v2/resize:fill:160:106/0*paTjO2uyg8BiIg_c.
 ![SamoDEX
 enhancements](https://miro.medium.com/v2/resize:fill:320:214/0*paTjO2uyg8BiIg_c.png)
 
-Nov 21, 2021
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fbb5e4c9c2a53&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Fsamodex-
+enhancements-
+bb5e4c9c2a53&user=OfficialSamoyedCoin&userId=2f199174ea42&source=-----bb5e4c9c2a53
+----5-----------------clap_footer-----------)
 
-[](/samodex-enhancements-bb5e4c9c2a53?source=user_profile---------
-5----------------------------)
+\--
+
+[](/samodex-enhancements-
+bb5e4c9c2a53?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------5----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fbb5e4c9c2a53&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Fsamodex-
 enhancements-bb5e4c9c2a53&source=---------5-----------------
@@ -253,10 +343,19 @@ bookmark_preview-----------)
 2021](/raydium-fusion-pool-available-ccd0ff5e05de?source=user_profile---------
 6----------------------------)
 
-Nov 21, 2021
+[2 min read·Nov 21, 2021](/raydium-fusion-pool-available-
+ccd0ff5e05de?source=user_profile---------6----------------------------)
 
-[](/raydium-fusion-pool-available-ccd0ff5e05de?source=user_profile---------
-6----------------------------)
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fccd0ff5e05de&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Fraydium-
+fusion-pool-available-
+ccd0ff5e05de&user=OfficialSamoyedCoin&userId=2f199174ea42&source=-----ccd0ff5e05de
+----6-----------------clap_footer-----------)
+
+\--
+
+[](/raydium-fusion-pool-available-
+ccd0ff5e05de?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------6----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fccd0ff5e05de&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Fraydium-
 fusion-pool-available-ccd0ff5e05de&source=---------6-----------------
@@ -268,10 +367,16 @@ available!](https://miro.medium.com/v2/resize:fill:160:106/0*QGToCACBbUuUo_yp.pn
 ![Raydium Fusion Pool
 available!](https://miro.medium.com/v2/resize:fill:320:214/0*QGToCACBbUuUo_yp.png)
 
-Nov 21, 2021
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fccd0ff5e05de&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Fraydium-
+fusion-pool-available-
+ccd0ff5e05de&user=OfficialSamoyedCoin&userId=2f199174ea42&source=-----ccd0ff5e05de
+----6-----------------clap_footer-----------)
 
-[](/raydium-fusion-pool-available-ccd0ff5e05de?source=user_profile---------
-6----------------------------)
+\--
+
+[](/raydium-fusion-pool-available-
+ccd0ff5e05de?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------6----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fccd0ff5e05de&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Fraydium-
 fusion-pool-available-ccd0ff5e05de&source=---------6-----------------
@@ -288,9 +393,19 @@ bookmark_preview-----------)
 happened-795913d6f67d?source=user_profile---------
 7----------------------------)
 
-Nov 21, 2021
+[2 min read·Nov 21, 2021](/the-biggest-samo-burn-just-
+happened-795913d6f67d?source=user_profile---------
+7----------------------------)
 
-[](/the-biggest-samo-burn-just-happened-795913d6f67d?source=user_profile
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F795913d6f67d&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Fthe-
+biggest-samo-burn-just-
+happened-795913d6f67d&user=OfficialSamoyedCoin&userId=2f199174ea42&source=-----795913d6f67d
+----7-----------------clap_footer-----------)
+
+\--
+
+[](/the-biggest-samo-burn-just-
+happened-795913d6f67d?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
 ---------7----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F795913d6f67d&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Fthe-
@@ -303,9 +418,15 @@ happened!](https://miro.medium.com/v2/resize:fill:160:106/0*ng_u7Z818nxL_9t-.jpe
 ![The biggest SAMO burn just
 happened!](https://miro.medium.com/v2/resize:fill:320:214/0*ng_u7Z818nxL_9t-.jpeg)
 
-Nov 21, 2021
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F795913d6f67d&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Fthe-
+biggest-samo-burn-just-
+happened-795913d6f67d&user=OfficialSamoyedCoin&userId=2f199174ea42&source=-----795913d6f67d
+----7-----------------clap_footer-----------)
 
-[](/the-biggest-samo-burn-just-happened-795913d6f67d?source=user_profile
+\--
+
+[](/the-biggest-samo-burn-just-
+happened-795913d6f67d?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
 ---------7----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F795913d6f67d&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Fthe-
@@ -322,10 +443,20 @@ biggest-samo-burn-just-happened-795913d6f67d&source=---------7
 2021](/final-burn-event-is-starting-5f6c2070baa7?source=user_profile---------
 8----------------------------)
 
-Nov 21, 2021
-
-[](/final-burn-event-is-starting-5f6c2070baa7?source=user_profile---------
+[2 min read·Nov 21, 2021](/final-burn-event-is-
+starting-5f6c2070baa7?source=user_profile---------
 8----------------------------)
+
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F5f6c2070baa7&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Ffinal-
+burn-event-is-
+starting-5f6c2070baa7&user=OfficialSamoyedCoin&userId=2f199174ea42&source=-----5f6c2070baa7
+----8-----------------clap_footer-----------)
+
+\--
+
+[](/final-burn-event-is-
+starting-5f6c2070baa7?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------8----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F5f6c2070baa7&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Ffinal-
 burn-event-is-starting-5f6c2070baa7&source=---------8-----------------
@@ -337,10 +468,16 @@ starting!](https://miro.medium.com/v2/resize:fill:160:106/0*jYfalRLRWcT9C_h8.png
 ![Final Burn Event is
 starting!](https://miro.medium.com/v2/resize:fill:320:214/0*jYfalRLRWcT9C_h8.png)
 
-Nov 21, 2021
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F5f6c2070baa7&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Ffinal-
+burn-event-is-
+starting-5f6c2070baa7&user=OfficialSamoyedCoin&userId=2f199174ea42&source=-----5f6c2070baa7
+----8-----------------clap_footer-----------)
 
-[](/final-burn-event-is-starting-5f6c2070baa7?source=user_profile---------
-8----------------------------)
+\--
+
+[](/final-burn-event-is-
+starting-5f6c2070baa7?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------8----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F5f6c2070baa7&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Ffinal-
 burn-event-is-starting-5f6c2070baa7&source=---------8-----------------
@@ -356,10 +493,18 @@ bookmark_preview-----------)
 2021](/samodex-launched-c0eee4be2e47?source=user_profile---------
 9----------------------------)
 
-Nov 21, 2021
+[2 min read·Nov 21, 2021](/samodex-launched-c0eee4be2e47?source=user_profile
+---------9----------------------------)
 
-[](/samodex-launched-c0eee4be2e47?source=user_profile---------
-9----------------------------)
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fc0eee4be2e47&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Fsamodex-
+launched-c0eee4be2e47&user=OfficialSamoyedCoin&userId=2f199174ea42&source=-----c0eee4be2e47
+----9-----------------clap_footer-----------)
+
+\--
+
+[](/samodex-
+launched-c0eee4be2e47?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------9----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fc0eee4be2e47&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Fsamodex-
 launched-c0eee4be2e47&source=---------9-----------------
@@ -371,10 +516,15 @@ launched](https://miro.medium.com/v2/resize:fill:160:106/0*xBFhfcG_YipfaA_k.jpeg
 ![SamoDEX
 launched](https://miro.medium.com/v2/resize:fill:320:214/0*xBFhfcG_YipfaA_k.jpeg)
 
-Nov 21, 2021
+[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fc0eee4be2e47&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Fsamodex-
+launched-c0eee4be2e47&user=OfficialSamoyedCoin&userId=2f199174ea42&source=-----c0eee4be2e47
+----9-----------------clap_footer-----------)
 
-[](/samodex-launched-c0eee4be2e47?source=user_profile---------
-9----------------------------)
+\--
+
+[](/samodex-
+launched-c0eee4be2e47?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------9----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fc0eee4be2e47&operation=register&redirect=https%3A%2F%2Fofficialsamoyedcoin.medium.com%2Fsamodex-
 launched-c0eee4be2e47&source=---------9-----------------
