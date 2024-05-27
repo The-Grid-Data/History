@@ -1,12 +1,12 @@
-[
-    "https://storage.googleapis.com/prod-assets-parallel-life/images/home-page/home_game_features_1.png",
-    "https://storage.googleapis.com/prod-assets-parallel-life/images/home-page/home_game_features_1.png",
-    "https://storage.googleapis.com/prod-assets-parallel-life/images/home-page/home_game_features_2.png",
-    "https://storage.googleapis.com/prod-assets-parallel-life/images/home-page/home_game_features_2.png",
-    "https://storage.googleapis.com/prod-assets-parallel-life/images/home-page/home_game_features_3.png",
-    "https://storage.googleapis.com/prod-assets-parallel-life/images/home-page/home_game_features_3.png",
-    "https://storage.googleapis.com/prod-assets-parallel-life/images/home-page/home_game_features_4.png",
-    "https://storage.googleapis.com/prod-assets-parallel-life/images/home-page/home_game_features_4.png",
-    "https://storage.googleapis.com/prod-assets-parallel-life/images/home-page/how_to_play_preview.png",
-    "https://storage.googleapis.com/prod-assets-parallel-life/images/home-page/how_to_play_preview.png"
-]
+{
+    "target_url": "https://parallel.life",
+    "domains": {
+        "storage.googleapis.com": [
+            "https://storage.googleapis.com/prod-assets-parallel-life/images/home-page/home_game_features_1.png",
+            "https://storage.googleapis.com/prod-assets-parallel-life/images/home-page/home_game_features_2.png",
+            "https://storage.googleapis.com/prod-assets-parallel-life/images/home-page/home_game_features_3.png",
+            "https://storage.googleapis.com/prod-assets-parallel-life/images/home-page/home_game_features_4.png",
+            "https://storage.googleapis.com/prod-assets-parallel-life/images/home-page/how_to_play_preview.png"
+        ]
+    }
+}
