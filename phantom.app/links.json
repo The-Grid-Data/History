@@ -1,39 +1,51 @@
-[
-    "https://cdn.sanity.io/files/3nm6d03a/production/533ef072e1462cd6b4006045d277b91d797259a5.zip",
-    "https://chrome.google.com/webstore/detail/phantom/bfnaelmomeimhlpmgjnjophhpkkoljpa",
-    "https://chrome.google.com/webstore/detail/phantom/bfnaelmomeimhlpmgjnjophhpkkoljpa",
-    "https://feedback.phantom.app/feature-requests",
-    "https://help.phantom.app/hc/en-us",
-    "https://help.phantom.app/hc/en-us",
-    "https://phantom.app/",
-    "https://phantom.app/",
-    "https://phantom.app/",
-    "https://phantom.app/about",
-    "https://phantom.app/download",
-    "https://phantom.app/download",
-    "https://phantom.app/download",
-    "https://phantom.app/download",
-    "https://phantom.app/download",
-    "https://phantom.app/explore",
-    "https://phantom.app/explore",
-    "https://phantom.app/jobs",
-    "https://phantom.app/learn",
-    "https://phantom.app/learn",
-    "https://phantom.app/learn/blog",
-    "https://phantom.app/learn/blog",
-    "https://phantom.app/learn/crypto-101",
-    "https://phantom.app/learn/developers",
-    "https://phantom.app/learn/developers",
-    "https://phantom.app/learn/guides",
-    "https://phantom.app/privacy",
-    "https://phantom.app/security",
-    "https://phantom.app/security",
-    "https://phantom.app/taxes",
-    "https://phantom.app/terms",
-    "https://podcast.phantom.app/",
-    "https://status.phantom.app/",
-    "https://twitter.com/phantom",
-    "https://www.linkedin.com/company/phantomwallet",
-    "https://www.reddit.com/r/phantom/",
-    "https://www.youtube.com/@phantom-wallet"
-]
+{
+    "target_url": "https://phantom.app/",
+    "domains": {
+        "cdn.sanity.io": [
+            "https://cdn.sanity.io/files/3nm6d03a/production/533ef072e1462cd6b4006045d277b91d797259a5.zip"
+        ],
+        "chrome.google.com": [
+            "https://chrome.google.com/webstore/detail/phantom/bfnaelmomeimhlpmgjnjophhpkkoljpa"
+        ],
+        "feedback.phantom.app": [
+            "https://feedback.phantom.app/feature-requests"
+        ],
+        "help.phantom.app": [
+            "https://help.phantom.app/hc/en-us"
+        ],
+        "phantom.app": [
+            "https://phantom.app/",
+            "https://phantom.app/about",
+            "https://phantom.app/download",
+            "https://phantom.app/explore",
+            "https://phantom.app/jobs",
+            "https://phantom.app/learn",
+            "https://phantom.app/learn/blog",
+            "https://phantom.app/learn/crypto-101",
+            "https://phantom.app/learn/developers",
+            "https://phantom.app/learn/guides",
+            "https://phantom.app/privacy",
+            "https://phantom.app/security",
+            "https://phantom.app/taxes",
+            "https://phantom.app/terms"
+        ],
+        "podcast.phantom.app": [
+            "https://podcast.phantom.app/"
+        ],
+        "status.phantom.app": [
+            "https://status.phantom.app/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/phantom"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/phantomwallet"
+        ],
+        "www.reddit.com": [
+            "https://www.reddit.com/r/phantom/"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/@phantom-wallet"
+        ]
+    }
+}
