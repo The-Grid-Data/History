@@ -1,51 +1,67 @@
-[
-    "https://based.staratlas.com/?utm_medium=medium&utm_campaign=G23B",
-    "https://coinmarketcap.com/currencies/star-atlas-polis/",
-    "https://coinmarketcap.com/currencies/star-atlas/",
-    "https://discord.gg/staratlas",
-    "https://play.staratlas.com",
-    "https://play.staratlas.com",
-    "https://play.staratlas.com",
-    "https://staratlas.com/",
-    "https://staratlas.com/",
-    "https://staratlas.com/",
-    "https://staratlas.com/",
-    "https://staratlas.com/#chapter-1",
-    "https://staratlas.com/#chapter-2",
-    "https://staratlas.com/#chapter-3",
-    "https://staratlas.com/#chapter-4",
-    "https://staratlas.com/#chapter-5",
-    "https://staratlas.com/#chapter-end",
-    "https://staratlas.com/#close",
-    "https://staratlas.com/#next",
-    "https://staratlas.com/#prev",
-    "https://staratlas.com/#trailer",
-    "https://staratlas.com/#trailer",
-    "https://staratlas.com/#trailer",
-    "https://staratlas.com/Roadmap",
-    "https://staratlas.com/Roadmap",
-    "https://staratlas.com/assets/pdfs/white-paper.pdf",
-    "https://staratlas.com/contact",
-    "https://staratlas.com/contact",
-    "https://staratlas.com/newsroom",
-    "https://staratlas.com/newsroom",
-    "https://staratlas.com/newsroom/economic-reports/",
-    "https://staratlas.com/newsroom/governance-documentation",
-    "https://staratlas.com/privacy-policy",
-    "https://staratlas.com/privacy-policy",
-    "https://staratlas.com/privacy-policy",
-    "https://staratlas.com/showroom",
-    "https://staratlas.com/team",
-    "https://staratlas.com/team",
-    "https://staratlas.com/terms-of-service",
-    "https://staratlas.com/terms-of-service",
-    "https://t.me/staratlasgame",
-    "https://twitter.com/staratlas",
-    "https://www.coingecko.com/en/coins/star-atlas",
-    "https://www.coingecko.com/en/coins/star-atlas-dao",
-    "https://www.facebook.com/StarAtlasMMO",
-    "https://www.instagram.com/staratlasgame/",
-    "https://www.reddit.com/r/StarAtlas/",
-    "https://www.twitch.tv/staratlasgame",
-    "https://www.youtube.com/channel/UCt-y8Npwje5KDG5MSZ0a9Jw"
-]
+{
+    "target_url": "https://StarAtlas.com",
+    "domains": {
+        "StarAtlas.com": [
+            "https://StarAtlas.com",
+            "https://StarAtlas.com#chapter-1",
+            "https://StarAtlas.com#chapter-2",
+            "https://StarAtlas.com#chapter-3",
+            "https://StarAtlas.com#chapter-4",
+            "https://StarAtlas.com#chapter-5",
+            "https://StarAtlas.com#chapter-end",
+            "https://StarAtlas.com#close",
+            "https://StarAtlas.com#next",
+            "https://StarAtlas.com#prev",
+            "https://StarAtlas.com#trailer",
+            "https://StarAtlas.com/",
+            "https://StarAtlas.com/Roadmap",
+            "https://StarAtlas.com/assets/pdfs/white-paper.pdf",
+            "https://StarAtlas.com/contact",
+            "https://StarAtlas.com/newsroom",
+            "https://StarAtlas.com/newsroom/economic-reports/",
+            "https://StarAtlas.com/newsroom/governance-documentation",
+            "https://StarAtlas.com/privacy-policy",
+            "https://StarAtlas.com/showroom",
+            "https://StarAtlas.com/team",
+            "https://StarAtlas.com/terms-of-service"
+        ],
+        "based.staratlas.com": [
+            "https://based.staratlas.com/?utm_medium=medium&utm_campaign=G23B"
+        ],
+        "coinmarketcap.com": [
+            "https://coinmarketcap.com/currencies/star-atlas-polis/",
+            "https://coinmarketcap.com/currencies/star-atlas/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/staratlas"
+        ],
+        "play.staratlas.com": [
+            "https://play.staratlas.com"
+        ],
+        "t.me": [
+            "https://t.me/staratlasgame"
+        ],
+        "twitter.com": [
+            "https://twitter.com/staratlas"
+        ],
+        "www.coingecko.com": [
+            "https://www.coingecko.com/en/coins/star-atlas",
+            "https://www.coingecko.com/en/coins/star-atlas-dao"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/StarAtlasMMO"
+        ],
+        "www.instagram.com": [
+            "https://www.instagram.com/staratlasgame/"
+        ],
+        "www.reddit.com": [
+            "https://www.reddit.com/r/StarAtlas/"
+        ],
+        "www.twitch.tv": [
+            "https://www.twitch.tv/staratlasgame"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/channel/UCt-y8Npwje5KDG5MSZ0a9Jw"
+        ]
+    }
+}
