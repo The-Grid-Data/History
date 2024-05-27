@@ -29,7 +29,7 @@ articles](/en/categories/337537-faqs)[ Learn 2 categories 14
 articles](/en/categories/305729-learn)[ Legal Documents 3 categories 12
 articles](/en/categories/305665-legal-documents)
 
-[Backpack Exchange API DocumentationEdited 12 days agoAPI documents and
+[Backpack Exchange API DocumentationEdited 13 days agoAPI documents and
 clients for Backpack Exchange developers. Visit the Backpack Discord API
 channel to troubleshoot any issues. Documents:
 https://...](/en/articles/1988481)

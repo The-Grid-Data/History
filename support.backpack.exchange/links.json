@@ -1,19 +1,35 @@
-[
-    "https://docs.backpack.exchange/",
-    "https://linktr.ee/backpacksupportchannels",
-    "https://status.backpack.exchange/",
-    "https://support.backpack.exchange/en",
-    "https://support.backpack.exchange/en",
-    "https://support.backpack.exchange/en/articles/1988481",
-    "https://support.backpack.exchange/en/articles/484353",
-    "https://support.backpack.exchange/en/categories/145537-announcements",
-    "https://support.backpack.exchange/en/categories/305537-backpack-exchange",
-    "https://support.backpack.exchange/en/categories/305601-backpack-wallet",
-    "https://support.backpack.exchange/en/categories/305665-legal-documents",
-    "https://support.backpack.exchange/en/categories/305729-learn",
-    "https://support.backpack.exchange/en/categories/337537-faqs",
-    "https://support.backpack.exchange/en/search",
-    "https://twitter.com/Backpack",
-    "https://www.linkedin.com/company/backpackexchange",
-    "https://www.notion.so/7c1995182f4a491ba8a9501ee15cbd01?v=0604ca8976fa4e5e81c5494f7c95abc4"
-]
+{
+    "target_url": "https://support.backpack.exchange",
+    "domains": {
+        "docs.backpack.exchange": [
+            "https://docs.backpack.exchange/"
+        ],
+        "linktr.ee": [
+            "https://linktr.ee/backpacksupportchannels"
+        ],
+        "status.backpack.exchange": [
+            "https://status.backpack.exchange/"
+        ],
+        "support.backpack.exchange": [
+            "https://support.backpack.exchange/en",
+            "https://support.backpack.exchange/en/articles/1988481",
+            "https://support.backpack.exchange/en/articles/484353",
+            "https://support.backpack.exchange/en/categories/145537-announcements",
+            "https://support.backpack.exchange/en/categories/305537-backpack-exchange",
+            "https://support.backpack.exchange/en/categories/305601-backpack-wallet",
+            "https://support.backpack.exchange/en/categories/305665-legal-documents",
+            "https://support.backpack.exchange/en/categories/305729-learn",
+            "https://support.backpack.exchange/en/categories/337537-faqs",
+            "https://support.backpack.exchange/en/search"
+        ],
+        "twitter.com": [
+            "https://twitter.com/Backpack"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/backpackexchange"
+        ],
+        "www.notion.so": [
+            "https://www.notion.so/7c1995182f4a491ba8a9501ee15cbd01?v=0604ca8976fa4e5e81c5494f7c95abc4"
+        ]
+    }
+}
