@@ -279,3 +279,13 @@ Accept Cookies
 
 &noscript=1)
 
+Recaptcha requires verification.
+
+[Privacy](https://www.google.com/intl/en/policies/privacy/) \-
+[Terms](https://www.google.com/intl/en/policies/terms/)
+
+protected by **reCAPTCHA**
+
+[Privacy](https://www.google.com/intl/en/policies/privacy/) \-
+[Terms](https://www.google.com/intl/en/policies/terms/)
+
