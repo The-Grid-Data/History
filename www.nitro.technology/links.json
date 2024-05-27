@@ -1,13 +1,17 @@
-[
-    "https://discord.gg/bhxnAg7hrb",
-    "https://nitro-svm.gitbook.io/documentation/introduction/the-first-solana-vm-chain",
-    "https://nitro-svm.gitbook.io/documentation/introduction/the-first-solana-vm-chain",
-    "https://nitro-svm.gitbook.io/documentation/introduction/the-first-solana-vm-chain",
-    "https://nitro-svm.gitbook.io/documentation/introduction/the-first-solana-vm-chain",
-    "https://twitter.com/Nitro_Labs",
-    "https://www.nitro.technology/",
-    "https://www.nitro.technology/",
-    "https://www.nitro.technology/",
-    "https://www.nitro.technology/",
-    "https://www.nitro.technology/"
-]
+{
+    "target_url": "https://www.nitro.technology/",
+    "domains": {
+        "discord.gg": [
+            "https://discord.gg/bhxnAg7hrb"
+        ],
+        "nitro-svm.gitbook.io": [
+            "https://nitro-svm.gitbook.io/documentation/introduction/the-first-solana-vm-chain"
+        ],
+        "twitter.com": [
+            "https://twitter.com/Nitro_Labs"
+        ],
+        "www.nitro.technology": [
+            "https://www.nitro.technology/"
+        ]
+    }
+}
