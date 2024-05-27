@@ -1,13 +1,17 @@
-[
-    "https://sonar.watch/assets/sw_logo_black-2ca475bc.svg",
-    "https://sonar.watch/assets/sw_logo_black-2ca475bc.svg",
-    "https://sonar.watch/img/networks/aptos.png",
-    "https://sonar.watch/img/networks/avalanche.png",
-    "https://sonar.watch/img/networks/bitcoin.png",
-    "https://sonar.watch/img/networks/bnb.png",
-    "https://sonar.watch/img/networks/ethereum.png",
-    "https://sonar.watch/img/networks/polygon.png",
-    "https://sonar.watch/img/networks/sei.png",
-    "https://sonar.watch/img/networks/solana.png",
-    "https://sonar.watch/img/networks/sui.png"
-]
+{
+    "target_url": "https://sonar.watch/",
+    "domains": {
+        "sonar.watch": [
+            "https://sonar.watch/assets/sw_logo_black-2ca475bc.svg",
+            "https://sonar.watch/img/networks/aptos.png",
+            "https://sonar.watch/img/networks/avalanche.png",
+            "https://sonar.watch/img/networks/bitcoin.png",
+            "https://sonar.watch/img/networks/bnb.png",
+            "https://sonar.watch/img/networks/ethereum.png",
+            "https://sonar.watch/img/networks/polygon.png",
+            "https://sonar.watch/img/networks/sei.png",
+            "https://sonar.watch/img/networks/solana.png",
+            "https://sonar.watch/img/networks/sui.png"
+        ]
+    }
+}
