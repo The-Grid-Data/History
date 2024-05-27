@@ -271,9 +271,111 @@ Tiếng Việt
 
 繁體中文
 
+USD-$
+
+USD-$
+
+AED-د.إ
+
+ARS-ARS$
+
+AUD-A$
+
+BDT-৳
+
+BGN-лв
+
+BHD-.د.ب
+
+BOB-$b
+
+BRL-R$
+
+CAD-C$
+
+CHF-CHF
+
+CNY-¥
+
+COP-COL$
+
+CZK-Kč
+
+DKK-KR
+
+EGP-E£
+
+EUR-€
+
+GBP-£
+
+HKD-HKD
+
+HRK-kn
+
+HUF-Ft
+
+IDR-Rp
+
+INR-₹
+
+JPY-¥
+
+KES-KSh
+
+KWD-ك.د
+
+KZT-₸
+
+MAD-م.د.
+
+MNT-₮
+
+MXN-Mex$
+
+NZD-NZ$
+
+OMR-ر.ع.
+
+PEN-S/.
+
+PHP-₱
+
+PKR-₨
+
+PLN-zł
+
+QAR-ر.ق
+
+RON-lei
+
+RUB-₽
+
+SAR-ر.س
+
+SEK-kr
+
+THB-฿
+
+TRY-₺
+
+TWD-NT$
+
+UAH-₴
+
+UGX-USh
+
+VES-Bs
+
+VND-₫
+
+ZAR-R
+
 Theme
 
 English
+
+USD
 
 Theme
 
@@ -361,4 +463,104 @@ Theme
   * [Law Enforcement Requests](https://www.binance.com/en/support/law-enforcement)
 
 Binance© 2024Cookie Preferences
+
+Support
+
+![Company Logo](https://cdn.cookielaw.org/logos/99f99939-5a0d-4feb-
+aef3-ba45f16b6907/5bfb9945-c83c-46f9-8bd7-55e8fd1975b5/02e50907-93f6-477d-a8a2-d581dace49c2/binance-h.png)
+
+## Privacy Preference Center
+
+When you visit any website, it may store or retrieve information on your
+browser, mostly in the form of cookies. This information might be about you,
+your preferences or your device and is mostly used to make the site work as
+you expect it to. The information does not usually directly identify you, but
+it can give you a more personalized web experience. Because we respect your
+right to privacy, you can choose not to allow some types of cookies. Click on
+the different category headings to find out more and change our default
+settings. However, blocking some types of cookies may impact your experience
+of the site and the services we are able to offer.  
+[Cookie Policy](https://www.binance.com/en/cookie-privacy)
+
+Allow All
+
+###  Manage Consent Preferences
+
+#### Strictly Necessary Cookies
+
+Always Active
+
+These cookies are necessary for the website to function and cannot be switched
+off in our systems. They are usually only set in response to actions made by
+you which amount to a request for services, such as setting your privacy
+preferences, logging in or filling in forms. You can set your browser to block
+or alert you about these cookies, but some parts of the site will not then
+work. These cookies do not store any personally identifiable information.
+
+Cookies Details‎
+
+#### Functional Cookies
+
+Functional Cookies
+
+These cookies enable the website to provide enhanced functionality and
+personalisation. They may be set by us or by third party providers whose
+services we have added to our pages. If you do not allow these cookies then
+some or all of these services may not function properly.
+
+Cookies Details‎
+
+#### Targeting Cookies
+
+Targeting Cookies
+
+Targeting cookies may be set through our site by ourselves and our advertising
+partners. First parties and third parties will use them to build a profile of
+your interests based on the browsing information they collect from you, which
+includes uniquely identifying your browser and terminal equipment. If you do
+not allow these cookies you will still see basic advertising on your browser
+that is generic and not based on your interests
+
+Cookies Details‎
+
+#### Performance Cookies
+
+Performance Cookies
+
+These cookies allow us to count visits and traffic sources so we can measure
+and improve the performance of our site. They help us to know which pages are
+the most and least popular and see how visitors move around the site. All
+information these cookies collect is aggregated and therefore anonymous. If
+you do not allow these cookies we will not know when you have visited our
+site, and will not be able to monitor its performance.
+
+Cookies Details‎
+
+Back Button
+
+### Cookie List
+
+Search Icon
+
+Filter Icon
+
+Clear
+
+checkbox label label
+
+Apply Cancel
+
+Consent Leg.Interest
+
+checkbox label label
+
+checkbox label label
+
+checkbox label label
+
+Reject All Confirm My Choices
+
+[![Powered by
+Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/products/cookie-
+consent/)
 
