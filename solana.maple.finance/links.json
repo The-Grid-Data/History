@@ -1,10 +1,19 @@
-[
-    "https://maplefinance.gitbook.io/maple/",
-    "https://maplefinance.gitbook.io/maple/additional-links/interface-terms-of-use",
-    "https://maplefinance.gitbook.io/maple/additional-links/privacy-policy",
-    "https://solana.maple.finance/#/",
-    "https://solana.maple.finance/#/borrow",
-    "https://solana.maple.finance/#/delegate",
-    "https://solana.maple.finance/#/earn",
-    "https://www.maple.finance/contact/index.html"
-]
+{
+    "target_url": "https://solana.maple.finance/",
+    "domains": {
+        "maplefinance.gitbook.io": [
+            "https://maplefinance.gitbook.io/maple/",
+            "https://maplefinance.gitbook.io/maple/additional-links/interface-terms-of-use",
+            "https://maplefinance.gitbook.io/maple/additional-links/privacy-policy"
+        ],
+        "solana.maple.finance": [
+            "https://solana.maple.finance/#/",
+            "https://solana.maple.finance/#/borrow",
+            "https://solana.maple.finance/#/delegate",
+            "https://solana.maple.finance/#/earn"
+        ],
+        "www.maple.finance": [
+            "https://www.maple.finance/contact/index.html"
+        ]
+    }
+}
