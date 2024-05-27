@@ -1,12 +1,21 @@
-[
-    "http://discord.gg/ESaTYGzqpd",
-    "https://app.phoenix.trade/market/4DoNfFBfF7UokCC2FQzriy7yHK6DY6NVdYpuekQ5pRgg",
-    "https://app.phoenix.trade/market/4DoNfFBfF7UokCC2FQzriy7yHK6DY6NVdYpuekQ5pRgg",
-    "https://app.phoenix.trade/market/4DoNfFBfF7UokCC2FQzriy7yHK6DY6NVdYpuekQ5pRgg",
-    "https://app.phoenix.trade/privacy",
-    "https://app.phoenix.trade/terms",
-    "https://github.com/Ellipsis-Labs/phoenix-v1#build-verification",
-    "https://github.com/Ellipsis-Labs/phoenix-v1/blob/master/SECURITY.md",
-    "https://github.com/Ellipsis-Labs/phoenix-v1/tree/0610731ae6e901bd1eed384f07c7bdae4048c26c/audits",
-    "https://www.phoenix.trade/"
-]
+{
+    "target_url": "https://www.phoenix.trade/",
+    "domains": {
+        "app.phoenix.trade": [
+            "https://app.phoenix.trade/market/4DoNfFBfF7UokCC2FQzriy7yHK6DY6NVdYpuekQ5pRgg",
+            "https://app.phoenix.trade/privacy",
+            "https://app.phoenix.trade/terms"
+        ],
+        "discord.gg": [
+            "http://discord.gg/ESaTYGzqpd"
+        ],
+        "github.com": [
+            "https://github.com/Ellipsis-Labs/phoenix-v1#build-verification",
+            "https://github.com/Ellipsis-Labs/phoenix-v1/blob/master/SECURITY.md",
+            "https://github.com/Ellipsis-Labs/phoenix-v1/tree/0610731ae6e901bd1eed384f07c7bdae4048c26c/audits"
+        ],
+        "www.phoenix.trade": [
+            "https://www.phoenix.trade/"
+        ]
+    }
+}
