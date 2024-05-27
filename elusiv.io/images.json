@@ -1,4 +1,12 @@
-[
-    "https://elusiv.io/img/elusiv-logotype-black.svg",
-    "https://elusiv.io/img/shape_02.svg"
-]
+{
+    "target_url": "https://elusiv.io",
+    "domains": {
+        "cdn.usefathom.com": [
+            "https://cdn.usefathom.com/?h=https%3A%2F%2Fwww.elusiv.io&p=%2F&r=&sid=OJOADXXP&qs=%7B%7D&cid=18096971"
+        ],
+        "elusiv.io": [
+            "https://elusiv.io/img/elusiv-logotype-black.svg",
+            "https://elusiv.io/img/shape_02.svg"
+        ]
+    }
+}

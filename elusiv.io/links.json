@@ -1,5 +1,14 @@
-[
-    "https://discord.com/invite/elusivprivacy-official",
-    "https://medium.com/elusiv-privacy",
-    "https://twitter.com/elusivprivacy"
-]
+{
+    "target_url": "https://elusiv.io",
+    "domains": {
+        "discord.com": [
+            "https://discord.com/invite/elusivprivacy-official"
+        ],
+        "medium.com": [
+            "https://medium.com/elusiv-privacy"
+        ],
+        "twitter.com": [
+            "https://twitter.com/elusivprivacy"
+        ]
+    }
+}
