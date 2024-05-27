@@ -249,7 +249,7 @@ C [ 24 ](/JumpCrypto/cyclone/stargazers) Apache-2.0  [ 3
 Web-Scale Blockchain for fast, secure, scalable, decentralized apps and
 marketplaces.
 
-Rust 0  [ 4,125 ](/JumpCrypto/solana/forks) [ 0 ](/JumpCrypto/solana/issues) [
+Rust 0  [ 4,126 ](/JumpCrypto/solana/forks) [ 0 ](/JumpCrypto/solana/issues) [
 0 ](/JumpCrypto/solana/pulls) Updated Jan 13, 2023
 
   * [ solana-go ](/JumpCrypto/solana-go) Public  Forked from [ gagliardetto/solana-go ](/gagliardetto/solana-go)
@@ -276,11 +276,7 @@ part of this organization.
 
 #### Top languages
 
-[ Rust ](/orgs/JumpCrypto/repositories?language=rust&type=all) [ Go
-](/orgs/JumpCrypto/repositories?language=go&type=all) [ Python
-](/orgs/JumpCrypto/repositories?language=python&type=all) [ C
-](/orgs/JumpCrypto/repositories?language=c&type=all) [ Solidity
-](/orgs/JumpCrypto/repositories?language=solidity&type=all)
+Loading…
 
 #### Most used topics
 
