@@ -52,19 +52,9 @@ articles about the hype or…](/how-to-buy-nfts-on-solana-
 blockchain-8f45c447178e?source=user_profile---------
 0----------------------------)
 
-[8 min read·Jun 7, 2022](/how-to-buy-nfts-on-solana-
-blockchain-8f45c447178e?source=user_profile---------
-0----------------------------)
+Jun 7, 2022
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fsonarwatch%2F8f45c447178e&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fsonarwatch%2Fhow-
-to-buy-nfts-on-solana-
-blockchain-8f45c447178e&user=SonarWatch&userId=de791274ca7f&source=-----8f45c447178e
-----0-----------------clap_footer-----------)
-
-\--
-
-[](/how-to-buy-nfts-on-solana-
-blockchain-8f45c447178e?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+[](/how-to-buy-nfts-on-solana-blockchain-8f45c447178e?source=user_profile
 ---------0----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8f45c447178e&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fsonarwatch%2Fhow-
@@ -77,15 +67,9 @@ Blockchain?](https://miro.medium.com/v2/resize:fill:160:106/1*0nHwdDBdnI5uN_eifM
 ![How to Buy NFTs on Solana
 Blockchain?](https://miro.medium.com/v2/resize:fill:320:214/1*0nHwdDBdnI5uN_eifM4HWA.png)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fsonarwatch%2F8f45c447178e&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fsonarwatch%2Fhow-
-to-buy-nfts-on-solana-
-blockchain-8f45c447178e&user=SonarWatch&userId=de791274ca7f&source=-----8f45c447178e
-----0-----------------clap_footer-----------)
+Jun 7, 2022
 
-\--
-
-[](/how-to-buy-nfts-on-solana-
-blockchain-8f45c447178e?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+[](/how-to-buy-nfts-on-solana-blockchain-8f45c447178e?source=user_profile
 ---------0----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8f45c447178e&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fsonarwatch%2Fhow-
@@ -103,20 +87,10 @@ working on big…](/sonarwatch-monthly-
 update-04-22-d271f3274748?source=user_profile---------
 1----------------------------)
 
-[3 min read·May 16, 2022](/sonarwatch-monthly-
-update-04-22-d271f3274748?source=user_profile---------
+May 16, 2022
+
+[](/sonarwatch-monthly-update-04-22-d271f3274748?source=user_profile---------
 1----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fd271f3274748&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fsonarwatch-
-monthly-
-update-04-22-d271f3274748&user=SonarWatch&userId=de791274ca7f&source=-----d271f3274748
-----1-----------------clap_footer-----------)
-
-\--
-
-[](/sonarwatch-monthly-
-update-04-22-d271f3274748?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------1----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fd271f3274748&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fsonarwatch-
 monthly-update-04-22-d271f3274748&source=---------1-----------------
@@ -128,16 +102,10 @@ bookmark_preview-----------)
 ![SonarWatch Monthly update
 04.22](https://miro.medium.com/v2/resize:fill:320:214/1*X5nN7Cp8lc9jGXlNM4uYgw.png)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fd271f3274748&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fsonarwatch-
-monthly-
-update-04-22-d271f3274748&user=SonarWatch&userId=de791274ca7f&source=-----d271f3274748
-----1-----------------clap_footer-----------)
+May 16, 2022
 
-\--
-
-[](/sonarwatch-monthly-
-update-04-22-d271f3274748?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------1----------------------------)
+[](/sonarwatch-monthly-update-04-22-d271f3274748?source=user_profile---------
+1----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fd271f3274748&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fsonarwatch-
 monthly-update-04-22-d271f3274748&source=---------1-----------------
@@ -154,20 +122,10 @@ collaborations, revenue, let’s dive into a very interesting recap of March
 update-03-22-e7c3d4ad427d?source=user_profile---------
 2----------------------------)
 
-[3 min read·Apr 5, 2022](/sonarwatch-monthly-
-update-03-22-e7c3d4ad427d?source=user_profile---------
+Apr 5, 2022
+
+[](/sonarwatch-monthly-update-03-22-e7c3d4ad427d?source=user_profile---------
 2----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fe7c3d4ad427d&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fsonarwatch-
-monthly-
-update-03-22-e7c3d4ad427d&user=SonarWatch&userId=de791274ca7f&source=-----e7c3d4ad427d
-----2-----------------clap_footer-----------)
-
-\--
-
-[](/sonarwatch-monthly-
-update-03-22-e7c3d4ad427d?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------2----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fe7c3d4ad427d&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fsonarwatch-
 monthly-update-03-22-e7c3d4ad427d&source=---------2-----------------
@@ -181,16 +139,10 @@ Fsfi8ZDZlzhV2ng.png)
 03.22](https://miro.medium.com/v2/resize:fill:320:214/1*pVpRzZ-
 Fsfi8ZDZlzhV2ng.png)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fe7c3d4ad427d&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fsonarwatch-
-monthly-
-update-03-22-e7c3d4ad427d&user=SonarWatch&userId=de791274ca7f&source=-----e7c3d4ad427d
-----2-----------------clap_footer-----------)
+Apr 5, 2022
 
-\--
-
-[](/sonarwatch-monthly-
-update-03-22-e7c3d4ad427d?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------2----------------------------)
+[](/sonarwatch-monthly-update-03-22-e7c3d4ad427d?source=user_profile---------
+2----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fe7c3d4ad427d&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fsonarwatch-
 monthly-update-03-22-e7c3d4ad427d&source=---------2-----------------
@@ -206,20 +158,10 @@ PRO plan, February has been focused on preparing 2022 and the future, here is
 why.](/sonarwatch-monthly-update-02-22-3c0b513d05f4?source=user_profile
 ---------3----------------------------)
 
-[4 min read·Mar 1, 2022](/sonarwatch-monthly-
-update-02-22-3c0b513d05f4?source=user_profile---------
+Mar 1, 2022
+
+[](/sonarwatch-monthly-update-02-22-3c0b513d05f4?source=user_profile---------
 3----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F3c0b513d05f4&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fsonarwatch-
-monthly-
-update-02-22-3c0b513d05f4&user=SonarWatch&userId=de791274ca7f&source=-----3c0b513d05f4
-----3-----------------clap_footer-----------)
-
-\--
-
-[](/sonarwatch-monthly-
-update-02-22-3c0b513d05f4?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------3----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F3c0b513d05f4&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fsonarwatch-
 monthly-update-02-22-3c0b513d05f4&source=---------3-----------------
@@ -231,16 +173,10 @@ bookmark_preview-----------)
 ![SonarWatch Monthly update
 02.22](https://miro.medium.com/v2/resize:fill:320:214/1*H1BR9097wQnbfDckYUUtew.jpeg)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F3c0b513d05f4&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fsonarwatch-
-monthly-
-update-02-22-3c0b513d05f4&user=SonarWatch&userId=de791274ca7f&source=-----3c0b513d05f4
-----3-----------------clap_footer-----------)
+Mar 1, 2022
 
-\--
-
-[](/sonarwatch-monthly-
-update-02-22-3c0b513d05f4?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------3----------------------------)
+[](/sonarwatch-monthly-update-02-22-3c0b513d05f4?source=user_profile---------
+3----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F3c0b513d05f4&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fsonarwatch-
 monthly-update-02-22-3c0b513d05f4&source=---------3-----------------
@@ -257,20 +193,10 @@ during January…](/sonarwatch-monthly-
 update-01-22-e995ff18bb6e?source=user_profile---------
 4----------------------------)
 
-[3 min read·Jan 28, 2022](/sonarwatch-monthly-
-update-01-22-e995ff18bb6e?source=user_profile---------
+Jan 28, 2022
+
+[](/sonarwatch-monthly-update-01-22-e995ff18bb6e?source=user_profile---------
 4----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fe995ff18bb6e&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fsonarwatch-
-monthly-
-update-01-22-e995ff18bb6e&user=SonarWatch&userId=de791274ca7f&source=-----e995ff18bb6e
-----4-----------------clap_footer-----------)
-
-\--
-
-[](/sonarwatch-monthly-
-update-01-22-e995ff18bb6e?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------4----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fe995ff18bb6e&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fsonarwatch-
 monthly-update-01-22-e995ff18bb6e&source=---------4-----------------
@@ -282,16 +208,10 @@ bookmark_preview-----------)
 ![SonarWatch Monthly update
 01.22](https://miro.medium.com/v2/resize:fill:320:214/1*6_QqNJ08dzhnMfJpQCRHFw.jpeg)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fe995ff18bb6e&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fsonarwatch-
-monthly-
-update-01-22-e995ff18bb6e&user=SonarWatch&userId=de791274ca7f&source=-----e995ff18bb6e
-----4-----------------clap_footer-----------)
+Jan 28, 2022
 
-\--
-
-[](/sonarwatch-monthly-
-update-01-22-e995ff18bb6e?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------4----------------------------)
+[](/sonarwatch-monthly-update-01-22-e995ff18bb6e?source=user_profile---------
+4----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fe995ff18bb6e&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fsonarwatch-
 monthly-update-01-22-e995ff18bb6e&source=---------4-----------------
@@ -308,20 +228,11 @@ our last Monthly Update :](/our-first-step-in-the-long-journey-of-
 interaction-594a39dbb34f?source=user_profile---------
 5----------------------------)
 
-[2 min read·Jan 5, 2022](/our-first-step-in-the-long-journey-of-
-interaction-594a39dbb34f?source=user_profile---------
-5----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F594a39dbb34f&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Four-
-first-step-in-the-long-journey-of-
-interaction-594a39dbb34f&user=SonarWatch&userId=de791274ca7f&source=-----594a39dbb34f
-----5-----------------clap_footer-----------)
-
-\--
+Jan 5, 2022
 
 [](/our-first-step-in-the-long-journey-of-
-interaction-594a39dbb34f?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------5----------------------------)
+interaction-594a39dbb34f?source=user_profile---------
+5----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F594a39dbb34f&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Four-
 first-step-in-the-long-journey-of-interaction-594a39dbb34f&source=---------5
@@ -333,16 +244,11 @@ interaction](https://miro.medium.com/v2/resize:fill:160:106/1*q5XNNTeg_OAk3ctok4
 ![Our first step in the long journey of
 interaction](https://miro.medium.com/v2/resize:fill:320:214/1*q5XNNTeg_OAk3ctok4DYhw.jpeg)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F594a39dbb34f&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Four-
-first-step-in-the-long-journey-of-
-interaction-594a39dbb34f&user=SonarWatch&userId=de791274ca7f&source=-----594a39dbb34f
-----5-----------------clap_footer-----------)
-
-\--
+Jan 5, 2022
 
 [](/our-first-step-in-the-long-journey-of-
-interaction-594a39dbb34f?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------5----------------------------)
+interaction-594a39dbb34f?source=user_profile---------
+5----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F594a39dbb34f&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Four-
 first-step-in-the-long-journey-of-interaction-594a39dbb34f&source=---------5
@@ -359,20 +265,10 @@ and planned a lot for…](/sonarwatch-monthly-
 update-12-21-8a1c927fbd9b?source=user_profile---------
 6----------------------------)
 
-[4 min read·Dec 23, 2021](/sonarwatch-monthly-
-update-12-21-8a1c927fbd9b?source=user_profile---------
+Dec 23, 2021
+
+[](/sonarwatch-monthly-update-12-21-8a1c927fbd9b?source=user_profile---------
 6----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F8a1c927fbd9b&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fsonarwatch-
-monthly-
-update-12-21-8a1c927fbd9b&user=SonarWatch&userId=de791274ca7f&source=-----8a1c927fbd9b
-----6-----------------clap_footer-----------)
-
-\--
-
-[](/sonarwatch-monthly-
-update-12-21-8a1c927fbd9b?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------6----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8a1c927fbd9b&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fsonarwatch-
 monthly-update-12-21-8a1c927fbd9b&source=---------6-----------------
@@ -386,16 +282,10 @@ HX_aGTyBa4NWg.png)
 12.21](https://miro.medium.com/v2/resize:fill:320:214/1*MaGVbmGB-
 HX_aGTyBa4NWg.png)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F8a1c927fbd9b&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fsonarwatch-
-monthly-
-update-12-21-8a1c927fbd9b&user=SonarWatch&userId=de791274ca7f&source=-----8a1c927fbd9b
-----6-----------------clap_footer-----------)
+Dec 23, 2021
 
-\--
-
-[](/sonarwatch-monthly-
-update-12-21-8a1c927fbd9b?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------6----------------------------)
+[](/sonarwatch-monthly-update-12-21-8a1c927fbd9b?source=user_profile---------
+6----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8a1c927fbd9b&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fsonarwatch-
 monthly-update-12-21-8a1c927fbd9b&source=---------6-----------------
@@ -411,19 +301,10 @@ upcoming version of the tool, it’s time to present and explain how we will use
 $SONAR token…](/introducing-sonar-token-8e0a2aa5d63?source=user_profile
 ---------7----------------------------)
 
-[5 min read·Oct 28, 2021](/introducing-sonar-
-token-8e0a2aa5d63?source=user_profile---------7----------------------------)
+Oct 28, 2021
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F8e0a2aa5d63&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fintroducing-
-sonar-
-token-8e0a2aa5d63&user=SonarWatch&userId=de791274ca7f&source=-----8e0a2aa5d63
-----7-----------------clap_footer-----------)
-
-\--
-
-[](/introducing-sonar-
-token-8e0a2aa5d63?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------7----------------------------)
+[](/introducing-sonar-token-8e0a2aa5d63?source=user_profile---------
+7----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8e0a2aa5d63&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fintroducing-
 sonar-token-8e0a2aa5d63&source=---------7-----------------
@@ -435,16 +316,10 @@ token](https://miro.medium.com/v2/resize:fill:160:106/1*4AsfhEdJbEAkT4swy0L2fA.p
 ![Introducing $SONAR
 token](https://miro.medium.com/v2/resize:fill:320:214/1*4AsfhEdJbEAkT4swy0L2fA.png)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F8e0a2aa5d63&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fintroducing-
-sonar-
-token-8e0a2aa5d63&user=SonarWatch&userId=de791274ca7f&source=-----8e0a2aa5d63
-----7-----------------clap_footer-----------)
+Oct 28, 2021
 
-\--
-
-[](/introducing-sonar-
-token-8e0a2aa5d63?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------7----------------------------)
+[](/introducing-sonar-token-8e0a2aa5d63?source=user_profile---------
+7----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8e0a2aa5d63&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fintroducing-
 sonar-token-8e0a2aa5d63&source=---------7-----------------
@@ -461,19 +336,9 @@ reach those goal with…](/sonar-watch-wraps-up-his-
 fundraise-92a2204ff8b3?source=user_profile---------
 8----------------------------)
 
-[4 min read·Oct 19, 2021](/sonar-watch-wraps-up-his-
-fundraise-92a2204ff8b3?source=user_profile---------
-8----------------------------)
+Oct 19, 2021
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F92a2204ff8b3&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fsonar-
-watch-wraps-up-his-
-fundraise-92a2204ff8b3&user=SonarWatch&userId=de791274ca7f&source=-----92a2204ff8b3
-----8-----------------clap_footer-----------)
-
-\--
-
-[](/sonar-watch-wraps-up-his-
-fundraise-92a2204ff8b3?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+[](/sonar-watch-wraps-up-his-fundraise-92a2204ff8b3?source=user_profile
 ---------8----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F92a2204ff8b3&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fsonar-
@@ -486,15 +351,9 @@ fundraise](https://miro.medium.com/v2/resize:fill:160:106/1*p6AG0-HvrjnuBaaEDtiO
 ![Sonar Watch wraps up his
 fundraise](https://miro.medium.com/v2/resize:fill:320:214/1*p6AG0-HvrjnuBaaEDtiO1A.jpeg)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F92a2204ff8b3&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fsonar-
-watch-wraps-up-his-
-fundraise-92a2204ff8b3&user=SonarWatch&userId=de791274ca7f&source=-----92a2204ff8b3
-----8-----------------clap_footer-----------)
+Oct 19, 2021
 
-\--
-
-[](/sonar-watch-wraps-up-his-
-fundraise-92a2204ff8b3?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+[](/sonar-watch-wraps-up-his-fundraise-92a2204ff8b3?source=user_profile
 ---------8----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F92a2204ff8b3&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fsonar-
@@ -511,19 +370,10 @@ kick off our communication campaign to share our vision and goal for Sonar
 in…](/sonar-on-medium-230b6d7c8328?source=user_profile---------
 9----------------------------)
 
-[3 min read·Sep 21, 2021](/sonar-on-medium-230b6d7c8328?source=user_profile
----------9----------------------------)
+Sep 21, 2021
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F230b6d7c8328&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fsonar-
-on-
-medium-230b6d7c8328&user=SonarWatch&userId=de791274ca7f&source=-----230b6d7c8328
-----9-----------------clap_footer-----------)
-
-\--
-
-[1](/sonar-on-
-medium-230b6d7c8328?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------9----------------------------)
+[1](/sonar-on-medium-230b6d7c8328?source=user_profile---------
+9----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F230b6d7c8328&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fsonar-
 on-medium-230b6d7c8328&source=---------9-----------------
@@ -537,16 +387,10 @@ Medium.](https://miro.medium.com/v2/resize:fill:160:106/1*QsgGqaEOPHYqzcO4--
 Medium.](https://miro.medium.com/v2/resize:fill:320:214/1*QsgGqaEOPHYqzcO4--
 3FIw.png)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F230b6d7c8328&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fsonar-
-on-
-medium-230b6d7c8328&user=SonarWatch&userId=de791274ca7f&source=-----230b6d7c8328
-----9-----------------clap_footer-----------)
+Sep 21, 2021
 
-\--
-
-[1](/sonar-on-
-medium-230b6d7c8328?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------9----------------------------)
+[1](/sonar-on-medium-230b6d7c8328?source=user_profile---------
+9----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F230b6d7c8328&operation=register&redirect=https%3A%2F%2Fsonarwatch.medium.com%2Fsonar-
 on-medium-230b6d7c8328&source=---------9-----------------
