@@ -57,21 +57,11 @@ Marms, Hashlings, and BoDoggos generate…](/nft-pre-sale-raffles-a-win-win-for-
 creators-and-collectors-354bac43b0be?source=collection_home---------
 0----------------------------)
 
-[2 min read·Feb 21, 2024](/nft-pre-sale-raffles-a-win-win-for-creators-and-
-collectors-354bac43b0be?source=collection_home---------
-0----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fhelio-
-fintech%2F354bac43b0be&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fnft-
-pre-sale-raffles-a-win-win-for-creators-and-
-collectors-354bac43b0be&user=Valentina+Cross&userId=795622f7d0df&source=-----354bac43b0be
-----0-----------------clap_footer-----------)
-
-\--
+Feb 21
 
 [](/nft-pre-sale-raffles-a-win-win-for-creators-and-
-collectors-354bac43b0be?responsesOpen=true&sortBy=REVERSE_CHRON&source=collection_home
----------0----------------------------)
+collectors-354bac43b0be?source=collection_home---------
+0----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F354bac43b0be&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fnft-
 pre-sale-raffles-a-win-win-for-creators-and-
@@ -84,17 +74,11 @@ Collectors](https://miro.medium.com/v2/resize:fill:160:106/1*kLnLKkC3ELvWW9y33JK
 ![NFT Pre-Sale Raffles: A Win-Win for Creators and
 Collectors](https://miro.medium.com/v2/resize:fill:320:214/1*kLnLKkC3ELvWW9y33JK3PA.png)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fhelio-
-fintech%2F354bac43b0be&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fnft-
-pre-sale-raffles-a-win-win-for-creators-and-
-collectors-354bac43b0be&user=Valentina+Cross&userId=795622f7d0df&source=-----354bac43b0be
-----0-----------------clap_footer-----------)
-
-\--
+Feb 21
 
 [](/nft-pre-sale-raffles-a-win-win-for-creators-and-
-collectors-354bac43b0be?responsesOpen=true&sortBy=REVERSE_CHRON&source=collection_home
----------0----------------------------)
+collectors-354bac43b0be?source=collection_home---------
+0----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F354bac43b0be&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fnft-
 pre-sale-raffles-a-win-win-for-creators-and-
@@ -114,21 +98,11 @@ Solana Pay plugin on Shopify. Now fully…](/helio-takes-the-helm-of-solana-pay-
 on-shopify-8deef50a6014?source=collection_home---------
 1----------------------------)
 
-[4 min read·Dec 20, 2023](/helio-takes-the-helm-of-solana-pay-on-
-shopify-8deef50a6014?source=collection_home---------
-1----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fhelio-
-fintech%2F8deef50a6014&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fhelio-
-takes-the-helm-of-solana-pay-on-
-shopify-8deef50a6014&user=Valentina+Cross&userId=795622f7d0df&source=-----8deef50a6014
-----1-----------------clap_footer-----------)
-
-\--
+Dec 20, 2023
 
 [1](/helio-takes-the-helm-of-solana-pay-on-
-shopify-8deef50a6014?responsesOpen=true&sortBy=REVERSE_CHRON&source=collection_home
----------1----------------------------)
+shopify-8deef50a6014?source=collection_home---------
+1----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8deef50a6014&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fhelio-
 takes-the-helm-of-solana-pay-on-shopify-8deef50a6014&source=---------1
@@ -142,17 +116,11 @@ BRx3g.jpeg)
 Shopify](https://miro.medium.com/v2/resize:fill:320:214/1*MeLMkSgzcHNRtudJ-
 BRx3g.jpeg)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fhelio-
-fintech%2F8deef50a6014&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fhelio-
-takes-the-helm-of-solana-pay-on-
-shopify-8deef50a6014&user=Valentina+Cross&userId=795622f7d0df&source=-----8deef50a6014
-----1-----------------clap_footer-----------)
-
-\--
+Dec 20, 2023
 
 [1](/helio-takes-the-helm-of-solana-pay-on-
-shopify-8deef50a6014?responsesOpen=true&sortBy=REVERSE_CHRON&source=collection_home
----------1----------------------------)
+shopify-8deef50a6014?source=collection_home---------
+1----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8deef50a6014&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fhelio-
 takes-the-helm-of-solana-pay-on-shopify-8deef50a6014&source=---------1
@@ -171,20 +139,10 @@ to digital currency payments. With…](/enhance-your-e-commerce-sales-with-
 helio-checkout-ad14fcadec12?source=collection_home---------
 2----------------------------)
 
-[3 min read·Nov 29, 2023](/enhance-your-e-commerce-sales-with-helio-checkout-
-ad14fcadec12?source=collection_home---------2----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fhelio-
-fintech%2Fad14fcadec12&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fenhance-
-your-e-commerce-sales-with-helio-checkout-
-ad14fcadec12&user=Valentina+Cross&userId=795622f7d0df&source=-----ad14fcadec12
-----2-----------------clap_footer-----------)
-
-\--
+Nov 29, 2023
 
 [](/enhance-your-e-commerce-sales-with-helio-checkout-
-ad14fcadec12?responsesOpen=true&sortBy=REVERSE_CHRON&source=collection_home
----------2----------------------------)
+ad14fcadec12?source=collection_home---------2----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fad14fcadec12&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fenhance-
 your-e-commerce-sales-with-helio-checkout-ad14fcadec12&source=---------2
@@ -196,17 +154,10 @@ Checkout](https://miro.medium.com/v2/resize:fill:160:106/1*mYRL3Z4m7nusUqwALkKVh
 ![Enhance your e-commerce sales with Helio
 Checkout](https://miro.medium.com/v2/resize:fill:320:214/1*mYRL3Z4m7nusUqwALkKVhQ.jpeg)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fhelio-
-fintech%2Fad14fcadec12&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fenhance-
-your-e-commerce-sales-with-helio-checkout-
-ad14fcadec12&user=Valentina+Cross&userId=795622f7d0df&source=-----ad14fcadec12
-----2-----------------clap_footer-----------)
-
-\--
+Nov 29, 2023
 
 [](/enhance-your-e-commerce-sales-with-helio-checkout-
-ad14fcadec12?responsesOpen=true&sortBy=REVERSE_CHRON&source=collection_home
----------2----------------------------)
+ad14fcadec12?source=collection_home---------2----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fad14fcadec12&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fenhance-
 your-e-commerce-sales-with-helio-checkout-ad14fcadec12&source=---------2
@@ -224,20 +175,9 @@ beta and we’d love to get your feedback. Please log in to hel.io to give a
 try.](/helio-wallet-open-beta-is-here-7e7defbaaada?source=collection_home
 ---------3----------------------------)
 
-[2 min read·Sep 14, 2023](/helio-wallet-open-beta-is-
-here-7e7defbaaada?source=collection_home---------
-3----------------------------)
+Sep 14, 2023
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fhelio-
-fintech%2F7e7defbaaada&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fhelio-
-wallet-open-beta-is-
-here-7e7defbaaada&user=Stijn+Paumen&userId=13bce211154d&source=-----7e7defbaaada
-----3-----------------clap_footer-----------)
-
-\--
-
-[](/helio-wallet-open-beta-is-
-here-7e7defbaaada?responsesOpen=true&sortBy=REVERSE_CHRON&source=collection_home
+[](/helio-wallet-open-beta-is-here-7e7defbaaada?source=collection_home
 ---------3----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F7e7defbaaada&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fhelio-
@@ -250,16 +190,9 @@ here…](https://miro.medium.com/v2/resize:fill:160:106/1*ZK3U31CegejWsD2mQ4YALw
 ![Helio wallet — open beta is
 here…](https://miro.medium.com/v2/resize:fill:320:214/1*ZK3U31CegejWsD2mQ4YALw.jpeg)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fhelio-
-fintech%2F7e7defbaaada&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fhelio-
-wallet-open-beta-is-
-here-7e7defbaaada&user=Stijn+Paumen&userId=13bce211154d&source=-----7e7defbaaada
-----3-----------------clap_footer-----------)
+Sep 14, 2023
 
-\--
-
-[](/helio-wallet-open-beta-is-
-here-7e7defbaaada?responsesOpen=true&sortBy=REVERSE_CHRON&source=collection_home
+[](/helio-wallet-open-beta-is-here-7e7defbaaada?source=collection_home
 ---------3----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F7e7defbaaada&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fhelio-
@@ -277,21 +210,11 @@ Paumen](https://miro.medium.com/v2/resize:fill:40:40/1*rUkjJkwlf3cjwtEK7eRHjA.jp
 woocommerce-marketplace-listing-73c9f72a2422?source=collection_home---------
 4----------------------------)
 
-[3 min read·Sep 6, 2023](/helio-x-woocommerce-marketplace-
-listing-73c9f72a2422?source=collection_home---------
-4----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fhelio-
-fintech%2F73c9f72a2422&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fhelio-
-x-woocommerce-marketplace-
-listing-73c9f72a2422&user=Stijn+Paumen&userId=13bce211154d&source=-----73c9f72a2422
-----4-----------------clap_footer-----------)
-
-\--
+Sep 6, 2023
 
 [](/helio-x-woocommerce-marketplace-
-listing-73c9f72a2422?responsesOpen=true&sortBy=REVERSE_CHRON&source=collection_home
----------4----------------------------)
+listing-73c9f72a2422?source=collection_home---------
+4----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F73c9f72a2422&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fhelio-
 x-woocommerce-marketplace-listing-73c9f72a2422&source=---------4
@@ -303,17 +226,11 @@ Listing!](https://miro.medium.com/v2/resize:fill:160:106/1*RMzDAB7UZDgemxAAe0Vt3
 ![Helio x WooCommerce Marketplace
 Listing!](https://miro.medium.com/v2/resize:fill:320:214/1*RMzDAB7UZDgemxAAe0Vt3w.jpeg)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fhelio-
-fintech%2F73c9f72a2422&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fhelio-
-x-woocommerce-marketplace-
-listing-73c9f72a2422&user=Stijn+Paumen&userId=13bce211154d&source=-----73c9f72a2422
-----4-----------------clap_footer-----------)
-
-\--
+Sep 6, 2023
 
 [](/helio-x-woocommerce-marketplace-
-listing-73c9f72a2422?responsesOpen=true&sortBy=REVERSE_CHRON&source=collection_home
----------4----------------------------)
+listing-73c9f72a2422?source=collection_home---------
+4----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F73c9f72a2422&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fhelio-
 x-woocommerce-marketplace-listing-73c9f72a2422&source=---------4
@@ -332,21 +249,11 @@ currently embraced by over 3,000 merchants and…](/helio-for-bitcoin-uniting-
 web3-and-unparalleled-decentralization-e88413a86c2b?source=collection_home
 ---------5----------------------------)
 
-[3 min read·Aug 30, 2023](/helio-for-bitcoin-uniting-web3-and-unparalleled-
-decentralization-e88413a86c2b?source=collection_home---------
-5----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fhelio-
-fintech%2Fe88413a86c2b&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fhelio-
-for-bitcoin-uniting-web3-and-unparalleled-
-decentralization-e88413a86c2b&user=Stijn+Paumen&userId=13bce211154d&source=-----e88413a86c2b
-----5-----------------clap_footer-----------)
-
-\--
+Aug 30, 2023
 
 [](/helio-for-bitcoin-uniting-web3-and-unparalleled-
-decentralization-e88413a86c2b?responsesOpen=true&sortBy=REVERSE_CHRON&source=collection_home
----------5----------------------------)
+decentralization-e88413a86c2b?source=collection_home---------
+5----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fe88413a86c2b&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fhelio-
 for-bitcoin-uniting-web3-and-unparalleled-
@@ -359,17 +266,11 @@ Decentralisation](https://miro.medium.com/v2/da:true/resize:fill:160:106/1*OdtU9
 ![Helio for Bitcoin: Uniting Web3 and Unparalleled
 Decentralisation](https://miro.medium.com/v2/da:true/resize:fill:320:214/1*OdtU9hmvjBKakYCw3kmuZg.gif)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fhelio-
-fintech%2Fe88413a86c2b&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fhelio-
-for-bitcoin-uniting-web3-and-unparalleled-
-decentralization-e88413a86c2b&user=Stijn+Paumen&userId=13bce211154d&source=-----e88413a86c2b
-----5-----------------clap_footer-----------)
-
-\--
+Aug 30, 2023
 
 [](/helio-for-bitcoin-uniting-web3-and-unparalleled-
-decentralization-e88413a86c2b?responsesOpen=true&sortBy=REVERSE_CHRON&source=collection_home
----------5----------------------------)
+decentralization-e88413a86c2b?source=collection_home---------
+5----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fe88413a86c2b&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fhelio-
 for-bitcoin-uniting-web3-and-unparalleled-
@@ -390,21 +291,11 @@ first-multi-chain-pre-sales-platform-for-nft-
 creators-61597fea1e9c?source=collection_home---------
 6----------------------------)
 
-[4 min read·Jun 29, 2023](/magic-eden-helio-launch-the-first-multi-chain-pre-
-sales-platform-for-nft-creators-61597fea1e9c?source=collection_home---------
-6----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fhelio-
-fintech%2F61597fea1e9c&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fmagic-
-eden-helio-launch-the-first-multi-chain-pre-sales-platform-for-nft-
-creators-61597fea1e9c&user=Stijn+Paumen&userId=13bce211154d&source=-----61597fea1e9c
-----6-----------------clap_footer-----------)
-
-\--
+Jun 29, 2023
 
 [](/magic-eden-helio-launch-the-first-multi-chain-pre-sales-platform-for-nft-
-creators-61597fea1e9c?responsesOpen=true&sortBy=REVERSE_CHRON&source=collection_home
----------6----------------------------)
+creators-61597fea1e9c?source=collection_home---------
+6----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F61597fea1e9c&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fmagic-
 eden-helio-launch-the-first-multi-chain-pre-sales-platform-for-nft-
@@ -417,17 +308,11 @@ creators](https://miro.medium.com/v2/da:true/resize:fill:160:106/0*4HeNlJiLgCu_K
 ![Magic Eden & Helio launch the first multi-chain pre-sales platform for NFT
 creators](https://miro.medium.com/v2/da:true/resize:fill:320:214/0*4HeNlJiLgCu_KW9E)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fhelio-
-fintech%2F61597fea1e9c&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fmagic-
-eden-helio-launch-the-first-multi-chain-pre-sales-platform-for-nft-
-creators-61597fea1e9c&user=Stijn+Paumen&userId=13bce211154d&source=-----61597fea1e9c
-----6-----------------clap_footer-----------)
-
-\--
+Jun 29, 2023
 
 [](/magic-eden-helio-launch-the-first-multi-chain-pre-sales-platform-for-nft-
-creators-61597fea1e9c?responsesOpen=true&sortBy=REVERSE_CHRON&source=collection_home
----------6----------------------------)
+creators-61597fea1e9c?source=collection_home---------
+6----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F61597fea1e9c&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fmagic-
 eden-helio-launch-the-first-multi-chain-pre-sales-platform-for-nft-
@@ -447,20 +332,9 @@ other currencies) across…](/introducing-multi-chain-defi-
 payments-854c27c8f5c9?source=collection_home---------
 7----------------------------)
 
-[3 min read·Jun 13, 2023](/introducing-multi-chain-defi-
-payments-854c27c8f5c9?source=collection_home---------
-7----------------------------)
+Jun 13, 2023
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fhelio-
-fintech%2F854c27c8f5c9&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fintroducing-
-multi-chain-defi-
-payments-854c27c8f5c9&user=sunny+Hsiao&userId=10628841154c&source=-----854c27c8f5c9
-----7-----------------clap_footer-----------)
-
-\--
-
-[](/introducing-multi-chain-defi-
-payments-854c27c8f5c9?responsesOpen=true&sortBy=REVERSE_CHRON&source=collection_home
+[](/introducing-multi-chain-defi-payments-854c27c8f5c9?source=collection_home
 ---------7----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F854c27c8f5c9&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fintroducing-
@@ -473,16 +347,9 @@ payments](https://miro.medium.com/v2/resize:fill:160:106/1*p3IsikZKNP2iBvzT1C-kk
 ![Introducing multi-chain DeFi
 payments](https://miro.medium.com/v2/resize:fill:320:214/1*p3IsikZKNP2iBvzT1C-kkQ.jpeg)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fhelio-
-fintech%2F854c27c8f5c9&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fintroducing-
-multi-chain-defi-
-payments-854c27c8f5c9&user=sunny+Hsiao&userId=10628841154c&source=-----854c27c8f5c9
-----7-----------------clap_footer-----------)
+Jun 13, 2023
 
-\--
-
-[](/introducing-multi-chain-defi-
-payments-854c27c8f5c9?responsesOpen=true&sortBy=REVERSE_CHRON&source=collection_home
+[](/introducing-multi-chain-defi-payments-854c27c8f5c9?source=collection_home
 ---------7----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F854c27c8f5c9&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fintroducing-
@@ -502,21 +369,11 @@ Pass on Ethereum. The free mint, set…](/heliox-pass-free-mint-coming-to-
 ethereum-soon-2151175c2f89?source=collection_home---------
 8----------------------------)
 
-[5 min read·May 24, 2023](/heliox-pass-free-mint-coming-to-ethereum-
-soon-2151175c2f89?source=collection_home---------
-8----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fhelio-
-fintech%2F2151175c2f89&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fheliox-
-pass-free-mint-coming-to-ethereum-
-soon-2151175c2f89&user=Stijn+Paumen&userId=13bce211154d&source=-----2151175c2f89
-----8-----------------clap_footer-----------)
-
-\--
+May 24, 2023
 
 [](/heliox-pass-free-mint-coming-to-ethereum-
-soon-2151175c2f89?responsesOpen=true&sortBy=REVERSE_CHRON&source=collection_home
----------8----------------------------)
+soon-2151175c2f89?source=collection_home---------
+8----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F2151175c2f89&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fheliox-
 pass-free-mint-coming-to-ethereum-soon-2151175c2f89&source=---------8
@@ -530,17 +387,11 @@ KCDWQTv7)
 soon](https://miro.medium.com/v2/da:true/resize:fill:320:214/0*mnfeW_D-
 KCDWQTv7)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fhelio-
-fintech%2F2151175c2f89&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fheliox-
-pass-free-mint-coming-to-ethereum-
-soon-2151175c2f89&user=Stijn+Paumen&userId=13bce211154d&source=-----2151175c2f89
-----8-----------------clap_footer-----------)
-
-\--
+May 24, 2023
 
 [](/heliox-pass-free-mint-coming-to-ethereum-
-soon-2151175c2f89?responsesOpen=true&sortBy=REVERSE_CHRON&source=collection_home
----------8----------------------------)
+soon-2151175c2f89?source=collection_home---------
+8----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F2151175c2f89&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Fheliox-
 pass-free-mint-coming-to-ethereum-soon-2151175c2f89&source=---------8
@@ -558,20 +409,10 @@ payments model relies on intermediaries such as banks and payment networks,
 which means high fees, delayed…](/our-vision-make-web3-payments-accessible-to-
 all-f8933e8e8be0?source=collection_home---------9----------------------------)
 
-[3 min read·May 1, 2023](/our-vision-make-web3-payments-accessible-to-
-all-f8933e8e8be0?source=collection_home---------9----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fhelio-
-fintech%2Ff8933e8e8be0&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Four-
-vision-make-web3-payments-accessible-to-
-all-f8933e8e8be0&user=Stijn+Paumen&userId=13bce211154d&source=-----f8933e8e8be0
-----9-----------------clap_footer-----------)
-
-\--
+May 1, 2023
 
 [](/our-vision-make-web3-payments-accessible-to-
-all-f8933e8e8be0?responsesOpen=true&sortBy=REVERSE_CHRON&source=collection_home
----------9----------------------------)
+all-f8933e8e8be0?source=collection_home---------9----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Ff8933e8e8be0&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Four-
 vision-make-web3-payments-accessible-to-all-f8933e8e8be0&source=---------9
@@ -583,17 +424,10 @@ All](https://miro.medium.com/v2/da:true/resize:fill:160:106/0*Ota8t2d3O5gWEZqp)
 ![Our Vision: Make Web3 Payments Accessible to
 All](https://miro.medium.com/v2/da:true/resize:fill:320:214/0*Ota8t2d3O5gWEZqp)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fhelio-
-fintech%2Ff8933e8e8be0&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Four-
-vision-make-web3-payments-accessible-to-
-all-f8933e8e8be0&user=Stijn+Paumen&userId=13bce211154d&source=-----f8933e8e8be0
-----9-----------------clap_footer-----------)
-
-\--
+May 1, 2023
 
 [](/our-vision-make-web3-payments-accessible-to-
-all-f8933e8e8be0?responsesOpen=true&sortBy=REVERSE_CHRON&source=collection_home
----------9----------------------------)
+all-f8933e8e8be0?source=collection_home---------9----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Ff8933e8e8be0&operation=register&redirect=https%3A%2F%2Fblog.hel.io%2Four-
 vision-make-web3-payments-accessible-to-all-f8933e8e8be0&source=---------9
