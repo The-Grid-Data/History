@@ -1,20 +1,34 @@
-[
-    "https://blog.hxro.com/",
-    "https://blog.hxro.com/",
-    "https://discord.hxro.com",
-    "https://discord.hxro.com",
-    "https://discord.hxro.com",
-    "https://forum.hxro.network/",
-    "https://github.com/Hxro-Network",
-    "https://hxro-network.gitbook.io/hxro-network-1/",
-    "https://hxro-network.gitbook.io/hxro-network-1/",
-    "https://hxro.com/",
-    "https://hxro.com/ecosystem",
-    "https://hxro.com/ecosystem",
-    "https://hxro.com/ecosystem",
-    "https://hxro.com/foundation",
-    "https://hxro.finance/governance",
-    "https://solana.com/",
-    "https://twitter.com/hxronetwork",
-    "https://twitter.com/hxronetwork"
-]
+{
+    "target_url": "https://hxro.com/",
+    "domains": {
+        "blog.hxro.com": [
+            "https://blog.hxro.com/"
+        ],
+        "discord.hxro.com": [
+            "https://discord.hxro.com"
+        ],
+        "forum.hxro.network": [
+            "https://forum.hxro.network/"
+        ],
+        "github.com": [
+            "https://github.com/Hxro-Network"
+        ],
+        "hxro-network.gitbook.io": [
+            "https://hxro-network.gitbook.io/hxro-network-1/"
+        ],
+        "hxro.com": [
+            "https://hxro.com/",
+            "https://hxro.com/ecosystem",
+            "https://hxro.com/foundation"
+        ],
+        "hxro.finance": [
+            "https://hxro.finance/governance"
+        ],
+        "solana.com": [
+            "https://solana.com/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/hxronetwork"
+        ]
+    }
+}
