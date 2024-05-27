@@ -1,63 +1,71 @@
-[
-    "http://whitepaper.helium.com",
-    "https://blog.helium.com",
-    "https://blog.helium.com",
-    "https://blog.helium.com",
-    "https://blog.helium.com/a-new-era-for-helium-begins-with-upgrade-to-solana-blockchain-88b742276ec1",
-    "https://blog.helium.com/a-new-era-for-helium-begins-with-upgrade-to-solana-blockchain-88b742276ec1",
-    "https://discord.gg/helium",
-    "https://discord.gg/helium",
-    "https://discord.gg/helium",
-    "https://docs.helium.com",
-    "https://docs.helium.com",
-    "https://docs.helium.com",
-    "https://explorer.helium.com",
-    "https://explorer.helium.com",
-    "https://explorer.helium.com",
-    "https://github.com/helium",
-    "https://senetco.com/about/news/senet-and-the-helium-network-expand-integration-to-deliver-lorawan-connectivity-and-managed-network-services-globally",
-    "https://twitter.com/helium",
-    "https://www.actility.com/nova-labs-helium-roaming",
-    "https://www.facebook.com/heliumsystems",
-    "https://www.helium.com/",
-    "https://www.helium.com/",
-    "https://www.helium.com/5G",
-    "https://www.helium.com/5G",
-    "https://www.helium.com/5G",
-    "https://www.helium.com/commercial",
-    "https://www.helium.com/commercial",
-    "https://www.helium.com/commercial",
-    "https://www.helium.com/commercial",
-    "https://www.helium.com/ecosystem",
-    "https://www.helium.com/ecosystem",
-    "https://www.helium.com/ecosystem",
-    "https://www.helium.com/featured-products",
-    "https://www.helium.com/featured-products",
-    "https://www.helium.com/lorawan",
-    "https://www.helium.com/mine",
-    "https://www.helium.com/mine",
-    "https://www.helium.com/mine",
-    "https://www.helium.com/mine",
-    "https://www.helium.com/mine",
-    "https://www.helium.com/privacy",
-    "https://www.helium.com/roam",
-    "https://www.helium.com/roam",
-    "https://www.helium.com/roam",
-    "https://www.helium.com/solutions",
-    "https://www.helium.com/solutions",
-    "https://www.helium.com/solutions",
-    "https://www.helium.com/stories",
-    "https://www.helium.com/stories",
-    "https://www.helium.com/switch",
-    "https://www.helium.com/token",
-    "https://www.helium.com/token",
-    "https://www.helium.com/token",
-    "https://www.helium.com/website-terms",
-    "https://www.instagram.com/helium/",
-    "https://www.linkedin.com/company/heliuminc",
-    "https://www.reddit.com/r/HeliumNetwork",
-    "https://www.webwire.com/ViewPressRel.asp?aId=294475",
-    "https://www.youtube.com/c/HeliumInc",
-    "mailto:hello@helium.foundation",
-    "mailto:press@helium.foundation"
-]
+{
+    "target_url": "https://www.helium.com/",
+    "domains": {
+        "": [
+            "mailto:hello@helium.foundation",
+            "mailto:press@helium.foundation"
+        ],
+        "blog.helium.com": [
+            "https://blog.helium.com",
+            "https://blog.helium.com/a-new-era-for-helium-begins-with-upgrade-to-solana-blockchain-88b742276ec1"
+        ],
+        "discord.gg": [
+            "https://discord.gg/helium"
+        ],
+        "docs.helium.com": [
+            "https://docs.helium.com"
+        ],
+        "explorer.helium.com": [
+            "https://explorer.helium.com"
+        ],
+        "github.com": [
+            "https://github.com/helium"
+        ],
+        "senetco.com": [
+            "https://senetco.com/about/news/senet-and-the-helium-network-expand-integration-to-deliver-lorawan-connectivity-and-managed-network-services-globally"
+        ],
+        "twitter.com": [
+            "https://twitter.com/helium"
+        ],
+        "whitepaper.helium.com": [
+            "http://whitepaper.helium.com"
+        ],
+        "www.actility.com": [
+            "https://www.actility.com/nova-labs-helium-roaming"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/heliumsystems"
+        ],
+        "www.helium.com": [
+            "https://www.helium.com/",
+            "https://www.helium.com/5G",
+            "https://www.helium.com/commercial",
+            "https://www.helium.com/ecosystem",
+            "https://www.helium.com/featured-products",
+            "https://www.helium.com/lorawan",
+            "https://www.helium.com/mine",
+            "https://www.helium.com/privacy",
+            "https://www.helium.com/roam",
+            "https://www.helium.com/solutions",
+            "https://www.helium.com/stories",
+            "https://www.helium.com/switch",
+            "https://www.helium.com/token",
+            "https://www.helium.com/website-terms"
+        ],
+        "www.instagram.com": [
+            "https://www.instagram.com/helium/"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/heliuminc"
+        ],
+        "www.reddit.com": [
+            "https://www.reddit.com/r/HeliumNetwork"
+        ],
+        "www.webwire.com": [
+            "https://www.webwire.com/ViewPressRel.asp?aId=294475"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/c/HeliumInc"
+        ]
+    }
+}
