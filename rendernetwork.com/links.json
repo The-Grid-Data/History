@@ -1,58 +1,67 @@
-[
-    "http://variety.com/2017/digital/news/otoy-blockchain-token-rndr-1202548625/",
-    "http://www.nasdaq.com/article/otoy-plans-to-raise-134-million-via-token-sale-for-blockchain-powered-cloud-rendering-exclusive-cm841783",
-    "https://discord.gg/rendernetwork",
-    "https://discord.gg/rendernetwork",
-    "https://home.otoy.com/",
-    "https://home.otoy.com/",
-    "https://know.rendernetwork.com/",
-    "https://know.rendernetwork.com/",
-    "https://know.rendernetwork.com/",
-    "https://know.rendernetwork.com/",
-    "https://renderfoundation.com/whitepaper",
-    "https://renderfoundation.com/whitepaper",
-    "https://renderfoundation.com/whitepaper",
-    "https://renderfoundation.com/whitepaper",
-    "https://renderfoundation.com/whitepaper",
-    "https://rendernetwork.com#about",
-    "https://rendernetwork.com#about",
-    "https://rendernetwork.com#about",
-    "https://rendernetwork.com#about",
-    "https://rendernetwork.com#intro",
-    "https://rendernetwork.com#intro",
-    "https://rendernetwork.com#intro",
-    "https://rendernetwork.com#intro",
-    "https://rendernetwork.com#intro",
-    "https://rendernetwork.com#team",
-    "https://rendernetwork.com#team",
-    "https://rendernetwork.com#team",
-    "https://rendernetwork.com#team",
-    "https://rendernetwork.com/faqs",
-    "https://rendernetwork.com/index",
-    "https://rendernetwork.com/index",
-    "https://rendernetwork.com/privacy-policy",
-    "https://rendernetwork.com/privacy-policy",
-    "https://rendernetwork.medium.com/",
-    "https://rendernetwork.medium.com/",
-    "https://rendernetwork.medium.com/",
-    "https://rndr.x.io/",
-    "https://rndrteam.typeform.com/to/OyZwsp",
-    "https://t.me/rendernetwork",
-    "https://t.me/rendernetwork",
-    "https://t.me/rendernetwork",
-    "https://t.me/rendernetwork",
-    "https://twitter.com/rendernetwork",
-    "https://twitter.com/rendernetwork",
-    "https://twitter.com/rendernetwork",
-    "https://upgrade.rendernetwork.com/",
-    "https://uploadvr.com/jules-urbach-holodeck-quest-otoy/",
-    "https://venturebeat.com/2017/09/09/otoy-is-planning-a-blockchain-peer-to-peer-gpu-rendering-network/",
-    "https://www.facebook.com/rendernetwork",
-    "https://www.facebook.com/rendernetwork",
-    "https://www.facebook.com/rendernetwork",
-    "https://www.forbes.com/sites/alicebonasio/2018/07/18/scaling-ar-with-blockchain-technology/#95fb83a1ecc2",
-    "https://www.fxguide.com/featured/more-than-a-token-effort-at-rendering-with-blockchain/",
-    "https://www.reddit.com/r/RenderNetwork/",
-    "https://www.reddit.com/r/RenderNetwork/",
-    "https://www.reddit.com/r/RenderNetwork/"
-]
+{
+    "target_url": "https://rendernetwork.com",
+    "domains": {
+        "discord.gg": [
+            "https://discord.gg/rendernetwork"
+        ],
+        "home.otoy.com": [
+            "https://home.otoy.com/"
+        ],
+        "know.rendernetwork.com": [
+            "https://know.rendernetwork.com/"
+        ],
+        "renderfoundation.com": [
+            "https://renderfoundation.com/whitepaper"
+        ],
+        "rendernetwork.com": [
+            "https://rendernetwork.com#about",
+            "https://rendernetwork.com#intro",
+            "https://rendernetwork.com#team",
+            "https://rendernetwork.com/faqs",
+            "https://rendernetwork.com/index",
+            "https://rendernetwork.com/privacy-policy"
+        ],
+        "rendernetwork.medium.com": [
+            "https://rendernetwork.medium.com/"
+        ],
+        "rndr.x.io": [
+            "https://rndr.x.io/"
+        ],
+        "rndrteam.typeform.com": [
+            "https://rndrteam.typeform.com/to/OyZwsp"
+        ],
+        "t.me": [
+            "https://t.me/rendernetwork"
+        ],
+        "twitter.com": [
+            "https://twitter.com/rendernetwork"
+        ],
+        "upgrade.rendernetwork.com": [
+            "https://upgrade.rendernetwork.com/"
+        ],
+        "uploadvr.com": [
+            "https://uploadvr.com/jules-urbach-holodeck-quest-otoy/"
+        ],
+        "variety.com": [
+            "http://variety.com/2017/digital/news/otoy-blockchain-token-rndr-1202548625/"
+        ],
+        "venturebeat.com": [
+            "https://venturebeat.com/2017/09/09/otoy-is-planning-a-blockchain-peer-to-peer-gpu-rendering-network/"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/rendernetwork"
+        ],
+        "www.forbes.com": [
+            "https://www.forbes.com/sites/alicebonasio/2018/07/18/scaling-ar-with-blockchain-technology/#95fb83a1ecc2"
+        ],
+        "www.fxguide.com": [
+            "https://www.fxguide.com/featured/more-than-a-token-effort-at-rendering-with-blockchain/"
+        ],
+        "www.nasdaq.com": [
+            "http://www.nasdaq.com/article/otoy-plans-to-raise-134-million-via-token-sale-for-blockchain-powered-cloud-rendering-exclusive-cm841783"
+        ],
+        "www.reddit.com": [
+            "https://www.reddit.com/r/RenderNetwork/"
+        ]
+    }
+}
