@@ -110,7 +110,7 @@ through internal audits and multiple external audits (CertiK & Sec3).
 
 [NextHawksight tutorial](/whitepaper/hawksight-tutorial)
 
-Last updated 2 days ago
+Last updated 1 day ago
 
 On this page
 
