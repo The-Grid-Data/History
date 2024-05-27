@@ -176,7 +176,7 @@ partnership](mailto:connect@raydium.io)!
 
 [NextWelcome to UI V3 (Beta)](/raydium/welcome-to-ui-v3-beta)
 
-Last updated 9 days ago
+Last updated 10 days ago
 
 On this page
 
