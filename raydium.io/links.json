@@ -1,13 +1,29 @@
-[
-    "https://discord.com/invite/raydium",
-    "https://docs.raydium.io/raydium/",
-    "https://raydium.io/liquidity-pools/",
-    "https://raydium.io/portfolio/",
-    "https://raydium.io/staking/",
-    "https://raydium.io/swap/",
-    "https://raydium.io/swap/",
-    "https://t.me/raydiumprotocol",
-    "https://tally.so/r/n9WZZV",
-    "https://twitter.com/RaydiumProtocol",
-    "https://v2.raydium.io"
-]
+{
+    "target_url": "https://raydium.io",
+    "domains": {
+        "discord.com": [
+            "https://discord.com/invite/raydium"
+        ],
+        "docs.raydium.io": [
+            "https://docs.raydium.io/raydium/"
+        ],
+        "raydium.io": [
+            "https://raydium.io/liquidity-pools/",
+            "https://raydium.io/portfolio/",
+            "https://raydium.io/staking/",
+            "https://raydium.io/swap/"
+        ],
+        "t.me": [
+            "https://t.me/raydiumprotocol"
+        ],
+        "tally.so": [
+            "https://tally.so/r/n9WZZV"
+        ],
+        "twitter.com": [
+            "https://twitter.com/RaydiumProtocol"
+        ],
+        "v2.raydium.io": [
+            "https://v2.raydium.io"
+        ]
+    }
+}
