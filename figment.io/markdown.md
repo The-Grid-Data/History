@@ -4,7 +4,7 @@ Skip to content
 ](https://www.marketvector.com/indexes/digital-assets/marketvector-figment-
 ethereum-total-return)
 
-**Last Close:** 140.50/100
+**Last Close:** 143.99/100
 
 [ MarketVector™ Figment Ethereum Staking Reward Reference Rate Index (STKR)
 ](https://www.marketvector.com/indexes/digital-assets/marketvector-figment-
@@ -16,7 +16,7 @@ ethereum-staking-reward-reference-rate)
 ](https://www.marketvector.com/indexes/digital-assets/marketvector-figment-
 ethereum-total-return)
 
-**Last Close:** 140.50/100
+**Last Close:** 143.99/100
 
 [ MarketVector™ Figment Ethereum Staking Reward Reference Rate Index (STKR)
 ](https://www.marketvector.com/indexes/digital-assets/marketvector-figment-
