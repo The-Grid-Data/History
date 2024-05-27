@@ -1,39 +1,33 @@
-[
-    "https://app.getgrass.io",
-    "https://app.getgrass.io",
-    "https://app.getgrass.io",
-    "https://app.getgrass.io",
-    "https://boards.greenhouse.io/wyndlabs",
-    "https://boards.greenhouse.io/wyndlabs",
-    "https://boards.greenhouse.io/wyndlabs",
-    "https://chrome.google.com/webstore/detail/grass-extension/ilehaonighjijnmpnagapkhpcdbhclfg?hl=en&authuser=0",
-    "https://chrome.google.com/webstore/detail/grass-extension/ilehaonighjijnmpnagapkhpcdbhclfg?hl=en&authuser=0",
-    "https://chrome.google.com/webstore/detail/grass-extension/ilehaonighjijnmpnagapkhpcdbhclfg?hl=en&authuser=0",
-    "https://chrome.google.com/webstore/detail/grass-extension/ilehaonighjijnmpnagapkhpcdbhclfg?hl=en&authuser=0",
-    "https://chrome.google.com/webstore/detail/grass-extension/ilehaonighjijnmpnagapkhpcdbhclfg?hl=en&authuser=0",
-    "https://discord.gg/8NxzRj9ayN",
-    "https://discord.gg/8NxzRj9ayN",
-    "https://discord.gg/8NxzRj9ayN",
-    "https://discord.gg/8NxzRj9ayN",
-    "https://discord.gg/8NxzRj9ayN",
-    "https://getgrass.io/",
-    "https://getgrass.io/",
-    "https://getgrass.io/",
-    "https://getgrass.io/blog",
-    "https://getgrass.io/blog",
-    "https://getgrass.io/blog",
-    "https://getgrass.io/blog",
-    "https://getgrass.io/media-kit",
-    "https://getgrass.io/privacy-policy",
-    "https://getgrass.io/terms-and-conditions",
-    "https://getgrass.medium.com/",
-    "https://getgrass.medium.com/",
-    "https://twitter.com/getgrass_io",
-    "https://twitter.com/getgrass_io",
-    "https://twitter.com/getgrass_io",
-    "https://twitter.com/getgrass_io",
-    "https://wynd-network.gitbook.io/grass-docs/introduction/faq",
-    "https://wynd-network.gitbook.io/grass-docs/introduction/faq",
-    "https://wynd-network.gitbook.io/grass-docs/introduction/faq",
-    "https://wynd-network.gitbook.io/grass-docs/introduction/faq"
-]
+{
+    "target_url": "https://getgrass.io",
+    "domains": {
+        "app.getgrass.io": [
+            "https://app.getgrass.io"
+        ],
+        "boards.greenhouse.io": [
+            "https://boards.greenhouse.io/wyndlabs"
+        ],
+        "chrome.google.com": [
+            "https://chrome.google.com/webstore/detail/grass-extension/ilehaonighjijnmpnagapkhpcdbhclfg?hl=en&authuser=0"
+        ],
+        "discord.gg": [
+            "https://discord.gg/8NxzRj9ayN"
+        ],
+        "getgrass.io": [
+            "https://getgrass.io/",
+            "https://getgrass.io/blog",
+            "https://getgrass.io/media-kit",
+            "https://getgrass.io/privacy-policy",
+            "https://getgrass.io/terms-and-conditions"
+        ],
+        "getgrass.medium.com": [
+            "https://getgrass.medium.com/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/getgrass_io"
+        ],
+        "wynd-network.gitbook.io": [
+            "https://wynd-network.gitbook.io/grass-docs/introduction/faq"
+        ]
+    }
+}

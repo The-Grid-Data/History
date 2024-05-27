@@ -1,17 +1,19 @@
-[
-    "https://getgrass.io/_next/image?url=%2Fimages%2Fbackbone.png&w=3840&q=75",
-    "https://getgrass.io/_next/image?url=%2Fimages%2Fdashboard.png&w=3840&q=100",
-    "https://getgrass.io/_next/image?url=%2Fimages%2Fdashboard.png&w=3840&q=75",
-    "https://getgrass.io/_next/image?url=%2Fimages%2Flock.png&w=3840&q=75",
-    "https://getgrass.io/_next/image?url=%2Fimages%2Flogo%2Fgrass-black-logo.png&w=3840&q=75",
-    "https://getgrass.io/_next/image?url=%2Fimages%2Flogo%2Fgrass-primary-logo.png&w=3840&q=75",
-    "https://getgrass.io/_next/image?url=%2Fimages%2Fnetwork-sources.png&w=3840&q=75",
-    "https://getgrass.io/_next/image?url=%2Fimages%2Fperson-1.png&w=3840&q=75",
-    "https://getgrass.io/_next/image?url=%2Fimages%2Fperson-1.png&w=3840&q=75",
-    "https://getgrass.io/_next/image?url=%2Fimages%2Fperson-2.png&w=3840&q=75",
-    "https://getgrass.io/_next/image?url=%2Fimages%2Fperson-2.png&w=3840&q=75",
-    "https://getgrass.io/_next/image?url=%2Fimages%2Fperson-3.png&w=3840&q=75",
-    "https://getgrass.io/_next/image?url=%2Fimages%2Fperson-3.png&w=3840&q=75",
-    "https://getgrass.io/images/join-grass-background.png",
-    "https://getgrass.io/images/referral-program.png"
-]
+{
+    "target_url": "https://getgrass.io",
+    "domains": {
+        "getgrass.io": [
+            "https://getgrass.io/_next/image?url=%2Fimages%2Fbackbone.png&w=3840&q=75",
+            "https://getgrass.io/_next/image?url=%2Fimages%2Fdashboard.png&w=3840&q=100",
+            "https://getgrass.io/_next/image?url=%2Fimages%2Fdashboard.png&w=3840&q=75",
+            "https://getgrass.io/_next/image?url=%2Fimages%2Flock.png&w=3840&q=75",
+            "https://getgrass.io/_next/image?url=%2Fimages%2Flogo%2Fgrass-black-logo.png&w=3840&q=75",
+            "https://getgrass.io/_next/image?url=%2Fimages%2Flogo%2Fgrass-primary-logo.png&w=3840&q=75",
+            "https://getgrass.io/_next/image?url=%2Fimages%2Fnetwork-sources.png&w=3840&q=75",
+            "https://getgrass.io/_next/image?url=%2Fimages%2Fperson-1.png&w=3840&q=75",
+            "https://getgrass.io/_next/image?url=%2Fimages%2Fperson-2.png&w=3840&q=75",
+            "https://getgrass.io/_next/image?url=%2Fimages%2Fperson-3.png&w=3840&q=75",
+            "https://getgrass.io/images/join-grass-background.png",
+            "https://getgrass.io/images/referral-program.png"
+        ]
+    }
+}
