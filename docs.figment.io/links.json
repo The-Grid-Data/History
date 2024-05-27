@@ -1,22 +1,18 @@
-[
-    "https://docs.figment.io/",
-    "https://docs.figment.io/",
-    "https://docs.figment.io/",
-    "https://docs.figment.io/",
-    "https://docs.figment.io/#content",
-    "https://docs.figment.io/#supported-networks",
-    "https://docs.figment.io/docs",
-    "https://docs.figment.io/docs",
-    "https://docs.figment.io/docs",
-    "https://docs.figment.io/docs/decoding-contract-call-data",
-    "https://docs.figment.io/docs/lifecycle-eth-validator",
-    "https://docs.figment.io/docs/lifecycle-eth-validator",
-    "https://docs.figment.io/docs/signing-transactions",
-    "https://docs.figment.io/docs/signing-transactions-with-the-fireblocks-api",
-    "https://docs.figment.io/docs/verify-validator-data",
-    "https://docs.figment.io/recipes",
-    "https://docs.figment.io/recipes",
-    "https://docs.figment.io/reference",
-    "https://docs.figment.io/reference",
-    "https://docs.figment.io/reference"
-]
+{
+    "target_url": "https://docs.figment.io/",
+    "domains": {
+        "docs.figment.io": [
+            "https://docs.figment.io/",
+            "https://docs.figment.io/#content",
+            "https://docs.figment.io/#supported-networks",
+            "https://docs.figment.io/docs",
+            "https://docs.figment.io/docs/decoding-contract-call-data",
+            "https://docs.figment.io/docs/lifecycle-eth-validator",
+            "https://docs.figment.io/docs/signing-transactions",
+            "https://docs.figment.io/docs/signing-transactions-with-the-fireblocks-api",
+            "https://docs.figment.io/docs/verify-validator-data",
+            "https://docs.figment.io/recipes",
+            "https://docs.figment.io/reference"
+        ]
+    }
+}
