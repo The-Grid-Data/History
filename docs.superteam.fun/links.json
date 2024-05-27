@@ -1,29 +1,30 @@
-[
-    "https://docs.superteam.fun/#what-are-our-goals",
-    "https://docs.superteam.fun/#what-are-our-goals",
-    "https://docs.superteam.fun/#what-is-superteam",
-    "https://docs.superteam.fun/#what-is-superteam",
-    "https://docs.superteam.fun/#what-is-this-handbook",
-    "https://docs.superteam.fun/#what-is-this-handbook",
-    "https://docs.superteam.fun/the-superteam-handbook",
-    "https://docs.superteam.fun/the-superteam-handbook",
-    "https://docs.superteam.fun/the-superteam-handbook/community/faqs",
-    "https://docs.superteam.fun/the-superteam-handbook/community/faqs/superteam-earn-faq",
-    "https://docs.superteam.fun/the-superteam-handbook/community/the-reputation-system",
-    "https://docs.superteam.fun/the-superteam-handbook/community/the-reputation-system/case-study-superteam-earn",
-    "https://docs.superteam.fun/the-superteam-handbook/community/working-groups",
-    "https://docs.superteam.fun/the-superteam-handbook/getting-involved/community-gdp",
-    "https://docs.superteam.fun/the-superteam-handbook/getting-involved/events-guide",
-    "https://docs.superteam.fun/the-superteam-handbook/getting-involved/how-to-contribute",
-    "https://docs.superteam.fun/the-superteam-handbook/getting-involved/using-discord",
-    "https://docs.superteam.fun/the-superteam-handbook/getting-started/community-structure",
-    "https://docs.superteam.fun/the-superteam-handbook/getting-started/community-structure",
-    "https://docs.superteam.fun/the-superteam-handbook/getting-started/core-values",
-    "https://docs.superteam.fun/the-superteam-handbook/getting-started/core-values",
-    "https://docs.superteam.fun/the-superteam-handbook/getting-started/essential-resources",
-    "https://docs.superteam.fun/the-superteam-handbook/products/superteam-build",
-    "https://docs.superteam.fun/the-superteam-handbook/products/superteam-earn",
-    "https://docs.superteam.fun/the-superteam-handbook/products/superteam-media",
-    "https://docs.superteam.fun/the-superteam-handbook/products/superteam-podcast",
-    "https://www.gitbook.com/?utm_source=content&utm_medium=trademark&utm_campaign=BCKBW6TZPnxW4MqY3RgQ"
-]
+{
+    "target_url": "https://docs.superteam.fun/",
+    "domains": {
+        "docs.superteam.fun": [
+            "https://docs.superteam.fun/#what-are-our-goals",
+            "https://docs.superteam.fun/#what-is-superteam",
+            "https://docs.superteam.fun/#what-is-this-handbook",
+            "https://docs.superteam.fun/the-superteam-handbook",
+            "https://docs.superteam.fun/the-superteam-handbook/community/faqs",
+            "https://docs.superteam.fun/the-superteam-handbook/community/faqs/superteam-earn-faq",
+            "https://docs.superteam.fun/the-superteam-handbook/community/the-reputation-system",
+            "https://docs.superteam.fun/the-superteam-handbook/community/the-reputation-system/case-study-superteam-earn",
+            "https://docs.superteam.fun/the-superteam-handbook/community/working-groups",
+            "https://docs.superteam.fun/the-superteam-handbook/getting-involved/community-gdp",
+            "https://docs.superteam.fun/the-superteam-handbook/getting-involved/events-guide",
+            "https://docs.superteam.fun/the-superteam-handbook/getting-involved/how-to-contribute",
+            "https://docs.superteam.fun/the-superteam-handbook/getting-involved/using-discord",
+            "https://docs.superteam.fun/the-superteam-handbook/getting-started/community-structure",
+            "https://docs.superteam.fun/the-superteam-handbook/getting-started/core-values",
+            "https://docs.superteam.fun/the-superteam-handbook/getting-started/essential-resources",
+            "https://docs.superteam.fun/the-superteam-handbook/products/superteam-build",
+            "https://docs.superteam.fun/the-superteam-handbook/products/superteam-earn",
+            "https://docs.superteam.fun/the-superteam-handbook/products/superteam-media",
+            "https://docs.superteam.fun/the-superteam-handbook/products/superteam-podcast"
+        ],
+        "www.gitbook.com": [
+            "https://www.gitbook.com/?utm_source=content&utm_medium=trademark&utm_campaign=BCKBW6TZPnxW4MqY3RgQ"
+        ]
+    }
+}
