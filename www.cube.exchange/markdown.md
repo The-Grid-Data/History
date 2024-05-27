@@ -16,14 +16,14 @@ Runes
 
 Market| Price| 24h Chg| 48h History| 24h Turn(USDC)| Market Cap|  
 ---|---|---|---|---|---|---  
-BTCBitcoinBTC| 68,376.00| -0.87%| | 970.70K| 1,294.710B| [Buy](/trade/BTCUSDC)  
+BTCBitcoinBTC| 68,879.00| -0.40%| | 981.95K| 1,294.710B| [Buy](/trade/BTCUSDC)  
 ETHEthereumETH| 3,865.78| 0.73%| | 19.74K| 398.702B| [Buy](/trade/ETHUSDC)  
-SOLSolanaSOL| 167.60| 2.65%| | 733.35K| 83.737B| [Buy](/trade/SOLUSDC)  
-DOGEDogecoinDOGE| 0.15000| -3.61%| | 28.90K| 25.810B| [Buy](/trade/DOGEUSDC)  
-LTCLitecoinLTC| 84.28| | | 19.43| 7.358B| [Buy](/trade/LTCUSDC)  
+SOLSolanaSOL| 168.64| 2.38%| | 772.63K| 83.737B| [Buy](/trade/SOLUSDC)  
+DOGEDogecoinDOGE| 0.17965| 6.10%| | 27.64K| 25.810B| [Buy](/trade/DOGEUSDC)  
+LTCLitecoinLTC| 84.78| 0.59%| | 21.12| 7.358B| [Buy](/trade/LTCUSDC)  
 WIFdogwifhatWIF| 3.0316| 0.11%| | 103.54| 3.936B| [Buy](/trade/WIFUSDC)  
 TAOBittensorTAO| 442.91| | | | 3.789B| [Buy](/trade/TAOUSDC)  
-RENDERRender TokenRENDER| 10.000| 2.65%| | 35.17K| 3.628B| [Buy](/trade/RENDERUSDC)  
+RENDERRender TokenRENDER| 9.889| 1.51%| | 56.93K| 3.628B| [Buy](/trade/RENDERUSDC)  
 JitoSOLJito Staked SOLJitoSOL| 189.40| | | | 1.778B| [Buy](/trade/JitoSOLUSDC)  
 BONKBonkBONK| 0.0₄3408| -3.07%| | 67.04| 1.527B| [Buy](/trade/BONKUSDC)  
   
