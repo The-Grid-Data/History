@@ -1,33 +1,32 @@
-[
-    "https://app.appsflyer.com/1605603333?pid=clickbutton&af_siteid={ApplicationID}&c={CampaignName}",
-    "https://app.appsflyer.com/1605603333?pid=clickbutton&af_siteid={ApplicationID}&c={CampaignName}",
-    "https://app.appsflyer.com/1605603333?pid=clickbutton&af_siteid={ApplicationID}&c={CampaignName}",
-    "https://app.appsflyer.com/1605603333?pid=clickbutton&af_siteid={ApplicationID}&c={CampaignName}",
-    "https://app.appsflyer.com/org.p2p.wallet?pid=clickbutton&af_siteid={ApplicationID}&c={CampaignName}",
-    "https://app.appsflyer.com/org.p2p.wallet?pid=clickbutton&af_siteid={ApplicationID}&c={CampaignName}",
-    "https://app.appsflyer.com/org.p2p.wallet?pid=clickbutton&af_siteid={ApplicationID}&c={CampaignName}",
-    "https://app.appsflyer.com/org.p2p.wallet?pid=clickbutton&af_siteid={ApplicationID}&c={CampaignName}",
-    "https://discord.gg/SpW3GmEYgU",
-    "https://discord.gg/SpW3GmEYgU",
-    "https://discord.gg/SpW3GmEYgU",
-    "https://discord.gg/SpW3GmEYgU",
-    "https://key.app/privacypolicy",
-    "https://key.app/termsofservice",
-    "https://key.app/wallets",
-    "https://key.app/wallets",
-    "https://keyapp.onelink.me/rRAL/2fb8ykms",
-    "https://keyapp.onelink.me/rRAL/2fb8ykms",
-    "https://remittanceprices.worldbank.org/sites/default/files/rpw_main_report_and_annex_q322_final.pdf",
-    "https://twitter.com/KeyApp_",
-    "https://twitter.com/KeyApp_",
-    "https://twitter.com/KeyApp_",
-    "https://twitter.com/KeyApp_",
-    "https://www.linkedin.com/company/key-app/",
-    "https://www.linkedin.com/company/key-app/",
-    "https://www.linkedin.com/company/key-app/",
-    "https://www.linkedin.com/company/key-app/",
-    "https://www.linkedin.com/company/key-app/",
-    "https://www.linkedin.com/company/key-app/",
-    "mailto:info@key.app",
-    "mailto:info@key.app"
-]
+{
+    "target_url": "https://key.app/",
+    "domains": {
+        "": [
+            "mailto:info@key.app"
+        ],
+        "app.appsflyer.com": [
+            "https://app.appsflyer.com/1605603333?pid=clickbutton&af_siteid={ApplicationID}&c={CampaignName}",
+            "https://app.appsflyer.com/org.p2p.wallet?pid=clickbutton&af_siteid={ApplicationID}&c={CampaignName}"
+        ],
+        "discord.gg": [
+            "https://discord.gg/SpW3GmEYgU"
+        ],
+        "key.app": [
+            "https://key.app/privacypolicy",
+            "https://key.app/termsofservice",
+            "https://key.app/wallets"
+        ],
+        "keyapp.onelink.me": [
+            "https://keyapp.onelink.me/rRAL/2fb8ykms"
+        ],
+        "remittanceprices.worldbank.org": [
+            "https://remittanceprices.worldbank.org/sites/default/files/rpw_main_report_and_annex_q322_final.pdf"
+        ],
+        "twitter.com": [
+            "https://twitter.com/KeyApp_"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/key-app/"
+        ]
+    }
+}
