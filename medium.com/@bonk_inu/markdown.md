@@ -47,20 +47,11 @@ approaching! It’s been an incredible year and…](/@bonk_inu/the-12-days-of-
 bonkmas-one-year-anniversary-celebration-97f1a3a9dfa9?source=user_profile
 ---------0----------------------------)
 
-[5 min read·Dec 10, 2023](/@bonk_inu/the-12-days-of-bonkmas-one-year-
-anniversary-celebration-97f1a3a9dfa9?source=user_profile---------
-0----------------------------)
-
-[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F97f1a3a9dfa9&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2Fthe-12-days-
-of-bonkmas-one-year-anniversary-
-celebration-97f1a3a9dfa9&user=BONK&userId=205d1e9f7f19&source=-----97f1a3a9dfa9
-----0-----------------clap_footer-----------)
-
-\--
+Dec 10, 2023
 
 [10](/@bonk_inu/the-12-days-of-bonkmas-one-year-anniversary-
-celebration-97f1a3a9dfa9?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------0----------------------------)
+celebration-97f1a3a9dfa9?source=user_profile---------
+0----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F97f1a3a9dfa9&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2Fthe-12-days-
 of-bonkmas-one-year-anniversary-celebration-97f1a3a9dfa9&source=---------0
@@ -72,16 +63,11 @@ Celebration](https://miro.medium.com/v2/da:true/resize:fill:160:106/0*uiGHIs5QOq
 ![The 12 Days of BONKmas: One Year Anniversary
 Celebration](https://miro.medium.com/v2/da:true/resize:fill:320:214/0*uiGHIs5QOqWX2QVz)
 
-[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F97f1a3a9dfa9&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2Fthe-12-days-
-of-bonkmas-one-year-anniversary-
-celebration-97f1a3a9dfa9&user=BONK&userId=205d1e9f7f19&source=-----97f1a3a9dfa9
-----0-----------------clap_footer-----------)
-
-\--
+Dec 10, 2023
 
 [10](/@bonk_inu/the-12-days-of-bonkmas-one-year-anniversary-
-celebration-97f1a3a9dfa9?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------0----------------------------)
+celebration-97f1a3a9dfa9?source=user_profile---------
+0----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F97f1a3a9dfa9&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2Fthe-12-days-
 of-bonkmas-one-year-anniversary-celebration-97f1a3a9dfa9&source=---------0
@@ -99,20 +85,11 @@ forces-with-paris-musketeers-a-winning-
 partnership-0b8fdc92068c?source=user_profile---------
 1----------------------------)
 
-[3 min read·Apr 10, 2024](/@bonk_inu/bonk-joins-forces-with-paris-musketeers-
-a-winning-partnership-0b8fdc92068c?source=user_profile---------
-1----------------------------)
-
-[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F0b8fdc92068c&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2Fbonk-
-joins-forces-with-paris-musketeers-a-winning-
-partnership-0b8fdc92068c&user=BONK&userId=205d1e9f7f19&source=-----0b8fdc92068c
-----1-----------------clap_footer-----------)
-
-\--
+Apr 10
 
 [2](/@bonk_inu/bonk-joins-forces-with-paris-musketeers-a-winning-
-partnership-0b8fdc92068c?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------1----------------------------)
+partnership-0b8fdc92068c?source=user_profile---------
+1----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F0b8fdc92068c&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2Fbonk-
 joins-forces-with-paris-musketeers-a-winning-
@@ -127,16 +104,11 @@ fXki8g56Q.jpeg)
 Partnership](https://miro.medium.com/v2/resize:fill:320:214/1*ZcOCwgy4uRba-
 fXki8g56Q.jpeg)
 
-[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F0b8fdc92068c&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2Fbonk-
-joins-forces-with-paris-musketeers-a-winning-
-partnership-0b8fdc92068c&user=BONK&userId=205d1e9f7f19&source=-----0b8fdc92068c
-----1-----------------clap_footer-----------)
-
-\--
+Apr 10
 
 [2](/@bonk_inu/bonk-joins-forces-with-paris-musketeers-a-winning-
-partnership-0b8fdc92068c?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------1----------------------------)
+partnership-0b8fdc92068c?source=user_profile---------
+1----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F0b8fdc92068c&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2Fbonk-
 joins-forces-with-paris-musketeers-a-winning-
@@ -151,32 +123,19 @@ bookmark_preview-----------)
 ## [BONKmas RecapIntroduction](/@bonk_inu/bonkmas-
 recap-2c7ad48f4125?source=user_profile---------2----------------------------)
 
-[2 min read·Jan 5, 2024](/@bonk_inu/bonkmas-
-recap-2c7ad48f4125?source=user_profile---------2----------------------------)
+Jan 5
 
-[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F2c7ad48f4125&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2Fbonkmas-
-recap-2c7ad48f4125&user=BONK&userId=205d1e9f7f19&source=-----2c7ad48f4125----2
------------------clap_footer-----------)
-
-\--
-
-[](/@bonk_inu/bonkmas-
-recap-2c7ad48f4125?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------2----------------------------)
+[](/@bonk_inu/bonkmas-recap-2c7ad48f4125?source=user_profile---------
+2----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F2c7ad48f4125&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2Fbonkmas-
 recap-2c7ad48f4125&source=---------2-----------------
 bookmark_preview-----------)
 
-[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F2c7ad48f4125&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2Fbonkmas-
-recap-2c7ad48f4125&user=BONK&userId=205d1e9f7f19&source=-----2c7ad48f4125----2
------------------clap_footer-----------)
+Jan 5
 
-\--
-
-[](/@bonk_inu/bonkmas-
-recap-2c7ad48f4125?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------2----------------------------)
+[](/@bonk_inu/bonkmas-recap-2c7ad48f4125?source=user_profile---------
+2----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F2c7ad48f4125&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2Fbonkmas-
 recap-2c7ad48f4125&source=---------2-----------------
@@ -192,34 +151,18 @@ overview of all the BONKmas Nice List requirements.](/@bonk_inu/bonkmas-
 activities-summary-50e541d21f78?source=user_profile---------
 3----------------------------)
 
-[2 min read·Dec 18, 2023](/@bonk_inu/bonkmas-activities-
-summary-50e541d21f78?source=user_profile---------
-3----------------------------)
+Dec 18, 2023
 
-[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F50e541d21f78&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2Fbonkmas-
-activities-
-summary-50e541d21f78&user=BONK&userId=205d1e9f7f19&source=-----50e541d21f78
-----3-----------------clap_footer-----------)
-
-\--
-
-[1](/@bonk_inu/bonkmas-activities-
-summary-50e541d21f78?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+[1](/@bonk_inu/bonkmas-activities-summary-50e541d21f78?source=user_profile
 ---------3----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F50e541d21f78&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2Fbonkmas-
 activities-summary-50e541d21f78&source=---------3-----------------
 bookmark_preview-----------)
 
-[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F50e541d21f78&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2Fbonkmas-
-activities-
-summary-50e541d21f78&user=BONK&userId=205d1e9f7f19&source=-----50e541d21f78
-----3-----------------clap_footer-----------)
+Dec 18, 2023
 
-\--
-
-[1](/@bonk_inu/bonkmas-activities-
-summary-50e541d21f78?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+[1](/@bonk_inu/bonkmas-activities-summary-50e541d21f78?source=user_profile
 ---------3----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F50e541d21f78&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2Fbonkmas-
@@ -234,33 +177,18 @@ bookmark_preview-----------)
 ## [12 Days of BONKmas FAQWhat is BONKmas?](/@bonk_inu/12-days-of-bonkmas-
 faq-2c8f328d27d2?source=user_profile---------4----------------------------)
 
-[4 min read·Dec 10, 2023](/@bonk_inu/12-days-of-bonkmas-
-faq-2c8f328d27d2?source=user_profile---------4----------------------------)
+Dec 10, 2023
 
-[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F2c8f328d27d2&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2F12-days-
-of-bonkmas-
-faq-2c8f328d27d2&user=BONK&userId=205d1e9f7f19&source=-----2c8f328d27d2----4
------------------clap_footer-----------)
-
-\--
-
-[6](/@bonk_inu/12-days-of-bonkmas-
-faq-2c8f328d27d2?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+[6](/@bonk_inu/12-days-of-bonkmas-faq-2c8f328d27d2?source=user_profile
 ---------4----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F2c8f328d27d2&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2F12-days-
 of-bonkmas-faq-2c8f328d27d2&source=---------4-----------------
 bookmark_preview-----------)
 
-[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F2c8f328d27d2&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2F12-days-
-of-bonkmas-
-faq-2c8f328d27d2&user=BONK&userId=205d1e9f7f19&source=-----2c8f328d27d2----4
------------------clap_footer-----------)
+Dec 10, 2023
 
-\--
-
-[6](/@bonk_inu/12-days-of-bonkmas-
-faq-2c8f328d27d2?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+[6](/@bonk_inu/12-days-of-bonkmas-faq-2c8f328d27d2?source=user_profile
 ---------4----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F2c8f328d27d2&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2F12-days-
@@ -278,35 +206,21 @@ aiming to provide all necessary…](/@bonk_inu/12-days-of-bonkmas-festive-
 bonkmas-activities-211c43e1c18f?source=user_profile---------
 5----------------------------)
 
-[9 min read·Dec 10, 2023](/@bonk_inu/12-days-of-bonkmas-festive-bonkmas-
-activities-211c43e1c18f?source=user_profile---------
-5----------------------------)
-
-[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F211c43e1c18f&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2F12-days-
-of-bonkmas-festive-bonkmas-
-activities-211c43e1c18f&user=BONK&userId=205d1e9f7f19&source=-----211c43e1c18f
-----5-----------------clap_footer-----------)
-
-\--
+Dec 10, 2023
 
 [5](/@bonk_inu/12-days-of-bonkmas-festive-bonkmas-
-activities-211c43e1c18f?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------5----------------------------)
+activities-211c43e1c18f?source=user_profile---------
+5----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F211c43e1c18f&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2F12-days-
 of-bonkmas-festive-bonkmas-activities-211c43e1c18f&source=---------5
 -----------------bookmark_preview-----------)
 
-[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F211c43e1c18f&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2F12-days-
-of-bonkmas-festive-bonkmas-
-activities-211c43e1c18f&user=BONK&userId=205d1e9f7f19&source=-----211c43e1c18f
-----5-----------------clap_footer-----------)
-
-\--
+Dec 10, 2023
 
 [5](/@bonk_inu/12-days-of-bonkmas-festive-bonkmas-
-activities-211c43e1c18f?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------5----------------------------)
+activities-211c43e1c18f?source=user_profile---------
+5----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F211c43e1c18f&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2F12-days-
 of-bonkmas-festive-bonkmas-activities-211c43e1c18f&source=---------5
@@ -321,19 +235,10 @@ of-bonkmas-festive-bonkmas-activities-211c43e1c18f&source=---------5
 Incentive](/@bonk_inu/esbonk-upgrade-1e7cbbb617eb?source=user_profile---------
 6----------------------------)
 
-[3 min read·Nov 30, 2023](/@bonk_inu/esbonk-
-upgrade-1e7cbbb617eb?source=user_profile---------
+Nov 30, 2023
+
+[](/@bonk_inu/esbonk-upgrade-1e7cbbb617eb?source=user_profile---------
 6----------------------------)
-
-[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F1e7cbbb617eb&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2Fesbonk-
-upgrade-1e7cbbb617eb&user=BONK&userId=205d1e9f7f19&source=-----1e7cbbb617eb
-----6-----------------clap_footer-----------)
-
-\--
-
-[](/@bonk_inu/esbonk-
-upgrade-1e7cbbb617eb?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------6----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F1e7cbbb617eb&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2Fesbonk-
 upgrade-1e7cbbb617eb&source=---------6-----------------
@@ -345,15 +250,10 @@ Upgrade](https://miro.medium.com/v2/resize:fill:160:106/1*_7aL6qcBQ4VxLt1qmK0xTA
 ![esBONK
 Upgrade](https://miro.medium.com/v2/resize:fill:320:214/1*_7aL6qcBQ4VxLt1qmK0xTA.jpeg)
 
-[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F1e7cbbb617eb&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2Fesbonk-
-upgrade-1e7cbbb617eb&user=BONK&userId=205d1e9f7f19&source=-----1e7cbbb617eb
-----6-----------------clap_footer-----------)
+Nov 30, 2023
 
-\--
-
-[](/@bonk_inu/esbonk-
-upgrade-1e7cbbb617eb?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------6----------------------------)
+[](/@bonk_inu/esbonk-upgrade-1e7cbbb617eb?source=user_profile---------
+6----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F1e7cbbb617eb&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2Fesbonk-
 upgrade-1e7cbbb617eb&source=---------6-----------------
@@ -367,18 +267,10 @@ bookmark_preview-----------)
 ## [BonkSwap OverviewIntroduction](/@bonk_inu/bonkswap-overview-
 eadb72f9ab64?source=user_profile---------7----------------------------)
 
-[3 min read·Nov 29, 2023](/@bonk_inu/bonkswap-overview-
-eadb72f9ab64?source=user_profile---------7----------------------------)
+Nov 29, 2023
 
-[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Feadb72f9ab64&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2Fbonkswap-
-overview-eadb72f9ab64&user=BONK&userId=205d1e9f7f19&source=-----eadb72f9ab64
-----7-----------------clap_footer-----------)
-
-\--
-
-[](/@bonk_inu/bonkswap-overview-
-eadb72f9ab64?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------7----------------------------)
+[](/@bonk_inu/bonkswap-overview-eadb72f9ab64?source=user_profile---------
+7----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Feadb72f9ab64&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2Fbonkswap-
 overview-eadb72f9ab64&source=---------7-----------------
@@ -390,15 +282,10 @@ Overview](https://miro.medium.com/v2/resize:fill:160:106/1*_7aL6qcBQ4VxLt1qmK0xT
 ![BonkSwap
 Overview](https://miro.medium.com/v2/resize:fill:320:214/1*_7aL6qcBQ4VxLt1qmK0xTA.jpeg)
 
-[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Feadb72f9ab64&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2Fbonkswap-
-overview-eadb72f9ab64&user=BONK&userId=205d1e9f7f19&source=-----eadb72f9ab64
-----7-----------------clap_footer-----------)
+Nov 29, 2023
 
-\--
-
-[](/@bonk_inu/bonkswap-overview-
-eadb72f9ab64?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------7----------------------------)
+[](/@bonk_inu/bonkswap-overview-eadb72f9ab64?source=user_profile---------
+7----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Feadb72f9ab64&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2Fbonkswap-
 overview-eadb72f9ab64&source=---------7-----------------
@@ -414,19 +301,9 @@ Ecosystem Social Token](/@bonk_inu/bonk-origin-overview-
 mission-1c94ed22d755?source=user_profile---------
 8----------------------------)
 
-[3 min read·Nov 26, 2023](/@bonk_inu/bonk-origin-overview-
-mission-1c94ed22d755?source=user_profile---------
-8----------------------------)
+Nov 26, 2023
 
-[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F1c94ed22d755&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2Fbonk-
-origin-overview-
-mission-1c94ed22d755&user=BONK&userId=205d1e9f7f19&source=-----1c94ed22d755
-----8-----------------clap_footer-----------)
-
-\--
-
-[3](/@bonk_inu/bonk-origin-overview-
-mission-1c94ed22d755?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+[3](/@bonk_inu/bonk-origin-overview-mission-1c94ed22d755?source=user_profile
 ---------8----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F1c94ed22d755&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2Fbonk-
@@ -439,15 +316,9 @@ Coin](https://miro.medium.com/v2/resize:fill:160:106/1*hGfKpupA7pP3IPDam6mUAg.pn
 ![$BONK, Solana Dog
 Coin](https://miro.medium.com/v2/resize:fill:320:214/1*hGfKpupA7pP3IPDam6mUAg.png)
 
-[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F1c94ed22d755&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2Fbonk-
-origin-overview-
-mission-1c94ed22d755&user=BONK&userId=205d1e9f7f19&source=-----1c94ed22d755
-----8-----------------clap_footer-----------)
+Nov 26, 2023
 
-\--
-
-[3](/@bonk_inu/bonk-origin-overview-
-mission-1c94ed22d755?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+[3](/@bonk_inu/bonk-origin-overview-mission-1c94ed22d755?source=user_profile
 ---------8----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F1c94ed22d755&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40bonk_inu%2Fbonk-
