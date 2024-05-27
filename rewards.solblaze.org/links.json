@@ -1,14 +1,23 @@
-[
-    "https://rewards.solblaze.org/",
-    "https://rewards.solblaze.org/",
-    "https://rewards.solblaze.org/burn",
-    "https://rewards.solblaze.org/gauges",
-    "https://rewards.solblaze.org/governance",
-    "https://rewards.solblaze.org/leaderboard",
-    "https://stake.solblaze.org/app/",
-    "https://stake.solblaze.org/app/defi",
-    "https://stake.solblaze.org/tos",
-    "https://stake.solblaze.org/tos",
-    "https://twitter.com/solblaze_org/status/1688480225255161856",
-    "javascript:toggleNav();"
-]
+{
+    "target_url": "https://rewards.solblaze.org/",
+    "domains": {
+        "": [
+            "javascript:toggleNav();"
+        ],
+        "rewards.solblaze.org": [
+            "https://rewards.solblaze.org/",
+            "https://rewards.solblaze.org/burn",
+            "https://rewards.solblaze.org/gauges",
+            "https://rewards.solblaze.org/governance",
+            "https://rewards.solblaze.org/leaderboard"
+        ],
+        "stake.solblaze.org": [
+            "https://stake.solblaze.org/app/",
+            "https://stake.solblaze.org/app/defi",
+            "https://stake.solblaze.org/tos"
+        ],
+        "twitter.com": [
+            "https://twitter.com/solblaze_org/status/1688480225255161856"
+        ]
+    }
+}
