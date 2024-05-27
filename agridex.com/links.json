@@ -1,28 +1,51 @@
-[
-    "https://agfundernews.com/henry-duckworth-on-agridex-streamlining-ag-value-chains-with-blockchain-technology",
-    "https://agridex.com",
-    "https://agridex.com/risk-notice",
-    "https://deepmind.google/",
-    "https://deepmind.google/",
-    "https://drive.google.com/file/d/1yuo1lPssoiisbtmNprYxKl6arq3hqvdM/view?usp=sharing",
-    "https://drive.google.com/file/d/1yuo1lPssoiisbtmNprYxKl6arq3hqvdM/view?usp=sharing",
-    "https://solana.com/",
-    "https://solana.com/",
-    "https://supplychaindigital.com/digital-supply-chain/blockchain-the-answer-to-global-food-supply-chain-waste",
-    "https://t.me/agridex",
-    "https://t.me/agridex",
-    "https://www.citadel.com/",
-    "https://www.citadel.com/",
-    "https://www.db.com/",
-    "https://www.db.com/",
-    "https://www.fruitnet.com/fresh-produce-journal/blockchain-can-make-growers-lives-easier/248137.article",
-    "https://www.goldmansachs.com/",
-    "https://www.goldmansachs.com/",
-    "https://www.google.com/",
-    "https://www.google.com/",
-    "https://www.trafigura.com/",
-    "https://www.trafigura.com/",
-    "https://x.com/AgriDexPlatform",
-    "https://x.com/AgriDexPlatform",
-    "mailto:contact@agridex.com"
-]
+{
+    "target_url": "https://agridex.com",
+    "domains": {
+        "": [
+            "mailto:contact@agridex.com"
+        ],
+        "agfundernews.com": [
+            "https://agfundernews.com/henry-duckworth-on-agridex-streamlining-ag-value-chains-with-blockchain-technology"
+        ],
+        "agridex.com": [
+            "https://agridex.com",
+            "https://agridex.com/risk-notice"
+        ],
+        "deepmind.google": [
+            "https://deepmind.google/"
+        ],
+        "drive.google.com": [
+            "https://drive.google.com/file/d/1yuo1lPssoiisbtmNprYxKl6arq3hqvdM/view?usp=sharing"
+        ],
+        "solana.com": [
+            "https://solana.com/"
+        ],
+        "supplychaindigital.com": [
+            "https://supplychaindigital.com/digital-supply-chain/blockchain-the-answer-to-global-food-supply-chain-waste"
+        ],
+        "t.me": [
+            "https://t.me/agridex"
+        ],
+        "www.citadel.com": [
+            "https://www.citadel.com/"
+        ],
+        "www.db.com": [
+            "https://www.db.com/"
+        ],
+        "www.fruitnet.com": [
+            "https://www.fruitnet.com/fresh-produce-journal/blockchain-can-make-growers-lives-easier/248137.article"
+        ],
+        "www.goldmansachs.com": [
+            "https://www.goldmansachs.com/"
+        ],
+        "www.google.com": [
+            "https://www.google.com/"
+        ],
+        "www.trafigura.com": [
+            "https://www.trafigura.com/"
+        ],
+        "x.com": [
+            "https://x.com/AgriDexPlatform"
+        ]
+    }
+}
