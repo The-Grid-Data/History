@@ -222,7 +222,7 @@ Laboratories/tonic/issues) [ 0 ](/Sphere-Laboratories/tonic/pulls) Updated May
 The Rust SQL Toolkit. An async, pure Rust SQL crate featuring compile-time
 checked queries without a DSL. Supports PostgreSQL, MySQL, and SQLite.
 
-Rust 0  Apache-2.0  [ 1,140 ](/Sphere-Laboratories/sqlx/forks) [ 0 ](/Sphere-
+Rust 0  Apache-2.0  [ 1,144 ](/Sphere-Laboratories/sqlx/forks) [ 0 ](/Sphere-
 Laboratories/sqlx/issues) [ 0 ](/Sphere-Laboratories/sqlx/pulls) Updated May
 22, 2024
 
@@ -240,7 +240,7 @@ lab/pulls) Updated May 9, 2024
 Web-Scale Blockchain for fast, secure, scalable, decentralized apps and
 marketplaces.
 
-Rust 0  Apache-2.0  [ 4,127 ](/Sphere-Laboratories/solana/forks) [ 0
+Rust 0  Apache-2.0  [ 4,126 ](/Sphere-Laboratories/solana/forks) [ 0
 ](/Sphere-Laboratories/solana/issues) [ 2 ](/Sphere-Laboratories/solana/pulls)
 Updated Apr 26, 2024
 
