@@ -161,7 +161,7 @@ Advisors (1 - 3 Year Lockup)| 2%| 11,100,000
 [PreviousPool creation FAQ](/raydium/pool-creation-faq)[NextRAY
 Staking](/raydium/ray_token/stake-ray)
 
-Last updated 3 months ago
+Last updated 2 months ago
 
 On this page
 
