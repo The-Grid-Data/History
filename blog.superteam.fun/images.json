@@ -1,3 +1,8 @@
-[
-    "https://substackcdn.com/image/fetch/w_264,c_limit,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc9a442e9-c7f9-478a-b5c1-1538e31a5ed1_400x400.png"
-]
+{
+    "target_url": "https://blog.superteam.fun/",
+    "domains": {
+        "substackcdn.com": [
+            "https://substackcdn.com/image/fetch/w_264,c_limit,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc9a442e9-c7f9-478a-b5c1-1538e31a5ed1_400x400.png"
+        ]
+    }
+}
