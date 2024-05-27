@@ -256,7 +256,5 @@ with this, but you can opt-out if you wish.
 
 Accept  AcceptAcceptAcceptAcceptAccept
 
-![](https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=b9da3f03-b0de-4028-912f-ab1d2825bf0e&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=01b151be-8412-4f0c-80fc-
-dbc7512f357d&tw_document_href=https%3A%2F%2Fdecimated.net%2F&tw_iframe_status=0&txn_id=o8fa8&type=javascript&version=2.3.30)![](https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=b9da3f03-b0de-4028-912f-ab1d2825bf0e&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=01b151be-8412-4f0c-80fc-
-dbc7512f357d&tw_document_href=https%3A%2F%2Fdecimated.net%2F&tw_iframe_status=0&txn_id=o8fa8&type=javascript&version=2.3.30)
+![](https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=6da84773-3024-4540-8f2f-b5eb987491e7&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=d9daa341-f73b-44b1-8c58-324b3ccd424e&tw_document_href=https%3A%2F%2Fdecimated.net%2F&tw_iframe_status=0&txn_id=o8fa8&type=javascript&version=2.3.30)![](https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=6da84773-3024-4540-8f2f-b5eb987491e7&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=d9daa341-f73b-44b1-8c58-324b3ccd424e&tw_document_href=https%3A%2F%2Fdecimated.net%2F&tw_iframe_status=0&txn_id=o8fa8&type=javascript&version=2.3.30)
 
