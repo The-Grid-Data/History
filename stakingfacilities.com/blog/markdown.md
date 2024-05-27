@@ -152,10 +152,10 @@ friendly blog posts, which will help you fast-tracking your onboarding phase
 and equip you with all the knowledge you need to venture onwards on your own.
 
 [Getting Started![](https://assets-global.website-
-files.com/5f699f2fdf70e641323aa6be/63c7c954fa41260d4bfc4dc9_video_cover_explainer_ONE_Zeichenfla%CC%88che%201.png)January
-1, 2023What is Blockchain Technology (pt.I)?A high-level view of blockchain
-technology that is free from tech-lingo and rather focuses on the bigger
-picture.![](https://assets-global.website-
+files.com/5f699f2fdf70e641323aa6be/63c7cab5818935eda0096cad_video_cover_explainer_TWO_Zeichenfla%CC%88che%201.png)January
+2, 2023What is Blockchain Technology (pt. II)?Learn about when it makes sense
+to use blockchain tech & under which settings they strive. ![](https://assets-
+global.website-
 files.com/5f699e8d6a7c1154451f214a/63c91220ec0041083aabf7aa_dot_new_icon_black-01.svg)![The
 Cosmos Logo](https://assets-global.website-
 files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd11a2aef672_cosmos_black-01.svg)![The
@@ -183,13 +183,12 @@ global.website-
 files.com/5f699e8d6a7c1154451f214a/63c91994dc0c341360977902_text_icon_identifier-01.svg)![The
 Solana Logo](https://assets-global.website-
 files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd29e9aef670_solana_black-01.svg)](/blog/what-
-is-blockchain-technology-pt-i)
+is-blockchain-technology-pt-ii)
 
 [Getting Started![](https://assets-global.website-
-files.com/5f699f2fdf70e641323aa6be/63c7cebd5d20aa368d940901_video_cover_how2getstarted_Zeichenfla%CC%88che%201.png)January
-9, 2023How to get started in web3Quick tips on how to approach web3 and what
-you need to keep in mind when getting started.![](https://assets-
-global.website-
+files.com/5f699f2fdf70e641323aa6be/63c7cdb0c446582f6712c795_what_is_staking_cover_Zeichenfla%CC%88che%201.png)January
+6, 2023What is staking? Listen to one of our founders giving a brief, non-
+technical explanation of staking![](https://assets-global.website-
 files.com/5f699e8d6a7c1154451f214a/63c91220ec0041083aabf7aa_dot_new_icon_black-01.svg)![The
 Cosmos Logo](https://assets-global.website-
 files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd11a2aef672_cosmos_black-01.svg)![The
@@ -216,8 +215,8 @@ files.com/5f699e8d6a7c1154451f214a/63c918fcfccaf90379cf463d_video_tag_identifier
 global.website-
 files.com/5f699e8d6a7c1154451f214a/63c91994dc0c341360977902_text_icon_identifier-01.svg)![The
 Solana Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd29e9aef670_solana_black-01.svg)](/blog/how-
-to-get-started-in-web3)
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd29e9aef670_solana_black-01.svg)](/blog/what-
+is-staking)
 
 [Getting Started![](https://assets-global.website-
 files.com/5f699f2fdf70e641323aa6be/63a06ace6cc4014bca642131_Bildschirmfoto%202022-12-19%20um%2014.44.26.png)October
@@ -254,6 +253,74 @@ files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd29e9aef670_solana_black-01.svg)
 are-proof-of-stake-and-staking)
 
 [Getting Started![](https://assets-global.website-
+files.com/5f699f2fdf70e641323aa6be/63c7cebd5d20aa368d940901_video_cover_how2getstarted_Zeichenfla%CC%88che%201.png)January
+9, 2023How to get started in web3Quick tips on how to approach web3 and what
+you need to keep in mind when getting started.![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c91220ec0041083aabf7aa_dot_new_icon_black-01.svg)![The
+Cosmos Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd11a2aef672_cosmos_black-01.svg)![The
+Dfinity Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd4d41aef66a_dfinity_black-01.svg)![The
+Ethereum Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1fd8aef66c_ethereum_black-01.svg)![The
+Kusama Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd630daef66f_kusama_black-01.svg)![The
+Chainlink Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1030aef668_chainlink_black-01.svg)![The
+Graph Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1c89aef671_graph_black-01.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd62e7aef679_hydra_b.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c913e4a98ced8d248b4396_apt_icon_black-01.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c914a6f87727f86cd8b39c_strd_icon_black-01.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c9161b37fba998a47bb1e9_wormhole_icon_black-01.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c918fcfccaf90379cf463d_video_tag_identifier-01.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c91994dc0c341360977902_text_icon_identifier-01.svg)![The
+Solana Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd29e9aef670_solana_black-01.svg)](/blog/how-
+to-get-started-in-web3)
+
+[Getting Started![](https://assets-global.website-
+files.com/5f699f2fdf70e641323aa6be/63dbbcb50a7bc0a0b6d99276_video_cover_whyBCmatters_Zeichenfla%CC%88che%201.png)February
+2, 2023Why blockchain technology mattersLearn more about our why - why we do
+the things we do and why we believe in this technology![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c91220ec0041083aabf7aa_dot_new_icon_black-01.svg)![The
+Cosmos Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd11a2aef672_cosmos_black-01.svg)![The
+Dfinity Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd4d41aef66a_dfinity_black-01.svg)![The
+Ethereum Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1fd8aef66c_ethereum_black-01.svg)![The
+Kusama Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd630daef66f_kusama_black-01.svg)![The
+Chainlink Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1030aef668_chainlink_black-01.svg)![The
+Graph Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1c89aef671_graph_black-01.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd62e7aef679_hydra_b.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c913e4a98ced8d248b4396_apt_icon_black-01.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c914a6f87727f86cd8b39c_strd_icon_black-01.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c9161b37fba998a47bb1e9_wormhole_icon_black-01.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c918fcfccaf90379cf463d_video_tag_identifier-01.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c91994dc0c341360977902_text_icon_identifier-01.svg)![The
+Solana Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd29e9aef670_solana_black-01.svg)](/blog/why-
+blockchain-technology-matters)
+
+[Getting Started![](https://assets-global.website-
 files.com/5f699f2fdf70e641323aa6be/63c7d02791e7024a1af63fe9_Bildschirmfoto%202023-01-18%20um%2011.55.12.png)January
 18, 2023Best Hardware Wallets in 2023If there is something that the recent
 events reinforced to crypto users, itâs the importance of self-custody
@@ -287,215 +354,12 @@ Solana Logo](https://assets-global.website-
 files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd29e9aef670_solana_black-01.svg)](/blog/best-
 hardware-wallets-in-2023)
 
-[Getting Started![](https://assets-global.website-
-files.com/5f699f2fdf70e641323aa6be/63c7ccd1fa41260cb5fc7a61_what_is_web3_cover_Zeichenfla%CC%88che%201.png)January
-4, 2023What is web3?A brief explanation of the internets' evolution from web1
-to web2 and eventually, web3![](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c91220ec0041083aabf7aa_dot_new_icon_black-01.svg)![The
-Cosmos Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd11a2aef672_cosmos_black-01.svg)![The
-Dfinity Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd4d41aef66a_dfinity_black-01.svg)![The
-Ethereum Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1fd8aef66c_ethereum_black-01.svg)![The
-Kusama Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd630daef66f_kusama_black-01.svg)![The
-Chainlink Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1030aef668_chainlink_black-01.svg)![The
-Graph Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1c89aef671_graph_black-01.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd62e7aef679_hydra_b.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c913e4a98ced8d248b4396_apt_icon_black-01.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c914a6f87727f86cd8b39c_strd_icon_black-01.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c9161b37fba998a47bb1e9_wormhole_icon_black-01.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c918fcfccaf90379cf463d_video_tag_identifier-01.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c91994dc0c341360977902_text_icon_identifier-01.svg)![The
-Solana Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd29e9aef670_solana_black-01.svg)](/blog/what-
-is-web3)
-
-[Getting Started![](https://assets-global.website-
-files.com/5f699f2fdf70e641323aa6be/63c7cab5818935eda0096cad_video_cover_explainer_TWO_Zeichenfla%CC%88che%201.png)January
-2, 2023What is Blockchain Technology (pt. II)?Learn about when it makes sense
-to use blockchain tech & under which settings they strive. ![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c91220ec0041083aabf7aa_dot_new_icon_black-01.svg)![The
-Cosmos Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd11a2aef672_cosmos_black-01.svg)![The
-Dfinity Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd4d41aef66a_dfinity_black-01.svg)![The
-Ethereum Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1fd8aef66c_ethereum_black-01.svg)![The
-Kusama Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd630daef66f_kusama_black-01.svg)![The
-Chainlink Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1030aef668_chainlink_black-01.svg)![The
-Graph Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1c89aef671_graph_black-01.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd62e7aef679_hydra_b.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c913e4a98ced8d248b4396_apt_icon_black-01.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c914a6f87727f86cd8b39c_strd_icon_black-01.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c9161b37fba998a47bb1e9_wormhole_icon_black-01.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c918fcfccaf90379cf463d_video_tag_identifier-01.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c91994dc0c341360977902_text_icon_identifier-01.svg)![The
-Solana Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd29e9aef670_solana_black-01.svg)](/blog/what-
-is-blockchain-technology-pt-ii)
-
 [Show All](/from-zero-to-hero)
 
 ## Around the Block
 
 Sit back, relax, grap a cup of coffee or tea and browse through the entire
 content of our blog.
-
-[General Education![](https://assets-global.website-
-files.com/5f699f2fdf70e641323aa6be/639b4a76a7aebfcf7cfe705d_Bildschirmfoto%202022-12-15%20um%2017.25.18.png)October
-1, 2022The Ethereum Merge: What It Is and What It Changed?A closer look at one
-of the biggest updates in the brief history of the blockchain industry.
-![](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c91220ec0041083aabf7aa_dot_new_icon_black-01.svg)![The
-Cosmos Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd11a2aef672_cosmos_black-01.svg)![The
-Dfinity Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd4d41aef66a_dfinity_black-01.svg)![The
-Ethereum Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1fd8aef66c_ethereum_black-01.svg)![The
-Kusama Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd630daef66f_kusama_black-01.svg)![The
-Chainlink Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1030aef668_chainlink_black-01.svg)![The
-Graph Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1c89aef671_graph_black-01.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd62e7aef679_hydra_b.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c913e4a98ced8d248b4396_apt_icon_black-01.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c914a6f87727f86cd8b39c_strd_icon_black-01.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c9161b37fba998a47bb1e9_wormhole_icon_black-01.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c918fcfccaf90379cf463d_video_tag_identifier-01.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c91994dc0c341360977902_text_icon_identifier-01.svg)![The
-Solana Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd29e9aef670_solana_black-01.svg)](/blog/the-
-ethereum-merge-what-it-is-and-what-it-changed)
-
-[General Education![](https://assets-global.website-
-files.com/5f699f2fdf70e641323aa6be/6447fda9dd2a7338732be3aa_Bildschirmfoto%202023-04-25%20um%2018.18.12.png)February
-23, 2022What is a swap and how does it work?In this article, you will learn
-what token swaps are, how to swap tokens, and what they mean for
-DeFi.![](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c91220ec0041083aabf7aa_dot_new_icon_black-01.svg)![The
-Cosmos Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd11a2aef672_cosmos_black-01.svg)![The
-Dfinity Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd4d41aef66a_dfinity_black-01.svg)![The
-Ethereum Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1fd8aef66c_ethereum_black-01.svg)![The
-Kusama Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd630daef66f_kusama_black-01.svg)![The
-Chainlink Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1030aef668_chainlink_black-01.svg)![The
-Graph Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1c89aef671_graph_black-01.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd62e7aef679_hydra_b.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c913e4a98ced8d248b4396_apt_icon_black-01.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c914a6f87727f86cd8b39c_strd_icon_black-01.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c9161b37fba998a47bb1e9_wormhole_icon_black-01.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c918fcfccaf90379cf463d_video_tag_identifier-01.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c91994dc0c341360977902_text_icon_identifier-01.svg)![The
-Solana Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd29e9aef670_solana_black-01.svg)](/blog/what-
-is-a-swap-and-how-does-it-work)
-
-[Tutorial & Guides![](https://assets-global.website-
-files.com/5f699f2fdf70e641323aa6be/623da5a8bbb310ac0b6682a5_Guide%20to%20Vega%20Protocol.png)February
-1, 2022Guide to VEGA: What is Vega Protocol?In this article, we have an in-
-depth look at the Vega protocol and the derivatives trading options it offers
-in the DeFi space. ![](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c91220ec0041083aabf7aa_dot_new_icon_black-01.svg)![The
-Cosmos Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd11a2aef672_cosmos_black-01.svg)![The
-Dfinity Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd4d41aef66a_dfinity_black-01.svg)![The
-Ethereum Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1fd8aef66c_ethereum_black-01.svg)![The
-Kusama Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd630daef66f_kusama_black-01.svg)![The
-Chainlink Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1030aef668_chainlink_black-01.svg)![The
-Graph Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1c89aef671_graph_black-01.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd62e7aef679_hydra_b.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c913e4a98ced8d248b4396_apt_icon_black-01.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c914a6f87727f86cd8b39c_strd_icon_black-01.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c9161b37fba998a47bb1e9_wormhole_icon_black-01.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c918fcfccaf90379cf463d_video_tag_identifier-01.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c91994dc0c341360977902_text_icon_identifier-01.svg)![The
-Solana Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd29e9aef670_solana_black-01.svg)](/blog/what-
-is-vega-protocol)
-
-[General Education![](https://assets-global.website-
-files.com/5f699f2fdf70e641323aa6be/63a06e486cc40130036462e4_Bildschirmfoto%202022-12-19%20um%2014.59.21.png)August
-26, 2021What Does Censorship Resistance Actually Mean?In this article, you
-will learn the basics of censorship resistance and why it is essential.
-![](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c91220ec0041083aabf7aa_dot_new_icon_black-01.svg)![The
-Cosmos Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd11a2aef672_cosmos_black-01.svg)![The
-Dfinity Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd4d41aef66a_dfinity_black-01.svg)![The
-Ethereum Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1fd8aef66c_ethereum_black-01.svg)![The
-Kusama Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd630daef66f_kusama_black-01.svg)![The
-Chainlink Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1030aef668_chainlink_black-01.svg)![The
-Graph Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1c89aef671_graph_black-01.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd62e7aef679_hydra_b.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c913e4a98ced8d248b4396_apt_icon_black-01.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c914a6f87727f86cd8b39c_strd_icon_black-01.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c9161b37fba998a47bb1e9_wormhole_icon_black-01.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c918fcfccaf90379cf463d_video_tag_identifier-01.svg)![](https://assets-
-global.website-
-files.com/5f699e8d6a7c1154451f214a/63c91994dc0c341360977902_text_icon_identifier-01.svg)![The
-Solana Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd29e9aef670_solana_black-01.svg)](/blog/what-
-does-censorship-resistance-actually-mean)
 
 [General Education![](https://assets-global.website-
 files.com/5f699f2fdf70e641323aa6be/6447fc7e4d6c830763f3b0e1_Bildschirmfoto%202023-04-25%20um%2018.13.35.png)May
@@ -567,10 +431,13 @@ files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd29e9aef670_solana_black-01.svg)
 to-set-up-a-celestia-validator-node-and-participate-in-the-network)
 
 [General Education![](https://assets-global.website-
-files.com/5f699f2fdf70e641323aa6be/63a036ec515851617aeb16a0_Bildschirmfoto%202022-12-19%20um%2011.01.57.png)August
-1, 2022What is Staking Rewards and the Verified Provider Program Learn more
-about one of the go-to staking resources of the Proof-of-Stake industry,
-Staking Rewards.![](https://assets-global.website-
+files.com/5f699f2fdf70e641323aa6be/63c7d24ea21e5cf1c12093a9_Bildschirmfoto%202023-01-18%20um%2012.03.59.png)January
+18, 2023Staking vs. Yield Farming on SolanaMany users have difficulty
+understanding the difference between staking and yield farming. However, these
+two types of decentralized finance (DeFi) investments have numerous
+differences between them, and understanding these variations is vital to
+making good decisions as an investor on the Solana network.![](https://assets-
+global.website-
 files.com/5f699e8d6a7c1154451f214a/63c91220ec0041083aabf7aa_dot_new_icon_black-01.svg)![The
 Cosmos Logo](https://assets-global.website-
 files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd11a2aef672_cosmos_black-01.svg)![The
@@ -597,8 +464,43 @@ files.com/5f699e8d6a7c1154451f214a/63c918fcfccaf90379cf463d_video_tag_identifier
 global.website-
 files.com/5f699e8d6a7c1154451f214a/63c91994dc0c341360977902_text_icon_identifier-01.svg)![The
 Solana Logo](https://assets-global.website-
-files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd29e9aef670_solana_black-01.svg)](/blog/what-
-is-staking-rewards-and-the-verified-provider-program)
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd29e9aef670_solana_black-01.svg)](/blog/staking-
+vs-yield-farming-on-solana)
+
+[Getting Started![](https://assets-global.website-
+files.com/5f699f2fdf70e641323aa6be/614dca22f125778539d79ceb_Custodial%20vs%20Non-
+Custodial%20Wallets.png)August 28, 2021Crypto Explained: Custodial Vs Non-
+custodial WalletsIf you value convenience over freedom and full-control, use a
+custodial wallet because it is oftentimes easier to use![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c91220ec0041083aabf7aa_dot_new_icon_black-01.svg)![The
+Cosmos Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd11a2aef672_cosmos_black-01.svg)![The
+Dfinity Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd4d41aef66a_dfinity_black-01.svg)![The
+Ethereum Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1fd8aef66c_ethereum_black-01.svg)![The
+Kusama Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd630daef66f_kusama_black-01.svg)![The
+Chainlink Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1030aef668_chainlink_black-01.svg)![The
+Graph Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1c89aef671_graph_black-01.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd62e7aef679_hydra_b.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c913e4a98ced8d248b4396_apt_icon_black-01.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c914a6f87727f86cd8b39c_strd_icon_black-01.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c9161b37fba998a47bb1e9_wormhole_icon_black-01.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c918fcfccaf90379cf463d_video_tag_identifier-01.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c91994dc0c341360977902_text_icon_identifier-01.svg)![The
+Solana Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd29e9aef670_solana_black-01.svg)](/blog/crypto-
+explained-custodial-vs-non-custodial-wallets)
 
 [Getting Started![](https://assets-global.website-
 files.com/5f699f2fdf70e641323aa6be/63a06ace6cc4014bca642131_Bildschirmfoto%202022-12-19%20um%2014.44.26.png)October
@@ -634,11 +536,44 @@ Solana Logo](https://assets-global.website-
 files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd29e9aef670_solana_black-01.svg)](/blog/what-
 are-proof-of-stake-and-staking)
 
+[Getting Started![](https://assets-global.website-
+files.com/5f699f2fdf70e641323aa6be/63dbbcb50a7bc0a0b6d99276_video_cover_whyBCmatters_Zeichenfla%CC%88che%201.png)February
+2, 2023Why blockchain technology mattersLearn more about our why - why we do
+the things we do and why we believe in this technology![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c91220ec0041083aabf7aa_dot_new_icon_black-01.svg)![The
+Cosmos Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd11a2aef672_cosmos_black-01.svg)![The
+Dfinity Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd4d41aef66a_dfinity_black-01.svg)![The
+Ethereum Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1fd8aef66c_ethereum_black-01.svg)![The
+Kusama Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd630daef66f_kusama_black-01.svg)![The
+Chainlink Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1030aef668_chainlink_black-01.svg)![The
+Graph Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1c89aef671_graph_black-01.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd62e7aef679_hydra_b.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c913e4a98ced8d248b4396_apt_icon_black-01.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c914a6f87727f86cd8b39c_strd_icon_black-01.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c9161b37fba998a47bb1e9_wormhole_icon_black-01.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c918fcfccaf90379cf463d_video_tag_identifier-01.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c91994dc0c341360977902_text_icon_identifier-01.svg)![The
+Solana Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd29e9aef670_solana_black-01.svg)](/blog/why-
+blockchain-technology-matters)
+
 [General Education![](https://assets-global.website-
-files.com/5f699f2fdf70e641323aa6be/63c7d43722d1423b3f202b21_Bildschirmfoto%202023-01-18%20um%2012.12.37.png)January
-16, 2023What is the Solana Mobile Stack (SMS) and how will it benefit Web3 In
-this article, you will learn what the Solana Mobile Stack (SMS) represents and
-how it will impact Web3 as a whole.![](https://assets-global.website-
+files.com/5f699f2fdf70e641323aa6be/6447ff30f0dd4438a47869de_Bildschirmfoto%202023-04-25%20um%2018.23.41.png)February
+2, 2022What Is Pyth?Letâs take a closer look at Pyth and see what benefits
+it offers.![](https://assets-global.website-
 files.com/5f699e8d6a7c1154451f214a/63c91220ec0041083aabf7aa_dot_new_icon_black-01.svg)![The
 Cosmos Logo](https://assets-global.website-
 files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd11a2aef672_cosmos_black-01.svg)![The
@@ -666,7 +601,74 @@ global.website-
 files.com/5f699e8d6a7c1154451f214a/63c91994dc0c341360977902_text_icon_identifier-01.svg)![The
 Solana Logo](https://assets-global.website-
 files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd29e9aef670_solana_black-01.svg)](/blog/what-
-is-the-solana-mobile-stack-sms-and-how-will-it-benefit-web3)
+is-pyth)
+
+[General Education![](https://assets-global.website-
+files.com/5f699f2fdf70e641323aa6be/6447fda9dd2a7338732be3aa_Bildschirmfoto%202023-04-25%20um%2018.18.12.png)February
+23, 2022What is a swap and how does it work?In this article, you will learn
+what token swaps are, how to swap tokens, and what they mean for
+DeFi.![](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/63c91220ec0041083aabf7aa_dot_new_icon_black-01.svg)![The
+Cosmos Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd11a2aef672_cosmos_black-01.svg)![The
+Dfinity Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd4d41aef66a_dfinity_black-01.svg)![The
+Ethereum Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1fd8aef66c_ethereum_black-01.svg)![The
+Kusama Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd630daef66f_kusama_black-01.svg)![The
+Chainlink Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1030aef668_chainlink_black-01.svg)![The
+Graph Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1c89aef671_graph_black-01.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd62e7aef679_hydra_b.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c913e4a98ced8d248b4396_apt_icon_black-01.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c914a6f87727f86cd8b39c_strd_icon_black-01.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c9161b37fba998a47bb1e9_wormhole_icon_black-01.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c918fcfccaf90379cf463d_video_tag_identifier-01.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c91994dc0c341360977902_text_icon_identifier-01.svg)![The
+Solana Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd29e9aef670_solana_black-01.svg)](/blog/what-
+is-a-swap-and-how-does-it-work)
+
+[Getting Started![](https://assets-global.website-
+files.com/5f699f2fdf70e641323aa6be/63c7ccd1fa41260cb5fc7a61_what_is_web3_cover_Zeichenfla%CC%88che%201.png)January
+4, 2023What is web3?A brief explanation of the internets' evolution from web1
+to web2 and eventually, web3![](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/63c91220ec0041083aabf7aa_dot_new_icon_black-01.svg)![The
+Cosmos Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd11a2aef672_cosmos_black-01.svg)![The
+Dfinity Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd4d41aef66a_dfinity_black-01.svg)![The
+Ethereum Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1fd8aef66c_ethereum_black-01.svg)![The
+Kusama Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd630daef66f_kusama_black-01.svg)![The
+Chainlink Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1030aef668_chainlink_black-01.svg)![The
+Graph Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd1c89aef671_graph_black-01.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd62e7aef679_hydra_b.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c913e4a98ced8d248b4396_apt_icon_black-01.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c914a6f87727f86cd8b39c_strd_icon_black-01.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c9161b37fba998a47bb1e9_wormhole_icon_black-01.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c918fcfccaf90379cf463d_video_tag_identifier-01.svg)![](https://assets-
+global.website-
+files.com/5f699e8d6a7c1154451f214a/63c91994dc0c341360977902_text_icon_identifier-01.svg)![The
+Solana Logo](https://assets-global.website-
+files.com/5f699e8d6a7c1154451f214a/61484c724fc3dd29e9aef670_solana_black-01.svg)](/blog/what-
+is-web3)
 
 [Show All](/around-the-block)
 
