@@ -77,6 +77,10 @@ Search```K`
         * [Backers tokens](/protocols/token.html#backers-tokens)
       * [Release Timeline](/protocols/token.html#release-timeline)
 
+  1. [Nosana](/)
+  2. [Protocols](/protocols/)
+  3. [Nosana Token](/protocols/token.html)
+
 # Nosana Token
 
 About 3 min
@@ -206,7 +210,7 @@ directly released.
 
 Release Chart
 
-Last update:
+Last update: 12/1/2023, 4:23:49 PM
 
 MIT Licensed | Copyright © 2021-present Nosana
 
