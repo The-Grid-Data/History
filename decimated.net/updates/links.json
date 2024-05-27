@@ -1,47 +1,64 @@
-[
-    "https://adn.agency/",
-    "https://decimated.myspreadshop.com/",
-    "https://decimated.net",
-    "https://decimated.net/about",
-    "https://decimated.net/contact",
-    "https://decimated.net/gallery",
-    "https://decimated.net/jobs",
-    "https://decimated.net/privacy",
-    "https://decimated.net/privacy",
-    "https://decimated.net/team",
-    "https://decimated.net/updates",
-    "https://decimated.net/updates",
-    "https://decimated.net/updates",
-    "https://decimated.net/updates",
-    "https://decimated.net/updates",
-    "https://decimated.net/updates",
-    "https://decimated.net/updates/community-code-of-conduct",
-    "https://decimated.net/updates/decimated-ceo-interview-by-paul-barron",
-    "https://decimated.net/updates/decimated-development-news-10",
-    "https://decimated.net/updates/decimated-development-news-11",
-    "https://decimated.net/updates/decimated-development-news-11-5948358",
-    "https://decimated.net/updates/decimated-development-news-13",
-    "https://decimated.net/updates/decimated-development-news-14",
-    "https://decimated.net/updates/decimated-development-news-15",
-    "https://decimated.net/updates/decimated-development-news-15-6460537",
-    "https://decimated.net/updates/decimated-interview-by-fungible-games",
-    "https://decimated.net/updates/development-and-integration-of-advanced-payment-and-trading-systems-for-decimated",
-    "https://decimated.net/updates/where-to-buy-dio",
-    "https://decimated.zendesk.com/hc/en-us",
-    "https://discord.com/invite/decimated",
-    "https://raydium.io/swap/?inputCurrency=Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB&outputCurrency=BiDB55p4G3n1fGhwKFpxsokBMqgctL4qnZpDH1bVQxMD&fixed=in",
-    "https://staking.decimated.net/",
-    "https://store.steampowered.com/app/1354980/Decimated/",
-    "https://t.me/decimatedofficial",
-    "https://twitter.com/decimated_game",
-    "https://www.facebook.com/DecimatedOfficial/",
-    "https://www.google.com/intl/en/policies/privacy/",
-    "https://www.google.com/intl/en/policies/privacy/",
-    "https://www.google.com/intl/en/policies/terms/",
-    "https://www.google.com/intl/en/policies/terms/",
-    "https://www.instagram.com/decimated_game",
-    "https://www.reddit.com/r/decimated_game/",
-    "https://www.twitch.tv/decimatedofficial",
-    "https://www.youtube.com/c/DecimatedVideogame",
-    "mailto:support@decimated.zendesk.com"
-]
+{
+    "target_url": "https://decimated.net/updates",
+    "domains": {
+        "": [
+            "mailto:support@decimated.zendesk.com"
+        ],
+        "adn.agency": [
+            "https://adn.agency/"
+        ],
+        "decimated.myspreadshop.com": [
+            "https://decimated.myspreadshop.com/"
+        ],
+        "decimated.net": [
+            "https://decimated.net",
+            "https://decimated.net/about",
+            "https://decimated.net/contact",
+            "https://decimated.net/gallery",
+            "https://decimated.net/jobs",
+            "https://decimated.net/privacy",
+            "https://decimated.net/team",
+            "https://decimated.net/updates"
+        ],
+        "decimated.zendesk.com": [
+            "https://decimated.zendesk.com/hc/en-us"
+        ],
+        "discord.com": [
+            "https://discord.com/invite/decimated"
+        ],
+        "raydium.io": [
+            "https://raydium.io/swap/?inputCurrency=Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB&outputCurrency=BiDB55p4G3n1fGhwKFpxsokBMqgctL4qnZpDH1bVQxMD&fixed=in"
+        ],
+        "staking.decimated.net": [
+            "https://staking.decimated.net/"
+        ],
+        "store.steampowered.com": [
+            "https://store.steampowered.com/app/1354980/Decimated/"
+        ],
+        "t.me": [
+            "https://t.me/decimatedofficial"
+        ],
+        "twitter.com": [
+            "https://twitter.com/decimated_game"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/DecimatedOfficial/"
+        ],
+        "www.google.com": [
+            "https://www.google.com/intl/en/policies/privacy/",
+            "https://www.google.com/intl/en/policies/terms/"
+        ],
+        "www.instagram.com": [
+            "https://www.instagram.com/decimated_game"
+        ],
+        "www.reddit.com": [
+            "https://www.reddit.com/r/decimated_game/"
+        ],
+        "www.twitch.tv": [
+            "https://www.twitch.tv/decimatedofficial"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/c/DecimatedVideogame"
+        ]
+    }
+}
