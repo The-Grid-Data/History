@@ -61,7 +61,7 @@ Options](https://www.binance.com/en/download?utm_source=&utm_campaign=)
 
 #
 
-194,692,846
+194,788,051
 
 USERS
 
@@ -84,23 +84,23 @@ Popular
 
 New Listing
 
-[BTCBitcoin$69,013.61-0.16%](/en/price/bitcoin)[ETHEthereum$3,939.91+3.48%](/en/price/ethereum)[BNBBNB$604.50+0.57%](/en/price/bnb)[XRPRipple$0.5353+0.39%](/en/price/xrp)
+[BTCBitcoin$69,652.81+1.36%](/en/price/bitcoin)[ETHEthereum$3,891.82+0.74%](/en/price/ethereum)[BNBBNB$604.90+0.82%](/en/price/bnb)[XRPRipple$0.5351+0.98%](/en/price/xrp)
 
 [View All 350+ Coins](/en/register?registerChannel=homepage)
 
-[NOTNotcoin$0.006895+36.67%](/en/trade/NOT_USDT)[BBBounceBit$0.6665+6.23%](/en/trade/BB_USDT)[REZRenzo$0.1548+8.40%](/en/trade/REZ_USDT)[OMNIOmni
-Network$19.67+11.26%](/en/trade/OMNI_USDT)
+[NOTNotcoin$0.0083+58.04%](/en/trade/NOT_USDT)[BBBounceBit$0.6771-4.27%](/en/trade/BB_USDT)[REZRenzo$0.1572-2.00%](/en/trade/REZ_USDT)[OMNIOmni
+Network$19.92+4.79%](/en/trade/OMNI_USDT)
 
 [View More Coins](/markets/newListing)
 
-[PancakeSwap Announces Destruction of Over 8 Million CAKE
-Tokens](https://www.binance.com/en/square/post/8667163150634)[Ethereum Staking
-Infrastructure SSV.Network Announces Expansion
-Plan](https://www.binance.com/en/square/post/8666969859881)[JPMorgan Executive
-Expresses Doubts Over Approval of Altcoin
-ETFs](https://www.binance.com/en/square/post/8666913808450)[Morgan Stanley
-Predicts No Further Approval of Cryptocurrency ETFs by
-SEC](https://www.binance.com/en/square/post/8666840796625)
+[Normie Token Value Plummets Following Smart Contract
+Exploit](https://www.binance.com/en/square/post/8678748044753)[Ethereum(ETH)
+Drops Below 3,900 USDT with a Narrowed 0.70% Increase in 24
+Hours](https://www.binance.com/en/square/post/8677420190505)[Uniswap
+Foundation Reveals Financials Ahead of Community
+Vote](https://www.binance.com/en/square/post/8673602313969)[Solana (SOL)
+Breaks Through170.00 USDT with an Increase of 5.57% in 24
+Hours](https://www.binance.com/en/square/post/8672227414369)
 
 [View All News](/en/register?registerChannel=homepage_square)
 
@@ -209,102 +209,6 @@ Start earning today
 
 [](https://discord.gg/jE4wt8g2H2)[](https://www.binance.com/en/community)[](https://www.tiktok.com/@binance?lang=en)[](https://www.facebook.com/binance)[](https://twitter.com/binance)[](https://www.reddit.com/r/binance)[](https://www.instagram.com/Binance/)[](https://coinmarketcap.com/exchanges/binance/)[](https://www.youtube.com/binanceyoutube)[](https://www.binance.com/en/community)
 
-English
-
-English
-
-العربية
-
-العربية (البحرين)
-
-български
-
-Čeština
-
-Dansk
-
-Deutsch (Schweiz)
-
-Ελληνικά
-
-English (UAE)
-
-English (Australia)
-
-English (Bahrain)
-
-English (India)
-
-English (Japan)
-
-English (Kazakhstan)
-
-English (Nigeria)
-
-English (New Zealand)
-
-English (South Africa)
-
-Español (España)
-
-Español (Argentina)
-
-Español (Latinoamérica)
-
-Español (México)
-
-Français
-
-Français (Afrique)
-
-magyar nyelv
-
-Bahasa Indonesia
-
-Italiano
-
-日本語
-
-Қазақша (Қазақстан)
-
-Қазақша
-
-ລາວ
-
-latviešu valoda
-
-Polski
-
-Português
-
-Português (Brasil)
-
-Română
-
-Русский
-
-Русский (Казахстан)
-
-Русский (Украина)
-
-සිංහල
-
-Slovenčina
-
-Slovenščina
-
-Svenska
-
-Türkçe
-
-Українська
-
-Tiếng Việt
-
-简体中文
-
-繁體中文
-
 USD-$
 
 USD-$
@@ -407,8 +311,6 @@ ZAR-R
 
 Theme
 
-English
-
 USD
 
 Theme
@@ -497,4 +399,102 @@ Theme
   * [Law Enforcement Requests](https://www.binance.com/en/support/law-enforcement)
 
 Binance© 2024Cookie Preferences
+
+![Company Logo](https://cdn.cookielaw.org/logos/99f99939-5a0d-4feb-
+aef3-ba45f16b6907/5bfb9945-c83c-46f9-8bd7-55e8fd1975b5/02e50907-93f6-477d-a8a2-d581dace49c2/binance-h.png)
+
+## Privacy Preference Center
+
+When you visit any website, it may store or retrieve information on your
+browser, mostly in the form of cookies. This information might be about you,
+your preferences or your device and is mostly used to make the site work as
+you expect it to. The information does not usually directly identify you, but
+it can give you a more personalized web experience. Because we respect your
+right to privacy, you can choose not to allow some types of cookies. Click on
+the different category headings to find out more and change our default
+settings. However, blocking some types of cookies may impact your experience
+of the site and the services we are able to offer.  
+[Cookie Policy](https://www.binance.com/en/cookie-privacy)
+
+Allow All
+
+###  Manage Consent Preferences
+
+#### Strictly Necessary Cookies
+
+Always Active
+
+These cookies are necessary for the website to function and cannot be switched
+off in our systems. They are usually only set in response to actions made by
+you which amount to a request for services, such as setting your privacy
+preferences, logging in or filling in forms. You can set your browser to block
+or alert you about these cookies, but some parts of the site will not then
+work. These cookies do not store any personally identifiable information.
+
+Cookies Details‎
+
+#### Functional Cookies
+
+Functional Cookies
+
+These cookies enable the website to provide enhanced functionality and
+personalisation. They may be set by us or by third party providers whose
+services we have added to our pages. If you do not allow these cookies then
+some or all of these services may not function properly.
+
+Cookies Details‎
+
+#### Targeting Cookies
+
+Targeting Cookies
+
+Targeting cookies may be set through our site by ourselves and our advertising
+partners. First parties and third parties will use them to build a profile of
+your interests based on the browsing information they collect from you, which
+includes uniquely identifying your browser and terminal equipment. If you do
+not allow these cookies you will still see basic advertising on your browser
+that is generic and not based on your interests
+
+Cookies Details‎
+
+#### Performance Cookies
+
+Performance Cookies
+
+These cookies allow us to count visits and traffic sources so we can measure
+and improve the performance of our site. They help us to know which pages are
+the most and least popular and see how visitors move around the site. All
+information these cookies collect is aggregated and therefore anonymous. If
+you do not allow these cookies we will not know when you have visited our
+site, and will not be able to monitor its performance.
+
+Cookies Details‎
+
+Back Button
+
+### Cookie List
+
+Search Icon
+
+Filter Icon
+
+Clear
+
+checkbox label label
+
+Apply Cancel
+
+Consent Leg.Interest
+
+checkbox label label
+
+checkbox label label
+
+checkbox label label
+
+Reject All Confirm My Choices
+
+[![Powered by
+Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/products/cookie-
+consent/)
 
