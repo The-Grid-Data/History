@@ -1,14 +1,26 @@
-[
-    "https://apps.apple.com/us/app/code-wallet/id1562384846",
-    "https://code-payments.github.io/code-sdk/docs/guide/introduction.html",
-    "https://getcode.com/",
-    "https://getcode.com/#developer",
-    "https://getcode.com/#download-1",
-    "https://getcode.com/#download-1",
-    "https://getcode.com/blog/seed-round",
-    "https://getcode.com/privacy",
-    "https://getcode.com/security",
-    "https://getcode.com/terms",
-    "https://github.com/code-payments/code-sdk/tree/main/examples",
-    "https://play.google.com/store/apps/details?id=com.getcode"
-]
+{
+    "target_url": "https://getcode.com",
+    "domains": {
+        "apps.apple.com": [
+            "https://apps.apple.com/us/app/code-wallet/id1562384846"
+        ],
+        "code-payments.github.io": [
+            "https://code-payments.github.io/code-sdk/docs/guide/introduction.html"
+        ],
+        "getcode.com": [
+            "https://getcode.com/",
+            "https://getcode.com/#developer",
+            "https://getcode.com/#download-1",
+            "https://getcode.com/blog/seed-round",
+            "https://getcode.com/privacy",
+            "https://getcode.com/security",
+            "https://getcode.com/terms"
+        ],
+        "github.com": [
+            "https://github.com/code-payments/code-sdk/tree/main/examples"
+        ],
+        "play.google.com": [
+            "https://play.google.com/store/apps/details?id=com.getcode"
+        ]
+    }
+}
