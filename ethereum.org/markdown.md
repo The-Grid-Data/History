@@ -152,7 +152,7 @@ Total ETH staked
 
 The total amount of ETH currently being staked and securing the network.
 
-32.19M
+32.23M
 
 30d90d
 
@@ -161,7 +161,7 @@ Transactions today
 The number of transactions successfully processed on the network in the last
 24 hours.
 
-1.157M
+1.139M
 
 30d90d
 
@@ -170,7 +170,7 @@ Value locked in DeFi (USD)
 The amount of money in decentralized finance (DeFi) applications, the Ethereum
 digital economy.
 
-$148.6B
+$152B
 
 30d90d
 
@@ -178,7 +178,7 @@ Nodes
 
 Ethereum is run by thousands of volunteers around the globe, known as nodes.
 
-5,336
+5,277
 
 30d90d
 
