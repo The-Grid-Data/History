@@ -1,73 +1,71 @@
-[
-    "https://app.debridge.finance/deswap",
-    "https://app.debridge.finance/deswap",
-    "https://discord.gg/neonevm",
-    "https://docs.google.com/forms/d/15iL4l-Rj3GUdtE1tlQTto2sqgMS5Gpn92u0GUveWWVg/viewform?edit_requested=true",
-    "https://docs.neonevm.org/",
-    "https://docs.neonevm.org/docs/about/why_neon#public-and-audited",
-    "https://docs.neonevm.org/docs/about/why_neon#public-and-audited",
-    "https://docs.neonevm.org/docs/governance/overview",
-    "https://docs.neonevm.org/docs/operating/operator-introduction",
-    "https://docs.neonevm.org/docs/quick_start",
-    "https://docs.neonevm.org/docs/quick_start",
-    "https://docs.neonevm.org/docs/quick_start",
-    "https://github.com/neonevm/neon-evm",
-    "https://github.com/neonevm/neon-evm",
-    "https://github.com/neonevm/neon-evm",
-    "https://github.com/neonevm/neon-evm",
-    "https://medium.com/@neon_evm",
-    "https://medium.com/neon-labs/neon-synthetic-load-test-report-d53212711556",
-    "https://neon.blockscout.com/",
-    "https://neon.blockscout.com/",
-    "https://neon.blockscout.com/",
-    "https://neon.blockscout.com/",
-    "https://neonevm.org/",
-    "https://neonevm.org/",
-    "https://neonevm.org/",
-    "https://neonevm.org/blog",
-    "https://neonevm.org/blog",
-    "https://neonevm.org/blog",
-    "https://neonevm.org/careers",
-    "https://neonevm.org/community",
-    "https://neonevm.org/community",
-    "https://neonevm.org/cookie-policy",
-    "https://neonevm.org/developers",
-    "https://neonevm.org/developers",
-    "https://neonevm.org/developers",
-    "https://neonevm.org/developers",
-    "https://neonevm.org/disclaimer",
-    "https://neonevm.org/ecosystem",
-    "https://neonevm.org/ecosystem",
-    "https://neonevm.org/ecosystem",
-    "https://neonevm.org/ecosystem",
-    "https://neonevm.org/ecosystem",
-    "https://neonevm.org/ecosystem",
-    "https://neonevm.org/ecosystem",
-    "https://neonevm.org/events",
-    "https://neonevm.org/events",
-    "https://neonevm.org/events",
-    "https://neonevm.org/faq",
-    "https://neonevm.org/faq",
-    "https://neonevm.org/faq",
-    "https://neonevm.org/privacy-policy",
-    "https://neonevm.org/terms",
-    "https://neonevm.org/whitepaper.pdf",
-    "https://neonevm.org/whitepaper.pdf",
-    "https://neonevm.org/whitepaper.pdf",
-    "https://neonfaucet.org/",
-    "https://neonfaucet.org/",
-    "https://neonfaucet.org/",
-    "https://neonpass.live/",
-    "https://neonpass.live/",
-    "https://neonpass.live/",
-    "https://neonscan.org",
-    "https://neonscan.org/",
-    "https://neonscan.org/",
-    "https://safe.neonevm.org/welcome",
-    "https://safe.neonevm.org/welcome",
-    "https://safe.neonevm.org/welcome",
-    "https://solana.com/docs/core/accounts#rent-exemptionr-link",
-    "https://t.me/NeonEvmCommunity",
-    "https://twitter.com/Neon_EVM",
-    "https://www.linkedin.com/company/neonevm/"
-]
+{
+    "target_url": "https://neonevm.org/",
+    "domains": {
+        "app.debridge.finance": [
+            "https://app.debridge.finance/deswap"
+        ],
+        "discord.gg": [
+            "https://discord.gg/neonevm"
+        ],
+        "docs.google.com": [
+            "https://docs.google.com/forms/d/15iL4l-Rj3GUdtE1tlQTto2sqgMS5Gpn92u0GUveWWVg/viewform?edit_requested=true"
+        ],
+        "docs.neonevm.org": [
+            "https://docs.neonevm.org/",
+            "https://docs.neonevm.org/docs/about/why_neon#public-and-audited",
+            "https://docs.neonevm.org/docs/governance/overview",
+            "https://docs.neonevm.org/docs/operating/operator-introduction",
+            "https://docs.neonevm.org/docs/quick_start"
+        ],
+        "github.com": [
+            "https://github.com/neonevm/neon-evm"
+        ],
+        "medium.com": [
+            "https://medium.com/@neon_evm",
+            "https://medium.com/neon-labs/neon-synthetic-load-test-report-d53212711556"
+        ],
+        "neon.blockscout.com": [
+            "https://neon.blockscout.com/"
+        ],
+        "neonevm.org": [
+            "https://neonevm.org/",
+            "https://neonevm.org/blog",
+            "https://neonevm.org/careers",
+            "https://neonevm.org/community",
+            "https://neonevm.org/cookie-policy",
+            "https://neonevm.org/developers",
+            "https://neonevm.org/disclaimer",
+            "https://neonevm.org/ecosystem",
+            "https://neonevm.org/events",
+            "https://neonevm.org/faq",
+            "https://neonevm.org/privacy-policy",
+            "https://neonevm.org/terms",
+            "https://neonevm.org/whitepaper.pdf"
+        ],
+        "neonfaucet.org": [
+            "https://neonfaucet.org/"
+        ],
+        "neonpass.live": [
+            "https://neonpass.live/"
+        ],
+        "neonscan.org": [
+            "https://neonscan.org",
+            "https://neonscan.org/"
+        ],
+        "safe.neonevm.org": [
+            "https://safe.neonevm.org/welcome"
+        ],
+        "solana.com": [
+            "https://solana.com/docs/core/accounts#rent-exemptionr-link"
+        ],
+        "t.me": [
+            "https://t.me/NeonEvmCommunity"
+        ],
+        "twitter.com": [
+            "https://twitter.com/Neon_EVM"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/neonevm/"
+        ]
+    }
+}

@@ -370,8 +370,11 @@ tuned.
 
 [](/)
 
-[](https://twitter.com/Neon_EVM)[](https://github.com/neonevm/neon-
-evm)[](https://discord.gg/neonevm)[](https://medium.com/@neon_evm)[](https://t.me/NeonEvmCommunity)[](https://www.linkedin.com/company/neonevm/)
+[](https://twitter.com/Neon_EVM "twitter")[](https://github.com/neonevm/neon-
+evm "github")[](https://discord.gg/neonevm
+"discord")[](https://medium.com/@neon_evm
+"medium")[](https://t.me/NeonEvmCommunity
+"telegram")[](https://www.linkedin.com/company/neonevm/ "linkedin")
 
 ### Stay connected
 
