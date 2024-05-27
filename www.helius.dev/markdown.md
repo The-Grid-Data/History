@@ -565,7 +565,7 @@ Websockets](https://assets-global.website-
 files.com/641ba798c17bb180d832b666/664e31702640ffefe5b285cc_MonitorTX-
 Banner.jpg)
 
-Solana Dev
+Blog
 
 How to Monitor Solana Transactions Using Geyser Enhanced Websockets
 
