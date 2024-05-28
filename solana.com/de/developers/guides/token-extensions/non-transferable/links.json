@@ -1,0 +1,61 @@
+{
+    "target_url": "https://solana.com/de/developers/guides/token-extensions/non-transferable",
+    "domains": {
+        "beta.solpg.io": [
+            "https://beta.solpg.io/656e19acfb53fa325bfd0c46",
+            "https://beta.solpg.io/6570c54bfb53fa325bfd0c4d"
+        ],
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "faucet.solana.com": [
+            "https://faucet.solana.com/"
+        ],
+        "github.com": [
+            "https://github.com/solana-foundation/developer-content/tree/main/content/guides/token-extensions/non-transferable.md"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "solana.com": [
+            "https://solana.com/de",
+            "https://solana.com/de/branding",
+            "https://solana.com/de/developers",
+            "https://solana.com/de/developers/cookbook",
+            "https://solana.com/de/developers/guides",
+            "https://solana.com/de/developers/guides/token-extensions/mint-close-authority",
+            "https://solana.com/de/developers/guides/token-extensions/non-transferable",
+            "https://solana.com/de/developers/guides/token-extensions/non-transferable#add-dependencies",
+            "https://solana.com/de/developers/guides/token-extensions/non-transferable#attempt-token-transfer",
+            "https://solana.com/de/developers/guides/token-extensions/non-transferable#build-instructions",
+            "https://solana.com/de/developers/guides/token-extensions/non-transferable#burn-tokens-and-close-token-account",
+            "https://solana.com/de/developers/guides/token-extensions/non-transferable#conclusion",
+            "https://solana.com/de/developers/guides/token-extensions/non-transferable#create-token-accounts",
+            "https://solana.com/de/developers/guides/token-extensions/non-transferable#getting-started",
+            "https://solana.com/de/developers/guides/token-extensions/non-transferable#mint-setup",
+            "https://solana.com/de/developers/guides/token-extensions/non-transferable#send-transaction",
+            "https://solana.com/de/developers/guides/token-extensions/permanent-delegate",
+            "https://solana.com/de/developers/guides?difficulty=beginner",
+            "https://solana.com/de/developers/guides?tags=token%202022",
+            "https://solana.com/de/developers/guides?tags=token%20extensions",
+            "https://solana.com/de/docs",
+            "https://solana.com/de/docs/rpc",
+            "https://solana.com/de/docs/terminology",
+            "https://solana.com/de/ecosystem",
+            "https://solana.com/de/news",
+            "https://solana.com/de/newsletter",
+            "https://solana.com/de/privacy-policy",
+            "https://solana.com/de/privacy-policy#collection-of-information",
+            "https://solana.com/de/tos",
+            "https://solana.com/discord",
+            "https://solana.com/github",
+            "https://solana.com/reddit",
+            "https://solana.com/telegram",
+            "https://solana.com/twitter",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ]
+    }
+}
