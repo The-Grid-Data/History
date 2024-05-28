@@ -1,0 +1,103 @@
+{
+    "target_url": "https://www.binance.com/en/leveraged-tokens/tokens/allTokens",
+    "domains": {
+        "academy.binance.com": [
+            "https://academy.binance.com/en/learn-and-earn"
+        ],
+        "accounts.binance.com": [
+            "https://accounts.binance.com/en/login?loginChannel=&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vbGV2ZXJhZ2VkLXRva2Vucy90b2tlbnMvYWxsVG9rZW5z",
+            "https://accounts.binance.com/en/register?registerChannel=&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vbGV2ZXJhZ2VkLXRva2Vucy90b2tlbnMvYWxsVG9rZW5z"
+        ],
+        "launchpad.binance.com": [
+            "https://launchpad.binance.com/en"
+        ],
+        "p2p.binance.com": [
+            "https://p2p.binance.com/en"
+        ],
+        "pool.binance.com": [
+            "https://pool.binance.com/en"
+        ],
+        "www.binance.charity": [
+            "https://www.binance.charity"
+        ],
+        "www.binance.com": [
+            "https://www.binance.com/en",
+            "https://www.binance.com/en/binance-api",
+            "https://www.binance.com/en/blog",
+            "https://www.binance.com/en/convert",
+            "https://www.binance.com/en/cookie-privacy",
+            "https://www.binance.com/en/copy-trading",
+            "https://www.binance.com/en/crypto/buy",
+            "https://www.binance.com/en/delivery",
+            "https://www.binance.com/en/download?utm_source=&utm_campaign=",
+            "https://www.binance.com/en/earn",
+            "https://www.binance.com/en/eoptions",
+            "https://www.binance.com/en/fan-token",
+            "https://www.binance.com/en/futures",
+            "https://www.binance.com/en/futures/home",
+            "https://www.binance.com/en/leveraged-tokens/agreement",
+            "https://www.binance.com/en/leveraged-tokens/history/redemption",
+            "https://www.binance.com/en/leveraged-tokens/history/subscription",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/1INCHDOWN",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/1INCHUP",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/AAVEDOWN",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/AAVEUP",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/ADADOWN",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/ADAUP",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/BCHDOWN",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/BCHUP",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/BNBDOWN",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/BNBUP",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/BTCDOWN",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/BTCUP",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/DOTDOWN",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/DOTUP",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/EOSDOWN",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/EOSUP",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/ETHDOWN",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/ETHUP",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/FILDOWN",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/FILUP",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/LINKDOWN",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/LINKUP",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/LTCDOWN",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/LTCUP",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/SUSHIDOWN",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/SUSHIUP",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/SXPDOWN",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/SXPUP",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/TRXDOWN",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/TRXUP",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/UNIDOWN",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/UNIUP",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/XLMDOWN",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/XLMUP",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/XRPDOWN",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/XRPUP",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/XTZDOWN",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/XTZUP",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/YFIDOWN",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens/YFIUP",
+            "https://www.binance.com/en/loan",
+            "https://www.binance.com/en/markets/overview",
+            "https://www.binance.com/en/megadrop",
+            "https://www.binance.com/en/my/wallet/account/payment",
+            "https://www.binance.com/en/nft/home",
+            "https://www.binance.com/en/research",
+            "https://www.binance.com/en/square",
+            "https://www.binance.com/en/support/faq/73c39e149c90425dbbab242cbb443685",
+            "https://www.binance.com/en/trade/BTC_USDT?type=spot",
+            "https://www.binance.com/en/trade?type=cross",
+            "https://www.binance.com/en/trading-bots",
+            "https://www.binance.com/en/vip-institutional-services",
+            "https://www.binance.com/en/web3wallet"
+        ],
+        "www.bnbchain.org": [
+            "https://www.bnbchain.org"
+        ],
+        "www.onetrust.com": [
+            "https://www.onetrust.com/products/cookie-consent/"
+        ]
+    }
+}
