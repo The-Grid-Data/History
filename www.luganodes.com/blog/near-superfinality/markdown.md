@@ -1,0 +1,428 @@
+Build the future of Web3 with us. Check out our open positions today!
+
+[![Luganodes
+Logo](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQ0IiBoZWlnaHQ9IjQzIiB2aWV3Qm94PSIwIDAgMjQ0IDQzIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMjAuNTA0OSAzMi4zMTI1SDIwLjc2NDlMMjAuNzc1NiAzMi4wNDg3TDIxLjc2MjQgNy43NzI1MkwzNC4xNjIxIDIxLjAxMTZMMjYuNjA5IDMxLjg3ODdMMjYuMzA3NSAzMi4zMTI1SDI2LjgzMDRINDIuMDkyOUg0Mi4zNjQ4TDQyLjM2MzggMzIuMDM2M0w0Mi4zMTY3IDE5LjQ3NTdMNTEuNjQ4OCAzMi4yMDE3TDUxLjczIDMyLjMxMjVINTEuODY2SDU1LjcxMDVINTYuMjVMNTUuOTI3NyAzMS44NzNMNDEuMTAwNSAxMS42NTIxTDQwLjg3NzMgMTEuMzQ3OUw0MC42NjIgMTEuNjU3OEwzNi4yOTEyIDE3Ljk0N0wyMC40ODE2IDEuMDY0NDJMMjAuMjQ1NyAwLjgxMjVMMjAuMDU4NiAxLjEwMzY0TDAuMjczNTQxIDMxLjg4NjlMMCAzMi4zMTI1SDAuNTAwMzM2SDIwLjUwNDlaIiBmaWxsPSIjQkUxRTJFIi8+CjxwYXRoIGQ9Ik02OS45Njc2IDMyLjI1VjcuNDgzMTJINzQuOTkwM1YyOC4wNTg3SDg2LjYyOVYzMi4yNUg2OS45Njc2Wk0xMDQuNTI3IDMyLjI1SDk5Ljk4OTZWMzAuMTcxN0g5OS44ODU3Qzk5LjIzOTEgMzEuMDQ5MiA5OC41MjMzIDMxLjY5NTggOTcuNzM4MSAzMi4xMTE0Qzk2Ljk3NiAzMi41MjcxIDk1Ljk5NDYgMzIuNzM0OSA5NC43OTM4IDMyLjczNDlDOTIuODU0IDMyLjczNDkgOTEuMzQxNCAzMi4xNTc2IDkwLjI1NjEgMzEuMDAzQzg5LjE3MDcgMjkuODQ4NCA4OC42MjggMjguMjg5NiA4OC42MjggMjYuMzI2N1YxNC40ODAySDkzLjMwNDNWMjUuNTNDOTMuMzA0MyAyNy42Nzc3IDk0LjI4NTcgMjguNzUxNSA5Ni4yNDg2IDI4Ljc1MTVDOTcuMzM0IDI4Ljc1MTUgOTguMiAyOC4zODIgOTguODQ2NSAyNy42NDNDOTkuNDkzMSAyNi45MDQgOTkuODE2NCAyNS45MzQyIDk5LjgxNjQgMjQuNzMzM1YxNC40ODAySDEwNC41MjdWMzIuMjVaTTExNS40MDMgMzguMzExOEMxMTMuMDAxIDM4LjMxMTggMTExLjA3MyAzNy44MjY5IDEwOS42MTggMzYuODU3QzEwOC4xODYgMzUuODg3MSAxMDcuMzQ0IDM0LjUyNDYgMTA3LjA5IDMyLjc2OTZIMTExLjc2NkMxMTIuMjI4IDM0LjA4NTkgMTEzLjQxNyAzNC43NDQgMTE1LjMzNCAzNC43NDRDMTE3Ljk2NiAzNC43NDQgMTE5LjI4MiAzMy41MDg2IDExOS4yODIgMzEuMDM3NlYyOS4wOTc5SDExOS4xNzlDMTE3Ljk1NSAzMC40ODM0IDExNi40MDcgMzEuMTc2MiAxMTQuNTM3IDMxLjE3NjJDMTEyLjQzNSAzMS4xNzYyIDExMC42IDMwLjQwMjYgMTA5LjAyOSAyOC44NTU0QzEwNy40ODIgMjcuMzA4MiAxMDYuNzA5IDI1LjI1MjkgMTA2LjcwOSAyMi42ODk2QzEwNi43MDkgMjAuMDU3MSAxMDcuNDI0IDE3Ljk1NTYgMTA4Ljg1NiAxNi4zODUzQzExMC4yODggMTQuNzkxOSAxMTIuMTM1IDEzLjk5NTMgMTE0LjM5OCAxMy45OTUzQzExNi41NDYgMTMuOTk1MyAxMTguMTg2IDE0Ljc4MDQgMTE5LjMxNyAxNi4zNTA3SDExOS4zODZWMTQuNDgwMkgxMjMuOTI0VjMwLjg5OTFDMTIzLjkyNCAzMy4yMDgzIDEyMy4yMiAzNS4wMDk2IDEyMS44MTEgMzYuMzAyOEMxMjAuMzc5IDM3LjY0MjEgMTE4LjI0MyAzOC4zMTE4IDExNS40MDMgMzguMzExOFpNMTE1LjMzNCAyNy40MDA1QzExNi43NDIgMjcuNDAwNSAxMTcuNzkzIDI2Ljk1MDIgMTE4LjQ4NiAyNi4wNDk2QzExOS4xNzkgMjUuMTQ5IDExOS41MjUgMjMuOTk0NCAxMTkuNTI1IDIyLjU4NTdDMTE5LjUyNSAyMS4yMDAyIDExOS4xNTUgMjAuMDU3MSAxMTguNDE2IDE5LjE1NjVDMTE3LjcwMSAxOC4yMzI4IDExNi42NjEgMTcuNzcwOSAxMTUuMjk5IDE3Ljc3MDlDMTE0LjA5OCAxNy43NzA5IDExMy4xMjggMTguMjA5NyAxMTIuMzg5IDE5LjA4NzJDMTExLjY3MyAxOS45NjQ3IDExMS4zMTYgMjEuMTQyNCAxMTEuMzE2IDIyLjYyMDRDMTExLjMxNiAyNC4xMjE0IDExMS42NzMgMjUuMjk5MSAxMTIuMzg5IDI2LjE1MzVDMTEzLjEyOCAyNi45ODQ5IDExNC4xMSAyNy40MDA1IDExNS4zMzQgMjcuNDAwNVpNMTM4LjE0NiAzMi4yNUMxMzcuOTE1IDMxLjk0OTggMTM3LjczIDMxLjI5MTcgMTM3LjU5MiAzMC4yNzU2SDEzNy41MjJDMTM3LjAxNCAzMS4wMzc2IDEzNi4zNjggMzEuNjI2NSAxMzUuNTgzIDMyLjA0MjJDMTM0Ljc5NyAzMi40NTc4IDEzMy43IDMyLjY2NTcgMTMyLjI5MiAzMi42NjU3QzEzMC40MjEgMzIuNjY1NyAxMjguOTIgMzIuMTkyMyAxMjcuNzg5IDMxLjI0NTVDMTI2LjY1NyAzMC4yOTg3IDEyNi4wOTEgMjguOTU5MyAxMjYuMDkxIDI3LjIyNzNDMTI2LjA5MSAyNS40MjYxIDEyNi43MTUgMjQuMTA5OCAxMjcuOTYyIDIzLjI3ODVDMTI5LjIwOSAyMi40MjQxIDEzMC45NjQgMjEuODM1MiAxMzMuMjI3IDIxLjUxMTlDMTM0Ljg5IDIxLjI4MSAxMzYuMDIxIDIxLjA1MDEgMTM2LjYyMiAyMC44MTkxQzEzNy4yMjIgMjAuNTY1MSAxMzcuNTIyIDIwLjEyNjQgMTM3LjUyMiAxOS41MDI5QzEzNy41MjIgMTguODU2MyAxMzcuMjY4IDE4LjM0ODIgMTM2Ljc2IDE3Ljk3ODdDMTM2LjI1MiAxNy41ODYyIDEzNS41MTMgMTcuMzg5OSAxMzQuNTQzIDE3LjM4OTlDMTMyLjM5NiAxNy4zODk5IDEzMS4yNTMgMTguMjIxMiAxMzEuMTE0IDE5Ljg4MzlIMTI2LjkyM0MxMjYuOTkyIDE4LjE5ODEgMTI3LjY3MyAxNi44MDEgMTI4Ljk2NyAxNS42OTI2QzEzMC4yNiAxNC41ODQxIDEzMi4xMyAxNC4wMjk5IDEzNC41NzggMTQuMDI5OUMxMzkuNTY2IDE0LjAyOTkgMTQyLjA2IDE2LjIxMjEgMTQyLjA2IDIwLjU3NjdWMjkuNjE3NEMxNDIuMDYgMzAuOTU2OCAxNDIuMjY4IDMxLjc3NjYgMTQyLjY4NCAzMi4wNzY4VjMyLjI1SDEzOC4xNDZaTTEzMy40MzUgMjkuMzc1QzEzNC43MjggMjkuMzc1IDEzNS43NDQgMjkuMDQwMSAxMzYuNDgzIDI4LjM3MDRDMTM3LjI0NSAyNy43MDA3IDEzNy42MjYgMjYuOTA0IDEzNy42MjYgMjUuOTgwM1YyMy4zMTMxQzEzNy4xMTggMjMuNjEzMyAxMzYuMDIxIDIzLjk1OTcgMTM0LjMzNiAyNC4zNTIzQzEzMi45OTYgMjQuNjUyNSAxMzIuMDQ5IDI0Ljk5ODkgMTMxLjQ5NSAyNS4zOTE1QzEzMC45NDEgMjUuNzYxIDEzMC42NjQgMjYuMzM4MyAxMzAuNjY0IDI3LjEyMzRDMTMwLjY2NCAyOC42MjQ1IDEzMS41ODggMjkuMzc1IDEzMy40MzUgMjkuMzc1Wk0xNDkuNjYyIDE0LjQ4MDJWMTYuOTA0OUgxNDkuNzY2QzE1MC45OSAxNC45NjUxIDE1Mi43NDUgMTMuOTk1MyAxNTUuMDMxIDEzLjk5NTNDMTU2Ljg1NSAxMy45OTUzIDE1OC4zMzMgMTQuNjE4OCAxNTkuNDY1IDE1Ljg2NThDMTYwLjU5NiAxNy4wODk3IDE2MS4xNjIgMTguNjgzMSAxNjEuMTYyIDIwLjY0NTlWMzIuMjVIMTU2LjQ1MVYyMS4zMzg3QzE1Ni40NTEgMjAuMzY4OCAxNTYuMTc0IDE5LjU4MzcgMTU1LjYyIDE4Ljk4MzNDMTU1LjA4OSAxOC4zODI5IDE1NC4zMzggMTguMDgyNyAxNTMuMzY4IDE4LjA4MjdDMTUyLjMyOSAxOC4wODI3IDE1MS40NjMgMTguNDYzNyAxNTAuNzcgMTkuMjI1N0MxNTAuMTAxIDE5Ljk4NzggMTQ5Ljc2NiAyMC45NjkyIDE0OS43NjYgMjIuMTcwMVYzMi4yNUgxNDUuMDU1VjE0LjQ4MDJIMTQ5LjY2MlpNMTc5LjE2OCAzMC4xMDI0QzE3Ny40MzYgMzEuODgwNSAxNzUuMjA4IDMyLjc2OTYgMTcyLjQ4MyAzMi43Njk2QzE2OS43NTggMzIuNzY5NiAxNjcuNTMgMzEuODgwNSAxNjUuNzk4IDMwLjEwMjRDMTY0LjA2NiAyOC4zMDEyIDE2My4yIDI2LjA2MTIgMTYzLjIgMjMuMzgyNEMxNjMuMiAyMC43MDM3IDE2NC4wNjYgMTguNDc1MiAxNjUuNzk4IDE2LjY5NzFDMTY3LjUzIDE0Ljg5NTkgMTY5Ljc1OCAxMy45OTUzIDE3Mi40ODMgMTMuOTk1M0MxNzUuMjA4IDEzLjk5NTMgMTc3LjQzNiAxNC44OTU5IDE3OS4xNjggMTYuNjk3MUMxODAuOSAxOC40NzUyIDE4MS43NjYgMjAuNzAzNyAxODEuNzY2IDIzLjM4MjRDMTgxLjc2NiAyNi4wNjEyIDE4MC45IDI4LjMwMTIgMTc5LjE2OCAzMC4xMDI0Wk0xNzIuNDgzIDI5LjE2NzFDMTczLjg5MiAyOS4xNjcxIDE3NC45ODkgMjguNjQ3NSAxNzUuNzc0IDI3LjYwODRDMTc2LjU4MiAyNi41NDYxIDE3Ni45ODYgMjUuMTM3NSAxNzYuOTg2IDIzLjM4MjRDMTc2Ljk4NiAyMS42Mjc0IDE3Ni41ODIgMjAuMjE4NyAxNzUuNzc0IDE5LjE1NjVDMTc0Ljk4OSAxOC4wOTQyIDE3My44OTIgMTcuNTYzMSAxNzIuNDgzIDE3LjU2MzFDMTcxLjA1MSAxNy41NjMxIDE2OS45NDMgMTguMDk0MiAxNjkuMTU4IDE5LjE1NjVDMTY4LjM3MyAyMC4xOTU2IDE2Ny45OCAyMS42MDQzIDE2Ny45OCAyMy4zODI0QzE2Ny45OCAyNS4xMzc1IDE2OC4zNzMgMjYuNTQ2MSAxNjkuMTU4IDI3LjYwODRDMTY5Ljk0MyAyOC42NDc1IDE3MS4wNTEgMjkuMTY3MSAxNzIuNDgzIDI5LjE2NzFaTTE5MC42MDcgMzIuNzY5NkMxODguMzY3IDMyLjc2OTYgMTg2LjU1NCAzMS45MjY3IDE4NS4xNjkgMzAuMjQwOUMxODMuNzgzIDI4LjUzMjEgMTgzLjA5IDI2LjI0NTkgMTgzLjA5IDIzLjM4MjRDMTgzLjA5IDIwLjYxMTMgMTgzLjc5NSAxOC4zNTk4IDE4NS4yMDMgMTYuNjI3OEMxODYuNjM1IDE0Ljg3MjggMTg4LjQ1OSAxMy45OTUzIDE5MC42NzYgMTMuOTk1M0MxOTIuODkzIDEzLjk5NTMgMTk0LjU2NyAxNC44NzI4IDE5NS42OTkgMTYuNjI3OEgxOTUuODAzVjcuNDgzMTJIMjAwLjUxNFYzMi4yNUgxOTUuOTc2VjI5LjkyOTJIMTk1LjkwN0MxOTQuNzUyIDMxLjgyMjggMTkyLjk4NSAzMi43Njk2IDE5MC42MDcgMzIuNzY5NlpNMTkxLjY0NiAyOC44MjA3QzE5My4wMzIgMjguODIwNyAxOTQuMDgyIDI4LjM0NzMgMTk0Ljc5OCAyNy40MDA1QzE5NS41MzcgMjYuNDUzNyAxOTUuOTA3IDI1LjE0OSAxOTUuOTA3IDIzLjQ4NjNDMTk1LjkwNyAxOS42OTkxIDE5NC41MzMgMTcuODA1NSAxOTEuNzg1IDE3LjgwNTVDMTkwLjUxNCAxNy44MDU1IDE4OS41NDUgMTguMzEzNiAxODguODc1IDE5LjMyOTdDMTg4LjIwNSAyMC4zNDU3IDE4Ny44NyAyMS42OTY3IDE4Ny44NyAyMy4zODI0QzE4Ny44NyAyNS4xMTQ0IDE4OC4xOTQgMjYuNDUzNyAxODguODQgMjcuNDAwNUMxODkuNTEgMjguMzQ3MyAxOTAuNDQ1IDI4LjgyMDcgMTkxLjY0NiAyOC44MjA3Wk0yMTEuOTI0IDMyLjc2OTZDMjA5LjA2IDMyLjc2OTYgMjA2LjgwOSAzMS44OTIxIDIwNS4xNjkgMzAuMTM3QzIwMy41MyAyOC4zNTg5IDIwMi43MSAyNi4wOTU4IDIwMi43MSAyMy4zNDc4QzIwMi43MSAyMC42OTIxIDIwMy41MyAxOC40NzUyIDIwNS4xNjkgMTYuNjk3MUMyMDYuODA5IDE0Ljg5NTkgMjA4LjkxIDEzLjk5NTMgMjExLjQ3NCAxMy45OTUzQzIxNC4yNjggMTMuOTk1MyAyMTYuNDI3IDE0Ljk2NTEgMjE3Ljk1MSAxNi45MDQ5QzIxOS40NzUgMTguODQ0NyAyMjAuMjM3IDIxLjQ0MjYgMjIwLjIzNyAyNC42OTg3SDIwNy4zNTJDMjA3LjUzNiAyNi4xMDc0IDIwOC4wMSAyNy4yMDQzIDIwOC43NzIgMjcuOTg5NEMyMDkuNTM0IDI4Ljc1MTUgMjEwLjU3MyAyOS4xMzI1IDIxMS44ODkgMjkuMTMyNUMyMTMuNjIxIDI5LjEzMjUgMjE0Ljc2NCAyOC40MDUxIDIxNS4zMTkgMjYuOTUwMkgyMTkuOTZDMjE5LjYxNCAyOC42MTI5IDIxOC43MzYgMjkuOTk4NSAyMTcuMzI4IDMxLjEwNjlDMjE1LjkxOSAzMi4yMTU0IDIxNC4xMTggMzIuNzY5NiAyMTEuOTI0IDMyLjc2OTZaTTIxMS41NDMgMTcuNjMyM0MyMDkuMjU3IDE3LjYzMjMgMjA3Ljg4MyAxOC45MDI0IDIwNy40MjEgMjEuNDQyNkgyMTUuMzE5QzIxNS4yNDkgMjAuMzExMSAyMTQuODY4IDE5LjM5ODkgMjE0LjE3NSAxOC43MDYyQzIxMy40ODMgMTcuOTkwMyAyMTIuNjA1IDE3LjYzMjMgMjExLjU0MyAxNy42MzIzWk0yMjkuNjIzIDMyLjc2OTZDMjI3LjA4MiAzMi43Njk2IDIyNS4wOTYgMzIuMjE1NCAyMjMuNjY1IDMxLjEwNjlDMjIyLjIzMyAyOS45NzU0IDIyMS40NDggMjguNDM5NyAyMjEuMzA5IDI2LjQ5OTlIMjI1LjY3NEMyMjUuOTc0IDI4LjQ2MjggMjI3LjI2NyAyOS40NDQyIDIyOS41NTMgMjkuNDQ0MkMyMzAuNTkyIDI5LjQ0NDIgMjMxLjM4OSAyOS4yNTk1IDIzMS45NDMgMjguODlDMjMyLjUyMSAyOC41MjA1IDIzMi44MDkgMjguMDI0IDIzMi44MDkgMjcuNDAwNUMyMzIuODA5IDI3LjE2OTYgMjMyLjc2MyAyNi45NjE4IDIzMi42NzEgMjYuNzc3QzIzMi42MDEgMjYuNTkyMyAyMzIuNDYzIDI2LjQzMDYgMjMyLjI1NSAyNi4yOTIxQzIzMi4wNyAyNi4xMzA0IDIzMS44OTcgMjYuMDAzNCAyMzEuNzM2IDI1LjkxMTFDMjMxLjU5NyAyNS44MTg3IDIzMS4zNDMgMjUuNzI2MyAyMzAuOTczIDI1LjYzNEMyMzAuNjA0IDI1LjU0MTYgMjMwLjMxNSAyNS40NzIzIDIzMC4xMDcgMjUuNDI2MUMyMjkuOTIzIDI1LjM3OTkgMjI5LjU4OCAyNS4zMjIyIDIyOS4xMDMgMjUuMjUyOUMyMjguNjQxIDI1LjE2MDYgMjI4LjMxOCAyNS4wOTEzIDIyOC4xMzMgMjUuMDQ1MUMyMjcuMTYzIDI0Ljg2MDMgMjI2LjM2NiAyNC42NzU2IDIyNS43NDMgMjQuNDkwOUMyMjUuMTQzIDI0LjI4MyAyMjQuNTA4IDIzLjk5NDQgMjIzLjgzOCAyMy42MjQ5QzIyMy4xNjggMjMuMjMyMyAyMjIuNjYgMjIuNzEyNyAyMjIuMzE0IDIyLjA2NjFDMjIxLjk5IDIxLjM5NjQgMjIxLjgyOSAyMC41OTk4IDIyMS44MjkgMTkuNjc2QzIyMS44MjkgMTcuODI4NiAyMjIuNDk4IDE2LjQyIDIyMy44MzggMTUuNDUwMUMyMjUuMiAxNC40ODAyIDIyNi45NDQgMTMuOTk1MyAyMjkuMDY4IDEzLjk5NTNDMjMxLjM1NCAxMy45OTUzIDIzMy4xNDQgMTQuNTI2NCAyMzQuNDM3IDE1LjU4ODZDMjM1Ljc1NCAxNi42Mjc4IDIzNi41MDQgMTguMDU5NiAyMzYuNjg5IDE5Ljg4MzlIMjMyLjQyOEMyMzIuMjQ0IDE4LjE1MTkgMjMxLjEgMTcuMjg2IDIyOC45OTkgMTcuMjg2QzIyOC4wNTIgMTcuMjg2IDIyNy4zMDIgMTcuNDU5MiAyMjYuNzQ3IDE3LjgwNTVDMjI2LjIxNiAxOC4xNTE5IDIyNS45NTEgMTguNjM2OSAyMjUuOTUxIDE5LjI2MDRDMjI1Ljk1MSAxOS40NjgyIDIyNS45ODUgMTkuNjY0NSAyMjYuMDU1IDE5Ljg0OTJDMjI2LjE0NyAyMC4wMTA5IDIyNi4yODYgMjAuMTYxIDIyNi40NyAyMC4yOTk1QzIyNi42NzggMjAuNDE1IDIyNi44NzUgMjAuNTE4OSAyMjcuMDU5IDIwLjYxMTNDMjI3LjI0NCAyMC42ODA2IDIyNy41MSAyMC43NjE0IDIyNy44NTYgMjAuODUzOEMyMjguMjAyIDIwLjkyMzEgMjI4LjUwMyAyMC45OTIzIDIyOC43NTcgMjEuMDYxNkMyMjkuMDExIDIxLjEwNzggMjI5LjM1NyAyMS4xNzcxIDIyOS43OTYgMjEuMjY5NEMyMzAuMjM0IDIxLjMzODcgMjMwLjU4MSAyMS4zOTY0IDIzMC44MzUgMjEuNDQyNkMyMzEuNTc0IDIxLjYwNDMgMjMyLjE3NCAyMS43NTQ0IDIzMi42MzYgMjEuODkyOUMyMzMuMTIxIDIyLjAwODQgMjMzLjY3NSAyMi4yMTYyIDIzNC4yOTkgMjIuNTE2NEMyMzQuOTIyIDIyLjc5MzYgMjM1LjQwNyAyMy4xMTY5IDIzNS43NTQgMjMuNDg2M0MyMzYuMTIzIDIzLjgzMjcgMjM2LjQzNSAyNC4zMTc3IDIzNi42ODkgMjQuOTQxMkMyMzYuOTY2IDI1LjU0MTYgMjM3LjEwNSAyNi4yNDU5IDIzNy4xMDUgMjcuMDU0MkMyMzcuMTA1IDI4LjgwOTIgMjM2LjQxMiAzMC4yMDYzIDIzNS4wMjYgMzEuMjQ1NUMyMzMuNjY0IDMyLjI2MTUgMjMxLjg2MyAzMi43Njk2IDIyOS42MjMgMzIuNzY5NloiIGZpbGw9ImJsYWNrIi8+Cjwvc3ZnPgo=)](/)
+
+[Home](/)
+
+Product
+
+Resources
+
+Company
+
+Contact us
+
+[Network](/blog/?interval=3&category=Network)
+
+11 min read
+
+# NEAR Protocol: Super Finality and More
+
+The Next-Gen Superhighway
+
+![](data:image/svg+xml;charset=utf-8,%3Csvg%20height='675'%20width='1200'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%3E%3C/svg%3E)
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACPUlEQVR42mWQ3WvaUBjGTxJzNElzosYkJiZqmtjEpKaNtrV+1H5NO51arRbK3AcbFNbdlFHYymAwBhu72AeMXuxm27+6o+2udnh4+fG+73OewwEERRIkAQgC11tYCCx0x/MRXvtPAB9JkZ2iqxu6kc0WnBXXc3EHxQUe8TGOWUI8SsQJmiJhhIQUSUdIzJF/5rBSfnFx0dxp9oeDzlGn2Wq29lrD8XFv2G93O8OTUbm6AaJUFLGQZ2guSrPRCAupKD03a3omZ+ZxlKwqoiJ5wWpa1xRddUpe1s4jJckkeTaFokmOlYUlLclgjnMQsXOzV/K7/d54evLw8ay+2yyFa62DvdmzJ6ezs9NHZ4ZrAgZcXl/Nzp92Jg8uri+hLggZkZMEACKkpMorvru6HuTtZbNgZUzD8lYEVcQJiq2nLI1O86/evb75/fP9t49Xn96mynnZMYSsBAAFws1KfzTYvbdfDPzecb836rcHXa2Q5bREfFlR/FxsWfzw/fPzNy+//rn58utHZqeohpbo6iDCQMjF7ioLIWJYEXGygC9O2qq8mlMrllYtVCZ7/rBWO2t3z6dWO8xsO2rZmpvphSgWxgTu9m94XUxYquRn1Y2C0fDyB4HZWffH9fVpyx1UraOyuR8YjSIgGGiwbEFLh7XNjfpWsBUupeNCTk4VDZyJnebhmt2rOMNqcbztLoQZd8zDYPFsBjI8i6QELydQOoky81i5lNO3nfx+YHcr7qjqTerepOFPGguoO8dV+375L/zkXaw7crdwAAAAAElFTkSuQmCC)![Cover
+Image](/static/1c72368b1c8dfc2ca652d2dc033cd04c/bb8ee/Near_1_9cc032d33e.png)![Cover
+Image](/static/1c72368b1c8dfc2ca652d2dc033cd04c/bb8ee/Near_1_9cc032d33e.png)
+
+Published on
+
+18 Mar, 2024
+
+Copy
+Link[](https://twitter.com/intent/tweet?text=Check%20out%20this%20blog%20by%20Luganodes%20-%20%22NEAR%20Protocol%3A%20Super%20Finality%20and%20More%22&url=)[](https://www.linkedin.com/sharing/share-
+offsite/?url=&title=NEAR%20Protocol%3A%20Super%20Finality%20and%20More&summary=Check%20out%20this%20blog%20by%20Luganodes%20-%20%22NEAR%20Protocol%3A%20Super%20Finality%20and%20More%22)
+
+# Introduction
+
+NEAR Protocol was launched in April 2020 to help transform Web3 into an
+ecosystem available to all—not just the tech-savvy. The NEAR team is working
+to bring their vision to life by creating a simplified infrastructure that's
+quick, low-cost, and scalable. With its Layer 1, sharded, proof-of-stake (PoS)
+blockchain that emphasizes usability, NEAR's transactions are fast,
+inexpensive, costing less than 1¢ in fees.
+
+Sharding is a crucial component of the [NEAR Protocol](https://near.org/). So,
+it's unsurprising that its team includes ex-MemSQL engineers responsible for
+building cross-shard transactions and ex-Google employees with expertise in
+building distributed systems.
+
+This article will explore sharding, chain abstraction, and how validators earn
+rewards on NEAR Protocol. More importantly, it will delve into the exciting
+partnership between NEAR and Eigen Labs to explore the Super Fast Finality
+Layer they are creating.
+
+## Partitioning Blockchains into Shards
+
+Low throughput, high latency, and high prices hinder Ethereum from running
+services that need to scale as user adoption grows. The primary reason for low
+throughput on Ethereum is that every network node must process every
+transaction.
+
+Many talented developers have proposed different solutions to address the
+issue of throughput. For the most part, these solutions fall into two
+categories:
+
+  1. Those where a small set of powerful nodes do the computation work.
+
+  2. Those that split up the work so that each node in the network only does a subset of the total amount.
+
+The latter approach is called sharding, and it is how the Ethereum Foundation
+plans to scale Ethereum. Near Protocol is also based on sharding. It treats
+each account and smart contract as a separate shard. So, instead of running
+one blockchain, NEAR will run multiple chains, and each blockchain will be a
+"shard" with its own set of validators.
+
+## NEAR and Chain Abstraction
+
+NEAR Protocol's moniker on X is: "Delivering on the promises of Web3, with
+Chain Abstraction." While other projects might give lip service to "Account
+Abstraction," it is a built-in feature in NEAR.
+
+The concept of chain abstraction is that blockchain technology should be
+abstracted away from the UX so that it is not a barrier to entry for the
+masses. Users should not even be aware that they are using a blockchain.
+
+NEAR's services allow users to create and recover accounts, acquire funds, and
+control accounts in other chains seamlessly—with their email.
+
+![Near 1.png](https://better-
+triumph-f08c8a30a5.media.strapiapp.com/Near_1_f67336ab73.png)
+
+## Fast Authorization with Email
+
+The crypto wallet requirement is one of the first hurdles new Web3 users must
+overcome. Before they can begin to participate, they must choose a wallet, a
+recovery phrase, and deposit funds. With "FastAuth," users only need an email
+address to create a NEAR account. Users can access their accounts using the
+same email address across different applications and devices.
+
+## Multi-Chain Signatures
+
+One challenge in Web3 is that users and applications are separated by
+different chains. Thus, users must create new accounts for each chain they
+wish to use. This process is cumbersome for both users and developers, who
+must maintain different codebases for each chain.
+
+NEAR offers a multi-chain signature service so users can sign transactions
+with their NEAR Account on other chains. Chain signatures allow NEAR accounts
+to execute transactions across many different blockchains. For example, users
+could interact with blockchains like Ethereum, Binance Smart Chain, and NEAR
+with the same account.
+
+This advancement unlocks new levels of interoperability by offering ownership
+of diverse assets in cross-chain accounts to a single NEAR account.
+
+## NEAR Protocol and Eigen Labs Partnership
+
+An exciting development that's created much buzz in the Web3 space is the
+partnership between [NEAR Protocol and Eigen Labs and their "Super Fast
+Finality Layer."](https://pages.near.org/blog/near-foundation-and-eigen-labs-
+partner-to-enable-faster-cheaper-web3-transactions-for-ethereum-rollups-via-
+eigenlayer/)
+
+At NEARCON 2023, the protocol revealed upcoming developments that aligned with
+Ethereum's rollup-centric roadmap. Layer-2 Rollups on Ethereum execute
+transactions off the main blockchain and are one of the fastest-growing
+sectors in Web3. However, Rollups faced challenges with finality and cost,
+making them an inexpensive option for developers building on Ethereum.
+
+Ethereum’s Dencun Upgrade has mitigated some of those costs, particularly for
+Layer 2 networks like Optimism, Polygon, and Arbitrum. Fortunately for NEAR
+Protocol, its sharding capabilities still make it an excellent option for
+those building Rollups. Additionally, in November 2023, the protocol announced
+its partnership with Eigen Labs. Eigen Labs developed EigenLayer, a leading
+scaling solution on top of Ethereum, and introduced restaking. By joining
+forces, EigenLayer will leverage NEAR's technology to enable faster, cheaper
+transactions for Layer-2 Rollups on Ethereum.
+
+EigenLayer uses re-staked ETH to power its Actively Validated Services (AVS)
+functionality. Rollups benefit from these modular services delivered by AVS.
+Therefore, combining NEAR smart contracts with full nodes as AVS and
+EigenLayer's dual-quorum data availability layer ensures security and
+finality.
+
+"Quorum" refers to the minimum number of approved members present for a motion
+to pass. EigenLayer's data availability layer has a "Dual Quorum" feature that
+requires two separate quorums to attest to the availability of data.
+
+For example, one quorum could be the ETH quorum composed of ETH re-stakers,
+and the other could be the Rollup's native token stakers. Both quorums are
+independent and redundant sources of data availability. Thus, an adversary
+must compromise both quorums to force the data availability layer to fail.
+
+## The Super Fast Finality Layer
+
+The partnership will reveal the world's first Super Fast Finality Layer for
+Layer 2s, thus removing the transaction "finality and cost" roadblock.
+Transaction times will be significantly reduced, and transacting on this new
+finality layer will cost 4,000 times less than it does now.
+
+"Finality" provides certainty and refers to confirming a block of
+transactions. Once a block achieves finality, it cannot be reversed or
+altered. Settlement refers to the agreement and confirmation of the state of
+transactions.
+
+The NEAR Protocol uses self-executing smart contracts. In this partnership,
+full nodes on NEAR serve as AVS on the EigenLayer; by incorporating these full
+nodes into EigenLayer, the union benefits from NEAR's smart contract
+capabilities and EigenLayer's scalability prowess. The goal is to establish
+this Super Fast Finality Layer for Rollups with AVS. The AVS inherits security
+and finality from NEAR and Ethereum via EigenLayer.
+
+The good news is that the Super Fast Finality Layer accelerates settlement
+mechanisms. After claiming the changes, the system continues to achieve
+consensus among the Super Fast Finality Layer validators and finally settles
+on Ethereum.
+
+During the challenging period, fraud-proof submission safeguards against
+incorrect claims, with EigenLayer's validators ensuring security on the AVS.
+This layer will speed up the settlement process and reduce the time it takes
+for transactions to be finalized. Rollups will execute transactions and claim
+state changes to the Super Fast Finality Layer in 3 to 4 seconds—a significant
+improvement compared to Ethereum's current processing time.
+
+Moreover, transactions will reach finality faster and inherit EigenLayer and
+NEAR guarantees before settling to Ethereum. This technological advancement
+will also reduce liquidity fragmentation between Layer-2s and offer choices
+between the sequencers (on-chain or off-chain) they use to process
+transactions.
+
+In sum, this partnership combines NEAR smart contracts and NEAR full nodes as
+AVS on EigenLayer with its dual-quorum data availability layer. The goal is to
+inherit the top strengths from both parties. Teaming up also contributes to
+chain abstraction's broader vision of making Web3 more user-friendly.
+
+Additionally, the partnership will benefit projects built on Ethereum and the
+NEAR protocol by improving their bridging experience.
+
+## Proof of Stake on NEAR Protocol
+
+NEAR Protocol is a PoS network, which means that Sybil resistance against
+potential attacks is accomplished by staking. Its particular version of PoS is
+called "Thresholded Proof of Stake."
+
+Node providers on NEAR receive rewards for their work in the native
+cryptocurrency, $NEAR. Each user transaction requires bandwidth and
+computation to be included in the block, so users must pay a transaction fee.
+The network collects and automatically burns these fees. The team crafted the
+economics so that higher network usage increases the incentives (higher yield)
+to run validating nodes.
+
+The annual fixed token issuance is approximately 5% of the total supply. 90%
+of this 5% issuance goes to validators to pay for their work securing the
+network. NEAR Protocol's inflation (token issuance) is thus necessary to pay
+network validators.
+
+## NEAR Protocol Validators
+
+Validators have two vital jobs:
+
+  1. Validate, execute, and aggregate transactions into the blocks that form the blockchain.
+
+  2. Monitor other validators to ensure they don't produce invalid blocks or alternative chains for double-spend attacks.
+
+Misbehaving validators [get slashed by the protocol](https://staging-
+website.lgns.xyz/blog/SlashingKnowledgeArchive/), which means the protocol
+burns their entire stake or part of it. The threat of losing one's stake
+thereby incentivizes good behavior amongst validators.
+
+Each validator does the same amount of work on the NEAR network, so the block
+producer does not get special rewards. However, validators receive rewards
+proportional to their participation.
+
+Are you ready to [stake $NEAR](https://www.luganodes.com/blog/NEARSG/) and
+start earning rewards? Avoid slashing penalties and other complexities by
+staking $NEAR with Luganodes. Let this world-class staking service remove the
+complexities for you.
+
+PoS on NEAR becomes more complicated than other Layer-1 chains because fees
+are distributed within a sharded network, where receipts travel between shards
+and are executed by different validators.
+
+## More on NEAR Validators
+
+The minimum cost to become a validator is based on the network's 300th
+proposal. The threshold will be the stake of the 300th proposal, as long as
+it's greater than the minimum threshold of 25,500 $NEAR. The [NEAR
+Explorer](https://explorer.near.org/) shows live updates of the current active
+validators and the price required to become one. Anyone who can stake more
+than the seat price can validate the network. Stake, hardware, and hosting are
+required to join the active set of NEAR validators.
+
+Validators must validate all shards, so running a node requires high hardware
+requirements. Additionally, hosting costs approximately $330 per month at the
+time of writing.
+
+After each epoch, validators are evaluated based on the number of blocks they
+produced compared to expectations. Validators with a 99% or above online
+presence receive 100% of the rewards. Those with at least 90% online presence
+get rewards that grow linearly to the 100% level. Validators who produce less
+than 90% of what's expected are considered "offline/unstable" and do not
+receive any rewards. These nodes will lose their validator status and must re-
+submit a staking transaction.
+
+## Shards and Validators
+
+Since NEAR is a sharded blockchain, its throughput scales as usage grows. The
+network starts with one shard and 100 validator seats. The NEAR protocol
+proportionally assigns the validator seats and redistributes the rewards
+depending on stake. The number of validator seats increases with the number of
+shards. If eight shards are running, there will be 800 seats available.
+
+Initially, small numbers of shards will require a more significant stake.
+Thus, professional validators and organizations will allocate substantial
+resources to NEAR. However, as the network's usage grows, the number of shards
+and seats will increase. The minimum stake to become a validator should also
+scale lower over time. Furthermore, eminent growth in the number of validators
+will provide greater decentralization to the network.
+
+## Delegation on NEAR Protocol
+
+In PoS, users support specific network validators by delegating their tokens
+to them during the staking process. The idea is that the validator who gains
+the most trust from the community has the most tokens delegated to them.
+
+NEAR Protocol enables delegation via smart contracts so that third parties who
+don't want to run their own nodes can still participate in securing the
+network by delegating $NEAR tokens to validators. The goal is to attract
+enough funds from delegators to allow validators who might need more $NEAR to
+participate.
+
+Luganodes offers an institutional-grade staking service that enables
+individuals and institutions to participate. By [staking with
+Luganodes](https://www.luganodes.com/product/staking/), you receive the same
+benefits of earning rewards but without the operational and technical
+complexities of running your own node.
+
+## Summary
+
+NEAR Protocol recently increased its number of shards to five. This
+accomplishment will enhance its network's capacity and scalability while the
+team works on an additional upgrade to bring the total to six shards. These
+upgrades will help NEAR meet the growing demand for its protocol.
+
+> (High) Five shards on mainnet 🖐️  
+>  
+> NEAR Protocol now has 5 shards!  
+>  
+> The jet was refueled whilst flying, and the NEAR ecosystem and
+> [@PagodaPlatform](https://twitter.com/PagodaPlatform?ref_src=twsrc%5Etfw)
+> pulled it off.  
+>  
+> Read on to find out more technical details:
+> [pic.twitter.com/83bIw9AbF6](https://t.co/83bIw9AbF6)
+>
+> — NEAR Protocol (@NEARProtocol) [March 13,
+> 2024](https://twitter.com/NEARProtocol/status/1768010009797906566?ref_src=twsrc%5Etfw)
+
+The protocol's mission to create a leading Layer-1 blockchain seems to have
+shifted more to unifying all blockchains into one ecosystem with its Eigen
+Labs partnership. Their Super Fast Finality Layer is a significant
+technological advancement for Web3. While NEAR and Eigen Labs' Super Fast
+Finality Layer appear to have an early advantage, they will likely face
+competition from other projects like
+[Polygon](https://www.luganodes.com/blog/Polygon2Ecosystem/) and Optimism,
+which are developing seamless interoperability solutions.
+[Celestia](https://www.luganodes.com/blog/CelestiaModularInnovation/) will
+also bring competition to the data availability front.
+
+If you hold the NEAR token, you can enhance your portfolio by staking to earn
+rewards. Leverage Luganodes' institutional-grade infrastructure to stake your
+holdings and create a passive income. Staking with us ensures ease of use,
+support, and safety while you earn, and also contribute to the security of the
+NEAR chain.
+
+Learn how to stake NEAR tokens using this
+[guide](https://www.luganodes.com/blog/NEARSG/). You can learn more about
+staking on our
+[website](https://www.luganodes.com/?utm_source=Blog&utm_medium=article&utm_campaign=Blog%20-%20article%20-%20Footer),
+and feel free to [contact
+us](https://www.luganodes.com/#signup?utm_source=Blog&utm_medium=article&utm_campaign=Blog%20-%20article%20-%20Footer)
+for any queries!
+
+## About Luganodes
+
+Luganodes is a world-class, Swiss-operated, non-custodial blockchain
+infrastructure provider that has rapidly gained recognition in the industry
+for offering institutional-grade services. It was born out of the Lugano Plan
+B Program, an initiative driven by Tether and the City of Lugano. Luganodes
+maintains an exceptional 99.9% uptime with round-the-clock monitoring by SRE
+experts. With support for 40+ PoS networks, it ranks among the top validators
+on Polygon, Polkadot, Sui, and Tron. Luganodes prioritizes security and
+compliance, holding the distinction of being one of the first staking
+providers to adhere to all SOC 2 Type II, GDPR, and ISO 27001 standards as
+well as offering Chainproof insurance to institutional clients.
+
+![](data:image/svg+xml;charset=utf-8,%3Csvg%20height='269'%20width='632'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%3E%3C/svg%3E)
+
+![Line
+pattern](/static/c1a2eb9200e441157c01110f2f463004/3d614/linepattern3.svg)![Line
+pattern](/static/c1a2eb9200e441157c01110f2f463004/3d614/linepattern3.svg)
+
+[![White
+logo](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQ0IiBoZWlnaHQ9IjQzIiB2aWV3Qm94PSIwIDAgMjQ0IDQzIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMjAuNTA0OSAzMi4zMTI1SDIwLjc2NDlMMjAuNzc1NiAzMi4wNDg3TDIxLjc2MjQgNy43NzI1MkwzNC4xNjIxIDIxLjAxMTZMMjYuNjA5IDMxLjg3ODdMMjYuMzA3NSAzMi4zMTI1SDI2LjgzMDRINDIuMDkyOUg0Mi4zNjQ4TDQyLjM2MzggMzIuMDM2M0w0Mi4zMTY3IDE5LjQ3NTdMNTEuNjQ4OCAzMi4yMDE3TDUxLjczIDMyLjMxMjVINTEuODY2SDU1LjcxMDVINTYuMjVMNTUuOTI3NyAzMS44NzNMNDEuMTAwNSAxMS42NTIxTDQwLjg3NzMgMTEuMzQ3OUw0MC42NjIgMTEuNjU3OEwzNi4yOTEyIDE3Ljk0N0wyMC40ODE2IDEuMDY0NDJMMjAuMjQ1NyAwLjgxMjVMMjAuMDU4NiAxLjEwMzY0TDAuMjczNTQxIDMxLjg4NjlMMCAzMi4zMTI1SDAuNTAwMzM2SDIwLjUwNDlaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNNjkuOTY3NiAzMi4yNVY3LjQ4MzEySDc0Ljk5MDNWMjguMDU4N0g4Ni42MjlWMzIuMjVINjkuOTY3NlpNMTA0LjUyNyAzMi4yNUg5OS45ODk2VjMwLjE3MTdIOTkuODg1N0M5OS4yMzkxIDMxLjA0OTIgOTguNTIzMyAzMS42OTU4IDk3LjczODEgMzIuMTExNEM5Ni45NzYgMzIuNTI3MSA5NS45OTQ2IDMyLjczNDkgOTQuNzkzOCAzMi43MzQ5QzkyLjg1NCAzMi43MzQ5IDkxLjM0MTQgMzIuMTU3NiA5MC4yNTYxIDMxLjAwM0M4OS4xNzA3IDI5Ljg0ODQgODguNjI4IDI4LjI4OTYgODguNjI4IDI2LjMyNjdWMTQuNDgwMkg5My4zMDQzVjI1LjUzQzkzLjMwNDMgMjcuNjc3NyA5NC4yODU3IDI4Ljc1MTUgOTYuMjQ4NiAyOC43NTE1Qzk3LjMzNCAyOC43NTE1IDk4LjIgMjguMzgyIDk4Ljg0NjUgMjcuNjQzQzk5LjQ5MzEgMjYuOTA0IDk5LjgxNjQgMjUuOTM0MiA5OS44MTY0IDI0LjczMzNWMTQuNDgwMkgxMDQuNTI3VjMyLjI1Wk0xMTUuNDAzIDM4LjMxMThDMTEzLjAwMSAzOC4zMTE4IDExMS4wNzMgMzcuODI2OSAxMDkuNjE4IDM2Ljg1N0MxMDguMTg2IDM1Ljg4NzEgMTA3LjM0NCAzNC41MjQ2IDEwNy4wOSAzMi43Njk2SDExMS43NjZDMTEyLjIyOCAzNC4wODU5IDExMy40MTcgMzQuNzQ0IDExNS4zMzQgMzQuNzQ0QzExNy45NjYgMzQuNzQ0IDExOS4yODIgMzMuNTA4NiAxMTkuMjgyIDMxLjAzNzZWMjkuMDk3OUgxMTkuMTc5QzExNy45NTUgMzAuNDgzNCAxMTYuNDA3IDMxLjE3NjIgMTE0LjUzNyAzMS4xNzYyQzExMi40MzUgMzEuMTc2MiAxMTAuNiAzMC40MDI2IDEwOS4wMjkgMjguODU1NEMxMDcuNDgyIDI3LjMwODIgMTA2LjcwOSAyNS4yNTI5IDEwNi43MDkgMjIuNjg5NkMxMDYuNzA5IDIwLjA1NzEgMTA3LjQyNCAxNy45NTU2IDEwOC44NTYgMTYuMzg1M0MxMTAuMjg4IDE0Ljc5MTkgMTEyLjEzNSAxMy45OTUzIDExNC4zOTggMTMuOTk1M0MxMTYuNTQ2IDEzLjk5NTMgMTE4LjE4NiAxNC43ODA0IDExOS4zMTcgMTYuMzUwN0gxMTkuMzg2VjE0LjQ4MDJIMTIzLjkyNFYzMC44OTkxQzEyMy45MjQgMzMuMjA4MyAxMjMuMjIgMzUuMDA5NiAxMjEuODExIDM2LjMwMjhDMTIwLjM3OSAzNy42NDIxIDExOC4yNDMgMzguMzExOCAxMTUuNDAzIDM4LjMxMThaTTExNS4zMzQgMjcuNDAwNUMxMTYuNzQyIDI3LjQwMDUgMTE3Ljc5MyAyNi45NTAyIDExOC40ODYgMjYuMDQ5NkMxMTkuMTc5IDI1LjE0OSAxMTkuNTI1IDIzLjk5NDQgMTE5LjUyNSAyMi41ODU3QzExOS41MjUgMjEuMjAwMiAxMTkuMTU1IDIwLjA1NzEgMTE4LjQxNiAxOS4xNTY1QzExNy43MDEgMTguMjMyOCAxMTYuNjYxIDE3Ljc3MDkgMTE1LjI5OSAxNy43NzA5QzExNC4wOTggMTcuNzcwOSAxMTMuMTI4IDE4LjIwOTcgMTEyLjM4OSAxOS4wODcyQzExMS42NzMgMTkuOTY0NyAxMTEuMzE2IDIxLjE0MjQgMTExLjMxNiAyMi42MjA0QzExMS4zMTYgMjQuMTIxNCAxMTEuNjczIDI1LjI5OTEgMTEyLjM4OSAyNi4xNTM1QzExMy4xMjggMjYuOTg0OSAxMTQuMTEgMjcuNDAwNSAxMTUuMzM0IDI3LjQwMDVaTTEzOC4xNDYgMzIuMjVDMTM3LjkxNSAzMS45NDk4IDEzNy43MyAzMS4yOTE3IDEzNy41OTIgMzAuMjc1NkgxMzcuNTIyQzEzNy4wMTQgMzEuMDM3NiAxMzYuMzY4IDMxLjYyNjUgMTM1LjU4MyAzMi4wNDIyQzEzNC43OTcgMzIuNDU3OCAxMzMuNyAzMi42NjU3IDEzMi4yOTIgMzIuNjY1N0MxMzAuNDIxIDMyLjY2NTcgMTI4LjkyIDMyLjE5MjMgMTI3Ljc4OSAzMS4yNDU1QzEyNi42NTcgMzAuMjk4NyAxMjYuMDkxIDI4Ljk1OTMgMTI2LjA5MSAyNy4yMjczQzEyNi4wOTEgMjUuNDI2MSAxMjYuNzE1IDI0LjEwOTggMTI3Ljk2MiAyMy4yNzg1QzEyOS4yMDkgMjIuNDI0MSAxMzAuOTY0IDIxLjgzNTIgMTMzLjIyNyAyMS41MTE5QzEzNC44OSAyMS4yODEgMTM2LjAyMSAyMS4wNTAxIDEzNi42MjIgMjAuODE5MUMxMzcuMjIyIDIwLjU2NTEgMTM3LjUyMiAyMC4xMjY0IDEzNy41MjIgMTkuNTAyOUMxMzcuNTIyIDE4Ljg1NjMgMTM3LjI2OCAxOC4zNDgyIDEzNi43NiAxNy45Nzg3QzEzNi4yNTIgMTcuNTg2MiAxMzUuNTEzIDE3LjM4OTkgMTM0LjU0MyAxNy4zODk5QzEzMi4zOTYgMTcuMzg5OSAxMzEuMjUzIDE4LjIyMTIgMTMxLjExNCAxOS44ODM5SDEyNi45MjNDMTI2Ljk5MiAxOC4xOTgxIDEyNy42NzMgMTYuODAxIDEyOC45NjcgMTUuNjkyNkMxMzAuMjYgMTQuNTg0MSAxMzIuMTMgMTQuMDI5OSAxMzQuNTc4IDE0LjAyOTlDMTM5LjU2NiAxNC4wMjk5IDE0Mi4wNiAxNi4yMTIxIDE0Mi4wNiAyMC41NzY3VjI5LjYxNzRDMTQyLjA2IDMwLjk1NjggMTQyLjI2OCAzMS43NzY2IDE0Mi42ODQgMzIuMDc2OFYzMi4yNUgxMzguMTQ2Wk0xMzMuNDM1IDI5LjM3NUMxMzQuNzI4IDI5LjM3NSAxMzUuNzQ0IDI5LjA0MDEgMTM2LjQ4MyAyOC4zNzA0QzEzNy4yNDUgMjcuNzAwNyAxMzcuNjI2IDI2LjkwNCAxMzcuNjI2IDI1Ljk4MDNWMjMuMzEzMUMxMzcuMTE4IDIzLjYxMzMgMTM2LjAyMSAyMy45NTk3IDEzNC4zMzYgMjQuMzUyM0MxMzIuOTk2IDI0LjY1MjUgMTMyLjA0OSAyNC45OTg5IDEzMS40OTUgMjUuMzkxNUMxMzAuOTQxIDI1Ljc2MSAxMzAuNjY0IDI2LjMzODMgMTMwLjY2NCAyNy4xMjM0QzEzMC42NjQgMjguNjI0NSAxMzEuNTg4IDI5LjM3NSAxMzMuNDM1IDI5LjM3NVpNMTQ5LjY2MiAxNC40ODAyVjE2LjkwNDlIMTQ5Ljc2NkMxNTAuOTkgMTQuOTY1MSAxNTIuNzQ1IDEzLjk5NTMgMTU1LjAzMSAxMy45OTUzQzE1Ni44NTUgMTMuOTk1MyAxNTguMzMzIDE0LjYxODggMTU5LjQ2NSAxNS44NjU4QzE2MC41OTYgMTcuMDg5NyAxNjEuMTYyIDE4LjY4MzEgMTYxLjE2MiAyMC42NDU5VjMyLjI1SDE1Ni40NTFWMjEuMzM4N0MxNTYuNDUxIDIwLjM2ODggMTU2LjE3NCAxOS41ODM3IDE1NS42MiAxOC45ODMzQzE1NS4wODkgMTguMzgyOSAxNTQuMzM4IDE4LjA4MjcgMTUzLjM2OCAxOC4wODI3QzE1Mi4zMjkgMTguMDgyNyAxNTEuNDYzIDE4LjQ2MzcgMTUwLjc3IDE5LjIyNTdDMTUwLjEwMSAxOS45ODc4IDE0OS43NjYgMjAuOTY5MiAxNDkuNzY2IDIyLjE3MDFWMzIuMjVIMTQ1LjA1NVYxNC40ODAySDE0OS42NjJaTTE3OS4xNjggMzAuMTAyNEMxNzcuNDM2IDMxLjg4MDUgMTc1LjIwOCAzMi43Njk2IDE3Mi40ODMgMzIuNzY5NkMxNjkuNzU4IDMyLjc2OTYgMTY3LjUzIDMxLjg4MDUgMTY1Ljc5OCAzMC4xMDI0QzE2NC4wNjYgMjguMzAxMiAxNjMuMiAyNi4wNjEyIDE2My4yIDIzLjM4MjRDMTYzLjIgMjAuNzAzNyAxNjQuMDY2IDE4LjQ3NTIgMTY1Ljc5OCAxNi42OTcxQzE2Ny41MyAxNC44OTU5IDE2OS43NTggMTMuOTk1MyAxNzIuNDgzIDEzLjk5NTNDMTc1LjIwOCAxMy45OTUzIDE3Ny40MzYgMTQuODk1OSAxNzkuMTY4IDE2LjY5NzFDMTgwLjkgMTguNDc1MiAxODEuNzY2IDIwLjcwMzcgMTgxLjc2NiAyMy4zODI0QzE4MS43NjYgMjYuMDYxMiAxODAuOSAyOC4zMDEyIDE3OS4xNjggMzAuMTAyNFpNMTcyLjQ4MyAyOS4xNjcxQzE3My44OTIgMjkuMTY3MSAxNzQuOTg5IDI4LjY0NzUgMTc1Ljc3NCAyNy42MDg0QzE3Ni41ODIgMjYuNTQ2MSAxNzYuOTg2IDI1LjEzNzUgMTc2Ljk4NiAyMy4zODI0QzE3Ni45ODYgMjEuNjI3NCAxNzYuNTgyIDIwLjIxODcgMTc1Ljc3NCAxOS4xNTY1QzE3NC45ODkgMTguMDk0MiAxNzMuODkyIDE3LjU2MzEgMTcyLjQ4MyAxNy41NjMxQzE3MS4wNTEgMTcuNTYzMSAxNjkuOTQzIDE4LjA5NDIgMTY5LjE1OCAxOS4xNTY1QzE2OC4zNzMgMjAuMTk1NiAxNjcuOTggMjEuNjA0MyAxNjcuOTggMjMuMzgyNEMxNjcuOTggMjUuMTM3NSAxNjguMzczIDI2LjU0NjEgMTY5LjE1OCAyNy42MDg0QzE2OS45NDMgMjguNjQ3NSAxNzEuMDUxIDI5LjE2NzEgMTcyLjQ4MyAyOS4xNjcxWk0xOTAuNjA3IDMyLjc2OTZDMTg4LjM2NyAzMi43Njk2IDE4Ni41NTQgMzEuOTI2NyAxODUuMTY5IDMwLjI0MDlDMTgzLjc4MyAyOC41MzIxIDE4My4wOSAyNi4yNDU5IDE4My4wOSAyMy4zODI0QzE4My4wOSAyMC42MTEzIDE4My43OTUgMTguMzU5OCAxODUuMjAzIDE2LjYyNzhDMTg2LjYzNSAxNC44NzI4IDE4OC40NTkgMTMuOTk1MyAxOTAuNjc2IDEzLjk5NTNDMTkyLjg5MyAxMy45OTUzIDE5NC41NjcgMTQuODcyOCAxOTUuNjk5IDE2LjYyNzhIMTk1LjgwM1Y3LjQ4MzEySDIwMC41MTRWMzIuMjVIMTk1Ljk3NlYyOS45MjkySDE5NS45MDdDMTk0Ljc1MiAzMS44MjI4IDE5Mi45ODUgMzIuNzY5NiAxOTAuNjA3IDMyLjc2OTZaTTE5MS42NDYgMjguODIwN0MxOTMuMDMyIDI4LjgyMDcgMTk0LjA4MiAyOC4zNDczIDE5NC43OTggMjcuNDAwNUMxOTUuNTM3IDI2LjQ1MzcgMTk1LjkwNyAyNS4xNDkgMTk1LjkwNyAyMy40ODYzQzE5NS45MDcgMTkuNjk5MSAxOTQuNTMzIDE3LjgwNTUgMTkxLjc4NSAxNy44MDU1QzE5MC41MTQgMTcuODA1NSAxODkuNTQ1IDE4LjMxMzYgMTg4Ljg3NSAxOS4zMjk3QzE4OC4yMDUgMjAuMzQ1NyAxODcuODcgMjEuNjk2NyAxODcuODcgMjMuMzgyNEMxODcuODcgMjUuMTE0NCAxODguMTk0IDI2LjQ1MzcgMTg4Ljg0IDI3LjQwMDVDMTg5LjUxIDI4LjM0NzMgMTkwLjQ0NSAyOC44MjA3IDE5MS42NDYgMjguODIwN1pNMjExLjkyNCAzMi43Njk2QzIwOS4wNiAzMi43Njk2IDIwNi44MDkgMzEuODkyMSAyMDUuMTY5IDMwLjEzN0MyMDMuNTMgMjguMzU4OSAyMDIuNzEgMjYuMDk1OCAyMDIuNzEgMjMuMzQ3OEMyMDIuNzEgMjAuNjkyMSAyMDMuNTMgMTguNDc1MiAyMDUuMTY5IDE2LjY5NzFDMjA2LjgwOSAxNC44OTU5IDIwOC45MSAxMy45OTUzIDIxMS40NzQgMTMuOTk1M0MyMTQuMjY4IDEzLjk5NTMgMjE2LjQyNyAxNC45NjUxIDIxNy45NTEgMTYuOTA0OUMyMTkuNDc1IDE4Ljg0NDcgMjIwLjIzNyAyMS40NDI2IDIyMC4yMzcgMjQuNjk4N0gyMDcuMzUyQzIwNy41MzYgMjYuMTA3NCAyMDguMDEgMjcuMjA0MyAyMDguNzcyIDI3Ljk4OTRDMjA5LjUzNCAyOC43NTE1IDIxMC41NzMgMjkuMTMyNSAyMTEuODg5IDI5LjEzMjVDMjEzLjYyMSAyOS4xMzI1IDIxNC43NjQgMjguNDA1MSAyMTUuMzE5IDI2Ljk1MDJIMjE5Ljk2QzIxOS42MTQgMjguNjEyOSAyMTguNzM2IDI5Ljk5ODUgMjE3LjMyOCAzMS4xMDY5QzIxNS45MTkgMzIuMjE1NCAyMTQuMTE4IDMyLjc2OTYgMjExLjkyNCAzMi43Njk2Wk0yMTEuNTQzIDE3LjYzMjNDMjA5LjI1NyAxNy42MzIzIDIwNy44ODMgMTguOTAyNCAyMDcuNDIxIDIxLjQ0MjZIMjE1LjMxOUMyMTUuMjQ5IDIwLjMxMTEgMjE0Ljg2OCAxOS4zOTg5IDIxNC4xNzUgMTguNzA2MkMyMTMuNDgzIDE3Ljk5MDMgMjEyLjYwNSAxNy42MzIzIDIxMS41NDMgMTcuNjMyM1pNMjI5LjYyMyAzMi43Njk2QzIyNy4wODIgMzIuNzY5NiAyMjUuMDk2IDMyLjIxNTQgMjIzLjY2NSAzMS4xMDY5QzIyMi4yMzMgMjkuOTc1NCAyMjEuNDQ4IDI4LjQzOTcgMjIxLjMwOSAyNi40OTk5SDIyNS42NzRDMjI1Ljk3NCAyOC40NjI4IDIyNy4yNjcgMjkuNDQ0MiAyMjkuNTUzIDI5LjQ0NDJDMjMwLjU5MiAyOS40NDQyIDIzMS4zODkgMjkuMjU5NSAyMzEuOTQzIDI4Ljg5QzIzMi41MjEgMjguNTIwNSAyMzIuODA5IDI4LjAyNCAyMzIuODA5IDI3LjQwMDVDMjMyLjgwOSAyNy4xNjk2IDIzMi43NjMgMjYuOTYxOCAyMzIuNjcxIDI2Ljc3N0MyMzIuNjAxIDI2LjU5MjMgMjMyLjQ2MyAyNi40MzA2IDIzMi4yNTUgMjYuMjkyMUMyMzIuMDcgMjYuMTMwNCAyMzEuODk3IDI2LjAwMzQgMjMxLjczNiAyNS45MTExQzIzMS41OTcgMjUuODE4NyAyMzEuMzQzIDI1LjcyNjMgMjMwLjk3MyAyNS42MzRDMjMwLjYwNCAyNS41NDE2IDIzMC4zMTUgMjUuNDcyMyAyMzAuMTA3IDI1LjQyNjFDMjI5LjkyMyAyNS4zNzk5IDIyOS41ODggMjUuMzIyMiAyMjkuMTAzIDI1LjI1MjlDMjI4LjY0MSAyNS4xNjA2IDIyOC4zMTggMjUuMDkxMyAyMjguMTMzIDI1LjA0NTFDMjI3LjE2MyAyNC44NjAzIDIyNi4zNjYgMjQuNjc1NiAyMjUuNzQzIDI0LjQ5MDlDMjI1LjE0MyAyNC4yODMgMjI0LjUwOCAyMy45OTQ0IDIyMy44MzggMjMuNjI0OUMyMjMuMTY4IDIzLjIzMjMgMjIyLjY2IDIyLjcxMjcgMjIyLjMxNCAyMi4wNjYxQzIyMS45OSAyMS4zOTY0IDIyMS44MjkgMjAuNTk5OCAyMjEuODI5IDE5LjY3NkMyMjEuODI5IDE3LjgyODYgMjIyLjQ5OCAxNi40MiAyMjMuODM4IDE1LjQ1MDFDMjI1LjIgMTQuNDgwMiAyMjYuOTQ0IDEzLjk5NTMgMjI5LjA2OCAxMy45OTUzQzIzMS4zNTQgMTMuOTk1MyAyMzMuMTQ0IDE0LjUyNjQgMjM0LjQzNyAxNS41ODg2QzIzNS43NTQgMTYuNjI3OCAyMzYuNTA0IDE4LjA1OTYgMjM2LjY4OSAxOS44ODM5SDIzMi40MjhDMjMyLjI0NCAxOC4xNTE5IDIzMS4xIDE3LjI4NiAyMjguOTk5IDE3LjI4NkMyMjguMDUyIDE3LjI4NiAyMjcuMzAyIDE3LjQ1OTIgMjI2Ljc0NyAxNy44MDU1QzIyNi4yMTYgMTguMTUxOSAyMjUuOTUxIDE4LjYzNjkgMjI1Ljk1MSAxOS4yNjA0QzIyNS45NTEgMTkuNDY4MiAyMjUuOTg1IDE5LjY2NDUgMjI2LjA1NSAxOS44NDkyQzIyNi4xNDcgMjAuMDEwOSAyMjYuMjg2IDIwLjE2MSAyMjYuNDcgMjAuMjk5NUMyMjYuNjc4IDIwLjQxNSAyMjYuODc1IDIwLjUxODkgMjI3LjA1OSAyMC42MTEzQzIyNy4yNDQgMjAuNjgwNiAyMjcuNTEgMjAuNzYxNCAyMjcuODU2IDIwLjg1MzhDMjI4LjIwMiAyMC45MjMxIDIyOC41MDMgMjAuOTkyMyAyMjguNzU3IDIxLjA2MTZDMjI5LjAxMSAyMS4xMDc4IDIyOS4zNTcgMjEuMTc3MSAyMjkuNzk2IDIxLjI2OTRDMjMwLjIzNCAyMS4zMzg3IDIzMC41ODEgMjEuMzk2NCAyMzAuODM1IDIxLjQ0MjZDMjMxLjU3NCAyMS42MDQzIDIzMi4xNzQgMjEuNzU0NCAyMzIuNjM2IDIxLjg5MjlDMjMzLjEyMSAyMi4wMDg0IDIzMy42NzUgMjIuMjE2MiAyMzQuMjk5IDIyLjUxNjRDMjM0LjkyMiAyMi43OTM2IDIzNS40MDcgMjMuMTE2OSAyMzUuNzU0IDIzLjQ4NjNDMjM2LjEyMyAyMy44MzI3IDIzNi40MzUgMjQuMzE3NyAyMzYuNjg5IDI0Ljk0MTJDMjM2Ljk2NiAyNS41NDE2IDIzNy4xMDUgMjYuMjQ1OSAyMzcuMTA1IDI3LjA1NDJDMjM3LjEwNSAyOC44MDkyIDIzNi40MTIgMzAuMjA2MyAyMzUuMDI2IDMxLjI0NTVDMjMzLjY2NCAzMi4yNjE1IDIzMS44NjMgMzIuNzY5NiAyMjkuNjIzIDMyLjc2OTZaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K)](/)Secure
+staking with leading blockchain infrastructure provider
+
+LN Tech FZE,  
+Saif Suite X3-46,  
+SAIF Zone, Sharjah, UAE
+
+[![](data:image/svg+xml;charset=utf-8,%3Csvg%20height='288'%20width='462'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%3E%3C/svg%3E)![Verified
+badge](/static/6ba07c96436f2c9565f80d24555d7bac/edf67/vsp-pro.svg)![Verified
+badge](/static/6ba07c96436f2c9565f80d24555d7bac/edf67/vsp-
+pro.svg)](https://www.stakingrewards.com/savings/luganodes/)
+
+Products[Staking](/product/staking/)
+
+[EigenLayer Staking](/product/eigenlayer/)
+
+[zkRaaS](/product/zkraas/)
+
+[Staking API](/product/stakingapi/)
+
+[Managed Nodes](/product/managednodes/)
+
+[Terminal](/product/luganodesterminal/)
+
+ResourceClient Types
+
+[Custodian](/client/custodian/)[Exchanges](/client/exchanges/)[Investors
+(VCs)](/client/investors/)
+
+Case Studies
+
+[CoinList](/case-study/Coinlist_CS/)[Bitfinex](/case-study/Bitfinex_CS/)
+
+[Blog](/blog/)
+
+[Staking Guides](/blog/?interval=3&category=Guides#blog-list)
+
+[Newsletter](/#signup)
+
+[Docs](https://docs.luganodes.com/)
+
+Company[About us](/aboutus/)
+
+[Get in Touch](/#getInTouch)
+
+[Security](https://security.luganodes.com/)
+
+Social[Twitter](https://twitter.com/luganodes)
+
+[LinkedIn](https://www.linkedin.com/company/luganodes/)
+
+[Telegram](https://t.me/luganodesofficial/)
+
+[Medium](https://medium.com/luganodes)
+
+[YouTube](https://www.youtube.com/@luganodes)
+
+[Terms of use](/termsofservice/)[Privacy Policy](/privacypolicy/)
+
+© 2024 Luganodes | All rights reserved
+
+[Terms of use](/termsofservice/)[Privacy Policy](/privacypolicy/)
+

@@ -1,0 +1,454 @@
+Build the future of Web3 with us. Check out our open positions today!
+
+[![Luganodes
+Logo](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQ0IiBoZWlnaHQ9IjQzIiB2aWV3Qm94PSIwIDAgMjQ0IDQzIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMjAuNTA0OSAzMi4zMTI1SDIwLjc2NDlMMjAuNzc1NiAzMi4wNDg3TDIxLjc2MjQgNy43NzI1MkwzNC4xNjIxIDIxLjAxMTZMMjYuNjA5IDMxLjg3ODdMMjYuMzA3NSAzMi4zMTI1SDI2LjgzMDRINDIuMDkyOUg0Mi4zNjQ4TDQyLjM2MzggMzIuMDM2M0w0Mi4zMTY3IDE5LjQ3NTdMNTEuNjQ4OCAzMi4yMDE3TDUxLjczIDMyLjMxMjVINTEuODY2SDU1LjcxMDVINTYuMjVMNTUuOTI3NyAzMS44NzNMNDEuMTAwNSAxMS42NTIxTDQwLjg3NzMgMTEuMzQ3OUw0MC42NjIgMTEuNjU3OEwzNi4yOTEyIDE3Ljk0N0wyMC40ODE2IDEuMDY0NDJMMjAuMjQ1NyAwLjgxMjVMMjAuMDU4NiAxLjEwMzY0TDAuMjczNTQxIDMxLjg4NjlMMCAzMi4zMTI1SDAuNTAwMzM2SDIwLjUwNDlaIiBmaWxsPSIjQkUxRTJFIi8+CjxwYXRoIGQ9Ik02OS45Njc2IDMyLjI1VjcuNDgzMTJINzQuOTkwM1YyOC4wNTg3SDg2LjYyOVYzMi4yNUg2OS45Njc2Wk0xMDQuNTI3IDMyLjI1SDk5Ljk4OTZWMzAuMTcxN0g5OS44ODU3Qzk5LjIzOTEgMzEuMDQ5MiA5OC41MjMzIDMxLjY5NTggOTcuNzM4MSAzMi4xMTE0Qzk2Ljk3NiAzMi41MjcxIDk1Ljk5NDYgMzIuNzM0OSA5NC43OTM4IDMyLjczNDlDOTIuODU0IDMyLjczNDkgOTEuMzQxNCAzMi4xNTc2IDkwLjI1NjEgMzEuMDAzQzg5LjE3MDcgMjkuODQ4NCA4OC42MjggMjguMjg5NiA4OC42MjggMjYuMzI2N1YxNC40ODAySDkzLjMwNDNWMjUuNTNDOTMuMzA0MyAyNy42Nzc3IDk0LjI4NTcgMjguNzUxNSA5Ni4yNDg2IDI4Ljc1MTVDOTcuMzM0IDI4Ljc1MTUgOTguMiAyOC4zODIgOTguODQ2NSAyNy42NDNDOTkuNDkzMSAyNi45MDQgOTkuODE2NCAyNS45MzQyIDk5LjgxNjQgMjQuNzMzM1YxNC40ODAySDEwNC41MjdWMzIuMjVaTTExNS40MDMgMzguMzExOEMxMTMuMDAxIDM4LjMxMTggMTExLjA3MyAzNy44MjY5IDEwOS42MTggMzYuODU3QzEwOC4xODYgMzUuODg3MSAxMDcuMzQ0IDM0LjUyNDYgMTA3LjA5IDMyLjc2OTZIMTExLjc2NkMxMTIuMjI4IDM0LjA4NTkgMTEzLjQxNyAzNC43NDQgMTE1LjMzNCAzNC43NDRDMTE3Ljk2NiAzNC43NDQgMTE5LjI4MiAzMy41MDg2IDExOS4yODIgMzEuMDM3NlYyOS4wOTc5SDExOS4xNzlDMTE3Ljk1NSAzMC40ODM0IDExNi40MDcgMzEuMTc2MiAxMTQuNTM3IDMxLjE3NjJDMTEyLjQzNSAzMS4xNzYyIDExMC42IDMwLjQwMjYgMTA5LjAyOSAyOC44NTU0QzEwNy40ODIgMjcuMzA4MiAxMDYuNzA5IDI1LjI1MjkgMTA2LjcwOSAyMi42ODk2QzEwNi43MDkgMjAuMDU3MSAxMDcuNDI0IDE3Ljk1NTYgMTA4Ljg1NiAxNi4zODUzQzExMC4yODggMTQuNzkxOSAxMTIuMTM1IDEzLjk5NTMgMTE0LjM5OCAxMy45OTUzQzExNi41NDYgMTMuOTk1MyAxMTguMTg2IDE0Ljc4MDQgMTE5LjMxNyAxNi4zNTA3SDExOS4zODZWMTQuNDgwMkgxMjMuOTI0VjMwLjg5OTFDMTIzLjkyNCAzMy4yMDgzIDEyMy4yMiAzNS4wMDk2IDEyMS44MTEgMzYuMzAyOEMxMjAuMzc5IDM3LjY0MjEgMTE4LjI0MyAzOC4zMTE4IDExNS40MDMgMzguMzExOFpNMTE1LjMzNCAyNy40MDA1QzExNi43NDIgMjcuNDAwNSAxMTcuNzkzIDI2Ljk1MDIgMTE4LjQ4NiAyNi4wNDk2QzExOS4xNzkgMjUuMTQ5IDExOS41MjUgMjMuOTk0NCAxMTkuNTI1IDIyLjU4NTdDMTE5LjUyNSAyMS4yMDAyIDExOS4xNTUgMjAuMDU3MSAxMTguNDE2IDE5LjE1NjVDMTE3LjcwMSAxOC4yMzI4IDExNi42NjEgMTcuNzcwOSAxMTUuMjk5IDE3Ljc3MDlDMTE0LjA5OCAxNy43NzA5IDExMy4xMjggMTguMjA5NyAxMTIuMzg5IDE5LjA4NzJDMTExLjY3MyAxOS45NjQ3IDExMS4zMTYgMjEuMTQyNCAxMTEuMzE2IDIyLjYyMDRDMTExLjMxNiAyNC4xMjE0IDExMS42NzMgMjUuMjk5MSAxMTIuMzg5IDI2LjE1MzVDMTEzLjEyOCAyNi45ODQ5IDExNC4xMSAyNy40MDA1IDExNS4zMzQgMjcuNDAwNVpNMTM4LjE0NiAzMi4yNUMxMzcuOTE1IDMxLjk0OTggMTM3LjczIDMxLjI5MTcgMTM3LjU5MiAzMC4yNzU2SDEzNy41MjJDMTM3LjAxNCAzMS4wMzc2IDEzNi4zNjggMzEuNjI2NSAxMzUuNTgzIDMyLjA0MjJDMTM0Ljc5NyAzMi40NTc4IDEzMy43IDMyLjY2NTcgMTMyLjI5MiAzMi42NjU3QzEzMC40MjEgMzIuNjY1NyAxMjguOTIgMzIuMTkyMyAxMjcuNzg5IDMxLjI0NTVDMTI2LjY1NyAzMC4yOTg3IDEyNi4wOTEgMjguOTU5MyAxMjYuMDkxIDI3LjIyNzNDMTI2LjA5MSAyNS40MjYxIDEyNi43MTUgMjQuMTA5OCAxMjcuOTYyIDIzLjI3ODVDMTI5LjIwOSAyMi40MjQxIDEzMC45NjQgMjEuODM1MiAxMzMuMjI3IDIxLjUxMTlDMTM0Ljg5IDIxLjI4MSAxMzYuMDIxIDIxLjA1MDEgMTM2LjYyMiAyMC44MTkxQzEzNy4yMjIgMjAuNTY1MSAxMzcuNTIyIDIwLjEyNjQgMTM3LjUyMiAxOS41MDI5QzEzNy41MjIgMTguODU2MyAxMzcuMjY4IDE4LjM0ODIgMTM2Ljc2IDE3Ljk3ODdDMTM2LjI1MiAxNy41ODYyIDEzNS41MTMgMTcuMzg5OSAxMzQuNTQzIDE3LjM4OTlDMTMyLjM5NiAxNy4zODk5IDEzMS4yNTMgMTguMjIxMiAxMzEuMTE0IDE5Ljg4MzlIMTI2LjkyM0MxMjYuOTkyIDE4LjE5ODEgMTI3LjY3MyAxNi44MDEgMTI4Ljk2NyAxNS42OTI2QzEzMC4yNiAxNC41ODQxIDEzMi4xMyAxNC4wMjk5IDEzNC41NzggMTQuMDI5OUMxMzkuNTY2IDE0LjAyOTkgMTQyLjA2IDE2LjIxMjEgMTQyLjA2IDIwLjU3NjdWMjkuNjE3NEMxNDIuMDYgMzAuOTU2OCAxNDIuMjY4IDMxLjc3NjYgMTQyLjY4NCAzMi4wNzY4VjMyLjI1SDEzOC4xNDZaTTEzMy40MzUgMjkuMzc1QzEzNC43MjggMjkuMzc1IDEzNS43NDQgMjkuMDQwMSAxMzYuNDgzIDI4LjM3MDRDMTM3LjI0NSAyNy43MDA3IDEzNy42MjYgMjYuOTA0IDEzNy42MjYgMjUuOTgwM1YyMy4zMTMxQzEzNy4xMTggMjMuNjEzMyAxMzYuMDIxIDIzLjk1OTcgMTM0LjMzNiAyNC4zNTIzQzEzMi45OTYgMjQuNjUyNSAxMzIuMDQ5IDI0Ljk5ODkgMTMxLjQ5NSAyNS4zOTE1QzEzMC45NDEgMjUuNzYxIDEzMC42NjQgMjYuMzM4MyAxMzAuNjY0IDI3LjEyMzRDMTMwLjY2NCAyOC42MjQ1IDEzMS41ODggMjkuMzc1IDEzMy40MzUgMjkuMzc1Wk0xNDkuNjYyIDE0LjQ4MDJWMTYuOTA0OUgxNDkuNzY2QzE1MC45OSAxNC45NjUxIDE1Mi43NDUgMTMuOTk1MyAxNTUuMDMxIDEzLjk5NTNDMTU2Ljg1NSAxMy45OTUzIDE1OC4zMzMgMTQuNjE4OCAxNTkuNDY1IDE1Ljg2NThDMTYwLjU5NiAxNy4wODk3IDE2MS4xNjIgMTguNjgzMSAxNjEuMTYyIDIwLjY0NTlWMzIuMjVIMTU2LjQ1MVYyMS4zMzg3QzE1Ni40NTEgMjAuMzY4OCAxNTYuMTc0IDE5LjU4MzcgMTU1LjYyIDE4Ljk4MzNDMTU1LjA4OSAxOC4zODI5IDE1NC4zMzggMTguMDgyNyAxNTMuMzY4IDE4LjA4MjdDMTUyLjMyOSAxOC4wODI3IDE1MS40NjMgMTguNDYzNyAxNTAuNzcgMTkuMjI1N0MxNTAuMTAxIDE5Ljk4NzggMTQ5Ljc2NiAyMC45NjkyIDE0OS43NjYgMjIuMTcwMVYzMi4yNUgxNDUuMDU1VjE0LjQ4MDJIMTQ5LjY2MlpNMTc5LjE2OCAzMC4xMDI0QzE3Ny40MzYgMzEuODgwNSAxNzUuMjA4IDMyLjc2OTYgMTcyLjQ4MyAzMi43Njk2QzE2OS43NTggMzIuNzY5NiAxNjcuNTMgMzEuODgwNSAxNjUuNzk4IDMwLjEwMjRDMTY0LjA2NiAyOC4zMDEyIDE2My4yIDI2LjA2MTIgMTYzLjIgMjMuMzgyNEMxNjMuMiAyMC43MDM3IDE2NC4wNjYgMTguNDc1MiAxNjUuNzk4IDE2LjY5NzFDMTY3LjUzIDE0Ljg5NTkgMTY5Ljc1OCAxMy45OTUzIDE3Mi40ODMgMTMuOTk1M0MxNzUuMjA4IDEzLjk5NTMgMTc3LjQzNiAxNC44OTU5IDE3OS4xNjggMTYuNjk3MUMxODAuOSAxOC40NzUyIDE4MS43NjYgMjAuNzAzNyAxODEuNzY2IDIzLjM4MjRDMTgxLjc2NiAyNi4wNjEyIDE4MC45IDI4LjMwMTIgMTc5LjE2OCAzMC4xMDI0Wk0xNzIuNDgzIDI5LjE2NzFDMTczLjg5MiAyOS4xNjcxIDE3NC45ODkgMjguNjQ3NSAxNzUuNzc0IDI3LjYwODRDMTc2LjU4MiAyNi41NDYxIDE3Ni45ODYgMjUuMTM3NSAxNzYuOTg2IDIzLjM4MjRDMTc2Ljk4NiAyMS42Mjc0IDE3Ni41ODIgMjAuMjE4NyAxNzUuNzc0IDE5LjE1NjVDMTc0Ljk4OSAxOC4wOTQyIDE3My44OTIgMTcuNTYzMSAxNzIuNDgzIDE3LjU2MzFDMTcxLjA1MSAxNy41NjMxIDE2OS45NDMgMTguMDk0MiAxNjkuMTU4IDE5LjE1NjVDMTY4LjM3MyAyMC4xOTU2IDE2Ny45OCAyMS42MDQzIDE2Ny45OCAyMy4zODI0QzE2Ny45OCAyNS4xMzc1IDE2OC4zNzMgMjYuNTQ2MSAxNjkuMTU4IDI3LjYwODRDMTY5Ljk0MyAyOC42NDc1IDE3MS4wNTEgMjkuMTY3MSAxNzIuNDgzIDI5LjE2NzFaTTE5MC42MDcgMzIuNzY5NkMxODguMzY3IDMyLjc2OTYgMTg2LjU1NCAzMS45MjY3IDE4NS4xNjkgMzAuMjQwOUMxODMuNzgzIDI4LjUzMjEgMTgzLjA5IDI2LjI0NTkgMTgzLjA5IDIzLjM4MjRDMTgzLjA5IDIwLjYxMTMgMTgzLjc5NSAxOC4zNTk4IDE4NS4yMDMgMTYuNjI3OEMxODYuNjM1IDE0Ljg3MjggMTg4LjQ1OSAxMy45OTUzIDE5MC42NzYgMTMuOTk1M0MxOTIuODkzIDEzLjk5NTMgMTk0LjU2NyAxNC44NzI4IDE5NS42OTkgMTYuNjI3OEgxOTUuODAzVjcuNDgzMTJIMjAwLjUxNFYzMi4yNUgxOTUuOTc2VjI5LjkyOTJIMTk1LjkwN0MxOTQuNzUyIDMxLjgyMjggMTkyLjk4NSAzMi43Njk2IDE5MC42MDcgMzIuNzY5NlpNMTkxLjY0NiAyOC44MjA3QzE5My4wMzIgMjguODIwNyAxOTQuMDgyIDI4LjM0NzMgMTk0Ljc5OCAyNy40MDA1QzE5NS41MzcgMjYuNDUzNyAxOTUuOTA3IDI1LjE0OSAxOTUuOTA3IDIzLjQ4NjNDMTk1LjkwNyAxOS42OTkxIDE5NC41MzMgMTcuODA1NSAxOTEuNzg1IDE3LjgwNTVDMTkwLjUxNCAxNy44MDU1IDE4OS41NDUgMTguMzEzNiAxODguODc1IDE5LjMyOTdDMTg4LjIwNSAyMC4zNDU3IDE4Ny44NyAyMS42OTY3IDE4Ny44NyAyMy4zODI0QzE4Ny44NyAyNS4xMTQ0IDE4OC4xOTQgMjYuNDUzNyAxODguODQgMjcuNDAwNUMxODkuNTEgMjguMzQ3MyAxOTAuNDQ1IDI4LjgyMDcgMTkxLjY0NiAyOC44MjA3Wk0yMTEuOTI0IDMyLjc2OTZDMjA5LjA2IDMyLjc2OTYgMjA2LjgwOSAzMS44OTIxIDIwNS4xNjkgMzAuMTM3QzIwMy41MyAyOC4zNTg5IDIwMi43MSAyNi4wOTU4IDIwMi43MSAyMy4zNDc4QzIwMi43MSAyMC42OTIxIDIwMy41MyAxOC40NzUyIDIwNS4xNjkgMTYuNjk3MUMyMDYuODA5IDE0Ljg5NTkgMjA4LjkxIDEzLjk5NTMgMjExLjQ3NCAxMy45OTUzQzIxNC4yNjggMTMuOTk1MyAyMTYuNDI3IDE0Ljk2NTEgMjE3Ljk1MSAxNi45MDQ5QzIxOS40NzUgMTguODQ0NyAyMjAuMjM3IDIxLjQ0MjYgMjIwLjIzNyAyNC42OTg3SDIwNy4zNTJDMjA3LjUzNiAyNi4xMDc0IDIwOC4wMSAyNy4yMDQzIDIwOC43NzIgMjcuOTg5NEMyMDkuNTM0IDI4Ljc1MTUgMjEwLjU3MyAyOS4xMzI1IDIxMS44ODkgMjkuMTMyNUMyMTMuNjIxIDI5LjEzMjUgMjE0Ljc2NCAyOC40MDUxIDIxNS4zMTkgMjYuOTUwMkgyMTkuOTZDMjE5LjYxNCAyOC42MTI5IDIxOC43MzYgMjkuOTk4NSAyMTcuMzI4IDMxLjEwNjlDMjE1LjkxOSAzMi4yMTU0IDIxNC4xMTggMzIuNzY5NiAyMTEuOTI0IDMyLjc2OTZaTTIxMS41NDMgMTcuNjMyM0MyMDkuMjU3IDE3LjYzMjMgMjA3Ljg4MyAxOC45MDI0IDIwNy40MjEgMjEuNDQyNkgyMTUuMzE5QzIxNS4yNDkgMjAuMzExMSAyMTQuODY4IDE5LjM5ODkgMjE0LjE3NSAxOC43MDYyQzIxMy40ODMgMTcuOTkwMyAyMTIuNjA1IDE3LjYzMjMgMjExLjU0MyAxNy42MzIzWk0yMjkuNjIzIDMyLjc2OTZDMjI3LjA4MiAzMi43Njk2IDIyNS4wOTYgMzIuMjE1NCAyMjMuNjY1IDMxLjEwNjlDMjIyLjIzMyAyOS45NzU0IDIyMS40NDggMjguNDM5NyAyMjEuMzA5IDI2LjQ5OTlIMjI1LjY3NEMyMjUuOTc0IDI4LjQ2MjggMjI3LjI2NyAyOS40NDQyIDIyOS41NTMgMjkuNDQ0MkMyMzAuNTkyIDI5LjQ0NDIgMjMxLjM4OSAyOS4yNTk1IDIzMS45NDMgMjguODlDMjMyLjUyMSAyOC41MjA1IDIzMi44MDkgMjguMDI0IDIzMi44MDkgMjcuNDAwNUMyMzIuODA5IDI3LjE2OTYgMjMyLjc2MyAyNi45NjE4IDIzMi42NzEgMjYuNzc3QzIzMi42MDEgMjYuNTkyMyAyMzIuNDYzIDI2LjQzMDYgMjMyLjI1NSAyNi4yOTIxQzIzMi4wNyAyNi4xMzA0IDIzMS44OTcgMjYuMDAzNCAyMzEuNzM2IDI1LjkxMTFDMjMxLjU5NyAyNS44MTg3IDIzMS4zNDMgMjUuNzI2MyAyMzAuOTczIDI1LjYzNEMyMzAuNjA0IDI1LjU0MTYgMjMwLjMxNSAyNS40NzIzIDIzMC4xMDcgMjUuNDI2MUMyMjkuOTIzIDI1LjM3OTkgMjI5LjU4OCAyNS4zMjIyIDIyOS4xMDMgMjUuMjUyOUMyMjguNjQxIDI1LjE2MDYgMjI4LjMxOCAyNS4wOTEzIDIyOC4xMzMgMjUuMDQ1MUMyMjcuMTYzIDI0Ljg2MDMgMjI2LjM2NiAyNC42NzU2IDIyNS43NDMgMjQuNDkwOUMyMjUuMTQzIDI0LjI4MyAyMjQuNTA4IDIzLjk5NDQgMjIzLjgzOCAyMy42MjQ5QzIyMy4xNjggMjMuMjMyMyAyMjIuNjYgMjIuNzEyNyAyMjIuMzE0IDIyLjA2NjFDMjIxLjk5IDIxLjM5NjQgMjIxLjgyOSAyMC41OTk4IDIyMS44MjkgMTkuNjc2QzIyMS44MjkgMTcuODI4NiAyMjIuNDk4IDE2LjQyIDIyMy44MzggMTUuNDUwMUMyMjUuMiAxNC40ODAyIDIyNi45NDQgMTMuOTk1MyAyMjkuMDY4IDEzLjk5NTNDMjMxLjM1NCAxMy45OTUzIDIzMy4xNDQgMTQuNTI2NCAyMzQuNDM3IDE1LjU4ODZDMjM1Ljc1NCAxNi42Mjc4IDIzNi41MDQgMTguMDU5NiAyMzYuNjg5IDE5Ljg4MzlIMjMyLjQyOEMyMzIuMjQ0IDE4LjE1MTkgMjMxLjEgMTcuMjg2IDIyOC45OTkgMTcuMjg2QzIyOC4wNTIgMTcuMjg2IDIyNy4zMDIgMTcuNDU5MiAyMjYuNzQ3IDE3LjgwNTVDMjI2LjIxNiAxOC4xNTE5IDIyNS45NTEgMTguNjM2OSAyMjUuOTUxIDE5LjI2MDRDMjI1Ljk1MSAxOS40NjgyIDIyNS45ODUgMTkuNjY0NSAyMjYuMDU1IDE5Ljg0OTJDMjI2LjE0NyAyMC4wMTA5IDIyNi4yODYgMjAuMTYxIDIyNi40NyAyMC4yOTk1QzIyNi42NzggMjAuNDE1IDIyNi44NzUgMjAuNTE4OSAyMjcuMDU5IDIwLjYxMTNDMjI3LjI0NCAyMC42ODA2IDIyNy41MSAyMC43NjE0IDIyNy44NTYgMjAuODUzOEMyMjguMjAyIDIwLjkyMzEgMjI4LjUwMyAyMC45OTIzIDIyOC43NTcgMjEuMDYxNkMyMjkuMDExIDIxLjEwNzggMjI5LjM1NyAyMS4xNzcxIDIyOS43OTYgMjEuMjY5NEMyMzAuMjM0IDIxLjMzODcgMjMwLjU4MSAyMS4zOTY0IDIzMC44MzUgMjEuNDQyNkMyMzEuNTc0IDIxLjYwNDMgMjMyLjE3NCAyMS43NTQ0IDIzMi42MzYgMjEuODkyOUMyMzMuMTIxIDIyLjAwODQgMjMzLjY3NSAyMi4yMTYyIDIzNC4yOTkgMjIuNTE2NEMyMzQuOTIyIDIyLjc5MzYgMjM1LjQwNyAyMy4xMTY5IDIzNS43NTQgMjMuNDg2M0MyMzYuMTIzIDIzLjgzMjcgMjM2LjQzNSAyNC4zMTc3IDIzNi42ODkgMjQuOTQxMkMyMzYuOTY2IDI1LjU0MTYgMjM3LjEwNSAyNi4yNDU5IDIzNy4xMDUgMjcuMDU0MkMyMzcuMTA1IDI4LjgwOTIgMjM2LjQxMiAzMC4yMDYzIDIzNS4wMjYgMzEuMjQ1NUMyMzMuNjY0IDMyLjI2MTUgMjMxLjg2MyAzMi43Njk2IDIyOS42MjMgMzIuNzY5NloiIGZpbGw9ImJsYWNrIi8+Cjwvc3ZnPgo=)](/)
+
+[Home](/)
+
+Product
+
+Resources
+
+Company
+
+Contact us
+
+[Network](/blog/?interval=3&category=Network)
+
+11 min read
+
+# TRON: Roadmap and Beyond
+
+Revisiting TRON!
+
+![](data:image/svg+xml;charset=utf-8,%3Csvg%20height='675'%20width='1200'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%3E%3C/svg%3E)
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACTUlEQVR42iWS204aURiF9xzYh9l7zwnEExo1aIoKwsAcgAERtIgwFIVaCCqosYkXNu0rNN406YXpRds0fY0mveyjdcRk5b/7slbW+oEhiC8yBTEuSIuCtCxIq2JkXYJJGb2SUQaSPKYFTG3MCogWoGJBxWVqSTNBiOmCEBWleVFeEuXEDNsQ5E0JpmS0B0nIeJgVES0h6mPuY7ZPtYYWraozOCZHdCDEAIgDYRmIK4K0o/A0VnIKy8vYh7RG1BpmB4g1mXGixTpqtMXNuqKCBYSbtnO4l31TLLetQs/xgozV27Meuqe3ldrH4/bp8tqBTFqKFlC9jXgLsQ7VA2a0uQkSEHfcYjvvBJbdy9ut1O7IK+/PLw1S6auMNU3n+osrLcj6avT3/Ycf07vHVvcqsT6g+oCZYFWGXbfYL/mjWn3aOBr71ft2cOmWPp0EN5ZTF1Eb81NFO0P822jy5/HLv++/Pjc751gdKwbYgHhYq3etQpDODix7WHAbCwmf6Ydq9DXTW5h3MO9h9Qyy96vJv1+ffl7fTZfWJlp8gnWQhPi8XB351aFXGtreIJPzCC9CpQKVOqTHiAWInSH1HdHH2tzT6OphO3uhxm9pbEoMkJTgOhC3RCklyjuSnI0glzCf8Aqiz/XO4D5Wh0S7pOYFMaZ87oZGr4k5ISbYlNEB4s3E2lvbHTped2vbDVfFrDLb5ijsNnTG6jnRxkQP3cK04Z0+wwbYktFuBOcU7uqmzTSH6+EzOZiVMathXkcsTN5F/MV8RPTLkA+lmBeK8R8tn2UlG6heCAAAAABJRU5ErkJggg==)![Cover
+Image](/static/3286a0486b39bb731312894dff1903e6/bb8ee/TRON_COVER_414e364c7b.png)![Cover
+Image](/static/3286a0486b39bb731312894dff1903e6/bb8ee/TRON_COVER_414e364c7b.png)
+
+Published on
+
+7 Apr, 2024
+
+Copy
+Link[](https://twitter.com/intent/tweet?text=Check%20out%20this%20blog%20by%20Luganodes%20-%20%22TRON%3A%20Roadmap%20and%20Beyond%22&url=)[](https://www.linkedin.com/sharing/share-
+offsite/?url=&title=TRON%3A%20Roadmap%20and%20Beyond&summary=Check%20out%20this%20blog%20by%20Luganodes%20-%20%22TRON%3A%20Roadmap%20and%20Beyond%22)
+
+## Introduction
+
+TRON's mission is to decentralize the Internet with blockchain technology and
+decentralized applications (dApps). Entrepreneur Justin Sun is the founder,
+and he, along with the TRON foundation, led the platform's launch in September
+2017. This drive for decentralization has remained the core of Tron's mission
+and attests to its success. TRONSCAN data recently reported that total value
+locked (TVL) in the TRON network hit historic highs passing $25 billion,
+making it the second-largest blockchain in terms of TVL.
+
+![image \(132\).png](https://better-
+triumph-f08c8a30a5.media.strapiapp.com/image_132_51b776d6c2.png)
+
+Besides helping to build a decentralized web with the number of TRON users
+surpassing 222 million, another goal is to create a platform for content
+creators to distribute their creations without intermediaries. So, although
+TRON supports a broader range of applications, its primary market is content
+creators. That is why many applications on the platform involve games and
+video streaming.
+
+Furthermore, TRON did not introduce any revolutionary technology until
+recently, so the team has had more time to focus on delivering a high-quality
+user experience (UX). Decentralization, content creation, and UX play vital
+roles in TRON's success, and this article will cover those topics, some of its
+recent developments, and take a look at TRON's architecture.
+
+## Content Creators on TRON
+
+TRON is unique in that it empowers content creators. Moreover, it has a fee-
+free transaction system with high throughput, which makes it appealing to
+developers and users alike. However, the benefit to creators is that by
+keeping transactions free of fees, users can directly pay content creators to
+access their applications. TRON developed its networks native utility TRX
+token primarily to compensate content creators while empowering them to own
+their projects.
+
+## What Is the networks native utility TRX Token?
+
+TRON's native utility token is TRONIX (known as TRX), and it entered the
+market through an initial coin offering (ICO) in 2017. This fundamental unit
+of accounts powers the applications and transactions on the TRON blockchain.
+Furthermore, all values derive from TRX, with the smallest denomination being
+"sun," named after founder Justin Sun.
+
+## Latest News on TRON
+
+Recently, on-chain analytics provider IntoTheBlock integrated TRON into its
+Market Intelligence Suite, and yesterday, TRONSCAN tweeted that the total
+number of accounts exceeded 222 million.
+
+> 🎉🎉🎉Congratulations!!!
+> [#TRON](https://twitter.com/hashtag/TRON?src=hash&ref_src=twsrc%5Etfw)’s
+> total accounts have reached 222,047,382, exceeding 222 million!
+> [#TRON](https://twitter.com/hashtag/TRON?src=hash&ref_src=twsrc%5Etfw)
+> ecosystem has developed rapidly and continues to make efforts to
+> decentralize the web.  
+>  
+>  🥰Appreciation to all
+> [#TRONICS](https://twitter.com/hashtag/TRONICS?src=hash&ref_src=twsrc%5Etfw)!
+> [pic.twitter.com/9K86zcC0ZQ](https://t.co/9K86zcC0ZQ)
+>
+> — TRONSCAN (@TRONSCAN_ORG) [April 4,
+> 2024](https://twitter.com/TRONSCAN_ORG/status/1775753987746320394?ref_src=twsrc%5Etfw)
+
+Additionally, TRONDAO launched [HackaTRON Season
+6](https://trons6.devpost.com/), which builds on the momentum of earlier
+seasons. HackaTRON invites developers, designers, and entrepreneurs passionate
+about making a decentralized web and looking to showcase their talents. This
+year's stakes have increased to a total prize pool of $650,000, and the
+deadline for entry is May 7, 2024.
+
+## Bitcoin Layer 2 and Ordinals
+
+In February, Justin Sun tweeted that he wanted to "make Bitcoin fun again" by
+unveiling Tron's "Bitcoin Layer-2 Solution and Road Map." The goal is to
+interweave various tokens in the TRON network with the Bitcoin network and its
+Layer 2s, like Bitcoin Ordinals.
+
+Ordinals are the latest way to create NFTs on the Bitcoin blockchain. Although
+Bitcoin NFTs have been introduced previously, using Layer 2s on top of Bitcoin
+to enable NFTs brings a different architecture to the mix.
+
+Notably, integrating TRON with Bitcoin grants access to over $55 billion to
+inject vitality into Bitcoin. TRON's roadmap is as follows:
+
+![TRON 2.png](https://better-
+triumph-f08c8a30a5.media.strapiapp.com/TRON_2_d0578a2880.png)
+
+## Road Map Stage α
+
+With cross-chain connections between TRON and Bitcoin already available and
+exchanges already facilitating token conversions, if the roadmap goes as
+planned, there should be an increase in Bitcoin-based assets bridged to TRON.
+Integration efforts will continue via cross-chain technology, with more TRON
+tokens such as TRX, USDT, USDC, BTT, SUN, and others interacting seamlessly
+with the Bitcoin network.
+
+TRON DAO's venture into Bitcoin Layer 2's includes investing in UX-friendly
+tools and a wallet to support BRC-20 tokens. BRC-20 is the standard for
+fungible tokens on Bitcoin.
+
+## Road Map Stage β
+
+TRON will collaborate with various Bitcoin Layer 2s in this stage while
+gradually building more partnerships. These collaborations will allow TRON
+users to participate in restaking initiatives across Bitcoin Layer-2 networks.
+TRON's diverse asset portfolio will also help spur the growth of the Bitcoin
+Layer 2 ecosystem.
+
+## Road Map Stage γ
+
+This ambitious roadmap concludes with a Layer 2 solution integrating TRON,
+BTTC, and the Bitcoin network. BTTC is the BitTorrent Chain, a blockchain
+scaling solution and cross-chain interoperability protocol on TRON. It
+supports the cross-transfer of assets via the BTTC Bridge.
+
+This solution offers a Bitcoin-compatible protocol that brings the low fees
+and speed of Proof of Stake (PoS) mechanisms together with the robust security
+of Proof of Work (PoW).
+
+TRON's Bitcoin Layer-2 solution aims to merge its $55 billion market with
+Bitcoin to boost the synergies and interoperability between these two giants.
+
+> [#TRON](https://twitter.com/hashtag/TRON?src=hash&ref_src=twsrc%5Etfw)
+> Announces Its Bitcoin Layer 2 Solution and Road Map  
+>  
+> Today is a significant day for
+> [#TRON](https://twitter.com/hashtag/TRON?src=hash&ref_src=twsrc%5Etfw).  
+>  
+> Let's make
+> [#Bitcoin](https://twitter.com/hashtag/Bitcoin?src=hash&ref_src=twsrc%5Etfw)
+> fun again!  
+>  
+> As the protocol behind the world's largest stablecoin market, boasting $55
+> billion, and the decentralized finance Total Value Locked (TVL) of $22…
+>
+> — H.E. Justin Sun 孙宇晨 (@justinsuntron) [February 15,
+> 2024](https://twitter.com/justinsuntron/status/1758034850798346517?ref_src=twsrc%5Etfw)
+
+## TRON's Architecture
+
+Moving onto TRON's architecture, it consists of a three-layered system:
+
+  1. Core Layer The core layer has several modules, including smart contracts, account management, and consensus.
+
+  2. Storage Layer TRON has a distributed storage protocol with Block Storage and State Storage.
+
+  3. Application Layer Developers can build a wide range of dApps on the application layer.
+
+## TRON Virtual Machine
+
+TRON developed its own stack-based virtual machine, the TRON Virtual Machine
+(TVM). Originally, TVM forked from the Ethereum Virtual Machine (EVM), so it's
+a Turing complete virtual machine that is EVM compatible.
+
+Being EVM compatible allows smart contracts on the EVM to be executable on
+TRON'S virtual machine. Thus, developers can code smart contracts as they
+would on Ethereum with Solidity or other high-level blockchain languages.
+
+The sequence works as follows: Developers use the TVM to execute smart
+contracts on the network. The compiler translates Solidity smart contract code
+into executable bytecode on the TVM. The TVM processes data via opcodes,
+similar to the EVM's stack-based logic. However, the TVM uses " Energy "
+instead of the Gas mechanism on Ethereum.
+
+![TRON 3.png](https://better-
+triumph-f08c8a30a5.media.strapiapp.com/TRON_3_094eed23d3.png)
+
+## TRON Smart Contracts
+
+Smart contracts on TRON facilitate, verify, and enforce the performance of
+transactions or agreements. As noted, they're compiled into bytecode, and the
+TVM reads the compiled bytecode.
+
+Once the smart contracts are deployed, API calls can trigger their functions.
+Note that state-changing functions require Energy, while read-only functions
+execute without it.
+
+## What Is TRON Solidity?
+
+In the context of TRON, Solidity is a contract-oriented programming language
+for creating smart contracts on the TRON network. It's similar to Ethereum's
+Solidity for creating dApps and executing smart contracts.
+
+Features of TRON Solidity include:
+
+  1. Object Oriented: TRON Solidity is an object-oriented, high-level language for developers to create smart contracts.
+
+  2. Efficient Execution: Solidity on TRON uses a stack-based virtual machine for smart contract execution. Since it supports various smart contract applications, it is a versatile tool for those looking to build on TRON.
+
+  3. Developer Friendly: The syntax is similar to JavaScript, which makes development more accessible for those familiar with web development.
+
+To sum up, TRON's version of Solidity modifies the original code to support
+TRX and sun units while leaving the remaining language syntax compatible with
+Solidity. Thus, the TVM is nearly 100% compatible with the EVM. Once again,
+TRON focuses on UX. Their developer-friendly environment reduces costs and
+makes interfaces for contract deployment more convenient.
+
+## TRON DAO
+
+Tron's TRX holders govern the DAO and get to vote on proposals such as
+electing representatives, allocating resources to new projects, and
+opportunities to change the TRON protocol itself.
+
+## Delegated Proof-of-Stake
+
+TRON uses a Delegated Proof-of-Stake (DPoS) consensus mechanism to ensure
+efficient transaction processing, community participation in governance, and a
+balance between scalability and decentralization.
+
+Like other PoS networks, users stake the native TRX token to get rewards. TRX
+holders can vote for candidates by generating a voting transaction. They can
+also apply their funds to elect network validators and delegates. Elected
+delegates get to make impactful decisions that affect the network, while
+voters select network validators that change every six hours (see below).
+
+## Node Types on TRON
+
+TRON uses three types of nodes:
+
+  1. Super Node These nodes are also called Super Representatives. They propose new blocks and verify and record transactions in them.
+
+  2. Full Node These nodes control on-chain data, storing and synchronizing all blocks and transactions. Full Nodes also support the TRON network by providing data and API services to other nodes.
+
+  3. Solidity Node A Solidity node specializes in querying blockchain data and synchronizing data from Full Nodes.
+
+## Super Representatives
+
+[Super Representatives](https://developers.tron.network/docs/super-
+representatives) are the TRON network's key block producers and are elected by
+the community. They run a full node on the TRON network and play a critical
+role in its operation by validating transactions, securing the network, and
+maintaining the transaction ledger. They also can participate in governance
+and receive block and voting rewards.
+
+Anyone on TRON can apply to become a Super Representative candidate, but the
+election process is competitive. Further, to be eligible for the election,
+they must first put up 9999 TRX.
+
+> Luganodes has been a top 13 [TRON Super Representative since
+> 2023](https://luganodes.com/blog/TRONSuperRep).
+
+TRX holders elect these Super Representatives, and these voters must stake
+tokens to participate. TRX holders continuously cast votes to elect Super
+Representatives from a pool of candidates. The TRON network selects the top 27
+Super Representatives based on the most votes from a pool of 127 candidates.
+Elections occur every six hours to help ensure decentralization and community
+involvement in governance. Participants who vote for Super Representatives
+also receive voting rewards.
+
+Candidates who don't make the top 27 but rank between 28th and 127th place are
+designated Super Representative Partners. Partners do not participate in
+producing blocks or packaging transactions, but they do receive voting
+rewards. Similarly, those who vote for Super Representative Partners also
+receive voting rewards.
+
+Before being allowed to vote for Super Representatives, participants must
+obtain TRON Power (or voting rights) by staking TRX. Staking TRX earns voting
+rights in addition to Energy. The ratio is one-to-one, so accounts that stake
+1 TRX will get 1 TRON Power. Likewise, an account that unstakes its TRX loses
+the corresponding amount of TRON Power.
+
+As mentioned, votes get counted every six hours. Thus, Super Representatives
+and their partners change every six hours as well.
+
+## TRX Rewards
+
+Each block produced on the network earns TRX rewards for the Super
+Representative and Super Representative Partners. The rewards are divided as
+follows:
+
+  1. Block Reward:
+
+The TRON network rewards 16 TRX to the Super Representative who produces the
+block. Since the network generates a block every three seconds, 460,800 TRX
+can be generated in one day.
+
+  2. Vote Reward:
+
+The TRON network also rewards 160 TRX to Super Representatives and their
+partners with each block produced, for a total of 4,608,000 TRX in one day.
+These representatives share the 160 TRX in proportion to their votes.
+Furthermore, the voting rewards obtained by the Super Representatives and
+Super Representative partners will also be distributed to voters based on
+their voting ratio.
+
+The Super Representative Brokerage Ratio is deducted from the rewards of Super
+Representatives and Super Representative partners. The default ratio is 20%.
+Thus, 20% of all the rewards generated by voting go to Super Representatives
+or their partners as commission compensation. Super Representatives and their
+partners can check and modify the brokerage ratio through Tron's
+"updateBrokerage" interface.
+
+With 27 alternating Super Representatives producing blocks and a brokerage
+ratio of 20%, a Super Representative's daily block reward is 3,413 TRX. After
+deducting their commission, they will distribute the remaining rewards to
+voters based on their voting ratio.
+
+## Summary
+
+TRON is a decentralized blockchain transforming digital content distribution,
+consumption, and sharing. It's a home for entertainment applications,
+providing creators with a platform to publish, store, and own their content
+while directly interacting with consumers.
+
+TRON wants to expand its user base by appealing to those seeking an
+alternative blockchain with lower fees and quicker transaction speeds than
+Ethereum. With transaction fees as low as $0.000005, it can handle 2,000
+transactions per second (TPS).
+
+Content creators concerned with the censorship so prominent on centralized
+content platforms can find a home here, as the TRON blockchain is set up for
+creators to share content and get paid for their contributions.
+
+TRON competes with other projects vying to be the blockchain of choice for
+developers desiring a scalable, cost-effective blockchain, such as Ethereum
+and Cardano. And TRON has shown good traction. It’s continuously growing and
+its ambitious roadmap to integrate with Layer-2 solutions on Bitcoin has set
+it on an even more progressive path.
+
+If you hold the TRX token, you can enhance your portfolio by staking to earn
+rewards. Leverage Luganodes' institutional-grade infrastructure to stake your
+holdings and create a passive income. Staking with us ensures ease of use,
+support, and safety while you earn, and also contribute to the security of the
+TRON chain.
+
+Learn how to stake TRX tokens using this
+[guide](www.luganodes.com/blog/TRONSG/). You can learn more about staking on
+our
+[website](https://www.luganodes.com/?utm_source=Blog&utm_medium=article&utm_campaign=Blog%20-%20article%20-%20Footer),
+and feel free to [contact
+us](https://www.luganodes.com/#signup?utm_source=Blog&utm_medium=article&utm_campaign=Blog%20-%20article%20-%20Footer)
+for any queries!
+
+## About Luganodes
+
+Luganodes is a world-class, Swiss-operated, non-custodial blockchain
+infrastructure provider that has rapidly gained recognition in the industry
+for offering institutional-grade services. It was born out of the Lugano Plan
+B Program, an initiative driven by Tether and the City of Lugano. Luganodes
+maintains an exceptional 99.9% uptime with round-the-clock monitoring by SRE
+experts. With support for 40+ PoS networks, it ranks among the top validators
+on Polygon, Polkadot, Sui, and Tron. Luganodes prioritizes security and
+compliance, holding the distinction of being one of the first staking
+providers to adhere to all SOC 2 Type II, GDPR, and ISO 27001 standards as
+well as offering Chainproof insurance to institutional clients.
+
+![](data:image/svg+xml;charset=utf-8,%3Csvg%20height='269'%20width='632'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%3E%3C/svg%3E)
+
+![Line
+pattern](/static/c1a2eb9200e441157c01110f2f463004/3d614/linepattern3.svg)![Line
+pattern](/static/c1a2eb9200e441157c01110f2f463004/3d614/linepattern3.svg)
+
+[![White
+logo](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQ0IiBoZWlnaHQ9IjQzIiB2aWV3Qm94PSIwIDAgMjQ0IDQzIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMjAuNTA0OSAzMi4zMTI1SDIwLjc2NDlMMjAuNzc1NiAzMi4wNDg3TDIxLjc2MjQgNy43NzI1MkwzNC4xNjIxIDIxLjAxMTZMMjYuNjA5IDMxLjg3ODdMMjYuMzA3NSAzMi4zMTI1SDI2LjgzMDRINDIuMDkyOUg0Mi4zNjQ4TDQyLjM2MzggMzIuMDM2M0w0Mi4zMTY3IDE5LjQ3NTdMNTEuNjQ4OCAzMi4yMDE3TDUxLjczIDMyLjMxMjVINTEuODY2SDU1LjcxMDVINTYuMjVMNTUuOTI3NyAzMS44NzNMNDEuMTAwNSAxMS42NTIxTDQwLjg3NzMgMTEuMzQ3OUw0MC42NjIgMTEuNjU3OEwzNi4yOTEyIDE3Ljk0N0wyMC40ODE2IDEuMDY0NDJMMjAuMjQ1NyAwLjgxMjVMMjAuMDU4NiAxLjEwMzY0TDAuMjczNTQxIDMxLjg4NjlMMCAzMi4zMTI1SDAuNTAwMzM2SDIwLjUwNDlaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNNjkuOTY3NiAzMi4yNVY3LjQ4MzEySDc0Ljk5MDNWMjguMDU4N0g4Ni42MjlWMzIuMjVINjkuOTY3NlpNMTA0LjUyNyAzMi4yNUg5OS45ODk2VjMwLjE3MTdIOTkuODg1N0M5OS4yMzkxIDMxLjA0OTIgOTguNTIzMyAzMS42OTU4IDk3LjczODEgMzIuMTExNEM5Ni45NzYgMzIuNTI3MSA5NS45OTQ2IDMyLjczNDkgOTQuNzkzOCAzMi43MzQ5QzkyLjg1NCAzMi43MzQ5IDkxLjM0MTQgMzIuMTU3NiA5MC4yNTYxIDMxLjAwM0M4OS4xNzA3IDI5Ljg0ODQgODguNjI4IDI4LjI4OTYgODguNjI4IDI2LjMyNjdWMTQuNDgwMkg5My4zMDQzVjI1LjUzQzkzLjMwNDMgMjcuNjc3NyA5NC4yODU3IDI4Ljc1MTUgOTYuMjQ4NiAyOC43NTE1Qzk3LjMzNCAyOC43NTE1IDk4LjIgMjguMzgyIDk4Ljg0NjUgMjcuNjQzQzk5LjQ5MzEgMjYuOTA0IDk5LjgxNjQgMjUuOTM0MiA5OS44MTY0IDI0LjczMzNWMTQuNDgwMkgxMDQuNTI3VjMyLjI1Wk0xMTUuNDAzIDM4LjMxMThDMTEzLjAwMSAzOC4zMTE4IDExMS4wNzMgMzcuODI2OSAxMDkuNjE4IDM2Ljg1N0MxMDguMTg2IDM1Ljg4NzEgMTA3LjM0NCAzNC41MjQ2IDEwNy4wOSAzMi43Njk2SDExMS43NjZDMTEyLjIyOCAzNC4wODU5IDExMy40MTcgMzQuNzQ0IDExNS4zMzQgMzQuNzQ0QzExNy45NjYgMzQuNzQ0IDExOS4yODIgMzMuNTA4NiAxMTkuMjgyIDMxLjAzNzZWMjkuMDk3OUgxMTkuMTc5QzExNy45NTUgMzAuNDgzNCAxMTYuNDA3IDMxLjE3NjIgMTE0LjUzNyAzMS4xNzYyQzExMi40MzUgMzEuMTc2MiAxMTAuNiAzMC40MDI2IDEwOS4wMjkgMjguODU1NEMxMDcuNDgyIDI3LjMwODIgMTA2LjcwOSAyNS4yNTI5IDEwNi43MDkgMjIuNjg5NkMxMDYuNzA5IDIwLjA1NzEgMTA3LjQyNCAxNy45NTU2IDEwOC44NTYgMTYuMzg1M0MxMTAuMjg4IDE0Ljc5MTkgMTEyLjEzNSAxMy45OTUzIDExNC4zOTggMTMuOTk1M0MxMTYuNTQ2IDEzLjk5NTMgMTE4LjE4NiAxNC43ODA0IDExOS4zMTcgMTYuMzUwN0gxMTkuMzg2VjE0LjQ4MDJIMTIzLjkyNFYzMC44OTkxQzEyMy45MjQgMzMuMjA4MyAxMjMuMjIgMzUuMDA5NiAxMjEuODExIDM2LjMwMjhDMTIwLjM3OSAzNy42NDIxIDExOC4yNDMgMzguMzExOCAxMTUuNDAzIDM4LjMxMThaTTExNS4zMzQgMjcuNDAwNUMxMTYuNzQyIDI3LjQwMDUgMTE3Ljc5MyAyNi45NTAyIDExOC40ODYgMjYuMDQ5NkMxMTkuMTc5IDI1LjE0OSAxMTkuNTI1IDIzLjk5NDQgMTE5LjUyNSAyMi41ODU3QzExOS41MjUgMjEuMjAwMiAxMTkuMTU1IDIwLjA1NzEgMTE4LjQxNiAxOS4xNTY1QzExNy43MDEgMTguMjMyOCAxMTYuNjYxIDE3Ljc3MDkgMTE1LjI5OSAxNy43NzA5QzExNC4wOTggMTcuNzcwOSAxMTMuMTI4IDE4LjIwOTcgMTEyLjM4OSAxOS4wODcyQzExMS42NzMgMTkuOTY0NyAxMTEuMzE2IDIxLjE0MjQgMTExLjMxNiAyMi42MjA0QzExMS4zMTYgMjQuMTIxNCAxMTEuNjczIDI1LjI5OTEgMTEyLjM4OSAyNi4xNTM1QzExMy4xMjggMjYuOTg0OSAxMTQuMTEgMjcuNDAwNSAxMTUuMzM0IDI3LjQwMDVaTTEzOC4xNDYgMzIuMjVDMTM3LjkxNSAzMS45NDk4IDEzNy43MyAzMS4yOTE3IDEzNy41OTIgMzAuMjc1NkgxMzcuNTIyQzEzNy4wMTQgMzEuMDM3NiAxMzYuMzY4IDMxLjYyNjUgMTM1LjU4MyAzMi4wNDIyQzEzNC43OTcgMzIuNDU3OCAxMzMuNyAzMi42NjU3IDEzMi4yOTIgMzIuNjY1N0MxMzAuNDIxIDMyLjY2NTcgMTI4LjkyIDMyLjE5MjMgMTI3Ljc4OSAzMS4yNDU1QzEyNi42NTcgMzAuMjk4NyAxMjYuMDkxIDI4Ljk1OTMgMTI2LjA5MSAyNy4yMjczQzEyNi4wOTEgMjUuNDI2MSAxMjYuNzE1IDI0LjEwOTggMTI3Ljk2MiAyMy4yNzg1QzEyOS4yMDkgMjIuNDI0MSAxMzAuOTY0IDIxLjgzNTIgMTMzLjIyNyAyMS41MTE5QzEzNC44OSAyMS4yODEgMTM2LjAyMSAyMS4wNTAxIDEzNi42MjIgMjAuODE5MUMxMzcuMjIyIDIwLjU2NTEgMTM3LjUyMiAyMC4xMjY0IDEzNy41MjIgMTkuNTAyOUMxMzcuNTIyIDE4Ljg1NjMgMTM3LjI2OCAxOC4zNDgyIDEzNi43NiAxNy45Nzg3QzEzNi4yNTIgMTcuNTg2MiAxMzUuNTEzIDE3LjM4OTkgMTM0LjU0MyAxNy4zODk5QzEzMi4zOTYgMTcuMzg5OSAxMzEuMjUzIDE4LjIyMTIgMTMxLjExNCAxOS44ODM5SDEyNi45MjNDMTI2Ljk5MiAxOC4xOTgxIDEyNy42NzMgMTYuODAxIDEyOC45NjcgMTUuNjkyNkMxMzAuMjYgMTQuNTg0MSAxMzIuMTMgMTQuMDI5OSAxMzQuNTc4IDE0LjAyOTlDMTM5LjU2NiAxNC4wMjk5IDE0Mi4wNiAxNi4yMTIxIDE0Mi4wNiAyMC41NzY3VjI5LjYxNzRDMTQyLjA2IDMwLjk1NjggMTQyLjI2OCAzMS43NzY2IDE0Mi42ODQgMzIuMDc2OFYzMi4yNUgxMzguMTQ2Wk0xMzMuNDM1IDI5LjM3NUMxMzQuNzI4IDI5LjM3NSAxMzUuNzQ0IDI5LjA0MDEgMTM2LjQ4MyAyOC4zNzA0QzEzNy4yNDUgMjcuNzAwNyAxMzcuNjI2IDI2LjkwNCAxMzcuNjI2IDI1Ljk4MDNWMjMuMzEzMUMxMzcuMTE4IDIzLjYxMzMgMTM2LjAyMSAyMy45NTk3IDEzNC4zMzYgMjQuMzUyM0MxMzIuOTk2IDI0LjY1MjUgMTMyLjA0OSAyNC45OTg5IDEzMS40OTUgMjUuMzkxNUMxMzAuOTQxIDI1Ljc2MSAxMzAuNjY0IDI2LjMzODMgMTMwLjY2NCAyNy4xMjM0QzEzMC42NjQgMjguNjI0NSAxMzEuNTg4IDI5LjM3NSAxMzMuNDM1IDI5LjM3NVpNMTQ5LjY2MiAxNC40ODAyVjE2LjkwNDlIMTQ5Ljc2NkMxNTAuOTkgMTQuOTY1MSAxNTIuNzQ1IDEzLjk5NTMgMTU1LjAzMSAxMy45OTUzQzE1Ni44NTUgMTMuOTk1MyAxNTguMzMzIDE0LjYxODggMTU5LjQ2NSAxNS44NjU4QzE2MC41OTYgMTcuMDg5NyAxNjEuMTYyIDE4LjY4MzEgMTYxLjE2MiAyMC42NDU5VjMyLjI1SDE1Ni40NTFWMjEuMzM4N0MxNTYuNDUxIDIwLjM2ODggMTU2LjE3NCAxOS41ODM3IDE1NS42MiAxOC45ODMzQzE1NS4wODkgMTguMzgyOSAxNTQuMzM4IDE4LjA4MjcgMTUzLjM2OCAxOC4wODI3QzE1Mi4zMjkgMTguMDgyNyAxNTEuNDYzIDE4LjQ2MzcgMTUwLjc3IDE5LjIyNTdDMTUwLjEwMSAxOS45ODc4IDE0OS43NjYgMjAuOTY5MiAxNDkuNzY2IDIyLjE3MDFWMzIuMjVIMTQ1LjA1NVYxNC40ODAySDE0OS42NjJaTTE3OS4xNjggMzAuMTAyNEMxNzcuNDM2IDMxLjg4MDUgMTc1LjIwOCAzMi43Njk2IDE3Mi40ODMgMzIuNzY5NkMxNjkuNzU4IDMyLjc2OTYgMTY3LjUzIDMxLjg4MDUgMTY1Ljc5OCAzMC4xMDI0QzE2NC4wNjYgMjguMzAxMiAxNjMuMiAyNi4wNjEyIDE2My4yIDIzLjM4MjRDMTYzLjIgMjAuNzAzNyAxNjQuMDY2IDE4LjQ3NTIgMTY1Ljc5OCAxNi42OTcxQzE2Ny41MyAxNC44OTU5IDE2OS43NTggMTMuOTk1MyAxNzIuNDgzIDEzLjk5NTNDMTc1LjIwOCAxMy45OTUzIDE3Ny40MzYgMTQuODk1OSAxNzkuMTY4IDE2LjY5NzFDMTgwLjkgMTguNDc1MiAxODEuNzY2IDIwLjcwMzcgMTgxLjc2NiAyMy4zODI0QzE4MS43NjYgMjYuMDYxMiAxODAuOSAyOC4zMDEyIDE3OS4xNjggMzAuMTAyNFpNMTcyLjQ4MyAyOS4xNjcxQzE3My44OTIgMjkuMTY3MSAxNzQuOTg5IDI4LjY0NzUgMTc1Ljc3NCAyNy42MDg0QzE3Ni41ODIgMjYuNTQ2MSAxNzYuOTg2IDI1LjEzNzUgMTc2Ljk4NiAyMy4zODI0QzE3Ni45ODYgMjEuNjI3NCAxNzYuNTgyIDIwLjIxODcgMTc1Ljc3NCAxOS4xNTY1QzE3NC45ODkgMTguMDk0MiAxNzMuODkyIDE3LjU2MzEgMTcyLjQ4MyAxNy41NjMxQzE3MS4wNTEgMTcuNTYzMSAxNjkuOTQzIDE4LjA5NDIgMTY5LjE1OCAxOS4xNTY1QzE2OC4zNzMgMjAuMTk1NiAxNjcuOTggMjEuNjA0MyAxNjcuOTggMjMuMzgyNEMxNjcuOTggMjUuMTM3NSAxNjguMzczIDI2LjU0NjEgMTY5LjE1OCAyNy42MDg0QzE2OS45NDMgMjguNjQ3NSAxNzEuMDUxIDI5LjE2NzEgMTcyLjQ4MyAyOS4xNjcxWk0xOTAuNjA3IDMyLjc2OTZDMTg4LjM2NyAzMi43Njk2IDE4Ni41NTQgMzEuOTI2NyAxODUuMTY5IDMwLjI0MDlDMTgzLjc4MyAyOC41MzIxIDE4My4wOSAyNi4yNDU5IDE4My4wOSAyMy4zODI0QzE4My4wOSAyMC42MTEzIDE4My43OTUgMTguMzU5OCAxODUuMjAzIDE2LjYyNzhDMTg2LjYzNSAxNC44NzI4IDE4OC40NTkgMTMuOTk1MyAxOTAuNjc2IDEzLjk5NTNDMTkyLjg5MyAxMy45OTUzIDE5NC41NjcgMTQuODcyOCAxOTUuNjk5IDE2LjYyNzhIMTk1LjgwM1Y3LjQ4MzEySDIwMC41MTRWMzIuMjVIMTk1Ljk3NlYyOS45MjkySDE5NS45MDdDMTk0Ljc1MiAzMS44MjI4IDE5Mi45ODUgMzIuNzY5NiAxOTAuNjA3IDMyLjc2OTZaTTE5MS42NDYgMjguODIwN0MxOTMuMDMyIDI4LjgyMDcgMTk0LjA4MiAyOC4zNDczIDE5NC43OTggMjcuNDAwNUMxOTUuNTM3IDI2LjQ1MzcgMTk1LjkwNyAyNS4xNDkgMTk1LjkwNyAyMy40ODYzQzE5NS45MDcgMTkuNjk5MSAxOTQuNTMzIDE3LjgwNTUgMTkxLjc4NSAxNy44MDU1QzE5MC41MTQgMTcuODA1NSAxODkuNTQ1IDE4LjMxMzYgMTg4Ljg3NSAxOS4zMjk3QzE4OC4yMDUgMjAuMzQ1NyAxODcuODcgMjEuNjk2NyAxODcuODcgMjMuMzgyNEMxODcuODcgMjUuMTE0NCAxODguMTk0IDI2LjQ1MzcgMTg4Ljg0IDI3LjQwMDVDMTg5LjUxIDI4LjM0NzMgMTkwLjQ0NSAyOC44MjA3IDE5MS42NDYgMjguODIwN1pNMjExLjkyNCAzMi43Njk2QzIwOS4wNiAzMi43Njk2IDIwNi44MDkgMzEuODkyMSAyMDUuMTY5IDMwLjEzN0MyMDMuNTMgMjguMzU4OSAyMDIuNzEgMjYuMDk1OCAyMDIuNzEgMjMuMzQ3OEMyMDIuNzEgMjAuNjkyMSAyMDMuNTMgMTguNDc1MiAyMDUuMTY5IDE2LjY5NzFDMjA2LjgwOSAxNC44OTU5IDIwOC45MSAxMy45OTUzIDIxMS40NzQgMTMuOTk1M0MyMTQuMjY4IDEzLjk5NTMgMjE2LjQyNyAxNC45NjUxIDIxNy45NTEgMTYuOTA0OUMyMTkuNDc1IDE4Ljg0NDcgMjIwLjIzNyAyMS40NDI2IDIyMC4yMzcgMjQuNjk4N0gyMDcuMzUyQzIwNy41MzYgMjYuMTA3NCAyMDguMDEgMjcuMjA0MyAyMDguNzcyIDI3Ljk4OTRDMjA5LjUzNCAyOC43NTE1IDIxMC41NzMgMjkuMTMyNSAyMTEuODg5IDI5LjEzMjVDMjEzLjYyMSAyOS4xMzI1IDIxNC43NjQgMjguNDA1MSAyMTUuMzE5IDI2Ljk1MDJIMjE5Ljk2QzIxOS42MTQgMjguNjEyOSAyMTguNzM2IDI5Ljk5ODUgMjE3LjMyOCAzMS4xMDY5QzIxNS45MTkgMzIuMjE1NCAyMTQuMTE4IDMyLjc2OTYgMjExLjkyNCAzMi43Njk2Wk0yMTEuNTQzIDE3LjYzMjNDMjA5LjI1NyAxNy42MzIzIDIwNy44ODMgMTguOTAyNCAyMDcuNDIxIDIxLjQ0MjZIMjE1LjMxOUMyMTUuMjQ5IDIwLjMxMTEgMjE0Ljg2OCAxOS4zOTg5IDIxNC4xNzUgMTguNzA2MkMyMTMuNDgzIDE3Ljk5MDMgMjEyLjYwNSAxNy42MzIzIDIxMS41NDMgMTcuNjMyM1pNMjI5LjYyMyAzMi43Njk2QzIyNy4wODIgMzIuNzY5NiAyMjUuMDk2IDMyLjIxNTQgMjIzLjY2NSAzMS4xMDY5QzIyMi4yMzMgMjkuOTc1NCAyMjEuNDQ4IDI4LjQzOTcgMjIxLjMwOSAyNi40OTk5SDIyNS42NzRDMjI1Ljk3NCAyOC40NjI4IDIyNy4yNjcgMjkuNDQ0MiAyMjkuNTUzIDI5LjQ0NDJDMjMwLjU5MiAyOS40NDQyIDIzMS4zODkgMjkuMjU5NSAyMzEuOTQzIDI4Ljg5QzIzMi41MjEgMjguNTIwNSAyMzIuODA5IDI4LjAyNCAyMzIuODA5IDI3LjQwMDVDMjMyLjgwOSAyNy4xNjk2IDIzMi43NjMgMjYuOTYxOCAyMzIuNjcxIDI2Ljc3N0MyMzIuNjAxIDI2LjU5MjMgMjMyLjQ2MyAyNi40MzA2IDIzMi4yNTUgMjYuMjkyMUMyMzIuMDcgMjYuMTMwNCAyMzEuODk3IDI2LjAwMzQgMjMxLjczNiAyNS45MTExQzIzMS41OTcgMjUuODE4NyAyMzEuMzQzIDI1LjcyNjMgMjMwLjk3MyAyNS42MzRDMjMwLjYwNCAyNS41NDE2IDIzMC4zMTUgMjUuNDcyMyAyMzAuMTA3IDI1LjQyNjFDMjI5LjkyMyAyNS4zNzk5IDIyOS41ODggMjUuMzIyMiAyMjkuMTAzIDI1LjI1MjlDMjI4LjY0MSAyNS4xNjA2IDIyOC4zMTggMjUuMDkxMyAyMjguMTMzIDI1LjA0NTFDMjI3LjE2MyAyNC44NjAzIDIyNi4zNjYgMjQuNjc1NiAyMjUuNzQzIDI0LjQ5MDlDMjI1LjE0MyAyNC4yODMgMjI0LjUwOCAyMy45OTQ0IDIyMy44MzggMjMuNjI0OUMyMjMuMTY4IDIzLjIzMjMgMjIyLjY2IDIyLjcxMjcgMjIyLjMxNCAyMi4wNjYxQzIyMS45OSAyMS4zOTY0IDIyMS44MjkgMjAuNTk5OCAyMjEuODI5IDE5LjY3NkMyMjEuODI5IDE3LjgyODYgMjIyLjQ5OCAxNi40MiAyMjMuODM4IDE1LjQ1MDFDMjI1LjIgMTQuNDgwMiAyMjYuOTQ0IDEzLjk5NTMgMjI5LjA2OCAxMy45OTUzQzIzMS4zNTQgMTMuOTk1MyAyMzMuMTQ0IDE0LjUyNjQgMjM0LjQzNyAxNS41ODg2QzIzNS43NTQgMTYuNjI3OCAyMzYuNTA0IDE4LjA1OTYgMjM2LjY4OSAxOS44ODM5SDIzMi40MjhDMjMyLjI0NCAxOC4xNTE5IDIzMS4xIDE3LjI4NiAyMjguOTk5IDE3LjI4NkMyMjguMDUyIDE3LjI4NiAyMjcuMzAyIDE3LjQ1OTIgMjI2Ljc0NyAxNy44MDU1QzIyNi4yMTYgMTguMTUxOSAyMjUuOTUxIDE4LjYzNjkgMjI1Ljk1MSAxOS4yNjA0QzIyNS45NTEgMTkuNDY4MiAyMjUuOTg1IDE5LjY2NDUgMjI2LjA1NSAxOS44NDkyQzIyNi4xNDcgMjAuMDEwOSAyMjYuMjg2IDIwLjE2MSAyMjYuNDcgMjAuMjk5NUMyMjYuNjc4IDIwLjQxNSAyMjYuODc1IDIwLjUxODkgMjI3LjA1OSAyMC42MTEzQzIyNy4yNDQgMjAuNjgwNiAyMjcuNTEgMjAuNzYxNCAyMjcuODU2IDIwLjg1MzhDMjI4LjIwMiAyMC45MjMxIDIyOC41MDMgMjAuOTkyMyAyMjguNzU3IDIxLjA2MTZDMjI5LjAxMSAyMS4xMDc4IDIyOS4zNTcgMjEuMTc3MSAyMjkuNzk2IDIxLjI2OTRDMjMwLjIzNCAyMS4zMzg3IDIzMC41ODEgMjEuMzk2NCAyMzAuODM1IDIxLjQ0MjZDMjMxLjU3NCAyMS42MDQzIDIzMi4xNzQgMjEuNzU0NCAyMzIuNjM2IDIxLjg5MjlDMjMzLjEyMSAyMi4wMDg0IDIzMy42NzUgMjIuMjE2MiAyMzQuMjk5IDIyLjUxNjRDMjM0LjkyMiAyMi43OTM2IDIzNS40MDcgMjMuMTE2OSAyMzUuNzU0IDIzLjQ4NjNDMjM2LjEyMyAyMy44MzI3IDIzNi40MzUgMjQuMzE3NyAyMzYuNjg5IDI0Ljk0MTJDMjM2Ljk2NiAyNS41NDE2IDIzNy4xMDUgMjYuMjQ1OSAyMzcuMTA1IDI3LjA1NDJDMjM3LjEwNSAyOC44MDkyIDIzNi40MTIgMzAuMjA2MyAyMzUuMDI2IDMxLjI0NTVDMjMzLjY2NCAzMi4yNjE1IDIzMS44NjMgMzIuNzY5NiAyMjkuNjIzIDMyLjc2OTZaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K)](/)Secure
+staking with leading blockchain infrastructure provider
+
+LN Tech FZE,  
+Saif Suite X3-46,  
+SAIF Zone, Sharjah, UAE
+
+[![](data:image/svg+xml;charset=utf-8,%3Csvg%20height='288'%20width='462'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%3E%3C/svg%3E)![Verified
+badge](/static/6ba07c96436f2c9565f80d24555d7bac/edf67/vsp-pro.svg)![Verified
+badge](/static/6ba07c96436f2c9565f80d24555d7bac/edf67/vsp-
+pro.svg)](https://www.stakingrewards.com/savings/luganodes/)
+
+Products[Staking](/product/staking/)
+
+[EigenLayer Staking](/product/eigenlayer/)
+
+[zkRaaS](/product/zkraas/)
+
+[Staking API](/product/stakingapi/)
+
+[Managed Nodes](/product/managednodes/)
+
+[Terminal](/product/luganodesterminal/)
+
+ResourceClient Types
+
+[Custodian](/client/custodian/)[Exchanges](/client/exchanges/)[Investors
+(VCs)](/client/investors/)
+
+Case Studies
+
+[CoinList](/case-study/Coinlist_CS/)[Bitfinex](/case-study/Bitfinex_CS/)
+
+[Blog](/blog/)
+
+[Staking Guides](/blog/?interval=3&category=Guides#blog-list)
+
+[Newsletter](/#signup)
+
+[Docs](https://docs.luganodes.com/)
+
+Company[About us](/aboutus/)
+
+[Get in Touch](/#getInTouch)
+
+[Security](https://security.luganodes.com/)
+
+Social[Twitter](https://twitter.com/luganodes)
+
+[LinkedIn](https://www.linkedin.com/company/luganodes/)
+
+[Telegram](https://t.me/luganodesofficial/)
+
+[Medium](https://medium.com/luganodes)
+
+[YouTube](https://www.youtube.com/@luganodes)
+
+[Terms of use](/termsofservice/)[Privacy Policy](/privacypolicy/)
+
+© 2024 Luganodes | All rights reserved
+
+[Terms of use](/termsofservice/)[Privacy Policy](/privacypolicy/)
+
