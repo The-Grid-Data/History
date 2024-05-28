@@ -1,0 +1,37 @@
+{
+    "target_url": "https://francium.io/app/lend",
+    "domains": {
+        "": [
+            "mailto:contact@francium.io"
+        ],
+        "discord.gg": [
+            "http://discord.gg/francium"
+        ],
+        "docs.francium.io": [
+            "https://docs.francium.io/",
+            "https://docs.francium.io/resources/audits"
+        ],
+        "francium.io": [
+            "https://francium.io/",
+            "https://francium.io/app/bridge",
+            "https://francium.io/app/calculator",
+            "https://francium.io/app/contributions",
+            "https://francium.io/app/invest/farm",
+            "https://francium.io/app/lend",
+            "https://francium.io/app/mypage",
+            "https://francium.io/app/vote"
+        ],
+        "github.com": [
+            "https://github.com/Francium-DeFi"
+        ],
+        "medium.com": [
+            "https://medium.com/@Francium-Defi"
+        ],
+        "t.me": [
+            "https://t.me/franciumprotocol"
+        ],
+        "twitter.com": [
+            "https://twitter.com/Francium_Defi"
+        ]
+    }
+}
