@@ -1,0 +1,42 @@
+{
+    "target_url": "https://www.ledger.com/ledger-live",
+    "domains": {
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=39c86274-185d-4aa5-9dac-38bc19c198a4&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=8048bdeb-628b-4abe-a22e-a4d263235af1&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Fledger-live-download&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "bat.bing.com": [
+            "https://bat.bing.com/action/0?ti=134633242&tm=gtm002&Ver=2&mid=d7ba17ab-4174-482a-9126-09c48f4bfc95&sid=4be2aac01cfe11ef86ab7b76e5e0c587&vid=4be2bc201cfe11efa68473c934098151&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&tl=Ledger%20Live%20Download%20Crypto%20Wallet%20App%20%7C%20Ledger&p=https%3A%2F%2Fwww.ledger.com%2Fledger-live-download&r=&lt=1668&evt=pageLoad&sv=1&rn=7799"
+        ],
+        "cdn.cookielaw.org": [
+            "https://cdn.cookielaw.org/logos/df21fb3f-71b8-491b-89ee-eb777bcaf866/637ca236-af9d-4a40-815f-1b6a15af499d/ea9d9f41-35f0-4c24-9a83-1ef746863067/White_64.png",
+            "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg"
+        ],
+        "ledger-wp-website-s3-prd.ledger.com": [
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2024/03/ledger-live-app-hero.webp"
+        ],
+        "t.co": [
+            "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=39c86274-185d-4aa5-9dac-38bc19c198a4&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=8048bdeb-628b-4abe-a22e-a4d263235af1&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Fledger-live-download&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/tr?id=237213137153741&ev=PageView&noscript=1"
+        ],
+        "www.ledger.com": [
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-live/download-buttons/android.svg",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-live/download-buttons/app-store.png",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-live/download-buttons/google-play.png",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-live/download-buttons/ios.svg",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-live/download-buttons/linux.svg",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-live/download-buttons/macos.svg",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-live/download-buttons/windows.svg",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg",
+            "https://www.ledger.com/wp-content/uploads/2021/11/layer1.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-bitpay-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-cb-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-crypto-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-maestro-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-mastercard-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-paypal-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-visa-s.png?v=2"
+        ]
+    }
+}
