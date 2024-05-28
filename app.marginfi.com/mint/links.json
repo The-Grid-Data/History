@@ -1,0 +1,22 @@
+{
+    "target_url": "https://app.marginfi.com/mint",
+    "domains": {
+        "discord.gg": [
+            "https://discord.gg/mrgn"
+        ],
+        "docs.marginfi.com": [
+            "https://docs.marginfi.com/"
+        ],
+        "github.com": [
+            "https://github.com/mrgnlabs/",
+            "https://github.com/mrgnlabs/marginfi-v2/blob/main/scripts/verify.sh",
+            "https://github.com/mrgnlabs/marginfi-v2/tree/main/audits/"
+        ],
+        "mrgn.substack.com": [
+            "https://mrgn.substack.com/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/marginfi"
+        ]
+    }
+}

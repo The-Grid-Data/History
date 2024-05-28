@@ -1,0 +1,97 @@
+{
+    "target_url": "https://app.marginfi.com/ecosystem",
+    "domains": {
+        "app.marginfi.com": [
+            "https://app.marginfi.com/",
+            "https://app.marginfi.com/ecosystem"
+        ],
+        "app.pulsar.finance": [
+            "https://app.pulsar.finance/"
+        ],
+        "bags.fm": [
+            "https://bags.fm"
+        ],
+        "beta.juicer.fi": [
+            "https://beta.juicer.fi/borrow-lend"
+        ],
+        "discord.gg": [
+            "https://discord.gg/mrgn"
+        ],
+        "docs.marginfi.com": [
+            "https://docs.marginfi.com/"
+        ],
+        "dune.com": [
+            "https://dune.com/man0s/marginfi/"
+        ],
+        "fluxbot.xyz": [
+            "https://fluxbot.xyz/"
+        ],
+        "github.com": [
+            "https://github.com/gohyun14/marginfi-borrow-caps",
+            "https://github.com/mrgnlabs",
+            "https://github.com/mrgnlabs/",
+            "https://github.com/mrgnlabs/marginfi-v2",
+            "https://github.com/mrgnlabs/marginfi-v2/blob/main/scripts/verify.sh",
+            "https://github.com/mrgnlabs/marginfi-v2/tree/main/audits/",
+            "https://github.com/mrgnlabs/mrgn-account-search",
+            "https://github.com/mrgnlabs/mrgn-ts/tree/main/apps/alpha-liquidator",
+            "https://github.com/mrgnlabs/mrgn-ts/tree/main/apps/marginfi-v2-ui",
+            "https://github.com/mrgnlabs/mrgn-ts/tree/main/apps/marginfi-v2-xnft"
+        ],
+        "marginfi-borrow-caps.vercel.app": [
+            "https://marginfi-borrow-caps.vercel.app/",
+            "https://marginfi-borrow-caps.vercel.app/health"
+        ],
+        "marginfi.com": [
+            "https://marginfi.com"
+        ],
+        "mrgn-account-search.vercel.app": [
+            "https://mrgn-account-search.vercel.app/"
+        ],
+        "mrgn.grafana.net": [
+            "https://mrgn.grafana.net/public-dashboards/a2700f1bbca64aeaa5582a90dbaeb276?orgId=1&refresh=1m"
+        ],
+        "mrgn.substack.com": [
+            "https://mrgn.substack.com/"
+        ],
+        "sonar.watch": [
+            "https://sonar.watch/"
+        ],
+        "splitwave.app": [
+            "https://splitwave.app/"
+        ],
+        "squads.so": [
+            "https://squads.so/"
+        ],
+        "t.me": [
+            "https://t.me/HeimdallWatchBot"
+        ],
+        "twitter.com": [
+            "https://twitter.com/0xCosmic_",
+            "https://twitter.com/FluxBeamDEX",
+            "https://twitter.com/chambaz",
+            "https://twitter.com/juicerfi",
+            "https://twitter.com/losman0s",
+            "https://twitter.com/marginfi",
+            "https://twitter.com/theDreamOS"
+        ],
+        "www.assetdash.com": [
+            "https://www.assetdash.com/"
+        ],
+        "www.dreamos.app": [
+            "https://www.dreamos.app/"
+        ],
+        "www.hampterfi.com": [
+            "https://www.hampterfi.com/"
+        ],
+        "www.meteora.ag": [
+            "https://www.meteora.ag/"
+        ],
+        "www.step.finance": [
+            "https://www.step.finance/"
+        ],
+        "www.xnft.gg": [
+            "https://www.xnft.gg/app/DoXjr5LKZp9uxiwEUhffBwCQrf2xdkiDYeitGGvfcyXm"
+        ]
+    }
+}
