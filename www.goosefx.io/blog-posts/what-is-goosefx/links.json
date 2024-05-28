@@ -1,0 +1,47 @@
+{
+    "target_url": "https://www.goosefx.io/blog-posts/what-is-goosefx",
+    "domains": {
+        "app.goosefx.io": [
+            "https://app.goosefx.io/?ref=blog.goosefx.io",
+            "https://app.goosefx.io/farm",
+            "https://app.goosefx.io/farm?ref=blog.goosefx.io"
+        ],
+        "discord.com": [
+            "https://discord.com/channels/833693973687173121/833725691983822918",
+            "https://discord.com/invite/cDEPXpY26q"
+        ],
+        "discord.gg": [
+            "https://discord.gg/cDEPXpY26q?ref=blog.goosefx.io"
+        ],
+        "docs.goosefx.io": [
+            "https://docs.goosefx.io/",
+            "https://docs.goosefx.io/?ref=blog.goosefx.io",
+            "https://docs.goosefx.io/features/farm/dynamic-ssl?ref=blog.goosefx.io",
+            "https://docs.goosefx.io/features/farm?ref=blog.goosefx.io"
+        ],
+        "t.me": [
+            "https://t.me/goosefx",
+            "https://t.me/goosefx?ref=blog.goosefx.io"
+        ],
+        "twitter.com": [
+            "https://twitter.com/BuddyLinkApp?ref=blog.goosefx.io",
+            "https://twitter.com/GooseFX1",
+            "https://twitter.com/GooseFX1/status/1663207769758117895?ref=blog.goosefx.io",
+            "https://twitter.com/GooseFX1/status/1696553337498558720?ref=blog.goosefx.io",
+            "https://twitter.com/GooseFX1?ref=blog.goosefx.io",
+            "https://twitter.com/hashtag/GooseGang?src=hashtag_click&ref=blog.goosefx.io"
+        ],
+        "www.blog.goosefx.io": [
+            "https://www.blog.goosefx.io/top-5-yield-farming-protocols-on-solana/",
+            "https://www.blog.goosefx.io/what-is-meteora-on-solana/"
+        ],
+        "www.goosefx.io": [
+            "https://www.goosefx.io/",
+            "https://www.goosefx.io/?ref=blog.goosefx.io",
+            "https://www.goosefx.io/media-kit"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/@GooseFX1"
+        ]
+    }
+}

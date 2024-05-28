@@ -1,0 +1,28 @@
+{
+    "target_url": "https://www.goosefx.io/about",
+    "domains": {
+        "app.goosefx.io": [
+            "https://app.goosefx.io/farm"
+        ],
+        "discord.com": [
+            "https://discord.com/channels/833693973687173121/833725691983822918",
+            "https://discord.com/invite/cDEPXpY26q"
+        ],
+        "docs.goosefx.io": [
+            "https://docs.goosefx.io/"
+        ],
+        "t.me": [
+            "https://t.me/goosefx"
+        ],
+        "twitter.com": [
+            "https://twitter.com/GooseFX1"
+        ],
+        "www.goosefx.io": [
+            "https://www.goosefx.io/",
+            "https://www.goosefx.io/media-kit"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/@GooseFX1"
+        ]
+    }
+}
