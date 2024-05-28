@@ -1,0 +1,390 @@
+{
+    "target_url": "https://bitcoin.org/sv/borser",
+    "domains": {
+        "": [
+            "bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"
+        ],
+        "anycoindirect.eu": [
+            "https://anycoindirect.eu"
+        ],
+        "argenbtc.com": [
+            "https://argenbtc.com/"
+        ],
+        "bisq.network": [
+            "https://bisq.network/"
+        ],
+        "bit2c.co.il": [
+            "https://bit2c.co.il/"
+        ],
+        "bitbank.cc": [
+            "https://bitbank.cc/"
+        ],
+        "bitbuy.ca": [
+            "https://bitbuy.ca/"
+        ],
+        "bitcoin.org": [
+            "https://bitcoin.org/ar/exchanges",
+            "https://bitcoin.org/bg/exchanges",
+            "https://bitcoin.org/ca/cases-de-canvi",
+            "https://bitcoin.org/da/udvekslinger",
+            "https://bitcoin.org/de/boersen",
+            "https://bitcoin.org/el/exchanges",
+            "https://bitcoin.org/en/alerts",
+            "https://bitcoin.org/en/blog",
+            "https://bitcoin.org/en/exchanges",
+            "https://bitcoin.org/en/privacy",
+            "https://bitcoin.org/es/intercambios",
+            "https://bitcoin.org/fa/exchanges",
+            "https://bitcoin.org/fr/des-echanges",
+            "https://bitcoin.org/he/exchanges",
+            "https://bitcoin.org/hi/exchanges",
+            "https://bitcoin.org/hu/tozsdek",
+            "https://bitcoin.org/hy/exchanges",
+            "https://bitcoin.org/id/bursa",
+            "https://bitcoin.org/it/borsa",
+            "https://bitcoin.org/ja/exchanges",
+            "https://bitcoin.org/km/exchanges",
+            "https://bitcoin.org/ko/exchanges",
+            "https://bitcoin.org/nl/beurzen",
+            "https://bitcoin.org/pl/wymiany",
+            "https://bitcoin.org/pt_BR/trocas",
+            "https://bitcoin.org/ro/schimburi",
+            "https://bitcoin.org/ru/exchanges",
+            "https://bitcoin.org/sl/izmenjave",
+            "https://bitcoin.org/sr/menjacnice",
+            "https://bitcoin.org/sv/",
+            "https://bitcoin.org/sv/bitcoin-for-foretag",
+            "https://bitcoin.org/sv/bitcoin-for-privatpersoner",
+            "https://bitcoin.org/sv/bitcoinartikel",
+            "https://bitcoin.org/sv/borser",
+            "https://bitcoin.org/sv/borser#africa",
+            "https://bitcoin.org/sv/borser#argentina",
+            "https://bitcoin.org/sv/borser#asia",
+            "https://bitcoin.org/sv/borser#australia",
+            "https://bitcoin.org/sv/borser#bahrain",
+            "https://bitcoin.org/sv/borser#brazil",
+            "https://bitcoin.org/sv/borser#canada",
+            "https://bitcoin.org/sv/borser#chile",
+            "https://bitcoin.org/sv/borser#colombia",
+            "https://bitcoin.org/sv/borser#europe",
+            "https://bitcoin.org/sv/borser#indonesia",
+            "https://bitcoin.org/sv/borser#international",
+            "https://bitcoin.org/sv/borser#israel",
+            "https://bitcoin.org/sv/borser#japan",
+            "https://bitcoin.org/sv/borser#kuwait",
+            "https://bitcoin.org/sv/borser#malaysia",
+            "https://bitcoin.org/sv/borser#mexico",
+            "https://bitcoin.org/sv/borser#netherlands",
+            "https://bitcoin.org/sv/borser#new-zealand",
+            "https://bitcoin.org/sv/borser#nigeria",
+            "https://bitcoin.org/sv/borser#north-america",
+            "https://bitcoin.org/sv/borser#norway",
+            "https://bitcoin.org/sv/borser#oman",
+            "https://bitcoin.org/sv/borser#p2p",
+            "https://bitcoin.org/sv/borser#peru",
+            "https://bitcoin.org/sv/borser#poland",
+            "https://bitcoin.org/sv/borser#saudi-arabia",
+            "https://bitcoin.org/sv/borser#singapore",
+            "https://bitcoin.org/sv/borser#south-africa",
+            "https://bitcoin.org/sv/borser#south-america",
+            "https://bitcoin.org/sv/borser#south-korea",
+            "https://bitcoin.org/sv/borser#taiwan",
+            "https://bitcoin.org/sv/borser#turkey",
+            "https://bitcoin.org/sv/borser#uganda",
+            "https://bitcoin.org/sv/borser#ukraine",
+            "https://bitcoin.org/sv/borser#united-arab-emirates",
+            "https://bitcoin.org/sv/borser#united-kingdom",
+            "https://bitcoin.org/sv/borser#united-states",
+            "https://bitcoin.org/sv/borser#venezuela",
+            "https://bitcoin.org/sv/community",
+            "https://bitcoin.org/sv/du-behover-kanna-till",
+            "https://bitcoin.org/sv/evenemang",
+            "https://bitcoin.org/sv/faq",
+            "https://bitcoin.org/sv/hur-det-fungerar",
+            "https://bitcoin.org/sv/innovation",
+            "https://bitcoin.org/sv/juridiskt",
+            "https://bitcoin.org/sv/kom-igang",
+            "https://bitcoin.org/sv/kop",
+            "https://bitcoin.org/sv/ladda-ner",
+            "https://bitcoin.org/sv/om-oss",
+            "https://bitcoin.org/sv/ordlista",
+            "https://bitcoin.org/sv/press",
+            "https://bitcoin.org/sv/resurser",
+            "https://bitcoin.org/sv/stod-bitcoin",
+            "https://bitcoin.org/sv/utveckling",
+            "https://bitcoin.org/sv/valj-din-planbok",
+            "https://bitcoin.org/tr/borsalari",
+            "https://bitcoin.org/uk/exchanges",
+            "https://bitcoin.org/zh_CN/exchanges",
+            "https://bitcoin.org/zh_TW/exchanges"
+        ],
+        "bitcoinwell.com": [
+            "https://bitcoinwell.com/",
+            "https://bitcoinwell.com/usa"
+        ],
+        "bitfinex.com": [
+            "https://bitfinex.com/"
+        ],
+        "bitflyer.com": [
+            "https://bitflyer.com/en-eu/",
+            "https://bitflyer.com/en-us/",
+            "https://bitflyer.com/ja-jp/"
+        ],
+        "bitoasis.net": [
+            "https://bitoasis.net/"
+        ],
+        "bitquick.co": [
+            "https://bitquick.co/"
+        ],
+        "bitso.com": [
+            "https://bitso.com/"
+        ],
+        "bittylicious.com": [
+            "https://bittylicious.com/"
+        ],
+        "bitvavo.com": [
+            "https://bitvavo.com/"
+        ],
+        "bitvo.com": [
+            "https://bitvo.com/"
+        ],
+        "bitybank.com.br": [
+            "https://bitybank.com.br/"
+        ],
+        "bitypreco.com": [
+            "https://bitypreco.com/"
+        ],
+        "brasilbitcoin.com.br": [
+            "https://brasilbitcoin.com.br/"
+        ],
+        "buycoins.africa": [
+            "https://buycoins.africa/"
+        ],
+        "coinatmradar.com": [
+            "https://coinatmradar.com/"
+        ],
+        "coinberry.com": [
+            "https://coinberry.com/"
+        ],
+        "coincheck.com": [
+            "https://coincheck.com/"
+        ],
+        "coinext.com.br": [
+            "https://coinext.com.br/"
+        ],
+        "coinmama.com": [
+            "https://coinmama.com/"
+        ],
+        "coinone.co.kr": [
+            "https://coinone.co.kr/"
+        ],
+        "crypto.com": [
+            "https://crypto.com/"
+        ],
+        "cryptobuyer.com": [
+            "https://cryptobuyer.com/"
+        ],
+        "cryptoradar.co": [
+            "https://cryptoradar.co"
+        ],
+        "currency.com": [
+            "https://currency.com/"
+        ],
+        "developer.bitcoin.org": [
+            "https://developer.bitcoin.org/"
+        ],
+        "digitalsurge.com.au": [
+            "https://digitalsurge.com.au/"
+        ],
+        "egera.com": [
+            "https://egera.com/"
+        ],
+        "foxbit.com.br": [
+            "https://foxbit.com.br/"
+        ],
+        "gemini.com": [
+            "https://gemini.com/"
+        ],
+        "hodlhodl.com": [
+            "https://hodlhodl.com/"
+        ],
+        "indodax.com": [
+            "https://indodax.com/"
+        ],
+        "karsha.biz": [
+            "https://karsha.biz/"
+        ],
+        "kiwi-coin.com": [
+            "https://kiwi-coin.com/"
+        ],
+        "kriptomat.io": [
+            "https://kriptomat.io/"
+        ],
+        "kuna.io": [
+            "https://kuna.io/"
+        ],
+        "max.maicoin.com": [
+            "https://max.maicoin.com/"
+        ],
+        "mercadobitcoin.com.br": [
+            "https://mercadobitcoin.com.br/"
+        ],
+        "nbx.com": [
+            "https://nbx.com/"
+        ],
+        "ndax.io": [
+            "https://ndax.io/"
+        ],
+        "noones.com": [
+            "https://noones.com/"
+        ],
+        "novadax.com.br": [
+            "https://novadax.com.br/"
+        ],
+        "opensource.org": [
+            "http://opensource.org/licenses/mit-license.php"
+        ],
+        "pagcripto.com.br": [
+            "https://pagcripto.com.br/"
+        ],
+        "paybtc.com.au": [
+            "https://paybtc.com.au/"
+        ],
+        "ripio.com": [
+            "https://ripio.com/"
+        ],
+        "river.com": [
+            "https://river.com/"
+        ],
+        "shakepay.co": [
+            "https://shakepay.co/"
+        ],
+        "swyftx.com.au": [
+            "https://swyftx.com.au/"
+        ],
+        "therocktrading.com": [
+            "https://therocktrading.com"
+        ],
+        "uphold.com": [
+            "https://uphold.com?ref=bitcoin.org"
+        ],
+        "www.binance.com": [
+            "https://www.binance.com"
+        ],
+        "www.bitaroo.com.au": [
+            "https://www.bitaroo.com.au/"
+        ],
+        "www.bitaroo.nz": [
+            "https://www.bitaroo.nz/"
+        ],
+        "www.bitbay.net": [
+            "https://www.bitbay.net/"
+        ],
+        "www.bitcoin.de": [
+            "https://www.bitcoin.de/"
+        ],
+        "www.bitfinex.com": [
+            "https://www.bitfinex.com/"
+        ],
+        "www.bitget.com": [
+            "https://www.bitget.com/"
+        ],
+        "www.bithumb.com": [
+            "https://www.bithumb.com/"
+        ],
+        "www.bitopro.com": [
+            "https://www.bitopro.com/"
+        ],
+        "www.bitpanda.com": [
+            "https://www.bitpanda.com/"
+        ],
+        "www.bitsofgold.co.il": [
+            "https://www.bitsofgold.co.il/"
+        ],
+        "www.bitstamp.net": [
+            "https://www.bitstamp.net/"
+        ],
+        "www.btcbox.co.jp": [
+            "https://www.btcbox.co.jp/"
+        ],
+        "www.btcmarkets.net": [
+            "https://www.btcmarkets.net/"
+        ],
+        "www.buda.com": [
+            "https://www.buda.com/"
+        ],
+        "www.bullbitcoin.com": [
+            "https://www.bullbitcoin.com/"
+        ],
+        "www.buybitcoinworldwide.com": [
+            "https://www.buybitcoinworldwide.com/"
+        ],
+        "www.canadianbitcoins.com": [
+            "https://www.canadianbitcoins.com/"
+        ],
+        "www.coinbase.com": [
+            "https://www.coinbase.com/"
+        ],
+        "www.coincorner.com": [
+            "https://www.coincorner.com/"
+        ],
+        "www.coinfloor.co.uk": [
+            "https://www.coinfloor.co.uk/"
+        ],
+        "www.coinjar.com": [
+            "https://www.coinjar.com/au/",
+            "https://www.coinjar.com/uk/"
+        ],
+        "www.coinsmart.com": [
+            "https://www.coinsmart.com/"
+        ],
+        "www.coinspot.com.au": [
+            "https://www.coinspot.com.au/"
+        ],
+        "www.cointree.com.au": [
+            "https://www.cointree.com.au/"
+        ],
+        "www.hardblock.com.au": [
+            "https://www.hardblock.com.au/"
+        ],
+        "www.independentreserve.com": [
+            "https://www.independentreserve.com/"
+        ],
+        "www.itbit.com": [
+            "https://www.itbit.com/"
+        ],
+        "www.koinim.com": [
+            "https://www.koinim.com/"
+        ],
+        "www.korbit.co.kr": [
+            "https://www.korbit.co.kr/"
+        ],
+        "www.kraken.com": [
+            "https://www.kraken.com/"
+        ],
+        "www.luno.com": [
+            "https://www.luno.com/"
+        ],
+        "www.minedigital.exchange": [
+            "https://www.minedigital.exchange/"
+        ],
+        "www.okcoin.com": [
+            "https://www.okcoin.com/"
+        ],
+        "www.paymium.com": [
+            "https://www.paymium.com/"
+        ],
+        "www.rain.bh": [
+            "https://www.rain.bh/"
+        ],
+        "www.satoshitango.com": [
+            "https://www.satoshitango.com/"
+        ],
+        "www.swanbitcoin.com": [
+            "https://www.swanbitcoin.com/"
+        ],
+        "www.volabit.com": [
+            "https://www.volabit.com/"
+        ]
+    }
+}
