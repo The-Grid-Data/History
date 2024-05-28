@@ -1,0 +1,28 @@
+{
+    "target_url": "https://app.parcl.co/collection/token",
+    "domains": {
+        "app.parcl.co": [
+            "https://app.parcl.co/",
+            "https://app.parcl.co/collection/active-markets",
+            "https://app.parcl.co/collection/forex",
+            "https://app.parcl.co/collection/non-trading",
+            "https://app.parcl.co/collection/real-estate",
+            "https://app.parcl.co/collection/token",
+            "https://app.parcl.co/collection/top-gainers",
+            "https://app.parcl.co/collection/top-losers"
+        ],
+        "discord.gg": [
+            "https://discord.gg/parcl"
+        ],
+        "status.parcl.co": [
+            "http://status.parcl.co"
+        ],
+        "twitter.com": [
+            "https://twitter.com/parcl"
+        ],
+        "www.parcl.co": [
+            "https://www.parcl.co/legal/privacy",
+            "https://www.parcl.co/legal/terms-of-use"
+        ]
+    }
+}
