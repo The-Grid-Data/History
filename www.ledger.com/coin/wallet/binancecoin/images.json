@@ -1,0 +1,73 @@
+{
+    "target_url": "https://www.ledger.com/coin/wallet/binancecoin",
+    "domains": {
+        "": [
+            "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTI4LjM2IDIwLjQ4bDcuMjQtNy4yNEwyOC4zNiA2bC0uOTIuOTIgMi44IDIuNzZjLjkyLjk2IDEuOTIgMS45MiAyLjg4IDIuODhINnYxLjM2aDI3LjE2Yy0xIC45Ni0xLjk2IDEuOTItMi45MiAyLjg4bC0yLjggMi43Ni45Mi45MnpNNC40IDI2Ljc2TDExLjY0IDM0bC45Mi0uOTItMi44LTIuOGMtLjkyLS45Mi0xLjkyLTEuOTItMi44OC0yLjg0SDM0di0xLjM2SDYuODhjLjk2LS45NiAxLjk2LTEuOTIgMi44OC0yLjg4bDIuOC0yLjgtLjkyLS44OC03LjI0IDcuMjR6IiBmaWxsPSIjQjM4MEREIi8+PC9zdmc+"
+        ],
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=af594687-fc79-47f6-99f5-a925b80995ff&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=90cca584-502c-4df0-aff0-2c332a045ffe&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Fcoin%2Fwallet%2Fbinancecoin&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "bat.bing.com": [
+            "https://bat.bing.com/action/0?ti=134633242&tm=gtm002&Ver=2&mid=a8f46843-64ac-4bc5-8e95-a6c42236402d&sid=ec249c301cfd11ef9c5da3b9ba7048c0&vid=ec24bcf01cfd11ef9b3ceb85aa16a13d&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&tl=BNB%20Wallet%20%7C%20Ledger&p=https%3A%2F%2Fwww.ledger.com%2Fcoin%2Fwallet%2Fbinancecoin&r=&lt=2703&evt=pageLoad&sv=1&rn=809659"
+        ],
+        "cdn.cookielaw.org": [
+            "https://cdn.cookielaw.org/logos/df21fb3f-71b8-491b-89ee-eb777bcaf866/637ca236-af9d-4a40-815f-1b6a15af499d/ea9d9f41-35f0-4c24-9a83-1ef746863067/White_64.png",
+            "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg"
+        ],
+        "ledger-wp-website-s3-prd.ledger.com": [
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/11/Fantom.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/11/Polkadot-logo.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/11/USD_Coin_icon.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/11/Uniswap-logo.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/11/bitcoin-cash-circle.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/11/ceth2.jpg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/11/ethereum-classic-logo.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/11/theta-token-logo.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/11/tron-logo.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/12/Bitcoin-Logo.webp",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/12/Ethereum-logo.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/12/Tron-Logo.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/03/CEL_logo.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/03/Swap-your-crypto-assets.webp",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/03/buy-your-crypto-assets.webp",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/03/decred.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/03/manage-your-crypto-assets.webp",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/03/ton_symbol.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/05/Secondary_Symbol.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/09/nano-s-plus.webp",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/09/nano-x.webp",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/09/stax.webp",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/11/Add-coins-to-your-portfolio.webp",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/11/Binance-Wallet.webp",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/11/Get-a-Ledger.webp",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/11/Install-Ledger-Live.webp",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2024/01/LYX.png"
+        ],
+        "sp.analytics.yahoo.com": [
+            "https://sp.analytics.yahoo.com/sp.pl?a=10000&d=Tue%2C%2028%20May%202024%2014%3A23%3A58%20GMT&n=0&b=BNB%20Wallet%20%7C%20Ledger&.yp=10159916&f=https%3A%2F%2Fwww.ledger.com%2Fcoin%2Fwallet%2Fbinancecoin&enc=UTF-8&yv=1.15.1&tagmgr=gtm"
+        ],
+        "t.co": [
+            "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=af594687-fc79-47f6-99f5-a925b80995ff&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=90cca584-502c-4df0-aff0-2c332a045ffe&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Fcoin%2Fwallet%2Fbinancecoin&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "t.teads.tv": [
+            "https://t.teads.tv/track?action=pageView&env=js-gtm&tag_version=6.17.6_ee47857&provider=tag&buyer_pixel_id=6887&referer=https%3A%2F%2Fwww.ledger.com%2Fcoin%2Fwallet%2Fbinancecoin&user_session_id=8c3c63e6-d97c-4e11-901b-68b663d82186"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/tr?id=237213137153741&ev=PageView&noscript=1"
+        ],
+        "www.ledger.com": [
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/crypto-page/faq.png",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg",
+            "https://www.ledger.com/wp-content/uploads/2019/01/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917@2x.png",
+            "https://www.ledger.com/wp-content/uploads/2019/01/google-play-badge@2x.png",
+            "https://www.ledger.com/wp-content/uploads/2021/11/layer1.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-bitpay-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-cb-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-crypto-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-maestro-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-mastercard-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-paypal-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-visa-s.png?v=2"
+        ]
+    }
+}
