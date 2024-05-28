@@ -1,0 +1,43 @@
+{
+    "target_url": "https://backpack.app/download",
+    "domains": {
+        "apps.apple.com": [
+            "https://apps.apple.com/us/app/backpack-crypto-wallet/id6445964121"
+        ],
+        "backpack.app": [
+            "https://backpack.app/",
+            "https://backpack.app/download",
+            "https://backpack.app/media-kit",
+            "https://backpack.app/news",
+            "https://backpack.app/privacy",
+            "https://backpack.app/terms"
+        ],
+        "backpack.exchange": [
+            "https://backpack.exchange"
+        ],
+        "chromewebstore.google.com": [
+            "https://chromewebstore.google.com/detail/backpack/aflkmfhebedbjioipglgcbcmnbpgliof"
+        ],
+        "discord.com": [
+            "https://discord.com/invite/backpack"
+        ],
+        "github.com": [
+            "https://github.com/coral-xyz/backpack"
+        ],
+        "play.google.com": [
+            "https://play.google.com/store/apps/details?id=app.backpack.mobile"
+        ],
+        "support.backpack.exchange": [
+            "https://support.backpack.exchange/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/Backpack"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/backpackexchange"
+        ],
+        "www.notion.so": [
+            "https://www.notion.so/7c1995182f4a491ba8a9501ee15cbd01?v=0604ca8976fa4e5e81c5494f7c95abc4"
+        ]
+    }
+}
