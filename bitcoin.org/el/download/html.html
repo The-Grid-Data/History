@@ -1,0 +1,824 @@
+<!DOCTYPE html><html lang="el"><head>
+
+
+<link rel="stylesheet" href="/css/jquery-ui.min.css">
+
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>ÎÎ®ÏÎ· - Bitcoin</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+<link rel="stylesheet" href="/css/sans.css?1716491272">
+<script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.org is a community funded project, donations are appreciated and used to improve the website.
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        Make a donation
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.org needs your support!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">Donate to Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">Use this QR code or address below</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="Or custom amount? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="Or custom amount? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="Optional description (for your wallet)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+    
+
+<a class="logo" href="/el/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+    
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">EÎ¹ÏÎ±Î³ÏÎ³Î®</a>
+    <ul>
+      <li><a href="/el/bitcoin-for-individuals">ÎÎ´Î¹ÏÏÎµÏ</a></li>
+      <li><a href="/el/bitcoin-for-businesses">ÎÏÎ¹ÏÎµÎ¹ÏÎ®ÏÎµÎ¹Ï</a></li>
+      <li><a href="https://developer.bitcoin.org/">Î ÏÎ¿Î³ÏÎ±Î¼Î¼Î±ÏÎ¹ÏÏÎ­Ï</a></li>
+      <li><a href="/el/getting-started">ÎÎµÎºÎ¹Î½ÏÎ½ÏÎ±Ï</a></li>
+      <li><a href="/el/how-it-works">Î ÏÏ Î»ÎµÎ¹ÏÎ¿ÏÏÎ³ÎµÎ¯</a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">Î ÏÏÎ¿Î¹</a>
+    <ul>
+      <li><a href="/el/resources">Î ÏÏÎ¿Î¹</a>
+      </li><li><a href="/el/exchanges">Exchanges</a></li>
+      <li><a href="/el/community">ÎÎ¿Î¹Î½ÏÏÎ·ÏÎ±</a></li>
+      
+      
+      <li><a href="/el/vocabulary">ÎÎµÎ¾Î¹Î»ÏÎ³Î¹Î¿</a></li>
+      <li><a href="/el/events">ÎÎºÎ´Î·Î»ÏÏÎµÎ¹Ï</a></li>
+      
+        <li class="active"><a href="/el/download">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li><a href="/el/innovation">ÎÎ±Î¹Î½Î¿ÏÎ¿Î¼Î¯Î±</a></li>
+  <li><a class="is-expand">Î£ÏÎ¼Î¼ÎµÏÎ¿ÏÎ®</a>
+    <ul>
+      <li><a href="/el/support-bitcoin">Î¥ÏÎ¿ÏÏÎ·ÏÎ¯Î¾ÏÎµ ÏÎ¿ Bitcoin</a>
+      </li><li><a href="/el/buy">Buy Bitcoin</a></li>
+      
+      <li><a href="/el/development">ÎÎ½Î¬ÏÏÏÎ¾Î·</a></li>
+    </ul>
+  </li>
+  <li><a href="/el/faq">Î£ÏÏÎ½Î­Ï ÎµÏÏÏÎ®ÏÎµÎ¹Ï</a></li>
+</ul>
+
+  
+    
+<ul class="lang is-expand">
+  <li><a>ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/unduh">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/descarrega">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/hent">Dansk</a></li>
+        
+        
+          <li><a href="/de/download">Deutsch</a></li>
+        
+        
+          <li><a href="/en/download">English</a></li>
+        
+        
+          <li><a href="/es/descargar">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/telecharger">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/scarica">Italiano</a></li>
+        
+        
+          <li><a href="/hu/letoltes">Magyar</a></li>
+        
+        
+          <li><a href="/nl/download">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/pobieranie">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/download">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/descarca">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/prenos">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/preuzimanje">Srpski</a></li>
+        
+        
+          <li><a href="/sv/ladda-ner">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/indir">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/download" class="active">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/download">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/download">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/download">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/download">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/download">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/download">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/download">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/download">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/download">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/download">ááááá</a></li>
+        
+        
+          <li><a href="/ja/download">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/download">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/download">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+    
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/unduh">Bahasa Indonesia</option>
+            
+            <option value="/ca/descarrega">CatalÃ </option>
+            
+            <option value="/da/hent">Dansk</option>
+            
+            <option value="/de/download">Deutsch</option>
+            
+            <option value="/en/download">English</option>
+            
+            <option value="/es/descargar">EspaÃ±ol</option>
+            
+            <option value="/fr/telecharger">FranÃ§ais</option>
+            
+            <option value="/it/scarica">Italiano</option>
+            
+            <option value="/hu/letoltes">Magyar</option>
+            
+            <option value="/nl/download">Nederlands</option>
+            
+            <option value="/pl/pobieranie">Polski</option>
+            
+            <option value="/pt_BR/download">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/descarca">RomÃ¢nÄ</option>
+            
+            <option value="/sl/prenos">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/preuzimanje">Srpski</option>
+            
+            <option value="/sv/ladda-ner">Svenska</option>
+            
+            <option value="/tr/indir">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/download" selected="selected">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/download">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/download">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/download">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/download">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/download">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/download">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/download">×¢××¨××ª</option>
+            
+            <option value="/hi/download">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/download">íêµ­ì´</option>
+            
+            <option value="/km/download">ááááá</option>
+            
+            <option value="/ja/download">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/download">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/download">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">el</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+  
+
+<div id="content" class="content">
+    
+<!-- Note: this file exempt from check-for-subheading-anchors check -->
+
+
+
+<link rel="alternate" type="application/rss+xml" href="/en/rss/releases.rss" title="Bitcoin Core releases">
+
+<div class="download">
+
+  <div class="hero">
+    <div class="container hero-container">
+      <h1>ÎÎ®ÏÎ· Bitcoin Core</h1>
+      <h2 class="summary">Î¤ÎµÎ»ÎµÏÏÎ±Î¯Î± Î­ÎºÎ´Î¿ÏÎ·: 27.0
+        <!-- <a type="application/rss+xml" href="/en/rss/releases.rss">
+          <img src="/img/icons/icon_rss.svg?1716491272" alt="rss" class="rssicon">
+        </a> -->
+      </h2>
+    </div>
+  </div>
+  
+  <div class="container core-content clearfix">
+    <div class="core-column-left clearfix">
+      <div class="mainbutton">
+        <a id="downloadbutton" href="https://bitcoin.org/bin/bitcoin-core-27.0/bitcoin-27.0-x86_64-linux-gnu.tar.gz">
+          <!-- <img src="/img/os/but_windows.svg?1716491272" alt="icon"> -->
+          ÎÎ®ÏÎ· Bitcoin Core
+        </a>
+        <p class="btn-subtext">Bitcoin Core 27.0</p>
+        <hr class="separator btn-separator">
+      </div>
+    </div>
+
+    <div class="core-column-right clearfix">
+      <h2 class="download-title">ÎÎ± ÏÏÎµÎ±ÏÏÎµÎ¯ Î½Î± Î´ÎµÎ¯Î¾ÎµÏÎµ ÏÏÎ¿Î¼Î¿Î½Î®</h2>
+      <p class="download-text">Î Î±ÏÏÎ¹ÎºÏÏ ÏÏÎ³ÏÏÎ¿Î½Î¹ÏÎ¼ÏÏ ÏÎ¿Ï Bitcoin ÏÎ¿ÏÏÎ¿ÏÎ¿Î»Î¹Î¿Ï Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± ÏÎ¬ÏÎµÎ¹ ÏÎ¿Î»Ï ÏÏÏÎ½Î¿. ÎÎµÎ²Î±Î¹ÏÎ¸ÎµÎ¯ÏÎµ ÏÏÎ¹ Î­ÏÎµÏÎµ Î±ÏÎºÎµÏÏ ÎµÏÏÎ¿Ï Î¶ÏÎ½Î·Ï (bandwidth) ÎºÎ±Î¹ ÏÎ¿Î½ Î±ÏÎ±ÏÎ±Î¯ÏÎ·ÏÎ¿ ÏÏÏÎ¿ Î±ÏÎ¿Î¸Î®ÎºÎµÏÏÎ·Ï Î³Î¹Î± Î¿Î»ÏÎºÎ»Î·ÏÎ¿ ÏÎ¿ Î¼Î­Î³ÎµÎ¸Î¿Ï ÏÎ·Ï Î±Î»ÏÏÎ¯Î´Î±Ï ÏÏÎ½ Î¼ÏÎ»Î¿Îº (ÏÎ¬Î½Ï Î±ÏÏ 65GB). ÎÎ½ Î³Î½ÏÏÎ¯Î¶ÎµÏÎµ ÏÏÏ Î½Î± ÎºÎ±ÏÎµÎ²Î¬ÏÎµÏÎµ Î­Î½Î± Î±ÏÏÎµÎ¯Î¿ torrent, Î¼ÏÎ¿ÏÎµÎ¯ÏÎµ Î½Î± ÏÏÎ½ÏÎ¿Î¼ÎµÏÏÎµÏÎµ ÏÎ· Î´Î¹Î±Î´Î¹ÎºÎ±ÏÎ¯Î± Î²Î¬Î¶Î¿Î½ÏÎ±Ï ÏÎ¿ Î±ÏÏÎµÎ¯Î¿ <a href="/bin/blockchain/bootstrap.dat.torrent">bootstrap.dat</a> ÏÏÎ¿Î½ ÎºÎ±ÏÎ¬Î»Î¿Î³Î¿ Î´ÎµÎ´Î¿Î¼Î­Î½ÏÎ½  ÏÎ¿Ï Bitcoin ÏÏÎ¹Î½ Î¾ÎµÎºÎ¹Î½Î®ÏÎµÏÎµ ÏÎ¿ Î»Î¿Î³Î¹ÏÎ¼Î¹ÎºÏ. Read the <a href="/en/full-node">full node guide</a> for details.</p>
+      <p class="download-text">Î¤Î¿ Bitcoin Core ÎµÎ¯Î½Î±Î¹ Î­Î½Î± ÎºÎ±Î¸Î¿Î´Î·Î³Î¿ÏÎ¼ÎµÎ½Î¿ Î±ÏÏ ÏÎ·Î½ ÎºÎ¿Î¹Î½ÏÏÎ·ÏÎ± ÏÏÏÏÎ¶ÎµÎºÏ <a href="https://www.fsf.org/about/what-is-free-software"> ÎµÎ»ÎµÏÎ¸ÎµÏÎ¿Ï Î»Î¿Î³Î¹ÏÎ¼Î¹ÎºÎ¿Ï</a>, ÏÎ¿Ï Î´Î¹Î±ÏÎ¯Î¸ÎµÏÎ±Î¹ Î²Î¬ÏÎµÎ¹ ÏÎ·Ï <a href="http://opensource.org/licenses/mit-license.php">MIT Î¬Î´ÎµÎ¹Î±Ï</a>.</p>
+      
+      <div class="downloadmore">
+        <a href="/bin/bitcoin-core-27.0/SHA256SUMS.asc" class="dl core-link">ÎÏÎ¹Î²ÎµÎ²Î±Î¯ÏÏÎ· Î­ÎºÎ´Î¿ÏÎ·Ï ÏÏÎ¿Î³ÏÎ±ÏÏÎ½</a>
+        <a href="/bin/bitcoin-core-27.0/bitcoin-27.0.torrent" class="dl core-link">Download torrent</a>
+        
+        <a href="magnet:?xt=urn:btih:2b2d123e5e831b245fb1dc5b8b71f89de4a90d00&amp;dn=bitcoin-core-27.0&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.bitcoin.sprovoost.nl%3A6969&amp;ws=http://bitcoincore.org/bin/" class="magnetlink core-link" data-proofer-ignore=""></a>
+        <a href="https://github.com/bitcoin/bitcoin" class="dl core-link">Source code</a>
+        <a href="/en/version-history" class="core-link">ÎÎ¼ÏÎ¬Î½Î¹ÏÎ· Î¹ÏÏÎ¿ÏÎ¹ÎºÎ¿Ï Î­ÎºÎ´Î¿ÏÎ·Ï</a>
+      </div>
+      
+    </div>
+    
+    <div class="downloadbox core-column-left clearfix">
+      <p class="corecard-label">Î ÎµÏÎ¹Î»Î­Î¾ÏÎµ ÏÎ¿ Î»ÎµÎ¹ÏÎ¿ÏÏÎ³Î¹ÎºÏ ÏÎ±Ï ÏÏÏÏÎ·Î¼Î±</p>
+
+        <div class="corecard windows-card">
+          <a href="/bin/bitcoin-core-27.0/bitcoin-27.0-win64-setup.exe" id="downloadwinexe">Windows</a>
+          <a href="/bin/bitcoin-core-27.0/bitcoin-27.0-win64-setup.exe" class="dl download-link" id="win64exe">exe</a>
+          <span> - </span>
+          <a href="/bin/bitcoin-core-27.0/bitcoin-27.0-win64.zip" class="dl download-link" id="win64zip">zip</a>
+        </div>
+
+        <div class="corecard mac-card">
+          <a href="/bin/bitcoin-core-27.0/bitcoin-27.0-x86_64-apple-darwin.zip">macOS (x86_64)</a>
+          <a href="/bin/bitcoin-core-27.0/bitcoin-27.0-x86_64-apple-darwin.zip" class="dl download-link" id="maczip">zip</a>
+          <span> - </span>
+          <a href="/bin/bitcoin-core-27.0/bitcoin-27.0-x86_64-apple-darwin.tar.gz" class="dl download-link" id="mactar">tar.gz</a>
+        </div>
+
+        <div class="corecard mac-card">
+          <a href="/bin/bitcoin-core-27.0/bitcoin-27.0-arm64-apple-darwin.zip">macOS (arm64)</a>
+          <a href="/bin/bitcoin-core-27.0/bitcoin-27.0-arm64-apple-darwin.zip" class="dl download-link" id="macarmzip">zip</a>
+          <span> - </span>
+          <a href="/bin/bitcoin-core-27.0/bitcoin-27.0-arm64-apple-darwin.tar.gz" class="dl download-link" id="macarmtar">tar.gz</a>
+        </div>
+
+        <div class="corecard linux-card">
+          <a href="https://bitcoin.org/bin/bitcoin-core-27.0/bitcoin-27.0-x86_64-linux-gnu.tar.gz" id="downloadlin">Linux (tgz)</a>
+          <a href="/bin/bitcoin-core-27.0/bitcoin-27.0-x86_64-linux-gnu.tar.gz" class="dl download-link" id="lin64">64 bit</a> 
+        </div>
+
+        <div class="corecard arm-card">
+          <a href="/bin/bitcoin-core-27.0/bitcoin-27.0-arm-linux-gnueabihf.tar.gz" class="dl">ARM Linux</a>
+          <a href="/bin/bitcoin-core-27.0/bitcoin-27.0-aarch64-linux-gnu.tar.gz" class="dl download-link" id="lin64arm">64 bit</a> 
+          <span> - </span>
+          <a href="/bin/bitcoin-core-27.0/bitcoin-27.0-arm-linux-gnueabihf.tar.gz" class="dl download-link" id="lin32arm">32 bit</a>
+        </div>
+
+        <div class="corecard linux-card">
+          <a href="/bin/bitcoin-core-27.0/bitcoin-27.0-riscv64-linux-gnu.tar.gz" id="downloadrisclin">RISC-V Linux</a>
+          <a href="/bin/bitcoin-core-27.0/bitcoin-27.0-riscv64-linux-gnu.tar.gz" class="dl download-link" id="riscvlin64">64 bit</a> 
+        </div>
+
+        <div class="corecard linux-card">
+          <a href="/bin/bitcoin-core-27.0/bitcoin-27.0-powerpc64le-linux-gnu.tar.gz" class="dl">PPC64 Linux</a>
+          <a href="/bin/bitcoin-core-27.0/bitcoin-27.0-powerpc64-linux-gnu.tar.gz" class="dl download-link" id="ppclin64">64 bit</a> 
+          <span> - </span>
+          <a href="/bin/bitcoin-core-27.0/bitcoin-27.0-powerpc64le-linux-gnu.tar.gz" class="dl download-link" id="ppclin64le">64 bit LE</a>
+        </div>
+
+        <div class="corecard snap-card">
+          <a href="https://snapcraft.io/bitcoin-core">Linux (Snap Store)</a>
+        </div>
+    </div>
+    
+    
+  </div>
+</div>
+<script type="text/javascript">
+var os = 'windows64';
+if (navigator.userAgent.indexOf('Mac') != -1) var os = 'mac'
+else if (navigator.userAgent.indexOf('Linux') != -1) {
+	var os='linux32';
+	if (navigator.userAgent.indexOf('x86_64') != -1) var os = 'linux64';
+	if (navigator.userAgent.indexOf('Ubuntu') != -1) var os = 'snap';
+}
+else if (navigator.userAgent.indexOf('WOW64') != -1 || navigator.userAgent.indexOf('Win64') != -1) var os='windows64';
+var but = document.getElementById('downloadbutton');
+var linkwinexe = document.getElementById('downloadwinexe');
+var linkwinzip = document.getElementById('downloadwinzip');
+var linklin = document.getElementById('downloadlin');
+var hrefwin64exe = document.getElementById('win64exe').href;
+var hrefwin64zip = document.getElementById('win64zip').href;
+var hrefmaczip = document.getElementById('maczip').href;
+var hrefmactar = document.getElementById('mactar').href;
+var hreflin64 = document.getElementById('lin64').href;
+switch (os) {
+case 'windows64':
+	but.href = hrefwin64exe;
+	linkwinexe.href = hrefwin64exe;
+	linkwinzip.href = hrefwin64zip;
+break;
+case 'linux64':
+	but.href = hreflin64;
+	linklin.href = hreflin64;
+break;
+case 'snap':
+	but.href = 'https://snapcraft.io/bitcoin-core';
+break;
+case 'mac':
+	but.href = hrefmaczip;
+break;
+}
+
+</script>
+
+
+</div>
+
+  <div class="footer">
+    <div class="container">
+      
+
+<a class="logo-footer" href="/el/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a>
+      
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Support Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Donate</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">EÎ¹ÏÎ±Î³ÏÎ³Î®:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/el/bitcoin-for-individuals">ÎÎ´Î¹ÏÏÎµÏ</a>
+        </li>
+        <li>
+          <a href="/el/bitcoin-for-businesses">ÎÏÎ¹ÏÎµÎ¹ÏÎ®ÏÎµÎ¹Ï</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">Î ÏÎ¿Î³ÏÎ±Î¼Î¼Î±ÏÎ¹ÏÏÎ­Ï</a>
+        </li>
+        <li>
+          <a href="/el/getting-started">ÎÎµÎºÎ¹Î½ÏÎ½ÏÎ±Ï</a>
+        </li>
+        <li>
+          <a href="/el/how-it-works">Î ÏÏ Î»ÎµÎ¹ÏÎ¿ÏÏÎ³ÎµÎ¯</a>
+        </li>
+        <li>
+          <a href="/el/you-need-to-know">Î ÏÎ­ÏÎµÎ¹ Î½Î± Î³Î½ÏÏÎ¯Î¶ÎµÏÎµ</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">Î ÏÏÎ¿Î¹:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/el/resources">Î ÏÏÎ¿Î¹</a>
+        </li><li>
+          <a href="/el/exchanges">Exchanges</a>
+        </li>
+        <li>
+          <a href="/el/community">ÎÎ¿Î¹Î½ÏÏÎ·ÏÎ±</a>
+        </li>
+        <li>
+          <a href="/el/vocabulary">ÎÎµÎ¾Î¹Î»ÏÎ³Î¹Î¿
+          </a>
+        </li>
+        <li>
+          <a href="/el/events">ÎÎºÎ´Î·Î»ÏÏÎµÎ¹Ï</a>
+        </li>
+        
+          <li class="active">
+            <a href="/el/download">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">Î£ÏÎ¼Î¼ÎµÏÎ¿ÏÎ®:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/el/support-bitcoin">Î¥ÏÎ¿ÏÏÎ·ÏÎ¯Î¾ÏÎµ ÏÎ¿ Bitcoin</a>
+        
+        
+        </li><li>
+          <a href="/el/development">ÎÎ½Î¬ÏÏÏÎ¾Î·</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Other:</p>
+      
+      <a href="/el/legal">ÎÎ¿Î¼Î¹ÎºÎ¬</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/el/press">Î¤ÏÏÎ¿Ï (ÎÎÎ)</a>
+      <a href="/el/about-us">Î£ÏÎµÏÎ¹ÎºÎ¬ Î¼Îµ ÏÎ¿ bitcoin.org</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 ÎÏÎºÎ»Î¿ÏÏÏÎ·ÏÎµ ÏÏÏ ÏÎ·Î½ <a href="http://opensource.org/licenses/mit-license.php" target="_blank">Î¬Î´ÎµÎ¹Î± MIT</a>
+        <br> Bitcoin Core pages on Bitcoin.org are
+        <a href="/en/bitcoin-core/about-site">maintained separately</a> from the rest of the site.
+      </div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">Network Status</a>
+        
+<ul class="lang is-expand">
+  <li><a>ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/unduh">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/descarrega">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/hent">Dansk</a></li>
+        
+        
+          <li><a href="/de/download">Deutsch</a></li>
+        
+        
+          <li><a href="/en/download">English</a></li>
+        
+        
+          <li><a href="/es/descargar">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/telecharger">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/scarica">Italiano</a></li>
+        
+        
+          <li><a href="/hu/letoltes">Magyar</a></li>
+        
+        
+          <li><a href="/nl/download">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/pobieranie">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/download">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/descarca">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/prenos">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/preuzimanje">Srpski</a></li>
+        
+        
+          <li><a href="/sv/ladda-ner">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/indir">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/download" class="active">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/download">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/download">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/download">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/download">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/download">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/download">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/download">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/download">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/download">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/download">ááááá</a></li>
+        
+        
+          <li><a href="/ja/download">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/download">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/download">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/unduh">Bahasa Indonesia</option>
+              
+              <option value="/ca/descarrega">CatalÃ </option>
+              
+              <option value="/da/hent">Dansk</option>
+              
+              <option value="/de/download">Deutsch</option>
+              
+              <option value="/en/download">English</option>
+              
+              <option value="/es/descargar">EspaÃ±ol</option>
+              
+              <option value="/fr/telecharger">FranÃ§ais</option>
+              
+              <option value="/it/scarica">Italiano</option>
+              
+              <option value="/hu/letoltes">Magyar</option>
+              
+              <option value="/nl/download">Nederlands</option>
+              
+              <option value="/pl/pobieranie">Polski</option>
+              
+              <option value="/pt_BR/download">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/descarca">RomÃ¢nÄ</option>
+              
+              <option value="/sl/prenos">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/preuzimanje">Srpski</option>
+              
+              <option value="/sv/ladda-ner">Svenska</option>
+              
+              <option value="/tr/indir">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/download" selected="selected">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/download">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/download">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/download">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/download">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/download">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/download">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/download">×¢××¨××ª</option>
+              
+              <option value="/hi/download">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/download">íêµ­ì´</option>
+              
+              <option value="/km/download">ááááá</option>
+              
+              <option value="/ja/download">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/download">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/download">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">el</span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+
+
+
+
+
+
+</body></html>

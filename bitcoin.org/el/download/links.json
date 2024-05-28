@@ -1,0 +1,97 @@
+{
+    "target_url": "https://bitcoin.org/el/download",
+    "domains": {
+        "": [
+            "bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h",
+            "magnet:?xt=urn:btih:2b2d123e5e831b245fb1dc5b8b71f89de4a90d00&dn=bitcoin-core-27.0&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.bitcoin.sprovoost.nl%3A6969&ws=http://bitcoincore.org/bin/"
+        ],
+        "bitcoin.org": [
+            "https://bitcoin.org/ar/download",
+            "https://bitcoin.org/bg/download",
+            "https://bitcoin.org/bin/bitcoin-core-27.0/SHA256SUMS.asc",
+            "https://bitcoin.org/bin/bitcoin-core-27.0/bitcoin-27.0-aarch64-linux-gnu.tar.gz",
+            "https://bitcoin.org/bin/bitcoin-core-27.0/bitcoin-27.0-arm-linux-gnueabihf.tar.gz",
+            "https://bitcoin.org/bin/bitcoin-core-27.0/bitcoin-27.0-arm64-apple-darwin.tar.gz",
+            "https://bitcoin.org/bin/bitcoin-core-27.0/bitcoin-27.0-arm64-apple-darwin.zip",
+            "https://bitcoin.org/bin/bitcoin-core-27.0/bitcoin-27.0-powerpc64-linux-gnu.tar.gz",
+            "https://bitcoin.org/bin/bitcoin-core-27.0/bitcoin-27.0-powerpc64le-linux-gnu.tar.gz",
+            "https://bitcoin.org/bin/bitcoin-core-27.0/bitcoin-27.0-riscv64-linux-gnu.tar.gz",
+            "https://bitcoin.org/bin/bitcoin-core-27.0/bitcoin-27.0-win64-setup.exe",
+            "https://bitcoin.org/bin/bitcoin-core-27.0/bitcoin-27.0-win64.zip",
+            "https://bitcoin.org/bin/bitcoin-core-27.0/bitcoin-27.0-x86_64-apple-darwin.tar.gz",
+            "https://bitcoin.org/bin/bitcoin-core-27.0/bitcoin-27.0-x86_64-apple-darwin.zip",
+            "https://bitcoin.org/bin/bitcoin-core-27.0/bitcoin-27.0-x86_64-linux-gnu.tar.gz",
+            "https://bitcoin.org/bin/bitcoin-core-27.0/bitcoin-27.0.torrent",
+            "https://bitcoin.org/bin/blockchain/bootstrap.dat.torrent",
+            "https://bitcoin.org/ca/descarrega",
+            "https://bitcoin.org/da/hent",
+            "https://bitcoin.org/de/download",
+            "https://bitcoin.org/el/",
+            "https://bitcoin.org/el/about-us",
+            "https://bitcoin.org/el/bitcoin-for-businesses",
+            "https://bitcoin.org/el/bitcoin-for-individuals",
+            "https://bitcoin.org/el/buy",
+            "https://bitcoin.org/el/community",
+            "https://bitcoin.org/el/development",
+            "https://bitcoin.org/el/download",
+            "https://bitcoin.org/el/events",
+            "https://bitcoin.org/el/exchanges",
+            "https://bitcoin.org/el/faq",
+            "https://bitcoin.org/el/getting-started",
+            "https://bitcoin.org/el/how-it-works",
+            "https://bitcoin.org/el/innovation",
+            "https://bitcoin.org/el/legal",
+            "https://bitcoin.org/el/press",
+            "https://bitcoin.org/el/resources",
+            "https://bitcoin.org/el/support-bitcoin",
+            "https://bitcoin.org/el/vocabulary",
+            "https://bitcoin.org/el/you-need-to-know",
+            "https://bitcoin.org/en/alerts",
+            "https://bitcoin.org/en/bitcoin-core/about-site",
+            "https://bitcoin.org/en/blog",
+            "https://bitcoin.org/en/download",
+            "https://bitcoin.org/en/full-node",
+            "https://bitcoin.org/en/privacy",
+            "https://bitcoin.org/en/version-history",
+            "https://bitcoin.org/es/descargar",
+            "https://bitcoin.org/fa/download",
+            "https://bitcoin.org/fr/telecharger",
+            "https://bitcoin.org/he/download",
+            "https://bitcoin.org/hi/download",
+            "https://bitcoin.org/hu/letoltes",
+            "https://bitcoin.org/hy/download",
+            "https://bitcoin.org/id/unduh",
+            "https://bitcoin.org/it/scarica",
+            "https://bitcoin.org/ja/download",
+            "https://bitcoin.org/km/download",
+            "https://bitcoin.org/ko/download",
+            "https://bitcoin.org/nl/download",
+            "https://bitcoin.org/pl/pobieranie",
+            "https://bitcoin.org/pt_BR/download",
+            "https://bitcoin.org/ro/descarca",
+            "https://bitcoin.org/ru/download",
+            "https://bitcoin.org/sl/prenos",
+            "https://bitcoin.org/sr/preuzimanje",
+            "https://bitcoin.org/sv/ladda-ner",
+            "https://bitcoin.org/tr/indir",
+            "https://bitcoin.org/uk/download",
+            "https://bitcoin.org/zh_CN/download",
+            "https://bitcoin.org/zh_TW/download"
+        ],
+        "developer.bitcoin.org": [
+            "https://developer.bitcoin.org/"
+        ],
+        "github.com": [
+            "https://github.com/bitcoin/bitcoin"
+        ],
+        "opensource.org": [
+            "http://opensource.org/licenses/mit-license.php"
+        ],
+        "snapcraft.io": [
+            "https://snapcraft.io/bitcoin-core"
+        ],
+        "www.fsf.org": [
+            "https://www.fsf.org/about/what-is-free-software"
+        ]
+    }
+}
