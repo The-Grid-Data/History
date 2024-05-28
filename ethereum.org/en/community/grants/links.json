@@ -1,0 +1,158 @@
+{
+    "target_url": "https://ethereum.org/en/community/grants/",
+    "domains": {
+        "": [
+            "mailto:press@ethereum.org"
+        ],
+        "aave.com": [
+            "https://aave.com/"
+        ],
+        "aavegrants.org": [
+            "https://aavegrants.org/"
+        ],
+        "balancer.fi": [
+            "https://balancer.fi/"
+        ],
+        "blockworks.co": [
+            "https://blockworks.co/grants/programs"
+        ],
+        "blog.ethereum.org": [
+            "https://blog.ethereum.org/"
+        ],
+        "chain.link": [
+            "https://chain.link/",
+            "https://chain.link/community/grants"
+        ],
+        "clr.fund": [
+            "https://clr.fund/"
+        ],
+        "decentraland.org": [
+            "https://decentraland.org/"
+        ],
+        "devcon.org": [
+            "https://devcon.org/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/ethereum-org"
+        ],
+        "docs.google.com": [
+            "https://docs.google.com/spreadsheets/d/1XHc-p_MHNRdjacc8uOEjtPoWL86olP4GyxAJOFO0zxY/edit#gid=0"
+        ],
+        "esp.ethereum.foundation": [
+            "https://esp.ethereum.foundation",
+            "https://esp.ethereum.foundation/academic-grants"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/en/",
+            "https://ethereum.org/en/about/",
+            "https://ethereum.org/en/about/#open-jobs",
+            "https://ethereum.org/en/assets/",
+            "https://ethereum.org/en/bug-bounty/",
+            "https://ethereum.org/en/community/",
+            "https://ethereum.org/en/community/code-of-conduct/",
+            "https://ethereum.org/en/community/events/",
+            "https://ethereum.org/en/community/get-involved/#ethereum-jobs",
+            "https://ethereum.org/en/community/grants/",
+            "https://ethereum.org/en/community/grants/#broad-ethereum-ecosystem",
+            "https://ethereum.org/en/community/grants/#main-content",
+            "https://ethereum.org/en/community/grants/#project-specific",
+            "https://ethereum.org/en/community/grants/#quadratic-funding",
+            "https://ethereum.org/en/community/grants/#work-in-ethereum",
+            "https://ethereum.org/en/community/online/",
+            "https://ethereum.org/en/community/research/",
+            "https://ethereum.org/en/contributing/",
+            "https://ethereum.org/en/contributing/translation-program/",
+            "https://ethereum.org/en/cookie-policy/",
+            "https://ethereum.org/en/dao/",
+            "https://ethereum.org/en/dapps/",
+            "https://ethereum.org/en/decentralized-identity/",
+            "https://ethereum.org/en/defi/",
+            "https://ethereum.org/en/defi/#quadratic-funding",
+            "https://ethereum.org/en/developers/",
+            "https://ethereum.org/en/developers/docs/",
+            "https://ethereum.org/en/developers/docs/design-and-ux/",
+            "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+            "https://ethereum.org/en/developers/learning-tools/",
+            "https://ethereum.org/en/developers/local-environment/",
+            "https://ethereum.org/en/developers/tutorials/",
+            "https://ethereum.org/en/eips/",
+            "https://ethereum.org/en/enterprise/",
+            "https://ethereum.org/en/enterprise/private-ethereum/",
+            "https://ethereum.org/en/eth/",
+            "https://ethereum.org/en/foundation/",
+            "https://ethereum.org/en/gas/",
+            "https://ethereum.org/en/get-eth/",
+            "https://ethereum.org/en/glossary/",
+            "https://ethereum.org/en/governance/",
+            "https://ethereum.org/en/guides/",
+            "https://ethereum.org/en/history/",
+            "https://ethereum.org/en/layer-2/",
+            "https://ethereum.org/en/learn/",
+            "https://ethereum.org/en/nft/",
+            "https://ethereum.org/en/privacy-policy/",
+            "https://ethereum.org/en/quizzes/",
+            "https://ethereum.org/en/roadmap/",
+            "https://ethereum.org/en/roadmap/security/",
+            "https://ethereum.org/en/run-a-node/",
+            "https://ethereum.org/en/security/",
+            "https://ethereum.org/en/smart-contracts/",
+            "https://ethereum.org/en/stablecoins/",
+            "https://ethereum.org/en/staking/",
+            "https://ethereum.org/en/terms-of-use/",
+            "https://ethereum.org/en/wallets/",
+            "https://ethereum.org/en/wallets/find-wallet/",
+            "https://ethereum.org/en/web3/",
+            "https://ethereum.org/en/what-is-ethereum/",
+            "https://ethereum.org/en/whitepaper/"
+        ],
+        "gitcoin.co": [
+            "https://gitcoin.co/grants"
+        ],
+        "github.com": [
+            "https://github.com/ethereum/ethereum-org-website",
+            "https://github.com/ethereum/ethereum-org-website/tree/dev/public/content/community/grants/index.md"
+        ],
+        "governance.decentraland.org": [
+            "https://governance.decentraland.org/grants/"
+        ],
+        "grants.balancer.community": [
+            "https://grants.balancer.community/"
+        ],
+        "lido.fi": [
+            "https://lido.fi/",
+            "https://lido.fi/lego"
+        ],
+        "metamask.io": [
+            "https://metamask.io/"
+        ],
+        "metamaskgrants.org": [
+            "https://metamaskgrants.org/"
+        ],
+        "my.ethswarm.org": [
+            "https://my.ethswarm.org/grants"
+        ],
+        "skale.space": [
+            "https://skale.space/",
+            "https://skale.space/developers#grants"
+        ],
+        "thegraph.com": [
+            "https://thegraph.com/",
+            "https://thegraph.com/ecosystem/grants/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ethdotorg"
+        ],
+        "uniswap.org": [
+            "https://uniswap.org/"
+        ],
+        "www.ethswarm.org": [
+            "https://www.ethswarm.org/"
+        ],
+        "www.molochdao.com": [
+            "https://www.molochdao.com/"
+        ],
+        "www.uniswapfoundation.org": [
+            "https://www.uniswapfoundation.org/grants"
+        ]
+    }
+}
