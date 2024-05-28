@@ -1,0 +1,11 @@
+{
+    "target_url": "https://parallel.life/game-manual",
+    "domains": {
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=3ccc1d2c-42a8-4e0d-8ed2-e7d1d372200d&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=0ab9f047-5bd1-4a95-961f-fe8c3b1ae7ee&tw_document_href=https%3A%2F%2Fparallel.life%2Fgame-manual%2Fworld-of-parallel&tw_iframe_status=0&txn_id=okqpa&type=javascript&version=2.3.30"
+        ],
+        "t.co": [
+            "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=3ccc1d2c-42a8-4e0d-8ed2-e7d1d372200d&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=0ab9f047-5bd1-4a95-961f-fe8c3b1ae7ee&tw_document_href=https%3A%2F%2Fparallel.life%2Fgame-manual%2Fworld-of-parallel&tw_iframe_status=0&txn_id=okqpa&type=javascript&version=2.3.30"
+        ]
+    }
+}

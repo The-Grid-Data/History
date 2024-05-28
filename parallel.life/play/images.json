@@ -1,0 +1,11 @@
+{
+    "target_url": "https://parallel.life/play",
+    "domains": {
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=f008c49f-7624-4d20-9a6a-538dd087c7ce&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=16e4c8fe-c24c-4053-be55-3a092011ec15&tw_document_href=https%3A%2F%2Fparallel.life%2Fdownload&tw_iframe_status=0&txn_id=okqpa&type=javascript&version=2.3.30"
+        ],
+        "t.co": [
+            "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=f008c49f-7624-4d20-9a6a-538dd087c7ce&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=16e4c8fe-c24c-4053-be55-3a092011ec15&tw_document_href=https%3A%2F%2Fparallel.life%2Fdownload&tw_iframe_status=0&txn_id=okqpa&type=javascript&version=2.3.30"
+        ]
+    }
+}
