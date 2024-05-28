@@ -1,0 +1,61 @@
+{
+    "target_url": "https://solana.com/developers/cookbook/wallets/restore-keypair",
+    "domains": {
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "github.com": [
+            "https://github.com/solana-foundation/developer-content/tree/main/content/cookbook/wallets/restore-keypair.md"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "solana.com": [
+            "https://solana.com/",
+            "https://solana.com/branding",
+            "https://solana.com/developers/cookbook",
+            "https://solana.com/developers/cookbook/accounts/calculate-rent",
+            "https://solana.com/developers/cookbook/accounts/close-account",
+            "https://solana.com/developers/cookbook/accounts/create-account",
+            "https://solana.com/developers/cookbook/accounts/create-pda-account",
+            "https://solana.com/developers/cookbook/accounts/get-account-balance",
+            "https://solana.com/developers/cookbook/accounts/sign-with-pda",
+            "https://solana.com/developers/cookbook/transactions/add-memo",
+            "https://solana.com/developers/cookbook/transactions/add-priority-fees",
+            "https://solana.com/developers/cookbook/transactions/calculate-cost",
+            "https://solana.com/developers/cookbook/transactions/optimize-compute",
+            "https://solana.com/developers/cookbook/transactions/send-sol",
+            "https://solana.com/developers/cookbook/transactions/send-tokens",
+            "https://solana.com/developers/cookbook/wallets/check-publickey",
+            "https://solana.com/developers/cookbook/wallets/connect-wallet-react",
+            "https://solana.com/developers/cookbook/wallets/create-keypair",
+            "https://solana.com/developers/cookbook/wallets/generate-mnemonic",
+            "https://solana.com/developers/cookbook/wallets/generate-vanity-address",
+            "https://solana.com/developers/cookbook/wallets/restore-from-mnemonic",
+            "https://solana.com/developers/cookbook/wallets/restore-keypair",
+            "https://solana.com/developers/cookbook/wallets/restore-keypair#from-base58-string",
+            "https://solana.com/developers/cookbook/wallets/restore-keypair#from-bytes",
+            "https://solana.com/developers/cookbook/wallets/sign-message",
+            "https://solana.com/developers/cookbook/wallets/verify-keypair",
+            "https://solana.com/developers/guides",
+            "https://solana.com/discord",
+            "https://solana.com/docs",
+            "https://solana.com/docs/rpc",
+            "https://solana.com/docs/terminology",
+            "https://solana.com/ecosystem",
+            "https://solana.com/github",
+            "https://solana.com/news",
+            "https://solana.com/newsletter",
+            "https://solana.com/privacy-policy",
+            "https://solana.com/privacy-policy#collection-of-information",
+            "https://solana.com/reddit",
+            "https://solana.com/telegram",
+            "https://solana.com/tos",
+            "https://solana.com/twitter",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ]
+    }
+}
