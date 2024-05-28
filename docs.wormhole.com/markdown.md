@@ -424,7 +424,7 @@ x-prod.appspot.com%2Fo%2Fspaces%252F-MkD9YTtNUKJxtD9pDF-%252Fuploads%252Fgit-
 blob-63f341e6af0c5da2b1c1b0c0d2e74d8f1f764177%252Fxpla.svg%3Falt%3Dmedia&width=245&dpr=4&quality=100&sign=bdc8fa9be178ff0db396ef91113a224dcdd3a9bfdd6f1859cb64101c883193e9)**Xpla**](/wormhole/reference/blockchain-
 environments/cosmwasm#xpla)
 
-Last updated 9 days ago
+Last updated 10 days ago
 
 On this page
 
