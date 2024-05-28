@@ -1,0 +1,39 @@
+{
+    "target_url": "https://sling.money/download",
+    "domains": {
+        "apps.apple.com": [
+            "https://apps.apple.com/us/app/sling-money/id1637592256"
+        ],
+        "avianlabs.net": [
+            "https://avianlabs.net"
+        ],
+        "intercom.help": [
+            "https://intercom.help/sling-money/en/collections/3985639-frequently-asked-questions"
+        ],
+        "play.google.com": [
+            "https://play.google.com/store/apps/details?id=net.avianlabs.app"
+        ],
+        "sling.money": [
+            "https://sling.money/",
+            "https://sling.money/blog",
+            "https://sling.money/careers",
+            "https://sling.money/legal",
+            "https://sling.money/team"
+        ],
+        "statuspage.incident.io": [
+            "https://statuspage.incident.io/sling"
+        ],
+        "twitter.com": [
+            "https://twitter.com/SlingMoney"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/Sling.Money/"
+        ],
+        "www.instagram.com": [
+            "https://www.instagram.com/Sling.Money/"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/sling-money/"
+        ]
+    }
+}
