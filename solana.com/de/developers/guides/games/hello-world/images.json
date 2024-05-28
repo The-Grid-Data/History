@@ -1,0 +1,18 @@
+{
+    "target_url": "https://solana.com/de/developers/guides/games/hello-world",
+    "domains": {
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=bce2f76d-2681-4f65-8cc1-51d25acad72a&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=b755a6c5-5caf-46a3-8b4b-7cffd04e6cfe&tw_document_href=https%3A%2F%2Fsolana.com%2Fde%2Fdevelopers%2Fguides%2Fgames%2Fhello-world&tw_iframe_status=0&txn_id=o6jgu&type=javascript&version=2.3.30"
+        ],
+        "solana-developer-content.vercel.app": [
+            "https://solana-developer-content.vercel.app/assets/guides/hello-world/solpg.gif"
+        ],
+        "solana.com": [
+            "https://solana.com/_next/image?url=%2Fopengraph%2Fdevelopers%2Fguides%2Fgames%2Fhello-world&w=3840&q=75",
+            "https://solana.com/_next/static/media/logotype-dark.f79d530d.svg"
+        ],
+        "t.co": [
+            "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=bce2f76d-2681-4f65-8cc1-51d25acad72a&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=b755a6c5-5caf-46a3-8b4b-7cffd04e6cfe&tw_document_href=https%3A%2F%2Fsolana.com%2Fde%2Fdevelopers%2Fguides%2Fgames%2Fhello-world&tw_iframe_status=0&txn_id=o6jgu&type=javascript&version=2.3.30"
+        ]
+    }
+}
