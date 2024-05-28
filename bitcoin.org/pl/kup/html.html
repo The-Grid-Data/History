@@ -1,0 +1,939 @@
+<!DOCTYPE html><html lang="pl"><head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Buy Bitcoin</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+<link rel="stylesheet" href="/css/sans.css?1716491272">
+<script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-G6FD47421W&amp;cx=c&amp;_slc=1"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<script src="https://static.moonpay.com/web-sdk/v1/moonpay-web-sdk.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.org is a community funded project, donations are appreciated and used to improve the website.
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        Make a donation
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.org needs your support!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">Donate to Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">Use this QR code or address below</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="Or custom amount? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="Or custom amount? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="Optional description (for your wallet)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="/pl/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">Wprowadzenie</a>
+    <ul>
+      <li><a href="/pl/bitcoin-dla-osob-fizycznych">OsÃ³b fizycznych</a></li>
+      <li><a href="/pl/bitcoin-dla-biznesu">Firm</a></li>
+      <li><a href="https://developer.bitcoin.org/">DeweloperÃ³w</a></li>
+      <li><a href="/pl/pierwsze-kroki">Pierwsze kroki</a></li>
+      <li><a href="/pl/jak-to-dziala">Jak to dziaÅa</a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">Zasoby</a>
+    <ul>
+      <li><a href="/pl/zasoby">Zasoby</a>
+      </li><li><a href="/pl/wymiany">Exchanges</a></li>
+      <li><a href="/pl/spolecznosc">SpoÅecznoÅÄ</a></li>
+      
+      
+      <li><a href="/pl/slownik">SÅownik</a></li>
+      <li><a href="/pl/wydarzenia">Wydarzenia</a></li>
+      
+        <li><a href="/pl/pobieranie">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li><a href="/pl/innowacje">Innowacje</a></li>
+  <li><a class="is-expand">WeÅº udziaÅ</a>
+    <ul>
+      <li><a href="/pl/wesprzyj-bitcoin">Wesprzyj Bitcoin</a>
+      </li><li class="active"><a href="/pl/kup">Buy Bitcoin</a></li>
+      
+      <li><a href="/pl/rozwoj">RozwÃ³j</a></li>
+    </ul>
+  </li>
+  <li><a href="/pl/faq">FAQ</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>Polski</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/beli">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/comprar">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/kobe">Dansk</a></li>
+        
+        
+          <li><a href="/de/kaufen">Deutsch</a></li>
+        
+        
+          <li><a href="/en/buy">English</a></li>
+        
+        
+          <li><a href="/es/comprar">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/acheter">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/compra">Italiano</a></li>
+        
+        
+          <li><a href="/hu/vasarlas">Magyar</a></li>
+        
+        
+          <li><a href="/nl/kopen">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/kup" class="active">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/compre">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/cumpara">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/kupit">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/kupi">Srpski</a></li>
+        
+        
+          <li><a href="/sv/kop">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/satin">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/buy">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/buy">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/buy">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/buy">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/buy">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/buy">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/buy">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/buy">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/buy">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/buy">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/buy">ááááá</a></li>
+        
+        
+          <li><a href="/ja/buy">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/buy">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/buy">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/beli">Bahasa Indonesia</option>
+            
+            <option value="/ca/comprar">CatalÃ </option>
+            
+            <option value="/da/kobe">Dansk</option>
+            
+            <option value="/de/kaufen">Deutsch</option>
+            
+            <option value="/en/buy">English</option>
+            
+            <option value="/es/comprar">EspaÃ±ol</option>
+            
+            <option value="/fr/acheter">FranÃ§ais</option>
+            
+            <option value="/it/compra">Italiano</option>
+            
+            <option value="/hu/vasarlas">Magyar</option>
+            
+            <option value="/nl/kopen">Nederlands</option>
+            
+            <option value="/pl/kup" selected="selected">Polski</option>
+            
+            <option value="/pt_BR/compre">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/cumpara">RomÃ¢nÄ</option>
+            
+            <option value="/sl/kupit">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/kupi">Srpski</option>
+            
+            <option value="/sv/kop">Svenska</option>
+            
+            <option value="/tr/satin">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/buy">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/buy">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/buy">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/buy">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/buy">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/buy">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/buy">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/buy">×¢××¨××ª</option>
+            
+            <option value="/hi/buy">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/buy">íêµ­ì´</option>
+            
+            <option value="/km/buy">ááááá</option>
+            
+            <option value="/ja/buy">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/buy">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/buy">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">pl</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  <!-- Note: this file exempt from check-for-subheading-anchors check -->
+
+<div class="hero">
+  <div class="container hero-container">
+    <h1>Buy Bitcoin</h1>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row card-row" style="justify-content: center;">
+	<div class="card buy-card" style="width: 480px;margin-top: -30px;margin-bottom: 100px;">
+  		<div class="tabs buy-sell-tabs" style="">
+    		<input type="radio" name="tabs" id="selltab">
+    		<label for="selltab" style="margin-left: 25px;margin-right: 25px;">Sell Bitcoin</label>
+    		<div class="tab">
+      			<div id="sell-widget" style="width: 370px;height: 650px;"><iframe src="https://sell.moonpay.com/?theme=light&amp;colorCode=%23FF9500&amp;apiKey=pk_live_QWvwDl3WJAq7S8fDjsOUMfjn09DSw8R&amp;mpSdk=%7B%22version%22%3A%221.8.0%22%2C%22environment%22%3A%22production%22%2C%22flow%22%3A%22sell%22%2C%22variant%22%3A%22embedded%22%2C%22platform%22%3A%22web%22%7D" allow="accelerometer; autoplay; camera; encrypted-media; gyroscope; payment" width="100%" height="100%"></iframe></div>
+    		</div>
+    		<input type="radio" name="tabs" id="buytab" checked="checked">
+    		<label for="buytab" style="margin-left: 25px;margin-right: 25px;">Buy Bitcoin</label>
+    		<div class="tab">
+      			<div id="buy-widget" style="width: 370px;height: 650px;"><iframe src="https://buy.moonpay.com/?apiKey=pk_live_QWvwDl3WJAq7S8fDjsOUMfjn09DSw8R&amp;theme=light&amp;colorCode=%23FF9500&amp;mpSdk=%7B%22version%22%3A%221.8.0%22%2C%22environment%22%3A%22production%22%2C%22flow%22%3A%22buy%22%2C%22variant%22%3A%22embedded%22%2C%22platform%22%3A%22web%22%7D" allow="accelerometer; autoplay; camera; encrypted-media; gyroscope; payment" width="100%" height="100%"></iframe></div>
+    		</div>
+  	</div>
+</div>
+	  <div style="margin-top: 50px;text-align: center;">
+		  <b>The above widget is provided by a third party provider (<a href="https://www.moonpay.com/">MoonPay</a>) and is not associated with bitcoin.org.</b>
+	  </div>
+  </div>
+</div>
+
+
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="/pl/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Support Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Donate</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">Wprowadzenie:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/pl/bitcoin-dla-osob-fizycznych">OsÃ³b fizycznych</a>
+        </li>
+        <li>
+          <a href="/pl/bitcoin-dla-biznesu">Firm</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">DeweloperÃ³w</a>
+        </li>
+        <li>
+          <a href="/pl/pierwsze-kroki">Pierwsze kroki</a>
+        </li>
+        <li>
+          <a href="/pl/jak-to-dziala">Jak to dziaÅa</a>
+        </li>
+        <li>
+          <a href="/pl/co-potrzebujesz-wiedziec">Musisz to wiedzieÄ</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">Zasoby:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/pl/zasoby">Zasoby</a>
+        </li><li>
+          <a href="/pl/wymiany">Exchanges</a>
+        </li>
+        <li>
+          <a href="/pl/spolecznosc">SpoÅecznoÅÄ</a>
+        </li>
+        <li>
+          <a href="/pl/slownik">SÅownik
+          </a>
+        </li>
+        <li>
+          <a href="/pl/wydarzenia">Wydarzenia</a>
+        </li>
+        
+          <li>
+            <a href="/pl/pobieranie">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">WeÅº udziaÅ:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/pl/wesprzyj-bitcoin">Wesprzyj Bitcoin</a>
+        
+        
+        </li><li>
+          <a href="/pl/rozwoj">RozwÃ³j</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Other:</p>
+      
+      <a href="/pl/informacje-prawne">Informacje prawne</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/pl/prasa">Prasa</a>
+      <a href="/pl/o-nas">O bitcoin.org</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>Strona spoÅecznoÅciowa sponsorowana przez</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1716491272" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 DostÄpny w ramach <a href="http://opensource.org/licenses/mit-license.php" target="_blank">licencji MIT</a></div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">Network Status</a>
+        
+<ul class="lang is-expand">
+  <li><a>Polski</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/beli">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/comprar">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/kobe">Dansk</a></li>
+        
+        
+          <li><a href="/de/kaufen">Deutsch</a></li>
+        
+        
+          <li><a href="/en/buy">English</a></li>
+        
+        
+          <li><a href="/es/comprar">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/acheter">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/compra">Italiano</a></li>
+        
+        
+          <li><a href="/hu/vasarlas">Magyar</a></li>
+        
+        
+          <li><a href="/nl/kopen">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/kup" class="active">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/compre">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/cumpara">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/kupit">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/kupi">Srpski</a></li>
+        
+        
+          <li><a href="/sv/kop">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/satin">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/buy">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/buy">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/buy">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/buy">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/buy">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/buy">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/buy">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/buy">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/buy">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/buy">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/buy">ááááá</a></li>
+        
+        
+          <li><a href="/ja/buy">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/buy">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/buy">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/beli">Bahasa Indonesia</option>
+              
+              <option value="/ca/comprar">CatalÃ </option>
+              
+              <option value="/da/kobe">Dansk</option>
+              
+              <option value="/de/kaufen">Deutsch</option>
+              
+              <option value="/en/buy">English</option>
+              
+              <option value="/es/comprar">EspaÃ±ol</option>
+              
+              <option value="/fr/acheter">FranÃ§ais</option>
+              
+              <option value="/it/compra">Italiano</option>
+              
+              <option value="/hu/vasarlas">Magyar</option>
+              
+              <option value="/nl/kopen">Nederlands</option>
+              
+              <option value="/pl/kup" selected="selected">Polski</option>
+              
+              <option value="/pt_BR/compre">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/cumpara">RomÃ¢nÄ</option>
+              
+              <option value="/sl/kupit">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/kupi">Srpski</option>
+              
+              <option value="/sv/kop">Svenska</option>
+              
+              <option value="/tr/satin">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/buy">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/buy">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/buy">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/buy">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/buy">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/buy">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/buy">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/buy">×¢××¨××ª</option>
+              
+              <option value="/hi/buy">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/buy">íêµ­ì´</option>
+              
+              <option value="/km/buy">ááááá</option>
+              
+              <option value="/ja/buy">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/buy">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/buy">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">pl</span>
+          </label>
+        </div>
+      </div>
+<!--      <div class="row">  -->
+        
+<!--    </div> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+  <script>showBuySellWidgets();</script>
+
+
+
+
+
+
+
+
+<div><noscript>You need to enable JavaScript to run this app.</noscript><div id="modal-root"></div><div id="root" class="h-full w-full overflow-y-auto sm:scrollbar-gutter-stable"><style>
+  :root {
+    --trustpilot-color: #00b67a;
+  }
+
+  body {
+    /* Callisto System - Colors */
+
+    /* Light theme */
+    color-scheme: light;
+
+    --moonpay-brand: #7d00ff;
+    --moonpay-body-background: #ffffff;
+
+    /* Accents */
+    --accent-primary:  #FF9500;
+    --accent-secondary: #37a970;
+    --accent-tertiary: #dab451;
+    --accent-quaternary: #D52A3E;
+    --accent-label-primary:  #FF9500;
+    --accent-label-secondary: #2c8759;
+    --accent-label-tertiary: #be8f19;
+    --accent-label-quaternary: #d52a3e;
+
+    /* Greys */
+    --grey-1: #898395;
+    --grey-2: #b0acb9;
+    --grey-3: #bcb8c2;
+    --grey-4: #c8c6ce;
+    --grey-5: #e2e1e5;
+    --grey-6: #fafafb;
+
+    /* Border Color */
+    --border-color: #f7f7f8;
+
+    /* Foreground */
+    --foreground-radius: 0.75rem;
+
+    /* Widget */
+    --widget-radius: 2.5rem;
+    --widget-elevation: 0px 4px 100px rgba(0, 0, 0, 0.2);
+
+    /* System Backgrounds */
+    --sys-background-primary: #ffffff;
+    --sys-background-secondary: #f7f7f8;
+
+    /* Grouped Backgrounds */
+    --group-background-primary: #f7f7f8;
+    --group-background-secondary: #ffffff;
+
+    /* Labels - Typography */
+    --label-primary: #221a39;
+    --label-secondary :rgba(34, 26, 57, 0.6);
+    --label-tertiary: rgba(34, 26, 57, 0.3);
+    --label-quaternary: rgba(34, 26, 57, 0.18);
+
+    /* Buttons */
+    --button-primary: #FF9500;
+    --button-hover: #c70;
+    --button-label: #ffffff;
+    --button-radius: 624.9375rem;
+
+
+    /* Divider */
+    --divider-non-opaque: rgba(121, 120, 128, 0.2);
+    --divider-opaque: #c6c6c8;
+
+    /* Fill */
+    --fill-primary: rgba(121, 120, 128, 0.2);
+    --fill-secondary: rgba(121, 120, 128, 0.16);
+    --fill-tertiary: rgba(120, 118, 128, 0.12);
+    --fill-quaternary: rgba(118, 116, 128, 0.08);
+    --fill-quaternary-hover: rgba(0,0,0,0.08);
+
+    /* Accent Fill */
+    --accent-fill-primary: rgba(125, 0, 255, 0.08);
+    --accent-fill-secondary: rgba(55, 169, 112, 0.12);
+    --accent-fill-tertiary: rgba(218, 180, 81, 0.12);
+    --accent-fill-quaternary:rgba(213, 42, 62, 0.08);
+
+    /* Auto tint, Used depending on the background it sits on */
+    --auto-tint-primary: #000000;
+    --auto-tint-secondary: #ffffff;
+  }
+
+  .dark {
+    /* Dark Theme */
+    color-scheme: dark;
+
+    --moonpay-brand: #ffffff;  
+    --moonpay-body-background: #13131e;
+
+    /* Accents */
+    --accent-primary:  #ffffff;
+    --accent-secondary: #37a970;
+    --accent-tertiary: #dab451;
+    --accent-quaternary: #DD5565;
+    --accent-label-primary: #c38aff;
+    --accent-label-secondary: #36a56d;
+    --accent-label-tertiary: #be8f19;
+    --accent-label-quaternary: #f56172;
+
+    /* Greys */
+    --grey-1: #898395;
+    --grey-2: #62606a;
+    --grey-3: #48454d;
+    --grey-4: #3a3a3c;
+    --grey-5: #2d2c2e;
+    --grey-6: #1e1c1e;
+
+    /* Border Color */
+    --border-color: #2c2c2e;
+
+    /* Foreground */
+    --foreground-radius: 0.75rem;
+
+    /* Widget */
+    --widget-radius: 2.5rem;
+    --widget-elevation: 0px 4px 100px rgba(0, 0, 0, 0.2);
+
+    /* System Backgrounds */
+    --sys-background-primary: #1c1c1e;
+    --sys-background-secondary: #2c2c2e;
+
+    /* Grouped Backgrounds */
+    --group-background-primary: #1c1c1e;
+    --group-background-secondary: #2c2c2e;
+
+    /* Labels - Typography */
+    --label-primary: #ffffff;
+    --label-secondary :rgba(235, 235, 245, 0.6);
+    --label-tertiary: rgba(235, 235, 245, 0.3);
+    --label-quaternary: rgba(235, 235, 245, 0.18);
+
+    /* Buttons */
+    --button-primary: #FF9500;
+    --button-hover: #c70;
+    --button-label: #ffffff;
+    --button-radius: 624.9375rem;
+
+
+    /* Divider */
+    --divider-non-opaque: rgba(84, 84, 88, 0.6);
+    --divider-opaque: #38383a;
+
+    /* Fill */
+    --fill-primary: rgba(120, 120, 128, 0.36);
+    --fill-secondary:  rgba(120, 120, 128, 0.32);
+    --fill-tertiary: rgba(118, 118, 128, 0.24);
+    --fill-quaternary: rgba(118, 118, 128, 0.18);
+    --fill-quaternary-hover: rgba(0,0,0,0.18);
+
+    /* Accent Fill */
+    --accent-fill-primary: rgba(118, 118, 128, 0.18);
+    --accent-fill-secondary: rgba(55, 169, 112, 0.14);
+    --accent-fill-tertiary: rgba(218, 180, 81, 0.08);
+    --accent-fill-quaternary:rgba(221, 86, 101, 0.12);
+
+    /* Auto tint, Used depending on the background it sits on */
+    --auto-tint-primary: #ffffff;
+    --auto-tint-secondary: #000000;
+
+    .shadow-outline,
+    .focus\:shadow-outline:focus,
+    .focus-within\:shadow-outline:focus-within {
+      box-shadow: 0 0 0 3px rgba(255,149,0,0.5);
+    }
+
+    .iti__selected-flag:focus {
+      box-shadow: 0 0 0 3px rgba(255,149,0,0.5);
+    }
+  }
+
+  .shadow-outline,
+  .focus\:shadow-outline:focus,
+  .focus-within\:shadow-outline:focus-within {
+    box-shadow: 0 0 0 3px rgba(255,149,0,0.5);
+  }
+
+  .iti__selected-flag:focus {
+    box-shadow: 0 0 0 3px rgba(255,149,0,0.5);
+  }
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--sys-background-primary);
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--grey-4);
+    border-radius: 500px;
+    border: 2px solid var(--sys-background-primary);
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--grey-3);
+  }
+
+  .font-stretch-condensed {
+    /* Font stretch of 60% and weight of 890 */
+    font-variation-settings: "wdth" 60, 'wght' 890;
+    /* The below will apply if the font does not support font-variation-settings */
+    /* which means it is not a variable font */
+    font-stretch: 60%;
+    font-weight: 890;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+</style><div class="flex flex-col items-center justify-center" style="min-height: 650px;"><div class="flex-1 sm:flex-initial relative w-full sm:max-w-sm sm:min-h-widget mx-auto p-4 sm:p-8 flex justify-between flex-col sm:shadow-widget sm:rounded-widget overflow-hidden sm:my-3 lg:mb-6 lg:mt-3 bg-system-background-primary"><div class="flex items-center justify-center w-full min-h-full"><div class="absolute top-1/2 p-4 mx-auto text-center sm:max-w-sm" style="transform: translateY(-50%);"><div class="mx-auto mb-4"><svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg" class="inline-block"><rect width="72" height="72" rx="24" fill="var(--accent-primary)" fill-opacity="0.1"></rect><path d="M36.0001 31V34.3333M36.0001 41H36.0167M24.4531 47.6667H47.5471C50.1131 47.6667 51.7168 44.8889 50.4338 42.6667L38.8868 22.6667C37.6038 20.4444 34.3963 20.4444 33.1133 22.6667L21.5663 42.6667C20.2833 44.8889 21.8871 47.6667 24.4531 47.6667Z" stroke="var(--accent-primary)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path></svg></div><h1 data-testid="ErrorTextTitle" class="text-title2 leading-title2 font-semibold text-label-primary">Oops, something went wrong</h1><p data-testid="ErrorTextMessage" class="text-callout leading-callout tracking-callout font-regular mt-4 text-label-primary">Our team has been notified.</p><p data-testid="ErrorTextTraceId" class="text-footnote leading-footnote tracking-footnote font-regular mt-4 text-label-secondary">K5M8BBKQ</p><div class="w-1/2 m-auto"><button data-testid="submitButton" type="button" class="text-headline leading-headline tracking-headline font-semibold p-4 w-full focus:outline-none focus:shadow-outline transition-colors relative block text-center disabled:cursor-not-allowed flex justify-center items-center mt-4 xs:mt-8 rounded-button bg-btn-primary hover:bg-btn-hover disabled:bg-fill-secondary text-btn-label disabled:text-label-tertiary h-12 w-5">Reload<span class="absolute top-0 right-0 flex items-center h-full px-4"></span></button></div></div></div></div></div></div><div id="moonpay-splash-screen" class="moonpay-loader-wrapper hidden"><div class="moon-earth-wrapper"><div class="moon"></div><div class="earth"></div></div></div><script async="" type="text/javascript" src="https://js.verygoodvault.com/vgs-collect/2.16.0/vgs-collect.js" integrity="sha384-eZBrkrTOZIWUAcaiLI09/l8rEmYX7/CeLKIm0MPwn8L7IcaEoPf4Nfgu3KsJz4GU" crossorigin="anonymous"></script><w3m-modal></w3m-modal><iframe src="https://pay.google.com/gp/p/ui/payframe?origin=https%3A%2F%2Fsell.moonpay.com&amp;mid=" height="0" width="0" allowpaymentrequest="true" style="display: none; visibility: hidden;"></iframe><iframe id="verify-api" src="https://verify.walletconnect.com/a00399032b015aff415c3efbd4906f06" style="display: none;"></iframe></div><div><noscript>You need to enable JavaScript to run this app.</noscript><div id="modal-root"></div><div id="root" class="h-full w-full overflow-y-auto hidden sm:scrollbar-gutter-stable"></div><div id="moonpay-splash-screen" class="moonpay-loader-wrapper"><div class="moon-earth-wrapper"><div class="moon"></div><div class="earth"></div></div></div><script async="" type="text/javascript" src="https://js.verygoodvault.com/vgs-collect/2.16.0/vgs-collect.js" integrity="sha384-eZBrkrTOZIWUAcaiLI09/l8rEmYX7/CeLKIm0MPwn8L7IcaEoPf4Nfgu3KsJz4GU" crossorigin="anonymous"></script><iframe src="https://pay.google.com/gp/p/ui/payframe?origin=https%3A%2F%2Fbuy.moonpay.com&amp;mid=" height="0" width="0" allowpaymentrequest="true" style="display: none; visibility: hidden;"></iframe><w3m-modal></w3m-modal></div></body></html>
