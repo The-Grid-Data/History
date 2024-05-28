@@ -1,0 +1,16 @@
+{
+    "target_url": "https://solana.com/2024outlook",
+    "domains": {
+        "cdn.builder.io": [
+            "https://cdn.builder.io/api/v1/pixel?apiKey=ce0c7323a97a4d91bd0baa7490ec9139"
+        ],
+        "solana.com": [
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F26cedc38176542148d4680b960bc6c83&w=3840&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F2d6d54d91f3944f8b18c818710e321a9&w=3840&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F677e5f8383194b27a495f672a1d57d40&w=1920&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F9bf9f1a510fc48f6b10d5d781819e66e&w=3840&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252Fc2280244176440a28af633c24c8eb4fd&w=3840&q=75",
+            "https://solana.com/_next/static/media/logotype.e4df684f.svg"
+        ]
+    }
+}
