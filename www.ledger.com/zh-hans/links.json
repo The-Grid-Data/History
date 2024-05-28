@@ -1,0 +1,137 @@
+{
+    "target_url": "https://www.ledger.com/zh-hans",
+    "domains": {
+        "": [
+            "mailto:media@ledger.com"
+        ],
+        "co-branded.ledger.com": [
+            "https://co-branded.ledger.com/"
+        ],
+        "developers.ledger.com": [
+            "https://developers.ledger.com/"
+        ],
+        "discord.com": [
+            "https://discord.com/invite/ledger"
+        ],
+        "donjon.ledger.com": [
+            "https://donjon.ledger.com/bounty/"
+        ],
+        "enterprise.ledger.com": [
+            "https://enterprise.ledger.com/",
+            "https://enterprise.ledger.com?utm_source=mainsite&utm_medium=header"
+        ],
+        "quest.ledger.com": [
+            "https://quest.ledger.com/"
+        ],
+        "shop.ledger.com": [
+            "https://shop.ledger.com/pages/disclaimers",
+            "https://shop.ledger.com/zh",
+            "https://shop.ledger.com/zh-cn",
+            "https://shop.ledger.com/zh-cn/",
+            "https://shop.ledger.com/zh-cn/#category-accessories",
+            "https://shop.ledger.com/zh-cn/#category-bundle",
+            "https://shop.ledger.com/zh-cn/#category__bundle",
+            "https://shop.ledger.com/zh-cn/pages/hardware-wallets-comparison",
+            "https://shop.ledger.com/zh-cn/pages/ledger-nano-s-plus",
+            "https://shop.ledger.com/zh-cn/pages/ledger-nano-x",
+            "https://shop.ledger.com/zh-cn/pages/ledger-stax",
+            "https://shop.ledger.com/zh-cn/pages/terms-and-conditions",
+            "https://shop.ledger.com/zh-cn/products/ledger-nano-s-plus",
+            "https://shop.ledger.com/zh-cn/products/ledger-nano-x",
+            "https://shop.ledger.com/zh-cn/products/ledger-stax",
+            "https://shop.ledger.com/zh/cart",
+            "https://shop.ledger.com/zh/pages/bitcoin-hardware-wallet",
+            "https://shop.ledger.com/zh/pages/ledger-recover",
+            "https://shop.ledger.com/zh/pages/privacy-notice#ledger-newsletter"
+        ],
+        "status.ledger.com": [
+            "https://status.ledger.com/"
+        ],
+        "support.ledger.com": [
+            "https://support.ledger.com/hc/zh-cn"
+        ],
+        "twitter.com": [
+            "https://twitter.com/Ledger"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/Ledger/"
+        ],
+        "www.instagram.com": [
+            "https://www.instagram.com/ledger/"
+        ],
+        "www.ledger.com": [
+            "https://www.ledger.com/",
+            "https://www.ledger.com/ar",
+            "https://www.ledger.com/blog/we-are-ledger-a-brand-vision",
+            "https://www.ledger.com/de",
+            "https://www.ledger.com/es",
+            "https://www.ledger.com/fr",
+            "https://www.ledger.com/ja",
+            "https://www.ledger.com/ko",
+            "https://www.ledger.com/pt-br",
+            "https://www.ledger.com/ru",
+            "https://www.ledger.com/tr",
+            "https://www.ledger.com/zh-hans",
+            "https://www.ledger.com/zh-hans/academy",
+            "https://www.ledger.com/zh-hans/academy/%E5%A6%82%E4%BD%95%E5%A6%A5%E5%96%84%E4%BF%9D%E7%AE%A1%E6%82%A8%E7%9A%84%E7%A7%81%E9%92%A5",
+            "https://www.ledger.com/zh-hans/academy/basic-basics/2-how-to-own-crypto/what-is-a-crypto-wallet",
+            "https://www.ledger.com/zh-hans/academy/blockchain/what-are-public-keys-and-private-keys",
+            "https://www.ledger.com/zh-hans/academy/glossary/cold-wallet",
+            "https://www.ledger.com/zh-hans/academy/glossary/hot-wallet",
+            "https://www.ledger.com/zh-hans/academy/what-is-web-30-everything-you-need-to-know",
+            "https://www.ledger.com/zh-hans/bitcoin-wallet",
+            "https://www.ledger.com/zh-hans/blog",
+            "https://www.ledger.com/zh-hans/buy",
+            "https://www.ledger.com/zh-hans/buy-bitcoin",
+            "https://www.ledger.com/zh-hans/buy-bitcoin-how",
+            "https://www.ledger.com/zh-hans/buy/ethereum",
+            "https://www.ledger.com/zh-hans/career",
+            "https://www.ledger.com/zh-hans/cathay",
+            "https://www.ledger.com/zh-hans/coin/price",
+            "https://www.ledger.com/zh-hans/coin/staking/cardano",
+            "https://www.ledger.com/zh-hans/diversity",
+            "https://www.ledger.com/zh-hans/join-us",
+            "https://www.ledger.com/zh-hans/ledger-%E5%8D%A1",
+            "https://www.ledger.com/zh-hans/ledger-%E5%90%88%E4%BD%9C",
+            "https://www.ledger.com/zh-hans/ledger-live",
+            "https://www.ledger.com/zh-hans/ledger-wallets-and-services",
+            "https://www.ledger.com/zh-hans/legal-center",
+            "https://www.ledger.com/zh-hans/partners",
+            "https://www.ledger.com/zh-hans/phishing-campaigns-status",
+            "https://www.ledger.com/zh-hans/press",
+            "https://www.ledger.com/zh-hans/privacy-policy",
+            "https://www.ledger.com/zh-hans/recover",
+            "https://www.ledger.com/zh-hans/reseller",
+            "https://www.ledger.com/zh-hans/staking",
+            "https://www.ledger.com/zh-hans/staking-ethereum",
+            "https://www.ledger.com/zh-hans/staking/ledger-node/cosmos",
+            "https://www.ledger.com/zh-hans/staking/ledger-node/solana",
+            "https://www.ledger.com/zh-hans/start",
+            "https://www.ledger.com/zh-hans/supported-crypto-assets",
+            "https://www.ledger.com/zh-hans/supported-services",
+            "https://www.ledger.com/zh-hans/swap",
+            "https://www.ledger.com/zh-hans/tether",
+            "https://www.ledger.com/zh-hans/the-company",
+            "https://www.ledger.com/zh-hans/the-people-behind-ledger",
+            "https://www.ledger.com/zh-hans/\u4ee5\u592a\u574a-2",
+            "https://www.ledger.com/zh-hans/\u5361\u5c14\u8fbe\u8bfa-cardano",
+            "https://www.ledger.com/zh-hans/\u745e\u6ce2\u5e01",
+            "https://www.ledger.com/zh-hans/\u95e8\u7f57\u5e01-monero"
+        ],
+        "www.ledgerwallet.com": [
+            "https://www.ledgerwallet.com/affiliates/"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/ledgerhq"
+        ],
+        "www.reddit.com": [
+            "https://www.reddit.com/r/ledgerwallet/"
+        ],
+        "www.tiktok.com": [
+            "https://www.tiktok.com/@ledger"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/Ledger"
+        ]
+    }
+}
