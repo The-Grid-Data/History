@@ -1,0 +1,87 @@
+{
+    "target_url": "https://solana.com/de/developers/guides/wallets/add-solana-wallet-adapter-to-nextjs",
+    "domains": {
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "github.com": [
+            "https://github.com/anza-xyz/wallet-adapter/blob/master/PACKAGES.md#wallets",
+            "https://github.com/solana-foundation/developer-content/tree/main/content/guides/wallets/add-solana-wallet-adapter-to-nextjs.md",
+            "https://github.com/wallet-standard/wallet-standard"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "jup.ag": [
+            "https://jup.ag"
+        ],
+        "nextjs.org": [
+            "https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts#layouts"
+        ],
+        "nodejs.org": [
+            "https://nodejs.org/en/download"
+        ],
+        "react.dev": [
+            "https://react.dev/learn/passing-data-deeply-with-context"
+        ],
+        "solana.com": [
+            "https://solana.com/de",
+            "https://solana.com/de/branding",
+            "https://solana.com/de/developers",
+            "https://solana.com/de/developers/cookbook",
+            "https://solana.com/de/developers/guides",
+            "https://solana.com/de/developers/guides/getstarted/solana-token-airdrop-and-faucets",
+            "https://solana.com/de/developers/guides/token-extensions/transfer-hook",
+            "https://solana.com/de/developers/guides/wallets/add-solana-wallet-adapter-to-nextjs",
+            "https://solana.com/de/developers/guides/wallets/add-solana-wallet-adapter-to-nextjs#1-create-a-next-js-project",
+            "https://solana.com/de/developers/guides/wallets/add-solana-wallet-adapter-to-nextjs#2-installing-solana-wallet-adapter",
+            "https://solana.com/de/developers/guides/wallets/add-solana-wallet-adapter-to-nextjs#3-setting-up-wallet-adapter-in-your-next-js-app",
+            "https://solana.com/de/developers/guides/wallets/add-solana-wallet-adapter-to-nextjs#4-connect-wallet-button",
+            "https://solana.com/de/developers/guides/wallets/add-solana-wallet-adapter-to-nextjs#5-usewallet-and-useconnection-hooks",
+            "https://solana.com/de/developers/guides/wallets/add-solana-wallet-adapter-to-nextjs#appwalletprovider-tsx",
+            "https://solana.com/de/developers/guides/wallets/add-solana-wallet-adapter-to-nextjs#getting-a-wallet-balance",
+            "https://solana.com/de/developers/guides/wallets/add-solana-wallet-adapter-to-nextjs#interact-with-a-wallet-on-a-page",
+            "https://solana.com/de/developers/guides/wallets/add-solana-wallet-adapter-to-nextjs#next-steps",
+            "https://solana.com/de/developers/guides/wallets/add-solana-wallet-adapter-to-nextjs#performing-an-airdrop",
+            "https://solana.com/de/developers/guides/wallets/add-solana-wallet-adapter-to-nextjs#setup-the-appwalletprovider",
+            "https://solana.com/de/developers/guides/wallets/add-solana-wallet-adapter-to-nextjs#supported-wallets-and-wallet-standard",
+            "https://solana.com/de/developers/guides/wallets/add-solana-wallet-adapter-to-nextjs#wrap-your-application-with-appwalletadapter",
+            "https://solana.com/de/developers/guides?difficulty=intro",
+            "https://solana.com/de/developers/guides?tags=NextJS",
+            "https://solana.com/de/developers/guides?tags=React",
+            "https://solana.com/de/developers/guides?tags=javascript",
+            "https://solana.com/de/developers/guides?tags=wallets",
+            "https://solana.com/de/docs",
+            "https://solana.com/de/docs/core/transactions/confirmation#what-is-a-blockhash",
+            "https://solana.com/de/docs/rpc",
+            "https://solana.com/de/docs/rpc#configuring-state-commitment",
+            "https://solana.com/de/docs/rpc/http",
+            "https://solana.com/de/docs/rpc/http/getbalance#parameters",
+            "https://solana.com/de/docs/rpc/http/getlatestblockhash",
+            "https://solana.com/de/docs/rpc/http/requestairdrop#parameters",
+            "https://solana.com/de/docs/rpc/websocket",
+            "https://solana.com/de/docs/terminology",
+            "https://solana.com/de/ecosystem",
+            "https://solana.com/de/news",
+            "https://solana.com/de/newsletter",
+            "https://solana.com/de/privacy-policy",
+            "https://solana.com/de/privacy-policy#collection-of-information",
+            "https://solana.com/de/tos",
+            "https://solana.com/discord",
+            "https://solana.com/github",
+            "https://solana.com/reddit",
+            "https://solana.com/telegram",
+            "https://solana.com/twitter",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ],
+        "unified.jup.ag": [
+            "https://unified.jup.ag/"
+        ],
+        "www.notion.so": [
+            "https://www.notion.so/Integrate-solana-wallets-to-your-NextJS-webapp-60e34961b0174982859b4cb9973b2723?pvs=21"
+        ]
+    }
+}
