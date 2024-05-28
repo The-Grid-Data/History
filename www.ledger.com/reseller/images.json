@@ -1,0 +1,103 @@
+{
+    "target_url": "https://www.ledger.com/reseller",
+    "domains": {
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=39b90bf1-fbc5-4a91-bc8b-542bb957a662&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=e57e6fe4-8a69-456b-9411-aabfb959e5f3&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Freseller&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "bat.bing.com": [
+            "https://bat.bing.com/action/0?ti=134633242&tm=gtm002&Ver=2&mid=8daccb01-9142-4167-9da6-cf45483c8205&sid=5dcd42601cfe11efa04f6fed7b3e7c20&vid=5dcd37d01cfe11ef9d1a3f5cbad10549&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&tl=Find%20or%20Become%20an%20Official%20Ledger%20Reseller%20%7C%20Ledger&p=https%3A%2F%2Fwww.ledger.com%2Freseller&r=&lt=2084&evt=pageLoad&sv=1&rn=867008"
+        ],
+        "cdn.cookielaw.org": [
+            "https://cdn.cookielaw.org/logos/df21fb3f-71b8-491b-89ee-eb777bcaf866/637ca236-af9d-4a40-815f-1b6a15af499d/ea9d9f41-35f0-4c24-9a83-1ef746863067/White_64.png",
+            "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg"
+        ],
+        "ledger-wp-website-s3-prd.ledger.com": [
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/argentina.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/australia.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/belarus.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/belgium.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/brazil.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/bulgaria.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/canada.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/chile.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/china.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/colombia.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/croatia.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/czech-republic.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/denmark.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/finland.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/france-1.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/france.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/germany-1.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/germany.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/hong-kong.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/india.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/indonesia.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/israel.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/italy.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/japan-1.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/japan.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/malaysia.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/mexico.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/netherlands.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/new-zealand.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/norway.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/philippines.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/poland.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/romania.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/singapore.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/slovenia.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/south-africa.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/south-korea.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/spain-1.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/spain.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/sweden.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/switzerland.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/thailand.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/turkey.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/ukraine.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/united-arab-emirates.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/united-kingdom-1.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/united-kingdom.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/united-states-of-america.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/vietnam.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/07/le-portugal.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/09/australie.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/09/uruguay.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/11/pays-bas-1.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/11/pologne.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/11/suede.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/11/turkey.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/11/estonia.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/01/paraguay.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/01/qatar.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/06/austria.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/08/taiwan.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2024/01/arabie-saoudite.png"
+        ],
+        "sp.analytics.yahoo.com": [
+            "https://sp.analytics.yahoo.com/sp.pl?a=10000&d=Tue%2C%2028%20May%202024%2014%3A27%3A10%20GMT&n=0&b=Find%20or%20Become%20an%20Official%20Ledger%20Reseller%20%7C%20Ledger&.yp=10159916&f=https%3A%2F%2Fwww.ledger.com%2Freseller&enc=UTF-8&yv=1.15.1&tagmgr=gtm"
+        ],
+        "t.co": [
+            "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=39b90bf1-fbc5-4a91-bc8b-542bb957a662&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=e57e6fe4-8a69-456b-9411-aabfb959e5f3&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Freseller&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "t.teads.tv": [
+            "https://t.teads.tv/track?action=pageView&env=js-gtm&tag_version=6.17.6_ee47857&provider=tag&buyer_pixel_id=6887&referer=https%3A%2F%2Fwww.ledger.com%2Freseller&user_session_id=e323ab2d-e65f-4ad8-83be-edc9c9477826"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/tr?id=237213137153741&ev=PageView&noscript=1"
+        ],
+        "www.ledger.com": [
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/reseller/reseller-banner-image.png",
+            "https://www.ledger.com/wp-content/uploads/2021/11/layer1.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-bitpay-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-cb-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-crypto-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-maestro-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-mastercard-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-paypal-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-visa-s.png?v=2"
+        ]
+    }
+}
