@@ -1,0 +1,32 @@
+{
+    "target_url": "https://jup.ag/swap/USDC-JLP",
+    "domains": {
+        "birdeye.so": [
+            "https://birdeye.so/token/27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4?chain=solana",
+            "https://birdeye.so/token/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v?chain=solana"
+        ],
+        "discord.gg": [
+            "https://discord.gg/jup"
+        ],
+        "jup.ag": [
+            "https://jup.ag/",
+            "https://jup.ag/bridge-compare",
+            "https://jup.ag/dca/USDC-JLP",
+            "https://jup.ag/limit/USDC-JLP",
+            "https://jup.ag/perps",
+            "https://jup.ag/swap/USDC-JLP"
+        ],
+        "station.jup.ag": [
+            "https://station.jup.ag/guides"
+        ],
+        "twitter.com": [
+            "https://twitter.com/JupiterExchange"
+        ],
+        "welcome.jup.ag": [
+            "https://welcome.jup.ag/"
+        ],
+        "www.reddit.com": [
+            "https://www.reddit.com/r/jupiterexchange"
+        ]
+    }
+}
