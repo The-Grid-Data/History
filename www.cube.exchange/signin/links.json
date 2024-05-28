@@ -1,0 +1,11 @@
+{
+    "target_url": "https://www.cube.exchange/signin",
+    "domains": {
+        "www.cube.exchange": [
+            "https://www.cube.exchange/",
+            "https://www.cube.exchange/legal/privacy-policy",
+            "https://www.cube.exchange/legal/risk-disclosure",
+            "https://www.cube.exchange/legal/terms-of-service"
+        ]
+    }
+}
