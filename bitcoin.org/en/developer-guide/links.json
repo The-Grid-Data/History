@@ -1,0 +1,68 @@
+{
+    "target_url": "https://bitcoin.org/en/developer-guide#wallets",
+    "domains": {
+        "": [
+            "bitcoin:3E8ociqZa9mZUSwGdSmAEMAoAxBK3FNDcd"
+        ],
+        "bitcoin.org": [
+            "https://bitcoin.org/",
+            "https://bitcoin.org/en/about-us",
+            "https://bitcoin.org/en/bitcoin-core/",
+            "https://bitcoin.org/en/bitcoin-for-businesses",
+            "https://bitcoin.org/en/bitcoin-for-individuals",
+            "https://bitcoin.org/en/bitcoin-paper",
+            "https://bitcoin.org/en/block_chain.html",
+            "https://bitcoin.org/en/blog",
+            "https://bitcoin.org/en/buy",
+            "https://bitcoin.org/en/community",
+            "https://bitcoin.org/en/contracts.html",
+            "https://bitcoin.org/en/developer-guide",
+            "https://bitcoin.org/en/developer-guide#collapse0",
+            "https://bitcoin.org/en/developer-guide#collapse16",
+            "https://bitcoin.org/en/developer-guide#collapse9",
+            "https://bitcoin.org/en/developer-guide#developer-guides",
+            "https://bitcoin.org/en/development",
+            "https://bitcoin.org/en/events",
+            "https://bitcoin.org/en/exchanges",
+            "https://bitcoin.org/en/full-node",
+            "https://bitcoin.org/en/getting-started",
+            "https://bitcoin.org/en/how-it-works",
+            "https://bitcoin.org/en/legal",
+            "https://bitcoin.org/en/mining.html",
+            "https://bitcoin.org/en/operating_modes.html",
+            "https://bitcoin.org/en/p2p_network.html",
+            "https://bitcoin.org/en/payment_processing.html",
+            "https://bitcoin.org/en/press",
+            "https://bitcoin.org/en/privacy",
+            "https://bitcoin.org/en/resources",
+            "https://bitcoin.org/en/scams",
+            "https://bitcoin.org/en/support-bitcoin",
+            "https://bitcoin.org/en/transactions.html",
+            "https://bitcoin.org/en/vocabulary",
+            "https://bitcoin.org/en/wallets.html",
+            "https://bitcoin.org/en/you-need-to-know",
+            "https://bitcoin.org/examples/index.html",
+            "https://bitcoin.org/examples/intro.html",
+            "https://bitcoin.org/examples/p2p_networking.html",
+            "https://bitcoin.org/examples/payment_processing.html",
+            "https://bitcoin.org/examples/testing.html",
+            "https://bitcoin.org/examples/transactions.html",
+            "https://bitcoin.org/glossary.html",
+            "https://bitcoin.org/index.html",
+            "https://bitcoin.org/reference/block_chain.html",
+            "https://bitcoin.org/reference/index.html",
+            "https://bitcoin.org/reference/intro.html",
+            "https://bitcoin.org/reference/p2p_networking.html",
+            "https://bitcoin.org/reference/rpc/index.html",
+            "https://bitcoin.org/reference/transactions.html",
+            "https://bitcoin.org/reference/wallets.html"
+        ],
+        "developer.bitcoin.org": [
+            "https://developer.bitcoin.org/"
+        ],
+        "github.com": [
+            "https://github.com/bitcoin-documentation/website/blob/master/devguide/index.rst"
+        ]
+    }
+} }
+}
