@@ -49,6 +49,17 @@ More
   * [BNB ChainThe most popular blockchain to build your own dApp](https://www.bnbchain.org)
   * [CharityBlockchain empowers charity to be more transparent, efficient, and traceable](https://www.binance.charity)
 
+[Log
+In](https://accounts.binance.com/en/login?loginChannel=blog&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vYmxvZw%3D%3D)[Sign
+Up](https://accounts.binance.com/en/register?registerChannel=blog&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vYmxvZw%3D%3D)
+
+![](https://bin.bnbstatic.com/static/images/common/logo.png)
+
+Scan to Download App IOS & Android
+
+[More Download
+Options](https://www.binance.com/en/download?utm_source=&utm_campaign=)
+
 Binance Blog
 
 [![](https://public.bnbstatic.com/image/cms/blog/20231228/834584cf-71e6-4bd5-9b83-8304a5501bfc.png)30%
@@ -156,7 +167,13 @@ card)[Margin](/blog/margin)[Loans](/blog/loans)[OTC](/blog/otc)[Tax](/blog/tax)[
 Token](/blog/fan-
 token)[Cloud](/blog/cloud)[Mining](/blog/mining)[Launchpad](/blog/launchpad)[All](/blog/exchangeblogcategoryall)
 
-[![](https://public.bnbstatic.com/image/cms/blog/20240523/3eb4a57a-d3c7-4234-b304-d9b9fe7d53ac.png)Stay
+[![](https://public.bnbstatic.com/image/cms/blog/20240528/03f67ce2-bf2f-4d9a-9a79-6ca33b29f580.png)Embrace
+the New Age of Payments with Binance Pay: Start Your Journey as a
+merchantExplore the benefits of becoming a Binance Pay merchant and how it can
+streamline your business operations, reduce costs, and expand your customer
+base.2024-05-28](/blog/all/embrace-the-new-age-of-payments-with-binance-pay-
+start-your-journey-as-a-
+merchant-3181257858060917600?lang=en)[![](https://public.bnbstatic.com/image/cms/blog/20240523/3eb4a57a-d3c7-4234-b304-d9b9fe7d53ac.png)Stay
 Tuned for Cristiano Ronaldo's Newest NFT Journey, Coming Soon to
 BinanceCristiano Ronaldo is back soon with his latest NFT drop giving
 collectors the chance to experience his legacy like never
@@ -222,19 +239,111 @@ lending infrastructure enabling users to lend or borrow native BTC with
 transparent yields in a permissionless
 way.2024-05-13](/blog/ecosystem/binance-labs-invests-in-zest-protocol-to-
 introduce--onchain-bitcoin-lending-on-stacks-
-blockchain-4872312500777637604?lang=en)[![](https://public.bnbstatic.com/image/cms/blog/20240513/267c99da-5e57-45ca-b212-b08c6379e836.png)Binance
-Kazakhstan Attains Global Certifications, Showcasing Platform’s Security and
-Privacy RobustnessBinance Kazakhstan has been awarded the ISO 27001 and ISO
-27701 certifications for information security governance and privacy
-information management.2024-05-13](/blog/compliance/binance-kazakhstan-
-attains-global-certifications-showcasing-platforms-security-and-privacy-
-robustness-1724407561333894781?lang=en)
+blockchain-4872312500777637604?lang=en)
 
 ### Community
 
 [](https://discord.gg/jE4wt8g2H2)[](https://www.binance.com/en/community)[](https://www.tiktok.com/@binance?lang=en)[](https://www.facebook.com/binance)[](https://twitter.com/binance)[](https://www.reddit.com/r/binance)[](https://www.instagram.com/Binance/)[](https://coinmarketcap.com/exchanges/binance/)[](https://www.youtube.com/binanceyoutube)[](https://www.binance.com/en/community)
 
+English
+
+English
+
+العربية
+
+العربية (البحرين)
+
+български
+
+Čeština
+
+Dansk
+
+Deutsch (Schweiz)
+
+Ελληνικά
+
+English (UAE)
+
+English (Australia)
+
+English (Bahrain)
+
+English (India)
+
+English (Japan)
+
+English (Kazakhstan)
+
+English (Nigeria)
+
+English (New Zealand)
+
+English (South Africa)
+
+Español (España)
+
+Español (Argentina)
+
+Español (Latinoamérica)
+
+Español (México)
+
+Français
+
+Français (Afrique)
+
+magyar nyelv
+
+Bahasa Indonesia
+
+Italiano
+
+日本語
+
+Қазақша (Қазақстан)
+
+Қазақша
+
+ລາວ
+
+latviešu valoda
+
+Polski
+
+Português
+
+Português (Brasil)
+
+Română
+
+Русский
+
+Русский (Казахстан)
+
+Русский (Украина)
+
+සිංහල
+
+Slovenčina
+
+Slovenščina
+
+Svenska
+
+Türkçe
+
+Українська
+
+Tiếng Việt
+
+简体中文
+
+繁體中文
+
 Theme
+
+English
 
 Theme
 
