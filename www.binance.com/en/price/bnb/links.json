@@ -1,0 +1,223 @@
+{
+    "target_url": "https://www.binance.com/en/price/bnb",
+    "domains": {
+        "academy.binance.com": [
+            "https://academy.binance.com/en",
+            "https://academy.binance.com/en/articles/what-are-blockchain-transaction-fees",
+            "https://academy.binance.com/en/articles/what-is-an-ico",
+            "https://academy.binance.com/en/learn-and-earn"
+        ],
+        "accounts.binance.com": [
+            "https://accounts.binance.com/en/login?loginChannel=SEO_page&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vcHJpY2UvYm5i",
+            "https://accounts.binance.com/en/register?registerChannel=SEO_page&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vcHJpY2UvYm5i",
+            "https://accounts.binance.com/en/register?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vYnV5LXNlbGwtY3J5cHRvP2NyeXB0bz1CTkImZmlhdD1VU0Q=&registerChannel=SEO_page",
+            "https://accounts.binance.com/en/register?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vdHJhZGUvQlRDX1RVU0Q_dHlwZT1zcG90&registerChannel=SEO_page"
+        ],
+        "c2c.binance.com": [
+            "https://c2c.binance.com/en/merchantApplication"
+        ],
+        "coinmarketcap.com": [
+            "https://coinmarketcap.com/exchanges/binance/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/jE4wt8g2H2"
+        ],
+        "labs.binance.com": [
+            "https://labs.binance.com/"
+        ],
+        "launchpad.binance.com": [
+            "https://launchpad.binance.com/",
+            "https://launchpad.binance.com/en"
+        ],
+        "p2p.binance.com": [
+            "https://p2p.binance.com/en",
+            "https://p2p.binance.com/en/p2pro"
+        ],
+        "pay.binance.com": [
+            "https://pay.binance.com/en"
+        ],
+        "pool.binance.com": [
+            "https://pool.binance.com/en"
+        ],
+        "twitter.com": [
+            "https://twitter.com/binance"
+        ],
+        "www.binance.charity": [
+            "https://www.binance.charity"
+        ],
+        "www.binance.com": [
+            "https://www.binance.com/en",
+            "https://www.binance.com/en/BABT?source=footer",
+            "https://www.binance.com/en/about",
+            "https://www.binance.com/en/about-legal/privacy-portal",
+            "https://www.binance.com/en/activity/affiliate",
+            "https://www.binance.com/en/activity/referral?utm_source=Lite_web_footer",
+            "https://www.binance.com/en/airdrop",
+            "https://www.binance.com/en/altcoins/tradable",
+            "https://www.binance.com/en/auto-invest",
+            "https://www.binance.com/en/binance-api",
+            "https://www.binance.com/en/blog",
+            "https://www.binance.com/en/bnb",
+            "https://www.binance.com/en/buy-sell-crypto",
+            "https://www.binance.com/en/careers",
+            "https://www.binance.com/en/chat?sourceEntry=4",
+            "https://www.binance.com/en/community",
+            "https://www.binance.com/en/convert",
+            "https://www.binance.com/en/copy-trading",
+            "https://www.binance.com/en/country-region-selector",
+            "https://www.binance.com/en/crypto/buy",
+            "https://www.binance.com/en/delivery",
+            "https://www.binance.com/en/desktop-download",
+            "https://www.binance.com/en/download",
+            "https://www.binance.com/en/download?utm_source=&utm_campaign=",
+            "https://www.binance.com/en/earn",
+            "https://www.binance.com/en/eoptions",
+            "https://www.binance.com/en/eth2",
+            "https://www.binance.com/en/fan-token",
+            "https://www.binance.com/en/fee/schedule",
+            "https://www.binance.com/en/futures",
+            "https://www.binance.com/en/futures/home",
+            "https://www.binance.com/en/gift-card",
+            "https://www.binance.com/en/how-to-buy/bitcoin",
+            "https://www.binance.com/en/how-to-buy/bnb",
+            "https://www.binance.com/en/how-to-buy/dogecoin",
+            "https://www.binance.com/en/how-to-buy/ethereum",
+            "https://www.binance.com/en/how-to-buy/xrp",
+            "https://www.binance.com/en/land/building_trust",
+            "https://www.binance.com/en/land/tradingview",
+            "https://www.binance.com/en/landing/data",
+            "https://www.binance.com/en/legal/home",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens",
+            "https://www.binance.com/en/live",
+            "https://www.binance.com/en/loan",
+            "https://www.binance.com/en/markets/overview",
+            "https://www.binance.com/en/megadrop",
+            "https://www.binance.com/en/my/coin-apply",
+            "https://www.binance.com/en/my/user-support/feedback/entry",
+            "https://www.binance.com/en/my/wallet/account/payment",
+            "https://www.binance.com/en/nft/home",
+            "https://www.binance.com/en/official-verification",
+            "https://www.binance.com/en/otc",
+            "https://www.binance.com/en/press",
+            "https://www.binance.com/en/price",
+            "https://www.binance.com/en/price-prediction",
+            "https://www.binance.com/en/price-prediction/bitcoin",
+            "https://www.binance.com/en/price-prediction/ethereum",
+            "https://www.binance.com/en/price/bitcoin",
+            "https://www.binance.com/en/price/bnb/AED",
+            "https://www.binance.com/en/price/bnb/ARS",
+            "https://www.binance.com/en/price/bnb/AUD",
+            "https://www.binance.com/en/price/bnb/BDT",
+            "https://www.binance.com/en/price/bnb/BGN",
+            "https://www.binance.com/en/price/bnb/BHD",
+            "https://www.binance.com/en/price/bnb/BOB",
+            "https://www.binance.com/en/price/bnb/BRL",
+            "https://www.binance.com/en/price/bnb/CAD",
+            "https://www.binance.com/en/price/bnb/CHF",
+            "https://www.binance.com/en/price/bnb/CNY",
+            "https://www.binance.com/en/price/bnb/COP",
+            "https://www.binance.com/en/price/bnb/CZK",
+            "https://www.binance.com/en/price/bnb/DKK",
+            "https://www.binance.com/en/price/bnb/EGP",
+            "https://www.binance.com/en/price/bnb/EUR",
+            "https://www.binance.com/en/price/bnb/GBP",
+            "https://www.binance.com/en/price/bnb/HKD",
+            "https://www.binance.com/en/price/bnb/HRK",
+            "https://www.binance.com/en/price/bnb/HUF",
+            "https://www.binance.com/en/price/bnb/IDR",
+            "https://www.binance.com/en/price/bnb/INR",
+            "https://www.binance.com/en/price/bnb/JPY",
+            "https://www.binance.com/en/price/bnb/KES",
+            "https://www.binance.com/en/price/bnb/KWD",
+            "https://www.binance.com/en/price/bnb/KZT",
+            "https://www.binance.com/en/price/bnb/MAD",
+            "https://www.binance.com/en/price/bnb/MNT",
+            "https://www.binance.com/en/price/bnb/MXN",
+            "https://www.binance.com/en/price/bnb/NZD",
+            "https://www.binance.com/en/price/bnb/OMR",
+            "https://www.binance.com/en/price/bnb/PEN",
+            "https://www.binance.com/en/price/bnb/PHP",
+            "https://www.binance.com/en/price/bnb/PKR",
+            "https://www.binance.com/en/price/bnb/PLN",
+            "https://www.binance.com/en/price/bnb/QAR",
+            "https://www.binance.com/en/price/bnb/RON",
+            "https://www.binance.com/en/price/bnb/RUB",
+            "https://www.binance.com/en/price/bnb/SAR",
+            "https://www.binance.com/en/price/bnb/SEK",
+            "https://www.binance.com/en/price/bnb/THB",
+            "https://www.binance.com/en/price/bnb/TRY",
+            "https://www.binance.com/en/price/bnb/TWD",
+            "https://www.binance.com/en/price/bnb/UAH",
+            "https://www.binance.com/en/price/bnb/UGX",
+            "https://www.binance.com/en/price/bnb/USD",
+            "https://www.binance.com/en/price/bnb/VES",
+            "https://www.binance.com/en/price/bnb/VND",
+            "https://www.binance.com/en/price/bnb/ZAR",
+            "https://www.binance.com/en/price/ethereum",
+            "https://www.binance.com/en/proof-of-reserves",
+            "https://www.binance.com/en/research",
+            "https://www.binance.com/en/risk-warning",
+            "https://www.binance.com/en/square",
+            "https://www.binance.com/en/square/hashtag?q=AI_Tickeron",
+            "https://www.binance.com/en/square/hashtag?q=BitEagleNews",
+            "https://www.binance.com/en/square/hashtag?q=BullRun",
+            "https://www.binance.com/en/square/hashtag?q=ETHETFsApproved",
+            "https://www.binance.com/en/square/hashtag?q=EarnFreeCrypto2024",
+            "https://www.binance.com/en/square/hashtag?q=FIT21",
+            "https://www.binance.com/en/square/hashtag?q=HotTrends",
+            "https://www.binance.com/en/square/hashtag?q=PEPE",
+            "https://www.binance.com/en/square/hashtag?q=TechnicalAnalysis",
+            "https://www.binance.com/en/square/hashtag?q=Tickeron",
+            "https://www.binance.com/en/square/hashtag?q=btc70k",
+            "https://www.binance.com/en/square/hashtag?q=signals",
+            "https://www.binance.com/en/square/news/all",
+            "https://www.binance.com/en/square/post/8347792556329",
+            "https://www.binance.com/en/square/post/8662433378657",
+            "https://www.binance.com/en/square/post/8662954874153",
+            "https://www.binance.com/en/square/post/8664063664705",
+            "https://www.binance.com/en/square/post/8664404362705",
+            "https://www.binance.com/en/square/post/8664925260241",
+            "https://www.binance.com/en/square/profile/Binance_Square_Official",
+            "https://www.binance.com/en/square/profile/CRPTOHOLICS",
+            "https://www.binance.com/en/square/profile/News",
+            "https://www.binance.com/en/square/profile/Serhii_Bondarenko",
+            "https://www.binance.com/en/square/profile/XversE",
+            "https://www.binance.com/en/square/profile/jack4crypto",
+            "https://www.binance.com/en/support",
+            "https://www.binance.com/en/support/announcement",
+            "https://www.binance.com/en/support/faq/115000583311",
+            "https://www.binance.com/en/support/law-enforcement",
+            "https://www.binance.com/en/support/list/notices",
+            "https://www.binance.com/en/tax",
+            "https://www.binance.com/en/terms",
+            "https://www.binance.com/en/trade",
+            "https://www.binance.com/en/trade-rule",
+            "https://www.binance.com/en/trade/BTC_USDT?type=spot",
+            "https://www.binance.com/en/trade?type=cross",
+            "https://www.binance.com/en/trading-bots",
+            "https://www.binance.com/en/vip-institutional-services",
+            "https://www.binance.com/en/web3wallet"
+        ],
+        "www.bnbchain.org": [
+            "https://www.bnbchain.org"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/binance"
+        ],
+        "www.instagram.com": [
+            "https://www.instagram.com/Binance/"
+        ],
+        "www.reddit.com": [
+            "https://www.reddit.com/r/binance"
+        ],
+        "www.tiktok.com": [
+            "https://www.tiktok.com/@binance?lang=en"
+        ],
+        "www.wikifin.be": [
+            "https://www.wikifin.be/nl/sparen-en-beleggen/beleggingsproducten/andere-beleggingsproducten/wat-een-cryptomunt"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/binanceyoutube"
+        ]
+    }
+}
