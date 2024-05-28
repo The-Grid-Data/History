@@ -1,0 +1,76 @@
+{
+    "target_url": "https://helium.com/token",
+    "domains": {
+        "": [
+            "mailto:hello@helium.foundation",
+            "mailto:press@helium.foundation"
+        ],
+        "blog.helium.com": [
+            "https://blog.helium.com"
+        ],
+        "coinmarketcap.com": [
+            "https://coinmarketcap.com/currencies/helium/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/helium"
+        ],
+        "docs.helium.com": [
+            "https://docs.helium.com",
+            "https://docs.helium.com/hnt-token/",
+            "https://docs.helium.com/iot-token/",
+            "https://docs.helium.com/mobile-token/"
+        ],
+        "explorer.helium.com": [
+            "https://explorer.helium.com"
+        ],
+        "github.com": [
+            "https://github.com/helium",
+            "https://github.com/helium/HIP/blob/main/0051-helium-dao.md"
+        ],
+        "helium.com": [
+            "https://helium.com/",
+            "https://helium.com/5G",
+            "https://helium.com/commercial",
+            "https://helium.com/ecosystem",
+            "https://helium.com/featured-products",
+            "https://helium.com/mine",
+            "https://helium.com/privacy",
+            "https://helium.com/roam",
+            "https://helium.com/solutions",
+            "https://helium.com/stories",
+            "https://helium.com/switch",
+            "https://helium.com/token",
+            "https://helium.com/website-terms"
+        ],
+        "messari.io": [
+            "https://messari.io/article/burn-and-mint-equilibrium"
+        ],
+        "multicoin.capital": [
+            "https://multicoin.capital/2018/02/13/new-models-utility-tokens/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/helium"
+        ],
+        "whitepaper.helium.com": [
+            "http://whitepaper.helium.com"
+        ],
+        "www.coingecko.com": [
+            "https://www.coingecko.com/en/coins/helium"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/heliumsystems"
+        ],
+        "www.instagram.com": [
+            "https://www.instagram.com/helium/"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/heliuminc"
+        ],
+        "www.reddit.com": [
+            "https://www.reddit.com/r/HeliumNetwork"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/c/HeliumInc"
+        ]
+    }
+}
