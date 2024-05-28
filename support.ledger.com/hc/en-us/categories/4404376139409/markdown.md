@@ -1,3 +1,11 @@
+Shipping Notice for May 2024
+
+Please be aware that due to Memorial Day, our Memphis location will not
+dispatch any product orders on Monday, May 27, 2024. This will affect
+shipments to the USA, Canada, and Mexico.
+
+__
+
 Beware of phishing attacks, Ledger will never ask for the 24 words of your
 recovery phrase. Never share them. [Learn
 more](https://www.ledger.com/phishing-campaigns-status "Learn more")
@@ -175,4 +183,147 @@ Payment methods
   * [Privacy Policy](https://shop.ledger.com/pages/privacy-policy)
   * [Cookie Policy](https://shop.ledger.com/pages/cookie-policy)
   * [Other](https://shop.ledger.com/pages/other)
+
+![](https://www.facebook.com/tr?id=237213137153741&ev=PageView&noscript=1)
+
+![](https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=5e03980e-42fb-489b-ae37-77203ac7ca6b&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=6ec23bd2-c95c-46f7-a953-dcf80cc74155&tw_document_href=https%3A%2F%2Fsupport.ledger.com%2Fhc%2Fen-
+us%2Fcategories%2F4404376139409%3Fdocs%3Dtrue&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30)![](https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=5e03980e-42fb-489b-ae37-77203ac7ca6b&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=6ec23bd2-c95c-46f7-a953-dcf80cc74155&tw_document_href=https%3A%2F%2Fsupport.ledger.com%2Fhc%2Fen-
+us%2Fcategories%2F4404376139409%3Fdocs%3Dtrue&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30)
+
+## This website uses cookies
+
+By clicking “Accept All”, you agree to the storing of cookies on your device
+to enhance site navigation, analyze site usage, and assist in our marketing
+efforts. [Cookie Policy](https://shop.ledger.com/pages/cookie-policy)
+
+Cookies Settings Accept All
+
+![Ledger logo](https://cdn.cookielaw.org/logos/df21fb3f-71b8-491b-89ee-
+eb777bcaf866/637ca236-af9d-4a40-815f-1b6a15af499d/ea9d9f41-35f0-4c24-9a83-1ef746863067/White_64.png)
+
+## Privacy Preference Center
+
+  * ### Your Privacy
+
+  * ### Strictly Necessary Cookies
+
+  * ### Performance Cookies
+
+  * ### Functional Cookies
+
+  * ### Targeting Cookies
+
+  * ### Social Media Cookies
+
+#### Your Privacy
+
+When you visit any website, it may store or retrieve information on your
+browser, mostly in the form of cookies. This information might be about you,
+your preferences or your device and is mostly used to make the site work as
+you expect it to. The information does not usually directly identify you, but
+it can give you a more personalized web experience. Because we respect your
+right to privacy, you can choose not to allow some types of cookies. Click on
+the different category headings to find out more and change our default
+settings. However, blocking some types of cookies may impact your experience
+of the site and the services we are able to offer.  
+[More information](https://cookiepedia.co.uk/giving-consent-to-cookies)
+
+#### Strictly Necessary Cookies
+
+Always Active
+
+These cookies are necessary for the website to function and cannot be switched
+off in our systems. They are usually only set in response to actions made by
+you which amount to a request for services, such as setting your privacy
+preferences, logging in or filling in forms. You can set your browser to block
+or alert you about these cookies, but some parts of the site will not then
+work. These cookies do not store any personally identifiable information.
+
+View Vendor Details‎
+
+#### Performance Cookies
+
+Performance Cookies
+
+These cookies allow us to count visits and traffic sources so we can measure
+and improve the performance of our site. They help us to know which pages are
+the most and least popular and see how visitors move around the site. All
+information these cookies collect is aggregated and therefore anonymous. If
+you do not allow these cookies we will not know when you have visited our
+site, and will not be able to monitor its performance.
+
+View Vendor Details‎
+
+#### Functional Cookies
+
+Functional Cookies
+
+These cookies enable the website to provide enhanced functionality and
+personalisation. They may be set by us or by third party providers whose
+services we have added to our pages. If you do not allow these cookies then
+some or all of these services may not function properly.
+
+View Vendor Details‎
+
+#### Targeting Cookies
+
+Targeting Cookies
+
+These cookies may be set through our site by our advertising partners. They
+may be used by those companies to build a profile of your interests and show
+you relevant adverts on other sites. They do not store directly personal
+information, but are based on uniquely identifying your browser and internet
+device. If you do not allow these cookies, you will experience less targeted
+advertising.
+
+View Vendor Details‎
+
+#### Social Media Cookies
+
+Social Media Cookies
+
+These cookies are set by a range of social media services that we have added
+to the site to enable you to share our content with your friends and networks.
+They are capable of tracking your browser across other sites and building up a
+profile of your interests. This may impact the content and messages you see on
+other websites you visit. If you do not allow these cookies you may not be
+able to use or see these sharing tools.
+
+View Vendor Details‎
+
+Back Button
+
+### Vendors List
+
+Filter Button
+
+Consent Leg.Interest
+
+checkbox label label
+
+checkbox label label
+
+checkbox label label
+
+Clear
+
+checkbox label label
+
+Apply Cancel
+
+Confirm My Choices
+
+Allow All
+
+[![Powered by
+Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/products/cookie-
+consent/)
+
+![](https://bat.bing.com/action/0?ti=134633242&tm=gtm002&Ver=2&mid=6c16f339-9a99-4842-aa00-6b0e08785421&sid=388f57e01cf011efb0ac9740786d55a1&vid=388f6e101cf011ef861551ccdda242cb&vids=1&msclkid=N&pi=918639831&lg=en-
+US&sw=800&sh=600&sc=24&tl=Documentation%20%E2%80%93%20Ledger%20Support&p=https%3A%2F%2Fsupport.ledger.com%2Fhc%2Fen-
+us%2Fcategories%2F4404376139409%3Fdocs%3Dtrue&r=&lt=3815&evt=pageLoad&sv=1&rn=472438)
+
+![dot image
+pixel](https://sp.analytics.yahoo.com/sp.pl?a=10000&d=Tue%2C%2028%20May%202024%2012%3A45%3A54%20GMT&n=0&b=Documentation%20%E2%80%93%20Ledger%20Support&.yp=10159916&f=https%3A%2F%2Fsupport.ledger.com%2Fhc%2Fen-
+us%2Fcategories%2F4404376139409%3Fdocs%3Dtrue&enc=UTF-8&yv=1.15.1&tagmgr=gtm)
 
