@@ -1,0 +1,29 @@
+{
+    "target_url": "https://jup.ag/bridge-compare",
+    "domains": {
+        "discord.gg": [
+            "https://discord.gg/jup"
+        ],
+        "jup.ag": [
+            "https://jup.ag/",
+            "https://jup.ag/bridge-compare",
+            "https://jup.ag/bridge/cctp",
+            "https://jup.ag/bridge/cex",
+            "https://jup.ag/bridge/debridge",
+            "https://jup.ag/bridge/onramp",
+            "https://jup.ag/dca/USDC-SOL",
+            "https://jup.ag/limit/USDC-SOL",
+            "https://jup.ag/perps",
+            "https://jup.ag/swap/USDC-SOL"
+        ],
+        "station.jup.ag": [
+            "https://station.jup.ag/guides"
+        ],
+        "twitter.com": [
+            "https://twitter.com/JupiterExchange"
+        ],
+        "www.reddit.com": [
+            "https://www.reddit.com/r/jupiterexchange"
+        ]
+    }
+}
