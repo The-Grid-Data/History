@@ -197,7 +197,14 @@ Stader
   * Babylon
   * Stader
 
-[![Introducing Puffer Finance in 3 Minutes or So](https://blog-
+[![What Is Chromia? Everything You Need to Know in 5 Minutes](https://blog-
+api.everstake.one/assets/6e0c7bf4-bf77-494f-a8f2-f10302eae266.webp) chromia
+What Is Chromia? Everything You Need to Know in 5 Minutes Unlock the power of
+Chromia, the L1 blockchain revolutionizing DApp development. Learn how its
+unique architecture, relational database model, and Rell programming language
+empower developers to create scalable, customizable, and interoperable
+applications. 28 May 2024](/blog/what-is-chromia-everything-you-need-to-know-
+in-5-minutes)[![Introducing Puffer Finance in 3 Minutes or So](https://blog-
 api.everstake.one/assets/63dfb2a9-75f0-4470-8843-55cbf2521d1c.webp) eigenlayer
 Introducing Puffer Finance in 3 Minutes or So Dive into Puffer, the next-gen
 decentralized staking protocol on EigenLayer. Learn how it works, why
@@ -268,15 +275,7 @@ api.everstake.one/assets/9b2aaaf5-1da0-422a-9c49-f46ef19e8c55.webp) Company
 News  What is Gevulot? Comprehensive overview Meet our new partner Gevulot!
 This article explores what Gevulot is, how it works, its competitive
 advantages, and its potential to revolutionize the blockchain ecosystem. 03
-May 2024](/blog/what-is-gevulot-comprehensive-overview)[![What is Proof-of-
-Stake \(PoS\) in Cryptocurrency?](https://blog-
-api.everstake.one/assets/ef3264a1-e844-4671-b69c-2f7550fb3d2f.webp) The ABCs
-of Crypto  What is Proof-of-Stake (PoS) in Cryptocurrency? Proof-of-Stake
-(PoS) is already a major player in the cryptocurrency space. This article
-delves into the core concepts of PoS, its established advantages over Proof-
-of-Work (PoW), and its ongoing role in shaping the present and future of
-digital investments. 02 May 2024](/blog/what-is-proofofstake-pos-in-
-cryptocurrency)
+May 2024](/blog/what-is-gevulot-comprehensive-overview)
 
 ### subscribe
 
