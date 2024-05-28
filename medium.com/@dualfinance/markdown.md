@@ -47,10 +47,19 @@ particular the Solana ecosystem so it’s worth taking stock of where Dual
 Finance sits today and…](/@dualfinance/dual-finance-a-year-in-
 review-856b3853dc21?source=user_profile---------0----------------------------)
 
-Dec 30, 2023
+[5 min read·Dec 30, 2023](/@dualfinance/dual-finance-a-year-in-
+review-856b3853dc21?source=user_profile---------0----------------------------)
+
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F856b3853dc21&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fdual-
+finance-a-year-in-
+review-856b3853dc21&user=Dual+Finance&userId=9a1519a3601f&source=-----856b3853dc21
+----0-----------------clap_footer-----------)
+
+\--
 
 [](/@dualfinance/dual-finance-a-year-in-
-review-856b3853dc21?source=user_profile---------0----------------------------)
+review-856b3853dc21?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------0----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F856b3853dc21&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fdual-
 finance-a-year-in-review-856b3853dc21&source=---------0-----------------
@@ -62,10 +71,16 @@ Review](https://miro.medium.com/v2/da:true/resize:fill:160:106/0*nACAQ3hMC19fKVl
 ![Dual Finance — A Year in
 Review](https://miro.medium.com/v2/da:true/resize:fill:320:214/0*nACAQ3hMC19fKVls)
 
-Dec 30, 2023
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F856b3853dc21&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fdual-
+finance-a-year-in-
+review-856b3853dc21&user=Dual+Finance&userId=9a1519a3601f&source=-----856b3853dc21
+----0-----------------clap_footer-----------)
+
+\--
 
 [](/@dualfinance/dual-finance-a-year-in-
-review-856b3853dc21?source=user_profile---------0----------------------------)
+review-856b3853dc21?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------0----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F856b3853dc21&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fdual-
 finance-a-year-in-review-856b3853dc21&source=---------0-----------------
@@ -83,10 +98,20 @@ boarding trading firms capable of providing liquidity-as-
 service…](/@dualfinance/phase-two-roadmap-d64ec04014cb?source=user_profile
 ---------1----------------------------)
 
-Jul 19, 2023
-
-[](/@dualfinance/phase-two-roadmap-d64ec04014cb?source=user_profile---------
+[2 min read·Jul 19, 2023](/@dualfinance/phase-two-
+roadmap-d64ec04014cb?source=user_profile---------
 1----------------------------)
+
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fd64ec04014cb&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fphase-
+two-
+roadmap-d64ec04014cb&user=Dual+Finance&userId=9a1519a3601f&source=-----d64ec04014cb
+----1-----------------clap_footer-----------)
+
+\--
+
+[](/@dualfinance/phase-two-
+roadmap-d64ec04014cb?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------1----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fd64ec04014cb&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fphase-
 two-roadmap-d64ec04014cb&source=---------1-----------------
@@ -98,10 +123,16 @@ Roadmap](https://miro.medium.com/v2/resize:fill:160:106/0*orag3GID6Q6BrG3G.png)
 ![Phase Two
 Roadmap](https://miro.medium.com/v2/resize:fill:320:214/0*orag3GID6Q6BrG3G.png)
 
-Jul 19, 2023
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fd64ec04014cb&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fphase-
+two-
+roadmap-d64ec04014cb&user=Dual+Finance&userId=9a1519a3601f&source=-----d64ec04014cb
+----1-----------------clap_footer-----------)
 
-[](/@dualfinance/phase-two-roadmap-d64ec04014cb?source=user_profile---------
-1----------------------------)
+\--
+
+[](/@dualfinance/phase-two-
+roadmap-d64ec04014cb?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------1----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fd64ec04014cb&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fphase-
 two-roadmap-d64ec04014cb&source=---------1-----------------
@@ -119,9 +150,18 @@ establish a bonafide decentralized autonomous organization (DAO) that will
 contribute in…](/@dualfinance/dual-dao-constitution-
 ab1c7caf68ef?source=user_profile---------2----------------------------)
 
-Mar 1, 2023
+[5 min read·Mar 1, 2023](/@dualfinance/dual-dao-constitution-
+ab1c7caf68ef?source=user_profile---------2----------------------------)
 
-[](/@dualfinance/dual-dao-constitution-ab1c7caf68ef?source=user_profile
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fab1c7caf68ef&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fdual-
+dao-constitution-
+ab1c7caf68ef&user=Dual+Finance&userId=9a1519a3601f&source=-----ab1c7caf68ef
+----2-----------------clap_footer-----------)
+
+\--
+
+[](/@dualfinance/dual-dao-constitution-
+ab1c7caf68ef?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
 ---------2----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fab1c7caf68ef&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fdual-
@@ -134,9 +174,15 @@ Constitution](https://miro.medium.com/v2/resize:fill:160:106/1*48lMciWuyyYK4G1H1
 ![Dual DAO
 Constitution](https://miro.medium.com/v2/resize:fill:320:214/1*48lMciWuyyYK4G1H1_jJOQ.png)
 
-Mar 1, 2023
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fab1c7caf68ef&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fdual-
+dao-constitution-
+ab1c7caf68ef&user=Dual+Finance&userId=9a1519a3601f&source=-----ab1c7caf68ef
+----2-----------------clap_footer-----------)
 
-[](/@dualfinance/dual-dao-constitution-ab1c7caf68ef?source=user_profile
+\--
+
+[](/@dualfinance/dual-dao-constitution-
+ab1c7caf68ef?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
 ---------2----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fab1c7caf68ef&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fdual-
@@ -156,11 +202,20 @@ crypto liquidity…](/@dualfinance/incentive-liquidity-
 infrastructure-12c2c33886a1?source=user_profile---------
 3----------------------------)
 
-Dec 19, 2022
-
-[](/@dualfinance/incentive-liquidity-
+[8 min read·Dec 19, 2022](/@dualfinance/incentive-liquidity-
 infrastructure-12c2c33886a1?source=user_profile---------
 3----------------------------)
+
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F12c2c33886a1&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fincentive-
+liquidity-
+infrastructure-12c2c33886a1&user=Dual+Finance&userId=9a1519a3601f&source=-----12c2c33886a1
+----3-----------------clap_footer-----------)
+
+\--
+
+[](/@dualfinance/incentive-liquidity-
+infrastructure-12c2c33886a1?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------3----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F12c2c33886a1&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fincentive-
 liquidity-infrastructure-12c2c33886a1&source=---------3-----------------
@@ -174,11 +229,16 @@ BLPLyJ)
 Infrastructure](https://miro.medium.com/v2/da:true/resize:fill:320:214/0*ohJrZmlF_-
 BLPLyJ)
 
-Dec 19, 2022
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F12c2c33886a1&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fincentive-
+liquidity-
+infrastructure-12c2c33886a1&user=Dual+Finance&userId=9a1519a3601f&source=-----12c2c33886a1
+----3-----------------clap_footer-----------)
+
+\--
 
 [](/@dualfinance/incentive-liquidity-
-infrastructure-12c2c33886a1?source=user_profile---------
-3----------------------------)
+infrastructure-12c2c33886a1?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------3----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F12c2c33886a1&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fincentive-
 liquidity-infrastructure-12c2c33886a1&source=---------3-----------------
@@ -197,11 +257,20 @@ from its product offering…](/@dualfinance/strategic-decentralized-risk-
 management-8f5b307de43d?source=user_profile---------
 4----------------------------)
 
-Aug 27, 2022
-
-[1](/@dualfinance/strategic-decentralized-risk-
+[9 min read·Aug 27, 2022](/@dualfinance/strategic-decentralized-risk-
 management-8f5b307de43d?source=user_profile---------
 4----------------------------)
+
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F8f5b307de43d&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fstrategic-
+decentralized-risk-
+management-8f5b307de43d&user=Dual+Finance&userId=9a1519a3601f&source=-----8f5b307de43d
+----4-----------------clap_footer-----------)
+
+\--
+
+[1](/@dualfinance/strategic-decentralized-risk-
+management-8f5b307de43d?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------4----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8f5b307de43d&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fstrategic-
 decentralized-risk-management-8f5b307de43d&source=---------4-----------------
@@ -213,11 +282,16 @@ Management](https://miro.medium.com/v2/da:true/resize:fill:160:106/0*TkSOE9gcClV
 ![Strategic Decentralized Risk
 Management](https://miro.medium.com/v2/da:true/resize:fill:320:214/0*TkSOE9gcClV50rT4)
 
-Aug 27, 2022
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F8f5b307de43d&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fstrategic-
+decentralized-risk-
+management-8f5b307de43d&user=Dual+Finance&userId=9a1519a3601f&source=-----8f5b307de43d
+----4-----------------clap_footer-----------)
+
+\--
 
 [1](/@dualfinance/strategic-decentralized-risk-
-management-8f5b307de43d?source=user_profile---------
-4----------------------------)
+management-8f5b307de43d?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------4----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8f5b307de43d&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fstrategic-
 decentralized-risk-management-8f5b307de43d&source=---------4-----------------
@@ -235,9 +309,18 @@ sustainable structure products to re-incentivize Web3 communities. To lead by
 example…](/@dualfinance/staking-option-fair-
 launch-f08a2ba958e8?source=user_profile---------5----------------------------)
 
-Aug 22, 2022
+[12 min read·Aug 22, 2022](/@dualfinance/staking-option-fair-
+launch-f08a2ba958e8?source=user_profile---------5----------------------------)
 
-[](/@dualfinance/staking-option-fair-launch-f08a2ba958e8?source=user_profile
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Ff08a2ba958e8&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fstaking-
+option-fair-
+launch-f08a2ba958e8&user=Dual+Finance&userId=9a1519a3601f&source=-----f08a2ba958e8
+----5-----------------clap_footer-----------)
+
+\--
+
+[](/@dualfinance/staking-option-fair-
+launch-f08a2ba958e8?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
 ---------5----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Ff08a2ba958e8&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fstaking-
@@ -250,9 +333,15 @@ Launch](https://miro.medium.com/v2/resize:fill:160:106/1*2dsxfJ_Dvbooke0UApmB9g.
 ![Staking Option Fair
 Launch](https://miro.medium.com/v2/resize:fill:320:214/1*2dsxfJ_Dvbooke0UApmB9g.png)
 
-Aug 22, 2022
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Ff08a2ba958e8&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fstaking-
+option-fair-
+launch-f08a2ba958e8&user=Dual+Finance&userId=9a1519a3601f&source=-----f08a2ba958e8
+----5-----------------clap_footer-----------)
 
-[](/@dualfinance/staking-option-fair-launch-f08a2ba958e8?source=user_profile
+\--
+
+[](/@dualfinance/staking-option-fair-
+launch-f08a2ba958e8?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
 ---------5----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Ff08a2ba958e8&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fstaking-
@@ -272,9 +361,19 @@ crypto communities to coordinate and work towards their goals. Staking Options
 incentives-12bde6aa5b75?source=user_profile---------
 6----------------------------)
 
-Jun 29, 2022
+[5 min read·Jun 29, 2022](/@dualfinance/sustainable-token-
+incentives-12bde6aa5b75?source=user_profile---------
+6----------------------------)
 
-[](/@dualfinance/sustainable-token-incentives-12bde6aa5b75?source=user_profile
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F12bde6aa5b75&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fsustainable-
+token-
+incentives-12bde6aa5b75&user=Dual+Finance&userId=9a1519a3601f&source=-----12bde6aa5b75
+----6-----------------clap_footer-----------)
+
+\--
+
+[](/@dualfinance/sustainable-token-
+incentives-12bde6aa5b75?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
 ---------6----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F12bde6aa5b75&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fsustainable-
@@ -287,9 +386,15 @@ Incentives](https://miro.medium.com/v2/da:true/resize:fill:160:106/1*fkoj8bkcNIV
 ![Sustainable Token
 Incentives](https://miro.medium.com/v2/da:true/resize:fill:320:214/1*fkoj8bkcNIVdAXxnv6P8IA.gif)
 
-Jun 29, 2022
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F12bde6aa5b75&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fsustainable-
+token-
+incentives-12bde6aa5b75&user=Dual+Finance&userId=9a1519a3601f&source=-----12bde6aa5b75
+----6-----------------clap_footer-----------)
 
-[](/@dualfinance/sustainable-token-incentives-12bde6aa5b75?source=user_profile
+\--
+
+[](/@dualfinance/sustainable-token-
+incentives-12bde6aa5b75?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
 ---------6----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F12bde6aa5b75&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fsustainable-
@@ -309,11 +414,20 @@ effects across the Decentralized Finance…](/@dualfinance/applications-of-
 staking-options-in-decentralized-finance-b588893fec92?source=user_profile
 ---------7----------------------------)
 
-Mar 15, 2022
+[11 min read·Mar 15, 2022](/@dualfinance/applications-of-staking-options-in-
+decentralized-finance-b588893fec92?source=user_profile---------
+7----------------------------)
+
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fb588893fec92&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fapplications-
+of-staking-options-in-decentralized-
+finance-b588893fec92&user=Dual+Finance&userId=9a1519a3601f&source=-----b588893fec92
+----7-----------------clap_footer-----------)
+
+\--
 
 [](/@dualfinance/applications-of-staking-options-in-decentralized-
-finance-b588893fec92?source=user_profile---------
-7----------------------------)
+finance-b588893fec92?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------7----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fb588893fec92&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fapplications-
 of-staking-options-in-decentralized-finance-b588893fec92&source=---------7
@@ -325,11 +439,16 @@ Finance](https://miro.medium.com/v2/da:true/resize:fill:160:106/0*cDxj7IKiIamPiG
 ![Applications of Staking Options in Decentralized
 Finance](https://miro.medium.com/v2/da:true/resize:fill:320:214/0*cDxj7IKiIamPiG4g)
 
-Mar 15, 2022
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fb588893fec92&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fapplications-
+of-staking-options-in-decentralized-
+finance-b588893fec92&user=Dual+Finance&userId=9a1519a3601f&source=-----b588893fec92
+----7-----------------clap_footer-----------)
+
+\--
 
 [](/@dualfinance/applications-of-staking-options-in-decentralized-
-finance-b588893fec92?source=user_profile---------
-7----------------------------)
+finance-b588893fec92?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------7----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fb588893fec92&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fapplications-
 of-staking-options-in-decentralized-finance-b588893fec92&source=---------7
@@ -348,9 +467,19 @@ implementation…](/@dualfinance/dual-finance-
 whitepaper-73f90f778c26?source=user_profile---------
 8----------------------------)
 
-Mar 6, 2022
+[11 min read·Mar 6, 2022](/@dualfinance/dual-finance-
+whitepaper-73f90f778c26?source=user_profile---------
+8----------------------------)
 
-[](/@dualfinance/dual-finance-whitepaper-73f90f778c26?source=user_profile
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F73f90f778c26&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fdual-
+finance-
+whitepaper-73f90f778c26&user=Dual+Finance&userId=9a1519a3601f&source=-----73f90f778c26
+----8-----------------clap_footer-----------)
+
+\--
+
+[](/@dualfinance/dual-finance-
+whitepaper-73f90f778c26?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
 ---------8----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F73f90f778c26&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fdual-
@@ -363,9 +492,15 @@ Whitepaper](https://miro.medium.com/v2/da:true/resize:fill:160:106/1*bpkz0_yIx0v
 ![Dual Finance
 Whitepaper](https://miro.medium.com/v2/da:true/resize:fill:320:214/1*bpkz0_yIx0vsZbvhMwjcng.gif)
 
-Mar 6, 2022
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F73f90f778c26&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fdual-
+finance-
+whitepaper-73f90f778c26&user=Dual+Finance&userId=9a1519a3601f&source=-----73f90f778c26
+----8-----------------clap_footer-----------)
 
-[](/@dualfinance/dual-finance-whitepaper-73f90f778c26?source=user_profile
+\--
+
+[](/@dualfinance/dual-finance-
+whitepaper-73f90f778c26?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
 ---------8----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F73f90f778c26&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dualfinance%2Fdual-
