@@ -1,0 +1,64 @@
+{
+    "target_url": "https://jumpcrypto.com/writing/bypassing-ethermint-ante-handlers/",
+    "domains": {
+        "canto.io": [
+            "https://canto.io/?ref=jumpcrypto.com"
+        ],
+        "cronos.org": [
+            "https://cronos.org/?ref=jumpcrypto.com"
+        ],
+        "docs.cosmos.network": [
+            "https://docs.cosmos.network/main/modules/authz?ref=jumpcrypto.com",
+            "https://docs.cosmos.network/main/modules/gov?ref=jumpcrypto.com#proposal-submission",
+            "https://docs.cosmos.network/main/modules/group?ref=jumpcrypto.com#msgexec"
+        ],
+        "en.wikipedia.org": [
+            "https://en.wikipedia.org/wiki/Coordinated_vulnerability_disclosure?ref=jumpcrypto.com"
+        ],
+        "github.com": [
+            "https://github.com/CosmWasm/wasmd?ref=jumpcrypto.com",
+            "https://github.com/JumpCrypto",
+            "https://github.com/Kava-Labs/kava/pull/1241?ref=jumpcrypto.com",
+            "https://github.com/cosmos/ibc-go/tree/main/modules/apps/27-interchain-accounts/host?ref=jumpcrypto.com",
+            "https://github.com/evmos/ethermint/blob/292fe03b2d1811360f3297ed81bb088a432a04e8/app/ante/eth.go?ref=jumpcrypto.com#L137",
+            "https://github.com/evmos/ethermint/blob/292fe03b2d1811360f3297ed81bb088a432a04e8/x/evm/keeper/state_transition.go?ref=jumpcrypto.com#L242",
+            "https://github.com/evmos/evmos/blob/03e18f9979cfcf7f4b1e2e0a8c5b1706520e573c/app/ante/cosmos/authz.go?ref=jumpcrypto.com#LL58C37-L58C37"
+        ],
+        "jumpcrypto.com": [
+            "https://jumpcrypto.com/",
+            "https://jumpcrypto.com/brand/",
+            "https://jumpcrypto.com/chronicle/",
+            "https://jumpcrypto.com/collaborations/",
+            "https://jumpcrypto.com/connect/",
+            "https://jumpcrypto.com/cyclone/",
+            "https://jumpcrypto.com/data-protection-and-privacy-policy/",
+            "https://jumpcrypto.com/firedancer/",
+            "https://jumpcrypto.com/media/",
+            "https://jumpcrypto.com/nfa/",
+            "https://jumpcrypto.com/research/",
+            "https://jumpcrypto.com/terms-of-use/",
+            "https://jumpcrypto.com/thepit/",
+            "https://jumpcrypto.com/validator-security/",
+            "https://jumpcrypto.com/writing/",
+            "https://jumpcrypto.com/writing/huckleberry-ibc-event-hallucinations/",
+            "https://jumpcrypto.com/writing/mapping-markets-blockchain-mass-adoption-potential/",
+            "https://jumpcrypto.com/writing/safu-creating-a-standard-for-whitehats/",
+            "https://jumpcrypto.com/writing/security/"
+        ],
+        "medium.com": [
+            "https://medium.com/immunefi/cronos-theft-of-transactions-fees-bugfix-postmortem-b33f941b9570?ref=jumpcrypto.com"
+        ],
+        "twitter.com": [
+            "https://twitter.com/jump_"
+        ],
+        "www.kava.io": [
+            "https://www.kava.io/?ref=jumpcrypto.com"
+        ],
+        "www.msf.org": [
+            "https://www.msf.org/?ref=jumpcrypto.com"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/@jump_"
+        ]
+    }
+}
