@@ -1,0 +1,827 @@
+<!DOCTYPE html><html lang="sv"><head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Ordlista - Bitcoin</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+
+<script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.org Ã¤r ett projekt som finansieras av sin community. Donationer tas tacksamt emot och anvÃ¤nds fÃ¶r att fÃ¶rbÃ¤ttra webbplatsen.
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        GÃ¶r en donation
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.org behÃ¶ver din hjÃ¤lp!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">Donera till Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">AnvÃ¤nd denna QR-kod eller adressen nedan</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="Eller eget belopp? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="Eller eget belopp? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="Valfri beskrivning (fÃ¶r din plÃ¥nbok)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="/sv/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">Inledning</a>
+    <ul>
+      <li><a href="/sv/bitcoin-for-privatpersoner">Privatpersoner</a></li>
+      <li><a href="/sv/bitcoin-for-foretag">FÃ¶retag</a></li>
+      <li><a href="https://developer.bitcoin.org/">Utvecklare</a></li>
+      <li><a href="/sv/kom-igang">Kom igÃ¥ng</a></li>
+      <li><a href="/sv/hur-det-fungerar">Hur det fungerar</a></li>
+      
+      <li><a href="/sv/bitcoinartikel">Vitbok</a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">Resurser</a>
+    <ul>
+      <li><a href="/sv/resurser">Resurser</a>
+      </li><li><a href="/sv/borser">BÃ¶rser</a></li>
+      <li><a href="/sv/community">Community</a></li>
+      
+      
+      <li class="active"><a href="/sv/ordlista">Ordlista</a></li>
+      <li><a href="/sv/evenemang">Evenemang</a></li>
+      
+        <li><a href="/sv/ladda-ner">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li><a href="/sv/innovation">Innovation</a></li>
+  <li><a class="is-expand">Delta</a>
+    <ul>
+      <li><a href="/sv/stod-bitcoin">StÃ¶d Bitcoin</a>
+      </li><li><a href="/sv/kop">KÃ¶p Bitcoin</a></li>
+      
+      <li><a href="/sv/utveckling">Utveckling</a></li>
+    </ul>
+  </li>
+  <li><a href="/sv/faq">FAQ</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>Svenska</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/kosa-kata">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/vocabulari">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/ordliste">Dansk</a></li>
+        
+        
+          <li><a href="/de/glossar">Deutsch</a></li>
+        
+        
+          <li><a href="/en/vocabulary">English</a></li>
+        
+        
+          <li><a href="/es/vocabulario">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/vocabulaire">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/glossario">Italiano</a></li>
+        
+        
+          <li><a href="/hu/szotar">Magyar</a></li>
+        
+        
+          <li><a href="/nl/woordenlijst">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/slownik">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/vocabulario">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/vocabular">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/besednjak">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/vokabular">Srpski</a></li>
+        
+        
+          <li><a href="/sv/ordlista" class="active">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/kelime-haznesi">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/vocabulary">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/vocabulary">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/vocabulary">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/vocabulary">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/vocabulary">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/vocabulary">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/vocabulary">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/vocabulary">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/vocabulary">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/vocabulary">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/vocabulary">ááááá</a></li>
+        
+        
+          <li><a href="/ja/vocabulary">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/vocabulary">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/vocabulary">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/kosa-kata">Bahasa Indonesia</option>
+            
+            <option value="/ca/vocabulari">CatalÃ </option>
+            
+            <option value="/da/ordliste">Dansk</option>
+            
+            <option value="/de/glossar">Deutsch</option>
+            
+            <option value="/en/vocabulary">English</option>
+            
+            <option value="/es/vocabulario">EspaÃ±ol</option>
+            
+            <option value="/fr/vocabulaire">FranÃ§ais</option>
+            
+            <option value="/it/glossario">Italiano</option>
+            
+            <option value="/hu/szotar">Magyar</option>
+            
+            <option value="/nl/woordenlijst">Nederlands</option>
+            
+            <option value="/pl/slownik">Polski</option>
+            
+            <option value="/pt_BR/vocabulario">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/vocabular">RomÃ¢nÄ</option>
+            
+            <option value="/sl/besednjak">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/vokabular">Srpski</option>
+            
+            <option value="/sv/ordlista" selected="selected">Svenska</option>
+            
+            <option value="/tr/kelime-haznesi">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/vocabulary">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/vocabulary">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/vocabulary">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/vocabulary">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/vocabulary">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/vocabulary">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/vocabulary">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/vocabulary">×¢××¨××ª</option>
+            
+            <option value="/hi/vocabulary">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/vocabulary">íêµ­ì´</option>
+            
+            <option value="/km/vocabulary">ááááá</option>
+            
+            <option value="/ja/vocabulary">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/vocabulary">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/vocabulary">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">sv</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  <div class="hero">
+  <div class="container hero-container">
+    <h1>NÃ¥gra Bitcoinord du kan trÃ¤ffa pÃ¥</h1>
+    <p class="summarytxt">Bitcoin erbjuder ett nytt sÃ¤tt att utfÃ¶ra betalningar och dÃ¤rfÃ¶r finns det nÃ¥gra nya begrepp som kan komma att bli en del av ditt ordfÃ¶rrÃ¥d.</p>
+  </div>
+</div>
+
+<div class="toc-container">
+  <div class="row toc-row">
+    <div id="toc" class="toc">
+      <div>
+        <button class="mob-sidebar-open" hidden="">ALL TOPICS</button>
+        <div class="sidebar">
+          <div class="sidebar-inner vocabulary-list">
+            <button class="mob-sidebar-close" hidden=""></button>
+            <ul>
+            
+              <li><a href="#adress">Adress</a></li>
+            
+              <li><a href="#bit">Bit</a></li>
+            
+              <li><a href="#bitcoin">Bitcoin</a></li>
+            
+              <li><a href="#blockkedja">Blockkedja</a></li>
+            
+              <li><a href="#block">Block</a></li>
+            
+              <li><a href="#btc">BTC</a></li>
+            
+              <li><a href="#bekraftelse">BekrÃ¤ftelse</a></li>
+            
+              <li><a href="#kryptografi">Kryptografi</a></li>
+            
+              <li><a href="#dubbelspendering">Dubbelspendering</a></li>
+            
+              <li><a href="#hashtakt">Hashtakt</a></li>
+            
+              <li><a href="#gravning">GrÃ¤vning</a></li>
+            
+              <li><a href="#p2p">P2P</a></li>
+            
+              <li><a href="#privat-nyckel">Privat nyckel</a></li>
+            
+              <li><a href="#signatur">Signatur</a></li>
+            
+              <li><a href="#planbok">PlÃ¥nbok</a></li>
+            
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="toccontent">
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="adress" class=" anchorAf"><a href="#adress"></a>Adress</h2>
+        <p>En Bitcoinadress Ã¤r <b>lik en fysisk adress eller e-postadress</b>. Adressen Ã¤r den enda information du behÃ¶ver ange fÃ¶r att nÃ¥gon ska kunna betala dig med Bitcoin. En viktig skillnad Ã¤r att varje adress bara ska anvÃ¤ndas en gÃ¥ng.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="bit" class=" anchorAf"><a href="#bit"></a>Bit</h2>
+        <p>Bit Ã¤r en vanlig enhet som anvÃ¤nds fÃ¶r att beteckna en underenhet av en bitcoin. 1&nbsp;000&nbsp;000 bits Ã¤r lika med 1 bitcoin (BTC). Det Ã¤r ofta bekvÃ¤mare att anvÃ¤nda denna enhet fÃ¶r att ange pris pÃ¥ dricks, varor och tjÃ¤nster.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="bitcoin" class=" anchorAf"><a href="#bitcoin"></a>Bitcoin</h2>
+        <p>Bitcoin, med stor initialbokstav, anvÃ¤nds fÃ¶r att beskriva Bitcoin som koncept, eller nÃ¤tverket i sin helhet. T.ex "Jag lÃ¤ste om Bitcoinprotokollet idag."<br>bitcoin - utan stor initialbokstav, anvÃ¤nds fÃ¶r att referera till bitcoin som betalningsenhet. T.ex "Jag skickade tio bitcoin idag." BTC eller XBT Ã¤r vanliga referenser till valutaenheten bitcoin.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="blockkedja" class=" anchorAf"><a href="#blockkedja"></a>Blockkedja</h2>
+        <p>Blockkedjan Ã¤r en <b>offentlig fÃ¶rteckning Ã¶ver Bitcointransaktioner</b> i kronologisk ordning. Blockkedjan delas mellan alla BitcoinanvÃ¤ndare. Den anvÃ¤nds fÃ¶r att verifiera att en transaktion Ã¤r permanent och fÃ¶r att fÃ¶rhindra <a href="#dubbelspendering">dubbelspendering</a>.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="block" class=" anchorAf"><a href="#block"></a>Block</h2>
+        <p>Ett block Ã¤r en <b>post i blockkedjan som innehÃ¥ller och bekrÃ¤ftar mÃ¥nga vÃ¤ntande transaktioner</b>. I genomsnitt ungefÃ¤r var tionde minut lÃ¤ggs ett nytt block med transaktioner till i slutet av <a href="#blockkedja">blockkedjan</a> genom <a href="#gravning">grÃ¤vning</a>.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="btc" class=" anchorAf"><a href="#btc"></a>BTC</h2>
+        <p>BTC Ã¤r en vanlig enhet som anvÃ¤nds fÃ¶r att beteckna en bitcoin.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="bekraftelse" class=" anchorAf"><a href="#bekraftelse"></a>BekrÃ¤ftelse</h2>
+        <p>BekrÃ¤ftelse betyder att en transaktion har <b>bearbetats av nÃ¤tverket och att det Ã¤r mycket osannolikt att den hÃ¤vs</b>. En transaktion fÃ¥r en bekrÃ¤ftelse nÃ¤r den inkluderas i ett <a href="/sv/ordlista#block">block</a> och sedan fÃ¶r varje efterfÃ¶ljande block. Till och med en enda bekrÃ¤ftelse kan anses sÃ¤ker fÃ¶r transaktioner med smÃ¥ belopp. FÃ¶r stÃ¶rre belopp som 10&nbsp;000 SEK Ã¤r det rimligt att vÃ¤nta pÃ¥ 6 bekrÃ¤ftelser eller fler. Varje bekrÃ¤ftelse minskar <i>exponentiellt</i> risken fÃ¶r att transaktionen hÃ¤vs.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="kryptografi" class=" anchorAf"><a href="#kryptografi"></a>Kryptografi</h2>
+        <p>Kryptografi Ã¤r den gren av matematiken som lÃ¥ter oss skapa <b>matematiska bevis som ger en hÃ¶g nivÃ¥ av sÃ¤kerhet</b>. Internethandel och banker anvÃ¤nder redan denna teknologi. I Bitcoins fall anvÃ¤nds kryptografi fÃ¶r att gÃ¶ra det omÃ¶jligt att spendera pengar frÃ¥n andras plÃ¥nbÃ¶cker eller att fÃ¶rvanska <a href="#blockkedja">blockkedjan</a>. Det kan ocksÃ¥ anvÃ¤ndas fÃ¶r att kryptera en plÃ¥nbok sÃ¥ att den inte kan anvÃ¤ndas utan ett lÃ¶senord.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="dubbelspendering" class=" anchorAf"><a href="#dubbelspendering"></a>Dubbelspendering</h2>
+        <p>Om en illvillig anvÃ¤ndare fÃ¶rsÃ¶ker vÃ¥lla skada genom att <b>spendera sina bitcoin pÃ¥ tvÃ¥ olika platser samtidigt</b> kallas det dubbelspendering. Bitcoin<a href="#gravning">grÃ¤vning</a> och <a href="#blockkedja">blockkedjan</a> Ã¤r till fÃ¶r att skapa konsensus i nÃ¤tverket om vilken av de tvÃ¥ transaktionerna som ska bekrÃ¤ftas och betraktas som giltig.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="hashtakt" class=" anchorAf"><a href="#hashtakt"></a>Hashtakt</h2>
+        <p>Hashtakten Ã¤r <b>mÃ¥ttenheten fÃ¶r bitcoinnÃ¤tverkets berÃ¤kningskapacitet</b>. BitcoinnÃ¤tverket mÃ¥ste utfÃ¶ra intensiva matematiska operationer av sÃ¤kerhetsskÃ¤l. NÃ¤r nÃ¤tverket nÃ¥dde en hashtakt pÃ¥ 10 Th/s innebar det att nÃ¤tverket kunde utfÃ¶ra 10 biljoner berÃ¤kningar per sekund.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="gravning" class=" anchorAf"><a href="#gravning"></a>GrÃ¤vning</h2>
+        <p>BitcoingrÃ¤vning Ã¤r processen att <b>anvÃ¤nda datorhÃ¥rdvara till att utfÃ¶ra matematiska berÃ¤kningar Ã¥t BitcoinnÃ¤tverket fÃ¶r att bekrÃ¤fta transaktioner</b> och Ã¶ka sÃ¤kerheten. Som en belÃ¶ning fÃ¶r sina tjÃ¤nster fÃ¥r BitcoingrÃ¤vare samla in transaktionsavgifter fÃ¶r de transaktioner de bekrÃ¤ftar, tillsammans med nyskapade bitcoin. GrÃ¤vning Ã¤r en specialiserad och konkurrensutsatt marknad dÃ¤r belÃ¶ningar delas upp enligt hur mÃ¥nga berÃ¤kningar som utfÃ¶rs. Alla BitcoinanvÃ¤ndare Ã¤gnar sig inte Ã¥t grÃ¤vning och det Ã¤r inte nÃ¥got enkelt sÃ¤tt att tjÃ¤na pengar.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="p2p" class=" anchorAf"><a href="#p2p"></a>P2P</h2>
+        <p>Icke-hierarkiskt (Peer-to-peer, P2P) syftar pÃ¥ <b>system som fungerar som ett organiserat kollektiv</b> genom att lÃ¥ta varje individ interagera direkt med de andra. I Bitcoins fall Ã¤r nÃ¤tverket uppbyggt pÃ¥ sÃ¥ sÃ¤tt att varje anvÃ¤ndare vidarebefordrar andra anvÃ¤ndares transaktioner. Och viktigast av allt: det behÃ¶vs ingen bank som tredje part. </p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="privat-nyckel" class=" anchorAf"><a href="#privat-nyckel"></a>Privat nyckel</h2>
+        <p>En privat nyckel Ã¤r <b>en hemlig bit data som bevisar att du har rÃ¤tt att spendera bitcoin frÃ¥n en viss plÃ¥nbok</b> genom en kryptografisk <a href="#signatur">signatur</a>. Din privata nyckel lagras pÃ¥ din dator om du anvÃ¤nder en mjukvaruplÃ¥nbok, och pÃ¥ nÃ¥gon server om du anvÃ¤nder en webbplÃ¥nbok. En privat nyckel fÃ¥r aldrig rÃ¶jas eftersom den gÃ¶r det mÃ¶jligt att  spendera bitcoin frÃ¥n dess motsvarande BitcoinplÃ¥nbok.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="signatur" class=" anchorAf"><a href="#signatur"></a>Signatur</h2>
+        <p>En <a href="#kryptografi">kryptografisk</a> signatur Ã¤r <b>en matematisk mekanism som gÃ¶r det mÃ¶jligt fÃ¶r nÃ¥gon att bevisa Ã¤gandeskap</b>. I Bicoins fall lÃ¤nkas en <a href="#planbok">BitcoinplÃ¥nbok</a> och dess <a href="#privat-nyckel">privata nycklar</a> ihop med hjÃ¤lp av lite matematisk magi. NÃ¤r din Bitcoinmjukvara signerar en transaktion med den korrekta privata nyckeln kan hela nÃ¤tverket se att signaturen matchar de bitcoin som spenderas. DÃ¤remot finns det inget sÃ¤tt fÃ¶r nÃ¥gon utomstÃ¥ende att gissa din privata nyckel fÃ¶r att kunna stjÃ¤la dina bitcoin.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="planbok" class=" anchorAf"><a href="#planbok"></a>PlÃ¥nbok</h2>
+        <p>En BitcoinplÃ¥nbok kan sÃ¤gas motsvara <b>en fysisk plÃ¥nbok pÃ¥ BitcoinnÃ¤tverket</b>. PlÃ¥nboken innehÃ¥ller dina <a href="#privat-nyckel">privata nycklar</a>, som lÃ¥ter dig spendera de bitcoin som Ã¤r tilldelade till den i <a href="#blockkedja">blockkedjan</a>. Varje bitcoinplÃ¥nbok kan visa dig det sammanlagda saldot fÃ¶r plÃ¥nboken och lÃ¥ter dig betala ett specifikt belopp till en specifik person, precis som en verklig plÃ¥nbok. JÃ¤mfÃ¶r detta med exempelvis ett betalkort, dÃ¤r det istÃ¤llet Ã¤r handlaren som drar pengar av dig.</p>
+      </div>
+      
+    </div>
+
+  </div>
+</div>
+
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="/sv/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">StÃ¶d Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Donera</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">Inledning:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/sv/bitcoin-for-privatpersoner">Privatpersoner</a>
+        </li>
+        <li>
+          <a href="/sv/bitcoin-for-foretag">FÃ¶retag</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">Utvecklare</a>
+        </li>
+        <li>
+          <a href="/sv/kom-igang">Kom igÃ¥ng</a>
+        </li>
+        <li>
+          <a href="/sv/hur-det-fungerar">Hur det fungerar</a>
+        </li>
+        <li>
+          <a href="/sv/du-behover-kanna-till">Du behÃ¶ver kÃ¤nna till</a>
+        </li>
+        
+        <li>
+          <a href="/sv/bitcoinartikel">Vitbok</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">Resurser:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/sv/resurser">Resurser</a>
+        </li><li>
+          <a href="/sv/borser">BÃ¶rser</a>
+        </li>
+        <li>
+          <a href="/sv/community">Community</a>
+        </li>
+        <li class="active">
+          <a href="/sv/ordlista">Ordlista
+          </a>
+        </li>
+        <li>
+          <a href="/sv/evenemang">Evenemang</a>
+        </li>
+        
+          <li>
+            <a href="/sv/ladda-ner">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">Delta:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/sv/stod-bitcoin">StÃ¶d Bitcoin</a>
+        
+        
+        </li><li>
+          <a href="/sv/utveckling">Utveckling</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Ãvrigt:</p>
+      
+      <a href="/sv/juridiskt">Juridiskt</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/sv/press">Press</a>
+      <a href="/sv/om-oss">Om bitcoin.org</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>En communitywebbplats sponsrad av</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1716491272" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 Publicerad under <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT-licensen</a></div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">NÃ¤tverksstatus</a>
+        
+<ul class="lang is-expand">
+  <li><a>Svenska</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/kosa-kata">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/vocabulari">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/ordliste">Dansk</a></li>
+        
+        
+          <li><a href="/de/glossar">Deutsch</a></li>
+        
+        
+          <li><a href="/en/vocabulary">English</a></li>
+        
+        
+          <li><a href="/es/vocabulario">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/vocabulaire">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/glossario">Italiano</a></li>
+        
+        
+          <li><a href="/hu/szotar">Magyar</a></li>
+        
+        
+          <li><a href="/nl/woordenlijst">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/slownik">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/vocabulario">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/vocabular">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/besednjak">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/vokabular">Srpski</a></li>
+        
+        
+          <li><a href="/sv/ordlista" class="active">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/kelime-haznesi">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/vocabulary">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/vocabulary">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/vocabulary">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/vocabulary">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/vocabulary">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/vocabulary">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/vocabulary">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/vocabulary">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/vocabulary">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/vocabulary">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/vocabulary">ááááá</a></li>
+        
+        
+          <li><a href="/ja/vocabulary">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/vocabulary">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/vocabulary">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/kosa-kata">Bahasa Indonesia</option>
+              
+              <option value="/ca/vocabulari">CatalÃ </option>
+              
+              <option value="/da/ordliste">Dansk</option>
+              
+              <option value="/de/glossar">Deutsch</option>
+              
+              <option value="/en/vocabulary">English</option>
+              
+              <option value="/es/vocabulario">EspaÃ±ol</option>
+              
+              <option value="/fr/vocabulaire">FranÃ§ais</option>
+              
+              <option value="/it/glossario">Italiano</option>
+              
+              <option value="/hu/szotar">Magyar</option>
+              
+              <option value="/nl/woordenlijst">Nederlands</option>
+              
+              <option value="/pl/slownik">Polski</option>
+              
+              <option value="/pt_BR/vocabulario">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/vocabular">RomÃ¢nÄ</option>
+              
+              <option value="/sl/besednjak">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/vokabular">Srpski</option>
+              
+              <option value="/sv/ordlista" selected="selected">Svenska</option>
+              
+              <option value="/tr/kelime-haznesi">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/vocabulary">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/vocabulary">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/vocabulary">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/vocabulary">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/vocabulary">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/vocabulary">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/vocabulary">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/vocabulary">×¢××¨××ª</option>
+              
+              <option value="/hi/vocabulary">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/vocabulary">íêµ­ì´</option>
+              
+              <option value="/km/vocabulary">ááááá</option>
+              
+              <option value="/ja/vocabulary">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/vocabulary">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/vocabulary">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">sv</span>
+          </label>
+        </div>
+      </div>
+<!--      <div class="row">  -->
+        
+<!--    </div> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+  <script>updateToc();</script>
+<script>accordion();</script>
+<script>onScrollButton();</script>
+<script>boxShow();</script>
+
+
+
+
+
+
+
+
+</body></html>
