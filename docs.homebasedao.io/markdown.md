@@ -116,10 +116,3 @@ On this page
 
 Was this helpful?
 
-This site uses cookies to deliver its service and to analyse traffic. By
-browsing this site, you accept the [privacy
-policy](https://www.notion.so/homebasedao/Homebase-Privacy-Policy-
-ff44061703b34b518241673d13ed6f22).
-
-AcceptReject
-
