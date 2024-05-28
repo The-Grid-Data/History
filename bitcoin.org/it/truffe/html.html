@@ -1,0 +1,827 @@
+<!DOCTYPE html><html lang="it"><head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Evitare le truffe - Bitcoin</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+
+<script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.org Ã¨ un progetto finanziato dalla comunitÃ , le donazioni sono apprezzate e utilizzate per migliorare il sito web. 
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        Fai una donazione
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.org ha bisogno del tuo aiuto!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">Fai una donazione a Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">Usa questo codice QR o l'indirizzo sottostante</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="O un importo personalizzato? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="O un importo personalizzato? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="Descrizione opzionale (per il tuo portafoglio)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="/it/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">Introduzione</a>
+    <ul>
+      <li><a href="/it/bitcoin-per-privati">Privati</a></li>
+      <li><a href="/it/bitcoin-per-imprese">Imprese</a></li>
+      <li><a href="https://developer.bitcoin.org/">Sviluppatori</a></li>
+      <li><a href="/it/come-iniziare">Come iniziare</a></li>
+      <li><a href="/it/come-funziona">Come funziona</a></li>
+      
+      <li><a href="/it/documento-bitcoin">White paper</a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">Risorse</a>
+    <ul>
+      <li><a href="/it/risorse">Risorse</a>
+      </li><li><a href="/it/borsa">Borsa</a></li>
+      <li><a href="/it/comunita">ComunitÃ </a></li>
+      
+      
+      <li><a href="/it/glossario">Glossario</a></li>
+      <li><a href="/it/eventi">Eventi</a></li>
+      
+        <li><a href="/it/scarica">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li><a href="/it/innovazione">Innovazione</a></li>
+  <li><a class="is-expand">Partecipa</a>
+    <ul>
+      <li><a href="/it/sostieni-bitcoin">Sostieni Bitcoin</a>
+      </li><li><a href="/it/compra">Comprare bitcoin</a></li>
+      
+      <li><a href="/it/sviluppo">Sviluppo</a></li>
+    </ul>
+  </li>
+  <li><a href="/it/faq">FAQ</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>Italiano</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/scam">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/estafes">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/">Dansk</a></li>
+        
+        
+          <li><a href="/de/scams">Deutsch</a></li>
+        
+        
+          <li><a href="/en/scams">English</a></li>
+        
+        
+          <li><a href="/es/">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/truffe" class="active">Italiano</a></li>
+        
+        
+          <li><a href="/hu/atveresek">Magyar</a></li>
+        
+        
+          <li><a href="/nl/oplichtingspraktijken">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/fraudes">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/prevare">Srpski</a></li>
+        
+        
+          <li><a href="/sv/bedragerier">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/scams">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/scams">ááááá</a></li>
+        
+        
+          <li><a href="/ja/scams">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/scam">Bahasa Indonesia</option>
+            
+            <option value="/ca/estafes">CatalÃ </option>
+            
+            <option value="/da/">Dansk</option>
+            
+            <option value="/de/scams">Deutsch</option>
+            
+            <option value="/en/scams">English</option>
+            
+            <option value="/es/">EspaÃ±ol</option>
+            
+            <option value="/fr/">FranÃ§ais</option>
+            
+            <option value="/it/truffe" selected="selected">Italiano</option>
+            
+            <option value="/hu/atveresek">Magyar</option>
+            
+            <option value="/nl/oplichtingspraktijken">Nederlands</option>
+            
+            <option value="/pl/">Polski</option>
+            
+            <option value="/pt_BR/fraudes">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/">RomÃ¢nÄ</option>
+            
+            <option value="/sl/">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/prevare">Srpski</option>
+            
+            <option value="/sv/bedragerier">Svenska</option>
+            
+            <option value="/tr/">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/scams">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/">×¢××¨××ª</option>
+            
+            <option value="/hi/">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/">íêµ­ì´</option>
+            
+            <option value="/km/scams">ááááá</option>
+            
+            <option value="/ja/scams">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">it</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  <div class="hero">
+  <div class="container hero-container">
+    <h1>Evitare  le truffe</h1>
+    <p class="summarytxt">Impara a conoscere alcune delle truffe bitcoin piÃ¹ comuni, per proteggere te stesso e le tue finanze.</p>
+  </div>
+</div>
+
+<div class="toc-container">
+  <div class="row toc-row">
+    <div id="toc" class="toc">
+      <div>
+        <button class="mob-sidebar-open" hidden="">Tipi di truffe</button>
+        <div class="sidebar">
+          <div class="sidebar-inner vocabulary-list">
+            <button class="mob-sidebar-close" hidden=""></button>
+            <ul>
+            
+              <li><a href="#ricatti">Ricatto</a></li>
+            
+              <li><a href="#exchanges-fasulli">Exchange fasulli</a></li>
+            
+              <li><a href="#giveaway">Giveaway</a></li>
+            
+              <li><a href="#furto-identita">Furto d'identitÃ </a></li>
+            
+              <li><a href="#malware">Malware </a></li>
+            
+              <li><a href="#incontra-di-persona">Incontri di persona </a></li>
+            
+              <li><a href="#frode-di-trasferimento-di-denaro">Frode di trasferimento di denaro</a></li>
+            
+              <li><a href="#email-di-phishing">E-mail di Phishing</a></li>
+            
+              <li><a href="#siti-web-di-phishing">Siti web di Phishing</a></li>
+            
+              <li><a href="#schemi-ponzi">Schemi Ponzi</a></li>
+            
+              <li><a href="#schemi-piramidali">Schemi piramidali</a></li>
+            
+              <li><a href="#giveaway-premio">Giveaway-premio</a></li>
+            
+              <li><a href="#pump-and-dumps">Pump e Dumps</a></li>
+            
+              <li><a href="#ransomware">Ransomware</a></li>
+            
+              <li><a href="#monete-truffa">Monete-truffa</a></li>
+            
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="toccontent">
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="ricatti" class=" anchorAf"><a href="#ricatti"></a>Ricatto</h2>
+        <p>Fai attenzione ai tentativi di ricatto da parte di sconosciuti che ti minacciano in cambio di bitcoin. Questo succede di solito tramite e-mail: il mittente manda un messaggio dichiarando di aver violato il tuo computer e di operare tramite desktop remoto (RDP). Il mittente dichiara di avere installato un keylogger e che la tua webcam Ã¨ stata utilizzata per registrare qualcosa che hai fatto ma che non vorresti fosse condiviso. Il mittente fornisce due opzioni: puoi mandargli dei bitcoin perchÃ© faccia sparire quel materiale, oppure puoi non far nulla e quel contenuto verrÃ  inviato a tutti i tuoi contatti e-mail e sui tuoi social network. I truffatori utilizzano elenchi di e-mail rubati e altre informazioni sugli utenti, per ripetere questo tipo di operazione su migliaia di persone in massa.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="exchanges-fasulli" class=" anchorAf"><a href="#exchanges-fasulli"></a>Exchange fasulli</h2>
+        <p>Man mano che bitcoin Ã¨ diventato piÃ¹ popolare, sempre piÃ¹ persone hanno cercato di acquistarlo. Sfortunatamente alcuni malintenzionati ne hanno approfittato e hanno istituito exchange fasulli di bitcoin. Questi exchange possono ingannare gli utenti offrendo prezzi di mercato estremamente competitivi che inducono a considerare come un affare quell'accesso rapido e facile a bitcoin cosÃ¬ economici. Quando si acquistano o vendono bitcoin bisogna assicurarsi di utilizzare un <a href="/en/exchanges">exchange affidabile</a>.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="giveaway" class=" anchorAf"><a href="#giveaway"></a>Giveaway</h2>
+        <p>A causa della natura virale delle informazioni diffuse su Internet, i truffatori cercano di approfittare delle persone offrendo bitcoin in omaggio o altre valute digitali, in cambio dell'invio di una piccola somma per la registrazione o di alcune informazioni personali. Se ti accorgi di una truffa simile su un sito web o su un social network, Ã¨ meglio segnalare immediatamente il contenuto come fraudolento, in modo che altri non ne cadano vittima.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="furto-identita" class=" anchorAf"><a href="#furto-identita"></a>Furto d'identitÃ </h2>
+        <p>Sfortunatamente Ã¨ molto facile per i truffatori creare un account su un social network fingendosi un'altra persona. Spesso aspettano fino a quando la persona che stanno cercando di impersonare, pubblica dei contenuti. A quel punto il truffatore risponde con un messaggio di follow-up o una call to action, come un giveaway, utilizzando un account che sembra quasi identico a quello originale. In questo modo sembra che l'autore sia proprio la persona originale. In alternativa, tramite messaggi privati o diretti, usando un account finto, i truffatori possono invitare ad intraprendere qualche tipo di azione nel tentativo di frodare. Nel dubbio Ã¨ meglio non partecipare a giveaway, e se ricevi una richiesta strana da qualcuno della tua rete, Ã¨ meglio ricontrollare per confermare l'autenticitÃ  dell'identitÃ  di quella persona, tramite piÃ¹ mezzi di comunicazione.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="malware" class=" anchorAf"><a href="#malware"></a>Malware </h2>
+        <p>Gli hacker sono diventati molto creativi nel trovare modi per rubare. Quando invii bitcoin, assicurati sempre del'indirizzo del destinatario. Una volta installati, i programmi malware cambiano gli indirizzi bitcoin incollati sul clipboard dell'utente, in modo che tutti i bitcoin vengano inconsapevolmente inviati all'indirizzo del pirata informatico. PoichÃ© ci sono poche possibilitÃ  di invertire una transazione bitcoin una volta confermata dalla rete, rilevarla dopo che Ã¨ avvenuta significa che Ã¨ troppo tardi e molto probabilmente non puÃ² essere recuperata. Conviene essere cauti sui programmi ai quali autorizzi l'accesso da amministratore ai tuoi dispositivi. Un antivirus aggiornato e affidabile puÃ² aiutare, ma non Ã¨ infallibile.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="incontra-di-persona" class=" anchorAf"><a href="#incontra-di-persona"></a>Incontri di persona </h2>
+        <p>Quando compri e vendi bitcoin localmente, una controparte potrebbe chiederti di incontrarti di persona per effettuare la transazione. Se non Ã¨ una parte fidata che giÃ  conosci, Ã¨ una proposta molto rischiosa che potrebbe comportare dei danni o una rapina. Ã risaputo che molti truffatori offrono moneta contraffatta in cambio di bitcoin. Prendi in considerazione l'utilizzo di una piattaforma peer-to-peer per depositare i tuoi fondi, invece di incontrare qualcuno di persona.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="frode-di-trasferimento-di-denaro" class=" anchorAf"><a href="#frode-di-trasferimento-di-denaro"></a>Frode di trasferimento di denaro</h2>
+        <p>Non rispondere a e-mail o comunicazioni di estranei che chiedono aiuto per trasferire soldi, in cambio di una parte di quel denaro. </p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="email-di-phishing" class=" anchorAf"><a href="#email-di-phishing"></a>E-mail di Phishing</h2>
+        <p>Fai attenzione alle e-mail che sembrano provenire da servizi che utilizzi, che ti sollecitano a reimpostare la password o cliccare per confermare uno dei tuoi account. PuÃ² essere molto difficile distinguere un'e-mail falsa da una legittima, che proviene realmente da un servizio a cui sei iscritto. In caso di dubbi, controlla l'autenticitÃ  della comunicazione inoltrandola alla societÃ  tramite il loro indirizzo e-mail (il contatto che trovi sul loro sito), chiamandoli al telefono e/o contattandoli tramite i loro account social ufficiali.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="siti-web-di-phishing" class=" anchorAf"><a href="#siti-web-di-phishing"></a>Siti web di Phishing</h2>
+        <p>I siti web di phishing vanno spesso di pari passo con le e-mail di phishing. Le e-mail di phishing possono collegarsi a un sito web fraudolento progettato per sottrarre credenziali di accesso o richiedere l'installazione di malware. Ã consigliabile non installare software o accedere a un sito web a meno che non sia sicuro al 100%. I siti web di phishing possono anche apparire come risultati sponsorizzati sui motori di ricerca o nei marketplace di app utilizzati dai dispositivi mobili. Fai attenzione a non scaricare un'app finta o a non cliccare su un link sponsorizzato di un sito web falso.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="schemi-ponzi" class=" anchorAf"><a href="#schemi-ponzi"></a>Schemi Ponzi</h2>
+        <p>Non partecipare a offerte in cui una o piÃ¹ persone offrono un ritorno garantito in cambio di un deposito anticipato. Questo Ã¨ noto come schema Ponzi, in cui i capitali dei futuri depositanti sono utilizzati per pagare gli investitori precedenti. Il classico risultato finale Ã¨ moltissime persone che perdono un sacco di soldi.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="schemi-piramidali" class=" anchorAf"><a href="#schemi-piramidali"></a>Schemi piramidali</h2>
+        <p>Uno schema piramidale promette ritorni ai partecipanti in base al numero di persone che invitano a partecipare. Questo permette allo schema di crescere viralmente e rapidamente, tuttavia, il piÃ¹ delle volte non si traduce in alcun tipo di ritorno significativo per i membri e/o per coloro che sono stati invitati a partecipare. Non invitate mai la vostra rete personale con il solo scopo di accumulare ricompense o rendimenti da un prodotto o servizio, e non contribuire con il tuo capitale sotto richiesta di terzi per accelerare il processo di guadagno.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="giveaway-premio" class=" anchorAf"><a href="#giveaway-premio"></a>Giveaway-premio</h2>
+        <p>Analogamente ai classici giveaway, le truffe giveaway-premio inducono le persone ad agire o a fornire informazioni su se stessi. Ad esempio, fornendo nome, indirizzo, indirizzo, e-mail e numero di telefono per ritirare un premio. Questo puÃ² consentire a un hacker di tentare di utilizzare le informazioni per accedere ai tuoi account, impersonandoti.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="pump-and-dumps" class=" anchorAf"><a href="#pump-and-dumps"></a>Pump e Dumps</h2>
+        <p>Non fidatevi di persone che invitano voi o altri a investire perchÃ© sostengono di sapere quale sarÃ  il prezzo di bitcoin. In un sistema di pump e dump, una persona (o piÃ¹ persone) cerca di aumentare artificialmente il prezzo (facendo investire altre persone) in modo da poter vendere le proprie quote per guadagnarci.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="ransomware" class=" anchorAf"><a href="#ransomware"></a>Ransomware</h2>
+        <p>Questa Ã¨ una categoria di malware che blocca parzialmente o completamente l'accesso al dispositivo se non previo il pagamento di un riscatto in bitcoin. La cosa migliore da fare in questi casi Ã¨ consultare l'opinione di un esperto per ricevere assistenza nella rimozione invece che pagare il riscatto. Fai attenzione ai programmi che decidi di installare sul tuo computer, specialmente a quelli che richiedono permessi di amministratore. Controlla anche che l'applicazione che stai scaricando sia effettivamente legittima e non una copia che contiene malware.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="monete-truffa" class=" anchorAf"><a href="#monete-truffa"></a>Monete-truffa</h2>
+        <p>Fai attenzione quando investi in monete diverse da bitcoin (altcoin). Fra le altcoin ci potrebbero essere diverse truffe che attirano i malcapitati con collocamenti privati o con forti sconti nella prima emissione. La maggior parte delle volte mostrano siti web accattivanti e comunitÃ  enormi con il fine di indurre gli utenti ad acquistare il prima possibile per non sentirsi lasciati indietro. Questa strategia aiuta solamente le persone che hanno messo in piedi la truffa, dando loro la possibilitÃ  di vendere a cifre elevate agli ultimi arrivati (pump and dump). A volte i promotori della truffa potrebbero decidere di distribuire token gratis (airdrop), di vantare partnership con aziende molto note con il fine di aumentare sensibilmente la domanda e - di conseguenza - il prezzo della altcoin.</p>
+      </div>
+      
+    </div>
+
+  </div>
+</div>
+
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="/it/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Sostieni Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Donazioni</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">Introduzione:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/it/bitcoin-per-privati">Privati</a>
+        </li>
+        <li>
+          <a href="/it/bitcoin-per-imprese">Imprese</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">Sviluppatori</a>
+        </li>
+        <li>
+          <a href="/it/come-iniziare">Come iniziare</a>
+        </li>
+        <li>
+          <a href="/it/come-funziona">Come funziona</a>
+        </li>
+        <li>
+          <a href="/it/da-sapere">Da sapere</a>
+        </li>
+        
+        <li>
+          <a href="/it/documento-bitcoin">White paper</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">Risorse:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/it/risorse">Risorse</a>
+        </li><li>
+          <a href="/it/borsa">Borsa</a>
+        </li>
+        <li>
+          <a href="/it/comunita">ComunitÃ </a>
+        </li>
+        <li>
+          <a href="/it/glossario">Glossario
+          </a>
+        </li>
+        <li>
+          <a href="/it/eventi">Eventi</a>
+        </li>
+        
+          <li>
+            <a href="/it/scarica">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">Partecipa:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/it/sostieni-bitcoin">Sostieni Bitcoin</a>
+        
+        
+        </li><li>
+          <a href="/it/sviluppo">Sviluppo</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Altro:</p>
+      
+      <a href="/it/note-legali">Note legali</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/it/stampa">Stampa</a>
+      <a href="/it/chi-siamo">A proposito di bitcoin.org</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>Un sito web della comunitÃ  sponsorizzato da</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1716491272" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 Rilasciato sotto <a href="http://opensource.org/licenses/mit-license.php" target="_blank">licenza MIT</a></div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">Stato della Rete</a>
+        
+<ul class="lang is-expand">
+  <li><a>Italiano</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/scam">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/estafes">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/">Dansk</a></li>
+        
+        
+          <li><a href="/de/scams">Deutsch</a></li>
+        
+        
+          <li><a href="/en/scams">English</a></li>
+        
+        
+          <li><a href="/es/">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/truffe" class="active">Italiano</a></li>
+        
+        
+          <li><a href="/hu/atveresek">Magyar</a></li>
+        
+        
+          <li><a href="/nl/oplichtingspraktijken">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/fraudes">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/prevare">Srpski</a></li>
+        
+        
+          <li><a href="/sv/bedragerier">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/scams">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/scams">ááááá</a></li>
+        
+        
+          <li><a href="/ja/scams">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/scam">Bahasa Indonesia</option>
+              
+              <option value="/ca/estafes">CatalÃ </option>
+              
+              <option value="/da/">Dansk</option>
+              
+              <option value="/de/scams">Deutsch</option>
+              
+              <option value="/en/scams">English</option>
+              
+              <option value="/es/">EspaÃ±ol</option>
+              
+              <option value="/fr/">FranÃ§ais</option>
+              
+              <option value="/it/truffe" selected="selected">Italiano</option>
+              
+              <option value="/hu/atveresek">Magyar</option>
+              
+              <option value="/nl/oplichtingspraktijken">Nederlands</option>
+              
+              <option value="/pl/">Polski</option>
+              
+              <option value="/pt_BR/fraudes">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/">RomÃ¢nÄ</option>
+              
+              <option value="/sl/">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/prevare">Srpski</option>
+              
+              <option value="/sv/bedragerier">Svenska</option>
+              
+              <option value="/tr/">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/scams">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/">×¢××¨××ª</option>
+              
+              <option value="/hi/">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/">íêµ­ì´</option>
+              
+              <option value="/km/scams">ááááá</option>
+              
+              <option value="/ja/scams">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">it</span>
+          </label>
+        </div>
+      </div>
+<!--      <div class="row">  -->
+        
+<!--    </div> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+  <script>updateToc();</script>
+<script>accordion();</script>
+<script>onScrollButton();</script>
+<script>boxShow();</script>
+
+
+
+
+
+
+
+
+</body></html>

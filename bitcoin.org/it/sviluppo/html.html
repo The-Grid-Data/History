@@ -1,0 +1,3228 @@
+<!DOCTYPE html><html lang="it"><head>
+
+
+<link rel="stylesheet" href="/css/jquery-ui.min.css">
+
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Sviluppo - Bitcoin</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+
+<script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.org Ã¨ un progetto finanziato dalla comunitÃ , le donazioni sono apprezzate e utilizzate per migliorare il sito web. 
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        Fai una donazione
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.org ha bisogno del tuo aiuto!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">Fai una donazione a Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">Usa questo codice QR o l'indirizzo sottostante</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="O un importo personalizzato? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="O un importo personalizzato? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="Descrizione opzionale (per il tuo portafoglio)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+    
+
+<a class="logo" href="/it/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+    
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">Introduzione</a>
+    <ul>
+      <li><a href="/it/bitcoin-per-privati">Privati</a></li>
+      <li><a href="/it/bitcoin-per-imprese">Imprese</a></li>
+      <li><a href="https://developer.bitcoin.org/">Sviluppatori</a></li>
+      <li><a href="/it/come-iniziare">Come iniziare</a></li>
+      <li><a href="/it/come-funziona">Come funziona</a></li>
+      
+      <li><a href="/it/documento-bitcoin">White paper</a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">Risorse</a>
+    <ul>
+      <li><a href="/it/risorse">Risorse</a>
+      </li><li><a href="/it/borsa">Borsa</a></li>
+      <li><a href="/it/comunita">ComunitÃ </a></li>
+      
+      
+      <li><a href="/it/glossario">Glossario</a></li>
+      <li><a href="/it/eventi">Eventi</a></li>
+      
+        <li><a href="/it/scarica">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li><a href="/it/innovazione">Innovazione</a></li>
+  <li><a class="is-expand">Partecipa</a>
+    <ul>
+      <li><a href="/it/sostieni-bitcoin">Sostieni Bitcoin</a>
+      </li><li><a href="/it/compra">Comprare bitcoin</a></li>
+      
+      <li class="active"><a href="/it/sviluppo">Sviluppo</a></li>
+    </ul>
+  </li>
+  <li><a href="/it/faq">FAQ</a></li>
+</ul>
+
+  
+    
+<ul class="lang is-expand">
+  <li><a>Italiano</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/pengembangan">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/desenvolupament">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/udvikling">Dansk</a></li>
+        
+        
+          <li><a href="/de/entwicklung">Deutsch</a></li>
+        
+        
+          <li><a href="/en/development">English</a></li>
+        
+        
+          <li><a href="/es/desarrollo">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/developpement">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/sviluppo" class="active">Italiano</a></li>
+        
+        
+          <li><a href="/hu/fejlesztes">Magyar</a></li>
+        
+        
+          <li><a href="/nl/ontwikkeling">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/rozwoj">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/desenvolvimento">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/dezvoltare">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/razvoj">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/razvoj">Srpski</a></li>
+        
+        
+          <li><a href="/sv/utveckling">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/gelistirme">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/development">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/development">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/development">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/development">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/development">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/development">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/development">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/development">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/development">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/development">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/development">ááááá</a></li>
+        
+        
+          <li><a href="/ja/development">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/development">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/development">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+    
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/pengembangan">Bahasa Indonesia</option>
+            
+            <option value="/ca/desenvolupament">CatalÃ </option>
+            
+            <option value="/da/udvikling">Dansk</option>
+            
+            <option value="/de/entwicklung">Deutsch</option>
+            
+            <option value="/en/development">English</option>
+            
+            <option value="/es/desarrollo">EspaÃ±ol</option>
+            
+            <option value="/fr/developpement">FranÃ§ais</option>
+            
+            <option value="/it/sviluppo" selected="selected">Italiano</option>
+            
+            <option value="/hu/fejlesztes">Magyar</option>
+            
+            <option value="/nl/ontwikkeling">Nederlands</option>
+            
+            <option value="/pl/rozwoj">Polski</option>
+            
+            <option value="/pt_BR/desenvolvimento">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/dezvoltare">RomÃ¢nÄ</option>
+            
+            <option value="/sl/razvoj">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/razvoj">Srpski</option>
+            
+            <option value="/sv/utveckling">Svenska</option>
+            
+            <option value="/tr/gelistirme">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/development">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/development">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/development">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/development">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/development">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/development">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/development">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/development">×¢××¨××ª</option>
+            
+            <option value="/hi/development">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/development">íêµ­ì´</option>
+            
+            <option value="/km/development">ááááá</option>
+            
+            <option value="/ja/development">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/development">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/development">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">it</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+  
+
+<div id="content" class="content">
+    <div class="hero">
+  <div class="container hero-container">
+    <!-- Note: this file is built non-deterministically -->
+    <h1>Sviluppo di Bitcoin</h1>
+    
+    <p class="summary">Trova maggiori informazioni riguardo la specifica, il software e gli sviluppatori attuali.</p>
+  </div>
+</div>
+
+<div class="toc-container">
+  <div class="row toc-row">
+
+    <div id="toc" class="toc">
+      <div>
+        <button class="mob-sidebar-open" hidden="">ALL TOPICS</button>
+        <div class="sidebar">
+          <div class="sidebar-inner">
+            <button class="mob-sidebar-close" hidden=""></button>
+            
+
+<ul>
+  <li><a href="#spec">Documentazione</a></li>
+  <li><a href="#dev-communities">ComunitÃ  di sviluppatori</a></li>
+  <li><a href="#bitcoin-core-contributors">Collaboratori di Bitcoin Core</a></li>
+  <li><a href="#more">Altri progetti open-source</a></li>
+</ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="toccontent">
+      <div class="toccontent-intro" markdown="1">
+  <p>Lo sviluppo di Bitcoin Ã¨ open-source e qualsiasi sviluppatore puÃ² contribuire al progetto. Tutto quello di cui hai bisogno Ã¨ nel <a href="https://github.com/bitcoin/bitcoin">deposito GitHub</a>. Per favore assicurati di leggere e di seguire il processo di sviluppo descritto nel file README, al fine di produrre un codice di buona qualitÃ  e rispettare tutte le linee guida.</p>
+  <p>Le discussioni relative allo sviluppo hanno luogo su GitHub e sulla <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-dev">bitcoin-dev</a> mailing list. Discussioni meno formali sullo sviluppo si trovano su irc.freenode.net # bitcoin-core-dev(<a href="https://webchat.freenode.net/?channels=bitcoin-core-dev">web interface</a>,<a href="http://gnusha.org/bitcoin-core-dev/">logs</a>).</p>
+  <div id="chatbox" class="chatbox"></div>
+
+  
+
+</div>
+
+<div class="toccontent-block boxexpand expanded">
+  <h2 id="spec" class=" anchorAf"><a href="#spec"></a>Documentazione</h2>
+  <p>Se sei interessato a saperne di piÃ¹ sui dettagli tecnici di Bitcoin e all'utilizzo degli strumenti esistenti e gli API, ti suggeriamo di cominciare ad esplorare la  <a href="https://developer.bitcoin.org/">documentazione dello sviluppatore</a>.</p>
+</div>
+
+<div id="devcommunities" class="toccontent-block boxexpand expanded">
+  <h2 id="dev-communities" class=" anchorAf"><a href="#dev-communities"></a>ComunitÃ  di sviluppatori</h2>
+  <p>I seguenti siti e chatroom ospitano discussioni riguardo lo sviluppo di Bitcoin. Si prega di leggere le regole di comportamento prima di inserire messaggi.</p>
+
+  <ul>
+    <li><a href="https://webchat.freenode.net/?channels=bitcoin-core-dev">Canale IRC #bitcoin-core-dev</a> su freenode.</li>
+    <li><a href="https://bitcoin.stackexchange.com/">Bitcoin StackExchange</a></li>
+    <li><a href="https://bitcointalk.org/index.php?board=6.0">Forum di BitcoinTalk - Development &amp; Technical Discussion</a></li>
+  </ul>
+</div>
+
+<div id="contributors" class="toccontent-block boxexpand expanded">
+  <h2 id="bitcoin-core-contributors" class=" anchorAf"><a href="#bitcoin-core-contributors"></a>Collaboratori di Bitcoin Core</h2>
+  <p>(Ordinati per numero di incarichi)</p>
+  <div class="contributor-row">
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/laanwj">Wladimir J. van der Laan</a>
+      </div>
+      <div class="contributions">(7370)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/fanquake">fanquake</a>
+      </div>
+      <div class="contributions">(3679)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/sipa">Pieter Wuille</a>
+      </div>
+      <div class="contributions">(2141)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/hebasto">hebasto</a>
+      </div>
+      <div class="contributions">(1559)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/achow101">achow101</a>
+      </div>
+      <div class="contributions">(1514)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/gavinandresen">gavinandresen</a>
+      </div>
+      <div class="contributions">(1101)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/jnewbery">jnewbery</a>
+      </div>
+      <div class="contributions">(794)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/jonasschnelli">jonasschnelli</a>
+      </div>
+      <div class="contributions">(774)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/practicalswift">practicalswift</a>
+      </div>
+      <div class="contributions">(715)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/jonatack">jonatack</a>
+      </div>
+      <div class="contributions">(685)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/theuni">Cory Fields</a>
+      </div>
+      <div class="contributions">(669)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/ryanofsky">ryanofsky</a>
+      </div>
+      <div class="contributions">(620)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/luke-jr">Luke-Jr</a>
+      </div>
+      <div class="contributions">(522)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/dongcarl">dongcarl</a>
+      </div>
+      <div class="contributions">(509)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/TheBlueMatt">TheBlueMatt</a>
+      </div>
+      <div class="contributions">(504)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/theStack">theStack</a>
+      </div>
+      <div class="contributions">(501)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/glozow">glozow</a>
+      </div>
+      <div class="contributions">(439)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/promag">promag</a>
+      </div>
+      <div class="contributions">(337)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/sdaftuar">sdaftuar</a>
+      </div>
+      <div class="contributions">(335)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/meshcollider">meshcollider</a>
+      </div>
+      <div class="contributions">(317)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/ajtowns">ajtowns</a>
+      </div>
+      <div class="contributions">(272)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/non-github-bitcoin">non-github-bitcoin</a>
+      </div>
+      <div class="contributions">(271)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/gmaxwell">Gregory Maxwell</a>
+      </div>
+      <div class="contributions">(267)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/vasild">vasild</a>
+      </div>
+      <div class="contributions">(261)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/furszy">furszy</a>
+      </div>
+      <div class="contributions">(250)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/instagibbs">instagibbs</a>
+      </div>
+      <div class="contributions">(223)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/jamesob">jamesob</a>
+      </div>
+      <div class="contributions">(218)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/Sjors">Sjors</a>
+      </div>
+      <div class="contributions">(217)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/morcos">morcos</a>
+      </div>
+      <div class="contributions">(209)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/fjahr">fjahr</a>
+      </div>
+      <div class="contributions">(165)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/kallewoof">kallewoof</a>
+      </div>
+      <div class="contributions">(165)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/amitiuttarwar">amitiuttarwar</a>
+      </div>
+      <div class="contributions">(164)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/Empact">Empact</a>
+      </div>
+      <div class="contributions">(150)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/brunoerg">brunoerg</a>
+      </div>
+      <div class="contributions">(150)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/mzumsande">mzumsande</a>
+      </div>
+      <div class="contributions">(147)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/darosior">darosior</a>
+      </div>
+      <div class="contributions">(145)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/jtimon">jtimon</a>
+      </div>
+      <div class="contributions">(141)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/dergoegge">dergoegge</a>
+      </div>
+      <div class="contributions">(115)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/paveljanik">paveljanik</a>
+      </div>
+      <div class="contributions">(109)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/TheCharlatan">TheCharlatan</a>
+      </div>
+      <div class="contributions">(107)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/ken2812221">ken2812221</a>
+      </div>
+      <div class="contributions">(105)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/petertodd">Peter Todd</a>
+      </div>
+      <div class="contributions">(103)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/pstratem">pstratem</a>
+      </div>
+      <div class="contributions">(87)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/stickies-v">stickies-v</a>
+      </div>
+      <div class="contributions">(76)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/cozz">cozz</a>
+      </div>
+      <div class="contributions">(70)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/JeremyRubin">JeremyRubin</a>
+      </div>
+      <div class="contributions">(60)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/domob1812">domob1812</a>
+      </div>
+      <div class="contributions">(58)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/S3RK">S3RK</a>
+      </div>
+      <div class="contributions">(58)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/josibake">josibake</a>
+      </div>
+      <div class="contributions">(57)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/jimpo">jimpo</a>
+      </div>
+      <div class="contributions">(50)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/stratospher">stratospher</a>
+      </div>
+      <div class="contributions">(50)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/martinus">martinus</a>
+      </div>
+      <div class="contributions">(50)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/w0xlt">w0xlt</a>
+      </div>
+      <div class="contributions">(49)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/pinheadmz">pinheadmz</a>
+      </div>
+      <div class="contributions">(47)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/sipsorcery">sipsorcery</a>
+      </div>
+      <div class="contributions">(46)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/naumenkogs">naumenkogs</a>
+      </div>
+      <div class="contributions">(42)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/kiminuo">kiminuo</a>
+      </div>
+      <div class="contributions">(40)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/murchandamus">murchandamus</a>
+      </div>
+      <div class="contributions">(39)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/andrewtoth">andrewtoth</a>
+      </div>
+      <div class="contributions">(37)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/rebroad">rebroad</a>
+      </div>
+      <div class="contributions">(36)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/jarolrod">jarolrod</a>
+      </div>
+      <div class="contributions">(36)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/NicolasDorier">NicolasDorier</a>
+      </div>
+      <div class="contributions">(35)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/aureleoules">aureleoules</a>
+      </div>
+      <div class="contributions">(35)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/ismaelsadeeq">ismaelsadeeq</a>
+      </div>
+      <div class="contributions">(34)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/muggenhor">muggenhor</a>
+      </div>
+      <div class="contributions">(34)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/btcdrak">btcdrak</a>
+      </div>
+      <div class="contributions">(32)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/CodeShark">Eric Lombrozo</a>
+      </div>
+      <div class="contributions">(32)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/dooglus">dooglus</a>
+      </div>
+      <div class="contributions">(31)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/jl2012">jl2012</a>
+      </div>
+      <div class="contributions">(30)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/0xB10C">0xB10C</a>
+      </div>
+      <div class="contributions">(28)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/willcl-ark">willcl-ark</a>
+      </div>
+      <div class="contributions">(28)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/gwillen">gwillen</a>
+      </div>
+      <div class="contributions">(27)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/dhruv">dhruv</a>
+      </div>
+      <div class="contributions">(27)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/kazcw">kazcw</a>
+      </div>
+      <div class="contributions">(25)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/mjdietzx">mjdietzx</a>
+      </div>
+      <div class="contributions">(23)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/troygiorshev">troygiorshev</a>
+      </div>
+      <div class="contributions">(22)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/kristapsk">kristapsk</a>
+      </div>
+      <div class="contributions">(22)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/dexX7">dexX7</a>
+      </div>
+      <div class="contributions">(22)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/eklitzke">eklitzke</a>
+      </div>
+      <div class="contributions">(22)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/ishaanam">ishaanam</a>
+      </div>
+      <div class="contributions">(21)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/kevkevinpal">kevkevinpal</a>
+      </div>
+      <div class="contributions">(21)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/john-moffett">john-moffett</a>
+      </div>
+      <div class="contributions">(21)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/mruddy">mruddy</a>
+      </div>
+      <div class="contributions">(20)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/icota">icota</a>
+      </div>
+      <div class="contributions">(20)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/dgenr8">dgenr8</a>
+      </div>
+      <div class="contributions">(19)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/wtogami">wtogami</a>
+      </div>
+      <div class="contributions">(19)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/AkioNak">AkioNak</a>
+      </div>
+      <div class="contributions">(17)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/mrbandrews">mrbandrews</a>
+      </div>
+      <div class="contributions">(17)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/harding">harding</a>
+      </div>
+      <div class="contributions">(17)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/sdkfjlsfjlskdfjlsdjflsjf">sdkfjlsfjlskdfjlsdjflsjf</a>
+      </div>
+      <div class="contributions">(16)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/super3">super3</a>
+      </div>
+      <div class="contributions">(16)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/prusnak">prusnak</a>
+      </div>
+      <div class="contributions">(16)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/benthecarman">benthecarman</a>
+      </div>
+      <div class="contributions">(16)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/danra">danra</a>
+      </div>
+      <div class="contributions">(16)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/klementtan">klementtan</a>
+      </div>
+      <div class="contributions">(16)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/emilengler">emilengler</a>
+      </div>
+      <div class="contributions">(16)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/maaku">maaku</a>
+      </div>
+      <div class="contributions">(16)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/elichai">elichai</a>
+      </div>
+      <div class="contributions">(15)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/l2a5b1">l2a5b1</a>
+      </div>
+      <div class="contributions">(15)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/bitcoin-core-merge-script">bitcoin-core-merge-script</a>
+      </div>
+      <div class="contributions">(15)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/jb55">jb55</a>
+      </div>
+      <div class="contributions">(15)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/Bushstar">Bushstar</a>
+      </div>
+      <div class="contributions">(15)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/kdomanski">kdomanski</a>
+      </div>
+      <div class="contributions">(15)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/skeees">skeees</a>
+      </div>
+      <div class="contributions">(15)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/casey">casey</a>
+      </div>
+      <div class="contributions">(15)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/scravy">scravy</a>
+      </div>
+      <div class="contributions">(15)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/adamjonas">adamjonas</a>
+      </div>
+      <div class="contributions">(14)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/brakmic">brakmic</a>
+      </div>
+      <div class="contributions">(14)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/jimmysong">jimmysong</a>
+      </div>
+      <div class="contributions">(14)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/murrayn">murrayn</a>
+      </div>
+      <div class="contributions">(14)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/n-thumann">n-thumann</a>
+      </div>
+      <div class="contributions">(14)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/LarryRuane">LarryRuane</a>
+      </div>
+      <div class="contributions">(13)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/jkczyz">jkczyz</a>
+      </div>
+      <div class="contributions">(13)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/ENikS">ENikS</a>
+      </div>
+      <div class="contributions">(13)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/str4d">str4d</a>
+      </div>
+      <div class="contributions">(13)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/tjps">tjps</a>
+      </div>
+      <div class="contributions">(12)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/sr-gi">sr-gi</a>
+      </div>
+      <div class="contributions">(12)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/RandyMcMillan">RandyMcMillan</a>
+      </div>
+      <div class="contributions">(12)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/jachiang">jachiang</a>
+      </div>
+      <div class="contributions">(12)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/ch4ot1c">ch4ot1c</a>
+      </div>
+      <div class="contributions">(11)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/lsilva01">lsilva01</a>
+      </div>
+      <div class="contributions">(11)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/nomnombtc">nomnombtc</a>
+      </div>
+      <div class="contributions">(11)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/dcousens">dcousens</a>
+      </div>
+      <div class="contributions">(11)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/Kvaciral">Kvaciral</a>
+      </div>
+      <div class="contributions">(10)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/JeremyRand">JeremyRand</a>
+      </div>
+      <div class="contributions">(10)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/shaavan">shaavan</a>
+      </div>
+      <div class="contributions">(10)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/lucash-dev">lucash-dev</a>
+      </div>
+      <div class="contributions">(10)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/EthanHeilman">EthanHeilman</a>
+      </div>
+      <div class="contributions">(10)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/merland">merland</a>
+      </div>
+      <div class="contributions">(10)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/pablomartin4btc">pablomartin4btc</a>
+      </div>
+      <div class="contributions">(10)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/real-or-random">real-or-random</a>
+      </div>
+      <div class="contributions">(10)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/wizeman">wizeman</a>
+      </div>
+      <div class="contributions">(10)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/codler">codler</a>
+      </div>
+      <div class="contributions">(10)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/mess110">mess110</a>
+      </div>
+      <div class="contributions">(10)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/maflcko">maflcko</a>
+      </div>
+      <div class="contributions">(9)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/rodentrabies">rodentrabies</a>
+      </div>
+      <div class="contributions">(9)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/Christewart">Christewart</a>
+      </div>
+      <div class="contributions">(9)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/roques">roques</a>
+      </div>
+      <div class="contributions">(9)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/conscott">conscott</a>
+      </div>
+      <div class="contributions">(9)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/jlopp">jlopp</a>
+      </div>
+      <div class="contributions">(9)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/jmcorgan">jmcorgan</a>
+      </div>
+      <div class="contributions">(9)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/recursive-rat4">recursive-rat4</a>
+      </div>
+      <div class="contributions">(9)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/sinetek">sinetek</a>
+      </div>
+      <div class="contributions">(9)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/jgarzik">jgarzik</a>
+      </div>
+      <div class="contributions">(8)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/PastaPastaPasta">PastaPastaPasta</a>
+      </div>
+      <div class="contributions">(8)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/Crypt-iQ">Crypt-iQ</a>
+      </div>
+      <div class="contributions">(8)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/joshtriplett">joshtriplett</a>
+      </div>
+      <div class="contributions">(8)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/ajweiss">ajweiss</a>
+      </div>
+      <div class="contributions">(8)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/schildbach">Andreas Schildbach</a>
+      </div>
+      <div class="contributions">(8)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/marcoagner">marcoagner</a>
+      </div>
+      <div class="contributions">(8)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/jordanlewis">jordanlewis</a>
+      </div>
+      <div class="contributions">(8)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/isle2983">isle2983</a>
+      </div>
+      <div class="contributions">(8)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/narula">narula</a>
+      </div>
+      <div class="contributions">(8)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/stevenroose">stevenroose</a>
+      </div>
+      <div class="contributions">(8)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/PierreRochard">PierreRochard</a>
+      </div>
+      <div class="contributions">(8)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/kouloumos">kouloumos</a>
+      </div>
+      <div class="contributions">(7)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/runeksvendsen">runeksvendsen</a>
+      </div>
+      <div class="contributions">(7)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/sandakersmann">sandakersmann</a>
+      </div>
+      <div class="contributions">(7)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/sje397">sje397</a>
+      </div>
+      <div class="contributions">(7)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/droark">droark</a>
+      </div>
+      <div class="contributions">(7)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/dougEfresh">dougEfresh</a>
+      </div>
+      <div class="contributions">(7)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/UdjinM6">UdjinM6</a>
+      </div>
+      <div class="contributions">(7)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/celil-kj">celil-kj</a>
+      </div>
+      <div class="contributions">(7)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/fyquah">fyquah</a>
+      </div>
+      <div class="contributions">(7)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/freewil">freewil</a>
+      </div>
+      <div class="contributions">(7)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/amadeuszpawlik">amadeuszpawlik</a>
+      </div>
+      <div class="contributions">(7)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/ariard">ariard</a>
+      </div>
+      <div class="contributions">(7)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/forrestv">forrestv</a>
+      </div>
+      <div class="contributions">(7)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/rex4539">rex4539</a>
+      </div>
+      <div class="contributions">(7)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/BrandonOdiwuor">BrandonOdiwuor</a>
+      </div>
+      <div class="contributions">(7)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/Zero-1729">Zero-1729</a>
+      </div>
+      <div class="contributions">(6)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/JoelKatz">JoelKatz</a>
+      </div>
+      <div class="contributions">(6)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/donaloconnor">donaloconnor</a>
+      </div>
+      <div class="contributions">(6)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/jrmithdobbs">jrmithdobbs</a>
+      </div>
+      <div class="contributions">(6)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/setpill">setpill</a>
+      </div>
+      <div class="contributions">(6)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/randy-waterhouse">randy-waterhouse</a>
+      </div>
+      <div class="contributions">(6)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/DrahtBot">DrahtBot</a>
+      </div>
+      <div class="contributions">(6)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/cdecker">cdecker</a>
+      </div>
+      <div class="contributions">(6)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/dertin">dertin</a>
+      </div>
+      <div class="contributions">(6)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/Matoking">Matoking</a>
+      </div>
+      <div class="contributions">(6)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/MarnixCroes">MarnixCroes</a>
+      </div>
+      <div class="contributions">(6)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/ashleyholman">ashleyholman</a>
+      </div>
+      <div class="contributions">(6)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/ayush933">ayush933</a>
+      </div>
+      <div class="contributions">(6)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/mgiuca">mgiuca</a>
+      </div>
+      <div class="contributions">(6)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/OttoAllmendinger">OttoAllmendinger</a>
+      </div>
+      <div class="contributions">(6)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/vegard">vegard</a>
+      </div>
+      <div class="contributions">(6)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/zw">zw</a>
+      </div>
+      <div class="contributions">(6)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/fsb4000">fsb4000</a>
+      </div>
+      <div class="contributions">(6)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/glowang">glowang</a>
+      </div>
+      <div class="contributions">(6)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/p2k">p2k</a>
+      </div>
+      <div class="contributions">(6)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/alexanderkjeldaas">alexanderkjeldaas</a>
+      </div>
+      <div class="contributions">(5)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/robot-visions">robot-visions</a>
+      </div>
+      <div class="contributions">(5)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/federicobond">federicobond</a>
+      </div>
+      <div class="contributions">(5)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/gkrizek">gkrizek</a>
+      </div>
+      <div class="contributions">(5)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/rdponticelli">rdponticelli</a>
+      </div>
+      <div class="contributions">(5)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/hkjn">hkjn</a>
+      </div>
+      <div class="contributions">(5)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/sanket1729">sanket1729</a>
+      </div>
+      <div class="contributions">(5)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/jameshilliard">jameshilliard</a>
+      </div>
+      <div class="contributions">(5)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/ptschip">ptschip</a>
+      </div>
+      <div class="contributions">(5)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/jeffrade">jeffrade</a>
+      </div>
+      <div class="contributions">(5)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/gubatron">gubatron</a>
+      </div>
+      <div class="contributions">(5)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/greenaddress">greenaddress</a>
+      </div>
+      <div class="contributions">(5)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/maraoz">maraoz</a>
+      </div>
+      <div class="contributions">(5)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/m3dwards">m3dwards</a>
+      </div>
+      <div class="contributions">(5)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/mndrix">mndrix</a>
+      </div>
+      <div class="contributions">(5)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/robbak">robbak</a>
+      </div>
+      <div class="contributions">(5)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/r000n">r000n</a>
+      </div>
+      <div class="contributions">(5)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/romanz">romanz</a>
+      </div>
+      <div class="contributions">(5)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/roybadami">roybadami</a>
+      </div>
+      <div class="contributions">(5)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/vinniefalco">vinniefalco</a>
+      </div>
+      <div class="contributions">(5)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/lemzwerg">lemzwerg</a>
+      </div>
+      <div class="contributions">(5)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/whitj00">Whit Jack</a>
+      </div>
+      <div class="contributions">(5)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/accraze">accraze</a>
+      </div>
+      <div class="contributions">(5)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/kashifs">kashifs</a>
+      </div>
+      <div class="contributions">(5)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/fcicq">fcicq</a>
+      </div>
+      <div class="contributions">(5)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/stackman27">stackman27</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/paraipan">paraipan</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/yusufsahinhamza">yusufsahinhamza</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/chinggg">chinggg</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/arowser">arowser</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/ezegom">ezegom</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/fivepiece">fivepiece</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/flack">flack</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/globalcitizen">globalcitizen</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/grimd34th">grimd34th</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/t-bast">t-bast</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/yancyribbens">yancyribbens</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/rajarshimaitra">rajarshimaitra</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/suriyaa">suriyaa</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/keystrike">keystrike</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/JBaczuk">JBaczuk</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/Michagogo">Michagogo</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/apoelstra">apoelstra</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/brandondahler">brandondahler</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/kcalvinalvin">kcalvinalvin</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/CryptAxe">CryptAxe</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/esotericnonsense">esotericnonsense</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/daniel-s-ingram">daniel-s-ingram</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/DomT4">DomT4</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/robot-dreams">robot-dreams</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/EricJ2190">EricJ2190</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/4tar">4tar</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/jayschwa">jayschwa</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/JustinTArthur">JustinTArthur</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/TheQuantumPhysicist">TheQuantumPhysicist</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/miles170">miles170</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/MitchellCash">MitchellCash</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/randolf">randolf</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/guggero">guggero</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/mibe">mibe</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/kostaz">kostaz</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/LongShao007">LongShao007</a>
+      </div>
+      <div class="contributions">(4)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/spencerlievens">spencerlievens</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/ShubhamPalriwala">ShubhamPalriwala</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/shaulkf">shaulkf</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/SergioDemianLerner">SergioDemianLerner</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/RHavar">RHavar</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/roconnor-blockstream">roconnor-blockstream</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/richardkiss">richardkiss</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/psancheti110">psancheti110</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/mikehearn">mikehearn</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/Mirobit">Mirobit</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/HashUnlimited">HashUnlimited</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/Emzy">Emzy</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/tholenst">tholenst</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/afk11">afk11</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/Tyler-Hardin">Tyler-Hardin</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/kdmukai">kdmukai</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/lpescher">lpescher</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/mryandao">mryandao</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/nijynot">nijynot</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/tdb3">tdb3</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/windsok">windsok</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/al42and">al42and</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/BlockMechanic">BlockMechanic</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/carnhofdaki">carnhofdaki</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/eric-likes-cake">eric-likes-cake</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/agroce">agroce</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/AmirAbrams">AmirAbrams</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/arnabsen1729">arnabsen1729</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/10xcryptodev">10xcryptodev</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/bitcoinhodler">bitcoinhodler</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/bliotti">bliotti</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/davecgh">davecgh</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/DesWurstes">DesWurstes</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/dunxen">dunxen</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/BitonicEelis">BitonicEelis</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/ellemouton">ellemouton</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/ers35">ers35</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/Eunoia1729">Eunoia1729</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/fametrano">fametrano</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/Flowdalic">Flowdalic</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/ChoHag">ChoHag</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/michaelfolkson">michaelfolkson</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/bitstein">bitstein</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/marcinja">marcinja</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/lucayepa">lucayepa</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/ldenman">ldenman</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/Krellan">Krellan</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/jonasnick">jonasnick</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/jonls">jonls</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/jbampton">jbampton</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/jrawsthorne">jrawsthorne</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/isghe">isghe</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/bubelov">bubelov</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/hernanmarino">hernanmarino</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/ian-kelling">ian-kelling</a>
+      </div>
+      <div class="contributions">(3)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/davidgumberg">davidgumberg</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/DariusParvin">DariusParvin</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/Danny-Scott">Danny-Scott</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/danielabrozzoni">danielabrozzoni</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/bytemaster">bytemaster</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/dangershony">dangershony</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/danben">danben</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/meeDamian">meeDamian</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/1440000bytes">1440000bytes</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/dajohi">dajohi</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/enmaku">enmaku</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/davereikher">davereikher</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/spiechu">spiechu</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/xslidian">xslidian</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/dimitris-t">dimitris-t</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/gtkiller">gtkiller</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/dgpv">dgpv</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/dlitz">dlitz</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/nobled">nobled</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/Mischi">Mischi</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/1Il1">1Il1</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/axvr">axvr</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/alexwaters">alexwaters</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/leishman">leishman</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/krab">krab</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/AliceWonderMiscreations">AliceWonderMiscreations</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/flipbitsnotburgers">flipbitsnotburgers</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/alonmuroch">alonmuroch</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/anditto">anditto</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/AngusP">AngusP</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/bvbfan">bvbfan</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/alecalve">alecalve</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/bencxr">bencxr</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/Brotcrunsher">Brotcrunsher</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/kanzure">kanzure</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/cbeams">cbeams</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/chrisgavin">chrisgavin</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/seejee">seejee</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/cdhowie">cdhowie</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/GChuf">GChuf</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+    <div class="contributor">
+      <div>
+        <a class="contributor-name" href="https://github.com/colindean">colindean</a>
+      </div>
+      <div class="contributions">(2)</div>
+    </div>
+    
+  </div>
+</div>
+
+<div class="toccontent-block boxexpand expanded">
+<h2 id="more" class=" anchorAf"><a href="#more"></a>Altri progetti open-source</h2>
+
+<p>
+
+Want to contribute to a different project?
+</p>
+
+<ul class="devprojectlist">
+  <li><a href="https://github.com/goatpig/BitcoinArmory">Armory</a> - A wallet with enhanced security features, written in C++.</li>
+  <li><a href="https://github.com/luke-jr/bfgminer">BFGMiner</a> - A modular miner, written in C.</li>
+  <li><a href="https://github.com/bitcoin-wallet/bitcoin-wallet">Bitcoin Wallet</a> - A SPV wallet for Android, written in Java.</li>
+  <li><a href="https://github.com/bitcoinj/bitcoinj">bitcoinj</a> - A library for SPV wallets, written in Java.</li>
+  <li><a href="https://github.com/btcsuite/btcd">btcd</a> - A full node, written in Go.</li>
+  <li><a href="https://github.com/btcpayserver/btcpayserver">BTCPay Server</a> - A cross platform, self-hosted server compatible with Bitpay API, written in C#.</li>
+  <li><a href="https://github.com/btcsuite/btcwallet">btcwallet</a> - A hierarchical deterministic wallet daemon, written in Go.</li>
+  <li><a href="https://bitbucket.org/ckolivas/ckpool">ckpool</a> - A fast mining pool server application, written in C.</li>
+  <li><a href="https://github.com/spesmilo/electrum">Electrum</a> - A fast server-trusting wallet, written in Python.</li>
+  <li><a href="https://github.com/luke-jr/eloipool">Eloipool</a> - A fast mining pool server application, written in Python.</li>
+  <li><a href="https://github.com/haskoin/haskoin">Haskoin</a> - An implementation of the Bitcoin protocol, written in Haskell.</li>
+  <li><a href="https://github.com/libbitcoin/libbitcoin">Libbitcoin</a> - A cross-platform development toolkit, written in C++.</li>
+  <li><a href="https://github.com/libbitcoin/libbitcoin-server/">Libbitcoin Server</a> - A full node and query server, built on libbitcoin.</li>
+  <li><a href="https://github.com/libbitcoin/libbitcoin-explorer">Libbitcoin Explorer</a> - A command line tool, built on libbitcoin.</li>
+  <li><a href="https://github.com/bitcoin/libblkmaker">Libblkmaker</a> - A client library for the getblocktemplate mining protocol, written in C.</li>
+  <li><a href="https://github.com/MetacoSA/NBitcoin">NBitcoin</a> - A cross-platform library, written in C#.</li>
+  <li><a href="https://github.com/jgarzik/picocoin">picocoin</a> - A tiny library with lightweight client and utilities, written in C.</li>
+  <li><a href="https://github.com/petertodd/python-bitcoinlib">python-bitcoinlib</a> - A library for structures and protocols, written in Python.</li>
+  <li><a href="https://github.com/luke-jr/python-blkmaker">Python Blkmaker</a> - A client library for the getblocktemplate mining protocol, written in Python.</li>
+  <li class="more"><a onclick="librariesShow(event)" ontouchstart="librariesShow(event);" class="link-js">Mostra maggiori dettagli...</a></li>
+</ul>
+</div>
+
+    </div>
+  </div>
+</div>
+
+</div>
+
+  <div class="footer">
+    <div class="container">
+      
+
+<a class="logo-footer" href="/it/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a>
+      
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Sostieni Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Donazioni</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">Introduzione:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/it/bitcoin-per-privati">Privati</a>
+        </li>
+        <li>
+          <a href="/it/bitcoin-per-imprese">Imprese</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">Sviluppatori</a>
+        </li>
+        <li>
+          <a href="/it/come-iniziare">Come iniziare</a>
+        </li>
+        <li>
+          <a href="/it/come-funziona">Come funziona</a>
+        </li>
+        <li>
+          <a href="/it/da-sapere">Da sapere</a>
+        </li>
+        
+        <li>
+          <a href="/it/documento-bitcoin">White paper</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">Risorse:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/it/risorse">Risorse</a>
+        </li><li>
+          <a href="/it/borsa">Borsa</a>
+        </li>
+        <li>
+          <a href="/it/comunita">ComunitÃ </a>
+        </li>
+        <li>
+          <a href="/it/glossario">Glossario
+          </a>
+        </li>
+        <li>
+          <a href="/it/eventi">Eventi</a>
+        </li>
+        
+          <li>
+            <a href="/it/scarica">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">Partecipa:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/it/sostieni-bitcoin">Sostieni Bitcoin</a>
+        
+        
+        </li><li class="active">
+          <a href="/it/sviluppo">Sviluppo</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Altro:</p>
+      
+      <a href="/it/note-legali">Note legali</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/it/stampa">Stampa</a>
+      <a href="/it/chi-siamo">A proposito di bitcoin.org</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 Rilasciato sotto <a href="http://opensource.org/licenses/mit-license.php" target="_blank">licenza MIT</a>
+        <br> Bitcoin Core pages on Bitcoin.org are
+        <a href="/en/bitcoin-core/about-site">maintained separately</a> from the rest of the site.
+      </div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">Stato della Rete</a>
+        
+<ul class="lang is-expand">
+  <li><a>Italiano</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/pengembangan">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/desenvolupament">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/udvikling">Dansk</a></li>
+        
+        
+          <li><a href="/de/entwicklung">Deutsch</a></li>
+        
+        
+          <li><a href="/en/development">English</a></li>
+        
+        
+          <li><a href="/es/desarrollo">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/developpement">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/sviluppo" class="active">Italiano</a></li>
+        
+        
+          <li><a href="/hu/fejlesztes">Magyar</a></li>
+        
+        
+          <li><a href="/nl/ontwikkeling">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/rozwoj">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/desenvolvimento">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/dezvoltare">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/razvoj">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/razvoj">Srpski</a></li>
+        
+        
+          <li><a href="/sv/utveckling">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/gelistirme">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/development">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/development">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/development">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/development">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/development">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/development">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/development">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/development">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/development">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/development">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/development">ááááá</a></li>
+        
+        
+          <li><a href="/ja/development">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/development">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/development">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/pengembangan">Bahasa Indonesia</option>
+              
+              <option value="/ca/desenvolupament">CatalÃ </option>
+              
+              <option value="/da/udvikling">Dansk</option>
+              
+              <option value="/de/entwicklung">Deutsch</option>
+              
+              <option value="/en/development">English</option>
+              
+              <option value="/es/desarrollo">EspaÃ±ol</option>
+              
+              <option value="/fr/developpement">FranÃ§ais</option>
+              
+              <option value="/it/sviluppo" selected="selected">Italiano</option>
+              
+              <option value="/hu/fejlesztes">Magyar</option>
+              
+              <option value="/nl/ontwikkeling">Nederlands</option>
+              
+              <option value="/pl/rozwoj">Polski</option>
+              
+              <option value="/pt_BR/desenvolvimento">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/dezvoltare">RomÃ¢nÄ</option>
+              
+              <option value="/sl/razvoj">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/razvoj">Srpski</option>
+              
+              <option value="/sv/utveckling">Svenska</option>
+              
+              <option value="/tr/gelistirme">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/development">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/development">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/development">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/development">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/development">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/development">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/development">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/development">×¢××¨××ª</option>
+              
+              <option value="/hi/development">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/development">íêµ­ì´</option>
+              
+              <option value="/km/development">ááááá</option>
+              
+              <option value="/ja/development">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/development">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/development">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">it</span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+
+
+  <script src="/js/bitcoin-core.js"></script>
+
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+
+
+  <script>updateToc();</script> <script>accordion();</script> <script>onScrollButton();</script> <script>boxShow();</script>
+
+
+
+
+
+</body></html>
