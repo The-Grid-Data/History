@@ -1,0 +1,12 @@
+{
+    "target_url": "https://solana.com/telegram",
+    "domains": {
+        "resolve": [
+            "tg://resolve?domain=solana"
+        ],
+        "telegram.org": [
+            "https://telegram.org/",
+            "https://telegram.org/dl?tme=2370a1ca5afe97cac9_10517877992767475437"
+        ]
+    }
+}
