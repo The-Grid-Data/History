@@ -1,0 +1,338 @@
+[![Hivemapper
+Logo](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjE1IiBoZWlnaHQ9IjMyIiB2aWV3Qm94PSIwIDAgMjE1IDMyIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNNTYuNzExMiAwLjgyOTEwMkM1NS44ODAzIDAuODI5MTAyIDU1LjIwMzkgMS4wOTE4MiA1NC42ODIgMS42MTYyQzU0LjE2MDEgMi4xNDE0MyA1My44OTk0IDIuNzkyMzcgNTMuODk5NCAzLjU2ODZDNTMuODk5NCA0LjM0NDgzIDU0LjE2MDEgNC45OTU1NiA1NC42ODIgNS41MjAxNUM1NS4yMDM5IDYuMDQ0NzQgNTUuODgwMyA2LjMwNzI0IDU2LjcxMTIgNi4zMDcyNEM1Ny41NDE2IDYuMzA3MjQgNTguMjE4NiA2LjAzOTYyIDU4LjczOTkgNS41MDQxN0M1OS4yNjE4IDQuOTY5MzUgNTkuNTIzMSA0LjI5MjQxIDU5LjUyMzEgMy40NzM3OEM1OS41MjMxIDIuNzE4MDEgNTkuMjYxOCAyLjA4ODM3IDU4LjczOTkgMS41ODQ4OEM1OC4yMTg2IDEuMDgxMzggNTcuNTQxNiAwLjgyOTEwMiA1Ni43MTEyIDAuODI5MTAyWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTU4Ljk3MjIgOC42Njg0Nkg1NC40NTAyVjI1LjYwNTdINTguOTcyMlY4LjY2ODQ2WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTY5Ljg0MTYgMjAuMTkxMUw2NS41MjI0IDguNjY4NDZINjAuODU2TDY3LjQwNjYgMjUuNjA1N0g3Mi4wNzM3TDc4LjY1MzMgOC42Njg0Nkg3NC4zMDUzTDY5Ljg0MTYgMjAuMTkxMVoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0xMTguNzcgOC40MTY5OUMxMTcuNjExIDguNDE2OTkgMTE2LjU0MyA4LjY1ODQxIDExNS41NjcgOS4xNDE0NUMxMTQuNTkxIDkuNjI0MjcgMTEzLjc4NCAxMC4zMDU5IDExMy4xNDYgMTEuMTg3MkMxMTIuNjA1IDEwLjI4NTIgMTExLjg5IDkuNTk3NDIgMTExLjAwMiA5LjEyNTQ2QzExMC4xMTIgOC42NTMyOSAxMDkuMTE3IDguNDE2OTkgMTA4LjAxNiA4LjQxNjk5QzEwNy4wMTEgOC40MTY5OSAxMDYuMDg5IDguNjA1OTkgMTA1LjI0OCA4Ljk4Mzc3QzEwNC40MDcgOS4zNjE3NiAxMDMuNjk3IDkuOTA3NDUgMTAzLjExNyAxMC42MjA4VjguNjY4NjNIOTguNzk4M1YyNS42MDU5SDEwMy4zMlYxNy4xMDZDMTAzLjMyIDE1LjYzNzIgMTAzLjYyOSAxNC41Mjk5IDEwNC4yNDggMTMuNzg0M0MxMDQuODY2IDEzLjA0MDEgMTA1LjY5NyAxMi42Njc0IDEwNi43NDEgMTIuNjY3NEMxMDguNzEyIDEyLjY2NzQgMTA5LjY5NyAxNC4wMDAyIDEwOS42OTcgMTYuNjY1M1YyNS42MDU5SDExNC4yMTlWMTcuMTA2QzExNC4yMTkgMTUuNjM3MiAxMTQuNTI4IDE0LjUyOTkgMTE1LjE0NyAxMy43ODQzQzExNS43NjUgMTMuMDQwMSAxMTYuNjA1IDEyLjY2NzQgMTE3LjY2OCAxMi42Njc0QzExOC42MTUgMTIuNjY3NCAxMTkuMzQ0IDEyLjk5NzkgMTE5Ljg1NyAxMy42NTg4QzEyMC4zNjkgMTQuMzE5OCAxMjAuNjI1IDE1LjMyMjEgMTIwLjYyNSAxNi42NjUzVjI1LjYwNTlIMTI1LjE0N1YxNS45MDk1QzEyNS4xNDcgMTMuNDEyMyAxMjQuNTcyIDExLjUzOTQgMTIzLjQyMiAxMC4yOTA2QzEyMi4yNzIgOS4wNDE1MSAxMjAuNzIxIDguNDE2OTkgMTE4Ljc3IDguNDE2OTlaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTgwLjI2MyA5LjUwMzI1QzE3OS4wNzQgOC43Nzg3OSAxNzcuNzU2IDguNDE2OTkgMTc2LjMwNiA4LjQxNjk5QzE3NC4xNjEgOC40MTY5OSAxNzIuNTI5IDkuMTUxNjcgMTcxLjQwOCAxMC42MjA4VjguNjY4NjNIMTY3LjA4OVYzMS4zNjI3TDE3MS42MTEgMzAuMTQ5VjIzLjgxMTRDMTcyLjc1MSAyNS4xNzYxIDE3NC4zMTYgMjUuODU3OCAxNzYuMzA2IDI1Ljg1NzhDMTc3Ljc1NiAyNS44NTc4IDE3OS4wNzQgMjUuNDk1OCAxODAuMjYzIDI0Ljc3MTVDMTgxLjQ1MiAyNC4wNDc3IDE4Mi4zODMgMjMuMDI5OCAxODMuMDYgMjEuNzE4MkMxODMuNzM2IDIwLjQwNjUgMTg0LjA3NSAxOC44Nzk2IDE4NC4wNzUgMTcuMTM3M0MxODQuMDc1IDE1LjM5NTggMTgzLjczNiAxMy44Njg5IDE4My4wNiAxMi41NTY2QzE4Mi4zODMgMTEuMjQ1MyAxODEuNDUyIDEwLjIyNzEgMTgwLjI2MyA5LjUwMzI1Wk0xNzguMzc5IDIwLjU1MzFDMTc3LjYzNSAyMS40MDMgMTc2LjY4MyAyMS44MjgzIDE3NS41MjQgMjEuODI4M0MxNzQuMzY0IDIxLjgyODMgMTczLjQxMyAyMS40MDMgMTcyLjY2OSAyMC41NTMxQzE3MS45MjUgMTkuNzAzMSAxNzEuNTUzIDE4LjU2NTEgMTcxLjU1MyAxNy4xMzczQzE3MS41NTMgMTUuNzEwMyAxNzEuOTI1IDE0LjU3MTQgMTcyLjY2OSAxMy43MjE1QzE3My40MTMgMTIuODcxNyAxNzQuMzY0IDEyLjQ0NjQgMTc1LjUyNCAxMi40NDY0QzE3Ni42ODMgMTIuNDQ2NCAxNzcuNjM1IDEyLjg3MTcgMTc4LjM3OSAxMy43MjE1QzE3OS4xMjMgMTQuNTcxNCAxNzkuNDk1IDE1LjcxMDMgMTc5LjQ5NSAxNy4xMzczQzE3OS40OTUgMTguNTY1MSAxNzkuMTIzIDE5LjcwMzEgMTc4LjM3OSAyMC41NTMxWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTIxMS41MjQgOS4wNDY2M0MyMTAuNjA2IDkuNDY2ODEgMjA5Ljg3NiAxMC4wODU2IDIwOS4zMzUgMTAuOTA0VjguNjY4NjNIMjA1LjAxNlYyNS42MDU5SDIwOS41MzhWMTcuNjA5NEMyMDkuNTM4IDE2LjAzNTcgMjA5LjkwNSAxNC44NTUyIDIxMC42MzkgMTQuMDY4MkMyMTEuMzczIDEzLjI4MDggMjEyLjM4OCAxMi44ODc3IDIxMy42ODMgMTIuODg3N0MyMTMuODU3IDEyLjg4NzcgMjE0LjE5NSAxMi45MDg4IDIxNC42OTggMTIuOTUwNFY4LjQxNjk5QzIxMy40OTkgOC40MTY5OSAyMTIuNDQxIDguNjI3MDggMjExLjUyNCA5LjA0NjYzWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTE2MC4yNjMgOS41MDMyNUMxNTkuMDc0IDguNzc4NzkgMTU3Ljc1NiA4LjQxNjk5IDE1Ni4zMDYgOC40MTY5OUMxNTQuMTYxIDguNDE2OTkgMTUyLjUyOSA5LjE1MTY3IDE1MS40MDggMTAuNjIwOFY4LjY2ODYzSDE0Ny4wODlWMzEuMzYyN0wxNTEuNjExIDMwLjE0OVYyMy44MTE0QzE1Mi43NTEgMjUuMTc2MSAxNTQuMzE2IDI1Ljg1NzggMTU2LjMwNiAyNS44NTc4QzE1Ny43NTYgMjUuODU3OCAxNTkuMDc0IDI1LjQ5NTggMTYwLjI2MyAyNC43NzE1QzE2MS40NTIgMjQuMDQ3NyAxNjIuMzgzIDIzLjAyOTggMTYzLjA2IDIxLjcxODJDMTYzLjczNiAyMC40MDY1IDE2NC4wNzUgMTguODc5NiAxNjQuMDc1IDE3LjEzNzNDMTY0LjA3NSAxNS4zOTU4IDE2My43MzYgMTMuODY4OSAxNjMuMDYgMTIuNTU2NkMxNjIuMzgzIDExLjI0NTMgMTYxLjQ1MiAxMC4yMjcxIDE2MC4yNjMgOS41MDMyNVpNMTU4LjM3OSAyMC41NTMxQzE1Ny42MzUgMjEuNDAzIDE1Ni42ODMgMjEuODI4MyAxNTUuNTI0IDIxLjgyODNDMTU0LjM2NCAyMS44MjgzIDE1My40MTMgMjEuNDAzIDE1Mi42NjkgMjAuNTUzMUMxNTEuOTI1IDE5LjcwMzEgMTUxLjU1MyAxOC41NjUxIDE1MS41NTMgMTcuMTM3M0MxNTEuNTUzIDE1LjcxMDMgMTUxLjkyNSAxNC41NzE0IDE1Mi42NjkgMTMuNzIxNUMxNTMuNDEzIDEyLjg3MTcgMTU0LjM2NCAxMi40NDY0IDE1NS41MjQgMTIuNDQ2NEMxNTYuNjgzIDEyLjQ0NjQgMTU3LjYzNSAxMi44NzE3IDE1OC4zNzkgMTMuNzIxNUMxNTkuMTIzIDE0LjU3MTQgMTU5LjQ5NSAxNS43MTAzIDE1OS40OTUgMTcuMTM3M0MxNTkuNDk1IDE4LjU2NTEgMTU5LjEyMyAxOS43MDMxIDE1OC4zNzkgMjAuNTUzMVoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik00OS4xMjk3IDEwLjMwNTVDNDcuOTQwOCA5LjA0NjI1IDQ2LjM4MDQgOC40MTY1OSA0NC40NDg0IDguNDE2NTlDNDMuNDQyOSA4LjQxNjU5IDQyLjUxNTkgOC41ODk2IDQxLjY2NTUgOC45MzYwN0M0MC44MTUxIDkuMjgyNTQgNDAuMDkwMyA5Ljc4MDkxIDM5LjQ5MTggMTAuNDMxN1YyLjIzOTI2TDM0Ljk2OTcgMy40NTMwMlYyNS42MDU1SDM5LjQ5MThWMTcuMjMxN0MzOS40OTE4IDE1LjcyMDIgMzkuODI5NyAxNC41ODE5IDQwLjUwNjEgMTMuODE1OUM0MS4xODI1IDEzLjA0OTkgNDIuMDkwMSAxMi42NjcgNDMuMjMwNiAxMi42NjdDNDQuMjU1IDEyLjY2NyA0NS4wMzc2IDEyLjk5NzUgNDUuNTc4OSAxMy42NTg0QzQ2LjExOTcgMTQuMzE5NCA0Ni4zOTA0IDE1LjMyMTcgNDYuMzkwNCAxNi42NjQ5VjI1LjYwNTVINTAuOTEyNFYxNS45MDkxQzUwLjkxMjQgMTMuNDMzIDUwLjMxOCAxMS41NjQ2IDQ5LjEyOTcgMTAuMzA1NVoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0yMDIuMjc4IDE4LjQ4MDJIMTkwLjQ4MUMxOTAuNjkzIDE5LjUzNjEgMTkxLjE5NSAyMC4zNjk3IDE5MS45ODggMjAuOTgxN0MxOTIuNzggMjEuNTk0MyAxOTMuNzY1IDIxLjg5OTcgMTk0Ljk0NCAyMS44OTk3QzE5NS43NTYgMjEuODk5NyAxOTYuNDc2IDIxLjc2ODMgMTk3LjEwNCAyMS41MDQxQzE5Ny43MzEgMjEuMjQgMTk4LjMxNiAyMC44MjMyIDE5OC44NTggMjAuMjUzMUwyMDEuMjYzIDIzLjEwMzFDMTk5Ljc5NSAyNC45Mzk3IDE5Ny42NDkgMjUuODU3NyAxOTQuODI5IDI1Ljg1NzdDMTkzLjA3IDI1Ljg1NzcgMTkxLjUxNCAyNS40ODM0IDE5MC4xNjIgMjQuNzMzNkMxODguODA5IDIzLjk4NSAxODcuNzY2IDIyLjk0NDYgMTg3LjAzMSAyMS42MTVDMTg2LjI5NiAyMC4yODQ3IDE4NS45MyAxOC43NzU5IDE4NS45MyAxNy4wODY4QzE4NS45MyAxNS40MTk2IDE4Ni4yOTIgMTMuOTE1NCAxODcuMDE3IDEyLjU3NDhDMTg3Ljc0MSAxMS4yMzQyIDE4OC43MzYgMTAuMTg5MyAxOTAuMDAyIDkuNDQwMDZDMTkxLjI2OCA4LjY5MDg1IDE5Mi42ODMgOC4zMTU5MiAxOTQuMjQ4IDguMzE1OTJDMTk1Ljc3NSA4LjMxNTkyIDE5Ny4xNTcgOC42NzUzOSAxOTguMzk0IDkuMzkyMzlDMTk5LjYzIDEwLjExMDcgMjAwLjYwMSAxMS4xMzk1IDIwMS4zMDcgMTIuNDc5NEMyMDIuMDEyIDEzLjgyMDcgMjAyLjM2NSAxNS4zNzcxIDIwMi4zNjUgMTcuMTQ5OUMyMDIuMzY1IDE3LjIxMzcgMjAyLjMzNiAxNy42NTY5IDIwMi4yNzggMTguNDgwMlpNMTkxLjY5OCAxMy4wMDI1QzE5MS4wMDIgMTMuNjM1OCAxOTAuNTc3IDE0LjUwMTYgMTkwLjQyMiAxNS41OTg3SDE5OC4xMDRDMTk3Ljk0OSAxNC41MjIyIDE5Ny41MjQgMTMuNjYyMiAxOTYuODI4IDEzLjAxOEMxOTYuMTMzIDEyLjM3NDQgMTk1LjI4MiAxMi4wNTIzIDE5NC4yNzggMTIuMDUyM0MxOTMuMjUzIDEyLjA1MjMgMTkyLjM5NCAxMi4zNjg2IDE5MS42OTggMTMuMDAyNVoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik05NS42OTcgMTguNTY2Mkg4My44OTk2Qzg0LjExMTkgMTkuNjIyIDg0LjYxNDMgMjAuNDU1NiA4NS40MDY5IDIxLjA2NzZDODYuMTk4OSAyMS42ODAzIDg3LjE4NDMgMjEuOTg1NiA4OC4zNjMyIDIxLjk4NTZDODkuMTc0NyAyMS45ODU2IDg5Ljg5NDcgMjEuODU0MiA5MC41MjI4IDIxLjU5MDFDOTEuMTUwMiAyMS4zMjYgOTEuNzM1MyAyMC45MDkyIDkyLjI3NjYgMjAuMzM5TDk0LjY4MjEgMjMuMTg5QzkzLjIxMzcgMjUuMDI1NiA5MS4wNjgzIDI1Ljk0MzYgODguMjQ3NiAyNS45NDM2Qzg2LjQ4ODUgMjUuOTQzNiA4NC45MzI4IDI1LjU2OTQgODMuNTgwNSAyNC44MTk1QzgyLjIyNzcgMjQuMDcwOSA4MS4xODQ1IDIzLjAzMDUgODAuNDUwMiAyMS43MDA5Qzc5LjcxNTQgMjAuMzcwNiA3OS4zNDg2IDE4Ljg2MTkgNzkuMzQ4NiAxNy4xNzI3Qzc5LjM0ODYgMTUuNTA1NSA3OS43MTA3IDE0LjAwMTMgODAuNDM1NSAxMi42NjA3QzgxLjE2MDMgMTEuMzIwMSA4Mi4xNTUxIDEwLjI3NTIgODMuNDIxMyA5LjUyNkM4NC42ODY4IDguNzc2NzggODYuMTAyMiA4LjQwMTg2IDg3LjY2NzMgOC40MDE4NkM4OS4xOTQxIDguNDAxODYgOTAuNTc1OSA4Ljc2MTMyIDkxLjgxMjUgOS40NzgzM0M5My4wNDkyIDEwLjE5NjYgOTQuMDE5OSAxMS4yMjU0IDk0LjcyNTggMTIuNTY1NEM5NS40MzExIDEzLjkwNjYgOTUuNzgzNyAxNS40NjMgOTUuNzgzNyAxNy4yMzU5Qzk1Ljc4MzcgMTcuMjk5NyA5NS43NTQ4IDE3Ljc0MjkgOTUuNjk3IDE4LjU2NjJaTTg1LjExNjggMTMuMDg4NUM4NC40MjA5IDEzLjcyMTcgODMuOTk1NyAxNC41ODc1IDgzLjg0MTIgMTUuNjg0Nkg5MS41MjNDOTEuMzY3OSAxNC42MDgyIDkwLjk0MzMgMTMuNzQ4MSA5MC4yNDc0IDEzLjEwMzlDODkuNTUxNSAxMi40NjA0IDg4LjcwMTEgMTIuMTM4MyA4Ny42OTY4IDEyLjEzODNDODYuNjcxOSAxMi4xMzgzIDg1LjgxMjYgMTIuNDU0NiA4NS4xMTY4IDEzLjA4ODVaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTQxLjA2IDEwLjI5MDRDMTQyLjM1NCAxMS41Mzk0IDE0My4wMDIgMTMuNDIyNSAxNDMuMDAyIDE1Ljk0MDlWMjUuNjA2SDEzOC43N1YyMy40OTY5QzEzNy45MTkgMjUuMDcwNiAxMzYuMzM1IDI1Ljg1NzggMTM0LjAxNiAyNS44NTc4QzEzMi44MTggMjUuODU3OCAxMzEuNzc5IDI1LjYzNzQgMTMwLjkgMjUuMTk2OEMxMzAuMDIgMjQuNzU2MSAxMjkuMzQ5IDI0LjE0NzYgMTI4Ljg4NSAyMy4zNzA3QzEyOC40MjIgMjIuNTk0NCAxMjguMTkgMjEuNzEzMSAxMjguMTkgMjAuNzI2MUMxMjguMTkgMTkuMTUyNCAxMjguNzM1IDE3LjkxNDMgMTI5LjgyOCAxNy4wMTE4QzEzMC45MTkgMTYuMTA5NCAxMzIuNjA1IDE1LjY1NzggMTM0Ljg4NiAxNS42NTc4SDEzOC40OEMxMzguNDggMTQuNTg3NiAxMzguMTggMTMuNzYzOSAxMzcuNTgyIDEzLjE4NjhDMTM2Ljk4MiAxMi42MDk3IDEzNi4wODQgMTIuMzIwOCAxMzQuODg2IDEyLjMyMDhDMTM0LjA1NCAxMi4zMjA4IDEzMy4yMzggMTIuNDYyNCAxMzIuNDM2IDEyLjc0NTVDMTMxLjYzNCAxMy4wMjkyIDEzMC45NTMgMTMuNDEyMiAxMzAuMzkzIDEzLjg5NDVMMTI4Ljc3IDEwLjQ2MzRDMTI5LjYxOSA5LjgxMzI4IDEzMC42MzkgOS4zMDkyMSAxMzEuODI3IDguOTUyNDVDMTMzLjAxNiA4LjU5NTY5IDEzNC4yMzggOC40MTY5OSAxMzUuNDk0IDguNDE2OTlDMTM3LjkxIDguNDE2OTkgMTM5Ljc2NSA5LjA0MTQ4IDE0MS4wNiAxMC4yOTA0Wk0xMzcuMjA1IDIxLjk2OTlDMTM3LjgwMyAyMS41ODE4IDEzOC4yMjkgMjEuMDA5OCAxMzguNDggMjAuMjU0VjE4LjUyMjhIMTM1LjM3OEMxMzMuNTI0IDE4LjUyMjggMTMyLjU5NiAxOS4xODM4IDEzMi41OTYgMjAuNTA1OEMxMzIuNTk2IDIxLjEzNTQgMTMyLjgyMiAyMS42MzQzIDEzMy4yNzcgMjIuMDAxM0MxMzMuNzMxIDIyLjM2OSAxMzQuMzU0IDIyLjU1MjEgMTM1LjE0NyAyMi41NTIxQzEzNS45MTkgMjIuNTUyMSAxMzYuNjA2IDIyLjM1ODcgMTM3LjIwNSAyMS45Njk5WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTI0LjcwNzQgMTEuMjkzOEwyNi4xMzQ4IDguODIxNDlMMjQuMTM3NyA1LjM2MjcyTDI4LjU2OTEgNS4zNjI3N0MyOC4wMjMxIDQuNDE2NjggMjcuMDEzNyAzLjgzMzk0IDI1LjkyMTUgMy44MzM3N0wyMy4yNTk2IDMuODMzOTRMMjEuOTI4OSAxLjUyODYxQzIxLjM4MjcgMC41ODI3NDMgMjAuMzczNCA1LjY4MTMyZS0wNSAxOS4yODEyIDBMMTkuMjgwOSAwLjAwMDE1MTQ5NUwyMS40OTY3IDMuODM3OTlMMTcuNTAyNyAzLjgzNzc2TDE2LjEwNDYgNi4yNTkzN0MxNi4xMDQ1IDYuMjU5MzcgMTYuMTA0MyA2LjI1OTIxIDE2LjEwNDIgNi4yNTkxMkwxNi4xMDE4IDYuMjQ4NjlIMTYuMDQ2N0MxNC40MTU1IDUuOTY2MzMgMTIuNzYzMyA1Ljk3MzIyIDExLjE2MiA2LjI0ODUzQzcuMDk1NzggNi45NDc3NyAzLjM1ODYgOS4zODA4OSAxLjEzNDU4IDEzLjIzM0MwLjY2OTM1NyAxNC4wMzg4IDAuMjk0NDIgMTQuODcxNCAwIDE1LjcxODZMOC42MTg0IDE1LjcxODhMMjAuMjg3NyAyMi40NTZMMjQuNDY1MiAyOS44NDAzQzI1LjA1MDkgMjkuMTYyNCAyNS41ODM5IDI4LjQyMjEgMjYuMDQ4NiAyNy42MTcxQzI4LjI3MjcgMjMuNzY1IDI4LjUxMTEgMTkuMzEyMyAyNy4wODM2IDE1LjQ0MTNDMjYuNTMzNSAxMy45NDk1IDI1LjczNDcgMTIuNTQ1IDI0LjcwNzQgMTEuMjkzOFpNMjIuMjQ1NCAxNS4yNjQ0TDIwLjQyNSAxOC40MTc0TDIwLjM4MDggMTguNDkzOEwxMS44NzYgMTMuNTgzNkwxMS44NzgyIDEzLjU3OThMMTEuODY5MyAxMy41Nzk3TDEzLjc3OCAxMC4yNzM3TDEzLjc4MzUgMTAuMjc5N0wyMi4yODgzIDE1LjE4OTlMMjIuMjQ1NCAxNS4yNjQ0WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTEwLjY5NTQgMjUuNTk2MkwxOC40NzUgMjUuNTk2MUw2LjgwNTY2IDE4Ljg1ODlMMTAuNjk1NCAyNS41OTYyWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==)](/explorer)
+
+Build the Map
+
+Use the Map
+
+[![Bee Blog
+Icon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc4IiBoZWlnaHQ9IjU1IiB2aWV3Qm94PSIwIDAgMTc4IDU1IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTQzLjE3NDkgOS40Mzg3TDQ2LjcxMjcgMTUuNTc3MUw0NC4yNDQxIDIwLjAzODlDNDcuNTU0OSAyNC4wMzY4IDQ5LjU2MzMgMjguOTUxOSA0OS45OTk5IDM0LjEyNDNDNTAuNDM2NCAzOS4yOTY3IDQ5LjI4MDEgNDQuNDc4OSA0Ni42ODYzIDQ4Ljk3NTFDNDUuODY2OCA1MC4zODQ3IDQ0LjkxMTggNTEuNzExMSA0My44MzQ5IDUyLjkzNTNMMzYuMjU3NiAzOS43MzQ1TDE1Ljc5NjQgMjcuODUzOEgwLjYxNTQ3OUMxLjE1MDc5IDI2LjI5NzMgMS44MzE0MyAyNC43OTQ1IDIuNjQ4NCAyMy4zNjU1QzUuMjQ1MDYgMTguODcwMSA5LjE1NSAxNS4yNzY4IDEzLjg1MzIgMTMuMDY4MUMxOC41NTE0IDEwLjg1OTUgMjMuODEyOSAxMC4xNDExIDI4LjkzMTIgMTEuMDA5NkwzMS4zOTk3IDYuODExNzRIMzguNTQxNEwzNC41ODExIDAuMDAwMTMxNTA2QzM1LjUyNDYgLTAuMDA2NDQ0ODEgMzYuNDUzNCAwLjIzMzczNSAzNy4yNzU1IDAuNjk2ODVDMzguMDk3NSAxLjE1OTk3IDM4Ljc4NDIgMS44Mjk5MyAzOS4yNjc0IDIuNjQwMjlMNDEuNjE3MiA2LjczMjU0SDQ2LjMyOThDNDcuMjggNi43MzEzNiA0OC4yMTM3IDYuOTgwOTYgNDkuMDM2NSA3LjQ1NjExQzQ5Ljg1OTMgNy45MzEyNyA1MC41NDIyIDguNjE1MTYgNTEuMDE2MSA5LjQzODdINDMuMTc0OVpNMzAuNjYwNSAyOS45Mzk1TDM2LjQ0MjQgMzMuMjc5M0wzOS42NzY2IDI3Ljc0ODJMMjQuMzc2OSAxOC45MTY5TDIxLjE2OTEgMjQuNDQ4TDI3LjAxNzEgMjcuODI3NEwzMC42NjA1IDI5LjkzOTVaTTMyLjk5NzggNDUuNTAyNkgxOS4yMjk0TDEyLjMzODUgMzMuNTgyM0wzMi45OTc4IDQ1LjUwMjZaIiBmaWxsPSIjOTFCQ0ZEIi8+CjxwYXRoIGQ9Ik0xNjEuNjAyIDU0LjU5OTZDMTU4Ljg5IDU0LjU5OTYgMTU2LjI2OCA1NC4yNDg1IDE1My43MzUgNTMuNTQ2NEMxNTEuMjM3IDUyLjg4MTMgMTQ5LjE1IDUxLjg2NTEgMTQ3LjQ3MyA1MC40OTc4TDE1MC43OTEgNDQuMjg5OEMxNTIuMDA0IDQ1LjMyNDUgMTUzLjUzOCA0Ni4xMzc0IDE1NS4zOTQgNDYuNzI4N0MxNTcuMjg1IDQ3LjM1NjkgMTU5LjE0IDQ3LjY3MSAxNjAuOTYgNDcuNjcxQzE2My45MjEgNDcuNjcxIDE2Ni4wNjIgNDYuOTg3MyAxNjcuMzgyIDQ1LjYyMDFDMTY4LjczOCA0NC4yNTI4IDE2OS40MTYgNDIuMjIwNCAxNjkuNDE2IDM5LjUyMjlWMzUuMDMzMUwxNjkuOTUxIDI3LjU1MDJMMTY5Ljg0NCAyMC4wMTE5VjEzLjU4MjFIMTc3Ljc2NVYzOC40MTQzQzE3Ny43NjUgNDMuOTU3MiAxNzYuMzczIDQ4LjA0MDUgMTczLjU5IDUwLjY2NDFDMTcwLjgwNyA1My4yODc4IDE2Ni44MTEgNTQuNTk5NiAxNjEuNjAyIDU0LjU5OTZaTTE2MC4zMTcgNDEuOTYxOEMxNTcuNjQyIDQxLjk2MTggMTU1LjIxNSA0MS4zNzA1IDE1My4wMzkgNDAuMTg4QzE1MC44OTggMzguOTY4NiAxNDkuMTY4IDM3LjI4NzIgMTQ3Ljg0OCAzNS4xNDRDMTQ2LjU2MyAzMi45NjM4IDE0NS45MjEgMzAuNDMyNSAxNDUuOTIxIDI3LjU1MDJDMTQ1LjkyMSAyNC42MzEgMTQ2LjU2MyAyMi4wOTk3IDE0Ny44NDggMTkuOTU2NEMxNDkuMTY4IDE3Ljc3NjIgMTUwLjg5OCAxNi4wOTQ5IDE1My4wMzkgMTQuOTEyNEMxNTUuMjE1IDEzLjcyOTkgMTU3LjY0MiAxMy4xMzg3IDE2MC4zMTcgMTMuMTM4N0MxNjIuNzQ0IDEzLjEzODcgMTY0Ljg4NCAxMy42NTYgMTY2Ljc0IDE0LjY5MDdDMTY4LjU5NSAxNS42ODg0IDE3MC4wNCAxNy4yNTg5IDE3MS4wNzUgMTkuNDAyMUMxNzIuMTA5IDIxLjUwODUgMTcyLjYyNyAyNC4yMjQ1IDE3Mi42MjcgMjcuNTUwMkMxNzIuNjI3IDMwLjgzOSAxNzIuMTA5IDMzLjU1NSAxNzEuMDc1IDM1LjY5ODNDMTcwLjA0IDM3LjgwNDYgMTY4LjU5NSAzOS4zNzUxIDE2Ni43NCA0MC40MDk4QzE2NC44ODQgNDEuNDQ0NCAxNjIuNzQ0IDQxLjk2MTggMTYwLjMxNyA0MS45NjE4Wk0xNjEuOTc3IDM0Ljg2NjhDMTYzLjQzOSAzNC44NjY4IDE2NC43NDIgMzQuNTcxMiAxNjUuODgzIDMzLjk4QzE2Ny4wMjUgMzMuMzUxOCAxNjcuOTE3IDMyLjQ4MzQgMTY4LjU1OSAzMS4zNzQ4QzE2OS4yMDIgMzAuMjY2MiAxNjkuNTIzIDI4Ljk5MTQgMTY5LjUyMyAyNy41NTAyQzE2OS41MjMgMjYuMDcyMSAxNjkuMjAyIDI0Ljc5NzIgMTY4LjU1OSAyMy43MjU2QzE2Ny45MTcgMjIuNjE3IDE2Ny4wMjUgMjEuNzY3MSAxNjUuODgzIDIxLjE3NTlDMTY0Ljc0MiAyMC41NDc3IDE2My40MzkgMjAuMjMzNiAxNjEuOTc3IDIwLjIzMzZDMTYwLjUxNCAyMC4yMzM2IDE1OS4yMTEgMjAuNTQ3NyAxNTguMDcgMjEuMTc1OUMxNTYuOTI4IDIxLjc2NzEgMTU2LjAxOCAyMi42MTcgMTU1LjM0IDIzLjcyNTZDMTU0LjY5OCAyNC43OTcyIDE1NC4zNzcgMjYuMDcyMSAxNTQuMzc3IDI3LjU1MDJDMTU0LjM3NyAyOC45OTE0IDE1NC42OTggMzAuMjY2MiAxNTUuMzQgMzEuMzc0OEMxNTYuMDE4IDMyLjQ4MzQgMTU2LjkyOCAzMy4zNTE4IDE1OC4wNyAzMy45OEMxNTkuMjExIDM0LjU3MTIgMTYwLjUxNCAzNC44NjY4IDE2MS45NzcgMzQuODY2OFoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0xMjYuNzE3IDQzLjg0NjRDMTIzLjY0OCA0My44NDY0IDEyMC45MTkgNDMuMTgxMiAxMTguNTI4IDQxLjg1MDlDMTE2LjE3NCA0MC41MjA2IDExNC4zIDM4LjcwOTkgMTEyLjkwOSAzNi40MTg5QzExMS41NTMgMzQuMDkwOCAxMTAuODc1IDMxLjQ0ODcgMTEwLjg3NSAyOC40OTI1QzExMC44NzUgMjUuNDk5MyAxMTEuNTUzIDIyLjg1NzIgMTEyLjkwOSAyMC41NjYyQzExNC4zIDE4LjIzODEgMTE2LjE3NCAxNi40Mjc1IDExOC41MjggMTUuMTM0MUMxMjAuOTE5IDEzLjgwMzggMTIzLjY0OCAxMy4xMzg3IDEyNi43MTcgMTMuMTM4N0MxMjkuNzUgMTMuMTM4NyAxMzIuNDYxIDEzLjgwMzggMTM0Ljg1MiAxNS4xMzQxQzEzNy4yNDIgMTYuNDI3NSAxMzkuMTE1IDE4LjIxOTcgMTQwLjQ3MSAyMC41MTA3QzE0MS44MjcgMjIuODAxOCAxNDIuNTA1IDI1LjQ2MjQgMTQyLjUwNSAyOC40OTI1QzE0Mi41MDUgMzEuNDQ4NyAxNDEuODI3IDM0LjA5MDggMTQwLjQ3MSAzNi40MTg5QzEzOS4xMTUgMzguNzA5OSAxMzcuMjQyIDQwLjUyMDYgMTM0Ljg1MiA0MS44NTA5QzEzMi40NjEgNDMuMTgxMiAxMjkuNzUgNDMuODQ2NCAxMjYuNzE3IDQzLjg0NjRaTTEyNi43MTcgMzYuNzUxNEMxMjguMTA4IDM2Ljc1MTQgMTI5LjM1NyAzNi40MTg5IDEzMC40NjMgMzUuNzUzN0MxMzEuNTY5IDM1LjA4ODYgMTMyLjQ0MyAzNC4xNDYzIDEzMy4wODYgMzIuOTI2OEMxMzMuNzI4IDMxLjY3MDQgMTM0LjA0OSAzMC4xOTIzIDEzNC4wNDkgMjguNDkyNUMxMzQuMDQ5IDI2Ljc1NTcgMTMzLjcyOCAyNS4yNzc2IDEzMy4wODYgMjQuMDU4MkMxMzIuNDQzIDIyLjgzODggMTMxLjU2OSAyMS44OTY1IDEzMC40NjMgMjEuMjMxM0MxMjkuMzU3IDIwLjU2NjIgMTI4LjEwOCAyMC4yMzM2IDEyNi43MTcgMjAuMjMzNkMxMjUuMzI1IDIwLjIzMzYgMTI0LjA3NyAyMC41NjYyIDEyMi45NyAyMS4yMzEzQzEyMS44NjQgMjEuODk2NSAxMjAuOTcyIDIyLjgzODggMTIwLjI5NSAyNC4wNTgyQzExOS42NTIgMjUuMjc3NiAxMTkuMzMxIDI2Ljc1NTcgMTE5LjMzMSAyOC40OTI1QzExOS4zMzEgMzAuMTkyMyAxMTkuNjUyIDMxLjY3MDQgMTIwLjI5NSAzMi45MjY4QzEyMC45NzIgMzQuMTQ2MyAxMjEuODY0IDM1LjA4ODYgMTIyLjk3IDM1Ljc1MzdDMTI0LjA3NyAzNi40MTg5IDEyNS4zMjUgMzYuNzUxNCAxMjYuNzE3IDM2Ljc1MTRaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNOTkuMDU5MSA0My40MDMyVjIuMjc0OUgxMDcuNDA4VjQzLjQwMzJIOTkuMDU5MVoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik04MS4yNjc4IDQzLjg0NjdDNzguNzM0NSA0My44NDY3IDc2LjU1ODEgNDMuMjkyNCA3NC43Mzg1IDQyLjE4MzhDNzIuOTE4OCA0MS4wNzUyIDcxLjUyNzMgMzkuMzkzOSA3MC41NjQgMzcuMTM5OEM2OS42MDA3IDM0Ljg0ODcgNjkuMTE5IDMxLjk2NjQgNjkuMTE5IDI4LjQ5MjhDNjkuMTE5IDI0Ljk4MjMgNjkuNjE4NSAyMi4xIDcwLjYxNzUgMTkuODQ1OUM3MS42NTIyIDE3LjU5MTggNzMuMDc5NCAxNS45MTA0IDc0Ljg5OSAxNC44MDE5Qzc2LjcxODcgMTMuNjkzMyA3OC44NDE2IDEzLjEzOSA4MS4yNjc4IDEzLjEzOUM4My45Nzk0IDEzLjEzOSA4Ni40MDU2IDEzLjc2NzIgODguNTQ2MyAxNS4wMjM2QzkwLjcyMjcgMTYuMjggOTIuNDM1MyAxOC4wNTM3IDkzLjY4NDEgMjAuMzQ0OEM5NC45Njg2IDIyLjYzNTggOTUuNjEwOCAyNS4zNTE5IDk1LjYxMDggMjguNDkyOEM5NS42MTA4IDMxLjU5NjkgOTQuOTY4NiAzNC4yOTQ0IDkzLjY4NDEgMzYuNTg1NUM5Mi40MzUzIDM4Ljg3NjUgOTAuNzIyNyA0MC42Njg3IDg4LjU0NjMgNDEuOTYyMUM4Ni40MDU2IDQzLjIxODUgODMuOTc5NCA0My44NDY3IDgxLjI2NzggNDMuODQ2N1pNNjQuMjQ4OCA0My40MDMyVjIuMjc0OUg3Mi41OTc3VjE5LjYyNDJMNzIuMDYyNSAyOC40Mzc0TDcyLjIyMzEgMzcuMzA2VjQzLjQwMzJINjQuMjQ4OFpNNzkuODIyNyAzNi43NTE4QzgxLjIxNDIgMzYuNzUxOCA4Mi40NDUyIDM2LjQxOTIgODMuNTE1NSAzNS43NTRDODQuNjIxNiAzNS4wODg5IDg1LjQ5NTcgMzQuMTQ2NiA4Ni4xMzggMzIuOTI3MkM4Ni44MTU5IDMxLjY3MDggODcuMTU0OCAzMC4xOTI3IDg3LjE1NDggMjguNDkyOEM4Ny4xNTQ4IDI2Ljc1NjEgODYuODE1OSAyNS4yNzggODYuMTM4IDI0LjA1ODVDODUuNDk1NyAyMi44MzkxIDg0LjYyMTYgMjEuODk2OCA4My41MTU1IDIxLjIzMTZDODIuNDQ1MiAyMC41NjY1IDgxLjIxNDIgMjAuMjMzOSA3OS44MjI3IDIwLjIzMzlDNzguNDMxMyAyMC4yMzM5IDc3LjE4MjUgMjAuNTY2NSA3Ni4wNzY0IDIxLjIzMTZDNzQuOTcwNCAyMS44OTY4IDc0LjA5NjIgMjIuODM5MSA3My40NTQgMjQuMDU4NUM3Mi44MTE4IDI1LjI3OCA3Mi40OTA3IDI2Ljc1NjEgNzIuNDkwNyAyOC40OTI4QzcyLjQ5MDcgMzAuMTkyNyA3Mi44MTE4IDMxLjY3MDggNzMuNDU0IDMyLjkyNzJDNzQuMDk2MiAzNC4xNDY2IDc0Ljk3MDQgMzUuMDg4OSA3Ni4wNzY0IDM1Ljc1NEM3Ny4xODI1IDM2LjQxOTIgNzguNDMxMyAzNi43NTE4IDc5LjgyMjcgMzYuNzUxOFoiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=)The
+Latest Buzz](https://hivemapper.com/blog/)
+
+February 21, 2024
+
+# 5 Reasons Hivemapper Built the Bee
+
+![](https://images.ctfassets.net/n5g2b08mtiib/5YoRgz2ke3pD1FOx7mt4kt/f969142f3a5dc4e21b918eafbe9fe95d/Welcome_to_the_Future_of_Mapmaking_-
+_v1__1_.png?w=750&h=422&q=100&fm=png)![](https://images.ctfassets.net/n5g2b08mtiib/5YoRgz2ke3pD1FOx7mt4kt/f969142f3a5dc4e21b918eafbe9fe95d/Welcome_to_the_Future_of_Mapmaking_-
+_v1__1_.png?w=750&h=422&q=100&fm=png)
+
+By Ariel Seidman, Co-Founder and CEO, Hivemapper
+
+âPeople who are really serious about software should make their own
+hardware.â
+
+Today, we introduced the Hivemapper Bee.
+
+Itâs our most advanced mapping miner, capable of passively updating the
+worldâs freshest map.  Itâs also a premium dashcam that keeps you safe and
+secure on your daily drives.
+
+We know some people will ask why we bother to design our own hardware instead
+of using smartphones or off-the-shelf dashcams. Itâs a reasonable question;
+hardware is hard.
+
+You can easily spend millions of dollars designing a hardware device before
+the first unit rolls off the line. Scaling manufacturing is even harder if
+youâre doing something new. You often end up in Elon Muskâs âproduction
+hell,â like we did with the Hivemapper Dashcam.
+
+As we chart the path forward for decentralized mapping, it would be easier to
+avoid hardware. But the graveyard of map technology is littered with failed
+attempts to build maps with smartphone cameras or basic dashcams, for reasons
+weâll explain below. Some of the worldâs largest app developers have tried
+and failed.
+
+It would also be easier to say âgood enoughâ and keep selling the current
+models. Weâve already paid the upfront cost to develop them. We know how to
+build them. If we were trying to maximize our profit margins, or to flex by
+adding contributors as quickly as possible, thatâs what weâd do.
+
+We wonât take the easy way out. We wonât sacrifice our long-term goals for
+short-term gain.
+
+Weâre here to build fresher and more accurate maps for humanity, and do it
+in a fairer way.
+
+Here are five reasons why the Hivemapper Bee will help us achieve that mission
+â and why you should [place a preorder today](https://bee.hivemapper.com/)
+to join us in shaping the future of mapping.
+
+* * *
+
+**1\. 100% passive is the only way  **
+
+Most Hivemapper contributors want to install a camera in their car, interact
+with it as little as possible, and earn rewards for helping to build the map.
+
+On the project team, weâre mapping nerds. Some of our most active
+contributors are mapping nerds too. We love that. But for most people, the
+perfect user interface is no user interface at all.
+
+That goes tenfold for Hivemapperâs hardworking fleet managers, who need
+mapping to be dead simple for the drivers they recruit. For most business and
+public sector fleets, training drivers to manage an app is more than just
+annoying â itâs a deal-breaker.
+
+When mapping requires effort, drivers give up unless the incentive to keep
+mapping is very strong. In fact, this has been one of the death blows for
+smartphone mapping apps, which typically require the user to mount the
+smartphone and set up the app every time they enter the car. Itâs just too
+much work. People donât stick with it once the novelty wears off.
+
+Although the Hivemapper Dashcam and Hivemapper Dashcam S are far easier, and
+have orders of magnitude better productivity as a result, thereâs still too
+much work involved. And the root cause of this is needing to offload map data
+to a smartphone app.
+
+That changes now. With the Hivemapper Bee, you can finally enjoy 100% passive
+mapping.
+
+  * Every device will offer the option of cellular connectivity, for an added monthly fee. 
+
+  * Every device will offer direct connectivity to a home or office WiFi router.
+
+  * Enhanced edge processing means smaller file sizes â and faster uploads.
+
+Whether you choose a cellular plan or allow the Hivemapper Bee to connect to a
+WiFi router, the dream of passive mapping is finally here.
+
+[![](https://images.ctfassets.net/n5g2b08mtiib/3HKpR7ONxcYZBeJv07GYV4/3b1f976290f52607bd37039eb7e9ba4d/Passive_is_the_Only_Way_-
+_v1__2_.png?w=750&h=422&q=100&fm=png)![](https://images.ctfassets.net/n5g2b08mtiib/3HKpR7ONxcYZBeJv07GYV4/3b1f976290f52607bd37039eb7e9ba4d/Passive_is_the_Only_Way_-
+_v1__2_.png?w=750&h=422&q=100&fm=png)](https://images.ctfassets.net/n5g2b08mtiib/3HKpR7ONxcYZBeJv07GYV4/3b1f976290f52607bd37039eb7e9ba4d/Passive_is_the_Only_Way_-
+_v1__2_.png)
+
+* * *
+
+**2\. Doubling down on power and precision**
+
+Poor quality has been the fatal flaw of every previous attempt at crowdsourced
+mapping.
+
+Projects with high friction and low quality fail. In one case we know well, a
+big tech company acquired a crowdsourced mapping startup. As they dug into the
+data, they discovered that the poor positional accuracy of the data made it
+unusable for their use case. So it goes.
+
+A few projects have managed to scale a relatively passive experience using
+crowdsourced sensors such as basic dashcams, but low-quality data has held
+them back. Mapping customers have been able to get a little bit of value from
+these projects â¦ but only a little.
+
+Hivemapper wonât settle for anything less than revolutionizing how maps are
+made.
+
+From years of experience, we know basic hardware canât get the job done.
+Decentralized mapping requires more compute power for edge processing, beyond
+the privacy blurring and basic map processing we do today. Precision
+positioning requires a higher-end GNSS chip and a bigger antenna than any
+smartphone could possibly offer.
+
+Weâve chosen every component of the Hivemapper Bee to boost quality along
+the most important dimensions for mapping compared to our current models. What
+does that look like?
+
+  * **Better positioning**. Weâre adding a larger antenna for more precise baseline positioning, and a dual-band (L1/L5) GNSS chip that offers better support for RTK/PPK corrections.
+
+  * **Stereo cameras**. Detecting a street sign isnât useful if you canât say precisely where it is. Stereo cameras make this job much easier, as we proved with the Hivemapper Dashcam S. With a wider âbaselineâ between cameras than the smartphone form factor can offer, the Hivemapper Bee will be able to judge depth just like human eyes can.
+
+  * **All-season readiness**. Mounting a camera outside results in far better imagery and positional accuracy. Youâll be able to do it with confidence with the Hivemapper Bee, which will be sealed to protect against water intrusion and tested to perform in both intensely hot and cold climates.
+
+From a hardware perspective, the Hivemapper Bee is more like the advanced
+driver assistance systems
+([_ADAS)_](https://en.wikipedia.org/wiki/Advanced_driver-assistance_system) in
+a modern car than it is like a dashcam. In the not-too-distant future, we
+expect a similar hardware and software package to make it into automotive
+platforms.
+
+* * *
+
+**3\. Mapping on the edge**
+
+Hivemapper contributors have mapped a staggering 130 million total kilometers
+since the launch of the network in November 2022. With one image uploaded for
+every six to eight meters of driving, thatâs 125 images per kilometer and
+well over 10 billion images uploaded to date.
+
+Do we need all those images to build a map? No, we do not. If we tried to
+scale this approach to global coverage, we would probably go bankrupt from the
+cloud computing fees.
+
+Sometimes, uploading images is important. If we havenât seen a road in a
+while, the map will benefit from knowing how it looks now â even if nothing
+has changed as far as we can tell.
+
+But usually, the only question is whether the image helps us improve our
+understanding of the world â across either the âstaticâ and
+âdynamicâ elements of the map.  Static map features are those that rarely
+change, like traffic lights. Dynamic map features are those that change
+quickly and affect navigation, such as road debris or a road closure.
+
+Weâve designed the Hivemapper Bee with extremely powerful edge computing
+capabilities:
+
+  * 4GB of RAM
+
+  * 4x ARM* A53 (1.5GHz) 
+
+  * ML Performance: 5.1 TOPS Processor
+
+  * Depth sensing optimized
+
+This powerful setup will allow the Hivemapper Bee to process images in real
+time, beyond the privacy blurring and basic map processing we do today. It
+will be able to determine whether the network needs a fresh image. It will be
+able to detect both static (speed limit signs) and dynamic objects (car
+accidents), position them in space, and send a small payload to the network
+with metadata and a thumbnail image. Smaller payloads mean faster uploads,
+lower data charges and lower computing costs for achieving global scale.
+
+Thatâs efficient. Thatâs scalable. Thatâs mapping on the edge.
+
+* * *
+
+**4\. Better data, better rewards**
+
+You might be thinking: This sounds great for the map, but whatâs in it for
+contributors?
+
+First, the short version.
+
+Because the Hivemapper Bee collects more types of data, and collects higher
+quality data, we expect it to yield better rewards than the Hivemapper Dashcam
+and Hivemapper Dashcam S. Existing devices will still be supported and will
+still earn rewards, but itâs only fair that the best rewards should go to
+the device that is generating the most utility.
+
+Now, the long version.
+
+There are many reasons the Hivemapper Bee should get better rewards.
+
+  * With a 100% passive experience, the Hivemapper Bee will make it easier to upload map data, and therefore less likely that contributors will forget to upload before the deadline. 
+
+  * With better positional accuracy and image quality, the Hivemapper Bee will have a smaller proportion of its map data rejected due to low quality, meaning fewer mapping gaps.
+
+  * With the rollout of the Hivemapper Bee, the Hivemapper Foundation plans to restructure the weekly rewards pool to account for Map Features generated on the edge.
+
+That last one is complicated, so hereâs a bit more detail.
+
+In current state, about 87% of the weekly minted rewards pool goes to
+contributors for submitting Map Images, 10% goes to the administrator of the
+network (currently Hivemapper Inc.) to cover processing and storage costs and
+about 3% goes to contributors for AI Trainer tasks. With the launch of the
+Hivemapper Bee, which adds more value than prior models by extracting and
+precisely positioning Map Features, this rewards structure would not be fair.
+
+In a [blog post](https://medium.com/p/5815e2a1c9c9) this week, the Hivemapper
+Foundation said it plans to propose a restructuring of the rewards pool
+effective later this year to account for new additions such as Buzz, AI
+Trainers and Map Features generated on the edge by the Hivemapper Bee. The
+exact design is yet to be determined, and will be subject to public comment.
+The blog post made clear that the transition would be gradual, and would not
+occur until Bee fulfillment is well underway.
+
+However, the end result will ensure that contributors are fairly rewarded for
+deploying higher-quality hardware like the Hivemapper Bee.
+
+* * *
+
+**5\. An open platform for partners**
+
+Although weâve spent a lot of time and money developing hardware for the
+Hivemapper Network, weâve always planned to fully open-source our designs so
+the worldâs best manufacturers can benefit from our investment and carry the
+baton forward.
+
+We havenât done this yet, and the reason is that we havenât had high
+enough conviction that we had settled on the right design to scale through
+partners. Once you open the Pandoraâs Box of allowing devices from many
+manufacturers, there is no going back.
+
+But we have high conviction that the Hivemapper Bee will be that design. Once
+the Hivemapper Bee goes into production, we will work with forward-looking
+partners to scale smart camera production based on the Hivemapper Bee design.
+
+But our ambitions are bigger than that.
+
+Most of the top-tier ADAS systems built into modern cars have comparable
+sensors and compute capabilities. And automotive integration is undoubtedly
+the most passive, most scalable way to achieve our mission of building a
+decentralized global map.
+
+Over the course of 2024 and 2025, we will develop an open-source hardware and
+software platform based on the Bee and start working toward integrating the
+Hivemapper mapping technology into a wide range of vehicles and aftermarket
+devices.
+
+But you wonât have to wait for a Hivemapper-compatible car. Youâll be able
+to install a Bee in your car this year.
+
+* * *
+
+All in all, powerful hardware devices such as the Bee are critical to
+achieving the Hivemapper Networkâs mission of building fresher and more
+accurate maps, and doing it in a fairer way.
+
+With the Bee mapping miner, contributors will find it easier than ever to
+contribute to the network. Their map data will be more precise than ever. And
+the network will make the best possible use of the computing power of their
+miner, earning greater rewards in the process.  If this wasn't enough, the Bee
+has premium safety features that help keep you safe and protected on your
+daily drives.
+
+To join the movement, just go to
+[_bee.hivemapper.com_](https://bee.hivemapper.com/) and pre-order yours today.
+
+Share Post
+
+Latest Posts
+
+[![](data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQCAwb/xAAhEAACAgAFBQAAAAAAAAAAAAABAgADBBESIaEiMTJRYf/EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/EABYRAQEBAAAAAAAAAAAAAAAAAAAREv/aAAwDAQACEQMRAD8AyteEqsoRjYFZhv0nbmRoGmx6nUPkO4PMUFjgZB2AH2C+UTFmJVRcdClV9GEZVQVBIzMIsKv/2Q==)![Images
+Blog Minimake-your-mount-a-4-4-so-we-can-build-better-
+maps](https://images.ctfassets.net/n5g2b08mtiib/4CU3O2vh1XkEufK4Tbbw2p/fb577bd1bf174df17e35e22e4e97d522/Hivemapper_-
+_Make_Your_Mount_-_Landscape_-
+_v1.jpg?w=750&h=375&fl=progressive&q=50&fm=jpg)![Images Blog Minimake-your-
+mount-a-4-4-so-we-can-build-better-
+maps](https://images.ctfassets.net/n5g2b08mtiib/4CU3O2vh1XkEufK4Tbbw2p/fb577bd1bf174df17e35e22e4e97d522/Hivemapper_-
+_Make_Your_Mount_-_Landscape_-
+_v1.jpg?w=750&h=375&fl=progressive&q=50&fm=jpg)Make Your Mount a 4/4 So We Can
+Build Better Maps!May 13, 2024](/blog/make-your-mount-a-4-4-so-we-can-build-
+better-
+maps)[![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAMAAABI111xAAACLlBMVEUKDhQMERgNEhkNEhoNERgMEBcQFBsZHyYoMDY8RExIUlpVXmRaZGpZY2pXYWdSW2JJUlktNUEqMj0YICwiKTQcJC8mLjopLjYRFhwiKC4uNj1ETlVUX2Z3gIaGj5SNlZqOlpuCipBVXmZbXWFTVVlsbnI3Oj9TVlppa284O0BMT1Nsb3NdYmY0PENNV19ye4B5g4h6hYt4hIp0gIZwe4BqdHlzdXhgYmZhZGd0dnlCRUpydHhlZ2slKS4UGR8iKS83QEc+SVFASVI/SVMpNkInND8mMz4mMj05QksMEBYNERcLDxUUGSAjKTA4QEcrNT4VIzATIjAYKDYkNkQiM0ESHitRVV1NUVlHS1M0R1YxNj4jJiwdICYeIScQEhcPERUiKC8gKDAhKzUWJDIiMkAgMEFCW2w/V2cbKTgeLDlaXmZUWGBLT1Y6TlMwNTsiJSsRFRkTFRkgJi0UGyMgKzY7RlI5RVMmNUYjMUMjMkMjMUE3Qk4xNDszNz06PkRIS1JLTlZDRk1BRUxFSE9PUlklKjAdIyovNj5GU1xocnhveoFwfYVwfYZteoNodHxjbXQlKS8sLzYpLDMjJywkJy0qLjQ2OUA1OUAgJCooLzYdKTUmN0QsP00tQVEtQVAsP08rPkwoOUYZIS0bIzAXHioaIzAWHikZIS4TGSIVGyEVGyIPFh8THCYVHioUHioTHioTHSkUHScMERcNERkQFRwPFRsJDRQJDRMIDRUIDRS0RrTZAAAACXBIWXMAABcRAAAXEQHKJvM/AAAAB3RJTUUH6AUWFR4sdyWG2wAAAF1JREFUCB0FwcENwjAUBbBn8rlXSQfjxBSIYSp1gU4AizEBNNhCnGkAUFngbABQ6QAAVAYAAJURMQPA9+oOAIBawScdANXBAAC1AjxtAHIEPHZAEO33vsVrXsCM+QeXpg8MHgJfpgAAAABJRU5ErkJggg==)![Images
+Blog Mininavigating-the-road-ahead-why-your-fleet-needs-bee-hivemappers-
+newest](https://images.ctfassets.net/n5g2b08mtiib/4WiP2UuVA2VgslKYIKMcOu/49a6bdb55186b99fe43dc94769ab0692/Hivemapper_-
+_Why_Your_Fleets_Needs_Bee_-_Hero_-_v2.2.png?w=750&h=375&q=50&fm=png)![Images
+Blog Mininavigating-the-road-ahead-why-your-fleet-needs-bee-hivemappers-
+newest](https://images.ctfassets.net/n5g2b08mtiib/4WiP2UuVA2VgslKYIKMcOu/49a6bdb55186b99fe43dc94769ab0692/Hivemapper_-
+_Why_Your_Fleets_Needs_Bee_-_Hero_-
+_v2.2.png?w=750&h=375&q=50&fm=png)Navigating the Road Ahead: Why Your Fleet
+Needs âBeeâ Hivemapperâs Newest DashcamApril 19, 2024](/blog/navigating-
+the-road-ahead-why-your-fleet-needs-bee-hivemappers-
+newest)[![](data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAALABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQBAgUG/8QAIhAAAgICAQMFAAAAAAAAAAAAAQIAEQMhBBITQRQiMVGR/8QAFAEBAAAAAAAAAAAAAAAAAAAAAv/EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAwDAQACEQMRAD8A5LDm43ZUMq9VC/G/yThX1BKppuqgPFTOX5lkdgTTEWIxYpOczGuLktjUj26NG9wiln7hEMcv/9k=)![Images
+Blog Miniget-rewarded-for-road-reporting-with-the-new-hivemapper-
+app](https://images.ctfassets.net/n5g2b08mtiib/4D7jgAF8Xy0Uif3Dx8yw17/d9280cf4c4f2f53c107ad43e98a3b368/Get_Rewarded_for_Road_Reporting_-
+_Hero_-_v4.jpg?w=750&h=375&fl=progressive&q=50&fm=jpg)![Images Blog Miniget-
+rewarded-for-road-reporting-with-the-new-hivemapper-
+app](https://images.ctfassets.net/n5g2b08mtiib/4D7jgAF8Xy0Uif3Dx8yw17/d9280cf4c4f2f53c107ad43e98a3b368/Get_Rewarded_for_Road_Reporting_-
+_Hero_-_v4.jpg?w=750&h=375&fl=progressive&q=50&fm=jpg)Get Rewarded for Road
+Reporting with the New Hivemapper AppJanuary 24, 2024](/blog/get-rewarded-for-
+road-reporting-with-the-new-hivemapper-app)
+
+[Read More](https://hivemapper.com/blog/)
+
+[Blog](/blog)
+
+[Careers](/careers)
+
+[Media Kit](/media-kit)
+
+[Privacy](/privacy)
+
+[](https://discord.com/invite/FRWMKyy5v2)[](https://twitter.com/Hivemapper)[](https://www.instagram.com/hivemapper)
+
+![](https://t.co/i/adsct?bci=3&eci=2&event_id=125cd4ae-4989-44c2-9377-6a05761f66fc&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=083bf4a5-794e-44c0-a166-ef0735f2b4c4&tw_document_href=https%3A%2F%2Fhivemapper.com%2Fblog%2F5-reasons-
+hivemapper-built-
+bee%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o8cxm&type=javascript&version=2.3.30)![](https://analytics.twitter.com/i/adsct?bci=3&eci=2&event_id=125cd4ae-4989-44c2-9377-6a05761f66fc&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=083bf4a5-794e-44c0-a166-ef0735f2b4c4&tw_document_href=https%3A%2F%2Fhivemapper.com%2Fblog%2F5-reasons-
+hivemapper-built-
+bee%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o8cxm&type=javascript&version=2.3.30)
+
