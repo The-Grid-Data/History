@@ -1,0 +1,188 @@
+{
+    "target_url": "https://ethereum.org/en/bug-bounty/",
+    "domains": {
+        "": [
+            "mailto:bounty@ethereum.org",
+            "mailto:press@ethereum.org"
+        ],
+        "benjaminion.xyz": [
+            "https://benjaminion.xyz/eth2-annotated-spec/"
+        ],
+        "besu.hyperledger.org": [
+            "https://besu.hyperledger.org/en/stable/"
+        ],
+        "blog.ethereum.org": [
+            "https://blog.ethereum.org/"
+        ],
+        "chainsafe.github.io": [
+            "https://chainsafe.github.io/lodestar/"
+        ],
+        "devcon.org": [
+            "https://devcon.org/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/ethereum-org"
+        ],
+        "docs.nethermind.io": [
+            "https://docs.nethermind.io/nethermind/"
+        ],
+        "esp.ethereum.foundation": [
+            "https://esp.ethereum.foundation"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/en/",
+            "https://ethereum.org/en/about/",
+            "https://ethereum.org/en/about/#open-jobs",
+            "https://ethereum.org/en/assets/",
+            "https://ethereum.org/en/bug-bounty/",
+            "https://ethereum.org/en/bug-bounty/#leaderboard",
+            "https://ethereum.org/en/bug-bounty/#main-content",
+            "https://ethereum.org/en/bug-bounty/#rules",
+            "https://ethereum.org/en/community/",
+            "https://ethereum.org/en/community/code-of-conduct/",
+            "https://ethereum.org/en/community/events/",
+            "https://ethereum.org/en/community/grants/",
+            "https://ethereum.org/en/community/online/",
+            "https://ethereum.org/en/community/research/",
+            "https://ethereum.org/en/contributing/",
+            "https://ethereum.org/en/contributing/translation-program/",
+            "https://ethereum.org/en/cookie-policy/",
+            "https://ethereum.org/en/dao/",
+            "https://ethereum.org/en/dapps/",
+            "https://ethereum.org/en/decentralized-identity/",
+            "https://ethereum.org/en/defi/",
+            "https://ethereum.org/en/developers/",
+            "https://ethereum.org/en/developers/docs/",
+            "https://ethereum.org/en/developers/docs/design-and-ux/",
+            "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+            "https://ethereum.org/en/developers/learning-tools/",
+            "https://ethereum.org/en/developers/local-environment/",
+            "https://ethereum.org/en/developers/tutorials/",
+            "https://ethereum.org/en/eips/",
+            "https://ethereum.org/en/enterprise/",
+            "https://ethereum.org/en/enterprise/private-ethereum/",
+            "https://ethereum.org/en/eth/",
+            "https://ethereum.org/en/foundation/",
+            "https://ethereum.org/en/gas/",
+            "https://ethereum.org/en/get-eth/",
+            "https://ethereum.org/en/glossary/",
+            "https://ethereum.org/en/governance/",
+            "https://ethereum.org/en/guides/",
+            "https://ethereum.org/en/history/",
+            "https://ethereum.org/en/layer-2/",
+            "https://ethereum.org/en/learn/",
+            "https://ethereum.org/en/nft/",
+            "https://ethereum.org/en/privacy-policy/",
+            "https://ethereum.org/en/quizzes/",
+            "https://ethereum.org/en/roadmap/",
+            "https://ethereum.org/en/roadmap/security/",
+            "https://ethereum.org/en/run-a-node/",
+            "https://ethereum.org/en/security/",
+            "https://ethereum.org/en/smart-contracts/",
+            "https://ethereum.org/en/stablecoins/",
+            "https://ethereum.org/en/staking/",
+            "https://ethereum.org/en/terms-of-use/",
+            "https://ethereum.org/en/wallets/",
+            "https://ethereum.org/en/wallets/find-wallet/",
+            "https://ethereum.org/en/web3/",
+            "https://ethereum.org/en/what-is-ethereum/",
+            "https://ethereum.org/en/whitepaper/",
+            "https://ethereum.org/security_at_ethereum.org.asc"
+        ],
+        "forms.gle": [
+            "https://forms.gle/Gnh4gzGh66Yc3V7G8"
+        ],
+        "geth.ethereum.org": [
+            "https://geth.ethereum.org/"
+        ],
+        "github.com": [
+            "https://github.com/AlexSSD7",
+            "https://github.com/BlameByte",
+            "https://github.com/BlockTrident",
+            "https://github.com/Cjentzsch",
+            "https://github.com/DVPNET",
+            "https://github.com/Dedaub",
+            "https://github.com/EthHead",
+            "https://github.com/HarryR",
+            "https://github.com/SergioDemianLerner",
+            "https://github.com/Vulnerability-X",
+            "https://github.com/agroce",
+            "https://github.com/asanso",
+            "https://github.com/atoulme",
+            "https://github.com/axic",
+            "https://github.com/badmofo",
+            "https://github.com/catageek",
+            "https://github.com/chainsecurity",
+            "https://github.com/crate-crypto/go-kzg-4844",
+            "https://github.com/cryptosubtlety",
+            "https://github.com/daenamkim",
+            "https://github.com/danhper",
+            "https://github.com/davidmurdoch",
+            "https://github.com/ethereum-optimism",
+            "https://github.com/ethereum/annotated-spec",
+            "https://github.com/ethereum/c-kzg-4844",
+            "https://github.com/ethereum/consensus-specs",
+            "https://github.com/ethereum/consensus-specs/blob/dev/solidity_deposit_contract/deposit_contract.sol",
+            "https://github.com/ethereum/consensus-specs/blob/dev/specs/phase0/beacon-chain.md",
+            "https://github.com/ethereum/consensus-specs/blob/dev/specs/phase0/deposit-contract.md",
+            "https://github.com/ethereum/consensus-specs/blob/dev/specs/phase0/fork-choice.md",
+            "https://github.com/ethereum/consensus-specs/blob/dev/specs/phase0/p2p-interface.md",
+            "https://github.com/ethereum/ethereum-org-website",
+            "https://github.com/ethereum/execution-specs",
+            "https://github.com/ethereum/solidity/blob/develop/SECURITY.md",
+            "https://github.com/ethernomad",
+            "https://github.com/feeker",
+            "https://github.com/gitpusha",
+            "https://github.com/guidovranken",
+            "https://github.com/henrit",
+            "https://github.com/holiman",
+            "https://github.com/hwanjo",
+            "https://github.com/iosiro",
+            "https://github.com/itsunixiknowthis",
+            "https://github.com/johnyangk",
+            "https://github.com/jonasnick",
+            "https://github.com/jrhea",
+            "https://github.com/jtoman",
+            "https://github.com/junorouse",
+            "https://github.com/kilic",
+            "https://github.com/ledgerwatch/erigon",
+            "https://github.com/lukaszmatczak",
+            "https://github.com/maurelian",
+            "https://github.com/mcdee",
+            "https://github.com/melonport",
+            "https://github.com/montyly",
+            "https://github.com/n0thingness",
+            "https://github.com/p-",
+            "https://github.com/peckshield",
+            "https://github.com/protolambda",
+            "https://github.com/ptk",
+            "https://github.com/samczsun",
+            "https://github.com/sifraitech",
+            "https://github.com/swaldman",
+            "https://github.com/talko",
+            "https://github.com/tintinweb",
+            "https://github.com/uknowy",
+            "https://github.com/wadeAlexC",
+            "https://github.com/whitj00",
+            "https://github.com/yaronvel"
+        ],
+        "lighthouse-book.sigmaprime.io": [
+            "https://lighthouse-book.sigmaprime.io/"
+        ],
+        "our.status.im": [
+            "https://our.status.im/tag/nimbus/"
+        ],
+        "pegasys.tech": [
+            "https://pegasys.tech/teku"
+        ],
+        "prylabs.net": [
+            "https://prylabs.net/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ethdotorg"
+        ],
+        "www.owasp.org": [
+            "https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology"
+        ]
+    }
+}

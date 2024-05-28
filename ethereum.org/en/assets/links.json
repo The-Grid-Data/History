@@ -1,0 +1,150 @@
+{
+    "target_url": "https://ethereum.org/en/assets/",
+    "domains": {
+        "": [
+            "mailto:press@ethereum.org"
+        ],
+        "blog.ethereum.org": [
+            "https://blog.ethereum.org/"
+        ],
+        "cargocollective.com": [
+            "https://cargocollective.com/willtempest"
+        ],
+        "devcon.org": [
+            "https://devcon.org/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/ethereum-org"
+        ],
+        "esp.ethereum.foundation": [
+            "https://esp.ethereum.foundation"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/en/",
+            "https://ethereum.org/en/_next/static/media/community-hero.89b5ba2f.png",
+            "https://ethereum.org/en/_next/static/media/core.eca93173.png",
+            "https://ethereum.org/en/_next/static/media/dao-2.62aa97a7.png",
+            "https://ethereum.org/en/_next/static/media/defi.254fb6ef.png",
+            "https://ethereum.org/en/_next/static/media/developers-eth-blocks.62390e1a.png",
+            "https://ethereum.org/en/_next/static/media/developers-hub-hero.a8c3797d.jpg",
+            "https://ethereum.org/en/_next/static/media/doge-computer.482265f8.png",
+            "https://ethereum.org/en/_next/static/media/enterprise-eth.d2a3f314.png",
+            "https://ethereum.org/en/_next/static/media/eth-diamond-black-gray.6a0565f4.png",
+            "https://ethereum.org/en/_next/static/media/eth-diamond-black-white.ab7fbd4e.jpg",
+            "https://ethereum.org/en/_next/static/media/eth-diamond-black.a042df77.png",
+            "https://ethereum.org/en/_next/static/media/eth-diamond-glyph.3cd60daa.png",
+            "https://ethereum.org/en/_next/static/media/eth-diamond-purple-purple.74f3909b.png",
+            "https://ethereum.org/en/_next/static/media/eth-diamond-purple-white.3e872b05.jpg",
+            "https://ethereum.org/en/_next/static/media/eth-diamond-purple.7929ed26.png",
+            "https://ethereum.org/en/_next/static/media/eth-diamond-rainbow.bb509e8a.png",
+            "https://ethereum.org/en/_next/static/media/eth-glyph-colored.434446fa.png",
+            "https://ethereum.org/en/_next/static/media/eth.28aff33d.png",
+            "https://ethereum.org/en/_next/static/media/ethereum-logo-landscape-black-gray.854bfc23.png",
+            "https://ethereum.org/en/_next/static/media/ethereum-logo-landscape-black.b8f4e822.png",
+            "https://ethereum.org/en/_next/static/media/ethereum-logo-landscape-purple-purple.1cff9542.png",
+            "https://ethereum.org/en/_next/static/media/ethereum-logo-landscape-purple-white.b26cd535.png",
+            "https://ethereum.org/en/_next/static/media/ethereum-logo-landscape-purple.2c091489.png",
+            "https://ethereum.org/en/_next/static/media/ethereum-logo-portrait-black-gray.643cc450.png",
+            "https://ethereum.org/en/_next/static/media/ethereum-logo-portrait-black.d5e1c2bd.png",
+            "https://ethereum.org/en/_next/static/media/ethereum-logo-portrait-purple-purple.d2508a3b.png",
+            "https://ethereum.org/en/_next/static/media/ethereum-logo-portrait-purple.03e6a845.png",
+            "https://ethereum.org/en/_next/static/media/ethereum-wordmark-black-gray.484b2101.png",
+            "https://ethereum.org/en/_next/static/media/ethereum-wordmark-black.bb1488f4.png",
+            "https://ethereum.org/en/_next/static/media/ethereum-wordmark-purple-purple.59c3d604.png",
+            "https://ethereum.org/en/_next/static/media/ethereum-wordmark-purple-white.8c8a2126.png",
+            "https://ethereum.org/en/_next/static/media/ethereum-wordmark-purple.5e3d39ae.png",
+            "https://ethereum.org/en/_next/static/media/finance_transparent.a4abc782.png",
+            "https://ethereum.org/en/_next/static/media/future_transparent.465fbd2d.png",
+            "https://ethereum.org/en/_next/static/media/garden.8394a1ab.jpg",
+            "https://ethereum.org/en/_next/static/media/guides-hub-hero.19a19f48.jpg",
+            "https://ethereum.org/en/_next/static/media/hackathon_transparent.0818b178.png",
+            "https://ethereum.org/en/_next/static/media/hero-panda.b57b156d.png",
+            "https://ethereum.org/en/_next/static/media/hero.94a1ecc4.png",
+            "https://ethereum.org/en/_next/static/media/impact_transparent.7420c423.png",
+            "https://ethereum.org/en/_next/static/media/infrastructure_transparent.8849e91b.png",
+            "https://ethereum.org/en/_next/static/media/layer-2-hub-hero.5bb68ce2.jpg",
+            "https://ethereum.org/en/_next/static/media/learn-hub-hero.bc4653ed.png",
+            "https://ethereum.org/en/_next/static/media/merge-panda.a853cdc2.png",
+            "https://ethereum.org/en/_next/static/media/merge.1565d431.png",
+            "https://ethereum.org/en/_next/static/media/newrings.774586ae.png",
+            "https://ethereum.org/en/_next/static/media/oldship.b3cc4921.png",
+            "https://ethereum.org/en/_next/static/media/quizzes-hub-hero.ea3530c2.png",
+            "https://ethereum.org/en/_next/static/media/roadmap-hub-hero.279a4e9e.jpg",
+            "https://ethereum.org/en/_next/static/media/wallet.454231ba.png",
+            "https://ethereum.org/en/_next/static/media/what-is-ethereum.b37ce60e.png",
+            "https://ethereum.org/en/about/",
+            "https://ethereum.org/en/about/#open-jobs",
+            "https://ethereum.org/en/assets/",
+            "https://ethereum.org/en/assets/#brand",
+            "https://ethereum.org/en/assets/#historical",
+            "https://ethereum.org/en/assets/#illustrations",
+            "https://ethereum.org/en/assets/#main-content",
+            "https://ethereum.org/en/bug-bounty/",
+            "https://ethereum.org/en/community/",
+            "https://ethereum.org/en/community/code-of-conduct/",
+            "https://ethereum.org/en/community/events/",
+            "https://ethereum.org/en/community/grants/",
+            "https://ethereum.org/en/community/online/",
+            "https://ethereum.org/en/community/research/",
+            "https://ethereum.org/en/contributing/",
+            "https://ethereum.org/en/contributing/translation-program/",
+            "https://ethereum.org/en/cookie-policy/",
+            "https://ethereum.org/en/dao/",
+            "https://ethereum.org/en/dapps/",
+            "https://ethereum.org/en/decentralized-identity/",
+            "https://ethereum.org/en/defi/",
+            "https://ethereum.org/en/developers/",
+            "https://ethereum.org/en/developers/docs/",
+            "https://ethereum.org/en/developers/docs/design-and-ux/",
+            "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+            "https://ethereum.org/en/developers/learning-tools/",
+            "https://ethereum.org/en/developers/local-environment/",
+            "https://ethereum.org/en/developers/tutorials/",
+            "https://ethereum.org/en/eips/",
+            "https://ethereum.org/en/enterprise/",
+            "https://ethereum.org/en/enterprise/private-ethereum/",
+            "https://ethereum.org/en/eth/",
+            "https://ethereum.org/en/foundation/",
+            "https://ethereum.org/en/gas/",
+            "https://ethereum.org/en/get-eth/",
+            "https://ethereum.org/en/glossary/",
+            "https://ethereum.org/en/governance/",
+            "https://ethereum.org/en/guides/",
+            "https://ethereum.org/en/history/",
+            "https://ethereum.org/en/layer-2/",
+            "https://ethereum.org/en/learn/",
+            "https://ethereum.org/en/nft/",
+            "https://ethereum.org/en/privacy-policy/",
+            "https://ethereum.org/en/quizzes/",
+            "https://ethereum.org/en/roadmap/",
+            "https://ethereum.org/en/roadmap/security/",
+            "https://ethereum.org/en/run-a-node/",
+            "https://ethereum.org/en/security/",
+            "https://ethereum.org/en/smart-contracts/",
+            "https://ethereum.org/en/stablecoins/",
+            "https://ethereum.org/en/staking/",
+            "https://ethereum.org/en/terms-of-use/",
+            "https://ethereum.org/en/wallets/",
+            "https://ethereum.org/en/wallets/find-wallet/",
+            "https://ethereum.org/en/web3/",
+            "https://ethereum.org/en/what-is-ethereum/",
+            "https://ethereum.org/en/whitepaper/"
+        ],
+        "github.com": [
+            "https://github.com/ethereum/ethereum-org-website"
+        ],
+        "liamcobb.com": [
+            "https://liamcobb.com/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ethdotorg"
+        ],
+        "viktorhachmang.nl": [
+            "http://viktorhachmang.nl/",
+            "https://viktorhachmang.nl"
+        ],
+        "www.patrickatkins.co.uk": [
+            "https://www.patrickatkins.co.uk/"
+        ]
+    }
+}

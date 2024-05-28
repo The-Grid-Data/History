@@ -1,0 +1,25 @@
+{
+    "target_url": "https://ethereum.org/en/bug-bounty/",
+    "domains": {
+        "ethereum.org": [
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fbesu.cd867de4.png&w=128&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fbesu.cd867de4.png&w=48&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Ferigon.14d44b2d.png&w=128&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Ferigon.14d44b2d.png&w=48&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fgeth.3aab6f0d.png&w=128&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fgeth.3aab6f0d.png&w=48&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Flighthouse-light.a4c06b89.png&w=128&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Flighthouse-light.a4c06b89.png&w=48&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Flodestar.07807ed0.png&w=128&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Flodestar.07807ed0.png&w=48&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fnethermind.faad9340.png&w=128&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fnethermind.faad9340.png&w=48&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fnimbus-cloud.5e4c680a.png&w=128&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fnimbus-cloud.5e4c680a.png&w=48&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fprysm.75acb4e1.png&w=128&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fprysm.75acb4e1.png&w=48&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fteku-dark.17d2ef40.png&w=128&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fteku-dark.17d2ef40.png&w=48&q=75"
+        ]
+    }
+}
