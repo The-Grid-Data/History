@@ -1,0 +1,128 @@
+{
+    "target_url": "https://solana.com/de/developers/guides/javascript/compressed-nfts",
+    "domains": {
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "developer.mozilla.org": [
+            "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        ],
+        "docs.metaplex.com": [
+            "https://docs.metaplex.com/programs/compression/",
+            "https://docs.metaplex.com/programs/token-metadata/accounts#metadata",
+            "https://docs.metaplex.com/programs/token-metadata/certified-collections#collection-nfts"
+        ],
+        "docs.solana.com": [
+            "https://docs.solana.com/developing/programming-model/calling-between-programs#cross-program-invocations",
+            "https://docs.solana.com/learn/state-compression",
+            "https://docs.solana.com/learn/state-compression#canopy-depth",
+            "https://docs.solana.com/learn/state-compression#sizing-a-concurrent-merkle-tree",
+            "https://docs.solana.com/learn/state-compression#what-is-a-concurrent-merkle-tree",
+            "https://docs.solana.com/learn/state-compression#what-is-a-merkle-tree",
+            "https://docs.solana.com/terminology#account",
+            "https://docs.solana.com/terminology#keypair",
+            "https://docs.solana.com/terminology#ledger",
+            "https://docs.solana.com/terminology#public-key-pubkey"
+        ],
+        "github.com": [
+            "https://github.com/solana-developers/compressed-nfts",
+            "https://github.com/solana-foundation/developer-content/tree/main/content/guides/javascript/compressed-nfts.md"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "metaplex-foundation.github.io": [
+            "https://metaplex-foundation.github.io/metaplex-program-library/docs/bubblegum/functions/createCreateTreeInstruction.html",
+            "https://metaplex-foundation.github.io/metaplex-program-library/docs/bubblegum/functions/createTransferInstruction.html"
+        ],
+        "metaplex-read-api.surge.sh": [
+            "https://metaplex-read-api.surge.sh/"
+        ],
+        "solana-labs.github.io": [
+            "https://solana-labs.github.io/solana-program-library/account-compression/sdk/docs/classes/index.ConcurrentMerkleTreeAccount.html",
+            "https://solana-labs.github.io/solana-program-library/account-compression/sdk/docs/modules/index.html#ValidDepthSizePair",
+            "https://solana-labs.github.io/solana-program-library/account-compression/sdk/modules/index.html#createAllocTreeIx",
+            "https://solana-labs.github.io/solana-web3.js/classes/PublicKey.html"
+        ],
+        "solana.com": [
+            "https://solana.com/de",
+            "https://solana.com/de/branding",
+            "https://solana.com/de/developers",
+            "https://solana.com/de/developers/cookbook",
+            "https://solana.com/de/developers/guides",
+            "https://solana.com/de/developers/guides/compressed-nfts",
+            "https://solana.com/de/developers/guides/intro/wallets-explained",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#a-note-about-the-asset-id",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#build-and-send-the-transaction",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#build-the-transfer-instruction",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#build-the-tree-creation-instructions",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#collection-addresses",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#common-read-api-methods",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#compressed-nfts-and-indexers",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#create-a-collection",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#create-a-tree",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#create-the-mint-instruction",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#define-our-nft-s-metadata",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#derive-the-bubblegum-signer",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#example-code-repository",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#example-read-api-request",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#example-read-api-response",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#example-response-from-the-object-object-method",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#full-proof-is-returned",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#generate-addresses-for-the-tree",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#get-the-asset",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#get-the-asset-proof",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#get-the-merkle-tree-account",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#getting-started",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#how-to-mint-compressed-nfts",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#how-to-transfer-a-compressed-nft",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#intro-to-compressed-nfts",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#metadata-is-secured-by-the-ledger-and-cached-by-indexers",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#mint-compressed-nfts",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#prepare-the-asset-proof",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#project-setup",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#read-api-methods-schema-and-specification",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#reading-compressed-nfts-metadata",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#send-the-transaction",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#sign-and-send-the-transaction",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#size-your-tree",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#transfer-compressed-nfts",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#tree-vs-collection",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#using-the-read-api",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts#what-is-a-merkle-proof",
+            "https://solana.com/de/developers/guides/permissioned-environments",
+            "https://solana.com/de/developers/guides?difficulty=intermediate",
+            "https://solana.com/de/developers/guides?tags=compression",
+            "https://solana.com/de/developers/guides?tags=metaplex",
+            "https://solana.com/de/docs",
+            "https://solana.com/de/docs/rpc",
+            "https://solana.com/de/docs/terminology",
+            "https://solana.com/de/ecosystem",
+            "https://solana.com/de/news",
+            "https://solana.com/de/newsletter",
+            "https://solana.com/de/privacy-policy",
+            "https://solana.com/de/privacy-policy#collection-of-information",
+            "https://solana.com/de/tos",
+            "https://solana.com/discord",
+            "https://solana.com/github",
+            "https://solana.com/reddit",
+            "https://solana.com/telegram",
+            "https://solana.com/twitter",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ],
+        "spl.solana.com": [
+            "https://spl.solana.com/token"
+        ],
+        "www.npmjs.com": [
+            "https://www.npmjs.com/package/@metaplex-foundation/mpl-bubblegum",
+            "https://www.npmjs.com/package/@metaplex-foundation/mpl-token-metadata",
+            "https://www.npmjs.com/package/@solana/spl-account-compression",
+            "https://www.npmjs.com/package/@solana/spl-token",
+            "https://www.npmjs.com/package/@solana/web3.js"
+        ]
+    }
+}

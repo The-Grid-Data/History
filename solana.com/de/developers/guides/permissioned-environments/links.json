@@ -1,0 +1,77 @@
+{
+    "target_url": "https://solana.com/de/developers/guides/permissioned-environments",
+    "domains": {
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "docs.docker.com": [
+            "https://docs.docker.com/get-docker/"
+        ],
+        "github.com": [
+            "https://github.com/monogon-dev/solana-spe",
+            "https://github.com/solana-foundation/developer-content/tree/main/content/guides/permissioned-environments/index.md"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "solana.com": [
+            "https://solana.com/de",
+            "https://solana.com/de/branding",
+            "https://solana.com/de/developers",
+            "https://solana.com/de/developers/cookbook",
+            "https://solana.com/de/developers/guides",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts",
+            "https://solana.com/de/developers/guides/permissioned-environments",
+            "https://solana.com/de/developers/guides/permissioned-environments#conclusion",
+            "https://solana.com/de/developers/guides/permissioned-environments#customizing-your-spe",
+            "https://solana.com/de/developers/guides/permissioned-environments#how-do-i-deploy-a-solana-permissioned-environment",
+            "https://solana.com/de/developers/guides/permissioned-environments#how-to-deploy-a-spe-locally",
+            "https://solana.com/de/developers/guides/permissioned-environments#level-1-native-tokenization",
+            "https://solana.com/de/developers/guides/permissioned-environments#level-2-utilizing-existing-solana-programs",
+            "https://solana.com/de/developers/guides/permissioned-environments#level-3-custom-programs",
+            "https://solana.com/de/developers/guides/permissioned-environments#prerequisites",
+            "https://solana.com/de/developers/guides/permissioned-environments#setting-up-your-spe",
+            "https://solana.com/de/developers/guides/permissioned-environments#step-1-clone-the-repository",
+            "https://solana.com/de/developers/guides/permissioned-environments#step-2-understanding-the-repository-structure",
+            "https://solana.com/de/developers/guides/permissioned-environments#step-3-deploying-with-docker",
+            "https://solana.com/de/developers/guides/permissioned-environments#step-4-verifying-the-deployment",
+            "https://solana.com/de/developers/guides/permissioned-environments#what-are-the-levels-of-integration-with-solana-permissioned-environments",
+            "https://solana.com/de/developers/guides/permissioned-environments#why-should-you-build-with-solana-permissioned-environments",
+            "https://solana.com/de/developers/guides/rpc/configure-solana-rpc-on-aws",
+            "https://solana.com/de/developers/guides?difficulty=intermediate",
+            "https://solana.com/de/developers/guides?tags=SPE",
+            "https://solana.com/de/developers/guides?tags=permissioned%20environments",
+            "https://solana.com/de/docs",
+            "https://solana.com/de/docs/rpc",
+            "https://solana.com/de/docs/terminology",
+            "https://solana.com/de/ecosystem",
+            "https://solana.com/de/news",
+            "https://solana.com/de/newsletter",
+            "https://solana.com/de/privacy-policy",
+            "https://solana.com/de/privacy-policy#collection-of-information",
+            "https://solana.com/de/tos",
+            "https://solana.com/discord",
+            "https://solana.com/github",
+            "https://solana.com/reddit",
+            "https://solana.com/telegram",
+            "https://solana.com/twitter",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ],
+        "spl.solana.com": [
+            "https://spl.solana.com/",
+            "https://spl.solana.com/token"
+        ],
+        "triton.one": [
+            "https://triton.one/"
+        ],
+        "www.edgevana.com": [
+            "https://www.edgevana.com/"
+        ],
+        "www.helius.dev": [
+            "https://www.helius.dev/"
+        ]
+    }
+}
