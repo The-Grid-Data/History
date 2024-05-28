@@ -1,0 +1,76 @@
+{
+    "target_url": "https://solana.com/de/developers/guides/getstarted/local-rust-hello-world",
+    "domains": {
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "doc.rust-lang.org": [
+            "https://doc.rust-lang.org/std/result/"
+        ],
+        "docs.solana.com": [
+            "https://docs.solana.com/cluster/commitments",
+            "https://docs.solana.com/developing/on-chain-programs/debugging",
+            "https://docs.solana.com/developing/on-chain-programs/debugging#logging",
+            "https://docs.solana.com/developing/on-chain-programs/developing-rust",
+            "https://docs.solana.com/developing/on-chain-programs/developing-rust#program-entrypoint",
+            "https://docs.solana.com/developing/on-chain-programs/faq#berkeley-packet-filter-bpf",
+            "https://docs.solana.com/developing/on-chain-programs/overview",
+            "https://docs.solana.com/developing/test-validator"
+        ],
+        "github.com": [
+            "https://github.com/solana-foundation/developer-content/tree/main/content/guides/getstarted/local-rust-hello-world.md"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "rustup.rs": [
+            "https://rustup.rs/"
+        ],
+        "solana.com": [
+            "https://solana.com/de",
+            "https://solana.com/de/branding",
+            "https://solana.com/de/developers",
+            "https://solana.com/de/developers/cookbook",
+            "https://solana.com/de/developers/guides",
+            "https://solana.com/de/developers/guides/getstarted/intro-to-native-rust",
+            "https://solana.com/de/developers/guides/getstarted/local-rust-hello-world",
+            "https://solana.com/de/developers/guides/getstarted/local-rust-hello-world#build-your-rust-program",
+            "https://solana.com/de/developers/guides/getstarted/local-rust-hello-world#congratulations",
+            "https://solana.com/de/developers/guides/getstarted/local-rust-hello-world#create-a-new-rust-library-with-cargo",
+            "https://solana.com/de/developers/guides/getstarted/local-rust-hello-world#create-your-first-solana-program",
+            "https://solana.com/de/developers/guides/getstarted/local-rust-hello-world#deploy-your-solana-program",
+            "https://solana.com/de/developers/guides/getstarted/local-rust-hello-world#install-rust-and-cargo",
+            "https://solana.com/de/developers/guides/getstarted/local-rust-hello-world#next-steps",
+            "https://solana.com/de/developers/guides/getstarted/local-rust-hello-world#run-your-localhost-validator",
+            "https://solana.com/de/developers/guides/getstarted/local-rust-hello-world#what-you-will-learn",
+            "https://solana.com/de/developers/guides/getstarted/rust-to-solana",
+            "https://solana.com/de/developers/guides/setup-local-development",
+            "https://solana.com/de/developers/guides?difficulty=intro",
+            "https://solana.com/de/developers/guides?tags=local",
+            "https://solana.com/de/developers/guides?tags=native",
+            "https://solana.com/de/developers/guides?tags=quickstart",
+            "https://solana.com/de/developers/guides?tags=rust",
+            "https://solana.com/de/docs",
+            "https://solana.com/de/docs/rpc",
+            "https://solana.com/de/docs/terminology",
+            "https://solana.com/de/ecosystem",
+            "https://solana.com/de/news",
+            "https://solana.com/de/newsletter",
+            "https://solana.com/de/privacy-policy",
+            "https://solana.com/de/privacy-policy#collection-of-information",
+            "https://solana.com/de/tos",
+            "https://solana.com/discord",
+            "https://solana.com/github",
+            "https://solana.com/reddit",
+            "https://solana.com/telegram",
+            "https://solana.com/twitter",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ],
+        "solana.stackexchange.com": [
+            "https://solana.stackexchange.com/questions/9798/error-building-program-with-solana-program-v1-18-and-cli-v1-17/9799"
+        ]
+    }
+}

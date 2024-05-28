@@ -1,0 +1,19 @@
+{
+    "target_url": "https://solana.com/de/developers/guides/getstarted/rust-to-solana",
+    "domains": {
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=c875cb6d-4803-48f6-a0b1-e91cd42eaa31&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=c16cfde2-7c52-40ff-8bc7-cef16435c23e&tw_document_href=https%3A%2F%2Fsolana.com%2Fde%2Fdevelopers%2Fguides%2Fgetstarted%2Frust-to-solana&tw_iframe_status=0&txn_id=o6jgu&type=javascript&version=2.3.30"
+        ],
+        "solana-developer-content.vercel.app": [
+            "https://solana-developer-content.vercel.app/assets/guides/rust-to-solana/network-diagram.png",
+            "https://solana-developer-content.vercel.app/assets/guides/rust-to-solana/solana-playground.png"
+        ],
+        "solana.com": [
+            "https://solana.com/_next/image?url=%2Fopengraph%2Fdevelopers%2Fguides%2Fgetstarted%2Frust-to-solana&w=3840&q=75",
+            "https://solana.com/_next/static/media/logotype-dark.f79d530d.svg"
+        ],
+        "t.co": [
+            "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=c875cb6d-4803-48f6-a0b1-e91cd42eaa31&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=c16cfde2-7c52-40ff-8bc7-cef16435c23e&tw_document_href=https%3A%2F%2Fsolana.com%2Fde%2Fdevelopers%2Fguides%2Fgetstarted%2Frust-to-solana&tw_iframe_status=0&txn_id=o6jgu&type=javascript&version=2.3.30"
+        ]
+    }
+}
