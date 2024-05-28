@@ -1,0 +1,101 @@
+{
+    "target_url": "https://www.binance.com/en/trade?type=cross",
+    "domains": {
+        "academy.binance.com": [
+            "https://academy.binance.com/en/learn-and-earn"
+        ],
+        "accounts.binance.com": [
+            "https://accounts.binance.com/en/login?loginChannel=&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vdHJhZGUvQlRDX1VTRFQ%2FdHlwZT1zcG90",
+            "https://accounts.binance.com/en/register?registerChannel=&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vdHJhZGUvQlRDX1VTRFQ%2FdHlwZT1zcG90",
+            "https://accounts.binance.com/login?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vdHJhZGUvQlRDX1VTRFQ_dHlwZT1jcm9zcw==",
+            "https://accounts.binance.com/register?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vdHJhZGUvQlRDX1VTRFQ_dHlwZT1jcm9zcw=="
+        ],
+        "launchpad.binance.com": [
+            "https://launchpad.binance.com/en"
+        ],
+        "p2p.binance.com": [
+            "https://p2p.binance.com/en"
+        ],
+        "pool.binance.com": [
+            "https://pool.binance.com/en"
+        ],
+        "www.binance.charity": [
+            "https://www.binance.charity"
+        ],
+        "www.binance.com": [
+            "https://www.binance.com/en",
+            "https://www.binance.com/en/binance-api",
+            "https://www.binance.com/en/blog",
+            "https://www.binance.com/en/convert",
+            "https://www.binance.com/en/cookie-privacy",
+            "https://www.binance.com/en/copy-trading",
+            "https://www.binance.com/en/crypto/buy",
+            "https://www.binance.com/en/delivery",
+            "https://www.binance.com/en/download?utm_source=&utm_campaign=",
+            "https://www.binance.com/en/earn",
+            "https://www.binance.com/en/eoptions",
+            "https://www.binance.com/en/fan-token",
+            "https://www.binance.com/en/futures",
+            "https://www.binance.com/en/futures/home",
+            "https://www.binance.com/en/loan",
+            "https://www.binance.com/en/markets/overview",
+            "https://www.binance.com/en/megadrop",
+            "https://www.binance.com/en/my/wallet/account/payment",
+            "https://www.binance.com/en/nft/home",
+            "https://www.binance.com/en/research",
+            "https://www.binance.com/en/square",
+            "https://www.binance.com/en/support/announcement/181a7b54486d4d1a8f06d82567f5cf12",
+            "https://www.binance.com/en/support/announcement/950fc34eec1d4a1b883cc44218a6c901",
+            "https://www.binance.com/en/support/announcement/ee27e69ee5b0421a9075acae73f9a00e",
+            "https://www.binance.com/en/trade/1INCH_BTC",
+            "https://www.binance.com/en/trade/AAVE_BTC",
+            "https://www.binance.com/en/trade/ACA_BTC",
+            "https://www.binance.com/en/trade/ACE_BTC",
+            "https://www.binance.com/en/trade/ACH_BTC",
+            "https://www.binance.com/en/trade/ADA_BTC",
+            "https://www.binance.com/en/trade/ADX_BTC",
+            "https://www.binance.com/en/trade/AEVO_BTC",
+            "https://www.binance.com/en/trade/AGIX_BTC",
+            "https://www.binance.com/en/trade/AGLD_BTC",
+            "https://www.binance.com/en/trade/AI_BTC",
+            "https://www.binance.com/en/trade/ALCX_BTC",
+            "https://www.binance.com/en/trade/ALGO_BTC",
+            "https://www.binance.com/en/trade/ALICE_BTC",
+            "https://www.binance.com/en/trade/ALPACA_BTC",
+            "https://www.binance.com/en/trade/BTC_USDT?type=spot",
+            "https://www.binance.com/en/trade?type=cross",
+            "https://www.binance.com/en/trading-bots",
+            "https://www.binance.com/en/vip-institutional-services",
+            "https://www.binance.com/en/web3wallet",
+            "https://www.binance.com/orderbook/BTC_USDT",
+            "https://www.binance.com/price/bitcoin",
+            "https://www.binance.com/support/faq/18c97e8ab67a4e1b824edd590cae9f16",
+            "https://www.binance.com/trade/BB_USDT",
+            "https://www.binance.com/trade/BNB_USDT",
+            "https://www.binance.com/trade/BOME_USDT",
+            "https://www.binance.com/trade/BONK_USDT",
+            "https://www.binance.com/trade/BTC_USDT",
+            "https://www.binance.com/trade/CHZ_USDT",
+            "https://www.binance.com/trade/DOGE_USDT",
+            "https://www.binance.com/trade/ETH_USDT",
+            "https://www.binance.com/trade/FLOKI_USDT",
+            "https://www.binance.com/trade/LTC_USDT",
+            "https://www.binance.com/trade/MEME_USDT",
+            "https://www.binance.com/trade/NEAR_USDT",
+            "https://www.binance.com/trade/NOT_USDT",
+            "https://www.binance.com/trade/PEOPLE_USDT",
+            "https://www.binance.com/trade/PEPE_USDT",
+            "https://www.binance.com/trade/SHIB_USDT",
+            "https://www.binance.com/trade/SOL_USDT",
+            "https://www.binance.com/trade/TIA_USDT",
+            "https://www.binance.com/trade/WIF_USDT",
+            "https://www.binance.com/trade/XRP_USDT"
+        ],
+        "www.bnbchain.org": [
+            "https://www.bnbchain.org"
+        ],
+        "www.onetrust.com": [
+            "https://www.onetrust.com/products/cookie-consent/"
+        ]
+    }
+}
