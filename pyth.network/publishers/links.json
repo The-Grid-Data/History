@@ -1,0 +1,394 @@
+{
+    "target_url": "https://pyth.network/publishers",
+    "domains": {
+        "0x.org": [
+            "https://0x.org/"
+        ],
+        "aftermath.finance": [
+            "https://aftermath.finance/"
+        ],
+        "akunacapital.com": [
+            "https://akunacapital.com/"
+        ],
+        "ambient.finance": [
+            "https://ambient.finance/"
+        ],
+        "argamon.com": [
+            "https://argamon.com/"
+        ],
+        "astroport.fi": [
+            "https://astroport.fi/"
+        ],
+        "binance.com": [
+            "https://binance.com/"
+        ],
+        "bitbank.cc": [
+            "https://bitbank.cc/en/"
+        ],
+        "bitso.com": [
+            "https://bitso.com/"
+        ],
+        "caladan.xyz": [
+            "https://caladan.xyz/"
+        ],
+        "coin.z.com": [
+            "https://coin.z.com/jp/"
+        ],
+        "coinmetrics.io": [
+            "https://coinmetrics.io/"
+        ],
+        "coinshares.com": [
+            "https://coinshares.com/"
+        ],
+        "cumberland.io": [
+            "https://cumberland.io/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/PythNetwork",
+            "https://discord.gg/invite/PythNetwork"
+        ],
+        "docs.pyth.network": [
+            "https://docs.pyth.network/benchmarks/how-to-create-tradingview-charts",
+            "https://docs.pyth.network/documentation/",
+            "https://docs.pyth.network/home/metrics/kpi",
+            "https://docs.pyth.network/price-feeds/api-reference",
+            "https://docs.pyth.network/price-feeds/contract-addresses",
+            "https://docs.pyth.network/price-feeds/create-your-first-pyth-app",
+            "https://docs.pyth.network/price-feeds/getting-started",
+            "https://docs.pyth.network/price-feeds/pull-updates",
+            "https://docs.pyth.network/price-feeds/use-real-time-data",
+            "https://docs.pyth.network/price-feeds/use-real-time-data/aptos",
+            "https://docs.pyth.network/price-feeds/use-real-time-data/cosmwasm",
+            "https://docs.pyth.network/price-feeds/use-real-time-data/evm",
+            "https://docs.pyth.network/price-feeds/use-real-time-data/near",
+            "https://docs.pyth.network/price-feeds/use-real-time-data/solana",
+            "https://docs.pyth.network/price-feeds/use-real-time-data/sui"
+        ],
+        "dune.com": [
+            "https://dune.com/cctdaniel/pyth-oracle"
+        ],
+        "dvchain.co": [
+            "https://dvchain.co/"
+        ],
+        "finazon.io": [
+            "https://finazon.io/"
+        ],
+        "folkvang.io": [
+            "https://folkvang.io/"
+        ],
+        "forum.pyth.network": [
+            "https://forum.pyth.network"
+        ],
+        "geneva-trading.com": [
+            "https://geneva-trading.com/"
+        ],
+        "github.com": [
+            "https://github.com/pyth-network",
+            "https://github.com/pyth-network/audit-reports"
+        ],
+        "huobi.com": [
+            "https://huobi.com/"
+        ],
+        "iexcloud.io": [
+            "https://iexcloud.io/"
+        ],
+        "jstcap.com": [
+            "https://jstcap.com/"
+        ],
+        "kronosresearch.com": [
+            "https://kronosresearch.com/"
+        ],
+        "memx.com": [
+            "https://memx.com/"
+        ],
+        "osl.com": [
+            "https://osl.com/"
+        ],
+        "osmosis.zone": [
+            "https://osmosis.zone/"
+        ],
+        "pyth-network.typeform.com": [
+            "https://pyth-network.typeform.com/PythDPA"
+        ],
+        "pyth.network": [
+            "https://pyth.network/",
+            "https://pyth.network/about",
+            "https://pyth.network/airdrop",
+            "https://pyth.network/benchmarks",
+            "https://pyth.network/blog",
+            "https://pyth.network/bounty",
+            "https://pyth.network/brand",
+            "https://pyth.network/careers",
+            "https://pyth.network/community",
+            "https://pyth.network/consumers",
+            "https://pyth.network/contact",
+            "https://pyth.network/data-driven",
+            "https://pyth.network/developers",
+            "https://pyth.network/developers/price-feed-ids",
+            "https://pyth.network/disclaimer",
+            "https://pyth.network/grants",
+            "https://pyth.network/guides",
+            "https://pyth.network/mediaroom",
+            "https://pyth.network/mediaroom/news",
+            "https://pyth.network/mediaroom/podcasts",
+            "https://pyth.network/mediaroom/videos",
+            "https://pyth.network/node-providers",
+            "https://pyth.network/press",
+            "https://pyth.network/price-feeds",
+            "https://pyth.network/privacy-policy",
+            "https://pyth.network/publishers",
+            "https://pyth.network/publishers/ranking",
+            "https://pyth.network/pyth-vs-chainlink",
+            "https://pyth.network/stats",
+            "https://pyth.network/terms-of-use",
+            "https://pyth.network/usecases",
+            "https://pyth.network/usecases/decentralized-borrowing-lending",
+            "https://pyth.network/usecases/options-trading",
+            "https://pyth.network/usecases/perpetual-futures",
+            "https://pyth.network/usecases/stablecoin-protocols"
+        ],
+        "qcp.capital": [
+            "https://qcp.capital/"
+        ],
+        "quiver.trade": [
+            "https://quiver.trade/"
+        ],
+        "radix-trading.com": [
+            "https://radix-trading.com/"
+        ],
+        "radkl.io": [
+            "https://radkl.io"
+        ],
+        "raydium.io": [
+            "https://raydium.io/"
+        ],
+        "sig.com": [
+            "https://sig.com/"
+        ],
+        "skynettrading.com": [
+            "https://skynettrading.com/"
+        ],
+        "staking.pyth.network": [
+            "https://staking.pyth.network"
+        ],
+        "swissborg.com": [
+            "https://swissborg.com/"
+        ],
+        "t.me": [
+            "https://t.me/Pyth_Network"
+        ],
+        "talos.com": [
+            "https://talos.com/"
+        ],
+        "traderjoexyz.com": [
+            "https://traderjoexyz.com/"
+        ],
+        "trebuchet.network": [
+            "https://trebuchet.network/"
+        ],
+        "unitedfintech.com": [
+            "https://unitedfintech.com/ttm-zero/"
+        ],
+        "usenobi.com": [
+            "https://usenobi.com/"
+        ],
+        "valour.com": [
+            "https://valour.com"
+        ],
+        "www.adaptivefrontier.com": [
+            "https://www.adaptivefrontier.com/"
+        ],
+        "www.alphanonce.com": [
+            "https://www.alphanonce.com/"
+        ],
+        "www.altonomy.com": [
+            "https://www.altonomy.com/"
+        ],
+        "www.ambergroup.io": [
+            "https://www.ambergroup.io/"
+        ],
+        "www.apifiny.com": [
+            "https://www.apifiny.com/"
+        ],
+        "www.aquanow.io": [
+            "https://www.aquanow.io/"
+        ],
+        "www.auros.global": [
+            "https://www.auros.global/"
+        ],
+        "www.belvederetrading.com": [
+            "http://www.belvederetrading.com/"
+        ],
+        "www.bitmart.com": [
+            "https://www.bitmart.com/"
+        ],
+        "www.bitstamp.net": [
+            "https://www.bitstamp.net/"
+        ],
+        "www.bsx.com": [
+            "https://www.bsx.com/"
+        ],
+        "www.btse.com": [
+            "https://www.btse.com/en/home/"
+        ],
+        "www.bybit.com": [
+            "https://www.bybit.com/"
+        ],
+        "www.cables.finance": [
+            "https://www.cables.finance/"
+        ],
+        "www.cboe.com": [
+            "https://www.cboe.com/"
+        ],
+        "www.cetus.zone": [
+            "https://www.cetus.zone/"
+        ],
+        "www.chicagotrading.com": [
+            "https://www.chicagotrading.com/"
+        ],
+        "www.chiliz.net": [
+            "https://www.chiliz.net/"
+        ],
+        "www.cmsholdings.io": [
+            "http://www.cmsholdings.io/"
+        ],
+        "www.d2x.com": [
+            "https://www.d2x.com/"
+        ],
+        ""www.digitalassetresearch.com": [
+            "https://www.digitalassetresearch.com/"
+        ],
+        "www.fbg.capital": [
+            "https://www.fbg.capital/"
+        ],
+        "www.flowdesk.co": [
+            "https://www.flowdesk.co/"
+        ],
+        "www.flowtraders.com": [
+            "https://www.flowtraders.com/"
+        ],
+        "www.galaxydigital.io": [
+            "https://www.galaxydigital.io/"
+        ],
+        "www.gate.io": [
+            "https://www.gate.io/"
+        ],
+        "www.gemini.com": [
+            "https://www.gemini.com/"
+        ],
+        "www.ghco.co.uk": [
+            "https://www.ghco.co.uk/"
+        ],
+        "www.gresearch.co.uk": [
+            "https://www.gresearch.co.uk/"
+        ],
+        "www.hudsonrivertrading.com": [
+            "https://www.hudsonrivertrading.com/"
+        ],
+        "www.imc.com": [
+            "https://www.imc.com/"
+        ],
+        "www.janestreet.com": [
+            "https://www.janestreet.com/"
+        ],
+        "www.jumptrading.com": [
+            "https://www.jumptrading.com/"
+        ],
+        "www.kaiko.com": [
+            "https://www.kaiko.com/"
+        ],
+        "www.kgieworld.sg": [
+            "https://www.kgieworld.sg/"
+        ],
+        "www.kucoin.com": [
+            "https://www.kucoin.com/"
+        ],
+        "www.laserdigital.com": [
+            "https://www.laserdigital.com/"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/pyth-network"
+        ],
+        "www.liquiditytech.com": [
+            "https://www.liquiditytech.com/"
+        ],
+        "www.lmax.com": [
+            "https://www.lmax.com/about/"
+        ],
+        "www.mcaptech.com": [
+            "https://www.mcaptech.com/"
+        ],
+        "www.meteora.ag": [
+            "https://www.meteora.ag/"
+        ],
+        "www.mexc.com": [
+            "https://www.mexc.com/"
+        ],
+        "www.mrgnresearch.com": [
+            "https://www.mrgnresearch.com/"
+        ],
+        "www.okx.com": [
+            "https://www.okx.com/"
+        ],
+        "www.optiver.com": [
+            "https://www.optiver.com/"
+        ],
+        "www.orca.so": [
+            "https://www.orca.so/"
+        ],
+        "www.portofino.tech": [
+            "https://www.portofino.tech/"
+        ],
+        "www.profluenttrading.com": [
+            "https://www.profluenttrading.com/"
+        ],
+        "www.pulsar.com": [
+            "https://www.pulsar.com/"
+        ],
+        "www.scrypt.swiss": [
+            "https://www.scrypt.swiss/"
+        ],
+        "www.selinicapital.com": [
+            "https://www.selinicapital.com/"
+        ],
+        "www.serablock.com": [
+            "https://www.serablock.com/"
+        ],
+        "www.synfutures.com": [
+            "https://www.synfutures.com/"
+        ],
+        "www.thala.fi": [
+            "https://www.thala.fi/"
+        ],
+        "www.timeresearch.com": [
+            "https://www.timeresearch.com/"
+        ],
+        "www.tower-research.com": [
+            "https://www.tower-research.com/"
+        ],
+        "www.twosigma.com": [
+            "https://www.twosigma.com/businesses/securities/"
+        ],
+        "www.virtu.com": [
+            "https://www.virtu.com/"
+        ],
+        "www.wintermute.com": [
+            "https://www.wintermute.com/"
+        ],
+        "www.xbto.com": [
+            "https://www.xbto.com/"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/channel/UCjCkvPN9ohl0UDvldfn1neg"
+        ],
+        "x.com": [
+            "https://x.com/PythNetwork"
+        ],
+        "x.woo.org": [
+            "https://x.woo.org/en/trade"
+        ],
+        "xrtrading.com": [
+            "https://xrtrading.com/"
+        ]
+    }
+}
