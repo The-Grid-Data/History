@@ -1,0 +1,42 @@
+{
+    "target_url": "https://aurory.io/code-of-conduct",
+    "domains": {
+        "app.aurory.io": [
+            "https://app.aurory.io/",
+            "https://app.aurory.io/buy-aury",
+            "https://app.aurory.io/marketplace"
+        ],
+        "aurory.io": [
+            "https://aurory.io/",
+            "https://aurory.io/about-us/",
+            "https://aurory.io/code-of-conduct/",
+            "https://aurory.io/privacy-policy/",
+            "https://aurory.io/terms-of-use",
+            "https://aurory.io/terms-of-use/"
+        ],
+        "aurory.substack.com": [
+            "https://aurory.substack.com/?utm_source=substack&utm_medium=web&utm_campaign=reader2&utm_source=%2Fsearch%2Faurory&utm_medium=reader2"
+        ],
+        "discord.gg": [
+            "https://discord.gg/aurory-project-836601552130801676"
+        ],
+        "docs.aurory.io": [
+            "https://docs.aurory.io/aurory-faqs/",
+            "https://docs.aurory.io/aurory-faqs/support",
+            "https://docs.aurory.io/aurory-patch-notes/",
+            "https://docs.aurory.io/aurory-whitepaper/"
+        ],
+        "t.me": [
+            "https://t.me/aurory_project"
+        ],
+        "twitter.com": [
+            "https://twitter.com/AuroryProject"
+        ],
+        "www.instagram.com": [
+            "https://www.instagram.com/auroryproject/"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/channel/UCcJNmpgOE3CpqQls8UH1mRw"
+        ]
+    }
+}
