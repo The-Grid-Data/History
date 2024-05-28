@@ -238,9 +238,3 @@ On this page
   * What Should I Read?
   * What If I Need More Help?
 
-This site uses cookies to deliver its service and to analyse traffic. By
-browsing this site, you accept the [privacy
-policy](https://policies.gitbook.com/privacy/cookies).
-
-AcceptReject
-
