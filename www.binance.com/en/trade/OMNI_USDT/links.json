@@ -1,0 +1,58 @@
+{
+    "target_url": "https://www.binance.com/en/trade/OMNI_USDT",
+    "domains": {
+        "academy.binance.com": [
+            "https://academy.binance.com/en/learn-and-earn"
+        ],
+        "accounts.binance.com": [
+            "https://accounts.binance.com/en/login?loginChannel=&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vdHJhZGUvT01OSV9VU0RU",
+            "https://accounts.binance.com/en/register?registerChannel=&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vdHJhZGUvT01OSV9VU0RU"
+        ],
+        "launchpad.binance.com": [
+            "https://launchpad.binance.com/en"
+        ],
+        "p2p.binance.com": [
+            "https://p2p.binance.com/en"
+        ],
+        "pool.binance.com": [
+            "https://pool.binance.com/en"
+        ],
+        "www.binance.charity": [
+            "https://www.binance.charity"
+        ],
+        "www.binance.com": [
+            "https://www.binance.com/en",
+            "https://www.binance.com/en/binance-api",
+            "https://www.binance.com/en/blog",
+            "https://www.binance.com/en/convert",
+            "https://www.binance.com/en/copy-trading",
+            "https://www.binance.com/en/crypto/buy",
+            "https://www.binance.com/en/delivery",
+            "https://www.binance.com/en/download?utm_source=&utm_campaign=",
+            "https://www.binance.com/en/earn",
+            "https://www.binance.com/en/eoptions",
+            "https://www.binance.com/en/fan-token",
+            "https://www.binance.com/en/futures",
+            "https://www.binance.com/en/futures/home",
+            "https://www.binance.com/en/loan",
+            "https://www.binance.com/en/markets/overview",
+            "https://www.binance.com/en/megadrop",
+            "https://www.binance.com/en/my/wallet/account/payment",
+            "https://www.binance.com/en/nft/home",
+            "https://www.binance.com/en/research",
+            "https://www.binance.com/en/square",
+            "https://www.binance.com/en/support/announcement/181a7b54486d4d1a8f06d82567f5cf12",
+            "https://www.binance.com/en/support/announcement/950fc34eec1d4a1b883cc44218a6c901",
+            "https://www.binance.com/en/support/announcement/ee27e69ee5b0421a9075acae73f9a00e",
+            "https://www.binance.com/en/trade/BTC_USDT?type=spot",
+            "https://www.binance.com/en/trade?type=cross",
+            "https://www.binance.com/en/trading-bots",
+            "https://www.binance.com/en/vip-institutional-services",
+            "https://www.binance.com/en/web3wallet",
+            "https://www.binance.com/support/faq/18c97e8ab67a4e1b824edd590cae9f16"
+        ],
+        "www.bnbchain.org": [
+            "https://www.bnbchain.org"
+        ]
+    }
+}
