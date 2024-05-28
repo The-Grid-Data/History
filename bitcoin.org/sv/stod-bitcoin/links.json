@@ -1,0 +1,110 @@
+{
+    "target_url": "https://bitcoin.org/sv/stod-bitcoin",
+    "domains": {
+        "": [
+            "bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"
+        ],
+        "bitcoin.org": [
+            "https://bitcoin.org/ar/support-bitcoin",
+            "https://bitcoin.org/bg/support-bitcoin",
+            "https://bitcoin.org/ca/dona-suport-a-bitcoin",
+            "https://bitcoin.org/da/stoet-bitcoin",
+            "https://bitcoin.org/de/bitcoin-unterstuetzen",
+            "https://bitcoin.org/el/support-bitcoin",
+            "https://bitcoin.org/en/alerts",
+            "https://bitcoin.org/en/blog",
+            "https://bitcoin.org/en/full-node",
+            "https://bitcoin.org/en/privacy",
+            "https://bitcoin.org/en/support-bitcoin",
+            "https://bitcoin.org/es/apoya-bitcoin",
+            "https://bitcoin.org/fa/support-bitcoin",
+            "https://bitcoin.org/fr/supporter-bitcoin",
+            "https://bitcoin.org/he/support-bitcoin",
+            "https://bitcoin.org/hi/support-bitcoin",
+            "https://bitcoin.org/hu/tamogassa-a-bitcoint",
+            "https://bitcoin.org/hy/support-bitcoin",
+            "https://bitcoin.org/id/dukung-bitcoin",
+            "https://bitcoin.org/it/sostieni-bitcoin",
+            "https://bitcoin.org/ja/support-bitcoin",
+            "https://bitcoin.org/km/support-bitcoin",
+            "https://bitcoin.org/ko/support-bitcoin",
+            "https://bitcoin.org/nl/help-bitcoin",
+            "https://bitcoin.org/pl/wesprzyj-bitcoin",
+            "https://bitcoin.org/pt_BR/suporte-bitcoin",
+            "https://bitcoin.org/ro/sustine-bitcoin",
+            "https://bitcoin.org/ru/support-bitcoin",
+            "https://bitcoin.org/sl/podprite-bitcoin",
+            "https://bitcoin.org/sr/podrzite-bitkoin",
+            "https://bitcoin.org/sv/",
+            "https://bitcoin.org/sv/bitcoin-for-foretag",
+            "https://bitcoin.org/sv/bitcoin-for-privatpersoner",
+            "https://bitcoin.org/sv/bitcoinartikel",
+            "https://bitcoin.org/sv/borser",
+            "https://bitcoin.org/sv/community",
+            "https://bitcoin.org/sv/community#ideell",
+            "https://bitcoin.org/sv/du-behover-kanna-till",
+            "https://bitcoin.org/sv/evenemang",
+            "https://bitcoin.org/sv/faq",
+            "https://bitcoin.org/sv/hur-det-fungerar",
+            "https://bitcoin.org/sv/innovation",
+            "https://bitcoin.org/sv/juridiskt",
+            "https://bitcoin.org/sv/kom-igang",
+            "https://bitcoin.org/sv/kop",
+            "https://bitcoin.org/sv/ladda-ner",
+            "https://bitcoin.org/sv/om-oss",
+            "https://bitcoin.org/sv/ordlista",
+            "https://bitcoin.org/sv/press",
+            "https://bitcoin.org/sv/resurser",
+            "https://bitcoin.org/sv/stod-bitcoin",
+            "https://bitcoin.org/sv/stod-bitcoin#develop",
+            "https://bitcoin.org/sv/stod-bitcoin#donation",
+            "https://bitcoin.org/sv/stod-bitcoin#help",
+            "https://bitcoin.org/sv/stod-bitcoin#mining",
+            "https://bitcoin.org/sv/stod-bitcoin#node",
+            "https://bitcoin.org/sv/stod-bitcoin#nonprofit",
+            "https://bitcoin.org/sv/stod-bitcoin#spread",
+            "https://bitcoin.org/sv/stod-bitcoin#translate",
+            "https://bitcoin.org/sv/stod-bitcoin#use",
+            "https://bitcoin.org/sv/stod-bitcoin#wiki",
+            "https://bitcoin.org/sv/utveckling",
+            "https://bitcoin.org/tr/bitcoini-destekleyin",
+            "https://bitcoin.org/uk/support-bitcoin",
+            "https://bitcoin.org/zh_CN/support-bitcoin",
+            "https://bitcoin.org/zh_TW/support-bitcoin"
+        ],
+        "bitgivefoundation.org": [
+            "http://bitgivefoundation.org/donate/"
+        ],
+        "crowdin.com": [
+            "https://crowdin.com/project/electrum"
+        ],
+        "developer.bitcoin.org": [
+            "https://developer.bitcoin.org/"
+        ],
+        "en.bitcoin.it": [
+            "https://en.bitcoin.it/",
+            "https://en.bitcoin.it/wiki/Bitcoin.it_Wiki",
+            "https://en.bitcoin.it/wiki/Comparison_of_mining_pools"
+        ],
+        "github.com": [
+            "https://github.com/bitcoin-dot-org/bitcoin.org#how-to-participate"
+        ],
+        "opensource.org": [
+            "http://opensource.org/licenses/mit-license.php"
+        ],
+        "p2pool.in": [
+            "http://p2pool.in/"
+        ],
+        "usebitcoins.info": [
+            "http://usebitcoins.info/"
+        ],
+        "www.bitcoinmining.com": [
+            "http://www.bitcoinmining.com/"
+        ],
+        "www.transifex.com": [
+            "https://www.transifex.com/projects/p/bitcoin-wallet/",
+            "https://www.transifex.com/projects/p/bitcoin/",
+            "https://www.transifex.com/projects/p/bitcoinorg/"
+        ]
+    }
+}
