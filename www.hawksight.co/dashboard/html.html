@@ -1,0 +1,501 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Hawksight.co - Dashboard</title><link rel="preload" as="image" imagesrcset="/_next/image?url=%2Fassets%2Fimages%2Fgraphics%2Fwhite-hawksight.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimages%2Fgraphics%2Fwhite-hawksight.png&amp;w=384&amp;q=75 2x"><meta name="next-head-count" content="4"><meta charset="utf-8"><link rel="icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/logo192.png"><meta name="theme-color" content="#000000"><meta name="title" content="Hawksight | CLMM Yield Optimizer"><meta name="description" content="Concentrated liquidity yield optimizer on Solana with self-custodial &amp; automated market making strategies"><meta property="og:type" content="website"><meta property="og:url" content="https://hawksight.co/"><meta property="og:title" content="Hawksight | CLMM Yield Optimizer"><meta property="og:description" content="Concentrated liquidity yield optimizer on Solana with self-custodial &amp; automated market making strategies"><meta property="og:image" content="https://hawksight.co/banner.jpg"><meta property="twitter:card" content="summary_large_image"><meta property="twitter:url" content="https://hawksight.co/"><meta property="twitter:title" content="Hawksight | CLMM Yield Optimizer"><meta property="twitter:description" content="Concentrated liquidity yield optimizer on Solana with self-custodial &amp; automated market making strategies"><meta property="twitter:image" content="https://hawksight.co/banner.jpg"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""><link rel="manifest" href="/manifest.json"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""><link rel="preload" href="/_next/static/css/012fd5181b2fcbc3.css" as="style"><link rel="stylesheet" href="/_next/static/css/012fd5181b2fcbc3.css" data-n-g=""><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script><script src="/_next/static/chunks/webpack-7bef7b5aa0eecacb.js" defer=""></script><script src="/_next/static/chunks/framework-73b8966a3c579ab0.js" defer=""></script><script src="/_next/static/chunks/main-6260d066cf2cd7b1.js" defer=""></script><script src="/_next/static/chunks/pages/_app-5325c297f1faa7f8.js" defer=""></script><script src="/_next/static/chunks/554-34a89c5de5f27b50.js" defer=""></script><script src="/_next/static/chunks/710-c92958dde182b3e8.js" defer=""></script><script src="/_next/static/chunks/pages/dashboard-a0c7e8265bd15887.js" defer=""></script><script src="/_next/static/8bDuz6LmNHx3b3etlfg0N/_buildManifest.js" defer=""></script><script src="/_next/static/8bDuz6LmNHx3b3etlfg0N/_ssgManifest.js" defer=""></script><style data-styled="active" data-styled-version="5.3.10"></style><style data-href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;family=Roboto:wght@400;500&amp;display=swap">@font-face{font-family:'Poppins';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLDz8V1g.woff) format('woff')}@font-face{font-family:'Poppins';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v21/pxiEyp8kv8JHgFVrFJM.woff) format('woff')}@font-face{font-family:'Poppins';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLGT9V1g.woff) format('woff')}@font-face{font-family:'Poppins';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLEj6V1g.woff) format('woff')}@font-face{font-family:'Poppins';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLCz7V1g.woff) format('woff')}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Me5g.woff) format('woff')}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9vAA.woff) format('woff')}@font-face{font-family:'Poppins';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLDz8Z1JlFd2JQEl8qw.woff2) format('woff2');unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Poppins';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLDz8Z1xlFd2JQEk.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Poppins';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v21/pxiEyp8kv8JHgFVrJJnecnFHGPezSQ.woff2) format('woff2');unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Poppins';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v21/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Poppins';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLGT9Z1JlFd2JQEl8qw.woff2) format('woff2');unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Poppins';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Poppins';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLEj6Z1JlFd2JQEl8qw.woff2) format('woff2');unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Poppins';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Poppins';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLCz7Z1JlFd2JQEl8qw.woff2) format('woff2');unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Poppins';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCRc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fABc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCBc4AMP6lbBP.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fChc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}</style><script async="" src="https://static.hotjar.com/c/hotjar-3051992.js?sv=6"></script><link as="script" rel="prefetch" href="/_next/static/chunks/de71a805-f40df2116194c0ff.js"><link as="script" rel="prefetch" href="/_next/static/chunks/pages/index-f126da73c1abf29e.js"><link as="script" rel="prefetch" href="/_next/static/chunks/pages/strategies-e05fed9ae2d2d12f.js"><style type="text/css">.eruda-search-highlight-block{display:inline}.eruda-search-highlight-block .eruda-keyword{background:#fffbe5;color:#5c5c00}</style><script async="" src="https://script.hotjar.com/modules.7b6d7646601d8cd7fb5f.js" charset="utf-8"></script><style data-react-tooltip="true">.__react_component_tooltip {
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 13px;
+  left: -999em;
+  opacity: 0;
+  position: fixed;
+  pointer-events: none;
+  transition: opacity 0.3s ease-out;
+  top: -999em;
+  visibility: hidden;
+  z-index: 999;
+}
+.__react_component_tooltip.allow_hover, .__react_component_tooltip.allow_click {
+  pointer-events: auto;
+}
+.__react_component_tooltip::before, .__react_component_tooltip::after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+.__react_component_tooltip.show {
+  opacity: 0.9;
+  margin-top: 0;
+  margin-left: 0;
+  visibility: visible;
+}
+.__react_component_tooltip.place-top::before {
+  bottom: 0;
+  left: 50%;
+  margin-left: -11px;
+}
+.__react_component_tooltip.place-bottom::before {
+  top: 0;
+  left: 50%;
+  margin-left: -11px;
+}
+.__react_component_tooltip.place-left::before {
+  right: 0;
+  top: 50%;
+  margin-top: -9px;
+}
+.__react_component_tooltip.place-right::before {
+  left: 0;
+  top: 50%;
+  margin-top: -9px;
+}
+.__react_component_tooltip .multi-line {
+  display: block;
+  padding: 2px 0;
+  text-align: center;
+}</style></head><body><div id="__next"><div class="Toastify"></div><div class="sc-d1620adc-0 Qsksf"><div class="sc-ee25a49c-0 fwySYr"><nav class="sc-ee25a49c-1 fDbsdD"><div class="sc-ebd24237-0 USi"><button class="sc-ebd24237-1 cCGda"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M80 160h352M80 256h352M80 352h352"></path></svg></button><a id="header-home" class="sc-ebd24237-2 hvoyej" href="/"><img alt="hawksight defi project white full logo" loading="eager" width="180" height="36" decoding="async" data-nimg="1" style="" srcset="/_next/image?url=%2Fassets%2Fimages%2Fgraphics%2Fwhite-hawksight.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimages%2Fgraphics%2Fwhite-hawksight.png&amp;w=384&amp;q=75 2x" src="/_next/image?url=%2Fassets%2Fimages%2Fgraphics%2Fwhite-hawksight.png&amp;w=384&amp;q=75"></a></div><ul class="sc-92f56dac-0 hTccBj"><li class="sc-92f56dac-7 bBlaSY"><div class="sc-ebd24237-0 USi"><button class="sc-ebd24237-1 cCGda"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M80 160h352M80 256h352M80 352h352"></path></svg></button><a id="header-home" class="sc-ebd24237-2 hvoyej" href="/"><img alt="hawksight defi project white full logo" loading="eager" width="180" height="36" decoding="async" data-nimg="1" style="" srcset="/_next/image?url=%2Fassets%2Fimages%2Fgraphics%2Fwhite-hawksight.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimages%2Fgraphics%2Fwhite-hawksight.png&amp;w=384&amp;q=75 2x" src="/_next/image?url=%2Fassets%2Fimages%2Fgraphics%2Fwhite-hawksight.png&amp;w=384&amp;q=75"></a></div></li><li class="sc-92f56dac-1 cAEbZI"><a id="header-strategies" href="/strategies"><span>Strategies</span></a></li><li class="sc-92f56dac-1 iUvKGT"><a id="header-dashboard" href="/dashboard?tab=positions"><span>Dashboard</span></a></li><li class="sc-92f56dac-1 cAEbZI"><a class="sc-92f56dac-6 hBselG">Ecosystem</a><div class="sc-92f56dac-2 iPsoAR"><ul class="sc-92f56dac-3 hLJWov"><li class="sc-92f56dac-1 sc-92f56dac-4 cAEbZI efdtzQ"><a id="header-$hawk-token-staking" href="https://staking.hawksight.co/">$HAWK Token Staking</a></li><li class="sc-92f56dac-1 sc-92f56dac-4 cAEbZI efdtzQ"><a id="header-ddh-pfp-upgrade" href="https://upgrade.hawksight.co/"><span style="margin-right:4px"> DDH PFP Upgrade</span><span class="sc-7afae805-11 sc-26565c68-0 gTutcA ivkMhs">New</span></a></li><li class="sc-92f56dac-1 sc-92f56dac-4 cAEbZI efdtzQ"><a id="header-ddh-nft-staking" href="https://nft.hawksight.co/staking">DDH NFT Staking</a></li><li class="sc-92f56dac-1 sc-92f56dac-4 cAEbZI efdtzQ"><a id="header-nft-raffles" href="https://nft.hawksight.co/raffle">NFT Raffles</a></li></ul></div></li><li class="sc-92f56dac-1 cAEbZI"><a href="https://hawksight.gitbook.io/whitepaper/" component="Header" link="Docs" id="header-docs">Docs</a></li><li class="sc-92f56dac-1 cAEbZI"><a href="https://simulate.hawksight.co/" component="Header" link="LP Simulator" id="header-lp-simulator"><span style="margin-right:4px">LP Simulator</span> <span class="sc-7afae805-11 sc-26565c68-0 gTutcA ivkMhs">New</span></a></li></ul><div class="sc-ee25a49c-2 hNSJQY"><div class="wallet-adapter-dropdown"><button class="wallet-adapter-button wallet-adapter-button-trigger" tabindex="0" type="button" style="pointer-events: auto;">Connect wallet</button><ul aria-label="dropdown-list" class="wallet-adapter-dropdown-list false" role="menu"><li class="wallet-adapter-dropdown-list-item" role="menuitem">Change wallet</li></ul></div></div><div hidden="" class="sc-ee25a49c-3 jFIsQQ"></div></nav></div><div class="sc-d1620adc-8 cDSUgy"><div style="align-items:center" class="sc-285d99fa-0 cSeyDu"><div class="sc-26cabf8e-0 cFEzCu"><div class="sc-7afae805-4 sc-26cabf8e-1 hsDZxA jfipJh"><span class="sc-7f1f24c3-5 ezmwYz">Dashboard<!-- --> <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="m10.79 12.912-1.614-1.615a3.5 3.5 0 0 1-4.474-4.474l-2.06-2.06C.938 6.278 0 8 0 8s3 5.5 8 5.5a7.029 7.029 0 0 0 2.79-.588zM5.21 3.088A7.028 7.028 0 0 1 8 2.5c5 0 8 5.5 8 5.5s-.939 1.721-2.641 3.238l-2.062-2.062a3.5 3.5 0 0 0-4.474-4.474L5.21 3.089z"></path><path d="M5.525 7.646a2.5 2.5 0 0 0 2.829 2.829l-2.83-2.829zm4.95.708-2.829-2.83a2.5 2.5 0 0 1 2.829 2.829zm3.171 6-12-12 .708-.708 12 12-.708.708z"></path></svg></span></div><div class="sc-26cabf8e-2 cRBMem"><div class="sc-26cabf8e-3 bKjHny"><div class="sc-7afae805-15 iPJifI">-</div><div class="sc-7afae805-9 iSszAH">Your Total Balance</div></div><div data-tip="false" data-for="dashboard-past-user-yield"><div class="sc-26cabf8e-3 bKjHny"><div class="sc-7afae805-15 iPJifI">-</div><div class="sc-7afae805-9 iSszAH">Your Past 24h Yield</div></div></div><div data-tip="false" data-for="dashboard-average-apr-orca"><div class="sc-26cabf8e-3 bKjHny"><div class="sc-7afae805-15 iPJifI">-</div><div class="sc-7afae805-9 iSszAH">Your Average 24h APR</div></div></div><div class="sc-86b04c01-0 qxetq"><div class="sc-d253a4ec-1 sc-86b04c01-1 lmBVUT bYdFiG"><span class="sc-d253a4ec-3 dXXyhF">24h</span></div><div class="sc-d253a4ec-1 sc-86b04c01-1 lmBVUT guJoqw"><span class="sc-d253a4ec-3 dXXyhF">7d</span></div></div></div></div><div class="sc-7f1f24c3-0 ahNYo"><div class="sc-7f1f24c3-2 cVINhq"><div class="sc-f42f445f-0 sc-9b3f16a4-0 cTalgr cSZFdQ"><div class="sc-9b3f16a4-1 blWEnI"><div class="sc-7afae805-6 sc-9b3f16a4-3 hNeHdQ tugxL">Wallet not connected</div></div></div><div class="sc-f42f445f-0 sc-c57c2bc9-0 cTalgr etjIpM"><div class="sc-26cabf8e-0 cFEzCu"><div class="sc-7afae805-4 sc-26cabf8e-1 hsDZxA jfipJh"><div class="sc-7afae805-5 sc-c57c2bc9-6 eFxqEy fsorMJ">Activity Log</div></div><div class="sc-26cabf8e-2 cRBMem"></div></div><div class="sc-c57c2bc9-1 eHmZON"><div class="sc-7afae805-6 sc-c57c2bc9-2 hNeHdQ hvCbf">Wallet not connected</div></div></div></div><div class="sc-7f1f24c3-3 cLqVqu"><div class="sc-fabf0b03-0 euWTyg sc-7ecefc32-0 ehrcqA"><ul class="sc-fabf0b03-1 jkRUCU"><li class="sc-fabf0b03-2 hhynDG"><div class="sc-7ecefc32-1 ilFuUD"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.6958 16.2245C19.9987 16.0307 20.0909 15.622 19.9017 15.3117C19.7126 15.0013 19.3136 14.9069 19.0106 15.1007L14.4501 18.0182C13.7837 18.4445 12.8922 18.675 11.9712 18.675C11.0501 18.6751 10.1585 18.4447 9.49198 18.0185L4.98926 15.139C4.68629 14.9452 4.28735 15.0397 4.09821 15.3501C3.90907 15.6605 4.00135 16.0692 4.30433 16.2629L8.80705 19.1424C9.71916 19.7257 10.86 20.0001 11.9712 20C13.0825 19.9999 14.2233 19.7254 15.1352 19.142L19.6958 16.2245Z" fill="#EBCA47"></path><path d="M19.6957 13.1638C19.9987 12.9796 20.0909 12.5912 19.9018 12.2963C19.7126 12.0013 19.3137 11.9115 19.0107 12.0956L13.7446 15.2966C13.2755 15.5817 12.6381 15.7407 11.9712 15.7407C11.3043 15.7408 10.6669 15.5819 10.1977 15.2968L4.9892 12.132C4.6862 11.9479 4.28727 12.0378 4.09817 12.3328C3.90906 12.6278 4.0014 13.0162 4.3044 13.2003L9.51286 16.3651C10.2276 16.7993 11.1142 17 11.9713 17C12.8283 17 13.7149 16.7991 14.4295 16.3648L19.6957 13.1638Z" fill="#46EB80"></path><path d="M12.8659 4.2095C12.3663 3.93312 11.68 3.92897 11.1769 4.20437C9.02784 5.38076 7.08043 6.7286 5.3753 8.222C5.14793 8.42114 4.99746 8.69987 5.00003 9.01845C5.0026 9.33594 5.15649 9.61156 5.38311 9.80797C7.07452 11.2738 9.02412 12.6233 11.1341 13.7905C11.6337 14.0669 12.32 14.071 12.8231 13.7956C14.9722 12.6192 16.9196 11.2714 18.6247 9.778C18.8521 9.57886 19.0025 9.30014 19 8.98155C18.9974 8.66406 18.8435 8.38844 18.6169 8.19203C16.9255 6.72616 14.9759 5.37674 12.8659 4.2095Z" fill="#EBF0ED"></path><path d="M12.3998 9.83008H11.5794C11.5794 9.83008 9.61047 9.82953 8.78227 10.4109C8.67183 10.4884 8.59874 10.5969 8.59999 10.7209C8.60124 10.8445 8.67598 10.9518 8.78606 11.0282C9.6076 11.5989 10.5545 12.1242 11.5794 12.5785C11.8221 12.6861 12.1554 12.6877 12.3998 12.5805C13.4436 12.1226 14.3895 11.5979 15.2177 11.0166C15.3281 10.9391 15.4012 10.8306 15.4 10.7065C15.3987 10.5829 15.324 10.4757 15.2139 10.3992C14.3924 9.82858 12.3998 9.83008 12.3998 9.83008Z" fill="#5F0E82"></path></svg> Positions</div></li><li class="sc-fabf0b03-2 cmhgbn"><div class="sc-7ecefc32-1 ilFuUD"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.87 20.8952C11.8873 20.955 11.9382 21 12 21C12.0618 21 12.1127 20.955 12.13 20.8952L14.7531 11.8232C14.7858 11.7102 14.6985 11.5983 14.5818 11.6033C12.8614 11.6778 11.1386 11.6778 9.41819 11.6033C9.30154 11.5983 9.21419 11.7102 9.24689 11.8232L11.87 20.8952Z" fill="#EBF0ED"></path><path d="M13.9624 19.1545C13.915 19.3183 14.1063 19.4422 14.2325 19.3285C16.6962 17.1092 18.9291 14.3216 20.4798 11.396C20.5432 11.2764 20.4489 11.1348 20.3151 11.1471L17.4483 11.41C17.1018 11.4418 16.7552 11.4705 16.4084 11.4962C16.2662 11.5067 16.1453 11.6049 16.1054 11.743L13.9624 19.1545Z" fill="#46EB80"></path><path d="M9.76754 19.3285C9.89372 19.4422 10.085 19.3183 10.0376 19.1545L7.89462 11.7429C7.85471 11.6049 7.73375 11.5067 7.59162 11.4962C7.2448 11.4705 6.89814 11.4418 6.5517 11.41L3.68488 11.1471C3.55104 11.1348 3.45683 11.2764 3.5202 11.396C5.07086 14.3216 7.30381 17.1093 9.76754 19.3285Z" fill="#5F0E82"></path><path d="M20.3365 9.85277C20.4661 9.84089 20.5351 9.69254 20.4612 9.58446L17.7072 5.55633C17.469 5.20799 17.0763 5 16.6569 5H14.5392C14.4183 5 14.336 5.12362 14.3817 5.2365L16.3013 9.97556C16.3571 10.1133 16.4945 10.1992 16.6416 10.1875C16.8721 10.1691 17.1025 10.1493 17.3328 10.1282L20.3365 9.85277Z" fill="#EBCA47"></path><path d="M12.991 5.2112C12.9382 5.08331 12.8143 5 12.6769 5H11.3231C11.1857 5 11.0619 5.08331 11.009 5.2112L9.00375 10.0659C8.95852 10.1754 9.03443 10.297 9.15188 10.3027C11.0495 10.3954 12.9505 10.3954 14.8481 10.3027C14.9656 10.297 15.0415 10.1754 14.9963 10.0659L12.991 5.2112Z" fill="#EBF0ED"></path><path d="M9.46069 5H7.34305C6.92357 5 6.53089 5.20799 6.29274 5.55633L3.53874 9.58446C3.46484 9.69254 3.53375 9.84089 3.66338 9.85277L6.66709 10.1282C6.89741 10.1493 7.12783 10.1691 7.35833 10.1875C7.50539 10.1992 7.64283 10.1133 7.69863 9.97556L9.61817 5.2365C9.66389 5.12362 9.58158 5 9.46069 5Z" fill="#46EB80"></path></svg> Rewards</div></li><hr class="sc-fabf0b03-3 iJSqae zero"></ul><hr class="sc-fabf0b03-4 gleedz"></div><div class="sc-de04dbc7-0 jztVmN"><div class="sc-5a551dfd-0 iXzjMe"><div class="sc-5a551dfd-3 sc-5a551dfd-4 cWxbnW knecVz"><div class="sc-dc0b7a35-0 lbvdRF"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" class="sc-dc0b7a35-2 eZbGMe" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"></path></svg><input autocomplete="off" autocorrect="off" autosave="off" inputmode="text" type="text" placeholder="Enter token (e.g. SOL)" class="sc-dc0b7a35-1 emXRxh" value=""></div><div class="sc-5a551dfd-5 bXizEe"><div class="sc-9f77109b-0 eGaUNQ"><div class="sc-9f77109b-1 OkElM"><span><span class="sc-d253a4ec-3 dXXyhF">Sort by Your Balance, High to Low</span></span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="16" width="16" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg></div><div direction="bottom" class="sc-9f77109b-2 hJTjpO"><div class="sc-9f77109b-3 bkYjKL"><span class="sc-d253a4ec-3 dXXyhF">Sort by Yield/TVL, Low to High</span></div><div class="sc-9f77109b-3 bkYjKL"><span class="sc-d253a4ec-3 dXXyhF">Sort by Yield/TVL, High to Low</span></div><div class="sc-9f77109b-3 bkYjKL"><span class="sc-d253a4ec-3 dXXyhF">Sort by APR, Low to High</span></div><div class="sc-9f77109b-3 bkYjKL"><span class="sc-d253a4ec-3 dXXyhF">Sort by APR, High to Low</span></div><div class="sc-9f77109b-3 bkYjKL"><span class="sc-d253a4ec-3 dXXyhF">Sort by TVL, Low to High</span></div><div class="sc-9f77109b-3 bkYjKL"><span class="sc-d253a4ec-3 dXXyhF">Sort by TVL, High to Low</span></div><div class="sc-9f77109b-3 bkYjKL"><span class="sc-d253a4ec-3 dXXyhF">Sort by Volume, Low to High</span></div><div class="sc-9f77109b-3 bkYjKL"><span class="sc-d253a4ec-3 dXXyhF">Sort by Volume, High to Low</span></div><div class="sc-9f77109b-3 bkYjKL"><span class="sc-d253a4ec-3 dXXyhF">Sort by Your Balance, Low to High</span></div><div class="sc-9f77109b-3 dyLeJn"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" color="#EBF0ED" height="14" width="14" xmlns="http://www.w3.org/2000/svg" style="color: rgb(235, 240, 237);"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="sc-d253a4ec-3 dXXyhF">Sort by Your Balance, High to Low</span></div><div class="sc-9f77109b-3 bkYjKL"><span class="sc-d253a4ec-3 dXXyhF">Sort by Yield, Low to High</span></div><div class="sc-9f77109b-3 bkYjKL"><span class="sc-d253a4ec-3 dXXyhF">Sort by Yield, High to Low</span></div></div></div></div></div><div width="100" data-tip="true" data-for="pool-24-hr-compact" class="sc-5a551dfd-3 jgVvxl" currentitem="false">🚧 Pool 24h APR <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg></div><div width="140" class="sc-5a551dfd-3 cRRZRn"> Balance <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg></div><div width="140" data-tip="false" data-for="past-yield-compact" class="sc-5a551dfd-3 fDa-Dtx" currentitem="false">🚧 Past 24h Yield <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg></div></div><div class="sc-de04dbc7-1 bRTdQG"><div class="sc-3bbfcd17-3 edzkVV"><div class="sc-7afae805-6 hNeHdQ" style="color: rgb(235, 240, 237);">No matching strategies</div><div class="sc-7afae805-8 eTOltX" style="color: rgb(136, 148, 143);">Check the spelling or try to clear all filters</div></div><div class="sc-3bbfcd17-0 kFxcnJ"><span style="color: rgb(136, 148, 143);">Showing 1 - 0 of 0 strategies</span><div class="sc-3bbfcd17-1 DjmzF"><div disabled="" class="sc-3bbfcd17-2 hkdUSn"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M217.9 256L345 129c9.4-9.4 9.4-24.6 0-33.9-9.4-9.4-24.6-9.3-34 0L167 239c-9.1 9.1-9.3 23.7-.7 33.1L310.9 417c4.7 4.7 10.9 7 17 7s12.3-2.3 17-7c9.4-9.4 9.4-24.6 0-33.9L217.9 256z"></path></svg>Prev</div><span style="color: rgb(114, 122, 118);">|</span><div class="sc-3bbfcd17-2 fOBJjG">Next<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"></path></svg></div></div></div></div></div><div class="sc-7f1f24c3-4 bMFeHB"></div></div></div></div><footer class="sc-d8b56fe6-0 fsJabG"><div class="sc-d8b56fe6-1 cEiNnE"><div class="sc-d8b56fe6-4 hVotRM"><div class="sc-d8b56fe6-2 iZRMPR"><img alt="hawksight defi project white full logo" width="180" height="36" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fassets%2Fimages%2Fgraphics%2Fwhite-hawksight.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimages%2Fgraphics%2Fwhite-hawksight.png&amp;w=384&amp;q=75 2x" src="/_next/image?url=%2Fassets%2Fimages%2Fgraphics%2Fwhite-hawksight.png&amp;w=384&amp;q=75"></div><div class="sc-7afae805-7 sc-d8b56fe6-3 hdMOYS kFBrsN"><p>Hawksight is the protocol that optimizes your yield on Solana DeFi. Earn<!-- --> <span class="sc-d8b56fe6-8 iWKFPj">optimized</span> yields from <!-- -->Solana's<!-- --> Top DeFi Protocols and manage your positions all in one protocol. Show your support and earn additional yield from our <span class="sc-d8b56fe6-8 iWKFPj">Hawksight NFTs</span> &amp;<!-- --> <span class="sc-d8b56fe6-8 iWKFPj">HAWK Token</span>.</p><p>Our mission is to maximize your experience on Solana DeFi. Join our<!-- --> <span class="sc-d8b56fe6-8 iWKFPj">Discord</span> &amp; <span class="sc-d8b56fe6-8 iWKFPj">Telegram</span> - we have a team ready around the clock to get you started.</p></div></div><div class="sc-d8b56fe6-5 bDhXHb"><a component="Footer Socials" link="Discord" href="https://discord.gg/7ZDVwAaqWk" class="sc-d8b56fe6-6 eqBPVd" id="footer-socials-discord"><div class="sc-d8b56fe6-7 lbxqsW"><div class="sc-859298af-0 cNlHGJ"><svg width="14" height="14" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#discord_svg__a)" fill="#fff"><path d="M3.522 20.126h13.06l-.624-2.02 5.35 4.588V2.98C21.247 1.754 20.192.713 18.884.713L3.527.716c-1.307 0-2.368 1.043-2.368 2.268v14.874c0 1.293 1.059 2.268 2.363 2.268Zm9.661-14.208-.03.01.01-.01h.02ZM6.193 7.08C7.874 5.858 9.43 5.917 9.43 5.917l.125.124C7.5 6.53 6.568 7.448 6.568 7.448c.096-.02 4.244-2.413 9.27.06 0 0-.933-.857-2.861-1.407l.17-.168c.267.001 1.677.05 3.187 1.154 0 0 1.689 2.886 1.689 6.43-.056-.068-1.048 1.526-3.6 1.58 0 0-.433-.488-.74-.915 1.492-.429 2.05-1.286 2.05-1.286-2.905 1.83-5.453 1.544-8.5.308-.028 0-.04-.013-.056-.028v-.005c-.014-.014-.027-.028-.055-.028h-.055c-.187-.122-.312-.183-.312-.183s.558.857 1.991 1.286c-.376.43-.749.918-.749.918-2.551-.06-3.482-1.654-3.482-1.654 0-3.55 1.679-6.43 1.679-6.43Z"></path><path d="M13.348 12.41c.65 0 1.181-.549 1.181-1.226 0-.673-.527-1.223-1.181-1.223v.003c-.649 0-1.18.547-1.182 1.225 0 .672.53 1.222 1.181 1.222ZM9.118 12.41c.651 0 1.181-.549 1.181-1.226 0-.673-.526-1.223-1.177-1.223l-.004.003c-.651 0-1.181.547-1.181 1.225 0 .672.53 1.222 1.181 1.222Z"></path></g><defs><clipPath id="discord_svg__a"><path fill="#fff" transform="translate(.243 .713)" d="M0 0h21.981v21.981H0z"></path></clipPath></defs></svg></div>Discord</div></a><a component="Footer Socials" link="Telegram" href="https://t.me/joinchat/XAIUa0s3WuZlOTM9" class="sc-d8b56fe6-6 eqBPVd" id="footer-socials-telegram"><div class="sc-d8b56fe6-7 lbxqsW"><div class="sc-859298af-0 cNlHGJ"><svg width="14" height="14" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#telegram_svg__a)"><path d="m8.914 14.618-.363 5.114c.52 0 .745-.223 1.015-.492l2.44-2.33 5.053 3.7c.927.517 1.58.245 1.83-.852l3.317-15.545h.001c.294-1.371-.495-1.907-1.398-1.57l-19.5 7.465c-1.33.516-1.31 1.258-.226 1.594l4.985 1.55 11.58-7.245c.545-.36 1.04-.16.633.2l-9.367 8.41Z" fill="#fff"></path></g><defs><clipPath id="telegram_svg__a"><path fill="#fff" transform="translate(.29 .713)" d="M0 0h21.981v21.981H0z"></path></clipPath></defs></svg></div>Telegram</div></a><a component="Footer Socials" link="Twitter" href="https://www.twitter.com/hawksightco" class="sc-d8b56fe6-6 eqBPVd" id="footer-socials-twitter"><div class="sc-d8b56fe6-7 lbxqsW"><div class="sc-859298af-0 cNlHGJ"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="14" height="14"><path d="m5.92 6 14.662 21.375L6.23 44h3.18l12.576-14.578 10 14.578H44L28.682 21.67 42.199 6h-3.17L27.275 19.617 17.934 6H5.92zm3.797 2h7.164l23.322 34H33.04L9.717 8z"></path></svg></div>Twitter</div></a><a component="Footer Socials" link="Whitepaper" href="https://hawksight.gitbook.io/whitepaper/" class="sc-d8b56fe6-6 eqBPVd" id="footer-socials-whitepaper"><div class="sc-d8b56fe6-7 lbxqsW"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 20 20" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path></svg>Whitepaper</div></a><a component="Footer Socials" link="Medium" href="https://hawksight.medium.com/" class="sc-d8b56fe6-6 eqBPVd" id="footer-socials-medium"><div class="sc-d8b56fe6-7 lbxqsW"><div class="sc-859298af-0 cNlHGJ"><svg width="14" height="14" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.415 2.843a.523.523 0 0 0-.168-.439L1 .893V.667h3.866L7.855 7.27 10.48.667h3.686v.226L13.102 1.92a.315.315 0 0 0-.118.302v7.556a.314.314 0 0 0 .118.301l1.04 1.028v.227h-5.23v-.226l1.078-1.054c.106-.106.106-.138.106-.3V3.646l-2.995 7.662h-.404L3.211 3.646v5.136a.714.714 0 0 0 .193.589l1.4 1.712v.225H.835v-.225l1.4-1.712a.687.687 0 0 0 .18-.59V2.844Z" fill="#EBF0ED"></path></svg></div>Medium</div></a><a component="Footer Socials" link="Instagram" href="https://instagram.com/hawksightco/" class="sc-d8b56fe6-6 eqBPVd" id="footer-socials-instagram"><div class="sc-d8b56fe6-7 lbxqsW"><div class="sc-859298af-0 cNlHGJ"><svg width="14" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.498 3.579a3.416 3.416 0 0 0-3.42 3.42 3.416 3.416 0 0 0 3.42 3.421A3.416 3.416 0 0 0 10.918 7a3.416 3.416 0 0 0-3.42-3.421Zm0 5.644A2.228 2.228 0 0 1 5.275 7c0-1.224 1-2.223 2.223-2.223 1.224 0 2.223.999 2.223 2.223a2.228 2.228 0 0 1-2.223 2.223Zm3.561-6.581a.798.798 0 1 0 0 1.597.797.797 0 0 0 .565-1.364.799.799 0 0 0-.565-.233ZM14.166 7c0-.921.008-1.833-.043-2.752-.052-1.068-.295-2.015-1.076-2.795C12.265.67 11.319.429 10.252.377 9.332.325 8.419.334 7.5.334c-.92 0-1.833-.009-2.752.043-1.067.052-2.015.295-2.795 1.076C1.17 2.235.929 3.18.877 4.248.825 5.168.834 6.08.834 7c0 .919-.009 1.833.043 2.752.052 1.067.295 2.014 1.076 2.795.782.782 1.728 1.024 2.795 1.075.92.052 1.833.044 2.752.044.92 0 1.833.008 2.752-.043 1.067-.052 2.014-.296 2.795-1.076.782-.782 1.024-1.728 1.076-2.795.053-.92.043-1.832.043-2.752Zm-1.468 3.932c-.121.304-.268.53-.503.764-.235.235-.46.382-.764.504-.877.348-2.96.27-3.933.27-.972 0-3.057.078-3.934-.269a2.12 2.12 0 0 1-.764-.503 2.135 2.135 0 0 1-.504-.764C1.95 10.055 2.028 7.972 2.028 7c0-.973-.079-3.057.268-3.935a2.12 2.12 0 0 1 .504-.764c.235-.233.46-.381.764-.503.877-.347 2.962-.269 3.934-.269.973 0 3.057-.078 3.935.269.303.122.53.268.763.503.236.236.382.46.504.764.347.878.269 2.962.269 3.935 0 .972.078 3.055-.27 3.932Z" fill="#EBF0ED"></path></svg></div>Instagram</div></a></div></div><div class="sc-7afae805-8 sc-d8b56fe6-9 eTOltX frAWRk"><p>Hawksight is building <!-- -->Solana's<!-- --> Yield Optimizer. Our mission is to maximize your experience on Solana Defi, by aggregating and automating DeFi yield strategies in 1-click so users can instantly get the best yield to grow their Solana tokens ($SOL) and USDC stablecoins ($USDC) from various yield strategies such as liquidity providing, borrow lending, options derivatives, NFT lending, and GameFi yield. Hawksight has and will integrate with leading Solana DeFi protocols including but not limited to: Solend, Marinade Finance, Raydium, Lido, Tulip Protocol, Orca, Quarry, Port Finance, Francium, Saber, Friktion, Mercurial, Socean, JPool, Hubble, UXD, Hedge Labs, Lifinity, Frakt, PsyFi, and many more.</p><p>Hawksight has been audited by leading smart contract security firms including CertiK and Sec3 (previously Soteria). <!-- -->Hawksight's<!-- --> $HAWK utility tokens are available on crypto exchanges like KuCoin, MEXC, and Raydium. And <!-- -->Hawksight's<!-- --> DeFi utility NFTs, the Debonair Degen Hawks, are available on Magic Eden, the largest Solana NFT marketplace. Hawksight is backed by Solana Ventures, NGC Ventures, Solar Eco Fund, One Block Capital, Big Brain VC (SOL Big Brain), Mirana, Petrock Capital, Entrepreneur First, Skyvision Capital, Global Founders Capital, Everest Ventures Group, and Double Peak Group. Visit hawksight.co to get the best yield APYs to easily grow your SOL &amp; USDC.</p></div></footer></div></div></div><div id="portal-container"><div class="__react_component_tooltip tdf48ca0b-488e-41fd-bc4b-0c686c6e22bf place-top type-dark" id="pool-yield-tvl" data-id="tooltip"><style aria-hidden="true">
+  	.tdf48ca0b-488e-41fd-bc4b-0c686c6e22bf {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+	    border-radius: undefinedpx;
+	    padding: 6px;
+  	}
+
+  	.tdf48ca0b-488e-41fd-bc4b-0c686c6e22bf.place-top {
+        margin-top: -10px;
+    }
+    .tdf48ca0b-488e-41fd-bc4b-0c686c6e22bf.place-top::before {
+        content: "";
+        background-color: inherit;
+        position: absolute;
+        z-index: 2;
+        width: 20px;
+        height: 12px;
+    }
+    .tdf48ca0b-488e-41fd-bc4b-0c686c6e22bf.place-top::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-top-right-radius: undefinedpx;
+        border: 1px solid transparent;
+        background-color: #222;
+        z-index: -2;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -6px;
+        transform: rotate(135deg);
+    }
+
+    .tdf48ca0b-488e-41fd-bc4b-0c686c6e22bf.place-bottom {
+        margin-top: 10px;
+    }
+    .tdf48ca0b-488e-41fd-bc4b-0c686c6e22bf.place-bottom::before {
+        content: "";
+        background-color: inherit;
+        position: absolute;
+        z-index: -1;
+        width: 18px;
+        height: 10px;
+    }
+    .tdf48ca0b-488e-41fd-bc4b-0c686c6e22bf.place-bottom::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-top-right-radius: undefinedpx;
+        border: 1px solid transparent;
+        background-color: #222;
+        z-index: -2;
+        top: -6px;
+        left: 50%;
+        margin-left: -6px;
+        transform: rotate(45deg);
+    }
+
+    .tdf48ca0b-488e-41fd-bc4b-0c686c6e22bf.place-left {
+        margin-left: -10px;
+    }
+    .tdf48ca0b-488e-41fd-bc4b-0c686c6e22bf.place-left::before {
+        content: "";
+        background-color: inherit;
+        position: absolute;
+        z-index: -1;
+        width: 10px;
+        height: 18px;
+    }
+    .tdf48ca0b-488e-41fd-bc4b-0c686c6e22bf.place-left::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-top-right-radius: undefinedpx;
+        border: 1px solid transparent;
+        background-color: #222;
+        z-index: -2;
+        right: -6px;
+        top: 50%;
+        margin-top: -6px;
+        transform: rotate(45deg);
+    }
+
+    .tdf48ca0b-488e-41fd-bc4b-0c686c6e22bf.place-right {
+        margin-left: 10px;
+    }
+    .tdf48ca0b-488e-41fd-bc4b-0c686c6e22bf.place-right::before {
+        content: "";
+        background-color: inherit;
+        position: absolute;
+        z-index: -1;
+        width: 10px;
+        height: 18px;
+    }
+    .tdf48ca0b-488e-41fd-bc4b-0c686c6e22bf.place-right::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-top-right-radius: undefinedpx;
+        border: 1px solid transparent;
+        background-color: #222;
+        z-index: -2;
+        left: -6px;
+        top: 50%;
+        margin-top: -6px;
+        transform: rotate(-135deg);
+    }
+  </style>Estimated returns based on the past 24h yield of this pool considering Hawksight default price range.</div><div class="__react_component_tooltip t732e8d34-4ba3-49da-a4e4-f577a366364d place-top type-dark" id="pool-24-hr-compact" data-id="tooltip"><style aria-hidden="true">
+  	.t732e8d34-4ba3-49da-a4e4-f577a366364d {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+	    border-radius: undefinedpx;
+	    padding: 6px;
+  	}
+
+  	.t732e8d34-4ba3-49da-a4e4-f577a366364d.place-top {
+        margin-top: -10px;
+    }
+    .t732e8d34-4ba3-49da-a4e4-f577a366364d.place-top::before {
+        content: "";
+        background-color: inherit;
+        position: absolute;
+        z-index: 2;
+        width: 20px;
+        height: 12px;
+    }
+    .t732e8d34-4ba3-49da-a4e4-f577a366364d.place-top::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-top-right-radius: undefinedpx;
+        border: 1px solid transparent;
+        background-color: #222;
+        z-index: -2;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -6px;
+        transform: rotate(135deg);
+    }
+
+    .t732e8d34-4ba3-49da-a4e4-f577a366364d.place-bottom {
+        margin-top: 10px;
+    }
+    .t732e8d34-4ba3-49da-a4e4-f577a366364d.place-bottom::before {
+        content: "";
+        background-color: inherit;
+        position: absolute;
+        z-index: -1;
+        width: 18px;
+        height: 10px;
+    }
+    .t732e8d34-4ba3-49da-a4e4-f577a366364d.place-bottom::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-top-right-radius: undefinedpx;
+        border: 1px solid transparent;
+        background-color: #222;
+        z-index: -2;
+        top: -6px;
+        left: 50%;
+        margin-left: -6px;
+        transform: rotate(45deg);
+    }
+
+    .t732e8d34-4ba3-49da-a4e4-f577a366364d.place-left {
+        margin-left: -10px;
+    }
+    .t732e8d34-4ba3-49da-a4e4-f577a366364d.place-left::before {
+        content: "";
+        background-color: inherit;
+        position: absolute;
+        z-index: -1;
+        width: 10px;
+        height: 18px;
+    }
+    .t732e8d34-4ba3-49da-a4e4-f577a366364d.place-left::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-top-right-radius: undefinedpx;
+        border: 1px solid transparent;
+        background-color: #222;
+        z-index: -2;
+        right: -6px;
+        top: 50%;
+        margin-top: -6px;
+        transform: rotate(45deg);
+    }
+
+    .t732e8d34-4ba3-49da-a4e4-f577a366364d.place-right {
+        margin-left: 10px;
+    }
+    .t732e8d34-4ba3-49da-a4e4-f577a366364d.place-right::before {
+        content: "";
+        background-color: inherit;
+        position: absolute;
+        z-index: -1;
+        width: 10px;
+        height: 18px;
+    }
+    .t732e8d34-4ba3-49da-a4e4-f577a366364d.place-right::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-top-right-radius: undefinedpx;
+        border: 1px solid transparent;
+        background-color: #222;
+        z-index: -2;
+        left: -6px;
+        top: 50%;
+        margin-top: -6px;
+        transform: rotate(-135deg);
+    }
+  </style>Annual Percentage Rate (APR) is the yearly interest rate return earned from depositing to a pool.<div class="sc-5a551dfd-1 hUbHQO">Each number below <span style="color: rgb(232, 186, 0);">does not reflect </span>your actual Orca positions' 24h APR yet.</div></div><div class="__react_component_tooltip tb2aaf44c-94f6-4a32-8f25-dab9b2a60c90 place-top type-dark" id="table-header-total-yield" data-id="tooltip"><style aria-hidden="true">
+  	.tb2aaf44c-94f6-4a32-8f25-dab9b2a60c90 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+	    border-radius: undefinedpx;
+	    padding: 6px;
+  	}
+
+  	.tb2aaf44c-94f6-4a32-8f25-dab9b2a60c90.place-top {
+        margin-top: -10px;
+    }
+    .tb2aaf44c-94f6-4a32-8f25-dab9b2a60c90.place-top::before {
+        content: "";
+        background-color: inherit;
+        position: absolute;
+        z-index: 2;
+        width: 20px;
+        height: 12px;
+    }
+    .tb2aaf44c-94f6-4a32-8f25-dab9b2a60c90.place-top::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-top-right-radius: undefinedpx;
+        border: 1px solid transparent;
+        background-color: #222;
+        z-index: -2;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -6px;
+        transform: rotate(135deg);
+    }
+
+    .tb2aaf44c-94f6-4a32-8f25-dab9b2a60c90.place-bottom {
+        margin-top: 10px;
+    }
+    .tb2aaf44c-94f6-4a32-8f25-dab9b2a60c90.place-bottom::before {
+        content: "";
+        background-color: inherit;
+        position: absolute;
+        z-index: -1;
+        width: 18px;
+        height: 10px;
+    }
+    .tb2aaf44c-94f6-4a32-8f25-dab9b2a60c90.place-bottom::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-top-right-radius: undefinedpx;
+        border: 1px solid transparent;
+        background-color: #222;
+        z-index: -2;
+        top: -6px;
+        left: 50%;
+        margin-left: -6px;
+        transform: rotate(45deg);
+    }
+
+    .tb2aaf44c-94f6-4a32-8f25-dab9b2a60c90.place-left {
+        margin-left: -10px;
+    }
+    .tb2aaf44c-94f6-4a32-8f25-dab9b2a60c90.place-left::before {
+        content: "";
+        background-color: inherit;
+        position: absolute;
+        z-index: -1;
+        width: 10px;
+        height: 18px;
+    }
+    .tb2aaf44c-94f6-4a32-8f25-dab9b2a60c90.place-left::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-top-right-radius: undefinedpx;
+        border: 1px solid transparent;
+        background-color: #222;
+        z-index: -2;
+        right: -6px;
+        top: 50%;
+        margin-top: -6px;
+        transform: rotate(45deg);
+    }
+
+    .tb2aaf44c-94f6-4a32-8f25-dab9b2a60c90.place-right {
+        margin-left: 10px;
+    }
+    .tb2aaf44c-94f6-4a32-8f25-dab9b2a60c90.place-right::before {
+        content: "";
+        background-color: inherit;
+        position: absolute;
+        z-index: -1;
+        width: 10px;
+        height: 18px;
+    }
+    .tb2aaf44c-94f6-4a32-8f25-dab9b2a60c90.place-right::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-top-right-radius: undefinedpx;
+        border: 1px solid transparent;
+        background-color: #222;
+        z-index: -2;
+        left: -6px;
+        top: 50%;
+        margin-top: -6px;
+        transform: rotate(-135deg);
+    }
+  </style>How much yield you've earned in this pool, not including Hawksight incentives. This USD value is based on current token prices.</div><div class="__react_component_tooltip t6c8fccdd-eeae-4f33-b06c-c9106aa11d61 place-top type-dark" id="past-yield-compact" data-id="tooltip"><style aria-hidden="true">
+  	.t6c8fccdd-eeae-4f33-b06c-c9106aa11d61 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+	    border-radius: undefinedpx;
+	    padding: 6px;
+  	}
+
+  	.t6c8fccdd-eeae-4f33-b06c-c9106aa11d61.place-top {
+        margin-top: -10px;
+    }
+    .t6c8fccdd-eeae-4f33-b06c-c9106aa11d61.place-top::before {
+        content: "";
+        background-color: inherit;
+        position: absolute;
+        z-index: 2;
+        width: 20px;
+        height: 12px;
+    }
+    .t6c8fccdd-eeae-4f33-b06c-c9106aa11d61.place-top::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-top-right-radius: undefinedpx;
+        border: 1px solid transparent;
+        background-color: #222;
+        z-index: -2;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -6px;
+        transform: rotate(135deg);
+    }
+
+    .t6c8fccdd-eeae-4f33-b06c-c9106aa11d61.place-bottom {
+        margin-top: 10px;
+    }
+    .t6c8fccdd-eeae-4f33-b06c-c9106aa11d61.place-bottom::before {
+        content: "";
+        background-color: inherit;
+        position: absolute;
+        z-index: -1;
+        width: 18px;
+        height: 10px;
+    }
+    .t6c8fccdd-eeae-4f33-b06c-c9106aa11d61.place-bottom::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-top-right-radius: undefinedpx;
+        border: 1px solid transparent;
+        background-color: #222;
+        z-index: -2;
+        top: -6px;
+        left: 50%;
+        margin-left: -6px;
+        transform: rotate(45deg);
+    }
+
+    .t6c8fccdd-eeae-4f33-b06c-c9106aa11d61.place-left {
+        margin-left: -10px;
+    }
+    .t6c8fccdd-eeae-4f33-b06c-c9106aa11d61.place-left::before {
+        content: "";
+        background-color: inherit;
+        position: absolute;
+        z-index: -1;
+        width: 10px;
+        height: 18px;
+    }
+    .t6c8fccdd-eeae-4f33-b06c-c9106aa11d61.place-left::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-top-right-radius: undefinedpx;
+        border: 1px solid transparent;
+        background-color: #222;
+        z-index: -2;
+        right: -6px;
+        top: 50%;
+        margin-top: -6px;
+        transform: rotate(45deg);
+    }
+
+    .t6c8fccdd-eeae-4f33-b06c-c9106aa11d61.place-right {
+        margin-left: 10px;
+    }
+    .t6c8fccdd-eeae-4f33-b06c-c9106aa11d61.place-right::before {
+        content: "";
+        background-color: inherit;
+        position: absolute;
+        z-index: -1;
+        width: 10px;
+        height: 18px;
+    }
+    .t6c8fccdd-eeae-4f33-b06c-c9106aa11d61.place-right::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-top-right-radius: undefinedpx;
+        border: 1px solid transparent;
+        background-color: #222;
+        z-index: -2;
+        left: -6px;
+        top: 50%;
+        margin-top: -6px;
+        transform: rotate(-135deg);
+    }
+  </style>Fees from Orca claimed from each of your positions in the past 24h, priced at the hour of claim.<div class="sc-5a551dfd-1 hUbHQO">Each number below <span style="color: rgb(232, 186, 0);">does not include </span>rewards from Orca or Hawksight yet.</div></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/dashboard","query":{},"buildId":"8bDuz6LmNHx3b3etlfg0N","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script><script src="https://terminal.jup.ag/main-v1.js" data-nscript="afterInteractive"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-KG80ECSZC6"></script><next-route-announcer><p aria-live="assertive" id="__next-route-announcer__" role="alert" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap; overflow-wrap: normal;"></p></next-route-announcer><script src="/_next/static/chunks/pages/strategies-e05fed9ae2d2d12f.js"></script><script src="/_next/static/chunks/de71a805-f40df2116194c0ff.js"></script><script src="/_next/static/chunks/pages/index-f126da73c1abf29e.js"></script></body></html>
