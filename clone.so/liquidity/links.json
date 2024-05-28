@@ -1,0 +1,45 @@
+{
+    "target_url": "https://clone.so/liquidity",
+    "domains": {
+        "careers.clone.so": [
+            "https://careers.clone.so/"
+        ],
+        "clone.so": [
+            "https://clone.so/",
+            "https://clone.so/brand-assets.zip"
+        ],
+        "cloneprotocol.medium.com": [
+            "https://cloneprotocol.medium.com/"
+        ],
+        "debridge.finance": [
+            "https://debridge.finance/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/BXAeVWdmmD"
+        ],
+        "docs.clone.so": [
+            "https://docs.clone.so/",
+            "https://docs.clone.so/legal-and-regulations/terms-of-use",
+            "https://docs.clone.so/links-and-resources/security-audits"
+        ],
+        "liquidity.clone.so": [
+            "https://liquidity.clone.so",
+            "https://liquidity.clone.so/"
+        ],
+        "pyth.network": [
+            "https://pyth.network/"
+        ],
+        "triton.one": [
+            "https://triton.one/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/CloneProtocol"
+        ],
+        "wormhole.com": [
+            "https://wormhole.com/"
+        ],
+        "www.helius.xyz": [
+            "https://www.helius.xyz/"
+        ]
+    }
+}
