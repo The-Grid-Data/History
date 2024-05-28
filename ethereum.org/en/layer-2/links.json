@@ -1,0 +1,213 @@
+{
+    "target_url": "https://ethereum.org/en/layer-2/",
+    "domains": {
+        "": [
+            "mailto:press@ethereum.org"
+        ],
+        "app.optimism.io": [
+            "https://app.optimism.io/bridge/deposit"
+        ],
+        "arbitrum.io": [
+            "https://arbitrum.io/"
+        ],
+        "aztec.network": [
+            "https://aztec.network/"
+        ],
+        "barnabe.substack.com": [
+            "https://barnabe.substack.com/p/understanding-rollup-economics-from?s=r"
+        ],
+        "base.org": [
+            "https://base.org/"
+        ],
+        "blog.ethereum.org": [
+            "https://blog.ethereum.org/"
+        ],
+        "boba.network": [
+            "https://boba.network/"
+        ],
+        "bridge.arbitrum.io": [
+            "https://bridge.arbitrum.io/"
+        ],
+        "bridge.base.org": [
+            "https://bridge.base.org/deposit"
+        ],
+        "chainlist.org": [
+            "https://chainlist.org"
+        ],
+        "debank.com": [
+            "https://debank.com"
+        ],
+        "devcon.org": [
+            "https://devcon.org/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/ethereum-org"
+        ],
+        "esp.ethereum.foundation": [
+            "https://esp.ethereum.foundation"
+        ],
+        "ethereum-magicians.org": [
+            "https://ethereum-magicians.org/t/a-rollup-centric-ethereum-roadmap/4698"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/en/",
+            "https://ethereum.org/en/about/",
+            "https://ethereum.org/en/about/#open-jobs",
+            "https://ethereum.org/en/assets/",
+            "https://ethereum.org/en/bridges/",
+            "https://ethereum.org/en/bug-bounty/",
+            "https://ethereum.org/en/community/",
+            "https://ethereum.org/en/community/code-of-conduct/",
+            "https://ethereum.org/en/community/events/",
+            "https://ethereum.org/en/community/grants/",
+            "https://ethereum.org/en/community/online/",
+            "https://ethereum.org/en/community/research/",
+            "https://ethereum.org/en/contributing/",
+            "https://ethereum.org/en/contributing/adding-layer-2s/",
+            "https://ethereum.org/en/contributing/translation-program/",
+            "https://ethereum.org/en/cookie-policy/",
+            "https://ethereum.org/en/dao/",
+            "https://ethereum.org/en/dapps/",
+            "https://ethereum.org/en/decentralized-identity/",
+            "https://ethereum.org/en/defi/",
+            "https://ethereum.org/en/developers/",
+            "https://ethereum.org/en/developers/docs/",
+            "https://ethereum.org/en/developers/docs/design-and-ux/",
+            "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+            "https://ethereum.org/en/developers/docs/scaling/optimistic-rollups/",
+            "https://ethereum.org/en/developers/docs/scaling/sidechains/",
+            "https://ethereum.org/en/developers/docs/scaling/validium/",
+            "https://ethereum.org/en/developers/docs/scaling/zk-rollups/",
+            "https://ethereum.org/en/developers/learning-tools/",
+            "https://ethereum.org/en/developers/local-environment/",
+            "https://ethereum.org/en/developers/tutorials/",
+            "https://ethereum.org/en/eips/",
+            "https://ethereum.org/en/enterprise/",
+            "https://ethereum.org/en/enterprise/private-ethereum/",
+            "https://ethereum.org/en/eth/",
+            "https://ethereum.org/en/foundation/",
+            "https://ethereum.org/en/gas/",
+            "https://ethereum.org/en/get-eth/",
+            "https://ethereum.org/en/glossary/",
+            "https://ethereum.org/en/glossary/#blockchain",
+            "https://ethereum.org/en/glossary/#node",
+            "https://ethereum.org/en/glossary/#pos",
+            "https://ethereum.org/en/glossary/#staking",
+            "https://ethereum.org/en/governance/",
+            "https://ethereum.org/en/guides/",
+            "https://ethereum.org/en/history/",
+            "https://ethereum.org/en/layer-2/",
+            "https://ethereum.org/en/layer-2/#main-content",
+            "https://ethereum.org/en/learn/",
+            "https://ethereum.org/en/nft/",
+            "https://ethereum.org/en/privacy-policy/",
+            "https://ethereum.org/en/quizzes/",
+            "https://ethereum.org/en/roadmap/",
+            "https://ethereum.org/en/roadmap/security/",
+            "https://ethereum.org/en/roadmap/vision/",
+            "https://ethereum.org/en/run-a-node/",
+            "https://ethereum.org/en/security/",
+            "https://ethereum.org/en/smart-contracts/",
+            "https://ethereum.org/en/stablecoins/",
+            "https://ethereum.org/en/staking/",
+            "https://ethereum.org/en/terms-of-use/",
+            "https://ethereum.org/en/wallets/",
+            "https://ethereum.org/en/wallets/find-wallet/",
+            "https://ethereum.org/en/web3/",
+            "https://ethereum.org/en/what-is-ethereum/",
+            "https://ethereum.org/en/whitepaper/"
+        ],
+        "gateway.boba.network": [
+            "https://gateway.boba.network/"
+        ],
+        "github.com": [
+            "https://github.com/ethereum/ethereum-org-website",
+            "https://github.com/ethereum/ethereum-org-website/issues/new?&template=suggest_layer2.md",
+            "https://github.com/starknet-io/starknet-addresses/blob/master/bridged_tokens/mainnet.json"
+        ],
+        "growthepie.xyz": [
+            "https://growthepie.xyz"
+        ],
+        "l2beat.com": [
+            "https://l2beat.com",
+            "https://l2beat.com/?view=risk",
+            "https://l2beat.com/scaling/risk"
+        ],
+        "l2fees.info": [
+            "https://l2fees.info"
+        ],
+        "loopring.io": [
+            "https://loopring.io/#/layer2"
+        ],
+        "loopring.org": [
+            "https://loopring.org/#/"
+        ],
+        "optimism.io": [
+            "https://optimism.io/"
+        ],
+        "portal.arbitrum.one": [
+            "https://portal.arbitrum.one/"
+        ],
+        "portal.zksync.io": [
+            "https://portal.zksync.io/bridge/"
+        ],
+        "rekt.news": [
+            "https://rekt.news/wormhole-rekt/"
+        ],
+        "starkgate.starknet.io": [
+            "https://starkgate.starknet.io"
+        ],
+        "tokenlists.org": [
+            "https://tokenlists.org/token-list?url=https://static.optimism.io/optimism.tokenlist.json"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ethdotorg"
+        ],
+        "vitalik.eth.limo": [
+            "https://vitalik.eth.limo/general/2021/01/05/rollup.html"
+        ],
+        "www.base.org": [
+            "https://www.base.org/ecosystem"
+        ],
+        "www.coingecko.com": [
+            "https://www.coingecko.com/en/categories/arbitrum-ecosystem"
+        ],
+        "www.ethereum-ecosystem.com": [
+            "https://www.ethereum-ecosystem.com/"
+        ],
+        "www.ledger.com": [
+            "https://www.ledger.com/academy/what-is-the-blockchain-trilemma"
+        ],
+        "www.optimism.io": [
+            "https://www.optimism.io/apps"
+        ],
+        "www.starknet-ecosystem.com": [
+            "https://www.starknet-ecosystem.com"
+        ],
+        "www.starknet.io": [
+            "https://www.starknet.io"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/watch?v=7pWxCklcNsU",
+            "https://www.youtube.com/watch?v=DyNbmgkyxJI"
+        ],
+        "zapper.fi": [
+            "https://zapper.fi/"
+        ],
+        "zerion.io": [
+            "https://zerion.io"
+        ],
+        "zk.money": [
+            "https://zk.money/"
+        ],
+        "zkbase.org": [
+            "https://zkbase.org/"
+        ],
+        "zks.app": [
+            "https://zks.app/wallet/token"
+        ],
+        "zksync.io": [
+            "https://zksync.io/"
+        ]
+    }
+}
