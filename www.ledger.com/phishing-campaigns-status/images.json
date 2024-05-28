@@ -1,0 +1,46 @@
+{
+    "target_url": "https://www.ledger.com/phishing-campaigns-status",
+    "domains": {
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=5ebcc0ad-30f3-42b3-a940-553e14c4a2fb&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=f9f7589f-ffe0-4611-a222-50b438a01fdd&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Fphishing-campaigns-status&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "bat.bing.com": [
+            "https://bat.bing.com/action/0?ti=134633242&tm=gtm002&Ver=2&mid=a92bf6f8-e145-44f5-9556-1aab8d11cf5b&sid=501cf8801cfe11ef826dfbd635543ffe&vid=501cf7401cfe11efad9e9bf5e98ed672&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&tl=Ongoing%20phishing%20campaigns%20%7C%20Ledger&p=https%3A%2F%2Fwww.ledger.com%2Fphishing-campaigns-status&r=&lt=1945&evt=pageLoad&sv=1&rn=479344"
+        ],
+        "cdn.cookielaw.org": [
+            "https://cdn.cookielaw.org/logos/df21fb3f-71b8-491b-89ee-eb777bcaf866/637ca236-af9d-4a40-815f-1b6a15af499d/ea9d9f41-35f0-4c24-9a83-1ef746863067/White_64.png",
+            "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg"
+        ],
+        "ledger-wp-website-s3-prd.ledger.com": [
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2020/12/4-dec.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2020/12/phishing-academy-1.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2020/12/phishing-academy-2.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2020/12/phishing-academy-3.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2020/12/phishing-hero.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/04/4-dec2.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/04/5-6-dec-1.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/04/5-6-dec2-1.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/04/9-dec2-1.png"
+        ],
+        "sp.analytics.yahoo.com": [
+            "https://sp.analytics.yahoo.com/sp.pl?a=10000&d=Tue%2C%2028%20May%202024%2014%3A26%3A46%20GMT&n=0&b=Ongoing%20phishing%20campaigns%20%7C%20Ledger&.yp=10159916&f=https%3A%2F%2Fwww.ledger.com%2Fphishing-campaigns-status&enc=UTF-8&yv=1.15.1&tagmgr=gtm"
+        ],
+        "t.co": [
+            "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=5ebcc0ad-30f3-42b3-a940-553e14c4a2fb&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=f9f7589f-ffe0-4611-a222-50b438a01fdd&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Fphishing-campaigns-status&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/tr?id=237213137153741&ev=PageView&noscript=1"
+        ],
+        "www.ledger.com": [
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg",
+            "https://www.ledger.com/wp-content/uploads/2021/11/layer1.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-bitpay-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-cb-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-crypto-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-maestro-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-mastercard-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-paypal-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-visa-s.png?v=2"
+        ]
+    }
+}
