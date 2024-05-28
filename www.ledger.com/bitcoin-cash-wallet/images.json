@@ -1,0 +1,66 @@
+{
+    "target_url": "https://www.ledger.com/bitcoin-cash-wallet",
+    "domains": {
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=eaa5abb2-50a4-4701-bd9a-4c5bd14ec9db&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=762264d0-a7ac-4b8a-862b-3c9b467ed36c&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Fsupported-crypto-assets&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "bat.bing.com": [
+            "https://bat.bing.com/action/0?ti=134633242&tm=gtm002&Ver=2&mid=899d942d-a50f-4531-905b-98021c8fc930&sid=f988ab301cf611ef992c2bd8a4791ef7&vid=f988af701cf611ef8202a7154da72c46&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&tl=Ledger%20Supported%20Coins%20%26%20Tokens%20%7C%20Ledger&p=https%3A%2F%2Fwww.ledger.com%2Fsupported-crypto-assets&r=&lt=1689&evt=pageLoad&sv=1&rn=209055"
+        ],
+        "cdn.cookielaw.org": [
+            "https://cdn.cookielaw.org/logos/df21fb3f-71b8-491b-89ee-eb777bcaf866/637ca236-af9d-4a40-815f-1b6a15af499d/ea9d9f41-35f0-4c24-9a83-1ef746863067/White_64.png",
+            "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg"
+        ],
+        "ledger-wp-website-s3-prd.ledger.com": [
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/07/Staxmain-1.webp",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/09/nano-s-plus.webp",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/09/nano-x.webp"
+        ],
+        "proxycgassets.api.live.ledger.com": [
+            "https://proxycgassets.api.live.ledger.com/coins/images/1/large/bitcoin.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/1094/large/tron-logo.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/11939/large/shiba.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/12171/large/polkadot.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/12559/large/Avalanche_Circle_RedWhite_Trans.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/13442/large/steth_logo.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/14495/large/Internet_Computer_logo.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/17980/large/ton_symbol.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/279/large/ethereum.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/325/large/Tether.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/4128/large/solana.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/44/large/xrp-symbol-white-128.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/4713/large/polygon.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/5/large/dogecoin.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/6319/large/usdc.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/7598/large/wrapped_bitcoin_wbtc.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/825/large/bnb-icon2_2x.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/877/large/chainlink-new-logo.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/975/large/cardano.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/9956/large/Badge_Dai.png"
+        ],
+        "sp.analytics.yahoo.com": [
+            "https://sp.analytics.yahoo.com/sp.pl?a=10000&d=Tue%2C%2028%20May%202024%2013%3A34%3A15%20GMT&n=0&b=Ledger%20Supported%20Coins%20%26%20Tokens%20%7C%20Ledger&.yp=10159916&f=https%3A%2F%2Fwww.ledger.com%2Fsupported-crypto-assets&enc=UTF-8&yv=1.15.1&tagmgr=gtm"
+        ],
+        "t.co": [
+            "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=eaa5abb2-50a4-4701-bd9a-4c5bd14ec9db&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=762264d0-a7ac-4b8a-862b-3c9b467ed36c&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Fsupported-crypto-assets&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "t.teads.tv": [
+            "https://t.teads.tv/track?action=pageView&env=js-gtm&tag_version=6.17.6_ee47857&provider=tag&buyer_pixel_id=6887&referer=https%3A%2F%2Fwww.ledger.com%2Fsupported-crypto-assets&user_session_id=2cab11ff-a62a-459a-83c8-6b07ddd9421c"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/tr?id=237213137153741&ev=PageView&noscript=1"
+        ],
+        "www.ledger.com": [
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-short.svg",
+            "https://www.ledger.com/wp-content/uploads/2021/11/layer1.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-bitpay-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-cb-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-crypto-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-maestro-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-mastercard-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-paypal-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-visa-s.png?v=2"
+        ]
+    }
+}
