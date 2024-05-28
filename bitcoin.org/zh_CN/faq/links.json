@@ -1,0 +1,159 @@
+{
+    "target_url": "https://bitcoin.org/zh_CN/faq",
+    "domains": {
+        "": [
+            "bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"
+        ],
+        "bitcoin.org": [
+            "https://bitcoin.org/ar/faq",
+            "https://bitcoin.org/bg/faq",
+            "https://bitcoin.org/ca/faq",
+            "https://bitcoin.org/da/faq",
+            "https://bitcoin.org/de/faq",
+            "https://bitcoin.org/el/faq",
+            "https://bitcoin.org/en/alerts",
+            "https://bitcoin.org/en/blog",
+            "https://bitcoin.org/en/faq",
+            "https://bitcoin.org/en/privacy",
+            "https://bitcoin.org/en/spend-bitcoin",
+            "https://bitcoin.org/es/faq",
+            "https://bitcoin.org/fa/faq",
+            "https://bitcoin.org/fr/faq",
+            "https://bitcoin.org/he/faq",
+            "https://bitcoin.org/hi/faq",
+            "https://bitcoin.org/hu/gyik",
+            "https://bitcoin.org/hy/faq",
+            "https://bitcoin.org/id/faq",
+            "https://bitcoin.org/it/faq",
+            "https://bitcoin.org/ja/faq",
+            "https://bitcoin.org/km/faq",
+            "https://bitcoin.org/ko/faq",
+            "https://bitcoin.org/nl/faq",
+            "https://bitcoin.org/pl/faq",
+            "https://bitcoin.org/pt_BR/faq",
+            "https://bitcoin.org/ro/intrebari-frecvente",
+            "https://bitcoin.org/ru/faq",
+            "https://bitcoin.org/sl/vprasanja-in-odgovori",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja",
+            "https://bitcoin.org/sv/faq",
+            "https://bitcoin.org/tr/sss",
+            "https://bitcoin.org/uk/faq",
+            "https://bitcoin.org/zh_CN/",
+            "https://bitcoin.org/zh_CN/about-us",
+            "https://bitcoin.org/zh_CN/bitcoin-for-businesses",
+            "https://bitcoin.org/zh_CN/bitcoin-for-individuals",
+            "https://bitcoin.org/zh_CN/bitcoin-paper",
+            "https://bitcoin.org/zh_CN/buy",
+            "https://bitcoin.org/zh_CN/choose-your-wallet",
+            "https://bitcoin.org/zh_CN/community",
+            "https://bitcoin.org/zh_CN/development",
+            "https://bitcoin.org/zh_CN/download",
+            "https://bitcoin.org/zh_CN/events",
+            "https://bitcoin.org/zh_CN/exchanges",
+            "https://bitcoin.org/zh_CN/faq",
+            "https://bitcoin.org/zh_CN/faq#can-bitcoin-be-regulated",
+            "https://bitcoin.org/zh_CN/faq#can-bitcoin-scale-to-become-a-major-payment-network",
+            "https://bitcoin.org/zh_CN/faq#can-bitcoins-become-worthless",
+            "https://bitcoin.org/zh_CN/faq#can-i-make-money-with-bitcoin",
+            "https://bitcoin.org/zh_CN/faq#could-users-collude-against-bitcoin",
+            "https://bitcoin.org/zh_CN/faq#doesnt-bitcoin-unfairly-benefit-early-adopters",
+            "https://bitcoin.org/zh_CN/faq#economy",
+            "https://bitcoin.org/zh_CN/faq#general",
+            "https://bitcoin.org/zh_CN/faq#hasnt-bitcoin-been-hacked-in-the-past",
+            "https://bitcoin.org/zh_CN/faq#help",
+            "https://bitcoin.org/zh_CN/faq#how-are-bitcoins-created",
+            "https://bitcoin.org/zh_CN/faq#how-difficult-is-it-to-make-a-bitcoin-payment",
+            "https://bitcoin.org/zh_CN/faq#how-does-bitcoin-mining-work",
+            "https://bitcoin.org/zh_CN/faq#how-does-bitcoin-work",
+            "https://bitcoin.org/zh_CN/faq#how-does-mining-help-secure-bitcoin",
+            "https://bitcoin.org/zh_CN/faq#how-does-one-acquire-bitcoins",
+            "https://bitcoin.org/zh_CN/faq#how-much-will-the-transaction-fee-be",
+            "https://bitcoin.org/zh_CN/faq#is-bitcoin-a-bubble",
+            "https://bitcoin.org/zh_CN/faq#is-bitcoin-a-ponzi-scheme",
+            "https://bitcoin.org/zh_CN/faq#is-bitcoin-anonymous",
+            "https://bitcoin.org/zh_CN/faq#is-bitcoin-fully-virtual-and-immaterial",
+            "https://bitcoin.org/zh_CN/faq#is-bitcoin-legal",
+            "https://bitcoin.org/zh_CN/faq#is-bitcoin-really-used-by-people",
+            "https://bitcoin.org/zh_CN/faq#is-bitcoin-secure",
+            "https://bitcoin.org/zh_CN/faq#is-bitcoin-useful-for-illegal-activities",
+            "https://bitcoin.org/zh_CN/faq#is-bitcoin-vulnerable-to-quantum-computing",
+            "https://bitcoin.org/zh_CN/faq#isnt-bitcoin-mining-a-waste-of-energy",
+            "https://bitcoin.org/zh_CN/faq#isnt-speculation-and-volatility-a-problem-for-bitcoin",
+            "https://bitcoin.org/zh_CN/faq#legal",
+            "https://bitcoin.org/zh_CN/faq#mining",
+            "https://bitcoin.org/zh_CN/faq#more-help",
+            "https://bitcoin.org/zh_CN/faq#security",
+            "https://bitcoin.org/zh_CN/faq#transactions",
+            "https://bitcoin.org/zh_CN/faq#what-about-bitcoin-and-consumer-protection",
+            "https://bitcoin.org/zh_CN/faq#what-about-bitcoin-and-taxes",
+            "https://bitcoin.org/zh_CN/faq#what-are-the-advantages-of-bitcoin",
+            "https://bitcoin.org/zh_CN/faq#what-are-the-disadvantages-of-bitcoin",
+            "https://bitcoin.org/zh_CN/faq#what-determines-bitcoins-price",
+            "https://bitcoin.org/zh_CN/faq#what-do-i-need-to-start-mining",
+            "https://bitcoin.org/zh_CN/faq#what-does-synchronizing-mean-and-why-does-it-take-so-long",
+            "https://bitcoin.org/zh_CN/faq#what-happens-when-bitcoins-are-lost",
+            "https://bitcoin.org/zh_CN/faq#what-if-i-receive-a-bitcoin-when-my-computer-is-powered-off",
+            "https://bitcoin.org/zh_CN/faq#what-if-someone-bought-up-all-the-existing-bitcoins",
+            "https://bitcoin.org/zh_CN/faq#what-if-someone-creates-a-better-digital-currency",
+            "https://bitcoin.org/zh_CN/faq#what-is-bitcoin",
+            "https://bitcoin.org/zh_CN/faq#what-is-bitcoin-mining",
+            "https://bitcoin.org/zh_CN/faq#who-controls-the-bitcoin-network",
+            "https://bitcoin.org/zh_CN/faq#who-created-bitcoin",
+            "https://bitcoin.org/zh_CN/faq#why-do-bitcoins-have-value",
+            "https://bitcoin.org/zh_CN/faq#why-do-i-have-to-wait-10-minutes",
+            "https://bitcoin.org/zh_CN/faq#why-do-people-trust-bitcoin",
+            "https://bitcoin.org/zh_CN/faq#wont-bitcoin-fall-in-a-deflationary-spiral",
+            "https://bitcoin.org/zh_CN/faq#wont-the-finite-amount-of-bitcoins-be-a-limitation",
+            "https://bitcoin.org/zh_CN/getting-started",
+            "https://bitcoin.org/zh_CN/how-it-works",
+            "https://bitcoin.org/zh_CN/innovation",
+            "https://bitcoin.org/zh_CN/legal",
+            "https://bitcoin.org/zh_CN/press",
+            "https://bitcoin.org/zh_CN/protect-your-privacy",
+            "https://bitcoin.org/zh_CN/resources",
+            "https://bitcoin.org/zh_CN/secure-your-wallet",
+            "https://bitcoin.org/zh_CN/support-bitcoin",
+            "https://bitcoin.org/zh_CN/vocabulary",
+            "https://bitcoin.org/zh_CN/you-need-to-know",
+            "https://bitcoin.org/zh_CN/you-need-to-know#instant",
+            "https://bitcoin.org/zh_TW/faq"
+        ],
+        "bitcoincharts.com": [
+            "https://bitcoincharts.com/bitcoin/"
+        ],
+        "denarium.com": [
+            "https://denarium.com/"
+        ],
+        "developer.bitcoin.org": [
+            "https://developer.bitcoin.org/"
+        ],
+        "en.bitcoin.it": [
+            "https://en.bitcoin.it/wiki/Help:FAQ",
+            "https://en.bitcoin.it/wiki/Scalability"
+        ],
+        "en.wikipedia.org": [
+            "https://en.wikipedia.org/wiki/German_gold_mark",
+            "https://en.wikipedia.org/wiki/Legality_of_bitcoin_by_country",
+            "https://en.wikipedia.org/wiki/Network_effect",
+            "https://en.wikipedia.org/wiki/Zimbabwean_dollar"
+        ],
+        "financialcryptography.com": [
+            "http://financialcryptography.com/mt/archives/001325.html"
+        ],
+        "howtobuybitcoins.info": [
+            "http://howtobuybitcoins.info"
+        ],
+        "live.blockcypher.com": [
+            "https://live.blockcypher.com/btc/"
+        ],
+        "localbitcoins.com": [
+            "https://localbitcoins.com/"
+        ],
+        "opensource.org": [
+            "http://opensource.org/licenses/mit-license.php"
+        ],
+        "www.bitcoinmining.com": [
+            "http://www.bitcoinmining.com/"
+        ]
+    }
+}
