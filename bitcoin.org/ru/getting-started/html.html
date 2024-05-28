@@ -1,0 +1,817 @@
+<!DOCTYPE html><html lang="ru"><head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>ÐÐ°ÑÐ°ÑÑ - ÐÐ¸ÑÐºÐ¾Ð¹Ð½</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+<link rel="stylesheet" href="/css/sans.css?1716491272">
+<script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.org ÑÐ¿Ð¾Ð½ÑÐ¸ÑÑÐµÑÑÑ ÑÐ¾Ð¾Ð±ÑÐµÑÑÐ²Ð¾Ð¼. ÐÐ¾Ð¶ÐµÑÑÐ²Ð¾Ð²Ð°Ð½Ð¸Ñ Ð¿ÑÐ¸Ð²ÐµÑÑÑÐ²ÑÑÑÑÑ Ð¸ Ð¸ÑÐ¿Ð¾Ð»ÑÐ·ÑÑÑÑÑ Ð´Ð»Ñ ÑÐ»ÑÑÑÐµÐ½Ð¸Ñ ÑÐ°Ð±Ð¾ÑÑ ÑÐ°Ð¹ÑÐ°.
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        Ð¡Ð´ÐµÐ»Ð°ÑÑ Ð¿Ð¾Ð¶ÐµÑÑÐ²Ð¾Ð²Ð°Ð½Ð¸Ðµ
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.org Ð½ÑÐ¶Ð½Ð° ÐÐ°ÑÐ° Ð¿Ð¾Ð´Ð´ÐµÑÐ¶ÐºÐ°!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">ÐÐ¾Ð¶ÐµÑÑÐ²Ð¾Ð²Ð°Ð½Ð¸Ðµ Ð´Ð»Ñ Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">ÐÑÐ¿Ð¾Ð»ÑÐ·ÑÐ¹ÑÐµ QR-ÐºÐ¾Ð´ Ð¸Ð»Ð¸ Ð°Ð´ÑÐµÑ Ð²Ð½Ð¸Ð·Ñ</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="ÐÑÑÐ³Ð°Ñ ÑÑÐ¼Ð¼Ð°? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="ÐÑÑÐ³Ð°Ñ ÑÑÐ¼Ð¼Ð°? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="ÐÐµÐ¾Ð±ÑÐ·Ð°ÑÐµÐ»ÑÐ½Ð¾Ðµ Ð¾Ð¿Ð¸ÑÐ°Ð½Ð¸Ðµ ÑÑÐ°Ð½Ð·Ð°ÐºÑÐ¸Ð¸ (Ð´Ð»Ñ ÐÐ°ÑÐµÐ³Ð¾ ÐºÐ¾ÑÐµÐ»ÑÐºÐ°)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="/ru/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">ÐÐ²ÐµÐ´ÐµÐ½Ð¸Ðµ</a>
+    <ul>
+      <li><a href="/ru/bitcoin-for-individuals">Ð§Ð°ÑÑÐ½ÑÐ¼ Ð»Ð¸ÑÐ°Ð¼</a></li>
+      <li><a href="/ru/bitcoin-for-businesses">ÐÐ¸Ð·Ð½ÐµÑÑ</a></li>
+      <li><a href="https://developer.bitcoin.org/">Ð Ð°Ð·ÑÐ°Ð±Ð¾ÑÑÐ¸ÐºÐ°Ð¼</a></li>
+      <li class="active"><a href="/ru/getting-started">ÐÐ°ÑÐ°Ð»Ð¾ ÑÐ°Ð±Ð¾ÑÑ</a></li>
+      <li><a href="/ru/how-it-works">ÐÐ°Ðº ÑÑÐ¾ ÑÐ°Ð±Ð¾ÑÐ°ÐµÑ</a></li>
+      
+      <li><a href="/ru/bitcoin-paper">White paper</a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">Ð ÐµÑÑÑÑÑ</a>
+    <ul>
+      <li><a href="/ru/resources">Ð ÐµÑÑÑÑÑ</a>
+      </li><li><a href="/ru/exchanges">ÐÐ±Ð¼ÐµÐ½Ð½Ð¸ÐºÐ¸ (ÐÐ¸ÑÐ¶Ð¸)</a></li>
+      <li><a href="/ru/community">Ð¡Ð¾Ð¾Ð±ÑÐµÑÑÐ²Ð¾</a></li>
+      
+      
+      <li><a href="/ru/vocabulary">Ð¢ÐµÑÐ¼Ð¸Ð½Ñ</a></li>
+      <li><a href="/ru/events">Ð¡Ð¾Ð±ÑÑÐ¸Ñ</a></li>
+      
+        <li><a href="/ru/download">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li><a href="/ru/innovation">ÐÐ½Ð½Ð¾Ð²Ð°ÑÐ¸Ñ</a></li>
+  <li><a class="is-expand">Ð£ÑÐ°ÑÑÐ²Ð¾Ð²Ð°ÑÑ</a>
+    <ul>
+      <li><a href="/ru/support-bitcoin">ÐÐ¾Ð´Ð´ÐµÑÐ¶Ð°ÑÑ ÐÐ¸ÑÐºÐ¾Ð¹Ð½</a>
+      </li><li><a href="/ru/buy">Buy Bitcoin</a></li>
+      
+      <li><a href="/ru/development">Ð Ð°Ð·ÑÐ°Ð±Ð¾ÑÐºÐ°</a></li>
+    </ul>
+  </li>
+  <li><a href="/ru/faq">FAQ</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>Ð ÑÑÑÐºÐ¸Ð¹</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/memulai">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/iniciat">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/kom-i-gang">Dansk</a></li>
+        
+        
+          <li><a href="/de/erste-schritte">Deutsch</a></li>
+        
+        
+          <li><a href="/en/getting-started">English</a></li>
+        
+        
+          <li><a href="/es/como-empezar">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/debuter">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/come-iniziare">Italiano</a></li>
+        
+        
+          <li><a href="/hu/vagjon-bele">Magyar</a></li>
+        
+        
+          <li><a href="/nl/aan-de-slag">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/pierwsze-kroki">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/comecando">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/notiuni-de-baza">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/prvi-koraki">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/prvi-koraci">Srpski</a></li>
+        
+        
+          <li><a href="/sv/kom-igang">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/baslarken">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/getting-started">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/getting-started">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/getting-started" class="active">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/getting-started">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/getting-started">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/getting-started">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/getting-started">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/getting-started">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/getting-started">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/getting-started">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/getting-started">ááááá</a></li>
+        
+        
+          <li><a href="/ja/getting-started">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/getting-started">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/getting-started">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/memulai">Bahasa Indonesia</option>
+            
+            <option value="/ca/iniciat">CatalÃ </option>
+            
+            <option value="/da/kom-i-gang">Dansk</option>
+            
+            <option value="/de/erste-schritte">Deutsch</option>
+            
+            <option value="/en/getting-started">English</option>
+            
+            <option value="/es/como-empezar">EspaÃ±ol</option>
+            
+            <option value="/fr/debuter">FranÃ§ais</option>
+            
+            <option value="/it/come-iniziare">Italiano</option>
+            
+            <option value="/hu/vagjon-bele">Magyar</option>
+            
+            <option value="/nl/aan-de-slag">Nederlands</option>
+            
+            <option value="/pl/pierwsze-kroki">Polski</option>
+            
+            <option value="/pt_BR/comecando">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/notiuni-de-baza">RomÃ¢nÄ</option>
+            
+            <option value="/sl/prvi-koraki">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/prvi-koraci">Srpski</option>
+            
+            <option value="/sv/kom-igang">Svenska</option>
+            
+            <option value="/tr/baslarken">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/getting-started">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/getting-started">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/getting-started" selected="selected">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/getting-started">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/getting-started">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/getting-started">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/getting-started">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/getting-started">×¢××¨××ª</option>
+            
+            <option value="/hi/getting-started">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/getting-started">íêµ­ì´</option>
+            
+            <option value="/km/getting-started">ááááá</option>
+            
+            <option value="/ja/getting-started">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/getting-started">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/getting-started">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">ru</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  <div class="hero">
+  <div class="container hero-container">
+    <h1>ÐÐ¾Ð²Ð¸ÑÐºÑ Ð¾ ÐÐ¸ÑÐºÐ¾Ð¹Ð½Ðµ</h1>
+    <p class="summary">ÐÐ»Ð°ÑÐ¸ÑÑ Ð¸ Ð¿Ð¾Ð»ÑÑÐ°ÑÑ Ð¿Ð»Ð°ÑÐµÐ¶Ð¸ Ð² Ð±Ð¸ÑÐºÐ¾Ð¹Ð½Ð°Ñ - Ð¿ÑÐ¾ÑÑÐ¾ Ð¸ Ð´Ð¾ÑÑÑÐ¿Ð½Ð¾ ÐºÐ°Ð¶Ð´Ð¾Ð¼Ñ.</p>
+  </div>
+</div>
+
+<div class="row startbar">
+  <a class="startbar-link" href="#start-section-1">ÐÐ°Ðº Ð¸ÑÐ¿Ð¾Ð»ÑÐ·Ð¾Ð²Ð°ÑÑ ÐÐ¸ÑÐºÐ¾Ð¹Ð½</a>
+  <a class="startbar-link" href="#start-section-2">ÐÐ°Ðº Ð¿ÑÐ¸Ð½Ð¸Ð¼Ð°ÑÑ Ð±Ð¸ÑÐºÐ¾Ð¹Ð½Ñ</a>
+</div>
+
+<div class="container">
+  <div id="start-section-1" class="starttitle">
+    <span>ÐÐ°Ðº Ð¸ÑÐ¿Ð¾Ð»ÑÐ·Ð¾Ð²Ð°ÑÑ ÐÐ¸ÑÐºÐ¾Ð¹Ð½</span>
+  </div>
+  
+  <div class="start">
+    <div class="start-block">
+      <div class="start-content">
+        <div class="left-column">
+          <h2 id="inform" class=" anchorAf"><a href="#inform"></a>
+            Ð Ð°Ð·Ð¾Ð±ÑÐ°ÑÑÑÑ</h2>
+          <p>ÐÐ¸ÑÐºÐ¾Ð¹Ð½ Ð¾ÑÐ»Ð¸ÑÐ°ÐµÑÑÑ Ð¾Ñ Ð²ÑÐµÐ³Ð¾, ÑÑÐ¾ Ð²Ñ Ð·Ð½Ð°ÐµÑÐµ Ð¸ ÑÐµÐ¼ Ð¿Ð¾Ð»ÑÐ·ÑÐµÑÐµÑÑ ÐºÐ°Ð¶Ð´ÑÐ¹ Ð´ÐµÐ½Ñ. ÐÑÐµÐ¶Ð´Ðµ ÑÐµÐ¼ Ð½Ð°ÑÐ°ÑÑ Ð¿Ð¾Ð»ÑÐ·Ð¾Ð²Ð°ÑÑÑÑ ÐÐ¸ÑÐºÐ¾Ð¹Ð½Ð¾Ð¼, ÐµÑÑÑ Ð½ÐµÑÐºÐ¾Ð»ÑÐºÐ¾ Ð²ÐµÑÐµÐ¹, Ð¾  ÐºÐ¾ÑÐ¾ÑÑÑ Ð½ÐµÐ¾Ð±ÑÐ¾Ð´Ð¸Ð¼Ð¾ Ð·Ð½Ð°ÑÑ, ÑÑÐ¾Ð±Ñ Ð¿Ð¾Ð»ÑÐ·Ð¾Ð²Ð°ÑÑÑÑ Ð¸Ð¼ Ð±ÐµÐ·Ð¾Ð¿Ð°ÑÐ½Ð¾ Ð¸ Ð¸Ð·Ð±ÐµÐ¶Ð°ÑÑ Ð¾Ð±ÑÑÐ½ÑÑ Ð¾ÑÐ¸Ð±Ð¾Ðº.</p>
+          <div>
+            <a class="btn-bright" href="/ru/you-need-to-know">Ð£Ð·Ð½Ð°Ð¹ÑÐµ Ð±Ð¾Ð»ÑÑÐµ</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="start-block">
+      <div class="start-content">
+        <div class="right-column">
+          <h2 id="choose" class=" anchorAf"><a href="#choose"></a>
+            ÐÑÐ±ÐµÑÐ¸ÑÐµ ÑÐ²Ð¾Ð¹ ÐºÐ¾ÑÐµÐ»ÐµÐº</h2>
+          <p>ÐÑ Ð¼Ð¾Ð¶ÐµÑÐµ Ð½Ð°ÑÐ°ÑÑ ÑÐµÐ³ÑÐ»ÑÑÐ½Ð¾ Ð¿Ð¾Ð»ÑÐ·Ð¾Ð²Ð°ÑÑÑÑ Ð±Ð¸ÑÐºÐ¾Ð¹Ð½-ÐºÐ¾ÑÐµÐ»ÑÐºÐ¾Ð¼ Ð½Ð° ÑÐ¼Ð°ÑÑÑÐ¾Ð½Ðµ Ð¸Ð»Ð¸ Ð¼Ð¾Ð¶ÐµÑÐµ Ð¸Ð¼ÐµÑÑ ÐºÐ¾ÑÐµÐ»ÐµÐº Ð½Ð° ÑÐ²Ð¾ÐµÐ¼ ÐºÐ¾Ð¼Ð¿ÑÑÑÐµÑÐµ ÑÐ¾Ð»ÑÐºÐ¾ Ð´Ð»Ñ Ð¾Ð½Ð»Ð°Ð¹Ð½-Ð¿Ð»Ð°ÑÐµÐ¶ÐµÐ¹. Ð Ð»ÑÐ±Ð¾Ð¼ ÑÐ»ÑÑÐ°Ðµ, Ð²Ñ Ð¼Ð¾Ð¶ÐµÑÐµ Ð²ÑÐ±ÑÐ°ÑÑ ÐºÐ¾ÑÐµÐ»ÐµÐº Ð·Ð° Ð¼Ð¸Ð½ÑÑÑ.</p>
+          <div>
+            <a class="btn-bright" href="/ru/choose-your-wallet">ÐÑÐ±ÐµÑÐ¸ÑÐµ ÑÐ²Ð¾Ð¹ ÐºÐ¾ÑÐµÐ»ÐµÐº</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="start-block">
+      <div class="start-content">
+        <div class="left-column">
+          <h2 id="get" class=" anchorAf"><a href="#get"></a>
+            ÐÐ¾Ð»ÑÑÐ¸ÑÑ Ð±Ð¸ÑÐºÐ¾Ð¹Ð½Ñ</h2>
+          <p>ÐÑ Ð¼Ð¾Ð¶ÐµÑÐµ Ð¿Ð¾Ð»ÑÑÐ¸ÑÑ Ð±Ð¸ÑÐºÐ¾Ð¹Ð½Ñ Ð² ÐºÐ°ÑÐµÑÑÐ²Ðµ Ð¾Ð¿Ð»Ð°ÑÑ Ð·Ð° ÑÐ¾Ð²Ð°ÑÑ Ð¸ ÑÑÐ»ÑÐ³Ð¸, Ð¸Ð»Ð¸ Ð¶Ðµ ÐºÑÐ¿Ð¸Ð² Ð¸Ñ Ñ Ð´ÑÑÐ·ÐµÐ¹ Ð¸ Ð·Ð½Ð°ÐºÐ¾Ð¼ÑÑ. ÐÑ ÑÐ°Ðº Ð¶Ðµ Ð¼Ð¾Ð¶ÐµÑÐµ ÐºÑÐ¿Ð¸ÑÑ Ð¸Ñ Ð½Ð°Ð¿ÑÑÐ¼ÑÑ Ð² Ð¾Ð±Ð¼ÐµÐ½Ð½Ð¸ÐºÐµ Ð¸Ð»Ð¸ Ð±Ð¸ÑÐ¶Ðµ, Ð¸ÑÐ¿Ð¾Ð»ÑÐ·ÑÑ ÑÐ²Ð¾Ð¹ Ð±Ð°Ð½ÐºÐ¾Ð²ÑÐºÐ¸Ð¹ ÑÑÐµÑ.</p>
+          <div>
+            <a class="btn-bright" href="/ru/buy">ÐÐ°Ð¹ÑÐ¸ Ð¾Ð±Ð¼ÐµÐ½Ð½Ð¸Ðº (Ð±Ð¸ÑÐ¶Ñ)</a>
+          </div>
+       </div>
+      </div>
+    </div>
+
+    <div class="start-block">
+      <div class="start-content">
+        <div class="right-column">
+          <h2 id="spend" class=" anchorAf"><a href="#spend"></a>
+            ÐÐ¾ÑÑÐ°ÑÐ¸ÑÑ Ð±Ð¸ÑÐºÐ¾Ð¹Ð½Ñ</h2>
+          <p>Ð¡ÑÑÐµÑÑÐ²ÑÐµÑ ÑÐ°ÑÑÑÑÐµÐµ ÐºÐ¾Ð»Ð¸ÑÐµÑÑÐ²Ð¾ ÐºÐ¾Ð¼Ð¿Ð°Ð½Ð¸Ð¹ Ð¿Ð¾ Ð²ÑÐµÐ¼Ñ Ð¼Ð¸ÑÑ, Ð¿ÑÐ¸Ð½Ð¸Ð¼Ð°ÑÑÐ¸Ñ Ð±Ð¸ÑÐºÐ¾Ð¹Ð½Ñ. ÐÑ Ð¼Ð¾Ð¶ÐµÑÐµ Ð¸ÑÐ¿Ð¾Ð»ÑÐ·Ð¾Ð²Ð°ÑÑ ÐÐ¸ÑÐºÐ¾Ð¹Ð½, ÑÑÐ¾Ð±Ñ Ð·Ð°Ð¿Ð»Ð°ÑÐ¸ÑÑ Ð¸Ð¼ Ð¸ Ð¾ÑÐµÐ½Ð¸ÑÑ ÑÐ²Ð¾Ð¹ Ð¾Ð¿ÑÑ, ÑÑÐ¾Ð±Ñ Ð¿Ð¾Ð¼Ð¾ÑÑ ÑÐµÑÑÐ½ÑÐ¼ Ð¿ÑÐµÐ´Ð¿ÑÐ¸Ð½Ð¸Ð¼Ð°ÑÐµÐ»ÑÐ¼ Ð¿Ð¾Ð»ÑÑÐ¸ÑÑ Ð±Ð¾Ð»ÑÑÑÑ ÑÐ·Ð½Ð°Ð²Ð°ÐµÐ¼Ð¾ÑÑÑ.</p>
+          <div>
+            <a class="btn-bright" href="/ru/spend-bitcoin">ÐÐ°Ð¹ÑÐ¸ Ð¿ÑÐ¾Ð´Ð°Ð²ÑÐ¾Ð² Ð¸ Ð¿ÑÐ¾Ð´ÑÐºÑÑ</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="start-section-2" class="starttitle">
+    <span>ÐÐ°Ðº Ð¿ÑÐ¸Ð½Ð¸Ð¼Ð°ÑÑ Ð±Ð¸ÑÐºÐ¾Ð¹Ð½Ñ</span>
+  </div>
+  
+  <div class="start">
+    <div class="start-block">
+      <div class="start-content">
+        <div class="left-column">
+          <h2 id="merchantinform" class=" anchorAf"><a href="#merchantinform"></a>
+            ÐÐ·ÑÑÐ¸ÑÑ Ð¿Ð¾Ð´ÑÐ¾Ð±Ð½ÐµÐµ</h2>
+          <p>ÐÐ¸ÑÐºÐ¾Ð¹Ð½ Ð½Ðµ ÑÑÐµÐ±ÑÐµÑ Ð¾Ñ ÐºÐ¾Ð¼Ð¿Ð°Ð½Ð¸Ð¹ Ð¸Ð·Ð¼ÐµÐ½ÐµÐ½Ð¸Ñ Ð¸Ñ Ð´ÐµÐ»Ð¾Ð²ÑÑ Ð¿ÑÐ¾ÑÐµÑÑÐ¾Ð². ÐÐ´Ð½Ð°ÐºÐ¾, ÑÑÐ¾ Ð½Ðµ ÑÐ¾Ð²ÑÐµÐ¼ ÑÐ¾, Ðº ÑÐµÐ¼Ñ Ð²Ñ Ð¿ÑÐ¸Ð²ÑÐºÐ»Ð¸. ÐÑÐµÐ¶Ð´Ðµ ÑÐµÐ¼ Ð½Ð°ÑÐ°ÑÑ ÑÐ°Ð±Ð¾ÑÑ Ñ ÐÐ¸ÑÐºÐ¾Ð¹Ð½Ð¾Ð¼, Ð²Ð°Ð¼ ÑÐ»ÐµÐ´ÑÐµÑ ÑÐ½Ð°ÑÐ°Ð»Ð° ÐºÐ¾Ðµ-ÑÑÐ¾ Ð¸Ð·ÑÑÐ¸ÑÑ, ÑÑÐ¾Ð±Ñ Ð¸ÑÐ¿Ð¾Ð»ÑÐ·Ð¾Ð²Ð°ÑÑ ÐµÐ³Ð¾ Ð±ÐµÐ·Ð¾Ð¿Ð°ÑÐ½Ð¾ Ð¸ Ð¸Ð·Ð±ÐµÐ¶Ð°ÑÑ ÑÐ°ÑÐ¿ÑÐ¾ÑÑÑÐ°Ð½ÐµÐ½Ð½ÑÑ Ð¾ÑÐ¸Ð±Ð¾Ðº.</p>
+          <div>
+            <a class="btn-bright" href="/ru/you-need-to-know">Ð§Ð¸ÑÐ°ÑÑ Ð´Ð°Ð»ÑÑÐµ</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="start-block">
+      <div class="start-content">
+        <div class="right-column">
+          <h2 id="merchantservice" class=" anchorAf"><a href="#merchantservice"></a>
+            ÐÐ±ÑÐ°Ð±Ð¾ÑÐºÐ° Ð¿Ð»Ð°ÑÐµÐ¶ÐµÐ¹</h2>
+          <p>ÐÑ Ð¼Ð¾Ð¶ÐµÑÐµ ÑÐ°Ð¼Ð¸ Ð¾Ð±ÑÐ°Ð±Ð°ÑÑÐ²Ð°ÑÑ ÑÐ²Ð¾Ð¸ Ð¿Ð»Ð°ÑÐµÐ¶Ð¸ Ð¸ ÑÑÐµÑÐ° Ð¸Ð»Ð¸ Ð¿Ð¾Ð»ÑÐ·Ð¾Ð²Ð°ÑÑÑÑ Ð¿ÑÐ¾ÑÐµÑÑÐ¸Ð½Ð³Ð¾Ð²ÑÐ¼Ð¸ ÑÑÐ»ÑÐ³Ð°Ð¼Ð¸, ÐºÐ¾ÑÐ¾ÑÑÐµ Ð¿ÐµÑÐµÐ²ÐµÐ´ÑÑ Ð²Ð°Ð¼ Ð´ÐµÐ½ÑÐ³Ð¸ Ð² Ð¼ÐµÑÑÐ½Ð¾Ð¹ Ð²Ð°Ð»ÑÑÐµ Ð¸Ð»Ð¸ Ð±Ð¸ÑÐºÐ¾Ð¹Ð½Ð°Ñ. Ð ÑÐ¾Ð·Ð½Ð¸ÑÐµ, ÑÐ°ÑÑÐ¾ Ð¸ÑÐ¿Ð¾Ð»ÑÐ·ÑÑÑ Ð¿ÑÐ¾ÑÑÐ¾ Ð¿Ð»Ð°Ð½ÑÐµÑ Ð¸Ð»Ð¸ ÑÐ¼Ð°ÑÑÑÐ¾Ð½, ÑÑÐ¾ Ð¿Ð¾Ð·Ð²Ð¾Ð»ÑÐµÑ Ð¿Ð¾ÐºÑÐ¿Ð°ÑÐµÐ»ÑÐ¼ ÑÐ°ÑÐ¿Ð»Ð°ÑÐ¸ÑÐ¸Ð²Ð°ÑÑÑÑ Ð±Ð¸ÑÐºÐ¾Ð¹Ð½Ð°Ð¼Ð¸ ÑÐ¾ ÑÐ²Ð¾ÐµÐ³Ð¾ ÑÐ¼Ð°ÑÑÑÐ¾Ð½Ð°.</p>
+          <div>
+            <a class="btn-bright" href="https://en.bitcoin.it/wiki/How_to_accept_Bitcoin,_for_small_businesses#Merchant_Services">ÐÐ°Ð¹ÑÐ¸ Ð¿ÑÐ¾ÑÐµÑÑÐ¸Ð½Ð³Ð¾Ð²ÑÐµ ÑÑÐ»ÑÐ³Ð¸</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="start-block">
+      <div class="start-content">
+        <div class="left-column">
+          <h2 id="tax" class=" anchorAf"><a href="#tax"></a>
+            ÐÐµÐ´ÐµÐ½Ð¸Ðµ Ð±ÑÑÐ³Ð°Ð»ÑÐµÑÐ¸Ð¸ Ð¸ Ð½Ð°Ð»Ð¾Ð³Ð¸</h2>
+          <p>ÐÐ¾Ð¼Ð¿Ð°Ð½Ð¸Ð¸ ÑÐ°ÑÑÐ¾ ÑÑÐ°Ð½ÑÑ ÑÑÐµÐ´ÑÑÐ²Ð° Ð¸ Ð²ÑÑÐ²ÐµÑÐ¸Ð²Ð°ÑÑ ÑÐµÐ½Ñ Ð² Ð²Ð°Ð»ÑÑÐµ ÑÐ²Ð¾ÐµÐ¹ ÑÑÑÐ°Ð½Ñ. Ð Ð´ÑÑÐ³Ð¸Ñ ÑÐ»ÑÑÐ°ÑÑ, ÐÐ¸ÑÐºÐ¾Ð¹Ð½ Ð² Ð¾Ð±ÑÐ¸Ñ ÑÐµÑÑÐ°Ñ ÑÐ°Ð±Ð¾ÑÐ°ÐµÑ ÐºÐ°Ðº Ð¸Ð½Ð¾ÑÑÑÐ°Ð½Ð½Ð°Ñ Ð²Ð°Ð»ÑÑÐ°. Ð§ÑÐ¾Ð±Ñ Ð¿Ð¾Ð»ÑÑÐ¸ÑÑ ÑÐ¾Ð¾ÑÐ²ÐµÑÑÑÐ²ÑÑÑÑÑ ÐºÐ¾Ð½ÑÑÐ»ÑÑÐ°ÑÐ¸Ñ Ð¿Ð¾ Ð½Ð°Ð»Ð¾Ð³Ð°Ð¼ Ð´Ð»Ñ Ð²Ð°ÑÐµÐ¹ ÑÑÑÐ°Ð½Ñ, Ð²Ð°Ð¼ ÑÐ»ÐµÐ´ÑÐµÑ Ð¾Ð±ÑÐ°ÑÐ¸ÑÑÑÑ Ðº ÐºÐ²Ð°Ð»Ð¸ÑÐ¸ÑÐ¸ÑÐ¾Ð²Ð°Ð½Ð½Ð¾Ð¼Ñ ÑÑÐ¸ÑÑÑ.</p>
+          <div>
+            <a class="btn-bright" href="https://en.bitcoin.it/wiki/Tax_compliance">Ð§Ð¸ÑÐ°ÑÑ Ð´Ð°Ð»ÑÑÐµ</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="start-block">
+      <div class="start-content">
+        <div class="right-column">
+          <h2 id="visibility" class=" anchorAf"><a href="#visibility"></a>
+            ÐÐ°ÑÐ²Ð¸ÑÑ Ð¾ ÑÐµÐ±Ðµ</h2>
+          <p>ÐÑÐµ Ð±Ð¾Ð»ÑÑÐµ Ð»ÑÐ´ÐµÐ¹ Ð¸ÑÐµÑ ÑÐ¿Ð¾ÑÐ¾Ð±Ñ Ð¿Ð¾ÑÑÐ°ÑÐ¸ÑÑ ÑÐ²Ð¾Ð¸ Ð±Ð¸ÑÐºÐ¾Ð¹Ð½Ñ. ÐÑ Ð¼Ð¾Ð¶ÐµÑÐµ Ð·Ð°ÑÐµÐ³Ð¸ÑÑÑÐ¸ÑÐ¾Ð²Ð°ÑÑ ÑÐ²Ð¾Ð¹ Ð±Ð¸Ð·Ð½ÐµÑ Ð² Ð¾Ð½Ð»Ð°Ð¹Ð½ ÐºÐ°ÑÐ°Ð»Ð¾Ð³Ðµ, ÑÑÐ¾Ð±Ñ Ð¸Ð¼ Ð±ÑÐ»Ð¾ Ð»ÐµÐ³ÑÐµ Ð½Ð°Ð¹ÑÐ¸ Ð²Ð°Ñ. ÐÑ ÑÐ°Ðº Ð¶Ðµ Ð¼Ð¾Ð¶ÐµÑÐµ ÑÐ°Ð·Ð¼ÐµÑÑÐ¸ÑÑ <a href="https://en.bitcoin.it/wiki/Promotional_graphics">Ð»Ð¾Ð³Ð¾ÑÐ¸Ð¿ ÐÐ¸ÑÐºÐ¾Ð¹Ð½</a> Ð½Ð° ÑÐ²Ð¾ÐµÐ¼ ÑÐ°Ð¹ÑÐµ Ð¸Ð»Ð¸ Ð² Ð¾ÑÐ»Ð°Ð¹Ð½ Ð±Ð¸Ð·Ð½ÐµÑÐµ.</p>
+          <div>
+            <a class="btn-bright" href="/ru/spend-bitcoin">ÐÐ¾Ð±Ð°Ð²Ð¸ÑÑ ÑÐ²Ð¾Ð¹ Ð±Ð¸Ð·Ð½ÐµÑ</a>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+  </div>
+</div>
+
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="/ru/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Support Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Donate</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">ÐÐ²ÐµÐ´ÐµÐ½Ð¸Ðµ:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/ru/bitcoin-for-individuals">Ð§Ð°ÑÑÐ½ÑÐ¼ Ð»Ð¸ÑÐ°Ð¼</a>
+        </li>
+        <li>
+          <a href="/ru/bitcoin-for-businesses">ÐÐ¸Ð·Ð½ÐµÑÑ</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">Ð Ð°Ð·ÑÐ°Ð±Ð¾ÑÑÐ¸ÐºÐ°Ð¼</a>
+        </li>
+        <li class="active">
+          <a href="/ru/getting-started">ÐÐ°ÑÐ°Ð»Ð¾ ÑÐ°Ð±Ð¾ÑÑ</a>
+        </li>
+        <li>
+          <a href="/ru/how-it-works">ÐÐ°Ðº ÑÑÐ¾ ÑÐ°Ð±Ð¾ÑÐ°ÐµÑ</a>
+        </li>
+        <li>
+          <a href="/ru/you-need-to-know">ÐÐ°Ð¼ Ð½ÑÐ¶Ð½Ð¾ Ð·Ð½Ð°ÑÑ</a>
+        </li>
+        
+        <li>
+          <a href="/ru/bitcoin-paper">White paper</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">Ð ÐµÑÑÑÑÑ:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/ru/resources">Ð ÐµÑÑÑÑÑ</a>
+        </li><li>
+          <a href="/ru/exchanges">ÐÐ±Ð¼ÐµÐ½Ð½Ð¸ÐºÐ¸ (ÐÐ¸ÑÐ¶Ð¸)</a>
+        </li>
+        <li>
+          <a href="/ru/community">Ð¡Ð¾Ð¾Ð±ÑÐµÑÑÐ²Ð¾</a>
+        </li>
+        <li>
+          <a href="/ru/vocabulary">Ð¢ÐµÑÐ¼Ð¸Ð½Ñ
+          </a>
+        </li>
+        <li>
+          <a href="/ru/events">Ð¡Ð¾Ð±ÑÑÐ¸Ñ</a>
+        </li>
+        
+          <li>
+            <a href="/ru/download">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">Ð£ÑÐ°ÑÑÐ²Ð¾Ð²Ð°ÑÑ:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/ru/support-bitcoin">ÐÐ¾Ð´Ð´ÐµÑÐ¶Ð°ÑÑ ÐÐ¸ÑÐºÐ¾Ð¹Ð½</a>
+        
+        
+        </li><li>
+          <a href="/ru/development">Ð Ð°Ð·ÑÐ°Ð±Ð¾ÑÐºÐ°</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Other:</p>
+      
+      <a href="/ru/legal">Ð®ÑÐ¸Ð´Ð¸ÑÐµÑÐºÐ¾Ðµ</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/ru/press">ÐÑÐµÑÑÐ°</a>
+      <a href="/ru/about-us">Ð bitcoin.org</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>ÐÐµÐ±-ÑÐ°Ð¹Ñ ÑÐ¾Ð¾Ð±ÑÐµÑÑÐ²Ð° ÑÐ¿Ð¾Ð½ÑÐ¸ÑÑÐµÑÑÑ</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1716491272" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 ÐÐ ÑÐ°ÑÐ¿ÑÐ¾ÑÑÑÐ°Ð½ÑÐµÑÑÑ Ð¿Ð¾Ð´ Ð»Ð¸ÑÐµÐ½Ð·Ð¸ÐµÐ¹ <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT</a></div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">Network Status</a>
+        
+<ul class="lang is-expand">
+  <li><a>Ð ÑÑÑÐºÐ¸Ð¹</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/memulai">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/iniciat">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/kom-i-gang">Dansk</a></li>
+        
+        
+          <li><a href="/de/erste-schritte">Deutsch</a></li>
+        
+        
+          <li><a href="/en/getting-started">English</a></li>
+        
+        
+          <li><a href="/es/como-empezar">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/debuter">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/come-iniziare">Italiano</a></li>
+        
+        
+          <li><a href="/hu/vagjon-bele">Magyar</a></li>
+        
+        
+          <li><a href="/nl/aan-de-slag">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/pierwsze-kroki">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/comecando">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/notiuni-de-baza">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/prvi-koraki">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/prvi-koraci">Srpski</a></li>
+        
+        
+          <li><a href="/sv/kom-igang">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/baslarken">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/getting-started">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/getting-started">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/getting-started" class="active">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/getting-started">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/getting-started">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/getting-started">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/getting-started">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/getting-started">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/getting-started">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/getting-started">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/getting-started">ááááá</a></li>
+        
+        
+          <li><a href="/ja/getting-started">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/getting-started">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/getting-started">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/memulai">Bahasa Indonesia</option>
+              
+              <option value="/ca/iniciat">CatalÃ </option>
+              
+              <option value="/da/kom-i-gang">Dansk</option>
+              
+              <option value="/de/erste-schritte">Deutsch</option>
+              
+              <option value="/en/getting-started">English</option>
+              
+              <option value="/es/como-empezar">EspaÃ±ol</option>
+              
+              <option value="/fr/debuter">FranÃ§ais</option>
+              
+              <option value="/it/come-iniziare">Italiano</option>
+              
+              <option value="/hu/vagjon-bele">Magyar</option>
+              
+              <option value="/nl/aan-de-slag">Nederlands</option>
+              
+              <option value="/pl/pierwsze-kroki">Polski</option>
+              
+              <option value="/pt_BR/comecando">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/notiuni-de-baza">RomÃ¢nÄ</option>
+              
+              <option value="/sl/prvi-koraki">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/prvi-koraci">Srpski</option>
+              
+              <option value="/sv/kom-igang">Svenska</option>
+              
+              <option value="/tr/baslarken">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/getting-started">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/getting-started">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/getting-started" selected="selected">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/getting-started">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/getting-started">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/getting-started">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/getting-started">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/getting-started">×¢××¨××ª</option>
+              
+              <option value="/hi/getting-started">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/getting-started">íêµ­ì´</option>
+              
+              <option value="/km/getting-started">ááááá</option>
+              
+              <option value="/ja/getting-started">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/getting-started">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/getting-started">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">ru</span>
+          </label>
+        </div>
+      </div>
+<!--      <div class="row">  -->
+        
+<!--    </div> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+
+
+
+
+
+
+</body></html>
