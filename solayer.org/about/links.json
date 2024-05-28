@@ -1,0 +1,31 @@
+{
+    "target_url": "https://solayer.org/about",
+    "domains": {
+        "discord.gg": [
+            "https://discord.gg/solayerlabs"
+        ],
+        "docs.solayer.org": [
+            "https://docs.solayer.org/"
+        ],
+        "github.com": [
+            "https://github.com/solayer-labs"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/companies/solayer-labs",
+            "https://jobs.solana.com/companies/solayer-labs/jobs/35898730-founding-protocol-engineer#content",
+            "https://jobs.solana.com/companies/solayer-labs/jobs/35898837-founding-research-engineer#content"
+        ],
+        "solayer.org": [
+            "https://solayer.org/",
+            "https://solayer.org/about",
+            "https://solayer.org/blog",
+            "https://solayer.org/changelog",
+            "https://solayer.org/community",
+            "https://solayer.org/privacy-policy",
+            "https://solayer.org/terms&condition"
+        ],
+        "twitter.com": [
+            "https://twitter.com/solayer_labs"
+        ]
+    }
+}
