@@ -1,0 +1,39 @@
+{
+    "target_url": "https://solana.com/breakpoint",
+    "domains": {
+        "cdn.builder.io": [
+            "https://cdn.builder.io/api/v1/pixel?apiKey=ce0c7323a97a4d91bd0baa7490ec9139"
+        ],
+        "solana.com": [
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F00496995ccf84d619706f4aa3c08ad45&w=384&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F01cb3328e6e54deeb2799658f7592666&w=384&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F0d49d258406342ac97345463c8cc3d6e&w=384&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F0eebe24cf7dd4f4c9f053a3fa1df9e47&w=384&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F1fa24ba6bb5549d49a9e49beecef5a57&w=384&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F20332ea3b8814eab8f50e904dae5d9e2&w=1200&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F2b840c7c25e04c60a0c5fd6395be4140%3Fformat%3Dwebp&w=3840&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F411e3fa84b6f43f39a833d03d70911ee&w=384&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F43bd48efe42c4a1f99997617009fe906&w=384&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F5907e342fb1d4dd8aed545a05cf3ff61&w=384&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F5eddd01a83f84327b8733f272f63bc3c&w=384&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F79731fc8dd174f26ba1f7a884babec70%3Fformat%3Dwebp&w=3840&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F8cdce946ab9e4786970e85bd7cb49345&w=384&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252Fa1b9fd1d56ec455cafb4c7cf28cb2152&w=384&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252Fa43b5914f75a4d938f7aaa6d32a57da0&w=384&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252Faaf31c5c2e344e1fb8adb67becf0a14d&w=384&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252Fb14d425b015e40329d9ba8c5e801278b%3Fformat%3Dwebp&w=3840&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252Fb38027d696fa4ecca84b5f377a56b557&w=384&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252Fbcfe0330dbdc42789c6b9a0765dbe73f%3Fformat%3Dwebp&w=3840&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252Fc173f4d0d4d7401eaf0412482273ef2e&w=384&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252Fc5a0a996701c43ea88471e7fe0784625&w=384&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252Fd93aeb96a730499c991e177a3a27d3d9%3Fformat%3Dwebp&w=3840&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252Fdba0616ca0bf4b93a7cf4a6f185a93a9&w=384&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252Fe990ff34a8954396aaf72bcad06c9029&w=384&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252Fecf6f81bed364df1b7899291112eeb18&w=3840&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252Fed57f3987da9450b8a1ce123169be66d&w=384&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252Ff142262163714164887f64f851c76591&w=384&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252Ff77999f15c0a4593bfe4e019f650d2cc&w=384&q=75",
+            "https://solana.com/_next/static/media/logotype.e4df684f.svg"
+        ]
+    }
+}
