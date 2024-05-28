@@ -1,0 +1,827 @@
+<!DOCTYPE html><html lang="nl"><head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Woordenlijst - Bitcoin</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+
+<script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.org is een door de gemeenschap gefinancierd project, donaties worden gewaardeerd en gebruikt om de website te verbeteren.
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        Doneer
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.org heeft uw steun nodig!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">Doneer aan Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">Gebruik deze QR of onderstaand adres</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="Of aangepast bedrag? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="Of aangepast bedrag? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="Optionele beschrijving (voor uw portefeuille)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="/nl/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">Inleiding</a>
+    <ul>
+      <li><a href="/nl/bitcoin-voor-particulieren">Particulieren</a></li>
+      <li><a href="/nl/bitcoin-voor-bedrijven">Bedrijven</a></li>
+      <li><a href="https://developer.bitcoin.org/">Ontwikkelaars</a></li>
+      <li><a href="/nl/aan-de-slag">Aan de slag</a></li>
+      <li><a href="/nl/hoe-het-werkt">Hoe het werkt</a></li>
+      
+      <li><a href="/nl/bitcoin-document">Whitepaper</a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">Hulpmiddelen</a>
+    <ul>
+      <li><a href="/nl/hulpmiddelen">Hulpmiddelen</a>
+      </li><li><a href="/nl/beurzen">Beurzen</a></li>
+      <li><a href="/nl/community">Community</a></li>
+      
+      
+      <li class="active"><a href="/nl/woordenlijst">Woordenlijst</a></li>
+      <li><a href="/nl/evenementen">Evenementen</a></li>
+      
+        <li><a href="/nl/download">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li><a href="/nl/innovatie">Innovatie</a></li>
+  <li><a class="is-expand">Meedoen</a>
+    <ul>
+      <li><a href="/nl/help-bitcoin">Ondersteun Bitcoin</a>
+      </li><li><a href="/nl/kopen">Koop Bitcoin</a></li>
+      
+      <li><a href="/nl/ontwikkeling">Ontwikkeling</a></li>
+    </ul>
+  </li>
+  <li><a href="/nl/faq">FAQ</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>Nederlands</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/kosa-kata">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/vocabulari">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/ordliste">Dansk</a></li>
+        
+        
+          <li><a href="/de/glossar">Deutsch</a></li>
+        
+        
+          <li><a href="/en/vocabulary">English</a></li>
+        
+        
+          <li><a href="/es/vocabulario">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/vocabulaire">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/glossario">Italiano</a></li>
+        
+        
+          <li><a href="/hu/szotar">Magyar</a></li>
+        
+        
+          <li><a href="/nl/woordenlijst" class="active">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/slownik">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/vocabulario">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/vocabular">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/besednjak">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/vokabular">Srpski</a></li>
+        
+        
+          <li><a href="/sv/ordlista">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/kelime-haznesi">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/vocabulary">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/vocabulary">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/vocabulary">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/vocabulary">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/vocabulary">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/vocabulary">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/vocabulary">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/vocabulary">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/vocabulary">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/vocabulary">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/vocabulary">ááááá</a></li>
+        
+        
+          <li><a href="/ja/vocabulary">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/vocabulary">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/vocabulary">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/kosa-kata">Bahasa Indonesia</option>
+            
+            <option value="/ca/vocabulari">CatalÃ </option>
+            
+            <option value="/da/ordliste">Dansk</option>
+            
+            <option value="/de/glossar">Deutsch</option>
+            
+            <option value="/en/vocabulary">English</option>
+            
+            <option value="/es/vocabulario">EspaÃ±ol</option>
+            
+            <option value="/fr/vocabulaire">FranÃ§ais</option>
+            
+            <option value="/it/glossario">Italiano</option>
+            
+            <option value="/hu/szotar">Magyar</option>
+            
+            <option value="/nl/woordenlijst" selected="selected">Nederlands</option>
+            
+            <option value="/pl/slownik">Polski</option>
+            
+            <option value="/pt_BR/vocabulario">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/vocabular">RomÃ¢nÄ</option>
+            
+            <option value="/sl/besednjak">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/vokabular">Srpski</option>
+            
+            <option value="/sv/ordlista">Svenska</option>
+            
+            <option value="/tr/kelime-haznesi">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/vocabulary">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/vocabulary">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/vocabulary">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/vocabulary">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/vocabulary">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/vocabulary">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/vocabulary">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/vocabulary">×¢××¨××ª</option>
+            
+            <option value="/hi/vocabulary">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/vocabulary">íêµ­ì´</option>
+            
+            <option value="/km/vocabulary">ááááá</option>
+            
+            <option value="/ja/vocabulary">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/vocabulary">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/vocabulary">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">nl</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  <div class="hero">
+  <div class="container hero-container">
+    <h1>Enkele regelmatig gehoorde Bitcoin-termen</h1>
+    <p class="summarytxt">Bitcoin biedt een nieuwe benadering op het gebied van betalingen en als zodanig zijn er enkele nieuwe woorden die onderdeel van uw woordenschat kunnen worden.</p>
+  </div>
+</div>
+
+<div class="toc-container">
+  <div class="row toc-row">
+    <div id="toc" class="toc">
+      <div>
+        <button class="mob-sidebar-open" hidden="">ALL TOPICS</button>
+        <div class="sidebar">
+          <div class="sidebar-inner vocabulary-list">
+            <button class="mob-sidebar-close" hidden=""></button>
+            <ul>
+            
+              <li><a href="#bitcoin-adres">Bitcoin-adres</a></li>
+            
+              <li><a href="#bit">Bit</a></li>
+            
+              <li><a href="#bitcoin">Bitcoin</a></li>
+            
+              <li><a href="#blokketen">Blokketen</a></li>
+            
+              <li><a href="#blok">Blok</a></li>
+            
+              <li><a href="#btc">BTC</a></li>
+            
+              <li><a href="#bevestiging">Bevestiging</a></li>
+            
+              <li><a href="#cryptografie">Cryptografie</a></li>
+            
+              <li><a href="#dubbele-uitgaven">Dubbele uitgave</a></li>
+            
+              <li><a href="#hashsnelheid">Hashsnelheid</a></li>
+            
+              <li><a href="#mining">Mining</a></li>
+            
+              <li><a href="#p2p">P2P</a></li>
+            
+              <li><a href="#geheime-sleutel">Geheime sleutel</a></li>
+            
+              <li><a href="#digitale-handtekening">Digitale handtekening</a></li>
+            
+              <li><a href="#portemonnee">Portemonnee</a></li>
+            
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="toccontent">
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="bitcoin-adres" class=" anchorAf"><a href="#bitcoin-adres"></a>Bitcoin-adres</h2>
+        <p>Een Bitcoin-adres is <b>vergelijkbaar met een huis- of e-mailadres</b>. Het is het enige wat u aan anderen hoeft te geven om hen in staat te stellen betalingen via Bitcoin aan u te sturen. Een belangrijk verschil is echter dat elk adres slechts Ã©Ã©n keer voor Ã©Ã©n transactie dient te worden gebruikt.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="bit" class=" anchorAf"><a href="#bit"></a>Bit</h2>
+        <p>Bit is een algemene eenheid dat wordt gebruikt om een sub-eenheid van Ã©Ã©n bitcoin aan te duiden. 1.000.000 bits staat gelijk aan 1 bitcoin (BTC). Deze eenheid is gewoonlijk geschikter voor prijsaanduidingen, goederen en diensten.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="bitcoin" class=" anchorAf"><a href="#bitcoin"></a>Bitcoin</h2>
+        <p>Het met een hoofdletter geschreven Bitcoin wordt gebruikt om het concept van Bitcoin te omschrijven of naar het gehele netwerk te verwijzen, bijv. "Ik heb vandaag meer geleerd over het Bitcoin-protocol."<br>Het met een kleine letter geschreven bitcoin wordt gebruikt om bitcoins als eenheid aan te geven, bijv. "Ik heb vandaag tien bitcoins uitgegeven.". Dit laatste wordt vaak afgekort met BTC of XBT.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="blokketen" class=" anchorAf"><a href="#blokketen"></a>Blokketen</h2>
+        <p>De blokketen is een <b>openbaar archief van alle Bitcoin-transacties</b>, in chronologische volgorde. De blokketen wordt gedeeld door alle Bitcoin-gebruikers. Het wordt gebruikt om de bestendigheid van Bitcoin-transacties te verifiÃ«ren en om <a href="#dubbele-uitgaven">dubbele uitgaven</a> tegen te gaan.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="blok" class=" anchorAf"><a href="#blok"></a>Blok</h2>
+        <p>Een blok is een <b>verzameling van transacties die moeten worden bevestigd, en een schakel in de <a href="#blokketen">blokketen</a></b>. Gemiddeld wordt elke 10 minuten een blok toegevoegd aan de blokketen - en daarmee een pakket transacties bevestigd - door middel van <a href="#mining">mining</a>.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="btc" class=" anchorAf"><a href="#btc"></a>BTC</h2>
+        <p>BTC is een algemene eenheid dat wordt gebruikt om Ã©Ã©n bitcoin aan te duiden.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="bevestiging" class=" anchorAf"><a href="#bevestiging"></a>Bevestiging</h2>
+        <p>Bevestiging betekent dat een transactie <b>door het netwerk is verwerkt en hoogstwaarschijnlijk niet zal worden teruggedraaid</b>. Transacties ontvangen een bevestiging wanneer ze zijn opgenomen in een <a href="/nl/woordenlijst#blok">blok</a> en voor elk volgend blok. Zelfs een enkele bevestiging kan als veilig worden beschouwd voor transacties met een lage waarde, hoewel het voor grotere bedragen zoals 1.000 USD zinvol is om te wachten op 6 bevestigingen of meer. Elke bevestiging vermindert <i>exponentieel</i> het risico van een teruggedraaide transactie.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="cryptografie" class=" anchorAf"><a href="#cryptografie"></a>Cryptografie</h2>
+        <p>Cryptografie is de tak van wiskunde die zorgt voor <b>wiskundig bewezen beveiliging</b>. Winkels en banken gebruiken cryptografie om hun transacties via internet te beveiligen. In het geval van Bitcoin wordt cryptografie gebruikt om te zorgen dat niemand geld kan uitgeven uit andermans <a href="#portemonnee">portemonnee</a> en om te voorkomen dat iemand de integriteit van de <a href="#blokketen">blokketen</a> kan aantasten. Het kan ook worden gebruikt om een portemonnee te versleutelen, zodat niemand erbij kan die het bijbehorende wachtwoord niet kent.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="dubbele-uitgaven" class=" anchorAf"><a href="#dubbele-uitgaven"></a>Dubbele uitgave</h2>
+        <p>Dubbele uitgaven is een vorm van fraude waarbij <b>iemand probeert zijn bitcoins op twee of meer plekken tegelijkertijd uit te geven</b>, voordat het systeem in de gaten heeft dat de bitcoin al is uitgegeven. De manier waarop Bitcoin-<a href="#mining">mining</a> en de <a href="#blokketen">blokketen</a> werken, zorgen ervoor dat altijd maar Ã©Ã©n van de twee transacties door kan gaan.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="hashsnelheid" class=" anchorAf"><a href="#hashsnelheid"></a>Hashsnelheid</h2>
+        <p>De hashsnelheid oftewel hash rate is de <b>maat voor de totale rekenkracht van het Bitcoin-netwerk</b>. Om veiligheidsredenen moet het Bitcoin-netwerk steeds intensieve wiskundige bewerkingen blijven uitvoeren. Als het netwerk bijvoorbeeld een hashsnelheid van 10 TH/s bereikt, betekent dat dat het 10 biljoen (ten trillion, 10.000.000.000.000) berekeningen per seconde kan maken.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="mining" class=" anchorAf"><a href="#mining"></a>Mining</h2>
+        <p>Bitcoin-mining is het <b>laten uitvoeren van wiskundige berekeningen door een computer om het Bitcoin-netwerk transacties te laten bevestigen</b> en om de veiligheid te waarborgen. Als beloning voor het verrichte werk krijgen Bitcoin-"miners" de commissie die op sommige van de transacties wordt meegegeven - en bovendien ook nieuwe geminede bitcoins. Bitcoin-mining is tegenwoordig een gespecialiseerde markt, waarin de opbrengsten worden verdeeld onder de leden van gespecialiseerde groepen naar rato van hoeveel rekenkracht wordt ingebracht. Lang niet alle Bitcoin-gebruikers doen aan mining en het is geen gemakkelijke manier om aan bitcoins te komen.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="p2p" class=" anchorAf"><a href="#p2p"></a>P2P</h2>
+        <p>Een peer-to-peer-netwerk is <b>een systeem dat zich gedraagt als een georganiseerd collectief</b> waarin individuele systemen direct met elkaar communiceren, in plaats van via een centrale server. In het geval van Bitcoin is het netwerk zÃ³ georganiseerd, dat elke gebruiker de transacties waar hij weet van heeft uitzendt naar alle andere gebruikers. Een belangrijke eigenschap van deze inrichting: er is geen bank of andere derde partij nodig.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="geheime-sleutel" class=" anchorAf"><a href="#geheime-sleutel"></a>Geheime sleutel</h2>
+        <p>Een geheime sleutel (Engels: Private Key) is een <b>geheim stuk data waarmee u kunt bewijzen dat de bitcoins die bij een bepaald Bitcoin-adres horen van u zijn</b> middels een cryptografische <a href="#digitale-handtekening">handtekening</a>. Uw geheime sleutels zijn op uw computer opgeslagen als u een softwareportemonnee gebruikt en op externe servers bij gebruik van een webportemonnee. Geheime sleutels dienen nooit te worden onthuld, want deze stellen u in staat om bitcoins uit de aan de sleutels gekoppelde Bitcoin-portemonnees uit te geven.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="digitale-handtekening" class=" anchorAf"><a href="#digitale-handtekening"></a>Digitale handtekening</h2>
+        <p>Een <a href="#cryptografie">cryptografische</a> handtekening is <b>een wiskundig mechanisme waarmee iemand kan aantonen dat hij of zij eigenaar is</b>. In het geval van Bitcoin zijn een <a href="#portemonnee">Bitcoin-portemonnee</a> en de bijbehorende <a href="#geheime-sleutel">geheime sleutel(s)</a> met wat wiskundige trucjes aan elkaar gekoppeld. Zodra de Bitcoin-software een transactie ondertekent met de gepaste geheime sleutel, kan het hele netwerk zien dat de ondertekening overeenkomt met de uitgegeven bitcoins. Er bestaat echter geen enkele manier waarop iemand anders uw geheime sleutel kan raden om met uw zuurverdiende bitcoins aan de haal te gaan.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="portemonnee" class=" anchorAf"><a href="#portemonnee"></a>Portemonnee</h2>
+        <p>Een Bitcoin-portemonnee is heel losjes gezegd <b>het equivalent van een fysieke portemonnee op het Bitcoin-netwerk</b>. Deze portemonnee bestaat uit uw <a href="#geheime-sleutel">geheime sleutels</a> waarmee u de aan uw portemonnee toegewezen bitcoins in de <a href="#blokketen">blokketen</a> kunt uitgeven. U kunt in elke Bitcoin-portemonnee het totaalsaldo van alle bitcoins in de portemonnee zien. Daarnaast kunt u een specifiek bedrag aan een specifieke persoon betalen, net als met een echte portemonnee. Dit is anders dan bij creditcards, waarbij u door de verkoper kosten in rekening wordt gebracht.</p>
+      </div>
+      
+    </div>
+
+  </div>
+</div>
+
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="/nl/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Steun Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Doneer</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">Inleiding:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/nl/bitcoin-voor-particulieren">Particulieren</a>
+        </li>
+        <li>
+          <a href="/nl/bitcoin-voor-bedrijven">Bedrijven</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">Ontwikkelaars</a>
+        </li>
+        <li>
+          <a href="/nl/aan-de-slag">Aan de slag</a>
+        </li>
+        <li>
+          <a href="/nl/hoe-het-werkt">Hoe het werkt</a>
+        </li>
+        <li>
+          <a href="/nl/wat-u-moet-weten">Wat u moet weten</a>
+        </li>
+        
+        <li>
+          <a href="/nl/bitcoin-document">Whitepaper</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">Hulpmiddelen:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/nl/hulpmiddelen">Hulpmiddelen</a>
+        </li><li>
+          <a href="/nl/beurzen">Beurzen</a>
+        </li>
+        <li>
+          <a href="/nl/community">Community</a>
+        </li>
+        <li class="active">
+          <a href="/nl/woordenlijst">Woordenlijst
+          </a>
+        </li>
+        <li>
+          <a href="/nl/evenementen">Evenementen</a>
+        </li>
+        
+          <li>
+            <a href="/nl/download">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">Meedoen:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/nl/help-bitcoin">Ondersteun Bitcoin</a>
+        
+        
+        </li><li>
+          <a href="/nl/ontwikkeling">Ontwikkeling</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Overige:</p>
+      
+      <a href="/nl/juridisch">Juridisch</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/nl/pers">Pers</a>
+      <a href="/nl/over-ons">Over bitcoin.org</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>Een communitywebsite gesponsord door</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1716491272" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 Beschikbaar onder de <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT-licentie</a></div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">Netwerk status</a>
+        
+<ul class="lang is-expand">
+  <li><a>Nederlands</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/kosa-kata">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/vocabulari">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/ordliste">Dansk</a></li>
+        
+        
+          <li><a href="/de/glossar">Deutsch</a></li>
+        
+        
+          <li><a href="/en/vocabulary">English</a></li>
+        
+        
+          <li><a href="/es/vocabulario">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/vocabulaire">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/glossario">Italiano</a></li>
+        
+        
+          <li><a href="/hu/szotar">Magyar</a></li>
+        
+        
+          <li><a href="/nl/woordenlijst" class="active">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/slownik">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/vocabulario">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/vocabular">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/besednjak">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/vokabular">Srpski</a></li>
+        
+        
+          <li><a href="/sv/ordlista">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/kelime-haznesi">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/vocabulary">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/vocabulary">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/vocabulary">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/vocabulary">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/vocabulary">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/vocabulary">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/vocabulary">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/vocabulary">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/vocabulary">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/vocabulary">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/vocabulary">ááááá</a></li>
+        
+        
+          <li><a href="/ja/vocabulary">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/vocabulary">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/vocabulary">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/kosa-kata">Bahasa Indonesia</option>
+              
+              <option value="/ca/vocabulari">CatalÃ </option>
+              
+              <option value="/da/ordliste">Dansk</option>
+              
+              <option value="/de/glossar">Deutsch</option>
+              
+              <option value="/en/vocabulary">English</option>
+              
+              <option value="/es/vocabulario">EspaÃ±ol</option>
+              
+              <option value="/fr/vocabulaire">FranÃ§ais</option>
+              
+              <option value="/it/glossario">Italiano</option>
+              
+              <option value="/hu/szotar">Magyar</option>
+              
+              <option value="/nl/woordenlijst" selected="selected">Nederlands</option>
+              
+              <option value="/pl/slownik">Polski</option>
+              
+              <option value="/pt_BR/vocabulario">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/vocabular">RomÃ¢nÄ</option>
+              
+              <option value="/sl/besednjak">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/vokabular">Srpski</option>
+              
+              <option value="/sv/ordlista">Svenska</option>
+              
+              <option value="/tr/kelime-haznesi">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/vocabulary">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/vocabulary">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/vocabulary">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/vocabulary">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/vocabulary">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/vocabulary">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/vocabulary">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/vocabulary">×¢××¨××ª</option>
+              
+              <option value="/hi/vocabulary">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/vocabulary">íêµ­ì´</option>
+              
+              <option value="/km/vocabulary">ááááá</option>
+              
+              <option value="/ja/vocabulary">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/vocabulary">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/vocabulary">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">nl</span>
+          </label>
+        </div>
+      </div>
+<!--      <div class="row">  -->
+        
+<!--    </div> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+  <script>updateToc();</script>
+<script>accordion();</script>
+<script>onScrollButton();</script>
+<script>boxShow();</script>
+
+
+
+
+
+
+
+
+</body></html>
