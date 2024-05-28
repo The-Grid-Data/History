@@ -1,0 +1,351 @@
+{
+    "target_url": "https://ethereum.org/en/community/research/",
+    "domains": {
+        "": [
+            "mailto:press@ethereum.org"
+        ],
+        "0xparc.org": [
+            "https://0xparc.org/blog"
+        ],
+        "arxiv.org": [
+            "http://arxiv.org/abs/2112.01472",
+            "https://arxiv.org/abs/1710.09437",
+            "https://arxiv.org/abs/1904.05234",
+            "https://arxiv.org/abs/2003.03052",
+            "https://arxiv.org/abs/2009.04987",
+            "https://arxiv.org/abs/2101.05511",
+            "https://arxiv.org/abs/2110.10086",
+            "https://arxiv.org/abs/2201.05574",
+            "https://arxiv.org/pdf/2004.07140.pdf",
+            "https://arxiv.org/pdf/2012.09306.pdf"
+        ],
+        "barnabe.substack.com": [
+            "https://barnabe.substack.com/p/understanding-rollup-economics-from?utm_source=url"
+        ],
+        "blog.chainalysis.com": [
+            "https://blog.chainalysis.com/reports/wormhole-hack-february-2022/"
+        ],
+        "blog.coinbase.com": [
+            "https://blog.coinbase.com/a-simple-guide-to-the-web3-stack-785240e557f0"
+        ],
+        "blog.ethereum.org": [
+            "https://blog.ethereum.org/"
+        ],
+        "blog.lido.fi": [
+            "https://blog.lido.fi/the-road-to-trustless-ethereum-staking/"
+        ],
+        "chain.link": [
+            "https://chain.link/whitepaper"
+        ],
+        "clientdiversity.org": [
+            "https://clientdiversity.org/"
+        ],
+        "cryptodevhub.io": [
+            "https://cryptodevhub.io/wiki/ethereum-virtual-machine-tools"
+        ],
+        "daocollective.xyz": [
+            "https://daocollective.xyz/"
+        ],
+        "devcon.org": [
+            "https://devcon.org/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/FsCFPMTSm9",
+            "https://discord.gg/ethereum-org",
+            "https://discord.gg/qGpsxSA"
+        ],
+        "discordapp.com": [
+            "https://discordapp.com/channels/595666850260713488/746343380900118528"
+        ],
+        "dune.com": [
+            "https://dune.com/browse/dashboards",
+            "https://dune.com/eliasimos/Bridge-Away-(from-Ethereum)"
+        ],
+        "eips.ethereum.org": [
+            "https://eips.ethereum.org/EIPS/eip-2938",
+            "https://eips.ethereum.org/EIPS/eip-3074",
+            "https://eips.ethereum.org/EIPS/eip-4337",
+            "https://eips.ethereum.org/EIPS/eip-4444",
+            "https://eips.ethereum.org/EIPS/eip-4844",
+            "https://eips.ethereum.org/EIPS/eip-5003"
+        ],
+        "eprint.iacr.org": [
+            "https://eprint.iacr.org/2021/1465"
+        ],
+        "esp.ethereum.foundation": [
+            "https://esp.ethereum.foundation",
+            "https://esp.ethereum.foundation/academic-grants"
+        ],
+        "ethereum-magicians.org": [
+            "https://ethereum-magicians.org/t/a-rollup-centric-ethereum-roadmap/4698",
+            "https://ethereum-magicians.org/t/og-council-ux-follow-up/9032/3",
+            "https://ethereum-magicians.org/t/validation-focused-smart-contract-wallets/6603"
+        ],
+        "ethereum-on-arm-documentation.readthedocs.io": [
+            "https://ethereum-on-arm-documentation.readthedocs.io/en/latest/"
+        ],
+        "ethereum.github.io": [
+            "https://ethereum.github.io/abm1559",
+            "https://ethereum.github.io/beacon-APIs/#/Beacon/getStateRoot",
+            "https://ethereum.github.io/beaconrunner/",
+            "https://ethereum.github.io/rig/"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/en/",
+            "https://ethereum.org/en/about/",
+            "https://ethereum.org/en/about/#open-jobs",
+            "https://ethereum.org/en/assets/",
+            "https://ethereum.org/en/bridges/",
+            "https://ethereum.org/en/bug-bounty/",
+            "https://ethereum.org/en/community/",
+            "https://ethereum.org/en/community/code-of-conduct/",
+            "https://ethereum.org/en/community/events/",
+            "https://ethereum.org/en/community/grants/",
+            "https://ethereum.org/en/community/online/",
+            "https://ethereum.org/en/community/research/",
+            "https://ethereum.org/en/community/research/#app-security",
+            "https://ethereum.org/en/community/research/#apps-and-tooling",
+            "https://ethereum.org/en/community/research/#background-reading",
+            "https://ethereum.org/en/community/research/#background-reading-1",
+            "https://ethereum.org/en/community/research/#background-reading-10",
+            "https://ethereum.org/en/community/research/#background-reading-11",
+            "https://ethereum.org/en/community/research/#background-reading-12",
+            "https://ethereum.org/en/community/research/#background-reading-13",
+            "https://ethereum.org/en/community/research/#background-reading-14",
+            "https://ethereum.org/en/community/research/#background-reading-15",
+            "https://ethereum.org/en/community/research/#background-reading-16",
+            "https://ethereum.org/en/community/research/#background-reading-17",
+            "https://ethereum.org/en/community/research/#background-reading-18",
+            "https://ethereum.org/en/community/research/#background-reading-19",
+            "https://ethereum.org/en/community/research/#background-reading-2",
+            "https://ethereum.org/en/community/research/#background-reading-20",
+            "https://ethereum.org/en/community/research/#background-reading-3",
+            "https://ethereum.org/en/community/research/#background-reading-4",
+            "https://ethereum.org/en/community/research/#background-reading-5",
+            "https://ethereum.org/en/community/research/#background-reading-6",
+            "https://ethereum.org/en/community/research/#background-reading-7",
+            "https://ethereum.org/en/community/research/#background-reading-8",
+            "https://ethereum.org/en/community/research/#background-reading-9",
+            "https://ethereum.org/en/community/research/#blockspace-fee-markets",
+            "https://ethereum.org/en/community/research/#bridges",
+            "https://ethereum.org/en/community/research/#client-development",
+            "https://ethereum.org/en/community/research/#community-education-and-outreach",
+            "https://ethereum.org/en/community/research/#consensus",
+            "https://ethereum.org/en/community/research/#consensus-clients",
+            "https://ethereum.org/en/community/research/#cryptography--zkp",
+            "https://ethereum.org/en/community/research/#daos",
+            "https://ethereum.org/en/community/research/#data-science-and-analytics",
+            "https://ethereum.org/en/community/research/#defi",
+            "https://ethereum.org/en/community/research/#developer-tools",
+            "https://ethereum.org/en/community/research/#economics",
+            "https://ethereum.org/en/community/research/#execution",
+            "https://ethereum.org/en/community/research/#execution-clients",
+            "https://ethereum.org/en/community/research/#formal-verification",
+            "https://ethereum.org/en/community/research/#general-research-resources",
+            "https://ethereum.org/en/community/research/#hardware",
+            "https://ethereum.org/en/community/research/#how-ethereum-research-works",
+            "https://ethereum.org/en/community/research/#layer-2",
+            "https://ethereum.org/en/community/research/#liquid-staking-and-derivatives",
+            "https://ethereum.org/en/community/research/#main-content",
+            "https://ethereum.org/en/community/research/#oracles",
+            "https://ethereum.org/en/community/research/#proof-of-stake-incentives",
+            "https://ethereum.org/en/community/research/#protocol-research",
+            "https://ethereum.org/en/community/research/#recent-research",
+            "https://ethereum.org/en/community/research/#recent-research-1",
+            "https://ethereum.org/en/community/research/#recent-research-10",
+            "https://ethereum.org/en/community/research/#recent-research-11",
+            "https://ethereum.org/en/community/research/#recent-research-12",
+            "https://ethereum.org/en/community/research/#recent-research-13",
+            "https://ethereum.org/en/community/research/#recent-research-14",
+            "https://ethereum.org/en/community/research/#recent-research-15",
+            "https://ethereum.org/en/community/research/#recent-research-16",
+            "https://ethereum.org/en/community/research/#recent-research-17",
+            "https://ethereum.org/en/community/research/#recent-research-18",
+            "https://ethereum.org/en/community/research/#recent-research-19",
+            "https://ethereum.org/en/community/research/#recent-research-2",
+            "https://ethereum.org/en/community/research/#recent-research-20",
+            "https://ethereum.org/en/community/research/#recent-research-3",
+            "https://ethereum.org/en/community/research/#recent-research-4",
+            "https://ethereum.org/en/community/research/#recent-research-5",
+            "https://ethereum.org/en/community/research/#recent-research-6",
+            "https://ethereum.org/en/community/research/#recent-research-7",
+            "https://ethereum.org/en/community/research/#recent-research-8",
+            "https://ethereum.org/en/community/research/#recent-research-9",
+            "https://ethereum.org/en/community/research/#scaling-and-performance",
+            "https://ethereum.org/en/community/research/#security",
+            "https://ethereum.org/en/community/research/#sharding",
+            "https://ethereum.org/en/community/research/#sources-of-funding",
+            "https://ethereum.org/en/community/research/#technology-stack",
+            "https://ethereum.org/en/community/research/#testing",
+            "https://ethereum.org/en/community/research/#uxui",
+            "https://ethereum.org/en/community/research/#wallets",
+            "https://ethereum.org/en/contributing/",
+            "https://ethereum.org/en/contributing/translation-program/",
+            "https://ethereum.org/en/cookie-policy/",
+            "https://ethereum.org/en/dao/",
+            "https://ethereum.org/en/dapps/",
+            "https://ethereum.org/en/decentralized-identity/",
+            "https://ethereum.org/en/defi/",
+            "https://ethereum.org/en/developers/",
+            "https://ethereum.org/en/developers/docs/",
+            "https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/",
+            "https://ethereum.org/en/developers/docs/design-and-ux/",
+            "https://ethereum.org/en/developers/docs/ethereum-stack/",
+            "https://ethereum.org/en/developers/docs/evm/",
+            "https://ethereum.org/en/developers/docs/frameworks/",
+            "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+            "https://ethereum.org/en/developers/docs/nodes-and-clients/",
+            "https://ethereum.org/en/developers/docs/nodes-and-clients/run-a-node/",
+            "https://ethereum.org/en/developers/docs/oracles/",
+            "https://ethereum.org/en/developers/docs/programming-languages/",
+            "https://ethereum.org/en/developers/docs/scaling/",
+            "https://ethereum.org/en/developers/docs/smart-contracts/",
+            "https://ethereum.org/en/developers/docs/smart-contracts/composability/",
+            "https://ethereum.org/en/developers/docs/standards/tokens/",
+            "https://ethereum.org/en/developers/docs/storage/",
+            "https://ethereum.org/en/developers/learning-tools/",
+            "https://ethereum.org/en/developers/local-environment/",
+            "https://ethereum.org/en/developers/tutorials/",
+            "https://ethereum.org/en/eips/",
+            "https://ethereum.org/en/enterprise/",
+            "https://ethereum.org/en/enterprise/private-ethereum/",
+            "https://ethereum.org/en/eth/",
+            "https://ethereum.org/en/foundation/",
+            "https://ethereum.org/en/gas/",
+            "https://ethereum.org/en/get-eth/",
+            "https://ethereum.org/en/glossary/",
+            "https://ethereum.org/en/governance/",
+            "https://ethereum.org/en/guides/",
+            "https://ethereum.org/en/history/",
+            "https://ethereum.org/en/layer-2/",
+            "https://ethereum.org/en/learn/",
+            "https://ethereum.org/en/nft/",
+            "https://ethereum.org/en/privacy-policy/",
+            "https://ethereum.org/en/quizzes/",
+            "https://ethereum.org/en/roadmap/",
+            "https://ethereum.org/en/roadmap/dencun/",
+            "https://ethereum.org/en/roadmap/security/",
+            "https://ethereum.org/en/run-a-node/",
+            "https://ethereum.org/en/security/",
+            "https://ethereum.org/en/smart-contracts/",
+            "https://ethereum.org/en/stablecoins/",
+            "https://ethereum.org/en/staking/",
+            "https://ethereum.org/en/terms-of-use/",
+            "https://ethereum.org/en/wallets/",
+            "https://ethereum.org/en/wallets/find-wallet/",
+            "https://ethereum.org/en/web3/",
+            "https://ethereum.org/en/what-is-ethereum/",
+            "https://ethereum.org/en/whitepaper/"
+        ],
+        "ethresear.ch": [
+            "https://ethresear.ch",
+            "https://ethresear.ch/",
+            "https://ethresear.ch/c/applications/18",
+            "https://ethresear.ch/c/consensus/29",
+            "https://ethresear.ch/c/execution-layer-research/37",
+            "https://ethresear.ch/c/layer-2/32",
+            "https://ethresear.ch/c/ui-ux/24",
+            "https://ethresear.ch/c/zk-s-nt-arks/13",
+            "https://ethresear.ch/search?q=liquid%20staking",
+            "https://ethresear.ch/t/a-model-for-cumulative-committee-based-finality/10259",
+            "https://ethresear.ch/t/circulating-supply-equilibrium-for-ethereum-and-minimum-viable-issuance-during-the-proof-of-stake-era/10954",
+            "https://ethresear.ch/t/does-ecdsa-on-fpga-solve-the-scaling-problem/6738",
+            "https://ethresear.ch/t/handling-withdrawals-in-lidos-eth-liquid-staking-protocol/8873",
+            "https://ethresear.ch/t/mev-auction-auctioning-transaction-ordering-rights-as-a-solution-to-miner-extractable-value/6788",
+            "https://ethresear.ch/t/the-ec-fft-algorithm-without-elliptic-curve-and-isogenies/11346",
+            "https://ethresear.ch/t/withdrawal-credential-rotation-from-bls-to-eth1/8722",
+            "https://ethresear.ch/tag/security"
+        ],
+        "forum.openzeppelin.com": [
+            "https://forum.openzeppelin.com/t/list-of-ethereum-smart-contracts-post-mortems/1191"
+        ],
+        "github.com": [
+            "https://github.com/CADLabs/ethereum-economic-model",
+            "https://github.com/ConsenSys/ethereum-developer-tools-list",
+            "https://github.com/ethereum/consensus-specs",
+            "https://github.com/ethereum/ethereum-org-website",
+            "https://github.com/ethereum/ethereum-org-website/tree/dev/public/content/community/research/index.md",
+            "https://github.com/ethereum/execution-apis",
+            "https://github.com/ethereum/execution-specs",
+            "https://github.com/ethereum/research/wiki/A-note-on-data-availability-and-erasure-coding",
+            "https://github.com/ledgerwatch/erigon/blob/devel/docs/programmers_guide/db_faq.md",
+            "https://github.com/runtimeverification/deposit-contract-verification"
+        ],
+        "hackernoon.com": [
+            "https://hackernoon.com/desci-decentralized-science-as-our-chance-to-recover-the-real-science"
+        ],
+        "hackmd.io": [
+            "https://hackmd.io/@vbuterin/sharding_proposal",
+            "https://hackmd.io/@vbuterin/state_expiry_paths",
+            "https://hackmd.io/sK7v0lr8Txi1bgION1rRpw?view#Overview"
+        ],
+        "l2beat.com": [
+            "https://l2beat.com/"
+        ],
+        "medium.com": [
+            "https://medium.com/1kxnetwork/blockchain-bridges-5db6afac44f8",
+            "https://medium.com/ethereum-optimism/the-road-to-sub-dollar-transactions-part-2-compression-edition-6bb2890e3e92",
+            "https://medium.com/rocket-pool/rocket-pool-staking-protocol-part-1-8be4859e5fbd"
+        ],
+        "members.delphidigital.io": [
+            "https://members.delphidigital.io/reports/the-hitchhikers-guide-to-ethereum"
+        ],
+        "notes.ethereum.org": [
+            "https://notes.ethereum.org/@djrtwo/risks-of-lsd",
+            "https://notes.ethereum.org/@serenity/H1PGqDhpm?type=view",
+            "https://notes.ethereum.org/@vbuterin/pbs_censorship_resistance",
+            "https://notes.ethereum.org/@vbuterin/proto_danksharding_faq",
+            "https://notes.ethereum.org/@vbuterin/state_expiry_eip",
+            "https://notes.ethereum.org/@vbuterin/verkle_and_state_expiry_proposal",
+            "https://notes.ethereum.org/s3JToeApTx6CKLJt8AbhFQ"
+        ],
+        "old.reddit.com": [
+            "https://old.reddit.com/r/ethereum/comments/rwojtk/ama_we_are_the_efs_research_team_pt_7_07_january/hrngyk8/"
+        ],
+        "polynya.medium.com": [
+            "https://polynya.medium.com/danksharding-36dc0c8067fe",
+            "https://polynya.medium.com/rollups-data-availability-layers-modular-blockchains-introductory-meta-post-5a1e7a60119d"
+        ],
+        "ptolemy.berkeley.edu": [
+            "https://ptolemy.berkeley.edu/projects/embedded/research/vis/doc/VisUser/vis_user/node4.html"
+        ],
+        "stonecoldpat.github.io": [
+            "https://stonecoldpat.github.io/images/validatingbridges.pdf"
+        ],
+        "timroughgarden.org": [
+            "https://timroughgarden.org/papers/eip1559.pdf"
+        ],
+        "twitter.com": [
+            "https://twitter.com/RektHQ?s=20&t=3otjYQdM9Bqk8k3n1a1Adg",
+            "https://twitter.com/ethdotorg"
+        ],
+        "vitalik.eth.limo": [
+            "https://vitalik.eth.limo/general/2021/06/18/verkle.html"
+        ],
+        "www.cl.cam.ac.uk": [
+            "https://www.cl.cam.ac.uk/~jrh13/papers/mark10.pdf"
+        ],
+        "www.coinbase.com": [
+            "https://www.coinbase.com/learn/crypto-basics/what-is-defi"
+        ],
+        "www.researchgate.net": [
+            "https://www.researchgate.net/publication/358694594_Mapping_out_the_DAO_Ecosystem_and_Assessing_DAO_Autonomy"
+        ],
+        "www.web3designprinciples.com": [
+            "https://www.web3designprinciples.com/"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/playlist?list=PLTLjFJ0OQOj5PHRvA2snoOKt2udVsyXEm",
+            "https://www.youtube.com/watch?v=N5p0TB77flM"
+        ],
+        "youtu.be": [
+            "https://youtu.be/QbR4MTgnCko"
+        ],
+        "zeroknowledge.fm": [
+            "https://zeroknowledge.fm/"
+        ],
+        "zkp.science": [
+            "https://zkp.science/"
+        ]
+    }
+}
