@@ -1,0 +1,811 @@
+<!DOCTYPE html><html lang="tr"><head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>BaÅlarken - Bitcoin</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+<link rel="stylesheet" href="/css/sans.css?1716491272">
+<script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.org is a community funded project, donations are appreciated and used to improve the website.
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        Make a donation
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.org needs your support!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">Donate to Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">Use this QR code or address below</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="Or custom amount? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="Or custom amount? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="Optional description (for your wallet)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="/tr/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">GiriÅ</a>
+    <ul>
+      <li><a href="/tr/bireyler-icin-bitcoin">Bireyler</a></li>
+      <li><a href="/tr/isletmeler-icin-bitcoin">Ä°Åletmeler</a></li>
+      <li><a href="https://developer.bitcoin.org/">GeliÅtiriciler</a></li>
+      <li class="active"><a href="/tr/baslarken">BaÅlarken</a></li>
+      <li><a href="/tr/nasil-calisir">NasÄ±l ÃalÄ±ÅÄ±r</a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">Kaynaklar</a>
+    <ul>
+      <li><a href="/tr/kaynaklar">Kaynaklar</a>
+      </li><li><a href="/tr/borsalari">Exchanges</a></li>
+      <li><a href="/tr/topluluk">Topluluk</a></li>
+      
+      
+      <li><a href="/tr/kelime-haznesi">SÃ¶zlÃ¼k</a></li>
+      <li><a href="/tr/etkinlikler">Etkinlikler</a></li>
+      
+        <li><a href="/tr/indir">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li><a href="/tr/yenilik">Yenilik</a></li>
+  <li><a class="is-expand">KatÄ±lÄ±n</a>
+    <ul>
+      <li><a href="/tr/bitcoini-destekleyin">Bitcoin'i Destekleyin</a>
+      </li><li><a href="/tr/satin">Buy Bitcoin</a></li>
+      
+      <li><a href="/tr/gelistirme">GeliÅim</a></li>
+    </ul>
+  </li>
+  <li><a href="/tr/sss">SSS</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>TÃ¼rkÃ§e</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/memulai">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/iniciat">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/kom-i-gang">Dansk</a></li>
+        
+        
+          <li><a href="/de/erste-schritte">Deutsch</a></li>
+        
+        
+          <li><a href="/en/getting-started">English</a></li>
+        
+        
+          <li><a href="/es/como-empezar">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/debuter">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/come-iniziare">Italiano</a></li>
+        
+        
+          <li><a href="/hu/vagjon-bele">Magyar</a></li>
+        
+        
+          <li><a href="/nl/aan-de-slag">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/pierwsze-kroki">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/comecando">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/notiuni-de-baza">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/prvi-koraki">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/prvi-koraci">Srpski</a></li>
+        
+        
+          <li><a href="/sv/kom-igang">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/baslarken" class="active">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/getting-started">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/getting-started">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/getting-started">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/getting-started">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/getting-started">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/getting-started">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/getting-started">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/getting-started">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/getting-started">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/getting-started">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/getting-started">ááááá</a></li>
+        
+        
+          <li><a href="/ja/getting-started">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/getting-started">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/getting-started">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/memulai">Bahasa Indonesia</option>
+            
+            <option value="/ca/iniciat">CatalÃ </option>
+            
+            <option value="/da/kom-i-gang">Dansk</option>
+            
+            <option value="/de/erste-schritte">Deutsch</option>
+            
+            <option value="/en/getting-started">English</option>
+            
+            <option value="/es/como-empezar">EspaÃ±ol</option>
+            
+            <option value="/fr/debuter">FranÃ§ais</option>
+            
+            <option value="/it/come-iniziare">Italiano</option>
+            
+            <option value="/hu/vagjon-bele">Magyar</option>
+            
+            <option value="/nl/aan-de-slag">Nederlands</option>
+            
+            <option value="/pl/pierwsze-kroki">Polski</option>
+            
+            <option value="/pt_BR/comecando">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/notiuni-de-baza">RomÃ¢nÄ</option>
+            
+            <option value="/sl/prvi-koraki">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/prvi-koraci">Srpski</option>
+            
+            <option value="/sv/kom-igang">Svenska</option>
+            
+            <option value="/tr/baslarken" selected="selected">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/getting-started">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/getting-started">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/getting-started">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/getting-started">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/getting-started">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/getting-started">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/getting-started">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/getting-started">×¢××¨××ª</option>
+            
+            <option value="/hi/getting-started">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/getting-started">íêµ­ì´</option>
+            
+            <option value="/km/getting-started">ááááá</option>
+            
+            <option value="/ja/getting-started">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/getting-started">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/getting-started">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">tr</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  <div class="hero">
+  <div class="container hero-container">
+    <h1>Bitcoin'e baÅlarken</h1>
+    <p class="summary">Bitcoin kullanarak Ã¶deme yapmak ve Ã¶deme almak Ã§ok kolay ve herkese aÃ§Ä±ktÄ±r.</p>
+  </div>
+</div>
+
+<div class="row startbar">
+  <a class="startbar-link" href="#start-section-1">Bitcoin nasÄ±l kullanÄ±lÄ±r</a>
+  <a class="startbar-link" href="#start-section-2">Bitcoin nasÄ±l kabul edilir</a>
+</div>
+
+<div class="container">
+  <div id="start-section-1" class="starttitle">
+    <span>Bitcoin nasÄ±l kullanÄ±lÄ±r</span>
+  </div>
+  
+  <div class="start">
+    <div class="start-block">
+      <div class="start-content">
+        <div class="left-column">
+          <h2 id="inform" class=" anchorAf"><a href="#inform"></a>
+            Kendinizi bilgilendirin</h2>
+          <p>Bitcoin her gÃ¼n kullandÄ±klarÄ±nÄ±zdan ve Åu ana kadar bildiklerinizden farklÄ±dÄ±r. GÃ¼venli bir Åekilde kullanmak ve yaygÄ±n hatalara yakalanmamak iÃ§in Bitcoin kullanmaya baÅlamadan Ã¶nce bilmeniz gereken birkaÃ§ Åey var.</p>
+          <div>
+            <a class="btn-bright" href="/tr/bilmeniz-gerekenler">Daha fazlasÄ±</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="start-block">
+      <div class="start-content">
+        <div class="right-column">
+          <h2 id="choose" class=" anchorAf"><a href="#choose"></a>
+            CÃ¼zdanÄ±nÄ±zÄ± seÃ§in</h2>
+          <p>Bitcoin cÃ¼zdanÄ±nÄ±zÄ± telefonunuzla gÃ¼nlÃ¼k hayatÄ±nÄ±za taÅÄ±yabilirsiniz veya sadece online Ã¶demeler iÃ§in bir cÃ¼zdanÄ± bilgisayarÄ±nÄ±zda tutabilirsiniz. Her halÃ¼karda cÃ¼zdanÄ±nÄ±zÄ± seÃ§mek bir dakikada yapÄ±labilir.</p>
+          <div>
+            <a class="btn-bright" href="/tr/cuzdaninizi-secin">CÃ¼zdanÄ±nÄ±zÄ± seÃ§in</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="start-block">
+      <div class="start-content">
+        <div class="left-column">
+          <h2 id="get" class=" anchorAf"><a href="#get"></a>
+            Bitcoin edinin</h2>
+          <p>Mal ve hizmet karÅÄ±lÄ±ÄÄ± bir Ã¶deme olarak ya da arkadaÅÄ±nÄ±zdan veya yakÄ±nda tanÄ±dÄ±klarÄ±nÄ±zdan satÄ±n alarak bitcoin edinebilirsiniz. Direk banka hesabÄ±nÄ±zdan takasla da alabilirsiniz.</p>
+          <div>
+            <a class="btn-bright" href="/tr/satin">Takas bulun</a>
+          </div>
+       </div>
+      </div>
+    </div>
+
+    <div class="start-block">
+      <div class="start-content">
+        <div class="right-column">
+          <h2 id="spend" class=" anchorAf"><a href="#spend"></a>
+            Bitcoinlerinizi harcayÄ±n</h2>
+          <p>Bitcoin kabul eden hizmet ve maÄazalarÄ±n sayÄ±sÄ± dÃ¼nyanÄ±n her tarafÄ±nda artmaktadÄ±r. Onlara Bitcoin'le Ã¶deme yapabilir ve deneyiminizi deÄerlendirerek bu tÃ¼r iÅletmelerin daha tanÄ±nÄ±r olmasÄ±nÄ± saÄlayabilirsiniz.</p>
+          <div>
+            <a class="btn-bright" href="/tr/bitcoin-para-harcamak">MaÄazalarÄ± Bulun</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="start-section-2" class="starttitle">
+    <span>Bitcoin nasÄ±l kabul edilir</span>
+  </div>
+  
+  <div class="start">
+    <div class="start-block">
+      <div class="start-content">
+        <div class="left-column">
+          <h2 id="merchantinform" class=" anchorAf"><a href="#merchantinform"></a>
+            Kendinizi bilgilendirin</h2>
+          <p>Bitcoin maÄazalarÄ±n alÄ±ÅkanlÄ±klarÄ±nÄ± deÄiÅtirmesini gerektirmez. Fakat yine de Bitcoin her gÃ¼n bildiÄinizden ve kullandÄ±ÄÄ±nÄ±zdan farklÄ±dÄ±r. Bitcoin kullanmaya baÅlamadan Ã¶nce burada, gÃ¼venli kullanmak ve tuzaklardan kaÃ§Ä±nmak iÃ§in bilmeniz gereken Åeyler var.</p>
+          <div>
+            <a class="btn-bright" href="/tr/bilmeniz-gerekenler">Daha fazla okuyun</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="start-block">
+      <div class="start-content">
+        <div class="right-column">
+          <h2 id="merchantservice" class=" anchorAf"><a href="#merchantservice"></a>
+            Ä°Ålem Ã¶demeleri</h2>
+          <p>Kendi Ã¶deme iÅlemlerinizi ve faturalarÄ±nÄ±zÄ± kendiniz yapabilir ya da bunlar iÃ§in tÃ¼ccar servislerini kullanabilir ve kendi para biriminizde yada bitcoin olarak para yatÄ±rabilirsiniz. Bir Ã§ok maÄaza ve iÅletme mÃ¼Återilerinin telefonlarÄ±ndan Ã¶deme yapabilmesi iÃ§in tabletlerini yada cep telefonlarÄ±nÄ± kullanÄ±rlar.</p>
+          <div>
+            <a class="btn-bright" href="https://en.bitcoin.it/wiki/How_to_accept_Bitcoin,_for_small_businesses#Merchant_Services">MaÄazalarÄ± bulun</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="start-block">
+      <div class="start-content">
+        <div class="left-column">
+          <h2 id="tax" class=" anchorAf"><a href="#tax"></a>
+            Muhasebe ve vergi</h2>
+          <p>MaÄazalar Ã§oÄunlukla fiyatlarÄ± kendi para birimlerine gÃ¶re gÃ¶sterir ve yatÄ±rÄ±rlar. DiÄer durumlarda, Bitcoin yabancÄ± para birimlerine benzer olarak Ã§alÄ±ÅÄ±r. HÃ¼kÃ¼metinizle alakalÄ± vergiler hakkÄ±nda en uygun bilgi iÃ§in, bilgili bir muhasebeci ile gÃ¶rÃ¼Åmelisiniz.</p>
+          <div>
+            <a class="btn-bright" href="https://en.bitcoin.it/wiki/Tax_compliance">Daha fazla oku</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="start-block">
+      <div class="start-content">
+        <div class="right-column">
+          <h2 id="visibility" class=" anchorAf"><a href="#visibility"></a>
+            Daha fazla tanÄ±nÄ±yor</h2>
+          <p>Bitcoinlerini harcamak iÃ§in Ã§eÅitli yollar arayan kullanÄ±cÄ±larÄ±n sayÄ±sÄ± giderek artmakta. Siz de Åirketinizi online dizinlere ekleyerek onlarÄ±n size ulaÅmasÄ±nÄ± kolaylaÅtÄ±rabilirsiniz. AyrÄ±ca  <a href="https://en.bitcoin.it/wiki/Promotional_graphics">Bitcoin logosunu</a> web sitenizde ya da maÄazanÄ±zda gÃ¶sterebilirsiniz.</p>
+          <div>
+            <a class="btn-bright" href="/tr/bitcoin-para-harcamak">Ä°Åinizi sunun</a>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+  </div>
+</div>
+
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="/tr/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Support Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Donate</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">GiriÅ:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/tr/bireyler-icin-bitcoin">Bireyler</a>
+        </li>
+        <li>
+          <a href="/tr/isletmeler-icin-bitcoin">Ä°Åletmeler</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">GeliÅtiriciler</a>
+        </li>
+        <li class="active">
+          <a href="/tr/baslarken">BaÅlarken</a>
+        </li>
+        <li>
+          <a href="/tr/nasil-calisir">NasÄ±l ÃalÄ±ÅÄ±r</a>
+        </li>
+        <li>
+          <a href="/tr/bilmeniz-gerekenler">Bilmeniz gerekenler</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">Kaynaklar:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/tr/kaynaklar">Kaynaklar</a>
+        </li><li>
+          <a href="/tr/borsalari">Exchanges</a>
+        </li>
+        <li>
+          <a href="/tr/topluluk">Topluluk</a>
+        </li>
+        <li>
+          <a href="/tr/kelime-haznesi">SÃ¶zlÃ¼k
+          </a>
+        </li>
+        <li>
+          <a href="/tr/etkinlikler">Etkinlikler</a>
+        </li>
+        
+          <li>
+            <a href="/tr/indir">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">KatÄ±lÄ±n:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/tr/bitcoini-destekleyin">Bitcoin'i Destekleyin</a>
+        
+        
+        </li><li>
+          <a href="/tr/gelistirme">GeliÅim</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Other:</p>
+      
+      <a href="/tr/yasal">Yasal</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/tr/basin">BasÄ±n</a>
+      <a href="/tr/hakkimizda">Bitcoin.org hakkÄ±nda</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>Sponsor bir topluluÄun web sitesi</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1716491272" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT lisansÄ±</a> altÄ±nda yayÄ±nlanmaktadÄ±r</div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">Network Status</a>
+        
+<ul class="lang is-expand">
+  <li><a>TÃ¼rkÃ§e</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/memulai">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/iniciat">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/kom-i-gang">Dansk</a></li>
+        
+        
+          <li><a href="/de/erste-schritte">Deutsch</a></li>
+        
+        
+          <li><a href="/en/getting-started">English</a></li>
+        
+        
+          <li><a href="/es/como-empezar">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/debuter">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/come-iniziare">Italiano</a></li>
+        
+        
+          <li><a href="/hu/vagjon-bele">Magyar</a></li>
+        
+        
+          <li><a href="/nl/aan-de-slag">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/pierwsze-kroki">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/comecando">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/notiuni-de-baza">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/prvi-koraki">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/prvi-koraci">Srpski</a></li>
+        
+        
+          <li><a href="/sv/kom-igang">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/baslarken" class="active">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/getting-started">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/getting-started">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/getting-started">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/getting-started">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/getting-started">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/getting-started">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/getting-started">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/getting-started">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/getting-started">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/getting-started">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/getting-started">ááááá</a></li>
+        
+        
+          <li><a href="/ja/getting-started">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/getting-started">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/getting-started">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/memulai">Bahasa Indonesia</option>
+              
+              <option value="/ca/iniciat">CatalÃ </option>
+              
+              <option value="/da/kom-i-gang">Dansk</option>
+              
+              <option value="/de/erste-schritte">Deutsch</option>
+              
+              <option value="/en/getting-started">English</option>
+              
+              <option value="/es/como-empezar">EspaÃ±ol</option>
+              
+              <option value="/fr/debuter">FranÃ§ais</option>
+              
+              <option value="/it/come-iniziare">Italiano</option>
+              
+              <option value="/hu/vagjon-bele">Magyar</option>
+              
+              <option value="/nl/aan-de-slag">Nederlands</option>
+              
+              <option value="/pl/pierwsze-kroki">Polski</option>
+              
+              <option value="/pt_BR/comecando">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/notiuni-de-baza">RomÃ¢nÄ</option>
+              
+              <option value="/sl/prvi-koraki">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/prvi-koraci">Srpski</option>
+              
+              <option value="/sv/kom-igang">Svenska</option>
+              
+              <option value="/tr/baslarken" selected="selected">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/getting-started">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/getting-started">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/getting-started">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/getting-started">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/getting-started">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/getting-started">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/getting-started">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/getting-started">×¢××¨××ª</option>
+              
+              <option value="/hi/getting-started">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/getting-started">íêµ­ì´</option>
+              
+              <option value="/km/getting-started">ááááá</option>
+              
+              <option value="/ja/getting-started">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/getting-started">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/getting-started">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">tr</span>
+          </label>
+        </div>
+      </div>
+<!--      <div class="row">  -->
+        
+<!--    </div> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+
+
+
+
+
+
+</body></html>
