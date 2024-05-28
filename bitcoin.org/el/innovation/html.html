@@ -1,0 +1,764 @@
+<!DOCTYPE html><html lang="el"><head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>ÎÎ±Î¹Î½Î¿ÏÎ¿Î¼Î¯Î± - Bitcoin</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+<link rel="stylesheet" href="/css/sans.css?1716491272">
+<script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.org is a community funded project, donations are appreciated and used to improve the website.
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        Make a donation
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.org needs your support!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">Donate to Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">Use this QR code or address below</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="Or custom amount? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="Or custom amount? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="Optional description (for your wallet)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="/el/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">EÎ¹ÏÎ±Î³ÏÎ³Î®</a>
+    <ul>
+      <li><a href="/el/bitcoin-for-individuals">ÎÎ´Î¹ÏÏÎµÏ</a></li>
+      <li><a href="/el/bitcoin-for-businesses">ÎÏÎ¹ÏÎµÎ¹ÏÎ®ÏÎµÎ¹Ï</a></li>
+      <li><a href="https://developer.bitcoin.org/">Î ÏÎ¿Î³ÏÎ±Î¼Î¼Î±ÏÎ¹ÏÏÎ­Ï</a></li>
+      <li><a href="/el/getting-started">ÎÎµÎºÎ¹Î½ÏÎ½ÏÎ±Ï</a></li>
+      <li><a href="/el/how-it-works">Î ÏÏ Î»ÎµÎ¹ÏÎ¿ÏÏÎ³ÎµÎ¯</a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">Î ÏÏÎ¿Î¹</a>
+    <ul>
+      <li><a href="/el/resources">Î ÏÏÎ¿Î¹</a>
+      </li><li><a href="/el/exchanges">Exchanges</a></li>
+      <li><a href="/el/community">ÎÎ¿Î¹Î½ÏÏÎ·ÏÎ±</a></li>
+      
+      
+      <li><a href="/el/vocabulary">ÎÎµÎ¾Î¹Î»ÏÎ³Î¹Î¿</a></li>
+      <li><a href="/el/events">ÎÎºÎ´Î·Î»ÏÏÎµÎ¹Ï</a></li>
+      
+        <li><a href="/el/download">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li class="active"><a href="/el/innovation">ÎÎ±Î¹Î½Î¿ÏÎ¿Î¼Î¯Î±</a></li>
+  <li><a class="is-expand">Î£ÏÎ¼Î¼ÎµÏÎ¿ÏÎ®</a>
+    <ul>
+      <li><a href="/el/support-bitcoin">Î¥ÏÎ¿ÏÏÎ·ÏÎ¯Î¾ÏÎµ ÏÎ¿ Bitcoin</a>
+      </li><li><a href="/el/buy">Buy Bitcoin</a></li>
+      
+      <li><a href="/el/development">ÎÎ½Î¬ÏÏÏÎ¾Î·</a></li>
+    </ul>
+  </li>
+  <li><a href="/el/faq">Î£ÏÏÎ½Î­Ï ÎµÏÏÏÎ®ÏÎµÎ¹Ï</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/inovasi">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/innovacio">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/innovation">Dansk</a></li>
+        
+        
+          <li><a href="/de/innovation">Deutsch</a></li>
+        
+        
+          <li><a href="/en/innovation">English</a></li>
+        
+        
+          <li><a href="/es/innovacion">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/innovation">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/innovazione">Italiano</a></li>
+        
+        
+          <li><a href="/hu/innovacio">Magyar</a></li>
+        
+        
+          <li><a href="/nl/innovatie">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/innowacje">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/inovacao">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/inovatie">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/inovacije">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/inovacija">Srpski</a></li>
+        
+        
+          <li><a href="/sv/innovation">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/yenilik">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/innovation" class="active">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/innovation">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/innovation">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/innovation">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/innovation">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/innovation">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/innovation">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/innovation">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/innovation">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/innovation">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/innovation">ááááá</a></li>
+        
+        
+          <li><a href="/ja/innovation">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/innovation">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/innovation">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/inovasi">Bahasa Indonesia</option>
+            
+            <option value="/ca/innovacio">CatalÃ </option>
+            
+            <option value="/da/innovation">Dansk</option>
+            
+            <option value="/de/innovation">Deutsch</option>
+            
+            <option value="/en/innovation">English</option>
+            
+            <option value="/es/innovacion">EspaÃ±ol</option>
+            
+            <option value="/fr/innovation">FranÃ§ais</option>
+            
+            <option value="/it/innovazione">Italiano</option>
+            
+            <option value="/hu/innovacio">Magyar</option>
+            
+            <option value="/nl/innovatie">Nederlands</option>
+            
+            <option value="/pl/innowacje">Polski</option>
+            
+            <option value="/pt_BR/inovacao">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/inovatie">RomÃ¢nÄ</option>
+            
+            <option value="/sl/inovacije">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/inovacija">Srpski</option>
+            
+            <option value="/sv/innovation">Svenska</option>
+            
+            <option value="/tr/yenilik">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/innovation" selected="selected">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/innovation">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/innovation">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/innovation">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/innovation">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/innovation">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/innovation">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/innovation">×¢××¨××ª</option>
+            
+            <option value="/hi/innovation">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/innovation">íêµ­ì´</option>
+            
+            <option value="/km/innovation">ááááá</option>
+            
+            <option value="/ja/innovation">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/innovation">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/innovation">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">el</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  <div class="hero">
+  <div class="container hero-container">
+    <h1>ÎÎ±Î¹Î½Î¿ÏÎ¿Î¼Î¯Î± ÏÏÎ± ÏÏÏÏÎ®Î¼Î±ÏÎ± ÏÎ»Î·ÏÏÎ¼ÏÎ½</h1>
+    <p class="summarytxt">To ÏÏÏÏÏÎºÎ¿Î»Î»Î¿ ÏÎ¿Ï Bitcoin Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î±ÏÎ»Î¬ Î³Î¹Î± ÏÎ·Î½ Î±ÏÎ¿ÏÏÎ¿Î»Î® ÏÏÎ·Î¼Î¬ÏÏÎ½ Î±ÏÏ ÏÎ¿ ÏÎ·Î¼ÎµÎ¯Î¿ Î ÏÏÎ¿ ÏÎ·Î¼ÎµÎ¯Î¿ Î. ÎÏÎµÎ¹ ÏÎ¿Î»Î»Î­Ï Î»ÎµÎ¹ÏÎ¿ÏÏÎ³Î¯ÎµÏ ÎºÎ±Î¹ Î±Î½Î¿Î¯Î³ÎµÎ¹ ÏÎ¿Î»Î»Î­Ï Î´ÏÎ½Î±ÏÏÏÎ·ÏÎµÏ ÏÎ¹Ï Î¿ÏÎ¿Î¯ÎµÏ Î· ÎºÎ¿Î¹Î½ÏÏÎ·ÏÎ± Î±ÎºÏÎ¼Î± ÎµÎ¾ÎµÏÎµÏÎ½Î¬. ÎÎ´Î¿Ï ÎºÎ¬ÏÎ¿Î¹ÎµÏ Î±ÏÏ ÏÎ¹Ï ÏÎµÏÎ½Î¿Î»Î¿Î³Î¯ÎµÏ ÏÎ¿Ï ÎµÎ¯Î½Î±Î¹ Î³Î¹Î± ÏÎ·Î½ ÏÏÎ± Î±Î½ÏÎ¹ÎºÎµÎ¯Î¼ÎµÎ½Î¿ Î­ÏÎµÏÎ½Î±Ï ÎºÎ±Î¹ ÏÎµ ÎºÎ¬ÏÎ¿Î¹ÎµÏ ÏÎµÏÎ¹ÏÏÏÏÎµÎ¹Ï, Î¼ÎµÏÎ±ÏÏÎ­ÏÎ¿Î½ÏÎ±Î¹ ÏÎµ ÏÏÎ±Î³Î¼Î±ÏÎ¹ÎºÎ¬ ÏÏÎ¿ÏÏÎ½ÏÎ± ÎºÎ±Î¹ ÏÏÎ·ÏÎµÏÎ¯ÎµÏ. ÎÎ¹ ÏÎ¹Î¿ ÎµÎ½Î´Î¹Î±ÏÎ­ÏÎ¿ÏÏÎµÏ ÏÏÎ®ÏÎµÎ¹Ï ÏÎ¿Ï Bitcoin Î²ÏÎ¯ÏÎºÎ¿Î½ÏÎ±Î¹ Î±ÎºÏÎ¼Î± ÏÎµ ÏÏÎ¬Î´Î¹Î¿ Î±Î½Î±ÎºÎ¬Î»ÏÏÎ·Ï.</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row card-row">
+
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/ico_control.svg?1716491272" alt="Icon">
+      <h2 id="control" class=" anchorAf"><a href="#control"></a>ÎÎ»ÎµÎ³ÏÎ¿Ï ÎºÎ±ÏÎ¬ ÏÎ·Ï Î±ÏÎ¬ÏÎ·Ï</h2>
+      <p>ÎÎ½Î± ÏÏÏÏÎ¿ÏÎ±Î½Î­Ï ÎµÏÎ¯ÏÎµÎ´Î¿ Î±ÏÏÎ¬Î»ÎµÎ¹Î±Ï ÎµÎ¯Î½Î±Î¹ ÎµÏÎ¹ÎºÏÏ Î¼Îµ ÏÎ¿ Bitcoin. Î¤Î¿ Î´Î¯ÎºÏÏÎ¿ ÏÎ±ÏÎ­ÏÎµÎ¹ ÏÏÎ¿ÏÏ ÏÏÎ®ÏÏÎµÏ ÏÏÎ¿ÏÏÎ±ÏÎ¯Î± Î­Î½Î±Î½ÏÎ¹ ÏÏÎ¹Ï ÏÎµÏÎ¹ÏÏÏÏÎµÏÎµÏ ÎºÎ¿Î¹Î½Î­Ï Î±ÏÎ¬ÏÎµÏ ÏÏÏÏ Î¿Î¹ Î±Î½ÏÎ¹Î»Î¿Î³Î¹ÏÎ¼Î¿Î¯ ÏÏÎµÏÏÎµÏÎ½ (chargebacks) Î® Î±Î½ÎµÏÎ¹Î¸ÏÎ¼Î·ÏÎµÏ ÏÏÎµÏÏÎµÎ¹Ï ÎºÎ±Î¹ ÏÎ± bitcoins ÎµÎ¯Î½Î±Î¹ Î±Î´ÏÎ½Î±ÏÎ¿ Î½Î± ÏÎ±ÏÎ±ÏÎ±ÏÎ±ÏÎ¸Î¿ÏÎ½. ÎÎ¹ ÏÏÎ®ÏÏÎµÏ Î¼ÏÎ¿ÏÎ¿ÏÎ½ Î½Î± ÎºÎ¬Î½Î¿ÏÎ½ Î±Î½ÏÎ¯Î³ÏÎ±ÏÎ± Î±ÏÏÎ±Î»ÎµÎ¯Î±Ï Î® Î½Î± ÎºÏÏÏÏÎ¿Î³ÏÎ±ÏÎ¿ÏÎ½ ÏÎ¿ ÏÎ¿ÏÏÎ¿ÏÏÎ»Î¹ ÏÎ¿ÏÏ ÎºÎ±Î¹ ÏÎ¿ ÏÎ»Î¹ÏÎ¼Î¹ÎºÏ (hardware) ÏÏÎ½ ÏÎ¿ÏÏÎ¿ÏÎ¿Î»Î¹ÏÎ½ Î¸Î± Î¼ÏÎ¿ÏÎ¿ÏÏÎµ Î½Î± ÎºÎ¬Î½ÎµÎ¹ ÏÎ¿Î»Ï Î´ÏÏÎºÎ¿Î»Î· ÏÎ·Î½ ÎºÎ»Î¿ÏÎ® Î® ÏÎ·Î½ Î±ÏÏÎ»ÎµÎ¹Î± ÏÏÎ·Î¼Î¬ÏÏÎ½. Î¤Î¿ Bitcoin ÎµÎ¯Î½Î±Î¹ ÏÏÎµÎ´Î¹Î±ÏÎ¼Î­Î½Î¿ Î½Î± ÎµÏÎ¹ÏÏÎ­ÏÎµÎ¹ ÏÏÎ¿ÏÏ ÏÏÎ®ÏÏÎµÏ ÏÎ¿Ï Î½Î± Î­ÏÎ¿ÏÎ½ ÏÎ»Î®ÏÎ· Î­Î»ÎµÎ³ÏÎ¿ ÏÏÎ½ ÏÏÎ·Î¼Î¬ÏÏÎ½ ÏÎ¿ÏÏ.</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/accessibility.svg?1716491272" alt="Icon">
+      <h2 id="global" class=" anchorAf"><a href="#global"></a>Î Î±Î³ÎºÏÏÎ¼Î¹Î± ÏÏÎ¿ÏÎ²Î±ÏÎ¹Î¼ÏÏÎ·ÏÎ±</h2>
+      <p>ÎÎ¹ ÏÎ»Î·ÏÏÎ¼Î­Ï ÏÎµ ÏÎ»Î¿ ÏÎ¿Î½ ÎºÏÏÎ¼Î¿ Î¼ÏÎ¿ÏÎ¿ÏÎ½ Î½Î± ÎµÎ¯Î½Î±Î¹ ÏÎ»Î®ÏÏÏ Î´Î¹Î±Î»ÎµÎ¹ÏÎ¿ÏÏÎ³Î¹ÎºÎ­Ï. Î¤Î¿ Bitcoin ÎµÏÎ¹ÏÏÎ­ÏÎµÎ¹ ÏÎµ ÎºÎ¬Î¸Îµ ÏÏÎ¬ÏÎµÎ¶Î±, ÎµÏÎ¹ÏÎµÎ¯ÏÎ·ÏÎ· Î® Î¹Î´Î¹ÏÏÎ· Î½Î± ÏÏÎµÎ¯Î»ÎµÎ¹ ÎºÎ±Î¹ Î½Î± Î»Î¬Î²ÎµÎ¹ Î¼Îµ Î±ÏÏÎ¬Î»ÎµÎ¹Î± ÏÎ»Î·ÏÏÎ¼Î­Ï Î¿ÏÎ¿ÏÎ´Î®ÏÎ¿ÏÎµ ÎºÎ±Î¹ Î¿ÏÎ¿ÏÎµÎ´Î®ÏÎ¿ÏÎµ, Î¼Îµ Î® ÏÏÏÎ¯Ï ÏÏÎ±ÏÎµÎ¶Î¹ÎºÏ Î»Î¿Î³Î±ÏÎ¹Î±ÏÎ¼Ï. Î¤Î¿ Bitcoin ÎµÎ¯Î½Î±Î¹ Î´Î¹Î±Î¸Î­ÏÎ¹Î¼Î¿ ÏÎµ Î¼ÎµÎ³Î¬Î»Î¿ Î±ÏÎ¹Î¸Î¼Ï Î±ÏÏ ÏÏÏÎµÏ Î¿Î¹ Î¿ÏÎ¿Î¯ÎµÏ ÏÎ±ÏÎ±Î¼Î­Î½Î¿ÏÎ½ Î±ÎºÏÎ¼Î± Î¼Î· ÏÏÎ¿ÏÎ²Î¬ÏÎ¹Î¼ÎµÏ Î³Î¹Î± ÏÎ± ÏÎµÏÎ¹ÏÏÏÏÎµÏÎ± ÏÏÏÏÎ®Î¼Î±ÏÎ± ÏÎ»Î·ÏÏÎ¼ÏÎ½ ÎµÎ¾Î±Î¹ÏÎ¯Î±Ï ÏÏÎ½ ÏÎµÏÎ¹Î¿ÏÎ¹ÏÎ¼ÏÎ½ ÏÎ¿Ï Î­ÏÎ¿ÏÎ½ Î¿Î¹ Î¯Î´Î¹ÎµÏ. Î¤Î¿ Bitcoin Î±ÏÎ¾Î¬Î½ÎµÎ¹ ÏÎ·Î½ ÏÎ±Î³ÎºÏÏÎ¼Î¹Î± ÏÏÏÏÎ²Î±ÏÎ· ÏÏÎ¿ ÎµÎ¼ÏÏÏÎ¹Î¿ ÎºÎ±Î¹ Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± Î²Î¿Î·Î¸Î®ÏÎµÎ¹ ÏÎ¿ Î´Î¹ÎµÎ¸Î½Î­Ï ÎµÎ¼ÏÏÏÎ¹Î¿ Î½Î± ÏÏÎ¿Î¿Î´ÎµÏÏÎµÎ¹.</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/efficiency.svg?1716491272" alt="Icon">
+      <h2 id="cost" class=" anchorAf"><a href="#cost"></a>Î§Î±Î¼Î·Î»Ï ÎºÏÏÏÎ¿Ï</h2>
+      <p>ÎÎµ ÏÎ· ÏÏÎ®ÏÎ· ÎºÏÏÏÏÎ¿Î³ÏÎ±ÏÎ¯Î±Ï, ÎµÎ¯Î½Î±Î¹ ÎµÏÎ¹ÎºÏÎ­Ï Î±ÏÏÎ±Î»ÎµÎ¯Ï ÏÎ»Î·ÏÏÎ¼Î­Ï ÏÏÏÎ¯Ï Î±ÏÎ³Î¿ÏÏ ÎºÎ±Î¹ Î±ÎºÏÎ¹Î²Î¿ÏÎ»Î·ÏÏÎ¼Î­Î½Î¿ÏÏ Î¼ÎµÏÎ¬Î¶Î¿Î½ÏÎµÏ. ÎÎ¹Î± ÏÏÎ½Î±Î»Î»Î±Î³Î® Bitcoin Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± ÎµÎ¯Î½Î±Î¹ Î±ÏÎºÎµÏÎ¬ ÏÎ¸Î·Î½ÏÏÎµÏÎ· Î±ÏÏ ÏÎ¹Ï ÎµÎ½Î±Î»Î»Î±ÎºÏÎ¹ÎºÎ­Ï ÏÎ·Ï ÎºÎ±Î¹ Î½Î± Î¿Î»Î¿ÎºÎ»Î·ÏÏÎ¸ÎµÎ¯ ÏÎµ Î¼Î¹ÎºÏÏ ÏÏÎ¿Î½Î¹ÎºÏ Î´Î¹Î¬ÏÏÎ·Î¼Î±. ÎÏÏÏ ÏÎ·Î¼Î±Î¯Î½ÎµÎ¹ ÏÏÎ¹ ÏÎ¿ Bitcoin Î­ÏÎµÎ¹ ÎºÎ¬ÏÎ¿Î¹Î± ÏÏÎ¿Î¿ÏÏÎ¹ÎºÎ® Î½Î± Î³Î¯Î½ÎµÎ¹ Î­Î½Î±Ï ÏÏÎ½Î·Î¸Î·Ï ÏÏÏÏÎ¿Ï Î¼ÎµÏÎ±ÏÎ¿ÏÎ¬Ï Î¿ÏÎ¿Î¹Î¿ÏÎ´Î®ÏÎ¿ÏÎµ ÏÏÎ½Î±Î»Î»Î¬Î³Î¼Î±ÏÎ¿Ï ÏÏÎ¿ Î¼Î­Î»Î»Î¿Î½. Î¤Î¿ Bitcoin Î¸Î± Î¼ÏÎ¿ÏÎ¿ÏÏÎµ ÎµÏÎ¯ÏÎ·Ï Î½Î± Î´Î¹Î±Î´ÏÎ±Î¼Î±ÏÎ¯ÏÎµÎ¹ ÏÏÎ»Î¿ ÏÏÎ·Î½ <a href="https://www.youtube.com/watch?v=BrRXP1tp6Kw">Î¼ÎµÎ¯ÏÏÎ· ÏÎ·Ï ÏÏÏÏÎµÎ¹Î±Ï</a> ÏÎµ ÏÎ¿Î»Î»Î­Ï Î¼ÎµÎ¹ÏÎ½Î¿Î½ÏÎ±Ï ÏÎ± ÏÏÎ·Î»Î¬ ÏÎ­Î»Î· ÏÏÎ½Î±Î»Î»Î±Î³ÏÎ½ ÏÏÎ¿ Î¼Î¹ÏÎ¸Ï ÏÏÎ½ ÎµÏÎ³Î±Î¶Î¿Î¼Î­Î½ÏÎ½.</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/donation.svg?1716491272" alt="Icon">
+      <h2 id="donation" class=" anchorAf"><a href="#donation"></a>Î¦Î¹Î»Î¿Î´ÏÏÎ®Î¼Î±ÏÎ± ÎºÎ±Î¹ Î´ÏÏÎµÎ­Ï</h2>
+      <p>Î¤Î¿ Bitcoin ÎµÎ¯Î½Î±Î¹ Î¼Î¹Î± Î¹Î´Î¹Î±Î¯ÏÎµÏÎ± Î±ÏÎ¿ÏÎµÎ»ÎµÏÎ¼Î±ÏÎ¹ÎºÎ® Î»ÏÏÎ· Î³Î¹Î± ÏÎ¹Î»Î¿Î´ÏÏÎ®Î¼Î±ÏÎ± ÎºÎ±Î¹ Î´ÏÏÎµÎ­Ï ÏÎµ Î±ÏÎºÎµÏÎ­Ï ÏÎµÏÎ¹ÏÏÏÏÎµÎ¹Ï. Î Î±ÏÎ¿ÏÏÎ¿Î»Î® Î¼Î¹Î±Ï ÏÎ»Î·ÏÏÎ¼Î®Ï Î±ÏÎ±Î¹ÏÎµÎ¯ Î¼ÏÎ½Î¿ Î­Î½Î± ÎºÎ»Î¹Îº ÎºÎ±Î¹ Î· Î±ÏÎ¿Î´Î¿ÏÎ® Î´ÏÏÎµÏÎ½ Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± ÎµÎ¯Î½Î±Î¹ ÏÏÏÎ¿ Î±ÏÎ»Î® ÏÏÎ¿ Î· Î±Î½Î¬ÏÏÎ·ÏÎ· ÎµÎ½ÏÏ ÎºÏÎ´Î¹ÎºÎ± QR. ÎÎ¹ Î´ÏÏÎµÎ­Ï Î¼ÏÎ¿ÏÎ¿ÏÎ½ ÎµÎ¯Î½Î±Î¹ Î¿ÏÎ±ÏÎ­Ï ÏÏÎ¿ ÎºÎ¿Î¹Î½Ï, ÏÎ±ÏÎ­ÏÎ¿Î½ÏÎ±Ï Î±ÏÎ¾Î·Î¼Î­Î½Î· Î´Î¹Î±ÏÎ³ÎµÎ¹Î± ÏÎµ Î¼Î·-ÎºÎµÏÎ´Î¿ÏÎºÎ¿ÏÎ¹ÎºÎ¿ÏÏ Î¿ÏÎ³Î±Î½Î¹ÏÎ¼Î¿ÏÏ. Î£Îµ ÏÎµÏÎ¹ÏÏÏÏÎµÎ¹Ï Î­ÎºÏÎ±ÎºÏÎ·Ï Î±Î½Î¬Î³ÎºÎ·Ï ÏÏÏÏ ÏÎµ ÏÏÏÎ¹ÎºÎ­Ï ÎºÎ±ÏÎ±ÏÏÏÎ¿ÏÎ­Ï, Î¿Î¹ Î´ÏÏÎµÎ­Ï Bitcoin Î¼ÏÎ¿ÏÎ¿ÏÎ½ Î½Î± ÏÏÎ½ÎµÎ¹ÏÏÎ­ÏÎ¿ÏÎ½ ÏÏÎ·Î½ ÏÎ±ÏÏÏÎµÏÎ· ÏÎ±Î³ÎºÏÏÎ¼Î¹Î± Î±Î½ÏÎ±ÏÏÎºÏÎ¹ÏÎ·.</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/crowdfunding.svg?1716491272" alt="Icon">
+      <h2 id="crowdfunding" class=" anchorAf"><a href="#crowdfunding"></a>Î£ÏÎ¼Î¼ÎµÏÎ¿ÏÎ¹ÎºÎ® Î§ÏÎ·Î¼Î±ÏÎ¿Î´ÏÏÎ·ÏÎ·</h2>
+      <p>Î Î±ÏÏÎ»Î¿ ÏÎ¿Ï Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î±ÎºÏÎ¼Î± ÎµÏÎºÎ¿Î»Î¿ ÏÏÎ· ÏÏÎ®ÏÎ·, ÏÎ¿ Bitcoin Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± ÏÏÎ·ÏÎ¹Î¼Î¿ÏÎ¿Î¹Î·Î¸ÎµÎ¯ Î³Î¹Î± Î½Î± Î´Î¹ÎµÎ¾Î¬Î³ÎµÎ¹ Î´Î¹Î±ÏÎ·Î¼Î¹ÏÏÎ¹ÎºÎ­Ï ÎµÎºÏÏÏÎ±ÏÎµÎ¯ÎµÏ ÏÏÎ¼Î¼ÎµÏÎ¿ÏÎ¹ÎºÎ®Ï ÏÏÎ·Î¼Î±ÏÎ¿Î´ÏÏÎ·ÏÎ·Ï (crowdfunding) ÏÏÏÎ¿Ï Kickstarter ÏÏÎ¹Ï Î¿ÏÎ¿Î¯ÎµÏ Î¹Î´Î¹ÏÏÎµÏ Î´Î¯Î½Î¿ÏÎ½ ÏÏ ÎµÎ½Î­ÏÏÏÎ¿ ÏÏÎ®Î¼Î±ÏÎ± ÏÎµ Î­Î½Î± ÏÏÏÏÎ¶ÎµÎºÏ ÎºÎ±Î¹ ÏÎ± Î¿ÏÎ¿Î¯Î± ÏÎ±Î¯ÏÎ½Î¿Î½ÏÎ±Î¹ Î±ÏÏ Î±ÏÏÎ¿ÏÏ Î¼ÏÎ½Î¿ Î±Î½ Î»Î·ÏÎ¸Î¿ÏÎ½ Î±ÏÎºÎµÏÎ¬ ÎµÎ½Î­ÏÏÏÎ± ÏÏÏÎµ Î½Î± ÏÏÎ¬ÏÎ¿ÏÎ½ ÏÏÎ¿ ÏÏÏÏÎ¿. Î¤Î­ÏÎ¿Î¹ÎµÏ Î±ÏÏÎ±Î»Î¹ÏÏÎ¹ÎºÎ­Ï ÏÏÎ¼Î²Î¬ÏÎµÎ¹Ï ÎµÏÎµÎ¾ÎµÏÎ³Î¬Î¶Î¿Î½ÏÎ±Î¹ Î±ÏÏ ÏÎ¿ ÏÏÏÏÏÎºÎ¿Î»Î»Î¿ Bitcoin, ÏÎ¿ Î¿ÏÎ¿Î¯Î¿ Î±ÏÎ¿ÏÏÎ­ÏÎµÎ¹ Î¼Î¹Î± ÏÏÎ½Î±Î»Î»Î±Î³Î® Î½Î± Î»Î¬Î²ÎµÎ¹ ÏÏÏÎ± ÎµÏÏ ÏÏÎ¿Ï Î­ÏÎ¿ÏÎ½ ÎµÎºÏÎ»Î·ÏÏÎ¸ÎµÎ¯ ÏÎ»Î¿Î¹ Î¿Î¹ ÏÏÎ¿Î¹. <a href="https://en.bitcoin.it/wiki/Contracts#Example_3:_Assurance_contracts">ÎÎ¬Î¸ÎµÏÎµ ÏÎµÏÎ¹ÏÏÏÏÎµÏÎ±</a> Î³Î¹Î± ÏÎ·Î½ ÏÎµÏÎ½Î¿Î»Î¿Î³Î¯Î± ÏÏÎµÏÎ¹ÎºÎ¬ Î¼Îµ ÏÎ·Î½ ÏÏÎ¼Î¼ÎµÏÎ¿ÏÎ¹ÎºÎ® ÏÏÎ·Î¼Î±ÏÎ¿Î´ÏÏÎ·ÏÎ·.</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/micro-payments.svg?1716491272" alt="Icon">
+      <h2 id="micro" class=" anchorAf"><a href="#micro"></a>ÎÎ¹ÎºÏÎ¿ÏÎ»Î·ÏÏÎ¼Î­Ï</h2>
+      <p>To Bitcoin Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± ÎµÏÎµÎ¾ÎµÏÎ³Î±ÏÏÎµÎ¯ ÏÏÎ½Î±Î»Î»Î±Î³Î­Ï ÏÏÎ·Î½ ÎºÎ»Î¯Î¼Î±ÎºÎ± ÏÎ¿Ï Î´Î¿Î»Î±ÏÎ¯Î¿Ï ÎºÎ±Î¹ ÏÏÎ½ÏÎ¿Î¼Î± ÏÎµ Î±ÎºÏÎ¼Î± Î¼Î¹ÎºÏÏÏÎµÏÎ± ÏÎ¿ÏÎ¬. Î¤Î­ÏÎ¿Î¹ÎµÏ ÏÎ»Î·ÏÏÎ¼Î­Ï ÎµÎ¯Î½Î±Î¹ ÏÏÏÎ¸ÎµÏÎ· ÏÎ¿ÏÏÎ¯Î½Î±Ï Î±ÎºÏÎ¼Î± ÎºÎ±Î¹ ÏÎ®Î¼ÎµÏÎ±. Î¦Î±Î½ÏÎ±ÏÏÎµÎ¯ÏÎµ Î½Î± Î±ÎºÎ¿ÏÏÎµ ÏÎ±Î´Î¹ÏÏÏÎ½Î¿ Î¼Î­ÏÏ ÎÎ¹Î±Î´Î¹ÎºÏÏÎ¿Ï ÎºÎ±Î¹ Î½Î± ÏÎ»Î·ÏÏÎ½ÎµÏÎ±Î¹ Î¼Îµ ÏÎ¿ Î´ÎµÏÏÎµÏÏÎ»ÎµÏÏÎ¿, Î½Î± Î²Î»Î­ÏÎµÏÎµ Î¹ÏÏÎ¿ÏÎµÎ»Î¯Î´ÎµÏ ÎºÎ±Î¹ Î½Î± Î´Î¹Î½ÎµÏÎµ Î­Î½Î± Î¼Î¹ÎºÏÏ ÏÎ¹Î»Î¿Î´ÏÏÎ·Î¼Î± Î³Î¹Î± ÎºÎ¬Î¸Îµ Î´Î¹Î±ÏÎ®Î¼Î¹ÏÎ· ÏÎ¿Ï Î´ÎµÎ½ ÎµÎ¼ÏÎ±Î½Î¯Î¶ÎµÏÎ±Î¹ Î® Î½Î± Î±Î³Î¿ÏÎ¬Î¶ÎµÏÎµ ÎµÏÏÎ¿Ï Î¶ÏÎ½Î·Ï (bandwidth) Î±ÏÏ Î­Î½Î± ÎµÎ½ÎµÏÎ³Ï ÏÎ·Î¼ÎµÎ¯Î¿ (hotspot) WiFi Î¼Îµ ÏÎ¿ kilobyte. Î¤Î¿ Bitcoin ÎµÎ¯Î½Î±Î¹ Î±ÏÎºÎµÏÎ¬ Î±ÏÎ¿ÏÎµÎ»ÎµÏÎ¼Î±ÏÎ¹ÎºÏ ÏÏÏÎµ Î½Î± ÎºÎ¬Î½ÎµÎ¹ ÏÎ»ÎµÏ Î±ÏÏÎ­Ï ÏÎ¹Ï Î¹Î´Î­ÎµÏ ÎµÏÎ¹ÎºÏÎ­Ï. <a href="https://bitcoinj.github.io/working-with-micropayments">ÎÎ¬Î¸ÎµÏÎµ ÏÎµÏÎ¹ÏÏÏÏÎµÏÎ±</a> Î³Î¹Î± ÏÎ·Î½ ÏÎµÏÎ½Î¿Î»Î¿Î³Î¯Î± ÏÎ¿Ï Bitcoin ÏÏÎµÏÎ¹ÎºÎ¬ Î¼Îµ ÏÎ¹Ï Î¼Î¹ÎºÏÎ¿ÏÎ»Î·ÏÏÎ¼Î­Ï.</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/mediation.svg?1716491272" alt="Icon">
+      <h2 id="mediation" class=" anchorAf"><a href="#mediation"></a>ÎÎ¹Î±Î¼ÎµÏÎ¿Î»Î¬Î²Î·ÏÎ· ÎÎ¹ÎµÎ½Î­Î¾ÎµÏÎ½</h2>
+      <p>Î¤Î¿ Bitcoin Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± ÏÏÎ·ÏÎ¹Î¼Î¿ÏÎ¿Î¹Î·Î¸ÎµÎ¯ Î³Î¹Î± Î½Î± Î±Î½Î±ÏÏÏÎ¾ÎµÎ¹ ÎºÎ±Î¹Î½Î¿ÏÏÎ¼ÎµÏ ÏÏÎ·ÏÎµÏÎ¯ÎµÏ Î´Î¹Î±Î¼ÎµÏÎ¿Î»Î¬Î²Î·ÏÎ·Ï ÏÎµ Î´Î¹ÎµÎ½Î­Î¾ÎµÎ¹Ï ÏÏÎ·ÏÎ¹Î¼Î¿ÏÎ¿Î¹ÏÎ½ÏÎ±Ï ÏÎ¹Ï ÏÎ¿Î»Î»Î±ÏÎ»Î­Ï ÏÏÎ¿Î³ÏÎ±ÏÎ­Ï (multiple signatures). Î¤Î­ÏÎ¿Î¹ÎµÏ ÏÏÎ·ÏÎµÏÎ¯ÎµÏ Î¸Î± Î¼ÏÎ¿ÏÎ¿ÏÏÎ±Î½ Î½Î± ÎºÎ¬Î½Î¿ÏÎ½ ÎµÏÎ¹ÎºÏÏ Î³Î¹Î± ÎºÎ¬ÏÎ¿Î¹Î¿Î½ ÏÏÎ¯ÏÎ¿ Î½Î± ÎµÎ³ÎºÏÎ¯Î½ÎµÎ¹ Î® Î½Î± Î±ÏÎ¿ÏÏÎ¯ÏÎµÎ¹ Î¼Î¹Î± ÏÏÎ½Î±Î»Î»Î±Î³Î® ÏÏÎ·Î½ ÏÎµÏÎ¯ÏÏÏÏÎ· Î¼Î¹Î±Ï Î´Î¹Î±ÏÏÎ½Î¯Î±Ï Î¼ÎµÏÎ±Î¾Ï ÏÏÎ¯ÏÏÎ½ ÏÏÏÎ¯Ï Î½Î± Î­ÏÎµÎ¹ ÏÏÏ Î­Î»ÎµÎ³ÏÎ¿ ÏÎ± ÏÏÎ®Î¼Î±ÏÎ¬ ÏÎ¿ÏÏ. ÎÏÏÏÎ¿Î½ Î±ÏÏÎ­Ï Î¿Î¹ ÏÏÎ·ÏÎµÏÎ¯ÎµÏ Î¸Î± ÎµÎ¯Î½Î±Î¹ ÏÏÎ¼Î²Î±ÏÎ­Ï Î¼Îµ ÎºÎ¬Î¸Îµ ÏÏÎ®ÏÏÎ· ÎºÎ±Î¹ Î­Î¼ÏÎ¿ÏÎ¿ ÏÎ¿Ï ÏÏÎ·ÏÎ¹Î¼Î¿ÏÎ¿Î¹ÎµÎ¯ ÏÎ¿ Bitcoin, Î±ÏÏÏ ÎµÎ½Î´Î­ÏÎµÏÎ±Î¹ Î½Î± Î¿Î´Î·Î³Î®ÏÎµÎ¹ ÏÎµ ÎµÎ»ÎµÏÎ¸ÎµÏÎ¿ Î±Î½ÏÎ±Î³ÏÎ½Î¹ÏÎ¼Ï ÎºÎ±Î¹ ÏÏÎ·Î»ÏÏÎµÏÎ± ÏÏÏÏÏÏÎ± ÏÎ¿Î¹ÏÏÎ·ÏÎ±Ï.</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/multi-signature.svg?1716491272" alt="Icon">
+      <h2 id="multisig" class=" anchorAf"><a href="#multisig"></a>Î Î¿Î»Î»Î±ÏÎ»Î­Ï ÏÏÎ¿Î³ÏÎ±ÏÎ­Ï</h2>
+      <p>ÎÎ¹ ÏÎ¿Î»Î»Î±ÏÎ»Î­Ï ÏÏÎ¿Î³ÏÎ±ÏÎ­Ï (multiple signatures) ÎµÏÎ¹ÏÏÎ­ÏÎ¿ÏÎ½ Î¼Î¹Î± ÏÏÎ½Î±Î»Î»Î±Î³Î® Î½Î± Î³Î¯Î½ÎµÏÎ±Î¹ Î±ÏÎ¿Î´ÎµÎºÏÎ® Î±ÏÏ ÏÎ¿ Î´Î¯ÎºÏÏÎ¿ Î¼ÏÎ½Î¿ Î±Î½ Î­Î½Î±Ï ÏÏÎ³ÎºÎµÎºÏÎ¹Î¼Î­Î½Î¿Ï Î±ÏÎ¹Î¸Î¼ÏÏ Î±ÏÏ Î¼Î¹Î± Î¿Î¼Î¬Î´Î± Î¿ÏÎ¹ÏÎ¼Î­Î½ÏÎ½ Î±ÏÏÎ¼ÏÎ½ ÏÏÎ¼ÏÏÎ½Î®ÏÎµÎ¹ Î½Î± ÏÏÎ¿Î³ÏÎ¬ÏÎµÎ¹ ÏÎ·Î½ ÏÏÎ½Î±Î»Î»Î±Î³Î®. ÎÏÏÏ Î¸Î± Î¼ÏÎ¿ÏÎ¿ÏÏÎµ Î½Î± ÏÏÎ·ÏÎ¹Î¼Î¿ÏÎ¿Î¹Î·Î¸ÎµÎ¯ Î±ÏÏ Î­Î½Î± Î´Î¹Î¿Î¹ÎºÎ·ÏÎ¹ÎºÏ ÏÏÎ¼Î²Î¿ÏÎ»Î¹Î¿ Î³Î¹Î± Î½Î± Î±ÏÎ¿ÏÏÎ­ÏÎµÎ¹ Î­Î½Î± Î¼Î­Î»Î¿Ï Î½Î± Î¾Î¿Î´Î­ÏÎµÎ¹ Î¼Î­ÏÎ¿Ï Î±ÏÏ ÏÎ¿ Î¸Î·ÏÎ±ÏÏÎ¿ÏÏÎ»Î¬ÎºÎ¹Î¿ ÏÎ¿ÏÏ ÏÏÏÎ¯Ï ÏÎ· ÏÏÎ³ÎºÎ±ÏÎ¬Î¸ÎµÏÎ· ÏÏÎ½ Î¬Î»Î»ÏÎ½ Î¼ÎµÎ»ÏÎ½. ÎÏÏÏ Î¸Î± Î¼ÏÎ¿ÏÎ¿ÏÏÎµ ÎµÏÎ¯ÏÎ·Ï Î½Î± ÏÏÎ·ÏÎ¹Î¼Î¿ÏÎ¿Î¹Î·Î¸ÎµÎ¯ Î±ÏÏ ÏÎ¹Ï ÏÏÎ¬ÏÎµÎ¶ÎµÏ Î³Î¹Î± Î½Î± Î±ÏÎ¿ÏÏÎ­ÏÎ¿ÏÎ½ ÎºÎ»Î¿ÏÎ® Î¼ÏÎ»Î¿ÎºÎ¬ÏÎ¿Î½ÏÎ±Ï ÏÎ¹Ï ÏÎ»Î·ÏÏÎ¼Î­Ï ÏÎ¿Ï ÏÏÎµÏÎ²Î±Î¯Î½Î¿ÏÎ½ ÎºÎ¬ÏÎ¿Î¹Î¿ ÏÏÎ¹Î¿ Î±Î½ Î¿ ÏÏÎ®ÏÏÎ·Ï Î´ÎµÎ½ ÏÎ±ÏÎ­ÏÎµÎ¹ ÏÎµÏÎ±Î¹ÏÎ­ÏÏ ÏÎ¹ÏÏÎ¿ÏÎ¿Î¹Î·ÏÎ¹ÎºÎ¬.</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/trust.svg?1716491272" alt="Icon">
+      <h2 id="trust" class=" anchorAf"><a href="#trust"></a>ÎÎ¼ÏÎ¹ÏÏÎ¿ÏÏÎ½Î· ÎºÎ±Î¹ Î±ÎºÎµÏÎ±Î¹ÏÏÎ·ÏÎ±</h2>
+      <p>To Bitcoin ÏÏÎ¿ÏÏÎ­ÏÎµÎ¹ Î»ÏÏÎµÎ¹Ï Î³Î¹Î± ÏÎ¿Î»Î»Î¬ Î±ÏÏ ÏÎ± ÏÏÎ¿Î²Î»Î®Î¼Î±ÏÎ± ÎµÎ¼ÏÎ¹ÏÏÎ¿ÏÏÎ½Î·Ï ÏÎ¿Ï Î¼Î±ÏÏÎ¯Î¶Î¿ÏÎ½ ÏÎ¹Ï ÏÏÎ¬ÏÎµÎ¶ÎµÏ. ÎÎµ ÎµÏÎ¹Î»ÎµÎºÏÎ¹ÎºÎ® Î»Î¿Î³Î¹ÏÏÎ¹ÎºÎ® Î´Î¹Î±ÏÎ¬Î½ÎµÎ¹Î±, ÏÎ·ÏÎ¹Î±ÎºÎ¬ ÏÏÎ¼Î²ÏÎ»Î±Î¹Î± ÎºÎ±Î¹ Î¼Î· Î±Î½Î±ÏÏÏÎ­ÏÎ¹Î¼ÎµÏ ÏÏÎ½Î±Î»Î»Î±Î³Î­Ï, ÏÎ¿ Bitcoin Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± ÏÏÎ·ÏÎ¹Î¼Î¿ÏÎ¿Î¹Î·Î¸ÎµÎ¯ ÏÏ Î²Î¬ÏÎ· Î³Î¹Î± ÏÎ·Î½ Î±ÏÎ¿ÎºÎ±ÏÎ¬ÏÏÎ±ÏÎ· ÏÎ·Ï ÎµÎ¼ÏÎ¹ÏÏÎ¿ÏÏÎ½Î·Ï ÎºÎ±Î¹ ÏÎ·Ï ÏÏÎ¼ÏÏÎ½Î¯Î±Ï. ÎÎ¹ Î±Î½Î­Î½ÏÎ¹Î¼ÎµÏ ÏÏÎ¬ÏÎµÎ¶ÎµÏ Î´ÎµÎ½ Î¼ÏÎ¿ÏÎ¿ÏÎ½ Î½Î± ÎµÎ¾Î±ÏÎ±ÏÎ®ÏÎ¿ÏÎ½ ÏÎ¿ ÏÏÏÏÎ·Î¼Î± Î³Î¹Î± Î½Î± Î²Î³Î¬Î»Î¿ÏÎ½ ÎºÎ­ÏÎ´Î¿Ï ÏÎµ Î²Î¬ÏÎ¿Ï ÏÏÎ½ Î¬Î»Î»ÏÎ½ ÏÏÎ±ÏÎµÎ¶ÏÎ½ ÎºÎ±Î¹ ÏÎ¿Ï ÎºÎ¿Î¹Î½Î¿Ï. ÎÎ½Î± Î¼Î­Î»Î»Î¿Î½ ÏÏÎ¿ Î¿ÏÎ¿Î¯Î¿ Î¿Î¹ Î¼ÎµÎ³Î±Î»ÏÏÎµÏÎµÏ ÏÏÎ¬ÏÎµÎ¶ÎµÏ Î¸Î± ÏÏÎ®ÏÎ¹Î¶Î±Î½ ÏÎ¿ Bitcoin Î¸Î± Î²Î¿Î·Î¸Î¿ÏÏÎµ Î½Î± Î±ÏÎ¿ÎºÎ±ÏÎ±ÏÏÎ±Î¸ÎµÎ¯ Î· Î±ÎºÎµÏÎ±Î¹ÏÏÎ·ÏÎ± ÎºÎ±Î¹ Î· ÎµÎ¼ÏÎ¹ÏÏÎ¿ÏÏÎ½Î· ÏÏÎ± ÏÏÎ·Î¼Î±ÏÎ¿Î¿Î¹ÎºÎ¿Î½Î¿Î¼Î¹ÎºÎ¬ Î¹Î´ÏÏÎ¼Î±ÏÎ±.</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/decentralization.svg?1716491272" alt="Icon">
+      <h2 id="resiliency" class=" anchorAf"><a href="#resiliency"></a>ÎÎ»Î±ÏÏÎ¹ÎºÏÏÎ·ÏÎ± ÎºÎ±Î¹ Î±ÏÎ¿ÎºÎ­Î½ÏÏÏÏÎ·</h2>
+      <p>ÎÎ­ÏÏ ÏÎ·Ï ÏÏÎ·Î»Î®Ï Î±ÏÎ¿ÎºÎ­Î½ÏÏÏÏÎ·Ï, ÏÎ¿ Bitcoin Î´Î·Î¼Î¹Î¿ÏÏÎ³Î·ÏÎµ Î­Î½Î± Î´Î¯ÎºÏÏÎ¿ ÏÎ»Î·ÏÏÎ¼Î®Ï Î¼Îµ Î´Î¹Î±ÏÎ¿ÏÎµÏÎ¹ÎºÎ® Î¼Î¿ÏÏÎ® ÏÎ±ÏÎ­ÏÎ¿Î½ÏÎ±Ï Î±ÏÎ¾Î·Î¼Î­Î½Î¿ ÎµÏÎ¯ÏÎµÎ´Î¿ ÎµÎ»Î±ÏÏÎ¹ÎºÏÏÎ·ÏÎ±Ï ÎºÎ±Î¹ ÏÎ»ÎµÎ¿Î½Î±ÏÎ¼Î¿Ï. Î¤Î¿ Bitcoin Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± Î´Î¹Î±ÏÎµÎ¹ÏÎ¹ÏÏÎµÎ¯ ÏÏÎ½Î±Î»Î»Î±Î³Î­Ï ÎµÎºÎ±ÏÎ¿Î¼Î¼ÏÏÎ¯ÏÎ½ Î´Î¿Î»Î±ÏÎ¯ÏÎ½ ÏÏÏÎ¯Ï Î½Î± Î±ÏÎ±Î¹ÏÎµÎ¯ Î±ÏÏÎ¬Î»ÎµÎ¹Î± ÏÏÏÎ±ÏÎ¹ÏÏÎ¹ÎºÎ¿Ï ÎµÏÎ¹ÏÎ­Î´Î¿Ï. ÎÎ· Î­ÏÎ¿Î½ÏÎ±Ï Î­Î½Î± ÎºÎµÎ½ÏÏÎ¹ÎºÏ ÏÎ·Î¼ÎµÎ¯Î¿ Î±ÏÎ¿ÏÏÏÎ¯Î±Ï ÏÏÏÏ Î­Î½Î± ÎºÎ­Î½ÏÏÎ¿ Î´ÎµÎ´Î¿Î¼Î­Î½ÏÎ½, Î· ÎµÏÎ¯Î¸ÎµÏÎ· ÏÏÎ¿ Î´Î¯ÎºÏÏÎ¿ Î³Î¯Î½ÎµÏÎ±Î¹ Î´ÏÏÎºÎ¿Î»ÏÏÎµÏÎ· ÏÏ ÎµÎ³ÏÎµÎ¯ÏÎ·Î¼Î±. Î¤Î¿ Bitcoin Î¸Î± Î¼ÏÎ¿ÏÎ¿ÏÏÎµ Î½Î± ÏÏÎ¼Î²Î¿Î»Î¯ÏÎµÎ¹ Î­Î½Î± ÎµÎ½Î´Î¹Î±ÏÎ­ÏÎ¿Î½ Î²Î®Î¼Î± ÏÏÎ¿Ï ÏÎ·Î½ ÎºÎ±ÏÎµÏÎ¸ÏÎ½ÏÎ· ÏÎ·Ï Î´Î¹Î±ÏÏÎ¬Î»Î¹ÏÎ·Ï ÏÏÎ½ ÏÎ¿ÏÎ¹ÎºÏÎ½ ÎºÎ±Î¹ ÏÎ±Î³ÎºÏÏÎ¼Î¹ÏÎ½ Î¿Î¹ÎºÎ¿Î½Î¿Î¼Î¹ÎºÏÎ½ ÏÏÏÏÎ·Î¼Î¬ÏÏÎ½.</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/transparency.svg?1716491272" alt="Icon">
+      <h2 id="transparency" class=" anchorAf"><a href="#transparency"></a>ÎÏÎ­Î»Î¹ÎºÏÎ· Î´Î¹Î±ÏÎ¬Î½ÎµÎ¹Î±</h2>
+      <p>ÎÎ»ÎµÏ Î¿Î¹ ÏÏÎ½Î±Î»Î»Î±Î³Î­Ï Î¼Îµ Bitcoin ÎµÎ¯Î½Î±Î¹ Î´Î·Î¼ÏÏÎ¹ÎµÏ ÎºÎ±Î¹ Î´Î¹Î±ÏÎ±Î½ÎµÎ¯Ï ÎºÎ±Î¹ Î· ÏÎ±ÏÏÏÏÎ·ÏÎ± ÏÏÎ½ Î±Î½Î¸ÏÏÏÏÎ½ ÏÎ¯ÏÏ Î±ÏÏ ÏÎ¹Ï ÏÎ»Î·ÏÏÎ¼Î­Ï ÎµÎ¯Î½Î±Î¹ Î¹Î´Î¹ÏÏÎ¹ÎºÎ® Î±ÏÏ ÏÏÎ¿ÎµÏÎ¹Î»Î¿Î³Î®. ÎÏÏÏ ÎµÏÎ¹ÏÏÎ­ÏÎµÎ¹ ÏÎµ Î¹Î´Î¹ÏÏÎµÏ ÎºÎ±Î¹ Î¿ÏÎ³Î±Î½Î¹ÏÎ¼Î¿ÏÏ Î½Î± Î´Î¿ÏÎ»ÎµÏÎ¿ÏÎ½ ÏÏÎ¼ÏÏÎ½Î± Î¼Îµ ÎºÎ±Î½ÏÎ½ÎµÏ ÎµÏÎ­Î»Î¹ÎºÏÎ·Ï Î´Î¹Î±ÏÎ¬Î½ÎµÎ¹Î±Ï. ÎÎ¹Î± ÏÎ±ÏÎ¬Î´ÎµÎ¹Î³Î¼Î±, Î¼Î¹Î± ÎµÏÎ¹ÏÎµÎ¯ÏÎ·ÏÎ· Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± ÎµÏÎ¹Î»Î­Î¾ÎµÎ¹ Î½Î± Î±ÏÎ¿ÎºÎ±Î»ÏÏÎµÎ¹ Î¿ÏÎ¹ÏÎ¼Î­Î½ÎµÏ ÏÏÎ½Î±Î»Î»Î±Î³Î­Ï ÎºÎ±Î¹ ÏÏÏÎ»Î¿Î¹ÏÎ± Î»Î¿Î³Î±ÏÎ¹Î±ÏÎ¼ÏÎ½ Î¼ÏÎ½Î¿ ÏÎµ Î¿ÏÎ¹ÏÎ¼Î­Î½Î¿ÏÏ ÎµÏÎ³Î±Î¶ÏÎ¼ÎµÎ½Î¿ÏÏ Î±ÎºÏÎ¹Î²ÏÏ ÏÏÏÏ Î­Î½Î±Ï Î¼Î· ÎºÎµÏÎ´Î¿ÏÎºÎ¿ÏÎ¹ÎºÏÏ Î¿ÏÎ³Î±Î½Î¹ÏÎ¼ÏÏ ÎµÎ¯Î½Î±Î¹ ÎµÎ»ÎµÏÎ¸ÎµÏÎ¿Ï Î½Î± ÎµÏÎ¹ÏÏÎ­ÏÎµÎ¹ ÏÏÎ¿ ÎºÎ¿Î¹Î½Ï Î½Î± Î´ÎµÎ¹ ÏÏÏÎµÏ Î´ÏÏÎ­ÎµÏ Î»Î±Î¼Î²Î¬Î½Î¿ÏÎ½ ÏÎµ ÎºÎ±Î¸Î·Î¼ÎµÏÎ¹Î½Î® Î® Î¼Î·Î½Î¹Î±Î¯Î± Î²Î¬ÏÎ·. </p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/automatization.svg?1716491272" alt="Icon">
+      <h2 id="automation" class=" anchorAf"><a href="#automation"></a>ÎÏÏÎ¿Î¼Î±ÏÎ¿ÏÎ¿Î¹Î·Î¼Î­Î½ÎµÏ Î»ÏÏÎµÎ¹Ï</h2>
+      <p>ÎÎ¹ Î±ÏÏÎ¿Î¼Î±ÏÎ¿ÏÎ¿Î¹Î·Î¼Î­Î½ÎµÏ ÏÏÎ·ÏÎµÏÎ¯ÎµÏ ÏÏÎ½Î®Î¸ÏÏ Î­ÏÎ¿ÏÎ½ Î½Î± Î´Î¹Î±ÏÎµÎ¹ÏÎ¹ÏÏÎ¿ÏÎ½ ÏÎ± ÎºÏÏÏÎ· ÎºÎ±Î¹ ÏÎ¿ÏÏ ÏÎµÏÎ¹Î¿ÏÎ¹ÏÎ¼Î¿ÏÏ ÏÏÎ½ ÏÎ»Î·ÏÏÎ¼ÏÎ½ Î¼Îµ Î¼ÎµÏÏÎ·ÏÎ¬ Î® ÏÎ¹ÏÏÏÏÎ¹ÎºÎ® ÎºÎ¬ÏÏÎ±. ÎÏÏÏ ÏÎµÏÎ¹Î»Î±Î¼Î²Î¬Î½ÎµÎ¹ ÏÎ»Î± ÏÎ± ÎµÎ¯Î´Î· Î¼Î·ÏÎ±Î½Î·Î¼Î¬ÏÏÎ½ Î±ÏÏÏÎ¼Î±ÏÎ·Ï ÏÏÎ»Î·ÏÎ·Ï, Î±ÏÏ Î¸Î±Î»Î¬Î¼Î¿ÏÏ Î­ÎºÎ´Î¿ÏÎ·Ï ÎµÎ¹ÏÎ¹ÏÎ·ÏÎ¹ÏÎ½ Î³Î¹Î± ÏÎ¿ Î»ÎµÏÏÎ¿ÏÎµÎ¯Î¿ Î¼Î­ÏÏÎ¹ ÎºÎ±Î¹ Î¼Î·ÏÎ±Î½Î®Î¼Î±ÏÎ± ÏÏÎ»Î·ÏÎ·Ï ÎºÎ±ÏÎ­. Î¤Î¿ Bitcoin ÎµÎ¯Î½Î±Î¹ ÎºÎ±ÏÎ¬Î»Î»Î·Î»Î¿ Î½Î± ÏÏÎ·ÏÎ¹Î¼Î¿ÏÎ¿Î¹ÎµÎ¯ÏÎ±Î¹ ÏÎµ Î¼Î¹Î± Î½Î­Î± Î³ÎµÎ½Î¹Î¬ Î±ÏÏÎ¿Î¼Î±ÏÎ¿ÏÎ¿Î¹Î·Î¼Î­Î½ÏÎ½ ÏÏÎ·ÏÎµÏÎ¹ÏÎ½ ÏÏÏÏ ÎµÏÎ¯ÏÎ·Ï ÎºÎ±Î¹ Î³Î¹Î± ÏÎ·Î½ Î¼ÎµÎ¯ÏÏÎ· ÏÏÎ½ Î»ÎµÎ¹ÏÎ¿ÏÏÎ³Î¹ÎºÏÎ½ Î´Î±ÏÎ±Î½ÏÎ½. Î¦Î±Î½ÏÎ±ÏÏÎµÎ¯ÏÎµ Î­Î½Î± ÏÎ±Î¾Î¯ ÏÏÏÎ¯Ï Î¿Î´Î·Î³Ï, Î® Î­Î½Î± ÎºÎ±ÏÎ¬ÏÏÎ·Î¼Î± ÏÏÎ¿Ï ÏÎ¿ ÎºÎ±Î»Î¬Î¸Î¹ Î¸Î± ÏÎ±Ï ÎµÏÎ¹ÏÏÎ­ÏÎµÎ¹ Î½Î± ÏÎ»Î·ÏÏÏÎµÏÎµ Î³Î¹Î± ÏÎ¹Ï Î±Î³Î¿ÏÎ­Ï ÏÎ±Ï ÏÏÏÎ¯Ï Î½Î± ÏÎµÏÎ¹Î¼Î­Î½ÎµÏÎµ ÏÏÎ·Î½ Î¿ÏÏÎ¬. Î Î¿Î»Î»Î­Ï Î¹Î´Î­ÎµÏ ÎµÎ¯Î½Î±Î¹ ÎµÏÎ¹ÎºÏÎ­Ï.</p>
+    </div>
+
+  </div>
+</div>
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="/el/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Support Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Donate</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">EÎ¹ÏÎ±Î³ÏÎ³Î®:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/el/bitcoin-for-individuals">ÎÎ´Î¹ÏÏÎµÏ</a>
+        </li>
+        <li>
+          <a href="/el/bitcoin-for-businesses">ÎÏÎ¹ÏÎµÎ¹ÏÎ®ÏÎµÎ¹Ï</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">Î ÏÎ¿Î³ÏÎ±Î¼Î¼Î±ÏÎ¹ÏÏÎ­Ï</a>
+        </li>
+        <li>
+          <a href="/el/getting-started">ÎÎµÎºÎ¹Î½ÏÎ½ÏÎ±Ï</a>
+        </li>
+        <li>
+          <a href="/el/how-it-works">Î ÏÏ Î»ÎµÎ¹ÏÎ¿ÏÏÎ³ÎµÎ¯</a>
+        </li>
+        <li>
+          <a href="/el/you-need-to-know">Î ÏÎ­ÏÎµÎ¹ Î½Î± Î³Î½ÏÏÎ¯Î¶ÎµÏÎµ</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">Î ÏÏÎ¿Î¹:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/el/resources">Î ÏÏÎ¿Î¹</a>
+        </li><li>
+          <a href="/el/exchanges">Exchanges</a>
+        </li>
+        <li>
+          <a href="/el/community">ÎÎ¿Î¹Î½ÏÏÎ·ÏÎ±</a>
+        </li>
+        <li>
+          <a href="/el/vocabulary">ÎÎµÎ¾Î¹Î»ÏÎ³Î¹Î¿
+          </a>
+        </li>
+        <li>
+          <a href="/el/events">ÎÎºÎ´Î·Î»ÏÏÎµÎ¹Ï</a>
+        </li>
+        
+          <li>
+            <a href="/el/download">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">Î£ÏÎ¼Î¼ÎµÏÎ¿ÏÎ®:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/el/support-bitcoin">Î¥ÏÎ¿ÏÏÎ·ÏÎ¯Î¾ÏÎµ ÏÎ¿ Bitcoin</a>
+        
+        
+        </li><li>
+          <a href="/el/development">ÎÎ½Î¬ÏÏÏÎ¾Î·</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Other:</p>
+      
+      <a href="/el/legal">ÎÎ¿Î¼Î¹ÎºÎ¬</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/el/press">Î¤ÏÏÎ¿Ï (ÎÎÎ)</a>
+      <a href="/el/about-us">Î£ÏÎµÏÎ¹ÎºÎ¬ Î¼Îµ ÏÎ¿ bitcoin.org</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>ÎÎ¹Î± ÎºÎ¿Î¹Î½Î¿ÏÎ¹ÎºÎ® Î¹ÏÏÎ¿ÏÎµÎ»Î¯Î´Î± ÏÏÎ·Î¼Î±ÏÎ¿Î´Î¿ÏÎ¿ÏÎ¼ÎµÎ½Î· Î±ÏÏ</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1716491272" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 ÎÏÎºÎ»Î¿ÏÏÏÎ·ÏÎµ ÏÏÏ ÏÎ·Î½ <a href="http://opensource.org/licenses/mit-license.php" target="_blank">Î¬Î´ÎµÎ¹Î± MIT</a></div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">Network Status</a>
+        
+<ul class="lang is-expand">
+  <li><a>ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/inovasi">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/innovacio">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/innovation">Dansk</a></li>
+        
+        
+          <li><a href="/de/innovation">Deutsch</a></li>
+        
+        
+          <li><a href="/en/innovation">English</a></li>
+        
+        
+          <li><a href="/es/innovacion">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/innovation">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/innovazione">Italiano</a></li>
+        
+        
+          <li><a href="/hu/innovacio">Magyar</a></li>
+        
+        
+          <li><a href="/nl/innovatie">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/innowacje">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/inovacao">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/inovatie">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/inovacije">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/inovacija">Srpski</a></li>
+        
+        
+          <li><a href="/sv/innovation">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/yenilik">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/innovation" class="active">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/innovation">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/innovation">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/innovation">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/innovation">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/innovation">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/innovation">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/innovation">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/innovation">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/innovation">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/innovation">ááááá</a></li>
+        
+        
+          <li><a href="/ja/innovation">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/innovation">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/innovation">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/inovasi">Bahasa Indonesia</option>
+              
+              <option value="/ca/innovacio">CatalÃ </option>
+              
+              <option value="/da/innovation">Dansk</option>
+              
+              <option value="/de/innovation">Deutsch</option>
+              
+              <option value="/en/innovation">English</option>
+              
+              <option value="/es/innovacion">EspaÃ±ol</option>
+              
+              <option value="/fr/innovation">FranÃ§ais</option>
+              
+              <option value="/it/innovazione">Italiano</option>
+              
+              <option value="/hu/innovacio">Magyar</option>
+              
+              <option value="/nl/innovatie">Nederlands</option>
+              
+              <option value="/pl/innowacje">Polski</option>
+              
+              <option value="/pt_BR/inovacao">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/inovatie">RomÃ¢nÄ</option>
+              
+              <option value="/sl/inovacije">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/inovacija">Srpski</option>
+              
+              <option value="/sv/innovation">Svenska</option>
+              
+              <option value="/tr/yenilik">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/innovation" selected="selected">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/innovation">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/innovation">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/innovation">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/innovation">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/innovation">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/innovation">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/innovation">×¢××¨××ª</option>
+              
+              <option value="/hi/innovation">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/innovation">íêµ­ì´</option>
+              
+              <option value="/km/innovation">ááááá</option>
+              
+              <option value="/ja/innovation">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/innovation">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/innovation">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">el</span>
+          </label>
+        </div>
+      </div>
+<!--      <div class="row">  -->
+        
+<!--    </div> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+
+
+
+
+
+
+</body></html>

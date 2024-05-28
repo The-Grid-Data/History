@@ -1,0 +1,858 @@
+<!DOCTYPE html><html lang="el"><head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>ÎÏÎ¿ÏÎ¿Î¯Î·ÏÎ· ÎÏÎ¸ÏÎ½Î·Ï - Bitcoin</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+<link rel="stylesheet" href="/css/sans.css?1716491272">
+<script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.org is a community funded project, donations are appreciated and used to improve the website.
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        Make a donation
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.org needs your support!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">Donate to Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">Use this QR code or address below</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="Or custom amount? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="Or custom amount? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="Optional description (for your wallet)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="/el/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">EÎ¹ÏÎ±Î³ÏÎ³Î®</a>
+    <ul>
+      <li><a href="/el/bitcoin-for-individuals">ÎÎ´Î¹ÏÏÎµÏ</a></li>
+      <li><a href="/el/bitcoin-for-businesses">ÎÏÎ¹ÏÎµÎ¹ÏÎ®ÏÎµÎ¹Ï</a></li>
+      <li><a href="https://developer.bitcoin.org/">Î ÏÎ¿Î³ÏÎ±Î¼Î¼Î±ÏÎ¹ÏÏÎ­Ï</a></li>
+      <li><a href="/el/getting-started">ÎÎµÎºÎ¹Î½ÏÎ½ÏÎ±Ï</a></li>
+      <li><a href="/el/how-it-works">Î ÏÏ Î»ÎµÎ¹ÏÎ¿ÏÏÎ³ÎµÎ¯</a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">Î ÏÏÎ¿Î¹</a>
+    <ul>
+      <li><a href="/el/resources">Î ÏÏÎ¿Î¹</a>
+      </li><li><a href="/el/exchanges">Exchanges</a></li>
+      <li><a href="/el/community">ÎÎ¿Î¹Î½ÏÏÎ·ÏÎ±</a></li>
+      
+      
+      <li><a href="/el/vocabulary">ÎÎµÎ¾Î¹Î»ÏÎ³Î¹Î¿</a></li>
+      <li><a href="/el/events">ÎÎºÎ´Î·Î»ÏÏÎµÎ¹Ï</a></li>
+      
+        <li><a href="/el/download">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li><a href="/el/innovation">ÎÎ±Î¹Î½Î¿ÏÎ¿Î¼Î¯Î±</a></li>
+  <li><a class="is-expand">Î£ÏÎ¼Î¼ÎµÏÎ¿ÏÎ®</a>
+    <ul>
+      <li><a href="/el/support-bitcoin">Î¥ÏÎ¿ÏÏÎ·ÏÎ¯Î¾ÏÎµ ÏÎ¿ Bitcoin</a>
+      </li><li><a href="/el/buy">Buy Bitcoin</a></li>
+      
+      <li><a href="/el/development">ÎÎ½Î¬ÏÏÏÎ¾Î·</a></li>
+    </ul>
+  </li>
+  <li><a href="/el/faq">Î£ÏÏÎ½Î­Ï ÎµÏÏÏÎ®ÏÎµÎ¹Ï</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/sah">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/legal">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/juridisk">Dansk</a></li>
+        
+        
+          <li><a href="/de/rechtliches">Deutsch</a></li>
+        
+        
+          <li><a href="/en/legal">English</a></li>
+        
+        
+          <li><a href="/es/legal">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/legal">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/note-legali">Italiano</a></li>
+        
+        
+          <li><a href="/hu/jogi-vonatkozasok">Magyar</a></li>
+        
+        
+          <li><a href="/nl/juridisch">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/informacje-prawne">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/legal">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/legal">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/pravno">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/zakon">Srpski</a></li>
+        
+        
+          <li><a href="/sv/juridiskt">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/yasal">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/legal" class="active">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/legal">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/legal">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/legal">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/legal">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/legal">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/legal">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/legal">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/legal">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/legal">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/legal">ááááá</a></li>
+        
+        
+          <li><a href="/ja/legal">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/legal">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/legal">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/sah">Bahasa Indonesia</option>
+            
+            <option value="/ca/legal">CatalÃ </option>
+            
+            <option value="/da/juridisk">Dansk</option>
+            
+            <option value="/de/rechtliches">Deutsch</option>
+            
+            <option value="/en/legal">English</option>
+            
+            <option value="/es/legal">EspaÃ±ol</option>
+            
+            <option value="/fr/legal">FranÃ§ais</option>
+            
+            <option value="/it/note-legali">Italiano</option>
+            
+            <option value="/hu/jogi-vonatkozasok">Magyar</option>
+            
+            <option value="/nl/juridisch">Nederlands</option>
+            
+            <option value="/pl/informacje-prawne">Polski</option>
+            
+            <option value="/pt_BR/legal">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/legal">RomÃ¢nÄ</option>
+            
+            <option value="/sl/pravno">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/zakon">Srpski</option>
+            
+            <option value="/sv/juridiskt">Svenska</option>
+            
+            <option value="/tr/yasal">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/legal" selected="selected">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/legal">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/legal">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/legal">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/legal">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/legal">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/legal">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/legal">×¢××¨××ª</option>
+            
+            <option value="/hi/legal">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/legal">íêµ­ì´</option>
+            
+            <option value="/km/legal">ááááá</option>
+            
+            <option value="/ja/legal">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/legal">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/legal">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">el</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  <div class="hero">
+  <div class="container hero-container">
+    <h1>ÎÎ¿Î¼Î¹ÎºÎ® Î´Î®Î»ÏÏÎ· Î±ÏÎ¿ÏÎ¿Î¯Î·ÏÎ·Ï ÎµÏÎ¸ÏÎ½ÏÎ½</h1>
+    
+      <p class="summarytxt"></p>
+    
+  </div>
+</div>
+
+<div class="toc-container">
+  <div class="row toc-row">
+
+    <div id="toc" class="toc">
+      <div>
+        <button class="mob-sidebar-open" hidden="">View All</button>
+        <div class="sidebar">
+          <div class="sidebar-inner">
+            <button class="mob-sidebar-close" hidden=""></button>
+            
+
+<ul>
+  <li><a href="#information">1. Î Î»Î·ÏÎ¿ÏÎ¿ÏÎ¯ÎµÏ ÏÎ¿Ï Î´Î·Î¼Î¿ÏÎ¹ÎµÏÏÎ·ÎºÎ±Î½ ÏÏÎ¿ bitcoin.org</a></li>
+  <li><a href="#translations">2. ÎÎµÏÎ±ÏÏÎ¬ÏÎµÎ¹Ï</a></li>
+  <li><a href="#userisks">3. ÎÎ¯Î½Î´ÏÎ½Î¿Î¹ ÏÎ¿Ï ÏÏÎµÏÎ¯Î¶Î¿Î½ÏÎ±Î¹ Î¼Îµ ÏÎ·Î½ ÏÏÎ®ÏÎ· ÏÎ¿Ï Bitcoin</a></li>
+  <li><a href="#investmentrisks">4. ÎÏÎµÎ½Î´ÏÏÎ¹ÎºÎ¿Î¯ ÎºÎ¯Î½Î´ÏÎ½Î¿Î¹</a></li>
+  <li><a href="#taxcompliance">5. Î£ÏÎ¼Î¼ÏÏÏÏÏÎ· Î¼Îµ ÏÎ¿ÏÎ¿Î»Î¿Î³Î¹ÎºÎ­Ï ÏÏÎ¿ÏÏÎµÏÏÎµÎ¹Ï</a></li>
+  <li><a href="#noissuer">6. Î ÎÏÏÏÏÎ¿ÏÎ¿Ï Î´ÎµÎ½ Î±ÏÎ¿Î¸Î·ÎºÎµÏÎµÎ¹, Î±ÏÎ¿ÏÏÎ­Î»Î»ÎµÎ¹ Î® Î»Î±Î¼Î²Î¬Î½ÎµÎ¹ bitcoins</a></li>
+  <li><a href="#nowarranties">7. ÎÎµÎ½ ÏÏÎ¬ÏÏÎ¿ÏÎ½ ÎµÎ³Î³ÏÎ®ÏÎµÎ¹Ï</a></li>
+  <li><a href="#noliability">8. Î ÎµÏÎ¹Î¿ÏÎ¹ÏÎ¼ÏÏ ÎÏÎ¸ÏÎ½Î·Ï</a></li>
+  <li><a href="#arbitration">9. ÎÎ¹Î±Î¹ÏÎ·ÏÎ¯Î±</a></li>
+  <li><a href="#lastchange">10. Î¤ÎµÎ»ÎµÏÏÎ±Î¯Î± ÏÏÎ¿ÏÎ¿ÏÎ¿Î¯Î·ÏÎ·</a></li>
+  <li><a href="#english-information">1. Information published on bitcoin.org</a></li>
+  <li><a href="#english-translations">2. Translations</a></li>
+  <li><a href="#english-userisks">3. Risks related to the use of Bitcoin</a></li>
+  <li><a href="#english-investmentrisks">4. Investment risks</a></li>
+  <li><a href="#english-taxcompliance">5. Compliance with tax obligations</a></li>
+  <li><a href="#english-noissuer">6. The Website does not store, send, or receive bitcoins</a></li>
+  <li><a href="#english-nowarranties">7. No warranties</a></li>
+  <li><a href="#english-noliability">8. Limitation of liability </a></li>
+  <li><a href="#english-arbitration">9. Arbitration</a></li>
+  <li><a href="#english-lastchange">10. Last amendment</a></li>
+</ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="toccontent">
+        
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="information" class=" anchorAf"><a href="#information"></a>1. Î Î»Î·ÏÎ¿ÏÎ¿ÏÎ¯ÎµÏ ÏÎ¿Ï Î´Î·Î¼Î¿ÏÎ¹ÎµÏÏÎ·ÎºÎ±Î½ ÏÏÎ¿ bitcoin.org</h3>
+    <p>Î ÎÏÏÏÏÎ¿ÏÎ¿Ï http://bitcoin.org/ (ÎµÏÎµÎ¾Î®Ï Î¸Î± Î±Î½Î±ÏÎ­ÏÎµÏÎ±Î¹ ÏÏ "ÎÏÏÏÏÎ¿ÏÎ¿Ï") ÏÎ±ÏÎ­ÏÎµÎ¹ ÏÎ»Î·ÏÎ¿ÏÎ¿ÏÎ¯ÎµÏ ÎºÎ±Î¹ ÏÎ»Î¹ÎºÏ Î³ÎµÎ½Î¹ÎºÎ®Ï ÏÏÏÎµÏÏ. ÎÎµÎ½ ÎµÎ¯ÏÏÎµ ÎµÎ¾Î¿ÏÏÎ¹Î¿Î´Î¿ÏÎ·Î¼Î­Î½Î¿Ï Î¿ÏÏÎµ Î¸Î± ÏÏÎ­ÏÎµÎ¹ Î½Î± Î²Î±ÏÎ¯Î¶ÎµÏÏÎµ ÏÎ¬Î½Ï ÏÏÎ¿Î½ ÎÏÏÏÏÎ¿ÏÎ¿ Î±ÏÏÏ Î³Î¹Î± Î½Î¿Î¼Î¹ÎºÎ® Î²Î¿Î®Î¸ÎµÎ¹Î±, ÎµÏÎ¹ÏÎµÎ¹ÏÎ·Î¼Î±ÏÎ¹ÎºÎ­Ï ÏÏÎ¼Î²Î¿ÏÎ»Î­Ï Î® ÏÏÎ¼Î²Î¿ÏÎ»Î­Ï Î¿ÏÎ¿Î¹Î¿ÏÎ´Î®ÏÎ¿ÏÎµ ÎµÎ¯Î´Î¿ÏÏ. ÎÎ½ÎµÏÎ³ÎµÎ¯ÏÎµ Î¼Îµ Î´Î¹ÎºÏ ÏÎ±Ï ÏÎ¯ÏÎºÎ¿ ÏÏÎ·ÏÎ¹Î¶ÏÎ¼ÎµÎ½Î¿Î¹ ÏÏÎ± ÏÎµÏÎ¹ÎµÏÏÎ¼ÎµÎ½Î± ÏÎ¿Ï ÎÏÏÏÏÎ¿ÏÎ¿Ï. Î£ÏÎ·Î½ ÏÎµÏÎ¯ÏÏÏÏÎ· ÏÎ¿Ï ÏÎ¬ÏÎµÏÎµ Î¼Î¹Î± Î±ÏÏÏÎ±ÏÎ· Î½Î± ÏÏÎ¿Î²ÎµÎ¯ÏÎµ ÏÎµ ÎºÎ¬ÏÎ¿Î¹Î± ÎµÎ½Î­ÏÎ³ÎµÎ¹Î± Î® ÏÏÎ¹, Î¸Î± ÏÏÎ­ÏÎµÎ¹ Î½Î± ÏÏÎ¼Î²Î¿ÏÎ»ÎµÏÏÎµÎ¯ÏÎµ Î­Î½Î±Î½ Î´Î¹ÎºÎ·Î³ÏÏÎ¿ Î¼Îµ Î¬Î´ÎµÎ¹Î± ÏÏÎ·Î½ Î±Î½ÏÎ¯ÏÏÎ¿Î¹ÏÎ· Î´Î¹ÎºÎ±Î¹Î¿Î´Î¿ÏÎ¯Î± ÏÎ¿Ï Î¸Î­Î»ÎµÏÎµ Î® ÏÏÎµÎ¹Î¬Î¶ÎµÏÏÎµ Î²Î¿Î®Î¸ÎµÎ¹Î±. Î£Îµ ÎºÎ±Î¼Î¯Î± ÏÎµÏÎ¯ÏÏÏÏÎ·, Î¿Î¹ Î¹Î´Î¹Î¿ÎºÏÎ®ÏÎµÏ Î® Î¿Î¹ ÏÏÎ½ÎµÎ¹ÏÏÎ­ÏÎ¿Î½ÏÎµÏ ÏÏÎ¿Î½ ÎÏÏÏÏÎ¿ÏÎ¿ Î±ÏÏÏ, ÎµÎ¯Î½Î±Î¹ ÏÏÎµÏÎ¸ÏÎ½Î¿Î¹ Î³Î¹Î± ÏÎ¹Ï ÎµÎ½Î­ÏÎ³ÎµÎ¹ÎµÏ, ÏÎ¹Ï Î±ÏÎ¿ÏÎ¬ÏÎµÎ¹Ï Î® Î¬Î»Î»Î¿Ï ÎµÎ¯Î´Î¿ÏÏ ÏÏÎ¼ÏÎµÏÎ¹ÏÎ¿ÏÎ¬ ÏÎ¿Ï Î­Î³Î¹Î½Îµ Î® Î´ÎµÎ½ Î­Î³Î¹Î½Îµ Î±ÏÏ Î¼Î­ÏÎ¿ÏÏ ÏÎ±Ï ÏÏÎ·ÏÎ¹Î¶ÏÎ¼ÎµÎ½Î¿Î¹ ÏÏÎ¿Î½ ÎÏÏÏÏÎ¿ÏÎ¿ Î±ÏÏÏ.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="translations" class=" anchorAf"><a href="#translations"></a>2. ÎÎµÏÎ±ÏÏÎ¬ÏÎµÎ¹Ï</h3>
+    <p>Î ÎÏÏÏÏÎ¿ÏÎ¿Ï Î±ÏÏÏÏ ÎµÎ½Î´Î­ÏÎµÏÎ±Î¹ Î½Î± ÏÎµÏÎ¹Î­ÏÎµÎ¹ Î¼ÎµÏÎ±ÏÏÎ¬ÏÎµÎ¹Ï ÏÎ·Ï ÎÎ³Î³Î»Î¹ÎºÎ®Ï Î­ÎºÎ´Î¿ÏÎ·Ï Î±ÏÏ ÏÎ¿ ÏÎµÏÎ¹ÎµÏÏÎ¼ÎµÎ½Î¿ ÏÎ¿Ï ÎµÎ¯Î½Î±Î¹ Î´Î¹Î±Î¸Î­ÏÎ¹Î¼Î¿ ÏÏÎ¿Î½ ÎÏÏÏÏÎ¿ÏÎ¿. ÎÏÏÎ­Ï Î¿Î¹ Î¼ÎµÏÎ±ÏÏÎ¬ÏÎµÎ¹Ï ÏÎ±ÏÎ­ÏÎ¿Î½ÏÎ±Î¹ ÏÏ Î¼Î­ÏÎ¿ ÎµÏÎºÎ¿Î»Î¯Î±Ï. Î£ÏÎ·Î½ ÏÎµÏÎ¯ÏÏÏÏÎ· ÏÎ¿Ï ÏÏÎ¬ÏÏÎµÎ¹ ÎºÎ¬ÏÎ¿Î¹Î± Î±Î½ÏÎ¯Î¸ÎµÏÎ· Î¼ÎµÏÎ±Î¾Ï ÏÎ·Ï Î­ÎºÎ´Î¿ÏÎ·Ï ÏÏÎ·Î½ ÎÎ³Î³Î»Î¹ÎºÎ® Î³Î»ÏÏÏÎ± ÎºÎ±Î¹ ÏÎ·Ï Î¼ÎµÏÎ±ÏÏÎ±ÏÎ¼Î­Î½Î·Ï Î­ÎºÎ´Î¿ÏÎ·Ï, Î· Î­ÎºÎ´Î¿ÏÎ· ÏÏÎ·Î½ ÎÎ³Î³Î»Î¹ÎºÎ® Î³Î»ÏÏÏÎ± Î¸Î± Î­ÏÎµÎ¹ ÏÏÎ¿ÏÎµÏÎ±Î¹ÏÏÎ·ÏÎ±. ÎÎ½ ÏÎ±ÏÎ±ÏÎ·ÏÎ®ÏÎµÏÎµ ÎºÎ¬ÏÎ¿Î¹Î± Î±ÏÏÎ¼Î²Î±ÏÏÏÎ·ÏÎ±, ÏÎ±ÏÎ±ÎºÎ±Î»Î¿ÏÎ¼Îµ Î½Î± Î¼Î±Ï ÏÎ·Î½ Î±Î½Î±ÏÎ­ÏÎµÏÎµ ÏÏÎ¿ <a href="https://github.com/bitcoin-dot-org/bitcoin.org">GitHub</a>.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="userisks" class=" anchorAf"><a href="#userisks"></a>3. ÎÎ¯Î½Î´ÏÎ½Î¿Î¹ ÏÎ¿Ï ÏÏÎµÏÎ¯Î¶Î¿Î½ÏÎ±Î¹ Î¼Îµ ÏÎ·Î½ ÏÏÎ®ÏÎ· ÏÎ¿Ï Bitcoin</h3>
+    <p>Î ÎÏÏÏÏÎ¿ÏÎ¿Ï Î´ÎµÎ½ Î¸Î± ÎµÎ¯Î½Î±Î¹ ÏÏÎµÏÎ¸ÏÎ½Î¿Ï Î³Î¹Î± Î¿ÏÎ¿Î¹ÎµÏÎ´Î®ÏÎ¿ÏÎµ Î±ÏÏÎ»ÎµÎ¹ÎµÏ, Î¶Î·Î¼Î¯ÎµÏ Î® Î¹ÏÏÏÏÎ¹ÏÎ¼Î¿ÏÏ ÏÎ¿Ï ÏÏÎ¿ÎºÏÏÏÎ¿ÏÎ½ Î±ÏÏ ÏÏÎ¼Î²Î¬Î½ÏÎ± ÏÎ¿Ï ÎµÎ¼ÏÎ¯ÏÏÎ¿ÏÎ½ ÏÏÎ·Î½ ÎµÎ¼Î²Î­Î»ÎµÎ¹Î± ÏÏÎ½ Î±ÎºÏÎ»Î¿ÏÎ¸ÏÎ½ ÏÎ­Î½ÏÎµ ÎºÎ±ÏÎ·Î³Î¿ÏÎ¹ÏÎ½:</p>
+    <p>(1) ÎÎ¬Î¸Î· ÏÎ¿Ï Î­Î³Î¹Î½Î±Î½ Î±ÏÏ ÏÏÎ®ÏÏÎ· Î¿ÏÎ¿Î¹Î¿ÏÎ´Î®ÏÎ¿ÏÎµ Î»Î¿Î³Î¹ÏÎ¼Î¹ÎºÎ¿Ï Î® ÏÏÎ·ÏÎµÏÎ¯Î±Ï ÏÎ¿Ï ÏÏÎµÏÎ¯Î¶ÎµÏÎ±Î¹ Î¼Îµ ÏÎ¿ Bitcoin, Ï.Ï Î¾ÎµÏÎ±ÏÎ¼Î­Î½Î¿Î¹ ÎºÏÎ´Î¹ÎºÎ¿Î¯ ÏÏÏÏÎ²Î±ÏÎ·Ï, Î±ÏÎµÏÏÎ±Î»Î¼Î­Î½ÎµÏ ÏÎ»Î·ÏÏÎ¼Î­Ï ÏÎµ Î»Î¬Î¸Î¿Ï Î´Î¹ÎµÏÎ¸ÏÎ½ÏÎµÎ¹Ï Bitcoin ÎºÎ±Î¹ Î´Î¹Î±Î³ÏÎ±ÏÎ® ÏÏÎ½ ÏÎ¿ÏÏÎ¿ÏÎ¿Î»Î¹ÏÎ½ Î»ÏÎ³Ï Î±ÏÏÏÎ®Î¼Î±ÏÎ¿Ï.</p>
+    <p>(2) Î ÏÎ¿Î²Î»Î®Î¼Î±ÏÎ± ÏÏÎ¿ Î»Î¿Î³Î¹ÏÎ¼Î¹ÎºÏ ÏÎ¿Ï ÎÏÏÏÏÎ¿ÏÎ¿Ï ÎºÎ±Î¹/Î® Î¿ÏÎ¿Î¹Î¿Î´Î®ÏÎ¿ÏÎµ Î»Î¿Î³Î¹ÏÎ¼Î¹ÎºÏ Î® ÏÏÎ·ÏÎµÏÎ¯Î± ÏÎ¿Ï ÏÏÎµÏÎ¯Î¶ÎµÏÎ±Î¹ Î¼Îµ ÏÎ¿ Bitcoin, Ï.Ï Î±Î»Î»Î¿Î¹ÏÎ¼Î­Î½Î¿ Î±ÏÏÎµÎ¯Î¿ ÏÎ¿ÏÏÎ¿ÏÎ¿Î»Î¹Î¿Ï, Î»Î¬Î¸Î¿Ï ÎºÎ±ÏÎ±ÏÎºÎµÏÎ±ÏÎ¼Î­Î½ÎµÏ ÏÏÎ½Î±Î»Î»Î±Î³Î­Ï, Î¼Î· Î±ÏÏÎ±Î»ÎµÎ¯Ï ÎºÏÏÏÏÎ¿Î³ÏÎ±ÏÎ¹ÎºÎ­Ï Î²Î¹Î²Î»Î¹Î¿Î¸Î®ÎºÎµÏ, ÎºÎ±ÎºÏÎ²Î¿ÏÎ»Î¿ Î»Î¿Î³Î¹ÏÎ¼Î¹ÎºÏ ÏÎ¿Ï ÎµÏÎ·ÏÎµÎ¬Î¶ÎµÎ¹ ÏÎ¿Î½ ÎÏÏÏÏÎ¿ÏÎ¿ ÎºÎ±Î¹/Î® Î¿ÏÎ¿Î¹Î¿Î´Î®ÏÎ¿ÏÎµ Î»Î¿Î³Î¹ÏÎ¼Î¹ÎºÏ Î® ÏÏÎ·ÏÎµÏÎ¯Î± ÏÎ¿Ï ÏÏÎµÏÎ¯Î¶ÎµÏÎ±Î¹ Î¼Îµ ÏÎ¿ Bitcoin. </p>
+    <p>(3) Î¤ÎµÏÎ½Î¹ÎºÎ­Ï Î±ÏÎ¿ÏÏÏÎ¯ÎµÏ ÏÏÎ¿ ÏÎ»Î¹ÏÎ¼Î¹ÎºÏ ÏÎ¿Ï ÏÏÎ®ÏÏÎ· Î® ÏÎµ Î¿ÏÎ¿Î¹Î¿Î´Î®ÏÎ¿ÏÎµ Î»Î¿Î³Î¹ÏÎ¼Î¹ÎºÏ Î® ÏÏÎ·ÏÎµÏÎ¯Î± ÏÎ¿Ï ÏÏÎµÏÎ¯Î¶ÎµÏÎ±Î¹ Î¼Îµ ÏÎ¿ Bitcoin, Ï.Ï Î±ÏÏÎ»ÎµÎ¹Î± Î´ÎµÎ´Î¿Î¼Î­Î½ÏÎ½ ÎµÎ¾Î±Î¹ÏÎ¯Î±Ï Î¼Î¹Î±Ï ÎµÎ»Î»Î±ÏÏÎ¼Î±ÏÎ¹ÎºÎ®Ï Î® ÏÎ±Î»Î±ÏÎ¼Î­Î½Î·Ï ÏÏÏÎºÎµÏÎ®Ï Î±ÏÎ¿Î¸Î®ÎºÎµÏÏÎ·Ï.</p>
+    <p>(4) Î ÏÎ¿Î²Î»Î®Î¼Î±ÏÎ± ÏÏÎ·Î½ Î±ÏÏÎ¬Î»ÎµÎ¹Î± ÏÎ¿Ï Î±Î½ÏÎ¹Î¼ÎµÏÏÏÎ¯Î¶ÎµÎ¹ Î¿ ÏÏÎ®ÏÏÎ·Ï Î¿ÏÎ¿Î¹Î¿ÏÎ´Î®ÏÎ¿ÏÎµ Î»Î¿Î³Î¹ÏÎ¼Î¹ÎºÎ¿Ï Î® ÏÏÎ·ÏÎµÏÎ¯Î±Ï ÏÎ¿Ï ÏÏÎµÏÎ¯Î¶ÎµÏÎ±Î¹ Î¼Îµ ÏÎ¿ Bitcoin, Ï.Ï Î¼Î· ÎµÎ¾Î¿ÏÎ´Î¹Î¿Î´Î¿ÏÎ·Î¼Î­Î½Î· ÏÏÏÏÎ²Î±ÏÎ· ÏÏÎ± ÏÎ¿ÏÏÎ¿ÏÏÎ»Î¹Î± ÎºÎ±Î¹/Î® ÏÏÎ¿ÏÏ Î»Î¿Î³Î±ÏÎ¹Î±ÏÎ¼Î¿ÏÏ ÏÎ¿Ï ÏÏÎ®ÏÏÎ·.</p>
+    <p>(5) ÎÎ½Î­ÏÎ³ÎµÎ¹ÎµÏ Î® Î±Î´ÏÎ¬Î½ÎµÎ¹ÎµÏ ÏÏÎ¯ÏÏÎ½ ÎºÎ±Î¹/Î® ÏÏÎ¼Î²Î¬Î½ÏÎ± ÏÎ¿Ï Î±Î½ÏÎ¹Î¼ÎµÏÏÏÎ¯Î¶Î¿Î½ÏÎ±Î¹ Î±ÏÏ ÏÏÎ¯ÏÎ¿ÏÏ, Ï.Ï ÏÏÏÏÎµÏÏÎ· ÏÏÎ·ÏÎµÏÎ¯Î±Ï Î±ÏÏ ÏÎ¿Î½ ÏÎ¬ÏÎ¿ÏÎ¿, ÎµÏÎ¹Î¸Î­ÏÎµÎ¹Ï ÏÏÎ·Î½ Î±ÏÏÎ¬Î»ÎµÎ¹Î± ÏÎ»Î·ÏÎ¿ÏÎ¿ÏÎ¹ÏÎ½ ÏÎµ ÏÎ±ÏÏÏÎ¿ÏÏ ÏÏÎ·ÏÎµÏÎ¯Î±Ï ÎºÎ±Î¹ Î±ÏÎ¬ÏÎ· ÏÎ¿Ï Î´Î¹ÎµÎ¾Î®ÏÎ¸Î· Î±ÏÏ ÏÏÎ¯ÏÎ¿ÏÏ.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="investmentrisks" class=" anchorAf"><a href="#investmentrisks"></a>4. ÎÏÎµÎ½Î´ÏÏÎ¹ÎºÎ¿Î¯ ÎºÎ¯Î½Î´ÏÎ½Î¿Î¹</h3>
+    <p>Î ÎµÏÎ­Î½Î´ÏÏÎ· ÏÏÎ¿ Bitcoin Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± Î¿Î´Î·Î³Î®ÏÎµÎ¹ ÏÎµ Î±ÏÏÎ»ÎµÎ¹Î± ÏÏÎ·Î¼Î¬ÏÏÎ½ ÏÎµ Î¼Î¹ÎºÏÎ­Ï Î® Î±ÎºÏÎ¼Î± ÎºÎ±Î¹ ÏÎµ Î¼ÎµÎ³Î¬Î»ÎµÏ ÏÏÎ¿Î½Î¹ÎºÎ­Ï ÏÎµÏÎ¹ÏÎ´Î¿ÏÏ. ÎÎ¹ ÎµÏÎµÎ½Î´ÏÏÎ­Ï ÏÏÎ¿ Bitcoin Î¸Î± ÏÏÎ­ÏÎµÎ¹ Î½Î± Î±Î½Î±Î¼Î­Î½Î¿ÏÎ½ Î¼ÎµÎ³Î¬Î»Î¿ ÎµÏÏÎ¿Ï Î´Î¹Î±ÎºÏÎ¼Î¬Î½ÏÎµÏÎ½ ÏÏÎ¹Ï ÏÎ¹Î¼Î­Ï. ÎÎ¹ ÏÎ»Î·ÏÎ¿ÏÎ¿ÏÎ¯ÎµÏ ÏÎ¿Ï Î´Î·Î¼Î¿ÏÎ¹ÎµÏÎ¿Î½ÏÎ±Î¹ ÏÏÎ¿Î½ ÎÏÏÏÏÎ¿ÏÎ¿ Î´ÎµÎ½ Î´ÏÎ½Î±Î½ÏÎ±Î¹ Î½Î± ÎµÎ³Î³ÏÎ·Î¸Î¿ÏÎ½ ÏÏÎ¹ Î¿Î¹ ÎµÏÎµÎ½Î´ÏÏÎ­Ï ÏÏÎ¿ Bitcoin Î´ÎµÎ½ Î¸Î± ÏÎ¬ÏÎ¿ÏÎ½ ÏÏÎ®Î¼Î±ÏÎ±.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="taxcompliance" class=" anchorAf"><a href="#taxcompliance"></a>5. Î£ÏÎ¼Î¼ÏÏÏÏÏÎ· Î¼Îµ ÏÎ¿ÏÎ¿Î»Î¿Î³Î¹ÎºÎ­Ï ÏÏÎ¿ÏÏÎµÏÏÎµÎ¹Ï</h3>
+    <p>ÎÎ¹ ÏÏÎ®ÏÏÎµÏ Î±ÏÏÎ¿Ï ÏÎ¿Ï ÎÏÏÏÏÎ¿ÏÎ¿Ï ÎµÎ¯Î½Î±Î¹ Î¿Î¹ Î¼ÏÎ½Î¿Î¹ ÏÏÎµÏÎ¸ÏÎ½Î¿Î¹ Î½Î± ÎºÎ±Î¸Î¿ÏÎ¯ÏÎ¿ÏÎ½ ÏÎ¿Î¹Î¿Î¹, Î±Î½ ÏÏÎ¬ÏÏÎ¿ÏÎ½, ÏÏÏÎ¿Î¹ ÎµÏÎ±ÏÎ¼ÏÎ¶Î¿Î½ÏÎ±Î¹ ÏÏÎ¹Ï ÏÏÎ½Î±Î»Î»Î±Î³Î­Ï Bitcoin. ÎÎ¹ Î¹Î´Î¹Î¿ÎºÏÎ®ÏÎµÏ, Î® Î¿Î¹ ÏÏÎ½ÎµÎ¹ÏÏÎ­ÏÎ¿Î½ÏÎµÏ ÏÎµ Î±ÏÏÏÎ½ ÏÎ¿Î½ ÎÏÏÏÏÎ¿ÏÎ¿ ÎÎÎ ÎµÎ¯Î½Î±Î¹ ÏÏÎµÏÎ¸ÏÎ½Î¿Î¹ Î³Î¹Î± ÏÎ¿Î½ ÎºÎ±Î¸Î¿ÏÎ¹ÏÎ¼Ï ÏÏÎ½ ÏÏÏÏÎ½ ÏÎ¿Ï ÎµÏÎ±ÏÎ¼ÏÎ¶Î¿Î½ÏÎ±Î¹ ÏÎµ ÏÏÎ½Î±Î»Î»Î±Î³Î­Ï Bitcoin.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="noissuer" class=" anchorAf"><a href="#noissuer"></a>6. Î ÎÏÏÏÏÎ¿ÏÎ¿Ï Î´ÎµÎ½ Î±ÏÎ¿Î¸Î·ÎºÎµÏÎµÎ¹, Î±ÏÎ¿ÏÏÎ­Î»Î»ÎµÎ¹ Î® Î»Î±Î¼Î²Î¬Î½ÎµÎ¹ bitcoins</h3>
+    <p>Î ÎÏÏÏÏÎ¿ÏÎ¿Ï Î´ÎµÎ½ Î±ÏÎ¿Î¸Î·ÎºÎµÏÎµÎ¹, Î±ÏÎ¿ÏÏÎ­Î»Î»ÎµÎ¹ Î® Î»Î±Î¼Î²Î¬Î½ÎµÎ¹ bitcoins. ÎÏÏÏ ÏÏÎ¼Î²Î±Î¯Î½ÎµÎ¹ Î»ÏÎ³Ï ÏÏÎ¹ ÏÎ± bitcoins ÏÏÎ¬ÏÏÎ¿ÏÎ½ Î¼ÏÎ½Î¿ Î²Î¬ÏÎµÎ¹ ÏÎ¿Ï Î±ÏÏÎµÎ¯Î¿Ï Î¹Î´Î¹Î¿ÎºÏÎ·ÏÎ¯Î±Ï ÏÎ¿Ï ÏÎ·ÏÎµÎ¯ÏÎ±Î¹ ÏÏÎ¿ Î´Î¯ÎºÏÏÎ¿ Bitcoin. ÎÏÎ¿Î¹Î±Î´Î®ÏÎ¿ÏÎµ Î¼ÎµÏÎ±ÏÎ¿ÏÎ¬ ÏÎ¯ÏÎ»Î¿Ï ÏÎµ bitcoins Î»Î±Î¼Î²Î¬Î½ÎµÎ¹ ÏÏÏÎ± ÎµÎ½ÏÏÏ ÎµÎ½ÏÏ Î±ÏÎ¿ÎºÎµÎ½ÏÏÏÎ¼Î­Î½Î¿Ï Î´Î¹ÎºÏÏÎ¿Ï Bitcoin ÎºÎ±Î¹ ÏÏÎ¹ ÏÏÎ¿Î½ ÎÏÏÏÏÎ¿ÏÎ¿.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="nowarranties" class=" anchorAf"><a href="#nowarranties"></a>7. ÎÎµÎ½ ÏÏÎ¬ÏÏÎ¿ÏÎ½ ÎµÎ³Î³ÏÎ®ÏÎµÎ¹Ï</h3>
+    <p>Î ÎÏÏÏÏÎ¿ÏÎ¿Ï ÏÎ±ÏÎ­ÏÎµÏÎ±Î¹ ÏÎµ Î²Î¬ÏÎ· "ÏÏ Î­ÏÎµÎ¹" ÏÏÏÎ¯Ï Î¿ÏÎ¿Î¹ÎµÏÎ´Î®ÏÎ¿ÏÎµ ÎµÎ³Î³ÏÎ®ÏÎµÎ¹Ï Î¿ÏÎ¿Î¹Î¿ÏÎ´Î®ÏÎ¿ÏÎµ ÎµÎ¯Î´Î¿ÏÏ ÏÏÎµÏÎ¹ÎºÎ¬ Î¼Îµ ÏÎ¿Î½ ÎÏÏÏÏÎ¿ÏÎ¿ ÎºÎ±Î¹/Î· Î¿ÏÎ¿Î¹Î¿Î´Î®ÏÎ¿ÏÎµ ÏÎµÏÎ¹ÎµÏÏÎ¼ÎµÎ½Î¿, Î´ÎµÎ´Î¿Î¼Î­Î½Î±, ÏÎ»Î¹ÎºÎ¬ ÎºÎ±Î¹/Î® ÏÏÎ·ÏÎµÏÎ¯ÎµÏ ÏÎ¿Ï ÏÎ±ÏÎ­ÏÎ¿Î½ÏÎ±Î¹ ÏÏÎ¿Î½ ÎÏÏÏÏÎ¿ÏÎ¿.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="noliability" class=" anchorAf"><a href="#noliability"></a>8. Î ÎµÏÎ¹Î¿ÏÎ¹ÏÎ¼ÏÏ ÎÏÎ¸ÏÎ½Î·Ï</h3>
+    <p>ÎÎºÏÏÏ ÎºÎ±Î¹ Î±Î½ Î±ÏÎ±Î¹ÏÎµÎ¯ÏÎ±Î¹ Î´Î¹Î±ÏÎ¿ÏÎµÏÎ¹ÎºÎ¬ Î±ÏÏ ÏÎ¿Î½ Î½ÏÎ¼Î¿, ÏÎµ ÎºÎ±Î¼Î¯Î± ÏÎµÏÎ¯ÏÏÏÏÎ· Î´ÎµÎ½ Î¸Î± ÎµÎ¯Î½Î±Î¹ Î¿Î¹ Î¹Î´Î¹Î¿ÎºÏÎ®ÏÎµÏ, Î® Î¿Î¹ ÏÏÎ½ÎµÎ¹ÏÏÎ­ÏÎ¿Î½ÏÎµÏ ÏÎµ Î±ÏÏÏ ÏÎ¿Î½ ÎÏÏÏÏÎ¿ÏÎ¿ ÏÏÎµÏÎ¸ÏÎ½Î¿Î¹ Î³Î¹Î± Î¶Î·Î¼Î¯ÎµÏ Î¿ÏÎ¿Î¹Î¿ÏÎ´Î®ÏÎ¿ÏÎµ ÎµÎ¯Î´Î¿ÏÏ, ÏÏÎ¼ÏÎµÏÎ¹Î»Î±Î¼Î²Î±Î½Î¿Î¼Î­Î½ÏÎ½, Î±Î»Î»Î¬ ÏÏÎ¹ ÏÎµÏÎ¹Î¿ÏÎ¹ÏÎ¼Î­Î½ÏÎ½ ÏÎµ, Î±ÏÏÎ»ÎµÎ¹Î± ÏÏÎ®ÏÎ·Ï, Î±ÏÏÎ»ÎµÎ¹Î± ÎºÎµÏÎ´ÏÎ½ Î® Î±ÏÏÎ»ÎµÎ¹Î± Î´ÎµÎ´Î¿Î¼Î­Î½ÏÎ½ ÏÎ¿Ï ÏÏÎ¿ÎºÏÏÏÎµÎ¹ Î±ÏÏ Î® ÏÏÎ½Î´Î­ÎµÏÎ±Î¹ Î¼Îµ Î¿ÏÎ¿Î¹Î¿Î½Î´Î®ÏÎ¿ÏÎµ ÏÏÏÏÎ¿ Î¼Îµ ÏÎ·Î½ ÏÏÎ®ÏÎ· Î±ÏÏÎ¿Ï ÏÎ¿Ï ÎÏÏÏÏÎ¿ÏÎ¿Ï.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="arbitration" class=" anchorAf"><a href="#arbitration"></a>9. ÎÎ¹Î±Î¹ÏÎ·ÏÎ¯Î±</h3>
+    <p>Î ÏÏÎ®ÏÏÎ·Ï ÏÎ¿Ï ÎÏÏÏÏÎ¿ÏÎ¿Ï ÏÏÎ¼ÏÏÎ½ÎµÎ¯ Î½Î± Î±ÏÎºÎ®ÏÎµÎ¹ Î´Î¹Î±Î¹ÏÎ·ÏÎ¯Î± ÏÎµ Î¿ÏÎ¿Î¹Î±Î´Î®ÏÎ¿ÏÎµ Î´Î¹Î­Î½ÎµÎ¾Î· ÏÏÎ¿ÎºÏÏÏÎµÎ¹ Î±ÏÏ Î® ÏÎµ ÏÏÎ­ÏÎ· Î¼Îµ ÏÎ¿Î½ ÎÏÏÏÏÎ¿ÏÎ¿ Î® Î±ÏÏ Î±ÏÏÎ® ÏÎ·Î½ Î±ÏÎ¿ÏÎ¿Î¯Î·ÏÎ· ÎµÏÎ¸ÏÎ½ÏÎ½, ÎµÎ¾Î±Î¹ÏÎ¿ÏÎ½ÏÎ±Î¹ Î´Î¹ÎµÎ½Î­Î¾ÎµÎ¹Ï ÏÎ¿Ï ÏÏÎµÏÎ¯Î¶Î¿Î½ÏÎ±Î¹ Î¼Îµ ÏÎ½ÎµÏÎ¼Î±ÏÎ¹ÎºÎ¬ Î´Î¹ÎºÎ±Î¹ÏÎ¼ÏÎ±, Î»Î¿Î³ÏÏÏÏÎ±, ÏÎ®Î¼Î± ÎºÎ±ÏÎ±ÏÎµÎ¸Î­Î½, ÎµÎ¼ÏÎ¿ÏÎ¹ÎºÎ­Ï ÎµÏÏÎ½ÏÎ¼Î¯ÎµÏ, ÎµÎ¼ÏÎ¿ÏÎ¹ÎºÎ¬ Î¼ÏÏÏÎ¹ÎºÎ¬ Î® ÏÎ±ÏÎ­Î½ÏÎµÏ.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="lastchange" class=" anchorAf"><a href="#lastchange"></a>10. Î¤ÎµÎ»ÎµÏÏÎ±Î¯Î± ÏÏÎ¿ÏÎ¿ÏÎ¿Î¯Î·ÏÎ·</h3>
+    <p>Î Î±ÏÎ¿ÏÎ¿Î¯Î·ÏÎ· ÎµÏÎ¸ÏÎ½ÏÎ½ ÏÏÎ¿ÏÎ¿ÏÎ¿Î¹Î®Î¸Î·ÎºÎµ Î³Î¹Î± ÏÎµÎ»ÎµÏÏÎ±Î¯Î± ÏÎ¿ÏÎ¬ ÏÏÎ¹Ï  July 5th, 2016.</p>
+  </div>
+  
+   
+  
+  <div class="toccontent-intro">
+    <h1 id="english-version">English version</h1>
+  </div>
+  
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="english-information" class=" anchorAf"><a href="#english-information"></a>1. Information published on bitcoin.org</h3>
+    <p>The website https://bitcoin.org/ (hereinafter, referred to as the "Website") provides information and material of a general nature. You are not authorized and nor should you rely on the Website for legal advice, business advice, or advice of any kind. You act at your own risk in reliance on the contents of the Website. Should you make a decision to act or not act you should contact a licensed attorney in the relevant jurisdiction in which you want or need help. In no way are the owners of, or contributors to, the Website responsible for the actions, decisions, or other behavior taken or not taken by you in reliance upon the Website.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="english-translations" class=" anchorAf"><a href="#english-translations"></a>2. Translations</h3>
+    <p>The Website may contain translations of the English version of the content available on the Website. These translations are provided only as a convenience. In the event of any conflict between the English language version and the translated version, the English language version shall take precedence. If you notice any inconsistency, please report them on <a href="https://github.com/bitcoin-dot-org/bitcoin.org">GitHub</a>.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="english-userisks" class=" anchorAf"><a href="#english-userisks"></a>3. Risks related to the use of Bitcoin</h3>
+    <p>The Website will not be responsible for any losses, damages or claims arising from events falling within the scope of the following five categories:</p>
+    <p>(1) Mistakes made by the user of any Bitcoin-related software or service, e.g., forgotten passwords, payments sent to wrong Bitcoin addresses, and accidental deletion of wallets.</p>
+    <p>(2) Software problems of the Website and/or any Bitcoin-related software or service, e.g., corrupted wallet file, incorrectly constructed transactions, unsafe cryptographic libraries, malware affecting the Website and/or any Bitcoin-related software or service.</p>
+    <p>(3) Technical failures in the hardware of the user of any Bitcoin-related software or service, e.g., data loss due to a faulty or damaged storage device.</p>
+    <p>(4) Security problems experienced by the user of any Bitcoin-related software or service, e.g., unauthorized access to users' wallets and/or accounts.</p>
+    <p>(5) Actions or inactions of third parties and/or events experienced by third parties, e.g., bankruptcy of service providers, information security attacks on service providers, and fraud conducted by third parties.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="english-investmentrisks" class=" anchorAf"><a href="#english-investmentrisks"></a>4. Investment risks</h3>
+    <p>The investment in Bitcoin can lead to loss of money over short or even long periods. The investors in Bitcoin should expect prices to have large range fluctuations. The information published on the Website cannot guarantee that the investors in Bitcoin would not lose money.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="english-taxcompliance" class=" anchorAf"><a href="#english-taxcompliance"></a>5. Compliance with tax obligations</h3>
+    <p>The users of the Website are solely responsible to determinate what, if any, taxes apply to their Bitcoin transactions. The owners of, or contributors to, the Website are NOT responsible for determining the taxes that apply to Bitcoin transactions.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="english-noissuer" class=" anchorAf"><a href="#english-noissuer"></a>6. The Website does not store, send, or receive bitcoins</h3>
+    <p>The Website does not store, send or receive bitcoins. This is because bitcoins exist only by virtue of the ownership record maintained in the Bitcoin network. Any transfer of title in bitcoins occurs within a decentralized Bitcoin network, and not on the Website.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="english-nowarranties" class=" anchorAf"><a href="#english-nowarranties"></a>7. No warranties</h3>
+    <p>The Website is provided on an "as is" basis without any warranties of any kind regarding the Website and/or any content, data, materials and/or services provided on the Website.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="english-noliability" class=" anchorAf"><a href="#english-noliability"></a>8. Limitation of liability </h3>
+    <p>Unless otherwise required by law, in no event shall the owners of, or contributors to, the Website be liable for any damages of any kind, including, but not limited to, loss of use, loss of profits, or loss of data arising out of or in any way connected with the use of the Website.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="english-arbitration" class=" anchorAf"><a href="#english-arbitration"></a>9. Arbitration</h3>
+    <p>The user of the Website agrees to arbitrate any dispute arising from or in connection with the Website or this disclaimer, except for disputes related to copyrights, logos, trademarks, trade names, trade secrets or patents.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="english-lastchange" class=" anchorAf"><a href="#english-lastchange"></a>10. Last amendment</h3>
+    <p>This disclaimer was amended for the last time on July 5th, 2016.</p>
+  </div>
+  
+  
+
+    </div>
+  </div>
+</div>
+
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="/el/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Support Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Donate</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">EÎ¹ÏÎ±Î³ÏÎ³Î®:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/el/bitcoin-for-individuals">ÎÎ´Î¹ÏÏÎµÏ</a>
+        </li>
+        <li>
+          <a href="/el/bitcoin-for-businesses">ÎÏÎ¹ÏÎµÎ¹ÏÎ®ÏÎµÎ¹Ï</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">Î ÏÎ¿Î³ÏÎ±Î¼Î¼Î±ÏÎ¹ÏÏÎ­Ï</a>
+        </li>
+        <li>
+          <a href="/el/getting-started">ÎÎµÎºÎ¹Î½ÏÎ½ÏÎ±Ï</a>
+        </li>
+        <li>
+          <a href="/el/how-it-works">Î ÏÏ Î»ÎµÎ¹ÏÎ¿ÏÏÎ³ÎµÎ¯</a>
+        </li>
+        <li>
+          <a href="/el/you-need-to-know">Î ÏÎ­ÏÎµÎ¹ Î½Î± Î³Î½ÏÏÎ¯Î¶ÎµÏÎµ</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">Î ÏÏÎ¿Î¹:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/el/resources">Î ÏÏÎ¿Î¹</a>
+        </li><li>
+          <a href="/el/exchanges">Exchanges</a>
+        </li>
+        <li>
+          <a href="/el/community">ÎÎ¿Î¹Î½ÏÏÎ·ÏÎ±</a>
+        </li>
+        <li>
+          <a href="/el/vocabulary">ÎÎµÎ¾Î¹Î»ÏÎ³Î¹Î¿
+          </a>
+        </li>
+        <li>
+          <a href="/el/events">ÎÎºÎ´Î·Î»ÏÏÎµÎ¹Ï</a>
+        </li>
+        
+          <li>
+            <a href="/el/download">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">Î£ÏÎ¼Î¼ÎµÏÎ¿ÏÎ®:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/el/support-bitcoin">Î¥ÏÎ¿ÏÏÎ·ÏÎ¯Î¾ÏÎµ ÏÎ¿ Bitcoin</a>
+        
+        
+        </li><li>
+          <a href="/el/development">ÎÎ½Î¬ÏÏÏÎ¾Î·</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Other:</p>
+      
+      <a href="/el/legal">ÎÎ¿Î¼Î¹ÎºÎ¬</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/el/press">Î¤ÏÏÎ¿Ï (ÎÎÎ)</a>
+      <a href="/el/about-us">Î£ÏÎµÏÎ¹ÎºÎ¬ Î¼Îµ ÏÎ¿ bitcoin.org</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>ÎÎ¹Î± ÎºÎ¿Î¹Î½Î¿ÏÎ¹ÎºÎ® Î¹ÏÏÎ¿ÏÎµÎ»Î¯Î´Î± ÏÏÎ·Î¼Î±ÏÎ¿Î´Î¿ÏÎ¿ÏÎ¼ÎµÎ½Î· Î±ÏÏ</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1716491272" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 ÎÏÎºÎ»Î¿ÏÏÏÎ·ÏÎµ ÏÏÏ ÏÎ·Î½ <a href="http://opensource.org/licenses/mit-license.php" target="_blank">Î¬Î´ÎµÎ¹Î± MIT</a></div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">Network Status</a>
+        
+<ul class="lang is-expand">
+  <li><a>ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/sah">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/legal">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/juridisk">Dansk</a></li>
+        
+        
+          <li><a href="/de/rechtliches">Deutsch</a></li>
+        
+        
+          <li><a href="/en/legal">English</a></li>
+        
+        
+          <li><a href="/es/legal">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/legal">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/note-legali">Italiano</a></li>
+        
+        
+          <li><a href="/hu/jogi-vonatkozasok">Magyar</a></li>
+        
+        
+          <li><a href="/nl/juridisch">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/informacje-prawne">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/legal">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/legal">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/pravno">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/zakon">Srpski</a></li>
+        
+        
+          <li><a href="/sv/juridiskt">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/yasal">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/legal" class="active">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/legal">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/legal">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/legal">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/legal">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/legal">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/legal">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/legal">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/legal">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/legal">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/legal">ááááá</a></li>
+        
+        
+          <li><a href="/ja/legal">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/legal">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/legal">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/sah">Bahasa Indonesia</option>
+              
+              <option value="/ca/legal">CatalÃ </option>
+              
+              <option value="/da/juridisk">Dansk</option>
+              
+              <option value="/de/rechtliches">Deutsch</option>
+              
+              <option value="/en/legal">English</option>
+              
+              <option value="/es/legal">EspaÃ±ol</option>
+              
+              <option value="/fr/legal">FranÃ§ais</option>
+              
+              <option value="/it/note-legali">Italiano</option>
+              
+              <option value="/hu/jogi-vonatkozasok">Magyar</option>
+              
+              <option value="/nl/juridisch">Nederlands</option>
+              
+              <option value="/pl/informacje-prawne">Polski</option>
+              
+              <option value="/pt_BR/legal">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/legal">RomÃ¢nÄ</option>
+              
+              <option value="/sl/pravno">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/zakon">Srpski</option>
+              
+              <option value="/sv/juridiskt">Svenska</option>
+              
+              <option value="/tr/yasal">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/legal" selected="selected">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/legal">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/legal">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/legal">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/legal">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/legal">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/legal">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/legal">×¢××¨××ª</option>
+              
+              <option value="/hi/legal">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/legal">íêµ­ì´</option>
+              
+              <option value="/km/legal">ááááá</option>
+              
+              <option value="/ja/legal">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/legal">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/legal">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">el</span>
+          </label>
+        </div>
+      </div>
+<!--      <div class="row">  -->
+        
+<!--    </div> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+
+
+  <script>updateToc();</script>
+<script>accordion();</script>
+<script>onScrollButton();</script>
+<script>boxShow();</script>
+
+
+
+
+
+
+</body></html>
