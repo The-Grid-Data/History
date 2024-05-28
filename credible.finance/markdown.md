@@ -1,5 +1,3 @@
-__Log in with Telegram
-
 Recaptcha requires verification.
 
 [Privacy](https://www.google.com/intl/en/policies/privacy/) \-
