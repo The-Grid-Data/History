@@ -1,5 +1,5 @@
 {
-    "target_url": "https://developer.bitcoin.org",
+    "target_url": "https://developer.bitcoin.org/",
     "domains": {
         "": [
             "bitcoin:3E8ociqZa9mZUSwGdSmAEMAoAxBK3FNDcd"
@@ -33,10 +33,9 @@
             "https://bitcoin.stackexchange.com/"
         ],
         "developer.bitcoin.org": [
-            "https://developer.bitcoin.org",
-            "https://developer.bitcoin.org#acknowledgments",
-            "https://developer.bitcoin.org#getting-started",
             "https://developer.bitcoin.org/",
+            "https://developer.bitcoin.org/#acknowledgments",
+            "https://developer.bitcoin.org/#getting-started",
             "https://developer.bitcoin.org/devguide/block_chain.html",
             "https://developer.bitcoin.org/devguide/block_chain.html#block-height-and-forking",
             "https://developer.bitcoin.org/devguide/block_chain.html#consensus-rule-changes",
