@@ -1,0 +1,47 @@
+{
+    "target_url": "https://chainalysis.com/webinars/",
+    "domains": {
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/i/adsct?bci=3&eci=2&event_id=6cae1918-7e6f-465c-8fbc-a757b8651cc7&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=7ecc12ac-d55b-4eed-953f-98d1a91e595f&tw_document_href=https%3A%2F%2Fwww.chainalysis.com%2Fwebinars%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o942f&type=javascript&version=2.3.30"
+        ],
+        "bat.bing.com": [
+            "https://bat.bing.com/action/0?ti=136016409&tm=gtm002&Ver=2&mid=6668a56c-eb1f-45c4-a35d-b4115548a841&sid=e5dba0b01cfe11efb8c1776f2559adc1&vid=e5dbe4401cfe11efbec0b76bfb41498f&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&tl=Webinars%20Archive%20-%20Chainalysis&p=https%3A%2F%2Fwww.chainalysis.com%2Fwebinars%2F&r=&evt=pageLoad&sv=1&rn=268808"
+        ],
+        "cdn.bizible.com": [
+            "https://cdn.bizible.com/ipv?_biz_r=&_biz_h=-417244810&_biz_u=26a16b241f5045e1d3197b53b29d4060&_biz_l=https%3A%2F%2Fwww.chainalysis.com%2Fwebinars%2F&_biz_t=1716906657255&_biz_i=Webinars%20Archive%20-%20Chainalysis&_biz_n=0&rnd=476832&cdn_o=a&_biz_z=1716906657721"
+        ],
+        "cdn.bizibly.com": [
+            "https://cdn.bizibly.com/u?_biz_u=26a16b241f5045e1d3197b53b29d4060&_biz_l=https%3A%2F%2Fwww.chainalysis.com%2Fwebinars%2F&_biz_t=1716906657722&_biz_i=Webinars%20Archive%20-%20Chainalysis&rnd=251154&cdn_o=a&_biz_z=1716906657722"
+        ],
+        "t.co": [
+            "https://t.co/i/adsct?bci=3&eci=2&event_id=6cae1918-7e6f-465c-8fbc-a757b8651cc7&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=7ecc12ac-d55b-4eed-953f-98d1a91e595f&tw_document_href=https%3A%2F%2Fwww.chainalysis.com%2Fwebinars%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o942f&type=javascript&version=2.3.30"
+        ],
+        "ws.zoominfo.com": [
+            "https://ws.zoominfo.com/pixel/Na6GzfmL0i0pW4qWYEKS"
+        ],
+        "www.chainalysis.com": [
+            "https://www.chainalysis.com/wp-content/uploads/2022/11/icon-linkedin-lightblue.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2022/11/icon-youtube-lightblue.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2023/02/cryptocrime-email-banner-800x563.png",
+            "https://www.chainalysis.com/wp-content/uploads/2023/03/icon-telegram-lightblue.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2023/05/links-amsterdam-2023-on-demand-blog-image.png",
+            "https://www.chainalysis.com/wp-content/uploads/2023/05/links-on-demand-home-page-promo-final-1-800x689.jpg",
+            "https://www.chainalysis.com/wp-content/uploads/2023/07/playbook-webinar-blog-thumbnail-800x401.png",
+            "https://www.chainalysis.com/wp-content/uploads/2023/09/blog-chapter-headers-ea-800x347.png",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/ct-state-police-featured-thumbnail.png",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/geos-2023-cover-design-800x384.png",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/icon-footer-twitter-x-blue.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/morabanc-featured-thumbnail.png",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/webinar-blog-thumbnail-800x400.png",
+            "https://www.chainalysis.com/wp-content/uploads/2024/01/thumbnail-geos-2023.png",
+            "https://www.chainalysis.com/wp-content/uploads/2024/02/thumbnail-crime-report.png",
+            "https://www.chainalysis.com/wp-content/uploads/2024/02/webinar-blog-image-thumbnail-1200x600px-800x400.png",
+            "https://www.chainalysis.com/wp-content/uploads/2024/03/webinar-email-1.png",
+            "https://www.chainalysis.com/wp-content/uploads/2024/04/links-2024-0010-2-800x392.jpg",
+            "https://www.chainalysis.com/wp-content/uploads/2024/05/policy-pulse-mea-800x400.png",
+            "https://www.chainalysis.com/wp-content/uploads/2024/05/template-social-media-webinar-v2-webinar-email-800x475.png",
+            "https://www.chainalysis.com/wp-content/uploads/2024/05/webinar-policy-pulse-apac-webinar-email.png",
+            "https://www.chainalysis.com/wp-content/uploads/2024/05/webinar-policy-pulse-europe-webinar-email-800x475.png"
+        ]
+    }
+}

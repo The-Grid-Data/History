@@ -1,0 +1,36 @@
+{
+    "target_url": "https://chainalysis.com/transpose/",
+    "domains": {
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/i/adsct?bci=3&eci=2&event_id=0754241b-1abb-487f-ba5c-0995c2282452&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=484c7fb9-8e0b-4bb4-acdf-cf5228b34143&tw_document_href=https%3A%2F%2Fwww.chainalysis.com%2Ftranspose%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o942f&type=javascript&version=2.3.30"
+        ],
+        "cdn.bizible.com": [
+            "https://cdn.bizible.com/ipv?_biz_r=&_biz_h=-417244810&_biz_u=6444536dd4ca461ea6a5954545cf2892&_biz_l=https%3A%2F%2Fwww.chainalysis.com%2Ftranspose%2F&_biz_t=1716906655454&_biz_i=Real-Time%20Indexed%20Blockchain%20Data%20-%20Chainalysis%20Transpose&_biz_n=0&rnd=312077&cdn_o=a&_biz_z=1716906655454"
+        ],
+        "cdn.bizibly.com": [
+            "https://cdn.bizibly.com/u?_biz_u=6444536dd4ca461ea6a5954545cf2892&_biz_l=https%3A%2F%2Fwww.chainalysis.com%2Ftranspose%2F&_biz_t=1716906655455&_biz_i=Real-Time%20Indexed%20Blockchain%20Data%20-%20Chainalysis%20Transpose&rnd=628644&cdn_o=a&_biz_z=1716906655455"
+        ],
+        "t.co": [
+            "https://t.co/i/adsct?bci=3&eci=2&event_id=0754241b-1abb-487f-ba5c-0995c2282452&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=484c7fb9-8e0b-4bb4-acdf-cf5228b34143&tw_document_href=https%3A%2F%2Fwww.chainalysis.com%2Ftranspose%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o942f&type=javascript&version=2.3.30"
+        ],
+        "ws.zoominfo.com": [
+            "https://ws.zoominfo.com/pixel/Na6GzfmL0i0pW4qWYEKS"
+        ],
+        "www.chainalysis.com": [
+            "https://www.chainalysis.com/wp-content/uploads/2022/11/icon-linkedin-lightblue.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2022/11/icon-youtube-lightblue.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2023/03/icon-telegram-lightblue.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/ct-state-police-featured-thumbnail.png",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/icon-footer-twitter-x-blue.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/morabanc-featured-thumbnail.png",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/transpose-data-the-way-you-need.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/transpose-simplify-business-ops.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2023/11/transpose-power-your-apps.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2023/11/transpose-single-solution.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2024/01/thumbnail-geos-2023.png",
+            "https://www.chainalysis.com/wp-content/uploads/2024/02/thumbnail-crime-report.png",
+            "https://www.chainalysis.com/wp-content/uploads/2024/04/data-sheet-transpose.png",
+            "https://www.chainalysis.com/wp-content/uploads/2024/04/transpose-architecture.svg"
+        ]
+    }
+}
