@@ -22,10 +22,10 @@ SAMOYEDCOIN
 
 Socials
 
-[ ](https://twitter.com/samoyedcoin "Go to https://twitter.com/samoyedcoin") [
-](https://www.coingecko.com/en/coins/samoyedcoin "Go to
-https://www.coingecko.com/en/coins/samoyedcoin") [
-](https://discord.gg/samoyedcoin "Go to https://discord.gg/samoyedcoin")
+[](https://twitter.com/samoyedcoin "Go to https://twitter.com/samoyedcoin")
+[](https://www.coingecko.com/en/coins/samoyedcoin "Go to
+https://www.coingecko.com/en/coins/samoyedcoin")
+[](https://discord.gg/samoyedcoin "Go to https://discord.gg/samoyedcoin")
 
 #
 
@@ -49,7 +49,7 @@ Join us and let us be your guide in the crypto world!
 
 The very FIRST memecoin and dog money on the Solana blockchain.
 
-How to buy  whitepaper
+How to buy whitepaper
 
 #
 
@@ -104,28 +104,27 @@ https://jup.ag/swap/USDC-SAMO").
 
 ## Centralized Exchanges
 
-[ ![MEXC Logo](img/exchanges/mexc2.webp) ](https://www.mexc.com/price/SAMO "Go
+[ ![MEXC Logo](img/exchanges/mexc2.webp)](https://www.mexc.com/price/SAMO "Go
 to https://www.mexc.com/price/SAMO") [ ![GEMINI
-Logo](img/exchanges/gmini.webp) ](https://www.gemini.com/prices/samoyedcoin
-"Go to https://www.gemini.com/prices/samoyedcoin") [ ![Gate.io
-Logo](img/exchanges/gateio.webp) ](https://www.gate.io/trade/SAMO_USDT "Go to
+Logo](img/exchanges/gmini.webp)](https://www.gemini.com/prices/samoyedcoin "Go
+to https://www.gemini.com/prices/samoyedcoin") [ ![Gate.io
+Logo](img/exchanges/gateio.webp)](https://www.gate.io/trade/SAMO_USDT "Go to
 https://www.gate.io/trade/SAMO_USDT") [ ![POLONIEX
-Logo](img/exchanges/polo.webp)
-](https://poloniex.com/trade/SAMO_USDT?type=spot "Go to
-https://poloniex.com/trade/SAMO_USDT?type=spot") [ ![CUBE
-Logo](img/exchanges/cube.webp) ](https://www.cube.exchange/trade/SAMOUSDC "Go
+Logo](img/exchanges/polo.webp)](https://poloniex.com/trade/SAMO_USDT?type=spot
+"Go to https://poloniex.com/trade/SAMO_USDT?type=spot") [ ![CUBE
+Logo](img/exchanges/cube.webp)](https://www.cube.exchange/trade/SAMOUSDC "Go
 to https://www.cube.exchange/trade/SAMOUSDC") [ ![Bitget
-Logo](img/exchanges/bitget.webp) ](https://www.bitget.com/price/samoyedcoin
-"Go to https://www.bitget.com/price/samoyedcoin") [ ![Latoken
-Logo](img/exchanges/latoken.webp) ](https://latoken.com/exchange/SAMO%5C_USDT
+Logo](img/exchanges/bitget.webp)](https://www.bitget.com/price/samoyedcoin "Go
+to https://www.bitget.com/price/samoyedcoin") [ ![Latoken
+Logo](img/exchanges/latoken.webp)](https://latoken.com/exchange/SAMO%5C_USDT
 "Go to https://latoken.com/exchange/SAMO%5C_USDT") [ ![
-Logo](img/exchanges/bingx.webp) ](https://bingx.com/en-us/prices/samoyedcoin/
+Logo](img/exchanges/bingx.webp)](https://bingx.com/en-us/prices/samoyedcoin/
 "Go to https://bingx.com/en-us/prices/samoyedcoin/")
 
-[ ![Kraken Logo](img/exchanges/kraken.webp)
-](https://www.kraken.com/prices/samoyedcoin "Go to
-https://www.kraken.com/prices/samoyedcoin") [ ![OKX
-Logo](img/exchanges/okx.webp) ](https://www.okx.com/price/samoyedcoin-samo "Go
+[ ![Kraken
+Logo](img/exchanges/kraken.webp)](https://www.kraken.com/prices/samoyedcoin
+"Go to https://www.kraken.com/prices/samoyedcoin") [ ![OKX
+Logo](img/exchanges/okx.webp)](https://www.okx.com/price/samoyedcoin-samo "Go
 to https://www.okx.com/price/samoyedcoin-samo")
 
 ## How To Buy NFTs?
@@ -218,6 +217,116 @@ releases set to launch, 2024 will undoubtedly go down as The Year of SAMO.
   * Phase 2...
 
 ## SAMO Hall Of Memes
+
+  * ![img/memes/samo31.webp](img/memes/samo31.webp)
+
+  * ![img/memes/samo37.gif](img/memes/samo37.gif)
+
+  * ![img/memes/samo36.webp](img/memes/samo36.webp)
+
+  * ![img/memes/samo35s.gif](img/memes/samo35s.gif)
+
+  * ![img/memes/samo35.webp](img/memes/samo35.webp)
+
+  * ![img/memes/samo34.gif](img/memes/samo34.gif)
+
+  * ![img/memes/samo33.gif](img/memes/samo33.gif)
+
+  * ![img/memes/samo32.webp](img/memes/samo32.webp)
+
+  * ![img/memes/samo3.webp](img/memes/samo3.webp)
+
+  * ![img/memes/samo4.webp](img/memes/samo4.webp)
+
+  * ![img/memes/samo5s.gif](img/memes/samo5s.gif)
+
+  * ![img/memes/samo6.webp](img/memes/samo6.webp)
+
+  * ![img/memes/samo7.webp](img/memes/samo7.webp)
+
+  * ![img/memes/samo8.webp](img/memes/samo8.webp)
+
+  * ![img/memes/samo9s.gif](img/memes/samo9s.gif)
+
+  * ![img/memes/samo10.webp](img/memes/samo10.webp)
+
+  * ![img/memes/samo11.webp](img/memes/samo11.webp)
+
+  * ![img/memes/samo12.webp](img/memes/samo12.webp)
+
+  * ![img/memes/samo13s.gif](img/memes/samo13s.gif)
+
+  * ![img/memes/samo14.webp](img/memes/samo14.webp)
+
+  * ![img/memes/samo15.webp](img/memes/samo15.webp)
+
+  * ![img/memes/samo16.webp](img/memes/samo16.webp)
+
+  * ![img/memes/samo17.webp](img/memes/samo17.webp)
+
+  * ![img/memes/samo18.webp](img/memes/samo18.webp)
+
+  * ![img/memes/samo19.webp](img/memes/samo19.webp)
+
+  * ![img/memes/samo20.webp](img/memes/samo20.webp)
+
+  * ![img/memes/samo21.webp](img/memes/samo21.webp)
+
+  * ![img/memes/samo30.webp](img/memes/samo30.webp)
+
+  * ![img/memes/samo29.webp](img/memes/samo29.webp)
+
+  * ![img/memes/samo28s.gif](img/memes/samo28s.gif)
+
+  * ![img/memes/samo27.gif](img/memes/samo27.gif)
+
+  * ![img/memes/samo26s.gif](img/memes/samo26s.gif)
+
+  * ![img/memes/samo25.webp](img/memes/samo25.webp)
+
+  * ![img/memes/samo24.webp](img/memes/samo24.webp)
+
+  * ![img/memes/samo23.webp](img/memes/samo23.webp)
+
+  * ![img/memes/samo22.webp](img/memes/samo22.webp)
+
+  * ![img/memes/samo31.webp](img/memes/samo31.webp)
+
+  * ![img/memes/samo37.gif](img/memes/samo37.gif)
+
+  * ![img/memes/samo36.webp](img/memes/samo36.webp)
+
+  * ![img/memes/samo35s.gif](img/memes/samo35s.gif)
+
+  * ![img/memes/samo35.webp](img/memes/samo35.webp)
+
+  * ![img/memes/samo34.gif](img/memes/samo34.gif)
+
+  * ![img/memes/samo33.gif](img/memes/samo33.gif)
+
+  * ![img/memes/samo32.webp](img/memes/samo32.webp)
+
+  * ![img/memes/samo3.webp](img/memes/samo3.webp)
+
+  * ![img/memes/samo4.webp](img/memes/samo4.webp)
+
+  * ![img/memes/samo5s.gif](img/memes/samo5s.gif)
+
+  * ![img/memes/samo6.webp](img/memes/samo6.webp)
+
+  * ![img/memes/samo7.webp](img/memes/samo7.webp)
+
+  * ![img/memes/samo8.webp](img/memes/samo8.webp)
+
+  * ![img/memes/samo9s.gif](img/memes/samo9s.gif)
+
+  * ![img/memes/samo10.webp](img/memes/samo10.webp)
+
+![Left Arrow](img/svg/arrow_slider.svg)
+
+![right Arrow](img/svg/arrow_slider.svg)
+
+  *   *   *   *   *   *   *   *   * 
 
 ## Frequently Asked Questions
 
@@ -347,28 +456,28 @@ our part in keeping SAMO as the best onboarder to the Solana community.
 
 ## Partners & Integrations
 
-[ ![betdex.com picture](img/partners/betdex_des.webp) Go to betdex.com
-](https://www.betdex.com/) [ ![step.finance
-picture](img/partners/step_des.webp) Go to step.finance
-](https://www.step.finance/) [ ![rain.fi
-picture](img/partners/rainfi_des.webp) Go to rain.fi ](https://rain.fi/) [
-![sharky.fi picture](img/partners/sharkyfi_des.webp) Go to sharky.fi
-](https://sharky.fi/) [ ![solend.fi picture](img/partners/solend_des.webp) Go
-to solend.fi ](https://solend.fi/) [ ![marginfi.com
-picture](img/partners/marginfi_des.webp) Go to marginfi.com
-](https://www.marginfi.com/) [ ![raydium.io
-picture](img/partners/raydium_des.webp) Go to raydium.io
-](https://raydium.io/) [ ![elusiv.io picture](img/partners/elusiv_des.webp) Go
-to elusiv.io ](https://www.elusiv.io/) [ ![banx.gg
-picture](img/partners/frakt_des.webp) Go to banx.gg ](https://banx.gg/) [
+[ ![betdex.com picture](img/partners/betdex_des.webp) Go to
+betdex.com](https://www.betdex.com/) [ ![step.finance
+picture](img/partners/step_des.webp) Go to
+step.finance](https://www.step.finance/) [ ![rain.fi
+picture](img/partners/rainfi_des.webp) Go to rain.fi](https://rain.fi/) [
+![sharky.fi picture](img/partners/sharkyfi_des.webp) Go to
+sharky.fi](https://sharky.fi/) [ ![solend.fi
+picture](img/partners/solend_des.webp) Go to solend.fi](https://solend.fi/) [
+![marginfi.com picture](img/partners/marginfi_des.webp) Go to
+marginfi.com](https://www.marginfi.com/) [ ![raydium.io
+picture](img/partners/raydium_des.webp) Go to raydium.io](https://raydium.io/)
+[ ![elusiv.io picture](img/partners/elusiv_des.webp) Go to
+elusiv.io](https://www.elusiv.io/) [ ![banx.gg
+picture](img/partners/frakt_des.webp) Go to banx.gg](https://banx.gg/) [
 ![thegivingblock.com picture](img/partners/tgb_des.webp) Go to
-thegivingblock.com ](https://thegivingblock.com/) [ ![kamino.finance
-picture](img/partners/kamino_des.webp) Go to kamino.finance
-](https://app.kamino.finance/) [ ![jup.ag
-picture](img/partners/jupiter_des.webp) Go to jup.ag ](https://jup.ag/) [
-![orca.so picture](img/partners/orca_des.webp) Go to orca.so
-](https://www.orca.so/) [ ![tiplink.io picture](img/partners/tiplink_des.webp)
-Go to tiplink.io ](https://tiplink.io/)
+thegivingblock.com](https://thegivingblock.com/) [ ![kamino.finance
+picture](img/partners/kamino_des.webp) Go to
+kamino.finance](https://app.kamino.finance/) [ ![jup.ag
+picture](img/partners/jupiter_des.webp) Go to jup.ag](https://jup.ag/) [
+![orca.so picture](img/partners/orca_des.webp) Go to
+orca.so](https://www.orca.so/) [ ![tiplink.io
+picture](img/partners/tiplink_des.webp) Go to tiplink.io](https://tiplink.io/)
 
 SAMO is an emerging digital asset that backs a community concentrated on
 onboarding Solana users, educating market participants, making personal
@@ -382,18 +491,18 @@ Ambassador.
 
 ### Join Us
 
-[ ](https://twitter.com/samoyedcoin "Go to https://twitter.com/samoyedcoin") [
-](http://t.me/samoyedcoin "Go to http://t.me/samoyedcoin") [
-](https://discord.gg/samoyedcoin "Go to https://discord.gg/samoyedcoin") [
-](https://medium.com/@officialsamoyedcoin "Go to
-https://medium.com/@officialsamoyedcoin") [
-](https://www.youtube.com/channel/UCYo0YR51vsWQ4hgtcRClauQ "Go to
-https://www.youtube.com/channel/UCYo0YR51vsWQ4hgtcRClauQ") [
-](https://coinmarketcap.com/currencies/samoyedcoin/ "Go to
-https://coinmarketcap.com/currencies/samoyedcoin/") [
-](https://www.reddit.com/r/SamoyedCoin/ "Go to
-https://www.reddit.com/r/SamoyedCoin/") [
-](https://www.instagram.com/officialsamoyedcoin/ "Go to
+[](https://twitter.com/samoyedcoin "Go to https://twitter.com/samoyedcoin")
+[](http://t.me/samoyedcoin "Go to http://t.me/samoyedcoin")
+[](https://discord.gg/samoyedcoin "Go to https://discord.gg/samoyedcoin")
+[](https://medium.com/@officialsamoyedcoin "Go to
+https://medium.com/@officialsamoyedcoin")
+[](https://www.youtube.com/channel/UCYo0YR51vsWQ4hgtcRClauQ "Go to
+https://www.youtube.com/channel/UCYo0YR51vsWQ4hgtcRClauQ")
+[](https://coinmarketcap.com/currencies/samoyedcoin/ "Go to
+https://coinmarketcap.com/currencies/samoyedcoin/")
+[](https://www.reddit.com/r/SamoyedCoin/ "Go to
+https://www.reddit.com/r/SamoyedCoin/")
+[](https://www.instagram.com/officialsamoyedcoin/ "Go to
 https://www.instagram.com/officialsamoyedcoin/")
 
 SAMOYEDCOIN Â© 2024
