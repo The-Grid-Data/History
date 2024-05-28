@@ -1,0 +1,16 @@
+{
+    "target_url": "https://www.binance.com/en/otc",
+    "domains": {
+        "bin.bnbstatic.com": [
+            "https://bin.bnbstatic.com/static/images/common/logo.png",
+            "https://bin.bnbstatic.com/static/images/new-otc/convert-otc-v2-algo-orders.png",
+            "https://bin.bnbstatic.com/static/images/new-otc/convert-otc-v2-execution-solution-mobile_dark.png",
+            "https://bin.bnbstatic.com/static/images/new-otc/convert-otc-v2-execution-solution_dark.png",
+            "https://bin.bnbstatic.com/static/images/new-otc/convert-otc-v2-futures-rfq.png",
+            "https://bin.bnbstatic.com/static/images/new-otc/convert-otc-v2-options-rfq-more_dark.png",
+            "https://bin.bnbstatic.com/static/images/new-otc/convert-otc-v2-options-rfq.png",
+            "https://bin.bnbstatic.com/static/images/new-otc/convert-otc-v2-spot-api-rfq.png",
+            "https://bin.bnbstatic.com/static/images/new-otc/convert-otc-v2-spot-rfq_dark.png"
+        ]
+    }
+}
