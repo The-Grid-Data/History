@@ -1,0 +1,10 @@
+{
+    "target_url": "https://www.cube.exchange/bundle/custom?ids=STASH,DRIFT,CHONKY",
+    "domains": {
+        "www.cube.exchange": [
+            "https://www.cube.exchange/",
+            "https://www.cube.exchange/bundle/custom",
+            "https://www.cube.exchange/signin"
+        ]
+    }
+}
