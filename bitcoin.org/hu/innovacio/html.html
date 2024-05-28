@@ -1,0 +1,771 @@
+<!DOCTYPE html><html lang="hu"><head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>InnovÃ¡ciÃ³ - Bitcoin</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+
+<script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        A Bitcoin.org egy kÃ¶zÃ¶ssÃ©g finanszÃ­rozta projekt, nagyra Ã©rtÃ©keljÃ¼k az adomÃ¡nyokat Ã©s segÃ­tsÃ©gÃ©vel fejleszteni tudjuk a honlapot.
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        AdomÃ¡nyozÃ¡s
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    A Bitcoin.org-nak szÃ¼ksÃ©ge van a tÃ¡mogatÃ¡sodra!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">AdomÃ¡nyozz a Bitcoin.org-nak</p>
+    </div>
+    <p class="modal-subheader">HasznÃ¡ld a lenti QR kÃ³dot vagy cÃ­met</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="Vagy tetszÅleges Ã¶sszeg? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="Vagy tetszÅleges Ã¶sszeg? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="OpcionÃ¡lis leÃ­rÃ¡s (a tÃ¡rcÃ¡dhoz)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="/hu/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">BevezetÃ©s</a>
+    <ul>
+      <li><a href="/hu/bitcoin-maganszemelyeknek">MagÃ¡nszemÃ©lyek</a></li>
+      <li><a href="/hu/bitcoin-vallalkozasoknak">VÃ¡llalkozÃ¡sok</a></li>
+      <li><a href="https://developer.bitcoin.org/">FejlesztÅk</a></li>
+      <li><a href="/hu/vagjon-bele">VÃ¡gjon bele</a></li>
+      <li><a href="/hu/hogyan-mukodik">Hogyan mÅ±kÃ¶dik</a></li>
+      
+      <li><a href="/hu/papir-bitcoin">FehÃ©rkÃ¶nyv</a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">InformÃ¡ciÃ³s anyagok</a>
+    <ul>
+      <li><a href="/hu/informacios-anyagok">InformÃ¡ciÃ³s anyagok</a>
+      </li><li><a href="/hu/tozsdek">TÅzsdÃ©k</a></li>
+      <li><a href="/hu/kozosseg">KÃ¶zÃ¶ssÃ©g</a></li>
+      
+      
+      <li><a href="/hu/szotar">SzÃ³tÃ¡r</a></li>
+      <li><a href="/hu/rendezvenyek">RendezvÃ©nyek</a></li>
+      
+        <li><a href="/hu/letoltes">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li class="active"><a href="/hu/innovacio">InnovÃ¡ciÃ³</a></li>
+  <li><a class="is-expand">VegyÃ©l rÃ©szt</a>
+    <ul>
+      <li><a href="/hu/tamogassa-a-bitcoint">TÃ¡mogasd a Bitcoint</a>
+      </li><li><a href="/hu/vasarlas">VÃ¡sÃ¡rolj bitcoint</a></li>
+      
+      <li><a href="/hu/fejlesztes">FejlesztÃ©s</a></li>
+    </ul>
+  </li>
+  <li><a href="/hu/gyik">GYIK</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>Magyar</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/inovasi">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/innovacio">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/innovation">Dansk</a></li>
+        
+        
+          <li><a href="/de/innovation">Deutsch</a></li>
+        
+        
+          <li><a href="/en/innovation">English</a></li>
+        
+        
+          <li><a href="/es/innovacion">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/innovation">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/innovazione">Italiano</a></li>
+        
+        
+          <li><a href="/hu/innovacio" class="active">Magyar</a></li>
+        
+        
+          <li><a href="/nl/innovatie">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/innowacje">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/inovacao">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/inovatie">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/inovacije">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/inovacija">Srpski</a></li>
+        
+        
+          <li><a href="/sv/innovation">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/yenilik">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/innovation">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/innovation">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/innovation">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/innovation">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/innovation">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/innovation">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/innovation">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/innovation">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/innovation">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/innovation">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/innovation">ááááá</a></li>
+        
+        
+          <li><a href="/ja/innovation">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/innovation">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/innovation">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/inovasi">Bahasa Indonesia</option>
+            
+            <option value="/ca/innovacio">CatalÃ </option>
+            
+            <option value="/da/innovation">Dansk</option>
+            
+            <option value="/de/innovation">Deutsch</option>
+            
+            <option value="/en/innovation">English</option>
+            
+            <option value="/es/innovacion">EspaÃ±ol</option>
+            
+            <option value="/fr/innovation">FranÃ§ais</option>
+            
+            <option value="/it/innovazione">Italiano</option>
+            
+            <option value="/hu/innovacio" selected="selected">Magyar</option>
+            
+            <option value="/nl/innovatie">Nederlands</option>
+            
+            <option value="/pl/innowacje">Polski</option>
+            
+            <option value="/pt_BR/inovacao">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/inovatie">RomÃ¢nÄ</option>
+            
+            <option value="/sl/inovacije">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/inovacija">Srpski</option>
+            
+            <option value="/sv/innovation">Svenska</option>
+            
+            <option value="/tr/yenilik">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/innovation">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/innovation">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/innovation">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/innovation">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/innovation">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/innovation">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/innovation">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/innovation">×¢××¨××ª</option>
+            
+            <option value="/hi/innovation">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/innovation">íêµ­ì´</option>
+            
+            <option value="/km/innovation">ááááá</option>
+            
+            <option value="/ja/innovation">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/innovation">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/innovation">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">hu</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  <div class="hero">
+  <div class="container hero-container">
+    <h1>InnovÃ¡ciÃ³ a fizetÃ©si rendszerek terÃ©n</h1>
+    <p class="summarytxt">A Bitcoin-protokoll nem csak a pÃ©nzkÃ¼ldÃ©srÅl szÃ³l. SzÃ¡mos szolgÃ¡ltatÃ¡st biztosÃ­t, valamint sokfÃ©le lehetÅsÃ©get teremt, amelyekkel a kÃ¶zÃ¶ssÃ©g tovÃ¡bbra is csak ismerkedik. Ezen az oldalon talÃ¡lhatÃ³ nÃ©hÃ¡ny, jelenleg is kutatott technolÃ³gia, amely nÃ©hÃ¡ny esetben valÃ³s termÃ©kkÃ© Ã©s szolgÃ¡ltatÃ¡ssÃ¡ vÃ¡lt. A Bitcoin legÃ©rdekesebb felhasznÃ¡lÃ¡si mÃ³djai feltehetÅen mÃ©g felfedezÃ©sre vÃ¡rnak.</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row card-row">
+
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/ico_control.svg?1716491272" alt="Icon">
+      <h2 id="control" class=" anchorAf"><a href="#control"></a>CsalÃ¡ssal szembeni kontroll</h2>
+      <p>A Bitcoin eddig soha nem lÃ¡tott biztonsÃ¡gi szintet garantÃ¡l. A hÃ¡lÃ³zat a felhasznÃ¡lÃ³k szÃ¡mÃ¡ra vÃ©delmet biztosÃ­t a legtÃ¶bb, szÃ©les kÃ¶rben elterjedt csalÃ¡s - mint pÃ©ldÃ¡ul visszaszÃ¡mlÃ¡zÃ¡s vagy kÃ©retlen dÃ­jak - ellen, valamint a bitcoinokat lehetetlen hamisÃ­tani. A felhasznÃ¡lÃ³k biztonsÃ¡gi mentÃ©st kÃ©szÃ­thetnek tÃ¡rcÃ¡jukrÃ³l vagy titkosÃ­thatjÃ¡k azt. A hardvertÃ¡rcÃ¡k pedig nagyon nehÃ©zzÃ© teszik a pÃ©nz ellopÃ¡sÃ¡t vagy elvesztÃ©sÃ©t. A Bitcoint Ãºgy terveztÃ©k, hogy a felhasznÃ¡lÃ³k szÃ¡mÃ¡ra pÃ©nzÃ¼k felett teljes irÃ¡nyÃ­tÃ¡st biztosÃ­tson.</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/accessibility.svg?1716491272" alt="Icon">
+      <h2 id="global" class=" anchorAf"><a href="#global"></a>GlobÃ¡lis hozzÃ¡fÃ©rhetÅsÃ©g</h2>
+      <p>A Bitcoinnal a vilÃ¡g Ã¶sszes utalÃ¡si rendszere kooperÃ¡lhat. A Bitcoin lehetÅvÃ© teszi bÃ¡rmely bank, vÃ¡llalkozÃ¡s vagy magÃ¡nszemÃ©ly szÃ¡mÃ¡ra a biztonsÃ¡gos utalÃ¡st, bÃ¡rhol, bÃ¡rmikor, bankszÃ¡mlÃ¡val vagy anÃ©lkÃ¼l. A Bitcoin elÃ©rhetÅ nagyszÃ¡mÃº, mÃ¡s fizetÃ©si rendszer Ã¡ltal a sajÃ¡t korlÃ¡taibÃ³l fakadÃ³an nem meghÃ³dÃ­thatÃ³ orszÃ¡gban. A Bitcoin nÃ¶veli a kereskedelemhez valÃ³ globÃ¡lis hozzÃ¡fÃ©rÃ©st, Ã©s elÅsegÃ­theti a nemzetkÃ¶zi Ã¼zletek virÃ¡gzÃ¡sÃ¡t.</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/efficiency.svg?1716491272" alt="Icon">
+      <h2 id="cost" class=" anchorAf"><a href="#cost"></a>KÃ¶ltsÃ©ghatÃ©konysÃ¡g</h2>
+      <p>A titkosÃ­tÃ¡s hasznÃ¡latÃ¡val a biztonsÃ¡gos kifizetÃ©sek lassÃº Ã©s kÃ¶ltsÃ©ges kÃ¶zvetÃ­tÅk nÃ©lkÃ¼l kivitelezhetÅek. A Bitcoin tranzakciÃ³i sokkal olcsÃ³bbak a versenytÃ¡rsakÃ©nÃ¡l, valamint rÃ¶vid idÅ alatt teljesÃ¼lnek. Ez azt jelenti, hogy a Bitcoin magÃ¡ban hordozza annak lehetÅsÃ©gÃ©t, hogy a jÃ¶vÅben bÃ¡rmely valuta Ã¡tutalÃ¡sÃ¡nak Ã¡ltalÃ¡nos eszkÃ¶ze legyen. A Bitcoin ezenkÃ­vÃ¼l a <a href="https://www.youtube.com/watch?v=BrRXP1tp6Kw">szegÃ©nysÃ©g csÃ¶kkentÃ©sÃ©ben</a> is szerepet jÃ¡tszhat a magas, munkavÃ¡llalÃ³i fizetÃ©seket sÃºjtÃ³ tranzakciÃ³s kÃ¶ltsÃ©gek csÃ¶kkentÃ©se rÃ©vÃ©n.</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/donation.svg?1716491272" alt="Icon">
+      <h2 id="donation" class=" anchorAf"><a href="#donation"></a>AdomÃ¡nyok</h2>
+      <p>A Bitcoin kÃ¼lÃ¶nÃ¶sen hatÃ©kony megoldÃ¡st jelent az adomÃ¡nyozÃ¡s terÃ©n. Egy utalÃ¡s mindÃ¶ssze egy kattintÃ¡sba kerÃ¼l, Ã©s az adomÃ¡nyok fogadÃ¡sa olyan egyszerÅ±, mint egy QR-kÃ³d megjelenÃ­tÃ©se. Az adomÃ¡nyok lÃ¡thatÃ³ak a nyilvÃ¡nossÃ¡g szÃ¡mÃ¡ra, ezzel megnÃ¶vekedett transzparenciÃ¡t biztosÃ­t a nonprofit szervezetek rÃ©szÃ©re. VÃ©szhelyzetben, pÃ©ldÃ¡ul termÃ©szeti katasztrÃ³fÃ¡k esetÃ©n, a bitcoin adomÃ¡nyok segÃ­thetik a gyorsabb reakciÃ³t.</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/crowdfunding.svg?1716491272" alt="Icon">
+      <h2 id="crowdfunding" class=" anchorAf"><a href="#crowdfunding"></a>KÃ¶zÃ¶ssÃ©gi finanszÃ­rozÃ¡s</h2>
+      <p>A bitcoint hasznÃ¡lni lehet Kickstarter jellegÅ± kÃ¶zÃ¶ssÃ©gi finanszÃ­rozÃ¡si kampÃ¡nyokhoz, ahol az emberek egy projektnek forrÃ¡st Ã­gÃ©rnek, Ã©s e juttatÃ¡s csak akkor lÃ©p Ã©letbe, ha a kitÅ±zÃ¶tt cÃ©lnak megfelelÅ Ã¶sszeg Ã¶sszegyÅ±lik. Az ilyen jellegÅ± bizonyossÃ¡gi szerzÅdÃ©seket a Bitcoin hÃ¡lÃ³zat dolgozza fel, amely megakadÃ¡lyozza, hogy egy tranzakciÃ³ aktivÃ¡lÃ³djon, mielÅtt minden feltÃ©tel teljesÃ¼lne. <a href="https://en.bitcoin.it/wiki/Contracts#Example_3:_Assurance_contracts">Tudj meg tÃ¶bbet</a> (angol nyelven) a kÃ¶zÃ¶ssÃ©gi finanszÃ­rozÃ¡s technolÃ³giai hÃ¡tterÃ©rÅl.</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/micro-payments.svg?1716491272" alt="Icon">
+      <h2 id="micro" class=" anchorAf"><a href="#micro"></a>MikrokifizetÃ©sek</h2>
+      <p>KÃ©pzeld el, hogy az internetes rÃ¡diÃ³adÃ¡sÃ©rt mÃ¡sodperc alapon fizetsz, weboldalak esetÃ©n minden meg nem jelenÃ­tett reklÃ¡mÃ©rt egy kisebb Ã¶sszeget adomÃ¡nyozol vagy egy wifi hotspot sÃ¡vszÃ©lessÃ©gÃ©t kilobÃ¡jt alapon vÃ¡sÃ¡rolod meg. A bitcoin minden ilyesfajta Ã¶tlet megvalÃ³sÃ­tÃ¡sÃ¡hoz kellÅen hatÃ©kony. <a href="https://bitcoinj.github.io/working-with-micropayments">Tudj meg tÃ¶bbet</a> (angol nyelven) a bitcoin mikroutalÃ¡sokrÃ³l vagy a <a href="http://lightning.network/">jÃ¶vÅbeli frissÃ­tÃ©sekrÅl</a>, melyeket azÃ©rt terveznek Ã©s hasznÃ¡lnak, hogy a mikroutalÃ¡sokat hozzÃ¡fÃ©rhetÅbbÃ© tegyÃ©k.
+</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/mediation.svg?1716491272" alt="Icon">
+      <h2 id="mediation" class=" anchorAf"><a href="#mediation"></a>MediÃ¡ciÃ³</h2>
+      <p>A Bitcoin felhasznÃ¡lhatÃ³ innovatÃ­v, csoportos alÃ¡Ã­rÃ¡st hasznÃ¡lÃ³ mediÃ¡ciÃ³s rendszerek fejlesztÃ©sÃ©re. E szolgÃ¡ltatÃ¡sok lehetÅvÃ© tehetik egy harmadik fÃ©l rÃ©szÃ©re egy tranzakciÃ³ elfogadÃ¡sÃ¡t vagy elutasÃ­tÃ¡sÃ¡t, a kÃ©t fÃ©l egyet nem Ã©rtÃ©se esetÃ©n, a pÃ©nzÃ¼k feletti kontroll gyakorlÃ¡sa nÃ©lkÃ¼l. Mivel e szolgÃ¡ltatÃ¡sok bÃ¡rmely bitcoin felhasznÃ¡lÃ³val Ã©s kereskedÅvel kompatibilisek lennÃ©nek, ez valÃ³szÃ­nÅ±leg szabad versenyt Ã©s magasabb minÅsÃ©gi sztenderdeket eredmÃ©nyezne.</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/multi-signature.svg?1716491272" alt="Icon">
+      <h2 id="multisig" class=" anchorAf"><a href="#multisig"></a>Csoportos alÃ¡Ã­rÃ¡st igÃ©nylÅ fiÃ³kok</h2>
+      <p>A csoportos alÃ¡Ã­rÃ¡sok lehetÅvÃ© teszik, hogy egy tranzakciÃ³t csak akkor fogadjon el a hÃ¡lÃ³zat, ha egy meghatÃ¡rozott szÃ¡mÃº szemÃ©lybÅl Ã¡llÃ³ csoport egyetÃ©rt a tranzakciÃ³ alÃ¡Ã­rÃ¡sÃ¡val. Ez felhasznÃ¡lhatÃ³ egy igazgatÃ³tanÃ¡cs Ã¡ltal arra, hogy megakadÃ¡lyozza, hogy valamely tag elkÃ¶ltse a vagyon egy rÃ©szÃ©t a tagok egyetÃ©rtÃ©se nÃ©lkÃ¼l. Ez ezenkÃ­vÃ¼l felhasznÃ¡lhatÃ³ arra, hogy egy bank megelÅzze a lopÃ¡sokat Ãºgy, hogy egy hatÃ¡rÃ©rtÃ©k felett blokkolja a kifizetÃ©seket, amennyiben a felhasznÃ¡lÃ³ nem biztosÃ­t tovÃ¡bbi igazolÃ¡sokat.</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/trust.svg?1716491272" alt="Icon">
+      <h2 id="trust" class=" anchorAf"><a href="#trust"></a>Bizalom Ã©s tisztessÃ©g</h2>
+      <p>A Bitcoin a bankokat sÃºjtÃ³ szÃ¡mos bizalmi problÃ©mÃ¡ra megoldÃ¡st kÃ­nÃ¡l. SzelektÃ­ven alkalmazhatÃ³ kÃ¶nyvelÃ©si transzparenciÃ¡jÃ¡val, digitÃ¡lis szerzÅdÃ©seivel Ã©s visszavonhatatlan tranzakciÃ³ival a Bitcoin a megÃ¡llapodÃ¡sok Ã©s a bizalom megteremtÃ©sÃ©nek alapjÃ¡ul szolgÃ¡lhat. A tisztessÃ©gtelen bankok a mÃ¡s bankok vagy a tÃ¡rsadalom kÃ¡rÃ¡ra tÃ¶rtÃ©nÅ profit elÃ©rÃ©sÃ©hez nem kerÃ¼lhetik meg a rendszert. Egy olyan jÃ¶vÅ, ahol a jelentÅs bankok tÃ¡mogatjÃ¡k a Bitcoint, visszaÃ¡llÃ­thatja a pÃ©nzÃ¼gyi intÃ©zmÃ©nyekbe vetett bizalmat Ã©s tisztessÃ©get.</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/decentralization.svg?1716491272" alt="Icon">
+      <h2 id="resiliency" class=" anchorAf"><a href="#resiliency"></a>RugalmassÃ¡g Ã©s decentralizÃ¡ciÃ³</h2>
+      <p>A Bitcoin nagyfokÃº decentralizÃ¡ciÃ³jÃ¡n keresztÃ¼l, megnÃ¶velt rugalmassÃ¡gÃ¡val Ã©s redundanciÃ¡jÃ¡val a fizetÃ©si rendszerek eltÃ©rÅ formÃ¡jÃ¡t hozta lÃ©tre. A Bitcoin tÃ¶bb milliÃ³ dollÃ¡rban mÃ©rhetÅ kereskedelmet bonyolÃ­t le anÃ©lkÃ¼l, hogy katonai vÃ©delemre lenne szÃ¼ksÃ©ge. A kÃ¶zponti hibÃ¡zÃ¡si lehetÅsÃ©gek - mint pÃ©ldÃ¡ul egy adatkÃ¶zpont - hiÃ¡nyÃ¡ban a rendszer megtÃ¡madÃ¡sa sokkal nehezebb feladat. A Bitcoin Ã©rdekes elÅrelÃ©pÃ©st jelenthet a helyi Ã©s globÃ¡lis pÃ©nzÃ¼gyi rendszerek biztosÃ­tÃ¡sa terÃ©n.</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/transparency.svg?1716491272" alt="Icon">
+      <h2 id="transparency" class=" anchorAf"><a href="#transparency"></a>Rugalmas transzparencia</h2>
+      <p>Az Ã¶sszes bitcoin tranzakciÃ³ nyilvÃ¡nos Ã©s transzparens, valamint a kifizetÃ©seket kezdemÃ©nyezÅ emberek szemÃ©lyazonossÃ¡ga alapÃ©rtelmezett mÃ³don rejtett. Ez lehetÅvÃ© teszi a magÃ¡nszemÃ©lyek Ã©s szervezetek szÃ¡mÃ¡ra, hogy rugalmas transzparenciaszabÃ¡lyokkal dolgozzanak. PÃ©ldÃ¡ul egy vÃ¡llalkozÃ¡s dÃ¶nthet Ãºgy, hogy meghatÃ¡rozott tranzakciÃ³kat Ã©s egyenlegeket csak meghatÃ¡rozott munkatÃ¡rsakkal oszt meg; egy nonprofit szervezet pedig szabadon bemutathatja a nyilvÃ¡nossÃ¡g szÃ¡mÃ¡ra, hogy mekkora Ã¶sszegÅ± napi Ã©s havi Ã¶sszegÅ± adomÃ¡nyban rÃ©szesÃ¼l.</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/automatization.svg?1716491272" alt="Icon">
+      <h2 id="automation" class=" anchorAf"><a href="#automation"></a>AutomatizÃ¡lt megoldÃ¡sok</h2>
+      <p>Az automatizÃ¡lt szolgÃ¡ltatÃ¡sok gyakran a kÃ©szpÃ©nzt Ã©s bankkÃ¡rtya utalÃ¡sokat sÃºjtÃ³ kÃ¶ltsÃ©gekkel Ã©s korlÃ¡tokkal szembesÃ¼lnek. Ez magÃ¡ban foglal mindenfajta automatÃ¡t - a buszjegyautomatÃ¡tÃ³l a kÃ¡vÃ©automatÃ¡ig. A Bitcoin az Ãºj generÃ¡ciÃ³s automatizÃ¡lt szolgÃ¡ltatÃ¡sok sorÃ¡n valÃ³ hasznÃ¡latra, valamint e szolgÃ¡ltatÃ¡sok mÅ±kÃ¶dÃ©si kÃ¶ltsÃ©geinek csÃ¶kkentÃ©sÃ©re szolgÃ¡l. KÃ©pzelj el Ã¶nvezetÅ taxikat, vagy egy Ã¼zletet, ahol a kosarad segÃ­tsÃ©gÃ©vel sorbaÃ¡llÃ¡s nÃ©lkÃ¼l fizethetsz. SzÃ¡mos Ã¶tlet kÃ¶zÃ¼l lehet vÃ¡lasztani.</p>
+    </div>
+
+  </div>
+</div>
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="/hu/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">TÃ¡mogasd a Bitcoin.org-ot:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">AdomÃ¡nyozÃ¡s</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">BevezetÃ©s:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/hu/bitcoin-maganszemelyeknek">MagÃ¡nszemÃ©lyek</a>
+        </li>
+        <li>
+          <a href="/hu/bitcoin-vallalkozasoknak">VÃ¡llalkozÃ¡sok</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">FejlesztÅk</a>
+        </li>
+        <li>
+          <a href="/hu/vagjon-bele">VÃ¡gjon bele</a>
+        </li>
+        <li>
+          <a href="/hu/hogyan-mukodik">Hogyan mÅ±kÃ¶dik</a>
+        </li>
+        <li>
+          <a href="/hu/amit-tudnia-erdemes">Ãrdemes tudnia</a>
+        </li>
+        
+        <li>
+          <a href="/hu/papir-bitcoin">FehÃ©rkÃ¶nyv</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">InformÃ¡ciÃ³s anyagok:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/hu/informacios-anyagok">InformÃ¡ciÃ³s anyagok</a>
+        </li><li>
+          <a href="/hu/tozsdek">TÅzsdÃ©k</a>
+        </li>
+        <li>
+          <a href="/hu/kozosseg">KÃ¶zÃ¶ssÃ©g</a>
+        </li>
+        <li>
+          <a href="/hu/szotar">SzÃ³tÃ¡r
+          </a>
+        </li>
+        <li>
+          <a href="/hu/rendezvenyek">RendezvÃ©nyek</a>
+        </li>
+        
+          <li>
+            <a href="/hu/letoltes">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">VegyÃ©l rÃ©szt:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/hu/tamogassa-a-bitcoint">TÃ¡mogasd a Bitcoint</a>
+        
+        
+        </li><li>
+          <a href="/hu/fejlesztes">FejlesztÃ©s</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">EgyÃ©b:</p>
+      
+      <a href="/hu/jogi-vonatkozasok">Jogi vonatkozÃ¡sok</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/hu/sajto">SajtÃ³</a>
+      <a href="/hu/rolunk">A bitcoin.org-rÃ³l</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>E kÃ¶zÃ¶ssÃ©gi weboldal szponzora a</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1716491272" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 Az <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT licence</a> alatt kÃ¶zzÃ©tÃ©ve</div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">HÃ¡lÃ³zat stÃ¡tusza</a>
+        
+<ul class="lang is-expand">
+  <li><a>Magyar</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/inovasi">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/innovacio">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/innovation">Dansk</a></li>
+        
+        
+          <li><a href="/de/innovation">Deutsch</a></li>
+        
+        
+          <li><a href="/en/innovation">English</a></li>
+        
+        
+          <li><a href="/es/innovacion">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/innovation">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/innovazione">Italiano</a></li>
+        
+        
+          <li><a href="/hu/innovacio" class="active">Magyar</a></li>
+        
+        
+          <li><a href="/nl/innovatie">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/innowacje">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/inovacao">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/inovatie">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/inovacije">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/inovacija">Srpski</a></li>
+        
+        
+          <li><a href="/sv/innovation">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/yenilik">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/innovation">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/innovation">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/innovation">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/innovation">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/innovation">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/innovation">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/innovation">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/innovation">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/innovation">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/innovation">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/innovation">ááááá</a></li>
+        
+        
+          <li><a href="/ja/innovation">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/innovation">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/innovation">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/inovasi">Bahasa Indonesia</option>
+              
+              <option value="/ca/innovacio">CatalÃ </option>
+              
+              <option value="/da/innovation">Dansk</option>
+              
+              <option value="/de/innovation">Deutsch</option>
+              
+              <option value="/en/innovation">English</option>
+              
+              <option value="/es/innovacion">EspaÃ±ol</option>
+              
+              <option value="/fr/innovation">FranÃ§ais</option>
+              
+              <option value="/it/innovazione">Italiano</option>
+              
+              <option value="/hu/innovacio" selected="selected">Magyar</option>
+              
+              <option value="/nl/innovatie">Nederlands</option>
+              
+              <option value="/pl/innowacje">Polski</option>
+              
+              <option value="/pt_BR/inovacao">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/inovatie">RomÃ¢nÄ</option>
+              
+              <option value="/sl/inovacije">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/inovacija">Srpski</option>
+              
+              <option value="/sv/innovation">Svenska</option>
+              
+              <option value="/tr/yenilik">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/innovation">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/innovation">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/innovation">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/innovation">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/innovation">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/innovation">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/innovation">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/innovation">×¢××¨××ª</option>
+              
+              <option value="/hi/innovation">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/innovation">íêµ­ì´</option>
+              
+              <option value="/km/innovation">ááááá</option>
+              
+              <option value="/ja/innovation">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/innovation">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/innovation">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">hu</span>
+          </label>
+        </div>
+      </div>
+<!--      <div class="row">  -->
+        
+<!--    </div> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+
+
+
+
+
+
+</body></html>

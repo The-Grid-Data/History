@@ -1,0 +1,1074 @@
+<!DOCTYPE html><html lang="hu"><head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Bitcoin: Egy peer-to-peer elektronikus kÃ©szpÃ©nzrendszer</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+
+<script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        A Bitcoin.org egy kÃ¶zÃ¶ssÃ©g finanszÃ­rozta projekt, nagyra Ã©rtÃ©keljÃ¼k az adomÃ¡nyokat Ã©s segÃ­tsÃ©gÃ©vel fejleszteni tudjuk a honlapot.
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        AdomÃ¡nyozÃ¡s
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    A Bitcoin.org-nak szÃ¼ksÃ©ge van a tÃ¡mogatÃ¡sodra!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">AdomÃ¡nyozz a Bitcoin.org-nak</p>
+    </div>
+    <p class="modal-subheader">HasznÃ¡ld a lenti QR kÃ³dot vagy cÃ­met</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="Vagy tetszÅleges Ã¶sszeg? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="Vagy tetszÅleges Ã¶sszeg? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="OpcionÃ¡lis leÃ­rÃ¡s (a tÃ¡rcÃ¡dhoz)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="/hu/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">BevezetÃ©s</a>
+    <ul>
+      <li><a href="/hu/bitcoin-maganszemelyeknek">MagÃ¡nszemÃ©lyek</a></li>
+      <li><a href="/hu/bitcoin-vallalkozasoknak">VÃ¡llalkozÃ¡sok</a></li>
+      <li><a href="https://developer.bitcoin.org/">FejlesztÅk</a></li>
+      <li><a href="/hu/vagjon-bele">VÃ¡gjon bele</a></li>
+      <li><a href="/hu/hogyan-mukodik">Hogyan mÅ±kÃ¶dik</a></li>
+      
+      <li class="active"><a href="/hu/papir-bitcoin">FehÃ©rkÃ¶nyv</a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">InformÃ¡ciÃ³s anyagok</a>
+    <ul>
+      <li><a href="/hu/informacios-anyagok">InformÃ¡ciÃ³s anyagok</a>
+      </li><li><a href="/hu/tozsdek">TÅzsdÃ©k</a></li>
+      <li><a href="/hu/kozosseg">KÃ¶zÃ¶ssÃ©g</a></li>
+      
+      
+      <li><a href="/hu/szotar">SzÃ³tÃ¡r</a></li>
+      <li><a href="/hu/rendezvenyek">RendezvÃ©nyek</a></li>
+      
+        <li><a href="/hu/letoltes">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li><a href="/hu/innovacio">InnovÃ¡ciÃ³</a></li>
+  <li><a class="is-expand">VegyÃ©l rÃ©szt</a>
+    <ul>
+      <li><a href="/hu/tamogassa-a-bitcoint">TÃ¡mogasd a Bitcoint</a>
+      </li><li><a href="/hu/vasarlas">VÃ¡sÃ¡rolj bitcoint</a></li>
+      
+      <li><a href="/hu/fejlesztes">FejlesztÃ©s</a></li>
+    </ul>
+  </li>
+  <li><a href="/hu/gyik">GYIK</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>Magyar</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/makalah-bitcoin">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/paper-bitcoin">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/">Dansk</a></li>
+        
+        
+          <li><a href="/de/bitcoin-paper">Deutsch</a></li>
+        
+        
+          <li><a href="/en/bitcoin-paper">English</a></li>
+        
+        
+          <li><a href="/es/bitcoin-documento">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/documento-bitcoin">Italiano</a></li>
+        
+        
+          <li><a href="/hu/papir-bitcoin" class="active">Magyar</a></li>
+        
+        
+          <li><a href="/nl/bitcoin-document">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/bitcoin-paper">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/bitkoin-papir">Srpski</a></li>
+        
+        
+          <li><a href="/sv/bitcoinartikel">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/bitcoin-paper">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/bitcoin-paper">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/bitcoin-paper">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/bitcoin-paper">ááááá</a></li>
+        
+        
+          <li><a href="/ja/bitcoin-paper">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/bitcoin-paper">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/makalah-bitcoin">Bahasa Indonesia</option>
+            
+            <option value="/ca/paper-bitcoin">CatalÃ </option>
+            
+            <option value="/da/">Dansk</option>
+            
+            <option value="/de/bitcoin-paper">Deutsch</option>
+            
+            <option value="/en/bitcoin-paper">English</option>
+            
+            <option value="/es/bitcoin-documento">EspaÃ±ol</option>
+            
+            <option value="/fr/">FranÃ§ais</option>
+            
+            <option value="/it/documento-bitcoin">Italiano</option>
+            
+            <option value="/hu/papir-bitcoin" selected="selected">Magyar</option>
+            
+            <option value="/nl/bitcoin-document">Nederlands</option>
+            
+            <option value="/pl/">Polski</option>
+            
+            <option value="/pt_BR/bitcoin-paper">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/">RomÃ¢nÄ</option>
+            
+            <option value="/sl/">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/bitkoin-papir">Srpski</option>
+            
+            <option value="/sv/bitcoinartikel">Svenska</option>
+            
+            <option value="/tr/">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/bitcoin-paper">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/bitcoin-paper">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/bitcoin-paper">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/">×¢××¨××ª</option>
+            
+            <option value="/hi/">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/">íêµ­ì´</option>
+            
+            <option value="/km/bitcoin-paper">ááááá</option>
+            
+            <option value="/ja/bitcoin-paper">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/bitcoin-paper">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">hu</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  <div class="hero">
+  <div class="container hero-container">
+    <h1>Bitcoin: Egy peer-to-peer elektronikus kÃ©szpÃ©nzrendszer</h1>
+    <p class="summary">Az Ã­rÃ¡s, amely elÅszÃ¶r mutatta be a Bitcoint</p>
+  </div>
+</div>
+
+<div class="bitcoin-paper">
+  <div class="container">
+    <p>Satoshi Nakamoto eredeti kÃ¶nyve jelenleg is ajÃ¡nlott olvasmÃ¡ny mindenkinek, akit Ã©rdekel Bitcoin mÅ±kÃ¶dÃ©se. VÃ¡laszd ki, melyik fordÃ­tÃ¡st kÃ­vÃ¡nod elolvasni: </p>
+      <ul class="row card-row">
+
+        <li class="card bitcoin-paper-card">
+          <b>
+            <a class="language-link" href="/bitcoin.pdf">English (Original)</a>
+          </b>
+        </li>
+        
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_am.pdf">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <span>Diana Sisakian</span>, sponsored by <a href="https://cleartalks.com">ClearTalks</a>
+          </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_id.pdf">Bahasa Indonesia</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://github.com/christahir">Christopher Tahir</a>,
+            Gregorius Airlangga, <a href="https://github.com/khendraw">K
+            Hendrawan</a>
+          </div>
+        </li>
+        
+         <li class="card bitcoin-paper-card">
+         <a class="language-link" href="/files/bitcoin-paper/bitcoin_cz.pdf">Czech</a>
+         <div>
+           <span>fordÃ­totta</span>
+           <a href="https://braiins.com/">braiins.com</a>
+         </div>
+        </li>
+        
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_de.pdf">Deutsch</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <span>Daniel Deckner</span>
+          </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_es.pdf">EspaÃ±ol</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://github.com/breathingdog">Breathingdog</a>
+          </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_fr.pdf">FranÃ§ais</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://github.com/Arnaud-Francois-Fausse">Arnaud-FranÃ§ois
+              Fausse</a>
+          </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_it.pdf">Italiano</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://github.com/terzim">Terzim</a>
+          </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_lt.pdf">LietuviÅ³ Kalba</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://github.com/DDomas">Domas Dranginis</a>
+          </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_hu.pdf">Magyar Nyelv</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://github.com/Balaxi">Balaxi</a>
+          </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_mr.pdf">à¤®à¤°à¤¾à¤ à¥</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://github.com/shivajiambedkar">Shivaji Ambedkar</a>
+          </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_nl.pdf">Nederlands</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://github.com/Giftbitnl">GiftBitNL</a>
+          </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_no.pdf">Norsk (BokmÃ¥l)</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://kryptografen.no">Kryptografen.no</a>
+          </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_is.pdf">Ãslenska</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://www.pega-pool.com/">PEGA Pool</a>
+          </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_pl.pdf">Polski</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://github.com/meeDamian">meeDamian</a>
+          </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_pt.pdf">PortuguÃªs</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://github.com/rhlinden">rhlinden</a>
+          </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_pt_br.pdf">PortuguÃªs
+            Brasileiro</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://www.linkedin.com/in/rodrigosilvap">Rodrigo Silva
+              Pinto</a>
+          </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_ro.pdf">RomÃ¢nÄ</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://bitcointalk.org/index.php?action=profile;u=1285797">Gazeta Bitcoin</a>
+          </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_sk.pdf">SlovenÄina</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://github.com/OndroS">Ondrej SarneckÃ½</a>
+          </div>
+        </li>
+        
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_sr.pdf">ÑÑÐ¿ÑÐºÐ¸</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <span>BoÅ¾o PopoviÄ</span>
+          </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_fi.pdf">Suomen kieli</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://twitter.com/bio_bitcoin">Biocycle</a>,
+            <a href="https://twitter.com/LohkoKettu">LohkoKettu</a>,
+            <a href="https://twitter.com/locusf">Aleksi Suomalainen</a>,
+            <a href="https://twitter.com/AnttiMay">Antti Majakivi</a>,
+            <a href="https://twitter.com/OmniFinn">Niko Laamanen</a>
+          </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_se.pdf">Svenska</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://github.com/hanspandeya">hanspandeya</a>
+          </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_tr.pdf">TÃ¼rkÃ§e</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://www.linkedin.com/in/efecini/">Efe Cini</a>
+          </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_gr.pdf">ÎµÎ»Î»Î·Î½Î¹ÎºÎ¬</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://github.com/chdimosthenis">chdimosthenis</a>
+          </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_hi.pdf">à¤®à¤¾à¤¨à¤ à¤¹à¤¿à¤¨à¥à¤¦à¥ </a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="http://twitter.com/blockbitmedia">Praneet Jain</a>
+          </div>
+        </li>
+        
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_ur.pdf">Ø§ÙØ±Ø¯ÙÙ</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://aharix.com/MSJ">Muhammad Safdar Jamal</a>
+          </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_ta.pdf">à®¤à®®à®¿à®´à¯</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://twitter.com/rajasahayajose">Raja Sahaya Jose</a>
+          </div>
+        </li>
+        
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_ml.pdf">à´®à´²à´¯à´¾à´³à´</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://www.linkedin.com/in/neeludan">Hyder Ali Abdulla</a>
+          </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_iw.pdf">×¢××¨××ª</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://twitter.com/MeniRosenfeld">Meni Rosenfeld</a>
+          </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_ru.pdf">Ð ÑÑÑÐºÐ¸Ð¹</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://github.com/arvicco">Ar Vicco</a>, <a href="https://github.com/nik0x01">Ivan Nikolaev</a>
+          </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_vi.pdf">Tiáº¿ng Viá»t</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://github.com/pcdinh">Pham Cong Dinh</a>
+          </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_uk.pdf">YÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://t.me/wtfbit">WTFBit</a>
+          </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_ar.pdf">Ø§ÙØ¹Ø±Ø¨ÙØ©</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://github.com/alsayadi">Ahmed Alsayadi</a>
+          </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_fa.pdf">Ù¾Ø§Ø±Ø³Û</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://github.com/ZeeAmini">ZeeAmini</a>
+          </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_ko.pdf">íêµ­ì´</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://github.com/mincheolim">Mincheol Im</a>
+          </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_jp.pdf">æ¥æ¬èª</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://github.com/cryptohakka">hakka</a>
+          </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_th.pdf">à¸ à¸²à¸©à¸²à¹à¸à¸¢</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://github.com/PeeraphatHan">Peeraphat Hankongkaew</a>
+          </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+          <a class="language-link" href="/files/bitcoin-paper/bitcoin_zh_cn.pdf">ç®åå­</a>
+          <div>
+            <span>fordÃ­totta</span>
+            <a href="https://github.com/shdxiang">shdxiang</a>,
+            <span>Bill Zhao</span>
+          </div>
+        </li>
+        
+        <li class="card bitcoin-paper-card">
+         <a class="language-link" href="/files/bitcoin-paper/bitcoin_bn.pdf">à¦¬à¦¾à¦à¦²à¦¾</a>
+         <div>
+           <span>fordÃ­totta</span>
+           <a href="https://twitter.com/shafiunmiraz0">Shafiun Miraz</a>,
+           <a href="https://github.com/tonmoy10ms">Tonmoy Sarkar</a>
+         </div>
+        </li>
+        
+        <li class="card bitcoin-paper-card">
+         <a class="language-link" href="/files/bitcoin-paper/bitcoin_et.pdf">Estonian</a>
+         <div>
+           <span>fordÃ­totta</span>
+           <a href="https://github.com/ekukxs">ekukxs</a>
+         </div>
+        </li>
+        
+        <li class="card bitcoin-paper-card">
+         <a class="language-link" href="/files/bitcoin-paper/bitcoin_al.pdf">Albanian</a>
+         <div>
+           <span>fordÃ­totta</span>
+           <a href="https://twitter.com/TonyXhufi">Tony Xhufi</a>
+         </div>
+        </li>
+        
+        <li class="card bitcoin-paper-card">
+         <a class="language-link" href="/files/bitcoin-paper/bitcoin_hr.pdf">Croatian</a>
+         <div>
+           <span>fordÃ­totta</span>
+           <a href="https://twitter.com/LuxBTC">LuxBTC</a>
+         </div>
+        </li>
+
+        <li class="card bitcoin-paper-card">
+         <a class="language-link" href="/files/bitcoin-paper/bitcoin-braille.pdf">Braille</a>
+         <div>
+           <span>fordÃ­totta</span>
+           <a href="https://github.com/neatnik/braille-bitcoin-whitepaper">@NeatNik</a>
+         </div>
+        </li>
+        
+        <li class="card bitcoin-paper-card">
+         <a class="language-link" href="/files/bitcoin-paper/bitcoin_np.pdf">Nepali</a>
+         <div>
+           <span>fordÃ­totta</span>
+           <a href="https://twitter.com/iamkrishnadahal">Krishna Dahal</a>, <a href="https://twitter.com/bibekblockchain">Bibek Koirala</a>
+         </div>
+        </li>
+        
+        <li class="card bitcoin-paper-card">
+         <a class="language-link" href="/files/bitcoin-paper/bitcoin_basque.pdf">Basque</a>
+         <div>
+           <span>fordÃ­totta</span>
+           <a href="https://twitter.com/Blooma_Lorea">@Blooma_Lorea</a>
+         </div>
+        </li>
+
+      </ul>
+
+      <p>Le szeretnÃ©d fordÃ­tani az Ã­rÃ¡st anyanyelvedre? LÃ¡togasd meg a <a href="https://github.com/wbnns/bitcoinwhitepaper">Bitcoin fehÃ©r kÃ¶nyvÃ©nek adatbÃ¡zisÃ¡t a GitHubon</a> a tovÃ¡bbi utasÃ­tÃ¡sokÃ©rt Ã©s <a href="https://github.com/wbnns/bitcoinwhitepaper/issues/new">nyiss egy kÃ©relmet</a>, ha kÃ©rdÃ©sed merÃ¼lne fel.</p>
+
+  </div>
+</div>
+
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="/hu/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">TÃ¡mogasd a Bitcoin.org-ot:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">AdomÃ¡nyozÃ¡s</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">BevezetÃ©s:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/hu/bitcoin-maganszemelyeknek">MagÃ¡nszemÃ©lyek</a>
+        </li>
+        <li>
+          <a href="/hu/bitcoin-vallalkozasoknak">VÃ¡llalkozÃ¡sok</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">FejlesztÅk</a>
+        </li>
+        <li>
+          <a href="/hu/vagjon-bele">VÃ¡gjon bele</a>
+        </li>
+        <li>
+          <a href="/hu/hogyan-mukodik">Hogyan mÅ±kÃ¶dik</a>
+        </li>
+        <li>
+          <a href="/hu/amit-tudnia-erdemes">Ãrdemes tudnia</a>
+        </li>
+        
+        <li class="active">
+          <a href="/hu/papir-bitcoin">FehÃ©rkÃ¶nyv</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">InformÃ¡ciÃ³s anyagok:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/hu/informacios-anyagok">InformÃ¡ciÃ³s anyagok</a>
+        </li><li>
+          <a href="/hu/tozsdek">TÅzsdÃ©k</a>
+        </li>
+        <li>
+          <a href="/hu/kozosseg">KÃ¶zÃ¶ssÃ©g</a>
+        </li>
+        <li>
+          <a href="/hu/szotar">SzÃ³tÃ¡r
+          </a>
+        </li>
+        <li>
+          <a href="/hu/rendezvenyek">RendezvÃ©nyek</a>
+        </li>
+        
+          <li>
+            <a href="/hu/letoltes">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">VegyÃ©l rÃ©szt:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/hu/tamogassa-a-bitcoint">TÃ¡mogasd a Bitcoint</a>
+        
+        
+        </li><li>
+          <a href="/hu/fejlesztes">FejlesztÃ©s</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">EgyÃ©b:</p>
+      
+      <a href="/hu/jogi-vonatkozasok">Jogi vonatkozÃ¡sok</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/hu/sajto">SajtÃ³</a>
+      <a href="/hu/rolunk">A bitcoin.org-rÃ³l</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>E kÃ¶zÃ¶ssÃ©gi weboldal szponzora a</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1716491272" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 Az <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT licence</a> alatt kÃ¶zzÃ©tÃ©ve</div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">HÃ¡lÃ³zat stÃ¡tusza</a>
+        
+<ul class="lang is-expand">
+  <li><a>Magyar</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/makalah-bitcoin">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/paper-bitcoin">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/">Dansk</a></li>
+        
+        
+          <li><a href="/de/bitcoin-paper">Deutsch</a></li>
+        
+        
+          <li><a href="/en/bitcoin-paper">English</a></li>
+        
+        
+          <li><a href="/es/bitcoin-documento">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/documento-bitcoin">Italiano</a></li>
+        
+        
+          <li><a href="/hu/papir-bitcoin" class="active">Magyar</a></li>
+        
+        
+          <li><a href="/nl/bitcoin-document">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/bitcoin-paper">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/bitkoin-papir">Srpski</a></li>
+        
+        
+          <li><a href="/sv/bitcoinartikel">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/bitcoin-paper">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/bitcoin-paper">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/bitcoin-paper">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/bitcoin-paper">ááááá</a></li>
+        
+        
+          <li><a href="/ja/bitcoin-paper">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/bitcoin-paper">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/makalah-bitcoin">Bahasa Indonesia</option>
+              
+              <option value="/ca/paper-bitcoin">CatalÃ </option>
+              
+              <option value="/da/">Dansk</option>
+              
+              <option value="/de/bitcoin-paper">Deutsch</option>
+              
+              <option value="/en/bitcoin-paper">English</option>
+              
+              <option value="/es/bitcoin-documento">EspaÃ±ol</option>
+              
+              <option value="/fr/">FranÃ§ais</option>
+              
+              <option value="/it/documento-bitcoin">Italiano</option>
+              
+              <option value="/hu/papir-bitcoin" selected="selected">Magyar</option>
+              
+              <option value="/nl/bitcoin-document">Nederlands</option>
+              
+              <option value="/pl/">Polski</option>
+              
+              <option value="/pt_BR/bitcoin-paper">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/">RomÃ¢nÄ</option>
+              
+              <option value="/sl/">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/bitkoin-papir">Srpski</option>
+              
+              <option value="/sv/bitcoinartikel">Svenska</option>
+              
+              <option value="/tr/">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/bitcoin-paper">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/bitcoin-paper">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/bitcoin-paper">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/">×¢××¨××ª</option>
+              
+              <option value="/hi/">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/">íêµ­ì´</option>
+              
+              <option value="/km/bitcoin-paper">ááááá</option>
+              
+              <option value="/ja/bitcoin-paper">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/bitcoin-paper">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">hu</span>
+          </label>
+        </div>
+      </div>
+<!--      <div class="row">  -->
+        
+<!--    </div> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+
+
+
+
+
+
+</body></html>
