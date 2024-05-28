@@ -1,0 +1,738 @@
+<!DOCTYPE html><html lang="ro"><head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Bitcoin pentru Companii - Bitcoin</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+<link rel="stylesheet" href="/css/sans.css?1716491272">
+<script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.org is a community funded project, donations are appreciated and used to improve the website.
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        Make a donation
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.org needs your support!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">Donate to Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">Use this QR code or address below</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="Or custom amount? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="Or custom amount? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="Optional description (for your wallet)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="/ro/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">Introducere</a>
+    <ul>
+      <li><a href="/ro/bitcoin-pentru-persoane-fizice">Persoane fizice</a></li>
+      <li class="active"><a href="/ro/bitcoin-pentru-companii">Companii</a></li>
+      <li><a href="https://developer.bitcoin.org/">Dezvoltatori</a></li>
+      <li><a href="/ro/notiuni-de-baza">NoÈiuni de bazÄ</a></li>
+      <li><a href="/ro/cum-functioneaza">Cum funcÈioneazÄ</a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">Resurse</a>
+    <ul>
+      <li><a href="/ro/resurse">Resurse</a>
+      </li><li><a href="/ro/schimburi">Exchanges</a></li>
+      <li><a href="/ro/comunitate">Comunitate</a></li>
+      
+      
+      <li><a href="/ro/vocabular">Vocabular</a></li>
+      <li><a href="/ro/evenimente">Evenimente</a></li>
+      
+        <li><a href="/ro/descarca">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li><a href="/ro/inovatie">InovaÅ£ie</a></li>
+  <li><a class="is-expand">ParticipÄ</a>
+    <ul>
+      <li><a href="/ro/sustine-bitcoin">SusÅ£ine Bitcoin</a>
+      </li><li><a href="/ro/cumpara">Buy Bitcoin</a></li>
+      
+      <li><a href="/ro/dezvoltare">Dezvoltare</a></li>
+    </ul>
+  </li>
+  <li><a href="/ro/intrebari-frecvente">ÃntrebÄri Frecvente</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>RomÃ¢nÄ</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/bitcoin-untuk-bisnis">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/bitcoin-per-empreses">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/bitcoin-for-virksomheder">Dansk</a></li>
+        
+        
+          <li><a href="/de/bitcoin-fuer-unternehmen">Deutsch</a></li>
+        
+        
+          <li><a href="/en/bitcoin-for-businesses">English</a></li>
+        
+        
+          <li><a href="/es/bitcoin-para-empresas">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/bitcoin-pour-entreprises">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/bitcoin-per-imprese">Italiano</a></li>
+        
+        
+          <li><a href="/hu/bitcoin-vallalkozasoknak">Magyar</a></li>
+        
+        
+          <li><a href="/nl/bitcoin-voor-bedrijven">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/bitcoin-dla-biznesu">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/bitcoin-para-empresas">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/bitcoin-pentru-companii" class="active">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/bitcoin-za-podjetja">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/bitkoin-za-preduzeca">Srpski</a></li>
+        
+        
+          <li><a href="/sv/bitcoin-for-foretag">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/isletmeler-icin-bitcoin">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/bitcoin-for-businesses">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/bitcoin-for-businesses">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/bitcoin-for-businesses">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/bitcoin-for-businesses">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/bitcoin-for-businesses">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/bitcoin-for-businesses">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/bitcoin-for-businesses">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/bitcoin-for-businesses">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/bitcoin-for-businesses">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/bitcoin-for-businesses">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/bitcoin-for-businesses">ááááá</a></li>
+        
+        
+          <li><a href="/ja/bitcoin-for-businesses">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/bitcoin-for-businesses">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/bitcoin-for-businesses">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/bitcoin-untuk-bisnis">Bahasa Indonesia</option>
+            
+            <option value="/ca/bitcoin-per-empreses">CatalÃ </option>
+            
+            <option value="/da/bitcoin-for-virksomheder">Dansk</option>
+            
+            <option value="/de/bitcoin-fuer-unternehmen">Deutsch</option>
+            
+            <option value="/en/bitcoin-for-businesses">English</option>
+            
+            <option value="/es/bitcoin-para-empresas">EspaÃ±ol</option>
+            
+            <option value="/fr/bitcoin-pour-entreprises">FranÃ§ais</option>
+            
+            <option value="/it/bitcoin-per-imprese">Italiano</option>
+            
+            <option value="/hu/bitcoin-vallalkozasoknak">Magyar</option>
+            
+            <option value="/nl/bitcoin-voor-bedrijven">Nederlands</option>
+            
+            <option value="/pl/bitcoin-dla-biznesu">Polski</option>
+            
+            <option value="/pt_BR/bitcoin-para-empresas">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/bitcoin-pentru-companii" selected="selected">RomÃ¢nÄ</option>
+            
+            <option value="/sl/bitcoin-za-podjetja">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/bitkoin-za-preduzeca">Srpski</option>
+            
+            <option value="/sv/bitcoin-for-foretag">Svenska</option>
+            
+            <option value="/tr/isletmeler-icin-bitcoin">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/bitcoin-for-businesses">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/bitcoin-for-businesses">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/bitcoin-for-businesses">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/bitcoin-for-businesses">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/bitcoin-for-businesses">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/bitcoin-for-businesses">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/bitcoin-for-businesses">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/bitcoin-for-businesses">×¢××¨××ª</option>
+            
+            <option value="/hi/bitcoin-for-businesses">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/bitcoin-for-businesses">íêµ­ì´</option>
+            
+            <option value="/km/bitcoin-for-businesses">ááááá</option>
+            
+            <option value="/ja/bitcoin-for-businesses">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/bitcoin-for-businesses">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/bitcoin-for-businesses">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">ro</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  <div class="hero">
+  <div class="container hero-container">
+    <h1>Bitcoin pentru Companii</h1>
+    <p class="summary">Bitcoin este un mod foarte sigur Èi ieftin prin care te poÈi ocupa de plÄÈi.</p>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row card-row">
+    <div class="card business-card">
+      <img class="titleicon" src="/img/icons/ico_lowfee.svg?1716491272" alt="Icon">
+      <h2 id="lowfee" class=" anchorAf"><a href="#lowfee"></a>Cele mai mici comisioane de pe piaÅ£Ä</h2>
+      <p>Ãnalta securitate criptograficÄ a Bitcoin permite procesarea tranzacÅ£iilor Ã®ntr-un mod foarte eficient Åi ieftin. PoÅ£i face Åi primi plÄÈi folosind reÅ£eaua Bitcoin cu aproape zero taxe. Ãn majoritatea cazurilor, taxele nu sunt strict necesare dar ele sunt recomandate pentru confirmÄri mai rapide ale tranzacÅ£iei.</p>
+    </div>
+
+    <div class="card business-card">
+      <img class="titleicon" src="/img/icons/ico_control.svg?1716491272" alt="Icon">
+      <h2 id="fraud" class=" anchorAf"><a href="#fraud"></a>ProtecÅ£ie Ã®mpotriva fraudei</h2>
+      <p>Orice afacere ce acceptÄ carduri de credit sau PayPal cunoaÅte problema plÄÅ£ilor ce mai tÃ¢rziu sunt inversate. Fraudele prin chargeback duc la limitarea potenÅ£ialilor clienÅ£i Åi preÅ£uri mÄrite, care, la rÃ¢ndul lor, penalizeazÄ clienÅ£ii existenÅ£i. TranzacÅ£iile Bitcoin sunt ireversibile Åi sigure, Ã®nsemnÃ¢nd cÄ acel cost al fraudei nu mai este aruncat pe umerii comercianÅ£ilor.</p>
+    </div>
+
+    <div class="card business-card">
+      <img class="titleicon" src="/img/icons/ico_international.svg?1716491272" alt="Icon">
+      <h2 id="international" class=" anchorAf"><a href="#international"></a>PlÄÈi internaÈionale rapide</h2>
+      <p>Bitcoini pot fi transferaÈi din Africa Ã®n Canada Ã®n 10 minute. De fapt, bitcoinii nu au nici o locaÅ£ie fizicÄ, aÅa cÄ este posibil sÄ transferi oricÃ¢t de mulÅ£i oriunde fÄrÄ nici o limitÄ, Ã®ntÃ¢rzieri, sau comisioane excesive. Nu existÄ bÄnci intermediare care te fac sÄ aÅtepÅ£i trei zile lucrÄtoare.</p>
+    </div>
+
+    <div class="card business-card">
+      <img class="titleicon" src="/img/icons/ico_pci.svg?1716491272" alt="Icon">
+      <h2 id="pci" class=" anchorAf"><a href="#pci"></a>Conformitatea PCI nu este necesarÄ</h2>
+      <p>Pentru a accepta carduri de credit online sunt necesare verificÄri aprofundate de securitate pentru a respecta standardul PCI. Bitcoin de asemenea presupune <a href="/ro/securizeaza-portofelul">securizarea portofelului</a> Åi a cererilor de platÄ. Pe de altÄ parte, veÈi fi scutit de costurile Åi responsabilitÄÅ£ile care vin odatÄ cu procesarea de informaÅ£ii sensibile ale clienÅ£ilor, precum numÄrul cardului de credit.</p>
+    </div>
+
+    <div class="card business-card">
+      <img class="titleicon" src="/img/icons/ico_visib.svg?1716491272" alt="Icon">
+      <h2 id="visibility" class=" anchorAf"><a href="#visibility"></a>CÃ¢Åtig Ã®n vizibilitate cu efort minim</h2>
+      <p>Bitcoin este o piaÅ£Ä emergentÄ compusÄ din clienÅ£i noi ce cautÄ cÄi de a cheltui bitcoini. Acceptarea lor este un mod prielnic de a obÅ£ine noi clienÅ£i Åi de a oferi afacerii tale vizibilitate. Acceptarea unei noi metode de platÄ deseori s-a dovedit a fi o practicÄ inteligentÄ pentru afaceri online.</p>
+    </div>
+
+    <div class="card business-card">
+      <img class="titleicon" src="/img/icons/multi-signature.svg?1716491272" alt="Icon">
+      <h2 id="multisig" class=" anchorAf"><a href="#multisig"></a>SemnÄturÄ multiplÄ</h2>
+      <p>Bitcoin de asemenea oferÄ tranzacÅ£ii mulÅ£i-semnÄturÄ ce permit cheltuirea bitcoinilor doar dacÄ un grup de persoane valideazÄ tranzacÅ£ia. Aceasta poate fi folositÄ de cÄtre un consiliu director pentru a preveni unul dintre membrii sÄ facÄ cheltuieli fÄrÄ consimÅ£ÄmÃ¢ntul a suficienÅ£i membri Åi totodatÄ pentru a monitoriza ce membri au autorizat fiecare tranzacÅ£ie.</p>
+    </div>
+
+    <div class="card business-card">
+      <img class="titleicon" src="/img/icons/transparency.svg?1716491272" alt="Icon">
+      <h2 id="transparency" class=" anchorAf"><a href="#transparency"></a>Contabilitate transparentÄ</h2>
+      <p>Multe organizaÅ£ii necesitÄ Å£inerea contabilitÄÅ£ii. Folosind Bitcoin se poate oferi cel mai Ã®nalt nivel de transparenÅ£Ä din moment ce se pot oferi informaÅ£ii referitoare la sumele deÈinute Åi tranzacÅ£iile efectuate de cÄtre membri. OrganizaÅ£iile non-profit pot de asemenea lasÄ toatÄ lumea sÄ vadÄ cÃ¢te donaÅ£ii au fost trimise.</p>
+    </div>
+    
+  </div>
+
+  <div class="btn-container">
+    <a class="btn btn-bright get-started-btn" href="/ro/notiuni-de-baza">NoÈiuni de bazÄ despre Bitcoin</a>
+  </div>
+</div>
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="/ro/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Support Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Donate</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">Introducere:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/ro/bitcoin-pentru-persoane-fizice">Persoane fizice</a>
+        </li>
+        <li class="active">
+          <a href="/ro/bitcoin-pentru-companii">Companii</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">Dezvoltatori</a>
+        </li>
+        <li>
+          <a href="/ro/notiuni-de-baza">NoÈiuni de bazÄ</a>
+        </li>
+        <li>
+          <a href="/ro/cum-functioneaza">Cum funcÈioneazÄ</a>
+        </li>
+        <li>
+          <a href="/ro/ce-trebuie-sa-stii">Trebuie sÄ Ètii</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">Resurse:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/ro/resurse">Resurse</a>
+        </li><li>
+          <a href="/ro/schimburi">Exchanges</a>
+        </li>
+        <li>
+          <a href="/ro/comunitate">Comunitate</a>
+        </li>
+        <li>
+          <a href="/ro/vocabular">Vocabular
+          </a>
+        </li>
+        <li>
+          <a href="/ro/evenimente">Evenimente</a>
+        </li>
+        
+          <li>
+            <a href="/ro/descarca">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">ParticipÄ:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/ro/sustine-bitcoin">SusÅ£ine Bitcoin</a>
+        
+        
+        </li><li>
+          <a href="/ro/dezvoltare">Dezvoltare</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Other:</p>
+      
+      <a href="/ro/legal">Legal</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/ro/presa">PresÄ</a>
+      <a href="/ro/despre-noi">Despre bitcoin.org</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>Un site comunitar sponsorizat de</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1716491272" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 Lansat sub <a href="http://opensource.org/licenses/mit-license.php" target="_blank">licenÈa MIT</a></div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">Network Status</a>
+        
+<ul class="lang is-expand">
+  <li><a>RomÃ¢nÄ</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/bitcoin-untuk-bisnis">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/bitcoin-per-empreses">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/bitcoin-for-virksomheder">Dansk</a></li>
+        
+        
+          <li><a href="/de/bitcoin-fuer-unternehmen">Deutsch</a></li>
+        
+        
+          <li><a href="/en/bitcoin-for-businesses">English</a></li>
+        
+        
+          <li><a href="/es/bitcoin-para-empresas">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/bitcoin-pour-entreprises">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/bitcoin-per-imprese">Italiano</a></li>
+        
+        
+          <li><a href="/hu/bitcoin-vallalkozasoknak">Magyar</a></li>
+        
+        
+          <li><a href="/nl/bitcoin-voor-bedrijven">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/bitcoin-dla-biznesu">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/bitcoin-para-empresas">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/bitcoin-pentru-companii" class="active">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/bitcoin-za-podjetja">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/bitkoin-za-preduzeca">Srpski</a></li>
+        
+        
+          <li><a href="/sv/bitcoin-for-foretag">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/isletmeler-icin-bitcoin">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/bitcoin-for-businesses">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/bitcoin-for-businesses">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/bitcoin-for-businesses">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/bitcoin-for-businesses">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/bitcoin-for-businesses">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/bitcoin-for-businesses">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/bitcoin-for-businesses">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/bitcoin-for-businesses">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/bitcoin-for-businesses">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/bitcoin-for-businesses">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/bitcoin-for-businesses">ááááá</a></li>
+        
+        
+          <li><a href="/ja/bitcoin-for-businesses">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/bitcoin-for-businesses">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/bitcoin-for-businesses">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/bitcoin-untuk-bisnis">Bahasa Indonesia</option>
+              
+              <option value="/ca/bitcoin-per-empreses">CatalÃ </option>
+              
+              <option value="/da/bitcoin-for-virksomheder">Dansk</option>
+              
+              <option value="/de/bitcoin-fuer-unternehmen">Deutsch</option>
+              
+              <option value="/en/bitcoin-for-businesses">English</option>
+              
+              <option value="/es/bitcoin-para-empresas">EspaÃ±ol</option>
+              
+              <option value="/fr/bitcoin-pour-entreprises">FranÃ§ais</option>
+              
+              <option value="/it/bitcoin-per-imprese">Italiano</option>
+              
+              <option value="/hu/bitcoin-vallalkozasoknak">Magyar</option>
+              
+              <option value="/nl/bitcoin-voor-bedrijven">Nederlands</option>
+              
+              <option value="/pl/bitcoin-dla-biznesu">Polski</option>
+              
+              <option value="/pt_BR/bitcoin-para-empresas">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/bitcoin-pentru-companii" selected="selected">RomÃ¢nÄ</option>
+              
+              <option value="/sl/bitcoin-za-podjetja">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/bitkoin-za-preduzeca">Srpski</option>
+              
+              <option value="/sv/bitcoin-for-foretag">Svenska</option>
+              
+              <option value="/tr/isletmeler-icin-bitcoin">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/bitcoin-for-businesses">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/bitcoin-for-businesses">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/bitcoin-for-businesses">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/bitcoin-for-businesses">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/bitcoin-for-businesses">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/bitcoin-for-businesses">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/bitcoin-for-businesses">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/bitcoin-for-businesses">×¢××¨××ª</option>
+              
+              <option value="/hi/bitcoin-for-businesses">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/bitcoin-for-businesses">íêµ­ì´</option>
+              
+              <option value="/km/bitcoin-for-businesses">ááááá</option>
+              
+              <option value="/ja/bitcoin-for-businesses">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/bitcoin-for-businesses">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/bitcoin-for-businesses">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">ro</span>
+          </label>
+        </div>
+      </div>
+<!--      <div class="row">  -->
+        
+<!--    </div> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+
+
+
+
+
+
+</body></html>
