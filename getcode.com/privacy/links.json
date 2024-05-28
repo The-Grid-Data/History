@@ -1,0 +1,27 @@
+{
+    "target_url": "https://getcode.com/privacy",
+    "domains": {
+        "": [
+            "mailto:privacy@getcode.com"
+        ],
+        "getcode.com": [
+            "https://getcode.com/",
+            "https://getcode.com/#developer",
+            "https://getcode.com/#download-1",
+            "https://getcode.com/blog/seed-round",
+            "https://getcode.com/privacy",
+            "https://getcode.com/privacy#access-to-information",
+            "https://getcode.com/privacy#collection-and-use-of-information",
+            "https://getcode.com/privacy#contact-us",
+            "https://getcode.com/privacy#information-about-our-app",
+            "https://getcode.com/privacy#safeguards-and-retention",
+            "https://getcode.com/privacy#sharing-of-personal-information",
+            "https://getcode.com/privacy#updates-to-the-privacy-policy",
+            "https://getcode.com/security",
+            "https://getcode.com/terms"
+        ],
+        "privacy@getcode.com": [
+            "http://privacy@getcode.com/"
+        ]
+    }
+}
