@@ -1,0 +1,61 @@
+{
+    "target_url": "https://squads.so/blog/update-introducing-squads-validator",
+    "domains": {
+        "app.squads.so": [
+            "http://app.squads.so/"
+        ],
+        "discord.com": [
+            "https://discord.com/invite/YPXz64TrKs"
+        ],
+        "docs.squads.so": [
+            "https://docs.squads.so/main/basics/welcome-to-squads",
+            "https://docs.squads.so/main/navigating-your-squad/in-app-integrations/staking/direct-staking"
+        ],
+        "github.com": [
+            "https://github.com/Squads-Protocol"
+        ],
+        "metrics.stakeconomy.com": [
+            "https://metrics.stakeconomy.com/d/f2b2HcaGz/solana-community-validator-dashboard?orgId=1&var-pubkey=SQDS9iwyWvT2mQbSZzuNKGoxuBug5jRHouF6SuMRBkA&var-server=squads&var-inter=1m&var-netif=eno1&var-version=&refresh=1m"
+        ],
+        "solanabeach.io": [
+            "https://solanabeach.io/validators"
+        ],
+        "squads.so": [
+            "https://squads.so/",
+            "https://squads.so/about",
+            "https://squads.so/blog",
+            "https://squads.so/blog/mpc-wallets-risks-vs-multisig",
+            "https://squads.so/blog/squads-backup-kit",
+            "https://squads.so/blog/update-rent-reclaim",
+            "https://squads.so/blog/update-token-manager-token-extensions-and-metadata-updates",
+            "https://squads.so/blog/what-are-multisig-wallets",
+            "https://squads.so/brand-assets",
+            "https://squads.so/extension",
+            "https://squads.so/legal/privacy-policy",
+            "https://squads.so/legal/terms-of-service",
+            "https://squads.so/protocol",
+            "https://squads.so/use-cases"
+        ],
+        "stakewiz.com": [
+            "https://stakewiz.com/validator/SQDSVTDfE5HqL7D6RjZk1vvZhaheWoskrDdDHCki68w"
+        ],
+        "twitter.com": [
+            "https://twitter.com/squadsprotocol"
+        ],
+        "warpcast.com": [
+            "https://warpcast.com/squads"
+        ],
+        "www.coinbase.com": [
+            "https://www.coinbase.com/earn/staking/solana"
+        ],
+        "www.jito.network": [
+            "https://www.jito.network/validator/SQDSVTDfE5HqL7D6RjZk1vvZhaheWoskrDdDHCki68w/"
+        ],
+        "www.npmjs.com": [
+            "https://www.npmjs.com/package/@sqds/multisig"
+        ],
+        "www.sqds.io": [
+            "https://www.sqds.io/"
+        ]
+    }
+}

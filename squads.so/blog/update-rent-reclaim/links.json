@@ -1,0 +1,46 @@
+{
+    "target_url": "https://squads.so/blog/update-rent-reclaim",
+    "domains": {
+        "app.squads.so": [
+            "http://app.squads.so/"
+        ],
+        "discord.com": [
+            "https://discord.com/invite/YPXz64TrKs"
+        ],
+        "docs.squads.so": [
+            "https://docs.squads.so/main/basics/welcome-to-squads",
+            "https://docs.squads.so/main/navigating-your-squad/transactions#rent-reclaim"
+        ],
+        "github.com": [
+            "https://github.com/Squads-Protocol"
+        ],
+        "squads.so": [
+            "https://squads.so/",
+            "https://squads.so/about",
+            "https://squads.so/blog",
+            "https://squads.so/blog/mpc-wallets-risks-vs-multisig",
+            "https://squads.so/blog/squads-backup-kit",
+            "https://squads.so/blog/update-introducing-squads-validator",
+            "https://squads.so/blog/update-token-manager-token-extensions-and-metadata-updates",
+            "https://squads.so/blog/what-are-multisig-wallets",
+            "https://squads.so/brand-assets",
+            "https://squads.so/extension",
+            "https://squads.so/legal/privacy-policy",
+            "https://squads.so/legal/terms-of-service",
+            "https://squads.so/protocol",
+            "https://squads.so/use-cases"
+        ],
+        "twitter.com": [
+            "https://twitter.com/squadsprotocol"
+        ],
+        "warpcast.com": [
+            "https://warpcast.com/squads"
+        ],
+        "www.npmjs.com": [
+            "https://www.npmjs.com/package/@sqds/multisig"
+        ],
+        "www.sqds.io": [
+            "https://www.sqds.io/"
+        ]
+    }
+}
