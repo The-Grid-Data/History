@@ -1,0 +1,141 @@
+{
+    "target_url": "https://solana.com/news/solana-scaffold-part-1-wallet-adapter",
+    "domains": {
+        "backpack.app": [
+            "https://backpack.app/"
+        ],
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "classic.yarnpkg.com": [
+            "https://classic.yarnpkg.com/en/docs/install"
+        ],
+        "docs.solanamobile.com": [
+            "https://docs.solanamobile.com/sample-apps/sample_app_overview"
+        ],
+        "earn.superteam.fun": [
+            "https://earn.superteam.fun/"
+        ],
+        "explorer.solana.com": [
+            "https://explorer.solana.com/?cluster=custom&customUrl=http%3A%2F%2Flocalhost%3A8899",
+            "https://explorer.solana.com/?cluster=devnet"
+        ],
+        "faucet.solana.com": [
+            "https://faucet.solana.com/"
+        ],
+        "github.com": [
+            "https://github.com/AlmostEfficient/full-stack-solana-dev",
+            "https://github.com/anza-xyz/wallet-adapter/blob/master/APP.md",
+            "https://github.com/solana-developers/create-solana-dapp",
+            "https://github.com/solana-developers/create-solana-game",
+            "https://github.com/solana-developers/program-examples",
+            "https://github.com/solana-foundation/developer-content/tree/main/content/guides/getstarted/full-stack-solana-development.md"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "learn.microsoft.com": [
+            "https://learn.microsoft.com/en-us/windows/wsl/install"
+        ],
+        "marketplace.visualstudio.com": [
+            "https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer"
+        ],
+        "nodejs.org": [
+            "https://nodejs.org/en/download/"
+        ],
+        "phantom.app": [
+            "https://phantom.app/"
+        ],
+        "solana.com": [
+            "https://solana.com/",
+            "https://solana.com/branding",
+            "https://solana.com/developers",
+            "https://solana.com/developers/cookbook",
+            "https://solana.com/developers/evm-to-svm",
+            "https://solana.com/developers/guides",
+            "https://solana.com/developers/guides/getstarted/full-stack-solana-development",
+            "https://solana.com/developers/guides/getstarted/full-stack-solana-development#build-a-react-client-for-your-app",
+            "https://solana.com/developers/guides/getstarted/full-stack-solana-development#create-a-connect-wallet-button",
+            "https://solana.com/developers/guides/getstarted/full-stack-solana-development#deploy-to-devnet",
+            "https://solana.com/developers/guides/getstarted/full-stack-solana-development#environment-setup",
+            "https://solana.com/developers/guides/getstarted/full-stack-solana-development#finalize-your-anchor-program-with-a-pda",
+            "https://solana.com/developers/guides/getstarted/full-stack-solana-development#project-overview",
+            "https://solana.com/developers/guides/getstarted/full-stack-solana-development#reading-from-the-blockchain",
+            "https://solana.com/developers/guides/getstarted/full-stack-solana-development#set-up-an-anchor-project",
+            "https://solana.com/developers/guides/getstarted/full-stack-solana-development#set-up-your-react-project",
+            "https://solana.com/developers/guides/getstarted/full-stack-solana-development#what-now",
+            "https://solana.com/developers/guides/getstarted/full-stack-solana-development#what-you-will-learn",
+            "https://solana.com/developers/guides/getstarted/full-stack-solana-development#write-a-counter-program-in-rust",
+            "https://solana.com/developers/guides/getstarted/full-stack-solana-development#write-and-deploy-a-solana-program",
+            "https://solana.com/developers/guides/getstarted/full-stack-solana-development#writing-a-test-for-our-program",
+            "https://solana.com/developers/guides/getstarted/full-stack-solana-development#writing-to-the-blockchain",
+            "https://solana.com/developers/guides/getstarted/hello-world-in-your-browser",
+            "https://solana.com/developers/guides/getstarted/setup-local-development",
+            "https://solana.com/developers/guides/getstarted/setup-local-development#3-install-solana-cli",
+            "https://solana.com/developers/guides?difficulty=intermediate",
+            "https://solana.com/developers/guides?tags=anchor",
+            "https://solana.com/developers/guides?tags=web3js",
+            "https://solana.com/discord",
+            "https://solana.com/docs",
+            "https://solana.com/docs/programs/deploying#state-accounts",
+            "https://solana.com/docs/rpc",
+            "https://solana.com/docs/terminology",
+            "https://solana.com/ecosystem",
+            "https://solana.com/github",
+            "https://solana.com/hackathon",
+            "https://solana.com/news",
+            "https://solana.com/news/solana-scaffold-part-1-wallet-adapter#build-a-react-client-for-your-app",
+            "https://solana.com/news/solana-scaffold-part-1-wallet-adapter#create-a-connect-wallet-button",
+            "https://solana.com/news/solana-scaffold-part-1-wallet-adapter#deploy-to-devnet",
+            "https://solana.com/news/solana-scaffold-part-1-wallet-adapter#environment-setup",
+            "https://solana.com/news/solana-scaffold-part-1-wallet-adapter#finalize-your-anchor-program-with-a-pda",
+            "https://solana.com/news/solana-scaffold-part-1-wallet-adapter#program-deploy-failed",
+            "https://solana.com/news/solana-scaffold-part-1-wallet-adapter#project-overview",
+            "https://solana.com/news/solana-scaffold-part-1-wallet-adapter#reading-from-the-blockchain",
+            "https://solana.com/news/solana-scaffold-part-1-wallet-adapter#running-out-of-gas",
+            "https://solana.com/news/solana-scaffold-part-1-wallet-adapter#set-up-an-anchor-project",
+            "https://solana.com/news/solana-scaffold-part-1-wallet-adapter#set-up-your-react-project",
+            "https://solana.com/news/solana-scaffold-part-1-wallet-adapter#what-now",
+            "https://solana.com/news/solana-scaffold-part-1-wallet-adapter#what-you-will-learn",
+            "https://solana.com/news/solana-scaffold-part-1-wallet-adapter#write-a-counter-program-in-rust",
+            "https://solana.com/news/solana-scaffold-part-1-wallet-adapter#write-and-deploy-a-solana-program",
+            "https://solana.com/news/solana-scaffold-part-1-wallet-adapter#writing-a-test-for-our-program",
+            "https://solana.com/news/solana-scaffold-part-1-wallet-adapter#writing-to-the-blockchain",
+            "https://solana.com/newsletter",
+            "https://solana.com/privacy-policy",
+            "https://solana.com/privacy-policy#collection-of-information",
+            "https://solana.com/reddit",
+            "https://solana.com/telegram",
+            "https://solana.com/tos",
+            "https://solana.com/twitter",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ],
+        "solflare.com": [
+            "https://solflare.com/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/almostefficient"
+        ],
+        "vitejs.dev": [
+            "https://vitejs.dev/"
+        ],
+        "www.anchor-lang.com": [
+            "https://www.anchor-lang.com/docs/installation"
+        ],
+        "www.rust-lang.org": [
+            "https://www.rust-lang.org/tools/install"
+        ],
+        "www.soldev.app": [
+            "https://www.soldev.app/course"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/watch?v=uH60e4gZBSY"
+        ],
+        "youtu.be": [
+            "https://youtu.be/vUHF1X48zM4"
+        ]
+    }
+}
