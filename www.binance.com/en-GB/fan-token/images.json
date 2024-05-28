@@ -1,0 +1,22 @@
+{
+    "target_url": "https://www.binance.com/en-GB/fan-token",
+    "domains": {
+        "bin.bnbstatic.com": [
+            "https://bin.bnbstatic.com/image/julia/fan-token/image/car-watermark-card.svg",
+            "https://bin.bnbstatic.com/image/julia/fan-token/image/football.svg",
+            "https://bin.bnbstatic.com/image/julia/fan-token/image/teamlist/next-btn.svg",
+            "https://bin.bnbstatic.com/image/julia/fan-token/image/teamlist/previous-btn.svg"
+        ],
+        "cdn.cookielaw.org": [
+            "https://cdn.cookielaw.org/logos/99f99939-5a0d-4feb-aef3-ba45f16b6907/5bfb9945-c83c-46f9-8bd7-55e8fd1975b5/02e50907-93f6-477d-a8a2-d581dace49c2/binance-h.png",
+            "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg"
+        ],
+        "public.nftstatic.com": [
+            "https://public.nftstatic.com/static/fantoken/0ada8c6628424be9abb78fd5b440f12d.png",
+            "https://public.nftstatic.com/static/fantoken/4e0e2fd0e3f44f81ada3420f26b67bc0.png",
+            "https://public.nftstatic.com/static/fantoken/af6d37a65a6a4fa7aac6c15536446798.png",
+            "https://public.nftstatic.com/static/fantoken/cb38285175184e24b6253ec6dc8113a8.png",
+            "https://public.nftstatic.com/static/fantoken/df010f2fd88d4d3fb7961f923336bd2b.png"
+        ]
+    }
+}
