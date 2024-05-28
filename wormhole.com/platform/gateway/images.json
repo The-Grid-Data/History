@@ -1,0 +1,23 @@
+{
+    "target_url": "https://wormhole.com/platform/gateway",
+    "domains": {
+        "images.ctfassets.net": [
+            "https://images.ctfassets.net/n8aw1cra6v98/1dWLtearK6D4oic0nZJ8lH/50b7b9dab95399688c9959c284bda04a/Shape.svg?w=1920&q=75",
+            "https://images.ctfassets.net/n8aw1cra6v98/2057wAXk6apiGi4vfTeC2u/9e200f5dfebaf6bb113c879243cf4508/wormwhole.svg?w=384&q=100",
+            "https://images.ctfassets.net/n8aw1cra6v98/2Vf21G78FbDlIQLVP2Qlej/46ed1a7396e10f70796f98e6d08349fc/Frame_427320692.svg?w=828&q=75",
+            "https://images.ctfassets.net/n8aw1cra6v98/2fP8M06oPDd6atrcKaUHOQ/0fcc04374046f970de7dfb7fe86574e5/worm.svg",
+            "https://images.ctfassets.net/n8aw1cra6v98/36pfFbPLlPqWDalxFi5B0b/ab1b19516f41cc15544d460b07d5cc50/user.svg?w=128&q=75",
+            "https://images.ctfassets.net/n8aw1cra6v98/47LP13JTZQhgJ8ma1CE0aW/a4339e8067bb8de826b848ce6e458a9a/gasless.svg?w=128&q=75",
+            "https://images.ctfassets.net/n8aw1cra6v98/6HDPkAlU2d8f2fFNJy3BS3/45d0743aa2691982e673c00e76d1b83b/3lines.svg?w=128&q=75",
+            "https://images.ctfassets.net/n8aw1cra6v98/sV9vnadoEGQQdHEtsrufg/f59df52502ce553747620363a4db1f9c/bridge.svg?w=128&q=75"
+        ],
+        "wormhole.com": [
+            "https://wormhole.com/assets/discord.svg",
+            "https://wormhole.com/assets/github.svg",
+            "https://wormhole.com/assets/some.svg",
+            "https://wormhole.com/assets/telegram.svg",
+            "https://wormhole.com/assets/x.svg",
+            "https://wormhole.com/assets/youtube.svg"
+        ]
+    }
+}
