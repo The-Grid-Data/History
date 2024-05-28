@@ -1,0 +1,591 @@
+[![Hivemapper
+Logo](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjE1IiBoZWlnaHQ9IjMyIiB2aWV3Qm94PSIwIDAgMjE1IDMyIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNNTYuNzExMiAwLjgyOTEwMkM1NS44ODAzIDAuODI5MTAyIDU1LjIwMzkgMS4wOTE4MiA1NC42ODIgMS42MTYyQzU0LjE2MDEgMi4xNDE0MyA1My44OTk0IDIuNzkyMzcgNTMuODk5NCAzLjU2ODZDNTMuODk5NCA0LjM0NDgzIDU0LjE2MDEgNC45OTU1NiA1NC42ODIgNS41MjAxNUM1NS4yMDM5IDYuMDQ0NzQgNTUuODgwMyA2LjMwNzI0IDU2LjcxMTIgNi4zMDcyNEM1Ny41NDE2IDYuMzA3MjQgNTguMjE4NiA2LjAzOTYyIDU4LjczOTkgNS41MDQxN0M1OS4yNjE4IDQuOTY5MzUgNTkuNTIzMSA0LjI5MjQxIDU5LjUyMzEgMy40NzM3OEM1OS41MjMxIDIuNzE4MDEgNTkuMjYxOCAyLjA4ODM3IDU4LjczOTkgMS41ODQ4OEM1OC4yMTg2IDEuMDgxMzggNTcuNTQxNiAwLjgyOTEwMiA1Ni43MTEyIDAuODI5MTAyWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTU4Ljk3MjIgOC42Njg0Nkg1NC40NTAyVjI1LjYwNTdINTguOTcyMlY4LjY2ODQ2WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTY5Ljg0MTYgMjAuMTkxMUw2NS41MjI0IDguNjY4NDZINjAuODU2TDY3LjQwNjYgMjUuNjA1N0g3Mi4wNzM3TDc4LjY1MzMgOC42Njg0Nkg3NC4zMDUzTDY5Ljg0MTYgMjAuMTkxMVoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0xMTguNzcgOC40MTY5OUMxMTcuNjExIDguNDE2OTkgMTE2LjU0MyA4LjY1ODQxIDExNS41NjcgOS4xNDE0NUMxMTQuNTkxIDkuNjI0MjcgMTEzLjc4NCAxMC4zMDU5IDExMy4xNDYgMTEuMTg3MkMxMTIuNjA1IDEwLjI4NTIgMTExLjg5IDkuNTk3NDIgMTExLjAwMiA5LjEyNTQ2QzExMC4xMTIgOC42NTMyOSAxMDkuMTE3IDguNDE2OTkgMTA4LjAxNiA4LjQxNjk5QzEwNy4wMTEgOC40MTY5OSAxMDYuMDg5IDguNjA1OTkgMTA1LjI0OCA4Ljk4Mzc3QzEwNC40MDcgOS4zNjE3NiAxMDMuNjk3IDkuOTA3NDUgMTAzLjExNyAxMC42MjA4VjguNjY4NjNIOTguNzk4M1YyNS42MDU5SDEwMy4zMlYxNy4xMDZDMTAzLjMyIDE1LjYzNzIgMTAzLjYyOSAxNC41Mjk5IDEwNC4yNDggMTMuNzg0M0MxMDQuODY2IDEzLjA0MDEgMTA1LjY5NyAxMi42Njc0IDEwNi43NDEgMTIuNjY3NEMxMDguNzEyIDEyLjY2NzQgMTA5LjY5NyAxNC4wMDAyIDEwOS42OTcgMTYuNjY1M1YyNS42MDU5SDExNC4yMTlWMTcuMTA2QzExNC4yMTkgMTUuNjM3MiAxMTQuNTI4IDE0LjUyOTkgMTE1LjE0NyAxMy43ODQzQzExNS43NjUgMTMuMDQwMSAxMTYuNjA1IDEyLjY2NzQgMTE3LjY2OCAxMi42Njc0QzExOC42MTUgMTIuNjY3NCAxMTkuMzQ0IDEyLjk5NzkgMTE5Ljg1NyAxMy42NTg4QzEyMC4zNjkgMTQuMzE5OCAxMjAuNjI1IDE1LjMyMjEgMTIwLjYyNSAxNi42NjUzVjI1LjYwNTlIMTI1LjE0N1YxNS45MDk1QzEyNS4xNDcgMTMuNDEyMyAxMjQuNTcyIDExLjUzOTQgMTIzLjQyMiAxMC4yOTA2QzEyMi4yNzIgOS4wNDE1MSAxMjAuNzIxIDguNDE2OTkgMTE4Ljc3IDguNDE2OTlaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTgwLjI2MyA5LjUwMzI1QzE3OS4wNzQgOC43Nzg3OSAxNzcuNzU2IDguNDE2OTkgMTc2LjMwNiA4LjQxNjk5QzE3NC4xNjEgOC40MTY5OSAxNzIuNTI5IDkuMTUxNjcgMTcxLjQwOCAxMC42MjA4VjguNjY4NjNIMTY3LjA4OVYzMS4zNjI3TDE3MS42MTEgMzAuMTQ5VjIzLjgxMTRDMTcyLjc1MSAyNS4xNzYxIDE3NC4zMTYgMjUuODU3OCAxNzYuMzA2IDI1Ljg1NzhDMTc3Ljc1NiAyNS44NTc4IDE3OS4wNzQgMjUuNDk1OCAxODAuMjYzIDI0Ljc3MTVDMTgxLjQ1MiAyNC4wNDc3IDE4Mi4zODMgMjMuMDI5OCAxODMuMDYgMjEuNzE4MkMxODMuNzM2IDIwLjQwNjUgMTg0LjA3NSAxOC44Nzk2IDE4NC4wNzUgMTcuMTM3M0MxODQuMDc1IDE1LjM5NTggMTgzLjczNiAxMy44Njg5IDE4My4wNiAxMi41NTY2QzE4Mi4zODMgMTEuMjQ1MyAxODEuNDUyIDEwLjIyNzEgMTgwLjI2MyA5LjUwMzI1Wk0xNzguMzc5IDIwLjU1MzFDMTc3LjYzNSAyMS40MDMgMTc2LjY4MyAyMS44MjgzIDE3NS41MjQgMjEuODI4M0MxNzQuMzY0IDIxLjgyODMgMTczLjQxMyAyMS40MDMgMTcyLjY2OSAyMC41NTMxQzE3MS45MjUgMTkuNzAzMSAxNzEuNTUzIDE4LjU2NTEgMTcxLjU1MyAxNy4xMzczQzE3MS41NTMgMTUuNzEwMyAxNzEuOTI1IDE0LjU3MTQgMTcyLjY2OSAxMy43MjE1QzE3My40MTMgMTIuODcxNyAxNzQuMzY0IDEyLjQ0NjQgMTc1LjUyNCAxMi40NDY0QzE3Ni42ODMgMTIuNDQ2NCAxNzcuNjM1IDEyLjg3MTcgMTc4LjM3OSAxMy43MjE1QzE3OS4xMjMgMTQuNTcxNCAxNzkuNDk1IDE1LjcxMDMgMTc5LjQ5NSAxNy4xMzczQzE3OS40OTUgMTguNTY1MSAxNzkuMTIzIDE5LjcwMzEgMTc4LjM3OSAyMC41NTMxWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTIxMS41MjQgOS4wNDY2M0MyMTAuNjA2IDkuNDY2ODEgMjA5Ljg3NiAxMC4wODU2IDIwOS4zMzUgMTAuOTA0VjguNjY4NjNIMjA1LjAxNlYyNS42MDU5SDIwOS41MzhWMTcuNjA5NEMyMDkuNTM4IDE2LjAzNTcgMjA5LjkwNSAxNC44NTUyIDIxMC42MzkgMTQuMDY4MkMyMTEuMzczIDEzLjI4MDggMjEyLjM4OCAxMi44ODc3IDIxMy42ODMgMTIuODg3N0MyMTMuODU3IDEyLjg4NzcgMjE0LjE5NSAxMi45MDg4IDIxNC42OTggMTIuOTUwNFY4LjQxNjk5QzIxMy40OTkgOC40MTY5OSAyMTIuNDQxIDguNjI3MDggMjExLjUyNCA5LjA0NjYzWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTE2MC4yNjMgOS41MDMyNUMxNTkuMDc0IDguNzc4NzkgMTU3Ljc1NiA4LjQxNjk5IDE1Ni4zMDYgOC40MTY5OUMxNTQuMTYxIDguNDE2OTkgMTUyLjUyOSA5LjE1MTY3IDE1MS40MDggMTAuNjIwOFY4LjY2ODYzSDE0Ny4wODlWMzEuMzYyN0wxNTEuNjExIDMwLjE0OVYyMy44MTE0QzE1Mi43NTEgMjUuMTc2MSAxNTQuMzE2IDI1Ljg1NzggMTU2LjMwNiAyNS44NTc4QzE1Ny43NTYgMjUuODU3OCAxNTkuMDc0IDI1LjQ5NTggMTYwLjI2MyAyNC43NzE1QzE2MS40NTIgMjQuMDQ3NyAxNjIuMzgzIDIzLjAyOTggMTYzLjA2IDIxLjcxODJDMTYzLjczNiAyMC40MDY1IDE2NC4wNzUgMTguODc5NiAxNjQuMDc1IDE3LjEzNzNDMTY0LjA3NSAxNS4zOTU4IDE2My43MzYgMTMuODY4OSAxNjMuMDYgMTIuNTU2NkMxNjIuMzgzIDExLjI0NTMgMTYxLjQ1MiAxMC4yMjcxIDE2MC4yNjMgOS41MDMyNVpNMTU4LjM3OSAyMC41NTMxQzE1Ny42MzUgMjEuNDAzIDE1Ni42ODMgMjEuODI4MyAxNTUuNTI0IDIxLjgyODNDMTU0LjM2NCAyMS44MjgzIDE1My40MTMgMjEuNDAzIDE1Mi42NjkgMjAuNTUzMUMxNTEuOTI1IDE5LjcwMzEgMTUxLjU1MyAxOC41NjUxIDE1MS41NTMgMTcuMTM3M0MxNTEuNTUzIDE1LjcxMDMgMTUxLjkyNSAxNC41NzE0IDE1Mi42NjkgMTMuNzIxNUMxNTMuNDEzIDEyLjg3MTcgMTU0LjM2NCAxMi40NDY0IDE1NS41MjQgMTIuNDQ2NEMxNTYuNjgzIDEyLjQ0NjQgMTU3LjYzNSAxMi44NzE3IDE1OC4zNzkgMTMuNzIxNUMxNTkuMTIzIDE0LjU3MTQgMTU5LjQ5NSAxNS43MTAzIDE1OS40OTUgMTcuMTM3M0MxNTkuNDk1IDE4LjU2NTEgMTU5LjEyMyAxOS43MDMxIDE1OC4zNzkgMjAuNTUzMVoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik00OS4xMjk3IDEwLjMwNTVDNDcuOTQwOCA5LjA0NjI1IDQ2LjM4MDQgOC40MTY1OSA0NC40NDg0IDguNDE2NTlDNDMuNDQyOSA4LjQxNjU5IDQyLjUxNTkgOC41ODk2IDQxLjY2NTUgOC45MzYwN0M0MC44MTUxIDkuMjgyNTQgNDAuMDkwMyA5Ljc4MDkxIDM5LjQ5MTggMTAuNDMxN1YyLjIzOTI2TDM0Ljk2OTcgMy40NTMwMlYyNS42MDU1SDM5LjQ5MThWMTcuMjMxN0MzOS40OTE4IDE1LjcyMDIgMzkuODI5NyAxNC41ODE5IDQwLjUwNjEgMTMuODE1OUM0MS4xODI1IDEzLjA0OTkgNDIuMDkwMSAxMi42NjcgNDMuMjMwNiAxMi42NjdDNDQuMjU1IDEyLjY2NyA0NS4wMzc2IDEyLjk5NzUgNDUuNTc4OSAxMy42NTg0QzQ2LjExOTcgMTQuMzE5NCA0Ni4zOTA0IDE1LjMyMTcgNDYuMzkwNCAxNi42NjQ5VjI1LjYwNTVINTAuOTEyNFYxNS45MDkxQzUwLjkxMjQgMTMuNDMzIDUwLjMxOCAxMS41NjQ2IDQ5LjEyOTcgMTAuMzA1NVoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0yMDIuMjc4IDE4LjQ4MDJIMTkwLjQ4MUMxOTAuNjkzIDE5LjUzNjEgMTkxLjE5NSAyMC4zNjk3IDE5MS45ODggMjAuOTgxN0MxOTIuNzggMjEuNTk0MyAxOTMuNzY1IDIxLjg5OTcgMTk0Ljk0NCAyMS44OTk3QzE5NS43NTYgMjEuODk5NyAxOTYuNDc2IDIxLjc2ODMgMTk3LjEwNCAyMS41MDQxQzE5Ny43MzEgMjEuMjQgMTk4LjMxNiAyMC44MjMyIDE5OC44NTggMjAuMjUzMUwyMDEuMjYzIDIzLjEwMzFDMTk5Ljc5NSAyNC45Mzk3IDE5Ny42NDkgMjUuODU3NyAxOTQuODI5IDI1Ljg1NzdDMTkzLjA3IDI1Ljg1NzcgMTkxLjUxNCAyNS40ODM0IDE5MC4xNjIgMjQuNzMzNkMxODguODA5IDIzLjk4NSAxODcuNzY2IDIyLjk0NDYgMTg3LjAzMSAyMS42MTVDMTg2LjI5NiAyMC4yODQ3IDE4NS45MyAxOC43NzU5IDE4NS45MyAxNy4wODY4QzE4NS45MyAxNS40MTk2IDE4Ni4yOTIgMTMuOTE1NCAxODcuMDE3IDEyLjU3NDhDMTg3Ljc0MSAxMS4yMzQyIDE4OC43MzYgMTAuMTg5MyAxOTAuMDAyIDkuNDQwMDZDMTkxLjI2OCA4LjY5MDg1IDE5Mi42ODMgOC4zMTU5MiAxOTQuMjQ4IDguMzE1OTJDMTk1Ljc3NSA4LjMxNTkyIDE5Ny4xNTcgOC42NzUzOSAxOTguMzk0IDkuMzkyMzlDMTk5LjYzIDEwLjExMDcgMjAwLjYwMSAxMS4xMzk1IDIwMS4zMDcgMTIuNDc5NEMyMDIuMDEyIDEzLjgyMDcgMjAyLjM2NSAxNS4zNzcxIDIwMi4zNjUgMTcuMTQ5OUMyMDIuMzY1IDE3LjIxMzcgMjAyLjMzNiAxNy42NTY5IDIwMi4yNzggMTguNDgwMlpNMTkxLjY5OCAxMy4wMDI1QzE5MS4wMDIgMTMuNjM1OCAxOTAuNTc3IDE0LjUwMTYgMTkwLjQyMiAxNS41OTg3SDE5OC4xMDRDMTk3Ljk0OSAxNC41MjIyIDE5Ny41MjQgMTMuNjYyMiAxOTYuODI4IDEzLjAxOEMxOTYuMTMzIDEyLjM3NDQgMTk1LjI4MiAxMi4wNTIzIDE5NC4yNzggMTIuMDUyM0MxOTMuMjUzIDEyLjA1MjMgMTkyLjM5NCAxMi4zNjg2IDE5MS42OTggMTMuMDAyNVoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik05NS42OTcgMTguNTY2Mkg4My44OTk2Qzg0LjExMTkgMTkuNjIyIDg0LjYxNDMgMjAuNDU1NiA4NS40MDY5IDIxLjA2NzZDODYuMTk4OSAyMS42ODAzIDg3LjE4NDMgMjEuOTg1NiA4OC4zNjMyIDIxLjk4NTZDODkuMTc0NyAyMS45ODU2IDg5Ljg5NDcgMjEuODU0MiA5MC41MjI4IDIxLjU5MDFDOTEuMTUwMiAyMS4zMjYgOTEuNzM1MyAyMC45MDkyIDkyLjI3NjYgMjAuMzM5TDk0LjY4MjEgMjMuMTg5QzkzLjIxMzcgMjUuMDI1NiA5MS4wNjgzIDI1Ljk0MzYgODguMjQ3NiAyNS45NDM2Qzg2LjQ4ODUgMjUuOTQzNiA4NC45MzI4IDI1LjU2OTQgODMuNTgwNSAyNC44MTk1QzgyLjIyNzcgMjQuMDcwOSA4MS4xODQ1IDIzLjAzMDUgODAuNDUwMiAyMS43MDA5Qzc5LjcxNTQgMjAuMzcwNiA3OS4zNDg2IDE4Ljg2MTkgNzkuMzQ4NiAxNy4xNzI3Qzc5LjM0ODYgMTUuNTA1NSA3OS43MTA3IDE0LjAwMTMgODAuNDM1NSAxMi42NjA3QzgxLjE2MDMgMTEuMzIwMSA4Mi4xNTUxIDEwLjI3NTIgODMuNDIxMyA5LjUyNkM4NC42ODY4IDguNzc2NzggODYuMTAyMiA4LjQwMTg2IDg3LjY2NzMgOC40MDE4NkM4OS4xOTQxIDguNDAxODYgOTAuNTc1OSA4Ljc2MTMyIDkxLjgxMjUgOS40NzgzM0M5My4wNDkyIDEwLjE5NjYgOTQuMDE5OSAxMS4yMjU0IDk0LjcyNTggMTIuNTY1NEM5NS40MzExIDEzLjkwNjYgOTUuNzgzNyAxNS40NjMgOTUuNzgzNyAxNy4yMzU5Qzk1Ljc4MzcgMTcuMjk5NyA5NS43NTQ4IDE3Ljc0MjkgOTUuNjk3IDE4LjU2NjJaTTg1LjExNjggMTMuMDg4NUM4NC40MjA5IDEzLjcyMTcgODMuOTk1NyAxNC41ODc1IDgzLjg0MTIgMTUuNjg0Nkg5MS41MjNDOTEuMzY3OSAxNC42MDgyIDkwLjk0MzMgMTMuNzQ4MSA5MC4yNDc0IDEzLjEwMzlDODkuNTUxNSAxMi40NjA0IDg4LjcwMTEgMTIuMTM4MyA4Ny42OTY4IDEyLjEzODNDODYuNjcxOSAxMi4xMzgzIDg1LjgxMjYgMTIuNDU0NiA4NS4xMTY4IDEzLjA4ODVaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTQxLjA2IDEwLjI5MDRDMTQyLjM1NCAxMS41Mzk0IDE0My4wMDIgMTMuNDIyNSAxNDMuMDAyIDE1Ljk0MDlWMjUuNjA2SDEzOC43N1YyMy40OTY5QzEzNy45MTkgMjUuMDcwNiAxMzYuMzM1IDI1Ljg1NzggMTM0LjAxNiAyNS44NTc4QzEzMi44MTggMjUuODU3OCAxMzEuNzc5IDI1LjYzNzQgMTMwLjkgMjUuMTk2OEMxMzAuMDIgMjQuNzU2MSAxMjkuMzQ5IDI0LjE0NzYgMTI4Ljg4NSAyMy4zNzA3QzEyOC40MjIgMjIuNTk0NCAxMjguMTkgMjEuNzEzMSAxMjguMTkgMjAuNzI2MUMxMjguMTkgMTkuMTUyNCAxMjguNzM1IDE3LjkxNDMgMTI5LjgyOCAxNy4wMTE4QzEzMC45MTkgMTYuMTA5NCAxMzIuNjA1IDE1LjY1NzggMTM0Ljg4NiAxNS42NTc4SDEzOC40OEMxMzguNDggMTQuNTg3NiAxMzguMTggMTMuNzYzOSAxMzcuNTgyIDEzLjE4NjhDMTM2Ljk4MiAxMi42MDk3IDEzNi4wODQgMTIuMzIwOCAxMzQuODg2IDEyLjMyMDhDMTM0LjA1NCAxMi4zMjA4IDEzMy4yMzggMTIuNDYyNCAxMzIuNDM2IDEyLjc0NTVDMTMxLjYzNCAxMy4wMjkyIDEzMC45NTMgMTMuNDEyMiAxMzAuMzkzIDEzLjg5NDVMMTI4Ljc3IDEwLjQ2MzRDMTI5LjYxOSA5LjgxMzI4IDEzMC42MzkgOS4zMDkyMSAxMzEuODI3IDguOTUyNDVDMTMzLjAxNiA4LjU5NTY5IDEzNC4yMzggOC40MTY5OSAxMzUuNDk0IDguNDE2OTlDMTM3LjkxIDguNDE2OTkgMTM5Ljc2NSA5LjA0MTQ4IDE0MS4wNiAxMC4yOTA0Wk0xMzcuMjA1IDIxLjk2OTlDMTM3LjgwMyAyMS41ODE4IDEzOC4yMjkgMjEuMDA5OCAxMzguNDggMjAuMjU0VjE4LjUyMjhIMTM1LjM3OEMxMzMuNTI0IDE4LjUyMjggMTMyLjU5NiAxOS4xODM4IDEzMi41OTYgMjAuNTA1OEMxMzIuNTk2IDIxLjEzNTQgMTMyLjgyMiAyMS42MzQzIDEzMy4yNzcgMjIuMDAxM0MxMzMuNzMxIDIyLjM2OSAxMzQuMzU0IDIyLjU1MjEgMTM1LjE0NyAyMi41NTIxQzEzNS45MTkgMjIuNTUyMSAxMzYuNjA2IDIyLjM1ODcgMTM3LjIwNSAyMS45Njk5WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTI0LjcwNzQgMTEuMjkzOEwyNi4xMzQ4IDguODIxNDlMMjQuMTM3NyA1LjM2MjcyTDI4LjU2OTEgNS4zNjI3N0MyOC4wMjMxIDQuNDE2NjggMjcuMDEzNyAzLjgzMzk0IDI1LjkyMTUgMy44MzM3N0wyMy4yNTk2IDMuODMzOTRMMjEuOTI4OSAxLjUyODYxQzIxLjM4MjcgMC41ODI3NDMgMjAuMzczNCA1LjY4MTMyZS0wNSAxOS4yODEyIDBMMTkuMjgwOSAwLjAwMDE1MTQ5NUwyMS40OTY3IDMuODM3OTlMMTcuNTAyNyAzLjgzNzc2TDE2LjEwNDYgNi4yNTkzN0MxNi4xMDQ1IDYuMjU5MzcgMTYuMTA0MyA2LjI1OTIxIDE2LjEwNDIgNi4yNTkxMkwxNi4xMDE4IDYuMjQ4NjlIMTYuMDQ2N0MxNC40MTU1IDUuOTY2MzMgMTIuNzYzMyA1Ljk3MzIyIDExLjE2MiA2LjI0ODUzQzcuMDk1NzggNi45NDc3NyAzLjM1ODYgOS4zODA4OSAxLjEzNDU4IDEzLjIzM0MwLjY2OTM1NyAxNC4wMzg4IDAuMjk0NDIgMTQuODcxNCAwIDE1LjcxODZMOC42MTg0IDE1LjcxODhMMjAuMjg3NyAyMi40NTZMMjQuNDY1MiAyOS44NDAzQzI1LjA1MDkgMjkuMTYyNCAyNS41ODM5IDI4LjQyMjEgMjYuMDQ4NiAyNy42MTcxQzI4LjI3MjcgMjMuNzY1IDI4LjUxMTEgMTkuMzEyMyAyNy4wODM2IDE1LjQ0MTNDMjYuNTMzNSAxMy45NDk1IDI1LjczNDcgMTIuNTQ1IDI0LjcwNzQgMTEuMjkzOFpNMjIuMjQ1NCAxNS4yNjQ0TDIwLjQyNSAxOC40MTc0TDIwLjM4MDggMTguNDkzOEwxMS44NzYgMTMuNTgzNkwxMS44NzgyIDEzLjU3OThMMTEuODY5MyAxMy41Nzk3TDEzLjc3OCAxMC4yNzM3TDEzLjc4MzUgMTAuMjc5N0wyMi4yODgzIDE1LjE4OTlMMjIuMjQ1NCAxNS4yNjQ0WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTEwLjY5NTQgMjUuNTk2MkwxOC40NzUgMjUuNTk2MUw2LjgwNTY2IDE4Ljg1ODlMMTAuNjk1NCAyNS41OTYyWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==)](/explorer)
+
+Build the Map
+
+Use the Map
+
+Privacy OverviewPrivacy PolicyRedaction Request
+
+HIVEMAPPER
+
+Image Collection
+
+The Hivemapper Network is designed to protect people's privacy while
+collecting imagery to build and update a global map. Your personal information
+and location data are not the product being monetized. The Hivemapper Network
+is building a private mapping network that offers contributors anonymity.
+
+What Is Collected?
+
+The Hivemapper Dashcam is an open-source product that collects information in
+a privacy-centric manner. The primary pieces of data it collects includes:
+
+Imagery
+
+Street-level imagery in
+
+2K and 4K resolution
+
+GNSS Data
+
+Accurately positions map
+
+imagery and features
+
+IMU Data
+
+Inertial Measurement Unit sensor
+
+that measures acceleration
+
+[Learn More](https://github.com/hivemapper/odc)
+
+How Imagery Data Is Used
+
+We build Map APIs that businesses can consume.
+
+Map Imagery API
+
+Customers can access geolocated
+
+imagery with enhanced privacy.
+
+Map Features API
+
+Objects like speed limit signs, stop signs,
+
+traffic lights, and more.
+
+[Learn More](https://hivemapper.com/product/)
+
+Privacy by Design
+
+Randomly Generated Usernames + Location Data + Imagery collected
+
+Each Contributorâs username is randomly generated to ensure anonymity, and
+contributorsâ location data and imagery collected is never publicly tied to
+a username or Hivemapper profile.
+
+Privacy Blurring
+
+Automatically blurs faces, license plates, cars, and bodies from the imagery
+on the edge - dashcam mapping device - prior to uploading imagery.
+
+Edge Processing
+
+The Hivemapper Dashcam automatically privacy blurs images and detects objects
+(e.g., speed limit signs) on the edge.
+
+Privacy Zones
+
+Personal and network level privacy zones where all data collection is
+automatically paused.
+
+No Identifiable Info Collected from Contributors
+
+We donât collect information that we can use to identify contributors to the
+map, but could receive personal information either when you purchase a
+Hivemapper Dashcam (for sales purposes) or contact us (for customer support
+purposes).
+
+No Personal Info Collected from Road Users (bystanders)
+
+When contributors collect imagery, faces, license plates, cars, and bodies are
+automatically blurred on their Hivemapper Dashcams, to ensure the imagery we
+receive does not include personal information of road users (bystanders).
+Unblurred imagery is never shared with the Hivemapper App and Hivemapper has
+no access to unblurred imagery.
+
+Transparency
+
+In certain countries we require you to display a placard on your vehicle
+indicating that you are collecting for a map.[ See here
+](https://bee.hivemapper.com/onboarding-hivemapper-dashcam#legal-placards)for
+the countries and placards.
+
+Open-Source Dashcam
+
+People can inspect the code and see what data is being collected and how
+itâs being collected, [see here.](https://github.com/hivemapper/odc)
+
+[View More](https://docs.hivemapper.com/main-concepts/privacy)
+
+Frequently Asked Questions
+
+What is the imagery used for?
+
+To build and update a map for purposes of street-level navigation and
+exploring the world.
+
+Who can access the collected data?
+
+Customers who pay for access to the Map API, [See
+here](https://hivemapper.com/product/) to learn about the data products we
+sell.
+
+How long is the imagery kept?
+
+One year from the point of collection, sometimes less.
+
+Can I map anywhere?
+
+You can map in any country, but all data collection from the Hivemapper
+Dashcam is automatically paused within privacy zones (e.g., military bases).
+
+Does the Hivemapper Dashcam or App include third-party analytics?
+
+The Hivemapper Dashcam and the Hivemapper App for iPhone and Android do not
+send behavioral data to third-parties.
+
+Can the dashcam see my personal car garage?
+
+By default, mapping is paused in the first 500 meters of every trip. You can
+adjust trip trimming to 1,000 meters. Additionally, contributors can set
+personal privacy zones around specific locations. When your dashcam is within
+a personal privacy zone, mapping is automatically paused.
+
+Can people see where a specific contributor is collecting or what imagery they
+have collected?
+
+No, each contributorâs username is randomly generated to ensure anonymity.
+No contributorsâ location data or imagery collected is publicly tied to this
+username.
+
+Is all imagery privacy blurred?
+
+Yes, faces, license plates, cars, and bodies are automatically blurred on the
+contributorâs Hivemapper Dashcam. Un-blurred imagery is not shared with the
+Hivemapper App and Hivemapper has no access to unblurred imagery.
+
+Request Takedown
+
+Hivemapper can assist with further blurring or deleting of imagery an
+individual considers sensitive or their personal information (e.g. a face,
+body, vehicle, license plate or home). If you would like to request this,
+please [complete this form](/redaction-request) or send us a message to
+[privacy@hivemapper.com.](mailto:privacy@hivemapper.com)
+
+Active Imagery Collection
+
+As of Q2 2024, imagery is being actively collected at these locations. You can
+also view map coverage[ here.](https://hivemapper.com/explorer)
+
+COUNTRY
+
+STATE/PROVINCE
+
+Hong Kong
+
+Islands District
+
+Hong Kong
+
+Kwai Tsing District
+
+Hong Kong
+
+North District
+
+Hong Kong
+
+Sai Kung District
+
+Hong Kong
+
+Sha Tin District
+
+Hong Kong
+
+Tsuen Wan District
+
+Hong Kong
+
+Tuen Mun District
+
+Hong Kong
+
+Yuen Long District
+
+Hong Kong
+
+Tai Po District
+
+Hong Kong
+
+Kowloon City District
+
+Hong Kong
+
+Kwun Tong District
+
+Hong Kong
+
+Sham Shui District
+
+Hong Kong
+
+Wong Tai Sin District
+
+Hong Kong
+
+Yau Tsim Mong District
+
+Hong Kong
+
+Central & Western District
+
+Hong Kong
+
+Eastern District
+
+Hong Kong
+
+Southern District
+
+Hong Kong
+
+Wan Chai District
+
+Kuwait
+
+Kuwait City
+
+Kuwait
+
+Siddeeq
+
+Kuwait
+
+Ahmadi
+
+Kuwait
+
+Jileeb Al-Shiyukh
+
+Kuwait
+
+Al Jahra
+
+Kuwait
+
+North West Sulaibikhat
+
+Honduras
+
+Tegucigalpa
+
+Honduras
+
+Comayaga
+
+Honduras
+
+Islas de la Bahia
+
+El Salvador
+
+San Francisco Gotera
+
+El Salvador
+
+San Miguel
+
+El Salvador
+
+Neuva Guadalupe
+
+El Salvador
+
+El Triunfo
+
+El Salvador
+
+Vista Hermosa
+
+El Salvador
+
+San Lorenzo
+
+El Salvador
+
+CaserÃ­o Los Jobos
+
+El Salvador
+
+Santo Domingo
+
+El Salvador
+
+Ilobasco
+
+El Salvador
+
+La UniÃ³n
+
+El Salvador
+
+San Juan Talpa
+
+El Salvador
+
+San TomÃ¡s
+
+El Salvador
+
+San Marcos
+
+El Salvador
+
+Santa Tecla
+
+El Salvador
+
+ColÃ³n
+
+El Salvador
+
+Ciudad Arce
+
+El Salvador
+
+Las Aradas
+
+El Salvador
+
+El Guineo
+
+United States
+
+Alaska
+
+Andorra
+
+Sant JuliÃ de LÃ²ria
+
+Andorra
+
+Andorra la Vella
+
+Andorra
+
+La Massana
+
+Andorra
+
+Ordino
+
+Andorra
+
+La Cortinada
+
+Andorra
+
+Encamp
+
+United States
+
+Hawaii
+
+Andorra
+
+Canillo
+
+Andorra
+
+El Tarter
+
+Barbados
+
+Oistins
+
+Barbados
+
+Bridgetown
+
+Barbados
+
+Holetown
+
+Barbados
+
+Speightstown
+
+Barbados
+
+Belleplaine
+
+Barbados
+
+Bathsheba
+
+Barbados
+
+Bath
+
+Barbados
+
+Sherbourne
+
+Trinidad and Tobago
+
+Port of Spain
+
+Trinidad and Tobago
+
+San Juan
+
+Trinidad and Tobago
+
+Maracas
+
+Barbados
+
+Six Cross Roads
+
+Andorra
+
+El Pas de la Casa
+
+Liechtenstein
+
+Mauren
+
+Liechtenstein
+
+Eschen
+
+Liechtenstein
+
+Schaan
+
+Liechtenstein
+
+Vaduz
+
+Liechtenstein
+
+Triesen
+
+Liechtenstein
+
+Balzers
+
+Monaco
+
+Moneghetti
+
+Monaco
+
+La Condamine
+
+Monaco
+
+Monaco-Ville
+
+Monaco
+
+Les Revoires
+
+Monaco
+
+La Colle
+
+San Marino
+
+City of San Marino
+
+San Marino
+
+Borgo Maggiore
+
+United States
+
+Florida
+
+Burkina Faso
+
+Ouagadougou
+
+Burkina Faso
+
+Loumbila
+
+Burkina Faso
+
+ZiniarÃ©
+
+Burkina Faso
+
+Komsilga
+
+Tanzania
+
+Dar es Salaam
+
+Kyrgyzstan
+
+Bishkek
+
+Kyrgyzstan
+
+Tokmok
+
+Kyrgyzstan
+
+Kemin
+
+Kyrgyzstan
+
+Tort-Kul
+
+Cambodia
+
+Phnom Penh
+
+Cambodia
+
+Ta Khmao
+
+Cambodia
+
+Angk Snuol District
+
+Cambodia
+
+Chbar Mon
+
+San Marino
+
+Faetano
+
+Singapore
+
+Tuas
+
+Singapore
+
+Jurong West
+
+Singapore
+
+Jurong
+
+Singapore
+
+Sungei Kadut
+
+1234567891011121314
+
+[Blog](/blog)
+
+[Careers](/careers)
+
+[Media Kit](/media-kit)
+
+[Privacy](/privacy)
+
+[](https://discord.com/invite/FRWMKyy5v2)[](https://twitter.com/Hivemapper)[](https://www.instagram.com/hivemapper)
+
+![](https://t.co/i/adsct?bci=3&eci=2&event_id=db14f33c-2e85-4e1e-af12-9c4624c6e78f&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=ec3b413f-1756-4b47-8e72-6b8e46f3549e&tw_document_href=https%3A%2F%2Fhivemapper.com%2Fprivacy%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o8cxm&type=javascript&version=2.3.30)![](https://analytics.twitter.com/i/adsct?bci=3&eci=2&event_id=db14f33c-2e85-4e1e-af12-9c4624c6e78f&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=ec3b413f-1756-4b47-8e72-6b8e46f3549e&tw_document_href=https%3A%2F%2Fhivemapper.com%2Fprivacy%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o8cxm&type=javascript&version=2.3.30)
+

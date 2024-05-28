@@ -1,0 +1,36 @@
+{
+    "target_url": "http://hivemapper.com/privacy",
+    "domains": {
+        "": [
+            "mailto:privacy@hivemapper.com"
+        ],
+        "bee.hivemapper.com": [
+            "https://bee.hivemapper.com/onboarding-hivemapper-dashcam#legal-placards"
+        ],
+        "discord.com": [
+            "https://discord.com/invite/FRWMKyy5v2"
+        ],
+        "docs.hivemapper.com": [
+            "https://docs.hivemapper.com/main-concepts/privacy"
+        ],
+        "github.com": [
+            "https://github.com/hivemapper/odc"
+        ],
+        "hivemapper.com": [
+            "http://hivemapper.com/blog",
+            "http://hivemapper.com/careers",
+            "http://hivemapper.com/explorer",
+            "http://hivemapper.com/media-kit",
+            "http://hivemapper.com/privacy",
+            "http://hivemapper.com/redaction-request",
+            "https://hivemapper.com/explorer",
+            "https://hivemapper.com/product/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/Hivemapper"
+        ],
+        "www.instagram.com": [
+            "https://www.instagram.com/hivemapper"
+        ]
+    }
+}
