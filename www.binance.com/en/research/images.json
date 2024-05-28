@@ -1,0 +1,30 @@
+{
+    "target_url": "https://www.binance.com/en/research",
+    "domains": {
+        "bin.bnbstatic.com": [
+            "https://bin.bnbstatic.com/kline/BNBUSDT.svg",
+            "https://bin.bnbstatic.com/kline/BTCUSDT.svg",
+            "https://bin.bnbstatic.com/kline/ETHUSDT.svg",
+            "https://bin.bnbstatic.com/kline/UNIUSDT.svg",
+            "https://bin.bnbstatic.com/static/images/common/logo.png",
+            "https://bin.bnbstatic.com/static/research-new-ui/images/common/research-logo.svg",
+            "https://bin.bnbstatic.com/static/research-new-ui/images/quoted-by/bankofspain.svg",
+            "https://bin.bnbstatic.com/static/research-new-ui/images/quoted-by/bloomberg.svg",
+            "https://bin.bnbstatic.com/static/research-new-ui/images/quoted-by/coindesk.svg",
+            "https://bin.bnbstatic.com/static/research-new-ui/images/quoted-by/cointelegraph.svg",
+            "https://bin.bnbstatic.com/static/research-new-ui/images/quoted-by/decrypt.svg",
+            "https://bin.bnbstatic.com/static/research-new-ui/images/quoted-by/fortune.svg",
+            "https://bin.bnbstatic.com/static/research-new-ui/images/quoted-by/independent.svg",
+            "https://bin.bnbstatic.com/static/research-new-ui/images/quoted-by/yahoofinance.svg"
+        ],
+        "public.saasexch.com": [
+            "https://public.saasexch.com/static/cms/cmsSassLandingPage1/202404/b56d049afdcbe237dae1182dca19dc4b.jpg",
+            "https://public.saasexch.com/static/cms/cmsSassLandingPage1/202405/5f3b074269d2c6cae5c72a5070715bc4.png",
+            "https://public.saasexch.com/static/cms/cmsSassLandingPage1/202405/89b04eb56c9e7391fa823e6e36705060.png",
+            "https://public.saasexch.com/static/cms/cmsSassLandingPage1/202405/8d12f6cc0459dc23c69efda0eda1f59f.png",
+            "https://public.saasexch.com/static/cms/cmsSassLandingPage1/202405/a66fbf8cc6721de5ae94d5d9ed22eff3.jpg",
+            "https://public.saasexch.com/static/cms/cmsSassLandingPage1/202405/d817c55c156f6af7c358e537cad5520f.png",
+            "https://public.saasexch.com/static/cms/cmsSassLandingPage1/202405/f55de98237a93cb4abaf0b0acbb9e990.jpg"
+        ]
+    }
+}
