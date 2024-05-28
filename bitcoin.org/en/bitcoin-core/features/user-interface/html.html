@@ -1,0 +1,1045 @@
+<!DOCTYPE html><html lang="en"><head>
+
+
+<link rel="stylesheet" href="/css/jquery-ui.min.css">
+
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>User Interface - Bitcoin Core Features</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+
+<script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.org is a community funded project, donations are appreciated and used to improve the website.
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        Make a donation
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.org needs your support!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">Donate to Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">Use this QR code or address below</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="Or custom amount? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="Or custom amount? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="Optional description (for your wallet)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+    
+
+<a class="logo" href="/en/bitcoin-core/"><img src="/img/bitcoin-core/bitcoin-core.svg?1716491272" alt="Bitcoin"></a>
+
+    
+
+<ul id="menusimple" class="menusimple menucore" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">Features</a>
+    <ul>
+      <li><a href="/en/bitcoin-core/features/">Overview</a></li>
+      <li><a href="/en/bitcoin-core/features/validation">Validation</a></li>
+      <li><a href="/en/bitcoin-core/features/privacy">Privacy</a></li>
+      <li><a href="/en/bitcoin-core/features/requirements">Requirements</a></li>
+      <li class="active"><a href="/en/bitcoin-core/features/user-interface">User Interface</a></li>
+      <li><a href="/en/bitcoin-core/features/network-support">Network Support</a></li>
+    </ul>
+  </li>
+  <li><a href="/en/bitcoin-core/help">Get Help</a></li>
+  <li><a class="is-expand">Contribute</a>
+    <ul>
+      <li><a href="/en/bitcoin-core/contribute/issues">Bug reports</a></li>
+      <li><a href="/en/development">Code</a></li>
+      <li><a href="/en/bitcoin-core/contribute/documentation">Documentation</a></li>
+      <li><a href="/en/bitcoin-core/contribute/translations">Translations</a></li>
+      <li><a href="/en/bitcoin-core/contribute/support">Tech Support</a></li>
+    </ul>
+  </li>
+  <li><a href="/en/version-history">News</a></li>
+  <li><a href="/en/download">Download</a></li>
+</ul>
+
+  
+    
+<ul class="lang is-expand">
+  <li><a>English</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/">Dansk</a></li>
+        
+        
+          <li><a href="/de/">Deutsch</a></li>
+        
+        
+          <li><a href="/en/" class="active">English</a></li>
+        
+        
+          <li><a href="/es/">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/">Italiano</a></li>
+        
+        
+          <li><a href="/hu/">Magyar</a></li>
+        
+        
+          <li><a href="/nl/">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/">Srpski</a></li>
+        
+        
+          <li><a href="/sv/">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/">ááááá</a></li>
+        
+        
+          <li><a href="/ja/">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+    
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/">Bahasa Indonesia</option>
+            
+            <option value="/ca/">CatalÃ </option>
+            
+            <option value="/da/">Dansk</option>
+            
+            <option value="/de/">Deutsch</option>
+            
+            <option value="/en/" selected="selected">English</option>
+            
+            <option value="/es/">EspaÃ±ol</option>
+            
+            <option value="/fr/">FranÃ§ais</option>
+            
+            <option value="/it/">Italiano</option>
+            
+            <option value="/hu/">Magyar</option>
+            
+            <option value="/nl/">Nederlands</option>
+            
+            <option value="/pl/">Polski</option>
+            
+            <option value="/pt_BR/">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/">RomÃ¢nÄ</option>
+            
+            <option value="/sl/">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/">Srpski</option>
+            
+            <option value="/sv/">Svenska</option>
+            
+            <option value="/tr/">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/">×¢××¨××ª</option>
+            
+            <option value="/hi/">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/">íêµ­ì´</option>
+            
+            <option value="/km/">ááááá</option>
+            
+            <option value="/ja/">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">en</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+    
+
+<div class="breadcrumbs">
+  <div class="container">
+      
+    <a href="/en/">Bitcoin</a>
+     &gt;    
+    <a href="/en/bitcoin-core/">Core</a>
+     &gt;    
+    <a href="/en/bitcoin-core/features/">Features</a>
+     &gt;    Interface   
+  </div>
+</div>
+
+  
+  
+
+<div id="content" class="content">
+    <div class="hero">
+<div class="container hero-container">
+
+    <h1 id="bitcoin-cores-user-interface">Bitcoin Coreâs User Interface</h1>
+  </div>
+</div>
+
+<div class="bitcore-content">
+<div class="container">
+
+    <p><img src="/img/bitcoin-core/slider-ui.svg?1716491272" alt="Bitcoin Core User Interface"></p>
+
+    <div class="callout">
+  <a class="callout-btn btn-bright" href="/en/download">Download Bitcoin Core</a>
+  <div class="row callout-row">
+    <span class="btn-subtext">Bitcoin Core 27.0</span>
+    <div>
+      <img class="callout-img" src="/img/os/windows.png?1716491272" alt="Windows">
+      <img class="callout-img" src="/img/os/mac.png?1716491272" alt="Mac">
+      <img class="callout-img" src="/img/os/linux.png?1716491272" alt="Linux">
+    </div>
+  </div>
+  <hr class="separator btn-separator">
+</div>
+
+    <p>Bitcoin Core has a built in wallet with <a href="#graphical">graphical</a> and
+<a href="#cli">command line/API</a> modes. It can also simultaneously support multiple
+lightweight wallets with similar <a href="/en/bitcoin-core/features/validation">security</a> and
+<a href="/en/bitcoin-core/features/privacy">privacy</a> to its built-in wallet.</p>
+
+    <p><img src="/img/bitcoin-core/multi-wallet-support.svg?1716491272" alt="Multiple wallet support"></p>
+
+    <p><strong>Warning:</strong> you only get the security and privacy benefits in supported
+lightweight wallets if they make a secure and private connection to your
+Bitcoin Core <em>every</em> time you use them. This usually requires special
+configuration.</p>
+
+    <h2 id="graphical" class=" anchorAf"><a href="#graphical"></a>Bitcoin Core Wallet GUI (Graphical)</h2>
+
+    <div class="row card-row">
+
+      <div class="card core-card">
+<img src="/img/icons/ico_clear.svg?1716491272" alt="icon">
+<h3 class="popup js anchorAf" id="clear-overview" data-container="gui_overview"><a href="#clear-overview"></a>Clear overview</h3>
+<p>See your current balance and recent transactions</p>
+</div>
+
+      <div class="card core-card">
+<img src="/img/icons/ico_fee_slider.svg?1716491272" alt="icon">
+<h3 class="popup js anchorAf" id="fee-slider" data-container="gui_fee_slider"><a href="#fee-slider"></a>Fee slider</h3>
+<p>Easily choose between low fees and fast confirmation</p>
+</div>
+
+      <div class="card core-card">
+<img src="/img/icons/ico_coin_control.svg?1716491272" alt="icon">
+<h3 class="popup js anchorAf" id="coin-control" data-container="gui_coin_control"><a href="#coin-control"></a>Coin control</h3>
+<p>Enhance privacy or save money by choosing your inputs</p>
+</div>
+
+      <div class="card core-card">
+<img src="/img/icons/ico_qrcode.svg?1716491272" alt="icon">
+<h3 class="popup js anchorAf" id="qr-codes" data-container="gui_qr_codes"><a href="#qr-codes"></a>QR codes</h3>
+<p>Generate QR codes to receive payment</p>
+</div>
+
+      <div class="card core-card">
+<img src="/img/icons/ico_invoices.svg?1716491272" alt="icon">
+<h3 class="popup js anchorAf" id="unique-invoices" data-container="gui_unique_invoices"><a href="#unique-invoices"></a>Unique invoices</h3>
+<p>Easily track who paid you</p>
+</div>
+
+      <div class="card core-card">
+<img src="/img/icons/ico_control.svg?1716491272" alt="icon">
+<h3 class="popup js anchorAf" id="proxy-configuration" data-container="gui_proxy_configuration"><a href="#proxy-configuration"></a>Proxy configuration</h3>
+<p>Use Tor or a proxy for privacy</p>
+</div>
+
+      <div class="card core-card">
+<img src="/img/icons/ico_monitoring.svg?1716491272" alt="icon">
+<h3 class="popup js anchorAf" id="network-monitoring" data-container="gui_network_monitoring"><a href="#network-monitoring"></a>Network monitoring</h3>
+<p>Track how much bandwidth you use</p>
+</div>
+
+      <div class="card core-card">
+<img src="/img/icons/ico_watch-only.svg?1716491272" alt="icon">
+<h3 class="popup js anchorAf" id="support" data-container="gui_watch_only"><a href="#support"></a>Watch-only support</h3>
+<p>Track bitcoins stored safely offline</p>
+</div>
+
+    </div>
+
+    <h2 id="cli" class=" anchorAf"><a href="#cli"></a>Bitcoin Core Wallet RPC/REST (CLI)</h2>
+
+    <div class="row card-row">
+
+      <div class="card core-card">
+<img src="/img/icons/get-new-address.svg?1716491272" alt="icon">
+<h3 class="popup js anchorAf" id="GetNewAddress" data-container="rpc_getnewaddress"><a href="#GetNewAddress"></a>GetNewAddress</h3>
+<p>Get a new address for receiving payment</p>
+</div>
+
+      <div class="card core-card">
+<img src="/img/icons/get-balance.svg?1716491272" alt="icon">
+<h3 class="popup js anchorAf" id="GetBalance" data-container="rpc_getbalance"><a href="#GetBalance"></a>GetBalance</h3>
+<p>Instantly see your available Bitcoin balance</p>
+</div>
+
+      <div class="card core-card">
+<img src="/img/icons/ico_send.svg?1716491272" alt="icon">
+<h3 class="popup js anchorAf" id="SendMany" data-container="rpc_sendmany"><a href="#SendMany"></a>SendMany</h3>
+<p>Send a single payment to multiple addresses</p>
+</div>
+
+      <div class="card core-card">
+<img src="/img/icons/ico_list.svg?1716491272" alt="icon">
+<h3 class="popup js anchorAf" id="ListUnspent" data-container="rpc_listunspent"><a href="#ListUnspent"></a>ListUnspent</h3>
+<p>See what received transactions you can spend</p>
+</div>
+
+      <div class="card core-card">
+<img src="/img/icons/create-sign-send.svg?1716491272" alt="icon">
+<h3 class="popup js anchorAf" id="create-sign-send" data-container="rpc_rawtx"><a href="#create-sign-send"></a>Create/Sign/Send</h3>
+<p>Create and send raw transactions</p>
+</div>
+
+      <div class="card core-card">
+<img src="/img/icons/ico_notification.svg?1716491272" alt="icon">
+<h3 class="popup js anchorAf" id="Notification" data-container="notification"><a href="#Notification"></a>Notification</h3>
+<p>Be notified of new blocks and transactions</p>
+</div>
+
+    </div>
+
+    <div class="alert ui-alert">
+      <p><strong>Learn more:</strong> documentation for the <a href="https://bitcoin.org/en/developer-reference#bitcoin-core-apis">Bitcoin Core APIs</a></p>
+    </div>
+
+    <h2 id="lightweight" class=" anchorAf"><a href="#lightweight"></a>Lightweight Wallets Using Bitcoin Core</h2>
+
+    <div class="row lightweight-wallets-row">
+
+      <div>
+        <p><img src="/img/bitcoin-core/connection-types-p2p-spv.svg?1716491272" alt="Non-private connection"></p>
+
+        <p>Lightweight wallets usually connect to several random full nodes (like
+Bitcoin Core) to send and receive all of their data. In the process they
+<a href="/en/bitcoin-core/features/privacy#perfect-privacy-for-received-transactions">leak private data</a> and make themselves more
+<a href="/en/bitcoin-core/features/validation#how-validation-protects-your-bitcoins">vulnerable to attacks</a>.</p>
+      </div>
+
+      <div>
+
+        <p><img src="/img/bitcoin-core/connection-types-trusted-peer.svg?1716491272" alt="Secure and private connection"></p>
+
+        <p>But itâs also possible to connect certain lightweight wallets solely to
+your own Bitcoin Core full node, called a trusted peer. If you do this
+with a secure and private connection every time you use that
+lightweight wallet, youâll get most of the security and privacy
+benefits of a full node as well as <a href="/en/bitcoin-core/features/validation#help-protect-decentralization">help protect decentralization</a>.</p>
+
+      </div>
+    </div>
+
+    <div class="not-displayed">
+  <div id="gui_overview" title="Wallet Overview">
+        <p><img src="/img/bitcoin-core/clear-overview.png?1716491272" alt="Clear overview"></p>
+      </div>
+
+  <div id="gui_fee_slider" title="Fee Slider">
+        <p><img src="/img/bitcoin-core/fee-slider.png?1716491272" alt="Fee slider"></p>
+      </div>
+
+  <div id="gui_coin_control" title="Coin Control">
+        <p><img src="/img/bitcoin-core/coin-control.png?1716491272" alt="Coin control"></p>
+      </div>
+
+  <div id="gui_qr_codes" title="QR Codes">
+        <p><img src="/img/bitcoin-core/qr-codes.png?1716491272" alt="QR codes"></p>
+      </div>
+
+  <div id="gui_unique_invoices" title="Unique Invoices">
+        <p><img src="/img/bitcoin-core/unique-invoice.png?1716491272" alt="Unique invoice"></p>
+      </div>
+
+  <div id="gui_proxy_configuration" title="Proxy Configuration">
+        <p><img src="/img/bitcoin-core/proxy-configuration.png?1716491272" alt="Proxy configuration"></p>
+      </div>
+
+  <div id="gui_network_monitoring" title="Network monitoring">
+        <p><img src="/img/bitcoin-core/network-monitoring.png?1716491272" alt="Network monitoring"></p>
+      </div>
+
+  <div id="gui_watch_only" title="Watching-only Wallets">
+        <p><img src="/img/bitcoin-core/watching-only.png?1716491272" alt="Fee slider"></p>
+      </div>
+
+  <div id="rpc_getnewaddress" title="GetNewAddress">
+        <div class="multicode">
+
+          <figure class="highlight"><pre><code class="language-bash" data-lang="bash">  bitcoin-cli <span class="nt">-testnet</span> getnewaddress <span class="s2">"doc test"</span>
+  </code></pre></figure>
+
+          <figure class="highlight"><pre><code class="language-text" data-lang="text">  mft61jjkmiEJwJ7Zw3r1h344D6aL1xwhma
+  </code></pre></figure>
+
+        </div>
+      </div>
+
+  <div id="rpc_getbalance" title="GetBalance">
+        <div class="multicode">
+
+          <figure class="highlight"><pre><code class="language-bash" data-lang="bash">  bitcoin-cli <span class="nt">-testnet</span> getbalance
+  </code></pre></figure>
+
+          <figure class="highlight"><pre><code class="language-json" data-lang="json"><span class="w">  </span><span class="mf">1.99900000</span><span class="w">
+  </span></code></pre></figure>
+
+        </div>
+      </div>
+
+  <div id="rpc_sendmany" title="SendMany">
+        <div class="multicode">
+
+          <figure class="highlight"><pre><code class="language-bash" data-lang="bash">  bitcoin-cli <span class="nt">-testnet</span> sendmany <span class="se">\</span>
+    <span class="s2">"test1"</span> <span class="se">\</span>
+    <span class="s1">'''
+      {
+        "mjSk1Ny9spzU2fouzYgLqGUD8U41iR35QN": 0.1,
+        "mgnucj8nYqdrPFh2JfZSB1NmUThUGnmsqe": 0.2
+      } '''</span> <span class="se">\</span>
+    6       <span class="se">\</span>
+    <span class="s2">"Example Transaction"</span>
+  </code></pre></figure>
+
+          <figure class="highlight"><pre><code class="language-text" data-lang="text">  ec259ab74ddff199e61caa67a26e29b13b5688dc60f509ce0df4d044e8f4d63d
+  </code></pre></figure>
+
+        </div>
+      </div>
+
+  <div id="rpc_listunspent" title="ListUnspent">
+        <div class="multicode">
+
+          <figure class="highlight"><pre><code class="language-bash" data-lang="bash">  bitcoin-cli <span class="nt">-testnet</span> listunspent 6 99999999 <span class="s1">'''
+    [
+      "mgnucj8nYqdrPFh2JfZSB1NmUThUGnmsqe"
+    ]
+  '''</span>
+  </code></pre></figure>
+
+          <figure class="highlight"><pre><code class="language-json" data-lang="json"><span class="w">  </span><span class="p">[</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"txid"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"d54994ece1d11b19785c7248868696250ab195605b469632b7bd68130e880c9a"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"vout"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"address"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"mgnucj8nYqdrPFh2JfZSB1NmUThUGnmsqe"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"account"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"test label"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"scriptPubKey"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"76a9140dfc8bafc8419853b34d5e072ad37d1a5159f58488ac"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"amount"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="mf">0.00010000</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"confirmations"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="mi">6210</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"spendable"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+  </span><span class="p">]</span><span class="w">
+  </span></code></pre></figure>
+
+        </div>
+      </div>
+
+  <div id="rpc_rawtx" title="Create/Sign/Spent Raw Transactions">
+        <p>Create a raw transaction:</p>
+
+        <div class="multicode">
+
+          <figure class="highlight"><pre><code class="language-bash" data-lang="bash">  bitcoin-cli <span class="nt">-testnet</span> createrawtransaction <span class="s1">'''
+    [
+      {
+        "txid": "1eb590cd06127f78bf38ab4140c4cdce56ad9eb8886999eb898ddf4d3b28a91d",
+        "vout" : 0
+      }
+    ]'''</span> <span class="s1">'{ "mgnucj8nYqdrPFh2JfZSB1NmUThUGnmsqe": 0.13 }'</span>
+  </code></pre></figure>
+
+          <figure class="highlight"><pre><code class="language-text" data-lang="text">  01000000011da9283b4ddf8d89eb996988b89ead56cecdc44041ab38bf787f1206cd90b51e0000000000ffffffff01405dc600000000001976a9140dfc8bafc8419853b34d5e072ad37d1a5159f58488ac00000000
+  </code></pre></figure>
+
+        </div>
+
+        <p>Sign the above raw transaction:</p>
+
+        <div class="multicode">
+
+          <figure class="highlight"><pre><code class="language-bash" data-lang="bash">  bitcoin-cli <span class="nt">-testnet</span> signrawtransaction 01000000011da9283b4ddf8d<span class="se">\</span>
+  89eb996988b89ead56cecdc44041ab38bf787f1206cd90b51e0000000000ffff<span class="se">\</span>
+  ffff01405dc600000000001976a9140dfc8bafc8419853b34d5e072ad37d1a51<span class="se">\</span>
+  59f58488ac00000000
+  </code></pre></figure>
+
+          <figure class="highlight"><pre><code class="language-json" data-lang="json"><span class="w">  </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"hex"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"01000000011da9283b4ddf8d89eb996988b89ead56cecdc44041ab38bf787f1206cd90b51e000000006a47304402200ebea9f630f3ee35fa467ffc234592c79538ecd6eb1c9199eb23c4a16a0485a20220172ecaf6975902584987d295b8dddf8f46ec32ca19122510e22405ba52d1f13201210256d16d76a49e6c8e2edc1c265d600ec1a64a45153d45c29a2fd0228c24c3a524ffffffff01405dc600000000001976a9140dfc8bafc8419853b34d5e072ad37d1a5159f58488ac00000000"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"complete"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+  </span></code></pre></figure>
+
+        </div>
+
+        <p>Send the above signed raw transaction:</p>
+
+        <div class="multicode">
+
+          <figure class="highlight"><pre><code class="language-bash" data-lang="bash">  bitcoin-cli <span class="nt">-testnet</span> sendrawtransaction 01000000011da9283b4ddf8d<span class="se">\</span>
+  89eb996988b89ead56cecdc44041ab38bf787f1206cd90b51e000000006a4730<span class="se">\</span>
+  4402200ebea9f630f3ee35fa467ffc234592c79538ecd6eb1c9199eb23c4a16a<span class="se">\</span>
+  0485a20220172ecaf6975902584987d295b8dddf8f46ec32ca19122510e22405<span class="se">\</span>
+  ba52d1f13201210256d16d76a49e6c8e2edc1c265d600ec1a64a45153d45c29a<span class="se">\</span>
+  2fd0228c24c3a524ffffffff01405dc600000000001976a9140dfc8bafc84198<span class="se">\</span>
+  53b34d5e072ad37d1a5159f58488ac00000000
+  </code></pre></figure>
+
+          <figure class="highlight"><pre><code class="language-text" data-lang="text">  f5a5ce5988cc72b9b90e8d1d6c910cda53c88d2175177357cc2f2cf0899fbaad
+  </code></pre></figure>
+
+        </div>
+
+        <p>The returned value is the transactionâs identifier (TXID).</p>
+      </div>
+
+  <div id="notification" title="Programmable Notification">
+        <div class="multicode">
+
+          <figure class="highlight"><pre><code class="language-bash" data-lang="bash">  bitcoind <span class="nt">-daemon</span> <span class="nt">-walletnotify</span><span class="o">=</span>your_notification_command
+  </code></pre></figure>
+
+        </div>
+      </div>
+
+</div>
+
+    <div class="prevnext">
+      <p><a href="/en/bitcoin-core/features/requirements">PREV</a>
+<a href="/en/bitcoin-core/features/network-support">NEXT</a></p>
+    </div>
+    <p><br class="clear"></p>
+
+  </div>
+</div>
+
+</div>
+
+  <div class="footer">
+    <div class="container">
+      
+
+<a class="logo-footer" href="/en/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a>
+      
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Support Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Donate</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">Introduction:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/en/bitcoin-for-individuals">Individuals</a>
+        </li>
+        <li>
+          <a href="/en/bitcoin-for-businesses">Businesses</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">Developers</a>
+        </li>
+        <li>
+          <a href="/en/getting-started">Getting started</a>
+        </li>
+        <li>
+          <a href="/en/how-it-works">How it works</a>
+        </li>
+        <li>
+          <a href="/en/you-need-to-know">You need to know</a>
+        </li>
+        
+        <li>
+          <a href="/en/bitcoin-paper">White paper</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">Resources:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/en/resources">Resources</a>
+        </li><li>
+          <a href="/en/exchanges">Exchanges</a>
+        </li>
+        <li>
+          <a href="/en/community">Community</a>
+        </li>
+        <li>
+          <a href="/en/vocabulary">Vocabulary
+          </a>
+        </li>
+        <li>
+          <a href="/en/events">Events</a>
+        </li>
+        
+        <li>
+          <a href="/en/bitcoin-core/">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">Participate:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/en/support-bitcoin">Support Bitcoin</a>
+        
+        </li><li>
+          <a href="/en/buy">Buy Bitcoin</a>
+        </li>
+        
+        
+        <li>
+          <a href="/en/full-node">Running a full node</a>
+        </li>
+        
+        <li>
+          <a href="/en/development">Development</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Other:</p>
+      
+      <a href="/en/scams">Avoid Scams</a>
+      
+      <a href="/en/legal">Legal</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/en/press">Press</a>
+      <a href="/en/about-us">About bitcoin.org</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 Released under the <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT license</a>
+        <br> Bitcoin Core pages on Bitcoin.org are
+        <a href="/en/bitcoin-core/about-site">maintained separately</a> from the rest of the site.
+      </div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">Network Status</a>
+        
+<ul class="lang is-expand">
+  <li><a>English</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/">Dansk</a></li>
+        
+        
+          <li><a href="/de/">Deutsch</a></li>
+        
+        
+          <li><a href="/en/" class="active">English</a></li>
+        
+        
+          <li><a href="/es/">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/">Italiano</a></li>
+        
+        
+          <li><a href="/hu/">Magyar</a></li>
+        
+        
+          <li><a href="/nl/">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/">Srpski</a></li>
+        
+        
+          <li><a href="/sv/">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/">ááááá</a></li>
+        
+        
+          <li><a href="/ja/">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/">Bahasa Indonesia</option>
+              
+              <option value="/ca/">CatalÃ </option>
+              
+              <option value="/da/">Dansk</option>
+              
+              <option value="/de/">Deutsch</option>
+              
+              <option value="/en/" selected="selected">English</option>
+              
+              <option value="/es/">EspaÃ±ol</option>
+              
+              <option value="/fr/">FranÃ§ais</option>
+              
+              <option value="/it/">Italiano</option>
+              
+              <option value="/hu/">Magyar</option>
+              
+              <option value="/nl/">Nederlands</option>
+              
+              <option value="/pl/">Polski</option>
+              
+              <option value="/pt_BR/">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/">RomÃ¢nÄ</option>
+              
+              <option value="/sl/">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/">Srpski</option>
+              
+              <option value="/sv/">Svenska</option>
+              
+              <option value="/tr/">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/">×¢××¨××ª</option>
+              
+              <option value="/hi/">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/">íêµ­ì´</option>
+              
+              <option value="/km/">ááááá</option>
+              
+              <option value="/ja/">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">en</span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+
+
+  <script src="/js/bitcoin-core.js"></script>
+
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+
+
+
+
+
+
+</body></html>
