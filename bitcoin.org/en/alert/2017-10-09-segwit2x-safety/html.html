@@ -1,0 +1,916 @@
+<!DOCTYPE html><html lang="en"><head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Beware of Bitcoin's possible incompatibility with some major services</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+
+<script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.org is a community funded project, donations are appreciated and used to improve the website.
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        Make a donation
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.org needs your support!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">Donate to Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">Use this QR code or address below</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="Or custom amount? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="Or custom amount? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="Optional description (for your wallet)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="/en/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">Introduction</a>
+    <ul>
+      <li><a href="/en/bitcoin-for-individuals">Individuals</a></li>
+      <li><a href="/en/bitcoin-for-businesses">Businesses</a></li>
+      <li><a href="https://developer.bitcoin.org/">Developers</a></li>
+      <li><a href="/en/getting-started">Getting started</a></li>
+      <li><a href="/en/how-it-works">How it works</a></li>
+      
+      <li><a href="/en/bitcoin-paper">White paper</a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">Resources</a>
+    <ul>
+      <li><a href="/en/resources">Resources</a>
+      </li><li><a href="/en/exchanges">Exchanges</a></li>
+      <li><a href="/en/community">Community</a></li>
+      
+      
+      <li><a href="https://developer.bitcoin.org/">Documentation</a></li>
+      
+      <li><a href="/en/vocabulary">Vocabulary</a></li>
+      <li><a href="/en/events">Events</a></li>
+      
+        <li><a href="/en/bitcoin-core/">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li><a href="/en/innovation">Innovation</a></li>
+  <li><a class="is-expand">Participate</a>
+    <ul>
+      <li><a href="/en/support-bitcoin">Support Bitcoin</a>
+      </li><li><a href="/en/buy">Buy Bitcoin</a></li>
+      <li><a href="/en/full-node">Running a full node</a></li>
+      <li><a href="/en/development">Development</a></li>
+    </ul>
+  </li>
+  <li><a href="/en/faq">FAQ</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>English</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/">Dansk</a></li>
+        
+        
+          <li><a href="/de/">Deutsch</a></li>
+        
+        
+          <li><a href="/en/" class="active">English</a></li>
+        
+        
+          <li><a href="/es/">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/">Italiano</a></li>
+        
+        
+          <li><a href="/hu/">Magyar</a></li>
+        
+        
+          <li><a href="/nl/">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/">Srpski</a></li>
+        
+        
+          <li><a href="/sv/">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/">ááááá</a></li>
+        
+        
+          <li><a href="/ja/">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/">Bahasa Indonesia</option>
+            
+            <option value="/ca/">CatalÃ </option>
+            
+            <option value="/da/">Dansk</option>
+            
+            <option value="/de/">Deutsch</option>
+            
+            <option value="/en/" selected="selected">English</option>
+            
+            <option value="/es/">EspaÃ±ol</option>
+            
+            <option value="/fr/">FranÃ§ais</option>
+            
+            <option value="/it/">Italiano</option>
+            
+            <option value="/hu/">Magyar</option>
+            
+            <option value="/nl/">Nederlands</option>
+            
+            <option value="/pl/">Polski</option>
+            
+            <option value="/pt_BR/">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/">RomÃ¢nÄ</option>
+            
+            <option value="/sl/">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/">Srpski</option>
+            
+            <option value="/sv/">Svenska</option>
+            
+            <option value="/tr/">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/">×¢××¨××ª</option>
+            
+            <option value="/hi/">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/">íêµ­ì´</option>
+            
+            <option value="/km/">ááááá</option>
+            
+            <option value="/ja/">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">en</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  
+
+<link rel="alternate" type="application/rss+xml" href="/en/rss/alerts.rss" title="Bitcoin network status and alerts">
+
+<div class="subhead-links">
+  <div class="container">
+    <a href="/en/alerts">Network alerts history</a>
+    |
+    <a type="application/rss+xml" href="/en/rss/alerts.rss">
+      <img src="/img/icons/header_rss.svg?1716491272" alt="rss" class="rssicon"> Subscribe to RSS feed</a>
+    |
+    <a href="https://github.com/bitcoin-dot-org/bitcoin.org/commits/master/_alerts/2017-10-09-segwit2x-safety.md">Post history</a>
+    |
+    <a href="https://github.com/bitcoin-dot-org/bitcoin.org/issues/new?body=Source%20File%3A%20_alerts/2017-10-09-segwit2x-safety.md%0A%0A">Report issue</a>
+  </div>
+</div>
+
+
+<div class="hero">
+  <div class="container hero-container">
+      <h1 class="post-title alerttitle">Beware of Bitcoin's possible incompatibility with some major services</h1>
+      <p class="summary">11 October 2017</p>
+  </div>
+</div>
+
+<div class="toc-container">
+  <div class="row toc-row">
+    
+    <div id="toc" class="toc">
+      <div>
+        <button class="mob-sidebar-open" hidden="">ALL TOPICS</button>
+        <div class="sidebar">
+          <div class="sidebar-inner" markdown="1">
+            <button class="mob-sidebar-close" hidden=""></button>
+            
+
+<ul>
+  <li><a href="#summary">Summary</a></li>
+  <li><a href="#mobile-wallets">Mobile wallets</a></li>
+  <li><a href="#after-the-fork">After the fork</a></li>
+  <li><a href="#wallets">Wallets</a></li>
+  <li><a href="#exchanges">Exchanges</a></li>
+  <li><a href="#miners">Miners</a></li>
+  <li><a href="#other">Other</a></li>
+</ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="toccontent">
+      <article class="article">
+        <div class="post-content">
+
+  <h2 id="summary" class=" anchorAf"><a href="#summary"></a>Summary</h2>
+
+  <p>A subsection of the Bitcoin economy including prominent businesses such as Coinbase, Xapo, and BitPay have signed an agreement to adopt
+and implement a contentious hard fork of Bitcoin <a href="https://bashco.github.io/2x_Countdown/">sometime</a> in November. A hard fork is a
+backwards incompatible change to the Bitcoin network. This hard fork is not supported by
+the majority of the Bitcoin users and developers and is therefore a contentious hard fork.
+By adopting this hard fork, we believe the supporters of this agreement are shifting their users to an alternative currency (an altcoin) which is incompatible with Bitcoin.</p>
+
+  <p>The signatories of this agreement wrongly believe that the currency created by adopting
+this contentious hard fork will eventually become Bitcoin. Therefore storing any BTC on services such
+as Coinbase, Bitpay and Xapo is strongly not recommended. By storing BTC on these services, you could
+find that after the hard fork, your BTC has been renamed to something else or replaced entirely with the new altcoin.
+The best way to ensure that your BTC is protected is to <a href="https://bitcoin.org/en/download">download the latest version of Bitcoin Core</a>
+and transfer out any BTC stored on services that are a signatory to this agreement. We have
+listed the businesses supporting this contentious hard fork at the bottom of this document.</p>
+
+  <p>For users who arenât prepared to install Bitcoin Core and go through the lengthy set up process, we recommend
+a wallet such as <a href="https://greenaddress.it/">GreenAddress</a>, <a href="https://electrum.org/">Electrum</a> or <a href="https://trezor.io/">TREZOR</a>. Avoid using web wallets like blockchain.info.
+However users should only use these wallets to store their coins and never perform transactions until well after the hard fork. Any transactions you
+make on the Bitcoin blockchain can also be replicated and âreplayedâ on the altcoin chain. If the coins on the contentious
+hard fork have any value, there will be methods you can use to âsplitâ your coins and have access to them. Pay extra attention
+to major Bitcoin communication channels and media shortly after the fork so you stay informed.</p>
+</div>
+
+<div class="toccontent-block boxexpand expanded">
+
+  <h2 id="mobile-wallets" class=" anchorAf"><a href="#mobile-wallets"></a>Mobile wallets</h2>
+
+  <p>Miners in Bitcoin are responsible for transaction ordering through putting transactions into blocks, and collectively
+creating a chain of these blocks. Most mobile wallets depend on blindly trusting the longest chain produced by the miners in order to safely send and receive transactions.
+There is considerable mining power supporting the contentious hard fork. A majority of miners have pledged to support the contentious
+hard fork, therefore the longest chain as seen by most mobile wallets may not be the true block chain. As a
+result of this, spending money from a mobile wallet during a hard fork is dangerous. You will be
+vulnerable to many attacks as your wallet is not aware that the miners are breaking the consensus rules on the longest chain.</p>
+
+  <p>If the contentious hard fork has failed and the majority of miners have broken their pledge
+to support the hard fork, it is safe to continue using mobile wallets, however you should check multiple
+sources of Bitcoin news such as this website, <a href="https://www.reddit.com/r/Bitcoin/">/r/bitcoin</a>, and the <a href="https://bitcointalk.org">Bitcoin Forum</a>
+to make sure that itâs safe to continue using your particular wallet. As a general rule, you should not perform any transactions
+during and shortly after the hard fork.</p>
+</div>
+
+<div class="toccontent-block boxexpand expanded">
+
+  <h2 id="after-the-fork" class=" anchorAf"><a href="#after-the-fork"></a>After the fork</h2>
+
+  <p>Blocks may be slower shortly after the hard fork and your transactions will take longer to confirm. You
+will have to pay a higher transaction fee if your transaction is high priority and you want it confirmed
+in the next block. You should try to get any important transactions done a few days before the hard fork <a href="http://bashco.github.io/2x_Countdown/">date</a>.
+A lot of websites and programs will likely pop up around the time of the hard fork offering to split your Bitcoin
+so you can have access to both your BTC and to the new altcoin created by this contentious hard fork, you should
+exercise caution as many of these services are likely to be scams trying to steal your bitcoin. As the
+hard fork has very little replay protection, most transactions you perform on the Bitcoin network will also
+be valid on the hard fork network. You should keep this in mind when transacting.</p>
+
+  <p>Some services may continue to present and name the altcoin created by this contentious hard
+fork as Bitcoin. Users should be aware that this new currency is not Bitcoin. Bitcoin can only
+be changed with the overwhelming consensus of the entire Bitcoin community of individuals,
+miners, developers and economy. Even when there is overwhelming consensus, unless in an
+emergency, a hard fork should have at least a year notice period to give enough time for users to upgrade. This
+hard fork being adopted by the signatories of this agreement achieves none of these things. It is a rushed
+and hasty upgrade which only has minority community support and has been thoroughly rejected by users and the technical community.
+As this new altcoin is not Bitcoin, Bitcoin.org will not list wallets and services that present
+this altcoin as âBitcoinâ or âBTCâ to their users after the hard fork. These services have exited
+the Bitcoin system in a contentious manner and therefore are no longer useful to our visitors.</p>
+
+  <p>The following companies and services have pledged to adopt the contentious hard fork:</p>
+</div>
+
+<div class="toccontent-block boxexpand expanded">
+
+  <h2 id="wallets" class=" anchorAf"><a href="#wallets"></a>Wallets</h2>
+
+  <ul>
+    <li>Abra (United States)</li>
+    <li>Bitcoin.com (St. Kitts &amp; Nevis)</li>
+    <li><strong>BitPay (United States)</strong></li>
+    <li>BitPesa (Kenya)</li>
+    <li><strong>Blockchain.info (UK)</strong></li>
+    <li><strong>BTC.com (China)</strong></li>
+    <li>Circle (United States)</li>
+    <li><strong>Coinbase (United States)</strong></li>
+    <li>Coins.ph (Phillipines)</li>
+    <li>GoCoin (Isle of Man)</li>
+    <li>Jaxx (Canada)</li>
+    <li>Luno (Singapore)</li>
+    <li>Ripio (Argentina)</li>
+    <li>Unocoin (India)</li>
+    <li><strong>Xapo (United States)</strong></li>
+  </ul>
+</div>
+
+<div class="toccontent-block boxexpand expanded">
+
+  <h2 id="exchanges" class=" anchorAf"><a href="#exchanges"></a>Exchanges</h2>
+
+  <ul>
+    <li>ANX (Hong Kong)</li>
+    <li>Bitex (Argentina)</li>
+    <li>bitFlyer (Japan)</li>
+    <li>Bitso (Mexico)</li>
+    <li>BTCC (China)</li>
+    <li>BTER.com (China)</li>
+    <li><strong>Coinbase (United States)</strong></li>
+    <li>Coins.ph (Phillipines)</li>
+    <li>CryptoFacilities (UK)</li>
+    <li>Korbit (South Korea)</li>
+    <li>Safello (Sweden)</li>
+    <li>SFOX (United States)</li>
+    <li><strong>ShapeShift (Switzerland)</strong></li>
+  </ul>
+</div>
+
+<div class="toccontent-block boxexpand expanded">
+
+  <h2 id="miners" class=" anchorAf"><a href="#miners"></a>Miners</h2>
+
+  <ul>
+    <li>1Hash (China)</li>
+    <li>Bitcoin.com (St. Kitts &amp; Nevis)</li>
+    <li>Bitfury (United States)</li>
+    <li>Bitmain (China)</li>
+    <li>Bixin.com (China)</li>
+    <li>Genesis Mining (Hong Kong)</li>
+    <li>ViaBTC (China)</li>
+  </ul>
+</div>
+
+<div class="toccontent-block boxexpand expanded">
+
+  <h2 id="other" class=" anchorAf"><a href="#other"></a>Other</h2>
+
+  <ul>
+    <li>Bitangel.com /Chandler Guo (China)</li>
+    <li>BitClub Network (Hong Kong)</li>
+    <li>Bloq (United States)</li>
+    <li>Civic (United States)</li>
+    <li>Decentral (Canada)</li>
+    <li>Digital Currency Group (United States)</li>
+    <li>Filament (United States)</li>
+    <li>Genesis Global Trading (United States)</li>
+    <li>Grayscale Investments (United States)</li>
+    <li>MONI (Finland)</li>
+    <li>OB1 (United States)</li>
+    <li>Netki (United States)</li>
+    <li>Purse (United States)</li>
+    <li>Veem (United States)</li>
+  </ul>
+</div>
+
+      </article>
+    </div>
+
+  </div>
+</div>
+  
+
+
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="/en/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Support Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Donate</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">Introduction:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/en/bitcoin-for-individuals">Individuals</a>
+        </li>
+        <li>
+          <a href="/en/bitcoin-for-businesses">Businesses</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">Developers</a>
+        </li>
+        <li>
+          <a href="/en/getting-started">Getting started</a>
+        </li>
+        <li>
+          <a href="/en/how-it-works">How it works</a>
+        </li>
+        <li>
+          <a href="/en/you-need-to-know">You need to know</a>
+        </li>
+        
+        <li>
+          <a href="/en/bitcoin-paper">White paper</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">Resources:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/en/resources">Resources</a>
+        </li><li>
+          <a href="/en/exchanges">Exchanges</a>
+        </li>
+        <li>
+          <a href="/en/community">Community</a>
+        </li>
+        <li>
+          <a href="/en/vocabulary">Vocabulary
+          </a>
+        </li>
+        <li>
+          <a href="/en/events">Events</a>
+        </li>
+        
+        <li>
+          <a href="/en/bitcoin-core/">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">Participate:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/en/support-bitcoin">Support Bitcoin</a>
+        
+        </li><li>
+          <a href="/en/buy">Buy Bitcoin</a>
+        </li>
+        
+        
+        <li>
+          <a href="/en/full-node">Running a full node</a>
+        </li>
+        
+        <li>
+          <a href="/en/development">Development</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Other:</p>
+      
+      <a href="/en/scams">Avoid Scams</a>
+      
+      <a href="/en/legal">Legal</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/en/press">Press</a>
+      <a href="/en/about-us">About bitcoin.org</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>A community website sponsored by</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1716491272" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 Released under the <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT license</a></div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">Network Status</a>
+        
+<ul class="lang is-expand">
+  <li><a>English</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/">Dansk</a></li>
+        
+        
+          <li><a href="/de/">Deutsch</a></li>
+        
+        
+          <li><a href="/en/" class="active">English</a></li>
+        
+        
+          <li><a href="/es/">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/">Italiano</a></li>
+        
+        
+          <li><a href="/hu/">Magyar</a></li>
+        
+        
+          <li><a href="/nl/">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/">Srpski</a></li>
+        
+        
+          <li><a href="/sv/">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/">ááááá</a></li>
+        
+        
+          <li><a href="/ja/">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/">Bahasa Indonesia</option>
+              
+              <option value="/ca/">CatalÃ </option>
+              
+              <option value="/da/">Dansk</option>
+              
+              <option value="/de/">Deutsch</option>
+              
+              <option value="/en/" selected="selected">English</option>
+              
+              <option value="/es/">EspaÃ±ol</option>
+              
+              <option value="/fr/">FranÃ§ais</option>
+              
+              <option value="/it/">Italiano</option>
+              
+              <option value="/hu/">Magyar</option>
+              
+              <option value="/nl/">Nederlands</option>
+              
+              <option value="/pl/">Polski</option>
+              
+              <option value="/pt_BR/">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/">RomÃ¢nÄ</option>
+              
+              <option value="/sl/">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/">Srpski</option>
+              
+              <option value="/sv/">Svenska</option>
+              
+              <option value="/tr/">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/">×¢××¨××ª</option>
+              
+              <option value="/hi/">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/">íêµ­ì´</option>
+              
+              <option value="/km/">ááááá</option>
+              
+              <option value="/ja/">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">en</span>
+          </label>
+        </div>
+      </div>
+<!--      <div class="row">  -->
+        
+<!--    </div> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+
+
+  <script>updateToc();</script>
+<script>boxShow();</script>
+<script>onScrollButton();</script>
+
+
+
+
+
+
+</body></html>
