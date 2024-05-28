@@ -82,8 +82,6 @@ Ask or SearchCtrl \+ K
 
       * [🏁AssetDash Elements](/z-score/live-campaigns/assetdash-elements)
 
-      * [🔴$RNDR Listing](/z-score/live-campaigns/usdrndr-listing)
-
     * [⚡S2 Zeta Cards](/z-score/s2-zeta-cards)
 
     * [❓FAQ](/z-score/faq)
@@ -109,6 +107,8 @@ Ask or SearchCtrl \+ K
       * [🍴Bitcoin Halving (Finished)](/z-score/ended-campaigns/bitcoin-halving-finished)
 
       * [🐶$WIF Listing (Finished)](/z-score/ended-campaigns/usdwif-listing-finished)
+
+      * [🔴$RNDR Listing (Finished)](/z-score/ended-campaigns/usdrndr-listing-finished)
 
   * Build with Zeta
 
