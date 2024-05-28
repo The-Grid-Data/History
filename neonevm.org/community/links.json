@@ -1,0 +1,67 @@
+{
+    "target_url": "https://neonevm.org/community",
+    "domains": {
+        "app.debridge.finance": [
+            "https://app.debridge.finance/deswap"
+        ],
+        "discord.com": [
+            "http://discord.com/invite/neonevm"
+        ],
+        "discord.gg": [
+            "https://discord.gg/neonevm"
+        ],
+        "docs.neonevm.org": [
+            "https://docs.neonevm.org/docs/quick_start"
+        ],
+        "github.com": [
+            "https://github.com/neonevm/neon-evm",
+            "https://github.com/neonevm/neon-support"
+        ],
+        "linktr.ee": [
+            "https://linktr.ee/neon_evm"
+        ],
+        "medium.com": [
+            "https://medium.com/@neon_evm"
+        ],
+        "neon.blockscout.com": [
+            "https://neon.blockscout.com/"
+        ],
+        "neonevm.org": [
+            "https://neonevm.org/",
+            "https://neonevm.org/blog",
+            "https://neonevm.org/careers",
+            "https://neonevm.org/community",
+            "https://neonevm.org/cookie-policy",
+            "https://neonevm.org/developers",
+            "https://neonevm.org/disclaimer",
+            "https://neonevm.org/ecosystem",
+            "https://neonevm.org/events",
+            "https://neonevm.org/faq",
+            "https://neonevm.org/privacy-policy",
+            "https://neonevm.org/terms",
+            "https://neonevm.org/whitepaper.pdf"
+        ],
+        "neonfaucet.org": [
+            "https://neonfaucet.org/"
+        ],
+        "neonpass.live": [
+            "https://neonpass.live/"
+        ],
+        "neonscan.org": [
+            "https://neonscan.org",
+            "https://neonscan.org/"
+        ],
+        "safe.neonevm.org": [
+            "https://safe.neonevm.org/welcome"
+        ],
+        "t.me": [
+            "https://t.me/NeonEvmCommunity"
+        ],
+        "twitter.com": [
+            "https://twitter.com/Neon_EVM"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/neonevm/"
+        ]
+    }
+}
