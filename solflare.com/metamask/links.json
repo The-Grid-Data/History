@@ -1,0 +1,30 @@
+{
+    "target_url": "https://solflare.com/metamask",
+    "domains": {
+        "academy.solflare.com": [
+            "https://academy.solflare.com",
+            "https://academy.solflare.com/guides/?get_help=true"
+        ],
+        "docs.solflare.com": [
+            "https://docs.solflare.com/solflare/"
+        ],
+        "elliwallet.com": [
+            "https://elliwallet.com/"
+        ],
+        "risewallet.io": [
+            "https://risewallet.io/"
+        ],
+        "solflare.com": [
+            "https://solflare.com/",
+            "https://solflare.com/access",
+            "https://solflare.com/metamask",
+            "https://solflare.com/onboard/metamask"
+        ],
+        "twitter.com": [
+            "https://twitter.com/solflare_wallet"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/channel/UCFgH2FSi360EngaSr5056cQ"
+        ]
+    }
+}
