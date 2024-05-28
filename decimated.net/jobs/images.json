@@ -1,0 +1,17 @@
+{
+    "target_url": "https://decimated.net/jobs",
+    "domains": {
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=95d8f282-b886-4dd9-833f-0ec988a1365e&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=76305bee-0b37-4797-9523-f5660ec05cd6&tw_document_href=https%3A%2F%2Fdecimated.net%2Fjobs&tw_iframe_status=0&txn_id=o8fa8&type=javascript&version=2.3.30"
+        ],
+        "decimated.net": [
+            "https://decimated.net/images/content/f-logo-1.png",
+            "https://decimated.net/images/content/f-logo-2.png",
+            "https://decimated.net/images/content/f-logo-3.png",
+            "https://decimated.net/images/logo.png"
+        ],
+        "t.co": [
+            "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=95d8f282-b886-4dd9-833f-0ec988a1365e&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=76305bee-0b37-4797-9523-f5660ec05cd6&tw_document_href=https%3A%2F%2Fdecimated.net%2Fjobs&tw_iframe_status=0&txn_id=o8fa8&type=javascript&version=2.3.30"
+        ]
+    }
+}

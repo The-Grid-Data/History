@@ -1,0 +1,17 @@
+{
+    "target_url": "https://decimated.net/contact",
+    "domains": {
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=93fc87dd-4448-4b02-a5a8-753ca02d0dd5&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=28718248-0225-4955-9aba-2476d354c71e&tw_document_href=https%3A%2F%2Fdecimated.net%2Fcontact&tw_iframe_status=0&txn_id=o8fa8&type=javascript&version=2.3.30"
+        ],
+        "decimated.net": [
+            "https://decimated.net/images/content/f-logo-1.png",
+            "https://decimated.net/images/content/f-logo-2.png",
+            "https://decimated.net/images/content/f-logo-3.png",
+            "https://decimated.net/images/logo.png"
+        ],
+        "t.co": [
+            "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=93fc87dd-4448-4b02-a5a8-753ca02d0dd5&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=28718248-0225-4955-9aba-2476d354c71e&tw_document_href=https%3A%2F%2Fdecimated.net%2Fcontact&tw_iframe_status=0&txn_id=o8fa8&type=javascript&version=2.3.30"
+        ]
+    }
+}
