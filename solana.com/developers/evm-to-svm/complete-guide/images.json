@@ -1,0 +1,20 @@
+{
+    "target_url": "https://solana.com/developers/evm-to-svm/complete-guide",
+    "domains": {
+        "cdn.builder.io": [
+            "https://cdn.builder.io/api/v1/image/assets%2Fce0c7323a97a4d91bd0baa7490ec9139%2F0ca7cec6395f41a6b6f8314fd3c3c1e9?width=500",
+            "https://cdn.builder.io/api/v1/image/assets%2Fce0c7323a97a4d91bd0baa7490ec9139%2F169d65c59d4443ff9229e76bbcf69697?width=400",
+            "https://cdn.builder.io/api/v1/image/assets%2Fce0c7323a97a4d91bd0baa7490ec9139%2F4930bf05e3e9451b93bd895750065759?width=500",
+            "https://cdn.builder.io/api/v1/image/assets%2Fce0c7323a97a4d91bd0baa7490ec9139%2F67649c6ad3464fa1b07b3bdabce52c8c?width=1216",
+            "https://cdn.builder.io/api/v1/image/assets%2Fce0c7323a97a4d91bd0baa7490ec9139%2F7f382a94721e484aa57ae08c2f4391b9?width=700",
+            "https://cdn.builder.io/api/v1/image/assets%2Fce0c7323a97a4d91bd0baa7490ec9139%2F914ca3ebc38945be808993711af801e6?width=700",
+            "https://cdn.builder.io/api/v1/image/assets%2Fce0c7323a97a4d91bd0baa7490ec9139%2Fc213f02517a64dfbadfb56e05c51128c?width=1216",
+            "https://cdn.builder.io/api/v1/image/assets%2Fce0c7323a97a4d91bd0baa7490ec9139%2Ff1d4c0384bf94fd4bd51807305310e9e?width=593",
+            "https://cdn.builder.io/api/v1/pixel?apiKey=ce0c7323a97a4d91bd0baa7490ec9139"
+        ],
+        "solana.com": [
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252Fdfb1773873354d118d134beca2334288&w=3840&q=75",
+            "https://solana.com/_next/static/media/logotype.e4df684f.svg"
+        ]
+    }
+}
