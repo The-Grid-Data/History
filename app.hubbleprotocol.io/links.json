@@ -1,6 +1,9 @@
 {
     "target_url": "https://app.hubbleprotocol.io/",
     "domains": {
+        "": [
+            "javascript:void(0)"
+        ],
         "app.hubbleprotocol.io": [
             "https://app.hubbleprotocol.io/",
             "https://app.hubbleprotocol.io/borrow",
