@@ -1,0 +1,769 @@
+<!DOCTYPE html><html lang="ca"><head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Algunes coses que necessites saber - Bitcoin</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+
+<script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.org Ã©s un projecte finanÃ§at per la comunitat, les donacions s'agraeixen i s'utilitzen per millorar el lloc web.
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        Fes una donaciÃ³
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.org necessita el teu suport!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">Feu una donaciÃ³ a Bitcoin.org </p>
+    </div>
+    <p class="modal-subheader">Utilitzeu aquest codi QR o adreÃ§a a continuaciÃ³</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="O quantitat personalitzada? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="O quantitat personalitzada? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="DescripciÃ³ opcional (per a la teva cartera)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="/ca/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">IntroducciÃ³</a>
+    <ul>
+      <li><a href="/ca/bitcoin-per-persones">Persones</a></li>
+      <li><a href="/ca/bitcoin-per-empreses">Empreses</a></li>
+      <li><a href="https://developer.bitcoin.org/">Desenvolupadors</a></li>
+      <li><a href="/ca/iniciat">Inicia't</a></li>
+      <li><a href="/ca/com-funciona">Com funciona</a></li>
+      
+      <li><a href="/ca/paper-bitcoin">Paper blanc</a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">Recursos</a>
+    <ul>
+      <li><a href="/ca/recursos">Recursos</a>
+      </li><li><a href="/ca/cases-de-canvi">Intercanvis</a></li>
+      <li><a href="/ca/comunitat">Comunitat</a></li>
+      
+      
+      <li><a href="/ca/vocabulari">Vocabulari</a></li>
+      <li><a href="/ca/events">Esdeveniments</a></li>
+      
+        <li><a href="/ca/descarrega">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li><a href="/ca/innovacio">InnovaciÃ³</a></li>
+  <li><a class="is-expand">Participa</a>
+    <ul>
+      <li><a href="/ca/dona-suport-a-bitcoin">DÃ³na suport a Bitcoin</a>
+      </li><li><a href="/ca/comprar">Comprar Bitcoin</a></li>
+      
+      <li><a href="/ca/desenvolupament">Desenvolupament</a></li>
+    </ul>
+  </li>
+  <li><a href="/ca/faq">FAQ</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>CatalÃ </a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/yang-perlu-anda-ketahui">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/necessites-saber" class="active">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/du-boer-vide">Dansk</a></li>
+        
+        
+          <li><a href="/de/das-sollten-sie-wissen">Deutsch</a></li>
+        
+        
+          <li><a href="/en/you-need-to-know">English</a></li>
+        
+        
+          <li><a href="/es/debes-saber">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/vous-devez-savoir">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/da-sapere">Italiano</a></li>
+        
+        
+          <li><a href="/hu/amit-tudnia-erdemes">Magyar</a></li>
+        
+        
+          <li><a href="/nl/wat-u-moet-weten">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/co-potrzebujesz-wiedziec">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/voce-precisa-saber">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/ce-trebuie-sa-stii">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/kaj-moram-vedeti">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/trebali-bi-da-znate">Srpski</a></li>
+        
+        
+          <li><a href="/sv/du-behover-kanna-till">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/bilmeniz-gerekenler">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/you-need-to-know">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/you-need-to-know">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/you-need-to-know">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/you-need-to-know">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/you-need-to-know">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/you-need-to-know">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/you-need-to-know">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/you-need-to-know">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/you-need-to-know">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/you-need-to-know">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/you-need-to-know">ááááá</a></li>
+        
+        
+          <li><a href="/ja/you-need-to-know">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/you-need-to-know">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/you-need-to-know">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/yang-perlu-anda-ketahui">Bahasa Indonesia</option>
+            
+            <option value="/ca/necessites-saber" selected="selected">CatalÃ </option>
+            
+            <option value="/da/du-boer-vide">Dansk</option>
+            
+            <option value="/de/das-sollten-sie-wissen">Deutsch</option>
+            
+            <option value="/en/you-need-to-know">English</option>
+            
+            <option value="/es/debes-saber">EspaÃ±ol</option>
+            
+            <option value="/fr/vous-devez-savoir">FranÃ§ais</option>
+            
+            <option value="/it/da-sapere">Italiano</option>
+            
+            <option value="/hu/amit-tudnia-erdemes">Magyar</option>
+            
+            <option value="/nl/wat-u-moet-weten">Nederlands</option>
+            
+            <option value="/pl/co-potrzebujesz-wiedziec">Polski</option>
+            
+            <option value="/pt_BR/voce-precisa-saber">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/ce-trebuie-sa-stii">RomÃ¢nÄ</option>
+            
+            <option value="/sl/kaj-moram-vedeti">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/trebali-bi-da-znate">Srpski</option>
+            
+            <option value="/sv/du-behover-kanna-till">Svenska</option>
+            
+            <option value="/tr/bilmeniz-gerekenler">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/you-need-to-know">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/you-need-to-know">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/you-need-to-know">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/you-need-to-know">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/you-need-to-know">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/you-need-to-know">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/you-need-to-know">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/you-need-to-know">×¢××¨××ª</option>
+            
+            <option value="/hi/you-need-to-know">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/you-need-to-know">íêµ­ì´</option>
+            
+            <option value="/km/you-need-to-know">ááááá</option>
+            
+            <option value="/ja/you-need-to-know">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/you-need-to-know">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/you-need-to-know">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">ca</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  <div class="hero">
+  <div class="container hero-container">
+    <h1>Algunes coses que necessites saber</h1>
+    <p class="summarytxt">Si t'estÃ s iniciat amb Bitcoin, hi ha unes quantes coses que hauries de saber. Bitcoin et permet intercanviar diners i fer transaccions d'una manera diferent de la que estÃ s acostumat. Per tant, pren el teu temps per informar-te sobre com utilitzar Bitcoin per fer una transacciÃ³ seriosa. Bitcoin hauria de ser tractat amb la mateixa cura que tractes el teu moneder habitual, o fins i tot mÃ©s en alguns casos!</p>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="two-column-layout">
+    <div class="row two-column-row">
+      <div>
+        <img class="column-img" src="/img/icons/securing.svg?1716491272" alt="icon">
+      </div>
+      <div class="column-text">
+        <h2 class="section-title anchorAf" id="secure"><a href="#secure"></a>Assegurant el teu moneder</h2>
+        <p>Com a la vida real, la teva cartera ha d'estar segura. Bitcoin fa possible transferir valor a qualsevol lloc d'una manera molt fÃ cil i et permet tenir el control dels teus diners. Aquestes funcions tan excelÂ·lents tambÃ© comporten grans problemes de seguretat. Al mateix temps, Bitcoin pot proporcionar nivells de seguretat molt alts si s'utilitza correctament. Recordeu sempre que Ã©s responsabilitat vostra adoptar bones prÃ ctiques per protegir els vostres diners. <a href="/ca/assegura-el-teu-moneder">Llegiu mÃ©s sobre com protegir la vostra cartera</a>.</p>
+      </div>
+    </div>
+    
+    <div class="row two-column-row">
+      <div>
+        <img class="column-img" src="/img/icons/bitcoin-price.svg?1716491272" alt="icon">
+      </div>
+      <div class="column-text">
+        <h2 class="section-title anchorAf" id="volatile"><a href="#volatile"></a>El preu del Bitcoin Ã©s volÃ til</h2>
+        <p>El preu d'un bitcoin pot pujar o baixar de forma imprevista en un perÃ­ode molt curt de temps a causa de la seva economia jove, naturalesa novella i algunes vegades mercats lÃ­quids. En conseqÃ¼Ã¨ncia, per ara no es recomana mantenir els teus estalvis amb Bitcoin. Caldria veure-ho com a actius d'alt risc on mai hi hauries de guardar diners que no puguis permetre't perdre. Si reps pagaments amb Bitcoin, hi ha molts proveÃ¯dors que els poden convertir a la teva moneda local.</p>
+      </div>
+    </div>
+    
+    <div class="row two-column-row">
+      <div>
+        <img class="column-img" src="/img/icons/bitcoin-payments.svg?1716491272" alt="icon">
+      </div>
+      <div class="column-text">
+        <h2 class="section-title anchorAf" id="irreversible"><a href="#irreversible"></a>Els pagaments Bitcoin sÃ³n irreversibles</h2>
+        <p>Una transacciÃ³ de Bitcoin no es pot revertir, nomÃ©s pot ser reemborsada per la persona que rep els fons. AixÃ² vol dir que haurÃ­eu de tenir cura de fer negocis amb persones i organitzacions que coneixeu i en qui confieu, o que tinguin una reputaciÃ³ consolidada. Per la seva banda, les empreses han de fer un seguiment de les solÂ·licituds de pagament que mostren als seus clients. Bitcoin pot detectar errors tipogrÃ fics i normalment no us permetrÃ  enviar diners a una adreÃ§a no vÃ lida per error, perÃ² el millor Ã©s tenir controls per a mÃ©s seguretat i redundÃ ncia. Podrien existir serveis addicionals en el futur per oferir mÃ©s opcions i protecciÃ³ tant a les empreses com als consumidors.</p>
+      </div>
+    </div>
+    
+    <div class="row two-column-row">
+      <div>
+        <img class="column-img" src="/img/icons/not-anonymous.svg?1716491272" alt="icon">
+      </div>
+      <div class="column-text">
+        <h2 class="section-title anchorAf" id="anonymous"><a href="#anonymous"></a>Bitcoin no Ã©s anÃ²nim</h2>
+        <p>Es requereix un esforÃ§ per protegir la vostra privadesa amb Bitcoin. Totes les transaccions de Bitcoin s'emmagatzemen de manera pÃºblica i permanent a la xarxa, el que significa que qualsevol pot veure el saldo i les transaccions de qualsevol adreÃ§a de Bitcoin. No obstant aixÃ², la identitat de l'usuari darrere d'una adreÃ§a continua sent desconeguda fins que es reveli informaciÃ³ durant una compra o en altres circumstÃ ncies. Aquesta Ã©s una de les raons per les quals les adreces de Bitcoin nomÃ©s s'han d'utilitzar una vegada. Recordeu sempre que Ã©s responsabilitat vostra adoptar bones prÃ ctiques per tal de protegir la vostra privadesa. <a href="/ca/protegeix-la-teva-privacitat">Llegiu mÃ©s sobre com protegir la vostra privadesa</a>.</p>
+      </div>
+    </div>
+    
+    <div class="row two-column-row">
+      <div class="column-table">
+         
+      </div>
+      <div class="column-text column-text-s">
+        <h2 class="section-title anchorAf" id="instant"><a href="#instant"></a>Les transaccions sense confirmar no sÃ³n segures</h2>
+        <p>Les transaccions no comencen com a irreversibles. En lloc d'aixÃ², obtenen una puntuaciÃ³ de <i>confirmaciÃ³</i> que indica com Ã©s de difÃ­cil revertir-les (vegeu la taula). Cada confirmaciÃ³ triga entre uns segons i 90 minuts, sent 10 minuts la mitjana. Si la transacciÃ³ paga una tarifa massa baixa o Ã©s atÃ­pica, obtenir la primera confirmaciÃ³ pot trigar molt mÃ©s.</p>
+      </div>
+    </div>
+    
+    <div class="row two-column-row">
+      <div>
+        <img class="column-img" src="/img/icons/experimental.svg?1716491272" alt="icon">
+      </div>
+      <div class="column-text">
+        <h2 class="section-title anchorAf" id="experimental"><a href="#experimental"></a>Bitcoin encara Ã©s experimental</h2>
+        <p>Bitcoin Ã©s una nova moneda experimental que estÃ  en desenvolupament actiu. Cada millora fa que Bitcoin sigui mÃ©s atractiu, perÃ² tambÃ© revela nous reptes a mesura que creix l'adopciÃ³ de Bitcoin. Durant aquests temps de creixement, Ã©s possible que trobeu tarifes mÃ©s elevades, confirmacions mÃ©s lentes o fins i tot problemes mÃ©s greus. Estigueu preparats per a problemes i consulteu un expert tÃ¨cnic abans de fer qualsevol inversiÃ³ important, perÃ² tingueu en compte que ningÃº pot predir el futur de Bitcoin. </p>
+      </div>
+    </div>
+    
+    <div class="row two-column-row">
+      <div>
+        <img class="column-img" src="/img/icons/taxes.svg?1716491272" alt="icon">
+      </div>
+      <div class="column-text">
+        <h2 class="section-title anchorAf" id="tax"><a href="#tax"></a>Impostos governamentals i regulacions</h2>
+        <p>Bitcoin no Ã©s una moneda oficial. Dit aixÃ², la majoria de jurisdiccions encara requereixen que pagueu impostos sobre ingressos, vendes, nÃ²mines i guanys de capital sobre qualsevol cosa que tingui valor, inclosos els bitcoins. Ãs la vostra responsabilitat assegurar-vos que us adheriu als <a href="https://en.wikipedia.org/wiki/Legality_of_bitcoin_by_country">mandats fiscals i altres mandats legals o reglamentaris</a> emesos pel vostre govern o municipis locals.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="/ca/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Suporta Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">DÃ³na</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">IntroducciÃ³:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/ca/bitcoin-per-persones">Persones</a>
+        </li>
+        <li>
+          <a href="/ca/bitcoin-per-empreses">Empreses</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">Desenvolupadors</a>
+        </li>
+        <li>
+          <a href="/ca/iniciat">Inicia't</a>
+        </li>
+        <li>
+          <a href="/ca/com-funciona">Com funciona</a>
+        </li>
+        <li class="active">
+          <a href="/ca/necessites-saber">Necessites saber</a>
+        </li>
+        
+        <li>
+          <a href="/ca/paper-bitcoin">Paper blanc</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">Recursos:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/ca/recursos">Recursos</a>
+        </li><li>
+          <a href="/ca/cases-de-canvi">Intercanvis</a>
+        </li>
+        <li>
+          <a href="/ca/comunitat">Comunitat</a>
+        </li>
+        <li>
+          <a href="/ca/vocabulari">Vocabulari
+          </a>
+        </li>
+        <li>
+          <a href="/ca/events">Esdeveniments</a>
+        </li>
+        
+          <li>
+            <a href="/ca/descarrega">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">Participa:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/ca/dona-suport-a-bitcoin">DÃ³na suport a Bitcoin</a>
+        
+        
+        </li><li>
+          <a href="/ca/desenvolupament">Desenvolupament</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Altres:</p>
+      
+      <a href="/ca/legal">Legal</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/ca/premsa">Premsa</a>
+      <a href="/ca/sobre-nosaltres">Sobre bitcoin.org</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>Una comunitat web esponsoritzada per</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1716491272" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 publicat sota la <a href="http://opensource.org/licenses/mit-license.php" target="_blank">llicÃ¨ncia MIT</a></div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">Estat de la xarxa</a>
+        
+<ul class="lang is-expand">
+  <li><a>CatalÃ </a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/yang-perlu-anda-ketahui">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/necessites-saber" class="active">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/du-boer-vide">Dansk</a></li>
+        
+        
+          <li><a href="/de/das-sollten-sie-wissen">Deutsch</a></li>
+        
+        
+          <li><a href="/en/you-need-to-know">English</a></li>
+        
+        
+          <li><a href="/es/debes-saber">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/vous-devez-savoir">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/da-sapere">Italiano</a></li>
+        
+        
+          <li><a href="/hu/amit-tudnia-erdemes">Magyar</a></li>
+        
+        
+          <li><a href="/nl/wat-u-moet-weten">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/co-potrzebujesz-wiedziec">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/voce-precisa-saber">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/ce-trebuie-sa-stii">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/kaj-moram-vedeti">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/trebali-bi-da-znate">Srpski</a></li>
+        
+        
+          <li><a href="/sv/du-behover-kanna-till">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/bilmeniz-gerekenler">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/you-need-to-know">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/you-need-to-know">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/you-need-to-know">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/you-need-to-know">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/you-need-to-know">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/you-need-to-know">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/you-need-to-know">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/you-need-to-know">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/you-need-to-know">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/you-need-to-know">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/you-need-to-know">ááááá</a></li>
+        
+        
+          <li><a href="/ja/you-need-to-know">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/you-need-to-know">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/you-need-to-know">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/yang-perlu-anda-ketahui">Bahasa Indonesia</option>
+              
+              <option value="/ca/necessites-saber" selected="selected">CatalÃ </option>
+              
+              <option value="/da/du-boer-vide">Dansk</option>
+              
+              <option value="/de/das-sollten-sie-wissen">Deutsch</option>
+              
+              <option value="/en/you-need-to-know">English</option>
+              
+              <option value="/es/debes-saber">EspaÃ±ol</option>
+              
+              <option value="/fr/vous-devez-savoir">FranÃ§ais</option>
+              
+              <option value="/it/da-sapere">Italiano</option>
+              
+              <option value="/hu/amit-tudnia-erdemes">Magyar</option>
+              
+              <option value="/nl/wat-u-moet-weten">Nederlands</option>
+              
+              <option value="/pl/co-potrzebujesz-wiedziec">Polski</option>
+              
+              <option value="/pt_BR/voce-precisa-saber">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/ce-trebuie-sa-stii">RomÃ¢nÄ</option>
+              
+              <option value="/sl/kaj-moram-vedeti">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/trebali-bi-da-znate">Srpski</option>
+              
+              <option value="/sv/du-behover-kanna-till">Svenska</option>
+              
+              <option value="/tr/bilmeniz-gerekenler">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/you-need-to-know">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/you-need-to-know">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/you-need-to-know">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/you-need-to-know">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/you-need-to-know">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/you-need-to-know">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/you-need-to-know">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/you-need-to-know">×¢××¨××ª</option>
+              
+              <option value="/hi/you-need-to-know">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/you-need-to-know">íêµ­ì´</option>
+              
+              <option value="/km/you-need-to-know">ááááá</option>
+              
+              <option value="/ja/you-need-to-know">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/you-need-to-know">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/you-need-to-know">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">ca</span>
+          </label>
+        </div>
+      </div>
+<!--      <div class="row">  -->
+        
+<!--    </div> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+
+
+
+
+
+
+</body></html>

@@ -1,0 +1,922 @@
+<!DOCTYPE html><html lang="ca"><head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Premsa - Bitcoin</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+
+<script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.org Ã©s un projecte finanÃ§at per la comunitat, les donacions s'agraeixen i s'utilitzen per millorar el lloc web.
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        Fes una donaciÃ³
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.org necessita el teu suport!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">Feu una donaciÃ³ a Bitcoin.org </p>
+    </div>
+    <p class="modal-subheader">Utilitzeu aquest codi QR o adreÃ§a a continuaciÃ³</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="O quantitat personalitzada? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="O quantitat personalitzada? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="DescripciÃ³ opcional (per a la teva cartera)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="/ca/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">IntroducciÃ³</a>
+    <ul>
+      <li><a href="/ca/bitcoin-per-persones">Persones</a></li>
+      <li><a href="/ca/bitcoin-per-empreses">Empreses</a></li>
+      <li><a href="https://developer.bitcoin.org/">Desenvolupadors</a></li>
+      <li><a href="/ca/iniciat">Inicia't</a></li>
+      <li><a href="/ca/com-funciona">Com funciona</a></li>
+      
+      <li><a href="/ca/paper-bitcoin">Paper blanc</a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">Recursos</a>
+    <ul>
+      <li><a href="/ca/recursos">Recursos</a>
+      </li><li><a href="/ca/cases-de-canvi">Intercanvis</a></li>
+      <li><a href="/ca/comunitat">Comunitat</a></li>
+      
+      
+      <li><a href="/ca/vocabulari">Vocabulari</a></li>
+      <li><a href="/ca/events">Esdeveniments</a></li>
+      
+        <li><a href="/ca/descarrega">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li><a href="/ca/innovacio">InnovaciÃ³</a></li>
+  <li><a class="is-expand">Participa</a>
+    <ul>
+      <li><a href="/ca/dona-suport-a-bitcoin">DÃ³na suport a Bitcoin</a>
+      </li><li><a href="/ca/comprar">Comprar Bitcoin</a></li>
+      
+      <li><a href="/ca/desenvolupament">Desenvolupament</a></li>
+    </ul>
+  </li>
+  <li><a href="/ca/faq">FAQ</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>CatalÃ </a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/pers">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/premsa" class="active">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/presse">Dansk</a></li>
+        
+        
+          <li><a href="/de/presse">Deutsch</a></li>
+        
+        
+          <li><a href="/en/press">English</a></li>
+        
+        
+          <li><a href="/es/prensa">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/presse">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/stampa">Italiano</a></li>
+        
+        
+          <li><a href="/hu/sajto">Magyar</a></li>
+        
+        
+          <li><a href="/nl/pers">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/prasa">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/imprensa">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/presa">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/mediji">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/mediji">Srpski</a></li>
+        
+        
+          <li><a href="/sv/press">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/basin">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/press">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/press">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/press">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/press">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/press">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/press">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/press">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/press">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/press">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/press">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/press">ááááá</a></li>
+        
+        
+          <li><a href="/ja/press">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/press">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/press">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/pers">Bahasa Indonesia</option>
+            
+            <option value="/ca/premsa" selected="selected">CatalÃ </option>
+            
+            <option value="/da/presse">Dansk</option>
+            
+            <option value="/de/presse">Deutsch</option>
+            
+            <option value="/en/press">English</option>
+            
+            <option value="/es/prensa">EspaÃ±ol</option>
+            
+            <option value="/fr/presse">FranÃ§ais</option>
+            
+            <option value="/it/stampa">Italiano</option>
+            
+            <option value="/hu/sajto">Magyar</option>
+            
+            <option value="/nl/pers">Nederlands</option>
+            
+            <option value="/pl/prasa">Polski</option>
+            
+            <option value="/pt_BR/imprensa">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/presa">RomÃ¢nÄ</option>
+            
+            <option value="/sl/mediji">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/mediji">Srpski</option>
+            
+            <option value="/sv/press">Svenska</option>
+            
+            <option value="/tr/basin">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/press">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/press">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/press">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/press">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/press">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/press">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/press">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/press">×¢××¨××ª</option>
+            
+            <option value="/hi/press">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/press">íêµ­ì´</option>
+            
+            <option value="/km/press">ááááá</option>
+            
+            <option value="/ja/press">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/press">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/press">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">ca</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  <div class="hero">
+  <div class="container hero-container">
+    <h1>Centre de premsa</h1>
+    
+      <p class="summarytxt">Troba els entrevistats, les respostes i els materials de premsa d'alta qualitat.</p>
+    
+  </div>
+</div>
+
+<div class="toc-container">
+  <div class="row toc-row">
+
+    <div id="toc" class="toc">
+      <div>
+        <button class="mob-sidebar-open" hidden="">View All</button>
+        <div class="sidebar">
+          <div class="sidebar-inner">
+            <button class="mob-sidebar-close" hidden=""></button>
+            
+
+<ul>
+  <li><a href="#volunteer">Entrevistats</a></li>
+  <li><a href="#layout">FAQ</a>
+    <ul>
+      <li><a href="#whatisbitcoin">QuÃ¨ Ã©s Bitcoin?</a></li>
+      <li><a href="#howitworks">Com funciona Bitcoin?</a></li>
+      <li><a href="#whatismining">QuÃ¨ Ã©s la mineria de Bitcoin?</a></li>
+      <li><a href="#acquire">Com es poden aconseguir bitcoins?</a></li>
+      <li><a href="#used">Ãs Bitcoin realment utilitzat per les persones?</a></li>
+      <li><a href="#makepayment">Quina dificultat tÃ© fer un pagament amb Bitcoin?</a></li>
+      <li><a href="#advantages">Quins sÃ³n els avantatges de Bitcoin?</a></li>
+      <li><a href="#disadvantages">Quins sÃ³n els desavantatges de Bitcoin?</a></li>
+      <li><a href="#secure">Bitcoin Ã©s segur?</a></li>
+      <li><a href="#islegal">Bitcoin Ã©s legal?</a></li>
+      <li><a href="#taxes">QuÃ¨ hi ha sobre Bitcoin i els impostos?</a></li>
+      <li><a href="#illegalactivities">Bitcoin Ã©s Ãºtil per activitats ilÂ·legals?</a></li>
+      <li><a href="#bubble">Ãs Bitcoin una bombolla?</a></li>
+      <li><a href="#whyvalue">PerquÃ¨ els bitcoins tenen valor?</a></li>
+      <li><a href="#ponzi">Bitcoin Ã©s un esquema Ponzi?</a></li>
+      <li><a href="#creator">Qui va crear Bitcoin?</a></li>
+      <li><a href="#worthless">Poden els bitcoins arribar a no tenir valor?</a></li>
+      <li><a href="#virtual">Bitcoin Ã©s completament virtual i immaterial?</a></li>
+      <li><a href="#trust">PerquÃ¨ la gent confia amb Bitcoin?</a></li>
+      <li><a href="#anonymous">Bitcoin Ã©s anÃ²nim?</a></li>
+    </ul>
+  </li>
+</ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="toccontent">
+      <div class="toccontent-intro">
+  <h2 id="volunteer" class=" anchorAf"><a href="#volunteer"></a>Entrevistats</h2>
+  <p>Comunica't amb <a href="https://www.bitgivefoundation.org">BitGive</a>, el <a href="https://bitcoincore.org/en/contact">Bitcoin Core Project</a> o <a href="/ca/comunitat#sense-lucre">organitzacions locals sense Ã nim de lucre</a>.</p>
+</div>
+
+<div class="toccontent-block boxexpand expanded">
+  <h2 id="layout" class=" anchorAf"><a href="#layout"></a>FAQ</h2>
+  <div class="press-faq">
+    <div>
+      <h3 id="whatisbitcoin" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#whatisbitcoin"></a>QuÃ¨ Ã©s Bitcoin?</h3>
+      <div>
+        <p>Bitcoin Ã©s una xarxa consensuada que proporciona un nou sistema de pagament i una moneda completament digital. Ãs la primera xarxa de pagament descentralitzada P2P que Ã©s portada a terme pels seus usuaris sense la gestiÃ³ d'una autoritat central o intermediaris. Des de la perspectiva de l'usuari, Bitcoin Ã©s molt similar als diners en efectiu per a Internet. Bitcoin tambÃ© pot ser vist com el  <a href="http://financialcryptography.com/mt/archives/001325.html">sistema de comptabilitat triple per partida</a> mÃ©s prominent en existÃ¨ncia.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="howitworks" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#howitworks"></a>Com funciona Bitcoin?</h3>
+      <div>
+        <p>Des de la perspectiva de l'usuari, Bitcoin no Ã©s res mÃ©s que una aplicaciÃ³ mÃ²bil o un programa informÃ tic que li proporciona un moneder personal i li permet enviar i rebre bitcoins. Per a la majoria d'usuaris aixÃ­ Ã©s com funciona Bitcoin.</p>
+        <p>Entre bastidors, la xarxa Bitcoin comparteix un registre pÃºblic anomenat la "cadena de blocs". Aquest registre contÃ© cada transacciÃ³ processada permetent que es pugui verificar la validesa de cada una d'elles. L'autenticitat de cada transacciÃ³ es protegeix amb la signatura digital corresponent a l'adreÃ§a emissora, permetent als usuaris el ple control sobre l'enviament de bitcoins des de les seves adreces Bitcoin. Addicionalment tothom pot processar transaccions utilitzant maquinari especialitzat i guanyar una recompensa en bitcoins pel seu servei. AixÃ² s'anomena "minat". Per aprendre mÃ©s coses sobre Bitcoin, pots consultar la <a href="/ca/com-funciona">pÃ gina dedicada</a> i <a href="/ca/paper-bitcoin">l'article original</a>.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="whatismining" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#whatismining"></a>QuÃ¨ Ã©s la mineria de Bitcoin?</h3>
+      <div>
+        <p>La mineria Ã©s el procÃ©s a travÃ©s del qual es realitzen les transaccions, s'assegura la xarxa, i es mantÃ© el sistema i a les persones sincronitzats. Podria ser interpretat com el centre de dades de Bitcoin, perÃ² aquesta ha estat dissenyada per ser totalment descentralitzada, amb miners que operen a tots els paÃ¯sos, i que ningÃº tingui control sobre la xarxa. Aquest procÃ©s es coneix com a "mineria", com a analogia a la mineria de l'or, ja que tambÃ© Ã©s un mecanisme temporal que s'utilitza per emetre nous bitcoins. A diferÃ¨ncia de la mineria de l'or, la mineria Bitcoin ofereix una recompensa a canvi de serveis Ãºtils i necessaris per al funcionament d'una xarxa de pagament segur. La mineria seguirÃ  sent necessÃ ria desprÃ©s de l'emissiÃ³ de l'Ãºltim bitcoin.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="acquire" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#acquire"></a>Com es poden aconseguir bitcoins?</h3>
+      <div>
+        <ul>
+          <li>Com a pagament per a bÃ©ns o serveis.</li>
+          <li>Compra bitcoins a una <a href="https://www.buybitcoinworldwide.com">casa de canvi</a>.</li>
+          <li>Canvia bitcoins amb <a href="https://localbitcoins.com/">algÃº a prop teu</a>.</li>
+          <li>Guanya bitcoins a trabÃ©s de <a href="http://www.bitcoinmining.com/">mineria</a> competitiva.</li>
+        </ul>
+        <p>Tot i que encara Ã©s possible trobar persones que desitgin vendre bitcoins amb pagaments PayPal o amb targeta de crÃ¨dit, la majoria de cases de canvi no accepten aquests tipus de pagament. AixÃ² es deu a casos en quÃ¨ algÃº ha comprat bitcoins amb PayPal i desprÃ©s ha revertit el pagament. Aquesta acciÃ³ es coneix com a "chargeback".</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="used" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#used"></a>Ãs Bitcoin realment utilitzat per les persones?</h3>
+      <div>
+        <p>SÃ­. Hi ha un <a href="/en/spend-bitcoin">nombre creixent dâempreses</a> i particulars que utilitzen Bitcoin. AixÃ² inclou empreses fÃ­siques com restaurants, apartaments i despatxos d'advocats, aixÃ­ com serveis en lÃ­nia populars com Namecheap i Overstock.com. Tot i que Bitcoin continua sent un fenomen relativament nou, creix rÃ pidament. A maig de 2018, el <a href="https://bitcoincharts.com/bitcoin/">valor total de tots els bitcoins</a> existents superava els 100.000 milions de dÃ²lars nord-americans, amb un intercanvi diari de milions de dÃ²lars en bitcoins.</p>
+        <p>
+          <img style="height:165px;width:380px;" src="/img/faq/merchants_map.png?1716491272" alt="Screenshot">
+        </p>
+      </div>
+    </div>
+    <div>
+      <h3 id="makepayment" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#makepayment"></a>Quina dificultat tÃ© fer un pagament amb Bitcoin?</h3>
+      <div>
+        <p>Els pagaments Bitcoin sÃ³n mÃ©s fÃ cils de fer que les compres amb targeta de crÃ¨dit o dÃ¨bit i es poden rebre sense un compte d'empresa. Els pagaments es fan des de l'aplicaciÃ³ moneder, sigui al teu ordinador o telÃ¨fon intelÂ·ligent, entrant l'adreÃ§a del beneficiari. Molts moneders poden obtenir l'adreÃ§a escanejant un codi QR o tocant els dos telÃ¨fons amb tecnologia NFC.</p>
+        <p>
+          <img src="/img/faq/mobile_send.png?1716491272" style="height:325px;width:190px;" alt="Screenshot">
+          <img src="/img/faq/mobile_receive.png?1716491272" style="height:325px;width:190px;" alt="Screenshot">
+        </p>
+      </div>
+    </div>
+    <div>
+      <h3 id="advantages" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#advantages"></a>Quins sÃ³n els avantatges de Bitcoin?</h3>
+      <div>
+        <ul>
+          <li><em><b>Llibertat de pagament</b></em> - Es pot enviar i rebre qualsevol quantitat de diners instantÃ niament a qualsevol lloc del mÃ³n en qualsevol moment. No hi ha bancs que facin vacances, no hi ha fronteres, no hi ha lÃ­mits imposats. Bitcoin permet als seus usuaris el ple control sobre els seus diners.</li>
+          <li><em><b>Trieu les vostres prÃ²pies tarifes</b></em> - No hi ha cap comissiÃ³ per rebre bitcoins, i moltes carteres us permeten controlar l'import de la tarifa a pagar en gastar. Les tarifes mÃ©s altes poden afavorir una <a href="/ca/necessites-saber#instant">confirmaciÃ³</a> mÃ©s rÃ pida de les vostres transaccions. Les tarifes no estan relacionades amb l'import transferit, de manera que Ã©s possible enviar 100.000 bitcoins per la mateixa tarifa que costa enviar 1 bitcoin. A mÃ©s, existeixen processadors de comerciants per ajudar els comerciants a processar transaccions, convertir bitcoins en moneda fiduciÃ ria i dipositar fons directament als comptes bancaris dels comerciants diÃ riament. Com que aquests serveis es basen en Bitcoin, es poden oferir per tarifes molt mÃ©s baixes que amb PayPal o xarxes de targetes de crÃ¨dit.
+</li>
+          <li><em><b>Menys riscos per als negocis</b></em> - Les transaccions Bitcoin sÃ³n segures, irreversibles i no contenen informaciÃ³ personal o sensible del client. AixÃ² protegeix a les empreses de pÃ¨rdues causades pel frau o per devolucions de pagament fraudulentes, i no hi ha cap necessitat de complir amb l'estÃ ndard PCI. Els negocis poden expandir-se cap a nous mercats on no es permeten targetes de crÃ¨dit o on els nivells de frau sÃ³n massa alts. Els resultats nets sÃ³n comissions mÃ©s baixes, mercats mÃ©s grans i menys costos administratius.</li>
+          <li><em><b>Control i seguretat</b></em> - Els usuaris Bitcoin tenen ple control de les seves transaccions; No Ã©s possible per als negocis forÃ§ar cÃ rrecs inesperats o no volguts tal com pot passar amb altres mÃ¨todes de pagament. Els pagaments Bitcoin poden ser fets sense informaciÃ³ personal lligada a la transacciÃ³, oferint millor protecciÃ³ contra els robatoris d'identitat. Els usuaris Bitcoin tambÃ© poden protegir els seus diners amb una cÃ²pia de seguretat i encriptaciÃ³.</li>
+          <li><em><b>Transparent i neutral</b></em> - <a href="https://live.blockcypher.com/btc/">Tota la informaciÃ³</a> concernent al subministrament de Bitcoin estÃ  disponible a la cadena de blocs a temps real. Cap individu ni organitzaciÃ³ pot controlar o manipular el protocol Bitcoin, ja que Ã©s criptogrÃ ficament segur. AixÃ² permet que es pugui confiar amb el nucli de Bitcoin per ser completament neutral, transparent i predictible.</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <h3 id="disadvantages" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#disadvantages"></a>Quins sÃ³n els desavantatges de Bitcoin?</h3>
+      <div>
+        <ul>
+          <li><em><b>Grau d'acceptaciÃ³</b></em> - Molta gent desconeix Bitcoin. Cada dia, mÃ©s negocis accepten bitcoins perquÃ¨ volen els avantatges que ofereix. AixÃ­ i tot, la llista encara Ã©s petita i necessita crÃ©ixer per tal de beneficiar-se de <a href="https://en.wikipedia.org/wiki/Network_effect">l'efecte de xarxa</a>.</li>
+          <li><em><b>Volatilitat</b></em> - El <a href="https://bitcoincharts.com/bitcoin/">valor total</a> dels bitcoins en circulaciÃ³ i el nombre de negocis utilitzant-los encara Ã©s massa petit comparat amb el qual podria ser. Esdeveniments relativament petits, especulaciÃ³ o activitats empresarials poden afectar-ne significativament el preu. En teoria aquesta volatilitat decreixerÃ  a mesura que els mercats i la tecnologia madurin. El mÃ³n no havia vist mai una posada en marxa aixÃ­ d'una moneda aixÃ­ que Ã©s realment difÃ­cil (i excitant) d'imaginar com anirÃ .</li>
+          <li><em><b>Desenvolupament en marxa</b></em> - El programari Bitcoin encara es troba en fase beta amb moltes funcionalitats en desenvolupament. S'estan desenvolupant noves eines, caracterÃ­stiques i serveis per fer a Bitcoin mÃ©s segur i accessible per a les masses. Molts negocis Bitcoin encara sÃ³n nous i no ofereixen cap asseguranÃ§a. En general, Bitcoin encara es troba en procÃ©s de maduraciÃ³.</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <h3 id="secure" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#secure"></a>Bitcoin Ã©s segur?</h3>
+      <div>
+        <p>La tecnologia Bitcoin - el protocol i la criptografia - tÃ© un fort historial de seguretat i la xarxa Bitcoin Ã©s probablement el projecte dâinformÃ tica distribuÃ¯da mÃ©s gran del mÃ³n. La vulnerabilitat mÃ©s comuna de Bitcoin Ã©s lâerror de lâusuari. Els fitxers de la cartera Bitcoin que emmagatzemen les claus privades necessÃ ries es poden esborrar accidentalment, perdre o robar. AixÃ² Ã©s forÃ§a similar a lâefectiu fÃ­sic emmagatzemat en forma digital. Afortunadament, els usuaris poden emprar bones <a href="/ca/assegura-el-teu-moneder">prÃ ctiques de seguretat</a> per protegir els seus diners o utilitzar proveÃ¯dors de serveis que ofereixen bons nivells de seguretat i asseguranÃ§a contra robatoris o pÃ¨rdues.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="islegal" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#islegal"></a>Bitcoin Ã©s legal?</h3>
+      <div>
+        <p>El que sabem ara mateix Ã©s que  <a href="https://en.wikipedia.org/wiki/Legality_of_bitcoin_by_country">Bitcoin no ha estat ilÂ·legalitzat</a> a la majoria de jurisdiccions. N'hi ha perÃ² (com la d'Argentina o la de RÃºssia) que restringeixen o bloquegen les monedes estrangeres. Altres jurisdiccions (com la de TailÃ ndia) podria limitar les llicÃ¨ncies per a certes entitats com podria ser una casa de canvi de Bitcoin.</p>
+        <p>Hi ha legisladors de diverses jurisdiccions treballant per oferir a empreses i a individus regles sobre com integrar aquesta nova tecnologia amb el sistema financer tradicional. Per exemple, la "Financial Crimes Enforcement Network" (FinCEN), que forma part del departament del tresor d'Estats Units d'AmÃ¨rica, ha publicat una guia no vinculant sobre com caracteritzar certes activitats que involucren monedes virtuals.</p>
+        <ul>
+          <li>
+            <a href="https://www.ecb.europa.eu/pub/pdf/other/virtualcurrencyschemes201210en.pdf">Virtual Currency Schemes - European Central Bank</a>
+          </li>
+          <li>
+            <a href="https://www.fincen.gov/statutes_regs/guidance/pdf/FIN-2013-G001.pdf">Application of FinCENâs Regulations to Persons Administering, Exchanging, or Using Virtual Currencies</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <h3 id="taxes" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#taxes"></a>QuÃ¨ hi ha sobre Bitcoin i els impostos?</h3>
+      <div>
+        <p>Bitcoin no Ã©s un una moneda fiduciÃ ria de curs legal a cap territori, perÃ² sovint els impostos fiscals s'apliquen independentment del mitjÃ  utilitzat. Hi ha una gran varietat de legislacions a diferents territoris que podrien generar ingressos, vendes, nÃ²mines, plusvÃ lues o qualsevol altre tipus d'acciÃ³ que comporti cÃ rrega d'impostos amb Bitcoin.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="illegalactivities" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#illegalactivities"></a>Bitcoin Ã©s Ãºtil per activitats ilÂ·legals?</h3>
+      <div>
+        <p>Bitcoin Ã©s moneda i la moneda s'ha utilitzat sempre tant per coses legals com per coses ilÂ·legals. MetÃ lÂ·lic, targetes de crÃ¨dit i sistemes bancaris sobrepassen sobradament a Bitcoin en termes d'Ãºs en finanÃ§ar crims. Bitcoin pot aportar innovaciÃ³ en els sistemes de pagament i els beneficis d'aquesta innovaciÃ³ sovint sÃ³n considerats superiors a les seves mancances potencials.</p>
+        <p>Bitcoin estÃ  dissenyat per ser un gran pas endavant en fer que els diners siguin mÃ©s segurs i pot actuar com a protecciÃ³ enfront de diverses formes de crims financers. Per exemple, els bitcoins sÃ³n totalment impossibles de falsificar. Els usuaris tenen ple control sobre els seus pagaments i no poden rebre cÃ rrecs no autoritzats com podria passar amb les targetes de crÃ¨dit. Les transaccions Bitcoin sÃ³n irreversibles i immunes a recÃ rrecs fraudulents. Bitcoin permet protegir els diners contra robatoris i pÃ¨rdues fent servir mecanismes com cÃ²pies de seguretat, encriptaciÃ³ i signatures mÃºltiples.</p>
+        <p>S'han plantejat certes preocupacions en quÃ¨ Bitcoin pot ser mÃ©s atractiu per als criminals, ja que pot ser utilitzat per fer pagaments privats i irreversibles. Aquestes caracterÃ­stiques ja existeixen amb els diners en metÃ lÂ·lic i les transferÃ¨ncies bancÃ ries les quals es fan servir Ã mpliament i i estan ben establertes. L'Ãºs de Bitcoin sense cap mena de dubte estarÃ  subjecte a regulacions similars a les que existeixen en els sistemes financers actuals i Bitcoin no evitarÃ  que cap investigaciÃ³ criminal es dugui a terme. Ãs comÃº que avenÃ§os importants es percebin com a controvertits abans que els seus beneficis siguin entesos completament. Internet Ã©s un bon exemple per ilÂ·lustrar-ho.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="bubble" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#bubble"></a>Ãs Bitcoin una bombolla?</h3>
+      <div>
+        <p>Un rÃ pid augment del preu no constitueix una bombolla. Una sobrevaloraciÃ³ artificial que conduirÃ  a una correcciÃ³ sobtada a la baixa constitueix una bombolla. Les opcions basades en l'acciÃ³ humana individual per part de centenars de milers de participants en el mercat sÃ³n la causa que el preu de Bitcoin fluctuÃ¯ a mesura que el mercat busca el descobriment de preus. Els motius dels canvis de sentiment poden incloure una pÃ¨rdua de confianÃ§a en Bitcoin, una gran diferÃ¨ncia entre el valor i el preu que no es basa en els fonaments de lâeconomia de Bitcoin, una major cobertura de premsa que estimula la demanda especulativa, la por a la incertesa i lâexuberÃ ncia irracional i lâavarÃ­cia a lâantiga.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="whyvalue" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#whyvalue"></a>PerquÃ¨ els bitcoins tenen valor?</h3>
+      <div>
+        <p>Els bitcoins tenen valor perquÃ¨ sÃ³n Ãºtils com a forma de diners. Bitcoin tÃ© les caracterÃ­stiques dels diners (durabilitat, portabilitat, fungibilitat, escassetat, divisibilitat i reconeixement) basades en les propietats de les matemÃ tiques en lloc de confiar en propietats fÃ­siques (com l'or i la plata) o la confianÃ§a en les autoritats centrals (com les monedes fiduciÃ ries). En resum, Bitcoin estÃ  avalat per les matemÃ tiques. Amb aquests atributs, tot el que es necessita perquÃ¨ una forma de diners tingui valor Ã©s la confianÃ§a i l'adopciÃ³. En el cas de Bitcoin, aixÃ² es pot mesurar per la seva base creixent d'usuaris, comerciants i startups. Com passa amb totes les monedes, el valor de Bitcoin provÃ© nomÃ©s i directament de les persones disposades a acceptar-les com a pagament.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="ponzi" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#ponzi"></a>Bitcoin Ã©s un esquema Ponzi?</h3>
+      <div>
+        <p>Un esquema Ponzi Ã©s una operaciÃ³ d'inversiÃ³ fraudulenta que dÃ³na beneficis als seus inversors dels seus propis diners, o dels diners pagats amb els segÃ¼ents inversors, en lloc dels beneficis guanyats per les persones que porten el negoci. Els esquemes Ponzi estan dissenyats per colÂ·lapsar en expenses dels Ãºltims inversors quan no hi ha prou participants.</p>
+        <p>Bitcoin Ã©s un projecte de programari lliure sense autoritat central. En conseqÃ¼Ã¨ncia, ningÃº no estÃ  en condicions de fer declaracions fraudulentes sobre els rendiments de la inversiÃ³. Igual que altres monedes importants com lâor, el dÃ²lar nord-americÃ , lâeuro, el ien, etc., no hi ha cap poder adquisitiu garantit i el tipus de canvi flota lliurement. AixÃ² condueix a la volatilitat en quÃ¨ els propietaris de bitcoins poden guanyar o perdre diners de forma imprevisible. MÃ©s enllÃ  de lâespeculaciÃ³, Bitcoin tambÃ© Ã©s un sistema de pagament amb atributs Ãºtils i competitius que estan utilitzant milers dâusuaris i empreses.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="creator" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#creator"></a>Qui va crear Bitcoin?</h3>
+      <div>
+        <p>Bitcoin Ã©s la primera implementaciÃ³ d'un concepte anomenat "criptomoneda", el qual va ser descrit per primera vegada l'any 1998 per Wei Dai a la llista de correu cypherpunks. Suggeria la idea d'una nou tipus de moneda que en comptes d'una autoritat central utilitzÃ©s criptografia per tal de controlar la seva creaciÃ³ i les seves transaccions. La primera especificaciÃ³ Bitcoin i la prova de concepte va ser publicada l'any 2009 per Satoshi Nakamoto en una llista de correu de criptografia. Satoshi va deixar el projecte a finals del 2010 sense revelar gaire res sobre ell mateix. La comunitat des de llavors ha crescut exponencialment amb molts <a href="/ca/desenvolupament">desenvolupadors</a> treballant-hi.</p>
+        <p>L'anonimat de Satoshi ha plantejat preocupacions injustificades moltes de les quals van lligades a no entendre la naturalesa "open-source" de Bitcoin. El protocol Bitcoin i el seu programari es publica obertament i qualsevol desenvolupador del mÃ³n el pot revisar o fer-ne la seva prÃ²pia versiÃ³ modificada. Tal com passa amb els desenvolupadors actuals, la influÃ¨ncia de Satoshi es limitava als canvis que feia i que posteriorment eren adoptats per altres. Ell no controlava Bitcoin. Vist aixÃ­, la identitat de l'inventor de Bitcoin podria considerar-se avui tan rellevant com la identitat de la persona que va inventar el paper.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="worthless" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#worthless"></a>Poden els bitcoins arribar a no tenir valor?</h3>
+      <div>
+        <p>SÃ­. La histÃ²ria estÃ  plena de monedes que han fallat i que ja no sâutilitzen, com la <a href="https://en.wikipedia.org/wiki/German_gold_mark">marca alemanya</a> durant la RepÃºblica de Weimar i, mÃ©s recentment, el <a href="https://en.wikipedia.org/wiki/Zimbabwean_dollar">dÃ²lar ZimbabuÃ¨s</a>. Tot i que els fracassos monetaris anteriors solien ser deguts a una hiperinflaciÃ³ (aixÃ² Ã©s impossible per Bitcoin) sempre hi ha possibles fallades tÃ¨cniques, monedes competidores, qÃ¼estions polÃ­tiques, etc. Com a regla bÃ sica general, cap moneda no sâha de considerar absolutament segura davant de fallades o moments difÃ­cils. Bitcoin ha demostrat ser fiable durant anys des dels seus inicis i hi ha molt potencial perquÃ¨ Bitcoin continuÃ¯ creixent. Tot i aixÃ², ningÃº no estÃ  en condicions de predir quin serÃ  el futur de Bitcoin.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="virtual" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#virtual"></a>Bitcoin Ã©s completament virtual i immaterial?</h3>
+      <div>
+        <p>Bitcoin Ã©s tan virtual com ho Ã©s una targeta de crÃ¨dit i la banca en lÃ­nia que la gent utilitza diÃ riament. Bitcoin es pot usar per a pagar en lÃ­nia i a les botigues fÃ­siques tal com amb qualsevol altre tipus de moneda. Els bitcoins es poden canviar en forma fÃ­sica com la <a href="https://denarium.com/">moneda Denarium</a>, perÃ² pagar amb el telÃ¨fon mÃ²bil acostuma a ser mÃ©s convenient. Els saldos Bitcoin es guarden a una gran xarxa distribuÃ¯da i no poden ser alterats fraudulentament per a ningÃº. En altres paraules, els usuaris Bitcoin tenen control exclusiu sobre els seus fons i els bitcoins no poden desaparÃ¨ixer, ja que sÃ³n virtuals.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="trust" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#trust"></a>PerquÃ¨ la gent confia amb Bitcoin?</h3>
+      <div>
+        <p>Gran part de la confianÃ§a en Bitcoin provÃ© del fet que no requereix cap confianÃ§a. Bitcoin Ã©s de codi obert i descentralitzat. AixÃ² vol dir que qualsevol persona tÃ© accÃ©s a tot el seu codi font en qualsevol moment. Qualsevol desenvolupador del mÃ³n pot verificar com funciona Bitcoin. Tots els bitcoins creats i les seves transaccions poden ser consultats de manera transparent en temps real per a qualsevol individu. Tots els pagaments poden ser fets sense dependre d'una tercera part i tot el sistema Ã©s protegit per algoritmes criptogrÃ fics intensament revisats i utilitzats en altres Ã mbits com per exemple la banca en lÃ­nia. Cap persona ni organitzaciÃ³ pot controlar Bitcoin, i la xarxa es mantÃ© segura encara que no tots els usuaris siguin de confianÃ§a.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="anonymous" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#anonymous"></a>Bitcoin Ã©s anÃ²nim?</h3>
+      <div>
+        <p>El disseny de Bitcoin permet als seus usuaris enviar i rebre pagaments amb un nivell de privacitat acceptable aixÃ­ com es fa amb qualsevol altre tipus de moneda. AixÃ­ i tot, Bitcoin no Ã©s anÃ²nim i no pot oferir el mateix nivell de privacitat que l'efectiu. L'Ãºs de Bitcoin deixa un registre pÃºblic. Existeixen <a href="/ca/protegeix-la-teva-privacitat">varis mecanismes</a> per a protegir la privacitat dels usuaris, i n'hi ha mÃ©s en desenvolupament. En qualsevol cas encara queda feina per fer abans que aquestes caracterÃ­stiques s'utilitzin correctament per la majoria d'usuaris Bitcoin.</p>
+        <p>S'han plantejat certes preocupacions, ja que les transaccions privades amb Bitcoin podrien ser utilitzades per a propÃ²sits ilÂ·legals. Tanmateix val la pena assenyalar que Bitcoin estarÃ  subjecte a regulacions similars a les que actualment hi ha instaurades als sistemes financers. Bitcoin no pot ser mÃ©s anÃ²nim que el metÃ lÂ·lic i no impedirÃ  cap investigaciÃ³ criminal que es porti a terme. A mÃ©s a mÃ©s, el mateix disseny de Bitcoin preveu i evita un bon nombre de crims financers.</p>
+      </div>
+    </div>
+    <p>Per obtenir mÃ©s informaciÃ³ sobre Bitcoin, visiteu les <a href="/en/faq">preguntes freqÃ¼ents</a> completes o el <a href="https://en.bitcoin.it/wiki/Help:FAQ">Wiki de Bitcoin</a>.</p>
+  </div>
+</div>
+
+
+
+    </div>
+  </div>
+</div>
+
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="/ca/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Suporta Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">DÃ³na</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">IntroducciÃ³:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/ca/bitcoin-per-persones">Persones</a>
+        </li>
+        <li>
+          <a href="/ca/bitcoin-per-empreses">Empreses</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">Desenvolupadors</a>
+        </li>
+        <li>
+          <a href="/ca/iniciat">Inicia't</a>
+        </li>
+        <li>
+          <a href="/ca/com-funciona">Com funciona</a>
+        </li>
+        <li>
+          <a href="/ca/necessites-saber">Necessites saber</a>
+        </li>
+        
+        <li>
+          <a href="/ca/paper-bitcoin">Paper blanc</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">Recursos:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/ca/recursos">Recursos</a>
+        </li><li>
+          <a href="/ca/cases-de-canvi">Intercanvis</a>
+        </li>
+        <li>
+          <a href="/ca/comunitat">Comunitat</a>
+        </li>
+        <li>
+          <a href="/ca/vocabulari">Vocabulari
+          </a>
+        </li>
+        <li>
+          <a href="/ca/events">Esdeveniments</a>
+        </li>
+        
+          <li>
+            <a href="/ca/descarrega">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">Participa:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/ca/dona-suport-a-bitcoin">DÃ³na suport a Bitcoin</a>
+        
+        
+        </li><li>
+          <a href="/ca/desenvolupament">Desenvolupament</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Altres:</p>
+      
+      <a href="/ca/legal">Legal</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/ca/premsa">Premsa</a>
+      <a href="/ca/sobre-nosaltres">Sobre bitcoin.org</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>Una comunitat web esponsoritzada per</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1716491272" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 publicat sota la <a href="http://opensource.org/licenses/mit-license.php" target="_blank">llicÃ¨ncia MIT</a></div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">Estat de la xarxa</a>
+        
+<ul class="lang is-expand">
+  <li><a>CatalÃ </a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/pers">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/premsa" class="active">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/presse">Dansk</a></li>
+        
+        
+          <li><a href="/de/presse">Deutsch</a></li>
+        
+        
+          <li><a href="/en/press">English</a></li>
+        
+        
+          <li><a href="/es/prensa">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/presse">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/stampa">Italiano</a></li>
+        
+        
+          <li><a href="/hu/sajto">Magyar</a></li>
+        
+        
+          <li><a href="/nl/pers">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/prasa">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/imprensa">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/presa">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/mediji">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/mediji">Srpski</a></li>
+        
+        
+          <li><a href="/sv/press">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/basin">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/press">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/press">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/press">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/press">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/press">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/press">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/press">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/press">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/press">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/press">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/press">ááááá</a></li>
+        
+        
+          <li><a href="/ja/press">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/press">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/press">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/pers">Bahasa Indonesia</option>
+              
+              <option value="/ca/premsa" selected="selected">CatalÃ </option>
+              
+              <option value="/da/presse">Dansk</option>
+              
+              <option value="/de/presse">Deutsch</option>
+              
+              <option value="/en/press">English</option>
+              
+              <option value="/es/prensa">EspaÃ±ol</option>
+              
+              <option value="/fr/presse">FranÃ§ais</option>
+              
+              <option value="/it/stampa">Italiano</option>
+              
+              <option value="/hu/sajto">Magyar</option>
+              
+              <option value="/nl/pers">Nederlands</option>
+              
+              <option value="/pl/prasa">Polski</option>
+              
+              <option value="/pt_BR/imprensa">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/presa">RomÃ¢nÄ</option>
+              
+              <option value="/sl/mediji">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/mediji">Srpski</option>
+              
+              <option value="/sv/press">Svenska</option>
+              
+              <option value="/tr/basin">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/press">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/press">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/press">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/press">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/press">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/press">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/press">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/press">×¢××¨××ª</option>
+              
+              <option value="/hi/press">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/press">íêµ­ì´</option>
+              
+              <option value="/km/press">ááááá</option>
+              
+              <option value="/ja/press">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/press">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/press">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">ca</span>
+          </label>
+        </div>
+      </div>
+<!--      <div class="row">  -->
+        
+<!--    </div> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+
+
+  <script>updateToc();</script>
+<script>accordion();</script>
+<script>onScrollButton();</script>
+<script>boxShow();</script>
+
+
+
+
+
+
+</body></html>
