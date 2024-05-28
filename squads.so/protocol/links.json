@@ -1,0 +1,46 @@
+{
+    "target_url": "https://squads.so/protocol",
+    "domains": {
+        "discord.com": [
+            "https://discord.com/invite/YPXz64TrKs"
+        ],
+        "docs.squads.so": [
+            "https://docs.squads.so/main/basics/welcome-to-squads",
+            "https://docs.squads.so/main/v/development/",
+            "https://docs.squads.so/main/v/security/bug-bounty"
+        ],
+        "github.com": [
+            "https://github.com/Squads-Protocol",
+            "https://github.com/Squads-Protocol/squads-mpl/blob/main/Squads%20V3%20-%20OtterSec%20Audit.pdf",
+            "https://github.com/Squads-Protocol/v4"
+        ],
+        "squads.so": [
+            "https://squads.so/",
+            "https://squads.so/about",
+            "https://squads.so/blog",
+            "https://squads.so/blog/mpc-wallets-risks-vs-multisig",
+            "https://squads.so/blog/permissions-roles-in-multisig",
+            "https://squads.so/blog/spending-limits",
+            "https://squads.so/blog/what-are-multisig-wallets",
+            "https://squads.so/brand-assets",
+            "https://squads.so/extension",
+            "https://squads.so/legal/privacy-policy",
+            "https://squads.so/legal/terms-of-service",
+            "https://squads.so/protocol",
+            "https://squads.so/use-cases"
+        ],
+        "twitter.com": [
+            "https://twitter.com/squadsprotocol"
+        ],
+        "warpcast.com": [
+            "https://warpcast.com/squads"
+        ],
+        "www.npmjs.com": [
+            "https://www.npmjs.com/package/@sqds/multisig",
+            "https://www.npmjs.com/package/@sqds/multisig?activeTab=readme"
+        ],
+        "www.sqds.io": [
+            "https://www.sqds.io/"
+        ]
+    }
+}

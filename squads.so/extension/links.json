@@ -1,0 +1,120 @@
+{
+    "target_url": "https://squads.so/extension",
+    "domains": {
+        "chrome.google.com": [
+            "https://chrome.google.com/webstore/detail/squadsx/jhmfofkpljgmilikdmkglcmekjnlekda"
+        ],
+        "cypher.trade": [
+            "https://cypher.trade/"
+        ],
+        "debridge.finance": [
+            "https://debridge.finance/"
+        ],
+        "discord.com": [
+            "https://discord.com/invite/YPXz64TrKs"
+        ],
+        "docs.squads.so": [
+            "https://docs.squads.so/main/basics/welcome-to-squads"
+        ],
+        "exchange.art": [
+            "https://exchange.art/"
+        ],
+        "famousfoxes.com": [
+            "https://famousfoxes.com/"
+        ],
+        "francium.io": [
+            "https://francium.io/"
+        ],
+        "github.com": [
+            "https://github.com/Squads-Protocol"
+        ],
+        "hubbleprotocol.io": [
+            "https://hubbleprotocol.io/"
+        ],
+        "kamino.finance": [
+            "https://kamino.finance/"
+        ],
+        "magiceden.io": [
+            "https://magiceden.io/"
+        ],
+        "mango.markets": [
+            "https://mango.markets/"
+        ],
+        "matrica.io": [
+            "https://matrica.io/"
+        ],
+        "mayan.finance": [
+            "https://mayan.finance/"
+        ],
+        "raydium.io": [
+            "https://raydium.io/"
+        ],
+        "realms.today": [
+            "https://realms.today/"
+        ],
+        "sharky.fi": [
+            "https://sharky.fi/"
+        ],
+        "shield.lightprotocol.com": [
+            "https://shield.lightprotocol.com/"
+        ],
+        "solend.fi": [
+            "https://solend.fi/"
+        ],
+        "squads.so": [
+            "https://squads.so/",
+            "https://squads.so/about",
+            "https://squads.so/blog",
+            "https://squads.so/blog/mpc-wallets-risks-vs-multisig",
+            "https://squads.so/blog/what-are-multisig-wallets",
+            "https://squads.so/brand-assets",
+            "https://squads.so/extension",
+            "https://squads.so/legal/privacy-policy",
+            "https://squads.so/legal/terms-of-service",
+            "https://squads.so/protocol",
+            "https://squads.so/use-cases"
+        ],
+        "switchboard.xyz": [
+            "https://switchboard.xyz/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/squadsprotocol"
+        ],
+        "warpcast.com": [
+            "https://warpcast.com/squads"
+        ],
+        "www.drift.trade": [
+            "https://www.drift.trade/"
+        ],
+        "www.elusiv.io": [
+            "https://www.elusiv.io/"
+        ],
+        "www.marginfi.com": [
+            "https://www.marginfi.com/"
+        ],
+        "www.metaplex.com": [
+            "https://www.metaplex.com/"
+        ],
+        "www.npmjs.com": [
+            "https://www.npmjs.com/package/@sqds/multisig"
+        ],
+        "www.orca.so": [
+            "https://www.orca.so/"
+        ],
+        "www.phoenix.trade": [
+            "https://www.phoenix.trade/"
+        ],
+        "www.portalbridge.com": [
+            "https://www.portalbridge.com/#/transfer"
+        ],
+        "www.sqds.io": [
+            "https://www.sqds.io/"
+        ],
+        "www.tensor.trade": [
+            "https://www.tensor.trade/"
+        ],
+        "www.zeta.markets": [
+            "https://www.zeta.markets/"
+        ]
+    }
+}
