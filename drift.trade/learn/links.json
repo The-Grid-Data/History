@@ -1,0 +1,73 @@
+{
+    "target_url": "https://drift.trade/learn",
+    "domains": {
+        "app.drift.trade": [
+            "http://app.drift.trade/stats",
+            "https://app.drift.trade",
+            "https://app.drift.trade/stats"
+        ],
+        "assets-global.website-files.com": [
+            "https://assets-global.website-files.com/611580035ad59b20437eb024/61293b57e3103934ddc5535f_v0 Devnet Feature Paper - Revision 1.1.pdf"
+        ],
+        "discord.com": [
+            "https://discord.com/invite/fMcZBH8ErM"
+        ],
+        "docs.drift.trade": [
+            "https://docs.drift.trade/",
+            "https://docs.drift.trade/legal-and-regulations/privacy-policy",
+            "https://docs.drift.trade/legal-and-regulations/terms-of-use"
+        ],
+        "drift-labs.github.io": [
+            "https://drift-labs.github.io/v2-teacher/"
+        ],
+        "drift.trade": [
+            "https://drift.trade/",
+            "https://drift.trade/blog",
+            "https://drift.trade/drift-governance-token",
+            "https://drift.trade/governance",
+            "https://drift.trade/learn",
+            "https://drift.trade/learn/breakers",
+            "https://drift.trade/learn/dex-account-overview",
+            "https://drift.trade/learn/dex-deposit-withdraw",
+            "https://drift.trade/learn/dex-sub-accounts",
+            "https://drift.trade/learn/drift-wallet-setup",
+            "https://drift.trade/learn/fair-value-gap-fvg",
+            "https://drift.trade/learn/how-to-bridge-assets",
+            "https://drift.trade/learn/how-to-develop-a-profitable-trading-strategy",
+            "https://drift.trade/learn/how-to-transfer-funds-from-a-cex-onto-drift",
+            "https://drift.trade/learn/how-to-use-hedging",
+            "https://drift.trade/learn/insurance-fund-vault-staking",
+            "https://drift.trade/learn/ledger-solana-setup",
+            "https://drift.trade/learn/market-structure-breaks",
+            "https://drift.trade/learn/open-interest",
+            "https://drift.trade/learn/order-types",
+            "https://drift.trade/learn/orderblocks",
+            "https://drift.trade/learn/passwordless-social-log-in",
+            "https://drift.trade/learn/risk-management",
+            "https://drift.trade/learn/tracking-drift-growth",
+            "https://drift.trade/updates"
+        ],
+        "driftprotocol.notion.site": [
+            "https://driftprotocol.notion.site/Drift-Career-Opportunities-45de6a825f264388b13cd866b707d157"
+        ],
+        "drive.google.com": [
+            "https://drive.google.com/drive/u/3/folders/15LZhkSzc6P488zkISIm7zBJ45UF01joG"
+        ],
+        "github.com": [
+            "https://github.com/drift-labs",
+            "https://github.com/drift-labs/driftpy",
+            "https://github.com/drift-labs/protocol-v2",
+            "https://github.com/drift-labs/protocol-v2/tree/master/sdk"
+        ],
+        "metrics.drift.trade": [
+            "https://metrics.drift.trade/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/driftprotocol"
+        ],
+        "www.drift.trade": [
+            "http://www.drift.trade/audit",
+            "http://www.drift.trade/connect-by-drift-security-audit-by-ottersec"
+        ]
+    }
+}
