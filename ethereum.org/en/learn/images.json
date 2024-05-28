@@ -1,0 +1,28 @@
+{
+    "target_url": "https://ethereum.org/en/learn/",
+    "domains": {
+        "cdnjs.cloudflare.com": [
+            "https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/2/svg/1f4c3.svg"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fdao-2.62aa97a7.png&w=640&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fdevelopers-eth-blocks.62390e1a.png&w=640&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fdoge-computer.482265f8.png&w=640&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fenterprise-eth.d2a3f314.png&w=640&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Feth.28aff33d.png&w=640&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fethereum-inside.4283ba2e.png&w=640&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Ffinance_transparent.a4abc782.png&w=640&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Ffuture_transparent.465fbd2d.png&w=640&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fhackathon_transparent.0818b178.png&w=640&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fhero.c9c85da0.png&w=384&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fimpact_transparent.7420c423.png&w=640&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Finfrastructure_transparent.8849e91b.png&w=384&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Flearn-hub-hero.bc4653ed.png&w=1920&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fmerge.1565d431.png&w=640&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fnewrings.774586ae.png&w=1920&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fupgrade_rhino.06589fe8.png&w=640&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fwallet.454231ba.png&w=384&q=75",
+            "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fwhat-is-ethereum.b37ce60e.png&w=640&q=75"
+        ]
+    }
+}
