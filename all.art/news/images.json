@@ -1,0 +1,43 @@
+{
+    "target_url": "https://all.art/news",
+    "domains": {
+        "all.art": [
+            "https://all.art/assets/flags/cn.svg",
+            "https://all.art/assets/flags/de.svg",
+            "https://all.art/assets/flags/fr.svg",
+            "https://all.art/assets/flags/id.svg",
+            "https://all.art/assets/flags/it.svg",
+            "https://all.art/assets/flags/rs.svg",
+            "https://all.art/assets/flags/th.svg",
+            "https://all.art/assets/flags/us.svg",
+            "https://all.art/assets/flags/vn.svg"
+        ],
+        "s3.eu-west-1.amazonaws.com": [
+            "https://s3.eu-west-1.amazonaws.com/storage.digitalmind.rs/files/0cdb7df09065c73ac91cdb2889df95aff1713cd621d39648f1534f4f8c34d9d4.webp",
+            "https://s3.eu-west-1.amazonaws.com/storage.digitalmind.rs/files/0d9453c09248ed0c35ecf218ab022f6ce96817f265f042afda78a7b206ab54b1.webp",
+            "https://s3.eu-west-1.amazonaws.com/storage.digitalmind.rs/files/1ad6d8bd80313ac6ab58d01f8e4c716d41e5e0e189180deaee1a0a2739d73d61.webp",
+            "https://s3.eu-west-1.amazonaws.com/storage.digitalmind.rs/files/1be315fca7f4bcaf0445d5af6316cd094103c7c60fd8282abeac6ab14e37f6cc.webp",
+            "https://s3.eu-west-1.amazonaws.com/storage.digitalmind.rs/files/36539bec31885acb55b31202f2e355327ebbea674cbe73b6cf49fd32595d0c79.webp",
+            "https://s3.eu-west-1.amazonaws.com/storage.digitalmind.rs/files/37906e9d104171c4d9544398deaa331e700f2bf24b8681e91d699a29468d738f.webp",
+            "https://s3.eu-west-1.amazonaws.com/storage.digitalmind.rs/files/3c66d98f5a5544cfc4d6c901ed36294723b14f2e3e4ae198ceb58943903c809b.webp",
+            "https://s3.eu-west-1.amazonaws.com/storage.digitalmind.rs/files/40abb46be04b93a6c3c96e7d08fcbca24ab574b3a1860b21835847ffff12ee74.webp",
+            "https://s3.eu-west-1.amazonaws.com/storage.digitalmind.rs/files/4d5f6e7cfe969e27884cf53f1698706dfe3889a8de2262b63c30c29e6277d87f.webp",
+            "https://s3.eu-west-1.amazonaws.com/storage.digitalmind.rs/files/649e5d8e9224a0f230034fb4e86d2baed83327e5a4245f670a8fa9fbc3fcdd71.webp",
+            "https://s3.eu-west-1.amazonaws.com/storage.digitalmind.rs/files/672d44de201e430b87bd35798ab299c7f0b6d836602fc459bba936f77c9f1c12.webp",
+            "https://s3.eu-west-1.amazonaws.com/storage.digitalmind.rs/files/6bce8782c748ecf451c436fab326f1b79d9082969e235c9e7736a748b3451ad8.webp",
+            "https://s3.eu-west-1.amazonaws.com/storage.digitalmind.rs/files/833aca09278eb5b47bb52a815076724eaeb582009b8b556543a15e48b70695c4.webp",
+            "https://s3.eu-west-1.amazonaws.com/storage.digitalmind.rs/files/8abab5f2962793ec4a7914af23d56caae4ba66fd11ce12ae5047bc3de46067fd.webp",
+            "https://s3.eu-west-1.amazonaws.com/storage.digitalmind.rs/files/95fa7daf253b82a98e54ba3ce296465063a2c902a94d9a8186b1af25f143152c.webp",
+            "https://s3.eu-west-1.amazonaws.com/storage.digitalmind.rs/files/a25a2d97d128c13c3ed80ac984835b45a3d4f1c39e48446d06c8903364ca8630.webp",
+            "https://s3.eu-west-1.amazonaws.com/storage.digitalmind.rs/files/a370d94eea1493a4600dda6d75e0681cdaf5cbb80c3d79e819f964355e2c87bd.webp",
+            "https://s3.eu-west-1.amazonaws.com/storage.digitalmind.rs/files/a65bd7a833ef837604f958fc0cfd6bd607e71589b3694116e7f7c5947d07f5d6.webp",
+            "https://s3.eu-west-1.amazonaws.com/storage.digitalmind.rs/files/b3b16fd2fce64da97bbaaedd85c6709d72d8e4235a5ccb5ad8b68bf55440b2c4.png",
+            "https://s3.eu-west-1.amazonaws.com/storage.digitalmind.rs/files/c26c79af4d447c25ad2c2144797e9ad81f34f6e079021b733d1a4637d1296c31.png",
+            "https://s3.eu-west-1.amazonaws.com/storage.digitalmind.rs/files/cc6579edb3164a642fe84805d0a922f0302761c8b8cb42b3dc18446d42ff750e.webp",
+            "https://s3.eu-west-1.amazonaws.com/storage.digitalmind.rs/files/d7b9ff96b3530ac0c0766162935bb86cba0727a362c711f5cbe8d783ea1095dc.webp",
+            "https://s3.eu-west-1.amazonaws.com/storage.digitalmind.rs/files/efebaa14d5a889c3b9f4193261509d033194f64a2701f768a60ca680f831c298.webp",
+            "https://s3.eu-west-1.amazonaws.com/storage.digitalmind.rs/files/fa995831fbf3b0f6233b11c791fbb9085fba9c92b078aef5892361b5bd120046.webp",
+            "https://s3.eu-west-1.amazonaws.com/storage.digitalmind.rs/files/fd32c33d91dd19e76533b4ebe9cc670e4d6880afd2a78ff618a09910289659f7.webp"
+        ]
+    }
+}
