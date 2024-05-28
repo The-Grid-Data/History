@@ -1,0 +1,18 @@
+{
+    "target_url": "https://wormhole.com/case-studies/pyth",
+    "domains": {
+        "images.ctfassets.net": [
+            "https://images.ctfassets.net/n8aw1cra6v98/2057wAXk6apiGi4vfTeC2u/9e200f5dfebaf6bb113c879243cf4508/wormwhole.svg?w=384&q=100",
+            "https://images.ctfassets.net/n8aw1cra6v98/282eiXs0rx4wXIwsmQpQYO/9ed5915a2a7ccf343d701ff3094a61ea/Group_427320707.png?w=1920&q=75",
+            "https://images.ctfassets.net/n8aw1cra6v98/2fP8M06oPDd6atrcKaUHOQ/0fcc04374046f970de7dfb7fe86574e5/worm.svg"
+        ],
+        "wormhole.com": [
+            "https://wormhole.com/assets/discord.svg",
+            "https://wormhole.com/assets/github.svg",
+            "https://wormhole.com/assets/some.svg",
+            "https://wormhole.com/assets/telegram.svg",
+            "https://wormhole.com/assets/x.svg",
+            "https://wormhole.com/assets/youtube.svg"
+        ]
+    }
+}
