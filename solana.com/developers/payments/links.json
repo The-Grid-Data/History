@@ -1,0 +1,54 @@
+{
+    "target_url": "https://solana.com/developers/payments",
+    "domains": {
+        "apps.shopify.com": [
+            "https://apps.shopify.com/solana-pay"
+        ],
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "docs.solanapay.com": [
+            "https://docs.solanapay.com/"
+        ],
+        "forums.solana.com": [
+            "https://forums.solana.com"
+        ],
+        "github.com": [
+            "https://github.com/solana-labs/solana-pay"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "solana.com": [
+            "https://solana.com/",
+            "https://solana.com/branding",
+            "https://solana.com/developers/cookbook",
+            "https://solana.com/developers/guides",
+            "https://solana.com/discord",
+            "https://solana.com/docs",
+            "https://solana.com/docs/rpc",
+            "https://solana.com/docs/terminology",
+            "https://solana.com/ecosystem",
+            "https://solana.com/github",
+            "https://solana.com/news",
+            "https://solana.com/newsletter",
+            "https://solana.com/privacy-policy",
+            "https://solana.com/privacy-policy#collection-of-information",
+            "https://solana.com/reddit",
+            "https://solana.com/telegram",
+            "https://solana.com/tos",
+            "https://solana.com/twitter",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ],
+        "solanapay.com": [
+            "https://solanapay.com/",
+            "https://solanapay.com/branding"
+        ],
+        "www.anchor-lang.com": [
+            "https://www.anchor-lang.com/"
+        ]
+    }
+}
