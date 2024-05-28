@@ -1,0 +1,161 @@
+{
+    "target_url": "https://bitcoin.org/sr/cesto-postavljanja-pitanja",
+    "domains": {
+        "": [
+            "bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"
+        ],
+        "bitcoin.org": [
+            "https://bitcoin.org/ar/faq",
+            "https://bitcoin.org/bg/faq",
+            "https://bitcoin.org/ca/faq",
+            "https://bitcoin.org/da/faq",
+            "https://bitcoin.org/de/faq",
+            "https://bitcoin.org/el/faq",
+            "https://bitcoin.org/en/alerts",
+            "https://bitcoin.org/en/blog",
+            "https://bitcoin.org/en/faq",
+            "https://bitcoin.org/en/privacy",
+            "https://bitcoin.org/en/spend-bitcoin",
+            "https://bitcoin.org/es/faq",
+            "https://bitcoin.org/fa/faq",
+            "https://bitcoin.org/fr/faq",
+            "https://bitcoin.org/he/faq",
+            "https://bitcoin.org/hi/faq",
+            "https://bitcoin.org/hu/gyik",
+            "https://bitcoin.org/hy/faq",
+            "https://bitcoin.org/id/faq",
+            "https://bitcoin.org/it/faq",
+            "https://bitcoin.org/ja/faq",
+            "https://bitcoin.org/km/faq",
+            "https://bitcoin.org/ko/faq",
+            "https://bitcoin.org/nl/faq",
+            "https://bitcoin.org/pl/faq",
+            "https://bitcoin.org/pt_BR/faq",
+            "https://bitcoin.org/ro/intrebari-frecvente",
+            "https://bitcoin.org/ru/faq",
+            "https://bitcoin.org/sl/vprasanja-in-odgovori",
+            "https://bitcoin.org/sr/",
+            "https://bitcoin.org/sr/bitkoin-papir",
+            "https://bitcoin.org/sr/bitkoin-za-lica",
+            "https://bitcoin.org/sr/bitkoin-za-preduzeca",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#bezbednost",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#bitkoin-i-zastita-potrosaca",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#bitkoin-kao-globalni-sistem-placanja",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#da-li-bitkoin-moze-postati-bezvredan",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#da-li-bitkoin-nepravedno-koristi-ranim-usvajacima",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#da-li-ce-bitkoin-propasti-zbog-deflatorne-spirale",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#da-li-isti-bitkoin-mozete-potrositi-dva-puta",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#da-li-je-bitkoin-bezbedan",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#da-li-je-bitkoin-hakovan-u-proslosti",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#da-li-je-bitkoin-ranjiv-na-kvantnum-racunare",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#da-li-je-bitkoin-tracenje-energije",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#da-li-je-bitkoin-zakonit",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#da-li-je-limitirani-iznos-bitkoina-ogranicenje",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#da-li-je-spekulacija-i-nestabilnost-problem-za-bitkoin",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#da-li-ljudi-stvarno-koriste-bitkoine",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#da-li-se-bitkoin-moze-regulisati",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#da-li-se-bitkoini-koriste-u-ilegalne-svrhe",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#da-li-se-korisnici-mogu-da-se-udruze-protiv-bictoin",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#da-li-su-bitkoini-anonimni",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#da-li-su-bitkoini-pozijeva-sema",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#da-li-su-bitkoini-u-potpunosti-virtuelni-i-nematerijalni",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#dodatna-pomoc",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#ekonomija",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#generalno",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#kako-bitkoin-rudarenje-fukncionise",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#kako-bitkoini-funkcionisu",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#kako-da-pocnem-sa-rudarenjem",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#kako-doci-do-bitkoina",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#kako-nastaju-bitkoini",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#kako-rudarenje-pruza-bezbednost-bitkoinu",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#ko-je-napravio-bitkoine",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#ko-kontrolise-bitkoin-mrezu",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#koje-su-prednosti-bitkoina",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#koji-su-nedostaci-bitkoina",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#kolika-je-provizija",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#koliko-je-tesko-izvrsiti-bitkoin-placanje",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#mogu-li-da-zaradim-sa-bitkoinima",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#pomoc",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#rudarenje",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#sta-ako-neko-kupi-sve-preostale-bitkoine",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#sta-ako-neko-napravi-bolju-digitalnu-valutu",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#sta-ako-primim-bitkoin-dok-je-racunar-iskljucen",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#sta-je-bikoin-rudarenje",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#sta-je-bitkoin",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#sta-je-sa-bitkoin-taksama",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#sta-je-sinhronizacija-i-zasto-traje-dugo",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#sta-odredjuje-cenu-bitkoina",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#sta-se-desava-kad-se-bitkoini-izgube",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#transakcije",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#zakon",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#zasto-bitkoini-imaju-vrednost",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#zasto-ljudi-imaju-poverenje-u-bitkoin",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja#zasto-treba-da-cekam-10-minuta",
+            "https://bitcoin.org/sr/dogadaji",
+            "https://bitcoin.org/sr/inovacija",
+            "https://bitcoin.org/sr/izaberite-vas-novcanik",
+            "https://bitcoin.org/sr/kako-to-radi",
+            "https://bitcoin.org/sr/kupi",
+            "https://bitcoin.org/sr/mediji",
+            "https://bitcoin.org/sr/menjacnice",
+            "https://bitcoin.org/sr/o-nama",
+            "https://bitcoin.org/sr/podrzite-bitkoin",
+            "https://bitcoin.org/sr/preuzimanje",
+            "https://bitcoin.org/sr/prvi-koraci",
+            "https://bitcoin.org/sr/razvoj",
+            "https://bitcoin.org/sr/sredstva",
+            "https://bitcoin.org/sr/trebali-bi-da-znate",
+            "https://bitcoin.org/sr/trebali-bi-da-znate#instant",
+            "https://bitcoin.org/sr/vokabular",
+            "https://bitcoin.org/sr/zajednica",
+            "https://bitcoin.org/sr/zakon",
+            "https://bitcoin.org/sr/zastitite-svoju-privatnost",
+            "https://bitcoin.org/sv/faq",
+            "https://bitcoin.org/tr/sss",
+            "https://bitcoin.org/uk/faq",
+            "https://bitcoin.org/zh_CN/faq",
+            "https://bitcoin.org/zh_TW/faq"
+        ],
+        "bitcoincharts.com": [
+            "https://bitcoincharts.com/bitcoin/"
+        ],
+        "bitcoinmagazine.com": [
+            "https://bitcoinmagazine.com/6021/bitcoin-is-not-quantum-safe-and-how-we-can-fix/"
+        ],
+        "denarium.com": [
+            "https://denarium.com/"
+        ],
+        "developer.bitcoin.org": [
+            "https://developer.bitcoin.org/"
+        ],
+        "en.bitcoin.it": [
+            "https://en.bitcoin.it/wiki/Help:FAQ",
+            "https://en.bitcoin.it/wiki/Scalability"
+        ],
+        "en.wikipedia.org": [
+            "https://en.wikipedia.org/wiki/German_gold_mark",
+            "https://en.wikipedia.org/wiki/Legality_of_bitcoin_by_country",
+            "https://en.wikipedia.org/wiki/Network_effect",
+            "https://en.wikipedia.org/wiki/Zimbabwean_dollar"
+        ],
+        "financialcryptography.com": [
+            "http://financialcryptography.com/mt/archives/001325.html"
+        ],
+        "live.blockcypher.com": [
+            "https://live.blockcypher.com/btc/"
+        ],
+        "localbitcoins.com": [
+            "https://localbitcoins.com/"
+        ],
+        "opensource.org": [
+            "http://opensource.org/licenses/mit-license.php"
+        ],
+        "www.bitcoinmining.com": [
+            "http://www.bitcoinmining.com/"
+        ],
+        "www.buybitcoinworldwide.com": [
+            "https://www.buybitcoinworldwide.com"
+        ]
+    }
+}
