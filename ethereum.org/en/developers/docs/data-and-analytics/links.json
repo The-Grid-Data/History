@@ -1,0 +1,246 @@
+{
+    "target_url": "https://ethereum.org/en/developers/docs/data-and-analytics/",
+    "domains": {
+        "": [
+            "mailto:press@ethereum.org"
+        ],
+        "academy.subquery.network": [
+            "https://academy.subquery.network/indexer/quickstart/quickstart_chains/ethereum-gravatar.html",
+            "https://academy.subquery.network/quickstart/quickstart_chains/ethereum-gravatar.html"
+        ],
+        "app.subquery.network": [
+            "https://app.subquery.network/dashboard"
+        ],
+        "beaconcha.in": [
+            "https://beaconcha.in"
+        ],
+        "blog.ethereum.org": [
+            "https://blog.ethereum.org/"
+        ],
+        "clientdiversity.org": [
+            "https://clientdiversity.org/"
+        ],
+        "devcon.org": [
+            "https://devcon.org/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/ethereum-org"
+        ],
+        "docs.dune.com": [
+            "https://docs.dune.com/#dune-basics"
+        ],
+        "dune.com": [
+            "https://dune.com/"
+        ],
+        "esp.ethereum.foundation": [
+            "https://esp.ethereum.foundation"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/en/",
+            "https://ethereum.org/en/about/",
+            "https://ethereum.org/en/about/#open-jobs",
+            "https://ethereum.org/en/assets/",
+            "https://ethereum.org/en/bug-bounty/",
+            "https://ethereum.org/en/community/",
+            "https://ethereum.org/en/community/code-of-conduct/",
+            "https://ethereum.org/en/community/events/",
+            "https://ethereum.org/en/community/grants/",
+            "https://ethereum.org/en/community/online/",
+            "https://ethereum.org/en/community/research/",
+            "https://ethereum.org/en/contributing/",
+            "https://ethereum.org/en/contributing/translation-program/",
+            "https://ethereum.org/en/cookie-policy/",
+            "https://ethereum.org/en/dao/",
+            "https://ethereum.org/en/dapps/",
+            "https://ethereum.org/en/decentralized-identity/",
+            "https://ethereum.org/en/defi/",
+            "https://ethereum.org/en/developers/",
+            "https://ethereum.org/en/developers/docs/",
+            "https://ethereum.org/en/developers/docs/accounts/",
+            "https://ethereum.org/en/developers/docs/apis/backend/",
+            "https://ethereum.org/en/developers/docs/apis/javascript/",
+            "https://ethereum.org/en/developers/docs/apis/json-rpc/",
+            "https://ethereum.org/en/developers/docs/blocks/",
+            "https://ethereum.org/en/developers/docs/bridges/",
+            "https://ethereum.org/en/developers/docs/consensus-mechanisms/",
+            "https://ethereum.org/en/developers/docs/consensus-mechanisms/poa/",
+            "https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/",
+            "https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/attack-and-defense/",
+            "https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/attestations/",
+            "https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/block-proposal/",
+            "https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/faqs/",
+            "https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/gasper/",
+            "https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/keys/",
+            "https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/pos-vs-pow/",
+            "https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/rewards-and-penalties/",
+            "https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/weak-subjectivity/",
+            "https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/",
+            "https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/mining/",
+            "https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/mining/mining-algorithms/",
+            "https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/mining/mining-algorithms/dagger-hashimoto/",
+            "https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/mining/mining-algorithms/ethash/",
+            "https://ethereum.org/en/developers/docs/dapps/",
+            "https://ethereum.org/en/developers/docs/data-and-analytics/",
+            "https://ethereum.org/en/developers/docs/data-and-analytics/#block-explorers",
+            "https://ethereum.org/en/developers/docs/data-and-analytics/#client-diversity",
+            "https://ethereum.org/en/developers/docs/data-and-analytics/#dune-analytics",
+            "https://ethereum.org/en/developers/docs/data-and-analytics/#ethernow",
+            "https://ethereum.org/en/developers/docs/data-and-analytics/#further-reading",
+            "https://ethereum.org/en/developers/docs/data-and-analytics/#introduction",
+            "https://ethereum.org/en/developers/docs/data-and-analytics/#main-content",
+            "https://ethereum.org/en/developers/docs/data-and-analytics/#prerequisites",
+            "https://ethereum.org/en/developers/docs/data-and-analytics/#subquery-network",
+            "https://ethereum.org/en/developers/docs/data-and-analytics/#the-graph",
+            "https://ethereum.org/en/developers/docs/data-and-analytics/#top",
+            "https://ethereum.org/en/developers/docs/data-and-analytics/block-explorers/",
+            "https://ethereum.org/en/developers/docs/data-availability/",
+            "https://ethereum.org/en/developers/docs/data-structures-and-encoding/",
+            "https://ethereum.org/en/developers/docs/data-structures-and-encoding/patricia-merkle-trie/",
+            "https://ethereum.org/en/developers/docs/data-structures-and-encoding/rlp/",
+            "https://ethereum.org/en/developers/docs/data-structures-and-encoding/ssz/",
+            "https://ethereum.org/en/developers/docs/data-structures-and-encoding/web3-secret-storage/",
+            "https://ethereum.org/en/developers/docs/design-and-ux/",
+            "https://ethereum.org/en/developers/docs/development-networks/",
+            "https://ethereum.org/en/developers/docs/ethereum-stack/",
+            "https://ethereum.org/en/developers/docs/evm/",
+            "https://ethereum.org/en/developers/docs/evm/opcodes/",
+            "https://ethereum.org/en/developers/docs/frameworks/",
+            "https://ethereum.org/en/developers/docs/gas/",
+            "https://ethereum.org/en/developers/docs/ides/",
+            "https://ethereum.org/en/developers/docs/intro-to-ether/",
+            "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+            "https://ethereum.org/en/developers/docs/mev/",
+            "https://ethereum.org/en/developers/docs/networking-layer/",
+            "https://ethereum.org/en/developers/docs/networking-layer/network-addresses/",
+            "https://ethereum.org/en/developers/docs/networking-layer/portal-network/",
+            "https://ethereum.org/en/developers/docs/networks/",
+            "https://ethereum.org/en/developers/docs/nodes-and-clients/",
+            "https://ethereum.org/en/developers/docs/nodes-and-clients/archive-nodes/",
+            "https://ethereum.org/en/developers/docs/nodes-and-clients/bootnodes/",
+            "https://ethereum.org/en/developers/docs/nodes-and-clients/client-diversity/",
+            "https://ethereum.org/en/developers/docs/nodes-and-clients/light-clients/",
+            "https://ethereum.org/en/developers/docs/nodes-and-clients/node-architecture/",
+            "https://ethereum.org/en/developers/docs/nodes-and-clients/nodes-as-a-service/",
+            "https://ethereum.org/en/developers/docs/nodes-and-clients/run-a-node/",
+            "https://ethereum.org/en/developers/docs/oracles/",
+            "https://ethereum.org/en/developers/docs/programming-languages/",
+            "https://ethereum.org/en/developers/docs/programming-languages/dart/",
+            "https://ethereum.org/en/developers/docs/programming-languages/delphi/",
+            "https://ethereum.org/en/developers/docs/programming-languages/dot-net/",
+            "https://ethereum.org/en/developers/docs/programming-languages/golang/",
+            "https://ethereum.org/en/developers/docs/programming-languages/java/",
+            "https://ethereum.org/en/developers/docs/programming-languages/javascript/",
+            "https://ethereum.org/en/developers/docs/programming-languages/python/",
+            "https://ethereum.org/en/developers/docs/programming-languages/ruby/",
+            "https://ethereum.org/en/developers/docs/programming-languages/rust/",
+            "https://ethereum.org/en/developers/docs/scaling/",
+            "https://ethereum.org/en/developers/docs/scaling/optimistic-rollups/",
+            "https://ethereum.org/en/developers/docs/scaling/plasma/",
+            "https://ethereum.org/en/developers/docs/scaling/sidechains/",
+            "https://ethereum.org/en/developers/docs/scaling/state-channels/",
+            "https://ethereum.org/en/developers/docs/scaling/validium/",
+            "https://ethereum.org/en/developers/docs/scaling/zk-rollups/",
+            "https://ethereum.org/en/developers/docs/smart-contracts/",
+            "https://ethereum.org/en/developers/docs/smart-contracts/anatomy/",
+            "https://ethereum.org/en/developers/docs/smart-contracts/compiling/",
+            "https://ethereum.org/en/developers/docs/smart-contracts/composability/",
+            "https://ethereum.org/en/developers/docs/smart-contracts/deploying/",
+            "https://ethereum.org/en/developers/docs/smart-contracts/formal-verification/",
+            "https://ethereum.org/en/developers/docs/smart-contracts/languages/",
+            "https://ethereum.org/en/developers/docs/smart-contracts/libraries/",
+            "https://ethereum.org/en/developers/docs/smart-contracts/security/",
+            "https://ethereum.org/en/developers/docs/smart-contracts/testing/",
+            "https://ethereum.org/en/developers/docs/smart-contracts/upgrading/",
+            "https://ethereum.org/en/developers/docs/smart-contracts/verifying/",
+            "https://ethereum.org/en/developers/docs/standards/",
+            "https://ethereum.org/en/developers/docs/standards/tokens/",
+            "https://ethereum.org/en/developers/docs/standards/tokens/erc-1155/",
+            "https://ethereum.org/en/developers/docs/standards/tokens/erc-20/",
+            "https://ethereum.org/en/developers/docs/standards/tokens/erc-4626/",
+            "https://ethereum.org/en/developers/docs/standards/tokens/erc-721/",
+            "https://ethereum.org/en/developers/docs/standards/tokens/erc-777/",
+            "https://ethereum.org/en/developers/docs/storage/",
+            "https://ethereum.org/en/developers/docs/transactions/",
+            "https://ethereum.org/en/developers/docs/web2-vs-web3/",
+            "https://ethereum.org/en/developers/learning-tools/",
+            "https://ethereum.org/en/developers/local-environment/",
+            "https://ethereum.org/en/developers/tutorials/",
+            "https://ethereum.org/en/eips/",
+            "https://ethereum.org/en/enterprise/",
+            "https://ethereum.org/en/enterprise/private-ethereum/",
+            "https://ethereum.org/en/eth/",
+            "https://ethereum.org/en/foundation/",
+            "https://ethereum.org/en/gas/",
+            "https://ethereum.org/en/get-eth/",
+            "https://ethereum.org/en/glossary/",
+            "https://ethereum.org/en/glossary/#blockchain",
+            "https://ethereum.org/en/governance/",
+            "https://ethereum.org/en/guides/",
+            "https://ethereum.org/en/history/",
+            "https://ethereum.org/en/layer-2/",
+            "https://ethereum.org/en/learn/",
+            "https://ethereum.org/en/nft/",
+            "https://ethereum.org/en/privacy-policy/",
+            "https://ethereum.org/en/quizzes/",
+            "https://ethereum.org/en/roadmap/",
+            "https://ethereum.org/en/roadmap/security/",
+            "https://ethereum.org/en/run-a-node/",
+            "https://ethereum.org/en/security/",
+            "https://ethereum.org/en/smart-contracts/",
+            "https://ethereum.org/en/stablecoins/",
+            "https://ethereum.org/en/staking/",
+            "https://ethereum.org/en/terms-of-use/",
+            "https://ethereum.org/en/wallets/",
+            "https://ethereum.org/en/wallets/find-wallet/",
+            "https://ethereum.org/en/web3/",
+            "https://ethereum.org/en/what-is-ethereum/",
+            "https://ethereum.org/en/whitepaper/"
+        ],
+        "ethernodes.org": [
+            "https://ethernodes.org/"
+        ],
+        "etherscan.io": [
+            "https://etherscan.io",
+            "https://etherscan.io/apis#contracts"
+        ],
+        "github.com": [
+            "https://github.com/ethereum/ethereum-org-website",
+            "https://github.com/ethereum/ethereum-org-website/tree/dev/public/content/developers/docs/data-and-analytics/index.md",
+            "https://github.com/wackerow"
+        ],
+        "graphql.org": [
+            "https://graphql.org/"
+        ],
+        "managedservice.subquery.network": [
+            "https://managedservice.subquery.network/"
+        ],
+        "subquery.network": [
+            "https://subquery.network/"
+        ],
+        "supermajority.info": [
+            "https://supermajority.info//"
+        ],
+        "thegraph.com": [
+            "https://thegraph.com/",
+            "https://thegraph.com/docs/en/about/network/",
+            "https://thegraph.com/explorer/subgraph/graphprotocol/graph-network-mainnet?version=current"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ethdotorg"
+        ],
+        "www.blocknative.com": [
+            "https://www.blocknative.com/"
+        ],
+        "www.ethernow.xyz": [
+            "https://www.ethernow.xyz/",
+            "https://www.ethernow.xyz/mempool-data-archive"
+        ],
+        "www.rated.network": [
+            "https://www.rated.network"
+        ],
+        "www.wikipedia.org": [
+            "https://www.wikipedia.org/wiki/API",
+            "https://www.wikipedia.org/wiki/Representational_state_transfer"
+        ]
+    }
+}
