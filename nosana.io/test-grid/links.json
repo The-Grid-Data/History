@@ -1,0 +1,37 @@
+{
+    "target_url": "https://nosana.io/test-grid",
+    "domains": {
+        "app.nosana.io": [
+            "https://app.nosana.io/stake/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/nosana-ai"
+        ],
+        "docs.nosana.io": [
+            "https://docs.nosana.io",
+            "https://docs.nosana.io/nodes/testgrid.html"
+        ],
+        "forms.gle": [
+            "https://forms.gle/QrqDokeC4eEjpEZa8",
+            "https://forms.gle/d6Copk6W4TAMDY5n8"
+        ],
+        "github.com": [
+            "https://github.com/nosana-ci"
+        ],
+        "nosana.io": [
+            "https://nosana.io/",
+            "https://nosana.io/blog",
+            "https://nosana.io/contact",
+            "https://nosana.io/team"
+        ],
+        "nosana.medium.com": [
+            "https://nosana.medium.com/"
+        ],
+        "t.me": [
+            "https://t.me/NosanaCompute"
+        ],
+        "twitter.com": [
+            "https://twitter.com/nosana_ai"
+        ]
+    }
+}
