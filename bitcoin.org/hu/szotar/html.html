@@ -1,0 +1,827 @@
+<!DOCTYPE html><html lang="hu"><head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>SzÃ³tÃ¡r - Bitcoin</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+
+<script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        A Bitcoin.org egy kÃ¶zÃ¶ssÃ©g finanszÃ­rozta projekt, nagyra Ã©rtÃ©keljÃ¼k az adomÃ¡nyokat Ã©s segÃ­tsÃ©gÃ©vel fejleszteni tudjuk a honlapot.
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        AdomÃ¡nyozÃ¡s
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    A Bitcoin.org-nak szÃ¼ksÃ©ge van a tÃ¡mogatÃ¡sodra!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">AdomÃ¡nyozz a Bitcoin.org-nak</p>
+    </div>
+    <p class="modal-subheader">HasznÃ¡ld a lenti QR kÃ³dot vagy cÃ­met</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="Vagy tetszÅleges Ã¶sszeg? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="Vagy tetszÅleges Ã¶sszeg? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="OpcionÃ¡lis leÃ­rÃ¡s (a tÃ¡rcÃ¡dhoz)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="/hu/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">BevezetÃ©s</a>
+    <ul>
+      <li><a href="/hu/bitcoin-maganszemelyeknek">MagÃ¡nszemÃ©lyek</a></li>
+      <li><a href="/hu/bitcoin-vallalkozasoknak">VÃ¡llalkozÃ¡sok</a></li>
+      <li><a href="https://developer.bitcoin.org/">FejlesztÅk</a></li>
+      <li><a href="/hu/vagjon-bele">VÃ¡gjon bele</a></li>
+      <li><a href="/hu/hogyan-mukodik">Hogyan mÅ±kÃ¶dik</a></li>
+      
+      <li><a href="/hu/papir-bitcoin">FehÃ©rkÃ¶nyv</a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">InformÃ¡ciÃ³s anyagok</a>
+    <ul>
+      <li><a href="/hu/informacios-anyagok">InformÃ¡ciÃ³s anyagok</a>
+      </li><li><a href="/hu/tozsdek">TÅzsdÃ©k</a></li>
+      <li><a href="/hu/kozosseg">KÃ¶zÃ¶ssÃ©g</a></li>
+      
+      
+      <li class="active"><a href="/hu/szotar">SzÃ³tÃ¡r</a></li>
+      <li><a href="/hu/rendezvenyek">RendezvÃ©nyek</a></li>
+      
+        <li><a href="/hu/letoltes">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li><a href="/hu/innovacio">InnovÃ¡ciÃ³</a></li>
+  <li><a class="is-expand">VegyÃ©l rÃ©szt</a>
+    <ul>
+      <li><a href="/hu/tamogassa-a-bitcoint">TÃ¡mogasd a Bitcoint</a>
+      </li><li><a href="/hu/vasarlas">VÃ¡sÃ¡rolj bitcoint</a></li>
+      
+      <li><a href="/hu/fejlesztes">FejlesztÃ©s</a></li>
+    </ul>
+  </li>
+  <li><a href="/hu/gyik">GYIK</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>Magyar</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/kosa-kata">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/vocabulari">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/ordliste">Dansk</a></li>
+        
+        
+          <li><a href="/de/glossar">Deutsch</a></li>
+        
+        
+          <li><a href="/en/vocabulary">English</a></li>
+        
+        
+          <li><a href="/es/vocabulario">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/vocabulaire">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/glossario">Italiano</a></li>
+        
+        
+          <li><a href="/hu/szotar" class="active">Magyar</a></li>
+        
+        
+          <li><a href="/nl/woordenlijst">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/slownik">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/vocabulario">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/vocabular">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/besednjak">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/vokabular">Srpski</a></li>
+        
+        
+          <li><a href="/sv/ordlista">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/kelime-haznesi">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/vocabulary">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/vocabulary">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/vocabulary">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/vocabulary">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/vocabulary">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/vocabulary">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/vocabulary">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/vocabulary">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/vocabulary">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/vocabulary">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/vocabulary">ááááá</a></li>
+        
+        
+          <li><a href="/ja/vocabulary">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/vocabulary">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/vocabulary">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/kosa-kata">Bahasa Indonesia</option>
+            
+            <option value="/ca/vocabulari">CatalÃ </option>
+            
+            <option value="/da/ordliste">Dansk</option>
+            
+            <option value="/de/glossar">Deutsch</option>
+            
+            <option value="/en/vocabulary">English</option>
+            
+            <option value="/es/vocabulario">EspaÃ±ol</option>
+            
+            <option value="/fr/vocabulaire">FranÃ§ais</option>
+            
+            <option value="/it/glossario">Italiano</option>
+            
+            <option value="/hu/szotar" selected="selected">Magyar</option>
+            
+            <option value="/nl/woordenlijst">Nederlands</option>
+            
+            <option value="/pl/slownik">Polski</option>
+            
+            <option value="/pt_BR/vocabulario">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/vocabular">RomÃ¢nÄ</option>
+            
+            <option value="/sl/besednjak">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/vokabular">Srpski</option>
+            
+            <option value="/sv/ordlista">Svenska</option>
+            
+            <option value="/tr/kelime-haznesi">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/vocabulary">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/vocabulary">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/vocabulary">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/vocabulary">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/vocabulary">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/vocabulary">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/vocabulary">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/vocabulary">×¢××¨××ª</option>
+            
+            <option value="/hi/vocabulary">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/vocabulary">íêµ­ì´</option>
+            
+            <option value="/km/vocabulary">ááááá</option>
+            
+            <option value="/ja/vocabulary">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/vocabulary">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/vocabulary">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">hu</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  <div class="hero">
+  <div class="container hero-container">
+    <h1>NÃ©hÃ¡ny Bitcoinnal kapcsolatos kifejezÃ©s, amellyel talÃ¡lkozhat</h1>
+    <p class="summarytxt">A Bitcoin Ãºj megkÃ¶zelÃ­tÃ©st hoz az utalÃ¡sok vilÃ¡gÃ¡ba, Ã©s mint ilyen, nÃ©hÃ¡ny Ãºj szÃ³val Ã©rdemes gyarapÃ­tani a szÃ³kincsedet.</p>
+  </div>
+</div>
+
+<div class="toc-container">
+  <div class="row toc-row">
+    <div id="toc" class="toc">
+      <div>
+        <button class="mob-sidebar-open" hidden="">ALL TOPICS</button>
+        <div class="sidebar">
+          <div class="sidebar-inner vocabulary-list">
+            <button class="mob-sidebar-close" hidden=""></button>
+            <ul>
+            
+              <li><a href="#cim">CÃ­m</a></li>
+            
+              <li><a href="#bit">Bit</a></li>
+            
+              <li><a href="#bitcoin">Bitcoin</a></li>
+            
+              <li><a href="#blokklanc">BlokklÃ¡nc</a></li>
+            
+              <li><a href="#blokk">Blokk</a></li>
+            
+              <li><a href="#btc">BTC</a></li>
+            
+              <li><a href="#visszaigazolas">VisszaigazolÃ¡s</a></li>
+            
+              <li><a href="#kriptografia">KriptogrÃ¡fia</a></li>
+            
+              <li><a href="#dupla-koltes">Dupla kÃ¶ltÃ©s</a></li>
+            
+              <li><a href="#hasharany">HasharÃ¡ny</a></li>
+            
+              <li><a href="#banyaszat">BÃ¡nyÃ¡szat</a></li>
+            
+              <li><a href="#p2p">P2P</a></li>
+            
+              <li><a href="#privat-kulcs">PrivÃ¡t kulcs</a></li>
+            
+              <li><a href="#alairas">AlÃ¡Ã­rÃ¡s</a></li>
+            
+              <li><a href="#penztarca">PÃ©nztÃ¡rca</a></li>
+            
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="toccontent">
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="cim" class=" anchorAf"><a href="#cim"></a>CÃ­m</h2>
+        <p>A Bitcoin-cÃ­m <b>hasonlÃ³ egy fizikai vagy e-mail cÃ­mhez</b>. Ez minden informÃ¡ciÃ³, amelyet Ãnnek a Bitcoin segÃ­tsÃ©gÃ©vel tÃ¶rtÃ©nÅ kifizetÃ©shez biztosÃ­tania szÃ¼ksÃ©ges. Fontos kÃ¼lÃ¶nbsÃ©g ugyanakkor, hogy egy cÃ­met csak egyetlen tranzakciÃ³hoz cÃ©lszerÅ± hasznÃ¡lnia.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="bit" class=" anchorAf"><a href="#bit"></a>Bit</h2>
+        <p>A bit az elfogadott egysÃ©g a bitcoin rÃ©szegysÃ©geinek mÃ©rÃ©sÃ©re - 1 000 000 bit 1 bitcoinnal (BTC) egyenlÅ. Ezen egysÃ©g Ã¡ltalÃ¡ban kÃ©nyelmesebben hasznÃ¡lhatÃ³ adomÃ¡nyok, termÃ©kek Ã©s szolgÃ¡ltatÃ¡sok Ã¡razÃ¡sÃ¡ra.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="bitcoin" class=" anchorAf"><a href="#bitcoin"></a>Bitcoin</h2>
+        <p>A Bitcoin - nagy kezdÅbetÅ±vel - a Bitcoin koncepciÃ³jÃ¡nak leÃ­rÃ¡sÃ¡ra vagy a teljes hÃ¡lÃ³zat elnevezÃ©sÃ©re szolgÃ¡l. PÃ©ldÃ¡ul "Ma a Bitcoin-protokollrÃ³l tanultam." A bitcoin - kisbetÅ±vel - a bitcoinok, mint mÃ©rtÃ©kegysÃ©g leÃ­rÃ¡sÃ¡ra szolgÃ¡l. PÃ©ldÃ¡ul: "Ma 10 bitcoint kÃ¼ldtem."; ezenkÃ­vÃ¼l gyakran rÃ¶vidÃ­tik BTC-kÃ©nt vagy XBT-kÃ©nt.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="blokklanc" class=" anchorAf"><a href="#blokklanc"></a>BlokklÃ¡nc</h2>
+        <p>A blokklÃ¡nc <b>a Bitcoin-tranzakciÃ³k nyilvÃ¡nos jegyzÃ©ke</b>, idÅrendi sorrendben. A blokklÃ¡nchoz az Ã¶sszes Bitcoin-felhasznÃ¡lÃ³ hozzÃ¡fÃ©r. A Bitcoin-tranzakciÃ³k folytonossÃ¡gÃ¡nak megerÅsÃ­tÃ©sÃ©re, valamint a <a href="#dupla-koltes">dupla kÃ¶ltÃ©s</a> megelÅzÃ©sÃ©re szolgÃ¡l.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="blokk" class=" anchorAf"><a href="#blokk"></a>Blokk</h2>
+        <p>Egy blokk <b>egy olyan elem a blokklÃ¡ncban, amely tartalmaz Ã©s visszaigazol szÃ¡mos vÃ¡rakozÃ³ tranzakciÃ³t</b>. <a href="#banyaszat">BÃ¡nyÃ¡szaton</a> keresztÃ¼l hozzÃ¡vetÅleg, illetve Ã¡tlagosan 10 percenkÃ©nt fÅ±zÅdik hozzÃ¡ egy tranzakciÃ³kat tartalmazÃ³, Ãºj blokk a <a href="#blokklanc">blokklÃ¡nchoz</a>.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="btc" class=" anchorAf"><a href="#btc"></a>BTC</h2>
+        <p>A BTC az elterjedt rÃ¶vidÃ­tÃ©se egy bitcoinnak.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="visszaigazolas" class=" anchorAf"><a href="#visszaigazolas"></a>VisszaigazolÃ¡s</h2>
+        <p>A visszaigazolÃ¡s azt jelenti, hogy egy tranzakciÃ³t <b>feldolgozott a hÃ¡lÃ³zat, valamint igen kevÃ©ssÃ© valÃ³szÃ­nÅ±, hogy visszavonhatÃ³</b>. A tranzakciÃ³k akkor nyernek visszaigazolÃ¡st, amikor hozzÃ¡adÃ³dnak egy adott <a href="/hu/szotar#blokk">blokkhoz</a>, valamint minden, az adott blokkot megelÅzÅ blokkhoz. Minden egyes visszaigazolÃ¡s biztonsÃ¡gosnak tekinthetÅ alacsony Ã¶sszegÅ± tranzakciÃ³k esetÃ©n, azonban nagyobb, pÃ©ldÃ¡ul 1000 USD Ã©rtÃ©kÅ± Ã¶sszeg esetÃ©n cÃ©lszerÅ± legalÃ¡bb 6 vagy tÃ¶bb visszaigazolÃ¡st megvÃ¡rni. Minden egyes visszaigazolÃ¡s <i>exponenciÃ¡lisan</i> csÃ¶kkenti a visszavont tranzakciÃ³ kockÃ¡zatÃ¡t.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="kriptografia" class=" anchorAf"><a href="#kriptografia"></a>KriptogrÃ¡fia</h2>
+        <p>A kriptogrÃ¡fia a matematika azon Ã¡ga, amely lehetÅvÃ© teszi szÃ¡munkra, hogy olyan <b>matematikai bizonyÃ­tÃ¡sokat hozzunk lÃ©tre, amelyek magas szintÅ± biztonsÃ¡got teremtenek</b>. Az online kereskedelem Ã©s bankolÃ¡s ugyancsak kriptogrÃ¡fiÃ¡t hasznÃ¡l. A Bitcoin esetÃ©ben a kriptogrÃ¡fiÃ¡t arra hasznÃ¡ljuk, hogy lehetetlennÃ© tegyÃ¼k mÃ¡s felhasznÃ¡lÃ³k pÃ©nztÃ¡rcÃ¡jÃ¡bÃ³l valÃ³ kÃ¶ltÃ©st, valamint a <a href="#blokklanc">blokklÃ¡nc</a> kÃ¡rosÃ­tÃ¡sÃ¡t. Ugyanakkor pÃ©nztÃ¡rcÃ¡k titkosÃ­tÃ¡sÃ¡ra is hasznÃ¡lhatÃ³, amelyek ily mÃ³don nem hasznÃ¡lhatÃ³ak jelszÃ³ nÃ©lkÃ¼l.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="dupla-koltes" class=" anchorAf"><a href="#dupla-koltes"></a>Dupla kÃ¶ltÃ©s</h2>
+        <p>Amennyiben egy tisztessÃ©gtelen felhasznÃ¡lÃ³ kÃ­sÃ©rletet tesz a <b>bitcoinjai kÃ©t cÃ­mzett szÃ¡mÃ¡ra valÃ³ elkÃ¶ltÃ©sÃ©nek</b>, akkor dupla kÃ¶ltÃ©s esete Ã¡ll fent. A <a href="#banyaszat">Bitcoin-bÃ¡nyÃ¡szat</a> Ã©s a <a href="#blokklanc">blokklÃ¡nc</a> biztosÃ­tja a hÃ¡lÃ³zat konszenzusÃ¡t azzal kapcsolatban, hogy a kÃ©t tranzakciÃ³ kÃ¶zÃ¼l melyik igazolhatÃ³ vissza Ã©s tekintetÅ Ã©rvÃ©nyesnek.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="hasharany" class=" anchorAf"><a href="#hasharany"></a>HasharÃ¡ny</h2>
+        <p>A hasharÃ¡ny <b>a Bitcoin-hÃ¡lÃ³zat szÃ¡mÃ­tÃ¡si sebessÃ©gÃ©nek mÃ©rÃ©si egysÃ©ge</b>. A Bitcoin-hÃ¡lÃ³zatnak biztonsÃ¡gi okokbÃ³l intenzÃ­v matematikai szÃ¡mÃ­tÃ¡sok elvÃ©gzÃ©sÃ©re van szÃ¼ksÃ©ge. Ha a hÃ¡lÃ³zat elÃ©ri a 10 Th/mp hasharÃ¡nyt, akkor mÃ¡sodpercenkÃ©nt 10 billiÃ³ mÅ±velet elvÃ©gzÃ©sÃ©re kÃ©pes.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="banyaszat" class=" anchorAf"><a href="#banyaszat"></a>BÃ¡nyÃ¡szat</h2>
+        <p>A Bitcoin-bÃ¡nyÃ¡szat folyamata sorÃ¡n <b>a szÃ¡mÃ­tÃ³gÃ©p hardverÃ©t matematikai mÅ±veletek elvÃ©gzÃ©sÃ©re hasznÃ¡ljuk, a Bitcoin-hÃ¡lÃ³zat tranzakciÃ³inak visszaigazolÃ¡sÃ¡ra</b> Ã©s a biztonsÃ¡g nÃ¶velÃ©sÃ©re. SzolgÃ¡latuk jutalmakÃ©nt a BitcoinbÃ¡nyÃ¡szok az Ã¡ltaluk visszaigazolt tranzakciÃ³kÃ©rt tranzakciÃ³s dÃ­jakat szedhetnek, valamint Ãºjonnan lÃ©trehozott bitcoinokhoz juthatnak. A bÃ¡nyÃ¡szat specializÃ¡lt Ã©s versenyzÅ piac, ahol a jutalmak az elvÃ©gzett szÃ¡mÃ­tÃ¡sok arÃ¡nyÃ¡ban kerÃ¼lnek felosztÃ¡sra. Nem minden Bitcoin-felhasznÃ¡lÃ³ vesz rÃ©szt a Bitcoin-bÃ¡nyÃ¡szatban, Ã©s ezzel egyÃ¡ltalÃ¡n nem egyszerÅ± pÃ©nzt keresni.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="p2p" class=" anchorAf"><a href="#p2p"></a>P2P</h2>
+        <p>A peer-to-peer kifejezÃ©s <b>olyan rendszereket takar, amelyek szervezett kÃ¶zÃ¶ssÃ©gkÃ©nt mÅ±kÃ¶dnek</b>, lehetÅsÃ©get teremtve minden egyÃ©nnek a kÃ¶zÃ¶ssÃ©gi tÃ¶bbi tagjÃ¡val valÃ³ kÃ¶zvetlen interakciÃ³ra. A Bitcoin esetÃ©ben a hÃ¡lÃ³zat oly mÃ³don Ã©pÃ¼l fel, hogy minden felhasznÃ¡lÃ³ kÃ¶zvetÃ­ti mÃ¡s felhasznÃ¡lÃ³k tranzakciÃ³it. AlapvetÅ jellemzÅje tovÃ¡bbÃ¡, hogy nincs szÃ¼ksÃ©g bankra harmadik fÃ©lkÃ©nt.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="privat-kulcs" class=" anchorAf"><a href="#privat-kulcs"></a>PrivÃ¡t kulcs</h2>
+        <p>A privÃ¡t kulcs egy <b>titkos adatcsomag, amely jogot biztosÃ­t a bitcoinok egy meghatÃ¡rozott pÃ©nztÃ¡rcÃ¡bÃ³l valÃ³ elkÃ¶ltÃ©sÃ©re</b> egy kriptografikus <a href="#alairas">alÃ¡Ã­rÃ¡s</a> segÃ­tsÃ©gÃ©vel. Amennyiben szoftverpÃ©nztÃ¡rcÃ¡t hasznÃ¡l, privÃ¡t kulcsa(i) szÃ¡mÃ­tÃ³gÃ©pÃ©n; webes pÃ©nztÃ¡rca esetÃ©ben pedig egy tÃ¡voli szerveren tÃ¡rolÃ³dnak. A privÃ¡t kulcsait soha nem szabad felfednie, mivel lehetÅvÃ© teszik, hogy a bitcoinok a hozzÃ¡juk tartozÃ³ Bitcoin-pÃ©nztÃ¡rcÃ¡bÃ³l elkÃ¶lthetÅek legyenek.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="alairas" class=" anchorAf"><a href="#alairas"></a>AlÃ¡Ã­rÃ¡s</h2>
+        <p>A <a href="#kriptografia">kriptografikus</a> alÃ¡Ã­rÃ¡s <b>egy matematikai mechanizmus, amely lehetÅvÃ© teszi a felhasznÃ¡lÃ³k szÃ¡mÃ¡ra a tulajdonjog igazolÃ¡sÃ¡t</b>. A Bitcoin esetÃ©ben a <a href="#penztarca">Bitcoin-pÃ©nztÃ¡rca</a> Ã©s a hozzÃ¡ tartozÃ³ <a href="#privat-kulcs">privÃ¡t kulcs(ok)</a> egyfajta matematikai varÃ¡zslat rÃ©vÃ©n kapcsolÃ³dnak Ã¶ssze. MikÃ¶zben a Bitcoin szoftvere egy tranzakciÃ³t Ã­r alÃ¡ a megfelelÅ privÃ¡t kulcs segÃ­tsÃ©gÃ©vel, a teljes hÃ¡lÃ³zat szÃ¡mÃ¡ra lÃ¡thatÃ³, hogy az alÃ¡Ã­rÃ¡s megegyezik az elkÃ¶ltÃ¶tt bitcoinokkal. Ugyanakkor lehetetlen kitalÃ¡lni egy felhasznÃ¡lÃ³ privÃ¡t kulcsÃ¡t, ily mÃ³don pedig ellopni nehezen megszerzett bitcoinjait.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="penztarca" class=" anchorAf"><a href="#penztarca"></a>PÃ©nztÃ¡rca</h2>
+        <p>A Bitcoin-pÃ©nztÃ¡rca <b>nagy vonalakban megegyezik a Bitcoin-hÃ¡lÃ³zaton talÃ¡lhatÃ³ fizikai pÃ©nztÃ¡rcÃ¡val</b>. A pÃ©nztÃ¡rca lÃ©nyegÃ©ben <a href="#privat-kulcs">privÃ¡t kulcsÃ¡t, kulcsait</a> tartalmazza; ez lehetÅvÃ© teszi a <a href="#blokklanc">blokklÃ¡ncban</a> hozzÃ¡juk kapcsolt bitcoinok elkÃ¶ltÃ©sÃ©t. Minden Bitcoin-pÃ©nztÃ¡rca tartalmazza az Ã¡ltala kezelt bitcoinok teljes egyenlegÃ©t, Ã©s lehetÅsÃ©get biztosÃ­t arra, hogy meghatÃ¡rozott Ã¶sszeget, meghatÃ¡rozott szemÃ©lynek fizessen ki; Ã©ppen Ãºgy mint egy igazi pÃ©nztÃ¡rcÃ¡val. Ez a folyamat eltÃ©rÅ a hitelkÃ¡rtyÃ¡ktÃ³l, amely esetben a kereskedÅ terheli meg szÃ¡mlÃ¡jÃ¡t.</p>
+      </div>
+      
+    </div>
+
+  </div>
+</div>
+
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="/hu/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">TÃ¡mogasd a Bitcoin.org-ot:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">AdomÃ¡nyozÃ¡s</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">BevezetÃ©s:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/hu/bitcoin-maganszemelyeknek">MagÃ¡nszemÃ©lyek</a>
+        </li>
+        <li>
+          <a href="/hu/bitcoin-vallalkozasoknak">VÃ¡llalkozÃ¡sok</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">FejlesztÅk</a>
+        </li>
+        <li>
+          <a href="/hu/vagjon-bele">VÃ¡gjon bele</a>
+        </li>
+        <li>
+          <a href="/hu/hogyan-mukodik">Hogyan mÅ±kÃ¶dik</a>
+        </li>
+        <li>
+          <a href="/hu/amit-tudnia-erdemes">Ãrdemes tudnia</a>
+        </li>
+        
+        <li>
+          <a href="/hu/papir-bitcoin">FehÃ©rkÃ¶nyv</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">InformÃ¡ciÃ³s anyagok:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/hu/informacios-anyagok">InformÃ¡ciÃ³s anyagok</a>
+        </li><li>
+          <a href="/hu/tozsdek">TÅzsdÃ©k</a>
+        </li>
+        <li>
+          <a href="/hu/kozosseg">KÃ¶zÃ¶ssÃ©g</a>
+        </li>
+        <li class="active">
+          <a href="/hu/szotar">SzÃ³tÃ¡r
+          </a>
+        </li>
+        <li>
+          <a href="/hu/rendezvenyek">RendezvÃ©nyek</a>
+        </li>
+        
+          <li>
+            <a href="/hu/letoltes">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">VegyÃ©l rÃ©szt:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/hu/tamogassa-a-bitcoint">TÃ¡mogasd a Bitcoint</a>
+        
+        
+        </li><li>
+          <a href="/hu/fejlesztes">FejlesztÃ©s</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">EgyÃ©b:</p>
+      
+      <a href="/hu/jogi-vonatkozasok">Jogi vonatkozÃ¡sok</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/hu/sajto">SajtÃ³</a>
+      <a href="/hu/rolunk">A bitcoin.org-rÃ³l</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>E kÃ¶zÃ¶ssÃ©gi weboldal szponzora a</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1716491272" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 Az <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT licence</a> alatt kÃ¶zzÃ©tÃ©ve</div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">HÃ¡lÃ³zat stÃ¡tusza</a>
+        
+<ul class="lang is-expand">
+  <li><a>Magyar</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/kosa-kata">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/vocabulari">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/ordliste">Dansk</a></li>
+        
+        
+          <li><a href="/de/glossar">Deutsch</a></li>
+        
+        
+          <li><a href="/en/vocabulary">English</a></li>
+        
+        
+          <li><a href="/es/vocabulario">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/vocabulaire">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/glossario">Italiano</a></li>
+        
+        
+          <li><a href="/hu/szotar" class="active">Magyar</a></li>
+        
+        
+          <li><a href="/nl/woordenlijst">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/slownik">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/vocabulario">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/vocabular">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/besednjak">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/vokabular">Srpski</a></li>
+        
+        
+          <li><a href="/sv/ordlista">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/kelime-haznesi">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/vocabulary">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/vocabulary">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/vocabulary">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/vocabulary">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/vocabulary">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/vocabulary">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/vocabulary">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/vocabulary">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/vocabulary">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/vocabulary">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/vocabulary">ááááá</a></li>
+        
+        
+          <li><a href="/ja/vocabulary">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/vocabulary">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/vocabulary">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/kosa-kata">Bahasa Indonesia</option>
+              
+              <option value="/ca/vocabulari">CatalÃ </option>
+              
+              <option value="/da/ordliste">Dansk</option>
+              
+              <option value="/de/glossar">Deutsch</option>
+              
+              <option value="/en/vocabulary">English</option>
+              
+              <option value="/es/vocabulario">EspaÃ±ol</option>
+              
+              <option value="/fr/vocabulaire">FranÃ§ais</option>
+              
+              <option value="/it/glossario">Italiano</option>
+              
+              <option value="/hu/szotar" selected="selected">Magyar</option>
+              
+              <option value="/nl/woordenlijst">Nederlands</option>
+              
+              <option value="/pl/slownik">Polski</option>
+              
+              <option value="/pt_BR/vocabulario">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/vocabular">RomÃ¢nÄ</option>
+              
+              <option value="/sl/besednjak">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/vokabular">Srpski</option>
+              
+              <option value="/sv/ordlista">Svenska</option>
+              
+              <option value="/tr/kelime-haznesi">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/vocabulary">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/vocabulary">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/vocabulary">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/vocabulary">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/vocabulary">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/vocabulary">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/vocabulary">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/vocabulary">×¢××¨××ª</option>
+              
+              <option value="/hi/vocabulary">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/vocabulary">íêµ­ì´</option>
+              
+              <option value="/km/vocabulary">ááááá</option>
+              
+              <option value="/ja/vocabulary">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/vocabulary">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/vocabulary">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">hu</span>
+          </label>
+        </div>
+      </div>
+<!--      <div class="row">  -->
+        
+<!--    </div> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+  <script>updateToc();</script>
+<script>accordion();</script>
+<script>onScrollButton();</script>
+<script>boxShow();</script>
+
+
+
+
+
+
+
+
+</body></html>
