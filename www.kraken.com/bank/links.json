@@ -1,0 +1,13 @@
+{
+    "target_url": "https://www.kraken.com/bank",
+    "domains": {
+        "custody.kraken.com": [
+            "https://custody.kraken.com/legal",
+            "https://custody.kraken.com/legal/privacy"
+        ],
+        "www.kraken.com": [
+            "https://www.kraken.com/institutions/custody",
+            "https://www.kraken.com/sign-up"
+        ]
+    }
+}
