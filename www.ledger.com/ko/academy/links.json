@@ -1,0 +1,148 @@
+{
+    "target_url": "https://www.ledger.com/ko/academy",
+    "domains": {
+        "developers.ledger.com": [
+            "https://developers.ledger.com/"
+        ],
+        "donjon.ledger.com": [
+            "https://donjon.ledger.com/bounty/"
+        ],
+        "enterprise.ledger.com": [
+            "https://enterprise.ledger.com/"
+        ],
+        "quest.ledger.com": [
+            "https://quest.ledger.com/"
+        ],
+        "shop.ledger.com": [
+            "https://shop.ledger.com/ko",
+            "https://shop.ledger.com/ko/#category-accessories",
+            "https://shop.ledger.com/ko/#category__bundle",
+            "https://shop.ledger.com/ko/pages/bitcoin-hardware-wallet",
+            "https://shop.ledger.com/ko/pages/hardware-wallets-comparison",
+            "https://shop.ledger.com/ko/pages/ledger-nano-s-plus",
+            "https://shop.ledger.com/ko/pages/ledger-nano-x",
+            "https://shop.ledger.com/ko/pages/ledger-recover",
+            "https://shop.ledger.com/ko/pages/ledger-stax",
+            "https://shop.ledger.com/ko/pages/privacy-policy",
+            "https://shop.ledger.com/ko/pages/terms-and-conditions",
+            "https://shop.ledger.com/pages/cookie-policy",
+            "https://shop.ledger.com/pages/disclaimers"
+        ],
+        "status.ledger.com": [
+            "https://status.ledger.com/"
+        ],
+        "support.ledger.com": [
+            "https://support.ledger.com/hc/ko"
+        ],
+        "twitter.com": [
+            "https://twitter.com/Ledger"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/Ledger/"
+        ],
+        "www.ledger.com": [
+            "https://www.ledger.com/academy",
+            "https://www.ledger.com/academy/library",
+            "https://www.ledger.com/ar/academy",
+            "https://www.ledger.com/blog/we-are-ledger-a-brand-vision",
+            "https://www.ledger.com/de/academy",
+            "https://www.ledger.com/es/academy",
+            "https://www.ledger.com/fr/academy",
+            "https://www.ledger.com/ja/academy",
+            "https://www.ledger.com/ko",
+            "https://www.ledger.com/ko/%EC%B1%84%EC%9A%A9",
+            "https://www.ledger.com/ko/academy",
+            "https://www.ledger.com/ko/academy/%EA%B0%80%EC%9E%A5-%EC%95%88%EC%A0%84%ED%95%9C-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%EC%A7%80%EA%B0%91%EC%9D%B8-ledger%EC%97%90-%EC%98%A4%EC%8B%A0-%EA%B2%83%EC%9D%84-%ED%99%98%EC%98%81%ED%95%A9%EB%8B%88%EB%8B%A4",
+            "https://www.ledger.com/ko/academy/%EA%B0%9C%EC%9D%B8-%ED%82%A4%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94",
+            "https://www.ledger.com/ko/academy/%EA%B0%9C%EC%9D%B8-%ED%82%A4%EB%A5%BC-%EB%B3%B4%ED%98%B8%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95",
+            "https://www.ledger.com/ko/academy/%EA%B7%B8%EB%A0%87%EB%8B%A4%EB%A9%B4-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90%EB%9E%80-%EC%A0%95%ED%99%95%ED%9E%88-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C%EC%9A%94",
+            "https://www.ledger.com/ko/academy/%EB%B0%B0%EA%B2%BD-%EC%9D%B4%EC%95%BC%EA%B8%B0-%EB%B0%94%EC%9D%B4%EB%82%B8%EC%8A%A4-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%B2%B4%EC%9D%B8bsc",
+            "https://www.ledger.com/ko/academy/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94",
+            "https://www.ledger.com/ko/academy/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EC%84%B8%EB%8C%80%EC%97%90-%EA%B4%80%ED%95%9C-%EC%84%A4%EB%AA%85",
+            "https://www.ledger.com/ko/academy/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98-%EB%82%B4%EC%97%AD-%EC%9D%BD%EB%8A%94-%EB%B2%95",
+            "https://www.ledger.com/ko/academy/%EB%B9%84%EB%B0%80-%EB%B3%B5%EA%B5%AC-%EB%AC%B8%EA%B5%AC%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C%EC%9A%94",
+            "https://www.ledger.com/ko/academy/%EC%84%B8%EA%B7%B8%EC%9C%97%EA%B3%BC-%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C-%EC%84%B8%EA%B7%B8%EC%9C%97bech32%EC%9D%80-%EC%96%B4%EB%96%A4-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%B4-%EC%9E%88%EB%82%98",
+            "https://www.ledger.com/ko/academy/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90%EB%A5%BC-ledger-nano%EB%A1%9C-%EB%A7%88%EC%9D%B4%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95",
+            "https://www.ledger.com/ko/academy/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%82%B9",
+            "https://www.ledger.com/ko/academy/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%EC%9C%84%ED%98%91-%EC%9A%94%EC%86%8C-%EC%9A%A9%EC%96%B4%EC%A7%91",
+            "https://www.ledger.com/ko/academy/%EC%96%BC%EB%A7%88%EB%82%98-%EB%A7%8E%EC%9D%80-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90%EA%B0%80-%EC%A1%B4%EC%9E%AC%ED%95%9C%EB%8B%A4%EA%B3%A0-%EC%83%9D%EA%B0%81%ED%95%98%EC%8B%9C%EB%82%98%EC%9A%94",
+            "https://www.ledger.com/ko/academy/%EC%98%A4%EB%9D%BC%ED%81%B4%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94-%EC%B2%B4%EC%9D%B8%EB%A7%81%ED%81%AC%EC%99%80-%EB%B0%B4%EB%93%9C-%EC%86%8C%EA%B0%9C",
+            "https://www.ledger.com/ko/academy/%EC%9A%A9%EC%96%B4%EC%A7%91",
+            "https://www.ledger.com/ko/academy/%EC%9B%B9-30%EC%97%90-%EB%8C%80%ED%95%B4-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-%EB%AA%A8%EB%93%A0-%EA%B2%83",
+            "https://www.ledger.com/ko/academy/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%EB%84%A4%EC%9E%84-%EC%84%9C%EB%B9%84%EC%8A%A4ens%EB%9E%80",
+            "https://www.ledger.com/ko/academy/%EC%9E%90%EC%B2%B4-%EC%A1%B0%EC%82%AC%ED%95%98%EA%B8%B0-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A5%BC-%EC%A1%B0%EC%82%AC%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95",
+            "https://www.ledger.com/ko/academy/%EC%9E%91%EC%97%85-%EC%A6%9D%EB%AA%85%EC%9D%B4%EB%9E%80",
+            "https://www.ledger.com/ko/academy/%EC%A3%BC%EC%A0%9C/crypto/bitcoin-halving",
+            "https://www.ledger.com/ko/academy/%EC%A3%BC%EC%A0%9C/crypto/what-is-solana-sol",
+            "https://www.ledger.com/ko/academy/%EC%A7%80%EB%B6%84-%EC%A6%9D%EB%AA%85%EC%9D%B4%EB%9E%80",
+            "https://www.ledger.com/ko/academy/blockchain/erc-%ED%86%A0%ED%81%B0%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B4%EB%A9%B0-%ED%95%84%EC%9A%94%ED%95%9C-%EC%9D%B4%EC%9C%A0%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9E%85%EB%8B%88%EA%B9%8C",
+            "https://www.ledger.com/ko/academy/crypto/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%EB%A7%A4%EB%8F%84-%EB%B0%A9%EB%B2%95",
+            "https://www.ledger.com/ko/academy/desci-web3-%EA%B8%B0%EC%88%A0%EB%A1%9C-%EA%B0%80%EB%8A%A5%ED%95%B4%EC%A7%84-%ED%98%84%EB%8C%80-%EA%B3%BC%ED%95%99",
+            "https://www.ledger.com/ko/academy/dex%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94-%ED%83%88%EC%A4%91%EC%95%99%ED%99%94-%EA%B1%B0%EB%9E%98%EC%86%8C%EC%97%90-%EB%8C%80%ED%95%9C-%EC%84%A4%EB%AA%85",
+            "https://www.ledger.com/ko/academy/ledger-live-%EC%95%B1-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%EB%A7%A4%EB%A7%A4-%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%82%B9-%EB%B0%8F-%EC%8A%A4%EC%99%91",
+            "https://www.ledger.com/ko/academy/ledger-nano%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90%EB%A5%BC-%EB%B3%B4%ED%98%B8%ED%95%98%EB%82%98%EC%9A%94",
+            "https://www.ledger.com/ko/academy/library-ko",
+            "https://www.ledger.com/ko/academy/library-ko/topic/blockchain",
+            "https://www.ledger.com/ko/academy/library-ko/topic/crypto",
+            "https://www.ledger.com/ko/academy/library-ko/topic/hardwarewallet",
+            "https://www.ledger.com/ko/academy/library-ko/topic/nfts",
+            "https://www.ledger.com/ko/academy/library-ko/topic/security",
+            "https://www.ledger.com/ko/academy/library-ko/topic/tutorials",
+            "https://www.ledger.com/ko/academy/series-ko/reading-room/nano-s-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%EC%88%98%EB%A0%B9%ED%95%98%EA%B8%B0",
+            "https://www.ledger.com/ko/academy/series/enter-the-trust-zone",
+            "https://www.ledger.com/ko/academy/series/on-the-ledger",
+            "https://www.ledger.com/ko/academy/series/reading-room",
+            "https://www.ledger.com/ko/academy/series/school-of-block",
+            "https://www.ledger.com/ko/academy/tutorials/%EB%B0%94%EC%9D%B4%EB%82%B8%EC%8A%A4%EC%97%90%EC%84%9C-%EC%9E%90%EC%8B%A0%EC%9D%98-%EC%BD%94%EC%9D%B8-%EB%A7%88%EC%9D%B4%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%95%98%EA%B8%B0",
+            "https://www.ledger.com/ko/academy/tutorials/%EC%BD%94%EC%9D%B8%EB%B2%A0%EC%9D%B4%EC%8A%A4%EC%97%90%EC%84%9C-%EC%BD%94%EC%9D%B8-%EB%A7%88%EC%9D%B4%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%95%98%EA%B8%B0",
+            "https://www.ledger.com/ko/academy/tutorials/kraken%EC%97%90%EC%84%9C-%EC%BD%94%EC%9D%B8-%EB%A7%88%EC%9D%B4%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%95%98%EA%B8%B0",
+            "https://www.ledger.com/ko/academy/tutorials/nano-x-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%EC%9E%90%EC%82%B0-%EC%88%98%EB%A0%B9%ED%95%98%EA%B8%B0",
+            "https://www.ledger.com/ko/academy/web3-%EC%8A%A4%EC%BA%A0%EC%97%90-%EA%B4%80%ED%95%9C-%EC%84%A4%EB%AA%85",
+            "https://www.ledger.com/ko/blog",
+            "https://www.ledger.com/ko/buy",
+            "https://www.ledger.com/ko/buy-bitcoin",
+            "https://www.ledger.com/ko/buy-bitcoin-how",
+            "https://www.ledger.com/ko/cardano-wallet",
+            "https://www.ledger.com/ko/cathay",
+            "https://www.ledger.com/ko/coin/price",
+            "https://www.ledger.com/ko/diversity",
+            "https://www.ledger.com/ko/join-us",
+            "https://www.ledger.com/ko/ledger-live",
+            "https://www.ledger.com/ko/ledger-wallets-and-services",
+            "https://www.ledger.com/ko/legal-center",
+            "https://www.ledger.com/ko/partners",
+            "https://www.ledger.com/ko/press",
+            "https://www.ledger.com/ko/reseller",
+            "https://www.ledger.com/ko/staking",
+            "https://www.ledger.com/ko/start",
+            "https://www.ledger.com/ko/supported-crypto-assets",
+            "https://www.ledger.com/ko/swap",
+            "https://www.ledger.com/ko/the-company",
+            "https://www.ledger.com/ko/the-people-behind-ledger",
+            "https://www.ledger.com/ko/\ub9ac\ud50c",
+            "https://www.ledger.com/ko/\ubaa8\ub124\ub85cmonero",
+            "https://www.ledger.com/ko/\ube44\ud2b8\ucf54\uc778",
+            "https://www.ledger.com/ko/\uc774\ub354\ub9ac\uc6c0-2",
+            "https://www.ledger.com/ko/\ud14c\ub354tether",
+            "https://www.ledger.com/pt-br/academy",
+            "https://www.ledger.com/ru/academy",
+            "https://www.ledger.com/tr/academy",
+            "https://www.ledger.com/zh-hans/academy"
+        ],
+        "www.ledgerwallet.com": [
+            "https://www.ledgerwallet.com/affiliates/"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/ledgerhq"
+        ],
+        "www.onetrust.com": [
+            "https://www.onetrust.com/products/cookie-consent/"
+        ],
+        "www.reddit.com": [
+            "https://www.reddit.com/r/ledgerwallet/"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/Ledger"
+        ]
+    }
+}
