@@ -1,0 +1,121 @@
+{
+    "target_url": "https://ethereum.org/en/contributing/translation-program/translators-guide/",
+    "domains": {
+        "": [
+            "mailto:press@ethereum.org",
+            "mailto:translations@ethereum.org"
+        ],
+        "blog.ethereum.org": [
+            "https://blog.ethereum.org/"
+        ],
+        "devcon.org": [
+            "https://devcon.org/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/ethereum-org"
+        ],
+        "esp.ethereum.foundation": [
+            "https://esp.ethereum.foundation"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/content/contributing/translation-program/translators-guide/article-titles-in-editor.png",
+            "https://ethereum.org/content/contributing/translation-program/translators-guide/article-titles-in-sidebar.png",
+            "https://ethereum.org/content/contributing/translation-program/translators-guide/crowdin-warning-example.png",
+            "https://ethereum.org/content/contributing/translation-program/translators-guide/editor-settings.png",
+            "https://ethereum.org/content/contributing/translation-program/translators-guide/example-of-ambiguous-tags.png",
+            "https://ethereum.org/content/contributing/translation-program/translators-guide/example-of-code-snippets.png",
+            "https://ethereum.org/content/contributing/translation-program/translators-guide/example-of-link.png",
+            "https://ethereum.org/content/contributing/translation-program/translators-guide/example-of-links-inside-tags.png",
+            "https://ethereum.org/content/contributing/translation-program/translators-guide/example-of-strong-tags.png",
+            "https://ethereum.org/content/contributing/translation-program/translators-guide/hide-tags.png",
+            "https://ethereum.org/content/contributing/translation-program/translators-guide/how-to-find-a-button.png",
+            "https://ethereum.org/en/",
+            "https://ethereum.org/en/about/",
+            "https://ethereum.org/en/about/#open-jobs",
+            "https://ethereum.org/en/assets/",
+            "https://ethereum.org/en/bug-bounty/",
+            "https://ethereum.org/en/community/",
+            "https://ethereum.org/en/community/code-of-conduct/",
+            "https://ethereum.org/en/community/events/",
+            "https://ethereum.org/en/community/grants/",
+            "https://ethereum.org/en/community/online/",
+            "https://ethereum.org/en/community/research/",
+            "https://ethereum.org/en/contributing/",
+            "https://ethereum.org/en/contributing/translation-program/",
+            "https://ethereum.org/en/contributing/translation-program/#how-to-translate",
+            "https://ethereum.org/en/contributing/translation-program/translators-guide/",
+            "https://ethereum.org/en/contributing/translation-program/translators-guide/#buttons-and-ctas",
+            "https://ethereum.org/en/contributing/translation-program/translators-guide/#capturing-the-essence",
+            "https://ethereum.org/en/contributing/translation-program/translators-guide/#conclusion",
+            "https://ethereum.org/en/contributing/translation-program/translators-guide/#crowdin-warnings",
+            "https://ethereum.org/en/contributing/translation-program/translators-guide/#dealing-with-tags",
+            "https://ethereum.org/en/contributing/translation-program/translators-guide/#external-articles",
+            "https://ethereum.org/en/contributing/translation-program/translators-guide/#formal-vs-informal",
+            "https://ethereum.org/en/contributing/translation-program/translators-guide/#formats",
+            "https://ethereum.org/en/contributing/translation-program/translators-guide/#language-specific-translations",
+            "https://ethereum.org/en/contributing/translation-program/translators-guide/#main-content",
+            "https://ethereum.org/en/contributing/translation-program/translators-guide/#punctuation-and-formatting",
+            "https://ethereum.org/en/contributing/translation-program/translators-guide/#short-vs-full-forms",
+            "https://ethereum.org/en/contributing/translation-program/translators-guide/#simple-vocabulary",
+            "https://ethereum.org/en/contributing/translation-program/translators-guide/#terms-without-established-translations",
+            "https://ethereum.org/en/contributing/translation-program/translators-guide/#translating-for-inclusivity",
+            "https://ethereum.org/en/contributing/translation-program/translators-guide/#translating-metadata",
+            "https://ethereum.org/en/contributing/translation-program/translators-guide/#using-crowdin",
+            "https://ethereum.org/en/contributing/translation-program/translators-guide/#writing-system",
+            "https://ethereum.org/en/cookie-policy/",
+            "https://ethereum.org/en/dao/",
+            "https://ethereum.org/en/dapps/",
+            "https://ethereum.org/en/decentralized-identity/",
+            "https://ethereum.org/en/defi/",
+            "https://ethereum.org/en/developers/",
+            "https://ethereum.org/en/developers/docs/",
+            "https://ethereum.org/en/developers/docs/design-and-ux/",
+            "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+            "https://ethereum.org/en/developers/learning-tools/",
+            "https://ethereum.org/en/developers/local-environment/",
+            "https://ethereum.org/en/developers/tutorials/",
+            "https://ethereum.org/en/eips/",
+            "https://ethereum.org/en/enterprise/",
+            "https://ethereum.org/en/enterprise/private-ethereum/",
+            "https://ethereum.org/en/eth/",
+            "https://ethereum.org/en/foundation/",
+            "https://ethereum.org/en/gas/",
+            "https://ethereum.org/en/get-eth/",
+            "https://ethereum.org/en/glossary/",
+            "https://ethereum.org/en/governance/",
+            "https://ethereum.org/en/guides/",
+            "https://ethereum.org/en/history/",
+            "https://ethereum.org/en/layer-2/",
+            "https://ethereum.org/en/learn/",
+            "https://ethereum.org/en/nft/",
+            "https://ethereum.org/en/privacy-policy/",
+            "https://ethereum.org/en/quizzes/",
+            "https://ethereum.org/en/roadmap/",
+            "https://ethereum.org/en/roadmap/security/",
+            "https://ethereum.org/en/run-a-node/",
+            "https://ethereum.org/en/security/",
+            "https://ethereum.org/en/smart-contracts/",
+            "https://ethereum.org/en/stablecoins/",
+            "https://ethereum.org/en/staking/",
+            "https://ethereum.org/en/terms-of-use/",
+            "https://ethereum.org/en/wallets/",
+            "https://ethereum.org/en/wallets/find-wallet/",
+            "https://ethereum.org/en/web3/",
+            "https://ethereum.org/en/what-is-ethereum/",
+            "https://ethereum.org/en/whitepaper/"
+        ],
+        "github.com": [
+            "https://github.com/ethereum/ethereum-org-website",
+            "https://github.com/ethereum/ethereum-org-website/tree/dev/public/content/contributing/translation-program/translators-guide/index.md"
+        ],
+        "support.crowdin.com": [
+            "https://support.crowdin.com/online-editor/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ethdotorg"
+        ],
+        "www.andiamo.co.uk": [
+            "https://www.andiamo.co.uk/resources/iso-language-codes/"
+        ]
+    }
+}
