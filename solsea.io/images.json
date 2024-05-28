@@ -2,8 +2,8 @@
     "target_url": "https://solsea.io/",
     "domains": {
         "analytics.twitter.com": [
-            "https://analytics.twitter.com/i/adsct?bci=3&eci=2&event_id=1aa87e2c-3d68-4769-b14e-5818375329b8&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=3fe48c8d-ca61-465f-8e01-2ea295e257e5&tw_document_href=https%3A%2F%2Fsolsea.io%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o8bhm&type=javascript&version=2.3.30",
-            "https://analytics.twitter.com/i/adsct?bci=3&eci=2&event_id=2698a70d-72b4-415b-a3ba-d4759010ef3f&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=3fe48c8d-ca61-465f-8e01-2ea295e257e5&tw_document_href=https%3A%2F%2Fsolsea.io%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o793o&type=javascript&version=2.3.30"
+            "https://analytics.twitter.com/i/adsct?bci=3&eci=2&event_id=0f38f156-5bfa-4744-883d-5b9e327c6d2c&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=f1e5be45-e001-4bd6-a387-c09d6d0ded6d&tw_document_href=https%3A%2F%2Fsolsea.io%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o793o&type=javascript&version=2.3.30",
+            "https://analytics.twitter.com/i/adsct?bci=3&eci=2&event_id=108ff242-e9c5-472c-b56c-f09031f4b11c&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=f1e5be45-e001-4bd6-a387-c09d6d0ded6d&tw_document_href=https%3A%2F%2Fsolsea.io%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o8bhm&type=javascript&version=2.3.30"
         ],
         "assets.coingecko.com": [
             "https://assets.coingecko.com/coins/images/4128/small/solana.png"
@@ -38,8 +38,8 @@
             "https://solsea.io/assets/twitter-footer.svg"
         ],
         "t.co": [
-            "https://t.co/i/adsct?bci=3&eci=2&event_id=1aa87e2c-3d68-4769-b14e-5818375329b8&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=3fe48c8d-ca61-465f-8e01-2ea295e257e5&tw_document_href=https%3A%2F%2Fsolsea.io%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o8bhm&type=javascript&version=2.3.30",
-            "https://t.co/i/adsct?bci=3&eci=2&event_id=2698a70d-72b4-415b-a3ba-d4759010ef3f&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=3fe48c8d-ca61-465f-8e01-2ea295e257e5&tw_document_href=https%3A%2F%2Fsolsea.io%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o793o&type=javascript&version=2.3.30"
+            "https://t.co/i/adsct?bci=3&eci=2&event_id=0f38f156-5bfa-4744-883d-5b9e327c6d2c&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=f1e5be45-e001-4bd6-a387-c09d6d0ded6d&tw_document_href=https%3A%2F%2Fsolsea.io%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o793o&type=javascript&version=2.3.30",
+            "https://t.co/i/adsct?bci=3&eci=2&event_id=108ff242-e9c5-472c-b56c-f09031f4b11c&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=f1e5be45-e001-4bd6-a387-c09d6d0ded6d&tw_document_href=https%3A%2F%2Fsolsea.io%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o8bhm&type=javascript&version=2.3.30"
         ]
     }
 }

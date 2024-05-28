@@ -147,7 +147,7 @@ BidBuy
 
 [](/n/9j2yPf9LFSV5prZjCUXNnbDQQvkcxVih88XfLCrARaWz/)
 
-719
+720
 
 0
 
@@ -163,7 +163,7 @@ BidBuy
 
 [](/n/EUt23Uk3Qc8h8xLSES1vTpAKAEtcjt7SCHHshZoQkav9/)
 
-684
+685
 
 1
 
@@ -179,7 +179,7 @@ BidBuy
 
 [](/n/E4ujzczHVRU94eNZC8s54eKhJNdXCWYaW6PnLu39siD3/)
 
-706
+707
 
 0
 
@@ -196,7 +196,7 @@ BidBuy
 
 [](/n/GVKdc9TspNqUvUnALQQq9KuGTaWibSaV1N8SXADA44ZP/)
 
-539
+540
 
 0
 
@@ -331,7 +331,7 @@ BidBuy
 
 [](/n/BmLR8fXzXvYJR9KSLZ9mXqAojLRZcDzFVkH7Zdh2tKc2/)
 
-1066
+1067
 
 2
 
@@ -368,7 +368,7 @@ BidBuy
 
 [](/n/A4syiHFNYesynN8qdKaTXmS4v4Dqha6RnKnX4RmprNYu/)
 
-2720
+2722
 
 281
 
@@ -386,7 +386,7 @@ BidBuy
 
 [](/n/D5sKXDp7NGitfDqx2uPWKdEgm17oTW3rZo2BNg4sT8qs/)
 
-684
+685
 
 0
 
@@ -444,7 +444,7 @@ BidBuy
 
 [](/n/VnaZDrdWRZfN6Gxkot86n1y5758L4TKzSLKirsf36Cv/)
 
-268
+269
 
 0
 
@@ -463,7 +463,7 @@ BidBuy
 
 [](/n/2G3u12MDA11ZQqipxtJTe3Y3qS4u5ZBRMBzZN3DTqHeB/)
 
-488
+489
 
 0
 
@@ -481,7 +481,7 @@ BidBuy
 
 [](/n/3MPe2WK8D15c3SPXSWspQ5DipV2e8qzhutVDeu2N7LjP/)
 
-372
+376
 
 0
 
@@ -517,7 +517,7 @@ BidBuy
 
 [](/n/GpRkhDcJNk7WnUk5hcq5KRQFmrpQ73Mz9CaMVrFjyiQK/)
 
-560
+561
 
 0
 
@@ -571,7 +571,7 @@ BidBuy
 
 [](/n/56YQQv6si27rzKHL9eY51L2HjoAFNiCvCqt9tR3GuAET/)
 
-394
+396
 
 0
 
@@ -589,7 +589,7 @@ BidBuy
 
 [](/n/NMStYfDrRtLWEWNszaNTFRuhxpU9PQawbVyeAD4FAn2/)
 
-620
+622
 
 0
 
@@ -687,5 +687,5 @@ licenses, lowest trading fees, and real-time analytics from on-chain data.
 
  __
 
-![](https://t.co/i/adsct?bci=3&eci=2&event_id=2698a70d-72b4-415b-a3ba-d4759010ef3f&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=3fe48c8d-ca61-465f-8e01-2ea295e257e5&tw_document_href=https%3A%2F%2Fsolsea.io%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o793o&type=javascript&version=2.3.30)![](https://analytics.twitter.com/i/adsct?bci=3&eci=2&event_id=2698a70d-72b4-415b-a3ba-d4759010ef3f&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=3fe48c8d-ca61-465f-8e01-2ea295e257e5&tw_document_href=https%3A%2F%2Fsolsea.io%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o793o&type=javascript&version=2.3.30)![](https://t.co/i/adsct?bci=3&eci=2&event_id=1aa87e2c-3d68-4769-b14e-5818375329b8&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=3fe48c8d-ca61-465f-8e01-2ea295e257e5&tw_document_href=https%3A%2F%2Fsolsea.io%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o8bhm&type=javascript&version=2.3.30)![](https://analytics.twitter.com/i/adsct?bci=3&eci=2&event_id=1aa87e2c-3d68-4769-b14e-5818375329b8&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=3fe48c8d-ca61-465f-8e01-2ea295e257e5&tw_document_href=https%3A%2F%2Fsolsea.io%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o8bhm&type=javascript&version=2.3.30)
+![](https://t.co/i/adsct?bci=3&eci=2&event_id=0f38f156-5bfa-4744-883d-5b9e327c6d2c&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=f1e5be45-e001-4bd6-a387-c09d6d0ded6d&tw_document_href=https%3A%2F%2Fsolsea.io%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o793o&type=javascript&version=2.3.30)![](https://analytics.twitter.com/i/adsct?bci=3&eci=2&event_id=0f38f156-5bfa-4744-883d-5b9e327c6d2c&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=f1e5be45-e001-4bd6-a387-c09d6d0ded6d&tw_document_href=https%3A%2F%2Fsolsea.io%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o793o&type=javascript&version=2.3.30)![](https://t.co/i/adsct?bci=3&eci=2&event_id=108ff242-e9c5-472c-b56c-f09031f4b11c&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=f1e5be45-e001-4bd6-a387-c09d6d0ded6d&tw_document_href=https%3A%2F%2Fsolsea.io%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o8bhm&type=javascript&version=2.3.30)![](https://analytics.twitter.com/i/adsct?bci=3&eci=2&event_id=108ff242-e9c5-472c-b56c-f09031f4b11c&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=f1e5be45-e001-4bd6-a387-c09d6d0ded6d&tw_document_href=https%3A%2F%2Fsolsea.io%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o8bhm&type=javascript&version=2.3.30)
 
