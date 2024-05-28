@@ -181,7 +181,7 @@ spending limits and permissions.
 
 [NextWhat is a multisig](/main/basics/what-is-a-multisig)
 
-Last updated 1 month ago
+Last updated 2 months ago
 
 On this page
 
