@@ -1,0 +1,24 @@
+{
+    "target_url": "https://all.art/news/category/wallet",
+    "domains": {
+        "all.art": [
+            "https://all.art/assets/flags/cn.svg",
+            "https://all.art/assets/flags/de.svg",
+            "https://all.art/assets/flags/fr.svg",
+            "https://all.art/assets/flags/id.svg",
+            "https://all.art/assets/flags/it.svg",
+            "https://all.art/assets/flags/rs.svg",
+            "https://all.art/assets/flags/th.svg",
+            "https://all.art/assets/flags/us.svg",
+            "https://all.art/assets/flags/vn.svg"
+        ],
+        "s3.eu-west-1.amazonaws.com": [
+            "https://s3.eu-west-1.amazonaws.com/storage.digitalmind.rs/files/0d9453c09248ed0c35ecf218ab022f6ce96817f265f042afda78a7b206ab54b1.webp",
+            "https://s3.eu-west-1.amazonaws.com/storage.digitalmind.rs/files/37906e9d104171c4d9544398deaa331e700f2bf24b8681e91d699a29468d738f.webp",
+            "https://s3.eu-west-1.amazonaws.com/storage.digitalmind.rs/files/40abb46be04b93a6c3c96e7d08fcbca24ab574b3a1860b21835847ffff12ee74.webp",
+            "https://s3.eu-west-1.amazonaws.com/storage.digitalmind.rs/files/4d5f6e7cfe969e27884cf53f1698706dfe3889a8de2262b63c30c29e6277d87f.webp",
+            "https://s3.eu-west-1.amazonaws.com/storage.digitalmind.rs/files/8abab5f2962793ec4a7914af23d56caae4ba66fd11ce12ae5047bc3de46067fd.webp",
+            "https://s3.eu-west-1.amazonaws.com/storage.digitalmind.rs/files/a370d94eea1493a4600dda6d75e0681cdaf5cbb80c3d79e819f964355e2c87bd.webp"
+        ]
+    }
+}
