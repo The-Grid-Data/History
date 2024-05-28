@@ -1,0 +1,51 @@
+{
+    "target_url": "https://squads.so/blog/pyth-airdrop-allocation",
+    "domains": {
+        "discord.com": [
+            "https://discord.com/invite/PythNetwork",
+            "https://discord.com/invite/YPXz64TrKs"
+        ],
+        "docs.pyth.network": [
+            "https://docs.pyth.network/"
+        ],
+        "docs.squads.so": [
+            "https://docs.squads.so/main/basics/welcome-to-squads"
+        ],
+        "github.com": [
+            "https://github.com/Squads-Protocol"
+        ],
+        "pyth.network": [
+            "https://pyth.network/",
+            "https://pyth.network/price-feeds"
+        ],
+        "squads.so": [
+            "https://squads.so/",
+            "https://squads.so/about",
+            "https://squads.so/blog",
+            "https://squads.so/blog/marginfi-lending-protocol-solana",
+            "https://squads.so/blog/mpc-wallets-risks-vs-multisig",
+            "https://squads.so/blog/stablecoins-overview-solana",
+            "https://squads.so/blog/state-solana-defi-ecosystem",
+            "https://squads.so/blog/what-are-multisig-wallets",
+            "https://squads.so/brand-assets",
+            "https://squads.so/extension",
+            "https://squads.so/legal/privacy-policy",
+            "https://squads.so/legal/terms-of-service",
+            "https://squads.so/protocol",
+            "https://squads.so/use-cases"
+        ],
+        "twitter.com": [
+            "https://twitter.com/PythNetwork",
+            "https://twitter.com/squadsprotocol"
+        ],
+        "warpcast.com": [
+            "https://warpcast.com/squads"
+        ],
+        "www.npmjs.com": [
+            "https://www.npmjs.com/package/@sqds/multisig"
+        ],
+        "www.sqds.io": [
+            "https://www.sqds.io/"
+        ]
+    }
+}

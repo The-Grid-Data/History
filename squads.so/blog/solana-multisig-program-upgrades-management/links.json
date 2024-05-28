@@ -1,0 +1,56 @@
+{
+    "target_url": "https://squads.so/blog/solana-multisig-program-upgrades-management",
+    "domains": {
+        "blog.neodyme.io": [
+            "https://blog.neodyme.io/posts/solana_upgrade_authority/"
+        ],
+        "discord.com": [
+            "https://discord.com/invite/YPXz64TrKs"
+        ],
+        "docs.squads.so": [
+            "https://docs.squads.so/main/basics/welcome-to-squads",
+            "https://docs.squads.so/squads-v3-docs/navigating-your-squad/developers/programs",
+            "https://docs.squads.so/squads-v3-docs/navigating-your-squad/developers/programs#add-programs"
+        ],
+        "github.com": [
+            "https://github.com/Squads-Protocol",
+            "https://github.com/Squads-Protocol/squads-mpl"
+        ],
+        "osec.io": [
+            "https://osec.io/blog/2023-01-26-formally-verifying-solana-programs"
+        ],
+        "squads.so": [
+            "https://squads.so/",
+            "https://squads.so/about",
+            "https://squads.so/blog",
+            "https://squads.so/blog/create-manage-solana-spl-token",
+            "https://squads.so/blog/mpc-wallets-risks-vs-multisig",
+            "https://squads.so/blog/solana-svm-smart-contract-wallet-infrastructure",
+            "https://squads.so/blog/spending-limits",
+            "https://squads.so/blog/what-are-multisig-wallets",
+            "https://squads.so/blog/why-use-squads",
+            "https://squads.so/brand-assets",
+            "https://squads.so/extension",
+            "https://squads.so/legal/privacy-policy",
+            "https://squads.so/legal/terms-of-service",
+            "https://squads.so/protocol",
+            "https://squads.so/use-cases"
+        ],
+        "twitter.com": [
+            "https://twitter.com/m_schneider/status/1591636068650352640",
+            "https://twitter.com/squadsprotocol"
+        ],
+        "v3.squads.so": [
+            "https://v3.squads.so/"
+        ],
+        "warpcast.com": [
+            "https://warpcast.com/squads"
+        ],
+        "www.npmjs.com": [
+            "https://www.npmjs.com/package/@sqds/multisig"
+        ],
+        "www.sqds.io": [
+            "https://www.sqds.io/"
+        ]
+    }
+}
