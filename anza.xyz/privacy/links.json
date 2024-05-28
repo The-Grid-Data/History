@@ -1,0 +1,27 @@
+{
+    "target_url": "https://anza.xyz/privacy",
+    "domains": {
+        "anza.xyz": [
+            "https://anza.xyz/",
+            "https://anza.xyz/#about",
+            "https://anza.xyz/#products",
+            "https://anza.xyz/#validator",
+            "https://anza.xyz/blog",
+            "https://anza.xyz/privacy",
+            "https://anza.xyz/termsofuse"
+        ],
+        "apply.workable.com": [
+            "https://apply.workable.com/anza-xyz/",
+            "https://apply.workable.com/anza-xyz/?lng=en"
+        ],
+        "discord.com": [
+            "https://discord.com/invite/anza-xyz"
+        ],
+        "github.com": [
+            "https://github.com/anza-xyz"
+        ],
+        "twitter.com": [
+            "https://twitter.com/anza_xyz"
+        ]
+    }
+}

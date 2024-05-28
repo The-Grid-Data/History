@@ -1,0 +1,12 @@
+{
+    "target_url": "https://hellomoon.io/dashboard",
+    "domains": {
+        "docs.hellomoon.io": [
+            "https://docs.hellomoon.io"
+        ],
+        "hellomoon.io": [
+            "https://hellomoon.io/dashboard",
+            "https://hellomoon.io/datastreams"
+        ]
+    }
+}
