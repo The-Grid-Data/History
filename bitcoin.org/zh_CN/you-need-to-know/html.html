@@ -1,0 +1,769 @@
+<!DOCTYPE html><html lang="zh_CN"><head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>ä½ éè¦äºè§£çä¸äºäº - æ¯ç¹å¸</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+<link rel="stylesheet" href="/css/sans.css?1716491272">
+<script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.org æ¯ä¸ä¸ªç¤¾åºæ¯æçç¤¾åºï¼æä»¬ååæè°¢ä»»ä½æå©ãè¿äºæå©ä¼ç¨äºæ¹è¿ç½ç«ã
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        æå©
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.org éè¦ä½ çå¸®å©ï¼
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">æå©Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">ä½¿ç¨ä¸æ¹äºç»´ç æå°å</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="æèèªå®ä¹æ°éï¼ (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="æèèªå®ä¹æ°éï¼ (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="ï¼ä½ çé±åçï¼å¯éæè¿°"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="/zh_CN/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">ä»ç»</a>
+    <ul>
+      <li><a href="/zh_CN/bitcoin-for-individuals">ä¸ªäºº</a></li>
+      <li><a href="/zh_CN/bitcoin-for-businesses">åå®¶</a></li>
+      <li><a href="https://developer.bitcoin.org/">å¼åè</a></li>
+      <li><a href="/zh_CN/getting-started">å¥é¨æå</a></li>
+      <li><a href="/zh_CN/how-it-works">å·¥ä½åç</a></li>
+      
+      <li><a href="/zh_CN/bitcoin-paper">White paper</a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">èµæº</a>
+    <ul>
+      <li><a href="/zh_CN/resources">èµæº</a>
+      </li><li><a href="/zh_CN/exchanges">åæ¢</a></li>
+      <li><a href="/zh_CN/community">ç¤¾åº</a></li>
+      
+      
+      <li><a href="/zh_CN/vocabulary">è¯æ±è¡¨</a></li>
+      <li><a href="/zh_CN/events">æ´»å¨</a></li>
+      
+        <li><a href="/zh_CN/download">æ¯ç¹å¸æ ¸å¿</a></li>
+      
+    </ul>
+  </li>
+  <li><a href="/zh_CN/innovation">åæ°</a></li>
+  <li><a class="is-expand">åä¸</a>
+    <ul>
+      <li><a href="/zh_CN/support-bitcoin">æ¯ææ¯ç¹å¸</a>
+      </li><li><a href="/zh_CN/buy">è´­ä¹°æ¯ç¹å¸</a></li>
+      
+      <li><a href="/zh_CN/development">å¼å</a></li>
+    </ul>
+  </li>
+  <li><a href="/zh_CN/faq">å¸¸è§é®é¢</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>ç®ä½ä¸­æ</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/yang-perlu-anda-ketahui">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/necessites-saber">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/du-boer-vide">Dansk</a></li>
+        
+        
+          <li><a href="/de/das-sollten-sie-wissen">Deutsch</a></li>
+        
+        
+          <li><a href="/en/you-need-to-know">English</a></li>
+        
+        
+          <li><a href="/es/debes-saber">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/vous-devez-savoir">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/da-sapere">Italiano</a></li>
+        
+        
+          <li><a href="/hu/amit-tudnia-erdemes">Magyar</a></li>
+        
+        
+          <li><a href="/nl/wat-u-moet-weten">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/co-potrzebujesz-wiedziec">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/voce-precisa-saber">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/ce-trebuie-sa-stii">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/kaj-moram-vedeti">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/trebali-bi-da-znate">Srpski</a></li>
+        
+        
+          <li><a href="/sv/du-behover-kanna-till">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/bilmeniz-gerekenler">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/you-need-to-know">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/you-need-to-know">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/you-need-to-know">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/you-need-to-know">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/you-need-to-know">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/you-need-to-know">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/you-need-to-know">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/you-need-to-know">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/you-need-to-know">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/you-need-to-know">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/you-need-to-know">ááááá</a></li>
+        
+        
+          <li><a href="/ja/you-need-to-know">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/you-need-to-know" class="active">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/you-need-to-know">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/yang-perlu-anda-ketahui">Bahasa Indonesia</option>
+            
+            <option value="/ca/necessites-saber">CatalÃ </option>
+            
+            <option value="/da/du-boer-vide">Dansk</option>
+            
+            <option value="/de/das-sollten-sie-wissen">Deutsch</option>
+            
+            <option value="/en/you-need-to-know">English</option>
+            
+            <option value="/es/debes-saber">EspaÃ±ol</option>
+            
+            <option value="/fr/vous-devez-savoir">FranÃ§ais</option>
+            
+            <option value="/it/da-sapere">Italiano</option>
+            
+            <option value="/hu/amit-tudnia-erdemes">Magyar</option>
+            
+            <option value="/nl/wat-u-moet-weten">Nederlands</option>
+            
+            <option value="/pl/co-potrzebujesz-wiedziec">Polski</option>
+            
+            <option value="/pt_BR/voce-precisa-saber">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/ce-trebuie-sa-stii">RomÃ¢nÄ</option>
+            
+            <option value="/sl/kaj-moram-vedeti">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/trebali-bi-da-znate">Srpski</option>
+            
+            <option value="/sv/du-behover-kanna-till">Svenska</option>
+            
+            <option value="/tr/bilmeniz-gerekenler">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/you-need-to-know">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/you-need-to-know">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/you-need-to-know">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/you-need-to-know">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/you-need-to-know">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/you-need-to-know">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/you-need-to-know">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/you-need-to-know">×¢××¨××ª</option>
+            
+            <option value="/hi/you-need-to-know">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/you-need-to-know">íêµ­ì´</option>
+            
+            <option value="/km/you-need-to-know">ááááá</option>
+            
+            <option value="/ja/you-need-to-know">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/you-need-to-know" selected="selected">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/you-need-to-know">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">zh_CN</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  <div class="hero">
+  <div class="container hero-container">
+    <h1>ä½ éè¦äºè§£çä¸äºäº</h1>
+    <p class="summarytxt">å¦æä½ æ­£æç®æ¢ç´¢æ¯ç¹å¸ï¼æå ä»¶äºéè¦åäºè§£ä¸ä¸ãæ¯ç¹å¸è®©ä½ å¯ä»¥ç¨ä¸åäºæ®éçæ¹å¼äº¤æ¢èµéãæä»¥ï¼å¨ä»»ä½æ­£å¼çäº¤æä¹åè±ç¹æ¶é´åè¯èªå·±ãè¦åç±æ¤ä½ ççå®é±åä¸æ ·ç±æ¤æ¯ç¹å¸ãæäºæåµä¸ï¼æ¯ç¹å¸çè³éè¦ä½ æå¥æ´å¤çç±æ¤ï¼</p>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="two-column-layout">
+    <div class="row two-column-row">
+      <div>
+        <img class="column-img" src="/img/icons/securing.svg?1716491272" alt="icon">
+      </div>
+      <div class="column-text">
+        <h2 class="section-title anchorAf" id="secure"><a href="#secure"></a>ä¿æ¤ä½ çé±å</h2>
+        <p>åå¨ç°å®çæ´»ä¸­ä¸æ ·ï¼ä½ å¿é¡»ä¿æ¤å¥½èªå·±çé±åãä½¿ç¨æ¯ç¹å¸å¯ä»¥è½»èæä¸¾å°å¨ä¸çèå´åè½¬ç§»èµéï¼ä¹è®©ä½ å®å¨ææ§èªå·±çèµéãè¿æ ·å¼ºå¤§çåè½ä¹å¸¦æ¥äºå¾å¤§çå®å¨é¡¾èãåæ¶ï¼åªè¦æ­£ç¡®ä½¿ç¨ï¼æ¯ç¹å¸å¯ä»¥æä¾é«çº§å«çå®å¨æ§ãè¯·éæ¶ç¢è®°ï¼ä½ æè´£ä»»éåè¯å¥½çåæ³æ¥ä¿æ¤èªå·±çè´¢äº§ã<a href="/zh_CN/secure-your-wallet">äºè§£æ´å¤å³äºä¿æ¤é±åçåå®¹</a>ã</p>
+      </div>
+    </div>
+    
+    <div class="row two-column-row">
+      <div>
+        <img class="column-img" src="/img/icons/bitcoin-price.svg?1716491272" alt="icon">
+      </div>
+      <div class="column-text">
+        <h2 class="section-title anchorAf" id="volatile"><a href="#volatile"></a>æ¯ç¹å¸çä»·æ ¼å¤å</h2>
+        <p>ç±äºæ¯ç¹å¸å¹´è½»çç»æµç»æï¼æ°é¢çç¹æ§ï¼ä»¥åå¶å°çå¸åºæµå¨æ§ä¸è¶³ï¼æ¯ç¹å¸çä»·æ ¼å¯è½å¨ç­æ¶é´åæ è§å¾å°å¤§èµ·å¤§è½ãæä»¥ï¼ç®åä¸å»ºè®®ç¨æ¯ç¹å¸æ¥ä¿å­ä½ çç§¯èãæ¯ç¹å¸åºè¯¥è¢«è§ä¸ºé«é£é©èµäº§ï¼åä¸ä¸è¦å°ä½ æ æ³æ¿ææå¤±çèµéä»¥æ¯ç¹å¸çå½¢å¼ä¿å­ãå¦æä½ æ¶å°æ¯ç¹å¸ä»æ¬¾ï¼æå¾å¤æå¡ä¾åºåå¯ä»¥å°æ¯ç¹å¸åæ¢ä¸ºå½å°è´§å¸ã</p>
+      </div>
+    </div>
+    
+    <div class="row two-column-row">
+      <div>
+        <img class="column-img" src="/img/icons/bitcoin-payments.svg?1716491272" alt="icon">
+      </div>
+      <div class="column-text">
+        <h2 class="section-title anchorAf" id="irreversible"><a href="#irreversible"></a>æ¯ç¹å¸äº¤ææ¯ä¸å¯éç</h2>
+        <p>ä»»ä½æ¯ç¹å¸äº¤æé½æ¯ä¸å¯æ¤éçï¼åªè½ç±æ¶æ¬¾äººéåæ¯ç¹å¸ãè¿æå³çä½ éè¦æ³¨æï¼ä¸ä½ äºè§£åä¿¡ä»»æèå·²ç»å»ºç«çä¿¡èªçä¸ªäººåç»ç»äº¤æãå¨ä»ä»¬é£è¾¹ï¼åå®¶éè¦æ§å¶é£äºé¡¾å®¢å¯è§çæ¯ä»è¯·æ±ãæ¯ç¹å¸ç³»ç»è½æ£æµåºæå­éè¯¯ï¼éå¸¸ä¸ä¼è®©ä½ ä¸å°å¿ä»æ¬¾å°ä¸ä¸ªæ æå°åï¼ä½æå¥½å¯ä»¥ææ´å¤çå®å¨ä¿éååä½æ§ãå¨å°æ¥å¯è½è¿ä¼æå¶å®ä¸ºæ¶è´¹èæä¾æ´å¤éæ©åä¿æ¤çæå¡ã</p>
+      </div>
+    </div>
+    
+    <div class="row two-column-row">
+      <div>
+        <img class="column-img" src="/img/icons/not-anonymous.svg?1716491272" alt="icon">
+      </div>
+      <div class="column-text">
+        <h2 class="section-title anchorAf" id="anonymous"><a href="#anonymous"></a>æ¯ç¹å¸å¹¶ä¸æ¯å¿åç</h2>
+        <p>å¨ä½¿ç¨æ¯ç¹å¸çæ¶åä¿æ¤ä½ çéç§éè¦è±è´¹ä¸äºç²¾åãææçæ¯ç¹å¸äº¤æé½å¬å¼ä¸æ°¸ä¹å°å­å¨å¨ç½ç»ä¸­ï¼æå³çä»»ä½äººé½è½æ¥çä»»ä½ä¸ä¸ªæ¯ç¹å¸å°åçä½é¢åäº¤æè®°å½ãç¶èï¼é¤éå¨è´­ä¹°è¿ç¨ä¸­æèå¶ä»ç¶åµä¸éé²äºèº«ä»½ä¿¡æ¯ï¼æ¯ç¹å¸å°åèåççå®èº«ä»½æ¯ä¿å¯çãè¿ä¹å°±æ¯å»ºè®®ä¸ä¸ªæ¯ç¹å¸å°åä»ä½¿ç¨ä¸æ¬¡çåå ä¹ä¸ãæ°¸è¿è®°ä½å»æè¯å¥½çä¹ æ¯æ¥ä¿æ¤ä½ çéç§æ¯ä½ èªå·±çè´£ä»»ã <a href="/zh_CN/protect-your-privacy">éè¯»æ´å¤æå³ä½ çéç§ä¿æ¤çä¿¡æ¯</a>ã</p>
+      </div>
+    </div>
+    
+    <div class="row two-column-row">
+      <div class="column-table">
+         
+      </div>
+      <div class="column-text column-text-s">
+        <h2 class="section-title anchorAf" id="instant"><a href="#instant"></a>æªç¡®è®¤çäº¤æå¹¶ä¸å®å¨</h2>
+        <p>æ¯ä¸ç¬æ¯ç¹å¸äº¤æéå¸¸é½ä¼å¨å ç§éåååºï¼å¹¶å¨ååéåæ¥åå®¡æ ¸ãå¨è¿æ®µæ¶é´ä¹åï¼æ­¤äº¤æå¯è¢«è§ä¸ºå¯é çï¼ä½ä¸æ­¤åæ¶ï¼æ­¤äº¤æä»å¯æ¤éãä¸äºä¸å¯é çç¨æ·å¯è½éè¿äº¤ææ¥æ¬ºéªææ¬ºè¯ä»äººï¼ä¹æå³çæ¥åæªå®¡æ ¸çäº¤æå­å¨çä¸å®é£é©ãä¾å¦1000ç¾éçé«é¢äº¤æï¼å»ºè®®æ¨å¨å­æ¬¡ææ´å¤å®¡æ ¸åå®æäº¤æãæ¯ä¸æ¬¡äº¤æå®¡æ ¸éè¿é½å¤§å¤§çåå°äºäº¤æè¢«æ¤éçå¯è½æ§ã</p>
+      </div>
+    </div>
+    
+    <div class="row two-column-row">
+      <div>
+        <img class="column-img" src="/img/icons/experimental.svg?1716491272" alt="icon">
+      </div>
+      <div class="column-text">
+        <h2 class="section-title anchorAf" id="experimental"><a href="#experimental"></a>æ¯ç¹å¸ä»æå®éªæ§</h2>
+        <p>æ¯ç¹å¸æ¯ä¸ä¸ªæ­£å¤äºç§¯æåå±ä¸­çå®éªæ§æ°è´§å¸ãå°½ç®¡å®çå®éªæ§æ­£éçå®ä¸æ­å¢é¿çä½¿ç¨çèå¨éæ¸åå°ï¼ä½æ¯è¦è®°ä½æ¯ç¹å¸æ¯ä¸ä¸ªå¨æ°çåæï¼å®æ­£æ¢ç´¢ä»¥å¾ä»æªè¢«å°è¯è¿ççå¿µï¼å æ­¤ï¼æ²¡æäººå¯ä»¥é¢æµæ¯ç¹å¸çæªæ¥ã</p>
+      </div>
+    </div>
+    
+    <div class="row two-column-row">
+      <div>
+        <img class="column-img" src="/img/icons/taxes.svg?1716491272" alt="icon">
+      </div>
+      <div class="column-text">
+        <h2 class="section-title anchorAf" id="tax"><a href="#tax"></a>æ¿åºç¨æ¶åæ³è§</h2>
+        <p>æ¯ç¹å¸ä¸æ¯æ³å®è´§å¸ãä¹å°±æ¯è¯´ï¼å¤§å¤æ°çè¡æ¿ç®¡è¾åºè¿æ¯ä¼è¦æ±ä½ ä¸ç¼´æ¶å¥ï¼éå®ï¼å·¥èµåæèµæ¶ççç¨æ¬¾ï¼è¿å¶ä¸­ä¹åæ¬æ¯ç¹å¸ãæ¨ä»ç¶æä¹å¡éµå®å½å®¶æ¿åºæèå½å°å¸æ¿æºå³<a href="https://en.wikipedia.org/wiki/Legality_of_bitcoin_by_country">åå¸çç¨æ¶æ³å¾æ³è§</a>ã</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="/zh_CN/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">æ¯æBitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">æå©</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">ä»ç»:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/zh_CN/bitcoin-for-individuals">ä¸ªäºº</a>
+        </li>
+        <li>
+          <a href="/zh_CN/bitcoin-for-businesses">åå®¶</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">å¼åè</a>
+        </li>
+        <li>
+          <a href="/zh_CN/getting-started">å¥é¨æå</a>
+        </li>
+        <li>
+          <a href="/zh_CN/how-it-works">å·¥ä½åç</a>
+        </li>
+        <li class="active">
+          <a href="/zh_CN/you-need-to-know">æ³¨æäºé¡¹</a>
+        </li>
+        
+        <li>
+          <a href="/zh_CN/bitcoin-paper">White paper</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">èµæº:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/zh_CN/resources">èµæº</a>
+        </li><li>
+          <a href="/zh_CN/exchanges">åæ¢</a>
+        </li>
+        <li>
+          <a href="/zh_CN/community">ç¤¾åº</a>
+        </li>
+        <li>
+          <a href="/zh_CN/vocabulary">è¯æ±è¡¨
+          </a>
+        </li>
+        <li>
+          <a href="/zh_CN/events">æ´»å¨</a>
+        </li>
+        
+          <li>
+            <a href="/zh_CN/download">æ¯ç¹å¸æ ¸å¿</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">åä¸:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/zh_CN/support-bitcoin">æ¯ææ¯ç¹å¸</a>
+        
+        
+        </li><li>
+          <a href="/zh_CN/development">å¼å</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">å¶ä»:</p>
+      
+      <a href="/zh_CN/legal">æ³å¾</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/zh_CN/press">æ°é»åªä½</a>
+      <a href="/zh_CN/about-us">å³äºbitcoin.org</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>ç¤¾åºç½ç«ä¸»åæ¹ï¼</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1716491272" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 åºäº<a href="http://opensource.org/licenses/mit-license.php" target="_blank">MITåè®®</a>ææåå¸</div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">Network Status</a>
+        
+<ul class="lang is-expand">
+  <li><a>ç®ä½ä¸­æ</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/yang-perlu-anda-ketahui">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/necessites-saber">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/du-boer-vide">Dansk</a></li>
+        
+        
+          <li><a href="/de/das-sollten-sie-wissen">Deutsch</a></li>
+        
+        
+          <li><a href="/en/you-need-to-know">English</a></li>
+        
+        
+          <li><a href="/es/debes-saber">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/vous-devez-savoir">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/da-sapere">Italiano</a></li>
+        
+        
+          <li><a href="/hu/amit-tudnia-erdemes">Magyar</a></li>
+        
+        
+          <li><a href="/nl/wat-u-moet-weten">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/co-potrzebujesz-wiedziec">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/voce-precisa-saber">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/ce-trebuie-sa-stii">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/kaj-moram-vedeti">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/trebali-bi-da-znate">Srpski</a></li>
+        
+        
+          <li><a href="/sv/du-behover-kanna-till">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/bilmeniz-gerekenler">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/you-need-to-know">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/you-need-to-know">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/you-need-to-know">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/you-need-to-know">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/you-need-to-know">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/you-need-to-know">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/you-need-to-know">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/you-need-to-know">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/you-need-to-know">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/you-need-to-know">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/you-need-to-know">ááááá</a></li>
+        
+        
+          <li><a href="/ja/you-need-to-know">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/you-need-to-know" class="active">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/you-need-to-know">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/yang-perlu-anda-ketahui">Bahasa Indonesia</option>
+              
+              <option value="/ca/necessites-saber">CatalÃ </option>
+              
+              <option value="/da/du-boer-vide">Dansk</option>
+              
+              <option value="/de/das-sollten-sie-wissen">Deutsch</option>
+              
+              <option value="/en/you-need-to-know">English</option>
+              
+              <option value="/es/debes-saber">EspaÃ±ol</option>
+              
+              <option value="/fr/vous-devez-savoir">FranÃ§ais</option>
+              
+              <option value="/it/da-sapere">Italiano</option>
+              
+              <option value="/hu/amit-tudnia-erdemes">Magyar</option>
+              
+              <option value="/nl/wat-u-moet-weten">Nederlands</option>
+              
+              <option value="/pl/co-potrzebujesz-wiedziec">Polski</option>
+              
+              <option value="/pt_BR/voce-precisa-saber">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/ce-trebuie-sa-stii">RomÃ¢nÄ</option>
+              
+              <option value="/sl/kaj-moram-vedeti">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/trebali-bi-da-znate">Srpski</option>
+              
+              <option value="/sv/du-behover-kanna-till">Svenska</option>
+              
+              <option value="/tr/bilmeniz-gerekenler">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/you-need-to-know">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/you-need-to-know">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/you-need-to-know">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/you-need-to-know">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/you-need-to-know">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/you-need-to-know">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/you-need-to-know">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/you-need-to-know">×¢××¨××ª</option>
+              
+              <option value="/hi/you-need-to-know">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/you-need-to-know">íêµ­ì´</option>
+              
+              <option value="/km/you-need-to-know">ááááá</option>
+              
+              <option value="/ja/you-need-to-know">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/you-need-to-know" selected="selected">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/you-need-to-know">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">zh_CN</span>
+          </label>
+        </div>
+      </div>
+<!--      <div class="row">  -->
+        
+<!--    </div> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+
+
+
+
+
+
+</body></html>
