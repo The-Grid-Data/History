@@ -1,0 +1,98 @@
+{
+    "target_url": "https://solana.com/news/validator-health-report-october-2023",
+    "domains": {
+        "atomscan.com": [
+            "https://atomscan.com/validators"
+        ],
+        "blog.syndica.io": [
+            "https://blog.syndica.io/introducing-sig-by-syndica-an-rps-focused-solana-validator-client-written-in-zig/",
+            "https://blog.syndica.io/sig-engineering-1-gossip-protocol/"
+        ],
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "docs.tinydancer.io": [
+            "https://docs.tinydancer.io/"
+        ],
+        "ethernodes.org": [
+            "https://ethernodes.org/"
+        ],
+        "explorer.near.org": [
+            "https://explorer.near.org/"
+        ],
+        "hackmd.io": [
+            "https://hackmd.io/@KFEZk8oMTz6vBlwADz0M4A/ByElSqDg2"
+        ],
+        "jito.retool.com": [
+            "https://jito.retool.com/embedded/public/3557dd68-f772-4f4f-8a7b-f479941dba02"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "jumpcrypto.com": [
+            "https://jumpcrypto.com/writing/jump-crypto-sets-out-to-build-new-validator-client-for-the-solana-blockchain-to-increase-the-throughput-and-reliability-of-the-network/"
+        ],
+        "lu.ma": [
+            "https://lu.ma/0k9m99s1"
+        ],
+        "nakaflow.io": [
+            "https://nakaflow.io/"
+        ],
+        "news.earn.com": [
+            "https://news.earn.com/quantifying-decentralization-e39db233c28e"
+        ],
+        "polygonscan.com": [
+            "https://polygonscan.com/stat/miner?range=7&blocktype=blocks"
+        ],
+        "rated.network": [
+            "http://rated.network/"
+        ],
+        "solana.chainflow.io": [
+            "https://solana.chainflow.io/"
+        ],
+        "solana.com": [
+            "https://solana.com/",
+            "https://solana.com/branding",
+            "https://solana.com/discord",
+            "https://solana.com/ecosystem",
+            "https://solana.com/github",
+            "https://solana.com/news",
+            "https://solana.com/news/02-25-23-solana-mainnet-beta-outage-report?ref=solana.ghost.io",
+            "https://solana.com/news/network-performance-report-july-2023",
+            "https://solana.com/news/validator-health-report-march-2023",
+            "https://solana.com/newsletter",
+            "https://solana.com/privacy-policy",
+            "https://solana.com/privacy-policy#collection-of-information",
+            "https://solana.com/reddit",
+            "https://solana.com/telegram",
+            "https://solana.com/tos",
+            "https://solana.com/twitter",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ],
+        "solanafoundation.typeform.com": [
+            "https://solanafoundation.typeform.com/to/ffGy5y9t"
+        ],
+        "subnets.avax.network": [
+            "https://subnets.avax.network/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/larry0x/status/1608844203748102144?s=46&t=qVn5uMZcVxlNDBABN8wK3A"
+        ],
+        "www.jito.wtf": [
+            "https://www.jito.wtf/"
+        ],
+        "www.rated.network": [
+            "https://www.rated.network/?network=mainnet&view=pool&timeWindow=1d&page=1"
+        ],
+        "www.theblock.co": [
+            "https://www.theblock.co/post/182283/1000-solana-validators-go-offline-as-hetzner-blocks-server-access"
+        ],
+        "www.validators.app": [
+            "https://www.validators.app/data-centers?%20locale=en&network=mainnet&sort_by=asn",
+            "https://www.validators.app/data-centers?locale=en&network=mainnet"
+        ]
+    }
+}
