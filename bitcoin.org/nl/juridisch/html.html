@@ -1,0 +1,864 @@
+<!DOCTYPE html><html lang="nl"><head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Juridische disclaimer - Bitcoin</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+
+<script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.org is een door de gemeenschap gefinancierd project, donaties worden gewaardeerd en gebruikt om de website te verbeteren.
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        Doneer
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.org heeft uw steun nodig!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">Doneer aan Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">Gebruik deze QR of onderstaand adres</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="Of aangepast bedrag? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="Of aangepast bedrag? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="Optionele beschrijving (voor uw portefeuille)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="/nl/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">Inleiding</a>
+    <ul>
+      <li><a href="/nl/bitcoin-voor-particulieren">Particulieren</a></li>
+      <li><a href="/nl/bitcoin-voor-bedrijven">Bedrijven</a></li>
+      <li><a href="https://developer.bitcoin.org/">Ontwikkelaars</a></li>
+      <li><a href="/nl/aan-de-slag">Aan de slag</a></li>
+      <li><a href="/nl/hoe-het-werkt">Hoe het werkt</a></li>
+      
+      <li><a href="/nl/bitcoin-document">Whitepaper</a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">Hulpmiddelen</a>
+    <ul>
+      <li><a href="/nl/hulpmiddelen">Hulpmiddelen</a>
+      </li><li><a href="/nl/beurzen">Beurzen</a></li>
+      <li><a href="/nl/community">Community</a></li>
+      
+      
+      <li><a href="/nl/woordenlijst">Woordenlijst</a></li>
+      <li><a href="/nl/evenementen">Evenementen</a></li>
+      
+        <li><a href="/nl/download">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li><a href="/nl/innovatie">Innovatie</a></li>
+  <li><a class="is-expand">Meedoen</a>
+    <ul>
+      <li><a href="/nl/help-bitcoin">Ondersteun Bitcoin</a>
+      </li><li><a href="/nl/kopen">Koop Bitcoin</a></li>
+      
+      <li><a href="/nl/ontwikkeling">Ontwikkeling</a></li>
+    </ul>
+  </li>
+  <li><a href="/nl/faq">FAQ</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>Nederlands</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/sah">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/legal">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/juridisk">Dansk</a></li>
+        
+        
+          <li><a href="/de/rechtliches">Deutsch</a></li>
+        
+        
+          <li><a href="/en/legal">English</a></li>
+        
+        
+          <li><a href="/es/legal">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/legal">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/note-legali">Italiano</a></li>
+        
+        
+          <li><a href="/hu/jogi-vonatkozasok">Magyar</a></li>
+        
+        
+          <li><a href="/nl/juridisch" class="active">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/informacje-prawne">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/legal">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/legal">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/pravno">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/zakon">Srpski</a></li>
+        
+        
+          <li><a href="/sv/juridiskt">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/yasal">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/legal">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/legal">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/legal">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/legal">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/legal">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/legal">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/legal">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/legal">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/legal">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/legal">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/legal">ááááá</a></li>
+        
+        
+          <li><a href="/ja/legal">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/legal">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/legal">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/sah">Bahasa Indonesia</option>
+            
+            <option value="/ca/legal">CatalÃ </option>
+            
+            <option value="/da/juridisk">Dansk</option>
+            
+            <option value="/de/rechtliches">Deutsch</option>
+            
+            <option value="/en/legal">English</option>
+            
+            <option value="/es/legal">EspaÃ±ol</option>
+            
+            <option value="/fr/legal">FranÃ§ais</option>
+            
+            <option value="/it/note-legali">Italiano</option>
+            
+            <option value="/hu/jogi-vonatkozasok">Magyar</option>
+            
+            <option value="/nl/juridisch" selected="selected">Nederlands</option>
+            
+            <option value="/pl/informacje-prawne">Polski</option>
+            
+            <option value="/pt_BR/legal">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/legal">RomÃ¢nÄ</option>
+            
+            <option value="/sl/pravno">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/zakon">Srpski</option>
+            
+            <option value="/sv/juridiskt">Svenska</option>
+            
+            <option value="/tr/yasal">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/legal">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/legal">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/legal">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/legal">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/legal">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/legal">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/legal">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/legal">×¢××¨××ª</option>
+            
+            <option value="/hi/legal">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/legal">íêµ­ì´</option>
+            
+            <option value="/km/legal">ááááá</option>
+            
+            <option value="/ja/legal">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/legal">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/legal">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">nl</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  <div class="hero">
+  <div class="container hero-container">
+    <h1>Juridische disclaimer</h1>
+    
+      <p class="summarytxt"></p>
+    
+  </div>
+</div>
+
+<div class="toc-container">
+  <div class="row toc-row">
+
+    <div id="toc" class="toc">
+      <div>
+        <button class="mob-sidebar-open" hidden="">View All</button>
+        <div class="sidebar">
+          <div class="sidebar-inner">
+            <button class="mob-sidebar-close" hidden=""></button>
+            
+
+<ul>
+  <li><a href="#information">1. Informatie die op bitcoin.org gepubliceerd is</a></li>
+  <li><a href="#translations">2. Vertalingen</a></li>
+  <li><a href="#userisks">3. Risicoâs verbonden aan het gebruik van Bitcoin</a></li>
+  <li><a href="#investmentrisks">4. Investeringsrisicoâs</a></li>
+  <li><a href="#taxcompliance">5. Naleving van fiscale verplichtingen</a></li>
+  <li><a href="#noissuer">6. De Website slaat geen bitcoins op, noch verzendt of ontvangt het deze.</a></li>
+  <li><a href="#nowarranties">7. Geen garanties</a></li>
+  <li><a href="#noliability">8. Beperking van aansprakelijkheid</a></li>
+  <li><a href="#arbitration">9. Arbitrage</a></li>
+  <li><a href="#lastchange">10. Laatste wijziging</a></li>
+  <li><a href="#english-information">1. Information published on bitcoin.org</a></li>
+  <li><a href="#english-translations">2. Translations</a></li>
+  <li><a href="#english-userisks">3. Risks related to the use of Bitcoin</a></li>
+  <li><a href="#english-investmentrisks">4. Investment risks</a></li>
+  <li><a href="#english-taxcompliance">5. Compliance with tax obligations</a></li>
+  <li><a href="#english-noissuer">6. The Website does not store, send, or receive bitcoins</a></li>
+  <li><a href="#english-nowarranties">7. No warranties</a></li>
+  <li><a href="#english-noliability">8. Limitation of liability </a></li>
+  <li><a href="#english-arbitration">9. Arbitration</a></li>
+  <li><a href="#english-lastchange">10. Last amendment</a></li>
+</ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="toccontent">
+        
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="information" class=" anchorAf"><a href="#information"></a>1. Informatie die op bitcoin.org gepubliceerd is</h3>
+    <p>De website http://bitcoin.org/ (waar hierna naar verwezen wordt als de "Website") verschaft informatie en materiaal van algemene aard. U bent niet bevoegd om de Website te gebruiken of erop te vertrouwen voor juridisch advies, zakelijk advies, of enig ander soort advies. Wanneer u handelt in vertrouwen op de inhoud van de Website, doet u dat op eigen risico. Als u een beslissing neemt om te handelen of niet te handelen dient u contact op te nemen met een bevoegde advocaat in het relevante rechtsgebied indien u hulp nodig heeft of wilt. De eigenaren van of bijdragers aan de Website zijn op geen enkele manier verantwoordelijk voor de handelingen, beslissingen of enig ander gedrag dat wel of niet door u wordt uitgevoerd waarbij u vertrouwt op de Website.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="translations" class=" anchorAf"><a href="#translations"></a>2. Vertalingen</h3>
+    <p>Deze website kan vertalingen van de Engelse versie van de inhoud die beschikbaar is op de Website bevatten. Deze vertalingen worden uitsluitend voor uw gemak aangeboden. In geval van een conflict tussen de Engelstalige versie en de vertaalde versie, heeft de Engelstalige versie voorrang. Als u enige inconsistentie opmerkt, meld deze dan op <a href="https://github.com/bitcoin-dot-org/bitcoin.org">GitHub</a>.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="userisks" class=" anchorAf"><a href="#userisks"></a>3. Risico's verbonden aan het gebruik van Bitcoin</h3>
+    <p>De Website zal niet verantwoordelijk zijn voor verliezen, schade of claims die voortvloeien uit gebeurtenissen die binnen het bereik van de volgende vijf categorieÃ«n vallen:</p>
+    <p>(1) Fouten gemaakt door de gebruiker van Bitcoin-gerelateerde software of diensten, bijv. vergeten wachtwoorden, betalingen verstuurd naar verkeerde Bitcoin-adressen, en het per ongeluk verwijderen van portemonnees.</p>
+    <p>(2) Softwareproblemen van de Website en/of Bitcoin-gerelateerde software of diensten, bijv. een beschadigd bestand van een portemonnee, incorrect opgezette transacties, onveilige cryptografische bibliotheken, malware die de Website aantast en/of een Bitcoin-gerelateerde software of dienst.</p>
+    <p>(3) Technische defecten in de hardware van de gebruiker van Bitcoin-gerelateerde software of diensten, bijv. gegevensverlies wegens een defect of beschadigd opslagapparaat.</p>
+    <p>(4) Beveiligingsproblemen die ondervonden worden door de gebruiker van Bitcoin-gerelateerde software of diensten, bijv. onbevoegde toegang tot de portemonnees en/of accounts van de gebruiker.</p>
+    <p>(5) Acties of weglatingen van derde partijen en/of gebeurtenissen die ondervonden worden door derde partijen, bijv. de faillissement van dienstverleners, aanvallen op de informatiebeveiliging van dienstverleners, en fraude gepleegd door derde partijen.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="investmentrisks" class=" anchorAf"><a href="#investmentrisks"></a>4. Investeringsrisico's</h3>
+    <p>Het investeren in Bitcoin kan tot geldverlies leiden over korte of zelfs lange perioden. Investeerders in Bitcoin zouden moeten verwachten dat er schommelingen over een groot bereik in de prijzen zullen plaatsvinden. De informatie die is gepubliceerd op de Website kan niet garanderen dat investeerders in Bitcoin geen geld zullen verliezen.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="taxcompliance" class=" anchorAf"><a href="#taxcompliance"></a>5. Naleving van fiscale verplichtingen</h3>
+    <p>De gebruikers van de Website zijn alleen zelf verantwoordelijk om vast te stellen welke (als daar sprake van is) belastingen van toepassing zijn op hun Bitcoin-transacties. De eigenaren van, of bijdragers aan de Website zijn NIET verantwoordelijk voor het vaststellen van de belastingen die van toepassing zijn op Bitcoin-transacties.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="noissuer" class=" anchorAf"><a href="#noissuer"></a>6. De Website slaat geen bitcoins op, noch verzendt of ontvangt het deze.</h3>
+    <p>De Website slaat geen bitcoins op, noch verzendt of ontvangt het deze. Dit komt doordat bitcoins alleen bestaan dankzij het eigendomsregister dat bijgehouden wordt door het Bitcoin-netwerk. Alle overdrachten van eigenaarschap van bitcoins vinden plaats in een gedecentraliseerd Bitcoin-netwerk, en niet op de Website.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="nowarranties" class=" anchorAf"><a href="#nowarranties"></a>7. Geen garanties</h3>
+    <p>De Website wordt geleverd op basis van het principe "zoals het is", zonder garanties van enige soort met betrekking tot de Website en/of inhoud, gegevens, materialen en/of diensten die geleverd worden op de Website.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="noliability" class=" anchorAf"><a href="#noliability"></a>8. Beperking van aansprakelijkheid</h3>
+    <p>Tenzij de wet anders vereist, zullen de eigenaren van, of bijdragers aan de Website in geen geval aansprakelijk zijn voor schade van enige soort, inclusief, maar niet beperkt tot gebruiksderving, winstderving, of gegevensverlies die voortvloeien uit, of op enige manier verband houden met het gebruik van de Website.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="arbitration" class=" anchorAf"><a href="#arbitration"></a>9. Arbitrage</h3>
+    <p>De gebruiker van de Website gaat ermee akkoord om disputen die voortvloeien uit, of in verband staan met de Website of deze disclaimer te arbitreren, met uitzondering van disputen met betrekking tot auteursrechten, logo's, handelsmerken, handelsnamen, handelsgeheimen of patenten.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="lastchange" class=" anchorAf"><a href="#lastchange"></a>10. Laatste wijziging</h3>
+    <p>Deze disclaimer is voor het laatst gewijzigd op July 5th, 2016.</p>
+  </div>
+  
+   
+  
+  <div class="toccontent-intro">
+    <h1 id="english-version">English version</h1>
+  </div>
+  
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="english-information" class=" anchorAf"><a href="#english-information"></a>1. Information published on bitcoin.org</h3>
+    <p>The website https://bitcoin.org/ (hereinafter, referred to as the "Website") provides information and material of a general nature. You are not authorized and nor should you rely on the Website for legal advice, business advice, or advice of any kind. You act at your own risk in reliance on the contents of the Website. Should you make a decision to act or not act you should contact a licensed attorney in the relevant jurisdiction in which you want or need help. In no way are the owners of, or contributors to, the Website responsible for the actions, decisions, or other behavior taken or not taken by you in reliance upon the Website.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="english-translations" class=" anchorAf"><a href="#english-translations"></a>2. Translations</h3>
+    <p>The Website may contain translations of the English version of the content available on the Website. These translations are provided only as a convenience. In the event of any conflict between the English language version and the translated version, the English language version shall take precedence. If you notice any inconsistency, please report them on <a href="https://github.com/bitcoin-dot-org/bitcoin.org">GitHub</a>.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="english-userisks" class=" anchorAf"><a href="#english-userisks"></a>3. Risks related to the use of Bitcoin</h3>
+    <p>The Website will not be responsible for any losses, damages or claims arising from events falling within the scope of the following five categories:</p>
+    <p>(1) Mistakes made by the user of any Bitcoin-related software or service, e.g., forgotten passwords, payments sent to wrong Bitcoin addresses, and accidental deletion of wallets.</p>
+    <p>(2) Software problems of the Website and/or any Bitcoin-related software or service, e.g., corrupted wallet file, incorrectly constructed transactions, unsafe cryptographic libraries, malware affecting the Website and/or any Bitcoin-related software or service.</p>
+    <p>(3) Technical failures in the hardware of the user of any Bitcoin-related software or service, e.g., data loss due to a faulty or damaged storage device.</p>
+    <p>(4) Security problems experienced by the user of any Bitcoin-related software or service, e.g., unauthorized access to users' wallets and/or accounts.</p>
+    <p>(5) Actions or inactions of third parties and/or events experienced by third parties, e.g., bankruptcy of service providers, information security attacks on service providers, and fraud conducted by third parties.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="english-investmentrisks" class=" anchorAf"><a href="#english-investmentrisks"></a>4. Investment risks</h3>
+    <p>The investment in Bitcoin can lead to loss of money over short or even long periods. The investors in Bitcoin should expect prices to have large range fluctuations. The information published on the Website cannot guarantee that the investors in Bitcoin would not lose money.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="english-taxcompliance" class=" anchorAf"><a href="#english-taxcompliance"></a>5. Compliance with tax obligations</h3>
+    <p>The users of the Website are solely responsible to determinate what, if any, taxes apply to their Bitcoin transactions. The owners of, or contributors to, the Website are NOT responsible for determining the taxes that apply to Bitcoin transactions.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="english-noissuer" class=" anchorAf"><a href="#english-noissuer"></a>6. The Website does not store, send, or receive bitcoins</h3>
+    <p>The Website does not store, send or receive bitcoins. This is because bitcoins exist only by virtue of the ownership record maintained in the Bitcoin network. Any transfer of title in bitcoins occurs within a decentralized Bitcoin network, and not on the Website.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="english-nowarranties" class=" anchorAf"><a href="#english-nowarranties"></a>7. No warranties</h3>
+    <p>The Website is provided on an "as is" basis without any warranties of any kind regarding the Website and/or any content, data, materials and/or services provided on the Website.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="english-noliability" class=" anchorAf"><a href="#english-noliability"></a>8. Limitation of liability </h3>
+    <p>Unless otherwise required by law, in no event shall the owners of, or contributors to, the Website be liable for any damages of any kind, including, but not limited to, loss of use, loss of profits, or loss of data arising out of or in any way connected with the use of the Website.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="english-arbitration" class=" anchorAf"><a href="#english-arbitration"></a>9. Arbitration</h3>
+    <p>The user of the Website agrees to arbitrate any dispute arising from or in connection with the Website or this disclaimer, except for disputes related to copyrights, logos, trademarks, trade names, trade secrets or patents.</p>
+  </div>
+
+  <div class="toccontent-block boxexpand expanded">
+    <h3 id="english-lastchange" class=" anchorAf"><a href="#english-lastchange"></a>10. Last amendment</h3>
+    <p>This disclaimer was amended for the last time on July 5th, 2016.</p>
+  </div>
+  
+  
+
+    </div>
+  </div>
+</div>
+
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="/nl/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Steun Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Doneer</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">Inleiding:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/nl/bitcoin-voor-particulieren">Particulieren</a>
+        </li>
+        <li>
+          <a href="/nl/bitcoin-voor-bedrijven">Bedrijven</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">Ontwikkelaars</a>
+        </li>
+        <li>
+          <a href="/nl/aan-de-slag">Aan de slag</a>
+        </li>
+        <li>
+          <a href="/nl/hoe-het-werkt">Hoe het werkt</a>
+        </li>
+        <li>
+          <a href="/nl/wat-u-moet-weten">Wat u moet weten</a>
+        </li>
+        
+        <li>
+          <a href="/nl/bitcoin-document">Whitepaper</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">Hulpmiddelen:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/nl/hulpmiddelen">Hulpmiddelen</a>
+        </li><li>
+          <a href="/nl/beurzen">Beurzen</a>
+        </li>
+        <li>
+          <a href="/nl/community">Community</a>
+        </li>
+        <li>
+          <a href="/nl/woordenlijst">Woordenlijst
+          </a>
+        </li>
+        <li>
+          <a href="/nl/evenementen">Evenementen</a>
+        </li>
+        
+          <li>
+            <a href="/nl/download">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">Meedoen:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/nl/help-bitcoin">Ondersteun Bitcoin</a>
+        
+        
+        </li><li>
+          <a href="/nl/ontwikkeling">Ontwikkeling</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Overige:</p>
+      
+      <a href="/nl/juridisch">Juridisch</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/nl/pers">Pers</a>
+      <a href="/nl/over-ons">Over bitcoin.org</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>Een communitywebsite gesponsord door</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1716491272" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 Beschikbaar onder de <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT-licentie</a></div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">Netwerk status</a>
+        
+<ul class="lang is-expand">
+  <li><a>Nederlands</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/sah">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/legal">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/juridisk">Dansk</a></li>
+        
+        
+          <li><a href="/de/rechtliches">Deutsch</a></li>
+        
+        
+          <li><a href="/en/legal">English</a></li>
+        
+        
+          <li><a href="/es/legal">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/legal">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/note-legali">Italiano</a></li>
+        
+        
+          <li><a href="/hu/jogi-vonatkozasok">Magyar</a></li>
+        
+        
+          <li><a href="/nl/juridisch" class="active">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/informacje-prawne">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/legal">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/legal">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/pravno">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/zakon">Srpski</a></li>
+        
+        
+          <li><a href="/sv/juridiskt">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/yasal">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/legal">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/legal">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/legal">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/legal">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/legal">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/legal">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/legal">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/legal">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/legal">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/legal">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/legal">ááááá</a></li>
+        
+        
+          <li><a href="/ja/legal">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/legal">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/legal">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/sah">Bahasa Indonesia</option>
+              
+              <option value="/ca/legal">CatalÃ </option>
+              
+              <option value="/da/juridisk">Dansk</option>
+              
+              <option value="/de/rechtliches">Deutsch</option>
+              
+              <option value="/en/legal">English</option>
+              
+              <option value="/es/legal">EspaÃ±ol</option>
+              
+              <option value="/fr/legal">FranÃ§ais</option>
+              
+              <option value="/it/note-legali">Italiano</option>
+              
+              <option value="/hu/jogi-vonatkozasok">Magyar</option>
+              
+              <option value="/nl/juridisch" selected="selected">Nederlands</option>
+              
+              <option value="/pl/informacje-prawne">Polski</option>
+              
+              <option value="/pt_BR/legal">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/legal">RomÃ¢nÄ</option>
+              
+              <option value="/sl/pravno">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/zakon">Srpski</option>
+              
+              <option value="/sv/juridiskt">Svenska</option>
+              
+              <option value="/tr/yasal">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/legal">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/legal">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/legal">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/legal">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/legal">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/legal">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/legal">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/legal">×¢××¨××ª</option>
+              
+              <option value="/hi/legal">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/legal">íêµ­ì´</option>
+              
+              <option value="/km/legal">ááááá</option>
+              
+              <option value="/ja/legal">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/legal">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/legal">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">nl</span>
+          </label>
+        </div>
+      </div>
+<!--      <div class="row">  -->
+        
+<!--    </div> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+
+
+  <script>updateToc();</script>
+<script>accordion();</script>
+<script>onScrollButton();</script>
+<script>boxShow();</script>
+
+
+
+
+
+
+</body></html>
