@@ -54,11 +54,20 @@ future-of-lending-exploring-rains-innovative-
 approach-6f906fa24e92?source=user_profile---------
 0----------------------------)
 
-Oct 24, 2023
+[6 min read·Oct 24, 2023](/@rainfi_/the-future-of-lending-exploring-rains-
+innovative-approach-6f906fa24e92?source=user_profile---------
+0----------------------------)
+
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F6f906fa24e92&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rainfi_%2Fthe-
+future-of-lending-exploring-rains-innovative-
+approach-6f906fa24e92&user=Rain.fi+%F0%9F%92%A7&userId=f7140815f703&source=-----6f906fa24e92
+----0-----------------clap_footer-----------)
+
+\--
 
 [1](/@rainfi_/the-future-of-lending-exploring-rains-innovative-
-approach-6f906fa24e92?source=user_profile---------
-0----------------------------)
+approach-6f906fa24e92?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------0----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F6f906fa24e92&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rainfi_%2Fthe-
 future-of-lending-exploring-rains-innovative-
@@ -71,11 +80,16 @@ Approach](https://miro.medium.com/v2/resize:fill:160:106/1*_nJb2uB83Cun3JxiqMJOG
 ![The Future of Lending: Exploring Rainfi Innovative
 Approach](https://miro.medium.com/v2/resize:fill:320:214/1*_nJb2uB83Cun3JxiqMJOGA.png)
 
-Oct 24, 2023
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F6f906fa24e92&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rainfi_%2Fthe-
+future-of-lending-exploring-rains-innovative-
+approach-6f906fa24e92&user=Rain.fi+%F0%9F%92%A7&userId=f7140815f703&source=-----6f906fa24e92
+----0-----------------clap_footer-----------)
+
+\--
 
 [1](/@rainfi_/the-future-of-lending-exploring-rains-innovative-
-approach-6f906fa24e92?source=user_profile---------
-0----------------------------)
+approach-6f906fa24e92?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------0----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F6f906fa24e92&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rainfi_%2Fthe-
 future-of-lending-exploring-rains-innovative-
@@ -96,10 +110,20 @@ educational content blog!](/@rainfi_/how-msol-empowers-lenders-and-borrowers-
 in-nft-lending-91d993d4e80?source=user_profile---------
 1----------------------------)
 
-Sep 29, 2023
+[7 min read·Sep 29, 2023](/@rainfi_/how-msol-empowers-lenders-and-borrowers-
+in-nft-lending-91d993d4e80?source=user_profile---------
+1----------------------------)
+
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F91d993d4e80&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rainfi_%2Fhow-
+msol-empowers-lenders-and-borrowers-in-nft-
+lending-91d993d4e80&user=Rain.fi+%F0%9F%92%A7&userId=f7140815f703&source=-----91d993d4e80
+----1-----------------clap_footer-----------)
+
+\--
 
 [](/@rainfi_/how-msol-empowers-lenders-and-borrowers-in-nft-
-lending-91d993d4e80?source=user_profile---------1----------------------------)
+lending-91d993d4e80?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------1----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F91d993d4e80&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rainfi_%2Fhow-
 msol-empowers-lenders-and-borrowers-in-nft-
@@ -114,10 +138,16 @@ vNVyaduZF2N-6_w.png)
 Lending](https://miro.medium.com/v2/resize:fill:320:214/1*3Nn7K--
 vNVyaduZF2N-6_w.png)
 
-Sep 29, 2023
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F91d993d4e80&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rainfi_%2Fhow-
+msol-empowers-lenders-and-borrowers-in-nft-
+lending-91d993d4e80&user=Rain.fi+%F0%9F%92%A7&userId=f7140815f703&source=-----91d993d4e80
+----1-----------------clap_footer-----------)
+
+\--
 
 [](/@rainfi_/how-msol-empowers-lenders-and-borrowers-in-nft-
-lending-91d993d4e80?source=user_profile---------1----------------------------)
+lending-91d993d4e80?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------1----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F91d993d4e80&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rainfi_%2Fhow-
 msol-empowers-lenders-and-borrowers-in-nft-
@@ -136,10 +166,19 @@ understanding of our points system, known as Droplets. Soon, we will be
 implementing rewards and…](/@rainfi_/explore-the-rainfi-new-points-
 system-6dbfcdb460bb?source=user_profile---------2----------------------------)
 
-Jan 10
+[3 min read·Jan 10, 2024](/@rainfi_/explore-the-rainfi-new-points-
+system-6dbfcdb460bb?source=user_profile---------2----------------------------)
+
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F6dbfcdb460bb&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rainfi_%2Fexplore-
+the-rainfi-new-points-
+system-6dbfcdb460bb&user=Rain.fi+%F0%9F%92%A7&userId=f7140815f703&source=-----6dbfcdb460bb
+----2-----------------clap_footer-----------)
+
+\--
 
 [1](/@rainfi_/explore-the-rainfi-new-points-
-system-6dbfcdb460bb?source=user_profile---------2----------------------------)
+system-6dbfcdb460bb?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------2----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F6dbfcdb460bb&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rainfi_%2Fexplore-
 the-rainfi-new-points-system-6dbfcdb460bb&source=---------2-----------------
@@ -151,10 +190,16 @@ System](https://miro.medium.com/v2/resize:fill:160:106/1*EJosV7uVd_f8i7pApfsZVA.
 ![Explore the Rainfi New Points
 System](https://miro.medium.com/v2/resize:fill:320:214/1*EJosV7uVd_f8i7pApfsZVA.png)
 
-Jan 10
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F6dbfcdb460bb&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rainfi_%2Fexplore-
+the-rainfi-new-points-
+system-6dbfcdb460bb&user=Rain.fi+%F0%9F%92%A7&userId=f7140815f703&source=-----6dbfcdb460bb
+----2-----------------clap_footer-----------)
+
+\--
 
 [1](/@rainfi_/explore-the-rainfi-new-points-
-system-6dbfcdb460bb?source=user_profile---------2----------------------------)
+system-6dbfcdb460bb?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------2----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F6dbfcdb460bb&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rainfi_%2Fexplore-
 the-rainfi-new-points-system-6dbfcdb460bb&source=---------2-----------------
@@ -172,10 +217,19 @@ Peer Lending protocol currently available on the Solana
 blockchain.](/@rainfi_/overview-guide-creating-a-lending-pool-on-rainfi-
 fdcda78d773f?source=user_profile---------3----------------------------)
 
-Nov 8, 2023
+[7 min read·Nov 8, 2023](/@rainfi_/overview-guide-creating-a-lending-pool-on-
+rainfi-fdcda78d773f?source=user_profile---------3----------------------------)
+
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Ffdcda78d773f&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rainfi_%2Foverview-
+guide-creating-a-lending-pool-on-rainfi-
+fdcda78d773f&user=Rain.fi+%F0%9F%92%A7&userId=f7140815f703&source=-----fdcda78d773f
+----3-----------------clap_footer-----------)
+
+\--
 
 [](/@rainfi_/overview-guide-creating-a-lending-pool-on-rainfi-
-fdcda78d773f?source=user_profile---------3----------------------------)
+fdcda78d773f?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------3----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Ffdcda78d773f&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rainfi_%2Foverview-
 guide-creating-a-lending-pool-on-rainfi-fdcda78d773f&source=---------3
@@ -187,10 +241,16 @@ Rainfi](https://miro.medium.com/v2/resize:fill:160:106/1*pb7FjGN7K_UFMIrmwb5Cfw.
 ![Overview & Guide- Creating a Lending Pool on
 Rainfi](https://miro.medium.com/v2/resize:fill:320:214/1*pb7FjGN7K_UFMIrmwb5Cfw.png)
 
-Nov 8, 2023
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Ffdcda78d773f&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rainfi_%2Foverview-
+guide-creating-a-lending-pool-on-rainfi-
+fdcda78d773f&user=Rain.fi+%F0%9F%92%A7&userId=f7140815f703&source=-----fdcda78d773f
+----3-----------------clap_footer-----------)
+
+\--
 
 [](/@rainfi_/overview-guide-creating-a-lending-pool-on-rainfi-
-fdcda78d773f?source=user_profile---------3----------------------------)
+fdcda78d773f?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------3----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Ffdcda78d773f&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rainfi_%2Foverview-
 guide-creating-a-lending-pool-on-rainfi-fdcda78d773f&source=---------3
@@ -208,10 +268,20 @@ your lending pool on Rainfi using MSOL in this quick
 tutorial.](/@rainfi_/quick-tutorial-how-to-set-a-lending-pool-on-
 rainfi-4638a6b601f7?source=user_profile---------4----------------------------)
 
-Sep 29, 2023
+[3 min read·Sep 29, 2023](/@rainfi_/quick-tutorial-how-to-set-a-lending-pool-
+on-rainfi-4638a6b601f7?source=user_profile---------
+4----------------------------)
+
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F4638a6b601f7&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rainfi_%2Fquick-
+tutorial-how-to-set-a-lending-pool-on-
+rainfi-4638a6b601f7&user=Rain.fi+%F0%9F%92%A7&userId=f7140815f703&source=-----4638a6b601f7
+----4-----------------clap_footer-----------)
+
+\--
 
 [](/@rainfi_/quick-tutorial-how-to-set-a-lending-pool-on-
-rainfi-4638a6b601f7?source=user_profile---------4----------------------------)
+rainfi-4638a6b601f7?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------4----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F4638a6b601f7&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rainfi_%2Fquick-
 tutorial-how-to-set-a-lending-pool-on-rainfi-4638a6b601f7&source=---------4
@@ -223,10 +293,16 @@ Rainfi](https://miro.medium.com/v2/resize:fill:160:106/1*e5D6kEH_bIJSppj9K9yaCA.
 ![Quick Tutorial — How to set a lending pool on
 Rainfi](https://miro.medium.com/v2/resize:fill:320:214/1*e5D6kEH_bIJSppj9K9yaCA.png)
 
-Sep 29, 2023
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F4638a6b601f7&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rainfi_%2Fquick-
+tutorial-how-to-set-a-lending-pool-on-
+rainfi-4638a6b601f7&user=Rain.fi+%F0%9F%92%A7&userId=f7140815f703&source=-----4638a6b601f7
+----4-----------------clap_footer-----------)
+
+\--
 
 [](/@rainfi_/quick-tutorial-how-to-set-a-lending-pool-on-
-rainfi-4638a6b601f7?source=user_profile---------4----------------------------)
+rainfi-4638a6b601f7?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------4----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F4638a6b601f7&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rainfi_%2Fquick-
 tutorial-how-to-set-a-lending-pool-on-rainfi-4638a6b601f7&source=---------4
@@ -243,10 +319,19 @@ tutorial-how-to-set-a-lending-pool-on-rainfi-4638a6b601f7&source=---------4
 using MSOL in this quick tutorial.](/@rainfi_/quick-tutorial-how-to-borrow-on-
 rainfi-4ea2e435731c?source=user_profile---------5----------------------------)
 
-Sep 29, 2023
+[2 min read·Sep 29, 2023](/@rainfi_/quick-tutorial-how-to-borrow-on-
+rainfi-4ea2e435731c?source=user_profile---------5----------------------------)
+
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F4ea2e435731c&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rainfi_%2Fquick-
+tutorial-how-to-borrow-on-
+rainfi-4ea2e435731c&user=Rain.fi+%F0%9F%92%A7&userId=f7140815f703&source=-----4ea2e435731c
+----5-----------------clap_footer-----------)
+
+\--
 
 [](/@rainfi_/quick-tutorial-how-to-borrow-on-
-rainfi-4ea2e435731c?source=user_profile---------5----------------------------)
+rainfi-4ea2e435731c?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------5----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F4ea2e435731c&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rainfi_%2Fquick-
 tutorial-how-to-borrow-on-rainfi-4ea2e435731c&source=---------5
@@ -260,10 +345,16 @@ ndgpkF8Rb3cZUKWtXA.png)
 Rainfi](https://miro.medium.com/v2/resize:fill:320:214/1*lQA-
 ndgpkF8Rb3cZUKWtXA.png)
 
-Sep 29, 2023
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F4ea2e435731c&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rainfi_%2Fquick-
+tutorial-how-to-borrow-on-
+rainfi-4ea2e435731c&user=Rain.fi+%F0%9F%92%A7&userId=f7140815f703&source=-----4ea2e435731c
+----5-----------------clap_footer-----------)
+
+\--
 
 [](/@rainfi_/quick-tutorial-how-to-borrow-on-
-rainfi-4ea2e435731c?source=user_profile---------5----------------------------)
+rainfi-4ea2e435731c?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------5----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F4ea2e435731c&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rainfi_%2Fquick-
 tutorial-how-to-borrow-on-rainfi-4ea2e435731c&source=---------5
@@ -281,10 +372,20 @@ Solana. It will bring deep liquidity to collections and change market
 dynamics.](/@rainfi_/rain-fi-nft-loans-101-815a08538342?source=user_profile
 ---------6----------------------------)
 
-Jan 17, 2023
-
-[](/@rainfi_/rain-fi-nft-loans-101-815a08538342?source=user_profile---------
+[5 min read·Jan 17, 2023](/@rainfi_/rain-fi-nft-
+loans-101-815a08538342?source=user_profile---------
 6----------------------------)
+
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F815a08538342&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rainfi_%2Frain-
+fi-nft-
+loans-101-815a08538342&user=Rain.fi+%F0%9F%92%A7&userId=f7140815f703&source=-----815a08538342
+----6-----------------clap_footer-----------)
+
+\--
+
+[](/@rainfi_/rain-fi-nft-
+loans-101-815a08538342?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------6----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F815a08538342&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rainfi_%2Frain-
 fi-nft-loans-101-815a08538342&source=---------6-----------------
@@ -296,10 +397,16 @@ bookmark_preview-----------)
 ![Rain.Fi; NFT loans 101
 💧](https://miro.medium.com/v2/resize:fill:320:214/1*rRhRhvpj6QTwf9HHhPMqzQ.png)
 
-Jan 17, 2023
+[](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F815a08538342&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rainfi_%2Frain-
+fi-nft-
+loans-101-815a08538342&user=Rain.fi+%F0%9F%92%A7&userId=f7140815f703&source=-----815a08538342
+----6-----------------clap_footer-----------)
 
-[](/@rainfi_/rain-fi-nft-loans-101-815a08538342?source=user_profile---------
-6----------------------------)
+\--
+
+[](/@rainfi_/rain-fi-nft-
+loans-101-815a08538342?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+---------6----------------------------)
 
 [](/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F815a08538342&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rainfi_%2Frain-
 fi-nft-loans-101-815a08538342&source=---------6-----------------
