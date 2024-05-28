@@ -1,0 +1,59 @@
+{
+    "target_url": "https://pyth.network/mediaroom/podcasts",
+    "domains": {
+        "": [
+            "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2715%27%20height=%2715%27/%3e",
+            "data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2719%27%20height=%2715%27/%3e",
+            "data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%278%27/%3e",
+            "data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%277%27%20height=%2714%27/%3e",
+            "data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2772%27%20height=%2715%27/%3e"
+        ],
+        "prod-files-secure.s3.us-west-2.amazonaws.com": [
+            "https://prod-files-secure.s3.us-west-2.amazonaws.com/4082d903-1584-47c0-a09f-de6c54821170/0e34d60f-7b12-47f3-b2e7-5e68d9716daa/Solana.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240528%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240528T143932Z&X-Amz-Expires=3600&X-Amz-Signature=abdde2667a89886ff3fe1566e681a58b331a54df2526ac0f58d29f12057fbfd6&X-Amz-SignedHeaders=host&x-id=GetObject",
+            "https://prod-files-secure.s3.us-west-2.amazonaws.com/4082d903-1584-47c0-a09f-de6c54821170/0ee58d09-bdcc-4f53-99b4-7f7edadd3c4e/Clip_path_group.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240528%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240528T143932Z&X-Amz-Expires=3600&X-Amz-Signature=2f46a43116db39354e6997f4d252dae491055ae8d19bda1eb9385e4144241371&X-Amz-SignedHeaders=host&x-id=GetObject",
+            "https://prod-files-secure.s3.us-west-2.amazonaws.com/4082d903-1584-47c0-a09f-de6c54821170/1525df5f-4d73-4092-b717-cb402a9a238b/Group_2.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240528%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240528T143932Z&X-Amz-Expires=3600&X-Amz-Signature=31af183e2af20825cb997956d8db5425b86761217ba83a66fb34b4bbb1d5996b&X-Amz-SignedHeaders=host&x-id=GetObject",
+            "https://prod-files-secure.s3.us-west-2.amazonaws.com/4082d903-1584-47c0-a09f-de6c54821170/2a7ef20b-2232-48b0-b071-5eacc437786c/THE_Y_AXIS_PODCAST.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240528%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240528T143932Z&X-Amz-Expires=3600&X-Amz-Signature=1dbe5460c0c84b50a851f6b41f27df691525c0f49ec58a5b4c3181452eb4f3c4&X-Amz-SignedHeaders=host&x-id=GetObject",
+            "https://prod-files-secure.s3.us-west-2.amazonaws.com/4082d903-1584-47c0-a09f-de6c54821170/42ec2208-16b9-4da2-95c9-1d14f2036c96/Vector.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240528%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240528T143932Z&X-Amz-Expires=3600&X-Amz-Signature=32696fd99bd6319d6e59316d1668d97da09d421c25f65ec5a0be91d3907239ab&X-Amz-SignedHeaders=host&x-id=GetObject",
+            "https://prod-files-secure.s3.us-west-2.amazonaws.com/4082d903-1584-47c0-a09f-de6c54821170/4d3e98a6-9123-4a80-919e-5be2e7a0d06e/The_Meb_Faber_Show.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240528%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240528T143932Z&X-Amz-Expires=3600&X-Amz-Signature=081999d518e06a4af5e1e088ad8bb22d4cc829f19122d8acb0d1b3e5b69d1eb0&X-Amz-SignedHeaders=host&x-id=GetObject",
+            "https://prod-files-secure.s3.us-west-2.amazonaws.com/4082d903-1584-47c0-a09f-de6c54821170/579cb6ab-b543-4cc6-abd8-c0ff2df5eabf/The_Pipeline.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240528%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240528T143931Z&X-Amz-Expires=3600&X-Amz-Signature=e8555618e0a06bd4de900e5a8bb562ed6a92e456a75d5c9fca8dbff00c9d2bf4&X-Amz-SignedHeaders=host&x-id=GetObject",
+            "https://prod-files-secure.s3.us-west-2.amazonaws.com/4082d903-1584-47c0-a09f-de6c54821170/6aaa4d26-d62c-46d3-9461-2e6ed585c17f/Boxes_and_Lines___IEX_Exchange.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240528%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240528T143932Z&X-Amz-Expires=3600&X-Amz-Signature=c1482e476e2321f03baf2ed031aea0ec817da1f44142e0bf26d7135d7fd69428&X-Amz-SignedHeaders=host&x-id=GetObject",
+            "https://prod-files-secure.s3.us-west-2.amazonaws.com/4082d903-1584-47c0-a09f-de6c54821170/7bc42bd8-9149-4953-b09a-1e2a78c22ba9/Un_Chained.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240528%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240528T143932Z&X-Amz-Expires=3600&X-Amz-Signature=79b5edf817a9c9e5b2f297cba3f0c3699775c5c640504e2a0bc824389348e855&X-Amz-SignedHeaders=host&x-id=GetObject",
+            "https://prod-files-secure.s3.us-west-2.amazonaws.com/4082d903-1584-47c0-a09f-de6c54821170/a2031f08-f150-4d57-85da-f5d0a6268cbc/Boxes_and_Lines___IEX_Exchange.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240528%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240528T143932Z&X-Amz-Expires=3600&X-Amz-Signature=aaeef159eb6845f361f2493749863318fe942668775ce1a1f2deff4c8dbcfda9&X-Amz-SignedHeaders=host&x-id=GetObject",
+            "https://prod-files-secure.s3.us-west-2.amazonaws.com/4082d903-1584-47c0-a09f-de6c54821170/af148326-713f-4dc0-b4c6-e875e51f096c/Salt_Crypto.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240528%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240528T143932Z&X-Amz-Expires=3600&X-Amz-Signature=494ff126f2692fa0f82265d7ca09dc8e41c9b249eab439cad9ced1f52c8453f5&X-Amz-SignedHeaders=host&x-id=GetObject",
+            "https://prod-files-secure.s3.us-west-2.amazonaws.com/4082d903-1584-47c0-a09f-de6c54821170/bec0dec9-9c94-493b-aedf-7b4474e9d782/Multicoin_Capital.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240528%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240528T143932Z&X-Amz-Expires=3600&X-Amz-Signature=cfa68af2fc1a1b38d46c5fd8b3fcddeedc72d910d1820221b85564a25b708036&X-Amz-SignedHeaders=host&x-id=GetObject",
+            "https://prod-files-secure.s3.us-west-2.amazonaws.com/4082d903-1584-47c0-a09f-de6c54821170/c613e6b7-0728-4851-865b-e875b38506b0/Pine_Analytics.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240528%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240528T143931Z&X-Amz-Expires=3600&X-Amz-Signature=ab3b86f5964e3db15c9f1a2f110cb409735f7321584041b32df7e43b9544e7ec&X-Amz-SignedHeaders=host&x-id=GetObject",
+            "https://prod-files-secure.s3.us-west-2.amazonaws.com/4082d903-1584-47c0-a09f-de6c54821170/c8104964-5fd5-40c8-ba5f-6b7b8feedff2/The_Wolf_Of_All_Streets.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240528%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240528T143932Z&X-Amz-Expires=3600&X-Amz-Signature=76c35848d449eed74cf0685eda53212e36075f9f0e3dfe799d53854bad56d3c5&X-Amz-SignedHeaders=host&x-id=GetObject",
+            "https://prod-files-secure.s3.us-west-2.amazonaws.com/4082d903-1584-47c0-a09f-de6c54821170/d13c09f9-7d00-433c-ab0e-e1128add27e1/the_block.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240528%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240528T143932Z&X-Amz-Expires=3600&X-Amz-Signature=7e707bb91fe75f1ffb0ca95351788398b883e97dfc79c9783d8dd8a709078f68&X-Amz-SignedHeaders=host&x-id=GetObject",
+            "https://prod-files-secure.s3.us-west-2.amazonaws.com/4082d903-1584-47c0-a09f-de6c54821170/f2634b4f-20be-4bba-8551-5bca9425ea72/Squads_Protocol.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240528%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240528T143932Z&X-Amz-Expires=3600&X-Amz-Signature=5f5000d3132ee1bdb7d555235663a87f3d2f970669d3f157404e9999d369e746&X-Amz-SignedHeaders=host&x-id=GetObject",
+            "https://prod-files-secure.s3.us-west-2.amazonaws.com/4082d903-1584-47c0-a09f-de6c54821170/fa1dcff7-dca5-47e7-a146-bc8975151477/Revelo_Intel.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240528%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240528T143932Z&X-Amz-Expires=3600&X-Amz-Signature=23f44df498df63afe7bffaabc1f7fff593f749fe3dd3bda142ad57865be9cf50&X-Amz-SignedHeaders=host&x-id=GetObject"
+        ],
+        "pyth.network": [
+            "https://pyth.network/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FPY_Podcasts_Header.f054690a.png&w=3840&q=75",
+            "https://pyth.network/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Farrow.125b65d3.svg&w=96&q=75",
+            "https://pyth.network/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fburger.c2a06508.png&w=3840&q=75",
+            "https://pyth.network/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fline2.69ded7b8.svg&w=48&q=75",
+            "https://pyth.network/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsearch-light.046589d5.svg&w=32&q=75",
+            "https://pyth.network/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fselectarrow.a852a269.svg&w=16&q=75",
+            "https://pyth.network/_next/static/media/getstarted3.4addce6b.png",
+            "https://pyth.network/notion/20231002_TheScoop_MCahill_16x9-1200x675.jpeg",
+            "https://pyth.network/notion/Mike_Cahill_On-Chain_Financial_Data.png",
+            "https://pyth.network/notion/Peter-Johnson.jpg",
+            "https://pyth.network/notion/UN537-SOCIAL.jpeg",
+            "https://pyth.network/notion/cahill_otb.png",
+            "https://pyth.network/notion/founders_funnel_jayant.jpeg",
+            "https://pyth.network/notion/hqdefault.jpg",
+            "https://pyth.network/notion/iex_boxes_lines.jpeg",
+            "https://pyth.network/notion/into_the_forest_banner.jpeg",
+            "https://pyth.network/notion/jayant_solana_validated.jpeg",
+            "https://pyth.network/notion/maxresdefault.jpg",
+            "https://pyth.network/notion/mcahill_the_pipeline_2024.jpeg",
+            "https://pyth.network/notion/mike_cahill_lightspeed_2024.jpeg",
+            "https://pyth.network/notion/pyth_otb.png",
+            "https://pyth.network/notion/revelo_intel_thumbnail.jpeg",
+            "https://pyth.network/notion/the_empire_mdomcahill.jpeg",
+            "https://pyth.network/notion/validated_live.jpeg",
+            "https://pyth.network/notion/y_axis_podcast_thumbnail.jpeg"
+        ]
+    }
+}

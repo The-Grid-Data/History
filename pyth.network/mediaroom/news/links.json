@@ -1,0 +1,196 @@
+{
+    "target_url": "https://pyth.network/mediaroom/news",
+    "domains": {
+        "blockchainreporter.net": [
+            "https://blockchainreporter.net/pyth-network-unveils-w-usd-and-usdb-price-feeds-across-50-blockchains/"
+        ],
+        "blockworks.co": [
+            "https://blockworks.co/news/what-tradfi-needs-to-make-the-multichain-future-a-reality"
+        ],
+        "ca.investing.com": [
+            "https://ca.investing.com/news/cryptocurrency-news/pyth-network-hits-record-7-billion-in-total-value-secured-3343410"
+        ],
+        "cointelegraph.com": [
+            "https://cointelegraph.com/news/pyth-network-bitcoin-etf-price-feeds-defi-developers"
+        ],
+        "cryptobriefing.com": [
+            "https://cryptobriefing.com/nomura-crypto-arm-pyth-network-enhance-web3-data-diversity-quality/",
+            "https://cryptobriefing.com/pyth-network-oracles-innovation/"
+        ],
+        "dailycoin.com": [
+            "https://dailycoin.com/pyth-network-celebrates-100th-data-provider-in-serablock/"
+        ],
+        "decrypt.co": [
+            "https://decrypt.co/206754/pyth-airdrop-puts-77-million-wallets-crypto-users",
+            "https://decrypt.co/216210/pyth-airdrop-140-million-round-2-solana-dapps"
+        ],
+        "discord.gg": [
+            "https://discord.gg/PythNetwork",
+            "https://discord.gg/invite/PythNetwork"
+        ],
+        "docs.pyth.network": [
+            "https://docs.pyth.network/benchmarks/how-to-create-tradingview-charts",
+            "https://docs.pyth.network/documentation/",
+            "https://docs.pyth.network/home/metrics/kpi",
+            "https://docs.pyth.network/price-feeds/api-reference",
+            "https://docs.pyth.network/price-feeds/contract-addresses",
+            "https://docs.pyth.network/price-feeds/create-your-first-pyth-app",
+            "https://docs.pyth.network/price-feeds/getting-started",
+            "https://docs.pyth.network/price-feeds/pull-updates",
+            "https://docs.pyth.network/price-feeds/use-real-time-data",
+            "https://docs.pyth.network/price-feeds/use-real-time-data/aptos",
+            "https://docs.pyth.network/price-feeds/use-real-time-data/cosmwasm",
+            "https://docs.pyth.network/price-feeds/use-real-time-data/evm",
+            "https://docs.pyth.network/price-feeds/use-real-time-data/near",
+            "https://docs.pyth.network/price-feeds/use-real-time-data/solana",
+            "https://docs.pyth.network/price-feeds/use-real-time-data/sui"
+        ],
+        "dune.com": [
+            "https://dune.com/cctdaniel/pyth-oracle"
+        ],
+        "financefeeds.com": [
+            "https://financefeeds.com/laser-digital-joins-pyth-network-pioneering-defi-data-access/"
+        ],
+        "finbold.com": [
+            "https://finbold.com/filecoin-integrates-pyth-price-feeds-to-enhance-decentralized-storage/",
+            "https://finbold.com/laser-digital-partners-up-with-pyth-network-as-data-provider/"
+        ],
+        "fortune.com": [
+            "https://fortune.com/crypto/2022/10/18/pyth-and-the-quest-to-build-a-better-oracle/"
+        ],
+        "forum.pyth.network": [
+            "https://forum.pyth.network"
+        ],
+        "github.com": [
+            "https://github.com/pyth-network",
+            "https://github.com/pyth-network/audit-reports"
+        ],
+        "invezz.com": [
+            "https://invezz.com/news/2024/03/18/pyth-networks-total-staked-value-surpasses-1-3-billion/",
+            "https://invezz.com/news/2024/03/19/pyth-price-feeds-the-omnichain-oracle-thats-everywhere/",
+            "https://invezz.com/news/2024/05/16/interview-pyths-architecture-as-pull-oracle-has-mainly-driven-its-growth-says-michael-cahill/"
+        ],
+        "messari.io": [
+            "https://messari.io/report/understanding-pyth-network-a-comprehensive-overview"
+        ],
+        "news.bitcoin.com": [
+            "https://news.bitcoin.com/pyth-network-unveils-real-time-bitcoin-etf-price-feeds-bridging-defi-and-traditional-finance/"
+        ],
+        "pyth-network.typeform.com": [
+            "https://pyth-network.typeform.com/PythDPA"
+        ],
+        "pyth.network": [
+            "https://pyth.network/",
+            "https://pyth.network/about",
+            "https://pyth.network/airdrop",
+            "https://pyth.network/benchmarks",
+            "https://pyth.network/blog",
+            "https://pyth.network/bounty",
+            "https://pyth.network/brand",
+            "https://pyth.network/careers",
+            "https://pyth.network/community",
+            "https://pyth.network/consumers",
+            "https://pyth.network/contact",
+            "https://pyth.network/data-driven",
+            "https://pyth.network/developers",
+            "https://pyth.network/developers/price-feed-ids",
+            "https://pyth.network/disclaimer",
+            "https://pyth.network/grants",
+            "https://pyth.network/guides",
+            "https://pyth.network/mediaroom",
+            "https://pyth.network/mediaroom/news",
+            "https://pyth.network/mediaroom/podcasts",
+            "https://pyth.network/mediaroom/videos",
+            "https://pyth.network/node-providers",
+            "https://pyth.network/press",
+            "https://pyth.network/price-feeds",
+            "https://pyth.network/privacy-policy",
+            "https://pyth.network/publishers",
+            "https://pyth.network/publishers/ranking",
+            "https://pyth.network/pyth-vs-chainlink",
+            "https://pyth.network/stats",
+            "https://pyth.network/terms-of-use",
+            "https://pyth.network/usecases",
+            "https://pyth.network/usecases/decentralized-borrowing-lending",
+            "https://pyth.network/usecases/options-trading",
+            "https://pyth.network/usecases/perpetual-futures",
+            "https://pyth.network/usecases/stablecoin-protocols"
+        ],
+        "staking.pyth.network": [
+            "https://staking.pyth.network"
+        ],
+        "t.me": [
+            "https://t.me/Pyth_Network"
+        ],
+        "thedefiant.io": [
+            "https://thedefiant.io/oracles-solana",
+            "https://thedefiant.io/pyth-network-kicks-off-second-phase-of-airdrop",
+            "https://thedefiant.io/pyth-network-token-goes-live-with-usd75m-airdrop-for-defi-users"
+        ],
+        "u.today": [
+            "https://u.today/merlin-chain-welcomes-pyth-oracle-for-enhanced-bitcoin-defi-applications"
+        ],
+        "unchainedcrypto.com": [
+            "https://unchainedcrypto.com/pyth-network-douro-labs/"
+        ],
+        "www.bloomberg.com": [
+            "https://www.bloomberg.com/news/articles/2021-08-25/crypto-market-data-network-pyth-going-live-on-solana-blockchain",
+            "https://www.bloomberg.com/news/articles/2022-10-05/cboe-takes-step-into-defi-by-posting-free-market-data-on-pyth",
+            "https://www.bloomberg.com/news/articles/2023-08-31/jump-crypto-s-specialists-depart-for-startup-that-will-work-with-pyth-network#xj4y7vzkg"
+        ],
+        "www.businessinsider.com": [
+            "https://www.businessinsider.com/crypto-trading-opportunities-alpha-market-makers-investing-strategy-jump-crypto-2022-5"
+        ],
+        "www.coindesk.com": [
+            "https://www.coindesk.com/business/2022/09/21/jump-backed-wormhole-pyth-launch-on-aptos-blockchain/",
+            "https://www.coindesk.com/business/2023/11/20/pyth-token-debuts-near-500m-valuation-as-90000-wallets-receive-airdrop/",
+            "https://www.coindesk.com/layer2/2022/10/11/how-jump-crypto-is-supporting-web3-projects-across-the-defi-ecosystem/",
+            "https://www.coindesk.com/tech/2023/11/20/the-pyth-airdrop-is-finally-here-but-what-is-pyth-network/",
+            "https://www.coindesk.com/tech/2023/12/05/pyth-oracle-network-brings-industry-heavyweights-into-governance-post-airdrop/"
+        ],
+        "www.cryptotimes.io": [
+            "https://www.cryptotimes.io/2024/02/20/pyth-network-adds-price-feeds-for-13-bitcoin-etfs/",
+            "https://www.cryptotimes.io/2024/02/27/hedera-launches-pyth-price-feeds-for-defiwith-400-pyth-feeds/"
+        ],
+        "www.forbes.com": [
+            "https://www.forbes.com/sites/stevenehrlich/2022/11/03/apple-google-amazon-and-tesla-stock-prices-are-now-available-to-defi-and-other-crypto-platforms/"
+        ],
+        "www.ft.com": [
+            "https://www.ft.com/content/245e3bd1-c270-4186-bdc5-7f4200ad5923",
+            "https://www.ft.com/content/b0069c58-bae2-4814-baaf-ab946d4daddb"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/pyth-network"
+        ],
+        "www.nasdaq.com": [
+            "https://www.nasdaq.com/articles/pyth-network-launch-a-potential-gamechanger-for-high-frequency-trading-2021-08-30"
+        ],
+        "www.theblock.co": [
+            "https://www.theblock.co/linked/100875/jump-trading-defi-oracle-solana",
+            "https://www.theblock.co/linked/144062/seven-infrastructure-firms-add-support-for-pyth-oracle-network-on-solana",
+            "https://www.theblock.co/post/237050/lido-pyth-network-steth",
+            "https://www.theblock.co/post/274497/pyth-token-stakers"
+        ],
+        "www.tradersmagazine.com": [
+            "https://www.tradersmagazine.com/departments/equities/market-data-gets-interesting-coalition-greenwich/",
+            "https://www.tradersmagazine.com/flashback/flash-friday-why-the-market-data-monopoly-wont-be-nirvana/"
+        ],
+        "www.tradingview.com": [
+            "https://www.tradingview.com/news/cryptodaily:0b731c274094b:0-why-these-dapps-are-using-pyth-oracle-price-feeds/"
+        ],
+        "www.waterstechnology.com": [
+            "https://www.waterstechnology.com/data-management/7925461/whose-data-is-it-anyway",
+            "https://www.waterstechnology.com/emerging-technologies/7947391/spot-the-difference-why-crypto-data-cant-be-treated-like-traditional-market-data",
+            "https://www.waterstechnology.com/emerging-technologies/7950323/where-does-pyth-fit-in"
+        ],
+        "www.wsj.com": [
+            "https://www.wsj.com/articles/why-the-worlds-biggest-traders-are-betting-on-blockchain-data-11638803023"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/channel/UCjCkvPN9ohl0UDvldfn1neg"
+        ],
+        "x.com": [
+            "https://x.com/PythNetwork"
+        ]
+    }
+}
