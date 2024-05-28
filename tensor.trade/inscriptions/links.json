@@ -1,0 +1,36 @@
+{
+    "target_url": "https://tensor.trade/inscriptions",
+    "domains": {
+        "boards.greenhouse.io": [
+            "https://boards.greenhouse.io/tensor"
+        ],
+        "create.tensor.trade": [
+            "https://create.tensor.trade"
+        ],
+        "discord.gg": [
+            "https://discord.gg/tensor"
+        ],
+        "docs.tensor.trade": [
+            "https://docs.tensor.trade"
+        ],
+        "tensor-hq.notion.site": [
+            "https://tensor-hq.notion.site/Tensor-Privacy-Policy-575e55982d1d4e4db4544ece7c6fadeb",
+            "https://tensor-hq.notion.site/Tensor-Terms-of-Service-da3d7fc91e004ed5815fde740112c786"
+        ],
+        "tensor.trade": [
+            "https://tensor.trade/",
+            "https://tensor.trade/inscriptions",
+            "https://tensor.trade/lock/calculator",
+            "https://tensor.trade/lock/feed",
+            "https://tensor.trade/lock/fund",
+            "https://tensor.trade/lock/purchase",
+            "https://tensor.trade/lock/your",
+            "https://tensor.trade/rewards",
+            "https://tensor.trade/trade/default",
+            "https://tensor.trade/trade/inscriptions"
+        ],
+        "twitter.com": [
+            "https://twitter.com/tensor_hq"
+        ]
+    }
+}
