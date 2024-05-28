@@ -1,0 +1,17 @@
+{
+    "target_url": "https://jup.ag/perps/long/SOL-SOL",
+    "domains": {
+        "jup.ag": [
+            "https://jup.ag/",
+            "https://jup.ag/perps",
+            "https://jup.ag/perps-earn",
+            "https://jup.ag/perps/long/SOL-SOL"
+        ],
+        "pyth.network": [
+            "https://pyth.network/"
+        ],
+        "station.jup.ag": [
+            "https://station.jup.ag/guides/perpetual-exchange/overview"
+        ]
+    }
+}
