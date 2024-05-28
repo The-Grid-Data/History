@@ -1,0 +1,18 @@
+{
+    "target_url": "https://ethereum.org/en/security/#common-scams",
+    "domains": {
+        "cdnjs.cloudflare.com": [
+            "https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/2/svg/1f4a1.svg",
+            "https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/2/svg/1f4c3.svg",
+            "https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/2/svg/1f512.svg"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/_next/image/?url=%2Fcontent%2Fsecurity%2FappleTwitterScam.png&w=1920&q=75",
+            "https://ethereum.org/_next/image/?url=%2Fcontent%2Fsecurity%2FbrokerScam.png&w=1920&q=75",
+            "https://ethereum.org/_next/image/?url=%2Fcontent%2Fsecurity%2FdiscordScam.png&w=1504&q=75",
+            "https://ethereum.org/_next/image/?url=%2Fcontent%2Fsecurity%2FpasswordManager.png&w=1920&q=75",
+            "https://ethereum.org/_next/image/?url=%2Fcontent%2Fsecurity%2FtwitterPhishingScam.png&w=1920&q=75",
+            "https://ethereum.org/_next/image/?url=%2Fcontent%2Fsecurity%2FyoutubeScam.png&w=1920&q=75"
+        ]
+    }
+}
