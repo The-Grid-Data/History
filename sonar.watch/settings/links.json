@@ -1,0 +1,30 @@
+{
+    "target_url": "https://sonar.watch/settings",
+    "domains": {
+        "discord.gg": [
+            "http://discord.gg/gG4DvM2JGw"
+        ],
+        "docs.sonar.watch": [
+            "https://docs.sonar.watch/"
+        ],
+        "feedback.sonar.watch": [
+            "https://feedback.sonar.watch/b/Features",
+            "https://feedback.sonar.watch/b/bug-report"
+        ],
+        "portfolio-api.sonar.watch": [
+            "https://portfolio-api.sonar.watch/api"
+        ],
+        "sonar.watch": [
+            "https://sonar.watch/",
+            "https://sonar.watch/address-book",
+            "https://sonar.watch/platforms",
+            "https://sonar.watch/settings"
+        ],
+        "sonarwatch.medium.com": [
+            "https://sonarwatch.medium.com/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/Sonarwatch"
+        ]
+    }
+}
