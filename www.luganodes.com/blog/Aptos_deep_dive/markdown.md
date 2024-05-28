@@ -1,0 +1,471 @@
+Build the future of Web3 with us. Check out our open positions today!
+
+[![Luganodes
+Logo](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQ0IiBoZWlnaHQ9IjQzIiB2aWV3Qm94PSIwIDAgMjQ0IDQzIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMjAuNTA0OSAzMi4zMTI1SDIwLjc2NDlMMjAuNzc1NiAzMi4wNDg3TDIxLjc2MjQgNy43NzI1MkwzNC4xNjIxIDIxLjAxMTZMMjYuNjA5IDMxLjg3ODdMMjYuMzA3NSAzMi4zMTI1SDI2LjgzMDRINDIuMDkyOUg0Mi4zNjQ4TDQyLjM2MzggMzIuMDM2M0w0Mi4zMTY3IDE5LjQ3NTdMNTEuNjQ4OCAzMi4yMDE3TDUxLjczIDMyLjMxMjVINTEuODY2SDU1LjcxMDVINTYuMjVMNTUuOTI3NyAzMS44NzNMNDEuMTAwNSAxMS42NTIxTDQwLjg3NzMgMTEuMzQ3OUw0MC42NjIgMTEuNjU3OEwzNi4yOTEyIDE3Ljk0N0wyMC40ODE2IDEuMDY0NDJMMjAuMjQ1NyAwLjgxMjVMMjAuMDU4NiAxLjEwMzY0TDAuMjczNTQxIDMxLjg4NjlMMCAzMi4zMTI1SDAuNTAwMzM2SDIwLjUwNDlaIiBmaWxsPSIjQkUxRTJFIi8+CjxwYXRoIGQ9Ik02OS45Njc2IDMyLjI1VjcuNDgzMTJINzQuOTkwM1YyOC4wNTg3SDg2LjYyOVYzMi4yNUg2OS45Njc2Wk0xMDQuNTI3IDMyLjI1SDk5Ljk4OTZWMzAuMTcxN0g5OS44ODU3Qzk5LjIzOTEgMzEuMDQ5MiA5OC41MjMzIDMxLjY5NTggOTcuNzM4MSAzMi4xMTE0Qzk2Ljk3NiAzMi41MjcxIDk1Ljk5NDYgMzIuNzM0OSA5NC43OTM4IDMyLjczNDlDOTIuODU0IDMyLjczNDkgOTEuMzQxNCAzMi4xNTc2IDkwLjI1NjEgMzEuMDAzQzg5LjE3MDcgMjkuODQ4NCA4OC42MjggMjguMjg5NiA4OC42MjggMjYuMzI2N1YxNC40ODAySDkzLjMwNDNWMjUuNTNDOTMuMzA0MyAyNy42Nzc3IDk0LjI4NTcgMjguNzUxNSA5Ni4yNDg2IDI4Ljc1MTVDOTcuMzM0IDI4Ljc1MTUgOTguMiAyOC4zODIgOTguODQ2NSAyNy42NDNDOTkuNDkzMSAyNi45MDQgOTkuODE2NCAyNS45MzQyIDk5LjgxNjQgMjQuNzMzM1YxNC40ODAySDEwNC41MjdWMzIuMjVaTTExNS40MDMgMzguMzExOEMxMTMuMDAxIDM4LjMxMTggMTExLjA3MyAzNy44MjY5IDEwOS42MTggMzYuODU3QzEwOC4xODYgMzUuODg3MSAxMDcuMzQ0IDM0LjUyNDYgMTA3LjA5IDMyLjc2OTZIMTExLjc2NkMxMTIuMjI4IDM0LjA4NTkgMTEzLjQxNyAzNC43NDQgMTE1LjMzNCAzNC43NDRDMTE3Ljk2NiAzNC43NDQgMTE5LjI4MiAzMy41MDg2IDExOS4yODIgMzEuMDM3NlYyOS4wOTc5SDExOS4xNzlDMTE3Ljk1NSAzMC40ODM0IDExNi40MDcgMzEuMTc2MiAxMTQuNTM3IDMxLjE3NjJDMTEyLjQzNSAzMS4xNzYyIDExMC42IDMwLjQwMjYgMTA5LjAyOSAyOC44NTU0QzEwNy40ODIgMjcuMzA4MiAxMDYuNzA5IDI1LjI1MjkgMTA2LjcwOSAyMi42ODk2QzEwNi43MDkgMjAuMDU3MSAxMDcuNDI0IDE3Ljk1NTYgMTA4Ljg1NiAxNi4zODUzQzExMC4yODggMTQuNzkxOSAxMTIuMTM1IDEzLjk5NTMgMTE0LjM5OCAxMy45OTUzQzExNi41NDYgMTMuOTk1MyAxMTguMTg2IDE0Ljc4MDQgMTE5LjMxNyAxNi4zNTA3SDExOS4zODZWMTQuNDgwMkgxMjMuOTI0VjMwLjg5OTFDMTIzLjkyNCAzMy4yMDgzIDEyMy4yMiAzNS4wMDk2IDEyMS44MTEgMzYuMzAyOEMxMjAuMzc5IDM3LjY0MjEgMTE4LjI0MyAzOC4zMTE4IDExNS40MDMgMzguMzExOFpNMTE1LjMzNCAyNy40MDA1QzExNi43NDIgMjcuNDAwNSAxMTcuNzkzIDI2Ljk1MDIgMTE4LjQ4NiAyNi4wNDk2QzExOS4xNzkgMjUuMTQ5IDExOS41MjUgMjMuOTk0NCAxMTkuNTI1IDIyLjU4NTdDMTE5LjUyNSAyMS4yMDAyIDExOS4xNTUgMjAuMDU3MSAxMTguNDE2IDE5LjE1NjVDMTE3LjcwMSAxOC4yMzI4IDExNi42NjEgMTcuNzcwOSAxMTUuMjk5IDE3Ljc3MDlDMTE0LjA5OCAxNy43NzA5IDExMy4xMjggMTguMjA5NyAxMTIuMzg5IDE5LjA4NzJDMTExLjY3MyAxOS45NjQ3IDExMS4zMTYgMjEuMTQyNCAxMTEuMzE2IDIyLjYyMDRDMTExLjMxNiAyNC4xMjE0IDExMS42NzMgMjUuMjk5MSAxMTIuMzg5IDI2LjE1MzVDMTEzLjEyOCAyNi45ODQ5IDExNC4xMSAyNy40MDA1IDExNS4zMzQgMjcuNDAwNVpNMTM4LjE0NiAzMi4yNUMxMzcuOTE1IDMxLjk0OTggMTM3LjczIDMxLjI5MTcgMTM3LjU5MiAzMC4yNzU2SDEzNy41MjJDMTM3LjAxNCAzMS4wMzc2IDEzNi4zNjggMzEuNjI2NSAxMzUuNTgzIDMyLjA0MjJDMTM0Ljc5NyAzMi40NTc4IDEzMy43IDMyLjY2NTcgMTMyLjI5MiAzMi42NjU3QzEzMC40MjEgMzIuNjY1NyAxMjguOTIgMzIuMTkyMyAxMjcuNzg5IDMxLjI0NTVDMTI2LjY1NyAzMC4yOTg3IDEyNi4wOTEgMjguOTU5MyAxMjYuMDkxIDI3LjIyNzNDMTI2LjA5MSAyNS40MjYxIDEyNi43MTUgMjQuMTA5OCAxMjcuOTYyIDIzLjI3ODVDMTI5LjIwOSAyMi40MjQxIDEzMC45NjQgMjEuODM1MiAxMzMuMjI3IDIxLjUxMTlDMTM0Ljg5IDIxLjI4MSAxMzYuMDIxIDIxLjA1MDEgMTM2LjYyMiAyMC44MTkxQzEzNy4yMjIgMjAuNTY1MSAxMzcuNTIyIDIwLjEyNjQgMTM3LjUyMiAxOS41MDI5QzEzNy41MjIgMTguODU2MyAxMzcuMjY4IDE4LjM0ODIgMTM2Ljc2IDE3Ljk3ODdDMTM2LjI1MiAxNy41ODYyIDEzNS41MTMgMTcuMzg5OSAxMzQuNTQzIDE3LjM4OTlDMTMyLjM5NiAxNy4zODk5IDEzMS4yNTMgMTguMjIxMiAxMzEuMTE0IDE5Ljg4MzlIMTI2LjkyM0MxMjYuOTkyIDE4LjE5ODEgMTI3LjY3MyAxNi44MDEgMTI4Ljk2NyAxNS42OTI2QzEzMC4yNiAxNC41ODQxIDEzMi4xMyAxNC4wMjk5IDEzNC41NzggMTQuMDI5OUMxMzkuNTY2IDE0LjAyOTkgMTQyLjA2IDE2LjIxMjEgMTQyLjA2IDIwLjU3NjdWMjkuNjE3NEMxNDIuMDYgMzAuOTU2OCAxNDIuMjY4IDMxLjc3NjYgMTQyLjY4NCAzMi4wNzY4VjMyLjI1SDEzOC4xNDZaTTEzMy40MzUgMjkuMzc1QzEzNC43MjggMjkuMzc1IDEzNS43NDQgMjkuMDQwMSAxMzYuNDgzIDI4LjM3MDRDMTM3LjI0NSAyNy43MDA3IDEzNy42MjYgMjYuOTA0IDEzNy42MjYgMjUuOTgwM1YyMy4zMTMxQzEzNy4xMTggMjMuNjEzMyAxMzYuMDIxIDIzLjk1OTcgMTM0LjMzNiAyNC4zNTIzQzEzMi45OTYgMjQuNjUyNSAxMzIuMDQ5IDI0Ljk5ODkgMTMxLjQ5NSAyNS4zOTE1QzEzMC45NDEgMjUuNzYxIDEzMC42NjQgMjYuMzM4MyAxMzAuNjY0IDI3LjEyMzRDMTMwLjY2NCAyOC42MjQ1IDEzMS41ODggMjkuMzc1IDEzMy40MzUgMjkuMzc1Wk0xNDkuNjYyIDE0LjQ4MDJWMTYuOTA0OUgxNDkuNzY2QzE1MC45OSAxNC45NjUxIDE1Mi43NDUgMTMuOTk1MyAxNTUuMDMxIDEzLjk5NTNDMTU2Ljg1NSAxMy45OTUzIDE1OC4zMzMgMTQuNjE4OCAxNTkuNDY1IDE1Ljg2NThDMTYwLjU5NiAxNy4wODk3IDE2MS4xNjIgMTguNjgzMSAxNjEuMTYyIDIwLjY0NTlWMzIuMjVIMTU2LjQ1MVYyMS4zMzg3QzE1Ni40NTEgMjAuMzY4OCAxNTYuMTc0IDE5LjU4MzcgMTU1LjYyIDE4Ljk4MzNDMTU1LjA4OSAxOC4zODI5IDE1NC4zMzggMTguMDgyNyAxNTMuMzY4IDE4LjA4MjdDMTUyLjMyOSAxOC4wODI3IDE1MS40NjMgMTguNDYzNyAxNTAuNzcgMTkuMjI1N0MxNTAuMTAxIDE5Ljk4NzggMTQ5Ljc2NiAyMC45NjkyIDE0OS43NjYgMjIuMTcwMVYzMi4yNUgxNDUuMDU1VjE0LjQ4MDJIMTQ5LjY2MlpNMTc5LjE2OCAzMC4xMDI0QzE3Ny40MzYgMzEuODgwNSAxNzUuMjA4IDMyLjc2OTYgMTcyLjQ4MyAzMi43Njk2QzE2OS43NTggMzIuNzY5NiAxNjcuNTMgMzEuODgwNSAxNjUuNzk4IDMwLjEwMjRDMTY0LjA2NiAyOC4zMDEyIDE2My4yIDI2LjA2MTIgMTYzLjIgMjMuMzgyNEMxNjMuMiAyMC43MDM3IDE2NC4wNjYgMTguNDc1MiAxNjUuNzk4IDE2LjY5NzFDMTY3LjUzIDE0Ljg5NTkgMTY5Ljc1OCAxMy45OTUzIDE3Mi40ODMgMTMuOTk1M0MxNzUuMjA4IDEzLjk5NTMgMTc3LjQzNiAxNC44OTU5IDE3OS4xNjggMTYuNjk3MUMxODAuOSAxOC40NzUyIDE4MS43NjYgMjAuNzAzNyAxODEuNzY2IDIzLjM4MjRDMTgxLjc2NiAyNi4wNjEyIDE4MC45IDI4LjMwMTIgMTc5LjE2OCAzMC4xMDI0Wk0xNzIuNDgzIDI5LjE2NzFDMTczLjg5MiAyOS4xNjcxIDE3NC45ODkgMjguNjQ3NSAxNzUuNzc0IDI3LjYwODRDMTc2LjU4MiAyNi41NDYxIDE3Ni45ODYgMjUuMTM3NSAxNzYuOTg2IDIzLjM4MjRDMTc2Ljk4NiAyMS42Mjc0IDE3Ni41ODIgMjAuMjE4NyAxNzUuNzc0IDE5LjE1NjVDMTc0Ljk4OSAxOC4wOTQyIDE3My44OTIgMTcuNTYzMSAxNzIuNDgzIDE3LjU2MzFDMTcxLjA1MSAxNy41NjMxIDE2OS45NDMgMTguMDk0MiAxNjkuMTU4IDE5LjE1NjVDMTY4LjM3MyAyMC4xOTU2IDE2Ny45OCAyMS42MDQzIDE2Ny45OCAyMy4zODI0QzE2Ny45OCAyNS4xMzc1IDE2OC4zNzMgMjYuNTQ2MSAxNjkuMTU4IDI3LjYwODRDMTY5Ljk0MyAyOC42NDc1IDE3MS4wNTEgMjkuMTY3MSAxNzIuNDgzIDI5LjE2NzFaTTE5MC42MDcgMzIuNzY5NkMxODguMzY3IDMyLjc2OTYgMTg2LjU1NCAzMS45MjY3IDE4NS4xNjkgMzAuMjQwOUMxODMuNzgzIDI4LjUzMjEgMTgzLjA5IDI2LjI0NTkgMTgzLjA5IDIzLjM4MjRDMTgzLjA5IDIwLjYxMTMgMTgzLjc5NSAxOC4zNTk4IDE4NS4yMDMgMTYuNjI3OEMxODYuNjM1IDE0Ljg3MjggMTg4LjQ1OSAxMy45OTUzIDE5MC42NzYgMTMuOTk1M0MxOTIuODkzIDEzLjk5NTMgMTk0LjU2NyAxNC44NzI4IDE5NS42OTkgMTYuNjI3OEgxOTUuODAzVjcuNDgzMTJIMjAwLjUxNFYzMi4yNUgxOTUuOTc2VjI5LjkyOTJIMTk1LjkwN0MxOTQuNzUyIDMxLjgyMjggMTkyLjk4NSAzMi43Njk2IDE5MC42MDcgMzIuNzY5NlpNMTkxLjY0NiAyOC44MjA3QzE5My4wMzIgMjguODIwNyAxOTQuMDgyIDI4LjM0NzMgMTk0Ljc5OCAyNy40MDA1QzE5NS41MzcgMjYuNDUzNyAxOTUuOTA3IDI1LjE0OSAxOTUuOTA3IDIzLjQ4NjNDMTk1LjkwNyAxOS42OTkxIDE5NC41MzMgMTcuODA1NSAxOTEuNzg1IDE3LjgwNTVDMTkwLjUxNCAxNy44MDU1IDE4OS41NDUgMTguMzEzNiAxODguODc1IDE5LjMyOTdDMTg4LjIwNSAyMC4zNDU3IDE4Ny44NyAyMS42OTY3IDE4Ny44NyAyMy4zODI0QzE4Ny44NyAyNS4xMTQ0IDE4OC4xOTQgMjYuNDUzNyAxODguODQgMjcuNDAwNUMxODkuNTEgMjguMzQ3MyAxOTAuNDQ1IDI4LjgyMDcgMTkxLjY0NiAyOC44MjA3Wk0yMTEuOTI0IDMyLjc2OTZDMjA5LjA2IDMyLjc2OTYgMjA2LjgwOSAzMS44OTIxIDIwNS4xNjkgMzAuMTM3QzIwMy41MyAyOC4zNTg5IDIwMi43MSAyNi4wOTU4IDIwMi43MSAyMy4zNDc4QzIwMi43MSAyMC42OTIxIDIwMy41MyAxOC40NzUyIDIwNS4xNjkgMTYuNjk3MUMyMDYuODA5IDE0Ljg5NTkgMjA4LjkxIDEzLjk5NTMgMjExLjQ3NCAxMy45OTUzQzIxNC4yNjggMTMuOTk1MyAyMTYuNDI3IDE0Ljk2NTEgMjE3Ljk1MSAxNi45MDQ5QzIxOS40NzUgMTguODQ0NyAyMjAuMjM3IDIxLjQ0MjYgMjIwLjIzNyAyNC42OTg3SDIwNy4zNTJDMjA3LjUzNiAyNi4xMDc0IDIwOC4wMSAyNy4yMDQzIDIwOC43NzIgMjcuOTg5NEMyMDkuNTM0IDI4Ljc1MTUgMjEwLjU3MyAyOS4xMzI1IDIxMS44ODkgMjkuMTMyNUMyMTMuNjIxIDI5LjEzMjUgMjE0Ljc2NCAyOC40MDUxIDIxNS4zMTkgMjYuOTUwMkgyMTkuOTZDMjE5LjYxNCAyOC42MTI5IDIxOC43MzYgMjkuOTk4NSAyMTcuMzI4IDMxLjEwNjlDMjE1LjkxOSAzMi4yMTU0IDIxNC4xMTggMzIuNzY5NiAyMTEuOTI0IDMyLjc2OTZaTTIxMS41NDMgMTcuNjMyM0MyMDkuMjU3IDE3LjYzMjMgMjA3Ljg4MyAxOC45MDI0IDIwNy40MjEgMjEuNDQyNkgyMTUuMzE5QzIxNS4yNDkgMjAuMzExMSAyMTQuODY4IDE5LjM5ODkgMjE0LjE3NSAxOC43MDYyQzIxMy40ODMgMTcuOTkwMyAyMTIuNjA1IDE3LjYzMjMgMjExLjU0MyAxNy42MzIzWk0yMjkuNjIzIDMyLjc2OTZDMjI3LjA4MiAzMi43Njk2IDIyNS4wOTYgMzIuMjE1NCAyMjMuNjY1IDMxLjEwNjlDMjIyLjIzMyAyOS45NzU0IDIyMS40NDggMjguNDM5NyAyMjEuMzA5IDI2LjQ5OTlIMjI1LjY3NEMyMjUuOTc0IDI4LjQ2MjggMjI3LjI2NyAyOS40NDQyIDIyOS41NTMgMjkuNDQ0MkMyMzAuNTkyIDI5LjQ0NDIgMjMxLjM4OSAyOS4yNTk1IDIzMS45NDMgMjguODlDMjMyLjUyMSAyOC41MjA1IDIzMi44MDkgMjguMDI0IDIzMi44MDkgMjcuNDAwNUMyMzIuODA5IDI3LjE2OTYgMjMyLjc2MyAyNi45NjE4IDIzMi42NzEgMjYuNzc3QzIzMi42MDEgMjYuNTkyMyAyMzIuNDYzIDI2LjQzMDYgMjMyLjI1NSAyNi4yOTIxQzIzMi4wNyAyNi4xMzA0IDIzMS44OTcgMjYuMDAzNCAyMzEuNzM2IDI1LjkxMTFDMjMxLjU5NyAyNS44MTg3IDIzMS4zNDMgMjUuNzI2MyAyMzAuOTczIDI1LjYzNEMyMzAuNjA0IDI1LjU0MTYgMjMwLjMxNSAyNS40NzIzIDIzMC4xMDcgMjUuNDI2MUMyMjkuOTIzIDI1LjM3OTkgMjI5LjU4OCAyNS4zMjIyIDIyOS4xMDMgMjUuMjUyOUMyMjguNjQxIDI1LjE2MDYgMjI4LjMxOCAyNS4wOTEzIDIyOC4xMzMgMjUuMDQ1MUMyMjcuMTYzIDI0Ljg2MDMgMjI2LjM2NiAyNC42NzU2IDIyNS43NDMgMjQuNDkwOUMyMjUuMTQzIDI0LjI4MyAyMjQuNTA4IDIzLjk5NDQgMjIzLjgzOCAyMy42MjQ5QzIyMy4xNjggMjMuMjMyMyAyMjIuNjYgMjIuNzEyNyAyMjIuMzE0IDIyLjA2NjFDMjIxLjk5IDIxLjM5NjQgMjIxLjgyOSAyMC41OTk4IDIyMS44MjkgMTkuNjc2QzIyMS44MjkgMTcuODI4NiAyMjIuNDk4IDE2LjQyIDIyMy44MzggMTUuNDUwMUMyMjUuMiAxNC40ODAyIDIyNi45NDQgMTMuOTk1MyAyMjkuMDY4IDEzLjk5NTNDMjMxLjM1NCAxMy45OTUzIDIzMy4xNDQgMTQuNTI2NCAyMzQuNDM3IDE1LjU4ODZDMjM1Ljc1NCAxNi42Mjc4IDIzNi41MDQgMTguMDU5NiAyMzYuNjg5IDE5Ljg4MzlIMjMyLjQyOEMyMzIuMjQ0IDE4LjE1MTkgMjMxLjEgMTcuMjg2IDIyOC45OTkgMTcuMjg2QzIyOC4wNTIgMTcuMjg2IDIyNy4zMDIgMTcuNDU5MiAyMjYuNzQ3IDE3LjgwNTVDMjI2LjIxNiAxOC4xNTE5IDIyNS45NTEgMTguNjM2OSAyMjUuOTUxIDE5LjI2MDRDMjI1Ljk1MSAxOS40NjgyIDIyNS45ODUgMTkuNjY0NSAyMjYuMDU1IDE5Ljg0OTJDMjI2LjE0NyAyMC4wMTA5IDIyNi4yODYgMjAuMTYxIDIyNi40NyAyMC4yOTk1QzIyNi42NzggMjAuNDE1IDIyNi44NzUgMjAuNTE4OSAyMjcuMDU5IDIwLjYxMTNDMjI3LjI0NCAyMC42ODA2IDIyNy41MSAyMC43NjE0IDIyNy44NTYgMjAuODUzOEMyMjguMjAyIDIwLjkyMzEgMjI4LjUwMyAyMC45OTIzIDIyOC43NTcgMjEuMDYxNkMyMjkuMDExIDIxLjEwNzggMjI5LjM1NyAyMS4xNzcxIDIyOS43OTYgMjEuMjY5NEMyMzAuMjM0IDIxLjMzODcgMjMwLjU4MSAyMS4zOTY0IDIzMC44MzUgMjEuNDQyNkMyMzEuNTc0IDIxLjYwNDMgMjMyLjE3NCAyMS43NTQ0IDIzMi42MzYgMjEuODkyOUMyMzMuMTIxIDIyLjAwODQgMjMzLjY3NSAyMi4yMTYyIDIzNC4yOTkgMjIuNTE2NEMyMzQuOTIyIDIyLjc5MzYgMjM1LjQwNyAyMy4xMTY5IDIzNS43NTQgMjMuNDg2M0MyMzYuMTIzIDIzLjgzMjcgMjM2LjQzNSAyNC4zMTc3IDIzNi42ODkgMjQuOTQxMkMyMzYuOTY2IDI1LjU0MTYgMjM3LjEwNSAyNi4yNDU5IDIzNy4xMDUgMjcuMDU0MkMyMzcuMTA1IDI4LjgwOTIgMjM2LjQxMiAzMC4yMDYzIDIzNS4wMjYgMzEuMjQ1NUMyMzMuNjY0IDMyLjI2MTUgMjMxLjg2MyAzMi43Njk2IDIyOS42MjMgMzIuNzY5NloiIGZpbGw9ImJsYWNrIi8+Cjwvc3ZnPgo=)](/)
+
+[Home](/)
+
+Product
+
+Resources
+
+Company
+
+Contact us
+
+[Network](/blog/?interval=3&category=Network)
+
+11 min read
+
+# Aptos Deep Dive
+
+Focus on scalability, security, and reliability
+
+![](data:image/svg+xml;charset=utf-8,%3Csvg%20height='675'%20width='1200'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%3E%3C/svg%3E)
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACFElEQVR42pVQy27aQBR1sfHMeGywcW1TG9miAWxsakiAYgi4NS/FKIQUghSlLCJV6gckq/5BqkhZVIkUqV2QSu0uH9BNvq1DWnWRXY+ORveO5tx75lDg/5FMJlXDyBoGRRr4iH/Fn/opyOUjWQAQz6u5HAvhRswwDP0EiQQZDxD6S44jfEbTFEWxHKfoOsQ4iRCVoGnP8xqNhqZpjuOUbJucVj4vK0qSrCIyjCHPMxyXt+1qs2nZtmqaaVXVLIuSs1nbdYMg6Ha7te3t6Ww2juM3/f7LYpEmDtNpJIqMIBR8f/3zx6+Hh6PTU8v3c67LZbOUquvvlsvJ/j4Z0Wy1mkHQaLV2w9Cv15EkwUwGyDLS9Y9nZ1e3txfX159vbraCAJomIIGRf5PXi+Pj3SjqRRExUG+14tms1m5DVQWaJhUKaqXy4fz87v7+y3r96fIy227zngdLJYpFiISTYBiW52kIExDSGCcwZmUZW5ZUdpRaVe902icnF1+/XX2/qy2XqU5HeN3EOzsUL4o4leJSKSAImAg0LW1Zz21bdl3RdXG5jDyvdHjoHC2VQV8ZDlNRhKMIhiEXhhQnimVZ8V2vMxj0xuNqr0d8CsUiKhaB44BKZWs69d+v0oMBjN7C0Qju7bFxDCYTEMcb2xzmeSkjGUY6l+NNkyVhFApkIapVX4xGr1YriQiGw43g4ADM5xsuFmA+/w2uoVtOWF/H7wAAAABJRU5ErkJggg==)![Cover
+Image](/static/fb81bdfd28b9cfe5ce57ac1a27688519/bb8ee/Aptos_2b8e94870f.png)![Cover
+Image](/static/fb81bdfd28b9cfe5ce57ac1a27688519/bb8ee/Aptos_2b8e94870f.png)
+
+Published on
+
+14 Mar, 2024
+
+Copy
+Link[](https://twitter.com/intent/tweet?text=Check%20out%20this%20blog%20by%20Luganodes%20-%20%22Aptos%20Deep%20Dive%20%22&url=)[](https://www.linkedin.com/sharing/share-
+offsite/?url=&title=Aptos%20Deep%20Dive%20&summary=Check%20out%20this%20blog%20by%20Luganodes%20-%20%22Aptos%20Deep%20Dive%20%22)
+
+# Aptos Deep Dive
+
+Aptos is a Layer-1 blockchain founded in October 2022. It's designed to be
+scalable, safe, and reliable, utilizing the AptosBFT consensus mechanism and
+the Move programming language. Aptos' founding was led by ex-Meta employees
+who, early on, banked funding from the reputable A16z Silicon Valley venture
+capital firm, and other top web3 investors.
+
+Aptos's use cases include gaming, as it offers a platform for an immersive
+gaming experience where creators can unlock GameFi opportunities. Creators can
+also mint NFTs or build Web3-style social media experiences where people keep
+control over their data.
+
+Aptos continues to gain momentum as we move into 2024 with new DeFi activity.
+Additionally, Aptos recently announced partnerships with some top data
+integration providers in February, including Dune Analytics, Nansen, and
+DappRadar.
+
+The Aptos Foundation also introduced the [RaNd0M
+Hack](https://aptosfoundation.org/events/aptos-random-hackathon) hackathon for
+developers to experiment with the Aptos API. RaNd0M Hack has already received
+over 180 applications, which ends on March 22.
+
+> In the world of blockchain technology, where predictability rules, Aptos
+> Foundation invites you to the first-ever online Aptos RaNd0M Hack. It's time
+> to...  
+>  
+> Roll the dice 🎲  
+> Spin the wheel 🌀  
+>  
+> ...and embrace the unexpected with tamper-proof randomness with Aptos' on-
+> chain… [pic.twitter.com/CcdtkHxScz](https://t.co/CcdtkHxScz)
+>
+> — Aptos (@Aptos) [February 1,
+> 2024](https://twitter.com/Aptos/status/1753184849417150915?ref_src=twsrc%5Etfw)
+
+## The Aptos Collective
+
+In other recent news, the Aptos Foundation announced that registrations are
+open for the third cohort of Aptos Collective members. The [Aptos
+Collective](https://aptosfoundation.org/currents/introducing-the-third-cohort-
+of-the-aptos-collective) is a collaborative platform that brings together
+passionate community members to contribute to projects within the ecosystem.
+
+This self-titled "beacon of innovation" allows members to network with Aptos
+Foundation employees and key contributors to the ecosystem. Furthermore,
+members can compete for prizes while participating in initiatives that will
+shape Aptos' future.
+
+## Node Types
+
+Aptos operates with a Proof of Stake (PoS) consensus mechanism. Furthermore,
+clients can interact with the blockchain via the different types of nodes
+listed below:
+
+  1. Validator Nodes participate in consensus and process transactions.
+
+  2. Validator Fullnodes capture and verify the state of the blockchain run by the validator nodes. They work like a public fullnode (below) but can connect directly to validator nodes.
+
+  3. Public Fullnodes can be run by anyone who is not a validator. This type of fullnode doesn't connect directly to a validator node, so it relies upon validator fullnodes for synchronization.
+
+  4. Archival Nodes are fullnodes that store all the blockchain data since the blockchain's inception.
+
+## Node Components
+
+Aptos nodes contain the following components:
+
+  1. Mempool
+
+  2. Consensus (not available for fullnodes)
+
+  3. Execution
+
+  4. Virtual Machine
+
+  5. Storage
+
+  6. State synchronizer
+
+![Aptos-1.png](https://better-
+triumph-f08c8a30a5.media.strapiapp.com/Aptos_1_da4a409ea4.png)
+
+Each node has a mempool component that holds in-memory transactions submitted
+to the blockchain. However, these transactions have yet to be agreed upon or
+executed.
+
+The consensus component's responsibility is to order blocks of transactions
+and agree on the execution results. It is accomplished by validator nodes
+participating with other validator nodes in the consensus protocol.
+
+Execution coordinates the execution of a block of transactions and uses the
+virtual machine to execute these transactions. It also maintains a transient
+state. Consensus then votes on this transient state. Execution keeps an in-
+memory representation of the results until consensus commits the block to the
+database.
+
+Aptos' virtual machine (VM) runs the Move program within each transaction and
+determines the execution results. The execution component uses the VM to
+execute transactions, while a node's mempool uses it to perform verification
+checks on the transactions.
+
+Storage persists blocks of agreed-upon transactions and their execution
+results to the local database.
+
+Aptos nodes also contain a state synchronizer. This component has the same
+functionality for all nodes and keeps them up-to-date with the latest
+blockchain state.
+
+## Validator Nodes on Aptos
+
+The company docs state, "Aptos uses a Byzantine Fault Tolerance (BFT)
+consensus protocol for validator nodes to agree on the ledger of finalized
+transactions and their execution results." The flow of transactions is as
+follows:
+
+A transaction is submitted to the blockchain. Validator nodes run the BFT
+consensus protocol, execute the transaction, and store it and the execution
+results on the blockchain. These validator nodes also determine which
+transactions get added to the blockchain and their order.
+
+For validator nodes to remain up-to-date, they must keep a local copy of the
+current state of the blockchain and communicate with other validator nodes on
+the network.
+
+To sum up, validator nodes run the consensus protocol on the Aptos blockchain.
+The consensus protocol, in turn, agrees on the ordering of transactions.
+
+## Aptos Fullnodes
+
+Anyone who desires can run a fullnode. Fullnodes verify blockchain history and
+act as an external validation resource for transaction history.
+
+Fullnodes receive transactions from peers, may re-execute them, and store the
+re-executed transaction results locally. With this information, they can
+challenge and mitigate any potential wrongdoing by validators who might try to
+modify blockchain history.
+
+Aptos fullnodes can replicate the entire state of the blockchain by
+synchronizing with other fullnodes or validator nodes. However, while
+validators and fullnodes use the same code, fullnodes do not participate in
+consensus.
+
+## Validator Fullnodes and Public Fullnodes
+
+The Aptos blockchain has two different types of fullnodes:
+
+  1. Validator fullnodes
+
+  2. Public fullnodes
+
+![Aptos-2.png](https://better-
+triumph-f08c8a30a5.media.strapiapp.com/Aptos_2_79697e8187.png)
+
+There's no difference between the functionality of a validator fullnode and a
+public fullnode. The distinction depends upon whether their upstream node is a
+validator or another fullnode.
+
+Validator fullnodes connect straight to validator nodes. They offer
+scalability and mitigate potential DDoS attacks. Public fullnodes connect to
+validator fullnodes for low-latency access to the network.
+
+Additionally, the Aptos blockchain uses distinct networking stacks, so the
+validator network is separate from the fullnode network. This factor offers
+several advantages, including superior support for security preferences and
+node synchronization.
+
+To stay up-to-date, Aptos nodes sync to the latest state of the blockchain
+through consensus or state synchronization. Fullnodes only use state
+synchronization, while validator nodes use state synchronization and
+consensus.
+
+## Move Programming Language
+
+Programming for Web3 requires a massive mindset shift for developers moving to
+smart contract programming. It involves moving from a world of abundance to a
+world of constraints. It's a world where optimizing even to the lower levels
+of opcode to lower gas costs becomes paramount. More importantly, coming to
+Web3 as a smart contract programmer demands an adversarial mindset. One
+programming mistake can cost a protocol and its users millions of dollars.
+
+Move was designed with these factors in mind. As a Rust-based, smart
+programming language, it begins and ends with safety but also has gas metering
+built into the VM. Move was initially created at Meta to power the Diem
+blockchain, and some of the people who worked on Diem left to start Aptos.
+
+Unsurprisingly, Aptos smart contracts are called "Move Modules." Most people
+think of Solidity or Vyper when discussing smart contract programming
+languages. However, Move has entered the ecosystem, as evidenced by
+[SUI](https://www.luganodes.com/blog/SUIInnovation/) and Aptos, which are
+different platforms using the Move programming language.
+
+## Staking APT Tokens
+
+With PoS in place, anyone who desires to participate in Aptos consensus can do
+so if they stake sufficiently. For those unfamiliar with the concept, staking
+involves placing tokens into escrow to help secure the network and earn
+rewards.
+
+On Aptos, each validator's vote weight is proportional to their stake amount.
+Likewise, the validator gets rewards proportional to the amount they stake.
+These rewards align blockchain performance with the validator's interests.
+
+Staking on Aptos supports three personas:
+
+  1. Owner
+
+  2. Operator
+
+  3. Voter
+
+The Aptos model allows for delegations and crypto-staking services like
+Luganodes to operate. That's because it separates the account owner (that
+controls the funds) from the other two accounts—operator and voter. Thus,
+responsibilities can be delegated.
+
+## The Owner Persona
+
+An owner persona can stake on the Aptos blockchain and participate in
+governance. The owner creates an account to obtain the "OwnerCapability"
+resource. Now, the owner can assign their account's operator address to a
+trusted node operator, appointing it as a validator. An owner can also
+designate a voter to participate in governance.
+
+To sum up, the owner:
+
+  * Owns the funds to be used for staking.
+
+  * Has exclusive rights to add, unlock, or withdraw the funds.
+
+  * Can switch the node operator to another at any time.
+
+  * May select the operator commission percentage.
+
+  * Gets the rewards deposited into their account.
+
+## The Operator Persona
+
+The owner assigns an operator to run the validator node and receive
+commissions. The owner also sets the commission. Furthermore, the two personas
+(owner and operator) can be separate or the same entity.
+
+In sum, the operator:
+
+  * Performs the validator function.
+
+  * Has exclusive permission to join or leave a validator set.
+
+  * Uses the "consensus key" to participate in the consensus process (to vote on and propose blocks).
+
+  * Cannot move the funds (unless the operator is also the owner with the "OwnerCapability" resource).
+
+  * Has their commission deducted from the owner rewards and deposited into the operator's account.
+
+## How Validation Works on Aptos
+
+On the Aptos blockchain, an "epoch" is a duration of time in seconds. During
+that time, validators vote on multiple blocks, the validator set is updated,
+and rewards are distributed. Additionally, throughout each epoch, the
+following events occur a multitude of times:
+
+Validator leaders are selected—but not by voting. Instead, a formula based on
+a validator's reputation, performance, and stake chooses the leader. The
+designated leader sends a proposal with the collected votes of the previous
+proposal along with the proposed order of transactions for the new block.
+
+The validators from the validator set will vote on the leader's proposal for
+the new block, and the block can be finalized after reaching a consensus. Only
+the leader validator (not the voter validators) gets rewards, which are
+granted at the end of each epoch. This process repeats when another validator
+leader is selected.
+
+## Validator State and Stake State
+
+States are defined for a validator and for the stake. A validator can be in
+these four states: inactive, pending_active, active, and pending_inactive.
+"Inactive" means the validator is not tracked anywhere in the set.
+
+![Aptos-3.png](https://better-
+triumph-f08c8a30a5.media.strapiapp.com/Aptos_3_c11cf5bcea.png)
+
+A validator in the active state or pending_inactive state can have their stake
+in the following four states: inactive, pending_active, active, or
+pending_inactive.
+
+Validators must stake at least 1 million APT tokens to join a validator set.
+The APT token is used for governance, transaction fees, and staking within the
+Aptos ecosystem. The maximum stake is set at 50 million APT.
+
+The critical point is that validators in the active set must keep their stake
+above the minimum required. Validators whose stake drops below the minimum
+required will be moved directly to the inactive state during an epoch change.
+Additionally, governance proposals can also remove validators from the active
+set.
+
+## The Aptos Staking Sequence
+
+To start, the owner initializes the stake pool with the "create-staking-
+contract." The owner can then deposit the stake themselves or have funds
+assigned by a [crypto-staking
+service](https://www.luganodes.com/blog/CryptoStakingOptions/). Luganodes
+offers efficient staking operations to quickly react to market changes.
+Moreover, “zero technical challenges” means that owners don’t have to worry
+about handling the operational difficulties of managing and maintaining a
+validator node themselves.
+
+The stake gets locked up for a fixed duration as determined by governance and
+is automatically renewed at the expiration.
+
+Once the validator node is ready to join the set, the node operator can call
+the "join-validator-set." Changes will only take place in the next epoch.
+Afterward, the validator begins validating and earning rewards.
+
+A validator can ask to unlock their stake at any point. However, their stake
+only becomes available to withdraw after their current lockup expires.
+
+## Staking Rewards on Aptos
+
+Rewards are distributed to the validators who participated in the previous
+epoch. Staking rewards are calculated using the formula from the company
+documents below. Additionally, they accrue as compound interest.
+
+Reward = staked_amount * rewards_rate per epoch * (Number of successful
+proposals by the validator / Total number of proposals made by the validator)
+
+As mentioned, rewards are paid every epoch, and any validator rewards are
+added to the staked amount. Thus, the reward at the end of the next epoch will
+be calculated based on the original stake amount plus the added rewards.
+
+It's important to note that rewards are based on the validator's proposer
+performance. After getting into a validator set, validators can propose in
+every epoch. The more successfully a validator proposes, the more rewards they
+can earn.
+
+Many investors who are not technically oriented or do not have the time to
+work as validators will choose to use a staking service instead. Crypto-
+staking firms such as Luganodes remove the complexities for their clients.
+Furthermore, their experience and expertise will ensure they rank higher in
+"proposer performance" on Aptos than the uninitiated participants.
+
+## The Aptos Blockchain - Conclusion
+
+With its parallel execution engine, the Aptos blockchain excels at high
+throughput (approximately 160,000 TPS). It also maintains low transaction fees
+and offers high-level security features built into the Move programming
+language.
+
+Aptos seeks mass adoption of blockchain technology with its speed,
+reliability, and ease of use. Those looking to invest can purchase APT
+outright, participate directly in staking as an owner/operator, or hire a
+staking service to earn passive income rewards.
+
+## About Luganodes
+
+Luganodes is a world-class, Swiss-operated, non-custodial blockchain
+infrastructure provider that has rapidly gained recognition in the industry
+for offering institutional-grade services. It was born out of the Lugano Plan
+B Program, an initiative driven by Tether and the City of Lugano. Luganodes
+maintains an exceptional 99.9% uptime with round-the-clock monitoring by SRE
+experts. With support for 40+ PoS networks, it ranks among the top validators
+on Polygon, Polkadot, Sui, and Tron. Luganodes prioritizes security and
+compliance, holding the distinction of being one of the first staking
+providers to adhere to all SOC 2 Type II, GDPR, and ISO 27001 standards as
+well as offering Chainproof insurance to institutional clients.
+
+![](data:image/svg+xml;charset=utf-8,%3Csvg%20height='269'%20width='632'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%3E%3C/svg%3E)
+
+![Line
+pattern](/static/c1a2eb9200e441157c01110f2f463004/3d614/linepattern3.svg)![Line
+pattern](/static/c1a2eb9200e441157c01110f2f463004/3d614/linepattern3.svg)
+
+[![White
+logo](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQ0IiBoZWlnaHQ9IjQzIiB2aWV3Qm94PSIwIDAgMjQ0IDQzIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMjAuNTA0OSAzMi4zMTI1SDIwLjc2NDlMMjAuNzc1NiAzMi4wNDg3TDIxLjc2MjQgNy43NzI1MkwzNC4xNjIxIDIxLjAxMTZMMjYuNjA5IDMxLjg3ODdMMjYuMzA3NSAzMi4zMTI1SDI2LjgzMDRINDIuMDkyOUg0Mi4zNjQ4TDQyLjM2MzggMzIuMDM2M0w0Mi4zMTY3IDE5LjQ3NTdMNTEuNjQ4OCAzMi4yMDE3TDUxLjczIDMyLjMxMjVINTEuODY2SDU1LjcxMDVINTYuMjVMNTUuOTI3NyAzMS44NzNMNDEuMTAwNSAxMS42NTIxTDQwLjg3NzMgMTEuMzQ3OUw0MC42NjIgMTEuNjU3OEwzNi4yOTEyIDE3Ljk0N0wyMC40ODE2IDEuMDY0NDJMMjAuMjQ1NyAwLjgxMjVMMjAuMDU4NiAxLjEwMzY0TDAuMjczNTQxIDMxLjg4NjlMMCAzMi4zMTI1SDAuNTAwMzM2SDIwLjUwNDlaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNNjkuOTY3NiAzMi4yNVY3LjQ4MzEySDc0Ljk5MDNWMjguMDU4N0g4Ni42MjlWMzIuMjVINjkuOTY3NlpNMTA0LjUyNyAzMi4yNUg5OS45ODk2VjMwLjE3MTdIOTkuODg1N0M5OS4yMzkxIDMxLjA0OTIgOTguNTIzMyAzMS42OTU4IDk3LjczODEgMzIuMTExNEM5Ni45NzYgMzIuNTI3MSA5NS45OTQ2IDMyLjczNDkgOTQuNzkzOCAzMi43MzQ5QzkyLjg1NCAzMi43MzQ5IDkxLjM0MTQgMzIuMTU3NiA5MC4yNTYxIDMxLjAwM0M4OS4xNzA3IDI5Ljg0ODQgODguNjI4IDI4LjI4OTYgODguNjI4IDI2LjMyNjdWMTQuNDgwMkg5My4zMDQzVjI1LjUzQzkzLjMwNDMgMjcuNjc3NyA5NC4yODU3IDI4Ljc1MTUgOTYuMjQ4NiAyOC43NTE1Qzk3LjMzNCAyOC43NTE1IDk4LjIgMjguMzgyIDk4Ljg0NjUgMjcuNjQzQzk5LjQ5MzEgMjYuOTA0IDk5LjgxNjQgMjUuOTM0MiA5OS44MTY0IDI0LjczMzNWMTQuNDgwMkgxMDQuNTI3VjMyLjI1Wk0xMTUuNDAzIDM4LjMxMThDMTEzLjAwMSAzOC4zMTE4IDExMS4wNzMgMzcuODI2OSAxMDkuNjE4IDM2Ljg1N0MxMDguMTg2IDM1Ljg4NzEgMTA3LjM0NCAzNC41MjQ2IDEwNy4wOSAzMi43Njk2SDExMS43NjZDMTEyLjIyOCAzNC4wODU5IDExMy40MTcgMzQuNzQ0IDExNS4zMzQgMzQuNzQ0QzExNy45NjYgMzQuNzQ0IDExOS4yODIgMzMuNTA4NiAxMTkuMjgyIDMxLjAzNzZWMjkuMDk3OUgxMTkuMTc5QzExNy45NTUgMzAuNDgzNCAxMTYuNDA3IDMxLjE3NjIgMTE0LjUzNyAzMS4xNzYyQzExMi40MzUgMzEuMTc2MiAxMTAuNiAzMC40MDI2IDEwOS4wMjkgMjguODU1NEMxMDcuNDgyIDI3LjMwODIgMTA2LjcwOSAyNS4yNTI5IDEwNi43MDkgMjIuNjg5NkMxMDYuNzA5IDIwLjA1NzEgMTA3LjQyNCAxNy45NTU2IDEwOC44NTYgMTYuMzg1M0MxMTAuMjg4IDE0Ljc5MTkgMTEyLjEzNSAxMy45OTUzIDExNC4zOTggMTMuOTk1M0MxMTYuNTQ2IDEzLjk5NTMgMTE4LjE4NiAxNC43ODA0IDExOS4zMTcgMTYuMzUwN0gxMTkuMzg2VjE0LjQ4MDJIMTIzLjkyNFYzMC44OTkxQzEyMy45MjQgMzMuMjA4MyAxMjMuMjIgMzUuMDA5NiAxMjEuODExIDM2LjMwMjhDMTIwLjM3OSAzNy42NDIxIDExOC4yNDMgMzguMzExOCAxMTUuNDAzIDM4LjMxMThaTTExNS4zMzQgMjcuNDAwNUMxMTYuNzQyIDI3LjQwMDUgMTE3Ljc5MyAyNi45NTAyIDExOC40ODYgMjYuMDQ5NkMxMTkuMTc5IDI1LjE0OSAxMTkuNTI1IDIzLjk5NDQgMTE5LjUyNSAyMi41ODU3QzExOS41MjUgMjEuMjAwMiAxMTkuMTU1IDIwLjA1NzEgMTE4LjQxNiAxOS4xNTY1QzExNy43MDEgMTguMjMyOCAxMTYuNjYxIDE3Ljc3MDkgMTE1LjI5OSAxNy43NzA5QzExNC4wOTggMTcuNzcwOSAxMTMuMTI4IDE4LjIwOTcgMTEyLjM4OSAxOS4wODcyQzExMS42NzMgMTkuOTY0NyAxMTEuMzE2IDIxLjE0MjQgMTExLjMxNiAyMi42MjA0QzExMS4zMTYgMjQuMTIxNCAxMTEuNjczIDI1LjI5OTEgMTEyLjM4OSAyNi4xNTM1QzExMy4xMjggMjYuOTg0OSAxMTQuMTEgMjcuNDAwNSAxMTUuMzM0IDI3LjQwMDVaTTEzOC4xNDYgMzIuMjVDMTM3LjkxNSAzMS45NDk4IDEzNy43MyAzMS4yOTE3IDEzNy41OTIgMzAuMjc1NkgxMzcuNTIyQzEzNy4wMTQgMzEuMDM3NiAxMzYuMzY4IDMxLjYyNjUgMTM1LjU4MyAzMi4wNDIyQzEzNC43OTcgMzIuNDU3OCAxMzMuNyAzMi42NjU3IDEzMi4yOTIgMzIuNjY1N0MxMzAuNDIxIDMyLjY2NTcgMTI4LjkyIDMyLjE5MjMgMTI3Ljc4OSAzMS4yNDU1QzEyNi42NTcgMzAuMjk4NyAxMjYuMDkxIDI4Ljk1OTMgMTI2LjA5MSAyNy4yMjczQzEyNi4wOTEgMjUuNDI2MSAxMjYuNzE1IDI0LjEwOTggMTI3Ljk2MiAyMy4yNzg1QzEyOS4yMDkgMjIuNDI0MSAxMzAuOTY0IDIxLjgzNTIgMTMzLjIyNyAyMS41MTE5QzEzNC44OSAyMS4yODEgMTM2LjAyMSAyMS4wNTAxIDEzNi42MjIgMjAuODE5MUMxMzcuMjIyIDIwLjU2NTEgMTM3LjUyMiAyMC4xMjY0IDEzNy41MjIgMTkuNTAyOUMxMzcuNTIyIDE4Ljg1NjMgMTM3LjI2OCAxOC4zNDgyIDEzNi43NiAxNy45Nzg3QzEzNi4yNTIgMTcuNTg2MiAxMzUuNTEzIDE3LjM4OTkgMTM0LjU0MyAxNy4zODk5QzEzMi4zOTYgMTcuMzg5OSAxMzEuMjUzIDE4LjIyMTIgMTMxLjExNCAxOS44ODM5SDEyNi45MjNDMTI2Ljk5MiAxOC4xOTgxIDEyNy42NzMgMTYuODAxIDEyOC45NjcgMTUuNjkyNkMxMzAuMjYgMTQuNTg0MSAxMzIuMTMgMTQuMDI5OSAxMzQuNTc4IDE0LjAyOTlDMTM5LjU2NiAxNC4wMjk5IDE0Mi4wNiAxNi4yMTIxIDE0Mi4wNiAyMC41NzY3VjI5LjYxNzRDMTQyLjA2IDMwLjk1NjggMTQyLjI2OCAzMS43NzY2IDE0Mi42ODQgMzIuMDc2OFYzMi4yNUgxMzguMTQ2Wk0xMzMuNDM1IDI5LjM3NUMxMzQuNzI4IDI5LjM3NSAxMzUuNzQ0IDI5LjA0MDEgMTM2LjQ4MyAyOC4zNzA0QzEzNy4yNDUgMjcuNzAwNyAxMzcuNjI2IDI2LjkwNCAxMzcuNjI2IDI1Ljk4MDNWMjMuMzEzMUMxMzcuMTE4IDIzLjYxMzMgMTM2LjAyMSAyMy45NTk3IDEzNC4zMzYgMjQuMzUyM0MxMzIuOTk2IDI0LjY1MjUgMTMyLjA0OSAyNC45OTg5IDEzMS40OTUgMjUuMzkxNUMxMzAuOTQxIDI1Ljc2MSAxMzAuNjY0IDI2LjMzODMgMTMwLjY2NCAyNy4xMjM0QzEzMC42NjQgMjguNjI0NSAxMzEuNTg4IDI5LjM3NSAxMzMuNDM1IDI5LjM3NVpNMTQ5LjY2MiAxNC40ODAyVjE2LjkwNDlIMTQ5Ljc2NkMxNTAuOTkgMTQuOTY1MSAxNTIuNzQ1IDEzLjk5NTMgMTU1LjAzMSAxMy45OTUzQzE1Ni44NTUgMTMuOTk1MyAxNTguMzMzIDE0LjYxODggMTU5LjQ2NSAxNS44NjU4QzE2MC41OTYgMTcuMDg5NyAxNjEuMTYyIDE4LjY4MzEgMTYxLjE2MiAyMC42NDU5VjMyLjI1SDE1Ni40NTFWMjEuMzM4N0MxNTYuNDUxIDIwLjM2ODggMTU2LjE3NCAxOS41ODM3IDE1NS42MiAxOC45ODMzQzE1NS4wODkgMTguMzgyOSAxNTQuMzM4IDE4LjA4MjcgMTUzLjM2OCAxOC4wODI3QzE1Mi4zMjkgMTguMDgyNyAxNTEuNDYzIDE4LjQ2MzcgMTUwLjc3IDE5LjIyNTdDMTUwLjEwMSAxOS45ODc4IDE0OS43NjYgMjAuOTY5MiAxNDkuNzY2IDIyLjE3MDFWMzIuMjVIMTQ1LjA1NVYxNC40ODAySDE0OS42NjJaTTE3OS4xNjggMzAuMTAyNEMxNzcuNDM2IDMxLjg4MDUgMTc1LjIwOCAzMi43Njk2IDE3Mi40ODMgMzIuNzY5NkMxNjkuNzU4IDMyLjc2OTYgMTY3LjUzIDMxLjg4MDUgMTY1Ljc5OCAzMC4xMDI0QzE2NC4wNjYgMjguMzAxMiAxNjMuMiAyNi4wNjEyIDE2My4yIDIzLjM4MjRDMTYzLjIgMjAuNzAzNyAxNjQuMDY2IDE4LjQ3NTIgMTY1Ljc5OCAxNi42OTcxQzE2Ny41MyAxNC44OTU5IDE2OS43NTggMTMuOTk1MyAxNzIuNDgzIDEzLjk5NTNDMTc1LjIwOCAxMy45OTUzIDE3Ny40MzYgMTQuODk1OSAxNzkuMTY4IDE2LjY5NzFDMTgwLjkgMTguNDc1MiAxODEuNzY2IDIwLjcwMzcgMTgxLjc2NiAyMy4zODI0QzE4MS43NjYgMjYuMDYxMiAxODAuOSAyOC4zMDEyIDE3OS4xNjggMzAuMTAyNFpNMTcyLjQ4MyAyOS4xNjcxQzE3My44OTIgMjkuMTY3MSAxNzQuOTg5IDI4LjY0NzUgMTc1Ljc3NCAyNy42MDg0QzE3Ni41ODIgMjYuNTQ2MSAxNzYuOTg2IDI1LjEzNzUgMTc2Ljk4NiAyMy4zODI0QzE3Ni45ODYgMjEuNjI3NCAxNzYuNTgyIDIwLjIxODcgMTc1Ljc3NCAxOS4xNTY1QzE3NC45ODkgMTguMDk0MiAxNzMuODkyIDE3LjU2MzEgMTcyLjQ4MyAxNy41NjMxQzE3MS4wNTEgMTcuNTYzMSAxNjkuOTQzIDE4LjA5NDIgMTY5LjE1OCAxOS4xNTY1QzE2OC4zNzMgMjAuMTk1NiAxNjcuOTggMjEuNjA0MyAxNjcuOTggMjMuMzgyNEMxNjcuOTggMjUuMTM3NSAxNjguMzczIDI2LjU0NjEgMTY5LjE1OCAyNy42MDg0QzE2OS45NDMgMjguNjQ3NSAxNzEuMDUxIDI5LjE2NzEgMTcyLjQ4MyAyOS4xNjcxWk0xOTAuNjA3IDMyLjc2OTZDMTg4LjM2NyAzMi43Njk2IDE4Ni41NTQgMzEuOTI2NyAxODUuMTY5IDMwLjI0MDlDMTgzLjc4MyAyOC41MzIxIDE4My4wOSAyNi4yNDU5IDE4My4wOSAyMy4zODI0QzE4My4wOSAyMC42MTEzIDE4My43OTUgMTguMzU5OCAxODUuMjAzIDE2LjYyNzhDMTg2LjYzNSAxNC44NzI4IDE4OC40NTkgMTMuOTk1MyAxOTAuNjc2IDEzLjk5NTNDMTkyLjg5MyAxMy45OTUzIDE5NC41NjcgMTQuODcyOCAxOTUuNjk5IDE2LjYyNzhIMTk1LjgwM1Y3LjQ4MzEySDIwMC41MTRWMzIuMjVIMTk1Ljk3NlYyOS45MjkySDE5NS45MDdDMTk0Ljc1MiAzMS44MjI4IDE5Mi45ODUgMzIuNzY5NiAxOTAuNjA3IDMyLjc2OTZaTTE5MS42NDYgMjguODIwN0MxOTMuMDMyIDI4LjgyMDcgMTk0LjA4MiAyOC4zNDczIDE5NC43OTggMjcuNDAwNUMxOTUuNTM3IDI2LjQ1MzcgMTk1LjkwNyAyNS4xNDkgMTk1LjkwNyAyMy40ODYzQzE5NS45MDcgMTkuNjk5MSAxOTQuNTMzIDE3LjgwNTUgMTkxLjc4NSAxNy44MDU1QzE5MC41MTQgMTcuODA1NSAxODkuNTQ1IDE4LjMxMzYgMTg4Ljg3NSAxOS4zMjk3QzE4OC4yMDUgMjAuMzQ1NyAxODcuODcgMjEuNjk2NyAxODcuODcgMjMuMzgyNEMxODcuODcgMjUuMTE0NCAxODguMTk0IDI2LjQ1MzcgMTg4Ljg0IDI3LjQwMDVDMTg5LjUxIDI4LjM0NzMgMTkwLjQ0NSAyOC44MjA3IDE5MS42NDYgMjguODIwN1pNMjExLjkyNCAzMi43Njk2QzIwOS4wNiAzMi43Njk2IDIwNi44MDkgMzEuODkyMSAyMDUuMTY5IDMwLjEzN0MyMDMuNTMgMjguMzU4OSAyMDIuNzEgMjYuMDk1OCAyMDIuNzEgMjMuMzQ3OEMyMDIuNzEgMjAuNjkyMSAyMDMuNTMgMTguNDc1MiAyMDUuMTY5IDE2LjY5NzFDMjA2LjgwOSAxNC44OTU5IDIwOC45MSAxMy45OTUzIDIxMS40NzQgMTMuOTk1M0MyMTQuMjY4IDEzLjk5NTMgMjE2LjQyNyAxNC45NjUxIDIxNy45NTEgMTYuOTA0OUMyMTkuNDc1IDE4Ljg0NDcgMjIwLjIzNyAyMS40NDI2IDIyMC4yMzcgMjQuNjk4N0gyMDcuMzUyQzIwNy41MzYgMjYuMTA3NCAyMDguMDEgMjcuMjA0MyAyMDguNzcyIDI3Ljk4OTRDMjA5LjUzNCAyOC43NTE1IDIxMC41NzMgMjkuMTMyNSAyMTEuODg5IDI5LjEzMjVDMjEzLjYyMSAyOS4xMzI1IDIxNC43NjQgMjguNDA1MSAyMTUuMzE5IDI2Ljk1MDJIMjE5Ljk2QzIxOS42MTQgMjguNjEyOSAyMTguNzM2IDI5Ljk5ODUgMjE3LjMyOCAzMS4xMDY5QzIxNS45MTkgMzIuMjE1NCAyMTQuMTE4IDMyLjc2OTYgMjExLjkyNCAzMi43Njk2Wk0yMTEuNTQzIDE3LjYzMjNDMjA5LjI1NyAxNy42MzIzIDIwNy44ODMgMTguOTAyNCAyMDcuNDIxIDIxLjQ0MjZIMjE1LjMxOUMyMTUuMjQ5IDIwLjMxMTEgMjE0Ljg2OCAxOS4zOTg5IDIxNC4xNzUgMTguNzA2MkMyMTMuNDgzIDE3Ljk5MDMgMjEyLjYwNSAxNy42MzIzIDIxMS41NDMgMTcuNjMyM1pNMjI5LjYyMyAzMi43Njk2QzIyNy4wODIgMzIuNzY5NiAyMjUuMDk2IDMyLjIxNTQgMjIzLjY2NSAzMS4xMDY5QzIyMi4yMzMgMjkuOTc1NCAyMjEuNDQ4IDI4LjQzOTcgMjIxLjMwOSAyNi40OTk5SDIyNS42NzRDMjI1Ljk3NCAyOC40NjI4IDIyNy4yNjcgMjkuNDQ0MiAyMjkuNTUzIDI5LjQ0NDJDMjMwLjU5MiAyOS40NDQyIDIzMS4zODkgMjkuMjU5NSAyMzEuOTQzIDI4Ljg5QzIzMi41MjEgMjguNTIwNSAyMzIuODA5IDI4LjAyNCAyMzIuODA5IDI3LjQwMDVDMjMyLjgwOSAyNy4xNjk2IDIzMi43NjMgMjYuOTYxOCAyMzIuNjcxIDI2Ljc3N0MyMzIuNjAxIDI2LjU5MjMgMjMyLjQ2MyAyNi40MzA2IDIzMi4yNTUgMjYuMjkyMUMyMzIuMDcgMjYuMTMwNCAyMzEuODk3IDI2LjAwMzQgMjMxLjczNiAyNS45MTExQzIzMS41OTcgMjUuODE4NyAyMzEuMzQzIDI1LjcyNjMgMjMwLjk3MyAyNS42MzRDMjMwLjYwNCAyNS41NDE2IDIzMC4zMTUgMjUuNDcyMyAyMzAuMTA3IDI1LjQyNjFDMjI5LjkyMyAyNS4zNzk5IDIyOS41ODggMjUuMzIyMiAyMjkuMTAzIDI1LjI1MjlDMjI4LjY0MSAyNS4xNjA2IDIyOC4zMTggMjUuMDkxMyAyMjguMTMzIDI1LjA0NTFDMjI3LjE2MyAyNC44NjAzIDIyNi4zNjYgMjQuNjc1NiAyMjUuNzQzIDI0LjQ5MDlDMjI1LjE0MyAyNC4yODMgMjI0LjUwOCAyMy45OTQ0IDIyMy44MzggMjMuNjI0OUMyMjMuMTY4IDIzLjIzMjMgMjIyLjY2IDIyLjcxMjcgMjIyLjMxNCAyMi4wNjYxQzIyMS45OSAyMS4zOTY0IDIyMS44MjkgMjAuNTk5OCAyMjEuODI5IDE5LjY3NkMyMjEuODI5IDE3LjgyODYgMjIyLjQ5OCAxNi40MiAyMjMuODM4IDE1LjQ1MDFDMjI1LjIgMTQuNDgwMiAyMjYuOTQ0IDEzLjk5NTMgMjI5LjA2OCAxMy45OTUzQzIzMS4zNTQgMTMuOTk1MyAyMzMuMTQ0IDE0LjUyNjQgMjM0LjQzNyAxNS41ODg2QzIzNS43NTQgMTYuNjI3OCAyMzYuNTA0IDE4LjA1OTYgMjM2LjY4OSAxOS44ODM5SDIzMi40MjhDMjMyLjI0NCAxOC4xNTE5IDIzMS4xIDE3LjI4NiAyMjguOTk5IDE3LjI4NkMyMjguMDUyIDE3LjI4NiAyMjcuMzAyIDE3LjQ1OTIgMjI2Ljc0NyAxNy44MDU1QzIyNi4yMTYgMTguMTUxOSAyMjUuOTUxIDE4LjYzNjkgMjI1Ljk1MSAxOS4yNjA0QzIyNS45NTEgMTkuNDY4MiAyMjUuOTg1IDE5LjY2NDUgMjI2LjA1NSAxOS44NDkyQzIyNi4xNDcgMjAuMDEwOSAyMjYuMjg2IDIwLjE2MSAyMjYuNDcgMjAuMjk5NUMyMjYuNjc4IDIwLjQxNSAyMjYuODc1IDIwLjUxODkgMjI3LjA1OSAyMC42MTEzQzIyNy4yNDQgMjAuNjgwNiAyMjcuNTEgMjAuNzYxNCAyMjcuODU2IDIwLjg1MzhDMjI4LjIwMiAyMC45MjMxIDIyOC41MDMgMjAuOTkyMyAyMjguNzU3IDIxLjA2MTZDMjI5LjAxMSAyMS4xMDc4IDIyOS4zNTcgMjEuMTc3MSAyMjkuNzk2IDIxLjI2OTRDMjMwLjIzNCAyMS4zMzg3IDIzMC41ODEgMjEuMzk2NCAyMzAuODM1IDIxLjQ0MjZDMjMxLjU3NCAyMS42MDQzIDIzMi4xNzQgMjEuNzU0NCAyMzIuNjM2IDIxLjg5MjlDMjMzLjEyMSAyMi4wMDg0IDIzMy42NzUgMjIuMjE2MiAyMzQuMjk5IDIyLjUxNjRDMjM0LjkyMiAyMi43OTM2IDIzNS40MDcgMjMuMTE2OSAyMzUuNzU0IDIzLjQ4NjNDMjM2LjEyMyAyMy44MzI3IDIzNi40MzUgMjQuMzE3NyAyMzYuNjg5IDI0Ljk0MTJDMjM2Ljk2NiAyNS41NDE2IDIzNy4xMDUgMjYuMjQ1OSAyMzcuMTA1IDI3LjA1NDJDMjM3LjEwNSAyOC44MDkyIDIzNi40MTIgMzAuMjA2MyAyMzUuMDI2IDMxLjI0NTVDMjMzLjY2NCAzMi4yNjE1IDIzMS44NjMgMzIuNzY5NiAyMjkuNjIzIDMyLjc2OTZaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K)](/)Secure
+staking with leading blockchain infrastructure provider
+
+LN Tech FZE,  
+Saif Suite X3-46,  
+SAIF Zone, Sharjah, UAE
+
+[![](data:image/svg+xml;charset=utf-8,%3Csvg%20height='288'%20width='462'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%3E%3C/svg%3E)![Verified
+badge](/static/6ba07c96436f2c9565f80d24555d7bac/edf67/vsp-pro.svg)![Verified
+badge](/static/6ba07c96436f2c9565f80d24555d7bac/edf67/vsp-
+pro.svg)](https://www.stakingrewards.com/savings/luganodes/)
+
+Products[Staking](/product/staking/)
+
+[EigenLayer Staking](/product/eigenlayer/)
+
+[zkRaaS](/product/zkraas/)
+
+[Staking API](/product/stakingapi/)
+
+[Managed Nodes](/product/managednodes/)
+
+[Terminal](/product/luganodesterminal/)
+
+ResourceClient Types
+
+[Custodian](/client/custodian/)[Exchanges](/client/exchanges/)[Investors
+(VCs)](/client/investors/)
+
+Case Studies
+
+[CoinList](/case-study/Coinlist_CS/)[Bitfinex](/case-study/Bitfinex_CS/)
+
+[Blog](/blog/)
+
+[Staking Guides](/blog/?interval=3&category=Guides#blog-list)
+
+[Newsletter](/#signup)
+
+[Docs](https://docs.luganodes.com/)
+
+Company[About us](/aboutus/)
+
+[Get in Touch](/#getInTouch)
+
+[Security](https://security.luganodes.com/)
+
+Social[Twitter](https://twitter.com/luganodes)
+
+[LinkedIn](https://www.linkedin.com/company/luganodes/)
+
+[Telegram](https://t.me/luganodesofficial/)
+
+[Medium](https://medium.com/luganodes)
+
+[YouTube](https://www.youtube.com/@luganodes)
+
+[Terms of use](/termsofservice/)[Privacy Policy](/privacypolicy/)
+
+© 2024 Luganodes | All rights reserved
+
+[Terms of use](/termsofservice/)[Privacy Policy](/privacypolicy/)
+
