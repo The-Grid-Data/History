@@ -1,0 +1,11 @@
+{
+    "target_url": "https://solana.com/rpc",
+    "domains": {
+        "cdn.builder.io": [
+            "https://cdn.builder.io/api/v1/pixel?apiKey=ce0c7323a97a4d91bd0baa7490ec9139"
+        ],
+        "solana.com": [
+            "https://solana.com/_next/static/media/logotype.e4df684f.svg"
+        ]
+    }
+}

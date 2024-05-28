@@ -1,0 +1,89 @@
+{
+    "target_url": "https://solana.com/rpc",
+    "domains": {
+        "api.devnet.solana.com": [
+            "https://api.devnet.solana.com/"
+        ],
+        "api.mainnet-beta.solana.com": [
+            "https://api.mainnet-beta.solana.com/"
+        ],
+        "api.testnet.solana.com": [
+            "https://api.testnet.solana.com/"
+        ],
+        "blockdaemon.com": [
+            "https://blockdaemon.com/marketplace/solana/"
+        ],
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "chainflow.io": [
+            "https://chainflow.io/contact/"
+        ],
+        "chainstack.com": [
+            "https://chainstack.com/build-better-with-solana/"
+        ],
+        "datahub.figment.io": [
+            "https://datahub.figment.io/sign_up?service=solana"
+        ],
+        "docs.solana.com": [
+            "https://docs.solana.com/developing/test-validator"
+        ],
+        "genesysgo.com": [
+            "https://genesysgo.com/"
+        ],
+        "getblock.io": [
+            "https://getblock.io/nodes/sol/"
+        ],
+        "helius.xyz": [
+            "https://helius.xyz/"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "nownodes.io": [
+            "https://nownodes.io/nodes/solana-sol"
+        ],
+        "rpc.ankr.com": [
+            "https://rpc.ankr.com/solana",
+            "https://rpc.ankr.com/solana_devnet"
+        ],
+        "solana.com": [
+            "https://solana.com/",
+            "https://solana.com/branding",
+            "https://solana.com/discord",
+            "https://solana.com/ecosystem",
+            "https://solana.com/github",
+            "https://solana.com/news",
+            "https://solana.com/newsletter",
+            "https://solana.com/privacy-policy",
+            "https://solana.com/privacy-policy#collection-of-information",
+            "https://solana.com/reddit",
+            "https://solana.com/telegram",
+            "https://solana.com/tos",
+            "https://solana.com/twitter",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/delegation-program",
+            "https://solana.org/grants"
+        ],
+        "syndica.io": [
+            "https://syndica.io/"
+        ],
+        "triton.one": [
+            "https://triton.one/"
+        ],
+        "www.alchemy.com": [
+            "https://www.alchemy.com/solana"
+        ],
+        "www.ankr.com": [
+            "https://www.ankr.com/"
+        ],
+        "www.blockdaemon.com": [
+            "https://www.blockdaemon.com/protocols/solana"
+        ],
+        "www.quicknode.com": [
+            "https://www.quicknode.com/chains/sol"
+        ]
+    }
+}
