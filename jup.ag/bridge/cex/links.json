@@ -1,0 +1,41 @@
+{
+    "target_url": "https://jup.ag/bridge/cex",
+    "domains": {
+        "discord.gg": [
+            "https://discord.gg/jup"
+        ],
+        "help.coinbase.com": [
+            "https://help.coinbase.com/en-gb/coinbase/trading-and-funding/buying-selling-or-converting-crypto/how-do-i-sell-or-cash-out-my-digital-currency"
+        ],
+        "jup.ag": [
+            "https://jup.ag/",
+            "https://jup.ag/bridge-compare",
+            "https://jup.ag/bridge/cctp",
+            "https://jup.ag/bridge/cex",
+            "https://jup.ag/bridge/debridge",
+            "https://jup.ag/bridge/onramp",
+            "https://jup.ag/dca/USDC-SOL",
+            "https://jup.ag/limit/USDC-SOL",
+            "https://jup.ag/perps",
+            "https://jup.ag/swap/USDC-SOL"
+        ],
+        "station.jup.ag": [
+            "https://station.jup.ag/guides"
+        ],
+        "twitter.com": [
+            "https://twitter.com/JupiterExchange"
+        ],
+        "www.binance.com": [
+            "https://www.binance.com/en/support/faq/how-to-withdraw-crypto-from-binance-115003670492"
+        ],
+        "www.bybit.com": [
+            "https://www.bybit.com/en/help-center/article/How-to-submit-on-chain-withdrawal-request"
+        ],
+        "www.okx.com": [
+            "https://www.okx.com/help/how-do-i-make-a-withdrawal-app#on-chain-withdrawal"
+        ],
+        "www.reddit.com": [
+            "https://www.reddit.com/r/jupiterexchange"
+        ]
+    }
+}
