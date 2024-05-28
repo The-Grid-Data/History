@@ -1,0 +1,17 @@
+{
+    "target_url": "https://www.binance.com/en/download",
+    "domains": {
+        "bin.bnbstatic.com": [
+            "https://bin.bnbstatic.com/static/images/common/logo.png",
+            "https://bin.bnbstatic.com/static/images/downloadPage/authenticator_dark.png",
+            "https://bin.bnbstatic.com/static/images/downloadPage/fast-trade.png",
+            "https://bin.bnbstatic.com/static/images/downloadPage/lowest-fee.png",
+            "https://bin.bnbstatic.com/static/images/downloadPage/most-security.png",
+            "https://bin.bnbstatic.com/static/images/downloadPage/motion_app_dark.png"
+        ],
+        "cdn.cookielaw.org": [
+            "https://cdn.cookielaw.org/logos/99f99939-5a0d-4feb-aef3-ba45f16b6907/5bfb9945-c83c-46f9-8bd7-55e8fd1975b5/02e50907-93f6-477d-a8a2-d581dace49c2/binance-h.png",
+            "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg"
+        ]
+    }
+}
