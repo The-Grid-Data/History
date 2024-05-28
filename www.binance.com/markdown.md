@@ -61,7 +61,7 @@ Options](https://www.binance.com/en/download?utm_source=&utm_campaign=)
 
 #
 
-194,788,051
+194,944,199
 
 USERS
 
@@ -84,23 +84,23 @@ Popular
 
 New Listing
 
-[BTCBitcoin$69,652.81+1.36%](/en/price/bitcoin)[ETHEthereum$3,891.82+0.74%](/en/price/ethereum)[BNBBNB$604.90+0.82%](/en/price/bnb)[XRPRipple$0.5351+0.98%](/en/price/xrp)
+[BTCBitcoin$68,489.16-0.12%](/en/price/bitcoin)[ETHEthereum$3,905.51+0.22%](/en/price/ethereum)[BNBBNB$602.60+0.15%](/en/price/bnb)[XRPRipple$0.5308+0.34%](/en/price/xrp)
 
 [View All 350+ Coins](/en/register?registerChannel=homepage)
 
-[NOTNotcoin$0.0083+58.04%](/en/trade/NOT_USDT)[BBBounceBit$0.6771-4.27%](/en/trade/BB_USDT)[REZRenzo$0.1572-2.00%](/en/trade/REZ_USDT)[OMNIOmni
-Network$19.92+4.79%](/en/trade/OMNI_USDT)
+[NOTNotcoin$0.009563+34.99%](/en/trade/NOT_USDT)[BBBounceBit$0.6272-10.18%](/en/trade/BB_USDT)[REZRenzo$0.1502-4.15%](/en/trade/REZ_USDT)[OMNIOmni
+Network$19.29-4.65%](/en/trade/OMNI_USDT)
 
 [View More Coins](/markets/newListing)
 
-[Normie Token Value Plummets Following Smart Contract
-Exploit](https://www.binance.com/en/square/post/8678748044753)[Ethereum(ETH)
-Drops Below 3,900 USDT with a Narrowed 0.70% Increase in 24
-Hours](https://www.binance.com/en/square/post/8677420190505)[Uniswap
-Foundation Reveals Financials Ahead of Community
-Vote](https://www.binance.com/en/square/post/8673602313969)[Solana (SOL)
-Breaks Through170.00 USDT with an Increase of 5.57% in 24
-Hours](https://www.binance.com/en/square/post/8672227414369)
+[European Central Bank Anticipates Two, Possibly Three, Interest Rate Cuts in
+2024](https://www.binance.com/en/square/post/8708333108801)[Bitcoin and
+Ethereum ETFs Predicted to Reach $450 Billion
+Market](https://www.binance.com/en/square/post/8707753754634)[Mt. Gox Cold
+Wallet Address Consolidates All BTC, Prepares for Creditor
+Repayment](https://www.binance.com/en/square/post/8707566753633)[Digital Asset
+Investment Products Witness Third Consecutive Week of
+Inflows](https://www.binance.com/en/square/post/8706806141906)
 
 [View All News](/en/register?registerChannel=homepage_square)
 
@@ -209,6 +209,102 @@ Start earning today
 
 [](https://discord.gg/jE4wt8g2H2)[](https://www.binance.com/en/community)[](https://www.tiktok.com/@binance?lang=en)[](https://www.facebook.com/binance)[](https://twitter.com/binance)[](https://www.reddit.com/r/binance)[](https://www.instagram.com/Binance/)[](https://coinmarketcap.com/exchanges/binance/)[](https://www.youtube.com/binanceyoutube)[](https://www.binance.com/en/community)
 
+English
+
+English
+
+العربية
+
+العربية (البحرين)
+
+български
+
+Čeština
+
+Dansk
+
+Deutsch (Schweiz)
+
+Ελληνικά
+
+English (UAE)
+
+English (Australia)
+
+English (Bahrain)
+
+English (India)
+
+English (Japan)
+
+English (Kazakhstan)
+
+English (Nigeria)
+
+English (New Zealand)
+
+English (South Africa)
+
+Español (España)
+
+Español (Argentina)
+
+Español (Latinoamérica)
+
+Español (México)
+
+Français
+
+Français (Afrique)
+
+magyar nyelv
+
+Bahasa Indonesia
+
+Italiano
+
+日本語
+
+Қазақша (Қазақстан)
+
+Қазақша
+
+ລາວ
+
+latviešu valoda
+
+Polski
+
+Português
+
+Português (Brasil)
+
+Română
+
+Русский
+
+Русский (Казахстан)
+
+Русский (Украина)
+
+සිංහල
+
+Slovenčina
+
+Slovenščina
+
+Svenska
+
+Türkçe
+
+Українська
+
+Tiếng Việt
+
+简体中文
+
+繁體中文
+
 USD-$
 
 USD-$
@@ -310,6 +406,8 @@ VND-₫
 ZAR-R
 
 Theme
+
+English
 
 USD
 
