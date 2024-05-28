@@ -1,0 +1,192 @@
+{
+    "target_url": "https://www.binance.com/blog/charity",
+    "domains": {
+        "academy.binance.com": [
+            "https://academy.binance.com/en",
+            "https://academy.binance.com/en/learn-and-earn"
+        ],
+        "accounts.binance.com": [
+            "https://accounts.binance.com/en/login?loginChannel=blog&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vYmxvZy9jaGFyaXR5",
+            "https://accounts.binance.com/en/register?registerChannel=blog&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vYmxvZy9jaGFyaXR5"
+        ],
+        "c2c.binance.com": [
+            "https://c2c.binance.com/en/merchantApplication"
+        ],
+        "coinmarketcap.com": [
+            "https://coinmarketcap.com/exchanges/binance/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/jE4wt8g2H2"
+        ],
+        "labs.binance.com": [
+            "https://labs.binance.com/"
+        ],
+        "launchpad.binance.com": [
+            "https://launchpad.binance.com/en"
+        ],
+        "p2p.binance.com": [
+            "https://p2p.binance.com/en",
+            "https://p2p.binance.com/en/p2pro"
+        ],
+        "pool.binance.com": [
+            "https://pool.binance.com/en"
+        ],
+        "twitter.com": [
+            "https://twitter.com/binance"
+        ],
+        "www.binance.charity": [
+            "https://www.binance.charity"
+        ],
+        "www.binance.com": [
+            "https://www.binance.com/blog/adoption",
+            "https://www.binance.com/blog/charity",
+            "https://www.binance.com/blog/charity/binance-charity-binance-fan-token-and-ss-lazio-team-up-for-social-change-6574296814133850272?lang=en",
+            "https://www.binance.com/blog/charity/binance-charity-chats-crypto-donations-and-hope-for-haitis-earthquake-response-6250870064065955856?lang=en",
+            "https://www.binance.com/blog/charity/binance-charity-partners-with-children-of-heroes-foundation-to-support-waraffected-children-in-ukraine-7115901822620160523?lang=en",
+            "https://www.binance.com/blog/charity/binance-charity-to-airdrop-up-to-$1-million-in-bnb-to-users-in-the-taiwan-earthquake-region-501976512401167359?lang=en",
+            "https://www.binance.com/blog/charity/binance-charity-to-donate-up-to-$1-million-in-bnb-to-users-in-the-floodimpacted-cities-in-rio-grande-do-sul-brazil-8987111868659535997?lang=en",
+            "https://www.binance.com/blog/charity/binance-to-airdrop-up-to-$3-million-in-bnb-to-users-in-the-morocco-earthquake-region-6962526806416134014?lang=en",
+            "https://www.binance.com/blog/charity/binance-to-airdrop-up-to-$500000-in-bnb-to-users-in-libya-to-support-flood-recovery-4855163196973898134?lang=en",
+            "https://www.binance.com/blog/charity/binance-to-issue-up-to-$100-usd-in-bnb-to-registered-users-in-the-hurricaneimpacted-acapulco-region-6989714124562365276?lang=en",
+            "https://www.binance.com/blog/charity/how-crypto-can-transform-charitable-giving-3187406124285774725?lang=en",
+            "https://www.binance.com/blog/charity/it-generation-program-empowering-ukrainians-with-tech-scholarships-1473202064819672027?lang=en",
+            "https://www.binance.com/blog/charity/simplified-proof-of-address-process-for-our-users-in-morocco-3035963902187021728?lang=en",
+            "https://www.binance.com/blog/charity/the-future-of-giving-is-digital-our-binance-charity-survey-results-6955281825869389734?lang=en",
+            "https://www.binance.com/blog/cloud",
+            "https://www.binance.com/blog/community",
+            "https://www.binance.com/blog/community/binances-proofofreserves-system-a-year-of-upgrading-user-assets-transparency-4884649095182408082?lang=en",
+            "https://www.binance.com/blog/community/binances-work-culture-explained-3162100666099872629?lang=en",
+            "https://www.binance.com/blog/compliance",
+            "https://www.binance.com/blog/earn",
+            "https://www.binance.com/blog/ecosystem",
+            "https://www.binance.com/blog/ecosystem/30-new-users-new-socialfi-and-web3-products-stronger-compliance-binances-yearend-report-is-here-5457065071414454523?lang=en",
+            "https://www.binance.com/blog/ecosystem/binance-web3-wallet-updates-simple-yield-yield-plus-and-more-for-may-8487062984098801985?lang=en",
+            "https://www.binance.com/blog/ecosystem/binancebuild-mar-2024-feedback-roundup-7176664428503996296?lang=en",
+            "https://www.binance.com/blog/ecosystem/building-trust-in-the-crypto-ecosystem-a-framework-for-centralized-exchanges-2708138591900927916?lang=en",
+            "https://www.binance.com/blog/exchangeblogcategoryall",
+            "https://www.binance.com/blog/fan-token",
+            "https://www.binance.com/blog/fiat",
+            "https://www.binance.com/blog/from-our-ceo",
+            "https://www.binance.com/blog/futures",
+            "https://www.binance.com/blog/gift-card",
+            "https://www.binance.com/blog/launchpad",
+            "https://www.binance.com/blog/leadership",
+            "https://www.binance.com/blog/loans",
+            "https://www.binance.com/blog/margin",
+            "https://www.binance.com/blog/markets",
+            "https://www.binance.com/blog/markets/binance-word-of-the-day-learn-crypto-and-earn-binance-points-2362064276305236228?lang=en",
+            "https://www.binance.com/blog/mining",
+            "https://www.binance.com/blog/nft",
+            "https://www.binance.com/blog/open-platform",
+            "https://www.binance.com/blog/otc",
+            "https://www.binance.com/blog/p2p",
+            "https://www.binance.com/blog/payments",
+            "https://www.binance.com/blog/regulation",
+            "https://www.binance.com/blog/research",
+            "https://www.binance.com/blog/research/binance-research-key-trends-in-crypto--may-2024-222998146545623677?lang=en",
+            "https://www.binance.com/blog/security",
+            "https://www.binance.com/blog/tax",
+            "https://www.binance.com/blog/tech",
+            "https://www.binance.com/blog/vip",
+            "https://www.binance.com/en",
+            "https://www.binance.com/en/BABT?source=footer",
+            "https://www.binance.com/en/about",
+            "https://www.binance.com/en/about-legal/privacy-portal",
+            "https://www.binance.com/en/activity/affiliate",
+            "https://www.binance.com/en/activity/referral?utm_source=Lite_web_footer",
+            "https://www.binance.com/en/airdrop",
+            "https://www.binance.com/en/altcoins/tradable",
+            "https://www.binance.com/en/auto-invest",
+            "https://www.binance.com/en/binance-api",
+            "https://www.binance.com/en/blog",
+            "https://www.binance.com/en/bnb",
+            "https://www.binance.com/en/buy-sell-crypto",
+            "https://www.binance.com/en/careers",
+            "https://www.binance.com/en/chat?sourceEntry=4",
+            "https://www.binance.com/en/community",
+            "https://www.binance.com/en/convert",
+            "https://www.binance.com/en/cookie-privacy",
+            "https://www.binance.com/en/copy-trading",
+            "https://www.binance.com/en/country-region-selector",
+            "https://www.binance.com/en/crypto/buy",
+            "https://www.binance.com/en/delivery",
+            "https://www.binance.com/en/desktop-download",
+            "https://www.binance.com/en/download",
+            "https://www.binance.com/en/download?utm_source=&utm_campaign=",
+            "https://www.binance.com/en/earn",
+            "https://www.binance.com/en/eoptions",
+            "https://www.binance.com/en/eth2",
+            "https://www.binance.com/en/fan-token",
+            "https://www.binance.com/en/fee/schedule",
+            "https://www.binance.com/en/futures",
+            "https://www.binance.com/en/futures/home",
+            "https://www.binance.com/en/gift-card",
+            "https://www.binance.com/en/how-to-buy/bitcoin",
+            "https://www.binance.com/en/how-to-buy/bnb",
+            "https://www.binance.com/en/how-to-buy/dogecoin",
+            "https://www.binance.com/en/how-to-buy/ethereum",
+            "https://www.binance.com/en/how-to-buy/xrp",
+            "https://www.binance.com/en/land/building_trust",
+            "https://www.binance.com/en/land/tradingview",
+            "https://www.binance.com/en/landing/data",
+            "https://www.binance.com/en/legal/home",
+            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens",
+            "https://www.binance.com/en/live",
+            "https://www.binance.com/en/loan",
+            "https://www.binance.com/en/markets/overview",
+            "https://www.binance.com/en/megadrop",
+            "https://www.binance.com/en/my/coin-apply",
+            "https://www.binance.com/en/my/user-support/feedback/entry",
+            "https://www.binance.com/en/my/wallet/account/payment",
+            "https://www.binance.com/en/nft/home",
+            "https://www.binance.com/en/official-verification",
+            "https://www.binance.com/en/otc",
+            "https://www.binance.com/en/press",
+            "https://www.binance.com/en/price",
+            "https://www.binance.com/en/price-prediction",
+            "https://www.binance.com/en/price-prediction/bitcoin",
+            "https://www.binance.com/en/price-prediction/ethereum",
+            "https://www.binance.com/en/price/bitcoin",
+            "https://www.binance.com/en/price/ethereum",
+            "https://www.binance.com/en/proof-of-reserves",
+            "https://www.binance.com/en/research",
+            "https://www.binance.com/en/risk-warning",
+            "https://www.binance.com/en/square",
+            "https://www.binance.com/en/square/news/all",
+            "https://www.binance.com/en/support",
+            "https://www.binance.com/en/support/announcement",
+            "https://www.binance.com/en/support/law-enforcement",
+            "https://www.binance.com/en/support/list/notices",
+            "https://www.binance.com/en/tax",
+            "https://www.binance.com/en/terms",
+            "https://www.binance.com/en/trade",
+            "https://www.binance.com/en/trade-rule",
+            "https://www.binance.com/en/trade/BTC_USDT?type=spot",
+            "https://www.binance.com/en/trade?type=cross",
+            "https://www.binance.com/en/trading-bots",
+            "https://www.binance.com/en/vip-institutional-services",
+            "https://www.binance.com/en/web3wallet"
+        ],
+        "www.bnbchain.org": [
+            "https://www.bnbchain.org"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/binance"
+        ],
+        "www.instagram.com": [
+            "https://www.instagram.com/Binance/"
+        ],
+        "www.onetrust.com": [
+            "https://www.onetrust.com/products/cookie-consent/"
+        ],
+        "www.reddit.com": [
+            "https://www.reddit.com/r/binance"
+        ],
+        "www.tiktok.com": [
+            "https://www.tiktok.com/@binance?lang=en"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/binanceyoutube"
+        ]
+    }
+}
