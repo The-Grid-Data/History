@@ -1,0 +1,134 @@
+{
+    "target_url": "https://www.ledger.com/ja",
+    "domains": {
+        "": [
+            "mailto:media@ledger.com"
+        ],
+        "co-branded.ledger.com": [
+            "https://co-branded.ledger.com/"
+        ],
+        "developers.ledger.com": [
+            "https://developers.ledger.com/"
+        ],
+        "discord.com": [
+            "https://discord.com/invite/ledger"
+        ],
+        "donjon.ledger.com": [
+            "https://donjon.ledger.com/bounty/"
+        ],
+        "enterprise.ledger.com": [
+            "https://enterprise.ledger.com/",
+            "https://enterprise.ledger.com?utm_source=mainsite&utm_medium=header"
+        ],
+        "quest.ledger.com": [
+            "https://quest.ledger.com/"
+        ],
+        "shop.ledger.com": [
+            "https://shop.ledger.com/ja",
+            "https://shop.ledger.com/ja/#category-accessories",
+            "https://shop.ledger.com/ja/#category__bundle",
+            "https://shop.ledger.com/ja/cart",
+            "https://shop.ledger.com/ja/pages/bitcoin-hardware-wallet",
+            "https://shop.ledger.com/ja/pages/hardware-wallets-comparison",
+            "https://shop.ledger.com/ja/pages/ledger-nano-s-plus",
+            "https://shop.ledger.com/ja/pages/ledger-nano-x",
+            "https://shop.ledger.com/ja/pages/ledger-recover",
+            "https://shop.ledger.com/ja/pages/ledger-stax",
+            "https://shop.ledger.com/ja/pages/privacy-notice#ledger-newsletter",
+            "https://shop.ledger.com/ja/pages/privacy-policy",
+            "https://shop.ledger.com/ja/pages/terms-and-conditions",
+            "https://shop.ledger.com/ja/products/ledger-nano-s-plus",
+            "https://shop.ledger.com/ja/products/ledger-nano-x",
+            "https://shop.ledger.com/ja/products/ledger-stax",
+            "https://shop.ledger.com/pages/disclaimers"
+        ],
+        "status.ledger.com": [
+            "https://status.ledger.com/"
+        ],
+        "support.ledger.com": [
+            "https://support.ledger.com/hc/ja"
+        ],
+        "twitter.com": [
+            "https://twitter.com/Ledger"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/Ledger/"
+        ],
+        "www.instagram.com": [
+            "https://www.instagram.com/ledger/"
+        ],
+        "www.ledger.com": [
+            "https://www.ledger.com/",
+            "https://www.ledger.com/ar",
+            "https://www.ledger.com/blog/we-are-ledger-a-brand-vision",
+            "https://www.ledger.com/de",
+            "https://www.ledger.com/es",
+            "https://www.ledger.com/fr",
+            "https://www.ledger.com/ja",
+            "https://www.ledger.com/ja/%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2",
+            "https://www.ledger.com/ja/academy",
+            "https://www.ledger.com/ja/academy/%E7%A7%98%E5%AF%86%E9%8D%B5%E3%82%92%E4%BF%9D%E8%AD%B7%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95",
+            "https://www.ledger.com/ja/academy/basic-basics/2-how-to-own-crypto/what-is-a-crypto-wallet",
+            "https://www.ledger.com/ja/academy/blockchain/what-are-public-keys-and-private-keys",
+            "https://www.ledger.com/ja/academy/glossary/cold-wallet",
+            "https://www.ledger.com/ja/academy/glossary/hot-wallet",
+            "https://www.ledger.com/ja/academy/what-is-web-30-everything-you-need-to-know",
+            "https://www.ledger.com/ja/bitcoin",
+            "https://www.ledger.com/ja/blog",
+            "https://www.ledger.com/ja/buy",
+            "https://www.ledger.com/ja/buy-bitcoin",
+            "https://www.ledger.com/ja/buy-bitcoin-how",
+            "https://www.ledger.com/ja/buy/ethereum",
+            "https://www.ledger.com/ja/cardano",
+            "https://www.ledger.com/ja/cathay",
+            "https://www.ledger.com/ja/coin/price",
+            "https://www.ledger.com/ja/coin/staking/cardano",
+            "https://www.ledger.com/ja/diversity",
+            "https://www.ledger.com/ja/ethereum",
+            "https://www.ledger.com/ja/join-us",
+            "https://www.ledger.com/ja/ledger%E3%82%AB%E3%83%BC%E3%83%89",
+            "https://www.ledger.com/ja/ledger%E3%82%B3%E3%83%A9%E3%83%9C%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3",
+            "https://www.ledger.com/ja/ledger-live",
+            "https://www.ledger.com/ja/ledger-wallets-and-services",
+            "https://www.ledger.com/ja/legal-center",
+            "https://www.ledger.com/ja/monero",
+            "https://www.ledger.com/ja/partners",
+            "https://www.ledger.com/ja/phishing-campaigns-status",
+            "https://www.ledger.com/ja/press",
+            "https://www.ledger.com/ja/recover",
+            "https://www.ledger.com/ja/reseller",
+            "https://www.ledger.com/ja/ripple",
+            "https://www.ledger.com/ja/staking",
+            "https://www.ledger.com/ja/staking-ethereum",
+            "https://www.ledger.com/ja/staking/ledger-node/cosmos",
+            "https://www.ledger.com/ja/staking/ledger-node/solana",
+            "https://www.ledger.com/ja/start",
+            "https://www.ledger.com/ja/supported-crypto-assets",
+            "https://www.ledger.com/ja/supported-services",
+            "https://www.ledger.com/ja/swap",
+            "https://www.ledger.com/ja/tether",
+            "https://www.ledger.com/ja/the-company",
+            "https://www.ledger.com/ja/the-people-behind-ledger",
+            "https://www.ledger.com/ko",
+            "https://www.ledger.com/pt-br",
+            "https://www.ledger.com/ru",
+            "https://www.ledger.com/tr",
+            "https://www.ledger.com/zh-hans"
+        ],
+        "www.ledgerwallet.com": [
+            "https://www.ledgerwallet.com/affiliates/"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/ledgerhq"
+        ],
+        "www.reddit.com": [
+            "https://www.reddit.com/r/ledgerwallet/"
+        ],
+        "www.tiktok.com": [
+            "https://www.tiktok.com/@ledger"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/Ledger"
+        ]
+    }
+}
