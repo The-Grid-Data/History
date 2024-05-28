@@ -1,0 +1,727 @@
+<!DOCTYPE html><html lang="ja"><head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>ãã©ã¤ãã·ã¼ - Bitcoin</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+
+<script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.orgã¯ã³ãã¥ããã£ã®æ¯æ´éã«ãã£ã¦æãç«ã¤ãã­ã¸ã§ã¯ãã§ãããé ããå¯ä»ã¯ãæ¬ã¦ã§ããµã¤ãã®æ¹åã«ä½¿ç¨ãã¾ãã
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        å¯ä»ãã
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.orgã«ã¯ãµãã¼ããå¿è¦ã§ãï¼
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">Bitcoin.orgã«å¯ä»ãã</p>
+    </div>
+    <p class="modal-subheader">ãã®QRã³ã¼ãã¾ãã¯ä»¥ä¸ã®ã¢ãã¬ã¹ãä½¿ç¨ãã</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="ã¾ãã¯èªåã§éé¡ãè¨­å®ãã¾ããï¼ (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="ã¾ãã¯èªåã§éé¡ãè¨­å®ãã¾ããï¼ (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="ï¼åã¦ã¼ã¶ã¼ã®ã¦ã©ã¬ããã®ããã®ï¼è¿½å ã®è¨è¿°"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="/ja/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">ç´¹ä»</a>
+    <ul>
+      <li><a href="/ja/bitcoin-for-individuals">åäºº</a></li>
+      <li><a href="/ja/bitcoin-for-businesses">ãã¸ãã¹</a></li>
+      <li><a href="https://developer.bitcoin.org/">éçºè</a></li>
+      <li><a href="/ja/getting-started">éå§ãã</a></li>
+      <li><a href="/ja/how-it-works">ãããã³ã¤ã³ã®ä»çµã¿</a></li>
+      
+      <li><a href="/ja/bitcoin-paper">ãã¯ã¤ããã¼ãã¼</a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">ãªã½ã¼ã¹</a>
+    <ul>
+      <li><a href="/ja/resources">ãªã½ã¼ã¹</a>
+      </li><li><a href="/ja/exchanges">åå¼æ</a></li>
+      <li><a href="/ja/community">ã³ãã¥ããã£</a></li>
+      
+      
+      <li><a href="/ja/vocabulary">ç¨èª</a></li>
+      <li><a href="/ja/events">ã¤ãã³ã</a></li>
+      
+        <li><a href="/ja/download">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li><a href="/ja/innovation">é©æ°</a></li>
+  <li><a class="is-expand">åå </a>
+    <ul>
+      <li><a href="/ja/support-bitcoin">ãããã³ã¤ã³ãæ¯æ´</a>
+      </li><li><a href="/ja/buy">ãããã³ã¤ã³ãè³¼å¥</a></li>
+      
+      <li><a href="/ja/development">éçº</a></li>
+    </ul>
+  </li>
+  <li><a href="/ja/faq">ããããè³ªå</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>æ¥æ¬èª</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/privasi">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/privacitat">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/privatliv">Dansk</a></li>
+        
+        
+          <li><a href="/de/privatsphaere">Deutsch</a></li>
+        
+        
+          <li><a href="/en/privacy">English</a></li>
+        
+        
+          <li><a href="/es/">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/confidentialite">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/privacy">Italiano</a></li>
+        
+        
+          <li><a href="/hu/adatvedelem">Magyar</a></li>
+        
+        
+          <li><a href="/nl/privacy">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/prywatnosc">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/privacidade">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/confidentialitate">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/privatnost">Srpski</a></li>
+        
+        
+          <li><a href="/sv/integritet">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/gizlilik">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/privacy">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/privacy">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/privacy">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/privacy">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/privacy">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/privacy">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/privacy">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/privacy">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/privacy">ááááá</a></li>
+        
+        
+          <li><a href="/ja/privacy" class="active">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/privacy">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/privacy">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/privasi">Bahasa Indonesia</option>
+            
+            <option value="/ca/privacitat">CatalÃ </option>
+            
+            <option value="/da/privatliv">Dansk</option>
+            
+            <option value="/de/privatsphaere">Deutsch</option>
+            
+            <option value="/en/privacy">English</option>
+            
+            <option value="/es/">EspaÃ±ol</option>
+            
+            <option value="/fr/confidentialite">FranÃ§ais</option>
+            
+            <option value="/it/privacy">Italiano</option>
+            
+            <option value="/hu/adatvedelem">Magyar</option>
+            
+            <option value="/nl/privacy">Nederlands</option>
+            
+            <option value="/pl/prywatnosc">Polski</option>
+            
+            <option value="/pt_BR/privacidade">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/confidentialitate">RomÃ¢nÄ</option>
+            
+            <option value="/sl/">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/privatnost">Srpski</option>
+            
+            <option value="/sv/integritet">Svenska</option>
+            
+            <option value="/tr/gizlilik">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/privacy">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/privacy">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/privacy">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/privacy">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/privacy">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/privacy">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/">×¢××¨××ª</option>
+            
+            <option value="/hi/privacy">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/privacy">íêµ­ì´</option>
+            
+            <option value="/km/privacy">ááááá</option>
+            
+            <option value="/ja/privacy" selected="selected">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/privacy">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/privacy">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">ja</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  <div class="hero">
+  <div class="container hero-container">
+    <h1>ãã©ã¤ãã·ã¼</h1>
+  </div>
+</div>
+
+<div class="privacy">
+  <div class="container">
+    <p>ãã®ãã¼ã¸ã§ã¯ãå½ã¦ã§ããµã¤ãï¼ https://bitcoin.org ï¼ã®ã¦ã¼ã¶ã¼ã®åäººæå ±ã®åéã¨ä½¿ç¨ãããã¦éç¤ºã«é¢ããããªã·ã¼ãèª¬æãã¾ããå½ã¦ã§ããµã¤ãã§ã¯ãã¦ã¼ã¶ã¼ã®å©ç¨æ¹æ³ã®æ´ãªãçè§£ããã©ãã£ãã¯çµ±è¨åéã®ããã«ãåäººæå ±ãä½¿ç¨ãã¾ãã</p>
+  
+    <p>å½ãµã¤ããä½¿ç¨ããäºã§ãåã¦ã¼ã¶ã¼ã¯ããªã·ã¼ã«å¾ããæå ±ã®åéã¨å©ç¨ã«åæããäºã«ãªãã¾ãã</p>
+  
+    <h2 id="logdata" class=" anchorAf"><a href="#logdata"></a>ã­ã°ãã¼ã¿</h2>
+    <p>å¤ãã®ã¦ã§ããµã¤ãã¨åæ§ãå½ã¦ã§ããµã¤ãã¯ã¦ã¼ã¶ã¼ãã¢ã¯ã»ã¹ããåº¦ã«ãã©ã¦ã¶ã®éä¿¡æå ±ï¼ãã­ã°ãã¼ã¿ãï¼ãåéãã¾ãããã®ã­ã°ãã¼ã¿ã«ã¯ããä½¿ç¨ããã¦ããã³ã³ãã¥ã¼ã¿ã®ã¤ã³ã¿ã¼ããããã­ãã³ã«ï¼ãIPãï¼ã¢ãã¬ã¹ï¼æå¾ã®ãã¤ããç½®æãããã®ï¼ããã©ã¦ã¶ã®ç¨®é¡ããã©ã¦ã¶ã®ãã¼ã¸ã§ã³ãè¨ªåããå½ã¦ã§ããµã¤ãã®ãã¼ã¸ãè¨ªåæ¥æãåãã¼ã¸ã®é²è¦§ã«è²»ãããæéããã®ä»çµ±è¨ãå«ã¾ãã¾ãã</p>
+  
+    <h2 id="cookies" class=" anchorAf"><a href="#cookies"></a>ã¯ãã­ã¼</h2>
+    <p>ã¯ãã­ã¼ã¯å°éãã¼ã¿ãæã¤ãã¡ã¤ã«ã§ãå¿åã®ä¸æè­å¥å­ãå«ã¾ãã¦ããå¯è½æ§ãããã¾ããã¯ãã­ã¼ã¯ã¦ã§ããµã¤ããããã©ã¦ã¶ã«éä¿¡ãããã³ã³ãã¥ã¼ã¿ã®ãã¼ããã©ã¤ãã«ä¿å­ããã¾ãããã©ã¦ã¶ã§ã¯ãå¨ã¦ã®ã¯ãã­ã¼ãç¡å¹ã«ããããã¯ãã­ã¼ãã©ã®æ§ãªå ´åã«éä¿¡ãããããè¨­å®ããäºãã§ãã¾ãããã ããã¯ãã­ã¼ãæå¹ã«ããªãå ´åããµã¤ãã®ä¸é¨ãå©ç¨ã§ããªãå¯è½æ§ãããã¾ãã</p>
+  
+    <p>å½ã¦ã§ããµã¤ãã¯ä»¥ä¸ã®ç®çã§ã¯ãã­ã¼ãä½¿ç¨ãã¾ããï¼</p>
+    <ul>
+      <li>ã¯ãã­ã¼ã®åè²¬æ¡é ã§ã¦ã¼ã¶ã¼ããOKããã¿ã³ãæ¼ããããã©ãããè¿½è·¡ãã¦ãããããæ¼ããã¦ããã°ãéç¥ãè¡ãã¾ããã</li>
+      <li>å½ã¦ã§ããµã¤ãã®è§£æã½ããã¦ã§ã¢ï¼Google Analyticsï¼ã¯ãå½ã¦ã§ããµã¤ãã®ã¦ã¼ã¶ã¼ã¤ã³ã¿ã©ã¯ã·ã§ã³ã®è¨æ¸¬ã¨æ´ãªãçè§£ã®ããã«ãã¯ãã­ã¼ãå©ç¨ãã¾ããGoogle Analyticsãã©ã®æ§ã«ã¯ãã­ã¼ãå©ç¨ãããã«ã¤ãã¦ã®è©³ç´°ã¯<a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage">ãã¡ã</a>ã«è¨è¼ããã¦ãã¾ãã</li>
+    </ul>
+  
+    <h2 id="analytics" class=" anchorAf"><a href="#analytics"></a>Google Analytics</h2>
+    <p>å½ã¦ã§ããµã¤ãã§ã¯ãGoogleãæä¾ãããµã¼ããã¼ãã£ã®JavaScriptãã©ã°ã¤ã³ãGoogle Analyticsããä½¿ç¨ãã¦ãæç¨ãªãã©ãã£ãã¯çµ±è¨æå ±ã®æä¾ãåããåã¦ã¼ã¶ã¼ãã©ã®æ§ã«å½ã¦ã§ããµã¤ããä½¿ç¨ãã¦ãããã®çè§£ã«åªãã¦ãã¾ããå½ã¦ã§ããµã¤ãã¯Google Analyticsããå¥æããæå ±ã«ç´æ¥ã¢ã¯ã»ã¹ããäºã¯ã§ãã¾ããããããã·ã¥ãã¼ããéãã¦æ¦è¦ãæä¾ããã¦ãã¾ãã</p>
+  
+    <p>å½ã¦ã§ããµã¤ãã¯ãGoogle Analyticsããåå¾ããæå ±ããå½ã¦ã§ããµã¤ãã«åºåãæ²è¼ããäºã«èå³ããããã¸ãã¹ãã¼ããã¼ã¨å±æããå ´åãããã¾ãããã¸ãã¹ãã¼ããã¼ã¨å±æããæå ±ã«åäººè­å¥æå ±ã¯å«ã¾ãã¾ããï¼å½ã¦ã§ããµã¤ãã¯Googleã®ãã¼ã¿ã«ç´æ¥ã¢ã¯ã»ã¹ããäºã¯ã§ããªããããåäººè­å¥æå ±ã®ç¢ºèªã¯ã§ãã¾ãããï¼ã</p>
+  
+    <p>Google Analyticsãªããã¢ã¦ããã©ã¦ã¶ã¢ããªã³ããã¦ã³ã­ã¼ãããäºã§ãGoogle Analyticsã«ããæå ±åéããªããã¢ã¦ãããäºãã§ãã¾ããããã«ãããã¦ã¼ã¶ã¼ã®æå ±ãGoogle Analyticsã§ä½¿ç¨ãããªããªãã¾ãããããè¡ã£ã¦ããå½ã¦ã§ããµã¤ãã®ãå©ç¨ã«ã¯å½±é¿ãã¾ããããªããã¢ã¦ããã©ã¦ã¶ã®ã¢ããªã³ã¯<a href="https://tools.google.com/dlpage/gaoptout">ãã¡ãã®ãã¼ã¸</a>ãããã¦ã³ã­ã¼ãã§ãã¾ããå½ã¦ã§ããµã¤ãã§ã¯Do Not Trackãããã¼ãå°éããDo Not Trackããªã³ã«ããã¦ã¼ã¶ã¼ãè¿½è·¡ãã¾ããã</p>
+  
+    <h2 id="changes" class=" anchorAf"><a href="#changes"></a>å½ãã©ã¤ãã·ã¼ããªã·ã¼ã®å¤æ´</h2>
+    <p>å½ã¦ã§ããµã¤ãã¯ããã©ã¤ãã·ã¼ããªã·ã¼ãéææ´æ°ããå ´åãããã¾ããå½ã¦ã§ããµã¤ãä¸ã«æ°ãããã©ã¤ãã·ã¼ããªã·ã¼ãæ²è¼ããäºã«ãããåã¦ã¼ã¶ã¼ã«å¤æ´åå®¹ãéç¥ãã¾ããå¤æ´ã«åãããã®ãã©ã¤ãã·ã¼ããªã·ã¼ãå®æçã«ç¢ºèªãããäºããå§ããã¾ãã</p>
+  
+    <p>ãã®ãã©ã¤ãã·ã¼ããªã·ã¼ã¯æçµæ´æ°ããã¾ãã: 5th July, 2016.</p>
+  
+    <h2 id="contact" class=" anchorAf"><a href="#contact"></a>ãåãåãã</h2>
+    <p>å½ã¦ã§ããµã¤ãã®ãã©ã¤ãã·ã¼ããªã·ã¼ããåã¦ã¼ã¶ã¼ã®ãã¼ã¿ãã©ã®æ§ã«åéã»å¦çããããã«é¢ãã¦ãè³ªåãããå ´åã¯ã<a href="mailto:privacy@bitcoin.org?Subject=Privacy">privacy@bitcoin.org</a>ã«ã¡ã¼ã«ãéä»ãã ããã</p>
+  
+  </div>
+</div>
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="/ja/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Bitcoin.orgãæ¯æ´ãã:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">å¯ä»ãã</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">ç´¹ä»:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/ja/bitcoin-for-individuals">åäºº</a>
+        </li>
+        <li>
+          <a href="/ja/bitcoin-for-businesses">ãã¸ãã¹</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">éçºè</a>
+        </li>
+        <li>
+          <a href="/ja/getting-started">éå§ãã</a>
+        </li>
+        <li>
+          <a href="/ja/how-it-works">ãããã³ã¤ã³ã®ä»çµã¿</a>
+        </li>
+        <li>
+          <a href="/ja/you-need-to-know">ç¥ã£ã¦ããã¹ãäº</a>
+        </li>
+        
+        <li>
+          <a href="/ja/bitcoin-paper">ãã¯ã¤ããã¼ãã¼</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">ãªã½ã¼ã¹:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/ja/resources">ãªã½ã¼ã¹</a>
+        </li><li>
+          <a href="/ja/exchanges">åå¼æ</a>
+        </li>
+        <li>
+          <a href="/ja/community">ã³ãã¥ããã£</a>
+        </li>
+        <li>
+          <a href="/ja/vocabulary">ç¨èª
+          </a>
+        </li>
+        <li>
+          <a href="/ja/events">ã¤ãã³ã</a>
+        </li>
+        
+          <li>
+            <a href="/ja/download">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">åå :</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/ja/support-bitcoin">ãããã³ã¤ã³ãæ¯æ´</a>
+        
+        
+        </li><li>
+          <a href="/ja/development">éçº</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">ãã®ä»:</p>
+      
+      <a href="/ja/legal">æ³å¾</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/ja/press">ãã¬ã¹</a>
+      <a href="/ja/about-us">bitcoin.org ã«ã¤ãã¦</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>ã³ãã¥ããã£ã»ã¦ã§ããµã¤ããä¸»å¬ï¼</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1716491272" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MITã©ã¤ã»ã³ã¹</a>ã®ä¸ã§ã®ãªãªã¼ã¹</div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">ãããã¯ã¼ã¯ã¹ãã¼ã¿ã¹</a>
+        
+<ul class="lang is-expand">
+  <li><a>æ¥æ¬èª</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/privasi">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/privacitat">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/privatliv">Dansk</a></li>
+        
+        
+          <li><a href="/de/privatsphaere">Deutsch</a></li>
+        
+        
+          <li><a href="/en/privacy">English</a></li>
+        
+        
+          <li><a href="/es/">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/confidentialite">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/privacy">Italiano</a></li>
+        
+        
+          <li><a href="/hu/adatvedelem">Magyar</a></li>
+        
+        
+          <li><a href="/nl/privacy">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/prywatnosc">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/privacidade">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/confidentialitate">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/privatnost">Srpski</a></li>
+        
+        
+          <li><a href="/sv/integritet">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/gizlilik">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/privacy">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/privacy">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/privacy">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/privacy">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/privacy">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/privacy">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/privacy">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/privacy">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/privacy">ááááá</a></li>
+        
+        
+          <li><a href="/ja/privacy" class="active">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/privacy">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/privacy">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/privasi">Bahasa Indonesia</option>
+              
+              <option value="/ca/privacitat">CatalÃ </option>
+              
+              <option value="/da/privatliv">Dansk</option>
+              
+              <option value="/de/privatsphaere">Deutsch</option>
+              
+              <option value="/en/privacy">English</option>
+              
+              <option value="/es/">EspaÃ±ol</option>
+              
+              <option value="/fr/confidentialite">FranÃ§ais</option>
+              
+              <option value="/it/privacy">Italiano</option>
+              
+              <option value="/hu/adatvedelem">Magyar</option>
+              
+              <option value="/nl/privacy">Nederlands</option>
+              
+              <option value="/pl/prywatnosc">Polski</option>
+              
+              <option value="/pt_BR/privacidade">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/confidentialitate">RomÃ¢nÄ</option>
+              
+              <option value="/sl/">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/privatnost">Srpski</option>
+              
+              <option value="/sv/integritet">Svenska</option>
+              
+              <option value="/tr/gizlilik">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/privacy">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/privacy">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/privacy">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/privacy">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/privacy">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/privacy">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/">×¢××¨××ª</option>
+              
+              <option value="/hi/privacy">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/privacy">íêµ­ì´</option>
+              
+              <option value="/km/privacy">ááááá</option>
+              
+              <option value="/ja/privacy" selected="selected">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/privacy">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/privacy">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">ja</span>
+          </label>
+        </div>
+      </div>
+<!--      <div class="row">  -->
+        
+<!--    </div> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+
+
+
+
+
+
+</body></html>
