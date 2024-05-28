@@ -49,7 +49,7 @@ RNP-000 Amendments sent for community feedback.](/rnp-013-and-rnp-015-final-
 vote-details-rnp-000-amendment-63869e617116?source=user_profile---------
 0----------------------------)
 
-[2 min read·4 days ago](/rnp-013-and-rnp-015-final-vote-details-
+[2 min read·5 days ago](/rnp-013-and-rnp-015-final-vote-details-
 rnp-000-amendment-63869e617116?source=user_profile---------
 0----------------------------)
 
