@@ -1,0 +1,82 @@
+{
+    "target_url": "https://bitcoin.org/sv/integritet",
+    "domains": {
+        "": [
+            "bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h",
+            "mailto:privacy@bitcoin.org?Subject=Privacy"
+        ],
+        "bitcoin.org": [
+            "https://bitcoin.org/ar/",
+            "https://bitcoin.org/bg/privacy",
+            "https://bitcoin.org/ca/privacitat",
+            "https://bitcoin.org/da/privatliv",
+            "https://bitcoin.org/de/privatsphaere",
+            "https://bitcoin.org/el/privacy",
+            "https://bitcoin.org/en/alerts",
+            "https://bitcoin.org/en/blog",
+            "https://bitcoin.org/en/privacy",
+            "https://bitcoin.org/es/",
+            "https://bitcoin.org/fa/privacy",
+            "https://bitcoin.org/fr/confidentialite",
+            "https://bitcoin.org/he/",
+            "https://bitcoin.org/hi/privacy",
+            "https://bitcoin.org/hu/adatvedelem",
+            "https://bitcoin.org/hy/privacy",
+            "https://bitcoin.org/id/privasi",
+            "https://bitcoin.org/it/privacy",
+            "https://bitcoin.org/ja/privacy",
+            "https://bitcoin.org/km/privacy",
+            "https://bitcoin.org/ko/privacy",
+            "https://bitcoin.org/nl/privacy",
+            "https://bitcoin.org/pl/prywatnosc",
+            "https://bitcoin.org/pt_BR/privacidade",
+            "https://bitcoin.org/ro/confidentialitate",
+            "https://bitcoin.org/ru/privacy",
+            "https://bitcoin.org/sl/",
+            "https://bitcoin.org/sr/privatnost",
+            "https://bitcoin.org/sv/",
+            "https://bitcoin.org/sv/bitcoin-for-foretag",
+            "https://bitcoin.org/sv/bitcoin-for-privatpersoner",
+            "https://bitcoin.org/sv/bitcoinartikel",
+            "https://bitcoin.org/sv/borser",
+            "https://bitcoin.org/sv/community",
+            "https://bitcoin.org/sv/du-behover-kanna-till",
+            "https://bitcoin.org/sv/evenemang",
+            "https://bitcoin.org/sv/faq",
+            "https://bitcoin.org/sv/hur-det-fungerar",
+            "https://bitcoin.org/sv/innovation",
+            "https://bitcoin.org/sv/integritet",
+            "https://bitcoin.org/sv/integritet#analytics",
+            "https://bitcoin.org/sv/integritet#changes",
+            "https://bitcoin.org/sv/integritet#contact",
+            "https://bitcoin.org/sv/integritet#cookies",
+            "https://bitcoin.org/sv/integritet#logdata",
+            "https://bitcoin.org/sv/juridiskt",
+            "https://bitcoin.org/sv/kom-igang",
+            "https://bitcoin.org/sv/kop",
+            "https://bitcoin.org/sv/ladda-ner",
+            "https://bitcoin.org/sv/om-oss",
+            "https://bitcoin.org/sv/ordlista",
+            "https://bitcoin.org/sv/press",
+            "https://bitcoin.org/sv/resurser",
+            "https://bitcoin.org/sv/stod-bitcoin",
+            "https://bitcoin.org/sv/utveckling",
+            "https://bitcoin.org/tr/gizlilik",
+            "https://bitcoin.org/uk/privacy",
+            "https://bitcoin.org/zh_CN/privacy",
+            "https://bitcoin.org/zh_TW/privacy"
+        ],
+        "developer.bitcoin.org": [
+            "https://developer.bitcoin.org/"
+        ],
+        "developers.google.com": [
+            "https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage"
+        ],
+        "opensource.org": [
+            "http://opensource.org/licenses/mit-license.php"
+        ],
+        "tools.google.com": [
+            "https://tools.google.com/dlpage/gaoptout"
+        ]
+    }
+}
