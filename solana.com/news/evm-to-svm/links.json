@@ -1,0 +1,92 @@
+{
+    "target_url": "https://solana.com/news/evm-to-svm",
+    "domains": {
+        "beta.solpg.io": [
+            "https://beta.solpg.io/"
+        ],
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "docs.rs": [
+            "https://docs.rs/solana-program-test/latest/solana_program_test/"
+        ],
+        "docs.solana.com": [
+            "https://docs.solana.com/developing/test-validator"
+        ],
+        "github.com": [
+            "https://github.com/michaelhly/solana-py",
+            "https://github.com/skynetcap/solanaj",
+            "https://github.com/solana-developers/create-solana-dapp",
+            "https://github.com/solana-labs/solana-web3.js"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "kevinheavey.github.io": [
+            "https://kevinheavey.github.io/solana-bankrun/"
+        ],
+        "neonevm.org": [
+            "https://neonevm.org/"
+        ],
+        "solana.com": [
+            "https://solana.com/",
+            "https://solana.com/branding",
+            "https://solana.com/developers",
+            "https://solana.com/developers/evm-to-svm/accounts",
+            "https://solana.com/developers/evm-to-svm/complete-guide",
+            "https://solana.com/developers/evm-to-svm/smart-contracts",
+            "https://solana.com/developers/guides/getstarted/hello-world-in-your-browser",
+            "https://solana.com/discord",
+            "https://solana.com/docs/clients/rust",
+            "https://solana.com/docs/core/transactions",
+            "https://solana.com/docs/core/transactions/retry#:~:text=The%20Journey%20of%20a%20Transaction%20%23",
+            "https://solana.com/docs/intro/rent",
+            "https://solana.com/docs/intro/transaction_fees",
+            "https://solana.com/docs/intro/transaction_fees#:~:text=from%20the%20RPC.-,Prioritization,-fee%20%23",
+            "https://solana.com/docs/programs/lang-rust",
+            "https://solana.com/docs/terminology#instruction",
+            "https://solana.com/docs/terminology#signature",
+            "https://solana.com/ecosystem",
+            "https://solana.com/github",
+            "https://solana.com/news",
+            "https://solana.com/newsletter",
+            "https://solana.com/privacy-policy",
+            "https://solana.com/privacy-policy#collection-of-information",
+            "https://solana.com/reddit",
+            "https://solana.com/telegram",
+            "https://solana.com/tos",
+            "https://solana.com/twitter",
+            "https://solana.com/youtube"
+        ],
+        "solana.fm": [
+            "https://solana.fm/"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ],
+        "solanacookbook.com": [
+            "https://solanacookbook.com/core-concepts/pdas.html#facts"
+        ],
+        "spl.solana.com": [
+            "https://spl.solana.com/token"
+        ],
+        "www.anchor-lang.com": [
+            "https://www.anchor-lang.com/"
+        ],
+        "www.npmjs.com": [
+            "https://www.npmjs.com/package/@solana/web3.js"
+        ],
+        "www.soldev.app": [
+            "https://www.soldev.app/course"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/watch?v=0P8JeL3TURU"
+        ],
+        "xray.helius.xyz": [
+            "https://xray.helius.xyz/"
+        ],
+        "youtu.be": [
+            "https://youtu.be/0P8JeL3TURU?feature=shared"
+        ]
+    }
+}

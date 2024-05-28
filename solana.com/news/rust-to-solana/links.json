@@ -1,0 +1,67 @@
+{
+    "target_url": "https://solana.com/news/rust-to-solana",
+    "domains": {
+        "beta.solpg.io": [
+            "https://beta.solpg.io/"
+        ],
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "crates.io": [
+            "https://crates.io/crates/solana-program",
+            "https://crates.io/crates/solana-program-test"
+        ],
+        "docs.rs": [
+            "https://docs.rs/anchor-client/latest/anchor_client/",
+            "https://docs.rs/solana-client/latest/solana_client/",
+            "https://docs.rs/solana-sdk/latest/solana_sdk/"
+        ],
+        "docs.solanalabs.com": [
+            "https://docs.solanalabs.com/cli/examples/test-validator"
+        ],
+        "github.com": [
+            "https://github.com/solana-labs/solana-program-library/tree/master/examples/rust"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "solana.com": [
+            "https://solana.com/",
+            "https://solana.com/branding",
+            "https://solana.com/developers",
+            "https://solana.com/developers/guides/getstarted/hello-world-in-your-browser",
+            "https://solana.com/discord",
+            "https://solana.com/docs/core/accounts",
+            "https://solana.com/docs/core/fees#why-pay-transaction-fees",
+            "https://solana.com/docs/core/programs",
+            "https://solana.com/docs/core/runtime#compute-budget",
+            "https://solana.com/docs/core/transactions",
+            "https://solana.com/docs/programs/lang-rust",
+            "https://solana.com/ecosystem",
+            "https://solana.com/github",
+            "https://solana.com/learn/blockchain-basics",
+            "https://solana.com/news",
+            "https://solana.com/newsletter",
+            "https://solana.com/privacy-policy",
+            "https://solana.com/privacy-policy#collection-of-information",
+            "https://solana.com/reddit",
+            "https://solana.com/telegram",
+            "https://solana.com/tos",
+            "https://solana.com/twitter",
+            "https://solana.com/vi/developers/guides/getstarted/rust-to-solana",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ],
+        "www.anchor-lang.com": [
+            "https://www.anchor-lang.com/"
+        ],
+        "www.soldev.app": [
+            "https://www.soldev.app/course"
+        ],
+        "youtu.be": [
+            "https://youtu.be/0P8JeL3TURU?feature=shared"
+        ]
+    }
+}
