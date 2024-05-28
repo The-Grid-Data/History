@@ -1,0 +1,68 @@
+{
+    "target_url": "https://solana.com/developers/guides/games/store-sol-in-pda",
+    "domains": {
+        "beta.solpg.io": [
+            "https://beta.solpg.io/",
+            "https://beta.solpg.io/tutorials/tiny-adventure-two"
+        ],
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "github.com": [
+            "https://github.com/solana-foundation/developer-content/tree/main/content/guides/games/store-sol-in-pda.md"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "solana.com": [
+            "https://solana.com/",
+            "https://solana.com/branding",
+            "https://solana.com/developers",
+            "https://solana.com/developers/cookbook",
+            "https://solana.com/developers/evm-to-svm",
+            "https://solana.com/developers/guides",
+            "https://solana.com/developers/guides/games/game-examples",
+            "https://solana.com/developers/guides/games/saving-game-state",
+            "https://solana.com/developers/guides/games/store-sol-in-pda",
+            "https://solana.com/developers/guides/games/store-sol-in-pda#build-and-deploy",
+            "https://solana.com/developers/guides/games/store-sol-in-pda#defining-the-chest-vault-account",
+            "https://solana.com/developers/guides/games/store-sol-in-pda#defining-the-game-data-account",
+            "https://solana.com/developers/guides/games/store-sol-in-pda#get-started-with-the-client",
+            "https://solana.com/developers/guides/games/store-sol-in-pda#getting-started",
+            "https://solana.com/developers/guides/games/store-sol-in-pda#initialize-level-one-instruction",
+            "https://solana.com/developers/guides/games/store-sol-in-pda#move-right-instruction",
+            "https://solana.com/developers/guides/games/store-sol-in-pda#reset-level-and-spawn-chest-instruction",
+            "https://solana.com/developers/guides/games/store-sol-in-pda#tiny-adventure-anchor-program-part-two",
+            "https://solana.com/developers/guides?difficulty=intermediate",
+            "https://solana.com/developers/guides?tags=anchor",
+            "https://solana.com/developers/guides?tags=games",
+            "https://solana.com/developers/guides?tags=program",
+            "https://solana.com/developers/guides?tags=rust",
+            "https://solana.com/developers/guides?tags=web3js",
+            "https://solana.com/discord",
+            "https://solana.com/docs",
+            "https://solana.com/docs/rpc",
+            "https://solana.com/docs/terminology",
+            "https://solana.com/ecosystem",
+            "https://solana.com/github",
+            "https://solana.com/news",
+            "https://solana.com/newsletter",
+            "https://solana.com/privacy-policy",
+            "https://solana.com/privacy-policy#collection-of-information",
+            "https://solana.com/reddit",
+            "https://solana.com/telegram",
+            "https://solana.com/tos",
+            "https://solana.com/twitter",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ],
+        "www.soldev.app": [
+            "https://www.soldev.app/course"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/watch?v=gILXyWvXu7M"
+        ]
+    }
+}

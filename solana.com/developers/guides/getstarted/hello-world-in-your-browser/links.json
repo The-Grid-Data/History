@@ -1,0 +1,86 @@
+{
+    "target_url": "https://solana.com/developers/guides/getstarted/hello-world-in-your-browser",
+    "domains": {
+        "beta.solpg.io": [
+            "https://beta.solpg.io",
+            "https://beta.solpg.io/6314a69688a7fca897ad7d1d"
+        ],
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "doc.rust-lang.org": [
+            "https://doc.rust-lang.org/std/result/"
+        ],
+        "github.com": [
+            "https://github.com/solana-foundation/developer-content/tree/main/content/guides/getstarted/hello-world-in-your-browser.md"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "solana.com": [
+            "https://solana.com/",
+            "https://solana.com/branding",
+            "https://solana.com/developers",
+            "https://solana.com/developers/cookbook",
+            "https://solana.com/developers/guides",
+            "https://solana.com/developers/guides/getstarted/full-stack-solana-development",
+            "https://solana.com/developers/guides/getstarted/hello-world-in-your-browser",
+            "https://solana.com/developers/guides/getstarted/hello-world-in-your-browser#build-your-program",
+            "https://solana.com/developers/guides/getstarted/hello-world-in-your-browser#call-the-program",
+            "https://solana.com/developers/guides/getstarted/hello-world-in-your-browser#congratulations",
+            "https://solana.com/developers/guides/getstarted/hello-world-in-your-browser#create-a-playground-wallet",
+            "https://solana.com/developers/guides/getstarted/hello-world-in-your-browser#create-a-solana-program",
+            "https://solana.com/developers/guides/getstarted/hello-world-in-your-browser#deploy-your-program",
+            "https://solana.com/developers/guides/getstarted/hello-world-in-your-browser#find-your-program-id",
+            "https://solana.com/developers/guides/getstarted/hello-world-in-your-browser#get-transaction-logs",
+            "https://solana.com/developers/guides/getstarted/hello-world-in-your-browser#import-our-example-project",
+            "https://solana.com/developers/guides/getstarted/hello-world-in-your-browser#import-the-object-object-crate",
+            "https://solana.com/developers/guides/getstarted/hello-world-in-your-browser#import-the-solana_program-crate",
+            "https://solana.com/developers/guides/getstarted/hello-world-in-your-browser#initialize-client",
+            "https://solana.com/developers/guides/getstarted/hello-world-in-your-browser#interact-with-your-onchain-program",
+            "https://solana.com/developers/guides/getstarted/hello-world-in-your-browser#next-steps",
+            "https://solana.com/developers/guides/getstarted/hello-world-in-your-browser#playground-globals",
+            "https://solana.com/developers/guides/getstarted/hello-world-in-your-browser#run-the-application",
+            "https://solana.com/developers/guides/getstarted/hello-world-in-your-browser#using-solana-playground",
+            "https://solana.com/developers/guides/getstarted/hello-world-in-your-browser#what-you-will-learn",
+            "https://solana.com/developers/guides/getstarted/hello-world-in-your-browser#write-your-program-logic",
+            "https://solana.com/developers/guides/getstarted/how-to-cpi-with-signer",
+            "https://solana.com/developers/guides/getstarted/setup-local-development",
+            "https://solana.com/developers/guides?difficulty=intro",
+            "https://solana.com/developers/guides?tags=Solana%20Playground",
+            "https://solana.com/developers/guides?tags=native",
+            "https://solana.com/developers/guides?tags=quickstart",
+            "https://solana.com/developers/guides?tags=rust",
+            "https://solana.com/developers/guides?tags=web3js",
+            "https://solana.com/discord",
+            "https://solana.com/docs",
+            "https://solana.com/docs/clients/javascript-reference",
+            "https://solana.com/docs/core/cpi",
+            "https://solana.com/docs/core/transactions",
+            "https://solana.com/docs/programs",
+            "https://solana.com/docs/programs/debugging",
+            "https://solana.com/docs/programs/debugging#logging",
+            "https://solana.com/docs/programs/lang-rust",
+            "https://solana.com/docs/programs/lang-rust#program-entrypoint",
+            "https://solana.com/docs/rpc",
+            "https://solana.com/docs/terminology",
+            "https://solana.com/ecosystem",
+            "https://solana.com/github",
+            "https://solana.com/news",
+            "https://solana.com/newsletter",
+            "https://solana.com/privacy-policy",
+            "https://solana.com/privacy-policy#collection-of-information",
+            "https://solana.com/reddit",
+            "https://solana.com/telegram",
+            "https://solana.com/tos",
+            "https://solana.com/twitter",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ],
+        "www.npmjs.com": [
+            "https://www.npmjs.com/package/@solana/web3.js"
+        ]
+    }
+}
