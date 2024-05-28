@@ -1,0 +1,102 @@
+{
+    "target_url": "https://solana.com/ru/docs/core/programs",
+    "domains": {
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "doc.rust-lang.org": [
+            "https://doc.rust-lang.org/book/"
+        ],
+        "en.wikipedia.org": [
+            "https://en.wikipedia.org/wiki/EBPF",
+            "https://en.wikipedia.org/wiki/Executable_and_Linkable_Format"
+        ],
+        "github.com": [
+            "https://github.com/Ellipsis-Labs/solana-verifiable-build",
+            "https://github.com/solana-foundation/developer-content/tree/main/docs/core/programs.md",
+            "https://github.com/solana-labs/solana/blob/27eff8408b7223bb3c4ab70523f8a8dca3ca6645/programs/bpf_loader/src/lib.rs#L675",
+            "https://github.com/solana-labs/solana/blob/27eff8408b7223bb3c4ab70523f8a8dca3ca6645/programs/bpf_loader/src/lib.rs#L865"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "llvm.org": [
+            "https://llvm.org/"
+        ],
+        "solana.com": [
+            "https://solana.com/discord",
+            "https://solana.com/github",
+            "https://solana.com/reddit",
+            "https://solana.com/ru",
+            "https://solana.com/ru/branding",
+            "https://solana.com/ru/developers/cookbook",
+            "https://solana.com/ru/developers/guides",
+            "https://solana.com/ru/developers/guides/getstarted/intro-to-anchor",
+            "https://solana.com/ru/developers/guides/getstarted/intro-to-native-rust",
+            "https://solana.com/ru/docs",
+            "https://solana.com/ru/docs/advanced/confirmation",
+            "https://solana.com/ru/docs/advanced/lookup-tables",
+            "https://solana.com/ru/docs/advanced/retry",
+            "https://solana.com/ru/docs/advanced/state-compression",
+            "https://solana.com/ru/docs/advanced/versions",
+            "https://solana.com/ru/docs/clients/javascript",
+            "https://solana.com/ru/docs/clients/javascript-reference",
+            "https://solana.com/ru/docs/clients/rust",
+            "https://solana.com/ru/docs/core/accounts",
+            "https://solana.com/ru/docs/core/accounts#program-account",
+            "https://solana.com/ru/docs/core/clusters",
+            "https://solana.com/ru/docs/core/cpi",
+            "https://solana.com/ru/docs/core/fees",
+            "https://solana.com/ru/docs/core/pda",
+            "https://solana.com/ru/docs/core/programs",
+            "https://solana.com/ru/docs/core/programs#berkeley-packet-filter-bpf",
+            "https://solana.com/ru/docs/core/programs#key-points",
+            "https://solana.com/ru/docs/core/programs#updating-solana-programs",
+            "https://solana.com/ru/docs/core/programs#verifiable-programs",
+            "https://solana.com/ru/docs/core/programs#writing-solana-programs",
+            "https://solana.com/ru/docs/core/tokens",
+            "https://solana.com/ru/docs/core/transactions",
+            "https://solana.com/ru/docs/core/transactions#instruction",
+            "https://solana.com/ru/docs/economics",
+            "https://solana.com/ru/docs/economics/inflation/inflation-schedule",
+            "https://solana.com/ru/docs/economics/inflation/terminology",
+            "https://solana.com/ru/docs/economics/staking",
+            "https://solana.com/ru/docs/economics/staking/stake-accounts",
+            "https://solana.com/ru/docs/economics/staking/stake-programming",
+            "https://solana.com/ru/docs/intro/dev",
+            "https://solana.com/ru/docs/intro/overview",
+            "https://solana.com/ru/docs/intro/wallets",
+            "https://solana.com/ru/docs/more/exchange",
+            "https://solana.com/ru/docs/programs",
+            "https://solana.com/ru/docs/programs/debugging",
+            "https://solana.com/ru/docs/programs/deploying",
+            "https://solana.com/ru/docs/programs/examples",
+            "https://solana.com/ru/docs/programs/faq",
+            "https://solana.com/ru/docs/programs/lang-c",
+            "https://solana.com/ru/docs/programs/lang-rust",
+            "https://solana.com/ru/docs/programs/limitations",
+            "https://solana.com/ru/docs/programs/overview",
+            "https://solana.com/ru/docs/rpc",
+            "https://solana.com/ru/docs/terminology",
+            "https://solana.com/ru/ecosystem",
+            "https://solana.com/ru/news",
+            "https://solana.com/ru/newsletter",
+            "https://solana.com/ru/privacy-policy",
+            "https://solana.com/ru/privacy-policy#collection-of-information",
+            "https://solana.com/ru/tos",
+            "https://solana.com/telegram",
+            "https://solana.com/twitter",
+            "https://solana.com/youtube"
+        ],
+        "solana.fm": [
+            "https://solana.fm/",
+            "https://solana.fm/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ],
+        "www.anchor-lang.com": [
+            "https://www.anchor-lang.com/docs/verifiable-builds"
+        ]
+    }
+}
