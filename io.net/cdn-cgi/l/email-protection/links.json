@@ -1,0 +1,13 @@
+{
+    "target_url": "https://io.net/cdn-cgi/l/email-protection",
+    "domains": {
+        "support.cloudflare.com": [
+            "https://support.cloudflare.com/hc/en-us/articles/200170016-What-is-Email-Address-Obfuscation-",
+            "https://support.cloudflare.com/hc/en-us/categories/200275218-Getting-Started"
+        ],
+        "www.cloudflare.com": [
+            "https://www.cloudflare.com/5xx-error-landing",
+            "https://www.cloudflare.com/sign-up?utm_source=email_protection"
+        ]
+    }
+}
