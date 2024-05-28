@@ -116,7 +116,7 @@ users.
 
 [NextThe marginfi Protocol](/marginfi-protocol)
 
-Last updated 5 days ago
+Last updated 6 days ago
 
 On this page
 
