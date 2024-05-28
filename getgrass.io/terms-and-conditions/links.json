@@ -1,0 +1,33 @@
+{
+    "target_url": "https://getgrass.io/terms-and-conditions",
+    "domains": {
+        "app.getgrass.io": [
+            "https://app.getgrass.io"
+        ],
+        "boards.greenhouse.io": [
+            "https://boards.greenhouse.io/wyndlabs"
+        ],
+        "chrome.google.com": [
+            "https://chrome.google.com/webstore/detail/grass-extension/ilehaonighjijnmpnagapkhpcdbhclfg?hl=en&authuser=0"
+        ],
+        "discord.gg": [
+            "https://discord.gg/8NxzRj9ayN"
+        ],
+        "getgrass.io": [
+            "https://getgrass.io/",
+            "https://getgrass.io/blog",
+            "https://getgrass.io/media-kit",
+            "https://getgrass.io/privacy-policy",
+            "https://getgrass.io/terms-and-conditions"
+        ],
+        "twitter.com": [
+            "https://twitter.com/getgrass_io"
+        ],
+        "www.wyndlabs.ai": [
+            "https://www.wyndlabs.ai/"
+        ],
+        "wynd-network.gitbook.io": [
+            "https://wynd-network.gitbook.io/grass-docs/introduction/faq"
+        ]
+    }
+}
