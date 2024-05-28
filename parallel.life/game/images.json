@@ -1,0 +1,43 @@
+{
+    "target_url": "https://parallel.life/game",
+    "domains": {
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=53cf9ceb-3cd0-4ffa-8dcb-c93938ef9b82&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=c137098c-4d7c-40c2-8a0c-d10decc9bc45&tw_document_href=https%3A%2F%2Fparallel.life%2Fgame&tw_iframe_status=0&txn_id=okqpa&type=javascript&version=2.3.30"
+        ],
+        "cdn.parallelnft.com": [
+            "https://cdn.parallelnft.com/unsafe/600x900/https://prl-content-publish-prod.s3.amazonaws.com/Cards/Agc_IconOfIngenuity/Agc_IconOfIngenuity_Non_Prm_Cb_Img.png",
+            "https://cdn.parallelnft.com/unsafe/600x900/https://prl-content-publish-prod.s3.amazonaws.com/Cards/Ert_EarthenInterfaceCB/Ert_EarthenInterfaceCB_Non_Prm_Cb_Img.png",
+            "https://cdn.parallelnft.com/unsafe/600x900/https://prl-content-publish-prod.s3.amazonaws.com/Cards/Kat_IconOfUnity/Kat_IconOfUnity_Non_Prm_Cb_Img.png",
+            "https://cdn.parallelnft.com/unsafe/600x900/https://prl-content-publish-prod.s3.amazonaws.com/Cards/Mcl_IconOfStrength/Mcl_IconOfStrength_Non_Prm_Cb_Img.png",
+            "https://cdn.parallelnft.com/unsafe/600x900/https://prl-content-publish-prod.s3.amazonaws.com/Cards/Shr_IconOfFate/Shr_IconOfFate_Non_Prm_Cb_Img.png"
+        ],
+        "parallel.life": [
+            "https://parallel.life/_next/static/media/002_RG_2021_FULL_LOCKUP_OFFWHITE.49d66775.png",
+            "https://parallel.life/_next/static/media/Blizz_Corp_RGB_DarkBkgd.24ca3401.png",
+            "https://parallel.life/_next/static/media/Epic_Games_logo.df909917.png",
+            "https://parallel.life/_next/static/media/Xbox_Game_Studios_(2021)-white.1787820b.png",
+            "https://parallel.life/_next/static/media/wotc-logo.299cbb70.png"
+        ],
+        "storage.googleapis.com": [
+            "https://storage.googleapis.com/prod-assets-parallel-life/images/bgEarth.webp",
+            "https://storage.googleapis.com/prod.static-assets.parallelnft.com/billboard-assets/Parallel_WebCards2/Augencore/Augen_01.webp",
+            "https://storage.googleapis.com/prod.static-assets.parallelnft.com/billboard-assets/Parallel_WebCards2/Augencore/Augen_02.webp",
+            "https://storage.googleapis.com/prod.static-assets.parallelnft.com/billboard-assets/Parallel_WebCards2/Augencore/Augen_03.webp",
+            "https://storage.googleapis.com/prod.static-assets.parallelnft.com/billboard-assets/Parallel_WebCards2/Earthen/Earth_01.webp",
+            "https://storage.googleapis.com/prod.static-assets.parallelnft.com/billboard-assets/Parallel_WebCards2/Earthen/Earth_02.webp",
+            "https://storage.googleapis.com/prod.static-assets.parallelnft.com/billboard-assets/Parallel_WebCards2/Earthen/Earth_03.webp",
+            "https://storage.googleapis.com/prod.static-assets.parallelnft.com/billboard-assets/Parallel_WebCards2/Kathari/Kath_01.webp",
+            "https://storage.googleapis.com/prod.static-assets.parallelnft.com/billboard-assets/Parallel_WebCards2/Kathari/Kath_02.webp",
+            "https://storage.googleapis.com/prod.static-assets.parallelnft.com/billboard-assets/Parallel_WebCards2/Kathari/Kath_03.webp",
+            "https://storage.googleapis.com/prod.static-assets.parallelnft.com/billboard-assets/Parallel_WebCards2/Marcolian/Marc_01.webp",
+            "https://storage.googleapis.com/prod.static-assets.parallelnft.com/billboard-assets/Parallel_WebCards2/Marcolian/Marc_02.webp",
+            "https://storage.googleapis.com/prod.static-assets.parallelnft.com/billboard-assets/Parallel_WebCards2/Marcolian/Marc_03.webp",
+            "https://storage.googleapis.com/prod.static-assets.parallelnft.com/billboard-assets/Parallel_WebCards2/Shroud/Shro_01-19.webp",
+            "https://storage.googleapis.com/prod.static-assets.parallelnft.com/billboard-assets/Parallel_WebCards2/Shroud/Shro_01-20.webp",
+            "https://storage.googleapis.com/prod.static-assets.parallelnft.com/billboard-assets/Parallel_WebCards2/Shroud/Shro_01-21.webp"
+        ],
+        "t.co": [
+            "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=53cf9ceb-3cd0-4ffa-8dcb-c93938ef9b82&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=c137098c-4d7c-40c2-8a0c-d10decc9bc45&tw_document_href=https%3A%2F%2Fparallel.life%2Fgame&tw_iframe_status=0&txn_id=okqpa&type=javascript&version=2.3.30"
+        ]
+    }
+}
