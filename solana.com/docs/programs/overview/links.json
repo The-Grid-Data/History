@@ -1,0 +1,100 @@
+{
+    "target_url": "https://solana.com/docs/programs/overview",
+    "domains": {
+        "beta.solpg.io": [
+            "https://beta.solpg.io/"
+        ],
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "doc.rust-lang.org": [
+            "https://doc.rust-lang.org/rust-by-example/crates/lib.html"
+        ],
+        "docs.solanalabs.com": [
+            "https://docs.solanalabs.com/cli/install"
+        ],
+        "github.com": [
+            "https://github.com/solana-foundation/developer-content/tree/main/docs/programs/overview.md"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "seahorse.dev": [
+            "https://seahorse.dev/"
+        ],
+        "solana.com": [
+            "https://solana.com/",
+            "https://solana.com/branding",
+            "https://solana.com/developers/cookbook",
+            "https://solana.com/developers/guides",
+            "https://solana.com/developers/guides/getstarted/hello-world-in-your-browser",
+            "https://solana.com/developers/guides/getstarted/setup-local-development",
+            "https://solana.com/discord",
+            "https://solana.com/docs",
+            "https://solana.com/docs/advanced/confirmation",
+            "https://solana.com/docs/advanced/lookup-tables",
+            "https://solana.com/docs/advanced/retry",
+            "https://solana.com/docs/advanced/state-compression",
+            "https://solana.com/docs/advanced/versions",
+            "https://solana.com/docs/clients/javascript",
+            "https://solana.com/docs/clients/javascript-reference",
+            "https://solana.com/docs/clients/rust",
+            "https://solana.com/docs/core/accounts",
+            "https://solana.com/docs/core/clusters",
+            "https://solana.com/docs/core/cpi",
+            "https://solana.com/docs/core/fees",
+            "https://solana.com/docs/core/pda",
+            "https://solana.com/docs/core/programs",
+            "https://solana.com/docs/core/tokens",
+            "https://solana.com/docs/core/transactions",
+            "https://solana.com/docs/economics",
+            "https://solana.com/docs/economics/inflation/inflation-schedule",
+            "https://solana.com/docs/economics/inflation/terminology",
+            "https://solana.com/docs/economics/staking",
+            "https://solana.com/docs/economics/staking/stake-accounts",
+            "https://solana.com/docs/economics/staking/stake-programming",
+            "https://solana.com/docs/intro/dev",
+            "https://solana.com/docs/intro/overview",
+            "https://solana.com/docs/intro/wallets",
+            "https://solana.com/docs/more/exchange",
+            "https://solana.com/docs/programs/debugging",
+            "https://solana.com/docs/programs/deploying",
+            "https://solana.com/docs/programs/examples",
+            "https://solana.com/docs/programs/faq",
+            "https://solana.com/docs/programs/faq#berkeley-packet-filter-bpf",
+            "https://solana.com/docs/programs/lang-c",
+            "https://solana.com/docs/programs/lang-rust",
+            "https://solana.com/docs/programs/limitations",
+            "https://solana.com/docs/programs/overview",
+            "https://solana.com/docs/programs/overview#1-setup-your-development-environment",
+            "https://solana.com/docs/programs/overview#2-write-your-program",
+            "https://solana.com/docs/programs/overview#3-compile-the-program",
+            "https://solana.com/docs/programs/overview#4-generate-the-program-s-public-address",
+            "https://solana.com/docs/programs/overview#5-deploying-the-program",
+            "https://solana.com/docs/programs/overview#example-programs",
+            "https://solana.com/docs/programs/overview#frequently-asked-questions",
+            "https://solana.com/docs/programs/overview#limitations",
+            "https://solana.com/docs/programs/overview#on-chain-program-development-lifecycle",
+            "https://solana.com/docs/programs/overview#support-languages",
+            "https://solana.com/docs/rpc",
+            "https://solana.com/docs/terminology",
+            "https://solana.com/docs/terminology#keypair",
+            "https://solana.com/docs/terminology#program-id",
+            "https://solana.com/docs/terminology#public-key-pubkey",
+            "https://solana.com/ecosystem",
+            "https://solana.com/github",
+            "https://solana.com/news",
+            "https://solana.com/newsletter",
+            "https://solana.com/privacy-policy",
+            "https://solana.com/privacy-policy#collection-of-information",
+            "https://solana.com/reddit",
+            "https://solana.com/telegram",
+            "https://solana.com/tos",
+            "https://solana.com/twitter",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ]
+    }
+}
