@@ -1,0 +1,35 @@
+{
+    "target_url": "https://www.ledger.com/buy-bitcoin/how",
+    "domains": {
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=114e50e8-45f9-4e33-a6da-49fb7efd1c11&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=a0169e2d-fc5e-47c7-af7d-b95de25c7a07&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Fbuy-bitcoin%2Fhow&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "bat.bing.com": [
+            "https://bat.bing.com/action/0?ti=134633242&tm=gtm002&Ver=2&mid=1732add6-c706-4f11-b338-fbb43c05528d&sid=d99c17b01cfd11efae33450af0911c43&vid=d99c25d01cfd11efaca991c4899072b6&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&tl=How%20to%20buy%20Bitcoin%20-%20All%20you%20need%20before%20starting%20%7C%20Ledger&p=https%3A%2F%2Fwww.ledger.com%2Fbuy-bitcoin%2Fhow&r=&lt=1669&evt=pageLoad&sv=1&rn=551331"
+        ],
+        "cdn.cookielaw.org": [
+            "https://cdn.cookielaw.org/logos/df21fb3f-71b8-491b-89ee-eb777bcaf866/637ca236-af9d-4a40-815f-1b6a15af499d/ea9d9f41-35f0-4c24-9a83-1ef746863067/White_64.png",
+            "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg"
+        ],
+        "t.co": [
+            "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=114e50e8-45f9-4e33-a6da-49fb7efd1c11&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=a0169e2d-fc5e-47c7-af7d-b95de25c7a07&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Fbuy-bitcoin%2Fhow&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "t.teads.tv": [
+            "https://t.teads.tv/track?action=pageView&env=js-gtm&tag_version=6.17.6_ee47857&provider=tag&buyer_pixel_id=6887&referer=https%3A%2F%2Fwww.ledger.com%2Fbuy-bitcoin%2Fhow&user_session_id=00de068d-1344-4f6e-a371-ea51838adabf"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/tr?id=237213137153741&ev=PageView&noscript=1"
+        ],
+        "www.ledger.com": [
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg",
+            "https://www.ledger.com/wp-content/uploads/2021/11/layer1.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-bitpay-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-cb-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-crypto-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-maestro-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-mastercard-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-paypal-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-visa-s.png?v=2"
+        ]
+    }
+}
