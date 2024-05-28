@@ -1,0 +1,42 @@
+{
+    "target_url": "https://chainalysis.com/regulators/",
+    "domains": {
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/i/adsct?bci=3&eci=2&event_id=6940565a-de3e-4a2a-ad37-3b3c937b5e7d&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=9af170c9-3b78-4484-af1b-dc896ca84050&tw_document_href=https%3A%2F%2Fwww.chainalysis.com%2Fregulators%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o942f&type=javascript&version=2.3.30"
+        ],
+        "bat.bing.com": [
+            "https://bat.bing.com/action/0?ti=136016409&tm=gtm002&Ver=2&mid=f5ba83e5-5c91-4718-8346-5fb100717ad7&sid=d333ea601cfe11ef9731c3b7ff9eaf80&vid=d333e8601cfe11ef8f10bb9f2d25cc92&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&tl=Digital%20Asset%20Solutions%20for%20Regulators%20-%20Chainalysis&p=https%3A%2F%2Fwww.chainalysis.com%2Fregulators%2F&r=&evt=pageLoad&sv=1&rn=117633"
+        ],
+        "cdn.bizible.com": [
+            "https://cdn.bizible.com/ipv?_biz_r=&_biz_h=-417244810&_biz_u=5af2816060ef4569f22beba2f341f6f8&_biz_l=https%3A%2F%2Fwww.chainalysis.com%2Fregulators%2F&_biz_t=1716906626052&_biz_i=Digital%20Asset%20Solutions%20for%20Regulators%20-%20Chainalysis&_biz_n=0&rnd=313947&cdn_o=a&_biz_z=1716906626418"
+        ],
+        "cdn.bizibly.com": [
+            "https://cdn.bizibly.com/u?_biz_u=5af2816060ef4569f22beba2f341f6f8&_biz_l=https%3A%2F%2Fwww.chainalysis.com%2Fregulators%2F&_biz_t=1716906626419&_biz_i=Digital%20Asset%20Solutions%20for%20Regulators%20-%20Chainalysis&rnd=204032&cdn_o=a&_biz_z=1716906626419"
+        ],
+        "t.co": [
+            "https://t.co/i/adsct?bci=3&eci=2&event_id=6940565a-de3e-4a2a-ad37-3b3c937b5e7d&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=9af170c9-3b78-4484-af1b-dc896ca84050&tw_document_href=https%3A%2F%2Fwww.chainalysis.com%2Fregulators%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o942f&type=javascript&version=2.3.30"
+        ],
+        "ws.zoominfo.com": [
+            "https://ws.zoominfo.com/pixel/Na6GzfmL0i0pW4qWYEKS"
+        ],
+        "www.chainalysis.com": [
+            "https://www.chainalysis.com/wp-content/uploads/2022/11/icon-linkedin-lightblue.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2022/11/icon-youtube-lightblue.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2023/03/icon-telegram-lightblue.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/ct-state-police-featured-thumbnail.png",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/icon-assets-graph.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/icon-blockchain-analytics.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/icon-due-diligence.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/icon-entity-risking-1.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/icon-footer-twitter-x-blue.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/industry-regulators.jpg",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/links2023-goldsmith-romero.jpg",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/morabanc-featured-thumbnail.png",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/resource-blog-lessons-from-links.jpg",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/resource-blog-mica-marathon.jpg",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/resource-video-mica-takes-effect.jpg",
+            "https://www.chainalysis.com/wp-content/uploads/2024/01/thumbnail-geos-2023.png",
+            "https://www.chainalysis.com/wp-content/uploads/2024/02/thumbnail-crime-report.png"
+        ]
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "target_url": "https://chainalysis.com/reports/",
+    "domains": {
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/i/adsct?bci=3&eci=2&event_id=079f0964-7bfd-4e04-95bf-8dbb9ed71f3d&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=81b247ce-3f07-431c-9211-6e9e88ef4562&tw_document_href=https%3A%2F%2Fwww.chainalysis.com%2Freports%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o942f&type=javascript&version=2.3.30"
+        ],
+        "bat.bing.com": [
+            "https://bat.bing.com/action/0?ti=136016409&tm=gtm002&Ver=2&mid=17c0eecb-168d-4781-9ee8-cde2b5742047&sid=d272d3d01cfe11efae37ad946bccf45d&vid=d272c3d01cfe11efb21391a779c05705&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&tl=Research%20Reports%20Archive%20-%20Chainalysis&p=https%3A%2F%2Fwww.chainalysis.com%2Freports%2F&r=&evt=pageLoad&sv=1&rn=766270"
+        ],
+        "cdn.bizible.com": [
+            "https://cdn.bizible.com/ipv?_biz_r=&_biz_h=-417244810&_biz_u=0db4fa1aab6f40168d08f01de2ee50cb&_biz_l=https%3A%2F%2Fwww.chainalysis.com%2Freports%2F&_biz_t=1716906624844&_biz_i=Research%20Reports%20Archive%20-%20Chainalysis&_biz_n=0&rnd=733915&cdn_o=a&_biz_z=1716906625195"
+        ],
+        "cdn.bizibly.com": [
+            "https://cdn.bizibly.com/u?_biz_u=0db4fa1aab6f40168d08f01de2ee50cb&_biz_l=https%3A%2F%2Fwww.chainalysis.com%2Freports%2F&_biz_t=1716906625196&_biz_i=Research%20Reports%20Archive%20-%20Chainalysis&rnd=615240&cdn_o=a&_biz_z=1716906625196"
+        ],
+        "t.co": [
+            "https://t.co/i/adsct?bci=3&eci=2&event_id=079f0964-7bfd-4e04-95bf-8dbb9ed71f3d&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=81b247ce-3f07-431c-9211-6e9e88ef4562&tw_document_href=https%3A%2F%2Fwww.chainalysis.com%2Freports%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o942f&type=javascript&version=2.3.30"
+        ],
+        "ws.zoominfo.com": [
+            "https://ws.zoominfo.com/pixel/Na6GzfmL0i0pW4qWYEKS"
+        ],
+        "www.chainalysis.com": [
+            "https://www.chainalysis.com/wp-content/uploads/2021/11/blog-report-exchangesb-800x530.jpg",
+            "https://www.chainalysis.com/wp-content/uploads/2021/11/blog-report-nft2021-1-800x530.png",
+            "https://www.chainalysis.com/wp-content/uploads/2022/02/crypto-crime-2022-meta-800x400.png",
+            "https://www.chainalysis.com/wp-content/uploads/2022/06/report-cover-web3-01-800x418.png",
+            "https://www.chainalysis.com/wp-content/uploads/2022/07/blog-header-1100x600-1-800x436.png",
+            "https://www.chainalysis.com/wp-content/uploads/2022/10/geos-report-cover-v4-800x612.png",
+            "https://www.chainalysis.com/wp-content/uploads/2022/11/icon-linkedin-lightblue.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2022/11/icon-youtube-lightblue.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2023/01/2022-crypto-maturity-model.jpg",
+            "https://www.chainalysis.com/wp-content/uploads/2023/02/cryptocrime-homepage-800x689.png",
+            "https://www.chainalysis.com/wp-content/uploads/2023/03/icon-telegram-lightblue.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2023/06/2023-06-playbook-brand-blogheader-800x400.png",
+            "https://www.chainalysis.com/wp-content/uploads/2023/07/myth-busting-cover-02-800x565.png",
+            "https://www.chainalysis.com/wp-content/uploads/2023/09/token-health-cov-800x475.png",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/ct-state-police-featured-thumbnail.png",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/geos-2023-cover-design-800x384.png",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/icon-footer-twitter-x-blue.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/morabanc-featured-thumbnail.png",
+            "https://www.chainalysis.com/wp-content/uploads/2024/01/thumbnail-geos-2023.png",
+            "https://www.chainalysis.com/wp-content/uploads/2024/02/ccr-rectangle-800x450.png",
+            "https://www.chainalysis.com/wp-content/uploads/2024/02/thumbnail-crime-report.png",
+            "https://www.chainalysis.com/wp-content/uploads/2024/04/cryto-spring-800x475.png",
+            "https://www.chainalysis.com/wp-content/uploads/2024/05/crypto-investigations-blockchain-intelligence-for-law-enforcement-header-800x475.png"
+        ]
+    }
+}
