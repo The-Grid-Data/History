@@ -1,0 +1,54 @@
+{
+    "target_url": "https://www.ledger.com/ar/the-people-behind-ledger",
+    "domains": {
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=92b0d364-096e-4f11-9561-ca6214d23e2e&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=84e9a95c-f2c6-4e7d-b089-657458da3af5&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Far%2Fthe-people-behind-ledger&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "bat.bing.com": [
+            "https://bat.bing.com/action/0?ti=134633242&tm=gtm002&Ver=2&mid=54096fa0-b2e9-4bff-840a-d4a1f0b6e8b7&sid=8804f5401cfd11efafa6f57dcb8192c8&vid=880500d01cfd11ef9cf735844cdd56f5&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&tl=%D9%85%D9%86%20%D9%86%D8%AD%D9%86%20%7C%20Ledger&p=https%3A%2F%2Fwww.ledger.com%2Far%2Fthe-people-behind-ledger&r=&lt=1879&evt=pageLoad&sv=1&rn=801450"
+        ],
+        "cdn.cookielaw.org": [
+            "https://cdn.cookielaw.org/logos/df21fb3f-71b8-491b-89ee-eb777bcaf866/637ca236-af9d-4a40-815f-1b6a15af499d/ea9d9f41-35f0-4c24-9a83-1ef746863067/White_64.png",
+            "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg"
+        ],
+        "ledger-wp-website-s3-prd.ledger.com": [
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/03/Pascal-Gauthier.jpg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/05/Charles-Guillemet.jpg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/12/Antoine.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/12/Quentin.jpg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/02/Ian-Rogers.jpg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/02/alexandre-blanc.jpg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/10/400x400-1.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/10/400x400-2.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/10/400x400-3.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/10/400x400-5.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/10/400x400-6.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/10/400x400.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/10/Asset_221.webp",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/10/IMGL8688.jpg"
+        ],
+        "sp.analytics.yahoo.com": [
+            "https://sp.analytics.yahoo.com/sp.pl?a=10000&d=Tue%2C%2028%20May%202024%2014%3A21%3A10%20GMT&n=0&b=%D9%85%D9%86%20%D9%86%D8%AD%D9%86%20%7C%20Ledger&.yp=10159916&f=https%3A%2F%2Fwww.ledger.com%2Far%2Fthe-people-behind-ledger&enc=UTF-8&yv=1.15.1&tagmgr=gtm"
+        ],
+        "t.co": [
+            "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=92b0d364-096e-4f11-9561-ca6214d23e2e&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=84e9a95c-f2c6-4e7d-b089-657458da3af5&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Far%2Fthe-people-behind-ledger&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "t.teads.tv": [
+            "https://t.teads.tv/track?action=pageView&env=js-gtm&tag_version=6.17.6_ee47857&provider=tag&buyer_pixel_id=6887&referer=https%3A%2F%2Fwww.ledger.com%2Far%2Fthe-people-behind-ledger&user_session_id=a84ce699-6b4d-4484-be4a-da259173d93e"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/tr?id=237213137153741&ev=PageView&noscript=1"
+        ],
+        "www.ledger.com": [
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg",
+            "https://www.ledger.com/wp-content/uploads/2021/11/layer1.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-bitpay-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-cb-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-crypto-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-maestro-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-mastercard-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-paypal-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-visa-s.png?v=2"
+        ]
+    }
+}

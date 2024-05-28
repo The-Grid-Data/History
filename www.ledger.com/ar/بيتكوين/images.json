@@ -1,0 +1,36 @@
+{
+    "target_url": "https://www.ledger.com/ar/\u0628\u064a\u062a\u0643\u0648\u064a\u0646",
+    "domains": {
+        "cdn.cookielaw.org": [
+            "https://cdn.cookielaw.org/logos/df21fb3f-71b8-491b-89ee-eb777bcaf866/56e0a676-5d93-4a14-bfc7-7a2d75f2b993/15ffac82-5822-4def-b3b3-a595598861a2/White_64.png",
+            "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg"
+        ],
+        "ledger-wp-website-s3-prd.ledger.com": [
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/05/eos.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/06/cardano.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/06/ledger-live-logo.jpg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/09/erc20-app.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2020/10/Polkadot.svg"
+        ],
+        "t.teads.tv": [
+            "https://t.teads.tv/track?action=pageView&env=js-gtm&tag_version=6.17.6_ee47857&provider=tag&buyer_pixel_id=6887&referer=https%3A%2F%2Fwww.ledger.com%2Far%2F%25D8%25A8%25D9%258A%25D8%25AA%25D9%2583%25D9%2588%25D9%258A%25D9%2586&user_session_id=2c005965-c71d-45bc-8a65-4aec50ad56a1"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/tr?id=237213137153741&ev=PageView&noscript=1"
+        ],
+        "www.ledger.com": [
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/crypto-page/crypto-page-illu.png",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/crypto-page/nano-s.png",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/crypto-page/nano-x.png",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg",
+            "https://www.ledger.com/wp-content/uploads/2021/11/layer1.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-bitpay-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-cb-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-crypto-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-maestro-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-mastercard-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-paypal-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-visa-s.png?v=2"
+        ]
+    }
+}
