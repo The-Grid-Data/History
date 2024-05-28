@@ -1,0 +1,921 @@
+<!DOCTYPE html><html lang="es"><head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Prensa - Bitcoin</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+
+<script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.org is a community funded project, donations are appreciated and used to improve the website.
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        Make a donation
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.org needs your support!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">Donate to Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">Use this QR code or address below</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="Or custom amount? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="Or custom amount? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="Optional description (for your wallet)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="/es/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">IntroducciÃ³n</a>
+    <ul>
+      <li><a href="/es/bitcoin-para-personas">Personas</a></li>
+      <li><a href="/es/bitcoin-para-empresas">Empresas</a></li>
+      <li><a href="https://developer.bitcoin.org/">Desarrolladores</a></li>
+      <li><a href="/es/como-empezar">CÃ³mo empezar</a></li>
+      <li><a href="/es/como-funciona">Como funciona</a></li>
+      
+      <li><a href="/es/bitcoin-documento">White paper</a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">Recursos</a>
+    <ul>
+      <li><a href="/es/recursos">Recursos</a>
+      </li><li><a href="/es/intercambios">Exchanges</a></li>
+      <li><a href="/es/comunidad">Comunidad</a></li>
+      
+      
+      <li><a href="/es/vocabulario">Vocabulario</a></li>
+      <li><a href="/es/eventos">Eventos</a></li>
+      
+        <li><a href="/es/descargar">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li><a href="/es/innovacion">InnovaciÃ³n</a></li>
+  <li><a class="is-expand">Participe</a>
+    <ul>
+      <li><a href="/es/apoya-bitcoin">Apoya Bitcoin</a>
+      </li><li><a href="/es/comprar">Buy Bitcoin</a></li>
+      
+      <li><a href="/es/desarrollo">Desarrollo</a></li>
+    </ul>
+  </li>
+  <li><a href="/es/faq">FAQ</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>EspaÃ±ol</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/pers">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/premsa">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/presse">Dansk</a></li>
+        
+        
+          <li><a href="/de/presse">Deutsch</a></li>
+        
+        
+          <li><a href="/en/press">English</a></li>
+        
+        
+          <li><a href="/es/prensa" class="active">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/presse">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/stampa">Italiano</a></li>
+        
+        
+          <li><a href="/hu/sajto">Magyar</a></li>
+        
+        
+          <li><a href="/nl/pers">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/prasa">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/imprensa">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/presa">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/mediji">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/mediji">Srpski</a></li>
+        
+        
+          <li><a href="/sv/press">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/basin">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/press">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/press">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/press">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/press">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/press">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/press">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/press">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/press">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/press">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/press">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/press">ááááá</a></li>
+        
+        
+          <li><a href="/ja/press">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/press">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/press">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/pers">Bahasa Indonesia</option>
+            
+            <option value="/ca/premsa">CatalÃ </option>
+            
+            <option value="/da/presse">Dansk</option>
+            
+            <option value="/de/presse">Deutsch</option>
+            
+            <option value="/en/press">English</option>
+            
+            <option value="/es/prensa" selected="selected">EspaÃ±ol</option>
+            
+            <option value="/fr/presse">FranÃ§ais</option>
+            
+            <option value="/it/stampa">Italiano</option>
+            
+            <option value="/hu/sajto">Magyar</option>
+            
+            <option value="/nl/pers">Nederlands</option>
+            
+            <option value="/pl/prasa">Polski</option>
+            
+            <option value="/pt_BR/imprensa">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/presa">RomÃ¢nÄ</option>
+            
+            <option value="/sl/mediji">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/mediji">Srpski</option>
+            
+            <option value="/sv/press">Svenska</option>
+            
+            <option value="/tr/basin">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/press">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/press">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/press">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/press">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/press">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/press">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/press">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/press">×¢××¨××ª</option>
+            
+            <option value="/hi/press">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/press">íêµ­ì´</option>
+            
+            <option value="/km/press">ááááá</option>
+            
+            <option value="/ja/press">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/press">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/press">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">es</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  <div class="hero">
+  <div class="container hero-container">
+    <h1>Sala de Prensa</h1>
+    
+      <p class="summarytxt">Encuentra entrevistados, respuestas y material de alta calidad para la prensa.</p>
+    
+  </div>
+</div>
+
+<div class="toc-container">
+  <div class="row toc-row">
+
+    <div id="toc" class="toc">
+      <div>
+        <button class="mob-sidebar-open" hidden="">View All</button>
+        <div class="sidebar">
+          <div class="sidebar-inner">
+            <button class="mob-sidebar-close" hidden=""></button>
+            
+
+<ul>
+  <li><a href="#volunteer">Entrevistados</a></li>
+  <li><a href="#layout">FAQ</a>
+    <ul>
+      <li><a href="#whatisbitcoin">Â¿QuÃ© es Bitcoin?</a></li>
+      <li><a href="#howitworks">Â¿CÃ³mo funciona Bitcoin?</a></li>
+      <li><a href="#whatismining">Â¿QuÃ© es la minerÃ­a bitcoin?</a></li>
+      <li><a href="#acquire">Â¿CÃ³mo se adquieren bitcoins?</a></li>
+      <li><a href="#used">Â¿Lo utiliza realmente la gente?</a></li>
+      <li><a href="#makepayment">Â¿QuÃ© dificultad tiene realizar un pago con Bitcoin?</a></li>
+      <li><a href="#advantages">Â¿Cuales son las ventajas de Bitcoin?</a></li>
+      <li><a href="#disadvantages">Â¿CuÃ¡les son las desventajas de Bitcoin?</a></li>
+      <li><a href="#secure">Â¿Es Bitcoin seguro?</a></li>
+      <li><a href="#islegal">Â¿Bitcoin es legal?</a></li>
+      <li><a href="#taxes">Â¿CÃ³mo tributa Bitcoin?</a></li>
+      <li><a href="#illegalactivities">Â¿Es Ãºtil Bitcoin para realizar actividades ilegales?</a></li>
+      <li><a href="#bubble">Â¿Es Bitcoin una burbuja?</a></li>
+      <li><a href="#whyvalue">Â¿Por quÃ© tienen valor los bitcoins?</a></li>
+      <li><a href="#ponzi">Â¿Es el Bitcoin una estafa piramidal?</a></li>
+      <li><a href="#creator">Â¿QuiÃ©n creÃ³ Bitcoin?</a></li>
+      <li><a href="#worthless">Â¿Pueden los bitcoins llegar a valer nada?</a></li>
+      <li><a href="#virtual">Â¿Es Bitcoin totalmente virtual e inmaterial?</a></li>
+      <li><a href="#trust">Â¿PorquÃ© la gente confÃ­a en Bitcoin?</a></li>
+      <li><a href="#anonymous">Â¿Bitcoin es anÃ³nimo?</a></li>
+    </ul>
+  </li>
+</ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="toccontent">
+      <div class="toccontent-intro">
+  <h2 id="volunteer" class=" anchorAf"><a href="#volunteer"></a>Entrevistados</h2>
+  <p>ComunÃ­quese con <a href="https://bitcoinfoundation.org/contact/"> la FundaciÃ³n Bitcoin</a> o con <a href="/es/comunidad#sin-animo-de-lucro"> organizaciones locales sin fines de lucro</a>.</p>
+</div>
+
+<div class="toccontent-block boxexpand expanded">
+  <h2 id="layout" class=" anchorAf"><a href="#layout"></a>FAQ</h2>
+  <div class="press-faq">
+    <div>
+      <h3 id="whatisbitcoin" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#whatisbitcoin"></a>Â¿QuÃ© es Bitcoin?</h3>
+      <div>
+        <p>Bitcoin es una red consensuada que permite un nuevo sistema de pago y una moneda completamente digital. Es la primera red entre pares de pago descentralizado impulsado por sus usuarios sin una autoridad central o intermediarios. Desde un punto de vista de usuario, Bitcoin es como dinero para Internet. Bitcoin puede ser el Ãºnico <a href="http://financialcryptography.com/mt/archives/001325.html">sistema de contabilidad triple</a> existente.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="howitworks" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#howitworks"></a>Â¿CÃ³mo funciona Bitcoin?</h3>
+      <div>
+        <p>Desde la perspectiva del usuario, Bitcoin no es mÃ¡s que una aplicaciÃ³n mÃ³vil o de escritorio que provee un monedero Bitcoin personal y permite al usuario enviar y recibir bitcoins con el. AsÃ­ es como funciona Bitcoin para la mayorÃ­a de los usuarios.</p>
+        <p>DetrÃ¡s de las cÃ¡maras, la red Bitcoin comparte una contabilidad pÃºblica llamada "block chain". Esta contabilidad contiene cada transacciÃ³n procesada, permitiendo verificar la validez de cada transacciÃ³n. La autenticidad de cada transacciÃ³n esta protegida por firmas digitales correspondientes a las direcciones de envÃ­o, permitiendo a todos los usuarios tener control total al enviar Bitcoins desde sus direcciones Bitcoin. AdemÃ¡s, cualquiera puede procesar una transacciÃ³n usando el poder computacional de hardware especializado y conseguir una recompensa en Bitcoins por este servicio.  Esto es comÃºnmente llamado "mining" o minerÃ­a. Para aprender mÃ¡s sobre Bitcoin, puedes consultar la <a href="/es/como-funciona">pÃ¡gina dedicada</a> y el <a href="/es/bitcoin-documento">documento original</a>.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="whatismining" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#whatismining"></a>Â¿QuÃ© es la minerÃ­a bitcoin?</h3>
+      <div>
+        <p>Minar bitcoins es el proceso de invertir capacidad de computacional para procesar transacciones, garantizar la seguridad de la red, y conseguir que todos los participantes estÃ©n sincronizados. PodrÃ­a describirse como el centro de datos de Bitcoin, excepto que este ha sido diseÃ±ado para ser completamente descentralizado con mineros operando en todos los paÃ­ses y sin que nadie tenga el control absoluto sobre la red. Este proceso se denomina "minerÃ­a", como analogÃ­a a la minerÃ­a del oro, ya que tambiÃ©n es un mecanismo temporal utilizado para emitir nuevos bitcoins. No obstante, a diferencia de la minerÃ­a del oro, la minerÃ­a de Bitcoin ofrece una recompensa a cambio de servicios Ãºtiles que son necesarios para que la red de pagos funcione de manera segura. La minerÃ­a de Bitcoin seguirÃ¡ siendo necesaria hasta que se haya emitido el Ãºltimo bitcoin.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="acquire" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#acquire"></a>Â¿CÃ³mo se adquieren bitcoins?</h3>
+      <div>
+        <ul>
+          <li>Como pago por bienes o servicios.</li>
+          <li>Compre bitcoins en una <a href="https://www.buybitcoinworldwide.com">casa de cambio de Bitcoin</a>.</li>
+          <li>Intercambie bitcoins con <a href="https://localbitcoins.com/">alguien en su zona</a>.</li>
+          <li>Consiga bitcoins a travÃ©s de la competitiva <a href="http://www.bitcoinmining.com/">minerÃ­a</a>.</li>
+        </ul>
+        <p>Si bien es posible encontrar individuos que desean vender bitcoins a cambio de un pago por PayPal o tarjeta de crÃ©dito, la mayorÃ­a de las casas de cambio no permiten utilizar estos mÃ©todos de pago. Esto se debe a casos en los que alguien compra bitcoins con PayPal y luego revierte la mitad de la transacciÃ³n. Esto es comÃºnmente referido como reembolso.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="used" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#used"></a>Â¿Lo utiliza realmente la gente?</h3>
+      <div>
+        <p>SÃ­. Existe un nÃºmero creciente de negocios e individuos usando Bitcoin. Esto incluye negocios tradicionales como restaurantes, casas, bufetes de abogados y servicios de Internet populares como Namecheap, Wordpress, Reddit y Flattr. Aunque Bitcoin sigue siendo un fenÃ³meno relativamente nuevo, esta creciendo rÃ¡pido. A finales de Agosto de 2013, el <a href="https://bitcoincharts.com/bitcoin/">valor de todos los bitcoins en circulaciÃ³n</a> superaba los 1.5 billones de dÃ³lares y cada dÃ­a se intercambiaban el equivalente a millones de dÃ³lares en bitcoins.</p>
+        <p>
+          <img style="height:165px;width:380px;" src="/img/faq/merchants_map.png?1716491272" alt="Screenshot">
+        </p>
+      </div>
+    </div>
+    <div>
+      <h3 id="makepayment" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#makepayment"></a>Â¿QuÃ© dificultad tiene realizar un pago con Bitcoin?</h3>
+      <div>
+        <p>Los pagos con Bitcoin son mas fÃ¡ciles de efectuar que las compras con tarjetas de crÃ©dito o dÃ©bito y pueden ser recibidos sin necesidad de tener una cuenta mercantil. Los pagos son realizados desde la aplicaciÃ³n de monedero, tanto con tu ordenador o smartphone, introduciendo la direcciÃ³n del destinatario, el importe a pagar y pulsando enviar. Para facilitar la introducciÃ³n de la direcciÃ³n muchos monederos pueden obtenerla al escanear un cÃ³digo QR o juntando dos telÃ©fonos con tecnologÃ­a NFC.</p>
+        <p>
+          <img src="/img/faq/mobile_send.png?1716491272" style="height:325px;width:190px;" alt="Screenshot">
+          <img src="/img/faq/mobile_receive.png?1716491272" style="height:325px;width:190px;" alt="Screenshot">
+        </p>
+      </div>
+    </div>
+    <div>
+      <h3 id="advantages" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#advantages"></a>Â¿Cuales son las ventajas de Bitcoin?</h3>
+      <div>
+        <ul>
+          <li><em><b>Libertad de pagos</b></em> - Con Bitcoin, podrÃ¡ enviar y recibir cualquier cantidad de dinero instantÃ¡neamente desde y hacia cualquier lugar del mundo, en cualquier momento. Sin bancos con horarios. Sin fronteras. Sin lÃ­mites impuestos. Los usuarios de Bitcoin siempre tienen un completo control sobre su dinero.</li>
+          <li><em><b>Tasas muy bajas</b></em> - Los pagos con Bitcoin son actualmente procesados con tasas bajas o sin tasa alguna. Los usuarios pueden incluir una tasa en sus transacciones para recibir prioridad en el procesamiento de estas, lo que resulta en una confirmaciÃ³n mÃ¡s rÃ¡pida de las transacciones por parte de la red. AdemÃ¡s, los procesadores mercantiles estÃ¡n para asesorar en los procesos de transacciÃ³n a los comerciantes, convirtiendo bitcoins a la moneda fiduciaria y depositando fondos directamente en la cuenta bancaria del comerciante diariamente. Como estos servicios estÃ¡n basados en Bitcoin, son ofrecidos con cargos mucho mÃ¡s bajos que los que ofrecen PayPal o las redes de tarjetas de crÃ©dito.</li>
+          <li><em><b>Menores riesgos para los comerciantes</b></em> - Las transacciones con Bitcoin son seguras, irreversibles, y no contienen datos personales y privados de los clientes. Esto protege a comerciantes contra pÃ©rdidas ocasionadas por el fraude o devoluciÃ³n fraudulenta, y no es necesario el cumplimiento de las normas PCI. Asimismo, los comerciantes pueden operar en nuevos mercados en los que las tarjetas de crÃ©dito no estÃ¡n disponibles o los niveles de fraude sean demasiado elevados. Esto conlleva a mejores comisiones, mercados mÃ¡s extensos y menos costes administrativos.</li>
+          <li><em><b>Seguridad y control</b></em> - Los usuarios de Bitcoin tienen completo control sobre sus transacciones; es imposible que los comerciantes fuercen cargos no deseados o detectados, como puede suceder con otros mÃ©todos de pago. Los pagos de Bitcoin pueden realizarse sin que estÃ©n asociados a informaciÃ³n de carÃ¡cter personal. Esto ofrece un alto nivel de protecciÃ³n contra el robo de identidad. Los usuarios de Bitcoin tambiÃ©n pueden proteger su dinero con copias de seguridad y encriptaciÃ³n.</li>
+          <li><em><b>Neutral y transparente</b></em> - <a href="https://live.blockcypher.com/btc/">Toda la informaciÃ³n</a> sobre el suministro de Bitcoin esta disponible en la cadena de bloques para cualquiera que quiera verificarlo y usarlo. NingÃºn individuo u organizaciÃ³n puede controlar o manipular el protocolo Bitcoin porque es criptogrÃ¡ficamente seguro. Se puede confiar en Bitcoin por ser completamente neutral, transparente y fiable.</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <h3 id="disadvantages" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#disadvantages"></a>Â¿CuÃ¡les son las desventajas de Bitcoin?</h3>
+      <div>
+        <ul>
+          <li><em><b>Grado de aceptaciÃ³n</b></em> - Mucha gente no conoce aÃºn Bitcoin. Cada dÃ­a, mÃ¡s negocios aceptan Bitcoin para aprovechar sus ventajas, pero la lista aÃºn es pequeÃ±a y necesita crecer para que puedan beneficiarse de su <a href="https://es.wikipedia.org/wiki/Efecto_de_red">efecto de red</a>.</li>
+          <li><em><b>Volatilidad</b></em> - El <a href="https://bitcoincharts.com/bitcoin/">valor total</a> de bitcoins en circulaciÃ³n y el nÃºmero de negocios usando Bitcoin son muy pequeÃ±os comparado con lo que puede llegar a ser. Por lo tanto,  eventos relativamente pequeÃ±os, intercambios o actividades empresariales afectan significativamente en el precio. En teorÃ­a, esta volatilidad decrecerÃ¡ conforme el mercado y la tecnologÃ­a Bitcoin madure. Nunca antes se ha visto una moneda naciente, por lo que es muy difÃ­cil (y excitante) imaginar que pasarÃ¡.</li>
+          <li><em><b>Desarrollo en curso</b></em> - El software de Bitcoin aÃºn esta en fase beta con muchas caracterÃ­sticas incompletas en desarrollo. Se estÃ¡n desarrollando nuevas herramientas, caracterÃ­sticas y servicios para hacer Bitcoin mas seguro y accesible a las masas. Muchos aÃºn no estÃ¡n listos para el pÃºblico. La mayorÃ­a de negocios con Bitcoin son nuevos y no ofrecen seguridad. En general, Bitcoin aÃºn esta en proceso de maduraciÃ³n.</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <h3 id="secure" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#secure"></a>Â¿Es Bitcoin seguro?</h3>
+      <div>
+        <p>La tecnologÃ­a Bitcoin - el protocolo y la criptografÃ­a - tiene un sÃ³lido historial de seguridad y la red Bitcoin es probablemente el mayor proyecto de computaciÃ³n distribuida en el mundo. La vulnerabilidad mÃ¡s comÃºn es el fallo del usuario. Los archivos de la cartera Bitcoin que almacenan las necesarias claves privadas pueden ser accidentalmente borradas, perdidas o robadas. Esto es muy similar al dinero fÃ­sico almacenado de forma digital. Afortunadamente, los usuarios pueden emplear <a href="/es/asegure-su-monedero">prÃ¡cticas de seguridad</a> prudentes para proteger su dinero o usar proveedores de servicios que ofrecen buenos niveles de seguridad y garantÃ­a contra robo o pÃ©rdida.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="islegal" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#islegal"></a>Â¿Bitcoin es legal?</h3>
+      <div>
+        <p>Hasta donde sabemos, <a href="https://en.wikipedia.org/wiki/Legality_of_bitcoin_by_country">el Bitcoin no se ha hecho ilegal</a> por ley en la mayorÃ­a de territorios. Sin embargo, algunos territorios (como Argentina o Rusia) restringen o prohÃ­ben monedas extranjeras de manera severa. Otros territorios (como Tailandia) pueden limitar la concesiÃ³n de licencias a ciertas entidades como son las casas de cambio de Bitcoins.</p>
+        <p>Reguladores de varios territorios estÃ¡n tomando medidas para proveer a individuos y negocios con reglas acerca de como integrar esta nueva tecnologÃ­a al regulado y convencional sistema financiero. Por ejemplo, la Red de ProtecciÃ³n de CrÃ­menes Financieros (FinCEN), una oficina del Ministerio de Hacienda de Estados Unidos, emitiÃ³ una guÃ­a sobre como caracterizan ciertas actividades que involucran monedas virtuales.</p>
+        <ul>
+          <li>
+            <a href="https://www.ecb.europa.eu/pub/pdf/other/virtualcurrencyschemes201210en.pdf">Virtual Currency Schemes - European Central Bank</a>
+          </li>
+          <li>
+            <a href="https://www.fincen.gov/statutes_regs/guidance/pdf/FIN-2013-G001.pdf">Application of FinCENâs Regulations to Persons Administering, Exchanging, or Using Virtual Currencies</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <h3 id="taxes" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#taxes"></a>Â¿CÃ³mo tributa Bitcoin?</h3>
+      <div>
+        <p>Bitcoin no es una moneda fiduciaria de curso legal en ningÃºn territorio, pero a menudo los impuestos fiscales se aplican independientemente del medio usado. Existen una gran variedad de legislaciones en diferentes territorios que podrÃ­an ocasionar ingresos, ventas, nÃ³minas, plusvalÃ­as o cualquier otra forma de impuesto que surgiera con Bitcoin.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="illegalactivities" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#illegalactivities"></a>Â¿Es Ãºtil Bitcoin para realizar actividades ilegales?</h3>
+      <div>
+        <p>Bitcoin es dinero y el dinero siempre ha sido usado para propÃ³sitos legales e ilegales. Efectivo, tarjetas de credito y los sistemas bancarios superan ampliamente a Bitcoin a la hora de financiar el crimen. Bitcoin puede traer innovaciÃ³n a los sistemas de pago y los beneficios de tal innovaciÃ³n son considerados mucho mas valiosos que los potenciales inconvenientes.</p>
+        <p>Bitcoin estÃ¡ diseÃ±ado para dar un gran paso adelante en la seguridad monetaria y tambiÃ©n podrÃ­a  jugar un gran papel contra muchas formas de crimen financiero. Por ejemplo, los bitcoins son imposibles de falsificar. Los usuarios tienen control total sobre sus pagos y no pueden recibir cobros no aprobados como los que pueden verse con tarjetas de crÃ©dito. Las transacciones Bitcoin son irreversibles e inmunes a devoluciones fraudulentas. Bitcoin le permite asegurar el dinero contra robo utilizando fuertes y Ãºtiles mecanismos como por ejemplo las copias de seguridad, el cifrado criptogrÃ¡fico y las firmas mÃºltiples.</p>
+        <p>Algunas preocupaciones han surgido acerca de que Bitcoin puede ser mas atractivo para los criminales debido a que puede utilizarse para hacer pagos privados e irreversibles. Sin embargo, estas caracterÃ­sticas existen actualmente en el dinero efectivo y en las transferencias bancarias, las cuales son ampliamente usadas. El uso de Bitcoin sin duda serÃ¡ sujeto a regulaciones similares a las que existen en los sistemas financieros y no serÃ¡ diferente a la hora de realizar investigaciones criminales. ComÃºnmente, los avances importantes siempre han sido percibidos con polÃ©mica antes de comprender correctamente sus beneficios. Un buen ejemplo de ello es Internet.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="bubble" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#bubble"></a>Â¿Es Bitcoin una burbuja?</h3>
+      <div>
+        <p>Un rÃ¡pido aumento en el precio no constituye una burbuja. Una sobrevaloraciÃ³n que darÃ¡ lugar a una repentina correcciÃ³n a la baja constituye una burbuja. Decisiones basadas en la acciÃ³n humana individual de cientos de miles de participantes en el mercado es la causa de que el precio de bitcoin fluctÃºe mientras el mercado da con la formaciÃ³n del precio. Razones para cambios en los sentimientos pueden incluir pÃ©rdida de confianza en Bitcoin, una amplia diferencia entre valor y precio no basada en los fundamentos de la economÃ­a Bitcoin, aumento de la cobertura de la prensa estimulando demanda especulativa, miedo a la incertidumbre, y las viejas euforia absurda y avaricia.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="whyvalue" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#whyvalue"></a>Â¿Por quÃ© tienen valor los bitcoins?</h3>
+      <div>
+        <p>Los Bitcoins tienen valor porque son Ãºtiles como moneda. Tiene las caracterÃ­sticas del dinero (durabilidad, portabilidad, fungibilidad, escasez, divisibilidad y reconocibilidad) basado en propiedades matemÃ¡ticas en vez de confiar en propiedades fÃ­sicas (como el oro y la plata) o confiar en autoridades centralistas (como las monedas fiduciarias). Abreviando, Bitcoin esta respaldado por las matemÃ¡ticas. Con estos atributos, todo lo que necesita esta clase de dinero para mantener su valor es confianza y adopciÃ³n. En el caso de Bitcoin, podemos medirlo con su crecimiento en usuarios, comerciantes y empresas nacientes. Como cualquier moneda, el valor del Bitcoin se consigue sola y directamente de la gente que quiere aceptarlo como pago.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="ponzi" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#ponzi"></a>Â¿Es el Bitcoin una estafa piramidal?</h3>
+      <div>
+        <p>Un esquema Ponzi es una operaciÃ³n fraudulenta de inversiones que paga a los inversores intereses tomados de su propio dinero, o del dinero pago por otros inversores, en lugar de las ganancias de cada individuo a travÃ©s del negocio. Los esquemas Ponzi estÃ¡n designados para colapsar a expensas de los Ãºltimos inversores cuando ya no hay suficientes participantes.</p>
+        <p>Bitcoin es un proyecto de software libre sin ninguna autoridad central. Por lo tanto, nadie estÃ¡ en posiciÃ³n de hacer representaciones fraudulentas sobre la rentabilidad de las inversiones. Como otras monedas importantes, como por ejemplo el oro, dÃ³lar estadounidense, euro, yen, etc. no existe una garantÃ­a de que su valor no varÃ­e. Esto conlleva una volatilidad donde los dueÃ±os de bitcoins pueden ganar o perder dinero de forma impredecible. Mas allÃ¡ de las especulaciones, Bitcoin es tambiÃ©n un sistema de pagos con cualidades Ãºtiles y competitivas que estÃ¡ siendo usado por miles de usuarios y negocios.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="creator" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#creator"></a>Â¿QuiÃ©n creÃ³ Bitcoin?</h3>
+      <div>
+        <p>Bitcoin es la primera implementaciÃ³n de un concepto conocido como "moneda criptogrÃ¡fica", la cual fue descrita por primera vez en 1998 por Wei Dai en la lista de correo electÃ³nico "cypherpunks", donde propuso la idea de un nuevo tipo de dinero que utilizara la criptografÃ­a para controlar su creaciÃ³n y las transacciones, en lugar de que lo hiciera una autoridad centralizada. La primera especificaciÃ³n del protocolo Bitcoin y la prueba del concepto la publicÃ³ Satoshi Nakamoto en el 2009 en una lista de correo electrÃ³nico. Satoshi abandonÃ³ el proyecto a finales de 2010 sin revelar mucho sobre su persona. Desde entonces, la comunidad ha crecido de forma exponencial y cuenta con <a href="/es/desarrollo">numerosos desarrolladores</a> que trabajan en el protocolo Bitcoin.</p>
+        <p>La anonimidad de Satoshi a veces ha levantado sospechas injustificadas, muchas de ellas causadas por la falta de comprensiÃ³n sobre el cÃ³digo abierto en el que se basa Bitcoin. El protocolo Bitcoin y su software se publican abiertamente y cualquier programador en cualquier lugar del mundo puede revisarlo o crear su propia versiÃ³n modificada del software. Al igual que los programadores actuales, la influencia de Satoshi se ha limitado a que los cambios que hizo los adoptaran los demÃ¡s y, por tanto, no controlaba Bitcoin. AsÃ­, conocer la identidad del inventor del Bitcoin es igual de relevante que saber quiÃ©n inventÃ³ el papel.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="worthless" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#worthless"></a>Â¿Pueden los bitcoins llegar a valer nada?</h3>
+      <div>
+        <p>SÃ­. La historia esta llena de monedas que fracasaron y ya no se utilizan, como el <a href="https://es.wikipedia.org/wiki/Marco_de_oro_alem%C3%A1n">Marco AlemÃ¡n</a> durante la Republica de Weimar y, mas recientemente, el <a href="https://es.wikipedia.org/wiki/D%C3%B3lar_zimbabuense">Dolar Zimbabuense</a>. Aunque el fracaso de las anteriores monedas ocurriÃ³ por la hiperinflaciÃ³n, lo cual es imposible que ocurra con Bitcoin, siempre existe la posibilidad de fracasos tÃ©cnicos, competencia entre monedas, problemas polÃ­ticos, etc. Como regla de oro bÃ¡sica, ninguna moneda debe considerarse libre de fracasos o malos tiempos. Bitcoin ha probado ser de confianza durante aÃ±os desde su creaciÃ³n y tiene muchÃ­simo potencial para que siga creciendo. AÃºn asÃ­, nadie es capaz de predecir cual serÃ¡ su futuro.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="virtual" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#virtual"></a>Â¿Es Bitcoin totalmente virtual e inmaterial?</h3>
+      <div>
+        <p>Bitcoin es tan virtual como las tarjetas de crÃ©dito y las redes bancarias que la gente usa cada dÃ­a. Bitcoin puede usarse para pagar online y en tiendas fÃ­sicas como cualquier otra moneda. Los bitcoins tambiÃ©n pueden canjearse por una opciÃ³n fÃ­sica como son las <a href="https://www.casascius.com/">monedas Casascius</a>, pero pagar con un mÃ³vil normalmente es mas sencillo. Los saldos de bitcoins estÃ¡n guardados en una inmensa red y no pueden ser alterados fraudulentamente por nadie. En otras palabras, los usuarios de Bitcoin tienen control exclusivo sobre sus fondos y los bitcoins no pueden desvanecerse solo porque sean virtuales.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="trust" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#trust"></a>Â¿PorquÃ© la gente confÃ­a en Bitcoin?</h3>
+      <div>
+        <p>Mucha de la confianza en Bitcoin viene del hecho de que no requiere confianza. Bitcoin es completamente de cÃ³digo abierto y descentralizado. Esto significa que cualquiera tiene acceso  al cÃ³digo completo en cualquier momento. Cualquier desarollador en el mundo puede verificar como funciona. Todas las transacciones y bitcoins creados durante su existencia pueden ser consultados claramente en tiempo real por cualquier persona. Todos los pagos pueden hacerse sin depender de terceros y todo el sistema esta protegido por algoritmos criptogrÃ¡ficos revisados por usuarios, parecido a lo que se utiliza en banca electrÃ³nica. Ninguna organizaciÃ³n ni individuo puede controlar Bitcoin y la red permanece segura aunque no se pueda confiar en todos sus usuarios.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="anonymous" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#anonymous"></a>Â¿Bitcoin es anÃ³nimo?</h3>
+      <div>
+        <p>Bitcoin esta diseÃ±ado para permitir a sus usuarios enviar y recibir pagos con un aceptable nivel de privacidad como cualquier otra moneda. TambiÃ©n es cierto que Bitcoin no es anÃ³nimo y no puede ofrecer el mismo nivel de privacidad que el dinero. El uso de Bitcoin deja registros pÃºblicos. Existen <a href="/es/proteja-su-privacidad">varios mecanismos</a> para proteger la privacidad de los usuarios, mÃ¡s los que se encuentran en desarrollo. AÃºn asÃ­, queda mucho trabajo antes de que estas caracterÃ­sticas sean correctamente usadas por la mayorÃ­a de usuarios Bitcoin.</p>
+        <p>Han surgido algunas preocupaciones acerca de transacciones privadas con Bitcoin que podrÃ­an usarse para propÃ³sitos ilegales. Sin embargo, Bitcoin serÃ¡ sin duda sujeto a regulaciones similares a las que existen dentro de los sistemas financieros. Bitcoin no puede ser mÃ¡s anÃ³nimo que el efectivo y seguramente no evitara que se realicen investigaciones criminales. AdemÃ¡s, Bitcoin esta creado para prevenir un gran nÃºmero de crÃ­menes financieros.</p>
+      </div>
+    </div>
+    <p>Para aprender mÃ¡s acerca de Bitcoin, por favor visite la secciÃ³n completa de <a href="/en/faq">FAQ</a> o el <a href="https://en.bitcoin.it/wiki/Help:FAQ">Bitcoin Wiki</a>.</p>
+  </div>
+</div>
+
+
+
+    </div>
+  </div>
+</div>
+
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="/es/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Support Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Donate</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">IntroducciÃ³n:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/es/bitcoin-para-personas">Personas</a>
+        </li>
+        <li>
+          <a href="/es/bitcoin-para-empresas">Empresas</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">Desarrolladores</a>
+        </li>
+        <li>
+          <a href="/es/como-empezar">CÃ³mo empezar</a>
+        </li>
+        <li>
+          <a href="/es/como-funciona">Como funciona</a>
+        </li>
+        <li>
+          <a href="/es/debes-saber">Cosas que necesita saber</a>
+        </li>
+        
+        <li>
+          <a href="/es/bitcoin-documento">White paper</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">Recursos:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/es/recursos">Recursos</a>
+        </li><li>
+          <a href="/es/intercambios">Exchanges</a>
+        </li>
+        <li>
+          <a href="/es/comunidad">Comunidad</a>
+        </li>
+        <li>
+          <a href="/es/vocabulario">Vocabulario
+          </a>
+        </li>
+        <li>
+          <a href="/es/eventos">Eventos</a>
+        </li>
+        
+          <li>
+            <a href="/es/descargar">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">Participe:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/es/apoya-bitcoin">Apoya Bitcoin</a>
+        
+        
+        </li><li>
+          <a href="/es/desarrollo">Desarrollo</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Other:</p>
+      
+      <a href="/es/legal">Legal</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/es/prensa">Prensa</a>
+      <a href="/es/sobre-nosotros">Acerca de bitcoin.org</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>Una comunidad web patrocinada por</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1716491272" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 Publicado bajo la <a href="http://opensource.org/licenses/mit-license.php" target="_blank">licencia MIT</a></div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">Network Status</a>
+        
+<ul class="lang is-expand">
+  <li><a>EspaÃ±ol</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/pers">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/premsa">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/presse">Dansk</a></li>
+        
+        
+          <li><a href="/de/presse">Deutsch</a></li>
+        
+        
+          <li><a href="/en/press">English</a></li>
+        
+        
+          <li><a href="/es/prensa" class="active">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/presse">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/stampa">Italiano</a></li>
+        
+        
+          <li><a href="/hu/sajto">Magyar</a></li>
+        
+        
+          <li><a href="/nl/pers">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/prasa">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/imprensa">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/presa">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/mediji">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/mediji">Srpski</a></li>
+        
+        
+          <li><a href="/sv/press">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/basin">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/press">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/press">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/press">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/press">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/press">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/press">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/press">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/press">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/press">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/press">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/press">ááááá</a></li>
+        
+        
+          <li><a href="/ja/press">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/press">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/press">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/pers">Bahasa Indonesia</option>
+              
+              <option value="/ca/premsa">CatalÃ </option>
+              
+              <option value="/da/presse">Dansk</option>
+              
+              <option value="/de/presse">Deutsch</option>
+              
+              <option value="/en/press">English</option>
+              
+              <option value="/es/prensa" selected="selected">EspaÃ±ol</option>
+              
+              <option value="/fr/presse">FranÃ§ais</option>
+              
+              <option value="/it/stampa">Italiano</option>
+              
+              <option value="/hu/sajto">Magyar</option>
+              
+              <option value="/nl/pers">Nederlands</option>
+              
+              <option value="/pl/prasa">Polski</option>
+              
+              <option value="/pt_BR/imprensa">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/presa">RomÃ¢nÄ</option>
+              
+              <option value="/sl/mediji">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/mediji">Srpski</option>
+              
+              <option value="/sv/press">Svenska</option>
+              
+              <option value="/tr/basin">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/press">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/press">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/press">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/press">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/press">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/press">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/press">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/press">×¢××¨××ª</option>
+              
+              <option value="/hi/press">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/press">íêµ­ì´</option>
+              
+              <option value="/km/press">ááááá</option>
+              
+              <option value="/ja/press">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/press">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/press">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">es</span>
+          </label>
+        </div>
+      </div>
+<!--      <div class="row">  -->
+        
+<!--    </div> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+
+
+  <script>updateToc();</script>
+<script>accordion();</script>
+<script>onScrollButton();</script>
+<script>boxShow();</script>
+
+
+
+
+
+
+</body></html>
