@@ -1,0 +1,821 @@
+<!DOCTYPE html><html lang="ko"><head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>ì©ì´ - Bitcoin</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+<link rel="stylesheet" href="/css/sans.css?1716491272">
+<script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.org is a community funded project, donations are appreciated and used to improve the website.
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        Make a donation
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.org needs your support!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">Donate to Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">Use this QR code or address below</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="Or custom amount? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="Or custom amount? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="Optional description (for your wallet)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="/ko/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">ìê°</a>
+    <ul>
+      <li><a href="/ko/bitcoin-for-individuals">ê°ì¸ </a></li>
+      <li><a href="/ko/bitcoin-for-businesses">ì¬ìì</a></li>
+      <li><a href="https://developer.bitcoin.org/">ê°ë°ì </a></li>
+      <li><a href="/ko/getting-started">ììíê¸°</a></li>
+      <li><a href="/ko/how-it-works">ê¸°ë³¸ ìë¦¬ </a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">ìë£</a>
+    <ul>
+      <li><a href="/ko/resources">ìë£</a>
+      </li><li><a href="/ko/exchanges">Exchanges</a></li>
+      <li><a href="/ko/community">ì»¤ë®¤ëí° </a></li>
+      
+      
+      <li class="active"><a href="/ko/vocabulary">ì©ì´</a></li>
+      <li><a href="/ko/events">ì´ë²¤í¸</a></li>
+      
+        <li><a href="/ko/download">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li><a href="/ko/innovation">íì </a></li>
+  <li><a class="is-expand">ì°¸ì¬</a>
+    <ul>
+      <li><a href="/ko/support-bitcoin">ë¹í¸ì½ì¸ì ì§ì§í´ì£¼ì¸ì</a>
+      </li><li><a href="/ko/buy">Buy Bitcoin</a></li>
+      
+      <li><a href="/ko/development">ê°ë° </a></li>
+    </ul>
+  </li>
+  <li><a href="/ko/faq">ì§ë¬¸ê³¼ëµë³</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>íêµ­ì´</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/kosa-kata">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/vocabulari">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/ordliste">Dansk</a></li>
+        
+        
+          <li><a href="/de/glossar">Deutsch</a></li>
+        
+        
+          <li><a href="/en/vocabulary">English</a></li>
+        
+        
+          <li><a href="/es/vocabulario">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/vocabulaire">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/glossario">Italiano</a></li>
+        
+        
+          <li><a href="/hu/szotar">Magyar</a></li>
+        
+        
+          <li><a href="/nl/woordenlijst">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/slownik">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/vocabulario">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/vocabular">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/besednjak">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/vokabular">Srpski</a></li>
+        
+        
+          <li><a href="/sv/ordlista">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/kelime-haznesi">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/vocabulary">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/vocabulary">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/vocabulary">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/vocabulary">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/vocabulary">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/vocabulary">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/vocabulary">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/vocabulary">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/vocabulary">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/vocabulary" class="active">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/vocabulary">ááááá</a></li>
+        
+        
+          <li><a href="/ja/vocabulary">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/vocabulary">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/vocabulary">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/kosa-kata">Bahasa Indonesia</option>
+            
+            <option value="/ca/vocabulari">CatalÃ </option>
+            
+            <option value="/da/ordliste">Dansk</option>
+            
+            <option value="/de/glossar">Deutsch</option>
+            
+            <option value="/en/vocabulary">English</option>
+            
+            <option value="/es/vocabulario">EspaÃ±ol</option>
+            
+            <option value="/fr/vocabulaire">FranÃ§ais</option>
+            
+            <option value="/it/glossario">Italiano</option>
+            
+            <option value="/hu/szotar">Magyar</option>
+            
+            <option value="/nl/woordenlijst">Nederlands</option>
+            
+            <option value="/pl/slownik">Polski</option>
+            
+            <option value="/pt_BR/vocabulario">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/vocabular">RomÃ¢nÄ</option>
+            
+            <option value="/sl/besednjak">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/vokabular">Srpski</option>
+            
+            <option value="/sv/ordlista">Svenska</option>
+            
+            <option value="/tr/kelime-haznesi">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/vocabulary">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/vocabulary">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/vocabulary">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/vocabulary">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/vocabulary">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/vocabulary">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/vocabulary">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/vocabulary">×¢××¨××ª</option>
+            
+            <option value="/hi/vocabulary">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/vocabulary" selected="selected">íêµ­ì´</option>
+            
+            <option value="/km/vocabulary">ááááá</option>
+            
+            <option value="/ja/vocabulary">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/vocabulary">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/vocabulary">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">ko</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  <div class="hero">
+  <div class="container hero-container">
+    <h1>ë¹ì ì´ ì í ë²í ë¹í¸ì½ì¸ ì©ì´ë¤</h1>
+    <p class="summarytxt">ë¹í¸ì½ì¸ì ì§ë¶ì ëí ìë¡ì´ ì ê·¼ë²ì ì ê³µíê¸° ëë¬¸ì ë¹ì ì ì´íì ì¼ë¶ê° ë ì§ ëª¨ë¥¼ ìë¡ì´ ì©ì´ë¤ì´ ëª ììµëë¤. ê±±ì íì§ ë§ì¸ì. ì  ë³ë³ì¹ ìì ë³´ì´ë íë ë¹ì ì¡°ì°¨ë ìë¡ì´ ì©ì´ë¤ì ë§ë¤ì´ëìµëë¤.</p>
+  </div>
+</div>
+
+<div class="toc-container">
+  <div class="row toc-row">
+    <div id="toc" class="toc">
+      <div>
+        <button class="mob-sidebar-open" hidden="">ALL TOPICS</button>
+        <div class="sidebar">
+          <div class="sidebar-inner vocabulary-list">
+            <button class="mob-sidebar-close" hidden=""></button>
+            <ul>
+            
+              <li><a href="#address">ì£¼ì</a></li>
+            
+              <li><a href="#bit">ë¹í¸</a></li>
+            
+              <li><a href="#bitcoin">ë¹í¸ì½ì¸</a></li>
+            
+              <li><a href="#block-chain">ë¸ë­ ì²´ì¸</a></li>
+            
+              <li><a href="#block">ë¸ë­</a></li>
+            
+              <li><a href="#btc">BTC</a></li>
+            
+              <li><a href="#confirmation">ì¹ì¸</a></li>
+            
+              <li><a href="#cryptography">ìí¸ ìì±ì </a></li>
+            
+              <li><a href="#double-spend">ì´ì¤ ì§ë¶</a></li>
+            
+              <li><a href="#hash-rate">í´ì ìë</a></li>
+            
+              <li><a href="#mining">ì±êµ´</a></li>
+            
+              <li><a href="#p2p">P2P</a></li>
+            
+              <li><a href="#private-key">ê°ì¸ í¤</a></li>
+            
+              <li><a href="#signature">ìëª</a></li>
+            
+              <li><a href="#wallet">ì§ê°</a></li>
+            
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="toccontent">
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="address" class=" anchorAf"><a href="#address"></a>ì£¼ì</h2>
+        <p>ë¹í¸ì½ì¸ ì£¼ìë <b>ì§ ì£¼ìë ì´ë©ì¼ ì£¼ìì ì ì¬í©ëë¤</b>. ëêµ°ê°ê° ë¹ì ìê² ë¹í¸ì½ì¸ì ì§ë¶íëë° íìí ì ì¼í ì ë³´ìëë¤. í ê°ì§ ì¤ìí ì°¨ì´ì ì, ê°ê°ì ê±°ëë§ë¤ ìë¡ì´ ë¹í¸ì½ì¸ ì£¼ìê° ë°í, ì¬ì©ëì´ì¼ íë¤ë ê²ìëë¤.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="bit" class=" anchorAf"><a href="#bit"></a>ë¹í¸</h2>
+        <p>ë¹í¸ë ë¹í¸ì½ì¸ì íë¶ë¨ìë¥¼ ì§ì íê¸°ìí´ ì¬ì©ë ê³µíµ ë¨ì ìëë¤.  1,000,000 ë¹í¸ë 1 ë¹í¸ì½ì¸ (BTC ëë B)ì ëì¼í©ëë¤. ì´ ë¨ìë ì¼ë°ì ì¼ë¡ í, ìí, ìë¹ì¤ì ê°ê²©ì ì§ì íëë° ë í¸ë¦¬í©ëë¤.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="bitcoin" class=" anchorAf"><a href="#bitcoin"></a>ë¹í¸ì½ì¸</h2>
+        <p>Bitcoin - ë¹í¸ì½ì¸ì ê°ë ëë ë¹í¸ì½ì¸ ë¤í¸ìí¬ ìì²´ë¥¼ ë¶ë¥¼ ë ì¬ì©íë ë¨ì´ìëë¤. ìë¥¼ ë¤ì´, "ì¤ëì ë¹í¸ì½ì¸ íë¡í ì½ì ëí´ì ë°°ì ë¤." <br>bitcoin - ë¹í¸ì½ì¸ ì¡ìì ë¨ìë¥¼ ìë¯¸í©ëë¤. ìë¥¼ ë¤ì´, "ì¤ë 10 ë¹í¸ì½ì¸ì ì¬ì©íì´." ì½ì¹­ì¼ë¡ë BTCë XBTê° ììµëë¤.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="block-chain" class=" anchorAf"><a href="#block-chain"></a>ë¸ë­ ì²´ì¸</h2>
+        <p>ë¸ë­ ì²´ì¸ì ì°ëìì¼ë¡ ëì´ë <b>ë¹í¸ì½ì¸ ê±°ëë¤ì ê³µê³µ ë´ì­ì</b>ìëë¤. ë¸ë­ ì²´ì¸ì ëª¨ë  ì¬ì©ìë¤ê°ì ê³µì ëë©°, ë¹í¸ì½ì¸ ê±°ëì ììì± ê²ì¦ê³¼ <a href="#double-spend">ì´ì¤ ì¬ì©</a>ì ë°©ì§ë¥¼ ìí´ ì¬ì©ë©ëë¤.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="block" class=" anchorAf"><a href="#block"></a>ë¸ë­</h2>
+        <p>ë¸ë­ì´ë <b>ìë§ì ëê¸° ê±°ëë¥¼ ë³´ê´íê³  ì¹ì¸íë ë¸ë­ ì²´ì¸ ë´ì ê¸°ë¡</b>ìëë¤. íê· ì ì¼ë¡ ëëµ 10ë¶ë§ë¤ ê±°ëë¥¼ í¬í¨íë ì ë¸ë­ì´ <a href="#mining">ì±êµ´</a>ì íµí´ <a href="#block-chain">ë¸ë­ ì²´ì¸</a> ì ëí´ì§ëë¤.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="btc" class=" anchorAf"><a href="#btc"></a>BTC</h2>
+        <p>BTC(ë¹í¸)ë íëì ë¹í¸ì½ì¸ (B)ì ì§ì íê¸°ìí´ ì¬ì©ëë ê³µíµë¨ì ìëë¤.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="confirmation" class=" anchorAf"><a href="#confirmation"></a>ì¹ì¸</h2>
+        <p>ì¹ì¸ì ë¹í¸ì½ì¸ ê±°ëê° <b>ë¤í¸ìí¬ì ìí´ ì²ë¦¬ëìê³  ê·¸ ê±°ëì ì² í ê°ë¥ì±ì´ ë§¤ì° ë®ìì¡ë¤ë ë»ìëë¤</b>. ë¹í¸ì½ì¸ ê±°ëë¤ì íëì <a href="/ko/vocabulary#block">ë¸ë­</a>ì í¬í¨ë  ëë§ë¤ íëì ì¹ì¸ì ë°ê²ëì´ ììµëë¤. ìì¡ ê±°ëì ìì´ìë íëì ì¹ì¸ ì ëê° ê±°ëê° ìì íê² ì´ë£¨ì´ì¡ë¤ë ë»ì´ ë  ì ììµëë¤. ê·¸ë¬ë 1000 USD ì´ìì ê±°ëììë 6ê° ì´ìì ì¹ì¸ì ê¸°ë¤ë¦¬ë ê²ì´ ì¢ìµëë¤. ë§¤ ì¹ì¸ë§ë¤ ê±°ë ì² íì ìíì´ <i>ê¸°íê¸ìì ì¼ë¡</i> ì¤ì´ë­ëë¤.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="cryptography" class=" anchorAf"><a href="#cryptography"></a>ìí¸ ìì±ì </h2>
+        <p>ìí¸ ìì±ì ì <b>ê³ ê¸ ìì¤ì ë³´ìì ì ê³µíë ìíì  ì¦ëª</b>ì ìì±í  ì ìëë¡ í´ ì£¼ë ìíì í ë¶ë¥ìëë¤. ì¨ë¼ì¸ ìê±°ëì ìíìë¬´ììë ìí¸ ìì±ì ì´ ì´ë¯¸ ì¬ì©ëê³  ììµëë¤. ë¹í¸ì½ì¸ì ê²½ì°, ë¤ë¥¸ ì¬ì©ìì ì§ê°ì ìë ëì ì¬ì©íê±°ë <a href="#block-chain">ë¸ë­ ì²´ì¸</a>ì ì¤ë¥ë¥¼ ì¼ì¼í¤ì§ ëª»íëë¡ íê¸° ìí´ì ìí¸ ìì±ì ì´ ì¬ì©ë©ëë¤. ìí¸ ìì´ë ì¬ì©í  ì ìëë¡ ì§ê°ì ì¸í¬ë¦½í¸í  ëë ì¬ì©ë  ì ììµëë¤.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="double-spend" class=" anchorAf"><a href="#double-spend"></a>ì´ì¤ ì§ë¶</h2>
+        <p>ë§ì¼ ììë¥¼ ê°ì§ ì ì ê° <b>ë¤ë¥¸ ë ë°ë ì´ë¤ìê² ê°ì ë¹í¸ì½ì¸ì íë²ì ì¬ì©</b>íë ¤ê³  íë¤ë©´, ì´ë ì´ì¤ ì§ë¶ìëë¤. ë¹í¸ì½ì¸ <a href="#mining">ì²´êµ´</a>ê³¼ <a href="#block-chain">ë¸ë­ì²´ì¸</a>ì ë¤í¸ìí¬ê° ì´ë í ë¹í¸ì½ì¸ ê±°ëë¤ì´ ì í¨í ê±°ëì¸ì§ ìëì§ì ëí´ì íì¸íê³  í©ìë¥¼ í  ì ìê²íê¸° ìí´ ì¡´ì¬íë ê²ìëë¤.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="hash-rate" class=" anchorAf"><a href="#hash-rate"></a>í´ì ìë</h2>
+        <p>í´ì ìëë <b>ë¹í¸ì½ì¸ ë¤í¸ìí¬ì ì²ë¦¬ë¥ë ¥ì ì¸¡ì íë ë¨ììëë¤</b>. ë¹í¸ì½ì¸ ë¤í¸ìí¬ë ë³´ììì ì´ì ë¡ ê³ ê°ëì ìí ì°ì°ì ì²ë¦¬í´ì¼ í©ëë¤. ë¤í¸ìí¬ê° 10 Th/sì í´ì ìëì ë¬íë¤ë ë§ì 1ì´ì 10ì¡°ê°ì ê³ì°ì í  ì ììì ìë¯¸í©ëë¤.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="mining" class=" anchorAf"><a href="#mining"></a>ì±êµ´</h2>
+        <p>ë¹í¸ì½ì¸ ì±êµ´ì <b>ì»´í¨í° íëì¨ì´ê° ë¹í¸ì½ì¸ ë¤í¸ìí¬ì ê±°ë ì¹ì¸</b> ë° ë³´ì ê°íë¥¼ ìí ìíì  ê³ì°ì íëë¡ íë ì²ë¦¬ê³¼ì ìëë¤. ë¹í¸ì½ì¸ ê´ë¶ë¤ì ì ê³µíë ìë¹ì¤ì ëê°ë¡ ê·¸ë¤ì´ ì¹ì¸íë ê±°ëì ê±°ë ììë£ ë° ìë¡­ê² ìì±ë ë¹í¸ì½ì¸ì ë°ìµëë¤. ë¹í¸ì½ì¸ ì±êµ´ ìì¥ì ì¼ë§ë§í¼ì ê³ì°ì íëëì ë°ë¼ ë³´ìì´ ë°°ë¶ëë ì ë¬¸ì ì´ê³  ê²½ìì ì¸ ìì¥ìëë¤. ëª¨ë  ë¹í¸ì½ì¸ ì¬ì©ìê° ì±êµ´ì íë ê²ì ìëë©°, ì±êµ´ì ì½ê² ëì ë² ì ìë ë°©ë²ì´ ìëëë¤.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="p2p" class=" anchorAf"><a href="#p2p"></a>P2P</h2>
+        <p>í¼ì´í¬í¼ì´ë ê°ê°ì¸ì´ ìë¡ ë¤ë¥¸ ì´ë¤ê³¼ ìí¸ ìì©íëë¡ í¨ì¼ë¡ì¨ <b>ì¡°ì§íë ì§ë¨ê³¼ ê°ì´ ìëíë ìì¤í</b>ì ê°ë¦¬íµëë¤. ë¹í¸ì½ì¸ì ê²½ì°, ê° ì¬ì©ìê° ë¤ë¥¸ ì¬ì©ìë¤ì ê±°ëë¥¼ ì¡ì íëë¡ ë¤í¸ìí¬ê° ì¤ê³ëì´ ììµëë¤. ê·¸ë¦¬ê³  ë¬´ìë³´ë¤ ì´ë¤ ìíë ì 3ìë¡ì íìíì§ ììµëë¤.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="private-key" class=" anchorAf"><a href="#private-key"></a>ê°ì¸ í¤</h2>
+        <p>ê°ì¸ í¤(ë¤ì)ë <b><a href="#signature">ìí¸ ìì±íë ìëª</a>ì íµí´ ë¹ì ì´ í¹ì í ë¹í¸ì½ì¸ ì§ê°ì ë¹í¸ì½ì¸ì ìë¹í  ê¶ë¦¬ê° ììì ì¦ëªíë ë¹ë°ì ë³´ì¡°ê°</b>ìëë¤. ìíí¸ì¨ì´ ì§ê°ì ì¬ì©íë¤ë©´, ê°ì¸ í¤ë ë¹ì ì ì»´í¨í°ì ì ì¥ëì´ ìì ê²ìëë¤. ì¹ ì§ê°ì ì¬ì©íë¤ë©´, ìê²© ìë²ì ì ì¥ëì´ ìì ê²ìëë¤. ê°ì¸ í¤ë ë¹ì ì´ ë¹ì ì ë¹í¸ì½ì¸ ì§ê°ì ë¹í¸ì½ì¸ë¤ì ì¬ì©í  ì ìëë¡ íê°í´ì£¼ë ì ë³´ì´ê¸° ëë¬¸ì ì ë ìë ¤ì ¸ìë ìëë ì ë³´ìëë¤.</p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="signature" class=" anchorAf"><a href="#signature"></a>ìëª</h2>
+        <p><a href="#cryptography">ìí¸ ìì±í</a>ë ìëªì <b>ëêµ°ê°ê° ìì ê¶ì ì¦ëªí  ì ìëë¡ íë ë©ì»¤ëì¦ìëë¤</b>. ë¹í¸ì½ì¸ì ê²½ì°, <a href="#wallet">ë¹í¸ì½ì¸ ì§ê°</a>ê³¼ ê·¸ <a href="#private-key">ê°ì¸ í¤(ë¤)</a>ë ì´ë¤ ìíì ì¸ ë§ë²ì¼ë¡ ì°ê²°ëì´ ììµëë¤. ë¹ì ì ë¹í¸ì½ì¸ ìíí¸ì¨ì´ê° ê±°ëë¥¼ ì ì í ê°ì¸ í¤ë¡ ìëªíë©´, ì ì²´ ë¤í¸ìí¬ê° ì¬ì©ë ë¹í¸ì½ì¸ê³¼ ê·¸ ìëªì´ ë§¤ì¹íë¤ë ê²ì ë³¼ ì ììµëë¤. íì§ë§, ì  ì¸ê³ì ê·¸ ëêµ¬ë ë¹ì ì´ íë¤ê² ë² ë¹í¸ì½ì¸ì íì¹ê¸° ìí´ ë¹ì ì ê°ì¸ í¤ë¥¼ ì ì¶í  ë°©ëë ììµëë¤.. </p>
+      </div>
+      
+      <div class="toccontent-block boxexpand expanded">
+        <h2 id="wallet" class=" anchorAf"><a href="#wallet"></a>ì§ê°</h2>
+        <p>ë¹í¸ì½ì¸ ì§ê°ì ì½ê² ë§í´ <b>ë¹í¸ì½ì¸ ë¤í¸ìí¬ììì ì¬ì©ëë ì§ê°ê³¼ ê°ì ê²</b>ìëë¤. ì¬ì¤ ì´ ì§ê°ì <a href="#block-chain">ë¸ë­ ì²´ì¸</a>ììì ë¹ì ì´ ë¹í¸ì½ì¸ì ìë¹í  ì ìëë¡ íë½í´ì£¼ë <a href="#private-key">ê°ì¸ í¤(ë¤ì)</a>ë¥¼ ì ì¥íê³  ìë ê²ìëë¤. ê°ê°ì ë¹í¸ì½ì¸ ì§ê°ì íµì íë ëª¨ë  ë¹í¸ì½ì¸ì ìì¡ì ë¹ì ìê² ë³´ì¬ì£¼ë©°, ë¹ì ì´ í¹ì í ì¬ëìê² í¹ì ì¡ì ë¹í¸ì½ì¸ì ì§ë¶í  ì ìëë¡ í´ì¤ëë¤. ì ì©ì¹´ëì ê°ì´ ìì¸ì´ ë¹ì ìê² ìê¸ì ë¬´ë ííìë ë¤ë¥¸ ê²ìëë¤.</p>
+      </div>
+      
+    </div>
+
+  </div>
+</div>
+
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="/ko/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Support Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Donate</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">ìê°:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/ko/bitcoin-for-individuals">ê°ì¸ </a>
+        </li>
+        <li>
+          <a href="/ko/bitcoin-for-businesses">ì¬ìì</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">ê°ë°ì </a>
+        </li>
+        <li>
+          <a href="/ko/getting-started">ììíê¸°</a>
+        </li>
+        <li>
+          <a href="/ko/how-it-works">ê¸°ë³¸ ìë¦¬ </a>
+        </li>
+        <li>
+          <a href="/ko/you-need-to-know">ì¬ë¬ë¶ì´ ììëì´ì¼ í  ê²</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">ìë£:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/ko/resources">ìë£</a>
+        </li><li>
+          <a href="/ko/exchanges">Exchanges</a>
+        </li>
+        <li>
+          <a href="/ko/community">ì»¤ë®¤ëí° </a>
+        </li>
+        <li class="active">
+          <a href="/ko/vocabulary">ì©ì´
+          </a>
+        </li>
+        <li>
+          <a href="/ko/events">ì´ë²¤í¸</a>
+        </li>
+        
+          <li>
+            <a href="/ko/download">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">ì°¸ì¬:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/ko/support-bitcoin">ë¹í¸ì½ì¸ì ì§ì§í´ì£¼ì¸ì</a>
+        
+        
+        </li><li>
+          <a href="/ko/development">ê°ë° </a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Other:</p>
+      
+      <a href="/ko/legal">ë²ì  ê³ ì§</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/ko/press">ê¸°ì¬</a>
+      <a href="/ko/about-us">bitcoin.org ìê°</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>ì´ ì»¤ë®¤ëí° ì¹ì¬ì´í¸ì íìì</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1716491272" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT ë¼ì´ì¼ì¤</a>ì ë°ë¼ ë°°í¬ëììµëë¤.</div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">Network Status</a>
+        
+<ul class="lang is-expand">
+  <li><a>íêµ­ì´</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/kosa-kata">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/vocabulari">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/ordliste">Dansk</a></li>
+        
+        
+          <li><a href="/de/glossar">Deutsch</a></li>
+        
+        
+          <li><a href="/en/vocabulary">English</a></li>
+        
+        
+          <li><a href="/es/vocabulario">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/vocabulaire">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/glossario">Italiano</a></li>
+        
+        
+          <li><a href="/hu/szotar">Magyar</a></li>
+        
+        
+          <li><a href="/nl/woordenlijst">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/slownik">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/vocabulario">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/vocabular">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/besednjak">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/vokabular">Srpski</a></li>
+        
+        
+          <li><a href="/sv/ordlista">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/kelime-haznesi">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/vocabulary">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/vocabulary">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/vocabulary">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/vocabulary">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/vocabulary">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/vocabulary">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/vocabulary">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/vocabulary">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/vocabulary">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/vocabulary" class="active">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/vocabulary">ááááá</a></li>
+        
+        
+          <li><a href="/ja/vocabulary">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/vocabulary">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/vocabulary">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/kosa-kata">Bahasa Indonesia</option>
+              
+              <option value="/ca/vocabulari">CatalÃ </option>
+              
+              <option value="/da/ordliste">Dansk</option>
+              
+              <option value="/de/glossar">Deutsch</option>
+              
+              <option value="/en/vocabulary">English</option>
+              
+              <option value="/es/vocabulario">EspaÃ±ol</option>
+              
+              <option value="/fr/vocabulaire">FranÃ§ais</option>
+              
+              <option value="/it/glossario">Italiano</option>
+              
+              <option value="/hu/szotar">Magyar</option>
+              
+              <option value="/nl/woordenlijst">Nederlands</option>
+              
+              <option value="/pl/slownik">Polski</option>
+              
+              <option value="/pt_BR/vocabulario">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/vocabular">RomÃ¢nÄ</option>
+              
+              <option value="/sl/besednjak">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/vokabular">Srpski</option>
+              
+              <option value="/sv/ordlista">Svenska</option>
+              
+              <option value="/tr/kelime-haznesi">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/vocabulary">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/vocabulary">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/vocabulary">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/vocabulary">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/vocabulary">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/vocabulary">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/vocabulary">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/vocabulary">×¢××¨××ª</option>
+              
+              <option value="/hi/vocabulary">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/vocabulary" selected="selected">íêµ­ì´</option>
+              
+              <option value="/km/vocabulary">ááááá</option>
+              
+              <option value="/ja/vocabulary">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/vocabulary">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/vocabulary">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">ko</span>
+          </label>
+        </div>
+      </div>
+<!--      <div class="row">  -->
+        
+<!--    </div> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+  <script>updateToc();</script>
+<script>accordion();</script>
+<script>onScrollButton();</script>
+<script>boxShow();</script>
+
+
+
+
+
+
+
+
+</body></html>
