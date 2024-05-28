@@ -1,0 +1,160 @@
+{
+    "target_url": "https://ethereum.org/en/contributing/translation-program/playbook/",
+    "domains": {
+        "": [
+            "mailto:press@ethereum.org",
+            "mailto:translations@ethereum.org"
+        ],
+        "blog.ethereum.org": [
+            "https://blog.ethereum.org/"
+        ],
+        "clearwordstranslations.com": [
+            "http://clearwordstranslations.com/language/en/what-is-terminology-management/"
+        ],
+        "contentrules.com": [
+            "https://contentrules.com/creating-translation-workflow/"
+        ],
+        "crowdin.com": [
+            "https://crowdin.com/"
+        ],
+        "devcon.org": [
+            "https://devcon.org/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/ethereum-org"
+        ],
+        "docs.transifex.com": [
+            "https://docs.transifex.com/glossary/glossary"
+        ],
+        "en.wikipedia.org": [
+            "https://en.wikipedia.org/wiki/Translation_management_system"
+        ],
+        "esp.ethereum.foundation": [
+            "https://esp.ethereum.foundation"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/en/",
+            "https://ethereum.org/en/about/",
+            "https://ethereum.org/en/about/#open-jobs",
+            "https://ethereum.org/en/assets/",
+            "https://ethereum.org/en/bug-bounty/",
+            "https://ethereum.org/en/community/",
+            "https://ethereum.org/en/community/code-of-conduct/",
+            "https://ethereum.org/en/community/events/",
+            "https://ethereum.org/en/community/grants/",
+            "https://ethereum.org/en/community/online/",
+            "https://ethereum.org/en/community/research/",
+            "https://ethereum.org/en/contributing/",
+            "https://ethereum.org/en/contributing/translation-program/",
+            "https://ethereum.org/en/contributing/translation-program/playbook/",
+            "https://ethereum.org/en/contributing/translation-program/playbook/#conclusion",
+            "https://ethereum.org/en/contributing/translation-program/playbook/#content-management",
+            "https://ethereum.org/en/contributing/translation-program/playbook/#main-content",
+            "https://ethereum.org/en/contributing/translation-program/playbook/#terminology-management",
+            "https://ethereum.org/en/contributing/translation-program/playbook/#tm-and-glossary",
+            "https://ethereum.org/en/contributing/translation-program/playbook/#translation-management-software",
+            "https://ethereum.org/en/contributing/translation-program/playbook/#translator-outreach",
+            "https://ethereum.org/en/contributing/translation-program/playbook/#workflow",
+            "https://ethereum.org/en/cookie-policy/",
+            "https://ethereum.org/en/dao/",
+            "https://ethereum.org/en/dapps/",
+            "https://ethereum.org/en/decentralized-identity/",
+            "https://ethereum.org/en/defi/",
+            "https://ethereum.org/en/developers/",
+            "https://ethereum.org/en/developers/docs/",
+            "https://ethereum.org/en/developers/docs/design-and-ux/",
+            "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+            "https://ethereum.org/en/developers/learning-tools/",
+            "https://ethereum.org/en/developers/local-environment/",
+            "https://ethereum.org/en/developers/tutorials/",
+            "https://ethereum.org/en/eips/",
+            "https://ethereum.org/en/enterprise/",
+            "https://ethereum.org/en/enterprise/private-ethereum/",
+            "https://ethereum.org/en/eth/",
+            "https://ethereum.org/en/foundation/",
+            "https://ethereum.org/en/gas/",
+            "https://ethereum.org/en/get-eth/",
+            "https://ethereum.org/en/glossary/",
+            "https://ethereum.org/en/governance/",
+            "https://ethereum.org/en/guides/",
+            "https://ethereum.org/en/history/",
+            "https://ethereum.org/en/layer-2/",
+            "https://ethereum.org/en/learn/",
+            "https://ethereum.org/en/nft/",
+            "https://ethereum.org/en/privacy-policy/",
+            "https://ethereum.org/en/quizzes/",
+            "https://ethereum.org/en/roadmap/",
+            "https://ethereum.org/en/roadmap/security/",
+            "https://ethereum.org/en/run-a-node/",
+            "https://ethereum.org/en/security/",
+            "https://ethereum.org/en/smart-contracts/",
+            "https://ethereum.org/en/stablecoins/",
+            "https://ethereum.org/en/staking/",
+            "https://ethereum.org/en/terms-of-use/",
+            "https://ethereum.org/en/wallets/",
+            "https://ethereum.org/en/wallets/find-wallet/",
+            "https://ethereum.org/en/web3/",
+            "https://ethereum.org/en/what-is-ethereum/",
+            "https://ethereum.org/en/whitepaper/"
+        ],
+        "gengo.com": [
+            "https://gengo.com/translator-product-updates/16-best-translation-management-systems/"
+        ],
+        "github.com": [
+            "https://github.com/ethereum/ethereum-org-website",
+            "https://github.com/ethereum/ethereum-org-website/tree/dev/public/content/contributing/translation-program/playbook/index.md"
+        ],
+        "info.lionbridge.com": [
+            "http://info.lionbridge.com/rs/lionbridge/images/Lionbridge%20FAQ_Glossary_2013.pdf"
+        ],
+        "lokalise.com": [
+            "https://lokalise.com/"
+        ],
+        "phrase.com": [
+            "https://phrase.com/",
+            "https://phrase.com/blog/posts/7-things-every-translation-management-software-should-have/",
+            "https://phrase.com/blog/posts/multilingual-content-management/"
+        ],
+        "poeditor.com": [
+            "https://poeditor.com/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ethdotorg"
+        ],
+        "www.languagescientific.com": [
+            "https://www.languagescientific.com/terminology-management-why-it-matters/#:~:text=Terminology%20management%20is%20the%20process,are%20related%20to%20each%20other."
+        ],
+        "www.linuxfoundation.org": [
+            "https://www.linuxfoundation.org/wp-content/uploads/2020FOSSContributorSurveyReport_121020.pdf"
+        ],
+        "www.memoq.com": [
+            "https://www.memoq.com/",
+            "https://www.memoq.com/tools/what-is-a-translation-management-system"
+        ],
+        "www.memsource.com": [
+            "https://www.memsource.com/",
+            "https://www.memsource.com/translation-memory/"
+        ],
+        "www.nimdzi.com": [
+            "https://www.nimdzi.com/nimdzi-100-top-lsp/"
+        ],
+        "www.rixtrans.com": [
+            "https://www.rixtrans.com/translation-workflow"
+        ],
+        "www.smartcat.com": [
+            "https://www.smartcat.com/"
+        ],
+        "www.smartling.com": [
+            "https://www.smartling.com/resources/101/what-is-translation-memory/",
+            "https://www.smartling.com/resources/101/what-is-translation-workflow-management/"
+        ],
+        "www.trados.com": [
+            "https://www.trados.com/products/trados-studio/",
+            "https://www.trados.com/solutions/terminology-management/translation-101-what-is-terminology-management.html",
+            "https://www.trados.com/solutions/translation-management/"
+        ],
+        "www.transifex.com": [
+            "https://www.transifex.com/"
+        ]
+    }
+}
