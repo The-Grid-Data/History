@@ -147,7 +147,9 @@ Solscan @2024
 
 [Privacy Policy](/privacy-policy)
 
-[Contact us](mailto:support@solscan.io)
+[Contact us](/contactus)
+
+[Advertise](https://etherscan.io/contactusadvertise)
 
 Donations:
 
