@@ -1,0 +1,30 @@
+{
+    "target_url": "https://chainalysis.com/government/",
+    "domains": {
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/i/adsct?bci=3&eci=2&event_id=c6a7ba4a-92ce-4097-ba86-d067b7f15815&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=32e6c6e2-cb5d-4314-8957-c13d82626510&tw_document_href=https%3A%2F%2Fwww.chainalysis.com%2Fgovernment%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o942f&type=javascript&version=2.3.30"
+        ],
+        "bat.bing.com": [
+            "https://bat.bing.com/action/0?ti=136016409&tm=gtm002&Ver=2&mid=fcf9be3c-db00-4814-bbe5-cd4c77b6daa5&sid=ced6f3a01cfe11ef90152702951ccf01&vid=ced6f4d01cfe11ef8d9e0931c31730d4&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&tl=Chainalysis%20Government%20Solutions%20-%20Chainalysis&p=https%3A%2F%2Fwww.chainalysis.com%2Fgovernment%2F&r=&lt=6886&evt=pageLoad&sv=1&rn=383416"
+        ],
+        "t.co": [
+            "https://t.co/i/adsct?bci=3&eci=2&event_id=c6a7ba4a-92ce-4097-ba86-d067b7f15815&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=32e6c6e2-cb5d-4314-8957-c13d82626510&tw_document_href=https%3A%2F%2Fwww.chainalysis.com%2Fgovernment%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o942f&type=javascript&version=2.3.30"
+        ],
+        "ws.zoominfo.com": [
+            "https://ws.zoominfo.com/pixel/Na6GzfmL0i0pW4qWYEKS"
+        ],
+        "www.chainalysis.com": [
+            "https://www.chainalysis.com/wp-content/uploads/2022/07/building-trust.jpg",
+            "https://www.chainalysis.com/wp-content/uploads/2022/07/government-solutions.jpg",
+            "https://www.chainalysis.com/wp-content/uploads/2022/07/successful-history.jpg",
+            "https://www.chainalysis.com/wp-content/uploads/2022/11/icon-linkedin-lightblue.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2022/11/icon-youtube-lightblue.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2023/03/icon-telegram-lightblue.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/ct-state-police-featured-thumbnail.png",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/icon-footer-twitter-x-blue.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/morabanc-featured-thumbnail.png",
+            "https://www.chainalysis.com/wp-content/uploads/2024/01/thumbnail-geos-2023.png",
+            "https://www.chainalysis.com/wp-content/uploads/2024/02/thumbnail-crime-report.png"
+        ]
+    }
+}
