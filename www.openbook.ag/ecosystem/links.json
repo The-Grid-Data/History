@@ -1,0 +1,44 @@
+{
+    "target_url": "https://www.openbook.ag/ecosystem",
+    "domains": {
+        "app.arcana.markets": [
+            "https://app.arcana.markets/data/"
+        ],
+        "app.mango.markets": [
+            "https://app.mango.markets/trade/"
+        ],
+        "app.themetadao.org": [
+            "https://app.themetadao.org/"
+        ],
+        "beta.dual.finance": [
+            "https://beta.dual.finance/loan"
+        ],
+        "discord.gg": [
+            "https://discord.gg/pFvxfWcsvt"
+        ],
+        "dropcopy.io": [
+            "https://dropcopy.io/workstation/"
+        ],
+        "github.com": [
+            "https://github.com/openbook-dex",
+            "https://github.com/openbook-dex/openbook-docs"
+        ],
+        "jup.ag": [
+            "https://jup.ag/swap/"
+        ],
+        "prism.ag": [
+            "https://prism.ag/trade",
+            "https://prism.ag/trade/"
+        ],
+        "www.grapple.tools": [
+            "https://www.grapple.tools/"
+        ],
+        "www.openbook.ag": [
+            "https://www.openbook.ag/",
+            "https://www.openbook.ag/ecosystem"
+        ],
+        "x.com": [
+            "https://x.com/openbookdex"
+        ]
+    }
+}
