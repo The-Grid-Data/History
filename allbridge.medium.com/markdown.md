@@ -45,7 +45,7 @@ Stellar as the 10th chain to join the Allbridge Core ecosystem!](/allbridge-
 core-launches-a-bridge-to-stellar-14156f59e925?source=user_profile---------
 0----------------------------)
 
-4d ago
+5d ago
 
 [](/allbridge-core-launches-a-bridge-to-
 stellar-14156f59e925?source=user_profile---------
@@ -61,7 +61,7 @@ Stellar](https://miro.medium.com/v2/resize:fill:160:106/1*1niIsrwwP9g5F9J9NrZmVw
 ![Allbridge Core Launches a Bridge to
 Stellar](https://miro.medium.com/v2/resize:fill:320:214/1*1niIsrwwP9g5F9J9NrZmVw.png)
 
-4d ago
+5d ago
 
 [](/allbridge-core-launches-a-bridge-to-
 stellar-14156f59e925?source=user_profile---------
