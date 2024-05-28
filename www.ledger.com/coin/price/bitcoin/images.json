@@ -1,0 +1,58 @@
+{
+    "target_url": "https://www.ledger.com/coin/price/bitcoin",
+    "domains": {
+        "": [
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABsSURBVHgB5dSxEYAwCAVQ4gQZgRHYCPZvGAGlSCkQpdJ/R8e9/KPIAACDphzQmI9gRJTuWGWY2VTV5pzRXh26mmW7bVCMbUL3GCKaR0SqUNzMoZZmD8H8xQ2wdo8F+i1fYz5Zs7HEjvzkCzoBEUHoOqR9y+AAAAAASUVORK5CYII=",
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABwSURBVHgB5ZTBDcAgCEWxEziCI7gR7H9hhN9y6E0qJFwaX8JJ8vz5JjYiAhVxUSE/lc05KQtWM8aAqoKZ4e0sxj98kmWF3wtJ4f7GhDDWh4jAsC5LkpmwpLOAKPaaQZEv671nRftkCRHaa6zgkC/oBrNB6DoDbe97AAAAAElFTkSuQmCC"
+        ],
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=046b14b1-a11b-4c18-a2ff-1a06880496d9&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=48b9f7d8-485e-4528-bca3-f29e618c3cb3&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Fcoin%2Fprice%2Fbitcoin&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "bat.bing.com": [
+            "https://bat.bing.com/action/0?ti=134633242&tm=gtm002&Ver=2&mid=f60f1534-1a01-47b2-9bb5-cd497ae9ccf3&sid=e727bd401cfd11ef927f39dfa65d07e2&vid=e727a6501cfd11ef85687946334bbb3f&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&tl=Bitcoin%20price%3A%20btc%20to%20USD%20chart%20%7C%20Ledger&p=https%3A%2F%2Fwww.ledger.com%2Fcoin%2Fprice%2Fbitcoin&r=&lt=1288&evt=pageLoad&sv=1&rn=835839"
+        ],
+        "cdn.cookielaw.org": [
+            "https://cdn.cookielaw.org/logos/df21fb3f-71b8-491b-89ee-eb777bcaf866/637ca236-af9d-4a40-815f-1b6a15af499d/ea9d9f41-35f0-4c24-9a83-1ef746863067/White_64.png",
+            "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg"
+        ],
+        "ledger-wp-website-s3-prd.ledger.com": [
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/07/1-1.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/08/1027-1.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/08/1839-1.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/08/2010-1.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/08/52-1.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/08/5426-1.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/08/5994-1.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/08/74-1.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/08/825-1.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/08/ton_symbol_logo_cwp.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/11/Ledger-Live-Buy-1.webp",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/11/Ledger-Live-Stake-1.webp",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/11/Stay-on-top-of-your-assets-1.webp"
+        ],
+        "sp.analytics.yahoo.com": [
+            "https://sp.analytics.yahoo.com/sp.pl?a=10000&d=Tue%2C%2028%20May%202024%2014%3A23%3A50%20GMT&n=0&b=Bitcoin%20price%3A%20btc%20to%20USD%20chart%20%7C%20Ledger&.yp=10159916&f=https%3A%2F%2Fwww.ledger.com%2Fcoin%2Fprice%2Fbitcoin&enc=UTF-8&yv=1.15.1&tagmgr=gtm"
+        ],
+        "t.co": [
+            "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=046b14b1-a11b-4c18-a2ff-1a06880496d9&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=48b9f7d8-485e-4528-bca3-f29e618c3cb3&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Fcoin%2Fprice%2Fbitcoin&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "t.teads.tv": [
+            "https://t.teads.tv/track?action=pageView&env=js-gtm&tag_version=6.17.6_ee47857&provider=tag&buyer_pixel_id=6887&referer=https%3A%2F%2Fwww.ledger.com%2Fcoin%2Fprice%2Fbitcoin&user_session_id=aaaf9cc4-d266-4879-996b-fe10344b1b33"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/tr?id=237213137153741&ev=PageView&noscript=1"
+        ],
+        "www.ledger.com": [
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/nft-faq.png",
+            "https://www.ledger.com/wp-content/uploads/2021/11/layer1.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-bitpay-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-cb-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-crypto-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-maestro-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-mastercard-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-paypal-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-visa-s.png?v=2"
+        ]
+    }
+}
