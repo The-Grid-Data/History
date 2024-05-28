@@ -1,0 +1,75 @@
+{
+    "target_url": "https://www.getpip.com/pip-token",
+    "domains": {
+        "": [
+            "mailto:hello@getpip.com"
+        ],
+        "button.getpip.com": [
+            "https://button.getpip.com"
+        ],
+        "chrome.google.com": [
+            "https://chrome.google.com/webstore/detail/pip/icblpoalghoakidcjiheabnkijnklhhe"
+        ],
+        "connect.pip.me": [
+            "https://connect.pip.me"
+        ],
+        "dashboard.getpip.com": [
+            "https://dashboard.getpip.com"
+        ],
+        "discord.gg": [
+            "http://discord.gg/pip",
+            "https://discord.gg/pip"
+        ],
+        "docs.getpip.com": [
+            "https://docs.getpip.com/",
+            "https://docs.getpip.com/getpip/",
+            "https://docs.getpip.com/getpip/product-guide/pip-extension",
+            "https://docs.getpip.com/getpip/reward-farming"
+        ],
+        "forms.gle": [
+            "https://forms.gle/k7viaypAf2t13n3JA"
+        ],
+        "medium.com": [
+            "https://medium.com/@getpip",
+            "https://medium.com/getpip"
+        ],
+        "peer.money": [
+            "https://peer.money"
+        ],
+        "pip.me": [
+            "https://pip.me"
+        ],
+        "t.me": [
+            "https://t.me/getpip"
+        ],
+        "twitter.com": [
+            "https://twitter.com/getpipcom"
+        ],
+        "www.getpip.com": [
+            "https://www.getpip.com/",
+            "https://www.getpip.com/checkout",
+            "https://www.getpip.com/faq",
+            "https://www.getpip.com/invoice",
+            "https://www.getpip.com/news",
+            "https://www.getpip.com/payment-links",
+            "https://www.getpip.com/pip-button",
+            "https://www.getpip.com/pip-extension",
+            "https://www.getpip.com/pip-token",
+            "https://www.getpip.com/policy",
+            "https://www.getpip.com/roadmap",
+            "https://www.getpip.com/team",
+            "https://www.getpip.com/terms",
+            "https://www.getpip.com/transparency"
+        ],
+        "www.peerprotocol.org": [
+            "https://www.peerprotocol.org/"
+        ],
+        "www.reddit.com": [
+            "https://www.reddit.com/r/getpipcom/"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/c/Pipme/videos",
+            "https://www.youtube.com/channel/UCB0bXqJZTq9li7_3ZOkEwdQ"
+        ]
+    }
+}
