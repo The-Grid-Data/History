@@ -566,16 +566,19 @@ content/uploads/2021/11/logo-cb-s.png?v=2)
 
 ![](https://www.facebook.com/tr?id=237213137153741&ev=PageView&noscript=1)
 
-![](https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=313b5df0-b524-4a96-85f1-2ed6f4c22aaa&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=efb615b2-aa2f-494f-8aa5-3ad69ac10d5e&tw_document_href=https%3A%2F%2Fwww.ledger.com%2F&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30)![](https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=313b5df0-b524-4a96-85f1-2ed6f4c22aaa&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=efb615b2-aa2f-494f-8aa5-3ad69ac10d5e&tw_document_href=https%3A%2F%2Fwww.ledger.com%2F&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30)
+## Your Cookies preferences !
 
-By clicking “Accept All Cookies”, you agree to the storing of cookies on your
-device to enhance site navigation, analyze site usage, and assist in our
-marketing efforts.
+We use cookies to analyse the traffic on our site, enhance your experience and
+deliver marketing contents that are relevant to your interests. Please note
+that you can change your cookie settings and withdraw your consent at any time
+from our[Cookie Policy](https://shop.ledger.com/pages/cookie-policy)
 
-Cookies Settings Accept All Cookies
+Reject All Accept All
 
-![Company Logo](https://cdn.cookielaw.org/logos/df21fb3f-71b8-491b-89ee-
-eb777bcaf866/637ca236-af9d-4a40-815f-1b6a15af499d/ea9d9f41-35f0-4c24-9a83-1ef746863067/White_64.png)
+Cookies Settings
+
+![Ledger Logo](https://cdn.cookielaw.org/logos/df21fb3f-71b8-491b-89ee-
+eb777bcaf866/56e0a676-5d93-4a14-bfc7-7a2d75f2b993/15ffac82-5822-4def-b3b3-a595598861a2/White_64.png)
 
 ## Privacy Preference Center
 
@@ -602,7 +605,7 @@ right to privacy, you can choose not to allow some types of cookies. Click on
 the different category headings to find out more and change our default
 settings. However, blocking some types of cookies may impact your experience
 of the site and the services we are able to offer.  
-[More information](https://cookiepedia.co.uk/giving-consent-to-cookies)
+[More information](https://shop.ledger.com/pages/cookie-policy)
 
 #### Strictly Necessary Cookies
 
@@ -694,10 +697,4 @@ Allow All
 [![Powered by
 Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/products/cookie-
 consent/)
-
-![](https://bat.bing.com/action/0?ti=134633242&tm=gtm002&Ver=2&mid=6970ccf7-0b58-4569-81a4-b00e28aeac3b&sid=d22515001c6b11efacd23718fff018b3&vid=d22535b01c6b11ef910c23222abc16db&vids=1&msclkid=N&pi=918639831&lg=en-
-US&sw=800&sh=600&sc=24&tl=Hardware%20Wallet%20%26%20Crypto%20Wallet%20-%20Security%20for%20Crypto%20%7C%20Ledger&p=https%3A%2F%2Fwww.ledger.com%2F&r=&lt=1634&evt=pageLoad&sv=1&rn=188849)
-
-![dot image
-pixel](https://sp.analytics.yahoo.com/sp.pl?a=10000&d=Mon%2C%2027%20May%202024%2020%3A58%3A08%20GMT&n=0&b=Hardware%20Wallet%20%26%20Crypto%20Wallet%20-%20Security%20for%20Crypto%20%7C%20Ledger&.yp=10159916&f=https%3A%2F%2Fwww.ledger.com%2F&enc=UTF-8&yv=1.15.1&tagmgr=gtm)
 
