@@ -1,0 +1,15 @@
+{
+    "target_url": "https://www.binance.com/en/price-prediction/ethereum",
+    "domains": {
+        "bin.bnbstatic.com": [
+            "https://bin.bnbstatic.com/static/images/common/logo.png"
+        ],
+        "cdn.cookielaw.org": [
+            "https://cdn.cookielaw.org/logos/99f99939-5a0d-4feb-aef3-ba45f16b6907/5bfb9945-c83c-46f9-8bd7-55e8fd1975b5/02e50907-93f6-477d-a8a2-d581dace49c2/binance-h.png",
+            "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg"
+        ],
+        "s2.coinmarketcap.com": [
+            "https://s2.coinmarketcap.com/static/img/coins/128x128/1027.png"
+        ]
+    }
+}
