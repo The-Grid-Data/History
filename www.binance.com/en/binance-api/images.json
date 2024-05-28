@@ -1,0 +1,10 @@
+{
+    "target_url": "https://www.binance.com/en/binance-api",
+    "domains": {
+        "bin.bnbstatic.com": [
+            "https://bin.bnbstatic.com/static/images/common/logo.png",
+            "https://bin.bnbstatic.com/static/images/landing-page/api/svg/dev.svg",
+            "https://bin.bnbstatic.com/static/images/landing-page/api/svg/vip-ins-dark.svg"
+        ]
+    }
+}
