@@ -1,0 +1,424 @@
+Build the future of Web3 with us. Check out our open positions today!
+
+[![Luganodes
+Logo](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQ0IiBoZWlnaHQ9IjQzIiB2aWV3Qm94PSIwIDAgMjQ0IDQzIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMjAuNTA0OSAzMi4zMTI1SDIwLjc2NDlMMjAuNzc1NiAzMi4wNDg3TDIxLjc2MjQgNy43NzI1MkwzNC4xNjIxIDIxLjAxMTZMMjYuNjA5IDMxLjg3ODdMMjYuMzA3NSAzMi4zMTI1SDI2LjgzMDRINDIuMDkyOUg0Mi4zNjQ4TDQyLjM2MzggMzIuMDM2M0w0Mi4zMTY3IDE5LjQ3NTdMNTEuNjQ4OCAzMi4yMDE3TDUxLjczIDMyLjMxMjVINTEuODY2SDU1LjcxMDVINTYuMjVMNTUuOTI3NyAzMS44NzNMNDEuMTAwNSAxMS42NTIxTDQwLjg3NzMgMTEuMzQ3OUw0MC42NjIgMTEuNjU3OEwzNi4yOTEyIDE3Ljk0N0wyMC40ODE2IDEuMDY0NDJMMjAuMjQ1NyAwLjgxMjVMMjAuMDU4NiAxLjEwMzY0TDAuMjczNTQxIDMxLjg4NjlMMCAzMi4zMTI1SDAuNTAwMzM2SDIwLjUwNDlaIiBmaWxsPSIjQkUxRTJFIi8+CjxwYXRoIGQ9Ik02OS45Njc2IDMyLjI1VjcuNDgzMTJINzQuOTkwM1YyOC4wNTg3SDg2LjYyOVYzMi4yNUg2OS45Njc2Wk0xMDQuNTI3IDMyLjI1SDk5Ljk4OTZWMzAuMTcxN0g5OS44ODU3Qzk5LjIzOTEgMzEuMDQ5MiA5OC41MjMzIDMxLjY5NTggOTcuNzM4MSAzMi4xMTE0Qzk2Ljk3NiAzMi41MjcxIDk1Ljk5NDYgMzIuNzM0OSA5NC43OTM4IDMyLjczNDlDOTIuODU0IDMyLjczNDkgOTEuMzQxNCAzMi4xNTc2IDkwLjI1NjEgMzEuMDAzQzg5LjE3MDcgMjkuODQ4NCA4OC42MjggMjguMjg5NiA4OC42MjggMjYuMzI2N1YxNC40ODAySDkzLjMwNDNWMjUuNTNDOTMuMzA0MyAyNy42Nzc3IDk0LjI4NTcgMjguNzUxNSA5Ni4yNDg2IDI4Ljc1MTVDOTcuMzM0IDI4Ljc1MTUgOTguMiAyOC4zODIgOTguODQ2NSAyNy42NDNDOTkuNDkzMSAyNi45MDQgOTkuODE2NCAyNS45MzQyIDk5LjgxNjQgMjQuNzMzM1YxNC40ODAySDEwNC41MjdWMzIuMjVaTTExNS40MDMgMzguMzExOEMxMTMuMDAxIDM4LjMxMTggMTExLjA3MyAzNy44MjY5IDEwOS42MTggMzYuODU3QzEwOC4xODYgMzUuODg3MSAxMDcuMzQ0IDM0LjUyNDYgMTA3LjA5IDMyLjc2OTZIMTExLjc2NkMxMTIuMjI4IDM0LjA4NTkgMTEzLjQxNyAzNC43NDQgMTE1LjMzNCAzNC43NDRDMTE3Ljk2NiAzNC43NDQgMTE5LjI4MiAzMy41MDg2IDExOS4yODIgMzEuMDM3NlYyOS4wOTc5SDExOS4xNzlDMTE3Ljk1NSAzMC40ODM0IDExNi40MDcgMzEuMTc2MiAxMTQuNTM3IDMxLjE3NjJDMTEyLjQzNSAzMS4xNzYyIDExMC42IDMwLjQwMjYgMTA5LjAyOSAyOC44NTU0QzEwNy40ODIgMjcuMzA4MiAxMDYuNzA5IDI1LjI1MjkgMTA2LjcwOSAyMi42ODk2QzEwNi43MDkgMjAuMDU3MSAxMDcuNDI0IDE3Ljk1NTYgMTA4Ljg1NiAxNi4zODUzQzExMC4yODggMTQuNzkxOSAxMTIuMTM1IDEzLjk5NTMgMTE0LjM5OCAxMy45OTUzQzExNi41NDYgMTMuOTk1MyAxMTguMTg2IDE0Ljc4MDQgMTE5LjMxNyAxNi4zNTA3SDExOS4zODZWMTQuNDgwMkgxMjMuOTI0VjMwLjg5OTFDMTIzLjkyNCAzMy4yMDgzIDEyMy4yMiAzNS4wMDk2IDEyMS44MTEgMzYuMzAyOEMxMjAuMzc5IDM3LjY0MjEgMTE4LjI0MyAzOC4zMTE4IDExNS40MDMgMzguMzExOFpNMTE1LjMzNCAyNy40MDA1QzExNi43NDIgMjcuNDAwNSAxMTcuNzkzIDI2Ljk1MDIgMTE4LjQ4NiAyNi4wNDk2QzExOS4xNzkgMjUuMTQ5IDExOS41MjUgMjMuOTk0NCAxMTkuNTI1IDIyLjU4NTdDMTE5LjUyNSAyMS4yMDAyIDExOS4xNTUgMjAuMDU3MSAxMTguNDE2IDE5LjE1NjVDMTE3LjcwMSAxOC4yMzI4IDExNi42NjEgMTcuNzcwOSAxMTUuMjk5IDE3Ljc3MDlDMTE0LjA5OCAxNy43NzA5IDExMy4xMjggMTguMjA5NyAxMTIuMzg5IDE5LjA4NzJDMTExLjY3MyAxOS45NjQ3IDExMS4zMTYgMjEuMTQyNCAxMTEuMzE2IDIyLjYyMDRDMTExLjMxNiAyNC4xMjE0IDExMS42NzMgMjUuMjk5MSAxMTIuMzg5IDI2LjE1MzVDMTEzLjEyOCAyNi45ODQ5IDExNC4xMSAyNy40MDA1IDExNS4zMzQgMjcuNDAwNVpNMTM4LjE0NiAzMi4yNUMxMzcuOTE1IDMxLjk0OTggMTM3LjczIDMxLjI5MTcgMTM3LjU5MiAzMC4yNzU2SDEzNy41MjJDMTM3LjAxNCAzMS4wMzc2IDEzNi4zNjggMzEuNjI2NSAxMzUuNTgzIDMyLjA0MjJDMTM0Ljc5NyAzMi40NTc4IDEzMy43IDMyLjY2NTcgMTMyLjI5MiAzMi42NjU3QzEzMC40MjEgMzIuNjY1NyAxMjguOTIgMzIuMTkyMyAxMjcuNzg5IDMxLjI0NTVDMTI2LjY1NyAzMC4yOTg3IDEyNi4wOTEgMjguOTU5MyAxMjYuMDkxIDI3LjIyNzNDMTI2LjA5MSAyNS40MjYxIDEyNi43MTUgMjQuMTA5OCAxMjcuOTYyIDIzLjI3ODVDMTI5LjIwOSAyMi40MjQxIDEzMC45NjQgMjEuODM1MiAxMzMuMjI3IDIxLjUxMTlDMTM0Ljg5IDIxLjI4MSAxMzYuMDIxIDIxLjA1MDEgMTM2LjYyMiAyMC44MTkxQzEzNy4yMjIgMjAuNTY1MSAxMzcuNTIyIDIwLjEyNjQgMTM3LjUyMiAxOS41MDI5QzEzNy41MjIgMTguODU2MyAxMzcuMjY4IDE4LjM0ODIgMTM2Ljc2IDE3Ljk3ODdDMTM2LjI1MiAxNy41ODYyIDEzNS41MTMgMTcuMzg5OSAxMzQuNTQzIDE3LjM4OTlDMTMyLjM5NiAxNy4zODk5IDEzMS4yNTMgMTguMjIxMiAxMzEuMTE0IDE5Ljg4MzlIMTI2LjkyM0MxMjYuOTkyIDE4LjE5ODEgMTI3LjY3MyAxNi44MDEgMTI4Ljk2NyAxNS42OTI2QzEzMC4yNiAxNC41ODQxIDEzMi4xMyAxNC4wMjk5IDEzNC41NzggMTQuMDI5OUMxMzkuNTY2IDE0LjAyOTkgMTQyLjA2IDE2LjIxMjEgMTQyLjA2IDIwLjU3NjdWMjkuNjE3NEMxNDIuMDYgMzAuOTU2OCAxNDIuMjY4IDMxLjc3NjYgMTQyLjY4NCAzMi4wNzY4VjMyLjI1SDEzOC4xNDZaTTEzMy40MzUgMjkuMzc1QzEzNC43MjggMjkuMzc1IDEzNS43NDQgMjkuMDQwMSAxMzYuNDgzIDI4LjM3MDRDMTM3LjI0NSAyNy43MDA3IDEzNy42MjYgMjYuOTA0IDEzNy42MjYgMjUuOTgwM1YyMy4zMTMxQzEzNy4xMTggMjMuNjEzMyAxMzYuMDIxIDIzLjk1OTcgMTM0LjMzNiAyNC4zNTIzQzEzMi45OTYgMjQuNjUyNSAxMzIuMDQ5IDI0Ljk5ODkgMTMxLjQ5NSAyNS4zOTE1QzEzMC45NDEgMjUuNzYxIDEzMC42NjQgMjYuMzM4MyAxMzAuNjY0IDI3LjEyMzRDMTMwLjY2NCAyOC42MjQ1IDEzMS41ODggMjkuMzc1IDEzMy40MzUgMjkuMzc1Wk0xNDkuNjYyIDE0LjQ4MDJWMTYuOTA0OUgxNDkuNzY2QzE1MC45OSAxNC45NjUxIDE1Mi43NDUgMTMuOTk1MyAxNTUuMDMxIDEzLjk5NTNDMTU2Ljg1NSAxMy45OTUzIDE1OC4zMzMgMTQuNjE4OCAxNTkuNDY1IDE1Ljg2NThDMTYwLjU5NiAxNy4wODk3IDE2MS4xNjIgMTguNjgzMSAxNjEuMTYyIDIwLjY0NTlWMzIuMjVIMTU2LjQ1MVYyMS4zMzg3QzE1Ni40NTEgMjAuMzY4OCAxNTYuMTc0IDE5LjU4MzcgMTU1LjYyIDE4Ljk4MzNDMTU1LjA4OSAxOC4zODI5IDE1NC4zMzggMTguMDgyNyAxNTMuMzY4IDE4LjA4MjdDMTUyLjMyOSAxOC4wODI3IDE1MS40NjMgMTguNDYzNyAxNTAuNzcgMTkuMjI1N0MxNTAuMTAxIDE5Ljk4NzggMTQ5Ljc2NiAyMC45NjkyIDE0OS43NjYgMjIuMTcwMVYzMi4yNUgxNDUuMDU1VjE0LjQ4MDJIMTQ5LjY2MlpNMTc5LjE2OCAzMC4xMDI0QzE3Ny40MzYgMzEuODgwNSAxNzUuMjA4IDMyLjc2OTYgMTcyLjQ4MyAzMi43Njk2QzE2OS43NTggMzIuNzY5NiAxNjcuNTMgMzEuODgwNSAxNjUuNzk4IDMwLjEwMjRDMTY0LjA2NiAyOC4zMDEyIDE2My4yIDI2LjA2MTIgMTYzLjIgMjMuMzgyNEMxNjMuMiAyMC43MDM3IDE2NC4wNjYgMTguNDc1MiAxNjUuNzk4IDE2LjY5NzFDMTY3LjUzIDE0Ljg5NTkgMTY5Ljc1OCAxMy45OTUzIDE3Mi40ODMgMTMuOTk1M0MxNzUuMjA4IDEzLjk5NTMgMTc3LjQzNiAxNC44OTU5IDE3OS4xNjggMTYuNjk3MUMxODAuOSAxOC40NzUyIDE4MS43NjYgMjAuNzAzNyAxODEuNzY2IDIzLjM4MjRDMTgxLjc2NiAyNi4wNjEyIDE4MC45IDI4LjMwMTIgMTc5LjE2OCAzMC4xMDI0Wk0xNzIuNDgzIDI5LjE2NzFDMTczLjg5MiAyOS4xNjcxIDE3NC45ODkgMjguNjQ3NSAxNzUuNzc0IDI3LjYwODRDMTc2LjU4MiAyNi41NDYxIDE3Ni45ODYgMjUuMTM3NSAxNzYuOTg2IDIzLjM4MjRDMTc2Ljk4NiAyMS42Mjc0IDE3Ni41ODIgMjAuMjE4NyAxNzUuNzc0IDE5LjE1NjVDMTc0Ljk4OSAxOC4wOTQyIDE3My44OTIgMTcuNTYzMSAxNzIuNDgzIDE3LjU2MzFDMTcxLjA1MSAxNy41NjMxIDE2OS45NDMgMTguMDk0MiAxNjkuMTU4IDE5LjE1NjVDMTY4LjM3MyAyMC4xOTU2IDE2Ny45OCAyMS42MDQzIDE2Ny45OCAyMy4zODI0QzE2Ny45OCAyNS4xMzc1IDE2OC4zNzMgMjYuNTQ2MSAxNjkuMTU4IDI3LjYwODRDMTY5Ljk0MyAyOC42NDc1IDE3MS4wNTEgMjkuMTY3MSAxNzIuNDgzIDI5LjE2NzFaTTE5MC42MDcgMzIuNzY5NkMxODguMzY3IDMyLjc2OTYgMTg2LjU1NCAzMS45MjY3IDE4NS4xNjkgMzAuMjQwOUMxODMuNzgzIDI4LjUzMjEgMTgzLjA5IDI2LjI0NTkgMTgzLjA5IDIzLjM4MjRDMTgzLjA5IDIwLjYxMTMgMTgzLjc5NSAxOC4zNTk4IDE4NS4yMDMgMTYuNjI3OEMxODYuNjM1IDE0Ljg3MjggMTg4LjQ1OSAxMy45OTUzIDE5MC42NzYgMTMuOTk1M0MxOTIuODkzIDEzLjk5NTMgMTk0LjU2NyAxNC44NzI4IDE5NS42OTkgMTYuNjI3OEgxOTUuODAzVjcuNDgzMTJIMjAwLjUxNFYzMi4yNUgxOTUuOTc2VjI5LjkyOTJIMTk1LjkwN0MxOTQuNzUyIDMxLjgyMjggMTkyLjk4NSAzMi43Njk2IDE5MC42MDcgMzIuNzY5NlpNMTkxLjY0NiAyOC44MjA3QzE5My4wMzIgMjguODIwNyAxOTQuMDgyIDI4LjM0NzMgMTk0Ljc5OCAyNy40MDA1QzE5NS41MzcgMjYuNDUzNyAxOTUuOTA3IDI1LjE0OSAxOTUuOTA3IDIzLjQ4NjNDMTk1LjkwNyAxOS42OTkxIDE5NC41MzMgMTcuODA1NSAxOTEuNzg1IDE3LjgwNTVDMTkwLjUxNCAxNy44MDU1IDE4OS41NDUgMTguMzEzNiAxODguODc1IDE5LjMyOTdDMTg4LjIwNSAyMC4zNDU3IDE4Ny44NyAyMS42OTY3IDE4Ny44NyAyMy4zODI0QzE4Ny44NyAyNS4xMTQ0IDE4OC4xOTQgMjYuNDUzNyAxODguODQgMjcuNDAwNUMxODkuNTEgMjguMzQ3MyAxOTAuNDQ1IDI4LjgyMDcgMTkxLjY0NiAyOC44MjA3Wk0yMTEuOTI0IDMyLjc2OTZDMjA5LjA2IDMyLjc2OTYgMjA2LjgwOSAzMS44OTIxIDIwNS4xNjkgMzAuMTM3QzIwMy41MyAyOC4zNTg5IDIwMi43MSAyNi4wOTU4IDIwMi43MSAyMy4zNDc4QzIwMi43MSAyMC42OTIxIDIwMy41MyAxOC40NzUyIDIwNS4xNjkgMTYuNjk3MUMyMDYuODA5IDE0Ljg5NTkgMjA4LjkxIDEzLjk5NTMgMjExLjQ3NCAxMy45OTUzQzIxNC4yNjggMTMuOTk1MyAyMTYuNDI3IDE0Ljk2NTEgMjE3Ljk1MSAxNi45MDQ5QzIxOS40NzUgMTguODQ0NyAyMjAuMjM3IDIxLjQ0MjYgMjIwLjIzNyAyNC42OTg3SDIwNy4zNTJDMjA3LjUzNiAyNi4xMDc0IDIwOC4wMSAyNy4yMDQzIDIwOC43NzIgMjcuOTg5NEMyMDkuNTM0IDI4Ljc1MTUgMjEwLjU3MyAyOS4xMzI1IDIxMS44ODkgMjkuMTMyNUMyMTMuNjIxIDI5LjEzMjUgMjE0Ljc2NCAyOC40MDUxIDIxNS4zMTkgMjYuOTUwMkgyMTkuOTZDMjE5LjYxNCAyOC42MTI5IDIxOC43MzYgMjkuOTk4NSAyMTcuMzI4IDMxLjEwNjlDMjE1LjkxOSAzMi4yMTU0IDIxNC4xMTggMzIuNzY5NiAyMTEuOTI0IDMyLjc2OTZaTTIxMS41NDMgMTcuNjMyM0MyMDkuMjU3IDE3LjYzMjMgMjA3Ljg4MyAxOC45MDI0IDIwNy40MjEgMjEuNDQyNkgyMTUuMzE5QzIxNS4yNDkgMjAuMzExMSAyMTQuODY4IDE5LjM5ODkgMjE0LjE3NSAxOC43MDYyQzIxMy40ODMgMTcuOTkwMyAyMTIuNjA1IDE3LjYzMjMgMjExLjU0MyAxNy42MzIzWk0yMjkuNjIzIDMyLjc2OTZDMjI3LjA4MiAzMi43Njk2IDIyNS4wOTYgMzIuMjE1NCAyMjMuNjY1IDMxLjEwNjlDMjIyLjIzMyAyOS45NzU0IDIyMS40NDggMjguNDM5NyAyMjEuMzA5IDI2LjQ5OTlIMjI1LjY3NEMyMjUuOTc0IDI4LjQ2MjggMjI3LjI2NyAyOS40NDQyIDIyOS41NTMgMjkuNDQ0MkMyMzAuNTkyIDI5LjQ0NDIgMjMxLjM4OSAyOS4yNTk1IDIzMS45NDMgMjguODlDMjMyLjUyMSAyOC41MjA1IDIzMi44MDkgMjguMDI0IDIzMi44MDkgMjcuNDAwNUMyMzIuODA5IDI3LjE2OTYgMjMyLjc2MyAyNi45NjE4IDIzMi42NzEgMjYuNzc3QzIzMi42MDEgMjYuNTkyMyAyMzIuNDYzIDI2LjQzMDYgMjMyLjI1NSAyNi4yOTIxQzIzMi4wNyAyNi4xMzA0IDIzMS44OTcgMjYuMDAzNCAyMzEuNzM2IDI1LjkxMTFDMjMxLjU5NyAyNS44MTg3IDIzMS4zNDMgMjUuNzI2MyAyMzAuOTczIDI1LjYzNEMyMzAuNjA0IDI1LjU0MTYgMjMwLjMxNSAyNS40NzIzIDIzMC4xMDcgMjUuNDI2MUMyMjkuOTIzIDI1LjM3OTkgMjI5LjU4OCAyNS4zMjIyIDIyOS4xMDMgMjUuMjUyOUMyMjguNjQxIDI1LjE2MDYgMjI4LjMxOCAyNS4wOTEzIDIyOC4xMzMgMjUuMDQ1MUMyMjcuMTYzIDI0Ljg2MDMgMjI2LjM2NiAyNC42NzU2IDIyNS43NDMgMjQuNDkwOUMyMjUuMTQzIDI0LjI4MyAyMjQuNTA4IDIzLjk5NDQgMjIzLjgzOCAyMy42MjQ5QzIyMy4xNjggMjMuMjMyMyAyMjIuNjYgMjIuNzEyNyAyMjIuMzE0IDIyLjA2NjFDMjIxLjk5IDIxLjM5NjQgMjIxLjgyOSAyMC41OTk4IDIyMS44MjkgMTkuNjc2QzIyMS44MjkgMTcuODI4NiAyMjIuNDk4IDE2LjQyIDIyMy44MzggMTUuNDUwMUMyMjUuMiAxNC40ODAyIDIyNi45NDQgMTMuOTk1MyAyMjkuMDY4IDEzLjk5NTNDMjMxLjM1NCAxMy45OTUzIDIzMy4xNDQgMTQuNTI2NCAyMzQuNDM3IDE1LjU4ODZDMjM1Ljc1NCAxNi42Mjc4IDIzNi41MDQgMTguMDU5NiAyMzYuNjg5IDE5Ljg4MzlIMjMyLjQyOEMyMzIuMjQ0IDE4LjE1MTkgMjMxLjEgMTcuMjg2IDIyOC45OTkgMTcuMjg2QzIyOC4wNTIgMTcuMjg2IDIyNy4zMDIgMTcuNDU5MiAyMjYuNzQ3IDE3LjgwNTVDMjI2LjIxNiAxOC4xNTE5IDIyNS45NTEgMTguNjM2OSAyMjUuOTUxIDE5LjI2MDRDMjI1Ljk1MSAxOS40NjgyIDIyNS45ODUgMTkuNjY0NSAyMjYuMDU1IDE5Ljg0OTJDMjI2LjE0NyAyMC4wMTA5IDIyNi4yODYgMjAuMTYxIDIyNi40NyAyMC4yOTk1QzIyNi42NzggMjAuNDE1IDIyNi44NzUgMjAuNTE4OSAyMjcuMDU5IDIwLjYxMTNDMjI3LjI0NCAyMC42ODA2IDIyNy41MSAyMC43NjE0IDIyNy44NTYgMjAuODUzOEMyMjguMjAyIDIwLjkyMzEgMjI4LjUwMyAyMC45OTIzIDIyOC43NTcgMjEuMDYxNkMyMjkuMDExIDIxLjEwNzggMjI5LjM1NyAyMS4xNzcxIDIyOS43OTYgMjEuMjY5NEMyMzAuMjM0IDIxLjMzODcgMjMwLjU4MSAyMS4zOTY0IDIzMC44MzUgMjEuNDQyNkMyMzEuNTc0IDIxLjYwNDMgMjMyLjE3NCAyMS43NTQ0IDIzMi42MzYgMjEuODkyOUMyMzMuMTIxIDIyLjAwODQgMjMzLjY3NSAyMi4yMTYyIDIzNC4yOTkgMjIuNTE2NEMyMzQuOTIyIDIyLjc5MzYgMjM1LjQwNyAyMy4xMTY5IDIzNS43NTQgMjMuNDg2M0MyMzYuMTIzIDIzLjgzMjcgMjM2LjQzNSAyNC4zMTc3IDIzNi42ODkgMjQuOTQxMkMyMzYuOTY2IDI1LjU0MTYgMjM3LjEwNSAyNi4yNDU5IDIzNy4xMDUgMjcuMDU0MkMyMzcuMTA1IDI4LjgwOTIgMjM2LjQxMiAzMC4yMDYzIDIzNS4wMjYgMzEuMjQ1NUMyMzMuNjY0IDMyLjI2MTUgMjMxLjg2MyAzMi43Njk2IDIyOS42MjMgMzIuNzY5NloiIGZpbGw9ImJsYWNrIi8+Cjwvc3ZnPgo=)](/)
+
+[Home](/)
+
+Product
+
+Resources
+
+Company
+
+Contact us
+
+[Update](/blog/?interval=3&category=Update)
+
+11 min read
+
+# Babylon: Unlocking Bitcoin with Hybrid Security
+
+With the powers of PoS and PoW!
+
+![](data:image/svg+xml;charset=utf-8,%3Csvg%20height='676'%20width='1200'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%3E%3C/svg%3E)
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACZElEQVR42o2SW1PTUBSF8ya0oTSkSZOTW9MW2tKiUAGxXBVKaQPKHWTE0WHG0RdHZHQG5Qc4qKPwIL/A4Un9h12uBDr66MOac5Kz97f3OXtJspZu/48SerrdawiuRqReKkmphtnWhWgLS7Q9V7QlBiMUg9Dzjzr/O2cEIGmY0Vnnu88USFGmZcJ1LWQzFqRE2oTMw66+VKQbSRVxrp0CiWuFMIWxEZRFwhglTaiuQQgDXgfY67iYbrYw0wowOncfk4sNZMpD6FY1xJgkd9aUjpRlQbUcKIZAc+UBXh0eYm9/H7mBPBzbvAIquTxqhNU3tzGz/BD1jQ1UajXkR6oYnpyCVyghWypfg9h1SsNiEODb+Tk+ff6Cr2fneP7yBSwCc74NSR2s4NZCHfe2tjG/tYPZ1TXUuW/tPkKws4uZZhNzSy34pUG+pw7h+7g7PY3jkxP8/PUbK4w/evcWpcEiMq4Jqa9cwdTaOlafHWB2fRONvccI9p+gQWCD4MX1DUzMLyBgTHWiFr1dM1hmZ2f4cXmJj6eneH30BrZjwfd4ZbUyBFEdhTlyG/rNYTij4xDca6UKNF7XKBShZ/NIZ7IwMn70lpafxdODA3y/uMDxh/cYGR+D5Qjkcx6kJJMS/QX05PoRZ1LMzSDmeOhxPcT5bjEOIM4pxwkKFU2Yq6ymYDgONE7YuLZNLutCklm1YHsoD1dxp7GEWr2B4tg4YqGdQhEQY3K3onLatBSnHnmTZ5EXaSMaG8KxYbsciixsKJTq+TAHikjnB6Cy09CbMicagrqSyl8pCgtoUaeR2UMo4WoINk38AUcBQwMlYtf7AAAAAElFTkSuQmCC)![Cover
+Image](/static/d5c769a792f91dbfd83e6cda96454d65/356bf/Babylon_cover_bf6badf69f.png)![Cover
+Image](/static/d5c769a792f91dbfd83e6cda96454d65/356bf/Babylon_cover_bf6badf69f.png)
+
+Published on
+
+23 May, 2024
+
+Copy
+Link[](https://twitter.com/intent/tweet?text=Check%20out%20this%20blog%20by%20Luganodes%20-%20%22Babylon%3A%20Unlocking%20Bitcoin%20with%20Hybrid%20Security%22&url=)[](https://www.linkedin.com/sharing/share-
+offsite/?url=&title=Babylon%3A%20Unlocking%20Bitcoin%20with%20Hybrid%20Security&summary=Check%20out%20this%20blog%20by%20Luganodes%20-%20%22Babylon%3A%20Unlocking%20Bitcoin%20with%20Hybrid%20Security%22)
+
+## Introduction
+
+BabylonChain is a player in the shared security narrative for Proof-of-Stake
+(PoS) blockchains secured by Bitcoin. With Babylon, Bitcoin holders can earn
+yield from their idle Bitcoin holdings without bridging to another chain.
+Holders lock their Bitcoins, which earns them the right to validate PoS chains
+and earn yield in return. With quick unbonding times and scalable restaking
+features, Bitcoin stakers can enjoy maximal liquidity and yields. Furthermore,
+it is self-custodial.
+
+Notable investors like Hack VC and Polychain Capital led BabylonChain's Series
+A funding round. Additional investors included Polygon Ventures, Framework
+Ventures, OKX Ventures, and others. Babylon is using these funds to build its
+Bitcoin staking protocol, which will bridge the DeFi ecosystem with the
+Bitcoin blockchain.
+
+## Absolute Market Dominance
+
+Bitcoin is at the heart of blockchain technology. Thanks to its Proof-of-Work
+(PoW) system, its top-notch security is well known. Bitcoin launched the idea
+of digital money without central authority in the catastrophic aftermath of
+the 2008 financial crisis.
+
+It has a unique position in the blockchain ecosystem, with the highest market
+cap ($1,232.41 billion), first-mover advantage, and unparalleled
+decentralization. It also has plenty of idle assets ready to be used.
+
+### Independent Security
+
+In PoS systems, validators lock up crypto funds to contribute to their chain's
+security, whereas computational work completes Bitcoin's PoW security, thus
+freeing up the BTC asset. PoS secures blockchain networks via financial stakes
+rather than computational work. .
+
+### Idle Assets
+
+Glassnode reported that approximately 66% of Bitcoin's circulating supply has
+remained dormant for the past year. Much of BTC is idle compared to PoS
+chains, where yield-generating activities are more common. Thus, bridging or
+custody solutions have been the only ways to leverage Bitcoin. However, they
+bring risk to the equation..
+
+### Decentralization
+
+The Bitcoin network is broad, diverse, and resilient against centralization
+pressures. However, while unique, Bitcoin and PoW, in general, could use more
+innovation to gain a foothold in DeFi, which mostly happens on PoS systems.
+
+![Babylon 1.png](https://better-
+triumph-f08c8a30a5.media.strapiapp.com/Babylon_1_1e1cf14f74.png)
+
+## Babylon Combines PoW and PoS
+
+Combining Bitcoin's robust PoW security features with the speedy and energy-
+efficient PoS consensus is a novel and exciting prospect. Imagine a protocol
+that could use Bitcoin as the foundation for PoS networks, making them even
+more secure. This approach combines the best of both worlds. It uses Bitcoin's
+rock-solid security to shore up some weak spots in PoS systems, such as small
+groups of people garnishing too much control.
+
+Babylon aims to create fast, energy-efficient networks that can withstand new
+types of attacks. Whether developers want to bootstrap a new PoS chain or
+enhance the economic security of an existing one, Babylon's Bitcoin staking
+protocol brings it to life.
+
+[BabylonChain](https://babylonchain.io/) borrows Bitcoin's security features
+and applies them to PoS chains. This shift from PoW to PoS is a pivotal moment
+in blockchain history.
+
+## Unlocking 21 Million Idle Bitcoins
+
+PoS staking is capital-intensive. Users must stake a lot of funds to secure
+these networks. However, 21 million Bitcoins are sitting idle. Why not harness
+their potential to enhance the economic security of PoS chains and their
+decentralized applications (dApps)?
+
+What makes this challenging is that Bitcoin's scripting language is not
+Turing-complete and thus cannot function outside the Bitcoin network. To
+deploy BTC crosschain demands users to wrap or bridge their tokens. Neither
+solution is ideal because it relies on trusting a third party. Thus, utilizing
+these idle Bitcoins to secure the decentralized economy seems impossible at
+first glance.
+
+## BabylonChain's Origins
+
+The Standford Tse Lab, led by David Tse (a notable professor at Stanford
+University and advisor to Bain Capital Crypto), developed Babylon. Its
+passionate creators are a group of global blockchain developers and
+researchers from Stanford who are all driven to solve the most significant
+problems in the blockchain arena. For instance, Xinshu Dong is also the co-
+founder of Zilliqa. The combined intellect makes up the team's foundation at
+Babylon.
+
+Notably, we can trace BabylonChain's genesis to a research paper on Bitcoin
+security co-authored by co-founder David Tse and others. The paper exposed the
+weaknesses of PoS chains and was accepted by the 2023 IEEE Symposium on
+Security and Privacy, a top global platform for security discourse.
+
+This research paper led to the Babylon protocol, designed to enhance PoS
+chains' security with Bitcoin-Enhanced Proof-of-Stake Security.
+
+The goal is to build a fast, safe blockchain network that can handle many
+transactions—in other words, a network that combines the best parts of PoS and
+Bitcoin technologies.
+
+## Babylon's Bitcoin Staking Protocol - EOTS
+
+Babylon employs Extractable One-Time Signature (EOTS), a cutting-edge
+cryptographic technology. EOTS and Bitcoin's native time lock let Bitcoin
+holders participate in PoS security by staking their Bitcoins on the Bitcoin
+network. This is all accomplished without third-party interference.
+
+Moreover, a staker's Bitcoins are secure if the staker does not engage in
+malicious behavior, such as attacking the PoS chain. Babylon employs the most
+advanced Bitcoin time-stamping protocol to ensure that Bitcoin and PoS chains
+stay in sync. This feature enables quick unbonding times for users looking to
+unstake their Bitcoins.
+
+EOTS is a cryptographic primitive. It can be constructed from the Schnorr
+signature algorithm, which Bitcoin has supported since the Taproot upgrade.
+The signer uses a secret and public key in the Schnorr signature algorithm. To
+sign a new message, the signer generates a secret nonce and uses that nonce
+with the secret key to sign the message. Next, the signer computes the public
+nonce of the secret nonce and publishes the signature and public nonce so that
+the public can verify the signature.
+
+The secret nonce must be new for each new message. If the signer uses the same
+secret nonce to sign two different messages, then any observer of the two
+signatures can extract the signer's secret key. When constructed
+appropriately, Schnorr's can deter the signer from committing equivocation,
+which makes it EOTS.
+
+### An EOTS Example
+
+We can explain EOTS more simply with a user named Alice. Let's say she
+receives two job offers. If she's only allowed to pick and sign one offer, the
+way to deter her from signing both job offers is to fine her. Put in the
+context of Bitcoin staking, the EOTS cryptographic primitive could cause
+Alice's secret key to be decrypted if she signs more than one offer. If the
+secret key manages a sizable amount of her assets, the risk of getting
+decrypted and slashed will deter her from signing more than one job offer.
+
+## A Modular Staking Protocol
+
+Babylon is a modular protocol that can secure any PoS chain and allows
+scalable restaking for Bitcoin holders. Babylon's Bitcoin staking protocol
+creates a two-sided market. Bitcoin holders who stake their Bitcoins can
+choose which PoS chain(s) to stake on and earn yield. Furthermore, developers
+can configure how much Bitcoin stake to accept and how much to reward stakers
+for optimizing their crypto economy.
+
+## Babylon's 3-Layer Architecture
+
+BabylonChain's design mixes the best of Bitcoin and PoS across these critical
+layers:
+
+![Babylon 3 Layered Architecture](https://better-
+triumph-f08c8a30a5.media.strapiapp.com/Babylon_2_938a02d9cf.png)
+
+### Bitcoin Layer:
+
+Bitcoin is BabylonChain's foundation layer, which utilizes Bitcoin's security
+to keep all transactions safe.
+
+### Babylon Layer:
+
+The Babylon layer connects Bitcoin with various PoS chains. It runs smart
+contracts and handles transactions, ensuring the ecosystem works together.
+
+### PoS Chains Layer:
+
+The top layer consists of various PoS chains. Babylon selects each chain for
+its unique strengths, which gives BabylonChain its scalability and
+flexibility.
+
+## Babylon's Unlimited PoS Chain Validation
+
+With Babylon's protocol, participating validators like
+[Luganodes](https://www.luganodes.com/) get exposure to billions of dollars in
+potential delegations while earning commissions by validating PoS chains.
+Furthermore, due to Babylon's modular design, the type of PoS chains the
+validator can validate is unlimited.
+
+![Bitcoin PoS Chain Validation](https://better-
+triumph-f08c8a30a5.media.strapiapp.com/Babylon_3_6b91383e69.png)
+
+For Bitcoin to become a legitimate staking asset, it must be lockable,
+delegatable, slashable, and have an unbonding period.
+
+A user can apply a time lock to their stake to lock it. Upon the expiration of
+the time lock, the condition provides a guaranteed exit for the staker, so
+only that user can spend the Bitcoin.
+
+Babylon guarantees complete slashable security for any PoS chain. If an
+attacker attacks the network, the protocol enforces PoS security by slashing
+the staker's stake.
+
+To achieve slashing, the user must create a Schnorr key pair as their EOTS key
+pair (described above). One problem is that the slashing condition only
+requires the user's EOTS signature, meaning that without prevailing
+conditions, malicious users can withdraw their Bitcoin to avoid getting
+slashed.
+
+To avoid this, the staked Bitcoin can only be sent to a pre-determined burn
+address rather than directly to the user. No one knows the secret key to this
+address, so the funds are only spendable after the time lock expires.
+
+On the other side of this equation, a "covenant committee" cannot randomly
+slash a user. Only the user knows their secret EOTS key, and when behaving
+honestly, no one else will know their secret key so that no one can slash
+them. Only when misbehaving do they expose their secret key. All in all, the
+user does not need to trust the covenant committee at all. Even a compromised
+covenant committee cannot slash their Bitcoin.
+
+## Safe Delegation
+
+Delegation is an intuitive process. Users can place a third-party validator's
+EOTS public key under the slashing condition. If the validator is malicious,
+the user can be slashed.
+
+At first glance, some might worry that a delegated validator and the covenant
+committee could collude to steal their Bitcoin. Users can add their public key
+(not an EOTS key) to the slashing condition to ensure this does not happen.
+The user will only pre-sign a slashing transaction that sends their stake to
+the pre-defined burn address.
+
+The protocol ensures that no one can steal the user's stake by using three
+sets of signatures—staker, validator, and covenant committee—in the slashing
+condition and requesting that the staker and covenant committee only sign the
+slashing transaction that burns the stake.
+
+Things to note: If the user (or the validator they delegate to) misbehaves,
+their stake gets slashed. If they behave honestly, their stake cannot be
+slashed.
+
+## Atomic Slashing
+
+When delegating, after the user and the covenant committee give their pre-
+approval, the delegated validator's signature is the only one needed to
+trigger the slashing condition. If the validator acts maliciously, it can sign
+the slashing transaction and get the trusting user slashed alone. No other
+user stakes delegated to this validator are affected in this case.
+
+However, adaptor signatures overcome this problem. Users can encrypt their
+signature using the delegated validator's EOTS public key. Then, to target the
+user's stake, the validator must decrypt the adaptor signature using its EOTS
+secret key. This action will cause its EOTS secret key to be extracted. Once
+extracted, all stakes delegated to it become slashable, including its self-
+delegated stake. Thus, the protocol accomplishes atomic slashing.
+
+## Partial Slashing
+
+Slashing a user's entire stake can scare people away from staking. However,
+many PoS systems support partial slashing. In such cases, only a tiny portion
+of the stake gets slashed for an infraction, and the remainder is returned to
+the staker.
+
+![Babylon BTC Staking](https://better-
+triumph-f08c8a30a5.media.strapiapp.com/Babylon_4_7df40fb4c5.png)
+
+Refunds come at a delay to mitigate re-entry attacks whereby malicious stakers
+abuse the slashing mechanism to exit, get their funds back, and then quickly
+re-enter the system as a staker to attack again. A refund delay significantly
+slows these kinds of attacks.
+
+## Restaking on BabylonChain
+
+Restaking refers to a user (or delegated validator) using their Bitcoin to
+participate in multiple PoS systems simultaneously. If the user or delegated
+validator behaves maliciously on any of them, they will be slashed and removed
+from all of their PoS networks.
+
+This means that Babylon has constructed a contract that turns Bitcoin into a
+staking asset with all the necessary properties. Not only is it trustless and
+self-custodial, but it is also lockable, slashable, delegatable, restakable,
+and unbondable.
+
+## Babylon's Testnet Announcement
+
+Babylon's previous Bitcoin staking testnet, known as bbn-test-3, concluded on
+May 16th, 2024. This groundbreaking testnet, the first to introduce trustless
+and self-custodial Bitcoin staking, launched in February 2024. It has now
+paved the way for Testnet-4, reflecting ongoing improvements and community-
+driven enhancements. Testnet-4 will persist in using the Bitcoin Signet to
+provide a safe and simulated environment for testing. Participants are advised
+to start the unbonding and withdrawal process of their Signet BTC in
+preparation for the new phase.
+
+For more detailed information on this transition and the upcoming testnet
+features, you can visit Babylon's official announcement
+[here](https://babylonchain.io/blog/babylon-testnet-4-pre-launch-
+announcement).
+
+## BabylonChain Summary
+
+Imagine a blockchain network that harnesses Bitcoin's solid security combined
+with the speed and efficiency of the latest PoS technology, and you have
+BabylonChain. This lofty goal requires a bold solution, which is precisely
+what BabylonChain is offering—PoS networks to stake BTC.
+
+Babylon unlocks the largest blockchain asset and opens new possibilities for
+Bitcoin-backed security services. Staking will likely encourage more
+developers to create solutions on the Bitcoin blockchain.
+
+## About Luganodes
+
+Luganodes is a world-class, Swiss-operated, non-custodial blockchain
+infrastructure provider that has rapidly gained recognition in the industry
+for offering institutional-grade services. It was born out of the Lugano Plan
+B Program, an initiative driven by Tether and the City of Lugano. Luganodes
+maintains an exceptional 99.9% uptime with round-the-clock monitoring by SRE
+experts. With support for 40+ PoS networks, it ranks among the top validators
+on Polygon, Polkadot, Sui, and Tron. Luganodes prioritizes security and
+compliance, holding the distinction of being one of the first staking
+providers to adhere to all SOC 2 Type II, GDPR, and ISO 27001 standards as
+well as offering Chainproof insurance to institutional clients.
+
+![](data:image/svg+xml;charset=utf-8,%3Csvg%20height='269'%20width='632'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%3E%3C/svg%3E)
+
+![Line
+pattern](/static/c1a2eb9200e441157c01110f2f463004/3d614/linepattern3.svg)![Line
+pattern](/static/c1a2eb9200e441157c01110f2f463004/3d614/linepattern3.svg)
+
+[![White
+logo](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQ0IiBoZWlnaHQ9IjQzIiB2aWV3Qm94PSIwIDAgMjQ0IDQzIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMjAuNTA0OSAzMi4zMTI1SDIwLjc2NDlMMjAuNzc1NiAzMi4wNDg3TDIxLjc2MjQgNy43NzI1MkwzNC4xNjIxIDIxLjAxMTZMMjYuNjA5IDMxLjg3ODdMMjYuMzA3NSAzMi4zMTI1SDI2LjgzMDRINDIuMDkyOUg0Mi4zNjQ4TDQyLjM2MzggMzIuMDM2M0w0Mi4zMTY3IDE5LjQ3NTdMNTEuNjQ4OCAzMi4yMDE3TDUxLjczIDMyLjMxMjVINTEuODY2SDU1LjcxMDVINTYuMjVMNTUuOTI3NyAzMS44NzNMNDEuMTAwNSAxMS42NTIxTDQwLjg3NzMgMTEuMzQ3OUw0MC42NjIgMTEuNjU3OEwzNi4yOTEyIDE3Ljk0N0wyMC40ODE2IDEuMDY0NDJMMjAuMjQ1NyAwLjgxMjVMMjAuMDU4NiAxLjEwMzY0TDAuMjczNTQxIDMxLjg4NjlMMCAzMi4zMTI1SDAuNTAwMzM2SDIwLjUwNDlaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNNjkuOTY3NiAzMi4yNVY3LjQ4MzEySDc0Ljk5MDNWMjguMDU4N0g4Ni42MjlWMzIuMjVINjkuOTY3NlpNMTA0LjUyNyAzMi4yNUg5OS45ODk2VjMwLjE3MTdIOTkuODg1N0M5OS4yMzkxIDMxLjA0OTIgOTguNTIzMyAzMS42OTU4IDk3LjczODEgMzIuMTExNEM5Ni45NzYgMzIuNTI3MSA5NS45OTQ2IDMyLjczNDkgOTQuNzkzOCAzMi43MzQ5QzkyLjg1NCAzMi43MzQ5IDkxLjM0MTQgMzIuMTU3NiA5MC4yNTYxIDMxLjAwM0M4OS4xNzA3IDI5Ljg0ODQgODguNjI4IDI4LjI4OTYgODguNjI4IDI2LjMyNjdWMTQuNDgwMkg5My4zMDQzVjI1LjUzQzkzLjMwNDMgMjcuNjc3NyA5NC4yODU3IDI4Ljc1MTUgOTYuMjQ4NiAyOC43NTE1Qzk3LjMzNCAyOC43NTE1IDk4LjIgMjguMzgyIDk4Ljg0NjUgMjcuNjQzQzk5LjQ5MzEgMjYuOTA0IDk5LjgxNjQgMjUuOTM0MiA5OS44MTY0IDI0LjczMzNWMTQuNDgwMkgxMDQuNTI3VjMyLjI1Wk0xMTUuNDAzIDM4LjMxMThDMTEzLjAwMSAzOC4zMTE4IDExMS4wNzMgMzcuODI2OSAxMDkuNjE4IDM2Ljg1N0MxMDguMTg2IDM1Ljg4NzEgMTA3LjM0NCAzNC41MjQ2IDEwNy4wOSAzMi43Njk2SDExMS43NjZDMTEyLjIyOCAzNC4wODU5IDExMy40MTcgMzQuNzQ0IDExNS4zMzQgMzQuNzQ0QzExNy45NjYgMzQuNzQ0IDExOS4yODIgMzMuNTA4NiAxMTkuMjgyIDMxLjAzNzZWMjkuMDk3OUgxMTkuMTc5QzExNy45NTUgMzAuNDgzNCAxMTYuNDA3IDMxLjE3NjIgMTE0LjUzNyAzMS4xNzYyQzExMi40MzUgMzEuMTc2MiAxMTAuNiAzMC40MDI2IDEwOS4wMjkgMjguODU1NEMxMDcuNDgyIDI3LjMwODIgMTA2LjcwOSAyNS4yNTI5IDEwNi43MDkgMjIuNjg5NkMxMDYuNzA5IDIwLjA1NzEgMTA3LjQyNCAxNy45NTU2IDEwOC44NTYgMTYuMzg1M0MxMTAuMjg4IDE0Ljc5MTkgMTEyLjEzNSAxMy45OTUzIDExNC4zOTggMTMuOTk1M0MxMTYuNTQ2IDEzLjk5NTMgMTE4LjE4NiAxNC43ODA0IDExOS4zMTcgMTYuMzUwN0gxMTkuMzg2VjE0LjQ4MDJIMTIzLjkyNFYzMC44OTkxQzEyMy45MjQgMzMuMjA4MyAxMjMuMjIgMzUuMDA5NiAxMjEuODExIDM2LjMwMjhDMTIwLjM3OSAzNy42NDIxIDExOC4yNDMgMzguMzExOCAxMTUuNDAzIDM4LjMxMThaTTExNS4zMzQgMjcuNDAwNUMxMTYuNzQyIDI3LjQwMDUgMTE3Ljc5MyAyNi45NTAyIDExOC40ODYgMjYuMDQ5NkMxMTkuMTc5IDI1LjE0OSAxMTkuNTI1IDIzLjk5NDQgMTE5LjUyNSAyMi41ODU3QzExOS41MjUgMjEuMjAwMiAxMTkuMTU1IDIwLjA1NzEgMTE4LjQxNiAxOS4xNTY1QzExNy43MDEgMTguMjMyOCAxMTYuNjYxIDE3Ljc3MDkgMTE1LjI5OSAxNy43NzA5QzExNC4wOTggMTcuNzcwOSAxMTMuMTI4IDE4LjIwOTcgMTEyLjM4OSAxOS4wODcyQzExMS42NzMgMTkuOTY0NyAxMTEuMzE2IDIxLjE0MjQgMTExLjMxNiAyMi42MjA0QzExMS4zMTYgMjQuMTIxNCAxMTEuNjczIDI1LjI5OTEgMTEyLjM4OSAyNi4xNTM1QzExMy4xMjggMjYuOTg0OSAxMTQuMTEgMjcuNDAwNSAxMTUuMzM0IDI3LjQwMDVaTTEzOC4xNDYgMzIuMjVDMTM3LjkxNSAzMS45NDk4IDEzNy43MyAzMS4yOTE3IDEzNy41OTIgMzAuMjc1NkgxMzcuNTIyQzEzNy4wMTQgMzEuMDM3NiAxMzYuMzY4IDMxLjYyNjUgMTM1LjU4MyAzMi4wNDIyQzEzNC43OTcgMzIuNDU3OCAxMzMuNyAzMi42NjU3IDEzMi4yOTIgMzIuNjY1N0MxMzAuNDIxIDMyLjY2NTcgMTI4LjkyIDMyLjE5MjMgMTI3Ljc4OSAzMS4yNDU1QzEyNi42NTcgMzAuMjk4NyAxMjYuMDkxIDI4Ljk1OTMgMTI2LjA5MSAyNy4yMjczQzEyNi4wOTEgMjUuNDI2MSAxMjYuNzE1IDI0LjEwOTggMTI3Ljk2MiAyMy4yNzg1QzEyOS4yMDkgMjIuNDI0MSAxMzAuOTY0IDIxLjgzNTIgMTMzLjIyNyAyMS41MTE5QzEzNC44OSAyMS4yODEgMTM2LjAyMSAyMS4wNTAxIDEzNi42MjIgMjAuODE5MUMxMzcuMjIyIDIwLjU2NTEgMTM3LjUyMiAyMC4xMjY0IDEzNy41MjIgMTkuNTAyOUMxMzcuNTIyIDE4Ljg1NjMgMTM3LjI2OCAxOC4zNDgyIDEzNi43NiAxNy45Nzg3QzEzNi4yNTIgMTcuNTg2MiAxMzUuNTEzIDE3LjM4OTkgMTM0LjU0MyAxNy4zODk5QzEzMi4zOTYgMTcuMzg5OSAxMzEuMjUzIDE4LjIyMTIgMTMxLjExNCAxOS44ODM5SDEyNi45MjNDMTI2Ljk5MiAxOC4xOTgxIDEyNy42NzMgMTYuODAxIDEyOC45NjcgMTUuNjkyNkMxMzAuMjYgMTQuNTg0MSAxMzIuMTMgMTQuMDI5OSAxMzQuNTc4IDE0LjAyOTlDMTM5LjU2NiAxNC4wMjk5IDE0Mi4wNiAxNi4yMTIxIDE0Mi4wNiAyMC41NzY3VjI5LjYxNzRDMTQyLjA2IDMwLjk1NjggMTQyLjI2OCAzMS43NzY2IDE0Mi42ODQgMzIuMDc2OFYzMi4yNUgxMzguMTQ2Wk0xMzMuNDM1IDI5LjM3NUMxMzQuNzI4IDI5LjM3NSAxMzUuNzQ0IDI5LjA0MDEgMTM2LjQ4MyAyOC4zNzA0QzEzNy4yNDUgMjcuNzAwNyAxMzcuNjI2IDI2LjkwNCAxMzcuNjI2IDI1Ljk4MDNWMjMuMzEzMUMxMzcuMTE4IDIzLjYxMzMgMTM2LjAyMSAyMy45NTk3IDEzNC4zMzYgMjQuMzUyM0MxMzIuOTk2IDI0LjY1MjUgMTMyLjA0OSAyNC45OTg5IDEzMS40OTUgMjUuMzkxNUMxMzAuOTQxIDI1Ljc2MSAxMzAuNjY0IDI2LjMzODMgMTMwLjY2NCAyNy4xMjM0QzEzMC42NjQgMjguNjI0NSAxMzEuNTg4IDI5LjM3NSAxMzMuNDM1IDI5LjM3NVpNMTQ5LjY2MiAxNC40ODAyVjE2LjkwNDlIMTQ5Ljc2NkMxNTAuOTkgMTQuOTY1MSAxNTIuNzQ1IDEzLjk5NTMgMTU1LjAzMSAxMy45OTUzQzE1Ni44NTUgMTMuOTk1MyAxNTguMzMzIDE0LjYxODggMTU5LjQ2NSAxNS44NjU4QzE2MC41OTYgMTcuMDg5NyAxNjEuMTYyIDE4LjY4MzEgMTYxLjE2MiAyMC42NDU5VjMyLjI1SDE1Ni40NTFWMjEuMzM4N0MxNTYuNDUxIDIwLjM2ODggMTU2LjE3NCAxOS41ODM3IDE1NS42MiAxOC45ODMzQzE1NS4wODkgMTguMzgyOSAxNTQuMzM4IDE4LjA4MjcgMTUzLjM2OCAxOC4wODI3QzE1Mi4zMjkgMTguMDgyNyAxNTEuNDYzIDE4LjQ2MzcgMTUwLjc3IDE5LjIyNTdDMTUwLjEwMSAxOS45ODc4IDE0OS43NjYgMjAuOTY5MiAxNDkuNzY2IDIyLjE3MDFWMzIuMjVIMTQ1LjA1NVYxNC40ODAySDE0OS42NjJaTTE3OS4xNjggMzAuMTAyNEMxNzcuNDM2IDMxLjg4MDUgMTc1LjIwOCAzMi43Njk2IDE3Mi40ODMgMzIuNzY5NkMxNjkuNzU4IDMyLjc2OTYgMTY3LjUzIDMxLjg4MDUgMTY1Ljc5OCAzMC4xMDI0QzE2NC4wNjYgMjguMzAxMiAxNjMuMiAyNi4wNjEyIDE2My4yIDIzLjM4MjRDMTYzLjIgMjAuNzAzNyAxNjQuMDY2IDE4LjQ3NTIgMTY1Ljc5OCAxNi42OTcxQzE2Ny41MyAxNC44OTU5IDE2OS43NTggMTMuOTk1MyAxNzIuNDgzIDEzLjk5NTNDMTc1LjIwOCAxMy45OTUzIDE3Ny40MzYgMTQuODk1OSAxNzkuMTY4IDE2LjY5NzFDMTgwLjkgMTguNDc1MiAxODEuNzY2IDIwLjcwMzcgMTgxLjc2NiAyMy4zODI0QzE4MS43NjYgMjYuMDYxMiAxODAuOSAyOC4zMDEyIDE3OS4xNjggMzAuMTAyNFpNMTcyLjQ4MyAyOS4xNjcxQzE3My44OTIgMjkuMTY3MSAxNzQuOTg5IDI4LjY0NzUgMTc1Ljc3NCAyNy42MDg0QzE3Ni41ODIgMjYuNTQ2MSAxNzYuOTg2IDI1LjEzNzUgMTc2Ljk4NiAyMy4zODI0QzE3Ni45ODYgMjEuNjI3NCAxNzYuNTgyIDIwLjIxODcgMTc1Ljc3NCAxOS4xNTY1QzE3NC45ODkgMTguMDk0MiAxNzMuODkyIDE3LjU2MzEgMTcyLjQ4MyAxNy41NjMxQzE3MS4wNTEgMTcuNTYzMSAxNjkuOTQzIDE4LjA5NDIgMTY5LjE1OCAxOS4xNTY1QzE2OC4zNzMgMjAuMTk1NiAxNjcuOTggMjEuNjA0MyAxNjcuOTggMjMuMzgyNEMxNjcuOTggMjUuMTM3NSAxNjguMzczIDI2LjU0NjEgMTY5LjE1OCAyNy42MDg0QzE2OS45NDMgMjguNjQ3NSAxNzEuMDUxIDI5LjE2NzEgMTcyLjQ4MyAyOS4xNjcxWk0xOTAuNjA3IDMyLjc2OTZDMTg4LjM2NyAzMi43Njk2IDE4Ni41NTQgMzEuOTI2NyAxODUuMTY5IDMwLjI0MDlDMTgzLjc4MyAyOC41MzIxIDE4My4wOSAyNi4yNDU5IDE4My4wOSAyMy4zODI0QzE4My4wOSAyMC42MTEzIDE4My43OTUgMTguMzU5OCAxODUuMjAzIDE2LjYyNzhDMTg2LjYzNSAxNC44NzI4IDE4OC40NTkgMTMuOTk1MyAxOTAuNjc2IDEzLjk5NTNDMTkyLjg5MyAxMy45OTUzIDE5NC41NjcgMTQuODcyOCAxOTUuNjk5IDE2LjYyNzhIMTk1LjgwM1Y3LjQ4MzEySDIwMC41MTRWMzIuMjVIMTk1Ljk3NlYyOS45MjkySDE5NS45MDdDMTk0Ljc1MiAzMS44MjI4IDE5Mi45ODUgMzIuNzY5NiAxOTAuNjA3IDMyLjc2OTZaTTE5MS42NDYgMjguODIwN0MxOTMuMDMyIDI4LjgyMDcgMTk0LjA4MiAyOC4zNDczIDE5NC43OTggMjcuNDAwNUMxOTUuNTM3IDI2LjQ1MzcgMTk1LjkwNyAyNS4xNDkgMTk1LjkwNyAyMy40ODYzQzE5NS45MDcgMTkuNjk5MSAxOTQuNTMzIDE3LjgwNTUgMTkxLjc4NSAxNy44MDU1QzE5MC41MTQgMTcuODA1NSAxODkuNTQ1IDE4LjMxMzYgMTg4Ljg3NSAxOS4zMjk3QzE4OC4yMDUgMjAuMzQ1NyAxODcuODcgMjEuNjk2NyAxODcuODcgMjMuMzgyNEMxODcuODcgMjUuMTE0NCAxODguMTk0IDI2LjQ1MzcgMTg4Ljg0IDI3LjQwMDVDMTg5LjUxIDI4LjM0NzMgMTkwLjQ0NSAyOC44MjA3IDE5MS42NDYgMjguODIwN1pNMjExLjkyNCAzMi43Njk2QzIwOS4wNiAzMi43Njk2IDIwNi44MDkgMzEuODkyMSAyMDUuMTY5IDMwLjEzN0MyMDMuNTMgMjguMzU4OSAyMDIuNzEgMjYuMDk1OCAyMDIuNzEgMjMuMzQ3OEMyMDIuNzEgMjAuNjkyMSAyMDMuNTMgMTguNDc1MiAyMDUuMTY5IDE2LjY5NzFDMjA2LjgwOSAxNC44OTU5IDIwOC45MSAxMy45OTUzIDIxMS40NzQgMTMuOTk1M0MyMTQuMjY4IDEzLjk5NTMgMjE2LjQyNyAxNC45NjUxIDIxNy45NTEgMTYuOTA0OUMyMTkuNDc1IDE4Ljg0NDcgMjIwLjIzNyAyMS40NDI2IDIyMC4yMzcgMjQuNjk4N0gyMDcuMzUyQzIwNy41MzYgMjYuMTA3NCAyMDguMDEgMjcuMjA0MyAyMDguNzcyIDI3Ljk4OTRDMjA5LjUzNCAyOC43NTE1IDIxMC41NzMgMjkuMTMyNSAyMTEuODg5IDI5LjEzMjVDMjEzLjYyMSAyOS4xMzI1IDIxNC43NjQgMjguNDA1MSAyMTUuMzE5IDI2Ljk1MDJIMjE5Ljk2QzIxOS42MTQgMjguNjEyOSAyMTguNzM2IDI5Ljk5ODUgMjE3LjMyOCAzMS4xMDY5QzIxNS45MTkgMzIuMjE1NCAyMTQuMTE4IDMyLjc2OTYgMjExLjkyNCAzMi43Njk2Wk0yMTEuNTQzIDE3LjYzMjNDMjA5LjI1NyAxNy42MzIzIDIwNy44ODMgMTguOTAyNCAyMDcuNDIxIDIxLjQ0MjZIMjE1LjMxOUMyMTUuMjQ5IDIwLjMxMTEgMjE0Ljg2OCAxOS4zOTg5IDIxNC4xNzUgMTguNzA2MkMyMTMuNDgzIDE3Ljk5MDMgMjEyLjYwNSAxNy42MzIzIDIxMS41NDMgMTcuNjMyM1pNMjI5LjYyMyAzMi43Njk2QzIyNy4wODIgMzIuNzY5NiAyMjUuMDk2IDMyLjIxNTQgMjIzLjY2NSAzMS4xMDY5QzIyMi4yMzMgMjkuOTc1NCAyMjEuNDQ4IDI4LjQzOTcgMjIxLjMwOSAyNi40OTk5SDIyNS42NzRDMjI1Ljk3NCAyOC40NjI4IDIyNy4yNjcgMjkuNDQ0MiAyMjkuNTUzIDI5LjQ0NDJDMjMwLjU5MiAyOS40NDQyIDIzMS4zODkgMjkuMjU5NSAyMzEuOTQzIDI4Ljg5QzIzMi41MjEgMjguNTIwNSAyMzIuODA5IDI4LjAyNCAyMzIuODA5IDI3LjQwMDVDMjMyLjgwOSAyNy4xNjk2IDIzMi43NjMgMjYuOTYxOCAyMzIuNjcxIDI2Ljc3N0MyMzIuNjAxIDI2LjU5MjMgMjMyLjQ2MyAyNi40MzA2IDIzMi4yNTUgMjYuMjkyMUMyMzIuMDcgMjYuMTMwNCAyMzEuODk3IDI2LjAwMzQgMjMxLjczNiAyNS45MTExQzIzMS41OTcgMjUuODE4NyAyMzEuMzQzIDI1LjcyNjMgMjMwLjk3MyAyNS42MzRDMjMwLjYwNCAyNS41NDE2IDIzMC4zMTUgMjUuNDcyMyAyMzAuMTA3IDI1LjQyNjFDMjI5LjkyMyAyNS4zNzk5IDIyOS41ODggMjUuMzIyMiAyMjkuMTAzIDI1LjI1MjlDMjI4LjY0MSAyNS4xNjA2IDIyOC4zMTggMjUuMDkxMyAyMjguMTMzIDI1LjA0NTFDMjI3LjE2MyAyNC44NjAzIDIyNi4zNjYgMjQuNjc1NiAyMjUuNzQzIDI0LjQ5MDlDMjI1LjE0MyAyNC4yODMgMjI0LjUwOCAyMy45OTQ0IDIyMy44MzggMjMuNjI0OUMyMjMuMTY4IDIzLjIzMjMgMjIyLjY2IDIyLjcxMjcgMjIyLjMxNCAyMi4wNjYxQzIyMS45OSAyMS4zOTY0IDIyMS44MjkgMjAuNTk5OCAyMjEuODI5IDE5LjY3NkMyMjEuODI5IDE3LjgyODYgMjIyLjQ5OCAxNi40MiAyMjMuODM4IDE1LjQ1MDFDMjI1LjIgMTQuNDgwMiAyMjYuOTQ0IDEzLjk5NTMgMjI5LjA2OCAxMy45OTUzQzIzMS4zNTQgMTMuOTk1MyAyMzMuMTQ0IDE0LjUyNjQgMjM0LjQzNyAxNS41ODg2QzIzNS43NTQgMTYuNjI3OCAyMzYuNTA0IDE4LjA1OTYgMjM2LjY4OSAxOS44ODM5SDIzMi40MjhDMjMyLjI0NCAxOC4xNTE5IDIzMS4xIDE3LjI4NiAyMjguOTk5IDE3LjI4NkMyMjguMDUyIDE3LjI4NiAyMjcuMzAyIDE3LjQ1OTIgMjI2Ljc0NyAxNy44MDU1QzIyNi4yMTYgMTguMTUxOSAyMjUuOTUxIDE4LjYzNjkgMjI1Ljk1MSAxOS4yNjA0QzIyNS45NTEgMTkuNDY4MiAyMjUuOTg1IDE5LjY2NDUgMjI2LjA1NSAxOS44NDkyQzIyNi4xNDcgMjAuMDEwOSAyMjYuMjg2IDIwLjE2MSAyMjYuNDcgMjAuMjk5NUMyMjYuNjc4IDIwLjQxNSAyMjYuODc1IDIwLjUxODkgMjI3LjA1OSAyMC42MTEzQzIyNy4yNDQgMjAuNjgwNiAyMjcuNTEgMjAuNzYxNCAyMjcuODU2IDIwLjg1MzhDMjI4LjIwMiAyMC45MjMxIDIyOC41MDMgMjAuOTkyMyAyMjguNzU3IDIxLjA2MTZDMjI5LjAxMSAyMS4xMDc4IDIyOS4zNTcgMjEuMTc3MSAyMjkuNzk2IDIxLjI2OTRDMjMwLjIzNCAyMS4zMzg3IDIzMC41ODEgMjEuMzk2NCAyMzAuODM1IDIxLjQ0MjZDMjMxLjU3NCAyMS42MDQzIDIzMi4xNzQgMjEuNzU0NCAyMzIuNjM2IDIxLjg5MjlDMjMzLjEyMSAyMi4wMDg0IDIzMy42NzUgMjIuMjE2MiAyMzQuMjk5IDIyLjUxNjRDMjM0LjkyMiAyMi43OTM2IDIzNS40MDcgMjMuMTE2OSAyMzUuNzU0IDIzLjQ4NjNDMjM2LjEyMyAyMy44MzI3IDIzNi40MzUgMjQuMzE3NyAyMzYuNjg5IDI0Ljk0MTJDMjM2Ljk2NiAyNS41NDE2IDIzNy4xMDUgMjYuMjQ1OSAyMzcuMTA1IDI3LjA1NDJDMjM3LjEwNSAyOC44MDkyIDIzNi40MTIgMzAuMjA2MyAyMzUuMDI2IDMxLjI0NTVDMjMzLjY2NCAzMi4yNjE1IDIzMS44NjMgMzIuNzY5NiAyMjkuNjIzIDMyLjc2OTZaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K)](/)Secure
+staking with leading blockchain infrastructure provider
+
+LN Tech FZE,  
+Saif Suite X3-46,  
+SAIF Zone, Sharjah, UAE
+
+[![](data:image/svg+xml;charset=utf-8,%3Csvg%20height='288'%20width='462'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%3E%3C/svg%3E)![Verified
+badge](/static/6ba07c96436f2c9565f80d24555d7bac/edf67/vsp-pro.svg)![Verified
+badge](/static/6ba07c96436f2c9565f80d24555d7bac/edf67/vsp-
+pro.svg)](https://www.stakingrewards.com/savings/luganodes/)
+
+Products[Staking](/product/staking/)
+
+[EigenLayer Staking](/product/eigenlayer/)
+
+[zkRaaS](/product/zkraas/)
+
+[Staking API](/product/stakingapi/)
+
+[Managed Nodes](/product/managednodes/)
+
+[Terminal](/product/luganodesterminal/)
+
+ResourceClient Types
+
+[Custodian](/client/custodian/)[Exchanges](/client/exchanges/)[Investors
+(VCs)](/client/investors/)
+
+Case Studies
+
+[CoinList](/case-study/Coinlist_CS/)[Bitfinex](/case-study/Bitfinex_CS/)
+
+[Blog](/blog/)
+
+[Staking Guides](/blog/?interval=3&category=Guides#blog-list)
+
+[Newsletter](/#signup)
+
+[Docs](https://docs.luganodes.com/)
+
+Company[About us](/aboutus/)
+
+[Get in Touch](/#getInTouch)
+
+[Security](https://security.luganodes.com/)
+
+Social[Twitter](https://twitter.com/luganodes)
+
+[LinkedIn](https://www.linkedin.com/company/luganodes/)
+
+[Telegram](https://t.me/luganodesofficial/)
+
+[Medium](https://medium.com/luganodes)
+
+[YouTube](https://www.youtube.com/@luganodes)
+
+[Terms of use](/termsofservice/)[Privacy Policy](/privacypolicy/)
+
+© 2024 Luganodes | All rights reserved
+
+[Terms of use](/termsofservice/)[Privacy Policy](/privacypolicy/)
+
