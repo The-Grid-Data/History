@@ -1,0 +1,72 @@
+{
+    "target_url": "https://solana.com/developers/guides/token-extensions/transfer-hook",
+    "domains": {
+        "beta.solpg.io": [
+            "https://beta.solpg.io/github.com/solana-developers/anchor-transfer-hook/tree/counter",
+            "https://beta.solpg.io/github.com/solana-developers/anchor-transfer-hook/tree/hello_world",
+            "https://beta.solpg.io/github.com/solana-developers/anchor-transfer-hook/tree/main",
+            "https://beta.solpg.io/github.com/solana-developers/anchor-transfer-hook/tree/starter"
+        ],
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "github.com": [
+            "https://github.com/solana-foundation/developer-content/tree/main/content/guides/token-extensions/transfer-hook.md",
+            "https://github.com/solana-labs/solana-program-library/blob/master/token/transfer-hook/interface/src/instruction.rs",
+            "https://github.com/solana-labs/solana-program-library/tree/master/token/transfer-hook/interface"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "solana.com": [
+            "https://solana.com/",
+            "https://solana.com/branding",
+            "https://solana.com/developers",
+            "https://solana.com/developers/cookbook",
+            "https://solana.com/developers/guides",
+            "https://solana.com/developers/guides/token-extensions/transfer-fee",
+            "https://solana.com/developers/guides/token-extensions/transfer-hook",
+            "https://solana.com/developers/guides/token-extensions/transfer-hook#build-and-deploy-program",
+            "https://solana.com/developers/guides/token-extensions/transfer-hook#conclusion",
+            "https://solana.com/developers/guides/token-extensions/transfer-hook#counter-transfer-hook",
+            "https://solana.com/developers/guides/token-extensions/transfer-hook#create-extraaccountmeta-account",
+            "https://solana.com/developers/guides/token-extensions/transfer-hook#create-mint-account",
+            "https://solana.com/developers/guides/token-extensions/transfer-hook#creating-token-accounts",
+            "https://solana.com/developers/guides/token-extensions/transfer-hook#custom-transfer-hook-instruction",
+            "https://solana.com/developers/guides/token-extensions/transfer-hook#fallback-instruction",
+            "https://solana.com/developers/guides/token-extensions/transfer-hook#getting-started",
+            "https://solana.com/developers/guides/token-extensions/transfer-hook#hello-world-transfer-hook",
+            "https://solana.com/developers/guides/token-extensions/transfer-hook#initialize-extraaccountmetas-account-instruction",
+            "https://solana.com/developers/guides/token-extensions/transfer-hook#run-test-file",
+            "https://solana.com/developers/guides/token-extensions/transfer-hook#test-file-overview",
+            "https://solana.com/developers/guides/token-extensions/transfer-hook#transfer-hook-interface-overview",
+            "https://solana.com/developers/guides/token-extensions/transfer-hook#transfer-hook-with-wsol-transfer-fee-advanced-example",
+            "https://solana.com/developers/guides/token-extensions/transfer-hook#transfer-tokens",
+            "https://solana.com/developers/guides/wallets/add-solana-wallet-adapter-to-nextjs",
+            "https://solana.com/developers/guides?difficulty=intermediate",
+            "https://solana.com/developers/guides?tags=token%202022",
+            "https://solana.com/developers/guides?tags=token%20extensions",
+            "https://solana.com/discord",
+            "https://solana.com/docs",
+            "https://solana.com/docs/rpc",
+            "https://solana.com/docs/terminology",
+            "https://solana.com/ecosystem",
+            "https://solana.com/github",
+            "https://solana.com/news",
+            "https://solana.com/newsletter",
+            "https://solana.com/privacy-policy",
+            "https://solana.com/privacy-policy#collection-of-information",
+            "https://solana.com/reddit",
+            "https://solana.com/telegram",
+            "https://solana.com/tos",
+            "https://solana.com/twitter",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ],
+        "www.anchor-lang.com": [
+            "https://www.anchor-lang.com/"
+        ]
+    }
+}
