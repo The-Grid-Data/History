@@ -59,18 +59,17 @@ Language
 Explore the latest topics and insights to help you navigate Web3 with
 confidence and ease.
 
-[Follow Trust Wallet on](https://twitter.com/trustwallet)![Explore Solana DeFi
-with Lifinity](/_next/image?url=https%3A%2F%2Fstrapi-
-cdn.trustwallet.com%2Fsolana_defi_lifinity_13b7f34346.png&w=1080&q=75)
+[Follow Trust Wallet on](https://twitter.com/trustwallet)![SEC Approves
+Ethereum ETFs in the US: Why It
+Matters](/_next/image?url=https%3A%2F%2Fstrapi-
+cdn.trustwallet.com%2Fethereum_etf_approved_1aa1f9e7ae.png&w=1080&q=75)
 
-May 27, 2024
+May 24, 2024
 
-## Explore Solana DeFi with Lifinity
+## SEC Approves Ethereum ETFs in the US: Why It Matters
 
-[Learn More ](/blog/explore-solana-defi-with-lifinity)
+[Learn More ](/blog/sec-approves-ethereum-etfs-in-the-us)
 
-  * [![Explore Solana DeFi with Lifinity](/_next/image?url=https%3A%2F%2Fstrapi-cdn.trustwallet.com%2Fsolana_defi_lifinity_13b7f34346.png&w=828&q=75)Explore Solana DeFi with LifinityExplore Solana's DeFi ecosystem using Lifinity and Trust Wallet. Discover Lifinity's features and learn about the Lifinity token.](/blog/explore-solana-defi-with-lifinity)
-  * [![What is Blockchain? A Deep Dive](/_next/image?url=https%3A%2F%2Fstrapi-cdn.trustwallet.com%2Fwhat_is_blockchain_4e7d392610.png&w=828&q=75)What is Blockchain? A Deep DiveLearn what blockchain technology is, how it works, and how it’s revolutionizing finance, health care, real estate and much more.](/blog/what-is-blockchain)
   * [![SEC Approves Ethereum ETFs in the US: Why It Matters](/_next/image?url=https%3A%2F%2Fstrapi-cdn.trustwallet.com%2Fethereum_etf_approved_1aa1f9e7ae.png&w=828&q=75)SEC Approves Ethereum ETFs in the US: Why It MattersDiscover the significance of the recent SEC approval of spot Ether ETFs in the United States. Learn how this milestone could help drive mainstream adoption.](/blog/sec-approves-ethereum-etfs-in-the-us)
   * [![What is Solana?](/_next/image?url=https%3A%2F%2Fstrapi-cdn.trustwallet.com%2Fwhat_is_solana_5ada0cf3e2.png&w=828&q=75)What is Solana?Discover the Solana blockchain. Learn how it works, what makes it unique, and why it’s become so popular in the crypto and Web3 space.](/blog/solana)
   * [![What is Staking in Cryptocurrency?](/_next/image?url=https%3A%2F%2Fstrapi-cdn.trustwallet.com%2Fwhat_is_staking_crypto_c0f3ae9f6a.png&w=828&q=75)What is Staking in Cryptocurrency?Learn about staking in cryptocurrency, a process of locking up crypto assets to support blockchain operations and earn rewards.](/blog/staking)
@@ -169,6 +168,8 @@ May 27, 2024
   * [![Jupiter \(JUP\) Airdrop – Everything You Need to Know](/_next/image?url=https%3A%2F%2Fstrapi-cdn.trustwallet.com%2Fjupiter_airdrop_ec63820bd1.png&w=828&q=75)Jupiter (JUP) Airdrop – Everything You Need to KnowDiscover how to get the Jupiter (JUP) airdrop in this comprehensive guide. Discover how to check if your eligible, the claiming process, and the benefits of using Trust Wallet.](/blog/jupiter-airdrop)
   * [![Choosing the Right Solana Wallet: A Beginner's Guide](/_next/image?url=https%3A%2F%2Fstrapi-cdn.trustwallet.com%2Fchoosing_solana_wallet_a697e09317.png&w=828&q=75)Choosing the Right Solana Wallet: A Beginner's GuideDiscover how to choose the right Solana wallet for managing SOL and SPL tokens like BONK, JUP, JTO, and more, with a focus on security, usability, and integration in the Solana ecosystem.](/blog/choosing-the-right-solana-wallet)
   * [![How to Get WEN Using Trust Wallet](/_next/image?url=https%3A%2F%2Fstrapi-cdn.trustwallet.com%2Fhow_to_get_WEN_using_trust_wallet_f3527f9bdf.png&w=828&q=75)How to Get WEN Using Trust WalletDiscover how to swap your crypto for WEN on Solana blockchain using Trust Wallet with this easy, step-by-step guide.](/blog/how-to-get-wen-using-trust-wallet)
+  * [![Manta Network: A Beginner’s Guide](/_next/image?url=https%3A%2F%2Fstrapi-cdn.trustwallet.com%2Fmanta_network_guide_c7820bb23d.png&w=828&q=75)Manta Network: A Beginner’s GuideDiscover Manta Network in our easy-to-follow guide. Learn about its DeFi impact, privacy-enhancing tech, MANTA token roles, and the evolving world of secure digital transactions.](/blog/manta-network-beginners-guide)
+  * [![How to Spot a Crypto Scam](/_next/image?url=https%3A%2F%2Fstrapi-cdn.trustwallet.com%2Fspot_trust_wallet_scam_e16a14fadf.png&w=828&q=75)How to Spot a Crypto ScamLearn to identify and protect against crypto scams with Trust Wallet's guide. Discover types of phishing attacks and safety tips to secure your digital assets.](/blog/how-to-spot-a-crypto-scam)
 
 #### Simple and convenient to use, seamless to explore
 
@@ -186,8 +187,6 @@ May 27, 2024
   * ![A-LIGN ISO 27701](/_next/static/media/image.8354ab2c.svg)![A-LIGN ISO 27001](/_next/static/media/image.7f0b3bc9.svg)
 
 **Download Trust Wallet**
-
-The most trusted & secure crypto wallet.
 
 [Download for iOS](https://apps.apple.com/app/apple-
 store/id1288339409?mt=8)[Download
