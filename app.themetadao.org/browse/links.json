@@ -1,0 +1,40 @@
+{
+    "target_url": "https://app.themetadao.org/browse",
+    "domains": {
+        "app.themetadao.org": [
+            "https://app.themetadao.org/",
+            "https://app.themetadao.org/browse"
+        ],
+        "blog.metadao.fi": [
+            "https://blog.metadao.fi/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/metadao"
+        ],
+        "docs.metadao.fi": [
+            "https://docs.metadao.fi",
+            "https://docs.metadao.fi/media-kit/metadao"
+        ],
+        "github.com": [
+            "https://github.com/metaDAOproject"
+        ],
+        "jobs.metadao.fi": [
+            "https://jobs.metadao.fi"
+        ],
+        "join.metadao.fi": [
+            "https://join.metadao.fi/"
+        ],
+        "metadao.canny.io": [
+            "https://metadao.canny.io/beta-feedback"
+        ],
+        "warpcast.com": [
+            "https://warpcast.com/~/channel/futarchy"
+        ],
+        "www.tradingview.com": [
+            "https://www.tradingview.com/"
+        ],
+        "x.com": [
+            "https://x.com/MetaDAOProject"
+        ]
+    }
+}

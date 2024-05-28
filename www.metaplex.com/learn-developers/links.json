@@ -1,0 +1,49 @@
+{
+    "target_url": "https://www.metaplex.com/learn-developers",
+    "domains": {
+        "": [
+            "mailto:hello@metaplex.com"
+        ],
+        "apply.workable.com": [
+            "https://apply.workable.com/metaplex-studios/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/metaplex"
+        ],
+        "docs.metaplex.com": [
+            "https://docs.metaplex.com/"
+        ],
+        "github.com": [
+            "https://github.com/metaplex",
+            "https://github.com/metaplex-foundation",
+            "https://github.com/metaplex-foundation/js",
+            "https://github.com/metaplex-foundation/metaplex-program-library",
+            "https://github.com/metaplex-foundation/metaplex/labels/good%20first%20issue"
+        ],
+        "studio.metaplex.com": [
+            "https://studio.metaplex.com",
+            "https://studio.metaplex.com/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/metaplex"
+        ],
+        "www.instagram.com": [
+            "https://www.instagram.com/metaplex/"
+        ],
+        "www.metaplex.com": [
+            "https://www.metaplex.com/",
+            "https://www.metaplex.com/blog",
+            "https://www.metaplex.com/bounty-program",
+            "https://www.metaplex.com/drafts/learn-collectors",
+            "https://www.metaplex.com/drafts/learn-creators",
+            "https://www.metaplex.com/learn-developers",
+            "https://www.metaplex.com/posts/metaplex-community-impact-awards",
+            "https://www.metaplex.com/press",
+            "https://www.metaplex.com/privacy-policy",
+            "https://www.metaplex.com/terms-disclaimer"
+        ],
+        "www.soldev.app": [
+            "https://www.soldev.app/"
+        ]
+    }
+}
