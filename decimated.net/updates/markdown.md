@@ -45,17 +45,5 @@ with this, but you can opt-out if you wish.
 
 Accept  AcceptAcceptAcceptAcceptAccept
 
-![](https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=c0cc68ed-5d02-47a3-a5da-187793d5cb55&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=e6fc32e1-c537-4422-81fb-5bb6c66935c8&tw_document_href=https%3A%2F%2Fdecimated.net%2Fupdates&tw_iframe_status=0&txn_id=o8fa8&type=javascript&version=2.3.30)![](https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=c0cc68ed-5d02-47a3-a5da-187793d5cb55&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=e6fc32e1-c537-4422-81fb-5bb6c66935c8&tw_document_href=https%3A%2F%2Fdecimated.net%2Fupdates&tw_iframe_status=0&txn_id=o8fa8&type=javascript&version=2.3.30)
-
-Recaptcha requires verification.
-
-[Privacy](https://www.google.com/intl/en/policies/privacy/) \-
-[Terms](https://www.google.com/intl/en/policies/terms/)
-
-protected by **reCAPTCHA**
-
-[Privacy](https://www.google.com/intl/en/policies/privacy/) \-
-[Terms](https://www.google.com/intl/en/policies/terms/)
-
-Help
+![](https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=b05a5646-7d17-47c2-a234-d777bfee1e02&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=5d438574-6da4-4104-8d35-d6260f2741d0&tw_document_href=https%3A%2F%2Fdecimated.net%2Fupdates&tw_iframe_status=0&txn_id=o8fa8&type=javascript&version=2.3.30)![](https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=b05a5646-7d17-47c2-a234-d777bfee1e02&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=5d438574-6da4-4104-8d35-d6260f2741d0&tw_document_href=https%3A%2F%2Fdecimated.net%2Fupdates&tw_iframe_status=0&txn_id=o8fa8&type=javascript&version=2.3.30)
 
