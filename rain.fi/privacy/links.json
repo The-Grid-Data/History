@@ -1,0 +1,47 @@
+{
+    "target_url": "https://rain.fi/privacy",
+    "domains": {
+        "": [
+            "mailto:support@rain.fi"
+        ],
+        "airtable.com": [
+            "https://airtable.com/shriWUHETSiZMTxpC"
+        ],
+        "api-v2.rain.fi": [
+            "https://api-v2.rain.fi/documentation"
+        ],
+        "discord.gg": [
+            "https://discord.gg/rainfi"
+        ],
+        "docs.rain.fi": [
+            "https://docs.rain.fi"
+        ],
+        "medium.com": [
+            "https://medium.com/@rainfi_"
+        ],
+        "rain.fi": [
+            "https://rain.fi",
+            "https://rain.fi/",
+            "https://rain.fi/borrow/USDC-SOL",
+            "https://rain.fi/borrow/nfts",
+            "https://rain.fi/buy-now-pay-later",
+            "https://rain.fi/collections",
+            "https://rain.fi/collections-stats",
+            "https://rain.fi/droplets",
+            "https://rain.fi/faq",
+            "https://rain.fi/legal",
+            "https://rain.fi/lend",
+            "https://rain.fi/pools",
+            "https://rain.fi/privacy",
+            "https://rain.fi/security-audit",
+            "https://rain.fi/stats",
+            "https://rain.fi/swap/USDC-SOL"
+        ],
+        "twitter.com": [
+            "https://twitter.com/rainfi_"
+        ],
+        "www.npmjs.com": [
+            "https://www.npmjs.com/package/@rainfi/sdk"
+        ]
+    }
+}
