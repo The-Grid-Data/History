@@ -1,0 +1,35 @@
+{
+    "target_url": "https://backpack.app/terms",
+    "domains": {
+        "backpack.app": [
+            "https://backpack.app/",
+            "https://backpack.app/download",
+            "https://backpack.app/media-kit",
+            "https://backpack.app/news",
+            "https://backpack.app/privacy",
+            "https://backpack.app/terms",
+            "https://backpack.app/terms.pdf"
+        ],
+        "backpack.exchange": [
+            "https://backpack.exchange"
+        ],
+        "discord.com": [
+            "https://discord.com/invite/backpack"
+        ],
+        "github.com": [
+            "https://github.com/coral-xyz/backpack"
+        ],
+        "support.backpack.exchange": [
+            "https://support.backpack.exchange/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/Backpack"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/backpackexchange"
+        ],
+        "www.notion.so": [
+            "https://www.notion.so/7c1995182f4a491ba8a9501ee15cbd01?v=0604ca8976fa4e5e81c5494f7c95abc4"
+        ]
+    }
+}
