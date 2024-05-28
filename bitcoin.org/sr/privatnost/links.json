@@ -1,0 +1,82 @@
+{
+    "target_url": "https://bitcoin.org/sr/privatnost",
+    "domains": {
+        "": [
+            "bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h",
+            "mailto:privacy@bitcoin.org?Subject=Privacy"
+        ],
+        "bitcoin.org": [
+            "https://bitcoin.org/ar/",
+            "https://bitcoin.org/bg/privacy",
+            "https://bitcoin.org/ca/privacitat",
+            "https://bitcoin.org/da/privatliv",
+            "https://bitcoin.org/de/privatsphaere",
+            "https://bitcoin.org/el/privacy",
+            "https://bitcoin.org/en/alerts",
+            "https://bitcoin.org/en/blog",
+            "https://bitcoin.org/en/privacy",
+            "https://bitcoin.org/es/",
+            "https://bitcoin.org/fa/privacy",
+            "https://bitcoin.org/fr/confidentialite",
+            "https://bitcoin.org/he/",
+            "https://bitcoin.org/hi/privacy",
+            "https://bitcoin.org/hu/adatvedelem",
+            "https://bitcoin.org/hy/privacy",
+            "https://bitcoin.org/id/privasi",
+            "https://bitcoin.org/it/privacy",
+            "https://bitcoin.org/ja/privacy",
+            "https://bitcoin.org/km/privacy",
+            "https://bitcoin.org/ko/privacy",
+            "https://bitcoin.org/nl/privacy",
+            "https://bitcoin.org/pl/prywatnosc",
+            "https://bitcoin.org/pt_BR/privacidade",
+            "https://bitcoin.org/ro/confidentialitate",
+            "https://bitcoin.org/ru/privacy",
+            "https://bitcoin.org/sl/",
+            "https://bitcoin.org/sr/",
+            "https://bitcoin.org/sr/bitkoin-papir",
+            "https://bitcoin.org/sr/bitkoin-za-lica",
+            "https://bitcoin.org/sr/bitkoin-za-preduzeca",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja",
+            "https://bitcoin.org/sr/dogadaji",
+            "https://bitcoin.org/sr/inovacija",
+            "https://bitcoin.org/sr/kako-to-radi",
+            "https://bitcoin.org/sr/kupi",
+            "https://bitcoin.org/sr/mediji",
+            "https://bitcoin.org/sr/menjacnice",
+            "https://bitcoin.org/sr/o-nama",
+            "https://bitcoin.org/sr/podrzite-bitkoin",
+            "https://bitcoin.org/sr/preuzimanje",
+            "https://bitcoin.org/sr/privatnost",
+            "https://bitcoin.org/sr/privatnost#analytics",
+            "https://bitcoin.org/sr/privatnost#changes",
+            "https://bitcoin.org/sr/privatnost#contact",
+            "https://bitcoin.org/sr/privatnost#cookies",
+            "https://bitcoin.org/sr/privatnost#logdata",
+            "https://bitcoin.org/sr/prvi-koraci",
+            "https://bitcoin.org/sr/razvoj",
+            "https://bitcoin.org/sr/sredstva",
+            "https://bitcoin.org/sr/trebali-bi-da-znate",
+            "https://bitcoin.org/sr/vokabular",
+            "https://bitcoin.org/sr/zajednica",
+            "https://bitcoin.org/sr/zakon",
+            "https://bitcoin.org/sv/integritet",
+            "https://bitcoin.org/tr/gizlilik",
+            "https://bitcoin.org/uk/privacy",
+            "https://bitcoin.org/zh_CN/privacy",
+            "https://bitcoin.org/zh_TW/privacy"
+        ],
+        "developer.bitcoin.org": [
+            "https://developer.bitcoin.org/"
+        ],
+        "developers.google.com": [
+            "https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage"
+        ],
+        "opensource.org": [
+            "http://opensource.org/licenses/mit-license.php"
+        ],
+        "tools.google.com": [
+            "https://tools.google.com/dlpage/gaoptout"
+        ]
+    }
+}
