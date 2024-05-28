@@ -1,0 +1,29 @@
+{
+    "target_url": "https://jup.ag/limit/USDC-SAMO",
+    "domains": {
+        "birdeye.so": [
+            "https://birdeye.so/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/jup"
+        ],
+        "jup.ag": [
+            "https://jup.ag/",
+            "https://jup.ag/bridge-compare",
+            "https://jup.ag/dca/USDC-SAMO",
+            "https://jup.ag/limit/USDC-SAMO",
+            "https://jup.ag/perps",
+            "https://jup.ag/swap/USDC-SAMO"
+        ],
+        "station.jup.ag": [
+            "https://station.jup.ag/guides",
+            "https://station.jup.ag/guides/limit-order/how-lo-work"
+        ],
+        "twitter.com": [
+            "https://twitter.com/JupiterExchange"
+        ],
+        "www.reddit.com": [
+            "https://www.reddit.com/r/jupiterexchange"
+        ]
+    }
+}
