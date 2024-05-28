@@ -1,0 +1,28 @@
+{
+    "target_url": "https://decimated.net/team",
+    "domains": {
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=0fcc38b3-65a6-4e6e-aadc-f96c9bccd891&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=c782585d-08dd-4059-8b15-0694e9961c6a&tw_document_href=https%3A%2F%2Fdecimated.net%2Fteam&tw_iframe_status=0&txn_id=o8fa8&type=javascript&version=2.3.30"
+        ],
+        "decimated.net": [
+            "https://decimated.net/images/content/f-logo-1.png",
+            "https://decimated.net/images/content/f-logo-2.png",
+            "https://decimated.net/images/content/f-logo-3.png",
+            "https://decimated.net/images/logo.png"
+        ],
+        "elasticbeanstalk-eu-west-1-211574402297.s3.eu-west-1.amazonaws.com": [
+            "https://elasticbeanstalk-eu-west-1-211574402297.s3.eu-west-1.amazonaws.com/team/1711624004.jpg",
+            "https://elasticbeanstalk-eu-west-1-211574402297.s3.eu-west-1.amazonaws.com/team/1711634424.jpg",
+            "https://elasticbeanstalk-eu-west-1-211574402297.s3.eu-west-1.amazonaws.com/team/1711701623.jpg",
+            "https://elasticbeanstalk-eu-west-1-211574402297.s3.eu-west-1.amazonaws.com/team/1711702075.jpg",
+            "https://elasticbeanstalk-eu-west-1-211574402297.s3.eu-west-1.amazonaws.com/team/1711709137.jpg",
+            "https://elasticbeanstalk-eu-west-1-211574402297.s3.eu-west-1.amazonaws.com/team/1711711220.jpg",
+            "https://elasticbeanstalk-eu-west-1-211574402297.s3.eu-west-1.amazonaws.com/team/1711735452.jpg",
+            "https://elasticbeanstalk-eu-west-1-211574402297.s3.eu-west-1.amazonaws.com/team/1713458999.jpg",
+            "https://elasticbeanstalk-eu-west-1-211574402297.s3.eu-west-1.amazonaws.com/team/1714664352.jpg"
+        ],
+        "t.co": [
+            "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=0fcc38b3-65a6-4e6e-aadc-f96c9bccd891&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=c782585d-08dd-4059-8b15-0694e9961c6a&tw_document_href=https%3A%2F%2Fdecimated.net%2Fteam&tw_iframe_status=0&txn_id=o8fa8&type=javascript&version=2.3.30"
+        ]
+    }
+}
