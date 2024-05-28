@@ -1,0 +1,74 @@
+{
+    "target_url": "https://www.binance.com/en-GB/markets/spot_margin-FIAT",
+    "domains": {
+        "accounts.binance.com": [
+            "https://accounts.binance.com/en-GB/login?loginChannel=&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4tR0IvbWFya2V0cy9zcG90X21hcmdpbi1GSUFU",
+            "https://accounts.binance.com/en-GB/register?registerChannel=&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4tR0IvbWFya2V0cy9zcG90X21hcmdpbi1GSUFU"
+        ],
+        "launchpad.binance.com": [
+            "https://launchpad.binance.com/en-GB"
+        ],
+        "p2p.binance.com": [
+            "https://p2p.binance.com/en-GB/trade/all-payments/USDT?fiat=GBP"
+        ],
+        "www.binance.com": [
+            "https://www.binance.com/en-GB/",
+            "https://www.binance.com/en-GB/about",
+            "https://www.binance.com/en-GB/about#email",
+            "https://www.binance.com/en-GB/about-legal/privacy-portal",
+            "https://www.binance.com/en-GB/auto-invest/",
+            "https://www.binance.com/en-GB/careers",
+            "https://www.binance.com/en-GB/chat",
+            "https://www.binance.com/en-GB/chat?sourceEntry=4",
+            "https://www.binance.com/en-GB/convert",
+            "https://www.binance.com/en-GB/convert/GBP/BTC",
+            "https://www.binance.com/en-GB/crypto",
+            "https://www.binance.com/en-GB/crypto/buy/GBP/BTC",
+            "https://www.binance.com/en-GB/earn",
+            "https://www.binance.com/en-GB/fan-token",
+            "https://www.binance.com/en-GB/fee/schedule",
+            "https://www.binance.com/en-GB/fee/trading",
+            "https://www.binance.com/en-GB/legal/licenses",
+            "https://www.binance.com/en-GB/legal/risk-warning",
+            "https://www.binance.com/en-GB/markets/",
+            "https://www.binance.com/en-GB/markets/coinInfo",
+            "https://www.binance.com/en-GB/markets/favorite",
+            "https://www.binance.com/en-GB/markets/newListing",
+            "https://www.binance.com/en-GB/markets/overview",
+            "https://www.binance.com/en-GB/markets/spot_margin",
+            "https://www.binance.com/en-GB/markets/spot_margin-0fee",
+            "https://www.binance.com/en-GB/markets/spot_margin-0makerfee",
+            "https://www.binance.com/en-GB/markets/spot_margin-ALTS",
+            "https://www.binance.com/en-GB/markets/spot_margin-BNB",
+            "https://www.binance.com/en-GB/markets/spot_margin-BTC",
+            "https://www.binance.com/en-GB/markets/spot_margin-FDUSD",
+            "https://www.binance.com/en-GB/markets/spot_margin-FIAT",
+            "https://www.binance.com/en-GB/markets/spot_margin-TUSD",
+            "https://www.binance.com/en-GB/markets/spot_margin-USDC",
+            "https://www.binance.com/en-GB/markets/spot_margin-USDT",
+            "https://www.binance.com/en-GB/markets/trading_data/rankings",
+            "https://www.binance.com/en-GB/markets/zones",
+            "https://www.binance.com/en-GB/nft/home",
+            "https://www.binance.com/en-GB/press",
+            "https://www.binance.com/en-GB/support",
+            "https://www.binance.com/en-GB/support/law-enforcement",
+            "https://www.binance.com/en-GB/terms",
+            "https://www.binance.com/en-GB/trade-rule",
+            "https://www.binance.com/en-GB/trade/BNB_USDT?_from=markets",
+            "https://www.binance.com/en-GB/trade/BTC_USDT?_from=markets",
+            "https://www.binance.com/en-GB/trade/ETH_USDT?_from=markets",
+            "https://www.binance.com/en-GB/trade/MOVR_USDT?_from=markets",
+            "https://www.binance.com/en-GB/trade/OMNI_USDT?_from=markets",
+            "https://www.binance.com/en-GB/trade/PEOPLE_USDT?_from=markets",
+            "https://www.binance.com/en-GB/trade/REZ_USDT?_from=markets",
+            "https://www.binance.com/en-GB/trade/SOL_USDT?_from=markets",
+            "https://www.binance.com/en-GB/trade/TAO_USDT?_from=markets",
+            "https://www.binance.com/en-GB/trade/UMA_USDT?_from=markets",
+            "https://www.binance.com/en-GB/trade?type=cross",
+            "https://www.binance.com/en-GB/trading-bots"
+        ],
+        "x.com": [
+            "https://x.com/binanceuk"
+        ]
+    }
+}
