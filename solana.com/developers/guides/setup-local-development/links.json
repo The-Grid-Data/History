@@ -1,0 +1,115 @@
+{
+    "target_url": "https://solana.com/developers/guides/setup-local-development",
+    "domains": {
+        "beta.solpg.io": [
+            "https://beta.solpg.io"
+        ],
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "code.visualstudio.com": [
+            "https://code.visualstudio.com/docs/remote/wsl-tutorial"
+        ],
+        "developer.apple.com": [
+            "https://developer.apple.com/download/all/",
+            "https://developer.apple.com/xcode/resources/"
+        ],
+        "doc.rust-lang.org": [
+            "https://doc.rust-lang.org/book/ch19-06-macros.html"
+        ],
+        "docs.solanalabs.com": [
+            "https://docs.solanalabs.com/cli/examples/test-validator",
+            "https://docs.solanalabs.com/cli/install"
+        ],
+        "github.com": [
+            "https://github.com/solana-foundation/developer-content/tree/main/content/guides/getstarted/setup-local-development.md",
+            "https://github.com/solana-labs/solana/releases"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "learn.microsoft.com": [
+            "https://learn.microsoft.com/en-us/windows/wsl/install"
+        ],
+        "mac.install.guide": [
+            "https://mac.install.guide/commandlinetools/3"
+        ],
+        "rustup.rs": [
+            "https://rustup.rs/"
+        ],
+        "solana.com": [
+            "https://solana.com/",
+            "https://solana.com/branding",
+            "https://solana.com/developers",
+            "https://solana.com/developers/cookbook",
+            "https://solana.com/developers/guides",
+            "https://solana.com/developers/guides/getstarted/rust-to-solana",
+            "https://solana.com/developers/guides/getstarted/setup-local-development",
+            "https://solana.com/developers/guides/getstarted/setup-local-development#1-installing-dependencies",
+            "https://solana.com/developers/guides/getstarted/setup-local-development#2-install-rust",
+            "https://solana.com/developers/guides/getstarted/setup-local-development#3-install-the-solana-cli",
+            "https://solana.com/developers/guides/getstarted/setup-local-development#4-install-anchor-for-solana",
+            "https://solana.com/developers/guides/getstarted/setup-local-development#5-setup-a-localhost-blockchain-cluster",
+            "https://solana.com/developers/guides/getstarted/setup-local-development#6-create-a-file-system-wallet",
+            "https://solana.com/developers/guides/getstarted/setup-local-development#7-airdrop-sol-tokens-to-your-wallet",
+            "https://solana.com/developers/guides/getstarted/setup-local-development#dependencies-for-linux",
+            "https://solana.com/developers/guides/getstarted/setup-local-development#dependencies-for-macos",
+            "https://solana.com/developers/guides/getstarted/setup-local-development#dependencies-for-windows",
+            "https://solana.com/developers/guides/getstarted/setup-local-development#next-steps",
+            "https://solana.com/developers/guides/getstarted/setup-local-development#set-your-new-wallet-as-the-default",
+            "https://solana.com/developers/guides/getstarted/setup-local-development#what-you-will-learn",
+            "https://solana.com/developers/guides/getstarted/solana-token-airdrop-and-faucets",
+            "https://solana.com/developers/guides/local-rust-hello-world",
+            "https://solana.com/developers/guides/setup-local-development#1-installing-dependencies",
+            "https://solana.com/developers/guides/setup-local-development#2-install-rust",
+            "https://solana.com/developers/guides/setup-local-development#3-install-the-solana-cli",
+            "https://solana.com/developers/guides/setup-local-development#4-install-anchor-for-solana",
+            "https://solana.com/developers/guides/setup-local-development#5-setup-a-localhost-blockchain-cluster",
+            "https://solana.com/developers/guides/setup-local-development#6-create-a-file-system-wallet",
+            "https://solana.com/developers/guides/setup-local-development#7-airdrop-sol-tokens-to-your-wallet",
+            "https://solana.com/developers/guides/setup-local-development#dependencies-for-linux",
+            "https://solana.com/developers/guides/setup-local-development#dependencies-for-macos",
+            "https://solana.com/developers/guides/setup-local-development#dependencies-for-windows",
+            "https://solana.com/developers/guides/setup-local-development#for-linux-macos-wsl-or-other-unix-like-systems",
+            "https://solana.com/developers/guides/setup-local-development#install-anchor-using-avm",
+            "https://solana.com/developers/guides/setup-local-development#install-avm",
+            "https://solana.com/developers/guides/setup-local-development#install-rust-for-macos-linux-wsl-or-another-unix-like-os",
+            "https://solana.com/developers/guides/setup-local-development#next-steps",
+            "https://solana.com/developers/guides/setup-local-development#set-your-new-wallet-as-the-default",
+            "https://solana.com/developers/guides/setup-local-development#setup-wsl-for-solana-development",
+            "https://solana.com/developers/guides/setup-local-development#there-are-three-ways-to-install-xcode-cli-tools",
+            "https://solana.com/developers/guides/setup-local-development#what-you-will-learn",
+            "https://solana.com/developers/guides?difficulty=intro",
+            "https://solana.com/developers/guides?tags=cli",
+            "https://solana.com/developers/guides?tags=linux",
+            "https://solana.com/developers/guides?tags=local",
+            "https://solana.com/developers/guides?tags=mac",
+            "https://solana.com/developers/guides?tags=quickstart",
+            "https://solana.com/developers/guides?tags=windows",
+            "https://solana.com/developers/guides?tags=wsl",
+            "https://solana.com/discord",
+            "https://solana.com/docs",
+            "https://solana.com/docs/core/clusters",
+            "https://solana.com/docs/programs",
+            "https://solana.com/docs/rpc",
+            "https://solana.com/docs/terminology",
+            "https://solana.com/ecosystem",
+            "https://solana.com/github",
+            "https://solana.com/news",
+            "https://solana.com/newsletter",
+            "https://solana.com/privacy-policy",
+            "https://solana.com/privacy-policy#collection-of-information",
+            "https://solana.com/reddit",
+            "https://solana.com/telegram",
+            "https://solana.com/tos",
+            "https://solana.com/twitter",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ],
+        "www.anchor-lang.com": [
+            "https://www.anchor-lang.com/"
+        ]
+    }
+}
