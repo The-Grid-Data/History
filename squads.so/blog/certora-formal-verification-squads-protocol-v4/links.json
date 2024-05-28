@@ -1,0 +1,46 @@
+{
+    "target_url": "https://squads.so/blog/certora-formal-verification-squads-protocol-v4",
+    "domains": {
+        "discord.com": [
+            "https://discord.com/invite/YPXz64TrKs"
+        ],
+        "docs.squads.so": [
+            "https://docs.squads.so/main/basics/welcome-to-squads"
+        ],
+        "github.com": [
+            "https://github.com/Squads-Protocol",
+            "https://github.com/Squads-Protocol/v4/blob/main/certora_security_report_and_formal_verification.pdf"
+        ],
+        "squads.so": [
+            "https://squads.so/",
+            "https://squads.so/about",
+            "https://squads.so/blog",
+            "https://squads.so/blog/mpc-wallets-risks-vs-multisig",
+            "https://squads.so/blog/update-introducing-squads-validator",
+            "https://squads.so/blog/update-rent-reclaim",
+            "https://squads.so/blog/update-token-manager-token-extensions-and-metadata-updates",
+            "https://squads.so/blog/what-are-multisig-wallets",
+            "https://squads.so/brand-assets",
+            "https://squads.so/extension",
+            "https://squads.so/legal/privacy-policy",
+            "https://squads.so/legal/terms-of-service",
+            "https://squads.so/protocol",
+            "https://squads.so/use-cases"
+        ],
+        "twitter.com": [
+            "https://twitter.com/squadsprotocol"
+        ],
+        "warpcast.com": [
+            "https://warpcast.com/squads"
+        ],
+        "www.certora.com": [
+            "https://www.certora.com/"
+        ],
+        "www.npmjs.com": [
+            "https://www.npmjs.com/package/@sqds/multisig"
+        ],
+        "www.sqds.io": [
+            "https://www.sqds.io/"
+        ]
+    }
+}
