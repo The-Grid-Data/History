@@ -1,0 +1,212 @@
+{
+    "target_url": "https://bitcoin.org/en/full-node",
+    "domains": {
+        "": [
+            "bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"
+        ],
+        "10.0.1.1": [
+            "http://10.0.1.1"
+        ],
+        "192.168.0.1": [
+            "http://192.168.0.1"
+        ],
+        "192.168.1.1": [
+            "http://192.168.1.1"
+        ],
+        "192.168.123.254": [
+            "http://192.168.123.254"
+        ],
+        "192.168.2.1": [
+            "http://192.168.2.1"
+        ],
+        "bitcoin.org": [
+            "https://bitcoin.org/ar/",
+            "https://bitcoin.org/bg/",
+            "https://bitcoin.org/ca/",
+            "https://bitcoin.org/da/",
+            "https://bitcoin.org/de/",
+            "https://bitcoin.org/el/",
+            "https://bitcoin.org/en/",
+            "https://bitcoin.org/en/about-us",
+            "https://bitcoin.org/en/alerts",
+            "https://bitcoin.org/en/bitcoin-core/",
+            "https://bitcoin.org/en/bitcoin-core/about-site",
+            "https://bitcoin.org/en/bitcoin-core/contribute/documentation",
+            "https://bitcoin.org/en/bitcoin-core/contribute/issues",
+            "https://bitcoin.org/en/bitcoin-core/contribute/support",
+            "https://bitcoin.org/en/bitcoin-core/contribute/translations",
+            "https://bitcoin.org/en/bitcoin-core/features/",
+            "https://bitcoin.org/en/bitcoin-core/features/network-support",
+            "https://bitcoin.org/en/bitcoin-core/features/privacy",
+            "https://bitcoin.org/en/bitcoin-core/features/requirements",
+            "https://bitcoin.org/en/bitcoin-core/features/user-interface",
+            "https://bitcoin.org/en/bitcoin-core/features/validation",
+            "https://bitcoin.org/en/bitcoin-core/help",
+            "https://bitcoin.org/en/bitcoin-core/help#documentation",
+            "https://bitcoin.org/en/bitcoin-core/help#forums",
+            "https://bitcoin.org/en/bitcoin-core/help#live",
+            "https://bitcoin.org/en/bitcoin-for-businesses",
+            "https://bitcoin.org/en/bitcoin-for-individuals",
+            "https://bitcoin.org/en/bitcoin-paper",
+            "https://bitcoin.org/en/blog",
+            "https://bitcoin.org/en/buy",
+            "https://bitcoin.org/en/community",
+            "https://bitcoin.org/en/development",
+            "https://bitcoin.org/en/download",
+            "https://bitcoin.org/en/events",
+            "https://bitcoin.org/en/exchanges",
+            "https://bitcoin.org/en/full-node",
+            "https://bitcoin.org/en/full-node#blocks-only-mode",
+            "https://bitcoin.org/en/full-node#configuration-tuning",
+            "https://bitcoin.org/en/full-node#configuring-dhcp",
+            "https://bitcoin.org/en/full-node#costs-and-warnings",
+            "https://bitcoin.org/en/full-node#daemon-peer-info",
+            "https://bitcoin.org/en/full-node#disable-listening",
+            "https://bitcoin.org/en/full-node#enabling-connections",
+            "https://bitcoin.org/en/full-node#firewall-configuration",
+            "https://bitcoin.org/en/full-node#gui-peer-info",
+            "https://bitcoin.org/en/full-node#initial-block-downloadibd",
+            "https://bitcoin.org/en/full-node#linux-instructions",
+            "https://bitcoin.org/en/full-node#mac-os-x-instructions",
+            "https://bitcoin.org/en/full-node#mac-os-x-yosemite-1010x",
+            "https://bitcoin.org/en/full-node#maximum-upload-targets",
+            "https://bitcoin.org/en/full-node#minimum-requirements",
+            "https://bitcoin.org/en/full-node#network-configuration",
+            "https://bitcoin.org/en/full-node#osx-daemon",
+            "https://bitcoin.org/en/full-node#osx-gui",
+            "https://bitcoin.org/en/full-node#other-linux-daemon",
+            "https://bitcoin.org/en/full-node#other-linux-gui",
+            "https://bitcoin.org/en/full-node#port-forwarding",
+            "https://bitcoin.org/en/full-node#possible-problems",
+            "https://bitcoin.org/en/full-node#reduce-maximum-connections",
+            "https://bitcoin.org/en/full-node#reduce-storage",
+            "https://bitcoin.org/en/full-node#reduce-traffic",
+            "https://bitcoin.org/en/full-node#secure-your-wallet",
+            "https://bitcoin.org/en/full-node#setup-a-full-node",
+            "https://bitcoin.org/en/full-node#special-cases",
+            "https://bitcoin.org/en/full-node#testing-connections",
+            "https://bitcoin.org/en/full-node#upgrading-bitcoin-core",
+            "https://bitcoin.org/en/full-node#what-is-a-full-node",
+            "https://bitcoin.org/en/full-node#win10-daemon",
+            "https://bitcoin.org/en/full-node#win10-gui",
+            "https://bitcoin.org/en/full-node#win7-daemon",
+            "https://bitcoin.org/en/full-node#win7-gui",
+            "https://bitcoin.org/en/full-node#win8-daemon",
+            "https://bitcoin.org/en/full-node#win8-gui",
+            "https://bitcoin.org/en/full-node#windows-10",
+            "https://bitcoin.org/en/full-node#windows-7",
+            "https://bitcoin.org/en/full-node#windows-8x",
+            "https://bitcoin.org/en/full-node#windows-instructions",
+            "https://bitcoin.org/en/getting-started",
+            "https://bitcoin.org/en/how-it-works",
+            "https://bitcoin.org/en/legal",
+            "https://bitcoin.org/en/press",
+            "https://bitcoin.org/en/privacy",
+            "https://bitcoin.org/en/resources",
+            "https://bitcoin.org/en/scams",
+            "https://bitcoin.org/en/secure-your-wallet",
+            "https://bitcoin.org/en/support-bitcoin",
+            "https://bitcoin.org/en/version-history",
+            "https://bitcoin.org/en/vocabulary",
+            "https://bitcoin.org/en/you-need-to-know",
+            "https://bitcoin.org/es/",
+            "https://bitcoin.org/fa/",
+            "https://bitcoin.org/fr/",
+            "https://bitcoin.org/he/",
+            "https://bitcoin.org/hi/",
+            "https://bitcoin.org/hu/",
+            "https://bitcoin.org/hy/",
+            "https://bitcoin.org/id/",
+            "https://bitcoin.org/it/",
+            "https://bitcoin.org/ja/",
+            "https://bitcoin.org/km/",
+            "https://bitcoin.org/ko/",
+            "https://bitcoin.org/laanwj-releases.asc",
+            "https://bitcoin.org/laanwj.asc",
+            "https://bitcoin.org/nl/",
+            "https://bitcoin.org/pl/",
+            "https://bitcoin.org/pt_BR/",
+            "https://bitcoin.org/ro/",
+            "https://bitcoin.org/ru/",
+            "https://bitcoin.org/sl/",
+            "https://bitcoin.org/sr/",
+            "https://bitcoin.org/sv/",
+            "https://bitcoin.org/tr/",
+            "https://bitcoin.org/uk/",
+            "https://bitcoin.org/zh_CN/",
+            "https://bitcoin.org/zh_TW/"
+        ],
+        "bitcoin.stackexchange.com": [
+            "https://bitcoin.stackexchange.com/"
+        ],
+        "bitcointalk.org": [
+            "https://bitcointalk.org/index.php?board=4.0"
+        ],
+        "bitnodes.io": [
+            "https://bitnodes.io/#join-the-network"
+        ],
+        "community.norton.com": [
+            "http://community.norton.com/en/forums/firewall-blocking-program-how-open-ports"
+        ],
+        "developer.bitcoin.org": [
+            "https://developer.bitcoin.org/",
+            "https://developer.bitcoin.org/devguide/p2p_network.html#initial-block-download",
+            "https://developer.bitcoin.org/glossary.html",
+            "https://developer.bitcoin.org/reference/rpc/",
+            "https://developer.bitcoin.org/reference/rpc/getblockchaininfo.html",
+            "https://developer.bitcoin.org/reference/rpc/getconnectioncount.html",
+            "https://developer.bitcoin.org/reference/rpc/getnettotals.html",
+            "https://developer.bitcoin.org/reference/rpc/getnetworkinfo.html",
+            "https://developer.bitcoin.org/reference/rpc/getpeerinfo.html",
+            "https://developer.bitcoin.org/reference/rpc/getwalletinfo.html",
+            "https://developer.bitcoin.org/reference/rpc/help.html",
+            "https://developer.bitcoin.org/reference/rpc/stop.html"
+        ],
+        "en.wikibooks.org": [
+            "https://en.wikibooks.org/wiki/Guide_to_X11/Starting_Sessions"
+        ],
+        "en.wikipedia.org": [
+            "https://en.wikipedia.org/wiki/Legality_of_bitcoin_by_country"
+        ],
+        "github.com": [
+            "https://github.com/bitcoin-dot-org/Bitcoin.org/blob/master/en/full-node.md",
+            "https://github.com/bitcoin-dot-org/bitcoin.org/issues/new",
+            "https://github.com/bitcoin/bitcoin/tree/master/contrib/init"
+        ],
+        "help.ubuntu.com": [
+            "https://help.ubuntu.com/community/Gufw"
+        ],
+        "jlopp.github.io": [
+            "https://jlopp.github.io/bitcoin-core-config-generator/"
+        ],
+        "learn.microsoft.com": [
+            "https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/create-an-inbound-port-rule"
+        ],
+        "opensource.org": [
+            "http://opensource.org/licenses/mit-license.php"
+        ],
+        "service.mcafee.com": [
+            "http://service.mcafee.com/FAQDocument.aspx?id=TS100887"
+        ],
+        "standards.freedesktop.org": [
+            "http://standards.freedesktop.org/autostart-spec/autostart-spec-latest.html#startup"
+        ],
+        "superuser.com": [
+            "http://superuser.com",
+            "http://superuser.com/"
+        ],
+        "support.apple.com": [
+            "http://support.apple.com/en-us/HT201642"
+        ],
+        "webchat.freenode.net": [
+            "https://webchat.freenode.net/?channels=bitcoin&uio=d4"
+        ],
+        "www.routerpasswords.com": [
+            "http://www.routerpasswords.com/"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/watch?v=xc_TxlByxeY",
+            "https://www.youtube.com/watch?v=xc_TxlByxeY&embeds_referring_euri=https%3A%2F%2Fbitcoin.org%2F&feature=emb_imp_woyt"
+        ]
+    }
+}
