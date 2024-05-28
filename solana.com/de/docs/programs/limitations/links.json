@@ -1,0 +1,88 @@
+{
+    "target_url": "https://solana.com/de/docs/programs/limitations",
+    "domains": {
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "github.com": [
+            "https://github.com/solana-foundation/developer-content/tree/main/docs/programs/limitations.md",
+            "https://github.com/solana-labs/solana-program-library/tree/master/libraries/math"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "solana.com": [
+            "https://solana.com/de",
+            "https://solana.com/de/branding",
+            "https://solana.com/de/developers/cookbook",
+            "https://solana.com/de/developers/guides",
+            "https://solana.com/de/docs",
+            "https://solana.com/de/docs/advanced/confirmation",
+            "https://solana.com/de/docs/advanced/lookup-tables",
+            "https://solana.com/de/docs/advanced/retry",
+            "https://solana.com/de/docs/advanced/state-compression",
+            "https://solana.com/de/docs/advanced/versions",
+            "https://solana.com/de/docs/clients/javascript",
+            "https://solana.com/de/docs/clients/javascript-reference",
+            "https://solana.com/de/docs/clients/rust",
+            "https://solana.com/de/docs/core/accounts",
+            "https://solana.com/de/docs/core/clusters",
+            "https://solana.com/de/docs/core/cpi",
+            "https://solana.com/de/docs/core/fees",
+            "https://solana.com/de/docs/core/fees#compute-budget",
+            "https://solana.com/de/docs/core/pda",
+            "https://solana.com/de/docs/core/programs",
+            "https://solana.com/de/docs/core/tokens",
+            "https://solana.com/de/docs/core/transactions",
+            "https://solana.com/de/docs/economics",
+            "https://solana.com/de/docs/economics/inflation/inflation-schedule",
+            "https://solana.com/de/docs/economics/inflation/terminology",
+            "https://solana.com/de/docs/economics/staking",
+            "https://solana.com/de/docs/economics/staking/stake-accounts",
+            "https://solana.com/de/docs/economics/staking/stake-programming",
+            "https://solana.com/de/docs/intro/dev",
+            "https://solana.com/de/docs/intro/overview",
+            "https://solana.com/de/docs/intro/wallets",
+            "https://solana.com/de/docs/more/exchange",
+            "https://solana.com/de/docs/programs/debugging",
+            "https://solana.com/de/docs/programs/deploying",
+            "https://solana.com/de/docs/programs/examples",
+            "https://solana.com/de/docs/programs/faq",
+            "https://solana.com/de/docs/programs/lang-c",
+            "https://solana.com/de/docs/programs/lang-rust",
+            "https://solana.com/de/docs/programs/lang-rust#restrictions",
+            "https://solana.com/de/docs/programs/limitations",
+            "https://solana.com/de/docs/programs/limitations#call-stack-depth-calldepthexceeded-error",
+            "https://solana.com/de/docs/programs/limitations#call-stack-depth-object-object-error",
+            "https://solana.com/de/docs/programs/limitations#compute-budget",
+            "https://solana.com/de/docs/programs/limitations#cpi-call-depth-calldepth-error",
+            "https://solana.com/de/docs/programs/limitations#cpi-call-depth-object-object-error",
+            "https://solana.com/de/docs/programs/limitations#float-rust-types-support",
+            "https://solana.com/de/docs/programs/limitations#rust-libraries",
+            "https://solana.com/de/docs/programs/limitations#signed-division",
+            "https://solana.com/de/docs/programs/limitations#static-writable-data",
+            "https://solana.com/de/docs/programs/overview",
+            "https://solana.com/de/docs/rpc",
+            "https://solana.com/de/docs/terminology",
+            "https://solana.com/de/docs/terminology#compute-budget",
+            "https://solana.com/de/ecosystem",
+            "https://solana.com/de/news",
+            "https://solana.com/de/newsletter",
+            "https://solana.com/de/privacy-policy",
+            "https://solana.com/de/privacy-policy#collection-of-information",
+            "https://solana.com/de/tos",
+            "https://solana.com/discord",
+            "https://solana.com/github",
+            "https://solana.com/reddit",
+            "https://solana.com/telegram",
+            "https://solana.com/twitter",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ],
+        "www.kernel.org": [
+            "https://www.kernel.org/doc/html/latest/bpf/bpf_design_QA.Html#q-why-there-is-no-bpf-sdiv-for-signed-divide-operation"
+        ]
+    }
+}
