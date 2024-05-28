@@ -213,7 +213,7 @@ Showing 6 of 6 repositories
 
 A native gRPC client & server implementation with async/await support.
 
-Rust 0  MIT  [ 935 ](/Sphere-Laboratories/tonic/forks) [ 0 ](/Sphere-
+Rust 0  MIT  [ 936 ](/Sphere-Laboratories/tonic/forks) [ 0 ](/Sphere-
 Laboratories/tonic/issues) [ 0 ](/Sphere-Laboratories/tonic/pulls) Updated May
 22, 2024
 
@@ -240,7 +240,7 @@ lab/pulls) Updated May 9, 2024
 Web-Scale Blockchain for fast, secure, scalable, decentralized apps and
 marketplaces.
 
-Rust 0  Apache-2.0  [ 4,126 ](/Sphere-Laboratories/solana/forks) [ 0
+Rust 0  Apache-2.0  [ 4,127 ](/Sphere-Laboratories/solana/forks) [ 0
 ](/Sphere-Laboratories/solana/issues) [ 2 ](/Sphere-Laboratories/solana/pulls)
 Updated Apr 26, 2024
 
@@ -267,7 +267,9 @@ part of this organization.
 
 #### Top languages
 
-Loading…
+[ Rust ](/orgs/Sphere-Laboratories/repositories?language=rust&type=all) [
+TypeScript ](/orgs/Sphere-
+Laboratories/repositories?language=typescript&type=all)
 
 #### Most used topics
 
