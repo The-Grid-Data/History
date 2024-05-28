@@ -1,0 +1,185 @@
+{
+    "target_url": "https://www.kraken.com/wallet",
+    "domains": {
+        "blog.kraken.com": [
+            "https://blog.kraken.com",
+            "https://blog.kraken.com/crypto-education/self-custody-best-practices",
+            "https://blog.kraken.com/product/introducing-kraken-wallet",
+            "https://blog.kraken.com/product/kraken-wallet/kraken-wallet-security"
+        ],
+        "github.com": [
+            "https://github.com/krakenfx/wallet"
+        ],
+        "kraken.app.link": [
+            "https://kraken.app.link/consumer-footer"
+        ],
+        "krakenpro.app.link": [
+            "https://krakenpro.app.link/pro-footer"
+        ],
+        "kwallet.app.link": [
+            "https://kwallet.app.link/6ceSaQNvcJb",
+            "https://kwallet.app.link/Bs0BLUujtJb",
+            "https://kwallet.app.link/RrRvIY6HGIb",
+            "https://kwallet.app.link/TpSUuw1VGIb",
+            "https://kwallet.app.link/bVUNNjyjtJb",
+            "https://kwallet.app.link/iKNS1031CJb",
+            "https://kwallet.app.link/mbgRVofwQIb"
+        ],
+        "nft.kraken.com": [
+            "https://nft.kraken.com",
+            "https://nft.kraken.com/collections"
+        ],
+        "pro.kraken.com": [
+            "https://pro.kraken.com/app/trade/btc-usd",
+            "https://pro.kraken.com/app/trade/margin-btc-usd"
+        ],
+        "status.kraken.com": [
+            "https://status.kraken.com/"
+        ],
+        "support.kraken.com": [
+            "https://support.kraken.com/hc/en-us",
+            "https://support.kraken.com/hc/en-us/articles/360027545252-Kraken-Affiliate-program"
+        ],
+        "t.me": [
+            "https://t.me/kraken_exchange_official"
+        ],
+        "twitter.com": [
+            "https://twitter.com/krakenfx"
+        ],
+        "www.base.org": [
+            "https://www.base.org/"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/KrakenFX/"
+        ],
+        "www.instagram.com": [
+            "https://www.instagram.com/krakenfx/"
+        ],
+        "www.kraken.com": [
+            "https://www.kraken.com/",
+            "https://www.kraken.com/careers",
+            "https://www.kraken.com/convert",
+            "https://www.kraken.com/convert/ada/usd",
+            "https://www.kraken.com/convert/btc/usd",
+            "https://www.kraken.com/convert/doge/usd",
+            "https://www.kraken.com/convert/eth/usd",
+            "https://www.kraken.com/convert/ltc/usd",
+            "https://www.kraken.com/convert/sol/usd",
+            "https://www.kraken.com/convert/xrp/usd",
+            "https://www.kraken.com/features",
+            "https://www.kraken.com/features/24-7-support",
+            "https://www.kraken.com/features/api-trading",
+            "https://www.kraken.com/features/funding-options",
+            "https://www.kraken.com/features/futures",
+            "https://www.kraken.com/features/liquidity",
+            "https://www.kraken.com/features/margin-trading",
+            "https://www.kraken.com/features/otc-exchange",
+            "https://www.kraken.com/features/rewards",
+            "https://www.kraken.com/features/security",
+            "https://www.kraken.com/institutions",
+            "https://www.kraken.com/institutions/custody",
+            "https://www.kraken.com/institutions/futures",
+            "https://www.kraken.com/institutions/otc",
+            "https://www.kraken.com/institutions/spot",
+            "https://www.kraken.com/institutions/staking",
+            "https://www.kraken.com/learn",
+            "https://www.kraken.com/learn/buy-bitcoin-btc",
+            "https://www.kraken.com/learn/buy-cardano-ada",
+            "https://www.kraken.com/learn/buy-crypto",
+            "https://www.kraken.com/learn/buy-dogecoin-doge",
+            "https://www.kraken.com/learn/buy-ethereum-eth",
+            "https://www.kraken.com/learn/buy-litecoin-ltc",
+            "https://www.kraken.com/learn/buy-ripple-xrp",
+            "https://www.kraken.com/learn/buy-solana-sol",
+            "https://www.kraken.com/learn/crypto-guides",
+            "https://www.kraken.com/learn/custodial-non-custodial-crypto-wallet",
+            "https://www.kraken.com/learn/how-keep-crypto-safe",
+            "https://www.kraken.com/learn/how-to-stay-safe-in-defi",
+            "https://www.kraken.com/learn/types-of-cryptocurrency",
+            "https://www.kraken.com/learn/web3-wallets",
+            "https://www.kraken.com/learn/what-are-non-fungible-tokens-nft",
+            "https://www.kraken.com/learn/what-is-bitcoin-btc",
+            "https://www.kraken.com/learn/what-is-blockchain-technology",
+            "https://www.kraken.com/learn/what-is-crypto-custody",
+            "https://www.kraken.com/learn/what-is-cryptocurrency",
+            "https://www.kraken.com/learn/what-is-decentralized-autonomous-organization-dao",
+            "https://www.kraken.com/learn/what-is-ethereum-eth",
+            "https://www.kraken.com/legal",
+            "https://www.kraken.com/legal/cookies",
+            "https://www.kraken.com/legal/disclosures",
+            "https://www.kraken.com/legal/privacy",
+            "https://www.kraken.com/listings",
+            "https://www.kraken.com/press",
+            "https://www.kraken.com/prices",
+            "https://www.kraken.com/prices/arbitrum",
+            "https://www.kraken.com/prices/bitcoin",
+            "https://www.kraken.com/prices/cardano",
+            "https://www.kraken.com/prices/dogecoin",
+            "https://www.kraken.com/prices/ethereum",
+            "https://www.kraken.com/prices/litecoin",
+            "https://www.kraken.com/prices/optimism",
+            "https://www.kraken.com/prices/polygon",
+            "https://www.kraken.com/prices/solana",
+            "https://www.kraken.com/prices/xrp",
+            "https://www.kraken.com/proof-of-reserves",
+            "https://www.kraken.com/sign-in",
+            "https://www.kraken.com/sign-up",
+            "https://www.kraken.com/wallet",
+            "https://www.kraken.com/wallet/aave",
+            "https://www.kraken.com/wallet/aragon",
+            "https://www.kraken.com/wallet/arbitrum",
+            "https://www.kraken.com/wallet/axelar",
+            "https://www.kraken.com/wallet/base",
+            "https://www.kraken.com/wallet/basic-attention-token",
+            "https://www.kraken.com/wallet/beam",
+            "https://www.kraken.com/wallet/bitcoin",
+            "https://www.kraken.com/wallet/bonk",
+            "https://www.kraken.com/wallet/chainlink",
+            "https://www.kraken.com/wallet/dai",
+            "https://www.kraken.com/wallet/decentraland",
+            "https://www.kraken.com/wallet/dogecoin",
+            "https://www.kraken.com/wallet/dogwifhat",
+            "https://www.kraken.com/wallet/enjin-coin",
+            "https://www.kraken.com/wallet/ethereum",
+            "https://www.kraken.com/wallet/helium",
+            "https://www.kraken.com/wallet/jasmycoin",
+            "https://www.kraken.com/wallet/jito",
+            "https://www.kraken.com/wallet/jupiter",
+            "https://www.kraken.com/wallet/legal",
+            "https://www.kraken.com/wallet/loopring",
+            "https://www.kraken.com/wallet/ondo",
+            "https://www.kraken.com/wallet/optimism",
+            "https://www.kraken.com/wallet/pepe",
+            "https://www.kraken.com/wallet/polygon",
+            "https://www.kraken.com/wallet/privacy",
+            "https://www.kraken.com/wallet/pyth-network",
+            "https://www.kraken.com/wallet/render-token",
+            "https://www.kraken.com/wallet/shiba-inu",
+            "https://www.kraken.com/wallet/solana",
+            "https://www.kraken.com/wallet/stacks",
+            "https://www.kraken.com/wallet/starknet",
+            "https://www.kraken.com/wallet/sushi",
+            "https://www.kraken.com/wallet/tether",
+            "https://www.kraken.com/wallet/the-graph",
+            "https://www.kraken.com/wallet/the-sandbox",
+            "https://www.kraken.com/wallet/uniswap",
+            "https://www.kraken.com/wallet/usdc",
+            "https://www.kraken.com/wallet/woo-network",
+            "https://www.kraken.com/wallet/wormhole",
+            "https://www.kraken.com/wallet/wrapped-bitcoin",
+            "https://www.kraken.com/why-kraken"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/krakenfx/"
+        ],
+        "www.reddit.com": [
+            "https://www.reddit.com/r/Kraken/"
+        ],
+        "www.tiktok.com": [
+            "https://www.tiktok.com/@krakenfx"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/c/KrakenBitcoinExchange"
+        ]
+    }
+}
