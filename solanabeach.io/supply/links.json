@@ -1,0 +1,28 @@
+{
+    "target_url": "https://solanabeach.io/supply",
+    "domains": {
+        "cookie-script.com": [
+            "https://cookie-script.com",
+            "https://cookie-script.com/cookie-report?identifier=04b70854c5afd3c8a61f14ae37a83348"
+        ],
+        "github.com": [
+            "https://github.com/solana-beach/api"
+        ],
+        "solanabeach.io": [
+            "https://solanabeach.io/",
+            "https://solanabeach.io/blocks",
+            "https://solanabeach.io/glossary",
+            "https://solanabeach.io/imprint",
+            "https://solanabeach.io/policy.html",
+            "https://solanabeach.io/privacy-policy",
+            "https://solanabeach.io/supply",
+            "https://solanabeach.io/supply#main",
+            "https://solanabeach.io/tokens",
+            "https://solanabeach.io/transactions",
+            "https://solanabeach.io/validators"
+        ],
+        "twitter.com": [
+            "https://twitter.com/solanabeach_io"
+        ]
+    }
+}
