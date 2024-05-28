@@ -90,7 +90,7 @@ Other useful links may be:
   * [Pyth Token](/home/pyth-token) \-- Learn more about the Pyth governance token PYTH.
   * [Pyth Metrics](/home/metrics) \-- See metrics of the network's adoption and growth.
 
-Last updated on May 15, 2024
+Last updated on May 21, 2024
 
 System
 
