@@ -44,9 +44,9 @@ Mar 5
 
 2 / 6
 
-Mar 4
+Mar 5
 
-1d ago
+2d ago
 
 [![](https://yyz1.discourse-
 cdn.com/flex003/user_avatar/www.jupresear.ch/c2yptic/48/1911_2.png)](/u/c2yptic)
@@ -59,7 +59,7 @@ Let’s take a look at the whole LFG launchpad application to launch the
 process.
 
 Anyone can apply through our open process via the [Jupiter Research Forum
-935](https://www.jupresear.ch/). The J.U.P DAO then votes on who is accepted
+943](https://www.jupresear.ch/). The J.U.P DAO then votes on who is accepted
 to the LFG Launchpad through on-chain governance using the JUP token.
 
 ## This is a 4-step process
@@ -73,12 +73,12 @@ Step 4 - Launch!
 **Step 1 - The Jupresearch forum post**
 
 Anyone can apply by posting on the Forum in the [LFG Introduction section
-769](https://www.jupresear.ch/c/lfg-intros/12) and following the rough outline
-provided in [the first forum post 231](https://www.jupresear.ch/t/lfg-
+773](https://www.jupresear.ch/c/lfg-intros/12) and following the rough outline
+provided in [the first forum post 233](https://www.jupresear.ch/t/lfg-
 launchpad-introducing-your-project-to-the-community/5234/2) explaining the LFG
 introduction section in this forum, and then make your case to the DAO. Every
 project is free to initiate a discussion on the Jupresear.ch Forum or within
-the #lfg-candidate channel in [Discord 176](https://discord.com/invite/jup).  
+the #lfg-candidate channel in [Discord 177](https://discord.com/invite/jup).  
   
   
 **Step 2 - The candidate stage**
@@ -126,9 +126,9 @@ to the working group.
 
 Over and out!
 
-122
+123
 
-  * [LFG Launchpad: Introducing Your Project To The Community!84](https://www.jupresear.ch/t/lfg-launchpad-introducing-your-project-to-the-community/5234)
+  * [LFG Launchpad: Introducing Your Project To The Community!85](https://www.jupresear.ch/t/lfg-launchpad-introducing-your-project-to-the-community/5234)
   * [Guide to engaging on this forum for new users and projects23](https://www.jupresear.ch/t/guide-to-engaging-on-this-forum-for-new-users-and-projects/8827)
 
 ​
@@ -138,12 +138,12 @@ Over and out!
 ![](https://yyz1.discourse-
 cdn.com/flex003/user_avatar/www.jupresear.ch/c2yptic/24/1911_2.png) Mar 5
 
-  * #### [last reply ![](https://avatars.discourse-cdn.com/v4/letter/b/278dde/24.png) 1d  ](/t/lfg-launchpad-from-application-to-the-lfg-launch/7340/10)
+  * #### [last reply ![](https://avatars.discourse-cdn.com/v4/letter/b/278dde/24.png) 2d  ](/t/lfg-launchpad-from-application-to-the-lfg-launch/7340/10)
   * 5
 
 #### replies
 
-  * 54.9k
+  * 55.3k
 
 #### views
 
@@ -151,7 +151,7 @@ cdn.com/flex003/user_avatar/www.jupresear.ch/c2yptic/24/1911_2.png) Mar 5
 
 #### users
 
-  * 158
+  * 161
 
 #### likes
 
@@ -188,7 +188,7 @@ votes.
 
 1 Reply
 
-17
+18
 
 [![](https://yyz1.discourse-
 cdn.com/flex003/user_avatar/www.jupresear.ch/digijoe7/48/1716_2.png)](/u/Digijoe7)
@@ -225,11 +225,11 @@ Agree, everything has been super smooth. Big up guys
 
 [blondin](/u/blondin)
 
-[1d](/t/lfg-launchpad-from-application-to-the-lfg-launch/7340/10 "Post date")
+[2d](/t/lfg-launchpad-from-application-to-the-lfg-launch/7340/10 "Post date")
 
 i want to participate…i love your ecosystem!
 
-1
+2
 
 Reply
 
