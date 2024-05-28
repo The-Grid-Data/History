@@ -1,0 +1,35 @@
+{
+    "target_url": "https://www.ledger.com/blog/category/enterprise",
+    "domains": {
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=2e4dca44-6170-4f4e-b7bf-2607b20a2ca9&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=a6c145b1-8dac-4438-ba0d-49e4e80f7d8f&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Fblog%2Fcategory%2Fenterprise&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "bat.bing.com": [
+            "https://bat.bing.com/action/0?ti=134633242&tm=gtm002&Ver=2&mid=2a2f86eb-9211-4087-8a75-8772fbd97515&sid=16fd27f01cf711ef82611f43c89661b3&vid=16fd45b01cf711ef81be77e0f00c34de&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&tl=Blog%20%7C%20Enterprise%20%7C%20Ledger&p=https%3A%2F%2Fwww.ledger.com%2Fblog%2Fcategory%2Fenterprise&r=&lt=2282&evt=pageLoad&sv=1&rn=978615"
+        ],
+        "cdn.cookielaw.org": [
+            "https://cdn.cookielaw.org/logos/df21fb3f-71b8-491b-89ee-eb777bcaf866/637ca236-af9d-4a40-815f-1b6a15af499d/ea9d9f41-35f0-4c24-9a83-1ef746863067/White_64.png",
+            "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg"
+        ],
+        "t.co": [
+            "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=2e4dca44-6170-4f4e-b7bf-2607b20a2ca9&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=a6c145b1-8dac-4438-ba0d-49e4e80f7d8f&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Fblog%2Fcategory%2Fenterprise&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "t.teads.tv": [
+            "https://t.teads.tv/track?action=pageView&env=js-gtm&tag_version=6.17.6_ee47857&provider=tag&buyer_pixel_id=6887&referer=https%3A%2F%2Fwww.ledger.com%2Fblog%2Fcategory%2Fenterprise&user_session_id=7bccf970-3d5b-49aa-a675-b3bd2f7af307"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/tr?id=237213137153741&ev=PageView&noscript=1"
+        ],
+        "www.ledger.com": [
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg",
+            "https://www.ledger.com/wp-content/uploads/2021/11/layer1.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-bitpay-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-cb-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-crypto-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-maestro-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-mastercard-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-paypal-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-visa-s.png?v=2"
+        ]
+    }
+}
