@@ -1,0 +1,204 @@
+{
+    "target_url": "https://ethereum.org/en/developers/tutorials/",
+    "domains": {
+        "": [
+            "mailto:press@ethereum.org"
+        ],
+        "betterprogramming.pub": [
+            "https://betterprogramming.pub/everything-you-need-to-know-about-fullstack-web3-94c0f1b18019",
+            "https://betterprogramming.pub/how-to-code-an-on-chain-dao-e525e13a57be"
+        ],
+        "blog.chain.link": [
+            "https://blog.chain.link/events-and-logging-in-solidity/",
+            "https://blog.chain.link/fetch-current-crypto-price-data-solidity/"
+        ],
+        "blog.ethereum.org": [
+            "https://blog.ethereum.org/"
+        ],
+        "dev.to": [
+            "https://dev.to/dabit3/the-complete-guide-to-full-stack-ethereum-development-3j13"
+        ],
+        "devcon.org": [
+            "https://devcon.org/"
+        ],
+        "devpill.me": [
+            "https://devpill.me"
+        ],
+        "discord.gg": [
+            "https://discord.gg/ethereum-org"
+        ],
+        "docs.alchemy.com": [
+            "https://docs.alchemy.com/docs/how-to-get-transaction-history-for-an-address-on-ethereum"
+        ],
+        "docs.replit.com": [
+            "https://docs.replit.com/tutorials/web3/build-a-robot-nft",
+            "https://docs.replit.com/tutorials/web3/build-a-robot-nft-p2",
+            "https://docs.replit.com/tutorials/web3/build-smart-contract-oracle",
+            "https://docs.replit.com/tutorials/web3/escrow-contract-with-solidity"
+        ],
+        "esp.ethereum.foundation": [
+            "https://esp.ethereum.foundation"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/en/",
+            "https://ethereum.org/en/about/",
+            "https://ethereum.org/en/about/#open-jobs",
+            "https://ethereum.org/en/assets/",
+            "https://ethereum.org/en/bug-bounty/",
+            "https://ethereum.org/en/community/",
+            "https://ethereum.org/en/community/code-of-conduct/",
+            "https://ethereum.org/en/community/events/",
+            "https://ethereum.org/en/community/grants/",
+            "https://ethereum.org/en/community/online/",
+            "https://ethereum.org/en/community/research/",
+            "https://ethereum.org/en/contributing/",
+            "https://ethereum.org/en/contributing/translation-program/",
+            "https://ethereum.org/en/cookie-policy/",
+            "https://ethereum.org/en/dao/",
+            "https://ethereum.org/en/dapps/",
+            "https://ethereum.org/en/decentralized-identity/",
+            "https://ethereum.org/en/defi/",
+            "https://ethereum.org/en/developers/",
+            "https://ethereum.org/en/developers/docs/",
+            "https://ethereum.org/en/developers/docs/design-and-ux/",
+            "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+            "https://ethereum.org/en/developers/learning-tools/",
+            "https://ethereum.org/en/developers/local-environment/",
+            "https://ethereum.org/en/developers/tutorials/",
+            "https://ethereum.org/en/developers/tutorials/#main-content",
+            "https://ethereum.org/en/developers/tutorials/a-developers-guide-to-ethereum-part-one/",
+            "https://ethereum.org/en/developers/tutorials/all-you-can-cache/",
+            "https://ethereum.org/en/developers/tutorials/calling-a-smart-contract-from-javascript/",
+            "https://ethereum.org/en/developers/tutorials/create-and-deploy-a-defi-app/",
+            "https://ethereum.org/en/developers/tutorials/creating-a-wagmi-ui-for-your-contract/",
+            "https://ethereum.org/en/developers/tutorials/deploying-your-first-smart-contract/",
+            "https://ethereum.org/en/developers/tutorials/develop-and-test-dapps-with-a-multi-client-local-eth-testnet/",
+            "https://ethereum.org/en/developers/tutorials/downsizing-contracts-to-fight-the-contract-size-limit/",
+            "https://ethereum.org/en/developers/tutorials/eip-1271-smart-contract-signatures/",
+            "https://ethereum.org/en/developers/tutorials/erc-721-vyper-annotated-code/",
+            "https://ethereum.org/en/developers/tutorials/erc20-annotated-code/",
+            "https://ethereum.org/en/developers/tutorials/erc20-with-safety-rails/",
+            "https://ethereum.org/en/developers/tutorials/getting-started-with-ethereum-development-using-alchemy/",
+            "https://ethereum.org/en/developers/tutorials/guide-to-smart-contract-security-tools/",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract/",
+            "https://ethereum.org/en/developers/tutorials/how-to-implement-an-erc721-market/",
+            "https://ethereum.org/en/developers/tutorials/how-to-mint-an-nft/",
+            "https://ethereum.org/en/developers/tutorials/how-to-mock-solidity-contracts-for-testing/",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-echidna-to-test-smart-contracts/",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-slither-to-find-smart-contract-bugs/",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-tellor-as-your-oracle/",
+            "https://ethereum.org/en/developers/tutorials/how-to-view-nft-in-metamask/",
+            "https://ethereum.org/en/developers/tutorials/how-to-write-and-deploy-an-nft/",
+            "https://ethereum.org/en/developers/tutorials/interact-with-other-contracts-from-solidity/",
+            "https://ethereum.org/en/developers/tutorials/kickstart-your-dapp-frontend-development-with-create-eth-app/",
+            "https://ethereum.org/en/developers/tutorials/learn-foundational-ethereum-topics-with-sql/",
+            "https://ethereum.org/en/developers/tutorials/logging-events-smart-contracts/",
+            "https://ethereum.org/en/developers/tutorials/merkle-proofs-for-offline-data-integrity/",
+            "https://ethereum.org/en/developers/tutorials/monitoring-geth-with-influxdb-and-grafana/",
+            "https://ethereum.org/en/developers/tutorials/nft-minter/",
+            "https://ethereum.org/en/developers/tutorials/optimism-std-bridge-annotated-code/",
+            "https://ethereum.org/en/developers/tutorials/reverse-engineering-a-contract/",
+            "https://ethereum.org/en/developers/tutorials/run-node-raspberry-pi/",
+            "https://ethereum.org/en/developers/tutorials/scam-token-tricks/",
+            "https://ethereum.org/en/developers/tutorials/secure-development-workflow/",
+            "https://ethereum.org/en/developers/tutorials/send-token-ethersjs/",
+            "https://ethereum.org/en/developers/tutorials/sending-transactions-using-web3-and-alchemy/",
+            "https://ethereum.org/en/developers/tutorials/set-up-web3js-to-use-ethereum-in-javascript/",
+            "https://ethereum.org/en/developers/tutorials/short-abi/",
+            "https://ethereum.org/en/developers/tutorials/smart-contract-security-guidelines/",
+            "https://ethereum.org/en/developers/tutorials/solidity-and-truffle-continuous-integration-setup/",
+            "https://ethereum.org/en/developers/tutorials/testing-erc-20-tokens-with-waffle/",
+            "https://ethereum.org/en/developers/tutorials/the-graph-fixing-web3-data-querying/",
+            "https://ethereum.org/en/developers/tutorials/token-integration-checklist/",
+            "https://ethereum.org/en/developers/tutorials/transfers-and-approval-of-erc-20-tokens-from-a-solidity-smart-contract/",
+            "https://ethereum.org/en/developers/tutorials/understand-the-erc-20-token-smart-contract/",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/",
+            "https://ethereum.org/en/developers/tutorials/using-websockets/",
+            "https://ethereum.org/en/developers/tutorials/waffle-dynamic-mocking-and-testing-calls/",
+            "https://ethereum.org/en/developers/tutorials/waffle-say-hello-world-with-hardhat-and-ethers/",
+            "https://ethereum.org/en/developers/tutorials/waffle-test-simple-smart-contract/",
+            "https://ethereum.org/en/developers/tutorials/yellow-paper-evm/",
+            "https://ethereum.org/en/eips/",
+            "https://ethereum.org/en/enterprise/",
+            "https://ethereum.org/en/enterprise/private-ethereum/",
+            "https://ethereum.org/en/eth/",
+            "https://ethereum.org/en/foundation/",
+            "https://ethereum.org/en/gas/",
+            "https://ethereum.org/en/get-eth/",
+            "https://ethereum.org/en/glossary/",
+            "https://ethereum.org/en/governance/",
+            "https://ethereum.org/en/guides/",
+            "https://ethereum.org/en/history/",
+            "https://ethereum.org/en/layer-2/",
+            "https://ethereum.org/en/learn/",
+            "https://ethereum.org/en/nft/",
+            "https://ethereum.org/en/privacy-policy/",
+            "https://ethereum.org/en/quizzes/",
+            "https://ethereum.org/en/roadmap/",
+            "https://ethereum.org/en/roadmap/security/",
+            "https://ethereum.org/en/run-a-node/",
+            "https://ethereum.org/en/security/",
+            "https://ethereum.org/en/smart-contracts/",
+            "https://ethereum.org/en/stablecoins/",
+            "https://ethereum.org/en/staking/",
+            "https://ethereum.org/en/terms-of-use/",
+            "https://ethereum.org/en/wallets/",
+            "https://ethereum.org/en/wallets/find-wallet/",
+            "https://ethereum.org/en/web3/",
+            "https://ethereum.org/en/what-is-ethereum/",
+            "https://ethereum.org/en/whitepaper/"
+        ],
+        "github.com": [
+            "https://github.com/ethereum/ethereum-org-website",
+            "https://github.com/scaffold-eth/se-2-challenges/tree/challenge-6-multisig"
+        ],
+        "hardhat.org": [
+            "https://hardhat.org/tutorial/"
+        ],
+        "patrickalphac.medium.com": [
+            "https://patrickalphac.medium.com/formal-verification-symbolic-execution-the-security-silver-bullet-38e0ac9072eb",
+            "https://patrickalphac.medium.com/fuzz-invariant-tests-the-new-bare-minimum-for-smart-contract-security-87ebe150e88c"
+        ],
+        "speedrunethereum.com": [
+            "https://speedrunethereum.com/challenge/decentralized-staking",
+            "https://speedrunethereum.com/challenge/dice-game",
+            "https://speedrunethereum.com/challenge/minimum-viable-exchange",
+            "https://speedrunethereum.com/challenge/simple-nft-example",
+            "https://speedrunethereum.com/challenge/state-channels",
+            "https://speedrunethereum.com/challenge/token-vendor"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ethdotorg"
+        ],
+        "updraft.cyfrin.io": [
+            "https://updraft.cyfrin.io/courses/security"
+        ],
+        "veridelisi.medium.com": [
+            "https://veridelisi.medium.com/learn-opcodes-7bd28d5f0d1b"
+        ],
+        "www.cyfrin.io": [
+            "https://www.cyfrin.io/blog/what-is-a-smart-contract-audit"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/watch?v=8rpir_ZSK1g",
+            "https://www.youtube.com/watch?v=9oERTH9Bkw0",
+            "https://www.youtube.com/watch?v=AhJtmUqhAqg",
+            "https://www.youtube.com/watch?v=Aw7yvGFtOvI",
+            "https://www.youtube.com/watch?v=EXas4uBqQr8",
+            "https://www.youtube.com/watch?v=M576WGiDBdQ",
+            "https://www.youtube.com/watch?v=TmNGAvI-RUA",
+            "https://www.youtube.com/watch?v=bdXJmWajZRY",
+            "https://www.youtube.com/watch?v=e1N4aWIJMN0",
+            "https://www.youtube.com/watch?v=fNMfMxGxeag",
+            "https://www.youtube.com/watch?v=gyMwXuJrbJQ",
+            "https://www.youtube.com/watch?v=p36tXHX1JD8",
+            "https://www.youtube.com/watch?v=pdsYCkUWrgQ",
+            "https://www.youtube.com/watch?v=veBu03A6ptw"
+        ],
+        "youtu.be": [
+            "https://youtu.be/umepbfKp5rI"
+        ]
+    }
+}
