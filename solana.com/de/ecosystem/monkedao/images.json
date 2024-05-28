@@ -1,0 +1,26 @@
+{
+    "target_url": "https://solana.com/de/ecosystem/monkedao",
+    "domains": {
+        "": [
+            "data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2728%27%20height=%2728%27/%3e"
+        ],
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=0ffaea61-a462-4af6-adb9-c0af90bd9a06&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=16c0e6d5-e0c3-4dc7-ad6c-e3cf6642f3f3&tw_document_href=https%3A%2F%2Fsolana.com%2Fde%2Fecosystem%2Fmonkedao&tw_iframe_status=0&txn_id=o6jgu&type=javascript&version=2.3.30"
+        ],
+        "solana.com": [
+            "https://solana.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero.631479cd.png&w=3840&q=75",
+            "https://solana.com/_next/image?url=%2Fapi%2Fprojectimg%2Fckxayh006150309l5lnom5xr3%3Ftype%3DIMG%26number%3D0&w=3840&q=75",
+            "https://solana.com/_next/image?url=%2Fapi%2Fprojectimg%2Fckxayh006150309l5lnom5xr3%3Ftype%3DIMG%26number%3D1&w=3840&q=75",
+            "https://solana.com/_next/image?url=%2Fapi%2Fprojectimg%2Fckxayh006150309l5lnom5xr3%3Ftype%3DIMG%26number%3D2&w=3840&q=75",
+            "https://solana.com/_next/image?url=%2Fapi%2Fprojectimg%2Fckxayh006150309l5lnom5xr3%3Ftype%3DLOGO&w=3840&q=75",
+            "https://solana.com/_next/static/media/ecosystem_user.7ebb52fa.svg",
+            "https://solana.com/_next/static/media/logotype.e4df684f.svg",
+            "https://solana.com/api/projectimg/ckxayh006150309l5lnom5xr3?type=IMG&number=0",
+            "https://solana.com/api/projectimg/ckxayh006150309l5lnom5xr3?type=IMG&number=1",
+            "https://solana.com/api/projectimg/ckxayh006150309l5lnom5xr3?type=IMG&number=2"
+        ],
+        "t.co": [
+            "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=0ffaea61-a462-4af6-adb9-c0af90bd9a06&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=16c0e6d5-e0c3-4dc7-ad6c-e3cf6642f3f3&tw_document_href=https%3A%2F%2Fsolana.com%2Fde%2Fecosystem%2Fmonkedao&tw_iframe_status=0&txn_id=o6jgu&type=javascript&version=2.3.30"
+        ]
+    }
+}
