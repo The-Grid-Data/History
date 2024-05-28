@@ -1,0 +1,17 @@
+{
+    "target_url": "https://magiceden.io/marketplace/samo_nft",
+    "domains": {
+        "bafkreifaph56hyconj2ps3zsmsamnxg7b66bzpwlcqmxfj3uttcevwsw6a.ipfs.nftstorage.link": [
+            "https://bafkreifaph56hyconj2ps3zsmsamnxg7b66bzpwlcqmxfj3uttcevwsw6a.ipfs.nftstorage.link/"
+        ],
+        "img-cdn.magiceden.dev": [
+            "https://img-cdn.magiceden.dev/rs:fill:400:0:0/plain/https://bafkreifaph56hyconj2ps3zsmsamnxg7b66bzpwlcqmxfj3uttcevwsw6a.ipfs.nftstorage.link/"
+        ],
+        "magiceden.io": [
+            "https://magiceden.io/_next/image?url=https%3A%2F%2Fnext.cdn.magiceden.dev%2F_next%2Fstatic%2Fmedia%2Flogo_2.8aa56045.png&w=128&q=75"
+        ],
+        "next.cdn.magiceden.dev": [
+            "https://next.cdn.magiceden.dev/_next/static/media/logo_full_2.0e53796e.svg"
+        ]
+    }
+}
