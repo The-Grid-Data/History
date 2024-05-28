@@ -31,5 +31,3 @@ Read the announcement
   * [Discord](https://discord.com/invite/elusivprivacy-official)
   * [Medium](https://medium.com/elusiv-privacy)
 
-![](https://cdn.usefathom.com/?h=https%3A%2F%2Fwww.elusiv.io&p=%2F&r=&sid=OJOADXXP&qs=%7B%7D&cid=18096971)
-
