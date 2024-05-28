@@ -1,0 +1,57 @@
+{
+    "target_url": "https://www.ledger.com/supported-crypto-assets/page/2",
+    "domains": {
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=28db454b-84f6-4f4f-853a-da72ed088c24&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=92daf6fe-1491-4bee-be66-c1687cd72dd5&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Fsupported-crypto-assets%2Fpage%2F2&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "cdn.cookielaw.org": [
+            "https://cdn.cookielaw.org/logos/df21fb3f-71b8-491b-89ee-eb777bcaf866/637ca236-af9d-4a40-815f-1b6a15af499d/ea9d9f41-35f0-4c24-9a83-1ef746863067/White_64.png",
+            "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg"
+        ],
+        "ledger-wp-website-s3-prd.ledger.com": [
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/07/Staxmain-1.webp",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/09/nano-s-plus.webp",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/09/nano-x.webp"
+        ],
+        "proxycgassets.api.live.ledger.com": [
+            "https://proxycgassets.api.live.ledger.com/coins/images/100/large/Stellar_symbol_black_RGB.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/10365/large/near.jpg",
+            "https://proxycgassets.api.live.ledger.com/coins/images/12504/large/uni.jpg",
+            "https://proxycgassets.api.live.ledger.com/coins/images/12817/large/filecoin.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/12882/large/Secondary_Symbol.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/13573/large/Lido_DAO.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/1481/large/cosmos_hub.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/16547/large/photo_2023-03-29_21.47.00.jpeg",
+            "https://proxycgassets.api.live.ledger.com/coins/images/17233/large/immutableX-symbol-BLK-RGB.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/2/large/litecoin.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/25244/large/Optimism.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/26455/large/aptos_round.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/30980/large/token-logo.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/31079/large/firstfigital.jpeg",
+            "https://proxycgassets.api.live.ledger.com/coins/images/3688/large/hbar.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/4463/large/WeChat_Image_20220118095654.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/453/large/ethereum-classic-logo.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/69/large/monero_logo.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/780/large/bitcoin-cash-circle.png",
+            "https://proxycgassets.api.live.ledger.com/coins/images/8418/large/leo-token.png"
+        ],
+        "t.co": [
+            "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=28db454b-84f6-4f4f-853a-da72ed088c24&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=92daf6fe-1491-4bee-be66-c1687cd72dd5&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Fsupported-crypto-assets%2Fpage%2F2&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/tr?id=237213137153741&ev=PageView&noscript=1"
+        ],
+        "www.ledger.com": [
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-short.svg",
+            "https://www.ledger.com/wp-content/uploads/2021/11/layer1.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-bitpay-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-cb-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-crypto-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-maestro-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-mastercard-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-paypal-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-visa-s.png?v=2"
+        ]
+    }
+}
