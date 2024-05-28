@@ -1,0 +1,67 @@
+{
+    "target_url": "https://solana.com/developers/guides/token-extensions/required-memo",
+    "domains": {
+        "beta.solpg.io": [
+            "https://beta.solpg.io/656e19acfb53fa325bfd0c46",
+            "https://beta.solpg.io/65724a91fb53fa325bfd0c54"
+        ],
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "faucet.solana.com": [
+            "https://faucet.solana.com/"
+        ],
+        "github.com": [
+            "https://github.com/solana-foundation/developer-content/tree/main/content/guides/token-extensions/required-memo.md"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "solana.com": [
+            "https://solana.com/",
+            "https://solana.com/branding",
+            "https://solana.com/developers",
+            "https://solana.com/developers/cookbook",
+            "https://solana.com/developers/guides",
+            "https://solana.com/developers/guides/token-extensions/reallocate",
+            "https://solana.com/developers/guides/token-extensions/required-memo",
+            "https://solana.com/developers/guides/token-extensions/required-memo#add-dependencies",
+            "https://solana.com/developers/guides/token-extensions/required-memo#attempt-transfer-without-memo",
+            "https://solana.com/developers/guides/token-extensions/required-memo#build-instructions",
+            "https://solana.com/developers/guides/token-extensions/required-memo#conclusion",
+            "https://solana.com/developers/guides/token-extensions/required-memo#create-and-fund-token-account",
+            "https://solana.com/developers/guides/token-extensions/required-memo#enable-and-disable-memo-transfer",
+            "https://solana.com/developers/guides/token-extensions/required-memo#getting-started",
+            "https://solana.com/developers/guides/token-extensions/required-memo#memo-transfer-token-account",
+            "https://solana.com/developers/guides/token-extensions/required-memo#mint-setup",
+            "https://solana.com/developers/guides/token-extensions/required-memo#send-transaction",
+            "https://solana.com/developers/guides/token-extensions/required-memo#transfer-and-memo-instruction",
+            "https://solana.com/developers/guides/token-extensions/required-memo#transfer-with-memo",
+            "https://solana.com/developers/guides/token-extensions/transfer-fee",
+            "https://solana.com/developers/guides?difficulty=beginner",
+            "https://solana.com/developers/guides?tags=token%202022",
+            "https://solana.com/developers/guides?tags=token%20extensions",
+            "https://solana.com/discord",
+            "https://solana.com/docs",
+            "https://solana.com/docs/rpc",
+            "https://solana.com/docs/terminology",
+            "https://solana.com/ecosystem",
+            "https://solana.com/github",
+            "https://solana.com/news",
+            "https://solana.com/newsletter",
+            "https://solana.com/privacy-policy",
+            "https://solana.com/privacy-policy#collection-of-information",
+            "https://solana.com/reddit",
+            "https://solana.com/telegram",
+            "https://solana.com/tos",
+            "https://solana.com/twitter",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ],
+        "spl.solana.com": [
+            "https://spl.solana.com/memo"
+        ]
+    }
+}
