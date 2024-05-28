@@ -1,0 +1,59 @@
+{
+    "target_url": "https://www.ledger.com/coin/wallet/gatechain-token",
+    "domains": {
+        "": [
+            "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTI4LjM2IDIwLjQ4bDcuMjQtNy4yNEwyOC4zNiA2bC0uOTIuOTIgMi44IDIuNzZjLjkyLjk2IDEuOTIgMS45MiAyLjg4IDIuODhINnYxLjM2aDI3LjE2Yy0xIC45Ni0xLjk2IDEuOTItMi45MiAyLjg4bC0yLjggMi43Ni45Mi45MnpNNC40IDI2Ljc2TDExLjY0IDM0bC45Mi0uOTItMi44LTIuOGMtLjkyLS45Mi0xLjkyLTEuOTItMi44OC0yLjg0SDM0di0xLjM2SDYuODhjLjk2LS45NiAxLjk2LTEuOTIgMi44OC0yLjg4bDIuOC0yLjgtLjkyLS44OC03LjI0IDcuMjR6IiBmaWxsPSIjQjM4MEREIi8+PC9zdmc+"
+        ],
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=777a0627-52ee-4252-9f2c-f41b40705dfb&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=a8d3874e-5c54-4153-84db-bd471e94fb28&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Fcoin%2Fwallet%2Fgatechain-token&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "bat.bing.com": [
+            "https://bat.bing.com/action/0?ti=134633242&tm=gtm002&Ver=2&mid=f3f14a5b-ad63-401a-af15-41ebd9a2f88b&sid=0155d4101cfe11ef9076ef09b24fc5b5&vid=0155c7701cfe11ef87db89e603e14c64&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&tl=Gate%20Wallet%20%7C%20Ledger&p=https%3A%2F%2Fwww.ledger.com%2Fcoin%2Fwallet%2Fgatechain-token&r=&lt=2044&evt=pageLoad&sv=1&rn=716151"
+        ],
+        "cdn.cookielaw.org": [
+            "https://cdn.cookielaw.org/logos/df21fb3f-71b8-491b-89ee-eb777bcaf866/637ca236-af9d-4a40-815f-1b6a15af499d/ea9d9f41-35f0-4c24-9a83-1ef746863067/White_64.png",
+            "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg"
+        ],
+        "ledger-wp-website-s3-prd.ledger.com": [
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/11/Cardano-logo.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/11/Compound_USDC.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/11/Fantom.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/11/Internet_Computer_logo.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/11/Tether_Gold.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/11/Tokenize.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/11/WeChat_Image_20220118095654.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/11/huobi-token-logo.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/11/leo-token.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/11/wbt_token.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/03/digibyte.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/03/waves.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/05/Arbitrum-logo.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/05/photo_2022-01-24_14-08-03.jpg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/09/nano-s-plus.webp",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/09/nano-x.webp",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/09/stax.webp",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/11/Get-a-Ledger.webp",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/12/Ledger-and-third-party-wallet.webp",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/12/Metamask-Ledger.webp",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/12/start-your-crypto-journey.webp"
+        ],
+        "t.co": [
+            "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=777a0627-52ee-4252-9f2c-f41b40705dfb&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=a8d3874e-5c54-4153-84db-bd471e94fb28&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Fcoin%2Fwallet%2Fgatechain-token&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/tr?id=237213137153741&ev=PageView&noscript=1"
+        ],
+        "www.ledger.com": [
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/crypto-page/faq.png",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg",
+            "https://www.ledger.com/wp-content/uploads/2021/11/layer1.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-bitpay-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-cb-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-crypto-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-maestro-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-mastercard-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-paypal-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-visa-s.png?v=2"
+        ]
+    }
+}
