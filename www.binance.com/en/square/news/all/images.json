@@ -1,0 +1,16 @@
+{
+    "target_url": "https://www.binance.com/en/square/news/all",
+    "domains": {
+        "bin.bnbstatic.com": [
+            "https://bin.bnbstatic.com/internal_upload/live-admin-api/images/a8HrxzZEB81R4f3CJBA57R.png",
+            "https://bin.bnbstatic.com/internal_upload/live-admin-api/images/okTkVbBvh731mRjW1WqnZw.png",
+            "https://bin.bnbstatic.com/internal_upload/live-admin-api/images/u96pr58M4Ns6wHbbnbwoVf.png",
+            "https://bin.bnbstatic.com/static/feed/feed-logo-en-dark-3.svg"
+        ],
+        "public.bnbstatic.com": [
+            "https://public.bnbstatic.com/image/pgc/202210/282ac319140b9608d424f76adf9f5551.jpg",
+            "https://public.bnbstatic.com/image/pgc/202303/cc68081d480ef4b39a9c996fcb8dcca3.jpg",
+            "https://public.bnbstatic.com/image/pgc/202405/dc3e76ffa43b2061c26c0dc09a36c902.png"
+        ]
+    }
+}
