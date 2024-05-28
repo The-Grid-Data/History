@@ -1,0 +1,46 @@
+{
+    "target_url": "https://www.ledger.com/academy/library/topic/security",
+    "domains": {
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=97eec52a-6988-4b9c-b1f4-0e22824a05f6&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=91d9f3da-710d-4fdd-97c3-a753949025e9&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Facademy%2Flibrary%2Ftopic%2Fsecurity&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "bat.bing.com": [
+            "https://bat.bing.com/action/0?ti=134633242&tm=gtm002&Ver=2&mid=71f4e0b4-2060-4ec5-b4bd-b2fb310e9ade&sid=02453f901cfd11ef919a5310792224c4&vid=02456fd01cfd11efac9a3152d49632da&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&tl=Library%20%7C%20Ledger&p=https%3A%2F%2Fwww.ledger.com%2Facademy%2Flibrary%2Ftopic%2Fsecurity&r=&lt=2366&evt=pageLoad&sv=1&rn=678461"
+        ],
+        "cdn.cookielaw.org": [
+            "https://cdn.cookielaw.org/logos/df21fb3f-71b8-491b-89ee-eb777bcaf866/637ca236-af9d-4a40-815f-1b6a15af499d/ea9d9f41-35f0-4c24-9a83-1ef746863067/White_64.png",
+            "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg"
+        ],
+        "ledger-wp-website-s3-prd.ledger.com": [
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/06/get_your_crypto_safe_thumbnail-490x275.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/06/on_the_ledger_thumbnail-490x275.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/06/school_of_block_thumbnail-490x275.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/07/banner-en-last.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/01/Copy-of-DONJON_YOUTUBE_EP1SERIES-min-scaled-e1675159617288-490x266.jpg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/01/Thumbnail_Serie-490x275.jpeg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/02/HOW_TO_Master-1-490x275.jpg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/06/04.Reading-Room_TitleArt_wHorizLogo_978x550-490x275.jpg"
+        ],
+        "t.co": [
+            "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=97eec52a-6988-4b9c-b1f4-0e22824a05f6&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=91d9f3da-710d-4fdd-97c3-a753949025e9&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Facademy%2Flibrary%2Ftopic%2Fsecurity&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "t.teads.tv": [
+            "https://t.teads.tv/track?action=pageView&env=js-gtm&tag_version=6.17.6_ee47857&provider=tag&buyer_pixel_id=6887&referer=https%3A%2F%2Fwww.ledger.com%2Facademy%2Flibrary%2Ftopic%2Fsecurity&user_session_id=2af42687-b2a1-4f88-9805-07f2d4580b7a"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/tr?id=237213137153741&ev=PageView&noscript=1"
+        ],
+        "www.ledger.com": [
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-academy-logo-long.svg",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg",
+            "https://www.ledger.com/wp-content/uploads/2021/11/layer1.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-bitpay-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-cb-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-crypto-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-maestro-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-mastercard-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-paypal-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-visa-s.png?v=2"
+        ]
+    }
+}
