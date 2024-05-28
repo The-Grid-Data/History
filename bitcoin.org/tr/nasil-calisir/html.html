@@ -1,0 +1,760 @@
+<!DOCTYPE html><html lang="tr"><head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Bitcoin nasÄ±l Ã§alÄ±ÅÄ±r? - Bitcoin</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+<link rel="stylesheet" href="/css/sans.css?1716491272">
+<script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.org is a community funded project, donations are appreciated and used to improve the website.
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        Make a donation
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.org needs your support!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">Donate to Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">Use this QR code or address below</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="Or custom amount? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="Or custom amount? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="Optional description (for your wallet)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="/tr/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">GiriÅ</a>
+    <ul>
+      <li><a href="/tr/bireyler-icin-bitcoin">Bireyler</a></li>
+      <li><a href="/tr/isletmeler-icin-bitcoin">Ä°Åletmeler</a></li>
+      <li><a href="https://developer.bitcoin.org/">GeliÅtiriciler</a></li>
+      <li><a href="/tr/baslarken">BaÅlarken</a></li>
+      <li class="active"><a href="/tr/nasil-calisir">NasÄ±l ÃalÄ±ÅÄ±r</a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">Kaynaklar</a>
+    <ul>
+      <li><a href="/tr/kaynaklar">Kaynaklar</a>
+      </li><li><a href="/tr/borsalari">Exchanges</a></li>
+      <li><a href="/tr/topluluk">Topluluk</a></li>
+      
+      
+      <li><a href="/tr/kelime-haznesi">SÃ¶zlÃ¼k</a></li>
+      <li><a href="/tr/etkinlikler">Etkinlikler</a></li>
+      
+        <li><a href="/tr/indir">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li><a href="/tr/yenilik">Yenilik</a></li>
+  <li><a class="is-expand">KatÄ±lÄ±n</a>
+    <ul>
+      <li><a href="/tr/bitcoini-destekleyin">Bitcoin'i Destekleyin</a>
+      </li><li><a href="/tr/satin">Buy Bitcoin</a></li>
+      
+      <li><a href="/tr/gelistirme">GeliÅim</a></li>
+    </ul>
+  </li>
+  <li><a href="/tr/sss">SSS</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>TÃ¼rkÃ§e</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/cara-kerja">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/com-funciona">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/hvordan-det-fungerer">Dansk</a></li>
+        
+        
+          <li><a href="/de/wie-es-funktioniert">Deutsch</a></li>
+        
+        
+          <li><a href="/en/how-it-works">English</a></li>
+        
+        
+          <li><a href="/es/como-funciona">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/comment-ca-marche">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/come-funziona">Italiano</a></li>
+        
+        
+          <li><a href="/hu/hogyan-mukodik">Magyar</a></li>
+        
+        
+          <li><a href="/nl/hoe-het-werkt">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/jak-to-dziala">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/como-funciona">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/cum-functioneaza">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/kako-deluje">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/kako-to-radi">Srpski</a></li>
+        
+        
+          <li><a href="/sv/hur-det-fungerar">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/nasil-calisir" class="active">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/how-it-works">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/how-it-works">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/how-it-works">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/how-it-works">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/how-it-works">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/how-it-works">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/how-it-works">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/how-it-works">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/how-it-works">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/how-it-works">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/how-it-works">ááááá</a></li>
+        
+        
+          <li><a href="/ja/how-it-works">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/how-it-works">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/how-it-works">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/cara-kerja">Bahasa Indonesia</option>
+            
+            <option value="/ca/com-funciona">CatalÃ </option>
+            
+            <option value="/da/hvordan-det-fungerer">Dansk</option>
+            
+            <option value="/de/wie-es-funktioniert">Deutsch</option>
+            
+            <option value="/en/how-it-works">English</option>
+            
+            <option value="/es/como-funciona">EspaÃ±ol</option>
+            
+            <option value="/fr/comment-ca-marche">FranÃ§ais</option>
+            
+            <option value="/it/come-funziona">Italiano</option>
+            
+            <option value="/hu/hogyan-mukodik">Magyar</option>
+            
+            <option value="/nl/hoe-het-werkt">Nederlands</option>
+            
+            <option value="/pl/jak-to-dziala">Polski</option>
+            
+            <option value="/pt_BR/como-funciona">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/cum-functioneaza">RomÃ¢nÄ</option>
+            
+            <option value="/sl/kako-deluje">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/kako-to-radi">Srpski</option>
+            
+            <option value="/sv/hur-det-fungerar">Svenska</option>
+            
+            <option value="/tr/nasil-calisir" selected="selected">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/how-it-works">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/how-it-works">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/how-it-works">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/how-it-works">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/how-it-works">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/how-it-works">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/how-it-works">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/how-it-works">×¢××¨××ª</option>
+            
+            <option value="/hi/how-it-works">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/how-it-works">íêµ­ì´</option>
+            
+            <option value="/km/how-it-works">ááááá</option>
+            
+            <option value="/ja/how-it-works">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/how-it-works">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/how-it-works">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">tr</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  <div class="hero">
+  <div class="container hero-container">
+    <h1>Bitcoin nasÄ±l Ã§alÄ±ÅÄ±r?</h1>
+    <p class="summary">Bu sÄ±k sÄ±k kafa karÄ±ÅtÄ±ran bir sorudur. Hemen aÃ§Ä±klayalÄ±m!</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="two-column-layout">
+
+    <div class="row two-column-row">
+      <div>
+        <img class="column-img" src="/img/icons/new-user.svg?1716491272" alt="icon">
+      </div>
+      <div class="column-text">
+        <h2 class="section-title anchorAf" id="basics"><a href="#basics"></a>Yeni bir kullanÄ±cÄ± iÃ§in temel bilgiler</h2>
+        <p>Yeni bir kullanÄ±cÄ± olarak teknik detaylarÄ± anlamadan da hemen <a href="/tr/baslarken">baÅlayabilirsiniz</a>. BilgisayarÄ±nÄ±za ya da akÄ±llÄ± telefonunuza Bitcoin cÃ¼zdanÄ±nÄ± yÃ¼kledikten sonra ilk Bitcoin adresiniz yaratÄ±lacak ve ihtiyacÄ±nÄ±z olursa yenilerini yaratabileceksiniz. Bu adresleri herkesin gÃ¶rmesini saÄlayarak arkadaÅlarÄ±nÄ±zÄ±n size Ã¶deme yapmasÄ±nÄ± ve tersini saÄlayabilirsiniz. Yani elektronik posta sisteminin oldukÃ§a benzeridir fakat Bitcoin adresleri sadece bir iÅlem iÃ§in kullanÄ±lmalÄ±dÄ±r. </p>
+      </div>
+    </div>
+
+    <div class="row two-column-row">
+      <div>
+        <img class="column-img" src="/img/icons/blockchain.svg?1716491272" alt="icon">
+      </div>
+      <div class="column-text">
+        <h2 class="section-title anchorAf" id="balances"><a href="#balances"></a>Bakiyeler<span class="titlelight"> - blok zinciri</span></h2>
+        <p>Blok zinciri tÃ¼m Bitcoin aÄÄ±nÄ±n dayandÄ±ÄÄ±, paylaÅÄ±lan bir genel toplumsal iÅlem. BÃ¼tÃ¼n onaylanmÄ±Å iÅlemler blok zincirine dahil olurlar. Bu Åekilde Bitcoin cÃ¼zdanlarÄ± harcanabilir bakiyeyi hesaplayabilir ve yeni iÅlemler harcayÄ±cÄ±ya ait olan bitcoin harcamalarÄ± onaylanabilir. Blok zincirinin bÃ¼tÃ¼nlÃ¼ÄÃ¼ ve kronolojik sÄ±rasÄ± <a href="/tr/kelime-haznesi#kriptografi">kriptografi</a> ile desteklenir.</p>
+      </div>
+    </div>
+
+    <div class="row two-column-row">
+      <div>
+        <img class="column-img" src="/img/icons/private-keys.svg?1716491272" alt="icon">
+      </div>
+      <div class="column-text">
+        <h2 class="section-title anchorAf" id="transactions"><a href="#transactions"></a>Ä°Ålemler<span class="titlelight"> - kiÅisel anahtarlar</span></h2>
+        <p>Bir iÅlem blok zincirine dahil olan <b>Bitcoin cÃ¼zdanlarÄ± arasÄ± bir transferdir.</b> Bitcoin cÃ¼zdanlarÄ±, iÅlemleri gerÃ§ekleÅtirmek iÃ§in kullanÄ±lan <a href="/tr/kelime-haznesi#gizli-anahtar"><i>Ã¶zel anahtar</i></a> yada kaynak denilen bir parÃ§a bilgiyi saklar ve bu bilgi iÅlemlerin cÃ¼zdan sahibi tarafÄ±ndan yapÄ±ldÄ±ÄÄ±na dair matematiksel bir kanÄ±ttÄ±r. <a href="/tr/kelime-haznesi#imza"><i>Ä°mza</i></a>, iÅlem bir kez tanÄ±mlandÄ±ktan sonra herhangi baÅka bir kullanÄ±cÄ± tarafÄ±ndan deÄiÅtirilebilmesini Ã¶nler. BÃ¼tÃ¼n iÅlemler kullanÄ±cÄ±lar arasÄ±nda yayÄ±nlanÄ±r ve Ã§oÄunlukla 10 dakika iÃ§inde <a href="/tr/kelime-haznesi#madencilik"><i>madencilik</i></a> diye adlandÄ±rÄ±lan iÅlem dahilinde aÄ tarafÄ±ndan onaylanmaya baÅlar.</p>
+      </div>
+    </div>
+
+    <div class="row two-column-row">
+      <div>
+        <img class="column-img" src="/img/icons/mining.svg?1716491272" alt="icon">
+      </div>
+      <div class="column-text">
+        <h2 class="section-title anchorAf" id="processing"><a href="#processing"></a>Ä°Åleme<span class="titlelight"> - madencilik</span></h2>
+        <p>Madencilik bekleyen iÅlemleri blok zincirine katarak <a href="/tr/kelime-haznesi#onay"><i>onaylayan</i></a>  <b>daÄÄ±tÄ±mlÄ± fikirbirliÄi sistemi</b>dir. Blok zincirinde kronolojik sÄ±ra saÄlar, aÄÄ±n tarafsÄ±zlÄ±ÄÄ±nÄ± korur, ve farklÄ± bilgisayarlarÄ±n sistemin durumunda uzlaÅmasÄ±nÄ± saÄlar. OnaylanmalarÄ± iÃ§in iÅlemler aÄ tarafÄ±ndan belirlenen Ã§ok sÄ±kÄ± kurallara uyan bir <a href="/tr/kelime-haznesi#blok"><i>bloÄa</i></a> konurlar. Bu kurallar Ã¶nceki bloklarÄ±n deÄiÅtirilmesini Ã¶nler Ã§Ã¼nkÃ¼ deÄiÅtirilirlerse bÃ¼tÃ¼n sonraki bloklar geÃ§ersiz kÄ±lÄ±nÄ±r. Madencilik ayrÄ±ca kimsenin kolayca ard arda yeni bloklarÄ± blok zincirine eklemesini Ã¶nleyerek rekabetli bir piyangonun eÅdeÄerini de yaratÄ±r. Bu Åekilde kimse blok zincirine neyin dahil olup olmadÄ±ÄÄ±nÄ±  kontrol edemez ve blok zincirinin kÄ±sÄ±mlarÄ±nÄ± deÄiÅtirip harcadÄ±klarÄ± paralarÄ±nÄ± geri alamaz.</p>
+      </div>
+    </div>
+
+    <div class="row two-column-row">
+      <div>
+        <img class="column-img" src="/img/icons/paper.svg?1716491272" alt="icon">
+      </div>
+      <div class="column-text">
+        <h2 class="section-title anchorAf" id="readmore"><a href="#readmore"></a>Daha derine dalmak</h2>
+        <p>Bu yalnÄ±zca sistemin kÄ±sa bir Ã¶zetidir. EÄer detaylarÄ±na inmek isterseniz sistemin tasarÄ±mÄ±nÄ± tarif eden <a href="/bitcoin.pdf">Ã¶zgÃ¼n makaleyi okuyabilirsiniz</a>, <a href="https://developer.bitcoin.org/">geliÅtirici belgelemesini</a> okuyabilirsiniz, veya <a href="https://en.bitcoin.it/wiki/Main_Page">Bitcoin wiki</a> sayfasÄ±nÄ± inceleyebilirsiniz.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- <div class="link-bar">
+    <h3 class="link-bar-title" id="readmore_2">Daha derine dalmak</h3>
+    <p class="link-bar-description"></p>
+    <div class="row link-bar-row">
+      <div class="link-bar-item">
+        <a href="" class="link-bar-link"></a>
+        <p class="link-bar-text"></p>
+      </div>
+      <div class="link-bar-item">
+        <a href="" class="link-bar-link"></a>
+      </div>
+      <div class="link-bar-item">
+        <a href="" class="link-bar-link"></a>
+      </div>
+    </div>
+  </div> -->
+</div>
+
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="/tr/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Support Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Donate</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">GiriÅ:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/tr/bireyler-icin-bitcoin">Bireyler</a>
+        </li>
+        <li>
+          <a href="/tr/isletmeler-icin-bitcoin">Ä°Åletmeler</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">GeliÅtiriciler</a>
+        </li>
+        <li>
+          <a href="/tr/baslarken">BaÅlarken</a>
+        </li>
+        <li class="active">
+          <a href="/tr/nasil-calisir">NasÄ±l ÃalÄ±ÅÄ±r</a>
+        </li>
+        <li>
+          <a href="/tr/bilmeniz-gerekenler">Bilmeniz gerekenler</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">Kaynaklar:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/tr/kaynaklar">Kaynaklar</a>
+        </li><li>
+          <a href="/tr/borsalari">Exchanges</a>
+        </li>
+        <li>
+          <a href="/tr/topluluk">Topluluk</a>
+        </li>
+        <li>
+          <a href="/tr/kelime-haznesi">SÃ¶zlÃ¼k
+          </a>
+        </li>
+        <li>
+          <a href="/tr/etkinlikler">Etkinlikler</a>
+        </li>
+        
+          <li>
+            <a href="/tr/indir">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">KatÄ±lÄ±n:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/tr/bitcoini-destekleyin">Bitcoin'i Destekleyin</a>
+        
+        
+        </li><li>
+          <a href="/tr/gelistirme">GeliÅim</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Other:</p>
+      
+      <a href="/tr/yasal">Yasal</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/tr/basin">BasÄ±n</a>
+      <a href="/tr/hakkimizda">Bitcoin.org hakkÄ±nda</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>Sponsor bir topluluÄun web sitesi</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1716491272" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT lisansÄ±</a> altÄ±nda yayÄ±nlanmaktadÄ±r</div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">Network Status</a>
+        
+<ul class="lang is-expand">
+  <li><a>TÃ¼rkÃ§e</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/cara-kerja">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/com-funciona">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/hvordan-det-fungerer">Dansk</a></li>
+        
+        
+          <li><a href="/de/wie-es-funktioniert">Deutsch</a></li>
+        
+        
+          <li><a href="/en/how-it-works">English</a></li>
+        
+        
+          <li><a href="/es/como-funciona">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/comment-ca-marche">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/come-funziona">Italiano</a></li>
+        
+        
+          <li><a href="/hu/hogyan-mukodik">Magyar</a></li>
+        
+        
+          <li><a href="/nl/hoe-het-werkt">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/jak-to-dziala">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/como-funciona">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/cum-functioneaza">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/kako-deluje">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/kako-to-radi">Srpski</a></li>
+        
+        
+          <li><a href="/sv/hur-det-fungerar">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/nasil-calisir" class="active">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/how-it-works">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/how-it-works">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/how-it-works">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/how-it-works">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/how-it-works">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/how-it-works">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/how-it-works">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/how-it-works">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/how-it-works">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/how-it-works">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/how-it-works">ááááá</a></li>
+        
+        
+          <li><a href="/ja/how-it-works">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/how-it-works">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/how-it-works">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/cara-kerja">Bahasa Indonesia</option>
+              
+              <option value="/ca/com-funciona">CatalÃ </option>
+              
+              <option value="/da/hvordan-det-fungerer">Dansk</option>
+              
+              <option value="/de/wie-es-funktioniert">Deutsch</option>
+              
+              <option value="/en/how-it-works">English</option>
+              
+              <option value="/es/como-funciona">EspaÃ±ol</option>
+              
+              <option value="/fr/comment-ca-marche">FranÃ§ais</option>
+              
+              <option value="/it/come-funziona">Italiano</option>
+              
+              <option value="/hu/hogyan-mukodik">Magyar</option>
+              
+              <option value="/nl/hoe-het-werkt">Nederlands</option>
+              
+              <option value="/pl/jak-to-dziala">Polski</option>
+              
+              <option value="/pt_BR/como-funciona">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/cum-functioneaza">RomÃ¢nÄ</option>
+              
+              <option value="/sl/kako-deluje">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/kako-to-radi">Srpski</option>
+              
+              <option value="/sv/hur-det-fungerar">Svenska</option>
+              
+              <option value="/tr/nasil-calisir" selected="selected">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/how-it-works">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/how-it-works">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/how-it-works">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/how-it-works">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/how-it-works">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/how-it-works">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/how-it-works">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/how-it-works">×¢××¨××ª</option>
+              
+              <option value="/hi/how-it-works">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/how-it-works">íêµ­ì´</option>
+              
+              <option value="/km/how-it-works">ááááá</option>
+              
+              <option value="/ja/how-it-works">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/how-it-works">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/how-it-works">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">tr</span>
+          </label>
+        </div>
+      </div>
+<!--      <div class="row">  -->
+        
+<!--    </div> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+
+
+
+
+
+
+</body></html>

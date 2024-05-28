@@ -1,0 +1,156 @@
+{
+    "target_url": "https://bitcoin.org/tr/sss",
+    "domains": {
+        "": [
+            "bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"
+        ],
+        "bitcoin.org": [
+            "https://bitcoin.org/ar/faq",
+            "https://bitcoin.org/bg/faq",
+            "https://bitcoin.org/bitcoin.pdf",
+            "https://bitcoin.org/ca/faq",
+            "https://bitcoin.org/da/faq",
+            "https://bitcoin.org/de/faq",
+            "https://bitcoin.org/el/faq",
+            "https://bitcoin.org/en/alerts",
+            "https://bitcoin.org/en/blog",
+            "https://bitcoin.org/en/faq",
+            "https://bitcoin.org/en/privacy",
+            "https://bitcoin.org/es/faq",
+            "https://bitcoin.org/fa/faq",
+            "https://bitcoin.org/fr/faq",
+            "https://bitcoin.org/he/faq",
+            "https://bitcoin.org/hi/faq",
+            "https://bitcoin.org/hu/gyik",
+            "https://bitcoin.org/hy/faq",
+            "https://bitcoin.org/id/faq",
+            "https://bitcoin.org/it/faq",
+            "https://bitcoin.org/ja/faq",
+            "https://bitcoin.org/km/faq",
+            "https://bitcoin.org/ko/faq",
+            "https://bitcoin.org/nl/faq",
+            "https://bitcoin.org/pl/faq",
+            "https://bitcoin.org/pt_BR/faq",
+            "https://bitcoin.org/ro/intrebari-frecvente",
+            "https://bitcoin.org/ru/faq",
+            "https://bitcoin.org/sl/vprasanja-in-odgovori",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja",
+            "https://bitcoin.org/sv/faq",
+            "https://bitcoin.org/tr/",
+            "https://bitcoin.org/tr/basin",
+            "https://bitcoin.org/tr/baslarken",
+            "https://bitcoin.org/tr/bilmeniz-gerekenler",
+            "https://bitcoin.org/tr/bireyler-icin-bitcoin",
+            "https://bitcoin.org/tr/bitcoini-destekleyin",
+            "https://bitcoin.org/tr/borsalari",
+            "https://bitcoin.org/tr/cuzdaninizi-guvenceye-almak",
+            "https://bitcoin.org/tr/etkinlikler",
+            "https://bitcoin.org/tr/gelistirme",
+            "https://bitcoin.org/tr/gizliliginizi-koruyun",
+            "https://bitcoin.org/tr/hakkimizda",
+            "https://bitcoin.org/tr/indir",
+            "https://bitcoin.org/tr/isletmeler-icin-bitcoin",
+            "https://bitcoin.org/tr/kaynaklar",
+            "https://bitcoin.org/tr/kelime-haznesi",
+            "https://bitcoin.org/tr/nasil-calisir",
+            "https://bitcoin.org/tr/satin",
+            "https://bitcoin.org/tr/sss",
+            "https://bitcoin.org/tr/sss#bitcoin-agini-kim-kontrol-eder",
+            "https://bitcoin.org/tr/sss#bitcoin-anonim-midir",
+            "https://bitcoin.org/tr/sss#bitcoin-bir-balon-mudur",
+            "https://bitcoin.org/tr/sss#bitcoin-bir-deflasyon-spiraline-girmeyecek",
+            "https://bitcoin.org/tr/sss#bitcoin-bir-saadet-zinciri-mi",
+            "https://bitcoin.org/tr/sss#bitcoin-duzenlenebilir-mi",
+            "https://bitcoin.org/tr/sss#bitcoin-gecmiste-hacklenmedi-mi",
+            "https://bitcoin.org/tr/sss#bitcoin-guvenli-mi",
+            "https://bitcoin.org/tr/sss#bitcoin-ileride-buyuk-bir-odeme-agi-olabilir-mi",
+            "https://bitcoin.org/tr/sss#bitcoin-ilk-kullananlar-haksizca-kazancli-olmuyor-mu",
+            "https://bitcoin.org/tr/sss#bitcoin-kuantum-hesaplamalarina-savunmasiz-mi",
+            "https://bitcoin.org/tr/sss#bitcoin-madenciligi-enerji-kaybi-degil-midir",
+            "https://bitcoin.org/tr/sss#bitcoin-madenciligi-nasil-calisir",
+            "https://bitcoin.org/tr/sss#bitcoin-madenciligi-nedir",
+            "https://bitcoin.org/tr/sss#bitcoin-nasil-calisir",
+            "https://bitcoin.org/tr/sss#bitcoin-nasil-elde-edilir",
+            "https://bitcoin.org/tr/sss#bitcoin-nedir",
+            "https://bitcoin.org/tr/sss#bitcoin-odemesi-yapmak-ne-kadar-zordur",
+            "https://bitcoin.org/tr/sss#bitcoin-tamamen-sanal-ve-soyut-mudur",
+            "https://bitcoin.org/tr/sss#bitcoin-ve-tuketici-korumalari-hakkinda",
+            "https://bitcoin.org/tr/sss#bitcoin-yasadisi-faaliyetlerde-ise-yarar-mi",
+            "https://bitcoin.org/tr/sss#bitcoin-yasal-mi",
+            "https://bitcoin.org/tr/sss#bitcoini-kim-yaratti",
+            "https://bitcoin.org/tr/sss#bitcoinin-avantajlari-nelerdir",
+            "https://bitcoin.org/tr/sss#bitcoinin-dezavantajlari-nelerdir",
+            "https://bitcoin.org/tr/sss#bitcoinin-fiyatini-ne-belirler",
+            "https://bitcoin.org/tr/sss#bitcoinle-para-kazanabilir-miyim",
+            "https://bitcoin.org/tr/sss#bitcoinler-degersiz-hale-gelebilir-mi",
+            "https://bitcoin.org/tr/sss#bitcoinler-kaybedilince-ne-olur",
+            "https://bitcoin.org/tr/sss#bitcoinler-nasil-yaratilir",
+            "https://bitcoin.org/tr/sss#bitcoinlerin-neden-degeri-vardir",
+            "https://bitcoin.org/tr/sss#bitcoinlerin-sinirli-sayisinda-bir-kisitlama-olmayacak-mi",
+            "https://bitcoin.org/tr/sss#daha-fazla-yardim",
+            "https://bitcoin.org/tr/sss#ekonomi",
+            "https://bitcoin.org/tr/sss#genel",
+            "https://bitcoin.org/tr/sss#guvenlik",
+            "https://bitcoin.org/tr/sss#insanlar-gercekten-bitcoini-kullaniyor-mu",
+            "https://bitcoin.org/tr/sss#insanlar-neden-bitcoine-guveniyor",
+            "https://bitcoin.org/tr/sss#islem-ucreti-ne-kadar",
+            "https://bitcoin.org/tr/sss#islemler",
+            "https://bitcoin.org/tr/sss#kullanicilar-bitcoine-karsi-dolap-ceviremez-mi",
+            "https://bitcoin.org/tr/sss#madencilige-baslamak-icin-ne-yapmaliyim",
+            "https://bitcoin.org/tr/sss#madencilik",
+            "https://bitcoin.org/tr/sss#madencilik-nasil-guvenlilige-yardim-ediyor",
+            "https://bitcoin.org/tr/sss#neden-10-dakika-beklemem-lazim",
+            "https://bitcoin.org/tr/sss#senkronize-etmek-nedir-ve-neden-uzun-zaman-aliyor",
+            "https://bitcoin.org/tr/sss#spekulasyonlar-ve-dalgalanma-bitcoin-icin-bir-problem-degil-mi",
+            "https://bitcoin.org/tr/sss#ya-bilgisayarim-kapaliyken-odeme-alirsam",
+            "https://bitcoin.org/tr/sss#ya-birisi-butun-bitcoinleri-satin-alirsa",
+            "https://bitcoin.org/tr/sss#ya-birisi-daha-iyi-bir-dijital-para-cikarirsa",
+            "https://bitcoin.org/tr/sss#ya-bitcoin-ve-vergiler",
+            "https://bitcoin.org/tr/sss#yardim",
+            "https://bitcoin.org/tr/sss#yasal",
+            "https://bitcoin.org/tr/topluluk",
+            "https://bitcoin.org/tr/yasal",
+            "https://bitcoin.org/tr/yenilik",
+            "https://bitcoin.org/uk/faq",
+            "https://bitcoin.org/zh_CN/faq",
+            "https://bitcoin.org/zh_TW/faq"
+        ],
+        "bitcoincharts.com": [
+            "https://bitcoincharts.com/bitcoin/"
+        ],
+        "developer.bitcoin.org": [
+            "https://developer.bitcoin.org/"
+        ],
+        "en.bitcoin.it": [
+            "https://en.bitcoin.it/wiki/Help:FAQ",
+            "https://en.bitcoin.it/wiki/Scalability"
+        ],
+        "en.wikipedia.org": [
+            "https://en.wikipedia.org/wiki/German_gold_mark",
+            "https://en.wikipedia.org/wiki/Legality_of_bitcoin_by_country",
+            "https://en.wikipedia.org/wiki/Network_effect",
+            "https://en.wikipedia.org/wiki/Zimbabwean_dollar"
+        ],
+        "financialcryptography.com": [
+            "http://financialcryptography.com/mt/archives/001325.html"
+        ],
+        "live.blockcypher.com": [
+            "https://live.blockcypher.com/btc/"
+        ],
+        "localbitcoins.com": [
+            "https://localbitcoins.com/"
+        ],
+        "opensource.org": [
+            "http://opensource.org/licenses/mit-license.php"
+        ],
+        "www.bitcoinmining.com": [
+            "http://www.bitcoinmining.com/"
+        ],
+        "www.buybitcoinworldwide.com": [
+            "https://www.buybitcoinworldwide.com"
+        ],
+        "www.casascius.com": [
+            "https://www.casascius.com/"
+        ]
+    }
+}
