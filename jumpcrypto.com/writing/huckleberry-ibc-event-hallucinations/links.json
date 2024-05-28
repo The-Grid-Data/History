@@ -1,0 +1,51 @@
+{
+    "target_url": "https://jumpcrypto.com/writing/huckleberry-ibc-event-hallucinations/",
+    "domains": {
+        "docs.cosmos.network": [
+            "https://docs.cosmos.network/main/core/events?ref=jumpcrypto.com#subscribing-to-events"
+        ],
+        "en.wikipedia.org": [
+            "https://en.wikipedia.org/wiki/Coordinated_vulnerability_disclosure?ref=jumpcrypto.com"
+        ],
+        "forum.cosmos.network": [
+            "https://forum.cosmos.network/t/ibc-security-advisory-huckleberry/10731?ref=jumpcrypto.com"
+        ],
+        "github.com": [
+            "https://github.com/CosmWasm/cosmwasm/blob/main/IBC.md?ref=jumpcrypto.com",
+            "https://github.com/CosmWasm/cosmwasm?ref=jumpcrypto.com",
+            "https://github.com/JumpCrypto",
+            "https://github.com/cosmos/cosmos-sdk/blob/aabcfb2aa03391f457459d6494722f3a3592aefa/proto/cosmos/base/abci/v1beta1/abci.proto?ref=jumpcrypto.com#L49",
+            "https://github.com/cosmos/cosmos-sdk/blob/aabcfb2aa03391f457459d6494722f3a3592aefa/x/bank/keeper/send.go?ref=jumpcrypto.com#L180",
+            "https://github.com/cosmos/ibc-go/blob/4e0bea725d57e0eec2ea485d2e8aa3085bc7079f/proto/ibc/core/channel/v1/tx.proto?ref=jumpcrypto.com#L178",
+            "https://github.com/cosmos/ibc-go/commit/4973957900d70969d99371e6ed24c47400f5abe6?ref=jumpcrypto.com",
+            "https://github.com/cosmos/ibc-go?ref=jumpcrypto.com"
+        ],
+        "jumpcrypto.com": [
+            "https://jumpcrypto.com/",
+            "https://jumpcrypto.com/brand/",
+            "https://jumpcrypto.com/chronicle/",
+            "https://jumpcrypto.com/collaborations/",
+            "https://jumpcrypto.com/connect/",
+            "https://jumpcrypto.com/cyclone/",
+            "https://jumpcrypto.com/data-protection-and-privacy-policy/",
+            "https://jumpcrypto.com/firedancer/",
+            "https://jumpcrypto.com/media/",
+            "https://jumpcrypto.com/nfa/",
+            "https://jumpcrypto.com/research/",
+            "https://jumpcrypto.com/terms-of-use/",
+            "https://jumpcrypto.com/thepit/",
+            "https://jumpcrypto.com/validator-security/",
+            "https://jumpcrypto.com/writing/",
+            "https://jumpcrypto.com/writing/mapping-markets-blockchain-mass-adoption-potential/",
+            "https://jumpcrypto.com/writing/safu-creating-a-standard-for-whitehats/",
+            "https://jumpcrypto.com/writing/security/",
+            "https://jumpcrypto.com/writing/stop-the-chain-cosmwasm-stack-overflow/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/jump_"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/@jump_"
+        ]
+    }
+}
