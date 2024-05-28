@@ -81,11 +81,11 @@ package](/_next/static/media/marker1.862bb2cf.svg)
 
 #### TOTAL HOTSPOTS
 
-### 995,050
+### 995,090
 
 #### CIRCULATING HNT SUPPLY
 
-### 165,389,045
+### 165,430,028
 
 [View Network Coverage](https://explorer.helium.com)
 
