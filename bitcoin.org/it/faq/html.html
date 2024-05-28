@@ -1,0 +1,1018 @@
+<!DOCTYPE html><html lang="it"><head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>FAQ - Bitcoin</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+
+<script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.org Ã¨ un progetto finanziato dalla comunitÃ , le donazioni sono apprezzate e utilizzate per migliorare il sito web. 
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        Fai una donazione
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.org ha bisogno del tuo aiuto!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">Fai una donazione a Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">Usa questo codice QR o l'indirizzo sottostante</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="O un importo personalizzato? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="O un importo personalizzato? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="Descrizione opzionale (per il tuo portafoglio)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="/it/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">Introduzione</a>
+    <ul>
+      <li><a href="/it/bitcoin-per-privati">Privati</a></li>
+      <li><a href="/it/bitcoin-per-imprese">Imprese</a></li>
+      <li><a href="https://developer.bitcoin.org/">Sviluppatori</a></li>
+      <li><a href="/it/come-iniziare">Come iniziare</a></li>
+      <li><a href="/it/come-funziona">Come funziona</a></li>
+      
+      <li><a href="/it/documento-bitcoin">White paper</a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">Risorse</a>
+    <ul>
+      <li><a href="/it/risorse">Risorse</a>
+      </li><li><a href="/it/borsa">Borsa</a></li>
+      <li><a href="/it/comunita">ComunitÃ </a></li>
+      
+      
+      <li><a href="/it/glossario">Glossario</a></li>
+      <li><a href="/it/eventi">Eventi</a></li>
+      
+        <li><a href="/it/scarica">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li><a href="/it/innovazione">Innovazione</a></li>
+  <li><a class="is-expand">Partecipa</a>
+    <ul>
+      <li><a href="/it/sostieni-bitcoin">Sostieni Bitcoin</a>
+      </li><li><a href="/it/compra">Comprare bitcoin</a></li>
+      
+      <li><a href="/it/sviluppo">Sviluppo</a></li>
+    </ul>
+  </li>
+  <li class="active"><a href="/it/faq">FAQ</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>Italiano</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/faq">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/faq">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/faq">Dansk</a></li>
+        
+        
+          <li><a href="/de/faq">Deutsch</a></li>
+        
+        
+          <li><a href="/en/faq">English</a></li>
+        
+        
+          <li><a href="/es/faq">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/faq">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/faq" class="active">Italiano</a></li>
+        
+        
+          <li><a href="/hu/gyik">Magyar</a></li>
+        
+        
+          <li><a href="/nl/faq">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/faq">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/faq">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/intrebari-frecvente">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/vprasanja-in-odgovori">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/cesto-postavljanja-pitanja">Srpski</a></li>
+        
+        
+          <li><a href="/sv/faq">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/sss">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/faq">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/faq">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/faq">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/faq">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/faq">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/faq">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/faq">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/faq">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/faq">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/faq">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/faq">ááááá</a></li>
+        
+        
+          <li><a href="/ja/faq">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/faq">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/faq">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/faq">Bahasa Indonesia</option>
+            
+            <option value="/ca/faq">CatalÃ </option>
+            
+            <option value="/da/faq">Dansk</option>
+            
+            <option value="/de/faq">Deutsch</option>
+            
+            <option value="/en/faq">English</option>
+            
+            <option value="/es/faq">EspaÃ±ol</option>
+            
+            <option value="/fr/faq">FranÃ§ais</option>
+            
+            <option value="/it/faq" selected="selected">Italiano</option>
+            
+            <option value="/hu/gyik">Magyar</option>
+            
+            <option value="/nl/faq">Nederlands</option>
+            
+            <option value="/pl/faq">Polski</option>
+            
+            <option value="/pt_BR/faq">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/intrebari-frecvente">RomÃ¢nÄ</option>
+            
+            <option value="/sl/vprasanja-in-odgovori">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/cesto-postavljanja-pitanja">Srpski</option>
+            
+            <option value="/sv/faq">Svenska</option>
+            
+            <option value="/tr/sss">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/faq">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/faq">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/faq">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/faq">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/faq">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/faq">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/faq">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/faq">×¢××¨××ª</option>
+            
+            <option value="/hi/faq">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/faq">íêµ­ì´</option>
+            
+            <option value="/km/faq">ááááá</option>
+            
+            <option value="/ja/faq">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/faq">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/faq">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">it</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  <div class="hero">
+  <div class="container hero-container">
+    <h1>Domande Frequenti</h1>
+    
+      <p class="summarytxt">Trova risposte a domande ricorrenti e miti riguardanti Bitcoin.</p>
+    
+  </div>
+</div>
+
+<div class="toc-container">
+  <div class="row toc-row">
+
+    <div id="toc" class="toc">
+      <div>
+        <button class="mob-sidebar-open" hidden="">View All</button>
+        <div class="sidebar">
+          <div class="sidebar-inner">
+            <button class="mob-sidebar-close" hidden=""></button>
+            
+
+<ul>
+  <li><a href="#generale">Generale</a>
+    <ul>
+      <li><a href="#cos-e-bitcoin">Che cosâÃ¨ Bitcoin?</a></li>
+      <li><a href="#chi-ha-creato-bitcoin">Chi ha creato Bitcoin?</a></li>
+      <li><a href="#chi-controlla-la-rete-bitcoin">Ci controlla la rete Bitcoin?</a></li>
+      <li><a href="#come-funziona-bitcoin">Come funziona Bitcoin?</a></li>
+      <li><a href="#bitcoin-e-realmente-utilizzato-dalle-persone">Bitcoin Ã¨ realmente usato dalle persone?</a></li>
+      <li><a href="#come-si-possono-acquisire-bitcoin">Come acquisire i bitcoin?</a></li>
+      <li><a href="#quanto-e-difficile-effettuare-un-pagamento-bitcoin">Quanto Ã¨ difficile effettuare un pagamento Bitcoin?</a></li>
+      <li><a href="#quali-sono-i-vantaggi-di-bitcoin">Quali sono i vantaggi di Bitcoin?</a></li>
+      <li><a href="#quali-sono-gli-svantaggi-di-bitcoin">Quali sono gli svantaggi di Bitcoin?</a></li>
+      <li><a href="#perche-le-persone-si-fidano-di-bitcoin">PerchÃ¨ le persone si fidano di Bitcoin?</a></li>
+      <li><a href="#posso-fare-soldi-con-bitcoin">Posso guadagnare denaro con Bitcoin?</a></li>
+      <li><a href="#bitcoin-e-completamente-virtuale-e-immateriale">Bitcoin Ã¨ completamente virtuale e immateriale?</a></li>
+      <li><a href="#bitcoin-e-anonimo">Bitcoin Ã¨ anonimo?</a></li>
+      <li><a href="#cosa-succede-quando-vengono-persi-bitcoin">Che cosa succede se vengono persi dei bitcoin?</a></li>
+      <li><a href="#puo-bitcoin-scalare-per-diventare-una-rete-di-pagamento-maggiore">Bitcoin potrÃ  arrivare ad essere uno dei maggiori sistemi di pagamento?</a></li>
+    </ul>
+  </li>
+  <li><a href="#legale">Legale</a>
+    <ul>
+      <li><a href="#bitcoin-e-legale">Bitcoin Ã¨ legale?</a></li>
+      <li><a href="#bitcoin-e-utile-per-attivita-illegali">Bitcoin Ã¨ utile per attivitÃ  illegali?</a></li>
+      <li><a href="#bitcoin-puo-essere-regolato">Bitcoin puÃ² essere regolamentato?</a></li>
+      <li><a href="#riguardo-bitcoin-e-le-tasse">Per quanto riguarda Bitcoin e le tasse?</a></li>
+      <li><a href="#informazioni-su-bitcoin-e-protezione-del-consumatore">Per quanto riguarda Bitcoin e la protezione del consumatore?</a></li>
+    </ul>
+  </li>
+  <li><a href="#economia">Economia</a>
+    <ul>
+      <li><a href="#come-vengono-creati-i-bitcoin">Come sono creati i bitcoin?</a></li>
+      <li><a href="#perche-i-bitcoin-hanno-valore">PerchÃ¨ i bitcoin hanno valore?</a></li>
+      <li><a href="#cosa-determina-il-prezzo-dei-bitcoin">Cosa determina il prezzo del bitcoin?</a></li>
+      <li><a href="#i-bicoin-possono-perdere-valore">I bitcoin possono perdere il proprio valore?</a></li>
+      <li><a href="#bitcoin-e-una-bolla">Bitcoin Ã¨ una bolla?</a></li>
+      <li><a href="#bitcoin-e-uno-schema-ponzi">Bitcoin Ã¨ uno schema Ponzi?</a></li>
+      <li><a href="#bitcoin-non-beneficia-ingiustamente-dei-primi-utilizzatori">Bitcoin non avvantaggia ingiustamente i primi che lo hanno adottato?</a></li>
+      <li><a href="#non-sara-una-limitazione-la-quantita-finita-di-bitcoin">La quantitÃ  limitata dei bitcoin non costituirÃ  una limitazione?</a></li>
+      <li><a href="#bitcoin-non-cadra-in-una-spirale-deflazionistica">Bitcoin non cadrÃ  in una spirale deflazionistica?</a></li>
+      <li><a href="#la-speculazione-e-la-volatilita-non-sono-un-problema-per-bitcoin">La speculazione e la volatilitÃ  non sono un problema per Bitcoin ?</a></li>
+      <li><a href="#cosa-succede-se-qualcuno-compra-tutti-i-bitcoin-esistenti">Cosa succede se qualcuno compra tutti i bitcoin esistenti?</a></li>
+      <li><a href="#cosa-succede-se-qualcuno-crea-una-valuta-digitale-migliore">Che cosa succede se qualcuno crea una valuta digitale migliore?</a></li>
+    </ul>
+  </li>
+  <li><a href="#transazioni">Transazioni</a>
+    <ul>
+      <li><a href="#perche-devo-aspettare-10-minuti">PerchÃ¨ devo aspettare la conferma?</a></li>
+      <li><a href="#quanto-sara-la-tassa-di-transazione">Quale sarÃ¡ il costo della transazione?</a></li>
+      <li><a href="#che-cosa-succede-se-ricevo-un-bitcoin-quando-il-mio-computer-e-spento">Che cosa succede se ricevo un bitcoin quando il computer Ã¨ spento ?</a></li>
+      <li><a href="#che-cosa-significa-sincronizzazione-e-perche-dura-cosi-tanto-tempo">Che cosa significa âsincronizzandoâ e perchÃ¨ impiega cosÃ¬ tanto tempo</a></li>
+    </ul>
+  </li>
+  <li><a href="#mining">Minare-mining</a>
+    <ul>
+      <li><a href="#che-cosa-e-il-mining-di-bitcoin">Che cosa Ã¨ il mining di Bitcoin?</a></li>
+      <li><a href="#come-funziona-il-mining-di-bitcoin">Come funziona il mining di Bitcoin ?</a></li>
+      <li><a href="#non-e-una-perdita-di-energia-il-mining-di-bitcoin">Il mining di Bitcoin non Ã¨ uno spreco di energia ?</a></li>
+      <li><a href="#come-il-mining-aiuta-la-sicurezza-di-bitcoin">Come aiuta il mining a tenere sicura la rete Bitcoin ?</a></li>
+      <li><a href="#che-cosa-mi-ocorre-per-iniziare-il-mining"> Che cosa mi occorre per iniziare il mining?</a></li>
+    </ul>
+  </li>
+  <li><a href="#sicurezza">Sicurezza</a>
+    <ul>
+      <li><a href="#bitcoin-e-sicuro">Bitcoin Ã¨ sicuro?</a></li>
+      <li><a href="#bitcoin-non-e-mai-stato-attaccato-da-hacker-in-passato">Bitcoin Ã¨ mai stato attaccato da hacker in passato ?</a></li>
+      <li><a href="#gli-utenti-possono-colludere-contro-bitcoin">Gli utenti possono colludere contro Bitcoin ?</a></li>
+      <li><a href="#bitcoin-e-vulnerabile-alla-elaborazione-quantistica">Bitcoin Ã¨ vulnerabile ai computer quantistici?</a></li>
+    </ul>
+  </li>
+  <li><a href="#aiuto">Aiuto</a>
+    <ul>
+      <li><a href="#ulteriore-aiuto">Vorrei saperne di piÃ¹. Dove posso ottenere aiuto?</a></li>
+    </ul>
+  </li>
+</ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="toccontent">
+      <div class="toccontent-intro">
+  <h2 id="generale" class=" anchorAf"><a href="#generale"></a>Generale</h2>
+  
+  <h3 id="cos-e-bitcoin" class=" anchorAf"><a href="#cos-e-bitcoin"></a>Che cos'Ã¨ Bitcoin?</h3>
+  <p>Bitcoin Ã¨ una rete di consenso che consente un sistema di pagamento ed Ã¨ una forma di denaro completamente digitale. Si tratta della prima rete decentralizzata di pagamento peer-to-peer, gestita dai suoi utenti senza alcuna autoritÃ  centrale o intermediari. Dalla prospettiva di un utente, Bitcoin Ã¨ per la maggior parte denaro liquido che circola in internet. Bitcoin puÃ² anche essere considerato come il piÃ¹ illustre <a href="http://financialcryptography.com/mt/archives/001325.html">triplo sistema di bloccaggio di accesso e contabilitÃ </a> esistente.</p>
+  
+  <h3 id="chi-ha-creato-bitcoin" class=" anchorAf"><a href="#chi-ha-creato-bitcoin"></a>Chi ha creato Bitcoin?</h3>
+  <p>Bitcoin Ã¨ la prima realizzazione di un concetto chiamato "cryptocurrency", che fu descritta per la prima volta nel 1998 da Wei Dai nella mailing list cypherpunk, suggerendo l'idea di una nuova forma di denaro che usa la crittografia per controllare la sua creazione e le transazioni, piuttosto che un'autoritÃ  centrale. Le prime specifiche di Bitcoin e l'esposizione dell'idea furono pubblicate nel 2009 in una mailing list di crittografia da Satoshi Nakamoto. Satoshi lasciÃ² il progetto alla fine del 2010 senza rivelare molto di se stesso. La comunitÃ  Ã¨ cresciuta in modo esponenziale con <a href="/it/sviluppo">molti sviluppatori</a> che lavorano su Bitcoin.</p>
+  <p>L'anonimato di Satoshi spesso ha sollevato preoccupazioni ingiustificate, alcune delle quali sono legate a incomprensioni sulla natura open-source di Bitcoin. Il protocollo e il software Bitcoin sono stati pubblicati apertamente e qualsiasi sviluppatore in giro per il mondo puÃ² revisionare il codice o creare la propria versione modificata del software Bitcoin. Proprio come gli sviluppatori attuali, l'influenza di Satoshi fu limitata ai cambiamenti che fece in corso di adozione da altri e quindi lui non controllava Bitcoin. In quanto tale, l'identitÃ  dell'inventore di Bitcoin oggi Ã¨ probabilmente rilevante come l'identitÃ  della persona che ha inventato la carta.</p>
+  
+  <h3 id="chi-controlla-la-rete-bitcoin" class=" anchorAf"><a href="#chi-controlla-la-rete-bitcoin"></a>Ci controlla la rete Bitcoin?</h3>
+  <p>Nessuno possiede la rete Bitcoin, cosÃ¬ come nessuno possiede la tecnologia che sta dietro le e-mail. Bitcoin Ã¨ controllata  da tutti gli utenti Bitcoin in giro per il mondo. Mentre gli sviluppatori stanno migliorando il software, loro non possono forzare un cambiamento nel protocollo Bitcoin, perchÃ© tutti gli utenti sono liberi di scegliere quale software e versione usare. Per restare compatibili con gli altri, tutti gli utenti devono usare software conformi alle stesse regole. Bitcoin puÃ² lavorare correttamente solo con un consenso completo tra tutti gli utenti. Quindi, tutti gli utenti e gli sviluppatori hanno un forte incentivo a proteggere questo consenso.</p>
+  
+  <h3 id="come-funziona-bitcoin" class=" anchorAf"><a href="#come-funziona-bitcoin"></a>Come funziona Bitcoin?</h3>
+  <p>Dal punto di vista dell'utente, Bitcoin non Ã¨ altro che un'applicazione per cellulare/tablet o un programma per computer che fornisce un portafoglio personale per accedere ai bitcoin, e consente ad un utente di inviare e ricevere bitcoin con loro. E' cosÃ¬ che Bitcoin funziona per la maggioranza degli utenti. </p>
+  <p>Dietro le quinte, la rete Bitcoin sta condividendo un archivio pubblico chiamato "block chain". Quest'archivio contiene tutte le transazioni che sono state elaborate, permettendo al computer degli utenti di verificare la validitÃ  di ogni transazione. L'autenticitÃ  di ogni transazione Ã¨ protetta da firme digitali che corrispondono all'indirizzo del mittente, permettendo a tutti gli utenti di avere pieno controllo sui bitcoin inviati dai loro indirizzi Bitcoin personali. In piÃ¹, chiunque puÃ² processare transazioni usando la potenza computazionale di hardware specifico ed ottenere un premio in bitcoin per questo servizio. Questo viene spesso chiamato "mining". Per sapere di piÃ¹ su Bitcoin, puoi consultare la <a href="/it/come-funziona">pagina dedicata</a> e il <a href="/it/documento-bitcoin">documento originale</a>.</p>
+  
+  <h3 id="bitcoin-e-realmente-utilizzato-dalle-persone" class=" anchorAf"><a href="#bitcoin-e-realmente-utilizzato-dalle-persone"></a>Bitcoin Ã¨ realmente usato dalle persone?</h3>
+  <p>SÃ¬. <a href="/en/spend-bitcoin">Sempre piÃ¹ aziende</a> e individui utilizzano Bitcoin. Questo include attivitÃ  commerciali come ristoranti, appartamenti e studi legali, nonchÃ© servizi online popolari come Namecheap, Overstock.com e Reddit. Sebbene Bitcoin rimanga un fenomeno relativamente nuovo, sta crescendo rapidamente. A partire da maggio 2018, il <a href="https://bitcoincharts.com/bitcoin/">valore totale di tutti i bitcoin esistenti</a> superava i 100 miliardi di dollari USA, con scambi di bitcoin di milioni di dollari ogni giorno.</p>
+  <p>
+    <img src="/img/faq/merchants_map.png?1716491272" alt="Screenshot">
+  </p>
+  
+  <h3 id="come-si-possono-acquisire-bitcoin" class=" anchorAf"><a href="#come-si-possono-acquisire-bitcoin"></a>Come acquisire i bitcoin?</h3>
+  <ul>
+    <li>Come pagamento per beni o servizi.</li>
+    <li>Acquista bitcoin da un <a href="https://www.buybitcoinworldwide.com">cambio Bitcoin</a>.</li>
+    <li>Scambia bitcoin con <a href="https://localbitcoins.com/">qualcuno vicino a te</a>.</li>
+    <li>Guadagna bitcoin attraverso un<a href="http://www.bitcoinmining.com/">mining</a> competitivo.</li>
+  </ul>
+  <p>PuÃ² capitare di incontrare soggetti che intendono vendere bitcoin in cambio di una carta di credito o di un pagamento via Paypal, ma la maggioranza degli scambi non consente di accogliere questi metodi di pagamento. Questo Ã¨ dovuto a casi in cui qualcuno acquista dei bitcoin con Paypal, e poi scambia metÃ  della transazione. Questa operazione si definisce comunemente con il termine di chargeback. </p>
+  
+  <h3 id="quanto-e-difficile-effettuare-un-pagamento-bitcoin" class=" anchorAf"><a href="#quanto-e-difficile-effettuare-un-pagamento-bitcoin"></a>Quanto Ã¨ difficile effettuare un pagamento Bitcoin?</h3>
+  <p>I pagamenti Bitcoin sono piÃ¹ semplici da effettuare che con una carta di credito o un Bancomat, e possono essere ricevuti senza un conto da commerciante. I pagamenti sono effettuati da un'applicazione portafoglio, che sia sul tuo computer o sullo smartphone, inserendo l'indirizzo del destinatario, l'importo del pagamento e premendo invio. Per rendere piÃ¹ facile inserire un indirizzo, alcuni portafogli possono ottenerlo scannerizzando un codice QR o sfiorando due telefoni insieme con tecnologia NFC.</p>
+  <p>
+    <img src="/img/faq/mobile_send.png?1716491272" alt="Screenshot">
+    <img src="/img/faq/mobile_receive.png?1716491272" alt="Screenshot">
+  </p>
+  
+  <h3 id="quali-sono-i-vantaggi-di-bitcoin" class=" anchorAf"><a href="#quali-sono-i-vantaggi-di-bitcoin"></a>Quali sono i vantaggi di Bitcoin?</h3>
+  <ul>
+    <li><em><b>LibertÃ  di pagamento</b></em> - Ã possibile inviare e ricevere qualsiasi quantitÃ  di denaro istantaneamente, dovunque nel mondo e in qualsiasi momento. Nessun giorno festivo. Nessun confine. Nessun limite imposto. Bitcoin permette ai suoi utenti di avere il pieno controllo del loro denaro.</li>
+    <li><em><b>Scegli tu le commissioni</b></em> - Non sono previste commissioni per ricevere bitcoin e molti portafogli lasciano all'utente il controllo sulla quantitÃ  di commissioni da utilizzare quando si effettua una transazione. Commissioni piÃ¹ elevate possono incrementare la velocitÃ  delle <a href="/it/da-sapere#instant">conferme</a>relative alle vostre transazioni. Esse non sono correlate all'importo trasferito, per questo Ã¨ possibile inviare 100.000 bitcoin allo stesso costo di 1 bitcoin. Inoltre, esistono dei gestori di pagamenti, ideati per assistere i commercianti nell'elaborazione delle transazioni, convertendo bitcoin in moneta e depositando fondi direttamente nei loro conti bancari quotidianamente. PoichÃ© questi servizi sono basati su Bitcoin, possono essere offerti a costi molto piÃ¹ bassi di quelli offerti con PayPal o dalle carte di credito.
+</li>
+    <li><em><b>Meno rischi per i commercianti</b></em> - Le transazioni Bitcoin sono sicure, irreversibili e non contengono dati sensibili o informazioni personali del cliente. CiÃ² protegge i commercianti da perdite causate da frodi o da chargeback fraudolenti e non c'Ã¨ bisogno della conformitÃ  PCI. I commercianti si possono facilmente espandere verso nuovi mercati dove carte di credito non sono disponibili o il tasso di frodi Ã¨ inaccettabilmente alto. I risultati della rete sono costi piÃ¹ bassi, mercati piÃ¹ ampi e costi amministrativi piÃ¹ bassi. </li>
+    <li><em><b>Sicurezza e controllo</b></em> - Gli utenti di Bitcoin controllano totalmente le proprie transazioni; i commercianti non possono forzare cambiamenti indesiderati o inosservati, cosÃ¬ come avviene con gli altri metodi di pagamento.  I pagamenti di Bitcoin  possono effettuarsi senza alcuna informazione personale connessa alla transazione. Questo offre una grande protezione contro il furto d'identitÃ . Gli utenti Bitcoin possono anche proteggere il proprio denaro facendo ricorso al backup o criptando i dati.</li>
+    <li><b><em>Trasparente e neutrale</em></b> - <a href="https://live.blockcypher.com/btc/">Tutte le informazioni</a> relative all'offerta di moneta Bitcoin stessa sono prontamente disponibili sulla blockchain affinchÃ© chiunque possa verificarle e utilizzarle in tempo reale. Nessun individuo o organizzazione puÃ² controllare o manipolare il protocollo Bitcoin perchÃ© Ã¨ crittograficamente sicuro. Questo garantisce l'affidabilitÃ  del core di Bitcoin per la sua completa neutralitÃ , trasparenza e prevedibilitÃ .</li>
+  </ul>
+  
+  <h3 id="quali-sono-gli-svantaggi-di-bitcoin" class=" anchorAf"><a href="#quali-sono-gli-svantaggi-di-bitcoin"></a>Quali sono gli svantaggi di Bitcoin?</h3>
+  <ul>
+    <li><em><b>Grado di accettazione</b></em> - Molte persone sono ancora inconsapevoli dell'esistenza di Bitcoin. Ogni giorno, sempre piÃ¹ aziende accettano i bitcoin, in quanto vogliono trarne dei vantaggi, ma la lista resta piccola e ha ancora bisogno di crescere, per poter beneficiare degli  <a href="https://en.wikipedia.org/wiki/Network_effect">effetti della rete</a>.</li>
+    <li><em><b>VolatilitÃ </b></em> - Il <a href="https://bitcoincharts.com/bitcoin/">valore totale</a> dei bitcoin in circolazione e il numero di aziende che usano Bitcoin sono molto piccoli rispetto a quelli che potrebbero essere. Pertanto, piccoli eventi, scambi o attivitÃ  speculative potrebbero variarne significativamente il prezzo. In teoria, questa volatilitÃ  diminuirÃ  quando il mercato di Bitcoin e le tecnologie saranno mature.  Prima d'ora, il mondo non ha mai assistito al lancio di una nuova valuta, quindi Ã¨ veramente difficile (ed interessante) immaginare  che cosa succederÃ .</li>
+    <li><em><b>Sviluppo continuo</b></em> - Il software di Bitcoin Ã¨ ancora in versione beta, con molti fattori incompleti in fase di sviluppo attivo. Nuovi strumenti, fattori e servizi sono in fase di sviluppo per rendere Bitcoin piÃ¹ sicuro e accessibile alle masse. Alcuni di essi non sono ancora pronti per tutti. La maggior parte delle aziende Bitcoin Ã¨ nuova e non offre ancora alcuna assicurazione. In generale, Bitcoin Ã¨ ancora in fase di maturazione. </li>
+  </ul>
+  
+  <h3 id="perche-le-persone-si-fidano-di-bitcoin" class=" anchorAf"><a href="#perche-le-persone-si-fidano-di-bitcoin"></a>PerchÃ¨ le persone si fidano di Bitcoin?</h3>
+  <p>Molta della fiducia in Bitcoin deriva dal fatto che non richiede fiducia affatto. Bitcoin Ã¨ completamente open-source e decentralizzato. Questo significa che chiunque ha accesso al source code in qualsiasi momento. Qualsiasi sviluppatore nel mondo puÃ³ quindi verificare esattamente come funziona Bitcoin. Ogni transazione e bitcoin creato possono essere consultati in qualsiasi momento con trasparenza assoluta. Ogni pagamento puÃ² essere effettuato senza dipendere da terzi, e l'intero sistema Ã© protetto da algoritmi criptografici condivisi su larga scala, come quelli usati dall'online banking. Nessuna organizzazione o individuo puÃ³ controllare Bitcoin, e il sistema rimane sicuro anche se non ci si puÃ³ fidare di tutti gli utenti.</p>
+  
+  <h3 id="posso-fare-soldi-con-bitcoin" class=" anchorAf"><a href="#posso-fare-soldi-con-bitcoin"></a>Posso guadagnare denaro con Bitcoin?</h3>
+  <p>Non dovresti mai aspettarti di diventare ricco con Bitcoin o altre tecnologie emergenti. Ã sempre importante essere cauti nei confronti di qualsiasi cosa che sembri troppo bella per essere vera, o che sfugga alle leggi base dell'economia.</p>
+  <p>Bitcoin Ã¨ un crescente spazio di innovazione e ci sono opportunitÃ  di business che includono rischi. Non c'Ã¨ nessuna garanzia che Bitcoin continui a crescere, anche se Ã¨ stato sviluppato ad un ritmo veloce fino ad ora. Investire tempo e risorse su qualsiasi cosa relativa a Bitcoin richiede imprenditorialitÃ .  Esistono vari modi per guadagnare  con Bitcoin, come mining, speculazione o  gestione di nuovi business. Tutti questi metodi sono competitivi e non esiste alcuna garanzia di profitto. Sta al singolo individuo effettuare una valutazione dei costi e dei rischi coinvolti in ogni progetto.</p>
+  
+  <h3 id="bitcoin-e-completamente-virtuale-e-immateriale" class=" anchorAf"><a href="#bitcoin-e-completamente-virtuale-e-immateriale"></a>Bitcoin Ã¨ completamente virtuale e immateriale?</h3>
+  <p>Bitcoin Ã¨ virtuale tanto quanto le carte di credito e le reti bancarie online utilizzate quotidianamente. Bitcoin puÃ² essere usato per pagare online e nei negozi fisici come qualsiasi altra forma di denaro. I bitcoin possono anche essere scambiati in forma fisica come <a href="https://denarium.com/">le monete Denario</a>, ma il pagamento con un telefono cellulare di solito rimane piÃ¹ conveniente. I registri dei bitcoin sono archiviati in una grande rete distribuita e non possono essere modificati fraudolentemente da nessuno. In altre parole, gli utenti di Bitcoin hanno il controllo esclusivo sui loro fondi e i bitcoin non possono svanire solo perchÃ© sono virtuali.</p>
+  
+  <h3 id="bitcoin-e-anonimo" class=" anchorAf"><a href="#bitcoin-e-anonimo"></a>Bitcoin Ã¨ anonimo?</h3>
+  <p>Bitcoin Ã¨ programmato per consentire ai propri utenti di inviare e ricevere pagamenti ad un livello accettabile di privacy, cosÃ¬ come ogni altra forma di denaro. Tuttavia, Bitcoin non Ã¨ anonimo e non puÃ² offrire lo stesso livello di privacy, del denaro liquido. L'utilizzo di Bitcoin lascia tracce pubbliche consistenti.  <a href="/it/proteggi-la-tua-privacy">Vari meccanismi </a> sono destinati a proteggere la privacy degli utenti, e molti altri sono in fase di sviluppo.  Tuttavia, c'Ã¨ ancora del lavoro da svolgere prima che tali elementi possano essere usati correttamente dalla maggioranza degli utenti Bitcoin. </p>
+  <p>Alcune preoccupazioni sono sorte in merito alle transazioni private con Bitcoin che potrebbero essere utilizzate per scopi illegali. Tuttavia, vale la pena notare che Bitcoin sarÃ  indubbiamente soggetto a simili regolamentazioni attualmente in vigore all'interno degli esistenti sistemi finanziari. Bitcoin non puÃ² essere del denaro contante, e non Ã¨ tale da impedire indagini criminali. inoltre, Bitcoin Ã¨  progettato per prevenire un ampio raggio di crimini finanziari.</p>
+  
+  <h3 id="cosa-succede-quando-vengono-persi-bitcoin" class=" anchorAf"><a href="#cosa-succede-quando-vengono-persi-bitcoin"></a>Che cosa succede se vengono persi dei bitcoin?</h3>
+  <p>Quando un utente perde il suo portafoglio, questo comporta rimuovere il denaro dalla circolazione. I bitcoin persi restano nella block chain proprio come qualsiasi altro bitcoin. Tuttavia, i bitcoin persi restano giacenti per sempre, perchÃ© non c'Ã¨ alcun modo di trovare la chiave(i) privata, che consentirebbe loro di tornare ad essere spesi. A causa della legge della domanda e offerta, quando ancor meno bitcoin risultano disponibili, quelli che restano avranno una maggiore richiesta e il loro valore aumenterÃ .</p>
+  
+  <h3 id="puo-bitcoin-scalare-per-diventare-una-rete-di-pagamento-maggiore" class=" anchorAf"><a href="#puo-bitcoin-scalare-per-diventare-una-rete-di-pagamento-maggiore"></a>Bitcoin potrÃ  arrivare ad essere uno dei maggiori sistemi di pagamento?</h3>
+  <p>La rete Bitcoin potrebbe giÃ  elaborare un maggiore numero di transazioni al secondo, rispetto a quanto riesce a fare oggi. Tuttavia, non Ã¨ del tutto pronta per salire al livello superiore offerto dalle maggiori reti delle carte di credito. Stiamo lavorando per diminuire le attuali limitazioni, ed i futuri requisiti sono ben conosciuti.  Fin dall'inizio, ogni aspetto della rete Bitcoin Ã¨ in continua fase di maturazione, ottimizzazione e specializzazione, e dovrebbe restare cosÃ¬ per alcuni anni a venire.  Con la crescita del traffico, sempre piÃ¹ utenti Bitcoin dovrebbero utilizzare dei client leggeri, e i nodi di rete dovrebbero diventare un servizio piÃ¹ specializzato. Per ulteriori informazioni, vedi la<a href="https://en.bitcoin.it/wiki/Scalability">pagina dedicata alla Scalability</a> su Wiki.</p>
+
+</div>
+
+<div class="toccontent-block boxexpand expanded">
+  <h2 id="legale" class=" anchorAf"><a href="#legale"></a>Legale</h2>
+  
+  <h3 id="bitcoin-e-legale" class=" anchorAf"><a href="#bitcoin-e-legale"></a>Bitcoin Ã¨ legale?</h3>
+  <p>Per quanto ne sappiamo, <a href="https://en.wikipedia.org/wiki/Legality_of_bitcoin_by_country">Bitcoin non Ã¨ stato dichiarato illegale</a> dalle legislazioni nella maggior parte delle giurisdizioni. Comunque, alcune giurisdizioni (come l'Argentina o la Russia) vietano severamente o bandiscono le valute estere. Altre giurisdizioni (come la Tailandia) potrebbero limitare la licenza di alcuni enti come i Cambio Valuta Bitcoin.</p>
+  <p>Gli organi regolatori delle varie giurisdizioni stanno facendo passi avanti per fornire ad individui e commercianti delle regole su come integrare questa nuova tecnologia con il sistema finanziario regolato e formale. Ad esempio, il Financial Crimes Enforcement Netword (FinCEN), un ente del Ministero del Tesoro degli Stati Uniti, ha fornito una guida non vincolante sullo statuto che attribuisce a certe attivitÃ  che hanno a che fare con le valute virtuali.</p>
+  
+  <h3 id="bitcoin-e-utile-per-attivita-illegali" class=" anchorAf"><a href="#bitcoin-e-utile-per-attivita-illegali"></a>Bitcoin Ã¨ utile per attivitÃ  illegali?</h3>
+  <p>Bitcoin Ã¨ denaro, e il denaro Ã¨ stato sempre utilizzato per scopi sia legali sia illegali. I contanti, le carte di credito e gli attuali sistemi bancari sorpassano largamente Bitcoin nei termini del loro uso per finanziare il crimine. Bitcoin puÃ² portare una significativa innovazione nei sistemi di pagamento ed i benefici di questa innovazione sono spesso considerati essere ben oltre i loro potenziali svantaggi.</p>
+  <p>Bitcoin Ã¨ pensato per essere un grande salto in avanti per rendere il denaro piÃ¹ sicuro e potrebbe anche agire come una significativa forma di protezione contro molte forme di crimini finanziari. Per esempio, i bitcoin sono impossibili da falsificare. Gli utenti hanno pieno controllo dei loro pagamenti e non possono ricevere addebiti non approvati come quelli delle frodi delle carte di credito. Le transazioni in Bitcoin sono irreversebili e immuni a storni di addebito fraudolenti. Bitcoin permette al denaro di essere assicurato contro il furto o lo smarrimento usando meccanismi molto sicuri ed utili come backup, crittazione, e firme multiple.</p>
+  <p>Alcune preoccupazioni sono sorte poichÃ© Bitcoin potrebbe essere piÃ¹ attraente per i criminali,  dal momento che puÃ² essere utilizzata per effettuare pagamenti privati e irreversibili. Tuttavia, queste caratteristiche esistono giÃ  grazie a pagamenti in contanti e bonifici bancari, che sono ampiamente utilizzati e consolidati. L'uso di Bitcoin sarÃ  indubbiamente soggetto a simili regolamentazioni attualmente in vigore all'interno degli esistenti sistemi finanziari, e Bitcoin non Ã¨ tale da impedire indagini criminali. In generale, Ã¨ comune che le importanti innovazioni vengano concepite come controverse prima i loro benefici possano essere ben compresi. Internet Ã¨ un ottimo esempio tra tanti a sostegno di questa tesi.</p>
+  
+  <h3 id="bitcoin-puo-essere-regolato" class=" anchorAf"><a href="#bitcoin-puo-essere-regolato"></a>Bitcoin puÃ² essere regolamentato?</h3>
+  <p>Il protocollo di Bitcoin non puÃ² essere modificato senza la cooperazione di quasi tutti i suoi utenti, che scelgono quale software utilizzare. Cercare di assegnare dei diritti speciali ad un'autoritÃ  locale, secondo le regole della rete globale di Bitcoin, non Ã¨ realizzabile praticamente. Qualsiasi ricca organizzazione potrebbe scegliere di investire in hardware per il mining, ed acquisire la capacitÃ  di controllare la metÃ  della capacitÃ  di elaborazione della rete, divenendo cosÃ¬ in grado di bloccare o invertire transazioni recenti. In ogni caso non c'Ã¨ alcun modo per garantirsi la conservazione di un simile potere, perchÃ© il farlo richiederebbe un investimento maggiore rispetto a quelli di tutti gli altri miner al mondo. </p>
+  <p>E' comunque possibile regolare l'uso dei Bitcoin in modo simile a qualsiasi altro strumento. Proprio come l'euro, i Bitcoin possono essere usati per una grande varietÃ  di scopi, alcuni dei quali possono essere considerati legittimi o meno a seconda delle leggi di ogni giurisdizione. A proposito di questo, i Bitcoin non sono diversi da qualsiasi altro strumento o risorsa, e possono essere soggetti a regole differenti in ciascun paese. Inoltre l'uso dei Bitcoin puÃ² anche essere ostacolato da regole restrittive, in tal caso Ã¨ difficile determinare quale percentuale di utenti continuerÃ  ad usare questa tecnologia. Un governo che scelga di proibire i Bitcoin impedirÃ  di crescere ai propri affari e mercati, lasciando l'innovazione agli altri paesi. La sfida per i legislatori, come sempre,  consiste nel trovare soluzioni efficaci senza frenare la crescita di nuovi mercati e affari.  </p>
+  
+  <h3 id="riguardo-bitcoin-e-le-tasse" class=" anchorAf"><a href="#riguardo-bitcoin-e-le-tasse"></a>Per quanto riguarda Bitcoin e le tasse?</h3>
+  <p>Bitcoin non Ã¨ una moneta "fiat" a corso legale in alcuna giurisdizione, tuttavia spesso maturano responsabilitÃ  fiscali senza riguardo per il mezzo utilizzato.
+C'Ã¨ un'ampia varietÃ  di leggi in molte giurisdizioni diverse che con Bitcoin potrebbero determinare il configurarsi di redditi, vendite, libri paga, redditi da capitale o qualche altra forma di responsabilitÃ  fiscale.</p>
+  
+  <h3 id="informazioni-su-bitcoin-e-protezione-del-consumatore" class=" anchorAf"><a href="#informazioni-su-bitcoin-e-protezione-del-consumatore"></a>Per quanto riguarda Bitcoin e la protezione del consumatore?</h3>
+  <p>Bitcoin rende le persone libere di effettuare transazioni alle condizioni da loro stesse volute. Ogni utente puÃ² inviare e ricevere pagamenti in un modo simile ai contanti, ma puÃ² anche prendere parte a contratti piÃ¹ complessi. Le firme multiple fanno in modo che una transazione venga accettata dalla rete, solo se un determinato numero di persone, facenti parte di un gruppo definito, accetta di firmare la transazione. Questo permetterÃ  di sviluppare in futuro innovativi servizi di composizione delle controversie. Questi servizi potrebbero consentire a un terzo di approvare o rifiutare una transazione, in caso di disaccordo tra le parti, senza che il terzo debba avere il controllo sul denaro delle parti. Al contrario dei contanti e di altri metodi di pagamento, Bitcoin lascia sempre una prova che una transazione Ã¨ avvenuta, il che puÃ² essere potenzialmente usato in un ricorso contro societÃ  dedite ad attivitÃ  fraudolente. </p>
+  <p>Vale anche la pena sottolineare che mentre i commercianti in genere dipendono dalla propria pubblica reputazione per restare nel mercato, e pagare i propri impiegati, non hanno accesso allo stesso livello d'informazioni quando entrano in contatto con nuovi consumatori. Il modo in  cui Bitcoin funziona permette sia ai privati sia alle aziende di venire protetti contro chargeback fraudolenti, dando allo stesso tempo, al consumatore la possibilitÃ  di chiedere maggior protezione quando non Ã¨ in grado di confidare in un commerciante in particolare.</p>
+
+</div>
+
+<div class="toccontent-block boxexpand expanded">
+  <h2 id="economia" class=" anchorAf"><a href="#economia"></a>Economia</h2>
+  
+  <h3 id="come-vengono-creati-i-bitcoin" class=" anchorAf"><a href="#come-vengono-creati-i-bitcoin"></a>Come sono creati i bitcoin?</h3>
+  <p>I nuovi bitcoin vengono generati da un processo competitivo e decentralizzato chiamato "mining". Questo processo consiste nel premiare i privati per i servizi che hanno svolto. I "minatori" di bitcoin stanno elaborando le transizioni e proteggendo la rete utilizzando degli hardware specializzati, raccogliendo nuovi bitcoin in cambio.</p>
+  <p>Il protocollo Bitcoin Ã¨ progettato in modo tale che nuovi bitcoin sono creati ad una velocitÃ  fissa.
+Questo rende il mining di Bitcoin un'attivitÃ  molto competitiva. Quando piÃ¹ minatori si uniscono alla rete diventa sempre piÃ¹ difficile fare profitti ed i minatori devono ricercare l'efficienza per tagliare i loro costi operativi. Nessuna autoritÃ  centrale o sviluppatore ha alcun potere di controllare o manipolare il sistema, per aumentare i suoi profitti. Ogni nodo Bitcoin al mondo respingerÃ  tutto ciÃ² che non rispetti le regole che si attende che il sistema segua.</p>
+  <p>I bitcoin sono creati ad tasso descrescente e prevedibile. Il numero di nuovi bitcoin creati ogni anno Ã¨ automaticamente dimezzato nel tempo, finchÃ© l'emissione di bitcoin cessa del tutto ad un totale di 21 milioni di bitcoin in essere. A questo punto, i minatori di bitcoin saranno probabilmente compensati soltanto da numerose piccole commissioni di transazione.</p>
+  
+  <h3 id="perche-i-bitcoin-hanno-valore" class=" anchorAf"><a href="#perche-i-bitcoin-hanno-valore"></a>PerchÃ¨ i bitcoin hanno valore?</h3>
+  <p>I bitcoin hanno un valore, perchÃ© sono utili come una forma di denaro. I bitcoin hanno le caratteristiche del denaro (durata, portabilitÃ , fungibilitÃ , scarsitÃ , divisibilitÃ  e riconoscibilitÃ ) sulla base delle proprietÃ  della matematica, piuttosto che far riferimento a proprietÃ  fisiche (come l'oro e l'argento) o avere fiducia nelle autoritÃ  centrali (come le monete legali). In breve, Bitcoin Ã¨ gestito dalla matematica. Con tali caratteristiche, tutto ciÃ² che serve per far sÃ¬ che una forma di denaro abbia valore Ã¨ fiducia e adesione. Nel caso di Bitcoin, questo si puÃ² quantificare con la sua crescente base di utenti, commercianti e nuove aziende. Come per tutte le valute, il valore dei bitcoin proviene solo e direttamente dalle persone che li accettano come forma di pagamento. </p>
+  
+  <h3 id="cosa-determina-il-prezzo-dei-bitcoin" class=" anchorAf"><a href="#cosa-determina-il-prezzo-dei-bitcoin"></a>Cosa determina il prezzo del bitcoin?</h3>
+  <p>Il prezzo di un bitcoin Ã¨ determinato da domanda e offerta. Quando cresce la domanda di bitcoin, il prezzo sale e quando la domanda cala il prezzo scende. C'Ã¨ solo un numero limitato di bitcoin in circolazione e nuovi bitcoin sono creati ad una una velocitÃ  fissa e prevedibile, il che significa che la domanda deve seguire questo livello di inflazione per mantenere stabile il prezzo. Siccome Bitcoin Ã¨ ancora un mercato relativamente piccolo in rapporto a ciÃ² che potrebbe essere, non servono grandi quantitÃ  di denaro per muovere il prezzo di mercato in basso o in alto, e quindi il prezzo di un bitcoin Ã¨ ancora molto instabile.</p>
+  <p>Prezzo del Bitcoin nel tempo:
+    <br>
+    <img src="/img/faq/price_chart.png?1716491272" alt="chart">
+  </p>
+  
+  <h3 id="i-bicoin-possono-perdere-valore" class=" anchorAf"><a href="#i-bicoin-possono-perdere-valore"></a>I bitcoin possono perdere il proprio valore?</h3>
+  <p>SÃ¬, la storia Ã¨ piena di valute che hanno fallito e che non sono piÃ¹ in uso, come <a href="https://en.wikipedia.org/wiki/German_gold_mark">il Marco tedesco</a> durante la repubblica di Weimar e, piÃ¹ recentemente, il<a href="https://en.wikipedia.org/wiki/Zimbabwean_dollar"> dollaro dello Zimbabwe</a>. Nonostante i precedenti fallimenti delle valute erano tipicamente dovuti ad un certo tipo di iper-inflazione che Bitcoin rende impossibile, c'Ã¨ sempre una possibilitÃ  per fallimenti tecnici, valute concorrenti, problemi politici ed altro. Come regola empirica, nessuna valuta dovrebbe essere considerata assolutamente sicura ed esente da fallimenti o periodi bui. Bitcoin si Ã¨ dimostrata affidabile per anni sin dalla sua nascita e c'Ã¨ una grossa possibilitÃ  per Bitcoin di continuare a crescere. Comunque, nessuno Ã¨ nella posizione di predire quale sarÃ  il futuro di Bitcoin.</p>
+  
+  <h3 id="bitcoin-e-una-bolla" class=" anchorAf"><a href="#bitcoin-e-una-bolla"></a>Bitcoin Ã¨ una bolla?</h3>
+  <p>Una rapida salita del prezzo non costituisce una bolla. Una sopravvalutazione atificiale che porterÃ  ad un'improvvisa correzione verso il basso costituisce una bolla. Scelte basate sull'azione umana individuale di centinaia di migliaia di attori di mercato Ã¨ la causa delle fluttuazioni di prezzo di bitcoin mentre il mercato cerca di individuarne il prezzo. I motivi di un cambio di percezione possono includere una perdita di fiducia in Bitcoin, una grande differenza tra valore e prezzo non basata sui fondamentali dell'economia Bitcoin, un aumento della copertura mediatica che stimoli una domanda speculativa, paura o incertezza ed una irrazionale esuberanza ed aviditÃ  vecchio stile.</p>
+  
+  <h3 id="bitcoin-e-uno-schema-ponzi" class=" anchorAf"><a href="#bitcoin-e-uno-schema-ponzi"></a>Bitcoin Ã¨ uno schema Ponzi?</h3>
+  <p>Uno schema di Ponzi Ã¨ un'operazione di investimento fraudolento che da profitto ai suoi investitori dai loro stessi soldi, o dai soldi pagati dagli investitori successivi, invece di profitti guadagnati dal singolo gestendo un business. Gli schemi di Ponzi sono realizzati per collassare a spese degli ultimi investitori quando i nuovi partecipanti non sono abbastanza.</p>
+  <p>Bitcoin Ã¨ un progetto software gratuito senza alcuna autoritÃ  centrale. Di conseguenza, nessuno Ã¨ in grado di frodare in merito a restituzioni di investimento. Come le altre maggiori valute come l'oro, dollaro USA, euro, yen, ecc., non c'Ã¨ una garanzia in merito all'acquisizione di valore, e lo scambio di valore varia liberamente. Questo comporta la volatilitÃ , dove i proprietari dei bitcoin possono imprevedibilmente fare o perdere denaro. Al di lÃ  della speculazione, Bitcoin Ã¨ anche un sistema di pagamento con attributi utili e competitivi, che vengono utilizzati da migliaia di utenti e aziende. </p>
+  
+  <h3 id="bitcoin-non-beneficia-ingiustamente-dei-primi-utilizzatori" class=" anchorAf"><a href="#bitcoin-non-beneficia-ingiustamente-dei-primi-utilizzatori"></a>Bitcoin non avvantaggia ingiustamente i primi che lo hanno adottato?</h3>
+  <p>Alcuni dei primi utenti che hanno adottato Bitcoin ne posseggono molti, perchÃ© si sono assunti dei rischi e hanno investito tempo e risorse in una tecnologia sperimentale che, oltre ad essere poco diffusa, era anche difficile da proteggere adeguatamente. Molti dei primi ad adottare Bitcoin ne hanno spesi molti prima che acquisissero valore, o hanno comprato solo piccole somme e non hanno avuto grossi guadagni. Non c'Ã¨ alcuna garanzia che il prezzo di bitcoin aumenti o diminuisca. CiÃ² Ã¨ molto simile ad investire in una startup che puÃ² guadagnare valore attraverso la sua utilitÃ  e popolaritÃ  oppure non riuscire mai a sfondare. Bitcoin Ã¨ ancora allo stadio iniziale,  ed Ã¨ stato pensato con una visione davvero a lungo termine; Ã¨ difficile immaginare come potrebbe essere meno parziale verso i primi utenti, e se gli utenti di oggi possano o meno essere i primi utenti di domani.</p>
+  
+  <h3 id="non-sara-una-limitazione-la-quantita-finita-di-bitcoin" class=" anchorAf"><a href="#non-sara-una-limitazione-la-quantita-finita-di-bitcoin"></a>La quantitÃ  limitata dei bitcoin non costituirÃ  una limitazione?</h3>
+  <p>Bitcoin Ã¨ unico in quelle 21 milioni di monete nelle quali verrÃ  creato. Comunque, questo non sarÃ  mai un limite in quanto le transazioni possono essere divise in sotto-unitÃ  piÃ¹ piccole, come ad esempio i bit - ci sono 1,000,000 di bit in 1 bitcoin. I bitcoin possono essere divisi fino a 8 posizioni decimali (0.00000001) e potenzialmente anche in unitÃ  piÃ¹ piccole se in futuro sarÃ  necessario, in seguito alla riduzione dell'importo medio delle transazioni.</p>
+  
+  <h3 id="bitcoin-non-cadra-in-una-spirale-deflazionistica" class=" anchorAf"><a href="#bitcoin-non-cadra-in-una-spirale-deflazionistica"></a>Bitcoin non cadrÃ  in una spirale deflazionistica?</h3>
+  <p>La teoria della spirale deflazionaria afferma che se ci si aspetta che i prezzi scendano, le persone rimanderanno le spese per beneficiare di prezzi piÃ¹ bassi. La contrazione della domanda indurrÃ  i commercianti ad abbassare i prezzi per provare a stimolare la domanda, aggravando il problema e determinando una depressione dell'economia.</p>
+  <p>Malgrado questa teoria sia un argomento molto discusso per giustificare l'inflazione tra i banchieri centrali, non sembra valere sempre ed Ã¨ considerata controversa dagli economisti. L'elettronica di consumo Ã¨ un esempio di un mercato nel quale i prezzi scendono costantemente ma che non Ã¨ in depressione. Allo stesso modo, il valore dei bitcoin Ã¨ cresciuto nel tempo e sinora l'economia Bitcoin Ã¨ enormemente cresciuta con questo. Siccome sia il valore della moneta sia le dimensioni della sua economia sono partite da zero nel 2009, Bitcoin Ã¨ un controesempio della teoria che mostra come in alcuni casi debba essere falsa.</p>
+  <p>Nonostante questo, Bitcoin non Ã¨ concepito come una valuta deflazionaria. E' piÃ¹ esatto dire che Bitcoin Ã¨ destinato ad inflazionarsi nei suoi primi anni di vita e a diventare stabile nei successivi. Il solo caso in cui la quantitÃ  totale di bitcoin in circolazione diminuirÃ  sarÃ  se le persone perderanno per trascuratezza i loro portafogli omettendo di fare i backup. Con una stabile base monetaria ed una economia stabile, il valore della moneta dovrebbe rimanere costante.</p>
+  
+  <h3 id="la-speculazione-e-la-volatilita-non-sono-un-problema-per-bitcoin" class=" anchorAf"><a href="#la-speculazione-e-la-volatilita-non-sono-un-problema-per-bitcoin"></a>La speculazione e la volatilitÃ  non sono un problema per Bitcoin ?</h3>
+  <p>Questa Ã¨ la situazione dell'uovo e della gallina. Per far stabilizzare il prezzo del bitcoin, Ã¨ necessario costruire un'economia su larga scala con piÃ¹ attivitÃ  e utenti. Per poter costruire un'economia su larga scala, le attivitÃ  e gli utenti cercheranno la stabilitÃ  del prezzo.</p>
+  <p>Fortunatamente, la volatilitÃ  non incide sui principali benefici di Bitcoin come sistema di pagamento per trasferire denaro dal punto A al punto B.  Per le aziende, Ã¨ possibile convertire istantaneamente i pagamenti in bitcoin nella loro valuta locale, consentendo loro di beneficiare dei vantaggi di Bitcoin senza essere soggette a fluttuazioni dei prezzi. Dato che Bitcoin offre svariate caratteristiche e peculiaritÃ  utili ed uniche, molti utenti scelgono di usarlo. Con tali soluzioni ed incentivi Ã¨ possibile che Bitcoin maturi e si sviluppi ad un livello in cui la volatilitÃ  del prezzo divenga limitata.</p>
+  
+  <h3 id="cosa-succede-se-qualcuno-compra-tutti-i-bitcoin-esistenti" class=" anchorAf"><a href="#cosa-succede-se-qualcuno-compra-tutti-i-bitcoin-esistenti"></a>Cosa succede se qualcuno compra tutti i bitcoin esistenti?</h3>
+  <p>Soltanto una frazione di bitcoin emessi finora si trova nei mercati di scambio in vendita. I mercati Bitcoin sono competitivi, a indicare che il prezzo di un bitcoin salirÃ  o scenderÃ  a seconda della domanda e dell'offerta. Inoltre, i nuovi bitcoin continueranno ad essere emessi per decenni a venire.  Inoltre, anche la maggioranza dei compratori piÃ¹ determinati non potrebbe acquistare tutti i bitcoin esistenti. Questa situazione non Ã¨ per suggerire, tuttavia, che i mercati non sono vulnerabili alla manipolazione del prezzo; non occorrono ancora significative quantitÃ  di denaro, per muovere il prezzo di mercato o farlo scendere, e pertanto Bitcoin resta uno strumento volatile finora. </p>
+  
+  <h3 id="cosa-succede-se-qualcuno-crea-una-valuta-digitale-migliore" class=" anchorAf"><a href="#cosa-succede-se-qualcuno-crea-una-valuta-digitale-migliore"></a>Che cosa succede se qualcuno crea una valuta digitale migliore?</h3>
+  <p>PuÃ² succedere. Per adesso, Bitcoin resta senza dubbio la valuta virtuale decentralizzata piÃ¹ popolare, ma non puÃ² esserci garanzia che mantenga questa posizione. C'Ã¨ giÃ  una lista di valute alternative ispirate da Bitcoin. Ad ogni modo, Ã¨ probabilmente corretto pensare che siano necessari miglioramenti significativi siano richiesti,  perchÃ© una nuova valuta superi bitcoin in termini di mercato affermato, anche se questo rimane un mistero. E' plausibile inoltre che Bitcoin adotti miglioramenti di una moneta in competizione fintanto che non intacca le parti fondamentali del protocollo. </p>
+
+</div>
+
+
+<div class="toccontent-block boxexpand expanded">
+  <h2 id="transazioni" class=" anchorAf"><a href="#transazioni"></a>Transazioni</h2>
+  
+  <h3 id="perche-devo-aspettare-10-minuti" class=" anchorAf"><a href="#perche-devo-aspettare-10-minuti"></a>PerchÃ¨ devo aspettare la conferma?</h3>
+  <p>Ricevere un pagamento Ã¨ quasi istantaneo con Bitcoin. Comunque, c'Ã¨ un'attesa prima che la rete inizi a confermare la transazione, includendola nel blocco e che tu possa spendere i bitcoin che riceverai. Una conferma non Ã¨ altro che il consenso della rete che i bitcoin che stai ricevendo non siano stati inviati a qualcun'altro e siano effettivamente di tua proprietÃ . Una volta che la tua transazione Ã¨ stata inclusa in un blocco, verrÃ  riconfermata da ogni blocco successivo, che ne consoliderÃ  ampiamente il consenso, riducendo il rischio di un'annullamento della transazione. Ogni utente Ã¨ libero di decidere a che punto considerare una transazione come confermata, ma <a href="/it/da-sapere#instant">6 conferme</a> sono di solito considerate sicure come un attesa di 6 mesi con una carta di credito.
+</p>
+  
+  <h3 id="quanto-sara-la-tassa-di-transazione" class=" anchorAf"><a href="#quanto-sara-la-tassa-di-transazione"></a>Quale sarÃ¡ il costo della transazione?</h3>
+  <p>Le transazioni possono essere gestite senza alcuna commissione, ma effettuarne una gratuita puÃ  richiedere l'attesa di giorni o anche settimane. Sebbene le commissioni possano aumentare col tempo, solitamente sono molto ridotte. Di regola, tutti i <a href="/it/scegli-il-tuo-portafoglio">portafogli Bitcoin</a> presenti su Bitcoin.org, mostrano quale puÃ² essere una commisione adeguata alla transazione; molti di questi inoltre consentono all'utente di modificare la commissione prima di effettuare la transazione.
+</p>
+  <p>Le commissioni di transazione sono utilizzate come protezione contro utenti che inviano transazioni per intasare la rete e come ricompensa per i minatori che la rendono sicura. Il modo preciso in cui funzionano le commissioni Ã¨ ancora in corso di sviluppo e cambierÃ  nel tempo. Siccome la commissione non Ã¨ legata alla quantitÃ  di bitcoin inviata, puÃ² sembrare estremamente bassa o ingiustamente alta. Infatti, la commissione Ã¨ definita dalla quantitÃ  di byte della transazione, per questo utilizzare il multisig o inviare quantitÃ  multiple di importi precedentemente ricevuti puÃ² costare di piÃ¹ che effettuare transazioni singole. Se la tua attivitÃ  segue lo schema delle comuni transazioni, le commissioni dovrebbero rimanere molto basse.
+</p>
+  
+  <h3 id="che-cosa-succede-se-ricevo-un-bitcoin-quando-il-mio-computer-e-spento" class=" anchorAf"><a href="#che-cosa-succede-se-ricevo-un-bitcoin-quando-il-mio-computer-e-spento"></a>Che cosa succede se ricevo un bitcoin quando il computer Ã¨ spento ?</h3>
+  <p>Questo funziona bene. I bitcoin appariranno la prossima volta che cominci l'applicazione del tuo portafoglio. In realtÃ , i bitcoin non vengono ricevuti dal software sul tuo computer, sono allegati ad un registro pubblico, che viene condiviso da tutti i dispositivi sulla rete. Se vi inviano dei bitcoin quando il programma client del tuo portafoglio non Ã¨ in funzione, e poi lo lanci in seguito, caricherÃ  dei blocchi e raccoglierÃ  qualsiasi transazione di cui non era consapevole, ed i bitcoin finiranno con apparire proprio nel modo in cui sono stati ricevuti in tempo reale. Il tuo portafoglio Ã¨ necessario solo quando desideri spendere i bitcoin. </p>
+  
+  <h3 id="che-cosa-significa-sincronizzazione-e-perche-dura-cosi-tanto-tempo" class=" anchorAf"><a href="#che-cosa-significa-sincronizzazione-e-perche-dura-cosi-tanto-tempo"></a>Che cosa significa "sincronizzando" e perchÃ¨ impiega cosÃ¬ tanto tempo</h3>
+  <p>Lungo tempo di sincronizzazione viene richiesto solo con i client full node come Bitcoin Core. Tecnicamente parlando, la sincronizzazione Ã¨ il processo di download e verifica di tutte le precedenti transazioni Bitcoin sulla rete. Per alcuni client di Bitcoin, per calcolare il bilancio spendibile del tuo portafoglio Bitcoin ed eseguire nuove transazioni,  occorre essere consapevoli di tutte le precedenti transazioni. Questa fase puÃ² essere una grande risorsa e richiede sufficiente larghezza di banda e capienza per ospitare la grandezza della block chain. Per far sÃ¬ che Bitcoin resti sicuro, sufficienti utenti dovrebbero continuare ad utilizzare i client full node, perchÃ¨ hanno la funzionalitÃ  di convalidare e trasmettere le transazioni. </p>
+
+</div>
+
+<div class="toccontent-block boxexpand expanded">
+  <h2 id="mining" class=" anchorAf"><a href="#mining"></a>Minare-mining</h2>
+  <h3 id="che-cosa-e-il-mining-di-bitcoin" class=" anchorAf"><a href="#che-cosa-e-il-mining-di-bitcoin"></a>Che cosa Ã¨ il mining di Bitcoin?</h3>
+  <p>Il mining Ã¨ il processo che utilizza la potenza di calcolo per elaborare le transazioni, rendere sicura la rete e mantenere tutti insieme sincronizzati nel sistema. Si puÃ² considerare come il centro dati dei Bitcoin ad eccezione del fatto che Ã¨ stato progettato per essere totalmente decentralizzato, con minatori che operano in tutte le nazioni senza che nessun individuo abbia il controllo della rete. Questo processo si chiama "mining" per un'analogia con l'estrazione dell'oro perchÃ¨ Ã¨ un meccanismo temporaneo per l'emissione di nuovi bitcoin. A differenza dell'estrazione dell'oro, perÃ², la produzione di Bitcoin dÃ  un premio in cambio di servizi utili al funzionamento di una rete di pagamenti sicuri. Il mining sarÃ  comunque necessario anche dopo che l'ultimo bitcoin sarÃ  stato estratto.</p>
+  <h3 id="come-funziona-il-mining-di-bitcoin" class=" anchorAf"><a href="#come-funziona-il-mining-di-bitcoin"></a>Come funziona il mining di Bitcoin ?</h3>
+  <p>Chiunque puÃ² diventare un minatore di Bitcoin utilizzando un software con hardware dedicato. Il software "ascolta" le transazioni in corso su una rete peer-to-peer ed esegue una serie di attivitÃ  al fine di elaborare e confermare queste transazioni. I minatori di Bitcoin svolgono questa attivitÃ  poichÃ© possono guadagnare le commissioni pagate dagli utenti per ottenere una elaborazione piÃ¹ veloce delle proprie transazioni o anche guadagnare bitcoin appena coniati tramite un algoritmo giÃ  noto.</p>
+  <p>Per ottenere la conferma delle nuove transazioni, occorre che vengano incluse in un blocco con una prova di lavoro matematica. Tali prove sono molto difficili da generare, perchÃ© non vi Ã¨ alcun modo se non quello di provare miliardi di calcoli al secondo. Questo richiede che gli estrattori di dati eseguano questi calcoli, prima che i loro blocchi vengano accettati dalla rete e prima che siano assegnati. Quante piÃ¹ persone iniziano a estrarre, tanto piÃ¹ aumenta in modo automatico la difficoltÃ  di trovare blocchi validi da parte della rete, per assicurare che il tempo medio per trovare il blocco resti uguale a 10 minuti. Di conseguenza, l'estrazione Ã¨ molto competitiva, dove nessun estrattore singolo possa controllare ciÃ² che contiene la block chain. </p>
+  <p>La prova di lavoro Ã¨ anche programmata per dipendere dai blocchi precedenti per imporre un ordine cronologico nella block chain. Questo rende esponenzialmente difficile invertire le transazioni precedenti, perchÃ© richiede il calcolo delle prove di lavoro di tutti i blocchi successivi. Quando si trovano due blocchi allo stesso tempo, i minatori lavorano sul primo blocco che ricevono, e passano alla piÃ¹ grande block chain, fino a quando non si trova il prossimo blocco. CiÃ² consente al mining di assicurare e mantenere un consenso globale sulla capacitÃ  di elaborazione. </p>
+  <p>I  minatori di Bitcoin non hanno la possibilitÃ  di barare aumentando la loro ricompensa, nÃ© validare transazioni fraudolente che possano corrompere la rete Bitcoin, perchÃ© tutti i nodi Bitcoin respingerebbero ogni blocco contenente dati che non siano validi secondo le regole del protocollo Bitcoin. PerciÃ² la rete resta sicura anche se non tutti i "minatori" Bitcoin sono affidabili.</p>
+  <h3 id="non-e-una-perdita-di-energia-il-mining-di-bitcoin" class=" anchorAf"><a href="#non-e-una-perdita-di-energia-il-mining-di-bitcoin"></a>Il mining di Bitcoin non Ã¨ uno spreco di energia ?</h3>
+  <p>Spendere energia per assicurare ed operare un sistema di pagamento si rivela difficilmente uno spreco. Come ogni altro sistema di pagamento, l'utilizzo di Bitcoin implica i costi delle operazioni. Anche i servizi necessari per l'operazione degli attuali sistemi monetari, come banche, carte di credito e auto blindate, utilizzano molta energia. Ma a differenza di Bitcoin, il loro consumo totale di energia non Ã¨ trasparente e non puÃ² essere facilmente quantificato. </p>
+  <p>Il mining di Bitcoin Ã¨ stato programmato per ottenere una maggiore ottimizzazione sul tempo, con l'hardware specializzato nel consumare meno energia, e i costi operativi del mining dovrebbero continuare ad essere proporzionati alla domanda. Quando il mining di Bitcoin diventa troppo competitivo e meno propizio, alcuni minatori scelgono di cessare le loro attivitÃ . Inoltre, tutta l'energia spesa durante l'operazione di mining, alla fine viene trasformata in calore, e i minatori che trarranno maggiori profitti saranno coloro che faranno buon uso del calore. Un'ottimale rete efficiente del mining Ã¨ quella che in effetti, non consuma energia extra. Se da un lato si tratta di una situazione ideale, l'economia relativa al mining Ã¨ quella che i minatori combattono individualmente. </p>
+  <h3 id="come-il-mining-aiuta-la-sicurezza-di-bitcoin" class=" anchorAf"><a href="#come-il-mining-aiuta-la-sicurezza-di-bitcoin"></a>Come aiuta il mining a tenere sicura la rete Bitcoin ?</h3>
+  <p>La fase di mining crea l'equivalente di una lotteria competitiva, che rende difficile per chiunque aggiungere di conseguenza nuovi blocchi di transazioni all'interno di una block chain. Questo protegge la neutralitÃ  della rete, prevenendo che chiunque possa acquisire la capacitÃ  di bloccare determinate transazioni. Questo impedisce anche che si sostituiscano parti della block chain per ridurre le proprie spese, il che potrebbe essere utilizzato per defraudare gli altri utenti. Il mining rende esponenzialmente piÃ¹ difficile invertire una transazione passata, richiedendo di riscrivere tutti i block in seguito alla transazione. </p>
+  <h3 id="che-cosa-mi-ocorre-per-iniziare-il-mining" class=" anchorAf"><a href="#che-cosa-mi-ocorre-per-iniziare-il-mining"></a> Che cosa mi occorre per iniziare il mining?</h3>
+  <p>Nei primi giorni di Bitcoin, chiunque poteva trovare un nuovo blocco, attraverso il proprio CPU del computer. Man mano che sempre piÃ¹ persone iniziarono l'operazione del mining,  la difficoltÃ  di trovare nuovi blocchi aumentava enormemente, fino al punto in cui l'unico metodo vantaggioso del mining oggi utilizza un hardware specializzato. Puoi visitare <a href="http://www.bitcoinmining.com/">BitcoinMining.com</a> per maggiori informazioni.</p>
+</div>
+
+<div class="toccontent-block boxexpand expanded">
+  <h2 id="sicurezza" class=" anchorAf"><a href="#sicurezza"></a>Sicurezza</h2>
+  
+  <h3 id="bitcoin-e-sicuro" class=" anchorAf"><a href="#bitcoin-e-sicuro"></a>Bitcoin Ã¨ sicuro?</h3>
+  <p>La tecnologia di Bitcoin - il protocollo e la criptologia - ha un potente registro della sicurezza, e la rete Bitcoin Ã¨ probabilmente il maggiore progetto di elaborazione distribuito al mondo.  La piÃ¹ comune vulnerabilitÃ  di Bitcoin Ã¨ un errore dell'utente. Il portafoglio Bitcoin raccoglie tutte le chiavi private necessarie, che possono essere cancellate, perdute, perse accidentalmente. CiÃ² Ã¨ molto simile al denaro liquido immagazzinato in forma digitale. Per fortuna, gli utenti possono impiegare<a href="/it/proteggi-il-portafoglio">delle pratiche di sicurezza</a> per proteggere il proprio denaro o utilizzare i provider che offrono dei buoni livelli di sicurezza e assicurazione contro furto o perdita. </p>
+  
+  <h3 id="bitcoin-non-e-mai-stato-attaccato-da-hacker-in-passato" class=" anchorAf"><a href="#bitcoin-non-e-mai-stato-attaccato-da-hacker-in-passato"></a>Bitcoin Ã¨ mai stato attaccato da hacker in passato ?</h3>
+  <p>Le regole del protocollo e la crittografia utilizzata per Bitcoin sono ancora in funzione anni dopo la sua nascita, il che Ã¨ una buona indicazione del fatto che il concetto Ã¨ ben progettato. Tuttavia,  <a href="/en/alerts">delle imperfezioni sulla sicurezza</a> sono state trovate e sistemate nel tempo, in vari software. Come ogni altra forma di software, la sicurezza del software di Bitocoin dipende dalla velocitÃ  con cui i problemi vengono scoperti e risolti. PiÃ¹ problematiche vengono scoperte, piÃ¹ Bitcoin acquista maturitÃ . </p>
+  <p>Spesso ci sono pregiudizi in merito a furti e violazioni di sicurezza, che sono avvenuti in diversi scambi e affari. Sebbene tali eventi siano sfortunati, nessuno di essi ha coinvolto Bitcoin; proprio come una rapina in banca, non significa che il dollaro Ã¨ compromesso. Tuttavia, Ã¨ accurato dire che una serie completa di accorgimenti e soluzioni intuitive per migliorare la sicurezza Ã¨ necessaria per garantire una maggiore protezione del denaro degli utenti, e riduce il rischio generale di furto e perdita. Nel corso degli ultimi anni, tali sistemi di sicurezza si sono rapidamente sviluppati, come il criptaggio del portafoglio, i portafogli offline, i portafogli hardware e le transazioni con varie firme. </p>
+  
+  <h3 id="gli-utenti-possono-colludere-contro-bitcoin" class=" anchorAf"><a href="#gli-utenti-possono-colludere-contro-bitcoin"></a>Gli utenti possono colludere contro Bitcoin ?</h3>
+  <p>Non Ã¨ possibile modificare facilmente il protocollo Bitcoin. Qualsiasi client Bitcoin che non rispetti le stesse regole non puÃ² imporre le proprie regole ad altri utenti. Secondo la specifica attuale, non Ã¨ possibile effettuare una doppia spesa sulla stessa catena di blocchi, nÃ¨ tantomeno spendere bitcoin senza una firma valida. Pertanto, non Ã¨ possibile generare quantitÃ  incontrollate di bitcoin dal nulla, spendere i fondi di altri utenti, manipolare la rete o qualcosa di simile.</p>
+  <p>Comunque, una maggioranza di minatori potrebbe scegliere arbitrariamente di bloccare o invertire transazioni recenti. Una maggioranza di utenti puÃ² inoltre fare pressione per l'adozione di alcuni cambiamenti. Dato che Bitcoin lavora correttamente solo con un completo consenso di tutti gli utenti, cambiare il protocollo potrebbe essere molto difficile e richiederebbe che una larghissima maggioranza di utenti adottasse i cambiamenti, in modo tale che non resti alcuna scelta agli utenti rimanenti, che non potrebbero fare altro che seguire la maggioranza. In linea generale, Ã¨ difficile immaginare che un qualsiasi utente Bitcoin possa scegliere di adottare qualche cambiamento che potrebbe mettere a rischio il suo stesso denaro.</p>
+  
+  <h3 id="bitcoin-e-vulnerabile-alla-elaborazione-quantistica" class=" anchorAf"><a href="#bitcoin-e-vulnerabile-alla-elaborazione-quantistica"></a>Bitcoin Ã¨ vulnerabile ai computer quantistici?</h3>
+  <p>Si, la maggior parte dei sistemi si affidano alla crittografia, inclusi i sistemi bancari tradizionali. Tuttavia, i computer quantistici non esistono ancora e non esisteranno per un po'. Nell'evenienza che le  <a href="https://bitcoinmagazine.com/6021/bitcoin-is-not-quantum-safe-and-how-we-can-fix/">computazioni quantistiche</a> costituiscano una minaccia immediata per Bitcoin, il protocollo sarÃ  aggiornato per l'uso di algoritmi post-quantistici. Data l'importanza che avrÃ  questo aggiornamento, ci si puÃ² ragionevolmente aspettare che sarÃ  altamente revisionato dagli sviluppatori ed adottato da tutti gli utenti Bitcoin</p>
+</div>
+  
+<div class="toccontent-block boxexpand expanded">
+  <h2 id="aiuto" class=" anchorAf"><a href="#aiuto"></a>Aiuto</h2>
+  
+  <h3 id="ulteriore-aiuto" class=" anchorAf"><a href="#ulteriore-aiuto"></a>Vorrei saperne di piÃ¹. Dove posso ottenere aiuto?</h3>
+  <p>Puoi trovare maggiori informazioni e aiuto sulle <a href="/it/risorse">risorse</a> e sulle pagine della<a href="/it/comunita">comunitÃ </a> o sul <a href="https://en.bitcoin.it/wiki/Help:FAQ">Wiki FAQ</a>.</p>
+</div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="/it/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Sostieni Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Donazioni</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">Introduzione:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/it/bitcoin-per-privati">Privati</a>
+        </li>
+        <li>
+          <a href="/it/bitcoin-per-imprese">Imprese</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">Sviluppatori</a>
+        </li>
+        <li>
+          <a href="/it/come-iniziare">Come iniziare</a>
+        </li>
+        <li>
+          <a href="/it/come-funziona">Come funziona</a>
+        </li>
+        <li>
+          <a href="/it/da-sapere">Da sapere</a>
+        </li>
+        
+        <li>
+          <a href="/it/documento-bitcoin">White paper</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">Risorse:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/it/risorse">Risorse</a>
+        </li><li>
+          <a href="/it/borsa">Borsa</a>
+        </li>
+        <li>
+          <a href="/it/comunita">ComunitÃ </a>
+        </li>
+        <li>
+          <a href="/it/glossario">Glossario
+          </a>
+        </li>
+        <li>
+          <a href="/it/eventi">Eventi</a>
+        </li>
+        
+          <li>
+            <a href="/it/scarica">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">Partecipa:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/it/sostieni-bitcoin">Sostieni Bitcoin</a>
+        
+        
+        </li><li>
+          <a href="/it/sviluppo">Sviluppo</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Altro:</p>
+      
+      <a href="/it/note-legali">Note legali</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/it/stampa">Stampa</a>
+      <a href="/it/chi-siamo">A proposito di bitcoin.org</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>Un sito web della comunitÃ  sponsorizzato da</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1716491272" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 Rilasciato sotto <a href="http://opensource.org/licenses/mit-license.php" target="_blank">licenza MIT</a></div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">Stato della Rete</a>
+        
+<ul class="lang is-expand">
+  <li><a>Italiano</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/faq">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/faq">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/faq">Dansk</a></li>
+        
+        
+          <li><a href="/de/faq">Deutsch</a></li>
+        
+        
+          <li><a href="/en/faq">English</a></li>
+        
+        
+          <li><a href="/es/faq">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/faq">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/faq" class="active">Italiano</a></li>
+        
+        
+          <li><a href="/hu/gyik">Magyar</a></li>
+        
+        
+          <li><a href="/nl/faq">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/faq">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/faq">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/intrebari-frecvente">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/vprasanja-in-odgovori">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/cesto-postavljanja-pitanja">Srpski</a></li>
+        
+        
+          <li><a href="/sv/faq">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/sss">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/faq">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/faq">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/faq">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/faq">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/faq">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/faq">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/faq">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/faq">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/faq">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/faq">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/faq">ááááá</a></li>
+        
+        
+          <li><a href="/ja/faq">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/faq">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/faq">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/faq">Bahasa Indonesia</option>
+              
+              <option value="/ca/faq">CatalÃ </option>
+              
+              <option value="/da/faq">Dansk</option>
+              
+              <option value="/de/faq">Deutsch</option>
+              
+              <option value="/en/faq">English</option>
+              
+              <option value="/es/faq">EspaÃ±ol</option>
+              
+              <option value="/fr/faq">FranÃ§ais</option>
+              
+              <option value="/it/faq" selected="selected">Italiano</option>
+              
+              <option value="/hu/gyik">Magyar</option>
+              
+              <option value="/nl/faq">Nederlands</option>
+              
+              <option value="/pl/faq">Polski</option>
+              
+              <option value="/pt_BR/faq">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/intrebari-frecvente">RomÃ¢nÄ</option>
+              
+              <option value="/sl/vprasanja-in-odgovori">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/cesto-postavljanja-pitanja">Srpski</option>
+              
+              <option value="/sv/faq">Svenska</option>
+              
+              <option value="/tr/sss">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/faq">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/faq">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/faq">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/faq">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/faq">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/faq">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/faq">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/faq">×¢××¨××ª</option>
+              
+              <option value="/hi/faq">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/faq">íêµ­ì´</option>
+              
+              <option value="/km/faq">ááááá</option>
+              
+              <option value="/ja/faq">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/faq">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/faq">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">it</span>
+          </label>
+        </div>
+      </div>
+<!--      <div class="row">  -->
+        
+<!--    </div> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+
+
+  <script>updateToc();</script>
+<script>accordion();</script>
+<script>onScrollButton();</script>
+<script>boxShow();</script>
+
+
+
+
+
+
+</body></html>
