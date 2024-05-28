@@ -1,0 +1,149 @@
+{
+    "target_url": "https://solana.com/de/developers/guides/games/game-sdks",
+    "domains": {
+        "assetstore.unity.com": [
+            "https://assetstore.unity.com/packages/decentralization/infrastructure/solana-sdk-for-unity-246931"
+        ],
+        "beta.solpg.io": [
+            "https://beta.solpg.io/tutorials/hello-seahorse"
+        ],
+        "blog.magicblock.gg": [
+            "https://blog.magicblock.gg/bolt-tic-tac-toe/"
+        ],
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "docs.gameshift.dev": [
+            "https://docs.gameshift.dev/"
+        ],
+        "docs.honeycombprotocol.com": [
+            "https://docs.honeycombprotocol.com/"
+        ],
+        "docs.magicblock.gg": [
+            "https://docs.magicblock.gg/introduction"
+        ],
+        "gameshift.solanalabs.com": [
+            "https://gameshift.solanalabs.com/"
+        ],
+        "github.com": [
+            "https://github.com/Bifrost-Technologies/Solana-Unreal-SDK",
+            "https://github.com/Bread-Heads-NFT/phaser-solana-platformer-template",
+            "https://github.com/ThugzLabs/Thugz-BC-Plugin-Packaged-for-UE5.0",
+            "https://github.com/Virus-Axel/godot-solana-sdk",
+            "https://github.com/ZenRepublic/GodotSolanaSDKDemoPackage",
+            "https://github.com/bmresearch/Solnet/blob/master/docs/articles/getting_started.md",
+            "https://github.com/espresso-cash/espresso-cash-public",
+            "https://github.com/magicblock-labs/Solana.Unity-SDK",
+            "https://github.com/solana-developers/cube_shift",
+            "https://github.com/solana-developers/seahorse",
+            "https://github.com/solana-developers/solana-game-examples",
+            "https://github.com/solana-developers/solana-game-preset",
+            "https://github.com/solana-foundation/developer-content/tree/main/content/guides/games/game-sdks.md",
+            "https://github.com/staratlasmeta/FoundationKit"
+        ],
+        "godotengine.org": [
+            "https://godotengine.org/"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "phaser.io": [
+            "https://phaser.io/"
+        ],
+        "solana.com": [
+            "https://solana.com/de",
+            "https://solana.com/de/branding",
+            "https://solana.com/de/developers",
+            "https://solana.com/de/developers/cookbook",
+            "https://solana.com/de/developers/guides",
+            "https://solana.com/de/developers/guides/games/game-examples",
+            "https://solana.com/de/developers/guides/games/game-sdks",
+            "https://solana.com/de/developers/guides/games/game-sdks#bitfrost-unreal-sdk",
+            "https://solana.com/de/developers/guides/games/game-sdks#flutter",
+            "https://solana.com/de/developers/guides/games/game-sdks#godot-sdk",
+            "https://solana.com/de/developers/guides/games/game-sdks#honeycomb-protocol",
+            "https://solana.com/de/developers/guides/games/game-sdks#native-c",
+            "https://solana.com/de/developers/guides/games/game-sdks#next-js-react-anchor",
+            "https://solana.com/de/developers/guides/games/game-sdks#phaser",
+            "https://solana.com/de/developers/guides/games/game-sdks#python",
+            "https://solana.com/de/developers/guides/games/game-sdks#solana-game-shift",
+            "https://solana.com/de/developers/guides/games/game-sdks#solana-gameshift",
+            "https://solana.com/de/developers/guides/games/game-sdks#star-atlas-foundation-kit",
+            "https://solana.com/de/developers/guides/games/game-sdks#thugz-unreal-sdk",
+            "https://solana.com/de/developers/guides/games/game-sdks#turbo-computer-rust-game-engine",
+            "https://solana.com/de/developers/guides/games/game-sdks#unity-sdk",
+            "https://solana.com/de/developers/guides/games/game-sdks#unreal-sdks",
+            "https://solana.com/de/developers/guides/games/getting-started-with-game-development",
+            "https://solana.com/de/developers/guides?difficulty=intro",
+            "https://solana.com/de/developers/guides?tags=anchor",
+            "https://solana.com/de/developers/guides?tags=games",
+            "https://solana.com/de/developers/guides?tags=infrastructure",
+            "https://solana.com/de/developers/guides?tags=program",
+            "https://solana.com/de/developers/guides?tags=unity",
+            "https://solana.com/de/docs",
+            "https://solana.com/de/docs/clients/javascript",
+            "https://solana.com/de/docs/rpc",
+            "https://solana.com/de/docs/terminology",
+            "https://solana.com/de/ecosystem",
+            "https://solana.com/de/news",
+            "https://solana.com/de/newsletter",
+            "https://solana.com/de/privacy-policy",
+            "https://solana.com/de/privacy-policy#collection-of-information",
+            "https://solana.com/de/tos",
+            "https://solana.com/discord",
+            "https://solana.com/github",
+            "https://solana.com/reddit",
+            "https://solana.com/telegram",
+            "https://solana.com/twitter",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ],
+        "solanalabs.com": [
+            "https://solanalabs.com"
+        ],
+        "solplay.de": [
+            "https://solplay.de/cubeshift"
+        ],
+        "staratlas.com": [
+            "https://staratlas.com/"
+        ],
+        "turbo.computer": [
+            "https://turbo.computer/",
+            "https://turbo.computer/docs/intro"
+        ],
+        "twitter.com": [
+            "https://twitter.com/AxelBenjam",
+            "https://twitter.com/BifrostTitan",
+            "https://twitter.com/ZenRepublicNDM",
+            "https://twitter.com/blockiosaurus",
+            "https://twitter.com/honeycomb_prtcl",
+            "https://twitter.com/jozanza",
+            "https://twitter.com/makegamesfast"
+        ],
+        "www.espressocash.com": [
+            "https://www.espressocash.com/"
+        ],
+        "www.magicblock.gg": [
+            "https://www.magicblock.gg/"
+        ],
+        "www.seahorse.dev": [
+            "https://www.seahorse.dev/"
+        ],
+        "www.unrealengine.com": [
+            "https://www.unrealengine.com/marketplace/en-US/product/thugz-blockchain-plugin"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/watch?v=S8fm8mFeUkk",
+            "https://www.youtube.com/watch?v=dS7sTZd_E9U&ab_channel=ThugzNFT",
+            "https://www.youtube.com/watch?v=fnhivg_pemI&t=1s&ab_channel=Solana",
+            "https://www.youtube.com/watch?v=hTCPXVn14TY",
+            "https://www.youtube.com/watch?v=tszFPInYmXQ"
+        ],
+        "zenwiki.gitbook.io": [
+            "https://zenwiki.gitbook.io/solana-godot-sdk-docs",
+            "https://zenwiki.gitbook.io/solana-godot-sdk-docs/guides/setup-candy-machine"
+        ]
+    }
+}
