@@ -319,21 +319,7 @@ If you have questions that aren't answered in this documentation, please reach
 out to the community in the Basis Markets [Discord
 server](https://discord.basis.markets).
 
-Last updated 19 days ago
+Last updated 20 days ago
 
 On this page
-
-  * Overview
-  * Products
-  * Basis Trade eXecutor (BTX)
-  * Basis Trade Engine (BTE)
-  * Community
-  * Governance
-  * Access Tokens
-  * BASIS NFTs
-  * BASIS Tokens
-  * Educational Material
-  * Frequently Asked Questions
-  * Official Links
-  * Terms of Service
 
