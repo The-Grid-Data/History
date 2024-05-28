@@ -1,0 +1,126 @@
+{
+    "target_url": "https://solana.com/de/developers/guides/getstarted/full-stack-solana-development",
+    "domains": {
+        "backpack.app": [
+            "https://backpack.app/"
+        ],
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "classic.yarnpkg.com": [
+            "https://classic.yarnpkg.com/en/docs/install"
+        ],
+        "docs.solanamobile.com": [
+            "https://docs.solanamobile.com/sample-apps/sample_app_overview"
+        ],
+        "earn.superteam.fun": [
+            "https://earn.superteam.fun/"
+        ],
+        "explorer.solana.com": [
+            "https://explorer.solana.com/?cluster=custom&customUrl=http%3A%2F%2Flocalhost%3A8899",
+            "https://explorer.solana.com/?cluster=devnet"
+        ],
+        "faucet.solana.com": [
+            "https://faucet.solana.com/"
+        ],
+        "github.com": [
+            "https://github.com/AlmostEfficient/full-stack-solana-dev",
+            "https://github.com/anza-xyz/wallet-adapter/blob/master/APP.md",
+            "https://github.com/solana-developers/create-solana-dapp",
+            "https://github.com/solana-developers/create-solana-game",
+            "https://github.com/solana-developers/program-examples",
+            "https://github.com/solana-foundation/developer-content/tree/main/content/guides/getstarted/full-stack-solana-development.md"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "learn.microsoft.com": [
+            "https://learn.microsoft.com/en-us/windows/wsl/install"
+        ],
+        "marketplace.visualstudio.com": [
+            "https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer"
+        ],
+        "nodejs.org": [
+            "https://nodejs.org/en/download/"
+        ],
+        "phantom.app": [
+            "https://phantom.app/"
+        ],
+        "solana.com": [
+            "https://solana.com/de",
+            "https://solana.com/de/branding",
+            "https://solana.com/de/developers",
+            "https://solana.com/de/developers/cookbook",
+            "https://solana.com/de/developers/evm-to-svm",
+            "https://solana.com/de/developers/guides",
+            "https://solana.com/de/developers/guides/getstarted/full-stack-solana-development",
+            "https://solana.com/de/developers/guides/getstarted/full-stack-solana-development#build-a-react-client-for-your-app",
+            "https://solana.com/de/developers/guides/getstarted/full-stack-solana-development#create-a-connect-wallet-button",
+            "https://solana.com/de/developers/guides/getstarted/full-stack-solana-development#deploy-to-devnet",
+            "https://solana.com/de/developers/guides/getstarted/full-stack-solana-development#environment-setup",
+            "https://solana.com/de/developers/guides/getstarted/full-stack-solana-development#finalize-your-anchor-program-with-a-pda",
+            "https://solana.com/de/developers/guides/getstarted/full-stack-solana-development#program-deploy-failed",
+            "https://solana.com/de/developers/guides/getstarted/full-stack-solana-development#project-overview",
+            "https://solana.com/de/developers/guides/getstarted/full-stack-solana-development#reading-from-the-blockchain",
+            "https://solana.com/de/developers/guides/getstarted/full-stack-solana-development#running-out-of-gas",
+            "https://solana.com/de/developers/guides/getstarted/full-stack-solana-development#set-up-an-anchor-project",
+            "https://solana.com/de/developers/guides/getstarted/full-stack-solana-development#set-up-your-react-project",
+            "https://solana.com/de/developers/guides/getstarted/full-stack-solana-development#what-now",
+            "https://solana.com/de/developers/guides/getstarted/full-stack-solana-development#what-you-will-learn",
+            "https://solana.com/de/developers/guides/getstarted/full-stack-solana-development#write-a-counter-program-in-rust",
+            "https://solana.com/de/developers/guides/getstarted/full-stack-solana-development#write-and-deploy-a-solana-program",
+            "https://solana.com/de/developers/guides/getstarted/full-stack-solana-development#writing-a-test-for-our-program",
+            "https://solana.com/de/developers/guides/getstarted/full-stack-solana-development#writing-to-the-blockchain",
+            "https://solana.com/de/developers/guides/getstarted/hello-world-in-your-browser",
+            "https://solana.com/de/developers/guides/getstarted/setup-local-development",
+            "https://solana.com/de/developers/guides/getstarted/setup-local-development#3-install-solana-cli",
+            "https://solana.com/de/developers/guides?difficulty=intermediate",
+            "https://solana.com/de/developers/guides?tags=anchor",
+            "https://solana.com/de/developers/guides?tags=web3js",
+            "https://solana.com/de/docs",
+            "https://solana.com/de/docs/programs/deploying#state-accounts",
+            "https://solana.com/de/docs/rpc",
+            "https://solana.com/de/docs/terminology",
+            "https://solana.com/de/ecosystem",
+            "https://solana.com/de/hackathon",
+            "https://solana.com/de/news",
+            "https://solana.com/de/newsletter",
+            "https://solana.com/de/privacy-policy",
+            "https://solana.com/de/privacy-policy#collection-of-information",
+            "https://solana.com/de/tos",
+            "https://solana.com/discord",
+            "https://solana.com/github",
+            "https://solana.com/reddit",
+            "https://solana.com/telegram",
+            "https://solana.com/twitter",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ],
+        "solflare.com": [
+            "https://solflare.com/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/almostefficient"
+        ],
+        "vitejs.dev": [
+            "https://vitejs.dev/"
+        ],
+        "www.anchor-lang.com": [
+            "https://www.anchor-lang.com/docs/installation"
+        ],
+        "www.rust-lang.org": [
+            "https://www.rust-lang.org/tools/install"
+        ],
+        "www.soldev.app": [
+            "https://www.soldev.app/course"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/watch?v=uH60e4gZBSY"
+        ],
+        "youtu.be": [
+            "https://youtu.be/vUHF1X48zM4"
+        ]
+    }
+}
