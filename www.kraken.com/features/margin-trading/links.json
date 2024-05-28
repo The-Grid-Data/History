@@ -1,0 +1,185 @@
+{
+    "target_url": "https://www.kraken.com/features/margin-trading",
+    "domains": {
+        "blog.kraken.com": [
+            "https://blog.kraken.com"
+        ],
+        "kraken.app.link": [
+            "https://kraken.app.link/consumer-footer"
+        ],
+        "krakenpro.app.link": [
+            "https://krakenpro.app.link/0cdB50SkHFb",
+            "https://krakenpro.app.link/73iLkcdjHFb",
+            "https://krakenpro.app.link/pro-footer"
+        ],
+        "kwallet.app.link": [
+            "https://kwallet.app.link/mbgRVofwQIb"
+        ],
+        "nft.kraken.com": [
+            "https://nft.kraken.com"
+        ],
+        "pro.kraken.com": [
+            "https://pro.kraken.com/app/trade/btc-usd",
+            "https://pro.kraken.com/app/trade/margin-btc-usd"
+        ],
+        "status.kraken.com": [
+            "https://status.kraken.com/"
+        ],
+        "support.kraken.com": [
+            "https://support.kraken.com/hc/en-us",
+            "https://support.kraken.com/hc/en-us/articles/202967016-How-to-trade-on-leverage-and-margin",
+            "https://support.kraken.com/hc/en-us/articles/203325683-Differences-in-spot-trading-with-and-without-the-use-of-margin",
+            "https://support.kraken.com/hc/en-us/articles/203325783-Market-and-Limit-Orders",
+            "https://support.kraken.com/hc/en-us/articles/206161568-What-are-the-fees-for-margin-trading-",
+            "https://support.kraken.com/hc/en-us/articles/209238787-Margin-allowance-limits",
+            "https://support.kraken.com/hc/en-us/articles/360027545252-Kraken-Affiliate-program",
+            "https://support.kraken.com/hc/en-us/articles/4402532394260",
+            "https://support.kraken.com/hc/en-us/sections/200559303-Trading-Leverage-and-Margin",
+            "https://support.kraken.com/hc/en-us/sections/200560633-Margin-trading-terms-concepts",
+            "https://support.kraken.com/hc/en-us/sections/200560633-Terms-and-concepts-used-in-leveraged-and-margin-trading"
+        ],
+        "t.me": [
+            "https://t.me/kraken_exchange_official"
+        ],
+        "trade.kraken.com": [
+            "https://trade.kraken.com/markets",
+            "https://trade.kraken.com/markets/kraken/LDO/usd",
+            "https://trade.kraken.com/markets/kraken/apt/usd",
+            "https://trade.kraken.com/markets/kraken/arb/usd",
+            "https://trade.kraken.com/markets/kraken/blur/usd",
+            "https://trade.kraken.com/markets/kraken/ftm/usd",
+            "https://trade.kraken.com/markets/kraken/mina/usd",
+            "https://trade.kraken.com/markets/kraken/ocean/usd"
+        ],
+        "twitter.com": [
+            "https://twitter.com/krakenfx"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/KrakenFX/"
+        ],
+        "www.instagram.com": [
+            "https://www.instagram.com/krakenfx/"
+        ],
+        "www.kraken.com": [
+            "https://www.kraken.com/",
+            "https://www.kraken.com/careers",
+            "https://www.kraken.com/convert",
+            "https://www.kraken.com/convert/ada/usd",
+            "https://www.kraken.com/convert/btc/usd",
+            "https://www.kraken.com/convert/doge/usd",
+            "https://www.kraken.com/convert/eth/usd",
+            "https://www.kraken.com/convert/ltc/usd",
+            "https://www.kraken.com/convert/sol/usd",
+            "https://www.kraken.com/convert/xrp/usd",
+            "https://www.kraken.com/features",
+            "https://www.kraken.com/features/24-7-support",
+            "https://www.kraken.com/features/api-trading",
+            "https://www.kraken.com/features/fee-schedule",
+            "https://www.kraken.com/features/funding-options",
+            "https://www.kraken.com/features/futures",
+            "https://www.kraken.com/features/liquidity",
+            "https://www.kraken.com/features/margin-trading",
+            "https://www.kraken.com/features/margin-trading/aave",
+            "https://www.kraken.com/features/margin-trading/algorand",
+            "https://www.kraken.com/features/margin-trading/apecoin",
+            "https://www.kraken.com/features/margin-trading/avalanche",
+            "https://www.kraken.com/features/margin-trading/axie-infinity-shards",
+            "https://www.kraken.com/features/margin-trading/basic-attention-token",
+            "https://www.kraken.com/features/margin-trading/bitcoin",
+            "https://www.kraken.com/features/margin-trading/bitcoin-cash",
+            "https://www.kraken.com/features/margin-trading/cardano",
+            "https://www.kraken.com/features/margin-trading/chainlink",
+            "https://www.kraken.com/features/margin-trading/compound",
+            "https://www.kraken.com/features/margin-trading/cosmos",
+            "https://www.kraken.com/features/margin-trading/curve",
+            "https://www.kraken.com/features/margin-trading/dai",
+            "https://www.kraken.com/features/margin-trading/dash",
+            "https://www.kraken.com/features/margin-trading/decentraland",
+            "https://www.kraken.com/features/margin-trading/dogecoin",
+            "https://www.kraken.com/features/margin-trading/eosio",
+            "https://www.kraken.com/features/margin-trading/ethereum",
+            "https://www.kraken.com/features/margin-trading/ethereum-classic",
+            "https://www.kraken.com/features/margin-trading/filecoin",
+            "https://www.kraken.com/features/margin-trading/flow",
+            "https://www.kraken.com/features/margin-trading/kava",
+            "https://www.kraken.com/features/margin-trading/kusama",
+            "https://www.kraken.com/features/margin-trading/litecoin",
+            "https://www.kraken.com/features/margin-trading/loopring",
+            "https://www.kraken.com/features/margin-trading/monero",
+            "https://www.kraken.com/features/margin-trading/nano",
+            "https://www.kraken.com/features/margin-trading/omg-network",
+            "https://www.kraken.com/features/margin-trading/pax-gold",
+            "https://www.kraken.com/features/margin-trading/polkadot",
+            "https://www.kraken.com/features/margin-trading/polygon",
+            "https://www.kraken.com/features/margin-trading/ripple",
+            "https://www.kraken.com/features/margin-trading/siacoin",
+            "https://www.kraken.com/features/margin-trading/solana",
+            "https://www.kraken.com/features/margin-trading/stellar",
+            "https://www.kraken.com/features/margin-trading/tezos",
+            "https://www.kraken.com/features/margin-trading/the-graph",
+            "https://www.kraken.com/features/margin-trading/the-sandbox",
+            "https://www.kraken.com/features/margin-trading/tron",
+            "https://www.kraken.com/features/margin-trading/uniswap",
+            "https://www.kraken.com/features/margin-trading/usd-coin",
+            "https://www.kraken.com/features/margin-trading/waves",
+            "https://www.kraken.com/features/margin-trading/zcash",
+            "https://www.kraken.com/features/otc-exchange",
+            "https://www.kraken.com/features/rewards",
+            "https://www.kraken.com/features/security",
+            "https://www.kraken.com/institutions",
+            "https://www.kraken.com/institutions/custody",
+            "https://www.kraken.com/institutions/futures",
+            "https://www.kraken.com/institutions/otc",
+            "https://www.kraken.com/institutions/spot",
+            "https://www.kraken.com/institutions/staking",
+            "https://www.kraken.com/learn",
+            "https://www.kraken.com/learn/buy-bitcoin-btc",
+            "https://www.kraken.com/learn/buy-cardano-ada",
+            "https://www.kraken.com/learn/buy-crypto",
+            "https://www.kraken.com/learn/buy-dogecoin-doge",
+            "https://www.kraken.com/learn/buy-ethereum-eth",
+            "https://www.kraken.com/learn/buy-litecoin-ltc",
+            "https://www.kraken.com/learn/buy-ripple-xrp",
+            "https://www.kraken.com/learn/buy-solana-sol",
+            "https://www.kraken.com/learn/crypto-guides",
+            "https://www.kraken.com/learn/types-of-cryptocurrency",
+            "https://www.kraken.com/learn/what-are-non-fungible-tokens-nft",
+            "https://www.kraken.com/learn/what-is-bitcoin-btc",
+            "https://www.kraken.com/learn/what-is-blockchain-technology",
+            "https://www.kraken.com/learn/what-is-cryptocurrency",
+            "https://www.kraken.com/learn/what-is-decentralized-autonomous-organization-dao",
+            "https://www.kraken.com/learn/what-is-ethereum-eth",
+            "https://www.kraken.com/legal",
+            "https://www.kraken.com/legal/cookies",
+            "https://www.kraken.com/legal/disclosures",
+            "https://www.kraken.com/legal/privacy",
+            "https://www.kraken.com/listings",
+            "https://www.kraken.com/press",
+            "https://www.kraken.com/prices",
+            "https://www.kraken.com/prices/bitcoin",
+            "https://www.kraken.com/prices/cardano",
+            "https://www.kraken.com/prices/dogecoin",
+            "https://www.kraken.com/prices/ethereum",
+            "https://www.kraken.com/prices/litecoin",
+            "https://www.kraken.com/prices/solana",
+            "https://www.kraken.com/prices/xrp",
+            "https://www.kraken.com/proof-of-reserves",
+            "https://www.kraken.com/sign-in",
+            "https://www.kraken.com/sign-up?rfr=pro-web",
+            "https://www.kraken.com/wallet",
+            "https://www.kraken.com/why-kraken"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/krakenfx/"
+        ],
+        "www.reddit.com": [
+            "https://www.reddit.com/r/Kraken/"
+        ],
+        "www.tiktok.com": [
+            "https://www.tiktok.com/@krakenfx"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/c/KrakenBitcoinExchange"
+        ]
+    }
+}
