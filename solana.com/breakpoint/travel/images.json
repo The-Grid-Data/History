@@ -1,0 +1,13 @@
+{
+    "target_url": "https://solana.com/breakpoint/travel",
+    "domains": {
+        "cdn.builder.io": [
+            "https://cdn.builder.io/api/v1/image/assets%2Fce0c7323a97a4d91bd0baa7490ec9139%2F06c7ae7570314869b251b4f84612ae1a?width=300",
+            "https://cdn.builder.io/api/v1/pixel?apiKey=ce0c7323a97a4d91bd0baa7490ec9139"
+        ],
+        "solana.com": [
+            "https://solana.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbreakpoint-hero-2024.6d87d7b4.jpg&w=3840&q=75",
+            "https://solana.com/_next/static/media/logotype.e4df684f.svg"
+        ]
+    }
+}
