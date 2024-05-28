@@ -1,0 +1,164 @@
+{
+    "target_url": "https://www.ledger.com/blog/type-classes-in-scala3-a-beginners-guide",
+    "domains": {
+        "": [
+            "mailto:media@ledger.com"
+        ],
+        "co-branded.ledger.com": [
+            "https://co-branded.ledger.com/"
+        ],
+        "developers.ledger.com": [
+            "https://developers.ledger.com/"
+        ],
+        "discord.com": [
+            "https://discord.com/invite/ledger"
+        ],
+        "donjon.ledger.com": [
+            "https://donjon.ledger.com/bounty/"
+        ],
+        "enterprise.ledger.com": [
+            "https://enterprise.ledger.com/",
+            "https://enterprise.ledger.com?utm_source=mainsite&utm_medium=header"
+        ],
+        "github.com": [
+            "https://github.com/jprudent/type-class-article",
+            "https://github.com/jprudent/type-class-article/blob/173e87f836d7ac0cbcb2e7265ae07217f2c424ab/main.sc",
+            "https://github.com/jprudent/type-class-article/blob/31c6c713513aef8fd73b62c1983e8a21692d2c28/main.sc",
+            "https://github.com/jprudent/type-class-article/blob/323ae6432a327fcff4f62f214b70cc57af4ad1d0/main.sc",
+            "https://github.com/jprudent/type-class-article/blob/396cd07bf1d0c0ff3aa142cf9756c098e6f3ddb3/main.sc",
+            "https://github.com/jprudent/type-class-article/blob/47ce38569321738c5efe60ef37480b3cd768ae61/main.sc",
+            "https://github.com/jprudent/type-class-article/blob/48888cfeb2638dde245e5de847e2363b340f0c4c/main.sc",
+            "https://github.com/jprudent/type-class-article/blob/64b978f238f9dc09d88dfd51ac1084d606e03053/main.sc",
+            "https://github.com/jprudent/type-class-article/blob/6b8b5932c867971fa5f88d44a798a42e77adfce5/main.sc",
+            "https://github.com/jprudent/type-class-article/blob/91028348933afc645287cff05cfa7a6ed7a747ab/main.sc",
+            "https://github.com/jprudent/type-class-article/blob/bb3f3109c5d23c9b8508639f339f4065032fe673/main.sc",
+            "https://github.com/jprudent/type-class-article/blob/d73b62b892a42cdee1ae378ea8b3a85de90e0be5/main.sc",
+            "https://github.com/jprudent/type-class-article/blob/e254ec80c7e63a72c6842cfc8aa710b49f8c7862/main.sc",
+            "https://github.com/scala/scala/blob/2.13.x/src/library/scala/math/Numeric.scala#L221"
+        ],
+        "homepages.inf.ed.ac.uk": [
+            "https://homepages.inf.ed.ac.uk/wadler/papers/expression/expression.txt"
+        ],
+        "quest.ledger.com": [
+            "https://quest.ledger.com/"
+        ],
+        "shop.ledger.com": [
+            "https://shop.ledger.com",
+            "https://shop.ledger.com/#category-accessories",
+            "https://shop.ledger.com/#category-bundle",
+            "https://shop.ledger.com/cart",
+            "https://shop.ledger.com/pages/bitcoin-hardware-wallet",
+            "https://shop.ledger.com/pages/cookie-policy",
+            "https://shop.ledger.com/pages/disclaimers",
+            "https://shop.ledger.com/pages/hardware-wallets-comparison",
+            "https://shop.ledger.com/pages/ledger-nano-s-plus",
+            "https://shop.ledger.com/pages/ledger-nano-x",
+            "https://shop.ledger.com/pages/ledger-recover",
+            "https://shop.ledger.com/pages/ledger-stax",
+            "https://shop.ledger.com/pages/privacy-notice#ledger-newsletter",
+            "https://shop.ledger.com/pages/terms-and-conditions"
+        ],
+        "status.ledger.com": [
+            "https://status.ledger.com/"
+        ],
+        "support.ledger.com": [
+            "https://support.ledger.com/hc"
+        ],
+        "twitter.com": [
+            "https://twitter.com/Ledger"
+        ],
+        "web.archive.org": [
+            "https://web.archive.org/web/20221027022726/https://circe.github.io/circe/codecs/auto-derivation.html",
+            "https://web.archive.org/web/20221127094623/https://circe.github.io/circe/codecs/semiauto-derivation.html"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/Ledger/"
+        ],
+        "www.instagram.com": [
+            "https://www.instagram.com/ledger/"
+        ],
+        "www.ledger.com": [
+            "https://www.ledger.com",
+            "https://www.ledger.com/academy",
+            "https://www.ledger.com/academy/basic-basics/2-how-to-own-crypto/what-is-a-crypto-wallet",
+            "https://www.ledger.com/academy/what-is-web-30-everything-you-need-to-know",
+            "https://www.ledger.com/blog",
+            "https://www.ledger.com/blog-cargo-checkct-our-home-made-tool-guarding-against-timing-attacks-is-now-open-source",
+            "https://www.ledger.com/blog-ledger-stax-now-shipping-a-message-from-ledgers-ceo-pascal-gauthier",
+            "https://www.ledger.com/blog/device-apps-tutorials",
+            "https://www.ledger.com/blog/type-classes-in-scala3-a-beginners-guide",
+            "https://www.ledger.com/blog/type-classes-in-scala3-a-beginners-guide#1",
+            "https://www.ledger.com/blog/type-classes-in-scala3-a-beginners-guide#1.1",
+            "https://www.ledger.com/blog/type-classes-in-scala3-a-beginners-guide#1.2",
+            "https://www.ledger.com/blog/type-classes-in-scala3-a-beginners-guide#2",
+            "https://www.ledger.com/blog/type-classes-in-scala3-a-beginners-guide#2.1",
+            "https://www.ledger.com/blog/type-classes-in-scala3-a-beginners-guide#2.2",
+            "https://www.ledger.com/blog/type-classes-in-scala3-a-beginners-guide#2.3",
+            "https://www.ledger.com/blog/type-classes-in-scala3-a-beginners-guide#2.4",
+            "https://www.ledger.com/blog/type-classes-in-scala3-a-beginners-guide#3",
+            "https://www.ledger.com/blog/type-classes-in-scala3-a-beginners-guide#3.1",
+            "https://www.ledger.com/blog/type-classes-in-scala3-a-beginners-guide#3.2",
+            "https://www.ledger.com/blog/type-classes-in-scala3-a-beginners-guide#3.3",
+            "https://www.ledger.com/blog/type-classes-in-scala3-a-beginners-guide#3.4",
+            "https://www.ledger.com/blog/type-classes-in-scala3-a-beginners-guide#3.5",
+            "https://www.ledger.com/blog/type-classes-in-scala3-a-beginners-guide#4",
+            "https://www.ledger.com/blog/type-classes-in-scala3-a-beginners-guide#5",
+            "https://www.ledger.com/blog/type-classes-in-scala3-a-beginners-guide#6",
+            "https://www.ledger.com/blog/we-are-ledger-a-brand-vision",
+            "https://www.ledger.com/buy",
+            "https://www.ledger.com/buy-bitcoin",
+            "https://www.ledger.com/buy-bitcoin/how",
+            "https://www.ledger.com/career",
+            "https://www.ledger.com/category/blog-posts",
+            "https://www.ledger.com/category/company-news",
+            "https://www.ledger.com/category/donjon",
+            "https://www.ledger.com/category/tech",
+            "https://www.ledger.com/cathay-ledger-fund",
+            "https://www.ledger.com/cl-card",
+            "https://www.ledger.com/coin/price",
+            "https://www.ledger.com/coin/wallet/bitcoin",
+            "https://www.ledger.com/coin/wallet/cardano",
+            "https://www.ledger.com/coin/wallet/ethereum",
+            "https://www.ledger.com/coin/wallet/monero",
+            "https://www.ledger.com/coin/wallet/ripple",
+            "https://www.ledger.com/coin/wallet/tether",
+            "https://www.ledger.com/collaborations",
+            "https://www.ledger.com/diversity",
+            "https://www.ledger.com/jobs",
+            "https://www.ledger.com/ledger-live",
+            "https://www.ledger.com/ledger-wallets-and-services",
+            "https://www.ledger.com/legal-center",
+            "https://www.ledger.com/partners",
+            "https://www.ledger.com/press",
+            "https://www.ledger.com/privacy-policy",
+            "https://www.ledger.com/reseller",
+            "https://www.ledger.com/staking",
+            "https://www.ledger.com/start",
+            "https://www.ledger.com/supported-crypto-assets",
+            "https://www.ledger.com/supported-services",
+            "https://www.ledger.com/swap",
+            "https://www.ledger.com/the-company",
+            "https://www.ledger.com/the-people-behind-ledger"
+        ],
+        "www.ledgerwallet.com": [
+            "https://www.ledgerwallet.com/affiliates/"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/ledgerhq",
+            "https://www.linkedin.com/company/ledgerhq/",
+            "https://www.linkedin.com/in/jprudent"
+        ],
+        "www.onetrust.com": [
+            "https://www.onetrust.com/products/cookie-consent/"
+        ],
+        "www.reddit.com": [
+            "https://www.reddit.com/r/ledgerwallet/"
+        ],
+        "www.tiktok.com": [
+            "https://www.tiktok.com/@ledger"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/Ledger"
+        ]
+    }
+}
