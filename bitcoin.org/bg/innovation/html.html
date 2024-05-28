@@ -1,0 +1,764 @@
+<!DOCTYPE html><html lang="bg"><head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>ÐÐ½Ð¾Ð²Ð°ÑÐ¸Ð¸ - ÐÐ¸ÑÐºÐ¾Ð¹Ð½</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+<link rel="stylesheet" href="/css/sans.css?1716491272">
+<script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.org is a community funded project, donations are appreciated and used to improve the website.
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        Make a donation
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.org needs your support!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">Donate to Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">Use this QR code or address below</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="Or custom amount? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="Or custom amount? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="Optional description (for your wallet)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="/bg/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">ÐÑÐ²ÐµÐ´ÐµÐ½Ð¸Ðµ</a>
+    <ul>
+      <li><a href="/bg/bitcoin-for-individuals">Ð§Ð°ÑÑÐ½Ð¸ Ð»Ð¸ÑÐ°</a></li>
+      <li><a href="/bg/bitcoin-for-businesses">Ð¤Ð¸ÑÐ¼Ð¸</a></li>
+      <li><a href="https://developer.bitcoin.org/">Ð Ð°Ð·ÑÐ°Ð±Ð¾ÑÑÐ¸ÑÐ¸</a></li>
+      <li><a href="/bg/getting-started">ÐÑÑÐ²Ð¸ ÑÑÑÐ¿ÐºÐ¸</a></li>
+      <li><a href="/bg/how-it-works">ÐÐ°Ðº ÑÐ°Ð±Ð¾ÑÐ¸</a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">Ð ÐµÑÑÑÑÐ¸</a>
+    <ul>
+      <li><a href="/bg/resources">Ð ÐµÑÑÑÑÐ¸</a>
+      </li><li><a href="/bg/exchanges">Exchanges</a></li>
+      <li><a href="/bg/community">ÐÐ±ÑÐ½Ð¾ÑÑ</a></li>
+      
+      
+      <li><a href="/bg/vocabulary">Ð ÐµÑÐ½Ð¸Ðº</a></li>
+      <li><a href="/bg/events">Ð¡ÑÐ±Ð¸ÑÐ¸Ñ</a></li>
+      
+        <li><a href="/bg/download">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li class="active"><a href="/bg/innovation">ÐÐ½Ð¾Ð²Ð°ÑÐ¸Ñ</a></li>
+  <li><a class="is-expand">Ð£ÑÐ°ÑÑÐ²Ð°Ð¹ÑÐµ</a>
+    <ul>
+      <li><a href="/bg/support-bitcoin">ÐÐ¾Ð¿ÑÐ¸Ð½ÐµÑÐµÑÐµ ÐºÑÐ¼ ÐÐ¸ÑÐºÐ¾Ð¹Ð½</a>
+      </li><li><a href="/bg/buy">Buy Bitcoin</a></li>
+      
+      <li><a href="/bg/development">Ð Ð°Ð·Ð²Ð¸ÑÐ¸Ðµ</a></li>
+    </ul>
+  </li>
+  <li><a href="/bg/faq">Ð§ÐÐ</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/inovasi">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/innovacio">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/innovation">Dansk</a></li>
+        
+        
+          <li><a href="/de/innovation">Deutsch</a></li>
+        
+        
+          <li><a href="/en/innovation">English</a></li>
+        
+        
+          <li><a href="/es/innovacion">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/innovation">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/innovazione">Italiano</a></li>
+        
+        
+          <li><a href="/hu/innovacio">Magyar</a></li>
+        
+        
+          <li><a href="/nl/innovatie">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/innowacje">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/inovacao">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/inovatie">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/inovacije">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/inovacija">Srpski</a></li>
+        
+        
+          <li><a href="/sv/innovation">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/yenilik">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/innovation">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/innovation" class="active">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/innovation">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/innovation">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/innovation">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/innovation">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/innovation">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/innovation">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/innovation">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/innovation">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/innovation">ááááá</a></li>
+        
+        
+          <li><a href="/ja/innovation">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/innovation">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/innovation">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/inovasi">Bahasa Indonesia</option>
+            
+            <option value="/ca/innovacio">CatalÃ </option>
+            
+            <option value="/da/innovation">Dansk</option>
+            
+            <option value="/de/innovation">Deutsch</option>
+            
+            <option value="/en/innovation">English</option>
+            
+            <option value="/es/innovacion">EspaÃ±ol</option>
+            
+            <option value="/fr/innovation">FranÃ§ais</option>
+            
+            <option value="/it/innovazione">Italiano</option>
+            
+            <option value="/hu/innovacio">Magyar</option>
+            
+            <option value="/nl/innovatie">Nederlands</option>
+            
+            <option value="/pl/innowacje">Polski</option>
+            
+            <option value="/pt_BR/inovacao">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/inovatie">RomÃ¢nÄ</option>
+            
+            <option value="/sl/inovacije">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/inovacija">Srpski</option>
+            
+            <option value="/sv/innovation">Svenska</option>
+            
+            <option value="/tr/yenilik">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/innovation">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/innovation" selected="selected">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/innovation">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/innovation">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/innovation">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/innovation">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/innovation">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/innovation">×¢××¨××ª</option>
+            
+            <option value="/hi/innovation">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/innovation">íêµ­ì´</option>
+            
+            <option value="/km/innovation">ááááá</option>
+            
+            <option value="/ja/innovation">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/innovation">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/innovation">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">bg</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  <div class="hero">
+  <div class="container hero-container">
+    <h1>ÐÐ½Ð¾Ð²Ð°ÑÐ¸Ñ Ð² ÑÐ°Ð·Ð¿Ð»Ð°ÑÐ°ÑÐµÐ»Ð½Ð¸ÑÐµ ÑÐ¸ÑÑÐµÐ¼Ð¸</h1>
+    <p class="summarytxt">Ð¤ÑÐ½ÐºÑÐ¸ÑÑÐ° Ð½Ð° ÐÐ¸ÑÐºÐ¾Ð¹Ð½ Ð¿ÑÐ¾ÑÐ¾ÐºÐ¾Ð»Ð° Ð½Ðµ Ðµ ÑÐ°Ð¼Ð¾ Ð´Ð° Ð¸Ð·Ð¿ÑÐ°ÑÐ° Ð¿Ð°ÑÐ¸ Ð¾Ñ ÑÐ¾ÑÐºÐ° Ð Ð´Ð¾ ÑÐ¾ÑÐºÐ° Ð. Ð¢Ð¾Ð¹ Ð¸Ð¼Ð° Ð¼Ð½Ð¾Ð³Ð¾ Ð´ÑÑÐ³Ð¸ ÑÑÐ½ÐºÑÐ¸Ð¸ Ð¸ Ð¾ÑÐ²Ð°ÑÑ Ð¼Ð½Ð¾Ð³Ð¾ Ð²ÑÐ·Ð¼Ð¾Ð¶Ð½Ð¾ÑÑÐ¸, ÐºÐ¾Ð¸ÑÐ¾ Ð¾Ð±ÑÐ½Ð¾ÑÑÑÐ° Ð²ÑÐµ Ð¾ÑÐµ Ð¿ÑÐ¾ÑÑÐ²Ð°. ÐÑÐºÐ¾Ð¸ Ð¾Ñ ÑÑÑ Ð²ÐµÑÐµ ÑÐ° Ð¿ÑÐµÐ²ÑÑÐ½Ð°ÑÐ¸ Ð² ÑÐµÐ°Ð»Ð½Ð¸ Ð¿ÑÐ¾Ð´ÑÐºÑÐ¸ Ð¸ ÑÑÐ»ÑÐ³Ð¸. ÐÐ°Ð¹-Ð²ÐµÑÐ¾ÑÑÐ½Ð¾ Ð½ÑÐºÐ¾Ð¸ Ð¾Ñ Ð½Ð°Ð¹-Ð¸Ð½ÑÐµÑÐµÑÐ½Ð¸ÑÐµ Ð½Ð°ÑÐ¸Ð½Ð¸ Ð·Ð° ÑÐ¿Ð¾ÑÑÐµÐ±Ð° Ð½Ð° ÐÐ¸ÑÐºÐ¾Ð¹Ð½ ÑÐµÐ¿ÑÑÐ²Ð° ÑÐµ Ð±ÑÐ´Ð°Ñ ÑÐ°Ð·ÐºÑÐ¸Ð²Ð°Ð½Ð¸.</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row card-row">
+
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/ico_control.svg?1716491272" alt="Icon">
+      <h2 id="control" class=" anchorAf"><a href="#control"></a>ÐÐ¾Ð½ÑÑÐ¾Ð» ÑÑÐµÑÑ Ð¸Ð·Ð¼Ð°Ð¼Ð¸</h2>
+      <p>Ð¡ ÐÐ¸ÑÐºÐ¾Ð¹Ð½ Ðµ Ð²ÑÐ·Ð¼Ð¾Ð¶Ð½Ð¾ Ð¿Ð¾ÑÑÐ¸Ð³Ð°Ð½ÐµÑÐ¾ Ð½Ð° Ð±ÐµÐ·Ð¿ÑÐµÑÐµÐ´ÐµÐ½ÑÐ½Ð¾ Ð½Ð¸Ð²Ð¾ Ð½Ð° ÑÐ¸Ð³ÑÑÐ½Ð¾ÑÑ. ÐÑÐµÐ¶Ð°ÑÐ° Ð¿ÑÐµÐ´Ð¾ÑÑÐ°Ð²Ñ Ð½Ð° Ð¿Ð¾ÑÑÐµÐ±Ð¸ÑÐµÐ»Ð¸ÑÐµ Ð·Ð°ÑÐ¸ÑÐ° ÑÑÐµÑÑ Ð½Ð°Ð¹-ÑÐµÑÑÐ¾ ÑÑÐµÑÐ°Ð½Ð¸ÑÐµ Ð¸Ð·Ð¼Ð°Ð¼Ð¸ ÐºÐ°ÑÐ¾ Ð¾ÑÐ¼ÑÐ½Ð° Ð½Ð° Ð¿Ð»Ð°ÑÐ°Ð½Ðµ Ð¸Ð»Ð¸ Ð½ÐµÐ¶ÐµÐ»Ð°Ð½Ð¸ ÑÐ°ÐºÑÐ¸. ÐÑÐ²ÐµÐ½ ÑÐ¾Ð²Ð°, Ð±Ð¸ÑÐºÐ¾Ð¹Ð½Ð¸ÑÐµ Ð½Ðµ Ð¼Ð¾Ð³Ð°Ñ Ð´Ð° Ð±ÑÐ´Ð°Ñ ÑÐ°Ð»ÑÐ¸ÑÐ¸ÑÐ¸ÑÐ°Ð½Ð¸. ÐÐ¾ÑÑÐµÐ±Ð¸ÑÐµÐ»Ð¸ÑÐµ Ð¼Ð¾Ð³Ð°Ñ Ð´Ð° Ð°ÑÑÐ¸Ð²Ð¸ÑÐ°Ñ Ð¸Ð»Ð¸ ÐºÑÐ¸Ð¿ÑÐ¸ÑÐ°Ñ Ð¿Ð¾ÑÑÑÐµÐ¹Ð»Ð¸ÑÐµ ÑÐ¸, Ð° ÑÐ°ÑÐ´ÑÐµÑÐ½Ð¸ÑÐµ Ð¿Ð¾ÑÑÑÐµÐ¹Ð»Ð¸ Ð¼Ð¾Ð³Ð°Ñ Ð´Ð° Ð·Ð°ÑÑÑÐ´Ð½ÑÑ Ð·Ð½Ð°ÑÐ¸ÑÐµÐ»Ð½Ð¾ ÐºÑÐ°Ð¶Ð±Ð¸ÑÐµ Ð¸Ð»Ð¸ Ð·Ð°Ð³ÑÐ±Ð¸ÑÐµ Ð½Ð° Ð¿Ð°ÑÐ¸ Ð² Ð±ÑÐ´ÐµÑÐµÑÐ¾. ÐÐ¸ÑÐºÐ¾Ð¹Ð½ Ðµ ÑÑÐ·Ð´Ð°Ð´ÐµÐ½ Ñ Ð¸Ð´ÐµÑÑÐ° Ð´Ð° Ð¿Ð¾Ð·Ð²Ð¾Ð»Ð¸ Ð½Ð° Ð¿Ð¾ÑÑÐµÐ±Ð¸ÑÐµÐ»Ð¸ÑÐµ ÑÐ¸ Ð´Ð° Ð¸Ð¼Ð°Ñ Ð¿ÑÐ»ÐµÐ½ ÐºÐ¾Ð½ÑÑÐ¾Ð» Ð²ÑÑÑÑ ÑÐ²Ð¾Ð¸ÑÐµ Ð¿Ð°ÑÐ¸.</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/accessibility.svg?1716491272" alt="Icon">
+      <h2 id="global" class=" anchorAf"><a href="#global"></a>ÐÐ»Ð¾Ð±Ð°Ð»Ð½Ð° Ð´Ð¾ÑÑÑÐ¿Ð½Ð¾ÑÑ</h2>
+      <p>ÐÑÐ¸ÑÐºÐ¸ Ð¿Ð»Ð°ÑÐ°Ð½Ð¸Ñ Ð¿Ð¾ ÑÐ²ÐµÑÐ° Ð¼Ð¾Ð³Ð°Ñ Ð´Ð° Ð±ÑÐ´Ð°Ñ ÑÑÐ²Ð¼ÐµÑÑÐ¸Ð¼Ð¸. ÐÐ¸ÑÐºÐ¾Ð¹Ð½ Ð¿Ð¾Ð·Ð²Ð¾Ð»ÑÐ²Ð° Ð½Ð° Ð±Ð°Ð½ÐºÐ¸, ÐºÐ¾Ð¼Ð¿Ð°Ð½Ð¸Ð¸ Ð¸ ÑÐ°ÑÑÐ½Ð¸ Ð»Ð¸ÑÐ° Ð´Ð° Ð¸Ð·Ð¿ÑÐ°ÑÐ°Ñ Ð¸ Ð¿Ð¾Ð»ÑÑÐ°Ð²Ð°Ñ Ð¿Ð°ÑÐ¸ Ñ Ð²Ð¸ÑÐ¾ÐºÐ° Ð½Ð¸Ð²Ð¾ Ð½Ð° ÑÐ¸Ð³ÑÑÐ½Ð¾ÑÑ Ð½Ð°Ð²ÑÑÐºÑÐ´Ðµ, Ð¿Ð¾ Ð²ÑÑÐºÐ¾ Ð²ÑÐµÐ¼Ðµ Ð¸ Ð½ÐµÐ·Ð°Ð²Ð¸ÑÐ¸Ð¼Ð¾ Ð´Ð°Ð»Ð¸ Ð¿ÑÐ¸ÑÐµÐ¶Ð°Ð²Ð°Ñ Ð¸Ð»Ð¸ Ð½Ðµ Ð±Ð°Ð½ÐºÐ¾Ð²Ð° ÑÐ¼ÐµÑÐºÐ°. ÐÐ¸ÑÐºÐ¾Ð¹Ð½ Ðµ Ð´Ð¾ÑÑÑÐ¿ÐµÐ½ Ð² Ð³Ð¾Ð»ÑÐ¼ Ð±ÑÐ¾Ð¹ Ð´ÑÑÐ¶Ð°Ð²Ð¸, ÑÐ¸Ð¸ÑÐ¾ ÑÐ°Ð·Ð¿Ð»Ð°ÑÐ°ÑÐµÐ»Ð½Ð¸ ÑÐ¸ÑÑÐµÐ¼Ð¸ Ð²ÑÐµ Ð¾ÑÐµ Ð½Ðµ Ð¼Ð¾Ð³Ð°Ñ Ð´Ð° Ð³Ð¾ Ð¿Ð¾Ð»Ð·Ð²Ð°Ñ Ð·Ð°ÑÐ°Ð´Ð¸ ÑÐ²Ð¾Ð¸ÑÐµ ÑÐ¾Ð±ÑÑÐ²ÐµÐ½Ð¸ Ð¾Ð³ÑÐ°Ð½Ð¸ÑÐµÐ½Ð¸Ñ. ÐÐ¸ÑÐºÐ¾Ð¹Ð½ Ð·Ð°ÑÐ¸Ð»Ð²Ð° Ð³Ð»Ð¾Ð±Ð°Ð»Ð½Ð¸Ñ Ð´Ð¾ÑÑÑÐ¿ Ð´Ð¾ ÑÑÑÐ³Ð¾Ð²Ð¸ÑÑÐ° Ð¸ Ð¼Ð¾Ð¶Ðµ Ð´Ð° ÑÑÐ¸Ð¼ÑÐ»Ð¸ÑÐ° Ð¼ÐµÐ¶Ð´ÑÐ½Ð°ÑÐ¾Ð´Ð½Ð¸ÑÐµ ÑÐ´ÐµÐ»ÐºÐ¸.</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/efficiency.svg?1716491272" alt="Icon">
+      <h2 id="cost" class=" anchorAf"><a href="#cost"></a>ÐÑÐµÐºÑÐ¸Ð²Ð½Ð¾ÑÑ Ð½Ð° ÑÐ°Ð·ÑÐ¾Ð´Ð¸ÑÐµ</h2>
+      <p>ÐÐ»Ð°Ð³Ð¾Ð´Ð°ÑÐµÐ½Ð¸Ðµ Ð½Ð° ÑÐ¿Ð¾ÑÑÐµÐ±Ð°ÑÐ° Ð½Ð° ÐºÑÐ¸Ð¿ÑÐ¾Ð³ÑÐ°ÑÐ¸ÑÑÐ°, Ðµ Ð²ÑÐ·Ð¼Ð¾Ð¶Ð½Ð¾ Ð´Ð° ÑÐµ Ð¸Ð·Ð²ÑÑÑÐ²Ð°Ñ ÑÐ¸Ð³ÑÑÐ½Ð¸ Ð¿Ð»Ð°ÑÐ°Ð½Ð¸Ñ Ð±ÐµÐ· Ð±Ð°Ð²Ð½Ð¸ Ð¸ ÑÐºÑÐ¿Ð¾ÑÑÑÑÐ²Ð°ÑÐ¸ Ð¿Ð¾ÑÑÐµÐ´Ð½Ð¸ÑÐ¸. ÐÐ¸ÑÐºÐ¾Ð¹Ð½ ÑÑÐ°Ð½Ð·Ð°ÐºÑÐ¸ÑÑÐ° Ð¼Ð¾Ð¶Ðµ Ð´Ð° ÑÐµ Ð¸Ð·Ð²ÑÑÑÐ¸ Ð½Ð° Ð¼Ð½Ð¾Ð³Ð¾ Ð¿Ð¾-Ð½Ð¸ÑÐºÐ° ÑÐµÐ½Ð° Ð¸ Ð·Ð° Ð·Ð½Ð°ÑÐ¸ÑÐµÐ»Ð½Ð¾ Ð¿Ð¾-ÐºÑÐ°ÑÐºÐ¾ Ð²ÑÐµÐ¼Ðµ, Ð¾ÑÐºÐ¾Ð»ÐºÐ¾ÑÐ¾ Ð½ÐµÐ¹Ð½Ð¸ÑÐµ Ð°Ð»ÑÐµÑÐ½Ð°ÑÐ¸Ð²Ð¸. Ð¢Ð¾Ð²Ð° Ð¾Ð·Ð½Ð°ÑÐ°Ð²Ð°, ÑÐµ ÐÐ¸ÑÐºÐ¾Ð¹Ð½ Ð¸Ð¼Ð° Ð¿Ð¾ÑÐµÐ½ÑÐ¸Ð°Ð»Ð° Ð´Ð° ÑÐµ Ð¿ÑÐµÐ²ÑÑÐ½Ðµ Ð² Ð¾Ð±Ð¸ÑÐ°ÐµÐ½ Ð¼ÐµÑÐ¾Ð´ Ð·Ð° Ð¿ÑÐµÑÐ²ÑÑÐ»ÑÐ½Ðµ Ð½Ð° Ð²Ð°Ð»ÑÑÐ° Ð² Ð±ÑÐ´ÐµÑÐµÑÐ¾. ÐÐ¸ÑÐºÐ¾Ð¹Ð½ ÑÑÑÐ¾ Ð¼Ð¾Ð¶Ðµ Ð´Ð° ÑÐ¿Ð¾Ð¼Ð¾Ð³Ð½Ðµ Ð·Ð° <a href="https://www.youtube.com/watch?v=BrRXP1tp6Kw">Ð½Ð°Ð¼Ð°Ð»ÑÐ²Ð°Ð½Ðµ Ð½Ð° Ð±ÐµÐ´Ð½Ð¾ÑÑÑÐ°</a>, ÐºÐ°ÑÐ¾ Ð½Ð°Ð¼Ð°Ð»Ð¸ Ð²Ð¸ÑÐ¾ÐºÐ¸ÑÐµ ÑÐ°ÐºÑÐ¸ Ð·Ð° Ð¿ÑÐµÐ²Ð¾Ð´ Ð½Ð° ÑÐ°Ð±Ð¾ÑÐ½Ð¸ÑÐµ Ð·Ð°Ð¿Ð»Ð°ÑÐ¸.</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/donation.svg?1716491272" alt="Icon">
+      <h2 id="donation" class=" anchorAf"><a href="#donation"></a>ÐÑÐ·Ð½Ð°Ð³ÑÐ°Ð¶Ð´ÐµÐ½Ð¸Ñ Ð¸ Ð´Ð°ÑÐµÐ½Ð¸Ñ</h2>
+      <p>ÐÐ¸ÑÐºÐ¾Ð¹Ð½ Ðµ Ð¾ÑÐ¾Ð±ÐµÐ½Ð¾ ÐµÑÐµÐºÑÐ¸Ð²Ð½Ð¾ ÑÐµÑÐµÐ½Ð¸Ðµ Ð·Ð° Ð¿Ð»Ð°ÑÐ°Ð½Ð¸Ñ Ð¸ Ð´Ð°ÑÐµÐ½Ð¸Ñ Ð² Ð½ÑÐºÐ¾Ð»ÐºÐ¾ ÑÐ»ÑÑÐ°Ñ. ÐÐ·Ð²ÑÑÑÐ²Ð°Ð½ÐµÑÐ¾ Ð½Ð° Ð¿Ð»Ð°ÑÐ°Ð½Ðµ Ð¸Ð·Ð¸ÑÐºÐ²Ð° ÑÐ°Ð¼Ð¾ ÐµÐ´Ð½Ð¾ ÐºÐ»Ð¸ÐºÐ²Ð°Ð½Ðµ, Ð° Ð¿Ð¾Ð»ÑÑÐ°Ð²Ð°Ð½ÐµÑÐ¾ Ð½Ð° Ð´Ð°ÑÐµÐ½Ð¸Ñ Ð¼Ð¾Ð¶Ðµ Ð´Ð° Ð±ÑÐ´Ðµ ÑÐ²ÐµÐ´ÐµÐ½Ð¾ Ð´Ð¾ Ð¿Ð¾ÐºÐ°Ð·Ð²Ð°Ð½ÐµÑÐ¾ Ð½Ð° QR ÐºÐ¾Ð´. ÐÐ°ÑÐµÐ½Ð¸ÑÑÐ° Ð¼Ð¾Ð³Ð°Ñ Ð´Ð° Ð±ÑÐ´Ð°Ñ Ð²Ð¸Ð´Ð¸Ð¼Ð¸ Ð·Ð° Ð¾Ð±ÑÐµÑÑÐ²Ð¾ÑÐ¾, ÐºÐ°ÑÐ¾ Ð¾ÑÐ¸Ð³ÑÑÑÐ²Ð°Ñ Ð¿Ð¾-Ð³Ð¾Ð»ÑÐ¼Ð° Ð¿ÑÐ¾Ð·ÑÐ°ÑÐ½Ð¾ÑÑ Ð½Ð° Ð¾ÑÐ³Ð°Ð½Ð¸Ð·Ð°ÑÐ¸Ð¸ Ñ Ð½ÐµÑÑÐ¾Ð¿Ð°Ð½ÑÐºÐ° ÑÐµÐ». Ð ÑÐ»ÑÑÐ°Ð¸ Ð½Ð° Ð¸Ð·Ð²ÑÐ½ÑÐµÐ´Ð½Ð¸ ÑÐ¸ÑÑÐ°ÑÐ¸Ð¸, ÐºÐ°ÑÐ¾ Ð¿ÑÐ¸ÑÐ¾Ð´Ð½Ð¸ Ð±ÐµÐ´ÑÑÐ²Ð¸Ñ, ÐÐ¸ÑÐºÐ¾Ð¹Ð½ Ð´Ð°ÑÐµÐ½Ð¸ÑÑÐ° Ð¼Ð¾Ð³Ð°Ñ Ð´Ð° Ð´Ð¾Ð¿ÑÐ¸Ð½ÐµÑÐ°Ñ Ð·Ð° Ð¿Ð¾-Ð±ÑÑÐ·Ð°ÑÐ° ÑÐµÐ°ÐºÑÐ¸Ñ Ð½Ð° Ð¼ÐµÐ¶Ð´ÑÐ½Ð°ÑÐ¾Ð´Ð½Ð¾ Ð½Ð¸Ð²Ð¾.</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/crowdfunding.svg?1716491272" alt="Icon">
+      <h2 id="crowdfunding" class=" anchorAf"><a href="#crowdfunding"></a>ÐÑÑÐ¿Ð¾Ð²Ð¾ ÑÐ¸Ð½Ð°Ð½ÑÐ¸ÑÐ°Ð½Ðµ</h2>
+      <p>ÐÑÐ¿ÑÐµÐºÐ¸ ÑÐµ Ð²ÑÐµ Ð¾ÑÐµ Ð½Ðµ Ðµ ÑÐ¾Ð»ÐºÐ¾Ð²Ð° Ð´Ð¾Ð±ÑÐµ ÑÐ°Ð·Ð²Ð¸Ñ, ÑÐ¾Ð·Ð¸ Ð°ÑÐ¿ÐµÐºÑ Ð½Ð° ÐÐ¸ÑÐºÐ¾Ð¹Ð½ Ð¼Ð¾Ð¶Ðµ Ð´Ð° Ð±ÑÐ´Ðµ Ð¸Ð·Ð¿Ð¾Ð»Ð·Ð²Ð°Ð½ Ð·Ð° Ð³ÑÑÐ¿Ð¾Ð²Ð¾ ÑÐ¸Ð½Ð°Ð½ÑÐ¸ÑÐ°Ð½Ðµ Ð½Ð° ÐºÐ°Ð¼Ð¿Ð°Ð½Ð¸Ð¸. ÐÑÐ¸ ÑÑÑ Ð¿Ð¾ÑÑÐµÐ±Ð¸ÑÐµÐ»Ð¸ÑÐµ Ð¿ÑÐ°Ð²ÑÑ Ð·Ð°ÑÐ²ÐºÐ° Ð´Ð° Ð¸Ð·Ð¿ÑÐ°ÑÑÑ Ð¿Ð°ÑÐ¸ Ð·Ð° Ð´Ð°Ð´ÐµÐ½ Ð¿ÑÐ¾ÐµÐºÑ, ÐºÐ°ÑÐ¾ ÑÑÐµÐ´ÑÑÐ²Ð°ÑÐ°, ÐºÐ¾Ð¸ÑÐ¾ ÑÐ° Ð·Ð°ÑÐ²Ð¸Ð»Ð¸ Ð±Ð¸Ð²Ð°Ñ ÑÑÐ²Ð¾ÐµÐ½Ð¸, ÐµÐ´Ð¸Ð½ÑÑÐ²ÐµÐ½Ð¾, Ð°ÐºÐ¾ ÑÐ° ÑÑÐ±ÑÐ°Ð½Ð¸ Ð² Ð´Ð¾ÑÑÐ°ÑÑÑÐ½Ð¾ ÐºÐ¾Ð»Ð¸ÑÐµÑÑÐ²Ð¾, Ð·Ð° Ð´Ð° Ð¿Ð¾ÐºÑÐ¸ÑÑ ÑÐµÐ»ÑÐ°. Ð¢Ð°ÐºÐ¸Ð²Ð° Ð´Ð¾Ð³Ð¾Ð²Ð¾ÑÐ¸ ÑÐµ Ð¾Ð±ÑÐ°Ð±Ð¾ÑÐ²Ð°Ñ Ð¾Ñ ÐÐ¸ÑÐºÐ¾Ð¹Ð½ Ð¿ÑÐ¾ÑÐ¾ÐºÐ¾Ð»Ð°, ÐºÐ¾Ð¹ÑÐ¾ Ð½Ðµ Ð¿Ð¾Ð·Ð²Ð¾Ð»ÑÐ²Ð° Ð´Ð° ÑÐµ Ð¸Ð·Ð¿ÑÐ»Ð½ÑÑ ÑÑÐ°Ð½Ð·Ð°ÐºÑÐ¸Ð¸ÑÐµ, Ð´Ð¾ÐºÐ°ÑÐ¾ Ð½Ðµ ÑÐ° Ð¿Ð¾ÐºÑÐ¸ÑÐ¸ Ð²ÑÐ¸ÑÐºÐ¸ ÑÑÐ»Ð¾Ð²Ð¸Ñ. <a href="https://en.bitcoin.it/wiki/Contracts#Example_3:_Assurance_contracts">ÐÐ°ÑÑÐµÑÐµ Ð¿Ð¾Ð²ÐµÑÐµ</a> Ð·Ð° Ð³ÑÑÐ¿Ð¾Ð²Ð¾ÑÐ¾ ÑÐ¸Ð½Ð°Ð½ÑÐ¸ÑÐ°Ð½Ðµ.</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/micro-payments.svg?1716491272" alt="Icon">
+      <h2 id="micro" class=" anchorAf"><a href="#micro"></a>ÐÐ¸ÐºÑÐ¾ ÑÐ°Ð·Ð¿Ð»Ð°ÑÐ°Ð½Ð¸Ñ</h2>
+      <p>ÐÐ¸ÑÐºÐ¾Ð¹Ð½ Ð¼Ð¾Ð¶Ðµ Ð´Ð° Ð¾Ð±ÑÐ°Ð±Ð¾ÑÐ²Ð° Ð¿Ð»Ð°ÑÐ°Ð½Ð¸Ñ Ð² ÑÐ°Ð·Ð¼ÐµÑ Ð½Ð° ÐµÐ´Ð¸Ð½ Ð´Ð¾Ð»Ð°Ñ, Ð° ÑÐºÐ¾ÑÐ¾ Ð´Ð¾ÑÐ¸ Ð¸ Ð¼Ð½Ð¾Ð³Ð¾ Ð¿Ð¾-Ð¼Ð°Ð»ÐºÐ¸ ÑÑÐ¼Ð¸. Ð¢ÐµÐ·Ð¸ Ð¿Ð»Ð°ÑÐ°Ð½Ð¸Ñ ÑÐ° ÑÑÑÐ¸Ð½Ð½Ð¸, Ð´Ð¾ÑÐ¸ Ð¸ Ð´Ð½ÐµÑ. ÐÑÐµÐ´ÑÑÐ°Ð²ÐµÑÐµ ÑÐ¸, ÑÐµ ÑÐ»ÑÑÐ°ÑÐµ Ð¸Ð½ÑÐµÑÐ½ÐµÑ ÑÐ°Ð´Ð¸Ð¾, Ð·Ð° ÐºÐ¾ÐµÑÐ¾ ÑÐµ Ð·Ð°Ð¿Ð»Ð°ÑÐ° Ð²ÑÑÐºÐ° ÑÐµÐºÑÐ½Ð´Ð°, ÑÐ°Ð·Ð³Ð»ÐµÐ¶Ð´Ð°ÑÐµ ÑÐµÐ± ÑÑÑÐ°Ð½Ð¸ÑÐ¸, Ð² ÐºÐ¾Ð¸ÑÐ¾ ÑÐµ Ð¸Ð·Ð²ÑÑÑÐ²Ð° Ð¿Ð»Ð°ÑÐ°Ð½Ðµ Ð½Ð° Ð¼Ð½Ð¾Ð³Ð¾ Ð¼Ð°Ð»ÐºÐ° ÑÑÐ¼Ð° Ð·Ð° Ð²ÑÑÐºÐ° ÑÐµÐºÐ»Ð°Ð¼Ð°, ÐºÐ¾ÑÑÐ¾ Ð½Ðµ ÑÐµ Ð¿Ð¾ÐºÐ°Ð·Ð²Ð° Ð¸Ð»Ð¸ Ð·Ð°ÐºÑÐ¿ÑÐ²Ð°ÑÐµ ÑÑÐ°ÑÐ¸Ðº Ð¾Ñ WiFi ÑÐ¾ÑÑÐ¿Ð¾Ñ Ð½Ð° ÐºÐ¸Ð»Ð¾Ð±Ð°Ð¹Ñ. ÐÐ¸ÑÐºÐ¾Ð¹Ð½ Ðµ Ð´Ð¾ÑÑÐ°ÑÑÑÐ½Ð¾ ÐµÑÐµÐºÑÐ¸Ð²ÐµÐ½, Ð·Ð° Ð´Ð° Ð½Ð°Ð¿ÑÐ°Ð²Ð¸ Ð²ÑÐ¸ÑÐºÐ¸ ÑÐµÐ·Ð¸ Ð¸Ð´ÐµÐ¸ Ð²ÑÐ·Ð¼Ð¾Ð¶Ð½Ð¸. <a href="https://bitcoinj.github.io/working-with-micropayments">ÐÐ°ÑÑÐµÑÐµ Ð¿Ð¾Ð²ÐµÑÐµ</a> Ð·Ð° ÑÐµÑÐ½Ð¾Ð»Ð¾Ð³Ð¸ÑÑÐ° Ð½Ð° Ð¼Ð¸ÐºÑÐ¾ ÑÐ°Ð·Ð¿Ð»Ð°ÑÐ°Ð½Ð¸ÑÑÐ° Ð² ÐÐ¸ÑÐºÐ¾Ð¹Ð½ .</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/mediation.svg?1716491272" alt="Icon">
+      <h2 id="mediation" class=" anchorAf"><a href="#mediation"></a>Ð Ð°Ð·ÑÐµÑÐ°Ð²Ð°Ð½Ðµ Ð½Ð° ÐºÐ¾Ð½ÑÐ»Ð¸ÐºÑÐ¸</h2>
+      <p>ÐÐ¸ÑÐºÐ¾Ð¹Ð½ Ð¼Ð¾Ð¶Ðµ Ð´Ð° ÑÐµ Ð¸Ð·Ð¿Ð¾Ð»Ð·Ð²Ð° Ð·Ð° ÑÐ°Ð·ÑÐ°Ð±Ð¾ÑÐ²Ð°Ð½Ðµ Ð½Ð° Ð¸Ð½Ð¾Ð²Ð°ÑÐ¸Ð²Ð½Ð¸ ÑÑÐ»ÑÐ³Ð¸ Ð¸ Ð·Ð° ÑÐµÑÐ°Ð²Ð°Ð½Ðµ Ð½Ð° ÑÐ¿Ð¾ÑÐ¾Ð²Ðµ Ñ Ð¿Ð¾Ð¼Ð¾ÑÑÐ° Ð½Ð° Ð¼Ð½Ð¾Ð¶ÐµÑÑÐ²ÐµÐ½Ð¾ Ð¿Ð¾Ð´Ð¿Ð¸ÑÐ²Ð°Ð½Ðµ. Ð¢ÐµÐ·Ð¸ ÑÑÐ»ÑÐ³Ð¸ Ð¼Ð¾Ð³Ð°Ñ Ð´Ð° Ð½Ð°Ð¿ÑÐ°Ð²ÑÑ Ð²ÑÐ·Ð¼Ð¾Ð¶Ð½Ð¾ Ð·Ð° ÑÑÐµÑÐ° ÑÑÑÐ°Ð½Ð° Ð´Ð° Ð¾Ð´Ð¾Ð±ÑÐ¸ Ð¸Ð»Ð¸ Ð´Ð° Ð¾ÑÑÐ²ÑÑÐ»Ð¸ ÑÑÐ°Ð½Ð·Ð°ÐºÑÐ¸Ñ, Ð² ÑÐ»ÑÑÐ°Ð¹ Ð½Ð° Ð½ÐµÑÑÐ³Ð»Ð°ÑÐ¸Ðµ Ð¼ÐµÐ¶Ð´Ñ Ð´ÑÑÐ³Ð¸ÑÐµ ÑÑÑÐ°Ð½Ð¸, Ð±ÐµÐ· Ð´Ð° Ð¸Ð¼Ð° ÐºÐ¾Ð½ÑÑÐ¾Ð» Ð²ÑÑÑÑ ÑÐµÑÐ½Ð¸ÑÐµ Ð¿Ð°ÑÐ¸. Ð¢ÑÐ¹ ÐºÐ°ÑÐ¾ ÑÐµÐ·Ð¸ ÑÑÐ»ÑÐ³Ð¸ ÑÐµ Ð±ÑÐ´Ð°Ñ ÑÑÐ²Ð¼ÐµÑÑÐ¸Ð¼Ð¸ Ñ Ð²ÑÐµÐºÐ¸ Ð¿Ð¾ÑÑÐµÐ±Ð¸ÑÐµÐ» Ð¸ ÑÑÑÐ³Ð¾Ð²ÐµÑ, Ð¸Ð·Ð¿Ð¾Ð»Ð·Ð²Ð°Ñ ÐÐ¸ÑÐºÐ¾Ð¹Ð½, ÑÐ¾Ð²Ð° Ð²ÐµÑÐ¾ÑÑÐ½Ð¾ ÑÐµ Ð´Ð¾Ð²ÐµÐ´Ðµ Ð´Ð¾ ÑÐ²Ð¾Ð±Ð¾Ð´Ð½Ð° ÐºÐ¾Ð½ÐºÑÑÐµÐ½ÑÐ¸Ñ Ð¸ Ð¿Ð¾-Ð²Ð¸ÑÐ¾ÐºÐ¸ ÑÑÐ°Ð½Ð´Ð°ÑÑÐ¸ Ð·Ð° ÐºÐ°ÑÐµÑÑÐ²Ð¾.</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/multi-signature.svg?1716491272" alt="Icon">
+      <h2 id="multisig" class=" anchorAf"><a href="#multisig"></a>ÐÐºÐ°ÑÐ½ÑÐ¸ Ñ Ð¼Ð½Ð¾Ð¶ÐµÑÑÐ²ÐµÐ½ Ð¿Ð¾Ð´Ð¿Ð¸Ñ</h2>
+      <p>ÐÐ½Ð¾Ð¶ÐµÑÑÐ²ÐµÐ½Ð¸ÑÐµ Ð¿Ð¾Ð´Ð¿Ð¸ÑÐ¸ Ð¿Ð¾Ð·Ð²Ð¾Ð»ÑÐ²Ð°Ñ Ð´Ð°Ð´ÐµÐ½Ð° ÑÑÐ°Ð½Ð·Ð°ÐºÑÐ¸Ñ Ð´Ð° Ð±ÑÐ´Ðµ Ð¿ÑÐ¸ÐµÑÐ° Ð¾Ñ Ð¼ÑÐµÐ¶Ð°ÑÐ°, ÑÐ°Ð¼Ð¾ Ð°ÐºÐ¾ Ð¾Ð¿ÑÐµÐ´ÐµÐ»ÐµÐ½ Ð±ÑÐ¾Ð¹ Ð¾Ñ Ð¾Ð¿ÑÐµÐ´ÐµÐ»ÐµÐ½Ð° Ð³ÑÑÐ¿Ð° ÑÐ¾ÑÐ° ÑÐµ ÑÑÐ³Ð»Ð°ÑÑÑ Ð´Ð° Ð¿Ð¾Ð´Ð¿Ð¸ÑÐ°Ñ ÑÐ´ÐµÐ»ÐºÐ°ÑÐ°. Ð¢Ð¾Ð²Ð° Ð¼Ð¾Ð¶Ðµ Ð´Ð° ÑÐµ Ð¸Ð·Ð¿Ð¾Ð»Ð·Ð²Ð° Ð¾Ñ Ð±Ð¾ÑÐ´Ð° Ð½Ð° Ð´Ð¸ÑÐµÐºÑÐ¾ÑÐ¸ÑÐµ, Ð·Ð° Ð´Ð° ÑÐµ Ð¿ÑÐµÐ´Ð¾ÑÐ²ÑÐ°ÑÐ¸ Ð²ÑÐµÐºÐ¸ ÑÐ»ÐµÐ½ Ð´Ð° ÑÐ¿Ð¾ÑÑÐµÐ±ÑÐ²Ð° ÑÐ°ÑÑ Ð¾Ñ ÑÑÑÐ½Ð¾ÑÐ¾ ÑÑÑÑÐ¾ÑÐ½Ð¸Ðµ Ð±ÐµÐ· ÑÑÐ³Ð»Ð°ÑÐ¸ÐµÑÐ¾ Ð½Ð° Ð´ÑÑÐ³Ð¸ÑÐµ ÑÐ»ÐµÐ½Ð¾Ð²Ðµ. ÐÐ°Ð½ÐºÐ¸ÑÐµ ÑÑÑÐ¾ Ð¼Ð¾Ð³Ð°Ñ Ð´Ð° Ð³Ð¾ Ð¸Ð·Ð¿Ð¾Ð»Ð·Ð²Ð°Ñ Ð·Ð° Ð¿ÑÐµÐ´Ð¾ÑÐ²ÑÐ°ÑÑÐ²Ð°Ð½Ðµ Ð½Ð° ÐºÑÐ°Ð¶Ð±Ð° ÑÑÐµÐ· Ð±Ð»Ð¾ÐºÐ¸ÑÐ°Ð½Ðµ Ð½Ð° Ð¿Ð»Ð°ÑÐ°Ð½Ð¸Ñ Ð½Ð°Ð´ Ð¾Ð¿ÑÐµÐ´ÐµÐ»ÐµÐ½ Ð¿ÑÐ°Ð³, Ð°ÐºÐ¾ Ð¿Ð¾ÑÑÐµÐ±Ð¸ÑÐµÐ»ÑÑ Ð½Ðµ Ð¿ÑÐµÐ´ÑÑÐ°Ð²Ð¸ Ð´Ð¾Ð¿ÑÐ»Ð½Ð¸ÑÐµÐ»Ð½Ð¸ Ð¿ÑÐ»Ð½Ð¾Ð¼Ð¾ÑÐ¸Ñ.</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/trust.svg?1716491272" alt="Icon">
+      <h2 id="trust" class=" anchorAf"><a href="#trust"></a>ÐÑÐ³Ð¾Ð²Ð¾ÑÐ½Ð¾ÑÑ Ð¸ ÑÑÐ»Ð¾ÑÑ</h2>
+      <p>ÐÐ¸ÑÐºÐ¾Ð¹Ð½ Ð¿ÑÐµÐ´Ð»Ð°Ð³Ð° ÑÐµÑÐµÐ½Ð¸Ñ Ð½Ð° Ð¼Ð½Ð¾Ð³Ð¾ Ð¾Ñ Ð¿ÑÐ¾Ð±Ð»ÐµÐ¼Ð¸ÑÐµ, ÑÐ²ÑÑÐ·Ð°Ð½Ð¸ Ñ Ð´Ð¾Ð²ÐµÑÐ¸ÐµÑÐ¾, ÐºÐ¾Ð¸ÑÐ¾ Ð·Ð°ÑÑÐ³Ð°Ñ Ð±Ð°Ð½ÐºÐ¸ÑÐµ. ÐÐ·Ð±Ð¸ÑÐ°ÑÐµÐ»Ð½Ð°ÑÐ° ÑÑÐµÑÐ¾Ð²Ð¾Ð´Ð½Ð° Ð¿ÑÐ¾Ð·ÑÐ°ÑÐ½Ð¾ÑÑ, Ð´Ð¸Ð³Ð¸ÑÐ°Ð»Ð½Ð¸ÑÐµ Ð´Ð¾Ð³Ð¾Ð²Ð¾ÑÐ¸ Ð¸ Ð½ÐµÐ¾Ð±ÑÐ°ÑÐ¸Ð¼Ð¸ÑÐµ ÑÑÐ°Ð½Ð·Ð°ÐºÑÐ¸Ð¸ Ð½Ð° ÐÐ¸ÑÐºÐ¾Ð¹Ð½ Ð¼Ð¾Ð³Ð°Ñ Ð´Ð° ÑÐµ Ð¸Ð·Ð¿Ð¾Ð»Ð·Ð²Ð°Ñ, ÐºÐ°ÑÐ¾ Ð¾ÑÐ½Ð¾Ð²Ð°Ð½Ð¸Ðµ Ð·Ð° Ð²ÑÐ·ÑÑÐ°Ð½Ð¾Ð²ÑÐ²Ð°Ð½Ðµ Ð½Ð° Ð´Ð¾Ð²ÐµÑÐ¸ÐµÑÐ¾. Ð¢Ð°ÐºÐ° Ð±Ð°Ð½ÐºÐ¸ÑÐµ Ð½ÑÐ¼Ð° Ð´Ð° Ð¼Ð¾Ð³Ð°Ñ Ð´Ð° Ð¼Ð°Ð¼ÑÑ ÑÐ¸ÑÑÐµÐ¼Ð°ÑÐ°, Ð·Ð° Ð´Ð° ÑÐµÐ°Ð»Ð¸Ð·Ð¸ÑÐ°Ñ Ð¿ÐµÑÐ°Ð»Ð±Ð° Ð·Ð° ÑÐ¼ÐµÑÐºÐ° Ð½Ð° Ð´ÑÑÐ³Ð¸ Ð±Ð°Ð½ÐºÐ¸ Ð¸Ð»Ð¸ Ð½Ð° Ð¾Ð±ÑÐµÑÑÐ²ÐµÐ½Ð¾ÑÑÑÐ°. ÐÐºÐ¾ Ð½ÑÐºÐ¾Ð¸ Ð¾Ñ Ð¾ÑÐ½Ð¾Ð²Ð½Ð¸ÑÐµ Ð³Ð¾Ð»ÐµÐ¼Ð¸ Ð±Ð°Ð½ÐºÐ¸ Ð¿Ð¾Ð´ÐºÑÐµÐ¿ÑÑ ÐÐ¸ÑÐºÐ¾Ð¹Ð½ Ð² Ð±ÑÐ´ÐµÑÐµ, ÑÐ¾Ð²Ð° Ð¼Ð¾Ð¶Ðµ Ð´Ð° Ð¿Ð¾Ð¼Ð¾Ð³Ð½Ðµ Ð´Ð¾Ð²ÐµÑÐ¸ÐµÑÐ¾ Ð²ÑÐ² ÑÐ¸Ð½Ð°Ð½ÑÐ¾Ð²Ð¸ÑÐµ Ð¸Ð½ÑÑÐ¸ÑÑÑÐ¸Ð¸ Ð´Ð° Ð±ÑÐ´Ðµ Ð²ÑÐ·ÑÑÐ°Ð½Ð¾Ð²ÐµÐ½Ð¾.</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/decentralization.svg?1716491272" alt="Icon">
+      <h2 id="resiliency" class=" anchorAf"><a href="#resiliency"></a>Ð£ÑÑÐ¾Ð¹ÑÐ¸Ð²Ð¾ÑÑ Ð¸ Ð´ÐµÑÐµÐ½ÑÑÐ°Ð»Ð¸Ð·Ð°ÑÐ¸Ñ</h2>
+      <p>Ð§ÑÐµÐ· Ð²Ð¸ÑÐ¾ÐºÐ¾ÑÐ¾ Ð½Ð¸Ð²Ð¾ Ð½Ð° Ð´ÐµÑÐµÐ½ÑÑÐ°Ð»Ð¸Ð·Ð°ÑÐ¸Ñ ÐÐ¸ÑÐºÐ¾Ð¹Ð½ ÑÑÐ·Ð´Ð°Ð´Ðµ ÑÐ°Ð·Ð»Ð¸ÑÐ½Ð° ÑÐ°Ð·Ð¿Ð»Ð°ÑÐ°ÑÐµÐ»Ð½Ð° Ð¼ÑÐµÐ¶Ð° Ñ Ð¿Ð¾Ð²Ð¸ÑÐµÐ½Ð¾ Ð½Ð¸Ð²Ð¾ Ð½Ð° Ð¸Ð·Ð´ÑÑÐ¶Ð»Ð¸Ð²Ð¾ÑÑ Ð¸ Ð¸Ð·Ð¾Ð±Ð¸Ð»Ð¸Ðµ. ÐÐ¸ÑÐºÐ¾Ð¹Ð½ Ð¼Ð¾Ð¶Ðµ Ð´Ð° ÑÐµ ÑÐ¿ÑÐ°Ð²Ð¸ Ñ ÑÑÐ°Ð½Ð·Ð°ÐºÑÐ¸Ð¸ Ð·Ð° Ð¼Ð¸Ð»Ð¸Ð¾Ð½Ð¸ Ð´Ð¾Ð»Ð°ÑÐ¸, Ð±ÐµÐ· Ð´Ð° ÑÐµ Ð½Ð°Ð»Ð°Ð³Ð° Ð²Ð¾ÐµÐ½Ð½Ð° Ð·Ð°ÑÐ¸ÑÐ°. ÐÐ¸ÑÐºÐ¾Ð¹Ð½ Ð½ÑÐ¼Ð° ÑÐ»Ð°Ð±Ð¾ Ð¼ÑÑÑÐ¾, ÐºÐ°ÑÐ¾ Ð½Ð°Ð¿ÑÐ¸Ð¼ÐµÑ ÑÐµÐ½ÑÑÐ°Ð»Ð½Ð° ÑÐ³ÑÐ°Ð´Ð° Ð·Ð° Ð±Ð°Ð·Ð° Ð´Ð°Ð½Ð½Ð¸, ÑÐ°ÐºÐ° ÑÐµ Ð°ÑÐ°ÐºÑÐ²Ð°Ð½ÐµÑÐ¾ Ð½Ð° Ð¼ÑÐµÐ¶Ð°ÑÐ° Ðµ Ð¿Ð¾-ÑÑÑÐ´Ð½Ð° Ð·Ð°Ð´Ð°ÑÐ°. ÐÐ¸ÑÐºÐ¾Ð¹Ð½ Ð¼Ð¾Ð¶Ðµ Ð´Ð° Ð±ÑÐ´Ðµ Ð¸Ð½ÑÐµÑÐµÑÐ½Ð° ÐºÑÐ°ÑÐºÐ° Ð½Ð°Ð¿ÑÐµÐ´ Ð² Ð·Ð°ÑÐ¸Ð»Ð²Ð°Ð½ÐµÑÐ¾ Ð½Ð° ÑÐ¸Ð³ÑÑÐ½Ð¾ÑÑÑÐ° Ð½Ð° Ð¼ÐµÑÑÐ½Ð¸ Ð¸ Ð³Ð»Ð¾Ð±Ð°Ð»Ð½Ð¸ ÑÐ¸Ð½Ð°Ð½ÑÐ¾Ð²Ð¸ ÑÐ¸ÑÑÐµÐ¼Ð¸.</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/transparency.svg?1716491272" alt="Icon">
+      <h2 id="transparency" class=" anchorAf"><a href="#transparency"></a>ÐÑÐ²ÐºÐ°Ð²Ð° Ð¿ÑÐ¾Ð·ÑÐ°ÑÐ½Ð¾ÑÑ</h2>
+      <p>ÐÑÐ¸ÑÐºÐ¸ ÑÑÐ°Ð½Ð·Ð°ÐºÑÐ¸Ð¸ Ð² ÐÐ¸ÑÐºÐ¾Ð¹Ð½ ÑÐ° Ð¿ÑÐ±Ð»Ð¸ÑÐ½Ð¸ Ð¸ Ð¿ÑÐ¾Ð·ÑÐ°ÑÐ½Ð¸, Ð° ÑÐ°Ð¼Ð¾Ð»Ð¸ÑÐ½Ð¾ÑÑÑÐ° Ð½Ð° ÑÐ¾ÑÐ°ÑÐ°, Ð¸Ð·Ð²ÑÑÑÐ¸Ð»Ð¸ Ð¿Ð»Ð°ÑÐ°Ð½Ð¸ÑÑÐ°, Ðµ Ð¿Ð¾Ð²ÐµÑÐ¸ÑÐµÐ»Ð½Ð° Ð¿Ð¾ Ð¿Ð¾Ð´ÑÐ°Ð·Ð±Ð¸ÑÐ°Ð½Ðµ. Ð¢Ð¾Ð²Ð° Ð¿Ð¾Ð·Ð²Ð¾Ð»ÑÐ²Ð° Ð½Ð° ÑÐ°ÑÑÐ½Ð¸ Ð»Ð¸ÑÐ° Ð¸ Ð¾ÑÐ³Ð°Ð½Ð¸Ð·Ð°ÑÐ¸Ð¸ Ð´Ð° ÑÐ°Ð±Ð¾ÑÑÑ Ñ Ð³ÑÐ²ÐºÐ°Ð²Ð¸ Ð¿ÑÐ°Ð²Ð¸Ð»Ð° Ð·Ð° Ð¿ÑÐ¾Ð·ÑÐ°ÑÐ½Ð¾ÑÑ. ÐÐ°Ð¿ÑÐ¸Ð¼ÐµÑ, ÐµÐ´Ð½Ð° ÐºÐ¾Ð¼Ð¿Ð°Ð½Ð¸Ñ Ð¼Ð¾Ð¶Ðµ Ð´Ð° Ð¸Ð·Ð±ÐµÑÐµ Ð´Ð° ÑÐ°Ð·ÐºÑÐ¸Ðµ Ð½ÑÐºÐ¾Ð¸ ÑÐ´ÐµÐ»ÐºÐ¸ Ð¸ Ð¸Ð½ÑÐ¾ÑÐ¼Ð°ÑÐ¸Ñ Ð·Ð° ÑÐ¸Ð½Ð°Ð½ÑÐ¾Ð²Ð¸Ñ Ð±Ð°Ð»Ð°Ð½Ñ ÑÐ°Ð¼Ð¾ Ð½Ð° Ð¾Ð¿ÑÐµÐ´ÐµÐ»ÐµÐ½Ð¸ ÑÐ»ÑÐ¶Ð¸ÑÐµÐ»Ð¸, ÑÐ¾ÑÐ½Ð¾ ÐºÐ°ÐºÑÐ¾ Ð¾ÑÐ³Ð°Ð½Ð¸Ð·Ð°ÑÐ¸Ñ Ñ Ð½ÐµÑÑÐ¾Ð¿Ð°Ð½ÑÐºÐ° ÑÐµÐ» Ðµ ÑÐ²Ð¾Ð±Ð¾Ð´Ð½Ð° Ð´Ð° ÑÐ°Ð·ÐºÑÐ¸Ðµ Ð½Ð° Ð¾Ð±ÑÐµÑÑÐ²ÐµÐ½Ð¾ÑÑÑÐ° ÐºÐ°ÐºÐ²Ð¸ Ð´Ð°ÑÐµÐ½Ð¸Ñ Ð¿Ð¾Ð»ÑÑÐ°Ð²Ð° ÐµÐ¶ÐµÐ´Ð½ÐµÐ²Ð½Ð¾ Ð¸ ÐµÐ¶ÐµÐ¼ÐµÑÐµÑÐ½Ð¾.</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/automatization.svg?1716491272" alt="Icon">
+      <h2 id="automation" class=" anchorAf"><a href="#automation"></a>ÐÐ²ÑÐ¾Ð¼Ð°ÑÐ¸Ð·Ð¸ÑÐ°Ð½Ð¸ ÑÐµÑÐµÐ½Ð¸Ñ</h2>
+      <p>ÐÐ²ÑÐ¾Ð¼Ð°ÑÐ¸Ð·Ð¸ÑÐ°Ð½Ð¸ÑÐµ ÑÑÐ»ÑÐ³Ð¸ Ð¾Ð±Ð¸ÐºÐ½Ð¾Ð²ÐµÐ½Ð¾ ÑÑÑÐ±Ð²Ð° Ð´Ð° ÑÐµ ÑÐ¿ÑÐ°Ð²ÑÑ Ñ ÑÐ°Ð·ÑÐ¾Ð´Ð¸ÑÐµ Ð¸ Ð¾Ð³ÑÐ°Ð½Ð¸ÑÐµÐ½Ð¸ÑÑÐ°, ÐºÐ¾Ð¸ÑÐ¾ Ð¿Ð»Ð°ÑÐ°Ð½ÐµÑÐ¾ Ñ ÐºÑÐµÐ´Ð¸ÑÐ½Ð° ÐºÐ°ÑÑÐ° Ð¸Ð»Ð¸ Ð² ÐºÐµÑ Ð½Ð°Ð»Ð°Ð³Ð°Ñ. Ð¢Ð¾Ð²Ð° Ð²ÐºÐ»ÑÑÐ²Ð° Ð²ÑÐ¸ÑÐºÐ¸ Ð²Ð¸Ð´Ð¾Ð²Ðµ Ð²ÐµÐ½Ð´Ð¸Ð½Ð³ Ð¼Ð°ÑÐ¸Ð½Ð¸, Ð¾Ñ Ð³Ð¸ÑÐµÑÐ°ÑÐ° Ð·Ð° Ð°Ð²ÑÐ¾Ð±ÑÑÐ½Ð¸ Ð±Ð¸Ð»ÐµÑÐ¸ Ð´Ð¾ ÐºÐ°ÑÐµ-Ð¼Ð°ÑÐ¸Ð½Ð¸ÑÐµ. ÐÐ¸ÑÐºÐ¾Ð¹Ð½ Ðµ Ð¿Ð¾Ð´ÑÐ¾Ð´ÑÑ Ð´Ð° ÑÐµ Ð¸Ð·Ð¿Ð¾Ð»Ð·Ð²Ð° Ð² Ð½Ð¾Ð²Ð¾ Ð¿Ð¾ÐºÐ¾Ð»ÐµÐ½Ð¸Ðµ Ð°Ð²ÑÐ¾Ð¼Ð°ÑÐ¸Ð·Ð¸ÑÐ°Ð½Ð¸ ÑÑÐ»ÑÐ³Ð¸, ÐºÐ°ÑÐ¾ ÑÐ¾Ð²Ð° ÑÐµ Ð½Ð°Ð¼Ð°Ð»Ð¸ Ð¾Ð¿ÐµÑÐ°ÑÐ¸Ð²Ð½Ð¸ÑÐµ ÑÐ°Ð·ÑÐ¾Ð´Ð¸. ÐÑÐµÐ´ÑÑÐ°Ð²ÐµÑÐµ ÑÐ¸ ÑÐ°ÐºÑÐ¸ÑÐ° Ð±ÐµÐ· ÑÐ¾ÑÑÐ¾ÑÐ¸ Ð¸Ð»Ð¸ Ð¼Ð°Ð³Ð°Ð·Ð¸Ð½, Ð² ÐºÐ¾Ð¹ÑÐ¾ Ð¿Ð»Ð°ÑÐ°ÑÐµ Ð¿Ð¾ÐºÑÐ¿ÐºÐ¸ÑÐµ ÑÐ¸ Ð½Ð° ÐºÐ¾Ð»Ð¸ÑÐºÐ°ÑÐ° Ð·Ð° Ð¿Ð°Ð·Ð°ÑÑÐ²Ð°Ð½Ðµ, Ð±ÐµÐ· Ð´Ð° ÑÐ°ÐºÐ°ÑÐµ Ð½Ð° Ð¾Ð¿Ð°ÑÐºÐ°. ÐÑÐ·Ð¼Ð¾Ð¶Ð½Ð¾ Ðµ Ð¼Ð½Ð¾Ð³Ð¾ Ð¿Ð¾Ð´Ð¾Ð±Ð½Ð¸ Ð¸Ð´ÐµÐ¸ Ð´Ð° Ð±ÑÐ´Ð°Ñ ÑÐµÐ°Ð»Ð¸Ð·Ð¸ÑÐ°Ð½Ð¸.</p>
+    </div>
+
+  </div>
+</div>
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="/bg/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Support Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Donate</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">ÐÑÐ²ÐµÐ´ÐµÐ½Ð¸Ðµ:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/bg/bitcoin-for-individuals">Ð§Ð°ÑÑÐ½Ð¸ Ð»Ð¸ÑÐ°</a>
+        </li>
+        <li>
+          <a href="/bg/bitcoin-for-businesses">Ð¤Ð¸ÑÐ¼Ð¸</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">Ð Ð°Ð·ÑÐ°Ð±Ð¾ÑÑÐ¸ÑÐ¸</a>
+        </li>
+        <li>
+          <a href="/bg/getting-started">ÐÑÑÐ²Ð¸ ÑÑÑÐ¿ÐºÐ¸</a>
+        </li>
+        <li>
+          <a href="/bg/how-it-works">ÐÐ°Ðº ÑÐ°Ð±Ð¾ÑÐ¸</a>
+        </li>
+        <li>
+          <a href="/bg/you-need-to-know">Ð¢ÑÑÐ±Ð²Ð° Ð´Ð° Ð·Ð½Ð°ÐµÑÐµ</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">Ð ÐµÑÑÑÑÐ¸:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/bg/resources">Ð ÐµÑÑÑÑÐ¸</a>
+        </li><li>
+          <a href="/bg/exchanges">Exchanges</a>
+        </li>
+        <li>
+          <a href="/bg/community">ÐÐ±ÑÐ½Ð¾ÑÑ</a>
+        </li>
+        <li>
+          <a href="/bg/vocabulary">Ð ÐµÑÐ½Ð¸Ðº
+          </a>
+        </li>
+        <li>
+          <a href="/bg/events">Ð¡ÑÐ±Ð¸ÑÐ¸Ñ</a>
+        </li>
+        
+          <li>
+            <a href="/bg/download">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">Ð£ÑÐ°ÑÑÐ²Ð°Ð¹ÑÐµ:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/bg/support-bitcoin">ÐÐ¾Ð¿ÑÐ¸Ð½ÐµÑÐµÑÐµ ÐºÑÐ¼ ÐÐ¸ÑÐºÐ¾Ð¹Ð½</a>
+        
+        
+        </li><li>
+          <a href="/bg/development">Ð Ð°Ð·Ð²Ð¸ÑÐ¸Ðµ</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Other:</p>
+      
+      <a href="/bg/legal">ÐÑÐ°Ð²Ð½Ð¸</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/bg/press">ÐÑÐµÑÐ°</a>
+      <a href="/bg/about-us">ÐÑÐ½Ð¾ÑÐ½Ð¾ bitcoin.org</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>Ð¡Ð°Ð¹ÑÑÑ Ð½Ð° Ð¾Ð±ÑÐ½Ð¾ÑÑÑÐ° Ðµ ÑÐ¿Ð¾Ð½ÑÐ¾ÑÐ¸ÑÐ°Ð½ Ð¾Ñ</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1716491272" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 ÑÐ°Ð·Ð¿ÑÐ¾ÑÑÑÐ°Ð½ÐµÐ½ Ð¿Ð¾Ð´ <a href="http://opensource.org/licenses/mit-license.php" target="_blank">Ð»Ð¸ÑÐµÐ½Ð·Ð° Ð½Ð° ÐÐ°ÑÐ°ÑÑÐ·ÐµÑÑÐºÐ¸Ñ ÑÐµÑÐ½Ð¾Ð»Ð¾Ð³Ð¸ÑÐµÐ½ Ð¸Ð½ÑÑÐ¸ÑÑÑ</a></div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">Network Status</a>
+        
+<ul class="lang is-expand">
+  <li><a>Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/inovasi">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/innovacio">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/innovation">Dansk</a></li>
+        
+        
+          <li><a href="/de/innovation">Deutsch</a></li>
+        
+        
+          <li><a href="/en/innovation">English</a></li>
+        
+        
+          <li><a href="/es/innovacion">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/innovation">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/innovazione">Italiano</a></li>
+        
+        
+          <li><a href="/hu/innovacio">Magyar</a></li>
+        
+        
+          <li><a href="/nl/innovatie">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/innowacje">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/inovacao">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/inovatie">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/inovacije">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/inovacija">Srpski</a></li>
+        
+        
+          <li><a href="/sv/innovation">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/yenilik">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/innovation">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/innovation" class="active">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/innovation">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/innovation">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/innovation">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/innovation">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/innovation">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/innovation">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/innovation">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/innovation">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/innovation">ááááá</a></li>
+        
+        
+          <li><a href="/ja/innovation">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/innovation">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/innovation">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/inovasi">Bahasa Indonesia</option>
+              
+              <option value="/ca/innovacio">CatalÃ </option>
+              
+              <option value="/da/innovation">Dansk</option>
+              
+              <option value="/de/innovation">Deutsch</option>
+              
+              <option value="/en/innovation">English</option>
+              
+              <option value="/es/innovacion">EspaÃ±ol</option>
+              
+              <option value="/fr/innovation">FranÃ§ais</option>
+              
+              <option value="/it/innovazione">Italiano</option>
+              
+              <option value="/hu/innovacio">Magyar</option>
+              
+              <option value="/nl/innovatie">Nederlands</option>
+              
+              <option value="/pl/innowacje">Polski</option>
+              
+              <option value="/pt_BR/inovacao">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/inovatie">RomÃ¢nÄ</option>
+              
+              <option value="/sl/inovacije">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/inovacija">Srpski</option>
+              
+              <option value="/sv/innovation">Svenska</option>
+              
+              <option value="/tr/yenilik">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/innovation">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/innovation" selected="selected">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/innovation">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/innovation">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/innovation">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/innovation">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/innovation">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/innovation">×¢××¨××ª</option>
+              
+              <option value="/hi/innovation">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/innovation">íêµ­ì´</option>
+              
+              <option value="/km/innovation">ááááá</option>
+              
+              <option value="/ja/innovation">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/innovation">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/innovation">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">bg</span>
+          </label>
+        </div>
+      </div>
+<!--      <div class="row">  -->
+        
+<!--    </div> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+
+
+
+
+
+
+</body></html>
