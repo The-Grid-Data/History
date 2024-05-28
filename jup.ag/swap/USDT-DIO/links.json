@@ -1,0 +1,32 @@
+{
+    "target_url": "https://jup.ag/swap/USDT-DIO",
+    "domains": {
+        "birdeye.so": [
+            "https://birdeye.so/token/BiDB55p4G3n1fGhwKFpxsokBMqgctL4qnZpDH1bVQxMD?chain=solana",
+            "https://birdeye.so/token/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB?chain=solana"
+        ],
+        "discord.gg": [
+            "https://discord.gg/jup"
+        ],
+        "jup.ag": [
+            "https://jup.ag/",
+            "https://jup.ag/bridge-compare",
+            "https://jup.ag/dca/USDT-DIO",
+            "https://jup.ag/limit/USDT-DIO",
+            "https://jup.ag/perps",
+            "https://jup.ag/swap/USDT-DIO"
+        ],
+        "station.jup.ag": [
+            "https://station.jup.ag/guides"
+        ],
+        "twitter.com": [
+            "https://twitter.com/JupiterExchange"
+        ],
+        "welcome.jup.ag": [
+            "https://welcome.jup.ag/"
+        ],
+        "www.reddit.com": [
+            "https://www.reddit.com/r/jupiterexchange"
+        ]
+    }
+}
