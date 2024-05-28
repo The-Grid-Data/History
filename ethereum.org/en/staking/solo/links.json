@@ -1,0 +1,166 @@
+{
+    "target_url": "https://ethereum.org/en/staking/solo/",
+    "domains": {
+        "": [
+            "mailto:press@ethereum.org"
+        ],
+        "ava.do": [
+            "https://ava.do/"
+        ],
+        "blog.ethereum.org": [
+            "https://blog.ethereum.org/"
+        ],
+        "dappnode.io": [
+            "https://dappnode.io"
+        ],
+        "devcon.org": [
+            "https://devcon.org/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/ethereum-org",
+            "https://discord.gg/ethstaker"
+        ],
+        "esp.ethereum.foundation": [
+            "https://esp.ethereum.foundation"
+        ],
+        "eth-docker.net": [
+            "https://eth-docker.net"
+        ],
+        "ethereum-on-arm-documentation.readthedocs.io": [
+            "https://ethereum-on-arm-documentation.readthedocs.io/"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/en/",
+            "https://ethereum.org/en/about/",
+            "https://ethereum.org/en/about/#open-jobs",
+            "https://ethereum.org/en/assets/",
+            "https://ethereum.org/en/bug-bounty/",
+            "https://ethereum.org/en/community/",
+            "https://ethereum.org/en/community/code-of-conduct/",
+            "https://ethereum.org/en/community/events/",
+            "https://ethereum.org/en/community/grants/",
+            "https://ethereum.org/en/community/online/",
+            "https://ethereum.org/en/community/research/",
+            "https://ethereum.org/en/contributing/",
+            "https://ethereum.org/en/contributing/adding-staking-products/",
+            "https://ethereum.org/en/contributing/translation-program/",
+            "https://ethereum.org/en/cookie-policy/",
+            "https://ethereum.org/en/dao/",
+            "https://ethereum.org/en/dapps/",
+            "https://ethereum.org/en/decentralized-identity/",
+            "https://ethereum.org/en/defi/",
+            "https://ethereum.org/en/developers/",
+            "https://ethereum.org/en/developers/docs/",
+            "https://ethereum.org/en/developers/docs/design-and-ux/",
+            "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+            "https://ethereum.org/en/developers/docs/nodes-and-clients/client-diversity/",
+            "https://ethereum.org/en/developers/learning-tools/",
+            "https://ethereum.org/en/developers/local-environment/",
+            "https://ethereum.org/en/developers/tutorials/",
+            "https://ethereum.org/en/eips/",
+            "https://ethereum.org/en/enterprise/",
+            "https://ethereum.org/en/enterprise/private-ethereum/",
+            "https://ethereum.org/en/eth/",
+            "https://ethereum.org/en/foundation/",
+            "https://ethereum.org/en/gas/",
+            "https://ethereum.org/en/get-eth/",
+            "https://ethereum.org/en/glossary/",
+            "https://ethereum.org/en/governance/",
+            "https://ethereum.org/en/guides/",
+            "https://ethereum.org/en/history/",
+            "https://ethereum.org/en/layer-2/",
+            "https://ethereum.org/en/learn/",
+            "https://ethereum.org/en/nft/",
+            "https://ethereum.org/en/privacy-policy/",
+            "https://ethereum.org/en/quizzes/",
+            "https://ethereum.org/en/roadmap/",
+            "https://ethereum.org/en/roadmap/security/",
+            "https://ethereum.org/en/run-a-node/",
+            "https://ethereum.org/en/security/",
+            "https://ethereum.org/en/smart-contracts/",
+            "https://ethereum.org/en/stablecoins/",
+            "https://ethereum.org/en/staking/",
+            "https://ethereum.org/en/staking/pools/",
+            "https://ethereum.org/en/staking/saas/",
+            "https://ethereum.org/en/staking/solo/",
+            "https://ethereum.org/en/staking/solo/#considerations-before-staking-solo",
+            "https://ethereum.org/en/staking/solo/#faq",
+            "https://ethereum.org/en/staking/solo/#further-reading",
+            "https://ethereum.org/en/staking/solo/#get-started-on-the-staking-launchpad",
+            "https://ethereum.org/en/staking/solo/#how-it-works",
+            "https://ethereum.org/en/staking/solo/#key-generators",
+            "https://ethereum.org/en/staking/solo/#main-content",
+            "https://ethereum.org/en/staking/solo/#node-and-client-tools",
+            "https://ethereum.org/en/staking/solo/#node-tool-considerations",
+            "https://ethereum.org/en/staking/solo/#node-tools",
+            "https://ethereum.org/en/staking/solo/#staking-guides",
+            "https://ethereum.org/en/staking/solo/#what-is-solo-staking",
+            "https://ethereum.org/en/staking/solo/#why-stake-solo",
+            "https://ethereum.org/en/staking/withdrawals/",
+            "https://ethereum.org/en/staking/withdrawals/#validator-sweeping",
+            "https://ethereum.org/en/terms-of-use/",
+            "https://ethereum.org/en/wallets/",
+            "https://ethereum.org/en/wallets/find-wallet/",
+            "https://ethereum.org/en/web3/",
+            "https://ethereum.org/en/what-is-ethereum/",
+            "https://ethereum.org/en/whitepaper/"
+        ],
+        "ethstaker.cc": [
+            "https://ethstaker.cc"
+        ],
+        "github.com": [
+            "https://github.com/SomerEsat/ethereum-staking-guide",
+            "https://github.com/ethereum/ethereum-org-website",
+            "https://github.com/ethereum/staking-deposit-cli/",
+            "https://github.com/wealdtech/ethdo"
+        ],
+        "goerli.launchpad.ethereum.org": [
+            "https://goerli.launchpad.ethereum.org"
+        ],
+        "hackernoon.com": [
+            "https://hackernoon.com/ethereums-client-diversity-problem"
+        ],
+        "kb.beaconcha.in": [
+            "https://kb.beaconcha.in/guides/tutorial-eth2-multiclient"
+        ],
+        "launchnodes.com": [
+            "https://launchnodes.com/"
+        ],
+        "medium.com": [
+            "https://medium.com/prysmatic-labs/eth2-slashing-prevention-tips-f6faa5025f50",
+            "https://medium.com/prysmatic-labs/eth2-slashing-prevention-tips-f6faa5025f50/"
+        ],
+        "mirror.xyz": [
+            "https://mirror.xyz/jmcook.eth/S7ONEka_0RgtKTZ3-dakPmAHQNPvuj15nh0YGKPFriA"
+        ],
+        "reddit.com": [
+            "https://reddit.com/r/ethstaker"
+        ],
+        "rocketpool.net": [
+            "https://rocketpool.net/node-operators"
+        ],
+        "stereum.net": [
+            "https://stereum.net/ethereum-node-setup/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ethdotorg"
+        ],
+        "wagyu.gg": [
+            "https://wagyu.gg/"
+        ],
+        "www.attestant.io": [
+            "https://www.attestant.io/posts/helping-client-diversity/",
+            "https://www.attestant.io/posts/introducing-vouch/",
+            "https://www.attestant.io/posts/understanding-validator-effective-balance/"
+        ],
+        "www.coincashew.com": [
+            "https://www.coincashew.com/coins/overview-eth/guide-or-how-to-setup-a-validator-on-eth2-mainnet"
+        ],
+        "www.staking.directory": [
+            "https://www.staking.directory/"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/watch?v=C2wwu1IlhDc"
+        ]
+    }
+}
