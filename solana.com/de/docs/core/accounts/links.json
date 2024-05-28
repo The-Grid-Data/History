@@ -1,0 +1,105 @@
+{
+    "target_url": "https://solana.com/de/docs/core/accounts",
+    "domains": {
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "docs.solanalabs.com": [
+            "https://docs.solanalabs.com/runtime/programs",
+            "https://docs.solanalabs.com/runtime/sysvars"
+        ],
+        "ed25519.cr.yp.to": [
+            "https://ed25519.cr.yp.to/"
+        ],
+        "en.wikipedia.org": [
+            "https://en.wikipedia.org/wiki/Key%E2%80%93value_database"
+        ],
+        "explorer.solana.com": [
+            "https://explorer.solana.com/address/DoU57AYuPFu2QU514RktNPG22QhApEjnKxnBcu4BHDTY",
+            "https://explorer.solana.com/address/TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
+        ],
+        "github.com": [
+            "https://github.com/solana-foundation/developer-content/tree/main/docs/core/accounts.md",
+            "https://github.com/solana-labs/solana/blob/27eff8408b7223bb3c4ab70523f8a8dca3ca6645/programs/bpf_loader/src/lib.rs#L498",
+            "https://github.com/solana-labs/solana/blob/27eff8408b7223bb3c4ab70523f8a8dca3ca6645/programs/system/src/system_processor.rs#L112",
+            "https://github.com/solana-labs/solana/blob/27eff8408b7223bb3c4ab70523f8a8dca3ca6645/programs/system/src/system_processor.rs#L145",
+            "https://github.com/solana-labs/solana/blob/27eff8408b7223bb3c4ab70523f8a8dca3ca6645/programs/system/src/system_processor.rs#L70",
+            "https://github.com/solana-labs/solana/blob/27eff8408b7223bb3c4ab70523f8a8dca3ca6645/sdk/program/src/account_info.rs#L19",
+            "https://github.com/solana-labs/solana/blob/27eff8408b7223bb3c4ab70523f8a8dca3ca6645/sdk/program/src/system_instruction.rs#L85",
+            "https://github.com/solana-labs/solana/tree/27eff8408b7223bb3c4ab70523f8a8dca3ca6645/programs/bpf_loader/src",
+            "https://github.com/solana-labs/solana/tree/27eff8408b7223bb3c4ab70523f8a8dca3ca6645/programs/system/src"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "solana.com": [
+            "https://solana.com/de",
+            "https://solana.com/de/branding",
+            "https://solana.com/de/developers/cookbook",
+            "https://solana.com/de/developers/guides",
+            "https://solana.com/de/docs",
+            "https://solana.com/de/docs/advanced/confirmation",
+            "https://solana.com/de/docs/advanced/lookup-tables",
+            "https://solana.com/de/docs/advanced/retry",
+            "https://solana.com/de/docs/advanced/state-compression",
+            "https://solana.com/de/docs/advanced/versions",
+            "https://solana.com/de/docs/clients/javascript",
+            "https://solana.com/de/docs/clients/javascript-reference",
+            "https://solana.com/de/docs/clients/rust",
+            "https://solana.com/de/docs/core/accounts",
+            "https://solana.com/de/docs/core/accounts#account",
+            "https://solana.com/de/docs/core/accounts#accountinfo",
+            "https://solana.com/de/docs/core/accounts#bpfloader-program",
+            "https://solana.com/de/docs/core/accounts#custom-programs",
+            "https://solana.com/de/docs/core/accounts#data-account",
+            "https://solana.com/de/docs/core/accounts#key-points",
+            "https://solana.com/de/docs/core/accounts#native-programs",
+            "https://solana.com/de/docs/core/accounts#program-account",
+            "https://solana.com/de/docs/core/accounts#system-program",
+            "https://solana.com/de/docs/core/accounts#sysvar-accounts",
+            "https://solana.com/de/docs/core/clusters",
+            "https://solana.com/de/docs/core/cpi",
+            "https://solana.com/de/docs/core/fees",
+            "https://solana.com/de/docs/core/pda",
+            "https://solana.com/de/docs/core/programs",
+            "https://solana.com/de/docs/core/tokens",
+            "https://solana.com/de/docs/core/transactions",
+            "https://solana.com/de/docs/economics",
+            "https://solana.com/de/docs/economics/inflation/inflation-schedule",
+            "https://solana.com/de/docs/economics/inflation/terminology",
+            "https://solana.com/de/docs/economics/staking",
+            "https://solana.com/de/docs/economics/staking/stake-accounts",
+            "https://solana.com/de/docs/economics/staking/stake-programming",
+            "https://solana.com/de/docs/intro/dev",
+            "https://solana.com/de/docs/intro/overview",
+            "https://solana.com/de/docs/intro/wallets",
+            "https://solana.com/de/docs/more/exchange",
+            "https://solana.com/de/docs/programs/debugging",
+            "https://solana.com/de/docs/programs/deploying",
+            "https://solana.com/de/docs/programs/examples",
+            "https://solana.com/de/docs/programs/faq",
+            "https://solana.com/de/docs/programs/lang-c",
+            "https://solana.com/de/docs/programs/lang-rust",
+            "https://solana.com/de/docs/programs/limitations",
+            "https://solana.com/de/docs/programs/overview",
+            "https://solana.com/de/docs/rpc",
+            "https://solana.com/de/docs/terminology",
+            "https://solana.com/de/docs/terminology#lamport",
+            "https://solana.com/de/ecosystem",
+            "https://solana.com/de/news",
+            "https://solana.com/de/newsletter",
+            "https://solana.com/de/privacy-policy",
+            "https://solana.com/de/privacy-policy#collection-of-information",
+            "https://solana.com/de/tos",
+            "https://solana.com/discord",
+            "https://solana.com/github",
+            "https://solana.com/reddit",
+            "https://solana.com/telegram",
+            "https://solana.com/twitter",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ]
+    }
+}
