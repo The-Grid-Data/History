@@ -1,0 +1,32 @@
+{
+    "target_url": "https://jup.ag/swap/USDC-AART",
+    "domains": {
+        "birdeye.so": [
+            "https://birdeye.so/token/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v?chain=solana",
+            "https://birdeye.so/token/F3nefJBcejYbtdREjui1T9DPh5dBgpkKq7u2GAAMXs5B?chain=solana"
+        ],
+        "discord.gg": [
+            "https://discord.gg/jup"
+        ],
+        "jup.ag": [
+            "https://jup.ag/",
+            "https://jup.ag/bridge-compare",
+            "https://jup.ag/dca/USDC-AART",
+            "https://jup.ag/limit/USDC-AART",
+            "https://jup.ag/perps",
+            "https://jup.ag/swap/USDC-AART"
+        ],
+        "station.jup.ag": [
+            "https://station.jup.ag/guides"
+        ],
+        "twitter.com": [
+            "https://twitter.com/JupiterExchange"
+        ],
+        "welcome.jup.ag": [
+            "https://welcome.jup.ag/"
+        ],
+        "www.reddit.com": [
+            "https://www.reddit.com/r/jupiterexchange"
+        ]
+    }
+}
