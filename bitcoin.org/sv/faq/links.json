@@ -1,0 +1,164 @@
+{
+    "target_url": "https://bitcoin.org/sv/faq",
+    "domains": {
+        "": [
+            "bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"
+        ],
+        "bitcoin.org": [
+            "https://bitcoin.org/ar/faq",
+            "https://bitcoin.org/bg/faq",
+            "https://bitcoin.org/ca/faq",
+            "https://bitcoin.org/da/faq",
+            "https://bitcoin.org/de/faq",
+            "https://bitcoin.org/el/faq",
+            "https://bitcoin.org/en/alerts",
+            "https://bitcoin.org/en/blog",
+            "https://bitcoin.org/en/faq",
+            "https://bitcoin.org/en/privacy",
+            "https://bitcoin.org/es/faq",
+            "https://bitcoin.org/fa/faq",
+            "https://bitcoin.org/fr/faq",
+            "https://bitcoin.org/he/faq",
+            "https://bitcoin.org/hi/faq",
+            "https://bitcoin.org/hu/gyik",
+            "https://bitcoin.org/hy/faq",
+            "https://bitcoin.org/id/faq",
+            "https://bitcoin.org/it/faq",
+            "https://bitcoin.org/ja/faq",
+            "https://bitcoin.org/km/faq",
+            "https://bitcoin.org/ko/faq",
+            "https://bitcoin.org/nl/faq",
+            "https://bitcoin.org/pl/faq",
+            "https://bitcoin.org/pt_BR/faq",
+            "https://bitcoin.org/ro/intrebari-frecvente",
+            "https://bitcoin.org/ru/faq",
+            "https://bitcoin.org/sl/vprasanja-in-odgovori",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja",
+            "https://bitcoin.org/sv/",
+            "https://bitcoin.org/sv/bitcoin-for-foretag",
+            "https://bitcoin.org/sv/bitcoin-for-privatpersoner",
+            "https://bitcoin.org/sv/bitcoinartikel",
+            "https://bitcoin.org/sv/borser",
+            "https://bitcoin.org/sv/community",
+            "https://bitcoin.org/sv/du-behover-kanna-till",
+            "https://bitcoin.org/sv/du-behover-kanna-till#instant",
+            "https://bitcoin.org/sv/evenemang",
+            "https://bitcoin.org/sv/faq",
+            "https://bitcoin.org/sv/faq#allmant",
+            "https://bitcoin.org/sv/faq#anvands-verkligen-bitcoin",
+            "https://bitcoin.org/sv/faq#ar-bitcoin-anonymt",
+            "https://bitcoin.org/sv/faq#ar-bitcoin-anvandbart-for-illegala-aktiviteter",
+            "https://bitcoin.org/sv/faq#ar-bitcoin-en-bubbla",
+            "https://bitcoin.org/sv/faq#ar-bitcoin-ett-ponzibedrageri",
+            "https://bitcoin.org/sv/faq#ar-bitcoin-helt-virtuellt-och-immateriellt",
+            "https://bitcoin.org/sv/faq#ar-bitcoin-lagligt",
+            "https://bitcoin.org/sv/faq#ar-bitcoin-sakert",
+            "https://bitcoin.org/sv/faq#ar-bitcoin-sarbart-for-kvantdatorer",
+            "https://bitcoin.org/sv/faq#ar-inte-bitcoingravning-sloseri-med-energi",
+            "https://bitcoin.org/sv/faq#ar-inte-spekulation-och-volatilitet-ett-problem-for-bitcoin",
+            "https://bitcoin.org/sv/faq#ekonomi",
+            "https://bitcoin.org/sv/faq#gravning",
+            "https://bitcoin.org/sv/faq#gynnar-bitcoin-tidiga-anvandare-orattvist",
+            "https://bitcoin.org/sv/faq#har-inte-bitcoin-redan-hackats",
+            "https://bitcoin.org/sv/faq#hjalp",
+            "https://bitcoin.org/sv/faq#hur-far-man-tag-pa-bitcoin",
+            "https://bitcoin.org/sv/faq#hur-fungerar-bitcoin",
+            "https://bitcoin.org/sv/faq#hur-fungerar-bitcoin-och-konsumentskydd",
+            "https://bitcoin.org/sv/faq#hur-fungerar-bitcoin-och-skatter",
+            "https://bitcoin.org/sv/faq#hur-fungerar-bitcoingravning",
+            "https://bitcoin.org/sv/faq#hur-hjalper-gravning-till-att-sakra-bitcoin",
+            "https://bitcoin.org/sv/faq#hur-skapas-bitcoin",
+            "https://bitcoin.org/sv/faq#hur-stor-blir-transaktionsavgiften",
+            "https://bitcoin.org/sv/faq#hur-svart-ar-det-att-gora-en-bitcoinbetalning",
+            "https://bitcoin.org/sv/faq#juridiskt",
+            "https://bitcoin.org/sv/faq#kan-anvandare-samverka-mot-bitcoin",
+            "https://bitcoin.org/sv/faq#kan-bitcoin-bli-vardelosa",
+            "https://bitcoin.org/sv/faq#kan-bitcoin-regleras",
+            "https://bitcoin.org/sv/faq#kan-bitcoin-skala-upp-och-bli-ett-storre-betalningsnatverk",
+            "https://bitcoin.org/sv/faq#kan-jag-tjana-pengar-med-bitcoin",
+            "https://bitcoin.org/sv/faq#kommer-inte-bitcoin-att-hamna-i-en-deflationsspiral",
+            "https://bitcoin.org/sv/faq#kommer-inte-den-begransade-mangden-bitcoin-vara-till-nackdel",
+            "https://bitcoin.org/sv/faq#mer-hjalp",
+            "https://bitcoin.org/sv/faq#sakerhet",
+            "https://bitcoin.org/sv/faq#transaktioner",
+            "https://bitcoin.org/sv/faq#vad-ar-bitcoin",
+            "https://bitcoin.org/sv/faq#vad-ar-bitcoingravning",
+            "https://bitcoin.org/sv/faq#vad-behover-jag-for-att-borja-grava",
+            "https://bitcoin.org/sv/faq#vad-bestammer-priset-pa-bitcoin",
+            "https://bitcoin.org/sv/faq#vad-betyder-synkronisering-och-varfor-tar-det-sa-lang-tid",
+            "https://bitcoin.org/sv/faq#vad-hander-nar-bitcoin-gar-forlorade",
+            "https://bitcoin.org/sv/faq#vad-hander-om-jag-far-bitcoin-nar-min-dator-ar-avstangd",
+            "https://bitcoin.org/sv/faq#vad-hander-om-nagon-koper-alla-existerande-bitcoin",
+            "https://bitcoin.org/sv/faq#vad-hander-om-nagon-skapar-en-battre-digital-valuta",
+            "https://bitcoin.org/sv/faq#varfor-har-bitcoin-varde",
+            "https://bitcoin.org/sv/faq#varfor-litar-folk-pa-bitcoin",
+            "https://bitcoin.org/sv/faq#varfor-maste-jag-vanta-10-minuter",
+            "https://bitcoin.org/sv/faq#vem-kontrollerar-bitcoinnatverket",
+            "https://bitcoin.org/sv/faq#vem-skapade-bitcoin",
+            "https://bitcoin.org/sv/faq#vilka-ar-fordelarna-med-bitcoin",
+            "https://bitcoin.org/sv/faq#vilka-ar-nackdelarna-med-bitcoin",
+            "https://bitcoin.org/sv/hur-det-fungerar",
+            "https://bitcoin.org/sv/innovation",
+            "https://bitcoin.org/sv/juridiskt",
+            "https://bitcoin.org/sv/kom-igang",
+            "https://bitcoin.org/sv/kop",
+            "https://bitcoin.org/sv/ladda-ner",
+            "https://bitcoin.org/sv/om-oss",
+            "https://bitcoin.org/sv/ordlista",
+            "https://bitcoin.org/sv/press",
+            "https://bitcoin.org/sv/resurser",
+            "https://bitcoin.org/sv/sakra-din-planbok",
+            "https://bitcoin.org/sv/skydda-din-integritet",
+            "https://bitcoin.org/sv/stod-bitcoin",
+            "https://bitcoin.org/sv/utveckling",
+            "https://bitcoin.org/sv/valj-din-planbok",
+            "https://bitcoin.org/tr/sss",
+            "https://bitcoin.org/uk/faq",
+            "https://bitcoin.org/zh_CN/faq",
+            "https://bitcoin.org/zh_TW/faq"
+        ],
+        "bitcoincharts.com": [
+            "https://bitcoincharts.com/bitcoin/"
+        ],
+        "bitcoinmagazine.com": [
+            "https://bitcoinmagazine.com/6021/bitcoin-is-not-quantum-safe-and-how-we-can-fix/"
+        ],
+        "denarium.com": [
+            "https://denarium.com/"
+        ],
+        "developer.bitcoin.org": [
+            "https://developer.bitcoin.org/"
+        ],
+        "en.bitcoin.it": [
+            "https://en.bitcoin.it/wiki/Help:FAQ",
+            "https://en.bitcoin.it/wiki/Scalability"
+        ],
+        "en.wikipedia.org": [
+            "https://en.wikipedia.org/wiki/German_gold_mark",
+            "https://en.wikipedia.org/wiki/Legality_of_bitcoin_by_country",
+            "https://en.wikipedia.org/wiki/Network_effect",
+            "https://en.wikipedia.org/wiki/Zimbabwean_dollar"
+        ],
+        "financialcryptography.com": [
+            "http://financialcryptography.com/mt/archives/001325.html"
+        ],
+        "howtobuybitcoins.info": [
+            "http://howtobuybitcoins.info"
+        ],
+        "live.blockcypher.com": [
+            "https://live.blockcypher.com/btc/"
+        ],
+        "localbitcoins.com": [
+            "https://localbitcoins.com/"
+        ],
+        "opensource.org": [
+            "http://opensource.org/licenses/mit-license.php"
+        ],
+        "usebitcoins.info": [
+            "http://usebitcoins.info/"
+        ],
+        "www.bitcoinmining.com": [
+            "http://www.bitcoinmining.com/"
+        ]
+    }
+}
