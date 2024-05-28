@@ -1,174 +1,74 @@
 {
     "target_url": "https://www.binance.com/en/support",
     "domains": {
-        "academy.binance.com": [
-            "https://academy.binance.com/en",
-            "https://academy.binance.com/en/learn-and-earn"
-        ],
         "accounts.binance.com": [
-            "https://accounts.binance.com/en/manage-email-address",
-            "https://accounts.binance.com/en/security-reset",
-            "https://accounts.binance.com/en/unlocking",
-            "https://accounts.binance.com/en/user/reset-password/1?type=email"
-        ],
-        "c2c.binance.com": [
-            "https://c2c.binance.com/en/merchantApplication"
-        ],
-        "coinmarketcap.com": [
-            "https://coinmarketcap.com/exchanges/binance/"
-        ],
-        "discord.gg": [
-            "https://discord.gg/jE4wt8g2H2"
-        ],
-        "labs.binance.com": [
-            "https://labs.binance.com/"
+            "https://accounts.binance.com/en-GB/change-email-authenticator",
+            "https://accounts.binance.com/en-GB/login?loginChannel=support_center&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4tR0Ivc3VwcG9ydA%3D%3D",
+            "https://accounts.binance.com/en-GB/register?registerChannel=support_center&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4tR0Ivc3VwcG9ydA%3D%3D",
+            "https://accounts.binance.com/en-GB/security-reset",
+            "https://accounts.binance.com/en-GB/unlocking",
+            "https://accounts.binance.com/en-GB/user/reset-password/1?type=email"
         ],
         "launchpad.binance.com": [
-            "https://launchpad.binance.com/en"
+            "https://launchpad.binance.com/en-GB"
         ],
         "p2p.binance.com": [
-            "https://p2p.binance.com/en",
-            "https://p2p.binance.com/en/p2pro"
-        ],
-        "pool.binance.com": [
-            "https://pool.binance.com/en"
-        ],
-        "twitter.com": [
-            "https://twitter.com/binance"
-        ],
-        "www.binance.charity": [
-            "https://www.binance.charity"
+            "https://p2p.binance.com/en-GB/trade/all-payments/USDT?fiat=GBP"
         ],
         "www.binance.com": [
-            "https://www.binance.com/en",
-            "https://www.binance.com/en/BABT?source=footer",
-            "https://www.binance.com/en/about",
-            "https://www.binance.com/en/about-legal/privacy-portal",
-            "https://www.binance.com/en/activity/affiliate",
-            "https://www.binance.com/en/activity/referral?utm_source=Lite_web_footer",
-            "https://www.binance.com/en/airdrop",
-            "https://www.binance.com/en/altcoins/tradable",
-            "https://www.binance.com/en/auto-invest",
-            "https://www.binance.com/en/binance-api",
-            "https://www.binance.com/en/blog",
-            "https://www.binance.com/en/bnb",
-            "https://www.binance.com/en/buy-sell-crypto",
-            "https://www.binance.com/en/careers",
-            "https://www.binance.com/en/chat?sourceEntry=4",
-            "https://www.binance.com/en/community",
-            "https://www.binance.com/en/convert",
-            "https://www.binance.com/en/copy-trading",
-            "https://www.binance.com/en/country-region-selector",
-            "https://www.binance.com/en/crypto/buy",
-            "https://www.binance.com/en/delivery",
-            "https://www.binance.com/en/desktop-download",
-            "https://www.binance.com/en/download",
-            "https://www.binance.com/en/earn",
-            "https://www.binance.com/en/eoptions",
-            "https://www.binance.com/en/eth2",
-            "https://www.binance.com/en/fan-token",
-            "https://www.binance.com/en/fee/schedule",
-            "https://www.binance.com/en/futures",
-            "https://www.binance.com/en/futures/home",
-            "https://www.binance.com/en/gift-card",
-            "https://www.binance.com/en/how-to-buy/bitcoin",
-            "https://www.binance.com/en/how-to-buy/bnb",
-            "https://www.binance.com/en/how-to-buy/dogecoin",
-            "https://www.binance.com/en/how-to-buy/ethereum",
-            "https://www.binance.com/en/how-to-buy/xrp",
-            "https://www.binance.com/en/land/building_trust",
-            "https://www.binance.com/en/land/tradingview",
-            "https://www.binance.com/en/landing/data",
-            "https://www.binance.com/en/legal/home",
-            "https://www.binance.com/en/leveraged-tokens/tokens/allTokens",
-            "https://www.binance.com/en/live",
-            "https://www.binance.com/en/loan",
-            "https://www.binance.com/en/markets/overview",
-            "https://www.binance.com/en/megadrop",
-            "https://www.binance.com/en/my/coin-apply",
-            "https://www.binance.com/en/my/risk/appeal?templateId=T11013bec0",
-            "https://www.binance.com/en/my/user-support/feedback/entry",
-            "https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/BTC",
-            "https://www.binance.com/en/my/wallet/account/payment",
-            "https://www.binance.com/en/my/wallet/not_arrival/guide",
-            "https://www.binance.com/en/nft/home",
-            "https://www.binance.com/en/official-verification",
-            "https://www.binance.com/en/otc",
-            "https://www.binance.com/en/press",
-            "https://www.binance.com/en/price",
-            "https://www.binance.com/en/price-prediction",
-            "https://www.binance.com/en/price-prediction/bitcoin",
-            "https://www.binance.com/en/price-prediction/ethereum",
-            "https://www.binance.com/en/price/bitcoin",
-            "https://www.binance.com/en/price/ethereum",
-            "https://www.binance.com/en/proof-of-reserves",
-            "https://www.binance.com/en/research",
-            "https://www.binance.com/en/risk-warning",
-            "https://www.binance.com/en/square",
-            "https://www.binance.com/en/square/news/all",
-            "https://www.binance.com/en/support",
-            "https://www.binance.com/en/support/announcement",
-            "https://www.binance.com/en/support/announcement/api-updates?c=51&navId=51",
-            "https://www.binance.com/en/support/announcement/crypto-airdrop?c=128&navId=128",
-            "https://www.binance.com/en/support/announcement/delisting?c=161&navId=161",
-            "https://www.binance.com/en/support/announcement/latest-activities?c=93&navId=93",
-            "https://www.binance.com/en/support/announcement/latest-binance-news?c=49&navId=49",
-            "https://www.binance.com/en/support/announcement/new-cryptocurrency-listing?c=48&navId=48",
-            "https://www.binance.com/en/support/announcement/new-fiat-listings?c=50&navId=50",
-            "https://www.binance.com/en/support/announcement/wallet-maintenance-updates?c=157&navId=157",
-            "https://www.binance.com/en/support/faq",
-            "https://www.binance.com/en/support/faq/360027287111",
-            "https://www.binance.com/en/support/faq/account-functions?c=1&navId=1",
-            "https://www.binance.com/en/support/faq/api?c=6&navId=6",
-            "https://www.binance.com/en/support/faq/binance-earn?c=140&navId=140",
-            "https://www.binance.com/en/support/faq/binance-fan-token?c=137&navId=137",
-            "https://www.binance.com/en/support/faq/binance-link?c=169&navId=169",
-            "https://www.binance.com/en/support/faq/binance-square?c=256&navId=256",
-            "https://www.binance.com/en/support/faq/buy-crypto-fiat-p2p?c=66&navId=66",
-            "https://www.binance.com/en/support/faq/convert-block-trade?c=173&navId=173",
-            "https://www.binance.com/en/support/faq/copy-trading?c=238&navId=238",
-            "https://www.binance.com/en/support/faq/crypto-deposit-withdrawal?c=2&navId=2",
-            "https://www.binance.com/en/support/faq/crypto-derivatives?c=4&navId=4",
-            "https://www.binance.com/en/support/faq/finance?c=5&navId=5",
-            "https://www.binance.com/en/support/faq/launchpool-megadrop?c=282&navId=282",
-            "https://www.binance.com/en/support/faq/nft?c=130&navId=130",
-            "https://www.binance.com/en/support/faq/other-topics?c=8&navId=8",
-            "https://www.binance.com/en/support/faq/security?c=7&navId=7",
-            "https://www.binance.com/en/support/faq/spot-margin-trading?c=3&navId=3",
-            "https://www.binance.com/en/support/faq/tax?c=235&navId=235",
-            "https://www.binance.com/en/support/faq/trading-bots?c=216&navId=216",
-            "https://www.binance.com/en/support/faq/tutorial?c=94&navId=94",
-            "https://www.binance.com/en/support/faq/vip?c=159&navId=159",
-            "https://www.binance.com/en/support/faq/web3-wallet?c=255&navId=255",
-            "https://www.binance.com/en/support/law-enforcement",
-            "https://www.binance.com/en/support/list/notices",
-            "https://www.binance.com/en/tax",
-            "https://www.binance.com/en/terms",
-            "https://www.binance.com/en/trade",
-            "https://www.binance.com/en/trade-rule",
-            "https://www.binance.com/en/trade/BTC_USDT?type=spot",
-            "https://www.binance.com/en/trade?type=cross",
-            "https://www.binance.com/en/trading-bots",
-            "https://www.binance.com/en/vip-institutional-services",
-            "https://www.binance.com/en/web3wallet"
+            "https://www.binance.com/en-GB/",
+            "https://www.binance.com/en-GB/about",
+            "https://www.binance.com/en-GB/about#email",
+            "https://www.binance.com/en-GB/about-legal/privacy-portal",
+            "https://www.binance.com/en-GB/auto-invest/",
+            "https://www.binance.com/en-GB/careers",
+            "https://www.binance.com/en-GB/chat",
+            "https://www.binance.com/en-GB/chat?sourceEntry=4",
+            "https://www.binance.com/en-GB/convert",
+            "https://www.binance.com/en-GB/convert/GBP/BTC",
+            "https://www.binance.com/en-GB/crypto",
+            "https://www.binance.com/en-GB/crypto/buy/GBP/BTC",
+            "https://www.binance.com/en-GB/earn",
+            "https://www.binance.com/en-GB/fan-token",
+            "https://www.binance.com/en-GB/fee/schedule",
+            "https://www.binance.com/en-GB/fee/trading",
+            "https://www.binance.com/en-GB/legal/licenses",
+            "https://www.binance.com/en-GB/legal/risk-warning",
+            "https://www.binance.com/en-GB/markets/overview",
+            "https://www.binance.com/en-GB/markets/spot_margin-FIAT",
+            "https://www.binance.com/en-GB/my/wallet/not_arrival/guide",
+            "https://www.binance.com/en-GB/nft/home",
+            "https://www.binance.com/en-GB/press",
+            "https://www.binance.com/en-GB/support",
+            "https://www.binance.com/en-GB/support/announcement",
+            "https://www.binance.com/en-GB/support/announcement/daily-bnb-balance-calculation-mechanism-update-360031505011",
+            "https://www.binance.com/en-GB/support/announcement/latest-binance-news?c=49&navId=49",
+            "https://www.binance.com/en-GB/support/faq",
+            "https://www.binance.com/en-GB/support/faq/account-functions?c=1&navId=1",
+            "https://www.binance.com/en-GB/support/faq/api?c=6&navId=6",
+            "https://www.binance.com/en-GB/support/faq/binance-fan-token?c=137&navId=137",
+            "https://www.binance.com/en-GB/support/faq/buy-crypto-fiat-p2p?c=66&navId=66",
+            "https://www.binance.com/en-GB/support/faq/crypto-deposit-withdrawal?c=2&navId=2",
+            "https://www.binance.com/en-GB/support/faq/finance?c=5&navId=5",
+            "https://www.binance.com/en-GB/support/faq/how-to-complete-identity-verification-360027287111",
+            "https://www.binance.com/en-GB/support/faq/how-to-find-my-user-id-buid-on-binance-com-e23f61cafb5a4307bfb32506bd39f89d",
+            "https://www.binance.com/en-GB/support/faq/how-to-withdraw-from-binance-115003670492",
+            "https://www.binance.com/en-GB/support/faq/nft?c=130&navId=130",
+            "https://www.binance.com/en-GB/support/faq/other-topics?c=8&navId=8",
+            "https://www.binance.com/en-GB/support/faq/security?c=7&navId=7",
+            "https://www.binance.com/en-GB/support/faq/spot-margin-trading?c=3&navId=3",
+            "https://www.binance.com/en-GB/support/faq/trading-bots?c=216&navId=216",
+            "https://www.binance.com/en-GB/support/faq/tutorial?c=94&navId=94",
+            "https://www.binance.com/en-GB/support/faq/vip?c=159&navId=159",
+            "https://www.binance.com/en-GB/support/faq/why-hasn-t-my-withdrawal-arrived-115003743192",
+            "https://www.binance.com/en-GB/support/law-enforcement",
+            "https://www.binance.com/en-GB/terms",
+            "https://www.binance.com/en-GB/trade-rule",
+            "https://www.binance.com/en-GB/trade?type=cross",
+            "https://www.binance.com/en-GB/trading-bots"
         ],
-        "www.bnbchain.org": [
-            "https://www.bnbchain.org"
-        ],
-        "www.facebook.com": [
-            "https://www.facebook.com/binance"
-        ],
-        "www.instagram.com": [
-            "https://www.instagram.com/Binance/"
-        ],
-        "www.reddit.com": [
-            "https://www.reddit.com/r/binance"
-        ],
-        "www.tiktok.com": [
-            "https://www.tiktok.com/@binance?lang=en"
-        ],
-        "www.youtube.com": [
-            "https://www.youtube.com/binanceyoutube"
+        "x.com": [
+            "https://x.com/binanceuk"
         ]
     }
 }
