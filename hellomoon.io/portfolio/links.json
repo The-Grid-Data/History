@@ -1,0 +1,26 @@
+{
+    "target_url": "https://hellomoon.io/portfolio",
+    "domains": {
+        "discord.gg": [
+            "https://discord.gg/HelloMoon"
+        ],
+        "hellomoon.io": [
+            "https://hellomoon.io/developers",
+            "https://hellomoon.io/nfts/top-projects",
+            "https://hellomoon.io/portfolio",
+            "https://hellomoon.io/social",
+            "https://hellomoon.io/solana",
+            "https://hellomoon.io/solana-defi/tokens",
+            "https://hellomoon.io/swap"
+        ],
+        "public-pdfs.s3.amazonaws.com": [
+            "https://public-pdfs.s3.amazonaws.com/Hello+Moon+Terms+of+Service+(WSGR+3.11.22).+(4894-5553-0764.pdf"
+        ],
+        "surveys.hotjar.com": [
+            "https://surveys.hotjar.com/546656fc-d96f-40af-b099-0d3034277b9b"
+        ],
+        "twitter.com": [
+            "https://twitter.com/HelloMoon_io"
+        ]
+    }
+}
