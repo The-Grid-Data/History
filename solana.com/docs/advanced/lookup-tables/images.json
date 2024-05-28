@@ -1,0 +1,14 @@
+{
+    "target_url": "https://solana.com/docs/advanced/lookup-tables",
+    "domains": {
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=d0d5a3c3-369a-4988-ba6e-4b1311c2d208&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=35cf0ff7-adb7-431e-b6c4-b2b91f513ed7&tw_document_href=https%3A%2F%2Fsolana.com%2Fdocs%2Fadvanced%2Flookup-tables&tw_iframe_status=0&txn_id=o6jgu&type=javascript&version=2.3.30"
+        ],
+        "solana.com": [
+            "https://solana.com/_next/static/media/logotype-dark.f79d530d.svg"
+        ],
+        "t.co": [
+            "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=d0d5a3c3-369a-4988-ba6e-4b1311c2d208&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=35cf0ff7-adb7-431e-b6c4-b2b91f513ed7&tw_document_href=https%3A%2F%2Fsolana.com%2Fdocs%2Fadvanced%2Flookup-tables&tw_iframe_status=0&txn_id=o6jgu&type=javascript&version=2.3.30"
+        ]
+    }
+}
