@@ -1,0 +1,47 @@
+{
+    "target_url": "https://www.ledger.com/start",
+    "domains": {
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=58b28e16-19d0-491e-9051-deb9e0fb1015&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=3bedbb38-c1fd-415b-80ca-2fcc3743cc69&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Fstart&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "bat.bing.com": [
+            "https://bat.bing.com/action/0?ti=134633242&tm=gtm002&Ver=2&mid=3693fd17-9091-41af-a804-445509be69e3&sid=799804e01cfe11ef9da6eb97d311a29c&vid=79984ad01cfe11ef8b1ae7d2285fbf03&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&tl=How%20to%20set%20up%20your%20Ledger%20hardware%20wallet%20%7C%20Ledger&p=https%3A%2F%2Fwww.ledger.com%2Fstart&r=&lt=6606&evt=pageLoad&sv=1&rn=739069"
+        ],
+        "cdn.cookielaw.org": [
+            "https://cdn.cookielaw.org/logos/df21fb3f-71b8-491b-89ee-eb777bcaf866/637ca236-af9d-4a40-815f-1b6a15af499d/ea9d9f41-35f0-4c24-9a83-1ef746863067/White_64.png",
+            "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg"
+        ],
+        "ledger-wp-website-s3-prd.ledger.com": [
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/01/get-started-hero.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/01/homepage-academy-block.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/01/homepage-get-started.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/04/Buy-1.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/04/Connect-1.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/04/Exchange-1.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/04/Grow-1.png"
+        ],
+        "sp.analytics.yahoo.com": [
+            "https://sp.analytics.yahoo.com/sp.pl?a=10000&d=Tue%2C%2028%20May%202024%2014%3A27%3A52%20GMT&n=0&b=How%20to%20set%20up%20your%20Ledger%20hardware%20wallet%20%7C%20Ledger&.yp=10159916&f=https%3A%2F%2Fwww.ledger.com%2Fstart&enc=UTF-8&yv=1.15.1&tagmgr=gtm"
+        ],
+        "t.co": [
+            "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=58b28e16-19d0-491e-9051-deb9e0fb1015&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=3bedbb38-c1fd-415b-80ca-2fcc3743cc69&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Fstart&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "t.teads.tv": [
+            "https://t.teads.tv/track?action=pageView&env=js-gtm&tag_version=6.17.6_ee47857&provider=tag&buyer_pixel_id=6887&referer=https%3A%2F%2Fwww.ledger.com%2Fstart&user_session_id=e6c84fac-1a2f-42d5-b76c-c4a2cc6f7933"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/tr?id=237213137153741&ev=PageView&noscript=1"
+        ],
+        "www.ledger.com": [
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg",
+            "https://www.ledger.com/wp-content/uploads/2021/11/layer1.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-bitpay-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-cb-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-crypto-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-maestro-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-mastercard-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-paypal-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-visa-s.png?v=2"
+        ]
+    }
+}
