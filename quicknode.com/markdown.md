@@ -53,7 +53,7 @@ By Stage
     * [![imx logo](https://images.ctfassets.net/23fkqdsgbpuj/4mWtyMBu7y4AWkzfAZbQqP/57720e48c96b223a60a097cde51fcd0b/immutable-symbol-blk-RGB.png)Immutable](/chains/imx)
     * [![blast-icon-white](https://images.ctfassets.net/23fkqdsgbpuj/68jcwc0it0Chck7l1o4BW3/67063416abdbb7cf0af92216d36af284/blast_figma_white.svg) BlastNEW](/chains/blast)
     * [![zkSync Era Flat Logo](https://images.ctfassets.net/23fkqdsgbpuj/4VeF1t5IQq7A4dCTu3sBQU/abc5645791a2b02b4fc9d154898b6773/zkSync-Flat-Logo.svg)zkSync Era](/chains/zksync)
-    * [View all 35 chains](/chains)
+    * [View all 36 chains](/chains)
 
   * Developers
 
@@ -137,7 +137,7 @@ Chains
     * [![zkSync Era Flat Logo](https://images.ctfassets.net/23fkqdsgbpuj/4VeF1t5IQq7A4dCTu3sBQU/abc5645791a2b02b4fc9d154898b6773/zkSync-Flat-Logo.svg)zkSync Era](/chains/zksync)
     * [View all  chains](/chains)
 
-[View all 35 chains](/chains)
+[View all 36 chains](/chains)
 
   * Developers
 
@@ -191,9 +191,9 @@ allowing you to focus on your customers.
 On average, we have API response times 2.5x faster than our competitors,
 ensuring you receive the freshest data!
 
-  * #### 35 Chains....and counting
+  * #### 36 Chains....and counting
 
-Access 35 chains across 70\+ networks. Whether you need Mainnet, Testnet,
+Access 36 chains across 70\+ networks. Whether you need Mainnet, Testnet,
 Full, or Archive Data, we have you covered!
 
 [Browse the chains](/chains)
