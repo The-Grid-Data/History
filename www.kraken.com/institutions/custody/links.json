@@ -1,0 +1,42 @@
+{
+    "target_url": "https://www.kraken.com/institutions/custody",
+    "domains": {
+        "custody.kraken.com": [
+            "https://custody.kraken.com/",
+            "https://custody.kraken.com/legal",
+            "https://custody.kraken.com/legal/privacy"
+        ],
+        "nft.kraken.com": [
+            "https://nft.kraken.com"
+        ],
+        "pro.kraken.com": [
+            "https://pro.kraken.com/app/trade/btc-usd"
+        ],
+        "support.kraken.com": [
+            "https://support.kraken.com/hc/en-us"
+        ],
+        "www.kraken.com": [
+            "https://www.kraken.com/",
+            "https://www.kraken.com/features/24-7-support",
+            "https://www.kraken.com/features/funding-options",
+            "https://www.kraken.com/features/liquidity",
+            "https://www.kraken.com/features/security",
+            "https://www.kraken.com/financial",
+            "https://www.kraken.com/institutions",
+            "https://www.kraken.com/institutions/custody",
+            "https://www.kraken.com/institutions/custody#contact-us",
+            "https://www.kraken.com/institutions/futures",
+            "https://www.kraken.com/institutions/otc",
+            "https://www.kraken.com/institutions/spot",
+            "https://www.kraken.com/institutions/staking",
+            "https://www.kraken.com/learn",
+            "https://www.kraken.com/legal/uk/disclaimer",
+            "https://www.kraken.com/prices",
+            "https://www.kraken.com/proof-of-reserves",
+            "https://www.kraken.com/sign-in",
+            "https://www.kraken.com/sign-up",
+            "https://www.kraken.com/wallet",
+            "https://www.kraken.com/why-kraken"
+        ]
+    }
+}
