@@ -259,7 +259,7 @@ our most pressing hiring opportunities are listed on our jobs board
 
 [NextIntroduction to Cega](/cega/intro/introduction-to-cega)
 
-Last updated 19 days ago
+Last updated 20 days ago
 
 On this page
 
