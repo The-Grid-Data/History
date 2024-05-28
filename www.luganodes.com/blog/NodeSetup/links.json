@@ -1,0 +1,56 @@
+{
+    "target_url": "https://www.luganodes.com/blog/NodeSetup/",
+    "domains": {
+        "docs.luganodes.com": [
+            "https://docs.luganodes.com/"
+        ],
+        "medium.com": [
+            "https://medium.com/luganodes"
+        ],
+        "security.luganodes.com": [
+            "https://security.luganodes.com/"
+        ],
+        "t.me": [
+            "https://t.me/luganodesofficial/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/intent/tweet?text=Check%20out%20this%20blog%20by%20Luganodes%20-%20%22Behind%20the%20Scenes%3A%20An%20Overview%20of%20Our%20Node%20Setup%20Methodology%22&url=",
+            "https://twitter.com/luganodes",
+            "https://twitter.com/luganodes/status/1656692921608060929",
+            "https://twitter.com/luganodes/status/1660596592095682560",
+            "https://twitter.com/luganodes/status/1661013916024201217"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/luganodes/",
+            "https://www.linkedin.com/sharing/share-offsite/?url=&title=Behind%20the%20Scenes%3A%20An%20Overview%20of%20Our%20Node%20Setup%20Methodology&summary=Check%20out%20this%20blog%20by%20Luganodes%20-%20%22Behind%20the%20Scenes%3A%20An%20Overview%20of%20Our%20Node%20Setup%20Methodology%22"
+        ],
+        "www.luganodes.com": [
+            "https://www.luganodes.com/",
+            "https://www.luganodes.com/#getInTouch",
+            "https://www.luganodes.com/#signup",
+            "https://www.luganodes.com/aboutus/",
+            "https://www.luganodes.com/blog/",
+            "https://www.luganodes.com/blog/?interval=3&category=Guides#blog-list",
+            "https://www.luganodes.com/blog/?interval=3&category=Research",
+            "https://www.luganodes.com/case-study/Bitfinex_CS/",
+            "https://www.luganodes.com/case-study/Coinlist_CS/",
+            "https://www.luganodes.com/client/custodian/",
+            "https://www.luganodes.com/client/exchanges/",
+            "https://www.luganodes.com/client/investors/",
+            "https://www.luganodes.com/privacypolicy/",
+            "https://www.luganodes.com/product/eigenlayer/",
+            "https://www.luganodes.com/product/luganodesterminal/",
+            "https://www.luganodes.com/product/managednodes/",
+            "https://www.luganodes.com/product/staking/",
+            "https://www.luganodes.com/product/stakingapi/",
+            "https://www.luganodes.com/product/zkraas/",
+            "https://www.luganodes.com/termsofservice/"
+        ],
+        "www.stakingrewards.com": [
+            "https://www.stakingrewards.com/savings/luganodes/"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/@luganodes"
+        ]
+    }
+}
