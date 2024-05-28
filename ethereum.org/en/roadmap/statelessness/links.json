@@ -1,0 +1,125 @@
+{
+    "target_url": "https://ethereum.org/en/roadmap/statelessness/",
+    "domains": {
+        "": [
+            "mailto:press@ethereum.org"
+        ],
+        "blog.ethereum.org": [
+            "https://blog.ethereum.org/"
+        ],
+        "dankradfeist.de": [
+            "https://dankradfeist.de/ethereum/2021/02/14/why-stateless.html"
+        ],
+        "devcon.org": [
+            "https://devcon.org/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/ethereum-org"
+        ],
+        "eips.ethereum.org": [
+            "https://eips.ethereum.org/EIPS/eip-4444"
+        ],
+        "esp.ethereum.foundation": [
+            "https://esp.ethereum.foundation"
+        ],
+        "ethereum-magicians.org": [
+            "https://ethereum-magicians.org/t/increasing-address-size-from-20-to-32-bytes/5485",
+            "https://ethereum-magicians.org/t/types-of-resurrection-metadata-in-state-expiry/6607"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/en/",
+            "https://ethereum.org/en/about/",
+            "https://ethereum.org/en/about/#open-jobs",
+            "https://ethereum.org/en/assets/",
+            "https://ethereum.org/en/bug-bounty/",
+            "https://ethereum.org/en/community/",
+            "https://ethereum.org/en/community/code-of-conduct/",
+            "https://ethereum.org/en/community/events/",
+            "https://ethereum.org/en/community/grants/",
+            "https://ethereum.org/en/community/online/",
+            "https://ethereum.org/en/community/research/",
+            "https://ethereum.org/en/contributing/",
+            "https://ethereum.org/en/contributing/translation-program/",
+            "https://ethereum.org/en/cookie-policy/",
+            "https://ethereum.org/en/dao/",
+            "https://ethereum.org/en/dapps/",
+            "https://ethereum.org/en/decentralized-identity/",
+            "https://ethereum.org/en/defi/",
+            "https://ethereum.org/en/developers/",
+            "https://ethereum.org/en/developers/docs/",
+            "https://ethereum.org/en/developers/docs/design-and-ux/",
+            "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+            "https://ethereum.org/en/developers/learning-tools/",
+            "https://ethereum.org/en/developers/local-environment/",
+            "https://ethereum.org/en/developers/tutorials/",
+            "https://ethereum.org/en/eips/",
+            "https://ethereum.org/en/enterprise/",
+            "https://ethereum.org/en/enterprise/private-ethereum/",
+            "https://ethereum.org/en/eth/",
+            "https://ethereum.org/en/foundation/",
+            "https://ethereum.org/en/gas/",
+            "https://ethereum.org/en/get-eth/",
+            "https://ethereum.org/en/glossary/",
+            "https://ethereum.org/en/governance/",
+            "https://ethereum.org/en/guides/",
+            "https://ethereum.org/en/history/",
+            "https://ethereum.org/en/layer-2/",
+            "https://ethereum.org/en/learn/",
+            "https://ethereum.org/en/nft/",
+            "https://ethereum.org/en/privacy-policy/",
+            "https://ethereum.org/en/quizzes/",
+            "https://ethereum.org/en/roadmap/",
+            "https://ethereum.org/en/roadmap/pbs/",
+            "https://ethereum.org/en/roadmap/security/",
+            "https://ethereum.org/en/roadmap/statelessness/",
+            "https://ethereum.org/en/roadmap/statelessness/#current-progress",
+            "https://ethereum.org/en/roadmap/statelessness/#data-expiry",
+            "https://ethereum.org/en/roadmap/statelessness/#further-reading",
+            "https://ethereum.org/en/roadmap/statelessness/#history-expiry",
+            "https://ethereum.org/en/roadmap/statelessness/#main-content",
+            "https://ethereum.org/en/roadmap/statelessness/#reducing-storage-for-nodes",
+            "https://ethereum.org/en/roadmap/statelessness/#state-expiry",
+            "https://ethereum.org/en/roadmap/statelessness/#statelessness",
+            "https://ethereum.org/en/roadmap/statelessness/#strong-statelessness",
+            "https://ethereum.org/en/roadmap/statelessness/#weak-statelessness",
+            "https://ethereum.org/en/roadmap/verkle-trees/",
+            "https://ethereum.org/en/run-a-node/",
+            "https://ethereum.org/en/security/",
+            "https://ethereum.org/en/smart-contracts/",
+            "https://ethereum.org/en/stablecoins/",
+            "https://ethereum.org/en/staking/",
+            "https://ethereum.org/en/terms-of-use/",
+            "https://ethereum.org/en/wallets/",
+            "https://ethereum.org/en/wallets/find-wallet/",
+            "https://ethereum.org/en/web3/",
+            "https://ethereum.org/en/what-is-ethereum/",
+            "https://ethereum.org/en/whitepaper/"
+        ],
+        "ethresear.ch": [
+            "https://ethresear.ch/t/resurrection-conflict-minimized-state-bounding-take-2/8739",
+            "https://ethresear.ch/t/the-stateless-client-concept/172"
+        ],
+        "github.com": [
+            "https://github.com/ethereum/ethereum-org-website",
+            "https://github.com/ethereum/ethereum-org-website/tree/dev/public/content/roadmap/statelessness/index.md"
+        ],
+        "hackmd.io": [
+            "https://hackmd.io/@vbuterin/state_expiry_paths",
+            "https://hackmd.io/@vbuterin/state_expiry_paths#Option-2-per-epoch-state-expiry",
+            "https://hackmd.io/@vbuterin/state_size_management",
+            "https://hackmd.io/@vbuterin/state_size_management#A-more-moderate-solution-state-expiry"
+        ],
+        "notes.ethereum.org": [
+            "https://notes.ethereum.org/WUUUXBKWQXORxpFMlLWy-w#So-why-is-it-ok-to-have-expensive-proposers"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ethdotorg"
+        ],
+        "www.reddit.com": [
+            "https://www.reddit.com/r/ethereum/comments/o9s15i/impromptu_technical_ama_on_statelessness_and/"
+        ],
+        "youtu.be": [
+            "https://youtu.be/SfDC_qUZaos"
+        ]
+    }
+}
