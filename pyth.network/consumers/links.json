@@ -1,0 +1,1206 @@
+{
+    "target_url": "https://pyth.network/consumers",
+    "domains": {
+        "100x.finance": [
+            "https://100x.finance/#about"
+        ],
+        "aark.digital": [
+            "https://aark.digital/"
+        ],
+        "abelfinance.xyz": [
+            "https://abelfinance.xyz/#/markets"
+        ],
+        "abex.fi": [
+            "https://abex.fi/"
+        ],
+        "aftermath.finance": [
+            "https://aftermath.finance"
+        ],
+        "alpha.vybenetwork.com": [
+            "https://alpha.vybenetwork.com/"
+        ],
+        "amped.finance": [
+            "https://amped.finance/#/"
+        ],
+        "amptoken.org": [
+            "https://amptoken.org/"
+        ],
+        "amulet.org": [
+            "https://amulet.org/"
+        ],
+        "app.angle.money": [
+            "https://app.angle.money/"
+        ],
+        "app.burrow.cash": [
+            "https://app.burrow.cash/#/deposit/"
+        ],
+        "app.degens.bet": [
+            "https://app.degens.bet"
+        ],
+        "app.dyson.finance": [
+            "https://app.dyson.finance/"
+        ],
+        "app.echelon.market": [
+            "https://app.echelon.market/dashboard"
+        ],
+        "app.laevitas.ch": [
+            "https://app.laevitas.ch/home"
+        ],
+        "app.mooncake.finance": [
+            "https://app.mooncake.finance/"
+        ],
+        "app.optionblitz.co": [
+            "https://app.optionblitz.co"
+        ],
+        "app.ribbon.finance": [
+            "https://app.ribbon.finance/"
+        ],
+        "app.sudo.finance": [
+            "https://app.sudo.finance/trade"
+        ],
+        "app.sumer.money": [
+            "https://app.sumer.money/"
+        ],
+        "app.symmetry.fi": [
+            "https://app.symmetry.fi"
+        ],
+        "app.zkera.fi": [
+            "https://app.zkera.fi/"
+        ],
+        "apricot.one": [
+            "https://apricot.one/#/"
+        ],
+        "aptin.io": [
+            "https://aptin.io/"
+        ],
+        "arcana.markets": [
+            "https://arcana.markets/"
+        ],
+        "argo.fi": [
+            "https://argo.fi/"
+        ],
+        "ariesmarkets.xyz": [
+            "https://ariesmarkets.xyz/"
+        ],
+        "arkadiko.finance": [
+            "https://arkadiko.finance/"
+        ],
+        "ashswap.io": [
+            "https://ashswap.io/"
+        ],
+        "astromint.xyz": [
+            "https://astromint.xyz/"
+        ],
+        "bakerfi.xyz": [
+            "https://bakerfi.xyz"
+        ],
+        "basilisk.org": [
+            "https://basilisk.org/"
+        ],
+        "beta.perpy.finance": [
+            "https://beta.perpy.finance/"
+        ],
+        "beta.releap.io": [
+            "https://beta.releap.io/"
+        ],
+        "blastfutures.com": [
+            "https://blastfutures.com/"
+        ],
+        "bloom.trading": [
+            "https://bloom.trading/"
+        ],
+        "bluefin.io": [
+            "https://bluefin.io/"
+        ],
+        "bmx.morphex.trade": [
+            "https://bmx.morphex.trade/"
+        ],
+        "bonfida.org": [
+            "http://bonfida.org/#/"
+        ],
+        "bucketprotocol.io": [
+            "https://bucketprotocol.io/"
+        ],
+        "buffer.finance": [
+            "https://buffer.finance/"
+        ],
+        "c3.io": [
+            "https://c3.io/"
+        ],
+        "caladan.xyz": [
+            "https://caladan.xyz/"
+        ],
+        "clone.so": [
+            "https://clone.so/"
+        ],
+        "cochilli.io": [
+            "https://cochilli.io/"
+        ],
+        "coinbet.games": [
+            "https://coinbet.games/"
+        ],
+        "copin.io": [
+            "https://copin.io/"
+        ],
+        "covo.finance": [
+            "https://covo.finance/"
+        ],
+        "cryptex.finance": [
+            "https://cryptex.finance/"
+        ],
+        "decalls.io": [
+            "https://decalls.io/"
+        ],
+        "degenbase.trade": [
+            "https://degenbase.trade/"
+        ],
+        "deri.io": [
+            "https://deri.io/#/index"
+        ],
+        "derivio.xyz": [
+            "https://derivio.xyz/"
+        ],
+        "dforce.network": [
+            "https://dforce.network/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/PythNetwork",
+            "https://discord.gg/invite/PythNetwork"
+        ],
+        "docs.pyth.network": [
+            "https://docs.pyth.network/benchmarks/how-to-create-tradingview-charts",
+            "https://docs.pyth.network/documentation/",
+            "https://docs.pyth.network/home/metrics/kpi",
+            "https://docs.pyth.network/price-feeds/api-reference",
+            "https://docs.pyth.network/price-feeds/contract-addresses",
+            "https://docs.pyth.network/price-feeds/create-your-first-pyth-app",
+            "https://docs.pyth.network/price-feeds/getting-started",
+            "https://docs.pyth.network/price-feeds/pull-updates",
+            "https://docs.pyth.network/price-feeds/use-real-time-data",
+            "https://docs.pyth.network/price-feeds/use-real-time-data/aptos",
+            "https://docs.pyth.network/price-feeds/use-real-time-data/cosmwasm",
+            "https://docs.pyth.network/price-feeds/use-real-time-data/evm",
+            "https://docs.pyth.network/price-feeds/use-real-time-data/near",
+            "https://docs.pyth.network/price-feeds/use-real-time-data/solana",
+            "https://docs.pyth.network/price-feeds/use-real-time-data/sui"
+        ],
+        "doubler.pro": [
+            "https://doubler.pro/#/home"
+        ],
+        "dropcopy.io": [
+            "https://dropcopy.io/pari"
+        ],
+        "dtx.trade": [
+            "https://dtx.trade/"
+        ],
+        "dune.com": [
+            "https://dune.com/cctdaniel/pyth-oracle"
+        ],
+        "eastblue.io": [
+            "https://eastblue.io"
+        ],
+        "easyx.trade": [
+            "https://easyx.trade/"
+        ],
+        "econialabs.com": [
+            "https://econialabs.com"
+        ],
+        "eddy.finance": [
+            "https://eddy.finance/"
+        ],
+        "ethena.fi": [
+            "https://ethena.fi"
+        ],
+        "exotic.markets": [
+            "https://exotic.markets/"
+        ],
+        "flat.money": [
+            "https://flat.money"
+        ],
+        "forum.pyth.network": [
+            "https://forum.pyth.network"
+        ],
+        "francium.io": [
+            "https://francium.io/"
+        ],
+        "freely.finance": [
+            "https://freely.finance/"
+        ],
+        "fringe.fi": [
+            "https://fringe.fi/"
+        ],
+        "fulcrom.finance": [
+            "https://fulcrom.finance/"
+        ],
+        "fusionx.finance": [
+            "https://fusionx.finance/"
+        ],
+        "fwx.finance": [
+            "https://fwx.finance/"
+        ],
+        "gambit.trade": [
+            "https://gambit.trade/"
+        ],
+        "gamblino.app": [
+            "https://gamblino.app/"
+        ],
+        "github.com": [
+            "https://github.com/pyth-network",
+            "https://github.com/pyth-network/audit-reports"
+        ],
+        "goku.money": [
+            "https://goku.money/"
+        ],
+        "goosefx.io": [
+            "https://goosefx.io/"
+        ],
+        "granary.finance": [
+            "https://granary.finance/markets"
+        ],
+        "gumbledapp.xyz": [
+            "https://gumbledapp.xyz/"
+        ],
+        "helixapp.com": [
+            "https://helixapp.com/"
+        ],
+        "hliquity.org": [
+            "https://hliquity.org/"
+        ],
+        "hmx.org": [
+            "https://hmx.org/arbitrum"
+        ],
+        "hover.market": [
+            "http://hover.market/"
+        ],
+        "hubbleprotocol.io": [
+            "https://hubbleprotocol.io/"
+        ],
+        "id.roninchain.com": [
+            "https://id.roninchain.com/"
+        ],
+        "infinex.io": [
+            "https://infinex.io/"
+        ],
+        "ionic.money": [
+            "https://ionic.money"
+        ],
+        "jup.ag": [
+            "https://jup.ag"
+        ],
+        "kamino.finance": [
+            "https://kamino.finance/"
+        ],
+        "kawa.finance": [
+            "https://kawa.finance/"
+        ],
+        "kinetix.finance": [
+            "https://kinetix.finance/"
+        ],
+        "kryptonite.finance": [
+            "https://kryptonite.finance/"
+        ],
+        "kuswap.finance": [
+            "https://kuswap.finance/#/swap"
+        ],
+        "kwenta.io": [
+            "https://kwenta.io/dashboard"
+        ],
+        "layerbank.finance": [
+            "https://layerbank.finance/"
+        ],
+        "lendland.io": [
+            "https://lendland.io/"
+        ],
+        "level.finance": [
+            "https://level.finance/"
+        ],
+        "lexer.markets": [
+            "https://lexer.markets/"
+        ],
+        "lifinity.io": [
+            "https://lifinity.io/"
+        ],
+        "lualabs.xyz": [
+            "https://lualabs.xyz/"
+        ],
+        "mage.finance": [
+            "https://mage.finance/"
+        ],
+        "mango.markets": [
+            "https://mango.markets/"
+        ],
+        "marsprotocol.io": [
+            "https://marsprotocol.io/"
+        ],
+        "mendi.finance": [
+            "https://mendi.finance/"
+        ],
+        "merkle.trade": [
+            "https://merkle.trade/"
+        ],
+        "metavault.trade": [
+            "https://metavault.trade"
+        ],
+        "micro3.io": [
+            "https://micro3.io/"
+        ],
+        "mirage.money": [
+            "https://mirage.money/"
+        ],
+        "mold.trade": [
+            "https://mold.trade/#/"
+        ],
+        "mole.fi": [
+            "https://mole.fi/"
+        ],
+        "molend.org": [
+            "https://molend.org/"
+        ],
+        "mu.exchange": [
+            "https://mu.exchange"
+        ],
+        "myx.finance": [
+            "https://myx.finance/"
+        ],
+        "narwhal.finance": [
+            "https://narwhal.finance/"
+        ],
+        "native.org": [
+            "https://native.org/"
+        ],
+        "nekodex.org": [
+            "https://nekodex.org/"
+        ],
+        "nept.finance": [
+            "https://nept.finance/"
+        ],
+        "nexter.fi": [
+            "https://nexter.fi/"
+        ],
+        "nlx.trade": [
+            "https://nlx.trade/"
+        ],
+        "openbb.co": [
+            "https://openbb.co/"
+        ],
+        "orbitlending.io": [
+            "https://orbitlending.io/"
+        ],
+        "pancakeswap.finance": [
+            "https://pancakeswap.finance/"
+        ],
+        "paradex.trade": [
+            "https://paradex.trade"
+        ],
+        "parallel.fi": [
+            "https://parallel.fi/"
+        ],
+        "parifi.org": [
+            "https://parifi.org/"
+        ],
+        "perennial.finance": [
+            "https://perennial.finance/"
+        ],
+        "perp.com": [
+            "https://perp.com/"
+        ],
+        "perps.ai": [
+            "https://perps.ai/"
+        ],
+        "pingu.exchange": [
+            "https://pingu.exchange/"
+        ],
+        "pixelswap.xyz": [
+            "https://pixelswap.xyz/"
+        ],
+        "poison.finance": [
+            "https://poison.finance/"
+        ],
+        "pontem.network": [
+            "https://pontem.network/"
+        ],
+        "port.finance": [
+            "https://port.finance/"
+        ],
+        "projectlarix.com": [
+            "https://projectlarix.com/"
+        ],
+        "pyth-network.typeform.com": [
+            "https://pyth-network.typeform.com/ContactPyth",
+            "https://pyth-network.typeform.com/PythDPA"
+        ],
+        "pyth.network": [
+            "https://pyth.network/",
+            "https://pyth.network/=https:/print3r.xyz#/home",
+            "https://pyth.network/about",
+            "https://pyth.network/airdrop",
+            "https://pyth.network/app.kriya.finance",
+            "https://pyth.network/benchmarks",
+            "https://pyth.network/blog",
+            "https://pyth.network/blog/pythiad-cega-is-here-to-go-even-faster",
+            "https://pyth.network/blog/pythiad-goosefx-is-good-for-the-gander",
+            "https://pyth.network/blog/pythiad-the-hxro-we-need-on-mainnet",
+            "https://pyth.network/blog/pythiad-to-lifinity-and-beyond",
+            "https://pyth.network/bounty",
+            "https://pyth.network/brand",
+            "https://pyth.network/careers",
+            "https://pyth.network/community",
+            "https://pyth.network/consumers",
+            "https://pyth.network/contact",
+            "https://pyth.network/convergent.so",
+            "https://pyth.network/data-driven",
+            "https://pyth.network/developers",
+            "https://pyth.network/developers/price-feed-ids",
+            "https://pyth.network/disclaimer",
+            "https://pyth.network/grants",
+            "https://pyth.network/guides",
+            "https://pyth.network/mediaroom",
+            "https://pyth.network/mediaroom/news",
+            "https://pyth.network/mediaroom/podcasts",
+            "https://pyth.network/mediaroom/videos",
+            "https://pyth.network/metalend.tech",
+            "https://pyth.network/node-providers",
+            "https://pyth.network/press",
+            "https://pyth.network/price-feeds",
+            "https://pyth.network/privacy-policy",
+            "https://pyth.network/publishers",
+            "https://pyth.network/publishers/ranking",
+            "https://pyth.network/pyth-vs-chainlink",
+            "https://pyth.network/stats",
+            "https://pyth.network/terms-of-use",
+            "https://pyth.network/twitter.com/kriyadex",
+            "https://pyth.network/usecases",
+            "https://pyth.network/usecases/decentralized-borrowing-lending",
+            "https://pyth.network/usecases/options-trading",
+            "https://pyth.network/usecases/perpetual-futures",
+            "https://pyth.network/usecases/stablecoin-protocols",
+            "https://pyth.network/zkt.network"
+        ],
+        "quail.finance": [
+            "https://quail.finance/"
+        ],
+        "quiver.trade": [
+            "https://quiver.trade/"
+        ],
+        "rage.trade": [
+            "https://rage.trade"
+        ],
+        "rain.fi": [
+            "https://rain.fi"
+        ],
+        "reactorfusion.xyz": [
+            "https://reactorfusion.xyz/"
+        ],
+        "reax.one": [
+            "https://reax.one/"
+        ],
+        "rfx.exchange": [
+            "https://rfx.exchange/"
+        ],
+        "rollie.finance": [
+            "https://rollie.finance/"
+        ],
+        "scale.exchange": [
+            "https://scale.exchange/"
+        ],
+        "scallop.io": [
+            "https://scallop.io/"
+        ],
+        "seaswap.io": [
+            "https://seaswap.io/"
+        ],
+        "shoebill.finance": [
+            "https://shoebill.finance"
+        ],
+        "slashtoken.io": [
+            "https://slashtoken.io/"
+        ],
+        "slidelabs.xyz": [
+            "https://slidelabs.xyz/"
+        ],
+        "solend.fi": [
+            "https://solend.fi/"
+        ],
+        "spherepay.co": [
+            "https://spherepay.co/"
+        ],
+        "squads.so": [
+            "https://squads.so/"
+        ],
+        "staking.pyth.network": [
+            "https://staking.pyth.network"
+        ],
+        "storm.tg": [
+            "https://storm.tg/"
+        ],
+        "sui.interestprotocol.com": [
+            "https://sui.interestprotocol.com/"
+        ],
+        "syndr.com": [
+            "https://syndr.com/"
+        ],
+        "synonym.finance": [
+            "https://synonym.finance"
+        ],
+        "synthetix.io": [
+            "https://synthetix.io/"
+        ],
+        "sypool.io": [
+            "https://sypool.io/"
+        ],
+        "t.me": [
+            "https://t.me/Pyth_Network"
+        ],
+        "tashi.finance": [
+            "https://tashi.finance/"
+        ],
+        "tectonic.finance": [
+            "https://tectonic.finance/"
+        ],
+        "texture.finance": [
+            "https://texture.finance/"
+        ],
+        "thalesmarket.io": [
+            "https://thalesmarket.io/"
+        ],
+        "tigris.trade": [
+            "https://tigris.trade/"
+        ],
+        "tlx.fi": [
+            "https://tlx.fi/"
+        ],
+        "tortuga.finance": [
+            "https://tortuga.finance/"
+        ],
+        "trebuchet.network": [
+            "https://trebuchet.network/#forge"
+        ],
+        "tsunami.exchange": [
+            "https://tsunami.exchange/"
+        ],
+        "tsunami.finance": [
+            "https://tsunami.finance/"
+        ],
+        "tulip.garden": [
+            "https://tulip.garden/#home"
+        ],
+        "twitter.com": [
+            "hhttps://twitter.com/Levana_protocol",
+            "https://twitter.com/0xDTX",
+            "https://twitter.com/0xdegensbet",
+            "https://twitter.com/100xfinance",
+            "https://twitter.com/ABExFinance",
+            "https://twitter.com/Aark_Digital",
+            "https://twitter.com/AftermathFi",
+            "https://twitter.com/AlpacaFinance",
+            "https://twitter.com/AmuletProtocol",
+            "https://twitter.com/AngleProtocol",
+            "https://twitter.com/ApricotFinance",
+            "https://twitter.com/AptinLabs",
+            "https://twitter.com/ArgoUSD",
+            "https://twitter.com/AriesMarkets",
+            "https://twitter.com/ArkadikoFinance",
+            "https://twitter.com/BasiliskOrg",
+            "https://twitter.com/Belugadex",
+            "https://twitter.com/Buffer_Finance",
+            "https://twitter.com/CapDotFinance",
+            "https://twitter.com/CetusProtocol",
+            "https://twitter.com/CloneProtocol",
+            "https://twitter.com/CoChilli_io",
+            "https://twitter.com/CoinbetGames",
+            "https://twitter.com/Copin_io",
+            "https://twitter.com/CryptexFinancee",
+            "https://twitter.com/DYNA_Finance",
+            "https://twitter.com/DeCallsNFT",
+            "https://twitter.com/DeeprFinance",
+            "https://twitter.com/DeriProtocol",
+            "https://twitter.com/DriftProtocol",
+            "https://twitter.com/DualFinance",
+            "https://twitter.com/EASTBlue_io",
+            "https://twitter.com/Ensofi_xyz",
+            "https://twitter.com/Era_Lend",
+            "https://twitter.com/ExchangeTsunami",
+            "https://twitter.com/FlashTrade_",
+            "https://twitter.com/Francium_Defi",
+            "https://twitter.com/FreelyFinance",
+            "https://twitter.com/FulcromFinance",
+            "https://twitter.com/FusionX_Finance",
+            "https://twitter.com/Gambit_Trade",
+            "https://twitter.com/GoldFarmersNFT",
+            "https://twitter.com/GoledoFinance",
+            "https://twitter.com/GooseFX1",
+            "https://twitter.com/GranaryFinance",
+            "https://twitter.com/GrizzlyFi",
+            "https://twitter.com/HLiquity_",
+            "https://twitter.com/HMXorg",
+            "https://twitter.com/Hana_Finance",
+            "https://twitter.com/HelixApp_",
+            "https://twitter.com/HorizonProtocol",
+            "https://twitter.com/HxroNetwork",
+            "https://twitter.com/Jax_Finance",
+            "https://twitter.com/JewelSwapX",
+            "https://twitter.com/KTX_finance",
+            "https://twitter.com/Kamino_Finance",
+            "https://twitter.com/KeomProtocol",
+            "https://twitter.com/KiloEx_perp",
+            "https://twitter.com/KinetixFi",
+            "https://twitter.com/KreskoFi",
+            "https://twitter.com/Kryptonite_fi",
+            "https://twitter.com/LPFinance_",
+            "https://twitter.com/LayerBankFi",
+            "https://twitter.com/Level__Finance",
+            "https://twitter.com/Libertify_",
+            "https://twitter.com/Lifinity_io",
+            "https://twitter.com/LogX_trade",
+            "https://twitter.com/Lynx_Protocol",
+            "https://twitter.com/LyveFinance",
+            "https://twitter.com/MANTRAOMniverse",
+            "https://twitter.com/MYX_Finance",
+            "https://twitter.com/Mage_Finance",
+            "https://twitter.com/MendiFinance",
+            "https://twitter.com/MeridianFi",
+            "https://twitter.com/MetaLend_DeFi",
+            "https://twitter.com/MetavaultTRADE",
+            "https://twitter.com/Micro3io",
+            "https://twitter.com/Mold_finance",
+            "https://twitter.com/MolendProtocol",
+            "https://twitter.com/MomentumSafe",
+            "https://twitter.com/MooncakeFi",
+            "https://twitter.com/MorphexBMX",
+            "https://twitter.com/MorphexFTM",
+            "https://twitter.com/Narwhal_Finance",
+            "https://twitter.com/Nekodex_app",
+            "https://twitter.com/OmniBTC",
+            "https://twitter.com/Orbofi",
+            "https://twitter.com/OstiumLabs",
+            "https://twitter.com/PRINT3Rxyz",
+            "https://twitter.com/PancakeSwap",
+            "https://twitter.com/ParallelFi",
+            "https://twitter.com/PerpsAI",
+            "https://twitter.com/PerpyFinance",
+            "https://twitter.com/PikaProtocol",
+            "https://twitter.com/PikeFinance",
+            "https://twitter.com/PixelSwapFi",
+            "https://twitter.com/PoisonFinance",
+            "https://twitter.com/PolynomialFi",
+            "https://twitter.com/PopFi_io",
+            "https://twitter.com/ProjectLarix",
+            "https://twitter.com/PsyFinance",
+            "https://twitter.com/QuailFinance",
+            "https://twitter.com/RFX_exchange",
+            "https://twitter.com/ReactorFusionR",
+            "https://twitter.com/ReaxFinance",
+            "https://twitter.com/Releap_IO",
+            "https://twitter.com/RollaFinance",
+            "https://twitter.com/Ronin_Network",
+            "https://twitter.com/SOMA_finance",
+            "https://twitter.com/SYP_Protocol",
+            "https://twitter.com/ScaleProtocol",
+            "https://twitter.com/Scallop_io",
+            "https://twitter.com/Seaswap_sei",
+            "https://twitter.com/ShoebillFinance",
+            "https://twitter.com/SirioFinance",
+            "https://twitter.com/SmarDex",
+            "https://twitter.com/SquadsProtocol",
+            "https://twitter.com/SumerMoney",
+            "https://twitter.com/SynFuturesDefi",
+            "https://twitter.com/SyndrHQ",
+            "https://twitter.com/TLX_FI",
+            "https://twitter.com/TectonicFi",
+            "https://twitter.com/ThalaLabs",
+            "https://twitter.com/TortugaFinance",
+            "https://twitter.com/Tsunamifinance_",
+            "https://twitter.com/TulipProtocol",
+            "https://twitter.com/Turbos_finance",
+            "https://twitter.com/TypusFinance",
+            "https://twitter.com/UniDexFinance",
+            "https://twitter.com/UniwhaleEx",
+            "https://twitter.com/VenusProtocol",
+            "https://twitter.com/Vybe_Network",
+            "https://twitter.com/WemixNetwork",
+            "https://twitter.com/WombatExchange",
+            "https://twitter.com/YFX_COM",
+            "https://twitter.com/YOLO_Blast",
+            "https://twitter.com/YouSUI_Global",
+            "https://twitter.com/Yuzu_Market",
+            "https://twitter.com/ZKTNetwork",
+            "https://twitter.com/ZetaMarkets",
+            "https://twitter.com/abelfinance",
+            "https://twitter.com/aeroscraper",
+            "https://twitter.com/aevoxyz",
+            "https://twitter.com/ampedfinance",
+            "https://twitter.com/ampera_xyz",
+            "https://twitter.com/arcanamarkets",
+            "https://twitter.com/argiefy",
+            "https://twitter.com/ash_swap",
+            "https://twitter.com/astromintxyz",
+            "https://twitter.com/aurigami_PLY",
+            "https://twitter.com/avalonfinance",
+            "https://twitter.com/avantisfinance",
+            "https://twitter.com/bakerfi_",
+            "https://twitter.com/basemaxfi",
+            "https://twitter.com/bitsmiley_labs",
+            "https://twitter.com/blastfutures",
+            "https://twitter.com/bluefinapp",
+            "https://twitter.com/bucket_protocol",
+            "https://twitter.com/burrowcash",
+            "https://twitter.com/c3protocol",
+            "https://twitter.com/caladanxyz",
+            "https://twitter.com/cboe",
+            "https://twitter.com/cega_fi",
+            "https://twitter.com/convergent_so",
+            "https://twitter.com/covofinance",
+            "https://twitter.com/cruxinformatics",
+            "https://twitter.com/curvance",
+            "https://twitter.com/cyberdex_xyz",
+            "https://twitter.com/d8x_exchange",
+            "https://twitter.com/dForcenet",
+            "https://twitter.com/degenbasetrade",
+            "https://twitter.com/deperpcom",
+            "https://twitter.com/deribet_io",
+            "https://twitter.com/deriblast",
+            "https://twitter.com/derivio_xyz",
+            "https://twitter.com/doubler_pro",
+            "https://twitter.com/doubleup_app",
+            "https://twitter.com/dropcopy_io",
+            "https://twitter.com/duetprotocol",
+            "https://twitter.com/dysonfinance",
+            "https://twitter.com/ede_finance",
+            "https://twitter.com/ethena_labs",
+            "https://twitter.com/eulerfinance",
+            "https://twitter.com/exotic_markets_",
+            "https://twitter.com/foxifytrade",
+            "https://twitter.com/fringefinance",
+            "https://twitter.com/fwxfinance",
+            "https://twitter.com/gamblino_app",
+            "https://twitter.com/goku_stable",
+            "https://twitter.com/hashflow",
+            "https://twitter.com/helium",
+            "https://twitter.com/hover_market",
+            "https://twitter.com/hubbleprotocol",
+            "https://twitter.com/idealprediction",
+            "https://twitter.com/immortalx_io",
+            "https://twitter.com/infinex_app",
+            "https://twitter.com/infinitymaxima",
+            "https://twitter.com/interest_dinero",
+            "https://twitter.com/kawafinance",
+            "https://twitter.com/kuswapfinance",
+            "https://twitter.com/kwenta_io",
+            "https://twitter.com/laevitas1",
+            "https://twitter.com/lendlexyz",
+            "https://twitter.com/lexermarkets",
+            "https://twitter.com/lulo_finance",
+            "https://twitter.com/lyrafinance",
+            "https://twitter.com/mangomarkets",
+            "https://twitter.com/marginfi",
+            "https://twitter.com/mars_protocol",
+            "https://twitter.com/merkle_trade",
+            "https://twitter.com/mirage_protocol",
+            "https://twitter.com/moledefi",
+            "https://twitter.com/monoswapio",
+            "https://twitter.com/native_fi",
+            "https://twitter.com/navi_protocol",
+            "https://twitter.com/neptune_finance",
+            "https://twitter.com/nexterdotfi",
+            "https://twitter.com/nlx_trade",
+            "https://twitter.com/openbb_finance",
+            "https://twitter.com/optionblitz_co",
+            "https://twitter.com/orbitlending",
+            "https://twitter.com/parifinance",
+            "https://twitter.com/perenniallabs",
+            "https://twitter.com/perpprotocol",
+            "https://twitter.com/pontemnetwork",
+            "https://twitter.com/port_finance",
+            "https://twitter.com/quiver_trade",
+            "https://twitter.com/rage_trade",
+            "https://twitter.com/rainfi_",
+            "https://twitter.com/ribbonfinance",
+            "https://twitter.com/slashtoken_io",
+            "https://twitter.com/slidelabs",
+            "https://twitter.com/snsdids",
+            "https://twitter.com/socialLendland",
+            "https://twitter.com/solendprotocol",
+            "https://twitter.com/spedxhq",
+            "https://twitter.com/sphere_labs",
+            "https://twitter.com/storm_trade_ton",
+            "https://twitter.com/sudofinance",
+            "https://twitter.com/suilendprotocol",
+            "https://twitter.com/swaapfinance",
+            "https://twitter.com/symmetry_fi",
+            "https://twitter.com/synonymfinance",
+            "https://twitter.com/synthetix_io",
+            "https://twitter.com/tashi_finance",
+            "https://twitter.com/texture_fi",
+            "https://twitter.com/thales_io",
+            "https://twitter.com/tigristrades",
+            "https://twitter.com/tradeparadex",
+            "https://twitter.com/tradingview",
+            "https://twitter.com/ununx_com",
+            "https://twitter.com/vegaprotocol",
+            "https://twitter.com/vela_exchange",
+            "https://twitter.com/virtue_money",
+            "https://twitter.com/volmexfinance",
+            "https://twitter.com/vooi_io",
+            "https://twitter.com/xBankFinance",
+            "https://twitter.com/x_bullion",
+            "https://twitter.com/y2kfinance",
+            "https://twitter.com/zerolendxyz",
+            "https://twitter.com/zestprotocol",
+            "https://twitter.com/zkDXio",
+            "https://twitter.com/zkera_fi"
+        ],
+        "ununx.com": [
+            "https://ununx.com"
+        ],
+        "vega.xyz": [
+            "https://vega.xyz/"
+        ],
+        "venus.io": [
+            "https://venus.io/"
+        ],
+        "virtue.money": [
+            "https://virtue.money/"
+        ],
+        "volmex.finance": [
+            "https://volmex.finance"
+        ],
+        "vooi.io": [
+            "https://vooi.io/"
+        ],
+        "wemix.fi": [
+            "https://wemix.fi/"
+        ],
+        "www.aeroscraper.io": [
+            "https://www.aeroscraper.io/"
+        ],
+        "www.aevo.xyz": [
+            "https://www.aevo.xyz/"
+        ],
+        "www.alpacafinance.org": [
+            "https://www.alpacafinance.org/"
+        ],
+        "www.argiefy.com": [
+            "https://www.argiefy.com/"
+        ],
+        "www.aurigami.finance": [
+            "https://www.aurigami.finance/"
+        ],
+        "www.avalonfinance.xyz": [
+            "https://www.avalonfinance.xyz/"
+        ],
+        "www.avantisfi.com": [
+            "https://www.avantisfi.com/"
+        ],
+        "www.basemax.finance": [
+            "https://www.basemax.finance/#/"
+        ],
+        "www.beluga.so": [
+            "https://www.beluga.so/"
+        ],
+        "www.bitsmiley.io": [
+            "https://www.bitsmiley.io/"
+        ],
+        "www.cadenceprotocol.io": [
+            "https://www.cadenceprotocol.io/"
+        ],
+        "www.cap.io": [
+            "https://www.cap.io/"
+        ],
+        "www.cboe.com": [
+            "https://www.cboe.com/"
+        ],
+        "www.cega.fi": [
+            "https://www.cega.fi/"
+        ],
+        "www.cetus.zone": [
+            "https://www.cetus.zone/"
+        ],
+        "www.cruxinformatics.com": [
+            "https://www.cruxinformatics.com/"
+        ],
+        "www.curvance.com": [
+            "https://www.curvance.com/"
+        ],
+        "www.cyberdex.xyz": [
+            "https://www.cyberdex.xyz/"
+        ],
+        "www.d8x.exchange": [
+            "https://www.d8x.exchange/"
+        ],
+        "www.deepr.finance": [
+            "https://www.deepr.finance/"
+        ],
+        "www.deperp.com": [
+            "https://www.deperp.com/"
+        ],
+        "www.deribet.io": [
+            "https://www.deribet.io/"
+        ],
+        "www.deriblast.com": [
+            "https://www.deriblast.com/"
+        ],
+        "www.doubleup.fun": [
+            "https://www.doubleup.fun/"
+        ],
+        "www.drift.trade": [
+            "https://www.drift.trade/"
+        ],
+        "www.dual.finance": [
+            "https://www.dual.finance/"
+        ],
+        "www.duet.finance": [
+            "https://www.duet.finance/"
+        ],
+        "www.ede.finance": [
+            "https://www.ede.finance/"
+        ],
+        "www.ensofi.xyz": [
+            "https://www.ensofi.xyz/"
+        ],
+        "www.eralend.com": [
+            "https://www.eralend.com/"
+        ],
+        "www.euler.finance": [
+            "https://www.euler.finance/"
+        ],
+        "www.flash.trade": [
+            "https://www.flash.trade/"
+        ],
+        "www.foxify.trade": [
+            "https://www.foxify.trade/"
+        ],
+        "www.goledo.cash": [
+            "https://www.goledo.cash/"
+        ],
+        "www.grizzly.fi": [
+            "https://www.grizzly.fi/"
+        ],
+        "www.hana.finance": [
+            "https://www.hana.finance/"
+        ],
+        "www.hashflow.com": [
+            "https://www.hashflow.com/"
+        ],
+        "www.helium.com": [
+            "https://www.helium.com/"
+        ],
+        "www.horizonprotocol.com": [
+            "https://www.horizonprotocol.com/"
+        ],
+        "www.hxro.network": [
+            "https://www.hxro.network/"
+        ],
+        "www.idealprediction.com": [
+            "https://www.idealprediction.com/"
+        ],
+        "www.immortalx.io": [
+            "https://www.immortalx.io/"
+        ],
+        "www.infinity.exchange": [
+            "https://www.infinity.exchange/"
+        ],
+        "www.jax.finance": [
+            "https://www.jax.finance/markets"
+        ],
+        "www.jewelswap.io": [
+            "https://www.jewelswap.io/"
+        ],
+        "www.keom.io": [
+            "https://www.keom.io/"
+        ],
+        "www.kiloex.io": [
+            "https://www.kiloex.io/"
+        ],
+        "www.kresko.fi": [
+            "https://www.kresko.fi/"
+        ],
+        "www.ktx.finance": [
+            "https://www.ktx.finance/"
+        ],
+        "www.lendle.xyz": [
+            "https://www.lendle.xyz/"
+        ],
+        "www.levana.finance": [
+            "https://www.levana.finance/"
+        ],
+        "www.libertify.com": [
+            "https://www.libertify.com/"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/pyth-network"
+        ],
+        "www.logx.trade": [
+            "https://www.logx.trade/"
+        ],
+        "www.lp.finance": [
+            "https://www.lp.finance/"
+        ],
+        "www.lulo.finance": [
+            "https://www.lulo.finance/"
+        ],
+        "www.lynx.finance": [
+            "https://www.lynx.finance/"
+        ],
+        "www.lyra.finance": [
+            "https://www.lyra.finance/"
+        ],
+        "www.lyvefi.xyz": [
+            "https://www.lyvefi.xyz/"
+        ],
+        "www.m-safe.io": [
+            "https://www.m-safe.io/"
+        ],
+        "www.mantra.finance": [
+            "https://www.mantra.finance/"
+        ],
+        "www.marginfi.com": [
+            "https://www.marginfi.com/"
+        ],
+        "www.meridianfinance.net": [
+            "https://www.meridianfinance.net/"
+        ],
+        "www.monoswap.io": [
+            "https://www.monoswap.io/"
+        ],
+        "www.morphex.trade": [
+            "https://www.morphex.trade/"
+        ],
+        "www.mummy.finance": [
+            "https://www.mummy.finance/#/"
+        ],
+        "www.nabla.fi": [
+            "https://www.nabla.fi"
+        ],
+        "www.naviprotocol.io": [
+            "https://www.naviprotocol.io/"
+        ],
+        "www.nile.io": [
+            "https://www.nile.io/"
+        ],
+        "www.omnibtc.finance": [
+            "https://www.omnibtc.finance/"
+        ],
+        "www.orbofi.com": [
+            "https://www.orbofi.com/"
+        ],
+        "www.ostium.io": [
+            "https://www.ostium.io/"
+        ],
+        "www.pepperdex.xyz": [
+            "https://www.pepperdex.xyz/"
+        ],
+        "www.pikaprotocol.com": [
+            "https://www.pikaprotocol.com/"
+        ],
+        "www.pike.finance": [
+            "https://www.pike.finance/"
+        ],
+        "www.polynomial.fi": [
+            "https://www.polynomial.fi/"
+        ],
+        "www.popfi.io": [
+            "https://www.popfi.io/"
+        ],
+        "www.psyfi.io": [
+            "https://www.psyfi.io/"
+        ],
+        "www.rolla.finance": [
+            "https://www.rolla.finance/"
+        ],
+        "www.sirio.finance": [
+            "https://www.sirio.finance/"
+        ],
+        "www.smardex.io": [
+            "https://www.smardex.io/"
+        ],
+        "www.soma.finance": [
+            "https://www.soma.finance/"
+        ],
+        "www.stvol.io": [
+            "https://www.stvol.io/"
+        ],
+        "www.suilend.fi": [
+            "https://www.suilend.fi/"
+        ],
+        "www.swaap.finance": [
+            "https://www.swaap.finance/"
+        ],
+        "www.synfutures.com": [
+            "https://www.synfutures.com/"
+        ],
+        "www.thalalabs.xyz": [
+            "https://www.thalalabs.xyz/"
+        ],
+        "www.tradingview.com": [
+            "https://www.tradingview.com/"
+        ],
+        "www.unidex.exchange": [
+            "https://www.unidex.exchange/"
+        ],
+        "www.uniwhale.co": [
+            "https://www.uniwhale.co/"
+        ],
+        "www.vela.exchange": [
+            "https://www.vela.exchange/"
+        ],
+        "www.wombat.exchange": [
+            "https://www.wombat.exchange/"
+        ],
+        "www.x.com": [
+            "https://www.x.com/nablafi"
+        ],
+        "www.xbank.finance": [
+            "https://www.xbank.finance/"
+        ],
+        "www.xbullion.io": [
+            "https://www.xbullion.io/"
+        ],
+        "www.y2k.finance": [
+            "https://www.y2k.finance/"
+        ],
+        "www.yfx.com": [
+            "https://www.yfx.com/"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/channel/UCjCkvPN9ohl0UDvldfn1neg"
+        ],
+        "www.yuzu.market": [
+            "https://www.yuzu.market/"
+        ],
+        "www.zestprotocol.com": [
+            "https://www.zestprotocol.com/"
+        ],
+        "x.com": [
+            "hhttps://x.com/bloomonblast",
+            "https://x.com/0xflatmoney",
+            "https://x.com/CadenceProtocol",
+            "https://x.com/EasyXdefi",
+            "https://x.com/EchelonMarket",
+            "https://x.com/PythNetwork",
+            "https://x.com/econialabs",
+            "https://x.com/eddy_protocol",
+            "https://x.com/ionicmoney",
+            "https://x.com/jupiterexchange",
+            "https://x.com/muexchange_",
+            "https://x.com/mummyftmfi",
+            "https://x.com/pinguexchange",
+            "https://x.com/rolliefinance",
+            "https://x.com/stvol_official"
+        ],
+        "yologames.io": [
+            "https://yologames.io/"
+        ],
+        "yousui.io": [
+            "https://yousui.io/"
+        ],
+        "zerolend.xyz": [
+            "https://zerolend.xyz/"
+        ],
+        "zeta.markets": [
+            "https://zeta.markets/"
+        ],
+        "zkdx.io": [
+            "https://zkdx.io/"
+        ]
+    }
+}
