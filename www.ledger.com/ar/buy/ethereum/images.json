@@ -1,0 +1,44 @@
+{
+    "target_url": "https://www.ledger.com/ar/buy/ethereum",
+    "domains": {
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=5c632d16-63a0-47ed-af87-428abc9e8efa&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=b6c53364-0144-4027-956a-f2ba49210bf0&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Far%2F%25D8%25B4%25D8%25B1%25D8%25A7%25D8%25A1-%25D8%25A5%25D9%258A%25D8%25AB%25D8%25B1%25D9%258A%25D9%2588%25D9%2585-1&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "bat.bing.com": [
+            "https://bat.bing.com/action/0?ti=134633242&tm=gtm002&Ver=2&mid=9105ea33-4679-45ad-bc28-33059d5668ef&sid=5a0c4ca01cfd11ef96567724617fac07&vid=5a0c4cb01cfd11efb5343938da04b4d1&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&tl=%D9%83%D9%8A%D9%81%20%D8%AA%D8%B4%D8%AA%D8%B1%D9%8A%20%D8%A5%D9%8A%D8%AB%D8%B1%D9%8A%D9%88%D9%85%20(Ethereum)%D8%9F%20%D8%AF%D9%84%D9%8A%D9%84%20%D8%A7%D9%84%D8%AE%D8%B7%D9%88%D8%A9%20%D8%A8%D8%AE%D8%B7%D9%88%D8%A9%20%D9%84%D8%B4%D8%B1%D8%A7%D8%A1%20%D8%A5%D9%8A%D8%AB%D8%B1%D9%8A%D9%88%D9%85%20%7C%20Ledger&p=https%3A%2F%2Fwww.ledger.com%2Far%2F%25D8%25B4%25D8%25B1%25D8%25A7%25D8%25A1-%25D8%25A5%25D9%258A%25D8%25AB%25D8%25B1%25D9%258A%25D9%2588%25D9%2585-1&r=&lt=2020&evt=pageLoad&sv=1&rn=889026"
+        ],
+        "cdn.cookielaw.org": [
+            "https://cdn.cookielaw.org/logos/df21fb3f-71b8-491b-89ee-eb777bcaf866/637ca236-af9d-4a40-815f-1b6a15af499d/ea9d9f41-35f0-4c24-9a83-1ef746863067/White_64.png",
+            "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg"
+        ],
+        "ledger-wp-website-s3-prd.ledger.com": [
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/05/dogecoin.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/06/tether.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2020/07/buy-crypto-live.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/Uniswap.svg"
+        ],
+        "t.co": [
+            "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=5c632d16-63a0-47ed-af87-428abc9e8efa&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=b6c53364-0144-4027-956a-f2ba49210bf0&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Far%2F%25D8%25B4%25D8%25B1%25D8%25A7%25D8%25A1-%25D8%25A5%25D9%258A%25D8%25AB%25D8%25B1%25D9%258A%25D9%2588%25D9%2585-1&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/tr?id=237213137153741&ev=PageView&noscript=1"
+        ],
+        "www.ledger.com": [
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/coinify_logo.svg",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/wyre_logo.svg",
+            "https://www.ledger.com/wp-content/uploads/2019/05/bitcoin.svg",
+            "https://www.ledger.com/wp-content/uploads/2020/03/lns-black.png?v=65",
+            "https://www.ledger.com/wp-content/uploads/2020/03/lnx-black.png",
+            "https://www.ledger.com/wp-content/uploads/2020/07/buy-crypto-illu.png",
+            "https://www.ledger.com/wp-content/uploads/2021/11/layer1.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-bitpay-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-cb-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-crypto-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-maestro-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-mastercard-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-paypal-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-visa-s.png?v=2"
+        ]
+    }
+}
