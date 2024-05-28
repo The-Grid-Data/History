@@ -1,0 +1,13 @@
+{
+    "target_url": "https://ethereum.org/en/developers/docs/networking-layer/",
+    "domains": {
+        "cdnjs.cloudflare.com": [
+            "https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/2/svg/1f448.svg",
+            "https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/2/svg/1f449.svg"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/_next/image/?url=%2Fcontent%2Fdevelopers%2Fdocs%2Fnetworking-layer%2Fcons_client_net_layer.png&w=1920&q=75",
+            "https://ethereum.org/_next/image/?url=%2Fcontent%2Fdevelopers%2Fdocs%2Fnetworking-layer%2Fexe_client_net_layer.png&w=1920&q=75"
+        ]
+    }
+}
