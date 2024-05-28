@@ -1,0 +1,106 @@
+{
+    "target_url": "https://solana.com/developers/guides/getstarted/intro-to-anchor",
+    "domains": {
+        "beta.solpg.io": [
+            "https://beta.solpg.io/",
+            "https://beta.solpg.io/660f3a86cffcf4b13384d022"
+        ],
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "doc.rust-lang.org": [
+            "https://doc.rust-lang.org/book/ch19-06-macros.html"
+        ],
+        "docs.rs": [
+            "https://docs.rs/anchor-lang/latest/anchor_lang/attr.account.html"
+        ],
+        "github.com": [
+            "https://github.com/coral-xyz/anchor/blob/852fcc77beb6302474a11e0f8e6f1e688021be36/lang/attribute/account/src/lib.rs#L101-L117",
+            "https://github.com/coral-xyz/anchor/blob/852fcc77beb6302474a11e0f8e6f1e688021be36/lang/attribute/account/src/lib.rs#L119-L132",
+            "https://github.com/coral-xyz/anchor/blob/852fcc77beb6302474a11e0f8e6f1e688021be36/lang/attribute/account/src/lib.rs#L202-L246",
+            "https://github.com/coral-xyz/anchor/blob/852fcc77beb6302474a11e0f8e6f1e688021be36/lang/attribute/account/src/lib.rs#L430",
+            "https://github.com/coral-xyz/anchor/blob/852fcc77beb6302474a11e0f8e6f1e688021be36/lang/attribute/account/src/lib.rs#L66",
+            "https://github.com/coral-xyz/anchor/blob/852fcc77beb6302474a11e0f8e6f1e688021be36/lang/attribute/program/src/lib.rs#L12",
+            "https://github.com/coral-xyz/anchor/blob/852fcc77beb6302474a11e0f8e6f1e688021be36/lang/derive/accounts/src/lib.rs#L630",
+            "https://github.com/coral-xyz/anchor/blob/852fcc77beb6302474a11e0f8e6f1e688021be36/lang/src/context.rs#L24",
+            "https://github.com/coral-xyz/anchor/blob/852fcc77beb6302474a11e0f8e6f1e688021be36/lang/src/lib.rs#L105",
+            "https://github.com/coral-xyz/anchor/blob/852fcc77beb6302474a11e0f8e6f1e688021be36/lang/syn/src/parser/accounts/constraints.rs",
+            "https://github.com/coral-xyz/anchor/blob/852fcc77beb6302474a11e0f8e6f1e688021be36/ts/packages/anchor/src/program/index.ts#L58",
+            "https://github.com/coral-xyz/anchor/blob/852fcc77beb6302474a11e0f8e6f1e688021be36/ts/packages/anchor/src/program/namespace/account.ts#L165",
+            "https://github.com/coral-xyz/anchor/blob/852fcc77beb6302474a11e0f8e6f1e688021be36/ts/packages/anchor/src/program/namespace/account.ts#L200",
+            "https://github.com/coral-xyz/anchor/blob/852fcc77beb6302474a11e0f8e6f1e688021be36/ts/packages/anchor/src/program/namespace/account.ts#L251",
+            "https://github.com/coral-xyz/anchor/blob/852fcc77beb6302474a11e0f8e6f1e688021be36/ts/packages/anchor/src/program/namespace/instruction.ts#L57-L61",
+            "https://github.com/coral-xyz/anchor/blob/852fcc77beb6302474a11e0f8e6f1e688021be36/ts/packages/anchor/src/program/namespace/methods.ts#L155",
+            "https://github.com/coral-xyz/anchor/blob/852fcc77beb6302474a11e0f8e6f1e688021be36/ts/packages/anchor/src/program/namespace/methods.ts#L283",
+            "https://github.com/coral-xyz/anchor/blob/852fcc77beb6302474a11e0f8e6f1e688021be36/ts/packages/anchor/src/program/namespace/methods.ts#L348",
+            "https://github.com/coral-xyz/anchor/blob/852fcc77beb6302474a11e0f8e6f1e688021be36/ts/packages/anchor/src/program/namespace/methods.ts#L382",
+            "https://github.com/coral-xyz/anchor/blob/852fcc77beb6302474a11e0f8e6f1e688021be36/ts/packages/anchor/src/program/namespace/rpc.ts#L29",
+            "https://github.com/coral-xyz/anchor/blob/852fcc77beb6302474a11e0f8e6f1e688021be36/ts/packages/anchor/src/program/namespace/transaction.ts#L18-L26",
+            "https://github.com/coral-xyz/anchor/blob/852fcc77beb6302474a11e0f8e6f1e688021be36/ts/packages/anchor/src/provider.ts#L55",
+            "https://github.com/coral-xyz/anchor/tree/852fcc77beb6302474a11e0f8e6f1e688021be36/lang/src/accounts",
+            "https://github.com/coral-xyz/anchor/tree/852fcc77beb6302474a11e0f8e6f1e688021be36/ts/packages/anchor",
+            "https://github.com/solana-foundation/developer-content/tree/main/content/guides/getstarted/intro-to-anchor.md"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "solana.com": [
+            "https://solana.com/",
+            "https://solana.com/branding",
+            "https://solana.com/developers",
+            "https://solana.com/developers/cookbook",
+            "https://solana.com/developers/guides",
+            "https://solana.com/developers/guides/getstarted/how-to-create-a-token",
+            "https://solana.com/developers/guides/getstarted/intro-to-anchor",
+            "https://solana.com/developers/guides/getstarted/intro-to-anchor#account-macro",
+            "https://solana.com/developers/guides/getstarted/intro-to-anchor#accounts",
+            "https://solana.com/developers/guides/getstarted/intro-to-anchor#all",
+            "https://solana.com/developers/guides/getstarted/intro-to-anchor#anchor-program",
+            "https://solana.com/developers/guides/getstarted/intro-to-anchor#client",
+            "https://solana.com/developers/guides/getstarted/intro-to-anchor#client-program",
+            "https://solana.com/developers/guides/getstarted/intro-to-anchor#declare_id-macro",
+            "https://solana.com/developers/guides/getstarted/intro-to-anchor#derive-accounts-macro",
+            "https://solana.com/developers/guides/getstarted/intro-to-anchor#fetch",
+            "https://solana.com/developers/guides/getstarted/intro-to-anchor#fetch-accounts",
+            "https://solana.com/developers/guides/getstarted/intro-to-anchor#fetchmultiple",
+            "https://solana.com/developers/guides/getstarted/intro-to-anchor#idl-file",
+            "https://solana.com/developers/guides/getstarted/intro-to-anchor#instruction",
+            "https://solana.com/developers/guides/getstarted/intro-to-anchor#instructions",
+            "https://solana.com/developers/guides/getstarted/intro-to-anchor#invoke-instructions",
+            "https://solana.com/developers/guides/getstarted/intro-to-anchor#memcmp",
+            "https://solana.com/developers/guides/getstarted/intro-to-anchor#program-macro",
+            "https://solana.com/developers/guides/getstarted/intro-to-anchor#rpc",
+            "https://solana.com/developers/guides/getstarted/intro-to-anchor#transaction",
+            "https://solana.com/developers/guides/getstarted/intro-to-native-rust",
+            "https://solana.com/developers/guides/wallets/add-solana-wallet-adapter-to-nextjs",
+            "https://solana.com/developers/guides?difficulty=beginner",
+            "https://solana.com/developers/guides?tags=anchor",
+            "https://solana.com/developers/guides?tags=rust",
+            "https://solana.com/discord",
+            "https://solana.com/docs",
+            "https://solana.com/docs/core/clusters",
+            "https://solana.com/docs/core/pda",
+            "https://solana.com/docs/rpc",
+            "https://solana.com/docs/terminology",
+            "https://solana.com/ecosystem",
+            "https://solana.com/github",
+            "https://solana.com/news",
+            "https://solana.com/newsletter",
+            "https://solana.com/privacy-policy",
+            "https://solana.com/privacy-policy#collection-of-information",
+            "https://solana.com/reddit",
+            "https://solana.com/telegram",
+            "https://solana.com/tos",
+            "https://solana.com/twitter",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ],
+        "www.anchor-lang.com": [
+            "https://www.anchor-lang.com/",
+            "https://www.anchor-lang.com/docs/account-constraints",
+            "https://www.anchor-lang.com/docs/account-types"
+        ]
+    }
+}
