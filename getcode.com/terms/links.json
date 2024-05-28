@@ -1,0 +1,31 @@
+{
+    "target_url": "https://getcode.com/terms",
+    "domains": {
+        "code-wallet.github.io": [
+            "http://code-wallet.github.io/timelock-explorer"
+        ],
+        "getcode.com": [
+            "https://getcode.com/",
+            "https://getcode.com/#developer",
+            "https://getcode.com/#download-1",
+            "https://getcode.com/blog/seed-round",
+            "https://getcode.com/privacy",
+            "https://getcode.com/security",
+            "https://getcode.com/terms"
+        ],
+        "play.google.com": [
+            "https://play.google.com/about/developer-distribution-agreement.html"
+        ],
+        "www.apple.com": [
+            "http://www.apple.com/legal/internet-services/itunes/appstore/dev/minterms/),",
+            "http://www.apple.com/legal/internet-services/itunes/ca/terms.html"
+        ],
+        "www.getcode.com": [
+            "http://www.getcode.com/privacy",
+            "https://www.getcode.com/"
+        ],
+        "www.jamsadr.com": [
+            "https://www.jamsadr.com/rules-comprehensive-arbitration/"
+        ]
+    }
+}
