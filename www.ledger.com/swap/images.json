@@ -1,0 +1,53 @@
+{
+    "target_url": "https://www.ledger.com/swap",
+    "domains": {
+        "ledger-wp-website-s3-prd.ledger.com": [
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/05/bitcoin.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/05/litecoin.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/05/xrp.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/06/bat.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/06/tether.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/06/usdcoin.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/12/Ethereum.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2020/04/stellar.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2020/05/chainlink_grey.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2020/11/dai.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/03/Uniswap.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/05/Aave-ERC20.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/07/swap-partner-devices.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/08/swap-page-carousel-1.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/08/swap-page-carousel-2.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/08/swap-page-carousel-3.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/08/swap-page-carousel-4.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/08/swap-page-carousel-5.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/08/swap-page-hero.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/08/swap-page-howto.jpg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/08/swap-page-start.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/08/swap-partner-1inch.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/08/swap-partner-changelly.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/08/swap-partner-paraswap.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/01/10_Ledger-Ecosystem_Thumb_No-title-1.jpg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/02/09_Security_Thumb_No-title.jpg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/03/Buy-1-1.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/03/Connect-1.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/03/Exchange-1.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/03/Grow-1.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/04/05_DeFi_Thumb_No-title.jpg"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/tr?id=237213137153741&ev=PageView&noscript=1"
+        ],
+        "www.ledger.com": [
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/faq/ledger-card-faq.png",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg",
+            "https://www.ledger.com/wp-content/uploads/2021/11/layer1.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-bitpay-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-cb-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-crypto-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-maestro-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-mastercard-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-paypal-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-visa-s.png?v=2"
+        ]
+    }
+}
