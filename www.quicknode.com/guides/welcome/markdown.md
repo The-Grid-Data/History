@@ -1,16 +1,3 @@
-This website stores cookies on your computer to collect information about how
-you interact with our website to improve and customize your browsing
-experience. To learn more, see our [Privacy
-Policy](https://www.quicknode.com/privacy "Privacy Policy").
-
-If you decline, your information won’t be tracked when you visit this website.
-A single cookie will be used in your browser to remember your preference not
-to be tracked.
-
-Cookies settings
-
-AcceptDecline
-
 Skip to main content
 
 **Introducing QuickNode Courses:** Discover our new courses designed to
@@ -203,6 +190,4 @@ We send out the #Web3Vibes newsletter with the coolest stuff in Blockchain
 every month. Sign up below!
 
 [](https://quicknode.com/)
-
-![](https://px.ads.linkedin.com/collect/?pid=4275106&fmt=gif)
 
