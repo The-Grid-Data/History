@@ -1,0 +1,11 @@
+{
+    "target_url": "https://magiceden.io/ordinals/inscribe",
+    "domains": {
+        "magiceden.io": [
+            "https://magiceden.io/_next/image?url=https%3A%2F%2Fnext.cdn.magiceden.dev%2F_next%2Fstatic%2Fmedia%2Flogo_2.8aa56045.png&w=128&q=75"
+        ],
+        "next.cdn.magiceden.dev": [
+            "https://next.cdn.magiceden.dev/_next/static/media/logo_full_2.0e53796e.svg"
+        ]
+    }
+}
