@@ -1,0 +1,51 @@
+{
+    "target_url": "https://jetprotocol.io/privacy-policy.html",
+    "domains": {
+        "": [
+            "mailto:hello@jetprotocol.io?subject=Hey%20there!"
+        ],
+        "app.jetprotocol.io": [
+            "http://app.jetprotocol.io",
+            "https://app.jetprotocol.io/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/RW2hsqwfej"
+        ],
+        "docs.jetprotocol.io": [
+            "http://docs.jetprotocol.io/",
+            "https://docs.jetprotocol.io/",
+            "https://docs.jetprotocol.io/jet-protocol/"
+        ],
+        "forum.jetprotocol.io": [
+            "https://forum.jetprotocol.io/"
+        ],
+        "github.com": [
+            "https://github.com/jet-lab/"
+        ],
+        "govern.jetassociation.org": [
+            "https://govern.jetassociation.org/"
+        ],
+        "immunefi.com": [
+            "https://immunefi.com/bounty/jetprotocol/"
+        ],
+        "jetprotocol.io": [
+            "https://jetprotocol.io/blog.html",
+            "https://jetprotocol.io/build.html",
+            "https://jetprotocol.io/dao.html",
+            "https://jetprotocol.io/documents/litepaper-v0.0.1.pdf",
+            "https://jetprotocol.io/index.html",
+            "https://jetprotocol.io/privacy-policy.html",
+            "https://jetprotocol.io/products.html",
+            "https://jetprotocol.io/terms-of-service.html"
+        ],
+        "medium.com": [
+            "https://medium.com/jetprotocol"
+        ],
+        "twitter.com": [
+            "https://twitter.com/jetprotocol"
+        ],
+        "www.jetprotocol.io": [
+            "https://www.jetprotocol.io/jobs"
+        ]
+    }
+}
