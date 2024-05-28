@@ -1,0 +1,35 @@
+{
+    "target_url": "https://nosana.io/contact",
+    "domains": {
+        "": [
+            "mailto:team@nosana.io"
+        ],
+        "app.nosana.io": [
+            "https://app.nosana.io/stake/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/nosana-ai"
+        ],
+        "docs.nosana.io": [
+            "https://docs.nosana.io"
+        ],
+        "github.com": [
+            "https://github.com/nosana-ci"
+        ],
+        "nosana.io": [
+            "https://nosana.io/",
+            "https://nosana.io/blog",
+            "https://nosana.io/contact",
+            "https://nosana.io/team"
+        ],
+        "nosana.medium.com": [
+            "https://nosana.medium.com/"
+        ],
+        "t.me": [
+            "https://t.me/NosanaCompute"
+        ],
+        "twitter.com": [
+            "https://twitter.com/nosana_ai"
+        ]
+    }
+}

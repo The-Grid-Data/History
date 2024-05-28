@@ -1,0 +1,50 @@
+{
+    "target_url": "https://nosana.io/blog",
+    "domains": {
+        "app.nosana.io": [
+            "https://app.nosana.io/stake/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/nosana-ai"
+        ],
+        "docs.nosana.io": [
+            "https://docs.nosana.io"
+        ],
+        "github.com": [
+            "https://github.com/nosana-ci"
+        ],
+        "nosana.io": [
+            "https://nosana.io/",
+            "https://nosana.io/blog",
+            "https://nosana.io/blog/an_indepth_exploration_of_ai_inference_from_concept_to_real_world_applications",
+            "https://nosana.io/blog/breakpoint-2023-bridging-the-global-gpu-shortage",
+            "https://nosana.io/blog/deep_learning_demystified",
+            "https://nosana.io/blog/deep_learning_unveiled_navigating_training_inference_and_the_gpu_shortage_dilemma",
+            "https://nosana.io/blog/exploring_the_distinctions_between_gpuss_and_cpus",
+            "https://nosana.io/blog/how-to-monetize-your-hardware-with-nosana",
+            "https://nosana.io/blog/how_ai_inference_drives_business_applications_in_2024",
+            "https://nosana.io/blog/navigating-a-sustainable-future-in-tech-the-nosana-initiative",
+            "https://nosana.io/blog/new-direction-ai-inference",
+            "https://nosana.io/blog/nosana-launches-incentivized-public-test-grid-with-3-million-nos",
+            "https://nosana.io/blog/nosana-nos-raydium-rewards-farm",
+            "https://nosana.io/blog/nosana_2023_pioneering_the_future_of_ai_and_gpu_computing",
+            "https://nosana.io/blog/nosana_at_solana_hacker_house_dubai_2024",
+            "https://nosana.io/blog/nosana_staking_program_update",
+            "https://nosana.io/blog/nosanas_strategic_apy_adjustment_for_balanced_growth_and_stability",
+            "https://nosana.io/blog/test-grid-phase-1-accelerating-the-ai-and-gpu-computing-revolution",
+            "https://nosana.io/blog/test_grid_phase_2_update",
+            "https://nosana.io/blog/testing-the-first-gpu-grid-for-ai-inference",
+            "https://nosana.io/contact",
+            "https://nosana.io/team"
+        ],
+        "nosana.medium.com": [
+            "https://nosana.medium.com/"
+        ],
+        "t.me": [
+            "https://t.me/NosanaCompute"
+        ],
+        "twitter.com": [
+            "https://twitter.com/nosana_ai"
+        ]
+    }
+}
