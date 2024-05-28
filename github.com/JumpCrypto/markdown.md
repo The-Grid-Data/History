@@ -204,7 +204,7 @@ Rust [ 67 ](/JumpCrypto/plonky2-crypto/stargazers) Apache-2.0  [ 16
 
   * [ crypto-reading-list ](/JumpCrypto/crypto-reading-list) Public 
 
-[ 1,247 ](/JumpCrypto/crypto-reading-list/stargazers) [ 123
+[ 1,248 ](/JumpCrypto/crypto-reading-list/stargazers) [ 123
 ](/JumpCrypto/crypto-reading-list/forks) [ 2 ](/JumpCrypto/crypto-reading-
 list/issues) [ 0 ](/JumpCrypto/crypto-reading-list/pulls) Updated Jan 13, 2024
 
@@ -249,7 +249,7 @@ C [ 24 ](/JumpCrypto/cyclone/stargazers) Apache-2.0  [ 3
 Web-Scale Blockchain for fast, secure, scalable, decentralized apps and
 marketplaces.
 
-Rust 0  [ 4,126 ](/JumpCrypto/solana/forks) [ 0 ](/JumpCrypto/solana/issues) [
+Rust 0  [ 4,127 ](/JumpCrypto/solana/forks) [ 0 ](/JumpCrypto/solana/issues) [
 0 ](/JumpCrypto/solana/pulls) Updated Jan 13, 2023
 
   * [ solana-go ](/JumpCrypto/solana-go) Public  Forked from [ gagliardetto/solana-go ](/gagliardetto/solana-go)
@@ -276,7 +276,11 @@ part of this organization.
 
 #### Top languages
 
-Loading…
+[ Rust ](/orgs/JumpCrypto/repositories?language=rust&type=all) [ Go
+](/orgs/JumpCrypto/repositories?language=go&type=all) [ Python
+](/orgs/JumpCrypto/repositories?language=python&type=all) [ C
+](/orgs/JumpCrypto/repositories?language=c&type=all) [ Solidity
+](/orgs/JumpCrypto/repositories?language=solidity&type=all)
 
 #### Most used topics
 
