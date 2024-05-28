@@ -116,7 +116,7 @@ session. Dismiss alert
 
   * [ Notifications ](/login?return_to=%2Fopenbook-dex%2Fopenbook-v2) You must be signed in to change notification settings
   * [ Fork 62 ](/login?return_to=%2Fopenbook-dex%2Fopenbook-v2)
-  * [ Star  123 ](/login?return_to=%2Fopenbook-dex%2Fopenbook-v2)
+  * [ Star  124 ](/login?return_to=%2Fopenbook-dex%2Fopenbook-v2)
 
   * 
 
@@ -126,7 +126,7 @@ openbook-v2 monorepo, contains solana program and ts client
 
 [ View license ](/openbook-dex/openbook-v2/blob/master/LICENSE)
 
-[ 123 stars ](/openbook-dex/openbook-v2/stargazers) [ 62 forks ](/openbook-
+[ 124 stars ](/openbook-dex/openbook-v2/stargazers) [ 62 forks ](/openbook-
 dex/openbook-v2/forks) [ Branches ](/openbook-dex/openbook-v2/branches) [ Tags
 ](/openbook-dex/openbook-v2/tags) [ Activity ](/openbook-
 dex/openbook-v2/activity)
@@ -610,7 +610,7 @@ Security policy
 
 ### Stars
 
-[ **123** stars ](/openbook-dex/openbook-v2/stargazers)
+[ **124** stars ](/openbook-dex/openbook-v2/stargazers)
 
 ### Watchers
 
