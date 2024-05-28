@@ -1,0 +1,23 @@
+{
+    "target_url": "https://solanabeach.io/blocks",
+    "domains": {
+        "github.com": [
+            "https://github.com/solana-beach/api"
+        ],
+        "solanabeach.io": [
+            "https://solanabeach.io/",
+            "https://solanabeach.io/blocks",
+            "https://solanabeach.io/blocks#main",
+            "https://solanabeach.io/glossary",
+            "https://solanabeach.io/imprint",
+            "https://solanabeach.io/privacy-policy",
+            "https://solanabeach.io/supply",
+            "https://solanabeach.io/tokens",
+            "https://solanabeach.io/transactions",
+            "https://solanabeach.io/validators"
+        ],
+        "twitter.com": [
+            "https://twitter.com/solanabeach_io"
+        ]
+    }
+}
