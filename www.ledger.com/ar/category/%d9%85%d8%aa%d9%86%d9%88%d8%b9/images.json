@@ -1,0 +1,38 @@
+{
+    "target_url": "https://www.ledger.com/ar/category/%d9%85%d8%aa%d9%86%d9%88%d8%b9",
+    "domains": {
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=802b3362-97ab-42b1-9a16-917245d16f6f&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=5fcdee42-bcc2-4649-b0d1-427e650e0b74&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Far%2Fcategory%2F%25d9%2585%25d8%25aa%25d9%2586%25d9%2588%25d8%25b9&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "bat.bing.com": [
+            "https://bat.bing.com/action/0?ti=134633242&tm=gtm002&Ver=2&mid=94c212e0-c84f-4689-9c1e-dcc1b7e3ea7d&sid=63b9c3e01cfd11efb7df9f2af142456d&vid=63b9bdc01cfd11efa5bde77f911e1a4f&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&tl=%D9%85%D8%AA%D9%86%D9%88%D8%B9%20%7C%20Ledger&p=https%3A%2F%2Fwww.ledger.com%2Far%2Fcategory%2F%25d9%2585%25d8%25aa%25d9%2586%25d9%2588%25d8%25b9&r=&lt=2597&evt=pageLoad&sv=1&rn=2784"
+        ],
+        "cdn.cookielaw.org": [
+            "https://cdn.cookielaw.org/logos/df21fb3f-71b8-491b-89ee-eb777bcaf866/637ca236-af9d-4a40-815f-1b6a15af499d/ea9d9f41-35f0-4c24-9a83-1ef746863067/White_64.png",
+            "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg"
+        ],
+        "sp.analytics.yahoo.com": [
+            "https://sp.analytics.yahoo.com/sp.pl?a=10000&d=Tue%2C%2028%20May%202024%2014%3A20%3A10%20GMT&n=0&b=%D9%85%D8%AA%D9%86%D9%88%D8%B9%20%7C%20Ledger&.yp=10159916&f=https%3A%2F%2Fwww.ledger.com%2Far%2Fcategory%2F%25d9%2585%25d8%25aa%25d9%2586%25d9%2588%25d8%25b9&enc=UTF-8&yv=1.15.1&tagmgr=gtm"
+        ],
+        "t.co": [
+            "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=802b3362-97ab-42b1-9a16-917245d16f6f&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=5fcdee42-bcc2-4649-b0d1-427e650e0b74&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Far%2Fcategory%2F%25d9%2585%25d8%25aa%25d9%2586%25d9%2588%25d8%25b9&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "t.teads.tv": [
+            "https://t.teads.tv/track?action=pageView&env=js-gtm&tag_version=6.17.6_ee47857&provider=tag&buyer_pixel_id=6887&referer=https%3A%2F%2Fwww.ledger.com%2Far%2Fcategory%2F%25d9%2585%25d8%25aa%25d9%2586%25d9%2588%25d8%25b9&user_session_id=fa0feb10-5f54-4a00-b4a4-8d62066aef3f"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/tr?id=237213137153741&ev=PageView&noscript=1"
+        ],
+        "www.ledger.com": [
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg",
+            "https://www.ledger.com/wp-content/uploads/2021/11/layer1.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-bitpay-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-cb-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-crypto-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-maestro-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-mastercard-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-paypal-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-visa-s.png?v=2"
+        ]
+    }
+}
