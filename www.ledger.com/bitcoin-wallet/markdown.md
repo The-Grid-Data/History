@@ -1,0 +1,856 @@
+[ New: Wallet recovery made easy with Ledger Recover, provided by Coincover
+Get started ](https://shop.ledger.com/pages/ledger-recover)
+
+Our Website now exists in . Do you want to change languages?
+
+Yes, please No, I'm good
+
+You can revert to English at any time by clicking on the language menu on the
+top right corner of the page.
+
+[ ![Ledger](https://www.ledger.com/wp-
+content/themes/ledger-v2/public/images/ledger-logo-long.svg)
+](https://www.ledger.com "Ledger")
+
+  * Products
+    * [Ledger Stax](https://shop.ledger.com/pages/ledger-stax "Ledger Stax")
+    * [Ledger Nano X](https://shop.ledger.com/pages/ledger-nano-x "Ledger Nano X")
+    * [Ledger Nano S Plus](https://shop.ledger.com/pages/ledger-nano-s-plus "Ledger Nano S Plus")
+    * [Compare our devices](https://shop.ledger.com/pages/hardware-wallets-comparison "Compare our devices")
+    * [Packs](https://shop.ledger.com/#category-bundle "Packs")
+    * [Accessories](https://shop.ledger.com/#category-accessories "Accessories")
+    * [Collaborations](https://www.ledger.com/collaborations "Collaborations")
+    * [See all products](https://shop.ledger.com "See all products")
+    * [Download Ledger Live](https://www.ledger.com/ledger-live "Download Ledger Live")
+    * [Supported crypto](https://www.ledger.com/supported-crypto-assets "Supported crypto")
+  * App and services
+    * [Ledger Live](https://www.ledger.com/ledger-live "Ledger Live")
+    * [Ledger Recover](https://shop.ledger.com/pages/ledger-recover "Ledger Recover")
+    * [CL Card](https://www.ledger.com/cl-card "CL Card")
+    * [Supported Services](https://www.ledger.com/supported-services "Supported Services")
+    * [Crypto Prices](https://www.ledger.com/coin/price "Crypto Prices")
+  * Learn
+    * [Ledger Academy](https://www.ledger.com/academy "Ledger Academy")
+    * [Learn and Earn](https://quest.ledger.com/ "Learn and Earn")
+    * [Classroom](https://www.ledger.com/academy/what-is-web-30-everything-you-need-to-know "Classroom")
+    * [Blog](/blog "Blog")
+    * [What is a crypto wallet](https://www.ledger.com/academy/basic-basics/2-how-to-own-crypto/what-is-a-crypto-wallet "What is a crypto wallet")
+    * [How to Buy](https://www.ledger.com/buy "How to Buy")
+    * [How to Swap](https://www.ledger.com/swap "How to Swap")
+    * [How to Stake](https://www.ledger.com/staking "How to Stake")
+  * For Business
+    * [Ledger Enterprise Solutions](https://enterprise.ledger.com?utm_source=mainsite&utm_medium=header "Ledger Enterprise Solutions")
+    * [Ledger Partners](/partners "Ledger Partners")
+    * [Ledger Co-branded Partnership](https://co-branded.ledger.com/ "Ledger Co-branded Partnership")
+  * [For Developers](https://developers.ledger.com/ "For Developers")
+  * [Support](https://support.ledger.com/hc "Support")
+  * English
+    * This page is available in English only
+
+[__](https://shop.ledger.com/cart "Ledger Shop")
+
+__
+
+# Bitcoin wallet
+
+## The right cryptocurrency wallet for your Bitcoin
+
+Looking for a Bitcoin Wallet to buy and store your Bitcoin? Join 6+ million
+customers who trust Ledger hardware wallets to securely store their crypto and
+use them on the day-to-day basis.
+
+  * __ Mobile & Desktop App
+  * __ Secured by Hardware Wallet
+
+[Secure your Bitcoin](https://shop.ledger.com/pages/bitcoin-hardware-wallet
+"Secure your Bitcoin")
+
+__________ Trusted by over 6 million customers
+
+![Bitcoin wallet](https://ledger-wp-
+website-s3-prd.ledger.com/uploads/2022/12/Bitcoin-Wallet-1.webp)
+
+Ledger Secured Solution
+
+###  How to secure your Bitcoin ?
+
+Whether you’re looking to keep your crypto safe for long-term or manage them
+on a daily basis, **Ledger has the right product for you.**
+
+[Get a Ledger wallet](https://shop.ledger.com)
+
+Ledger hardware wallet
+
+[**Ledger hardware wallet**](https://shop.ledger.com/pages/bitcoin-hardware-
+wallet) stores your private keys and signs transactions offline, making them
+resistant to **malicious attacks and threats**. Pair the Ledger crypto wallet
+with Ledger Live App to manage your Bitcoin on the go.
+
+![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTI4LjM2IDIwLjQ4bDcuMjQtNy4yNEwyOC4zNiA2bC0uOTIuOTIgMi44IDIuNzZjLjkyLjk2IDEuOTIgMS45MiAyLjg4IDIuODhINnYxLjM2aDI3LjE2Yy0xIC45Ni0xLjk2IDEuOTItMi45MiAyLjg4bC0yLjggMi43Ni45Mi45MnpNNC40IDI2Ljc2TDExLjY0IDM0bC45Mi0uOTItMi44LTIuOGMtLjkyLS45Mi0xLjkyLTEuOTItMi44OC0yLjg0SDM0di0xLjM2SDYuODhjLjk2LS45NiAxLjk2LTEuOTIgMi44OC0yLjg4bDIuOC0yLjgtLjkyLS44OC03LjI0IDcuMjR6IiBmaWxsPSIjQjM4MEREIi8+PC9zdmc+)
+
+Ledger Live App
+
+[**Ledger Live App**](https://www.ledger.com/ledger-live) is a gateway to
+manage your assets, checking your real-time balance, tracking transaction
+histories, and more.
+
+### How to get a Bitcoin wallet?
+
+1
+
+![Get a Ledger Nano](https://ledger-wp-
+website-s3-prd.ledger.com/uploads/2023/11/Get-a-Ledger.webp)
+
+#### Get a Ledger Nano
+
+Select and purchase a Ledger hardware wallet of your choice.
+
+  * Beginner in the crypto world? Get started with Ledger Nano S Plus.
+  * Prefer a Bluetooth connection? Try with Ledger Nano X.
+
+[Get Ledger Nano](https://shop.ledger.com/pages/bitcoin-hardware-wallet)
+
+2
+
+![Download Ledger Live](https://ledger-wp-
+website-s3-prd.ledger.com/uploads/2023/11/Install-Ledger-Live.webp)
+
+#### Download Ledger Live
+
+Download and install the Ledger Live app in a couple of clicks on desktop and
+mobile.
+
+Coupled with a Ledger, it makes the most secured wallet for your Bitcoin.
+
+Download the app __
+
+[ __Windows app](https://download.live.ledger.com/latest/win "Windows app") [
+__Mac app](https://download.live.ledger.com/latest/mac "Mac app") [ __Linux
+app](https://download.live.ledger.com/latest/linux "Linux app")
+
+[ ![](https://www.ledger.com/wp-
+content/uploads/2019/01/Download_on_the_App_Store_Badge_US-
+UK_RGB_blk_092917@2x.png)
+](https://r354.adj.st/?adj_t=t2esmlk&adj_campaign=Ledger_Live/) [
+![](https://www.ledger.com/wp-content/uploads/2019/01/google-play-
+badge@2x.png) ](https://r354.adj.st/?adj_t=t2esmlk&adj_campaign=Ledger_Live/)
+
+3
+
+![Start your Bitcoin journey securely](https://ledger-wp-
+website-s3-prd.ledger.com/uploads/2023/11/Add-coins-to-your-portfolio.webp)
+
+#### Start your Bitcoin journey securely
+
+Add a Bitcoin account with a couple of clicks. Choose among different
+providers and easily manage your Bitcoin.
+
+And not only Bitcoin. With Ledger Live, you can manage thousands of crypto and
+a large variety of NFTs.
+
+### Buy, Manage, and Swap Bitcoin at your fingertips
+
+![Manage your Bitcoin](https://ledger-wp-
+website-s3-prd.ledger.com/uploads/2023/03/manage-your-crypto-assets.webp)
+
+#### Manage your Bitcoin
+
+With Ledger Live coupled with a Ledger, you can:
+
+  * Securely execute transactions by physically validating them with your Ledger Hardware Wallet
+  * Manage your Bitcoin as well as thousands of other crypto assets
+  * Track your portfolio
+
+*Buy, send/receive, swap, stake, and other crypto transaction services are provided by third-parties provider, which availability may vary based on jurisdiction/territory.
+
+![Buy Bitcoin](https://ledger-wp-
+website-s3-prd.ledger.com/uploads/2023/03/buy-your-crypto-assets.webp)
+
+#### Buy Bitcoin
+
+You can easily buy Bitcoin with a credit/debit card or bank transfer. Choose
+from a range of service providers ([MoonPay](http://moonpay.com/buy/btc),
+Paypal, Ramp, Sardine…) and select the option that works best for you.
+
+Your Bitcoin will land safely in your Ledger Bitcoin Wallet.
+
+[Buy Bitcoin](https://www.ledger.com/buy)
+
+![Swap Bitcoin](https://ledger-wp-
+website-s3-prd.ledger.com/uploads/2023/03/Swap-your-crypto-assets.webp)
+
+#### Swap Bitcoin
+
+Swapping allows you to explore different crypto assets, protect your Bitcoin
+from volatility, and diversify your portfolio.
+
+You can easily swap Bitcoin through Ledger Live without using fiat currencies.
+
+[Swap Bitcoin](/swap)
+
+![](https://ledger-wp-website-s3-prd.ledger.com/uploads/2023/03/manage-your-
+crypto-assets.webp)
+
+## The best Bitcoin hardware wallet
+
+[Compare our wallets](https://shop.ledger.com/pages/hardware-wallets-
+comparison)
+
+[](https://shop.ledger.com/products/ledger-nano-s-plus/btc-orange)
+
+![Ledger Nano S Plus](https://ledger-wp-
+website-s3-prd.ledger.com/uploads/2023/09/nano-s-plus.webp)
+
+###  [ Ledger Nano S Plus ](https://shop.ledger.com/products/ledger-nano-s-
+plus/btc-orange "Ledger Nano S Plus")
+
+__________4.5/5 - 1 213 Reviews
+
+The perfect crypto wallet to start securely managing your Bitcoin.
+
+  * Desktop
+  * USB-C
+  * Crypto & NFT
+
+[Learn more](https://shop.ledger.com/products/ledger-nano-s-plus/btc-orange)
+
+[](https://shop.ledger.com/products/ledger-nano-x/btc-orange) Most popular
+
+![Ledger Nano X](https://ledger-wp-
+website-s3-prd.ledger.com/uploads/2023/09/nano-x.webp)
+
+###  [ Ledger Nano X ](https://shop.ledger.com/products/ledger-nano-x/btc-
+orange "Ledger Nano X")
+
+__________4.5/5 - 11 108 Reviews
+
+Secure and manage your crypto on-the-go with our Bluetooth®-enabled Bitcoin
+hardware wallet.
+
+  * Desktop & Mobile
+  * Bluetooth
+  * USB-C
+  * Crypto & NFT
+
+[Learn more](https://shop.ledger.com/products/ledger-nano-x/btc-orange)
+
+[](https://shop.ledger.com/products/ledger-stax)
+
+![Ledger Stax](https://ledger-wp-
+website-s3-prd.ledger.com/uploads/2023/09/stax.webp)
+
+###  [ Ledger Stax ](https://shop.ledger.com/products/ledger-stax "Ledger
+Stax")
+
+Coming soon
+
+Our most advanced and customizable Bitcoin wallet yet, enjoy a curved E Ink
+touchscreen crypto-experience unlike ever before.
+
+  * Desktop & Mobile
+  * Bluetooth
+  * USB-C
+  * Larger screen
+  * Crypto & NFT
+
+[Learn more](https://shop.ledger.com/products/ledger-stax)
+
+[Compare our wallets](https://shop.ledger.com/pages/hardware-wallets-
+comparison)
+
+### Choice of 6,000,000+ customers
+
+Bertil A.
+
+___________5/5_
+
+In order to secure cryptocurrencies, Ledger is the perfect tool.
+
+Kevin L.
+
+___________5/5_
+
+Simply a very elegant peace of hardware, with a gorgeous UI in the app.
+
+James P.
+
+___________5/5_
+
+ALL is good, all legal resources bought was as specified and compliant, party
+on.
+
+[Read more reviews](https://shop.ledger.com/products/ledger-nano-x#reviews
+"Read more reviews")
+
+### What is Bitcoin (BTC)?
+
+Bitcoin is the first successful form of digital money based on peer-to-peer
+technology that facilitates decentralized transactions whereby. No central
+bank or centralized authority is involved in the transaction and production of
+the Bitcoin currency. The Bitcoin network records transactions on a
+distributed ledger (blockchain) comprising multiple nodes (computers)
+globally.  
+Bitcoin was created by an anonymous individual/group under the name, Satoshi
+Nakamoto. Satoshi Nakamoto, a pseudonymous cypherpunk, published the Bitcoin
+white paper on October 31, 2008. The source code is available publicly as an
+open-source project, anybody can look at it and be part of the developmental
+process.
+
+Following are some of Bitcoin’s important characteristics:  
+– Scarce: Bitcoin is designed to have a finite supply of 21 million BTC ever
+created, thus making it an anti-inflationary financial asset.  
+– Fungible: Bitcoin is a fungible asset such that every coin is identical and
+equivalent to another.  
+– Divisible: Bitcoin’s divisibility follows from its fungibility. 1 BTC is
+thus divisible into satoshis (sats), up to eight decimal places (1 BTC = 100
+million sats).
+
+Regarding Bitcoin mining, miners today are mining Bitcoin using ASIC chips
+dedicated to mining Bitcoin. Bitcoin uses the SHA-256 hashing algorithm with
+an average transaction confirmation time of 10 minutes.
+
+Bitcoin has inspired other alternative currencies such as Litecoin, Peercoin,
+Primecoin, and so on.
+
+[Bitcoin price charts](https://www.ledger.com/coin/price/bitcoin "Bitcoin
+price charts")
+
+### Cryptocurrencies similar to Bitcoin supported by our hardware wallet
+
+[See the full list](https://www.ledger.com/supported-crypto-assets "See the
+full list")
+
+[ ![](https://ledger-wp-website-s3-prd.ledger.com/uploads/2024/01/LYX.png)
+LUKSO ](https://www.ledger.com/coin/wallet/lukso-token-2) [
+![](https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/12/Bitcoin-
+Logo.webp) BRC20 ](https://www.ledger.com/coin/wallet/brc20) [
+![](https://ledger-wp-
+website-s3-prd.ledger.com/uploads/2023/05/Secondary_Symbol.png) Injective
+](https://www.ledger.com/coin/wallet/injective-protocol) [ ![](https://ledger-
+wp-website-s3-prd.ledger.com/uploads/2023/03/ton_symbol.png) Toncoin
+](https://www.ledger.com/coin/wallet/the-open-network) [ ![](https://ledger-
+wp-website-s3-prd.ledger.com/uploads/2022/11/bitcoin-cash-circle.png) Bitcoin
+Cash ](https://www.ledger.com/coin/wallet/bitcoin-cash) [ ![](https://ledger-
+wp-website-s3-prd.ledger.com/uploads/2022/12/bnb-logo.webp) BNB
+](https://www.ledger.com/coin/wallet/binancecoin) [ ![](https://ledger-wp-
+website-s3-prd.ledger.com/uploads/2022/12/Ethereum-logo.png) Ethereum
+](https://www.ledger.com/coin/wallet/ethereum) [ ![](https://ledger-wp-
+website-s3-prd.ledger.com/uploads/2022/12/Tron-Logo.png) TRON
+](https://www.ledger.com/coin/wallet/tron) [ ![](https://ledger-wp-
+website-s3-prd.ledger.com/uploads/2022/11/Fantom.png) Fantom
+](https://www.ledger.com/coin/wallet/fantom)
+
+### Securely manage, buy, swap, and stake 5.500+ coins
+
+[See the full list](https://www.ledger.com/supported-crypto-assets "See the
+full list")
+
+[ ![](https://ledger-wp-
+website-s3-prd.ledger.com/uploads/2022/11/Graph_Token.png) The Graph
+](https://www.ledger.com/coin/wallet/the-graph) [ ![](https://ledger-wp-
+website-s3-prd.ledger.com/uploads/2022/11/ceth2.jpg) cETH
+](https://www.ledger.com/coin/wallet/compound-ether) [ ![](https://ledger-wp-
+website-s3-prd.ledger.com/uploads/2022/11/gt.png) Gate
+](https://www.ledger.com/coin/wallet/gatechain-token) [ ![](https://ledger-wp-
+website-s3-prd.ledger.com/uploads/2023/03/CEL_logo.png) Celsius Network
+](https://www.ledger.com/coin/wallet/celsius-degree-token) [
+![](https://ledger-wp-website-s3-prd.ledger.com/uploads/2024/01/Fetch.jpg)
+Fetch.ai ](https://www.ledger.com/coin/wallet/fetch-ai) [ ![](https://ledger-
+wp-website-s3-prd.ledger.com/uploads/2023/03/icon-icx-logo.png) ICON
+](https://www.ledger.com/coin/wallet/icon) [ ![](https://ledger-wp-
+website-s3-prd.ledger.com/uploads/2022/11/Chiliz-1.png) Chiliz
+](https://www.ledger.com/coin/wallet/chiliz) [ ![](https://ledger-wp-
+website-s3-prd.ledger.com/uploads/2022/11/nexo.png) NEXO
+](https://www.ledger.com/coin/wallet/nexo) [ ![](https://ledger-wp-
+website-s3-prd.ledger.com/uploads/2022/11/matic-token-icon.png) Polygon
+](https://www.ledger.com/coin/wallet/matic-network)
+
+![](https://www.ledger.com/wp-content/themes/ledger-v2/public/images/crypto-
+page/faq.png)
+
+## Frequently Asked Questions
+
+__What is a Bitcoin wallet?
+
+A Bitcoin wallet stores private keys, which are strings of characters that
+allow you to manage a Bitcoin address. Your Bitcoin wallet contains private
+keys, which are a special series of characters that allow you to manage funds
+at a specific blockchain address.
+
+Bitcoin wallets do not store Bitcoin. Your cryptocurrency is constantly stored
+on the Bitcoin blockchain. Your Bitcoin wallet’s purpose is to generate and
+store private keys that enable you to access and manage multiple Bitcoin
+accounts. To put it simply, a Bitcoin wallet is something that allows you to
+store, send, receive, access, and manage Bitcoin (BTC).
+
+__How does a Bitcoin wallet work?
+
+Bitcoin wallets, like most other cryptocurrency wallets, use public and
+private key pairs. To clarify, each Bitcoin wallet can generate a near-
+infinite number of public and private key pairs that manage an equally huge
+number of blockchain accounts across many networks.
+
+The private key is a long string of characters that allows the owner access to
+a specific Bitcoin account. So, if you wish to withdraw funds from a Bitcoin
+wallet, you must have access to the private key linked with it. Because anyone
+with that key can access the account, the private key must stay hidden and
+secure—just as it sounds. In contrast, sharing your public key is safe. You’ll
+need to reveal this public key if you want to receive Bitcoin from anyone.
+Your blockchain address is just a translated form of your public key, which is
+easier to read and publish.
+
+__What are the different types of Bitcoin wallets?
+
+  * Centralized Exchange Bitcoin Wallets  
+Centralized exchanges like Coinbase, Binance, and Kraken offer a convenient
+way to buy Bitcoin with traditional currencies, making them popular among
+beginners. However, users must be aware that these exchanges use custodial
+wallets, meaning they control the private keys. This can pose risks such as
+account access being revoked by the exchange. To maintain full control over
+their Bitcoin assets, users are advised to transfer them to a non-custodial
+wallet.
+
+  * Software Bitcoin Wallets  
+A software Bitcoin wallet, also called a hot wallet, is a program installed on
+devices like computers or smartphones, allowing users to manage their own
+private keys. This grants full ownership of Bitcoin and uses the HD model for
+easy restoration on various interfaces. However, storing keys on host devices
+exposes them to online threats like malware. There are various types of
+software Bitcoin wallets, each with its own functionalities and use cases.
+
+    * Mobile Bitcoin Wallets  
+Bitcoin mobile wallets, as their name implies, function as applications on
+your smartphone, storing cryptographic keys within your device’s memory. Trust
+Wallet and BRD stand out as notable examples of these mobile Bitcoin wallets.
+With these wallets, users can seamlessly engage in transactions, trading, and
+management directly from their phones. Additionally, they offer convenient QR
+code scanning capabilities and ensure accessibility while on the move.
+
+    * Desktop Bitcoin Wallets  
+In a desktop wallet, you download and install wallet software directly onto
+your computer, with private keys stored on either a hard drive or solid-state
+drive (SSD). Bitcoin Core and Atomic Wallet stand out as two well-known
+desktop wallet options for Bitcoin.
+
+    * Bitcoin Wallet Extensions  
+Bitcoin wallet extensions like Electrum provide direct access to the Bitcoin
+blockchain via your web browser. They’re easy to use and can be accessed from
+any device with an internet connection after installation.
+
+  * Bitcoin Paper Wallets  
+Paper wallets are printed pieces with Bitcoin private keys, offering offline
+security against hacking. Generating them requires choosing a secure
+generator, as some online options may compromise confidentiality. However,
+paper wallets lack user-friendliness, requiring extra steps like setting up
+change addresses for transactions. Moreover, the risk of loss or damage to the
+paper poses a threat to stored BTC. To mitigate this risk, store paper wallets
+in a dry, secure location, such as a safety deposit box.
+
+  * Bitcoin Hardware Wallets  
+A hardware wallet is a safe and practical option for securing your Bitcoin. It
+stores private keys offline and facilitates transactions without an internet
+connection. Ledger devices, for instance, offer secure element chip protection
+against physical hacks like side-channel attacks. They also provide a Trusted
+display for confirming transactions and access to a wider ecosystem through
+Ledger Live, ensuring safety from online threats.
+
+__How to choose the best Bitcoin wallet?
+
+Choosing the best Bitcoin wallet hinges on your intended use. If you aim to
+store Bitcoin ordinals, ensure your wallet supports these assets. Likewise, to
+utilize the Lightning network, a specific wallet capable of accessing it is
+necessary. Additionally, various other features may be desired from a Bitcoin
+wallet.
+
+For instance, for secure storage of substantial Bitcoin holdings, a hardware
+wallet is recommended to protect against online threats. If managing a wallet
+with multiple users is your requirement, a multi-sig wallet might be
+necessary.
+
+Ultimately, the best Bitcoin wallet varies based on your specific needs and
+objectives.
+
+__How to secure your Bitcoin (BTC)?
+
+When you first buy coins, you’re issued with two keys: public and private.
+
+  * A public key serves as an address that can be shared with other parties to perform transactions.
+  * A private key represents a randomly generated number that signs transactions and protects your assets from malicious attacks. If it gets compromised or lost, you won’t be able to access your cold wallet to spend, withdraw, or transfer your coins.
+
+To safeguard and keep track of your keys, you can use online or offline
+wallets. Online wallets, also known as hot wallets, store private keys on
+systems or devices that are connected to the internet. Hot wallets are easy
+and convenient to use, however, they come with several drawbacks. Besides
+being susceptible to attacks and a honeypot for hackers, with hot wallets, the
+custody of private keys is often entrusted to a third party such as a crypto
+exchange, which means you never have full control over your funds. The safer
+choice is specialized hardware wallets that store private keys offline.
+Stealing private keys from a hardware wallet would require physical access to
+the wallet and the corresponding PIN or the recovery phrase. What’s more, with
+a hardware wallet, you don’t need to rely on third-party custodians.
+
+__Can Ledger Bitcoin wallet secure my BTC?
+
+Ledger Nano is the industry-leading hardware wallet. With more than five
+million customers, Ledger Nano wallets have several layers of security that
+protect private keys, and hence your assets:
+
+  * Your private keys are stored on secure element chips.
+  * A PIN code and a 24-word recovery phrase are required to access the wallet.
+  * Ledger Nano cryptocurrency wallets have been built using highly durable materials for protection against physical damage.
+
+With full isolation between private keys and your computer/mobile, Ledger Nano
+cold wallets keep your keys secure and give you complete control over your
+cryptos.
+
+__How to send BTC to another Bitcoin wallet?
+
+Initially, the primary step is to create a crypto wallet if you haven’t done
+it yet. Once you have completed this step, the process of executing a Bitcoin
+transfer is quite similar to almost every crypto wallet.
+
+  1. Enter the recipient address of the Bitcoin wallet you want to send BTC.
+  2. Enter the amount or quantity of Bitcoin you wish to send.
+  3. Choose the Network fees.
+  4. Verify the transaction summary before sending it.
+
+
+
+However, it is crucial to follow our advice before sending Bitcoin to another
+wallet:
+
+  * For optimal security, make sure always to double-check the addresses that you copy and paste. When possible, using a QR code address might be the preferable method, just to be absolutely certain.
+  * For larger transactions, it may be a good idea to send a small amount of Bitcoin as a test, to make sure the address is correct.
+  * For a wallet that supports multiple cryptocurrencies, it’s also important to select the correct coin. Sending Bitcoin (BTC) to a Bitcoin Cash (BCH) address, for example, could result in a permanent loss of funds.
+  * For sending Bitcoin quickly, higher-fee transactions are usually given higher priority by Bitcoin miners and will reach their destination in a shorter amount of time.
+
+__How to receive BTC in your Bitcoin wallet?
+
+Each crypto-related endeavor necessitates a wallet. If you wish to receive
+Bitcoin from another party, you must furnish them with a Bitcoin wallet
+address. However, to obtain a Bitcoin wallet address, you first need to
+acquire a cryptocurrency wallet compatible with BTC and create a new account.
+Subsequently, you can locate your receiving address within your wallet’s
+interface. It’s crucial to accurately record this address, as any error could
+result in funds being sent to a wallet beyond your control.
+
+__What Is a Bitcoin Wallet Address?
+
+To send or receive BTC, you’ll require a Bitcoin wallet address, a unique
+string of 26-35 characters starting with ‘1’, ‘3’, or ‘bc1’. Each address
+corresponds to a key pair: a public key for identification and a private key
+for transaction signing. Your wallet address is essentially a user-friendly
+version of your public key.
+
+For privacy protection, Bitcoin wallets generate new addresses for each
+transaction, though old ones remain functional. This practice safeguards your
+wallet’s security, particularly if you use an online wallet vulnerable to key
+exposure during transaction signing. Hence, most wallets automatically
+generate new addresses per transaction to mitigate risks.
+
+__Does Ledger support Lightning Network?
+
+No, at the moment, the Ledger Bitcoin wallet does not support Lightning
+Network.
+
+__Are Bitcoin wallets free?
+
+The choice of Bitcoin wallet you opt for is crucial. Bitcoin Software wallets,
+installed on mobile or computer, typically come at no cost but carry risks of
+centralization. Conversely, Bitcoin hardware wallets, physical devices
+incurring expenses, boast superior security features. Although there’s an
+initial investment with hardware wallets, the potential losses from insecurity
+far outweigh the price. Should you fall victim to hacking, the value you stand
+to lose could far exceed the cost of a hardware wallet.
+
+Related Resources
+
+[](https://www.ledger.com/academy/topics/security/best-bitcoin-wallets)
+
+[The Best Bitcoin Wallets in
+2024](https://www.ledger.com/academy/topics/security/best-bitcoin-wallets)
+
+__Read
+
+Beginner
+
+[](https://www.ledger.com/academy/topics/crypto/what-are-rare-sats-bitcoin-
+satoshi-rarity-explained)
+
+[What are Rare Sats? Bitcoin’s Satoshis from Uncommon to
+Mythic](https://www.ledger.com/academy/topics/crypto/what-are-rare-sats-
+bitcoin-satoshi-rarity-explained)
+
+__Read
+
+8 min Beginner
+
+[](https://www.ledger.com/academy/topics/crypto/what-is-the-bitcoin-runes-
+protocol)
+
+[What are Bitcoin Runes? About Bitcoin’s Fungible Token
+Protocol](https://www.ledger.com/academy/topics/crypto/what-is-the-bitcoin-
+runes-protocol)
+
+__Read
+
+Beginner
+
+### Stay in touch
+
+Announcements can be found in our blog. Press contact:  
+[media@ledger.com](mailto:media@ledger.com)
+
+  * [__](https://www.reddit.com/r/ledgerwallet/ "Ledger Reddit")
+  * [__](https://www.facebook.com/Ledger/ "Ledger Facebook")
+  * [__](https://www.instagram.com/ledger/ "Ledger Instagram")
+  * [__](https://twitter.com/Ledger "Ledger Twitter")
+  * [__](https://www.youtube.com/Ledger "Ledger Youtube")
+  * [__](https://www.linkedin.com/company/ledgerhq "Ledger Linkedin company")
+  * [__](https://www.tiktok.com/@ledger "Ledger Tiktok")
+  * [__](https://discord.com/invite/ledger "Ledger Discord")
+
+### Subscribe to our  
+newsletter
+
+New coins supported, blog updates and exclusive offers directly in your inbox
+
+  
+
+Enter your email
+
+Register to newsletter
+
+Your email address will only be used to send you our newsletter, as well as
+updates and offers. You can unsubscribe at any time using the link included in
+the newsletter.
+
+[Learn more about how we manage your data and your
+rights.](https://shop.ledger.com/pages/privacy-notice#ledger-newsletter)
+
+![](https://www.facebook.com/tr?id=237213137153741&ev=PageView&noscript=1)
+
+[![](https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-
+logo-long.svg)](https://www.ledger.com "Ledger")
+
+  * English
+    * This page is available in English only
+
+Copyright © Ledger SAS. All rights reserved. Ledger, Ledger Stax, Ledger Nano
+S, Ledger Vault, Bolos are trademarks owned by Ledger SAS.  
+  
+1 rue du Mail, 75002 Paris, France  
+  
+Payment methods  
+![](/wp-content/uploads/2021/11/logo-paypal-s.png?v=2)  ![](/wp-
+content/uploads/2021/11/logo-crypto-s.png?v=6)  ![](/wp-
+content/uploads/2021/11/logo-bitpay-s.png?v=6)  
+![](/wp-content/uploads/2021/11/layer1.png?v=2)  ![](/wp-
+content/uploads/2021/11/logo-visa-s.png?v=2)  ![](/wp-
+content/uploads/2021/11/logo-maestro-s.png?v=2)  ![](/wp-
+content/uploads/2021/11/logo-mastercard-s.png?v=2)  ![](/wp-
+content/uploads/2021/11/logo-cb-s.png?v=2)
+
+  * Products
+    * [Ledger Stax](https://shop.ledger.com/pages/ledger-stax)
+    * [Ledger Nano X](https://shop.ledger.com/pages/ledger-nano-x)
+    * [Ledger Nano S Plus](https://shop.ledger.com/pages/ledger-nano-s-plus)
+    * [Compare our devices](https://shop.ledger.com/pages/hardware-wallets-comparison)
+    * [Bundles](https://shop.ledger.com/#category-bundle)
+    * [Accessories](https://shop.ledger.com/#category-accessories)
+    * [All products](https://shop.ledger.com)
+    * [Downloads](https://www.ledger.com/ledger-live)
+
+  * Crypto Assets
+    * [Bitcoin wallet](https://www.ledger.com/coin/wallet/bitcoin)
+    * [Ethereum wallet](https://www.ledger.com/coin/wallet/ethereum)
+    * [Cardano wallet](https://www.ledger.com/coin/wallet/cardano)
+    * [XRP wallet](https://www.ledger.com/coin/wallet/ripple)
+    * [Monero wallet](https://www.ledger.com/coin/wallet/monero)
+    * [USDT wallet](https://www.ledger.com/coin/wallet/tether)
+    * [See all assets](https://www.ledger.com/supported-crypto-assets)
+
+  * Crypto Services
+    * [Crypto Prices](https://www.ledger.com/coin/price)
+    * [Buy crypto](https://www.ledger.com/buy)
+    * [Staking crypto](https://www.ledger.com/staking)
+    * [Swap crypto](https://www.ledger.com/swap)
+
+  * For Business
+    * [Ledger Enterprise Solutions](https://enterprise.ledger.com/)
+
+  * For Startups
+    * [Funding from Ledger Cathay Capital](https://www.ledger.com/cathay-ledger-fund)
+
+  * For Developers
+    * [The Developer Portal](https://developers.ledger.com/)
+
+  * Get started
+    * [Start using your Ledger device](https://www.ledger.com/start)
+    * [Compatible wallets and services](https://www.ledger.com/ledger-wallets-and-services)
+    * [How to buy Bitcoin](https://www.ledger.com/buy-bitcoin)
+    * [Guide before buying bitcoin](https://www.ledger.com/buy-bitcoin/how)
+    * [Bitcoin Hardware Wallet](https://shop.ledger.com/pages/bitcoin-hardware-wallet)
+
+  * See also
+    * [Support](https://support.ledger.com/hc)
+    * [Bounty program](https://donjon.ledger.com/bounty/)
+    * [Resellers](/reseller)
+    * [Ledger Press Kit](https://www.ledger.com/press)
+    * [Affiliates](https://www.ledgerwallet.com/affiliates/)
+    * [Status](https://status.ledger.com/)
+    * [Partners](/partners)
+
+  * Careers
+    * [Join us](https://www.ledger.com/career)
+    * [All jobs](https://www.ledger.com/jobs)
+
+  * About
+    * [Our vision](https://www.ledger.com/blog/we-are-ledger-a-brand-vision)
+    * [Ledger Academy](https://www.ledger.com/academy)
+    * [The company](/the-company)
+    * [The people](/the-people-behind-ledger)
+    * [Diversity](https://www.ledger.com/diversity)
+    * [Blog](/blog)
+
+  * Legal
+    * [Legal Center](https://www.ledger.com/legal-center)
+    * [Sales Terms and Conditions](https://shop.ledger.com/pages/terms-and-conditions)
+    * [Privacy Policy](https://www.ledger.com/privacy-policy)
+    * [Disclaimers](https://shop.ledger.com/pages/disclaimers)
+
+![](https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=9dbb5703-c4f3-4acd-9a08-8c289586fb82&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=b1a37ab5-1add-4a16-b12d-45ae8328ac5a&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Fcoin%2Fwallet%2Fbitcoin&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30)![](https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=9dbb5703-c4f3-4acd-9a08-8c289586fb82&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=b1a37ab5-1add-4a16-b12d-45ae8328ac5a&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Fcoin%2Fwallet%2Fbitcoin&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30)
+
+By clicking “Accept All Cookies”, you agree to the storing of cookies on your
+device to enhance site navigation, analyze site usage, and assist in our
+marketing efforts.
+
+Cookies Settings Accept All Cookies
+
+![Company Logo](https://cdn.cookielaw.org/logos/df21fb3f-71b8-491b-89ee-
+eb777bcaf866/637ca236-af9d-4a40-815f-1b6a15af499d/ea9d9f41-35f0-4c24-9a83-1ef746863067/White_64.png)
+
+## Privacy Preference Center
+
+  * ### Your Privacy
+
+  * ### Strictly Necessary Cookies
+
+  * ### Performance Cookies
+
+  * ### Functional Cookies
+
+  * ### Targeting Cookies
+
+  * ### Social Media Cookies
+
+#### Your Privacy
+
+When you visit any website, it may store or retrieve information on your
+browser, mostly in the form of cookies. This information might be about you,
+your preferences or your device and is mostly used to make the site work as
+you expect it to. The information does not usually directly identify you, but
+it can give you a more personalized web experience. Because we respect your
+right to privacy, you can choose not to allow some types of cookies. Click on
+the different category headings to find out more and change our default
+settings. However, blocking some types of cookies may impact your experience
+of the site and the services we are able to offer.  
+[More information](https://cookiepedia.co.uk/giving-consent-to-cookies)
+
+#### Strictly Necessary Cookies
+
+Always Active
+
+These cookies are necessary for the website to function and cannot be switched
+off in our systems. They are usually only set in response to actions made by
+you which amount to a request for services, such as setting your privacy
+preferences, logging in or filling in forms. You can set your browser to block
+or alert you about these cookies, but some parts of the site will not then
+work. These cookies do not store any personally identifiable information.
+
+View Vendor Details‎
+
+#### Performance Cookies
+
+Performance Cookies
+
+These cookies allow us to count visits and traffic sources so we can measure
+and improve the performance of our site. They help us to know which pages are
+the most and least popular and see how visitors move around the site. All
+information these cookies collect is aggregated and therefore anonymous. If
+you do not allow these cookies we will not know when you have visited our
+site, and will not be able to monitor its performance.
+
+View Vendor Details‎
+
+#### Functional Cookies
+
+Functional Cookies
+
+These cookies enable the website to provide enhanced functionality and
+personalisation. They may be set by us or by third party providers whose
+services we have added to our pages. If you do not allow these cookies then
+some or all of these services may not function properly.
+
+View Vendor Details‎
+
+#### Targeting Cookies
+
+Targeting Cookies
+
+These cookies may be set through our site by our advertising partners. They
+may be used by those companies to build a profile of your interests and show
+you relevant adverts on other sites. They do not store directly personal
+information, but are based on uniquely identifying your browser and internet
+device. If you do not allow these cookies, you will experience less targeted
+advertising.
+
+View Vendor Details‎
+
+#### Social Media Cookies
+
+Social Media Cookies
+
+These cookies are set by a range of social media services that we have added
+to the site to enable you to share our content with your friends and networks.
+They are capable of tracking your browser across other sites and building up a
+profile of your interests. This may impact the content and messages you see on
+other websites you visit. If you do not allow these cookies you may not be
+able to use or see these sharing tools.
+
+View Vendor Details‎
+
+Back Button
+
+### Vendors List
+
+Filter Button
+
+Consent Leg.Interest
+
+checkbox label label
+
+checkbox label label
+
+checkbox label label
+
+Clear
+
+checkbox label label
+
+Apply Cancel
+
+Confirm My Choices
+
+Allow All
+
+[![Powered by
+Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/products/cookie-
+consent/)
+
+![](https://bat.bing.com/action/0?ti=134633242&tm=gtm002&Ver=2&mid=d1b15355-6434-402e-ba5a-6ce1bfe16c8b&sid=fd9ed1e01cf611efbe88ab67c2b5317d&vid=fd9ecea01cf611ef9e76d903d1fd6a4f&vids=1&msclkid=N&pi=918639831&lg=en-
+US&sw=800&sh=600&sc=24&tl=Bitcoin%20Wallet%20%7C%20Ledger&p=https%3A%2F%2Fwww.ledger.com%2Fcoin%2Fwallet%2Fbitcoin&r=&lt=2979&evt=pageLoad&sv=1&rn=174415)
+
+![dot image
+pixel](https://sp.analytics.yahoo.com/sp.pl?a=10000&d=Tue%2C%2028%20May%202024%2013%3A34%3A21%20GMT&n=0&b=Bitcoin%20Wallet%20%7C%20Ledger&.yp=10159916&f=https%3A%2F%2Fwww.ledger.com%2Fcoin%2Fwallet%2Fbitcoin&enc=UTF-8&yv=1.15.1&tagmgr=gtm)
+
