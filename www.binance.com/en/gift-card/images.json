@@ -1,0 +1,24 @@
+{
+    "target_url": "https://www.binance.com/en/gift-card",
+    "domains": {
+        "bin.bnbstatic.com": [
+            "https://bin.bnbstatic.com/image/julia/gift-card-web/create-left.svg",
+            "https://bin.bnbstatic.com/image/julia/gift-card-web/create-right.svg",
+            "https://bin.bnbstatic.com/image/julia/gift-card-web/faq-add.svg",
+            "https://bin.bnbstatic.com/image/julia/gift-card-web/home/entry-business-right.png",
+            "https://bin.bnbstatic.com/image/julia/gift-card-web/navbar/api-bulk-create.svg",
+            "https://bin.bnbstatic.com/image/julia/gift-card-web/navbar/average-sum-f.svg",
+            "https://bin.bnbstatic.com/image/julia/gift-card-web/navbar/task-center-f.svg",
+            "https://bin.bnbstatic.com/image/julia/gift-card-web/navbar/tutorial-f.svg",
+            "https://bin.bnbstatic.com/image/julia/gift-card-web/window-main-f.svg",
+            "https://bin.bnbstatic.com/static/gift-card-web/hero_illustration_grey_bg.svg",
+            "https://bin.bnbstatic.com/static/gift-card-web/hero_illustration_grey_giftcard.svg",
+            "https://bin.bnbstatic.com/static/gift-card-web/nav-logo.svg",
+            "https://bin.bnbstatic.com/static/images/common/logo.png"
+        ],
+        "cdn.cookielaw.org": [
+            "https://cdn.cookielaw.org/logos/99f99939-5a0d-4feb-aef3-ba45f16b6907/5bfb9945-c83c-46f9-8bd7-55e8fd1975b5/02e50907-93f6-477d-a8a2-d581dace49c2/binance-h.png",
+            "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg"
+        ]
+    }
+}
