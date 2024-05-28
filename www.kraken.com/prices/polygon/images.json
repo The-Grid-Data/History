@@ -1,0 +1,69 @@
+{
+    "target_url": "https://www.kraken.com/prices/polygon",
+    "domains": {
+        "": [
+            "data:image/png;base64,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"
+        ],
+        "assets-cms.kraken.com": [
+            "https://assets-cms.kraken.com/images/51n36hrp/facade/00b2ab3359bba83438ebc032de5443682d27d98d-20x20.svg",
+            "https://assets-cms.kraken.com/images/51n36hrp/facade/107e378310dc13f1e33bb0e655c01314812bce55-20x20.svg",
+            "https://assets-cms.kraken.com/images/51n36hrp/facade/1c5145ebf728a00be0d011b2f8b7c36063f745e4-20x20.svg",
+            "https://assets-cms.kraken.com/images/51n36hrp/facade/322ddf0d6bdc3bbd67dfb3248d39a74049a8e1fe-20x20.svg",
+            "https://assets-cms.kraken.com/images/51n36hrp/facade/3efee8c6922bcb38b4dbf72d867b5591a15c643f-20x20.svg",
+            "https://assets-cms.kraken.com/images/51n36hrp/facade/41e15548d31eff8ffb61f84467307a77e2bd8b9b-20x20.svg",
+            "https://assets-cms.kraken.com/images/51n36hrp/facade/4433ce73049f6f319322813c42dc6e97f297b79f-48x48.svg",
+            "https://assets-cms.kraken.com/images/51n36hrp/facade/512fa12dd22d3bbd8b373e07503f3bf4868ebac6-20x20.svg",
+            "https://assets-cms.kraken.com/images/51n36hrp/facade/5798430dcbea5b3537b1c2d0ef22ba8326bfe745-20x20.svg",
+            "https://assets-cms.kraken.com/images/51n36hrp/facade/61fd63a15c71c30a8e1f37fe6ec1328420b4797c-48x48.svg",
+            "https://assets-cms.kraken.com/images/51n36hrp/facade/67144f0793c15e53893e195cdedeab7dacbbc5ff-20x20.svg",
+            "https://assets-cms.kraken.com/images/51n36hrp/facade/701b074d4d7ea2774767e9a35d2d5dff33bb037c-20x20.svg",
+            "https://assets-cms.kraken.com/images/51n36hrp/facade/7d9ae59840c09343743d60284ed7984cef199d6b-20x20.svg",
+            "https://assets-cms.kraken.com/images/51n36hrp/facade/822efabb97779356165f98dffbff2d02c78d4173-48x48.svg",
+            "https://assets-cms.kraken.com/images/51n36hrp/facade/8b889c6a202422589f08d7997b0117972710e974-20x20.svg",
+            "https://assets-cms.kraken.com/images/51n36hrp/facade/911ec4d54e25788e8f9d475f7ae084b296ed0ea0-20x20.svg",
+            "https://assets-cms.kraken.com/images/51n36hrp/facade/9b6fa857ddccff256a687d5d3a6a4e221bb4083f-20x20.svg",
+            "https://assets-cms.kraken.com/images/51n36hrp/facade/a572ad06f871852588101869df0ca744a7d747c6-48x48.svg",
+            "https://assets-cms.kraken.com/images/51n36hrp/facade/a7374143bef27d5d93b26533d65898eaa646a715-20x20.svg",
+            "https://assets-cms.kraken.com/images/51n36hrp/facade/aa1f76783d3090a160a4bd42200a231d78089e43-48x48.svg",
+            "https://assets-cms.kraken.com/images/51n36hrp/facade/aa2ba8e1aac714ec4f37833df8cfe8aa68424763-48x48.svg",
+            "https://assets-cms.kraken.com/images/51n36hrp/facade/b2c63ba6c246b153092b0a2e367247c98f033c1e-20x20.svg",
+            "https://assets-cms.kraken.com/images/51n36hrp/facade/b2e1572d802880c8ab76d668539aec1728116dcd-20x20.svg",
+            "https://assets-cms.kraken.com/images/51n36hrp/facade/c70203750df342ba02e1438ea323d5c0e570bc95-20x20.svg",
+            "https://assets-cms.kraken.com/images/51n36hrp/facade/c7bf40846b5d9a3f7347127884033cd0146c8e4f-20x20.svg",
+            "https://assets-cms.kraken.com/images/51n36hrp/facade/e61ad16a54504ecddb4a4f2cac07d94bd31fd359-20x20.svg",
+            "https://assets-cms.kraken.com/images/51n36hrp/facade/e701230aadd8e39929ff1174579ca57d78cd4450-20x20.svg",
+            "https://assets-cms.kraken.com/images/51n36hrp/facade/ed37dd52907ccc42514d6e30655e32b87df7b482-20x20.svg",
+            "https://assets-cms.kraken.com/images/51n36hrp/facade/ee33fe824ee87d78bd9d57c5bc72c3c973f717bb-48x48.svg"
+        ],
+        "assets.kraken.com": [
+            "https://assets.kraken.com/marketing/web/icons/sym-ada_colored.svg",
+            "https://assets.kraken.com/marketing/web/icons/sym-avax_colored.svg",
+            "https://assets.kraken.com/marketing/web/icons/sym-bonk_colored.svg",
+            "https://assets.kraken.com/marketing/web/icons/sym-btc_colored.svg",
+            "https://assets.kraken.com/marketing/web/icons/sym-cad_colored.svg",
+            "https://assets.kraken.com/marketing/web/icons/sym-chz_colored.svg",
+            "https://assets.kraken.com/marketing/web/icons/sym-doge_colored.svg",
+            "https://assets.kraken.com/marketing/web/icons/sym-ens_colored.svg",
+            "https://assets.kraken.com/marketing/web/icons/sym-eth_colored.svg",
+            "https://assets.kraken.com/marketing/web/icons/sym-eur_colored.svg",
+            "https://assets.kraken.com/marketing/web/icons/sym-gbp_colored.svg",
+            "https://assets.kraken.com/marketing/web/icons/sym-matic_colored.svg",
+            "https://assets.kraken.com/marketing/web/icons/sym-mxc_colored.svg",
+            "https://assets.kraken.com/marketing/web/icons/sym-nodl_colored.svg",
+            "https://assets.kraken.com/marketing/web/icons/sym-oxy_colored.svg",
+            "https://assets.kraken.com/marketing/web/icons/sym-samo_colored.svg",
+            "https://assets.kraken.com/marketing/web/icons/sym-shib_colored.svg",
+            "https://assets.kraken.com/marketing/web/icons/sym-sol_colored.svg",
+            "https://assets.kraken.com/marketing/web/icons/sym-step_colored.svg",
+            "https://assets.kraken.com/marketing/web/icons/sym-tia_colored.svg",
+            "https://assets.kraken.com/marketing/web/icons/sym-usd_colored.svg",
+            "https://assets.kraken.com/marketing/web/icons/sym-usdc_colored.svg",
+            "https://assets.kraken.com/marketing/web/icons/sym-usdt_colored.svg",
+            "https://assets.kraken.com/marketing/web/icons/sym-wif_colored.svg",
+            "https://assets.kraken.com/marketing/web/icons/sym-xrp_colored.svg"
+        ],
+        "www.kraken.com": [
+            "https://www.kraken.com/_assets/images/generic-article-0.png"
+        ]
+    }
+}
