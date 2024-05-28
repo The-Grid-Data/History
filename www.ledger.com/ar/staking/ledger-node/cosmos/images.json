@@ -1,0 +1,35 @@
+{
+    "target_url": "https://www.ledger.com/ar/staking/ledger-node/cosmos",
+    "domains": {
+        "ledger-wp-website-s3-prd.ledger.com": [
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/05/ethereum.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/05/tron.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/12/picto-tezos.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2020/08/algorand.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2020/10/Polkadot.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/05/Vector.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/06/COSMOS_LNX.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/08/OSMO.png"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/tr?id=237213137153741&ev=PageView&noscript=1"
+        ],
+        "www.ledger.com": [
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/staking/how-works.png",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/staking/proof-of-stake.png",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/staking/rewards.png",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/staking/school-of-blocks.png",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/staking/staking-faq.png",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/staking/what-is-staking.png",
+            "https://www.ledger.com/wp-content/uploads/2021/11/layer1.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-bitpay-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-cb-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-crypto-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-maestro-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-mastercard-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-paypal-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-visa-s.png?v=2"
+        ]
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "target_url": "https://www.ledger.com/ar/ripple-xrp",
+    "domains": {
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=23088bf6-8a0d-426a-a98d-027c4d557238&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=2d3d49de-2c17-4c7d-b693-d8a9c478673f&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Far%2Fripple-xrp&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "bat.bing.com": [
+            "https://bat.bing.com/action/0?ti=134633242&tm=gtm002&Ver=2&mid=3b0f7a1e-d567-4257-9dfb-897e1d7add09&sid=78ba55c01cfd11efb1f16f90c3714c5a&vid=78ba4ec01cfd11efb25c5759ec2c53ae&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&tl=%D8%AA%D8%A3%D9%85%D9%8A%D9%86%20%D8%A3%D8%B5%D9%88%D9%84%D9%83%20(XRP)%20%7C%20Ledger&p=https%3A%2F%2Fwww.ledger.com%2Far%2Fripple-xrp&r=&lt=1643&evt=pageLoad&sv=1&rn=20439"
+        ],
+        "cdn.cookielaw.org": [
+            "https://cdn.cookielaw.org/logos/df21fb3f-71b8-491b-89ee-eb777bcaf866/637ca236-af9d-4a40-815f-1b6a15af499d/ea9d9f41-35f0-4c24-9a83-1ef746863067/White_64.png",
+            "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg"
+        ],
+        "ledger-wp-website-s3-prd.ledger.com": [
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/05/binancecoin.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/05/neo.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/05/xrp-plain.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/06/bat.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/06/bitcoin-cash.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/06/ledger-live-logo.jpg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2020/10/Polkadot.svg"
+        ],
+        "sp.analytics.yahoo.com": [
+            "https://sp.analytics.yahoo.com/sp.pl?a=10000&d=Tue%2C%2028%20May%202024%2014%3A20%3A45%20GMT&n=0&b=%D8%AA%D8%A3%D9%85%D9%8A%D9%86%20%D8%A3%D8%B5%D9%88%D9%84%D9%83%20(XRP)%20%7C%20Ledger&.yp=10159916&f=https%3A%2F%2Fwww.ledger.com%2Far%2Fripple-xrp&enc=UTF-8&yv=1.15.1&tagmgr=gtm"
+        ],
+        "t.co": [
+            "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=23088bf6-8a0d-426a-a98d-027c4d557238&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=2d3d49de-2c17-4c7d-b693-d8a9c478673f&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Far%2Fripple-xrp&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "t.teads.tv": [
+            "https://t.teads.tv/track?action=pageView&env=js-gtm&tag_version=6.17.6_ee47857&provider=tag&buyer_pixel_id=6887&referer=https%3A%2F%2Fwww.ledger.com%2Far%2Fripple-xrp&user_session_id=3f98b0b6-78ff-4790-8d72-bd3a8e3011c9"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/tr?id=237213137153741&ev=PageView&noscript=1"
+        ],
+        "www.ledger.com": [
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/crypto-page/crypto-page-illu.png",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/crypto-page/nano-s.png",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/crypto-page/nano-x.png",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg",
+            "https://www.ledger.com/wp-content/uploads/2021/11/layer1.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-bitpay-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-cb-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-crypto-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-maestro-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-mastercard-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-paypal-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-visa-s.png?v=2"
+        ]
+    }
+}

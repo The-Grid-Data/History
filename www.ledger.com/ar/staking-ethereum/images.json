@@ -1,0 +1,51 @@
+{
+    "target_url": "https://www.ledger.com/ar/staking-ethereum",
+    "domains": {
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=f925d96e-2f8b-4203-8cf6-932c7159df73&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=219c520e-f797-4ae1-bc95-1293a10b1b2e&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Far%2Fstaking%2Fstaking-ethereum&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "bat.bing.com": [
+            "https://bat.bing.com/action/0?ti=134633242&tm=gtm002&Ver=2&mid=c1bb64c7-aae9-43a0-9d8d-82b2c67ac295&sid=78f898701cfd11efbdb121ee715607e2&vid=78f886201cfd11efacf30da5525cac6d&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&tl=%D8%A7%D9%84%D8%AA%D9%83%D8%AF%D9%8A%D8%B3%20%D8%A8%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85%20%D8%A5%D9%8A%D8%AB%D8%B1%D9%8A%D9%88%D9%85%20(ETH)%20-%20%D8%A7%D8%B1%D8%A8%D8%AD%20%D8%A7%D9%84%D9%85%D8%A7%D9%84%20%D8%A8%D9%8A%D9%86%D9%85%D8%A7%20%D8%AA%D8%AD%D8%AA%D9%81%D8%B8%20%D8%A8%D8%A7%D9%84%D8%A3%D8%B5%D9%88%D9%84%20%D8%A7%D9%84%D9%85%D8%B4%D9%81%D8%B1%D8%A9%20%7C%20Ledger&p=https%3A%2F%2Fwww.ledger.com%2Far%2Fstaking%2Fstaking-ethereum&r=&lt=1947&evt=pageLoad&sv=1&rn=752729"
+        ],
+        "cdn.cookielaw.org": [
+            "https://cdn.cookielaw.org/logos/df21fb3f-71b8-491b-89ee-eb777bcaf866/637ca236-af9d-4a40-815f-1b6a15af499d/ea9d9f41-35f0-4c24-9a83-1ef746863067/White_64.png",
+            "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg"
+        ],
+        "ledger-wp-website-s3-prd.ledger.com": [
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/05/cosmos.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/05/tron.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/12/picto-tezos.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2020/08/algorand.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2020/10/Polkadot.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/09/Mockup-1.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/05/Vector.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/08/OSMO.png"
+        ],
+        "t.co": [
+            "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=f925d96e-2f8b-4203-8cf6-932c7159df73&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=219c520e-f797-4ae1-bc95-1293a10b1b2e&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Far%2Fstaking%2Fstaking-ethereum&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "t.teads.tv": [
+            "https://t.teads.tv/track?action=pageView&env=js-gtm&tag_version=6.17.6_ee47857&provider=tag&buyer_pixel_id=6887&referer=https%3A%2F%2Fwww.ledger.com%2Far%2Fstaking%2Fstaking-ethereum&user_session_id=0b2f00df-5db4-4d28-b9db-1c0e4c424f73"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/tr?id=237213137153741&ev=PageView&noscript=1"
+        ],
+        "www.ledger.com": [
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/staking/how-works.png",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/staking/proof-of-stake.png",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/staking/rewards.png",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/staking/school-of-blocks.png",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/staking/staking-faq.png",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/staking/what-is-staking.png",
+            "https://www.ledger.com/wp-content/uploads/2021/11/layer1.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-bitpay-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-cb-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-crypto-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-maestro-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-mastercard-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-paypal-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-visa-s.png?v=2"
+        ]
+    }
+}

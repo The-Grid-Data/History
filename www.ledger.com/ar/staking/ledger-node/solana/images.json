@@ -1,0 +1,54 @@
+{
+    "target_url": "https://www.ledger.com/ar/staking/ledger-node/solana",
+    "domains": {
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=27a6970d-244b-4d94-805b-bcafc87de3dd&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=bb540903-7ad9-4f53-96a2-534127bd71bc&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Far%2Fstaking%2F%25D8%25AA%25D9%2583%25D8%25AF%25D9%258A%25D8%25B3-solana&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "bat.bing.com": [
+            "https://bat.bing.com/action/0?ti=134633242&tm=gtm002&Ver=2&mid=7b7c3a13-fd8a-406d-b3b9-899f53c4a6b1&sid=798d34101cfd11ef96ca530f2da76005&vid=798d4ef01cfd11ef9e8bd968beb9ac4a&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&tl=%D8%A7%D9%84%D8%AA%D9%83%D8%AF%D9%8A%D8%B3%20%D8%B9%D9%86%20%D8%B7%D8%B1%D9%8A%D9%82%20Solana%20(SOL)%20-%20%D8%A7%D9%83%D8%B3%D8%A8%20%D8%A7%D9%84%D9%86%D9%82%D9%88%D8%AF%20%D8%A8%D9%8A%D9%86%D9%85%D8%A7%20%D8%AA%D8%AD%D8%AA%D9%81%D8%B8%20%D8%A8%D8%A7%D9%84%D8%A3%D8%B5%D9%88%D9%84%20%D8%A7%D9%84%D9%85%D8%B4%D9%81%D8%B1%D8%A9%20%7C%20Ledger&p=https%3A%2F%2Fwww.ledger.com%2Far%2Fstaking%2F%25D8%25AA%25D9%2583%25D8%25AF%25D9%258A%25D8%25B3-solana&r=&lt=3024&evt=pageLoad&sv=1&rn=681204"
+        ],
+        "cdn.cookielaw.org": [
+            "https://cdn.cookielaw.org/logos/df21fb3f-71b8-491b-89ee-eb777bcaf866/637ca236-af9d-4a40-815f-1b6a15af499d/ea9d9f41-35f0-4c24-9a83-1ef746863067/White_64.png",
+            "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg"
+        ],
+        "ledger-wp-website-s3-prd.ledger.com": [
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/05/cosmos.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/05/ethereum.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/05/tron.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2019/12/picto-tezos.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2020/08/algorand.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2020/10/Polkadot.svg",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/05/Tezos_LNX-4.png",
+            "https://ledger-wp-website-s3-prd.ledger.com/uploads/2022/08/OSMO.png"
+        ],
+        "sp.analytics.yahoo.com": [
+            "https://sp.analytics.yahoo.com/sp.pl?a=10000&d=Tue%2C%2028%20May%202024%2014%3A20%3A46%20GMT&n=0&b=%D8%A7%D9%84%D8%AA%D9%83%D8%AF%D9%8A%D8%B3%20%D8%B9%D9%86%20%D8%B7%D8%B1%D9%8A%D9%82%20Solana%20(SOL)%20-%20%D8%A7%D9%83%D8%B3%D8%A8%20%D8%A7%D9%84%D9%86%D9%82%D9%88%D8%AF%20%D8%A8%D9%8A%D9%86%D9%85%D8%A7%20%D8%AA%D8%AD%D8%AA%D9%81%D8%B8%20%D8%A8%D8%A7%D9%84%D8%A3%D8%B5%D9%88%D9%84%20%D8%A7%D9%84%D9%85%D8%B4%D9%81%D8%B1%D8%A9%20%7C%20Ledger&.yp=10159916&f=https%3A%2F%2Fwww.ledger.com%2Far%2Fstaking%2F%25D8%25AA%25D9%2583%25D8%25AF%25D9%258A%25D8%25B3-solana&enc=UTF-8&yv=1.15.1&tagmgr=gtm"
+        ],
+        "t.co": [
+            "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=27a6970d-244b-4d94-805b-bcafc87de3dd&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=bb540903-7ad9-4f53-96a2-534127bd71bc&tw_document_href=https%3A%2F%2Fwww.ledger.com%2Far%2Fstaking%2F%25D8%25AA%25D9%2583%25D8%25AF%25D9%258A%25D8%25B3-solana&tw_iframe_status=0&txn_id=nzkax&type=javascript&version=2.3.30"
+        ],
+        "t.teads.tv": [
+            "https://t.teads.tv/track?action=pageView&env=js-gtm&tag_version=6.17.6_ee47857&provider=tag&buyer_pixel_id=6887&referer=https%3A%2F%2Fwww.ledger.com%2Far%2Fstaking%2F%25D8%25AA%25D9%2583%25D8%25AF%25D9%258A%25D8%25B3-solana&user_session_id=5fda53bd-e4bc-4e4c-b752-1d9cf4170ce3"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/tr?id=237213137153741&ev=PageView&noscript=1"
+        ],
+        "www.ledger.com": [
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/ledger-logo-long.svg",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/staking/how-works.png",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/staking/proof-of-stake.png",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/staking/rewards.png",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/staking/school-of-blocks.png",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/staking/staking-faq.png",
+            "https://www.ledger.com/wp-content/themes/ledger-v2/public/images/staking/what-is-staking.png",
+            "https://www.ledger.com/wp-content/uploads/2021/11/layer1.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-bitpay-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-cb-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-crypto-s.png?v=6",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-maestro-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-mastercard-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-paypal-s.png?v=2",
+            "https://www.ledger.com/wp-content/uploads/2021/11/logo-visa-s.png?v=2"
+        ]
+    }
+}
