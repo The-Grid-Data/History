@@ -510,7 +510,11 @@ No packages published
 
 ##  [ Contributors 5 ](/SharkyFi/client/graphs/contributors)
 
-  *   *   *   *   * 
+  * [ ![@phoenixeliot](https://avatars.githubusercontent.com/u/491376?s=64&v=4) ](https://github.com/phoenixeliot)
+  * [ ![@Restuta](https://avatars.githubusercontent.com/u/377261?s=64&v=4) ](https://github.com/Restuta)
+  * [ ![@bowtiedpyro](https://avatars.githubusercontent.com/u/101187520?s=64&v=4) ](https://github.com/bowtiedpyro)
+  * [ ![@akkoucai](https://avatars.githubusercontent.com/u/77622018?s=64&v=4) ](https://github.com/akkoucai)
+  * [ ![@cotemper](https://avatars.githubusercontent.com/u/92621583?s=64&v=4) ](https://github.com/cotemper)
 
 ## Footer
 
