@@ -1,0 +1,31 @@
+{
+    "target_url": "https://www.ledger.com/bounty-program",
+    "domains": {
+        "blockpath.com": [
+            "https://blockpath.com/search/addr?q=zpub6reAqYxz5rB2ydBuj4mxmusUqiSu7TqkzATtE4DaYhTUuPzWmgTorTrPYygJa8A4aq1hSERQmwZT2KVH9Mc7Nn8amcPmTsqQgzkEBvjwDym"
+        ],
+        "github.com": [
+            "https://github.com/ledger-donjon"
+        ],
+        "hackerone.com": [
+            "https://hackerone.com/dropbox"
+        ],
+        "www.hackerone.com": [
+            "https://www.hackerone.com/policies/code-of-conduct"
+        ],
+        "www.ledger.com": [
+            "https://www.ledger.com/",
+            "https://www.ledger.com/about",
+            "https://www.ledger.com/assets/ledger-bounty.asc",
+            "https://www.ledger.com/blog/category/donjon",
+            "https://www.ledger.com/bounty",
+            "https://www.ledger.com/contact",
+            "https://www.ledger.com/hall-of-fame/",
+            "https://www.ledger.com/lsb",
+            "https://www.ledger.com/threat-model"
+        ],
+        "www.twitter.com": [
+            "https://www.twitter.com/donjonledger"
+        ]
+    }
+}
