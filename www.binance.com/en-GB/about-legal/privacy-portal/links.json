@@ -1,0 +1,62 @@
+{
+    "target_url": "https://www.binance.com/en-GB/about-legal/privacy-portal",
+    "domains": {
+        "accounts.binance.com": [
+            "https://accounts.binance.com/en-GB/login?loginChannel=&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4tR0IvYWJvdXQtbGVnYWwvcHJpdmFjeS1wb3J0YWw%3D",
+            "https://accounts.binance.com/en-GB/register?registerChannel=&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4tR0IvYWJvdXQtbGVnYWwvcHJpdmFjeS1wb3J0YWw%3D"
+        ],
+        "launchpad.binance.com": [
+            "https://launchpad.binance.com/en-GB"
+        ],
+        "p2p.binance.com": [
+            "https://p2p.binance.com/en-GB/trade/all-payments/USDT?fiat=GBP"
+        ],
+        "privacyportal-bn.my.onetrust.com": [
+            "https://privacyportal-bn.my.onetrust.com/webform/99f99939-5a0d-4feb-aef3-ba45f16b6907/207567de-2c3f-440e-8e36-adcae06ed0e5"
+        ],
+        "www.binance.com": [
+            "https://www.binance.com/en-GB/",
+            "https://www.binance.com/en-GB/about",
+            "https://www.binance.com/en-GB/about#email",
+            "https://www.binance.com/en-GB/about-legal/privacy-portal",
+            "https://www.binance.com/en-GB/auto-invest/",
+            "https://www.binance.com/en-GB/careers",
+            "https://www.binance.com/en-GB/chat",
+            "https://www.binance.com/en-GB/chat?sourceEntry=4",
+            "https://www.binance.com/en-GB/convert",
+            "https://www.binance.com/en-GB/convert/GBP/BTC",
+            "https://www.binance.com/en-GB/crypto",
+            "https://www.binance.com/en-GB/crypto/buy/GBP/BTC",
+            "https://www.binance.com/en-GB/earn",
+            "https://www.binance.com/en-GB/fan-token",
+            "https://www.binance.com/en-GB/fee/schedule",
+            "https://www.binance.com/en-GB/fee/trading",
+            "https://www.binance.com/en-GB/legal/licenses",
+            "https://www.binance.com/en-GB/legal/risk-warning",
+            "https://www.binance.com/en-GB/markets/overview",
+            "https://www.binance.com/en-GB/markets/spot_margin-FIAT",
+            "https://www.binance.com/en-GB/nft/home",
+            "https://www.binance.com/en-GB/press",
+            "https://www.binance.com/en-GB/support",
+            "https://www.binance.com/en-GB/support/law-enforcement",
+            "https://www.binance.com/en-GB/terms",
+            "https://www.binance.com/en-GB/trade-rule",
+            "https://www.binance.com/en-GB/trade?type=cross",
+            "https://www.binance.com/en-GB/trading-bots",
+            "https://www.binance.com/en-NZ/chat?sourceEntry=4",
+            "https://www.binance.com/en/blog/ecosystem/binance-receives-coveted-security-and-privacy-certifications-3367416538721239104",
+            "https://www.binance.com/en/chat",
+            "https://www.binance.com/en/cookie-privacy",
+            "https://www.binance.com/en/event/user_protection",
+            "https://www.binance.com/en/my/security/account-activity",
+            "https://www.binance.com/en/privacy",
+            "https://www.binance.com/en/support/chat-invitation",
+            "https://www.binance.com/en/support/faq/how-to-delete-my-binance-account-f02c2640a1cd44e58de68e4a49d599f6",
+            "https://www.binance.com/en/support/faq/how-to-use-binance-account-statements-e12bc83ec9ba4e96a076d2b4a4419182",
+            "https://www.binance.com/en/support/law-enforcement"
+        ],
+        "x.com": [
+            "https://x.com/binanceuk"
+        ]
+    }
+}
