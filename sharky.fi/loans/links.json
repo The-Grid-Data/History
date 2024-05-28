@@ -1,0 +1,27 @@
+{
+    "target_url": "https://sharky.fi/loans",
+    "domains": {
+        "": [
+            "mailto:support@sharky.fi"
+        ],
+        "discord.gg": [
+            "https://discord.gg/sharkyfi"
+        ],
+        "sharky-backend.herokuapp.com": [
+            "https://sharky-backend.herokuapp.com/my-loans-csv?network=mainnet&deployEnvironment=production&borrower=undefined"
+        ],
+        "sharky.fi": [
+            "https://sharky.fi/",
+            "https://sharky.fi/borrow",
+            "https://sharky.fi/lend",
+            "https://sharky.fi/loans",
+            "https://sharky.fi/offers"
+        ],
+        "tensor.trade": [
+            "https://tensor.trade/trade/sharx"
+        ],
+        "twitter.com": [
+            "https://twitter.com/sharkyfi"
+        ]
+    }
+}

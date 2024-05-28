@@ -1,0 +1,14 @@
+{
+    "target_url": "https://sharky.fi/lend",
+    "domains": {
+        "": [
+            "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ],
+        "sharky.fi": [
+            "https://sharky.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdiscord.8c43e144.png&w=3840&q=75",
+            "https://sharky.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftensor.53fc94fe.png&w=3840&q=75",
+            "https://sharky.fi/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftwitter.6acebacd.png&w=3840&q=75",
+            "https://sharky.fi/sharky.svg"
+        ]
+    }
+}

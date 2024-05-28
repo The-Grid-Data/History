@@ -1,0 +1,24 @@
+{
+    "target_url": "https://sharky.fi/lend",
+    "domains": {
+        "": [
+            "mailto:support@sharky.fi"
+        ],
+        "discord.gg": [
+            "https://discord.gg/sharkyfi"
+        ],
+        "sharky.fi": [
+            "https://sharky.fi/",
+            "https://sharky.fi/borrow",
+            "https://sharky.fi/lend",
+            "https://sharky.fi/loans",
+            "https://sharky.fi/offers"
+        ],
+        "tensor.trade": [
+            "https://tensor.trade/trade/sharx"
+        ],
+        "twitter.com": [
+            "https://twitter.com/sharkyfi"
+        ]
+    }
+}
