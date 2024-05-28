@@ -1,0 +1,126 @@
+{
+    "target_url": "https://solana.com/ru/docs/advanced/retry",
+    "domains": {
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "docs.rs": [
+            "https://docs.rs/solana-client/latest/solana_client/tpu_client/index.html"
+        ],
+        "en.wikipedia.org": [
+            "https://en.wikipedia.org/wiki/Exponential_backoff",
+            "https://en.wikipedia.org/wiki/Packet_loss",
+            "https://en.wikipedia.org/wiki/User_Datagram_Protocol"
+        ],
+        "github.com": [
+            "https://github.com/blockworks-foundation/mango-ui/blob/b6abfc6c13b71fc17ebbe766f50b8215fa1ec54f/src/utils/send.tsx#L713",
+            "https://github.com/solana-foundation/developer-content/tree/main/docs/advanced/retry.md",
+            "https://github.com/solana-labs/solana/blob/98707baec2385a4f7114d2167ef6dfb1406f954f/validator/src/main.rs#L1258-L1274",
+            "https://github.com/solana-labs/solana/blob/bfbbc53dac93b3a5c6be9b4b65f679fdb13e41d9/send-transaction-service/src/send_transaction_service.rs#L20",
+            "https://github.com/solana-labs/solana/blob/bfbbc53dac93b3a5c6be9b4b65f679fdb13e41d9/validator/src/main.rs#L1172",
+            "https://github.com/solana-labs/solana/blob/cd6f931223181d5a1d47cba64e857785a175a760/core/src/banking_stage.rs#L249",
+            "https://github.com/solana-labs/solana/blob/cd6f931223181d5a1d47cba64e857785a175a760/core/src/fetch_stage.rs#L21",
+            "https://github.com/solana-labs/solana/blob/cd6f931223181d5a1d47cba64e857785a175a760/core/src/tpu.rs#L136",
+            "https://github.com/solana-labs/solana/blob/cd6f931223181d5a1d47cba64e857785a175a760/core/src/tpu.rs#L91",
+            "https://github.com/solana-labs/solana/blob/cd6f931223181d5a1d47cba64e857785a175a760/core/src/validator.rs#L867",
+            "https://github.com/solana-labs/solana/blob/cd6f931223181d5a1d47cba64e857785a175a760/gossip/src/contact_info.rs#L27",
+            "https://github.com/solana-labs/solana/blob/cd6f931223181d5a1d47cba64e857785a175a760/gossip/src/contact_info.rs#L29",
+            "https://github.com/solana-labs/solana/blob/cd6f931223181d5a1d47cba64e857785a175a760/gossip/src/contact_info.rs#L31",
+            "https://github.com/solana-labs/solana/blob/cd6f931223181d5a1d47cba64e857785a175a760/poh/src/poh_service.rs",
+            "https://github.com/solana-labs/solana/blob/master/core/src/banking_stage.rs#L389"
+        ],
+        "jito-labs.medium.com": [
+            "https://jito-labs.medium.com/solana-validator-101-transaction-processing-90bcdc271143"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "solana.com": [
+            "https://solana.com/discord",
+            "https://solana.com/github",
+            "https://solana.com/reddit",
+            "https://solana.com/ru",
+            "https://solana.com/ru/branding",
+            "https://solana.com/ru/developers/cookbook",
+            "https://solana.com/ru/developers/guides",
+            "https://solana.com/ru/docs",
+            "https://solana.com/ru/docs/advanced/confirmation",
+            "https://solana.com/ru/docs/advanced/lookup-tables",
+            "https://solana.com/ru/docs/advanced/retry",
+            "https://solana.com/ru/docs/advanced/retry#after-a-transaction-is-processed-and-before-it-is-finalized",
+            "https://solana.com/ru/docs/advanced/retry#an-in-depth-look-at-sendtransaction",
+            "https://solana.com/ru/docs/advanced/retry#before-a-transaction-is-processed",
+            "https://solana.com/ru/docs/advanced/retry#customizing-rebroadcast-logic",
+            "https://solana.com/ru/docs/advanced/retry#handling-dropped-transactions",
+            "https://solana.com/ru/docs/advanced/retry#how-clients-submit-transactions",
+            "https://solana.com/ru/docs/advanced/retry#how-rpc-nodes-broadcast-transactions",
+            "https://solana.com/ru/docs/advanced/retry#how-transactions-get-dropped",
+            "https://solana.com/ru/docs/advanced/retry#request-parameters",
+            "https://solana.com/ru/docs/advanced/retry#retrying-transactions",
+            "https://solana.com/ru/docs/advanced/retry#the-cost-of-skipping-preflight",
+            "https://solana.com/ru/docs/advanced/retry#the-journey-of-a-transaction",
+            "https://solana.com/ru/docs/advanced/retry#tldr",
+            "https://solana.com/ru/docs/advanced/retry#when-to-re-sign-transactions",
+            "https://solana.com/ru/docs/advanced/state-compression",
+            "https://solana.com/ru/docs/advanced/versions",
+            "https://solana.com/ru/docs/clients/javascript",
+            "https://solana.com/ru/docs/clients/javascript-reference",
+            "https://solana.com/ru/docs/clients/rust",
+            "https://solana.com/ru/docs/core/accounts",
+            "https://solana.com/ru/docs/core/clusters",
+            "https://solana.com/ru/docs/core/cpi",
+            "https://solana.com/ru/docs/core/fees",
+            "https://solana.com/ru/docs/core/pda",
+            "https://solana.com/ru/docs/core/programs",
+            "https://solana.com/ru/docs/core/tokens",
+            "https://solana.com/ru/docs/core/transactions",
+            "https://solana.com/ru/docs/core/transactions#recent-blockhash",
+            "https://solana.com/ru/docs/economics",
+            "https://solana.com/ru/docs/economics/inflation/inflation-schedule",
+            "https://solana.com/ru/docs/economics/inflation/terminology",
+            "https://solana.com/ru/docs/economics/staking",
+            "https://solana.com/ru/docs/economics/staking/stake-accounts",
+            "https://solana.com/ru/docs/economics/staking/stake-programming",
+            "https://solana.com/ru/docs/intro/dev",
+            "https://solana.com/ru/docs/intro/overview",
+            "https://solana.com/ru/docs/intro/wallets",
+            "https://solana.com/ru/docs/more/exchange",
+            "https://solana.com/ru/docs/programs/debugging",
+            "https://solana.com/ru/docs/programs/deploying",
+            "https://solana.com/ru/docs/programs/examples",
+            "https://solana.com/ru/docs/programs/faq",
+            "https://solana.com/ru/docs/programs/lang-c",
+            "https://solana.com/ru/docs/programs/lang-rust",
+            "https://solana.com/ru/docs/programs/limitations",
+            "https://solana.com/ru/docs/programs/overview",
+            "https://solana.com/ru/docs/rpc",
+            "https://solana.com/ru/docs/rpc#configuring-state-commitment",
+            "https://solana.com/ru/docs/rpc/http/getblockheight",
+            "https://solana.com/ru/docs/rpc/http/getepochinfo",
+            "https://solana.com/ru/docs/rpc/http/getlatestblockhash",
+            "https://solana.com/ru/docs/rpc/http/getsignaturestatuses",
+            "https://solana.com/ru/docs/rpc/http/sendtransaction",
+            "https://solana.com/ru/docs/terminology",
+            "https://solana.com/ru/docs/terminology#epoch",
+            "https://solana.com/ru/docs/terminology#leader",
+            "https://solana.com/ru/ecosystem",
+            "https://solana.com/ru/news",
+            "https://solana.com/ru/newsletter",
+            "https://solana.com/ru/privacy-policy",
+            "https://solana.com/ru/privacy-policy#collection-of-information",
+            "https://solana.com/ru/tos",
+            "https://solana.com/telegram",
+            "https://solana.com/twitter",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ],
+        "solanacookbook.com": [
+            "https://solanacookbook.com/guides/get-program-accounts.html"
+        ],
+        "www.mango.markets": [
+            "https://www.mango.markets/"
+        ]
+    }
+}
