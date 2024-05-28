@@ -1,0 +1,400 @@
+Build the future of Web3 with us. Check out our open positions today!
+
+[![Luganodes
+Logo](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQ0IiBoZWlnaHQ9IjQzIiB2aWV3Qm94PSIwIDAgMjQ0IDQzIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMjAuNTA0OSAzMi4zMTI1SDIwLjc2NDlMMjAuNzc1NiAzMi4wNDg3TDIxLjc2MjQgNy43NzI1MkwzNC4xNjIxIDIxLjAxMTZMMjYuNjA5IDMxLjg3ODdMMjYuMzA3NSAzMi4zMTI1SDI2LjgzMDRINDIuMDkyOUg0Mi4zNjQ4TDQyLjM2MzggMzIuMDM2M0w0Mi4zMTY3IDE5LjQ3NTdMNTEuNjQ4OCAzMi4yMDE3TDUxLjczIDMyLjMxMjVINTEuODY2SDU1LjcxMDVINTYuMjVMNTUuOTI3NyAzMS44NzNMNDEuMTAwNSAxMS42NTIxTDQwLjg3NzMgMTEuMzQ3OUw0MC42NjIgMTEuNjU3OEwzNi4yOTEyIDE3Ljk0N0wyMC40ODE2IDEuMDY0NDJMMjAuMjQ1NyAwLjgxMjVMMjAuMDU4NiAxLjEwMzY0TDAuMjczNTQxIDMxLjg4NjlMMCAzMi4zMTI1SDAuNTAwMzM2SDIwLjUwNDlaIiBmaWxsPSIjQkUxRTJFIi8+CjxwYXRoIGQ9Ik02OS45Njc2IDMyLjI1VjcuNDgzMTJINzQuOTkwM1YyOC4wNTg3SDg2LjYyOVYzMi4yNUg2OS45Njc2Wk0xMDQuNTI3IDMyLjI1SDk5Ljk4OTZWMzAuMTcxN0g5OS44ODU3Qzk5LjIzOTEgMzEuMDQ5MiA5OC41MjMzIDMxLjY5NTggOTcuNzM4MSAzMi4xMTE0Qzk2Ljk3NiAzMi41MjcxIDk1Ljk5NDYgMzIuNzM0OSA5NC43OTM4IDMyLjczNDlDOTIuODU0IDMyLjczNDkgOTEuMzQxNCAzMi4xNTc2IDkwLjI1NjEgMzEuMDAzQzg5LjE3MDcgMjkuODQ4NCA4OC42MjggMjguMjg5NiA4OC42MjggMjYuMzI2N1YxNC40ODAySDkzLjMwNDNWMjUuNTNDOTMuMzA0MyAyNy42Nzc3IDk0LjI4NTcgMjguNzUxNSA5Ni4yNDg2IDI4Ljc1MTVDOTcuMzM0IDI4Ljc1MTUgOTguMiAyOC4zODIgOTguODQ2NSAyNy42NDNDOTkuNDkzMSAyNi45MDQgOTkuODE2NCAyNS45MzQyIDk5LjgxNjQgMjQuNzMzM1YxNC40ODAySDEwNC41MjdWMzIuMjVaTTExNS40MDMgMzguMzExOEMxMTMuMDAxIDM4LjMxMTggMTExLjA3MyAzNy44MjY5IDEwOS42MTggMzYuODU3QzEwOC4xODYgMzUuODg3MSAxMDcuMzQ0IDM0LjUyNDYgMTA3LjA5IDMyLjc2OTZIMTExLjc2NkMxMTIuMjI4IDM0LjA4NTkgMTEzLjQxNyAzNC43NDQgMTE1LjMzNCAzNC43NDRDMTE3Ljk2NiAzNC43NDQgMTE5LjI4MiAzMy41MDg2IDExOS4yODIgMzEuMDM3NlYyOS4wOTc5SDExOS4xNzlDMTE3Ljk1NSAzMC40ODM0IDExNi40MDcgMzEuMTc2MiAxMTQuNTM3IDMxLjE3NjJDMTEyLjQzNSAzMS4xNzYyIDExMC42IDMwLjQwMjYgMTA5LjAyOSAyOC44NTU0QzEwNy40ODIgMjcuMzA4MiAxMDYuNzA5IDI1LjI1MjkgMTA2LjcwOSAyMi42ODk2QzEwNi43MDkgMjAuMDU3MSAxMDcuNDI0IDE3Ljk1NTYgMTA4Ljg1NiAxNi4zODUzQzExMC4yODggMTQuNzkxOSAxMTIuMTM1IDEzLjk5NTMgMTE0LjM5OCAxMy45OTUzQzExNi41NDYgMTMuOTk1MyAxMTguMTg2IDE0Ljc4MDQgMTE5LjMxNyAxNi4zNTA3SDExOS4zODZWMTQuNDgwMkgxMjMuOTI0VjMwLjg5OTFDMTIzLjkyNCAzMy4yMDgzIDEyMy4yMiAzNS4wMDk2IDEyMS44MTEgMzYuMzAyOEMxMjAuMzc5IDM3LjY0MjEgMTE4LjI0MyAzOC4zMTE4IDExNS40MDMgMzguMzExOFpNMTE1LjMzNCAyNy40MDA1QzExNi43NDIgMjcuNDAwNSAxMTcuNzkzIDI2Ljk1MDIgMTE4LjQ4NiAyNi4wNDk2QzExOS4xNzkgMjUuMTQ5IDExOS41MjUgMjMuOTk0NCAxMTkuNTI1IDIyLjU4NTdDMTE5LjUyNSAyMS4yMDAyIDExOS4xNTUgMjAuMDU3MSAxMTguNDE2IDE5LjE1NjVDMTE3LjcwMSAxOC4yMzI4IDExNi42NjEgMTcuNzcwOSAxMTUuMjk5IDE3Ljc3MDlDMTE0LjA5OCAxNy43NzA5IDExMy4xMjggMTguMjA5NyAxMTIuMzg5IDE5LjA4NzJDMTExLjY3MyAxOS45NjQ3IDExMS4zMTYgMjEuMTQyNCAxMTEuMzE2IDIyLjYyMDRDMTExLjMxNiAyNC4xMjE0IDExMS42NzMgMjUuMjk5MSAxMTIuMzg5IDI2LjE1MzVDMTEzLjEyOCAyNi45ODQ5IDExNC4xMSAyNy40MDA1IDExNS4zMzQgMjcuNDAwNVpNMTM4LjE0NiAzMi4yNUMxMzcuOTE1IDMxLjk0OTggMTM3LjczIDMxLjI5MTcgMTM3LjU5MiAzMC4yNzU2SDEzNy41MjJDMTM3LjAxNCAzMS4wMzc2IDEzNi4zNjggMzEuNjI2NSAxMzUuNTgzIDMyLjA0MjJDMTM0Ljc5NyAzMi40NTc4IDEzMy43IDMyLjY2NTcgMTMyLjI5MiAzMi42NjU3QzEzMC40MjEgMzIuNjY1NyAxMjguOTIgMzIuMTkyMyAxMjcuNzg5IDMxLjI0NTVDMTI2LjY1NyAzMC4yOTg3IDEyNi4wOTEgMjguOTU5MyAxMjYuMDkxIDI3LjIyNzNDMTI2LjA5MSAyNS40MjYxIDEyNi43MTUgMjQuMTA5OCAxMjcuOTYyIDIzLjI3ODVDMTI5LjIwOSAyMi40MjQxIDEzMC45NjQgMjEuODM1MiAxMzMuMjI3IDIxLjUxMTlDMTM0Ljg5IDIxLjI4MSAxMzYuMDIxIDIxLjA1MDEgMTM2LjYyMiAyMC44MTkxQzEzNy4yMjIgMjAuNTY1MSAxMzcuNTIyIDIwLjEyNjQgMTM3LjUyMiAxOS41MDI5QzEzNy41MjIgMTguODU2MyAxMzcuMjY4IDE4LjM0ODIgMTM2Ljc2IDE3Ljk3ODdDMTM2LjI1MiAxNy41ODYyIDEzNS41MTMgMTcuMzg5OSAxMzQuNTQzIDE3LjM4OTlDMTMyLjM5NiAxNy4zODk5IDEzMS4yNTMgMTguMjIxMiAxMzEuMTE0IDE5Ljg4MzlIMTI2LjkyM0MxMjYuOTkyIDE4LjE5ODEgMTI3LjY3MyAxNi44MDEgMTI4Ljk2NyAxNS42OTI2QzEzMC4yNiAxNC41ODQxIDEzMi4xMyAxNC4wMjk5IDEzNC41NzggMTQuMDI5OUMxMzkuNTY2IDE0LjAyOTkgMTQyLjA2IDE2LjIxMjEgMTQyLjA2IDIwLjU3NjdWMjkuNjE3NEMxNDIuMDYgMzAuOTU2OCAxNDIuMjY4IDMxLjc3NjYgMTQyLjY4NCAzMi4wNzY4VjMyLjI1SDEzOC4xNDZaTTEzMy40MzUgMjkuMzc1QzEzNC43MjggMjkuMzc1IDEzNS43NDQgMjkuMDQwMSAxMzYuNDgzIDI4LjM3MDRDMTM3LjI0NSAyNy43MDA3IDEzNy42MjYgMjYuOTA0IDEzNy42MjYgMjUuOTgwM1YyMy4zMTMxQzEzNy4xMTggMjMuNjEzMyAxMzYuMDIxIDIzLjk1OTcgMTM0LjMzNiAyNC4zNTIzQzEzMi45OTYgMjQuNjUyNSAxMzIuMDQ5IDI0Ljk5ODkgMTMxLjQ5NSAyNS4zOTE1QzEzMC45NDEgMjUuNzYxIDEzMC42NjQgMjYuMzM4MyAxMzAuNjY0IDI3LjEyMzRDMTMwLjY2NCAyOC42MjQ1IDEzMS41ODggMjkuMzc1IDEzMy40MzUgMjkuMzc1Wk0xNDkuNjYyIDE0LjQ4MDJWMTYuOTA0OUgxNDkuNzY2QzE1MC45OSAxNC45NjUxIDE1Mi43NDUgMTMuOTk1MyAxNTUuMDMxIDEzLjk5NTNDMTU2Ljg1NSAxMy45OTUzIDE1OC4zMzMgMTQuNjE4OCAxNTkuNDY1IDE1Ljg2NThDMTYwLjU5NiAxNy4wODk3IDE2MS4xNjIgMTguNjgzMSAxNjEuMTYyIDIwLjY0NTlWMzIuMjVIMTU2LjQ1MVYyMS4zMzg3QzE1Ni40NTEgMjAuMzY4OCAxNTYuMTc0IDE5LjU4MzcgMTU1LjYyIDE4Ljk4MzNDMTU1LjA4OSAxOC4zODI5IDE1NC4zMzggMTguMDgyNyAxNTMuMzY4IDE4LjA4MjdDMTUyLjMyOSAxOC4wODI3IDE1MS40NjMgMTguNDYzNyAxNTAuNzcgMTkuMjI1N0MxNTAuMTAxIDE5Ljk4NzggMTQ5Ljc2NiAyMC45NjkyIDE0OS43NjYgMjIuMTcwMVYzMi4yNUgxNDUuMDU1VjE0LjQ4MDJIMTQ5LjY2MlpNMTc5LjE2OCAzMC4xMDI0QzE3Ny40MzYgMzEuODgwNSAxNzUuMjA4IDMyLjc2OTYgMTcyLjQ4MyAzMi43Njk2QzE2OS43NTggMzIuNzY5NiAxNjcuNTMgMzEuODgwNSAxNjUuNzk4IDMwLjEwMjRDMTY0LjA2NiAyOC4zMDEyIDE2My4yIDI2LjA2MTIgMTYzLjIgMjMuMzgyNEMxNjMuMiAyMC43MDM3IDE2NC4wNjYgMTguNDc1MiAxNjUuNzk4IDE2LjY5NzFDMTY3LjUzIDE0Ljg5NTkgMTY5Ljc1OCAxMy45OTUzIDE3Mi40ODMgMTMuOTk1M0MxNzUuMjA4IDEzLjk5NTMgMTc3LjQzNiAxNC44OTU5IDE3OS4xNjggMTYuNjk3MUMxODAuOSAxOC40NzUyIDE4MS43NjYgMjAuNzAzNyAxODEuNzY2IDIzLjM4MjRDMTgxLjc2NiAyNi4wNjEyIDE4MC45IDI4LjMwMTIgMTc5LjE2OCAzMC4xMDI0Wk0xNzIuNDgzIDI5LjE2NzFDMTczLjg5MiAyOS4xNjcxIDE3NC45ODkgMjguNjQ3NSAxNzUuNzc0IDI3LjYwODRDMTc2LjU4MiAyNi41NDYxIDE3Ni45ODYgMjUuMTM3NSAxNzYuOTg2IDIzLjM4MjRDMTc2Ljk4NiAyMS42Mjc0IDE3Ni41ODIgMjAuMjE4NyAxNzUuNzc0IDE5LjE1NjVDMTc0Ljk4OSAxOC4wOTQyIDE3My44OTIgMTcuNTYzMSAxNzIuNDgzIDE3LjU2MzFDMTcxLjA1MSAxNy41NjMxIDE2OS45NDMgMTguMDk0MiAxNjkuMTU4IDE5LjE1NjVDMTY4LjM3MyAyMC4xOTU2IDE2Ny45OCAyMS42MDQzIDE2Ny45OCAyMy4zODI0QzE2Ny45OCAyNS4xMzc1IDE2OC4zNzMgMjYuNTQ2MSAxNjkuMTU4IDI3LjYwODRDMTY5Ljk0MyAyOC42NDc1IDE3MS4wNTEgMjkuMTY3MSAxNzIuNDgzIDI5LjE2NzFaTTE5MC42MDcgMzIuNzY5NkMxODguMzY3IDMyLjc2OTYgMTg2LjU1NCAzMS45MjY3IDE4NS4xNjkgMzAuMjQwOUMxODMuNzgzIDI4LjUzMjEgMTgzLjA5IDI2LjI0NTkgMTgzLjA5IDIzLjM4MjRDMTgzLjA5IDIwLjYxMTMgMTgzLjc5NSAxOC4zNTk4IDE4NS4yMDMgMTYuNjI3OEMxODYuNjM1IDE0Ljg3MjggMTg4LjQ1OSAxMy45OTUzIDE5MC42NzYgMTMuOTk1M0MxOTIuODkzIDEzLjk5NTMgMTk0LjU2NyAxNC44NzI4IDE5NS42OTkgMTYuNjI3OEgxOTUuODAzVjcuNDgzMTJIMjAwLjUxNFYzMi4yNUgxOTUuOTc2VjI5LjkyOTJIMTk1LjkwN0MxOTQuNzUyIDMxLjgyMjggMTkyLjk4NSAzMi43Njk2IDE5MC42MDcgMzIuNzY5NlpNMTkxLjY0NiAyOC44MjA3QzE5My4wMzIgMjguODIwNyAxOTQuMDgyIDI4LjM0NzMgMTk0Ljc5OCAyNy40MDA1QzE5NS41MzcgMjYuNDUzNyAxOTUuOTA3IDI1LjE0OSAxOTUuOTA3IDIzLjQ4NjNDMTk1LjkwNyAxOS42OTkxIDE5NC41MzMgMTcuODA1NSAxOTEuNzg1IDE3LjgwNTVDMTkwLjUxNCAxNy44MDU1IDE4OS41NDUgMTguMzEzNiAxODguODc1IDE5LjMyOTdDMTg4LjIwNSAyMC4zNDU3IDE4Ny44NyAyMS42OTY3IDE4Ny44NyAyMy4zODI0QzE4Ny44NyAyNS4xMTQ0IDE4OC4xOTQgMjYuNDUzNyAxODguODQgMjcuNDAwNUMxODkuNTEgMjguMzQ3MyAxOTAuNDQ1IDI4LjgyMDcgMTkxLjY0NiAyOC44MjA3Wk0yMTEuOTI0IDMyLjc2OTZDMjA5LjA2IDMyLjc2OTYgMjA2LjgwOSAzMS44OTIxIDIwNS4xNjkgMzAuMTM3QzIwMy41MyAyOC4zNTg5IDIwMi43MSAyNi4wOTU4IDIwMi43MSAyMy4zNDc4QzIwMi43MSAyMC42OTIxIDIwMy41MyAxOC40NzUyIDIwNS4xNjkgMTYuNjk3MUMyMDYuODA5IDE0Ljg5NTkgMjA4LjkxIDEzLjk5NTMgMjExLjQ3NCAxMy45OTUzQzIxNC4yNjggMTMuOTk1MyAyMTYuNDI3IDE0Ljk2NTEgMjE3Ljk1MSAxNi45MDQ5QzIxOS40NzUgMTguODQ0NyAyMjAuMjM3IDIxLjQ0MjYgMjIwLjIzNyAyNC42OTg3SDIwNy4zNTJDMjA3LjUzNiAyNi4xMDc0IDIwOC4wMSAyNy4yMDQzIDIwOC43NzIgMjcuOTg5NEMyMDkuNTM0IDI4Ljc1MTUgMjEwLjU3MyAyOS4xMzI1IDIxMS44ODkgMjkuMTMyNUMyMTMuNjIxIDI5LjEzMjUgMjE0Ljc2NCAyOC40MDUxIDIxNS4zMTkgMjYuOTUwMkgyMTkuOTZDMjE5LjYxNCAyOC42MTI5IDIxOC43MzYgMjkuOTk4NSAyMTcuMzI4IDMxLjEwNjlDMjE1LjkxOSAzMi4yMTU0IDIxNC4xMTggMzIuNzY5NiAyMTEuOTI0IDMyLjc2OTZaTTIxMS41NDMgMTcuNjMyM0MyMDkuMjU3IDE3LjYzMjMgMjA3Ljg4MyAxOC45MDI0IDIwNy40MjEgMjEuNDQyNkgyMTUuMzE5QzIxNS4yNDkgMjAuMzExMSAyMTQuODY4IDE5LjM5ODkgMjE0LjE3NSAxOC43MDYyQzIxMy40ODMgMTcuOTkwMyAyMTIuNjA1IDE3LjYzMjMgMjExLjU0MyAxNy42MzIzWk0yMjkuNjIzIDMyLjc2OTZDMjI3LjA4MiAzMi43Njk2IDIyNS4wOTYgMzIuMjE1NCAyMjMuNjY1IDMxLjEwNjlDMjIyLjIzMyAyOS45NzU0IDIyMS40NDggMjguNDM5NyAyMjEuMzA5IDI2LjQ5OTlIMjI1LjY3NEMyMjUuOTc0IDI4LjQ2MjggMjI3LjI2NyAyOS40NDQyIDIyOS41NTMgMjkuNDQ0MkMyMzAuNTkyIDI5LjQ0NDIgMjMxLjM4OSAyOS4yNTk1IDIzMS45NDMgMjguODlDMjMyLjUyMSAyOC41MjA1IDIzMi44MDkgMjguMDI0IDIzMi44MDkgMjcuNDAwNUMyMzIuODA5IDI3LjE2OTYgMjMyLjc2MyAyNi45NjE4IDIzMi42NzEgMjYuNzc3QzIzMi42MDEgMjYuNTkyMyAyMzIuNDYzIDI2LjQzMDYgMjMyLjI1NSAyNi4yOTIxQzIzMi4wNyAyNi4xMzA0IDIzMS44OTcgMjYuMDAzNCAyMzEuNzM2IDI1LjkxMTFDMjMxLjU5NyAyNS44MTg3IDIzMS4zNDMgMjUuNzI2MyAyMzAuOTczIDI1LjYzNEMyMzAuNjA0IDI1LjU0MTYgMjMwLjMxNSAyNS40NzIzIDIzMC4xMDcgMjUuNDI2MUMyMjkuOTIzIDI1LjM3OTkgMjI5LjU4OCAyNS4zMjIyIDIyOS4xMDMgMjUuMjUyOUMyMjguNjQxIDI1LjE2MDYgMjI4LjMxOCAyNS4wOTEzIDIyOC4xMzMgMjUuMDQ1MUMyMjcuMTYzIDI0Ljg2MDMgMjI2LjM2NiAyNC42NzU2IDIyNS43NDMgMjQuNDkwOUMyMjUuMTQzIDI0LjI4MyAyMjQuNTA4IDIzLjk5NDQgMjIzLjgzOCAyMy42MjQ5QzIyMy4xNjggMjMuMjMyMyAyMjIuNjYgMjIuNzEyNyAyMjIuMzE0IDIyLjA2NjFDMjIxLjk5IDIxLjM5NjQgMjIxLjgyOSAyMC41OTk4IDIyMS44MjkgMTkuNjc2QzIyMS44MjkgMTcuODI4NiAyMjIuNDk4IDE2LjQyIDIyMy44MzggMTUuNDUwMUMyMjUuMiAxNC40ODAyIDIyNi45NDQgMTMuOTk1MyAyMjkuMDY4IDEzLjk5NTNDMjMxLjM1NCAxMy45OTUzIDIzMy4xNDQgMTQuNTI2NCAyMzQuNDM3IDE1LjU4ODZDMjM1Ljc1NCAxNi42Mjc4IDIzNi41MDQgMTguMDU5NiAyMzYuNjg5IDE5Ljg4MzlIMjMyLjQyOEMyMzIuMjQ0IDE4LjE1MTkgMjMxLjEgMTcuMjg2IDIyOC45OTkgMTcuMjg2QzIyOC4wNTIgMTcuMjg2IDIyNy4zMDIgMTcuNDU5MiAyMjYuNzQ3IDE3LjgwNTVDMjI2LjIxNiAxOC4xNTE5IDIyNS45NTEgMTguNjM2OSAyMjUuOTUxIDE5LjI2MDRDMjI1Ljk1MSAxOS40NjgyIDIyNS45ODUgMTkuNjY0NSAyMjYuMDU1IDE5Ljg0OTJDMjI2LjE0NyAyMC4wMTA5IDIyNi4yODYgMjAuMTYxIDIyNi40NyAyMC4yOTk1QzIyNi42NzggMjAuNDE1IDIyNi44NzUgMjAuNTE4OSAyMjcuMDU5IDIwLjYxMTNDMjI3LjI0NCAyMC42ODA2IDIyNy41MSAyMC43NjE0IDIyNy44NTYgMjAuODUzOEMyMjguMjAyIDIwLjkyMzEgMjI4LjUwMyAyMC45OTIzIDIyOC43NTcgMjEuMDYxNkMyMjkuMDExIDIxLjEwNzggMjI5LjM1NyAyMS4xNzcxIDIyOS43OTYgMjEuMjY5NEMyMzAuMjM0IDIxLjMzODcgMjMwLjU4MSAyMS4zOTY0IDIzMC44MzUgMjEuNDQyNkMyMzEuNTc0IDIxLjYwNDMgMjMyLjE3NCAyMS43NTQ0IDIzMi42MzYgMjEuODkyOUMyMzMuMTIxIDIyLjAwODQgMjMzLjY3NSAyMi4yMTYyIDIzNC4yOTkgMjIuNTE2NEMyMzQuOTIyIDIyLjc5MzYgMjM1LjQwNyAyMy4xMTY5IDIzNS43NTQgMjMuNDg2M0MyMzYuMTIzIDIzLjgzMjcgMjM2LjQzNSAyNC4zMTc3IDIzNi42ODkgMjQuOTQxMkMyMzYuOTY2IDI1LjU0MTYgMjM3LjEwNSAyNi4yNDU5IDIzNy4xMDUgMjcuMDU0MkMyMzcuMTA1IDI4LjgwOTIgMjM2LjQxMiAzMC4yMDYzIDIzNS4wMjYgMzEuMjQ1NUMyMzMuNjY0IDMyLjI2MTUgMjMxLjg2MyAzMi43Njk2IDIyOS42MjMgMzIuNzY5NloiIGZpbGw9ImJsYWNrIi8+Cjwvc3ZnPgo=)](/)
+
+[Home](/)
+
+Product
+
+Resources
+
+Company
+
+Contact us
+
+[Network](/blog/?interval=3&category=Network)
+
+10 min read
+
+# Celestia's Modular Innovation
+
+Block by Block
+
+![](data:image/svg+xml;charset=utf-8,%3Csvg%20height='675'%20width='1200'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%3E%3C/svg%3E)
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAADLUlEQVR42iWSfUzUBRjH787j5O4Hx53AvXJ3wu+4F7oDO+MtDzpOO7k4XkxcJ0lXDFm5mRuiccpNQ825BVTmzDJXmFmu/mCuaFmDNSNfJiqztgydsxis/jCbMxHr0y/849nz3+f7fT57ZOnpmntKZRoKhQKdoMNp82B1e9FbrGizssnOysWSnYfdmI9oLkS0OHl8iZ+9/T30fXOd16IP+KplkjsfjTI1PHZP9j8sPV2NSqWah8oVcmkvIE2pQlBnkCWF6NR6DFkmLHobftFJd2oD/Seu0B9+wKmWae58Msbdk+fpSiSRgEo8Hi/V1U9QVxcjXLOcWKyBUCg8Pw0Nq2ioayRW20i8aQ09u5L07PuCg2U3+aF9ir8/m2Du8Bm2xTahVgrI5HI5BoMRUUouLHThdBbi9XqlEA82mwOHIx9fUQlLiwI80xqne8cg7wROczbxE7+/e56Z3i/ZGmqfv0IjZD5sWFpaRkVFJVVV1ZSXV7CyNkr0qToCgcfQpAto5GpcXjfNbUn2F5/gXMMYU+9PcP3tUXavTWLLWYzBaMVksj9sKAgCmVotRpPkyWzFbl2MaBNxmBwYMw04C9y0bExyqOZzxleMMPnGJUZ3nmTP+h28vruP+Jp1iPmPILp8yBQScIHUUqVaiLAwA72wSIKYyMuy4tDZsOvyiDzfxnudQ0yEv+NK9xm+3TrEmxv30bGqnZ1bXuWVrhSVgRBdkkdZWloaao3AIm0OtlwHLrMbv9VHicVPUY4bn6+M5MAHXNx+kRvtE1zqPkdqWScvtr7EwK63OLp/kEMd/VxIDHMrcQ2Z9Ifo9BLMXECRvZgysZKgWEWwIEip6VFCq9dx+NNxbvTeZHrgF3778CxH6g/SG9vG8fYDfN82xM+rrzEenGWseE4CZmjx6M2Eispprm/lhcYOmpetpTkYJ7H8OeKbezj29a9c7fyDmeQ094fH+ffjy9zdfpXJp2c4VfoPgy445rvN0cgIMk2Gdtacm4ffWUJ1IELt0iaiS5qI+OoJ568k2ryePSOXJW9/cbr2Nhee/JOxyC2Ol8zRV3iflP9HUjVH2PLsZja9vGH2P0eXukYDLw1lAAAAAElFTkSuQmCC)![Cover
+Image](/static/8bd0c5ca612b5d338057522f295c370f/bb8ee/image_113_96b466e063.png)![Cover
+Image](/static/8bd0c5ca612b5d338057522f295c370f/bb8ee/image_113_96b466e063.png)
+
+Published on
+
+19 Feb, 2024
+
+Copy
+Link[](https://twitter.com/intent/tweet?text=Check%20out%20this%20blog%20by%20Luganodes%20-%20%22Celestia's%20Modular%20Innovation%22&url=)[](https://www.linkedin.com/sharing/share-
+offsite/?url=&title=Celestia's%20Modular%20Innovation&summary=Check%20out%20this%20blog%20by%20Luganodes%20-%20%22Celestia's%20Modular%20Innovation%22)
+
+# Exploring Celestia's Modular Blockchain
+
+Celestia is a new cryptocurrency with innovative technology that could disrupt
+the entire crypto ecosystem. Its modular blockchain architecture is the first
+of its kind that securely scales along with the number of users.
+
+Luganodes recently went live on the Celestia mainnet, and in our recent blog,
+we looked into [Celestia’s unique modular
+architecture](https://www.luganodes.com/blog/CelestiaAnnouncement/), making it
+highly scalable and customisable. As a follow-up to this announcement, we
+bring you a technical deep dive to enrich your knowledge of this technological
+breakthrough.
+
+## Who Founded Celestia?
+
+"Lazy Ledger" was the project's original title, named after a paper written by
+[founder Mustafa Al-Bassam](https://celestia.org/team/) one of the original
+founders of LulzSec. In 2013, he became interested in Bitcoin and later
+leveraged his computer prowess to earn a PhD at the University College of
+London. During his research, he focused on how to scale blockchains—more
+specifically, how to break the blockchain into parts to process transactions
+in parallel.
+
+Ethereum co-founder Vitalik Buterin also co-authored a paper with Al-Bassam,
+and in 2019, he published another paper about a new scaling technology. He
+called it "Lazy Ledger." Al-Bassam built a team around this concept, acquiring
+co-founders John Adler (who invented the Optimistic Rollup) and Ismail Khoffi
+(a senior engineer at Tendermint).
+
+![celestia blog 2.png](https://better-
+triumph-f08c8a30a5.media.strapiapp.com/celestia_blog_2_cf7c2587a4.png)
+
+In 2021, the team formally changed the name to
+[Celestia](https://celestia.org/). In March of that year, they raised $1.5
+million; in October 2022, they raised another $55 million in venture capital
+investment. In September 2023, it announced an airdrop for early adopters, and
+In October 2023, Celestia went live on the mainnet.
+
+> Luganodes is live on the Celestia testnet and will be available as a Mainnet
+> validator starting 15th February 2024. Check out the [announcement
+> here](https://www.luganodes.com/blog/CelestiaAnnouncement/).
+
+Celestia's stated advantage resides in making it easy for anyone to deploy
+their customizable blockchain quickly. But to understand how they accomplish
+this, we must first look at the concept of modularity.
+
+## What Is a Modular Blockchain?
+
+"Modular" is a term that has to do with crypto architecture, and modular
+blockchains are an emerging technology that enables the construction of new
+chains in previously impossible ways. They open up vast design possibilities
+for individual blockchains and the modular stack they're a part of.
+
+Modularity refers to designs that split a system into smaller parts, allowing
+for more flexible and customizable designs. Thus, different types of modular
+chains can collaborate in various ways.
+
+## Monolithic Blockchains
+
+Let's look at traditional monolithic blockchains to understand better how
+modularity applies to blockchains. They typically consist of these layers:
+
+  1. Execution Deals with processing transactions.
+
+  2. Settlement It deals with dispute resolution and the validity of blocks and acts as a bridging layer.
+
+  3. Consensus Orders transactions and verifies they were processed correctly.
+
+  4. Data Availability Ensures data from new blocks is available and published on-chain.
+
+![celestia blog 3.png](https://better-
+triumph-f08c8a30a5.media.strapiapp.com/celestia_blog_3_a16f2df539.png)
+
+Monolithic blockchains can perform all these functions but do so on a single
+layer. And this architecture is the reason for the classic blockchain trilemma
+where developers can only pick two out of three properties.
+
+  1. Decentralization
+
+  2. Scalability
+
+  3. Security
+
+Since blockchains cannot compromise security, scalability and decentralization
+are the most common choices. Increases in block size increase throughput and
+lead to more expensive hardware requirements to validate the blockchain. This
+leads to a more centralized network since fewer people can afford the hardware
+to validate the chain. Thus, decentralization gets sacrificed for scalability.
+
+Unfortunately, all these processes on one monolithic blockchain limit how fast
+it can work, especially with multiple applications sharing the same chain.
+
+## Modular Blockchains vs. Monolithic Blockchains
+
+Monolithic blockchains try to do everything in one place, which reduces
+efficiency. Modular blockchains, on the other hand, specialize and only
+optimize a smaller number of functions instead of trying to be all things.
+
+A good example is Layer 2 solutions (Rollups being the most prominent type).
+They are modular blockchains in that they only function on the execution layer
+while offloading settlement, consensus, and data availability to the main
+chain.
+
+The Layer 1 mainchain allows the Rollup to publish its blocks and ensures that
+the block's transaction data is available and ordered correctly. Moreover, the
+Layer 1 can act as a hub connecting the Rollups, allowing them to bridge
+liquidity.
+
+So, Layer 1s are monolithic blockchains that receive extra scaling power from
+Layer 2 Rollups. However, the capacity of Layer 2 is still dependent on that
+of Layer 1 in most cases. Thus, implementing a Layer 1 and Layer 2 stack will
+result in suboptimal scalability. This is where Celestia comes into play.
+
+## Celestia and Layer 2 Solutions
+
+The execution, settlement, and consensus layers require data availability,
+making it essential. As a modular blockchain, Celestia focuses only on
+consensus and data availability. Data availability is a verification process
+that ensures transaction data is available to download, and consensus is the
+agreement on the order of transactions.
+
+![celestia blog 4.png](https://better-
+triumph-f08c8a30a5.media.strapiapp.com/celestia_blog_4_c8eae0859e.png)
+
+A modular blockchain like Celestia, which specializes in data availability,
+requires consensus to order the data. Otherwise, there's no way to determine
+the history of the data. So, Celestia orders blocks and ensures block data is
+published on-chain.
+
+This factor is vital because Layer 2s focus on execution. They can, therefore,
+leverage Celestia to increase speed and lower costs. Since Celestia only deals
+with data availability and consensus, it can process and store data more
+efficiently than traditional blockchains.
+
+The modular approach allows different applications to run on top of Celestia
+without being constrained by an underlying blockchain. So application-specific
+chains or Layer 2s programmed in various languages or running on other virtual
+machines can be built on top of Celestia. By doing so, they benefit from the
+data availability provided.
+
+## Is Celestia a Better Solution for Layer 2s?
+
+In 2022, long before launching, the team flirted with the idea that Layer 2
+[Rollups](https://www.luganodes.com/blog/ZKRollupsExplained/) could become
+sovereign chains. Currently, Layer 2s on Layer 1 blockchains like Ethereum
+depend on Ethereum because they move assets between the two—which requires
+bridging. Hence, the technical dependency.
+
+However, Layer 2s on Celestia can be independent because they merely push data
+onto Celestia's blocks and use its consensus for added security. A Layer 2
+using Celestia keeps its assets existing only on the Layer 2.
+
+However, a Layer 2 could still use Ethereum for data availability without
+enshrining it for settlement. The advantages are that Ethereum is more
+decentralized and offers better security guarantees due to its size. However,
+it is a more expensive option than using Celestia. The trade-off for
+leveraging monolithic blockchains like Ethereum is cost versus greater
+security.
+
+So, although Celestia's core innovation is being the first modular blockchain
+where Layer 2s can leverage its data availability and consensus, other
+features also make it unique.
+
+## Celestia and Data Availability Sampling
+
+Blockchains usually retain a historical record of all past transactions. Each
+block contains transaction records that link to the next block, and nodes
+check these records to ensure the transactions are valid. But because they
+have to retrace and review the entire history, it limits the speed.
+
+Celestia's solution is a new feature, "data availability sampling," which Al-
+Bassam formalized in 2018. With data availability sampling, only a few random
+small parts of each block must be checked to confirm the blocks' validity.
+This increases speed and lowers costs, but it's also significant for a couple
+of reasons:
+
+Only checking a few random parts of each block still provides validity
+guarantees that are the same as examining the whole block. So, running a node
+to provide security on Celestia is more manageable than on most monolithic
+chains.
+
+The main factor is that data availability sampling enables abundant
+throughput. It provides a secure way to store and publish block data and
+ensures that data is available for anyone to read and verify. All of which is
+critical for maintaining a blockchain's security.
+
+## The Five Types of Nodes on Celestia
+
+Celestia utilizes five types of nodes (below). Numbers one and two deal with
+network consensus, while three through five deal with data availability.
+
+  1. Validator Node Provides consensus by producing and voting on blocks.
+
+  2. Full Consensus Node Synchronizes the blockchain history.
+
+  3. Full Storage Node Stores data but does not connect to consensus.
+
+  4. Light Node Performs data availability sampling as described earlier. With the help of a data protection technique called "erasure coding," data availability sampling allows light nodes to verify data availability by randomly sampling small amounts of block data. As a light node repeatedly samples block data, the confidence level that data is available also increases. Once the light node reaches a particular confidence level, it confirms the availability of block data. The network's capacity to manage more data thus enables block size to increase without increasing the cost to secure the network.
+
+  5. Bridge Node Allows light nodes and validator nodes to communicate by bridging between the data availability and consensus networks.
+
+Since Celestia is a Cosmos-based blockchain, it's limited to about 100
+validator nodes. Cosmos is fast and can process 10,000 transactions per second
+(TPS); however, it is considered more centralized due to its low validator
+count.
+
+## Celestia's Native $TIA Token
+
+Celestia's native crypto, $TIA, is used for paying transaction fees, staking,
+and governance. [What are the benefits of staking
+crypto?](https://www.luganodes.com/blog/CryptoStakingOptions/) Find out here.
+
+Layer 2 Rollup developers will use $TIA to pay for data availability on the
+network. Furthermore, token holders can [delegate $TIA to a validator to earn
+staking rewards](https://www.luganodes.com/blog/CelestiaAnnouncement/) while
+securing the network. Celestia's staking rewards hover around 16% at the time
+of writting, with no minimum stake required. Slashing is also enabled to
+disincentivize malicious behavior.
+
+One billion tokens were distributed at Genesis with an inflation schedule of
+8% in the first year, decreasing 10% per year until it reached an annual
+inflation floor of 1.5%. The diagram below demonstrates how $TIA is allocated.
+20% to the public, with 7% of that going to the airdrop.
+
+![celestia blog 5.png](https://better-
+triumph-f08c8a30a5.media.strapiapp.com/celestia_blog_5_964958f46f.png)
+
+## Crypto's Reaction to Celestia
+
+Although Celestia only launched recently, it's already hosting many
+applications and services. Further, as testified by $TIA's climbing price,
+those who believe in this project also hope it will challenge monolithic
+blockchains and how the entire crypto ecosystem is structured. Celestia's
+breakthroughs have already caused some crypto projects to respond in
+collaboration or competition.
+
+Arbitrum is the most significant Layer 2 on Ethereum, and it has announced
+that its orbit chains will leverage Celestia for data availability. On the
+other hand, the Near protocol and Avail will compete with Celestia by
+launching their own data availability layers. Likewise, Polygon will offer a
+data availability solution to Layer 2 developers.
+
+Celestia has the potential to disrupt the crypto ecosystem and Ethereum
+itself. Thus far, Celestia's founders aren't touting it as a new "Ethereum
+Killer." Probably because to do so adds an unnecessary burden of pressure to
+meet such lofty expectations. It is interesting to note that Ethereum's Dencun
+upgrade also introduces a data availability layer (and blobs) to make Layer 2s
+quicker and less expensive.
+
+## Conclusion
+
+Celestia's unique selling advantage is being the first-of-its-kind modular
+blockchain that allows anyone to leverage its consensus and data availability.
+Deploying a blockchain is greatly simplified with this solution since
+developers only need to spin up an execution layer. Many Layer 2s will no
+doubt want to opt for this streamlined, speedy, cost-effective solution. Its
+innovative approach will likely inspire traditional chains to innovate as
+well.
+
+Further, Celestia's early success will inspire new projects to join the race
+to modularity. Being in first place means that other projects will try to be
+"first to be second" to compete for the remaining market share. In sum,
+adoption is critical for any new project. So, if Celestia can continue
+onboarding quality crypto projects, it can maximize its first market
+advantage.
+
+If you hold the TIA token, you can enhance your portfolio by staking to earn
+rewards. Leverage Luganodes' institutional-grade infrastructure to stake your
+holdings and create a passive income. Staking with us ensures ease of use,
+support, and safety while you earn, and also contribute to the security of the
+Celestia chain.
+
+Learn how to stake TIA tokens using this
+[guide](https://www.luganodes.com/blog/?interval=3&category=Guides#blog-list).
+You can learn more about staking on our
+[website](https://www.luganodes.com/?utm_source=Blog&utm_medium=article&utm_campaign=Blog%20-%20article%20-%20Footer),
+and feel free to [contact
+us](https://www.luganodes.com/#signup?utm_source=Blog&utm_medium=article&utm_campaign=Blog%20-%20article%20-%20Footer)
+for any queries!
+
+## About Luganodes
+
+Luganodes is a world-class, Swiss-operated, non-custodial blockchain
+infrastructure provider that has rapidly gained recognition in the industry
+for offering institutional-grade services. It was born out of the Lugano Plan
+B Program, an initiative driven by Tether and the City of Lugano. Luganodes
+maintains an exceptional 99.9% uptime with round-the-clock monitoring by SRE
+experts. With support for 40+ PoS networks, it ranks among the top validators
+on Polygon, Polkadot, Sui, and Tron. Luganodes prioritizes security and
+compliance, holding the distinction of being one of the first staking
+providers to adhere to all SOC 2 Type II, GDPR, and ISO 27001 standards as
+well as offering Chainproof insurance to institutional clients.
+
+![](data:image/svg+xml;charset=utf-8,%3Csvg%20height='269'%20width='632'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%3E%3C/svg%3E)
+
+![Line
+pattern](/static/c1a2eb9200e441157c01110f2f463004/3d614/linepattern3.svg)![Line
+pattern](/static/c1a2eb9200e441157c01110f2f463004/3d614/linepattern3.svg)
+
+[![White
+logo](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQ0IiBoZWlnaHQ9IjQzIiB2aWV3Qm94PSIwIDAgMjQ0IDQzIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMjAuNTA0OSAzMi4zMTI1SDIwLjc2NDlMMjAuNzc1NiAzMi4wNDg3TDIxLjc2MjQgNy43NzI1MkwzNC4xNjIxIDIxLjAxMTZMMjYuNjA5IDMxLjg3ODdMMjYuMzA3NSAzMi4zMTI1SDI2LjgzMDRINDIuMDkyOUg0Mi4zNjQ4TDQyLjM2MzggMzIuMDM2M0w0Mi4zMTY3IDE5LjQ3NTdMNTEuNjQ4OCAzMi4yMDE3TDUxLjczIDMyLjMxMjVINTEuODY2SDU1LjcxMDVINTYuMjVMNTUuOTI3NyAzMS44NzNMNDEuMTAwNSAxMS42NTIxTDQwLjg3NzMgMTEuMzQ3OUw0MC42NjIgMTEuNjU3OEwzNi4yOTEyIDE3Ljk0N0wyMC40ODE2IDEuMDY0NDJMMjAuMjQ1NyAwLjgxMjVMMjAuMDU4NiAxLjEwMzY0TDAuMjczNTQxIDMxLjg4NjlMMCAzMi4zMTI1SDAuNTAwMzM2SDIwLjUwNDlaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNNjkuOTY3NiAzMi4yNVY3LjQ4MzEySDc0Ljk5MDNWMjguMDU4N0g4Ni42MjlWMzIuMjVINjkuOTY3NlpNMTA0LjUyNyAzMi4yNUg5OS45ODk2VjMwLjE3MTdIOTkuODg1N0M5OS4yMzkxIDMxLjA0OTIgOTguNTIzMyAzMS42OTU4IDk3LjczODEgMzIuMTExNEM5Ni45NzYgMzIuNTI3MSA5NS45OTQ2IDMyLjczNDkgOTQuNzkzOCAzMi43MzQ5QzkyLjg1NCAzMi43MzQ5IDkxLjM0MTQgMzIuMTU3NiA5MC4yNTYxIDMxLjAwM0M4OS4xNzA3IDI5Ljg0ODQgODguNjI4IDI4LjI4OTYgODguNjI4IDI2LjMyNjdWMTQuNDgwMkg5My4zMDQzVjI1LjUzQzkzLjMwNDMgMjcuNjc3NyA5NC4yODU3IDI4Ljc1MTUgOTYuMjQ4NiAyOC43NTE1Qzk3LjMzNCAyOC43NTE1IDk4LjIgMjguMzgyIDk4Ljg0NjUgMjcuNjQzQzk5LjQ5MzEgMjYuOTA0IDk5LjgxNjQgMjUuOTM0MiA5OS44MTY0IDI0LjczMzNWMTQuNDgwMkgxMDQuNTI3VjMyLjI1Wk0xMTUuNDAzIDM4LjMxMThDMTEzLjAwMSAzOC4zMTE4IDExMS4wNzMgMzcuODI2OSAxMDkuNjE4IDM2Ljg1N0MxMDguMTg2IDM1Ljg4NzEgMTA3LjM0NCAzNC41MjQ2IDEwNy4wOSAzMi43Njk2SDExMS43NjZDMTEyLjIyOCAzNC4wODU5IDExMy40MTcgMzQuNzQ0IDExNS4zMzQgMzQuNzQ0QzExNy45NjYgMzQuNzQ0IDExOS4yODIgMzMuNTA4NiAxMTkuMjgyIDMxLjAzNzZWMjkuMDk3OUgxMTkuMTc5QzExNy45NTUgMzAuNDgzNCAxMTYuNDA3IDMxLjE3NjIgMTE0LjUzNyAzMS4xNzYyQzExMi40MzUgMzEuMTc2MiAxMTAuNiAzMC40MDI2IDEwOS4wMjkgMjguODU1NEMxMDcuNDgyIDI3LjMwODIgMTA2LjcwOSAyNS4yNTI5IDEwNi43MDkgMjIuNjg5NkMxMDYuNzA5IDIwLjA1NzEgMTA3LjQyNCAxNy45NTU2IDEwOC44NTYgMTYuMzg1M0MxMTAuMjg4IDE0Ljc5MTkgMTEyLjEzNSAxMy45OTUzIDExNC4zOTggMTMuOTk1M0MxMTYuNTQ2IDEzLjk5NTMgMTE4LjE4NiAxNC43ODA0IDExOS4zMTcgMTYuMzUwN0gxMTkuMzg2VjE0LjQ4MDJIMTIzLjkyNFYzMC44OTkxQzEyMy45MjQgMzMuMjA4MyAxMjMuMjIgMzUuMDA5NiAxMjEuODExIDM2LjMwMjhDMTIwLjM3OSAzNy42NDIxIDExOC4yNDMgMzguMzExOCAxMTUuNDAzIDM4LjMxMThaTTExNS4zMzQgMjcuNDAwNUMxMTYuNzQyIDI3LjQwMDUgMTE3Ljc5MyAyNi45NTAyIDExOC40ODYgMjYuMDQ5NkMxMTkuMTc5IDI1LjE0OSAxMTkuNTI1IDIzLjk5NDQgMTE5LjUyNSAyMi41ODU3QzExOS41MjUgMjEuMjAwMiAxMTkuMTU1IDIwLjA1NzEgMTE4LjQxNiAxOS4xNTY1QzExNy43MDEgMTguMjMyOCAxMTYuNjYxIDE3Ljc3MDkgMTE1LjI5OSAxNy43NzA5QzExNC4wOTggMTcuNzcwOSAxMTMuMTI4IDE4LjIwOTcgMTEyLjM4OSAxOS4wODcyQzExMS42NzMgMTkuOTY0NyAxMTEuMzE2IDIxLjE0MjQgMTExLjMxNiAyMi42MjA0QzExMS4zMTYgMjQuMTIxNCAxMTEuNjczIDI1LjI5OTEgMTEyLjM4OSAyNi4xNTM1QzExMy4xMjggMjYuOTg0OSAxMTQuMTEgMjcuNDAwNSAxMTUuMzM0IDI3LjQwMDVaTTEzOC4xNDYgMzIuMjVDMTM3LjkxNSAzMS45NDk4IDEzNy43MyAzMS4yOTE3IDEzNy41OTIgMzAuMjc1NkgxMzcuNTIyQzEzNy4wMTQgMzEuMDM3NiAxMzYuMzY4IDMxLjYyNjUgMTM1LjU4MyAzMi4wNDIyQzEzNC43OTcgMzIuNDU3OCAxMzMuNyAzMi42NjU3IDEzMi4yOTIgMzIuNjY1N0MxMzAuNDIxIDMyLjY2NTcgMTI4LjkyIDMyLjE5MjMgMTI3Ljc4OSAzMS4yNDU1QzEyNi42NTcgMzAuMjk4NyAxMjYuMDkxIDI4Ljk1OTMgMTI2LjA5MSAyNy4yMjczQzEyNi4wOTEgMjUuNDI2MSAxMjYuNzE1IDI0LjEwOTggMTI3Ljk2MiAyMy4yNzg1QzEyOS4yMDkgMjIuNDI0MSAxMzAuOTY0IDIxLjgzNTIgMTMzLjIyNyAyMS41MTE5QzEzNC44OSAyMS4yODEgMTM2LjAyMSAyMS4wNTAxIDEzNi42MjIgMjAuODE5MUMxMzcuMjIyIDIwLjU2NTEgMTM3LjUyMiAyMC4xMjY0IDEzNy41MjIgMTkuNTAyOUMxMzcuNTIyIDE4Ljg1NjMgMTM3LjI2OCAxOC4zNDgyIDEzNi43NiAxNy45Nzg3QzEzNi4yNTIgMTcuNTg2MiAxMzUuNTEzIDE3LjM4OTkgMTM0LjU0MyAxNy4zODk5QzEzMi4zOTYgMTcuMzg5OSAxMzEuMjUzIDE4LjIyMTIgMTMxLjExNCAxOS44ODM5SDEyNi45MjNDMTI2Ljk5MiAxOC4xOTgxIDEyNy42NzMgMTYuODAxIDEyOC45NjcgMTUuNjkyNkMxMzAuMjYgMTQuNTg0MSAxMzIuMTMgMTQuMDI5OSAxMzQuNTc4IDE0LjAyOTlDMTM5LjU2NiAxNC4wMjk5IDE0Mi4wNiAxNi4yMTIxIDE0Mi4wNiAyMC41NzY3VjI5LjYxNzRDMTQyLjA2IDMwLjk1NjggMTQyLjI2OCAzMS43NzY2IDE0Mi42ODQgMzIuMDc2OFYzMi4yNUgxMzguMTQ2Wk0xMzMuNDM1IDI5LjM3NUMxMzQuNzI4IDI5LjM3NSAxMzUuNzQ0IDI5LjA0MDEgMTM2LjQ4MyAyOC4zNzA0QzEzNy4yNDUgMjcuNzAwNyAxMzcuNjI2IDI2LjkwNCAxMzcuNjI2IDI1Ljk4MDNWMjMuMzEzMUMxMzcuMTE4IDIzLjYxMzMgMTM2LjAyMSAyMy45NTk3IDEzNC4zMzYgMjQuMzUyM0MxMzIuOTk2IDI0LjY1MjUgMTMyLjA0OSAyNC45OTg5IDEzMS40OTUgMjUuMzkxNUMxMzAuOTQxIDI1Ljc2MSAxMzAuNjY0IDI2LjMzODMgMTMwLjY2NCAyNy4xMjM0QzEzMC42NjQgMjguNjI0NSAxMzEuNTg4IDI5LjM3NSAxMzMuNDM1IDI5LjM3NVpNMTQ5LjY2MiAxNC40ODAyVjE2LjkwNDlIMTQ5Ljc2NkMxNTAuOTkgMTQuOTY1MSAxNTIuNzQ1IDEzLjk5NTMgMTU1LjAzMSAxMy45OTUzQzE1Ni44NTUgMTMuOTk1MyAxNTguMzMzIDE0LjYxODggMTU5LjQ2NSAxNS44NjU4QzE2MC41OTYgMTcuMDg5NyAxNjEuMTYyIDE4LjY4MzEgMTYxLjE2MiAyMC42NDU5VjMyLjI1SDE1Ni40NTFWMjEuMzM4N0MxNTYuNDUxIDIwLjM2ODggMTU2LjE3NCAxOS41ODM3IDE1NS42MiAxOC45ODMzQzE1NS4wODkgMTguMzgyOSAxNTQuMzM4IDE4LjA4MjcgMTUzLjM2OCAxOC4wODI3QzE1Mi4zMjkgMTguMDgyNyAxNTEuNDYzIDE4LjQ2MzcgMTUwLjc3IDE5LjIyNTdDMTUwLjEwMSAxOS45ODc4IDE0OS43NjYgMjAuOTY5MiAxNDkuNzY2IDIyLjE3MDFWMzIuMjVIMTQ1LjA1NVYxNC40ODAySDE0OS42NjJaTTE3OS4xNjggMzAuMTAyNEMxNzcuNDM2IDMxLjg4MDUgMTc1LjIwOCAzMi43Njk2IDE3Mi40ODMgMzIuNzY5NkMxNjkuNzU4IDMyLjc2OTYgMTY3LjUzIDMxLjg4MDUgMTY1Ljc5OCAzMC4xMDI0QzE2NC4wNjYgMjguMzAxMiAxNjMuMiAyNi4wNjEyIDE2My4yIDIzLjM4MjRDMTYzLjIgMjAuNzAzNyAxNjQuMDY2IDE4LjQ3NTIgMTY1Ljc5OCAxNi42OTcxQzE2Ny41MyAxNC44OTU5IDE2OS43NTggMTMuOTk1MyAxNzIuNDgzIDEzLjk5NTNDMTc1LjIwOCAxMy45OTUzIDE3Ny40MzYgMTQuODk1OSAxNzkuMTY4IDE2LjY5NzFDMTgwLjkgMTguNDc1MiAxODEuNzY2IDIwLjcwMzcgMTgxLjc2NiAyMy4zODI0QzE4MS43NjYgMjYuMDYxMiAxODAuOSAyOC4zMDEyIDE3OS4xNjggMzAuMTAyNFpNMTcyLjQ4MyAyOS4xNjcxQzE3My44OTIgMjkuMTY3MSAxNzQuOTg5IDI4LjY0NzUgMTc1Ljc3NCAyNy42MDg0QzE3Ni41ODIgMjYuNTQ2MSAxNzYuOTg2IDI1LjEzNzUgMTc2Ljk4NiAyMy4zODI0QzE3Ni45ODYgMjEuNjI3NCAxNzYuNTgyIDIwLjIxODcgMTc1Ljc3NCAxOS4xNTY1QzE3NC45ODkgMTguMDk0MiAxNzMuODkyIDE3LjU2MzEgMTcyLjQ4MyAxNy41NjMxQzE3MS4wNTEgMTcuNTYzMSAxNjkuOTQzIDE4LjA5NDIgMTY5LjE1OCAxOS4xNTY1QzE2OC4zNzMgMjAuMTk1NiAxNjcuOTggMjEuNjA0MyAxNjcuOTggMjMuMzgyNEMxNjcuOTggMjUuMTM3NSAxNjguMzczIDI2LjU0NjEgMTY5LjE1OCAyNy42MDg0QzE2OS45NDMgMjguNjQ3NSAxNzEuMDUxIDI5LjE2NzEgMTcyLjQ4MyAyOS4xNjcxWk0xOTAuNjA3IDMyLjc2OTZDMTg4LjM2NyAzMi43Njk2IDE4Ni41NTQgMzEuOTI2NyAxODUuMTY5IDMwLjI0MDlDMTgzLjc4MyAyOC41MzIxIDE4My4wOSAyNi4yNDU5IDE4My4wOSAyMy4zODI0QzE4My4wOSAyMC42MTEzIDE4My43OTUgMTguMzU5OCAxODUuMjAzIDE2LjYyNzhDMTg2LjYzNSAxNC44NzI4IDE4OC40NTkgMTMuOTk1MyAxOTAuNjc2IDEzLjk5NTNDMTkyLjg5MyAxMy45OTUzIDE5NC41NjcgMTQuODcyOCAxOTUuNjk5IDE2LjYyNzhIMTk1LjgwM1Y3LjQ4MzEySDIwMC41MTRWMzIuMjVIMTk1Ljk3NlYyOS45MjkySDE5NS45MDdDMTk0Ljc1MiAzMS44MjI4IDE5Mi45ODUgMzIuNzY5NiAxOTAuNjA3IDMyLjc2OTZaTTE5MS42NDYgMjguODIwN0MxOTMuMDMyIDI4LjgyMDcgMTk0LjA4MiAyOC4zNDczIDE5NC43OTggMjcuNDAwNUMxOTUuNTM3IDI2LjQ1MzcgMTk1LjkwNyAyNS4xNDkgMTk1LjkwNyAyMy40ODYzQzE5NS45MDcgMTkuNjk5MSAxOTQuNTMzIDE3LjgwNTUgMTkxLjc4NSAxNy44MDU1QzE5MC41MTQgMTcuODA1NSAxODkuNTQ1IDE4LjMxMzYgMTg4Ljg3NSAxOS4zMjk3QzE4OC4yMDUgMjAuMzQ1NyAxODcuODcgMjEuNjk2NyAxODcuODcgMjMuMzgyNEMxODcuODcgMjUuMTE0NCAxODguMTk0IDI2LjQ1MzcgMTg4Ljg0IDI3LjQwMDVDMTg5LjUxIDI4LjM0NzMgMTkwLjQ0NSAyOC44MjA3IDE5MS42NDYgMjguODIwN1pNMjExLjkyNCAzMi43Njk2QzIwOS4wNiAzMi43Njk2IDIwNi44MDkgMzEuODkyMSAyMDUuMTY5IDMwLjEzN0MyMDMuNTMgMjguMzU4OSAyMDIuNzEgMjYuMDk1OCAyMDIuNzEgMjMuMzQ3OEMyMDIuNzEgMjAuNjkyMSAyMDMuNTMgMTguNDc1MiAyMDUuMTY5IDE2LjY5NzFDMjA2LjgwOSAxNC44OTU5IDIwOC45MSAxMy45OTUzIDIxMS40NzQgMTMuOTk1M0MyMTQuMjY4IDEzLjk5NTMgMjE2LjQyNyAxNC45NjUxIDIxNy45NTEgMTYuOTA0OUMyMTkuNDc1IDE4Ljg0NDcgMjIwLjIzNyAyMS40NDI2IDIyMC4yMzcgMjQuNjk4N0gyMDcuMzUyQzIwNy41MzYgMjYuMTA3NCAyMDguMDEgMjcuMjA0MyAyMDguNzcyIDI3Ljk4OTRDMjA5LjUzNCAyOC43NTE1IDIxMC41NzMgMjkuMTMyNSAyMTEuODg5IDI5LjEzMjVDMjEzLjYyMSAyOS4xMzI1IDIxNC43NjQgMjguNDA1MSAyMTUuMzE5IDI2Ljk1MDJIMjE5Ljk2QzIxOS42MTQgMjguNjEyOSAyMTguNzM2IDI5Ljk5ODUgMjE3LjMyOCAzMS4xMDY5QzIxNS45MTkgMzIuMjE1NCAyMTQuMTE4IDMyLjc2OTYgMjExLjkyNCAzMi43Njk2Wk0yMTEuNTQzIDE3LjYzMjNDMjA5LjI1NyAxNy42MzIzIDIwNy44ODMgMTguOTAyNCAyMDcuNDIxIDIxLjQ0MjZIMjE1LjMxOUMyMTUuMjQ5IDIwLjMxMTEgMjE0Ljg2OCAxOS4zOTg5IDIxNC4xNzUgMTguNzA2MkMyMTMuNDgzIDE3Ljk5MDMgMjEyLjYwNSAxNy42MzIzIDIxMS41NDMgMTcuNjMyM1pNMjI5LjYyMyAzMi43Njk2QzIyNy4wODIgMzIuNzY5NiAyMjUuMDk2IDMyLjIxNTQgMjIzLjY2NSAzMS4xMDY5QzIyMi4yMzMgMjkuOTc1NCAyMjEuNDQ4IDI4LjQzOTcgMjIxLjMwOSAyNi40OTk5SDIyNS42NzRDMjI1Ljk3NCAyOC40NjI4IDIyNy4yNjcgMjkuNDQ0MiAyMjkuNTUzIDI5LjQ0NDJDMjMwLjU5MiAyOS40NDQyIDIzMS4zODkgMjkuMjU5NSAyMzEuOTQzIDI4Ljg5QzIzMi41MjEgMjguNTIwNSAyMzIuODA5IDI4LjAyNCAyMzIuODA5IDI3LjQwMDVDMjMyLjgwOSAyNy4xNjk2IDIzMi43NjMgMjYuOTYxOCAyMzIuNjcxIDI2Ljc3N0MyMzIuNjAxIDI2LjU5MjMgMjMyLjQ2MyAyNi40MzA2IDIzMi4yNTUgMjYuMjkyMUMyMzIuMDcgMjYuMTMwNCAyMzEuODk3IDI2LjAwMzQgMjMxLjczNiAyNS45MTExQzIzMS41OTcgMjUuODE4NyAyMzEuMzQzIDI1LjcyNjMgMjMwLjk3MyAyNS42MzRDMjMwLjYwNCAyNS41NDE2IDIzMC4zMTUgMjUuNDcyMyAyMzAuMTA3IDI1LjQyNjFDMjI5LjkyMyAyNS4zNzk5IDIyOS41ODggMjUuMzIyMiAyMjkuMTAzIDI1LjI1MjlDMjI4LjY0MSAyNS4xNjA2IDIyOC4zMTggMjUuMDkxMyAyMjguMTMzIDI1LjA0NTFDMjI3LjE2MyAyNC44NjAzIDIyNi4zNjYgMjQuNjc1NiAyMjUuNzQzIDI0LjQ5MDlDMjI1LjE0MyAyNC4yODMgMjI0LjUwOCAyMy45OTQ0IDIyMy44MzggMjMuNjI0OUMyMjMuMTY4IDIzLjIzMjMgMjIyLjY2IDIyLjcxMjcgMjIyLjMxNCAyMi4wNjYxQzIyMS45OSAyMS4zOTY0IDIyMS44MjkgMjAuNTk5OCAyMjEuODI5IDE5LjY3NkMyMjEuODI5IDE3LjgyODYgMjIyLjQ5OCAxNi40MiAyMjMuODM4IDE1LjQ1MDFDMjI1LjIgMTQuNDgwMiAyMjYuOTQ0IDEzLjk5NTMgMjI5LjA2OCAxMy45OTUzQzIzMS4zNTQgMTMuOTk1MyAyMzMuMTQ0IDE0LjUyNjQgMjM0LjQzNyAxNS41ODg2QzIzNS43NTQgMTYuNjI3OCAyMzYuNTA0IDE4LjA1OTYgMjM2LjY4OSAxOS44ODM5SDIzMi40MjhDMjMyLjI0NCAxOC4xNTE5IDIzMS4xIDE3LjI4NiAyMjguOTk5IDE3LjI4NkMyMjguMDUyIDE3LjI4NiAyMjcuMzAyIDE3LjQ1OTIgMjI2Ljc0NyAxNy44MDU1QzIyNi4yMTYgMTguMTUxOSAyMjUuOTUxIDE4LjYzNjkgMjI1Ljk1MSAxOS4yNjA0QzIyNS45NTEgMTkuNDY4MiAyMjUuOTg1IDE5LjY2NDUgMjI2LjA1NSAxOS44NDkyQzIyNi4xNDcgMjAuMDEwOSAyMjYuMjg2IDIwLjE2MSAyMjYuNDcgMjAuMjk5NUMyMjYuNjc4IDIwLjQxNSAyMjYuODc1IDIwLjUxODkgMjI3LjA1OSAyMC42MTEzQzIyNy4yNDQgMjAuNjgwNiAyMjcuNTEgMjAuNzYxNCAyMjcuODU2IDIwLjg1MzhDMjI4LjIwMiAyMC45MjMxIDIyOC41MDMgMjAuOTkyMyAyMjguNzU3IDIxLjA2MTZDMjI5LjAxMSAyMS4xMDc4IDIyOS4zNTcgMjEuMTc3MSAyMjkuNzk2IDIxLjI2OTRDMjMwLjIzNCAyMS4zMzg3IDIzMC41ODEgMjEuMzk2NCAyMzAuODM1IDIxLjQ0MjZDMjMxLjU3NCAyMS42MDQzIDIzMi4xNzQgMjEuNzU0NCAyMzIuNjM2IDIxLjg5MjlDMjMzLjEyMSAyMi4wMDg0IDIzMy42NzUgMjIuMjE2MiAyMzQuMjk5IDIyLjUxNjRDMjM0LjkyMiAyMi43OTM2IDIzNS40MDcgMjMuMTE2OSAyMzUuNzU0IDIzLjQ4NjNDMjM2LjEyMyAyMy44MzI3IDIzNi40MzUgMjQuMzE3NyAyMzYuNjg5IDI0Ljk0MTJDMjM2Ljk2NiAyNS41NDE2IDIzNy4xMDUgMjYuMjQ1OSAyMzcuMTA1IDI3LjA1NDJDMjM3LjEwNSAyOC44MDkyIDIzNi40MTIgMzAuMjA2MyAyMzUuMDI2IDMxLjI0NTVDMjMzLjY2NCAzMi4yNjE1IDIzMS44NjMgMzIuNzY5NiAyMjkuNjIzIDMyLjc2OTZaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K)](/)Secure
+staking with leading blockchain infrastructure provider
+
+LN Tech FZE,  
+Saif Suite X3-46,  
+SAIF Zone, Sharjah, UAE
+
+[![](data:image/svg+xml;charset=utf-8,%3Csvg%20height='288'%20width='462'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%3E%3C/svg%3E)![Verified
+badge](/static/6ba07c96436f2c9565f80d24555d7bac/edf67/vsp-pro.svg)![Verified
+badge](/static/6ba07c96436f2c9565f80d24555d7bac/edf67/vsp-
+pro.svg)](https://www.stakingrewards.com/savings/luganodes/)
+
+Products[Staking](/product/staking/)
+
+[EigenLayer Staking](/product/eigenlayer/)
+
+[zkRaaS](/product/zkraas/)
+
+[Staking API](/product/stakingapi/)
+
+[Managed Nodes](/product/managednodes/)
+
+[Terminal](/product/luganodesterminal/)
+
+ResourceClient Types
+
+[Custodian](/client/custodian/)[Exchanges](/client/exchanges/)[Investors
+(VCs)](/client/investors/)
+
+Case Studies
+
+[CoinList](/case-study/Coinlist_CS/)[Bitfinex](/case-study/Bitfinex_CS/)
+
+[Blog](/blog/)
+
+[Staking Guides](/blog/?interval=3&category=Guides#blog-list)
+
+[Newsletter](/#signup)
+
+[Docs](https://docs.luganodes.com/)
+
+Company[About us](/aboutus/)
+
+[Get in Touch](/#getInTouch)
+
+[Security](https://security.luganodes.com/)
+
+Social[Twitter](https://twitter.com/luganodes)
+
+[LinkedIn](https://www.linkedin.com/company/luganodes/)
+
+[Telegram](https://t.me/luganodesofficial/)
+
+[Medium](https://medium.com/luganodes)
+
+[YouTube](https://www.youtube.com/@luganodes)
+
+[Terms of use](/termsofservice/)[Privacy Policy](/privacypolicy/)
+
+© 2024 Luganodes | All rights reserved
+
+[Terms of use](/termsofservice/)[Privacy Policy](/privacypolicy/)
+
