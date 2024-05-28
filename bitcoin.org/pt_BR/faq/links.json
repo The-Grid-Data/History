@@ -1,0 +1,157 @@
+{
+    "target_url": "https://bitcoin.org/pt_BR/faq",
+    "domains": {
+        "": [
+            "bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"
+        ],
+        "bitcoin.org": [
+            "https://bitcoin.org/ar/faq",
+            "https://bitcoin.org/bg/faq",
+            "https://bitcoin.org/ca/faq",
+            "https://bitcoin.org/da/faq",
+            "https://bitcoin.org/de/faq",
+            "https://bitcoin.org/el/faq",
+            "https://bitcoin.org/en/alerts",
+            "https://bitcoin.org/en/blog",
+            "https://bitcoin.org/en/faq",
+            "https://bitcoin.org/en/privacy",
+            "https://bitcoin.org/en/spend-bitcoin",
+            "https://bitcoin.org/es/faq",
+            "https://bitcoin.org/fa/faq",
+            "https://bitcoin.org/fr/faq",
+            "https://bitcoin.org/he/faq",
+            "https://bitcoin.org/hi/faq",
+            "https://bitcoin.org/hu/gyik",
+            "https://bitcoin.org/hy/faq",
+            "https://bitcoin.org/id/faq",
+            "https://bitcoin.org/it/faq",
+            "https://bitcoin.org/ja/faq",
+            "https://bitcoin.org/km/faq",
+            "https://bitcoin.org/ko/faq",
+            "https://bitcoin.org/nl/faq",
+            "https://bitcoin.org/pl/faq",
+            "https://bitcoin.org/pt_BR/",
+            "https://bitcoin.org/pt_BR/bitcoin-paper",
+            "https://bitcoin.org/pt_BR/bitcoin-para-empresas",
+            "https://bitcoin.org/pt_BR/bitcoin-para-pessoas",
+            "https://bitcoin.org/pt_BR/comecando",
+            "https://bitcoin.org/pt_BR/como-funciona",
+            "https://bitcoin.org/pt_BR/compre",
+            "https://bitcoin.org/pt_BR/comunidade",
+            "https://bitcoin.org/pt_BR/desenvolvimento",
+            "https://bitcoin.org/pt_BR/download",
+            "https://bitcoin.org/pt_BR/eventos",
+            "https://bitcoin.org/pt_BR/faq",
+            "https://bitcoin.org/pt_BR/faq#a-quantidade-finita-de-bitcoins-sera-uma-limitacao",
+            "https://bitcoin.org/pt_BR/faq#ajuda",
+            "https://bitcoin.org/pt_BR/faq#bitcoin-e-anonimo",
+            "https://bitcoin.org/pt_BR/faq#bitcoin-e-realmente-usado-pelas-pessoas",
+            "https://bitcoin.org/pt_BR/faq#bitcoin-e-totalmente-virtual-e-imaterial",
+            "https://bitcoin.org/pt_BR/faq#bitcoin-e-vulneravel-a-computacao-quantica",
+            "https://bitcoin.org/pt_BR/faq#bitcoin-nao-foi-hackeado-no-passado",
+            "https://bitcoin.org/pt_BR/faq#bitcoin-nao-vai-entrar-numa-espiral-deflacionaria",
+            "https://bitcoin.org/pt_BR/faq#bitcoin-pode-chegar-a-ser-uma-rede-importante-de-pagamento",
+            "https://bitcoin.org/pt_BR/faq#bitcoin-pode-ser-regulamentado",
+            "https://bitcoin.org/pt_BR/faq#como-a-mineracao-ajuda-a-manter-a-seguranca-do-bitcoin",
+            "https://bitcoin.org/pt_BR/faq#como-alguem-consegue-bitcoins",
+            "https://bitcoin.org/pt_BR/faq#como-funciona-a-mineracao",
+            "https://bitcoin.org/pt_BR/faq#como-funciona-o-bitcoin",
+            "https://bitcoin.org/pt_BR/faq#como-sao-criados-bitcoins",
+            "https://bitcoin.org/pt_BR/faq#e-quanto-a-protecao-do-consumidor-e-do-bitcoin",
+            "https://bitcoin.org/pt_BR/faq#e-quanto-ao-bitcoin-e-impostos",
+            "https://bitcoin.org/pt_BR/faq#e-se-alguem-comprasse-todos-os-bitcoins-existentes",
+            "https://bitcoin.org/pt_BR/faq#e-se-alguem-criar-uma-moeda-digital-melhor",
+            "https://bitcoin.org/pt_BR/faq#e-se-eu-receber-um-bitcoin-enquanto-o-meu-computador-estiver-desligado",
+            "https://bitcoin.org/pt_BR/faq#economia",
+            "https://bitcoin.org/pt_BR/faq#especulacao-e-volatibilidade-um-problema-bitcoin",
+            "https://bitcoin.org/pt_BR/faq#geral",
+            "https://bitcoin.org/pt_BR/faq#legal",
+            "https://bitcoin.org/pt_BR/faq#mais-ajuda",
+            "https://bitcoin.org/pt_BR/faq#mineracao",
+            "https://bitcoin.org/pt_BR/faq#minerar-bitcoins-nao-e-um-desperdicio-de-energia",
+            "https://bitcoin.org/pt_BR/faq#o-bitcoin-e-legal",
+            "https://bitcoin.org/pt_BR/faq#o-bitcoin-e-seguro",
+            "https://bitcoin.org/pt_BR/faq#o-bitcoin-e-uma-bolha",
+            "https://bitcoin.org/pt_BR/faq#o-bitcoin-e-uma-piramide",
+            "https://bitcoin.org/pt_BR/faq#o-bitcoin-e-usado-para-atividades-ilegais",
+            "https://bitcoin.org/pt_BR/faq#o-bitcoin-nao-beneficia-quem-entrou-mais-cedo",
+            "https://bitcoin.org/pt_BR/faq#o-bitcoin-pode-se-tornar-sem-valor",
+            "https://bitcoin.org/pt_BR/faq#o-que-acontece-quando-bitcoins-sao-perdidos",
+            "https://bitcoin.org/pt_BR/faq#o-que-determina-o-valor-do-bitcoin",
+            "https://bitcoin.org/pt_BR/faq#o-que-e-bitcoin",
+            "https://bitcoin.org/pt_BR/faq#o-que-e-mineracao-bitcoin",
+            "https://bitcoin.org/pt_BR/faq#o-que-eu-preciso-para-comecar-a-minerar",
+            "https://bitcoin.org/pt_BR/faq#o-que-significa-sincronizando-e-porque-demora-tanto",
+            "https://bitcoin.org/pt_BR/faq#porque-bitcoins-tem-valor",
+            "https://bitcoin.org/pt_BR/faq#porque-eu-tenho-que-esperar-10-minutos",
+            "https://bitcoin.org/pt_BR/faq#porque-pessoas-confiam-no-bitcoin",
+            "https://bitcoin.org/pt_BR/faq#posso-fazer-dinheiro-com-bitcoin",
+            "https://bitcoin.org/pt_BR/faq#quais-sao-algumas-desvantagens-do-bitcoin",
+            "https://bitcoin.org/pt_BR/faq#quais-sao-as-vantagens-do-bitcoin",
+            "https://bitcoin.org/pt_BR/faq#quanto-sera-a-taxa-de-transacao",
+            "https://bitcoin.org/pt_BR/faq#quao-dificil-e-fazer-um-pagamento-por-bitcoin",
+            "https://bitcoin.org/pt_BR/faq#quem-controla-a-rede-bitcoin",
+            "https://bitcoin.org/pt_BR/faq#quem-criou-bitcoin",
+            "https://bitcoin.org/pt_BR/faq#seguranca",
+            "https://bitcoin.org/pt_BR/faq#transacoes",
+            "https://bitcoin.org/pt_BR/faq#usuarios-poderiam-conspirar-contra-bitcoin",
+            "https://bitcoin.org/pt_BR/imprensa",
+            "https://bitcoin.org/pt_BR/inovacao",
+            "https://bitcoin.org/pt_BR/legal",
+            "https://bitcoin.org/pt_BR/proteja-sua-carteira",
+            "https://bitcoin.org/pt_BR/recursos",
+            "https://bitcoin.org/pt_BR/sobre-nos",
+            "https://bitcoin.org/pt_BR/suporte-bitcoin",
+            "https://bitcoin.org/pt_BR/trocas",
+            "https://bitcoin.org/pt_BR/vocabulario",
+            "https://bitcoin.org/pt_BR/voce-precisa-saber",
+            "https://bitcoin.org/pt_BR/voce-precisa-saber#instant",
+            "https://bitcoin.org/ro/intrebari-frecvente",
+            "https://bitcoin.org/ru/faq",
+            "https://bitcoin.org/sl/vprasanja-in-odgovori",
+            "https://bitcoin.org/sr/cesto-postavljanja-pitanja",
+            "https://bitcoin.org/sv/faq",
+            "https://bitcoin.org/tr/sss",
+            "https://bitcoin.org/uk/faq",
+            "https://bitcoin.org/zh_CN/faq",
+            "https://bitcoin.org/zh_TW/faq"
+        ],
+        "bitcoincharts.com": [
+            "https://bitcoincharts.com/bitcoin/"
+        ],
+        "denarium.com": [
+            "https://denarium.com/"
+        ],
+        "developer.bitcoin.org": [
+            "https://developer.bitcoin.org/"
+        ],
+        "en.bitcoin.it": [
+            "https://en.bitcoin.it/wiki/Help:FAQ",
+            "https://en.bitcoin.it/wiki/Scalability"
+        ],
+        "en.wikipedia.org": [
+            "https://en.wikipedia.org/wiki/German_gold_mark",
+            "https://en.wikipedia.org/wiki/Legality_of_bitcoin_by_country",
+            "https://en.wikipedia.org/wiki/Network_effect",
+            "https://en.wikipedia.org/wiki/Zimbabwean_dollar"
+        ],
+        "financialcryptography.com": [
+            "http://financialcryptography.com/mt/archives/001325.html"
+        ],
+        "live.blockcypher.com": [
+            "https://live.blockcypher.com/btc/"
+        ],
+        "localbitcoins.com": [
+            "https://localbitcoins.com/"
+        ],
+        "opensource.org": [
+            "http://opensource.org/licenses/mit-license.php"
+        ],
+        "www.bitcoinmining.com": [
+            "http://www.bitcoinmining.com/"
+        ],
+        "www.buybitcoinworldwide.com": [
+            "https://www.buybitcoinworldwide.com"
+        ]
+    }
+}
