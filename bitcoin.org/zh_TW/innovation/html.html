@@ -1,0 +1,764 @@
+<!DOCTYPE html><html lang="zh_TW"><head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>åµæ° - Bitcoin</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+<link rel="stylesheet" href="/css/sans.css?1716491272">
+<script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.org is a community funded project, donations are appreciated and used to improve the website.
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        Make a donation
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.org needs your support!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">Donate to Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">Use this QR code or address below</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="Or custom amount? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="Or custom amount? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="Optional description (for your wallet)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="/zh_TW/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">ä»ç´¹</a>
+    <ul>
+      <li><a href="/zh_TW/bitcoin-for-individuals">åäºº</a></li>
+      <li><a href="/zh_TW/bitcoin-for-businesses">åå</a></li>
+      <li><a href="https://developer.bitcoin.org/">éç¼äººå¡</a></li>
+      <li><a href="/zh_TW/getting-started">éå§ä½¿ç¨</a></li>
+      <li><a href="/zh_TW/how-it-works">éä½åç</a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">è³æº</a>
+    <ul>
+      <li><a href="/zh_TW/resources">è³æº</a>
+      </li><li><a href="/zh_TW/exchanges">Exchanges</a></li>
+      <li><a href="/zh_TW/community">ç¤¾ç¾¤</a></li>
+      
+      
+      <li><a href="/zh_TW/vocabulary">è©å½</a></li>
+      <li><a href="/zh_TW/events">æ´»å</a></li>
+      
+        <li><a href="/zh_TW/download">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li class="active"><a href="/zh_TW/innovation">åµæ°</a></li>
+  <li><a class="is-expand">åè</a>
+    <ul>
+      <li><a href="/zh_TW/support-bitcoin">æ¯æ Bitcoin</a>
+      </li><li><a href="/zh_TW/buy">Buy Bitcoin</a></li>
+      
+      <li><a href="/zh_TW/development">éç¼</a></li>
+    </ul>
+  </li>
+  <li><a href="/zh_TW/faq">å¸¸è¦åé¡</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>ç¹é«ä¸­æ</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/inovasi">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/innovacio">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/innovation">Dansk</a></li>
+        
+        
+          <li><a href="/de/innovation">Deutsch</a></li>
+        
+        
+          <li><a href="/en/innovation">English</a></li>
+        
+        
+          <li><a href="/es/innovacion">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/innovation">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/innovazione">Italiano</a></li>
+        
+        
+          <li><a href="/hu/innovacio">Magyar</a></li>
+        
+        
+          <li><a href="/nl/innovatie">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/innowacje">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/inovacao">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/inovatie">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/inovacije">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/inovacija">Srpski</a></li>
+        
+        
+          <li><a href="/sv/innovation">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/yenilik">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/innovation">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/innovation">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/innovation">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/innovation">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/innovation">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/innovation">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/innovation">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/innovation">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/innovation">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/innovation">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/innovation">ááááá</a></li>
+        
+        
+          <li><a href="/ja/innovation">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/innovation">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/innovation" class="active">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/inovasi">Bahasa Indonesia</option>
+            
+            <option value="/ca/innovacio">CatalÃ </option>
+            
+            <option value="/da/innovation">Dansk</option>
+            
+            <option value="/de/innovation">Deutsch</option>
+            
+            <option value="/en/innovation">English</option>
+            
+            <option value="/es/innovacion">EspaÃ±ol</option>
+            
+            <option value="/fr/innovation">FranÃ§ais</option>
+            
+            <option value="/it/innovazione">Italiano</option>
+            
+            <option value="/hu/innovacio">Magyar</option>
+            
+            <option value="/nl/innovatie">Nederlands</option>
+            
+            <option value="/pl/innowacje">Polski</option>
+            
+            <option value="/pt_BR/inovacao">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/inovatie">RomÃ¢nÄ</option>
+            
+            <option value="/sl/inovacije">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/inovacija">Srpski</option>
+            
+            <option value="/sv/innovation">Svenska</option>
+            
+            <option value="/tr/yenilik">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/innovation">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/innovation">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/innovation">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/innovation">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/innovation">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/innovation">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/innovation">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/innovation">×¢××¨××ª</option>
+            
+            <option value="/hi/innovation">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/innovation">íêµ­ì´</option>
+            
+            <option value="/km/innovation">ááááá</option>
+            
+            <option value="/ja/innovation">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/innovation">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/innovation" selected="selected">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">zh_TW</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  <div class="hero">
+  <div class="container hero-container">
+    <h1>æ¯ä»ç³»çµ±çåµæ°</h1>
+    <p class="summarytxt">Bitcoin åè­°å¹¶ä¸ååæ¯éæ¼å¾ A å¯æ¬¾å° Bãå®æå¾å¤åè½ï¼éåç¤¾ç¾¤æ­£å¨åªåè®å¾å¤äºæé½æçºå¯è½ãéè£¡æ¯ä¸äºæè¿æ­£å¨ç ç©¶çæè¡ï¼å¶ä¸­æäºå·²ç¶è½ææäºçå¯¦çç¢ååæåãBitcoin ææè¶£çé¨ä»½å¯è½éæå¾ç¼ç¾ã</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row card-row">
+
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/ico_control.svg?1716491272" alt="Icon">
+      <h2 id="control" class=" anchorAf"><a href="#control"></a>åè©é¨ææ§æ¬</h2>
+      <p>ä¸ååææªæçå®å¨æ°´æºå° Bitcoin ä¾èªªæ¯å¯è½çãéåç¶²è·¯çºç¨æ¶é²ç¯æå¸¸è¦çè©é¨å¦æä»æä¸æ³è¦çæ¶è²»ï¼èä¸æ¯ç¹å¹£æ¯ä¸å¯è½å½é çãç¨æ¶å¯ä»¥åä»½æå å¯ä»åçé¢åï¼ä¸ç¡¬é«é¢åå¨å°ä¾æè®çç«æä¸å¤±é¢è®å¾é£ä¸å é£ãBitcoin çè¨­è¨è®å®çç¨æ¶å°ä»åçé¢æå®å¨çææ§æ¬ã</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/accessibility.svg?1716491272" alt="Icon">
+      <h2 id="global" class=" anchorAf"><a href="#global"></a>å¨çå¯æ¥å¥æ§</h2>
+      <p>ä¸çä¸ææçæ¯ä»é½è½å®å¨å±åæä½ãä¸ç®¡ææ²æä¸åéè¡å¸³æ¶ï¼Bitcoin è®ä»»ä½éè¡ãä¼æ¥­æåäººå®å¨å°å¨ä»»ä½å°æ¹ä»»ä½æåå¯æ¬¾åæ¶æ¬¾ãBitcoin å¨å¾å¤åå®¶é½å¯ä»¥ä½¿ç¨ï¼åªæå¨éäºåå®¶å¤§é¨ä»½æ¯ä»ç³»çµ±å æ¬èº«çéå¶èä¸è½ä½¿ç¨ã Bitcoin æåäºå¨çè²¿æçå¯æ¥å¥åº¦ï¼ä¸¦ä¸å®è½ä¿ä½¿åéè²¿æç¹æ¦®ã</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/efficiency.svg?1716491272" alt="Icon">
+      <h2 id="cost" class=" anchorAf"><a href="#cost"></a>ææ¬æç</h2>
+      <p>ééä½¿ç¨å¯ç¢¼æè¡ï¼ä¸éè¦ééåæ¢åè²´çä¸­ä»ä¾ä¿éæ¯ä»å®å¨æçºå¯è½ãä¸å Bitcoin äº¤ææ¯èµ·å¶ä»æ¹å¼è¦ä¾¿å®å¾å¤èä¸è½å¨ç­æéå®æãéæå³è Bitcoin ææ©æå¨å°ä¾æçºä¸ç¨®å¸¸ç¨çå¯åä»»ä½è²¨å¹£çæ¹å¼ã Bitcoin ä¹å¯ä»¥ééåæ¸æè²´çå·¥äººå·¥è³äº¤ææçºè²»ï¼å¹«å©å¾å¤åå®¶ <a href="https://www.youtube.com/watch?v=BrRXP1tp6Kw">æ¸å°è²§å°</a>ã</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/donation.svg?1716491272" alt="Icon">
+      <h2 id="donation" class=" anchorAf"><a href="#donation"></a>å°è²»èæè´</h2>
+      <p>Bitcoin å¨å¾å¤ææ³ä¸æçºäºæ¯ä»å°è²»ååæçä¸ç¨®ç¹å¥ææçæ¹å¼ãå³éä¸ç­æ¬¾é åªéè¦è¼è¼é»æä¸ä¸ï¼èæ¥åææ¬¾ä¹ç°¡å®å¾åé¡¯ç¤ºä¸å QP ç¢¼ãææ¬¾ææ³å¯ä»¥æé¸æå°çµ¦å¬ç¾å¬éï¼éè®éçå©çµç¹å·ææ´é«çéæåº¦ãå¨ç·æ¥ææ³ä¾å¦èªç¶ç½å®³ç¼çæï¼Bitcoin åæå¯ä»¥å¯¦ç¾ä¸åæ´å¿«çåéåé¥ã</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/crowdfunding.svg?1716491272" alt="Icon">
+      <h2 id="crowdfunding" class=" anchorAf"><a href="#crowdfunding"></a>ç¾ç±éè³</h2>
+      <p>éç¶éä¸æ¯å¾æ¹ä¾¿ä½¿ç¨ï¼Bitcoin å¯ä»¥ç¨æ¼é²è¡ Kickstarter-style çç¾ç±æ´»åï¼åäººæé¢éèµçµ¦ä¸åé ç®ï¼éåé ç®åªæå¨æ¶å°è¶³å¤ çå¯ä»¥å¯¦ç¾ç®æ¨çé¢æï¼åäººéè³çé¢ææè¢«æ¶èµ°ãéæ¨£çä¿éªåç´ç± Bitcoin åè­°èçè½ä¿éä¸åäº¤æåªæç¬¦åææçæ¢ä»¶çæåææå¯¦ç¾ã <a href="https://en.bitcoin.it/wiki/Contracts#Example_3:_Assurance_contracts">ç­è§£æ´å¤</a> éæ¼ç¾ç±èå¾çæè¡ã</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/micro-payments.svg?1716491272" alt="Icon">
+      <h2 id="micro" class=" anchorAf"><a href="#micro"></a>å°é¡æ¯ä»</h2>
+      <p>Bitcoin è½èçå°è³ä¸ç¾åçæ¯ä»æ¬¾é ï¼å¾å¿«å°±å¯ä»¥èçæ´å°çæ¸é¡çæ¯ä»ãéæ¨£çæ¯ä»å¨ä»å¤©æ¯ç¨é¬å¹³å¸¸çãæ³åä¸æ¨£ï¼æç§ä¾æ¯ä»æ¶è½åéç¶²è·¯æ¶é³ï¼ééå°é¡å°è²»å¨çè¦½ç¶²é æä¸é¡¯ç¤ºå»£åï¼å¾ä¸å WiFi ç±é»ææ¯åå­ç¯è³¼è²·å¯¬é »ï¼Bitcoin è¶³å¤ ææä¾è®ææéäºæ³æ³æçºå¯è½ã<a href="https://bitcoinj.github.io/working-with-micropayments">ç­è§£æ´å¤</a>éæ¼Bitcoinå¾®æ¯ä»èå¾çæè¡çè³è¨ã</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/mediation.svg?1716491272" alt="Icon">
+      <h2 id="mediation" class=" anchorAf"><a href="#mediation"></a>èª¿è§£ç´ç­</h2>
+      <p>Bitcoin å¯ä»¥ç¨ééå¤éç°½ç½²ä¾éç¼æ°åçç³¾ç´èª¿è§£æåãéåæåè®ç¬¬ä¸æ¹è½å¨å¶ä»å©æ¹æ²æåå¾ä¸è´åè­°çææ³ä¸ééæåå°ä¸åäº¤æï¼èä¸ä»ä¸éè¦å°ä»åçé¢å·æææ§æ¬ãå çºéäºæåæèä½¿ç¨ Bitcoin çææçç¨æ¶ååå®¶å¼å®¹ï¼éå¾å¯è½æä¿é²èªç±ç«¶ç­åå¯¦ç¾æ´é«çè³ªéæ¨æºã</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/multi-signature.svg?1716491272" alt="Icon">
+      <h2 id="multisig" class=" anchorAf"><a href="#multisig"></a>å¤éç°½ç½²å¸³æ¶</h2>
+      <p>å¤éç°½ç½²è®ä¸åäº¤æåªæå¨ä¸åç¾¤é«ä¸­ä¸å®æ¸éçæå¡åæéåäº¤æä¹å¾å®ææè¢«éåç¶²è·¯æ¥åãéå¯ä»¥è¢«ç¨äºè£äºæä¾é²æ­¢ä»»ä½æå¡å¨æ²æå¾å°å¶ä»æå¡çåæçææ³ä¸è±è²»ä»åçé¨ä»½è²¡å¯ãéè¡ä¹å¯ä»¥å©ç¨å®ï¼å¦æç¨æ¶ä¸è½æä¾å¦å¤çä¸åæè­ï¼éè¡å°±å¯ä»¥é»æ­¢é«æ¼ä¸åé¾å¼çæ¯ä»ï¼ä»¥æ­¤é²æ­¢çè³ã</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/trust.svg?1716491272" alt="Icon">
+      <h2 id="trust" class=" anchorAf"><a href="#trust"></a>ä¿¡ä»»åæ­£ç´</h2>
+      <p>Bitcoin éå°æäºæçºå°æ¾éè¡çä¿¡ä»»åé¡æä¾äºè§£æ±ºæ¹æ¡ï¼ééé¸ææ§çæè¨éæåº¦ãæ¸ä½åç´åä¸å¯åæ¶çäº¤æï¼Bitcoin å¯ä»¥ç¨ä½ä¸åå­å²ä¿¡ä»»ååè­°çå¹³èºãä¸èª å¯¦çéè¡ä¸è½æ¬ºé¨éåç³»çµ±ï¼ééç±å¶ä»éè¡æå¬ç¾ä¾è² æè²»ç¨çæ¹å¼ä¾çåå©çãå¨å°ä¾å¦æä¸»è¦çéè¡æ¯æ Bitcoin çè©±ï¼å®å°±è½å¹«å©æ¢å¾©äººåå°éèæ©æ§çæ­£ç´ä¿¡ä»»ã</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/decentralization.svg?1716491272" alt="Icon">
+      <h2 id="resiliency" class=" anchorAf"><a href="#resiliency"></a>éåè½åèå»ä¸­å¿å</h2>
+      <p>Bitcoin ééé«åº¦å»ä¸­å¿ååµå»ºäºä¸åä¸ä¸æ¨£çå·ææ´é«æ°´æºçéåè½åååé¤åº¦çæ¯ä»ç¶²è·¯ãBitcoin ä¸éè¦è»äºä¿è­·å°±å¯ä»¥æä»æ¸ç¾è¬ç¾åçäº¤æãå çºæ²æåä¸åæ¸æä¸­å¿ä¸æ¨£çä¸­å¿é»ï¼æ»æéåç¶²è·¯å°±é£ä¸å é£ãBitcoin è±¡å¾µèä¿éæ¬å°åå¨çéèç³»çµ±å®å¨çé²ç¨åååéé²äºæè¶£çä¸æ­¥ã</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/transparency.svg?1716491272" alt="Icon">
+      <h2 id="transparency" class=" anchorAf"><a href="#transparency"></a>å½æ§éæåº¦</h2>
+      <p>ææç Bitcoin äº¤æé½æ¯å¬ééæçï¼æ¬¾é åèäººçèº«ä»½é»èªæ¯é±ç§çãéè®åäººåçµç¹å¯ä»¥å¯¦è¡æå½æ§çéæè¦åãä¾å¦ï¼ä¸åä¼æ¥­å¯ä»¥é¸æåä¸äºç¹å®çéå¡å¬éç¹å®çäº¤æåé¤é¡ï¼èä¸åéçå©çµç¹åå¯ä»¥èªç±å°è®å¬ç¾ç­è§£å®åæ¯å¤©åæ¯ææ¥æ¶äºå¤å°çåæ¬¾ã</p>
+    </div>
+    
+    <div class="card innovation-card">
+      <img class="titleicon" src="/img/icons/automatization.svg?1716491272" alt="Icon">
+      <h2 id="automation" class=" anchorAf"><a href="#automation"></a>èªååçè§£æ±ºæ¹æ¡</h2>
+      <p>èªåæåéå¸¸è¦èçéæ¯åéç¥¨æä¿¡ç¨å¡æ¯ä»çé¡åº¦éå¶ãéåæ¬å·´å£«å®ç¥¨æ©ãå®åå¡æ©ç­ææçèªåå®è²¨æ©ãBitcoin é©åç¨æ¼æ°ä¸ä»£èªåæåå¹¶å¹«ä»ååæ¸ææ¬ãæ³åä¸ä¸ç¡äººé§é§çè¨ç¨è»æèä¸åå¯ä»¥æèªåæ¶è´¹ç¯®å­ä¸éæéçååºï¼è¨±å¤éæ¨£çè¨­æ³é½æ¯å¯è½çã</p>
+    </div>
+
+  </div>
+</div>
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="/zh_TW/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Support Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Donate</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">ä»ç´¹:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/zh_TW/bitcoin-for-individuals">åäºº</a>
+        </li>
+        <li>
+          <a href="/zh_TW/bitcoin-for-businesses">åå</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">éç¼äººå¡</a>
+        </li>
+        <li>
+          <a href="/zh_TW/getting-started">éå§ä½¿ç¨</a>
+        </li>
+        <li>
+          <a href="/zh_TW/how-it-works">éä½åç</a>
+        </li>
+        <li>
+          <a href="/zh_TW/you-need-to-know">ä½¿ç¨é ç¥</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">è³æº:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/zh_TW/resources">è³æº</a>
+        </li><li>
+          <a href="/zh_TW/exchanges">Exchanges</a>
+        </li>
+        <li>
+          <a href="/zh_TW/community">ç¤¾ç¾¤</a>
+        </li>
+        <li>
+          <a href="/zh_TW/vocabulary">è©å½
+          </a>
+        </li>
+        <li>
+          <a href="/zh_TW/events">æ´»å</a>
+        </li>
+        
+          <li>
+            <a href="/zh_TW/download">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">åè:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/zh_TW/support-bitcoin">æ¯æ Bitcoin</a>
+        
+        
+        </li><li>
+          <a href="/zh_TW/development">éç¼</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Other:</p>
+      
+      <a href="/zh_TW/legal">åæ³</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/zh_TW/press">æ°èåªé«</a>
+      <a href="/zh_TW/about-us">éæ¼ bitcoin.org</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>ä¸åç±å¶è´å©çç¤¾ç¾¤ç¶²ç«</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1716491272" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 ä»¥ <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT ææ¬</a>ç¼ä½</div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">Network Status</a>
+        
+<ul class="lang is-expand">
+  <li><a>ç¹é«ä¸­æ</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/inovasi">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/innovacio">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/innovation">Dansk</a></li>
+        
+        
+          <li><a href="/de/innovation">Deutsch</a></li>
+        
+        
+          <li><a href="/en/innovation">English</a></li>
+        
+        
+          <li><a href="/es/innovacion">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/innovation">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/innovazione">Italiano</a></li>
+        
+        
+          <li><a href="/hu/innovacio">Magyar</a></li>
+        
+        
+          <li><a href="/nl/innovatie">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/innowacje">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/inovacao">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/inovatie">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/inovacije">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/inovacija">Srpski</a></li>
+        
+        
+          <li><a href="/sv/innovation">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/yenilik">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/innovation">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/innovation">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/innovation">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/innovation">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/innovation">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/innovation">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/innovation">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/innovation">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/innovation">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/innovation">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/innovation">ááááá</a></li>
+        
+        
+          <li><a href="/ja/innovation">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/innovation">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/innovation" class="active">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/inovasi">Bahasa Indonesia</option>
+              
+              <option value="/ca/innovacio">CatalÃ </option>
+              
+              <option value="/da/innovation">Dansk</option>
+              
+              <option value="/de/innovation">Deutsch</option>
+              
+              <option value="/en/innovation">English</option>
+              
+              <option value="/es/innovacion">EspaÃ±ol</option>
+              
+              <option value="/fr/innovation">FranÃ§ais</option>
+              
+              <option value="/it/innovazione">Italiano</option>
+              
+              <option value="/hu/innovacio">Magyar</option>
+              
+              <option value="/nl/innovatie">Nederlands</option>
+              
+              <option value="/pl/innowacje">Polski</option>
+              
+              <option value="/pt_BR/inovacao">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/inovatie">RomÃ¢nÄ</option>
+              
+              <option value="/sl/inovacije">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/inovacija">Srpski</option>
+              
+              <option value="/sv/innovation">Svenska</option>
+              
+              <option value="/tr/yenilik">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/innovation">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/innovation">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/innovation">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/innovation">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/innovation">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/innovation">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/innovation">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/innovation">×¢××¨××ª</option>
+              
+              <option value="/hi/innovation">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/innovation">íêµ­ì´</option>
+              
+              <option value="/km/innovation">ááááá</option>
+              
+              <option value="/ja/innovation">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/innovation">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/innovation" selected="selected">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">zh_TW</span>
+          </label>
+        </div>
+      </div>
+<!--      <div class="row">  -->
+        
+<!--    </div> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+
+
+
+
+
+
+</body></html>
