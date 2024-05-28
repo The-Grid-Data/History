@@ -1,0 +1,35 @@
+{
+    "target_url": "https://www.step.finance/terms-conditions",
+    "domains": {
+        "": [
+            "mailto:support@step.finance"
+        ],
+        "analytics.step.finance": [
+            "https://analytics.step.finance/"
+        ],
+        "app.step.finance": [
+            "https://app.step.finance/#/dashboard"
+        ],
+        "discord.gg": [
+            "https://discord.gg/ZWRd2ZxrdR"
+        ],
+        "docs.step.finance": [
+            "https://docs.step.finance/"
+        ],
+        "github.com": [
+            "https://github.com/step-finance"
+        ],
+        "stepfinance.medium.com": [
+            "https://stepfinance.medium.com/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/StepFinance_"
+        ],
+        "www.step.finance": [
+            "https://www.step.finance/",
+            "https://www.step.finance/learn",
+            "https://www.step.finance/privacy-policy",
+            "https://www.step.finance/terms-conditions"
+        ]
+    }
+}
