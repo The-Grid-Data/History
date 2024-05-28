@@ -1,0 +1,104 @@
+{
+    "target_url": "https://solana.com/de/docs/advanced/state-compression",
+    "domains": {
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "en.wikipedia.org": [
+            "https://en.wikipedia.org/wiki/merkle_tree"
+        ],
+        "github.com": [
+            "https://github.com/solana-foundation/developer-content/tree/main/docs/advanced/state-compression.md"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "solana-labs.github.io": [
+            "https://solana-labs.github.io/solana-program-library/account-compression/sdk/docs/modules/index.html#getConcurrentMerkleTreeAccountSize",
+            "https://solana-labs.github.io/solana-web3.js/classes/Connection.html#getMinimumBalanceForRentExemption"
+        ],
+        "solana.com": [
+            "https://solana.com/de",
+            "https://solana.com/de/branding",
+            "https://solana.com/de/developers/cookbook",
+            "https://solana.com/de/developers/guides",
+            "https://solana.com/de/developers/guides/javascript/compressed-nfts",
+            "https://solana.com/de/docs",
+            "https://solana.com/de/docs/advanced/confirmation",
+            "https://solana.com/de/docs/advanced/lookup-tables",
+            "https://solana.com/de/docs/advanced/retry",
+            "https://solana.com/de/docs/advanced/state-compression",
+            "https://solana.com/de/docs/advanced/state-compression#calculate-tree-cost-in-javascript",
+            "https://solana.com/de/docs/advanced/state-compression#canopy-depth",
+            "https://solana.com/de/docs/advanced/state-compression#compressed-nfts",
+            "https://solana.com/de/docs/advanced/state-compression#cost-of-creating-a-tree",
+            "https://solana.com/de/docs/advanced/state-compression#example-1-minting-100-nfts",
+            "https://solana.com/de/docs/advanced/state-compression#example-2-minting-15000-nfts",
+            "https://solana.com/de/docs/advanced/state-compression#example-costs",
+            "https://solana.com/de/docs/advanced/state-compression#max-buffer-size",
+            "https://solana.com/de/docs/advanced/state-compression#max-depth",
+            "https://solana.com/de/docs/advanced/state-compression#merkle-trees-and-concurrent-merkle-trees",
+            "https://solana.com/de/docs/advanced/state-compression#sizing-a-concurrent-merkle-tree",
+            "https://solana.com/de/docs/advanced/state-compression#smaller-canopy-limits-composability",
+            "https://solana.com/de/docs/advanced/state-compression#the-higher-the-max-depth-the-higher-the-cost",
+            "https://solana.com/de/docs/advanced/state-compression#the-larger-the-canopy-depth-value-the-higher-the-cost",
+            "https://solana.com/de/docs/advanced/state-compression#what-is-a-concurrent-merkle-tree",
+            "https://solana.com/de/docs/advanced/state-compression#what-is-a-merkle-tree",
+            "https://solana.com/de/docs/advanced/state-compression#what-is-state-compression",
+            "https://solana.com/de/docs/advanced/versions",
+            "https://solana.com/de/docs/clients/javascript",
+            "https://solana.com/de/docs/clients/javascript-reference",
+            "https://solana.com/de/docs/clients/rust",
+            "https://solana.com/de/docs/core/accounts",
+            "https://solana.com/de/docs/core/clusters",
+            "https://solana.com/de/docs/core/cpi",
+            "https://solana.com/de/docs/core/fees",
+            "https://solana.com/de/docs/core/pda",
+            "https://solana.com/de/docs/core/programs",
+            "https://solana.com/de/docs/core/runtime",
+            "https://solana.com/de/docs/core/tokens",
+            "https://solana.com/de/docs/core/transactions",
+            "https://solana.com/de/docs/economics",
+            "https://solana.com/de/docs/economics/inflation/inflation-schedule",
+            "https://solana.com/de/docs/economics/inflation/terminology",
+            "https://solana.com/de/docs/economics/staking",
+            "https://solana.com/de/docs/economics/staking/stake-accounts",
+            "https://solana.com/de/docs/economics/staking/stake-programming",
+            "https://solana.com/de/docs/intro/dev",
+            "https://solana.com/de/docs/intro/overview",
+            "https://solana.com/de/docs/intro/wallets",
+            "https://solana.com/de/docs/more/exchange",
+            "https://solana.com/de/docs/programs/debugging",
+            "https://solana.com/de/docs/programs/deploying",
+            "https://solana.com/de/docs/programs/examples",
+            "https://solana.com/de/docs/programs/faq",
+            "https://solana.com/de/docs/programs/lang-c",
+            "https://solana.com/de/docs/programs/lang-rust",
+            "https://solana.com/de/docs/programs/limitations",
+            "https://solana.com/de/docs/programs/overview",
+            "https://solana.com/de/docs/rpc",
+            "https://solana.com/de/docs/rpc/http/getminimumbalanceforrentexemption",
+            "https://solana.com/de/docs/terminology",
+            "https://solana.com/de/docs/terminology#account",
+            "https://solana.com/de/docs/terminology#ledger",
+            "https://solana.com/de/ecosystem",
+            "https://solana.com/de/news",
+            "https://solana.com/de/newsletter",
+            "https://solana.com/de/privacy-policy",
+            "https://solana.com/de/privacy-policy#collection-of-information",
+            "https://solana.com/de/tos",
+            "https://solana.com/discord",
+            "https://solana.com/github",
+            "https://solana.com/reddit",
+            "https://solana.com/telegram",
+            "https://solana.com/twitter",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ],
+        "www.npmjs.com": [
+            "https://www.npmjs.com/package/@solana/spl-account-compression"
+        ]
+    }
+}
