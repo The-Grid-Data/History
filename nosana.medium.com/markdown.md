@@ -45,20 +45,10 @@ signaling a transition to a massive GPU-compute grid for AI…](/nosana-
 launches-incentivized-public-test-grid-with-3-million-
 nos-c3ff2d2e764e?source=user_profile---------0----------------------------)
 
-[3 min read·Nov 22, 2023](/nosana-launches-incentivized-public-test-grid-
-with-3-million-nos-c3ff2d2e764e?source=user_profile---------
-0----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fc3ff2d2e764e&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fnosana-
-launches-incentivized-public-test-grid-with-3-million-
-nos-c3ff2d2e764e&user=Nosana&userId=5a13d1805981&source=-----c3ff2d2e764e----0
------------------clap_footer-----------)
-
-\--
+Nov 22, 2023
 
 [1](/nosana-launches-incentivized-public-test-grid-with-3-million-
-nos-c3ff2d2e764e?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------0----------------------------)
+nos-c3ff2d2e764e?source=user_profile---------0----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fc3ff2d2e764e&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fnosana-
 launches-incentivized-public-test-grid-with-3-million-
@@ -73,16 +63,10 @@ dgXPKIB4MYXdxyvpw.png)
 $NOS](https://miro.medium.com/v2/resize:fill:320:214/1*YAvY-
 dgXPKIB4MYXdxyvpw.png)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fc3ff2d2e764e&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fnosana-
-launches-incentivized-public-test-grid-with-3-million-
-nos-c3ff2d2e764e&user=Nosana&userId=5a13d1805981&source=-----c3ff2d2e764e----0
------------------clap_footer-----------)
-
-\--
+Nov 22, 2023
 
 [1](/nosana-launches-incentivized-public-test-grid-with-3-million-
-nos-c3ff2d2e764e?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------0----------------------------)
+nos-c3ff2d2e764e?source=user_profile---------0----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fc3ff2d2e764e&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fnosana-
 launches-incentivized-public-test-grid-with-3-million-
@@ -100,19 +84,9 @@ to the trading pair in return…](/nosanas-nos-rewards-farm-on-
 raydium-3794a511f8ac?source=user_profile---------
 1----------------------------)
 
-[2 min read·Nov 15, 2023](/nosanas-nos-rewards-farm-on-
-raydium-3794a511f8ac?source=user_profile---------
-1----------------------------)
+Nov 15, 2023
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F3794a511f8ac&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fnosanas-
-nos-rewards-farm-on-
-raydium-3794a511f8ac&user=Nosana&userId=5a13d1805981&source=-----3794a511f8ac
-----1-----------------clap_footer-----------)
-
-\--
-
-[1](/nosanas-nos-rewards-farm-on-
-raydium-3794a511f8ac?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+[1](/nosanas-nos-rewards-farm-on-raydium-3794a511f8ac?source=user_profile
 ---------1----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F3794a511f8ac&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fnosanas-
@@ -125,15 +99,9 @@ Raydium!](https://miro.medium.com/v2/resize:fill:160:106/1*nuyAwiImbAc_1p0__a3xu
 ![Nosana’s $NOS Rewards Farm on
 Raydium!](https://miro.medium.com/v2/resize:fill:320:214/1*nuyAwiImbAc_1p0__a3xug.png)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F3794a511f8ac&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fnosanas-
-nos-rewards-farm-on-
-raydium-3794a511f8ac&user=Nosana&userId=5a13d1805981&source=-----3794a511f8ac
-----1-----------------clap_footer-----------)
+Nov 15, 2023
 
-\--
-
-[1](/nosanas-nos-rewards-farm-on-
-raydium-3794a511f8ac?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+[1](/nosanas-nos-rewards-farm-on-raydium-3794a511f8ac?source=user_profile
 ---------1----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F3794a511f8ac&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fnosanas-
@@ -151,20 +119,11 @@ people from the Solana ecosystem on…](/breakpoint-2023-bridging-the-global-
 gpu-shortage-8b2ec90249d5?source=user_profile---------
 2----------------------------)
 
-[5 min read·Nov 10, 2023](/breakpoint-2023-bridging-the-global-gpu-
-shortage-8b2ec90249d5?source=user_profile---------
-2----------------------------)
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F8b2ec90249d5&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fbreakpoint-2023-bridging-
-the-global-gpu-
-shortage-8b2ec90249d5&user=Nosana&userId=5a13d1805981&source=-----8b2ec90249d5
-----2-----------------clap_footer-----------)
-
-\--
+Nov 10, 2023
 
 [](/breakpoint-2023-bridging-the-global-gpu-
-shortage-8b2ec90249d5?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------2----------------------------)
+shortage-8b2ec90249d5?source=user_profile---------
+2----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8b2ec90249d5&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fbreakpoint-2023-bridging-
 the-global-gpu-shortage-8b2ec90249d5&source=---------2-----------------
@@ -176,16 +135,11 @@ Shortage](https://miro.medium.com/v2/resize:fill:160:106/1*aAVNWnjR83qsCkCat9avU
 ![BreakPoint 2023: Bridging the Global GPU
 Shortage](https://miro.medium.com/v2/resize:fill:320:214/1*aAVNWnjR83qsCkCat9avUw.png)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F8b2ec90249d5&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fbreakpoint-2023-bridging-
-the-global-gpu-
-shortage-8b2ec90249d5&user=Nosana&userId=5a13d1805981&source=-----8b2ec90249d5
-----2-----------------clap_footer-----------)
-
-\--
+Nov 10, 2023
 
 [](/breakpoint-2023-bridging-the-global-gpu-
-shortage-8b2ec90249d5?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
----------2----------------------------)
+shortage-8b2ec90249d5?source=user_profile---------
+2----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8b2ec90249d5&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fbreakpoint-2023-bridging-
 the-global-gpu-shortage-8b2ec90249d5&source=---------2-----------------
@@ -202,19 +156,9 @@ we’ve decided to pivot away…](/nosanas-new-direction-ai-
 inference-77b98d78ea06?source=user_profile---------
 3----------------------------)
 
-[5 min read·Oct 18, 2023](/nosanas-new-direction-ai-
-inference-77b98d78ea06?source=user_profile---------
-3----------------------------)
+Oct 18, 2023
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F77b98d78ea06&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fnosanas-
-new-direction-ai-
-inference-77b98d78ea06&user=Nosana&userId=5a13d1805981&source=-----77b98d78ea06
-----3-----------------clap_footer-----------)
-
-\--
-
-[](/nosanas-new-direction-ai-
-inference-77b98d78ea06?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+[](/nosanas-new-direction-ai-inference-77b98d78ea06?source=user_profile
 ---------3----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F77b98d78ea06&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fnosanas-
@@ -227,15 +171,9 @@ Inference](https://miro.medium.com/v2/resize:fill:160:106/1*kO8x-tR_mJ_au0BGxerF
 ![Nosana’s New Direction: AI
 Inference](https://miro.medium.com/v2/resize:fill:320:214/1*kO8x-tR_mJ_au0BGxerF9A.png)
 
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F77b98d78ea06&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fnosanas-
-new-direction-ai-
-inference-77b98d78ea06&user=Nosana&userId=5a13d1805981&source=-----77b98d78ea06
-----3-----------------clap_footer-----------)
+Oct 18, 2023
 
-\--
-
-[](/nosanas-new-direction-ai-
-inference-77b98d78ea06?responsesOpen=true&sortBy=REVERSE_CHRON&source=user_profile
+[](/nosanas-new-direction-ai-inference-77b98d78ea06?source=user_profile
 ---------3----------------------------)
 
 [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F77b98d78ea06&operation=register&redirect=https%3A%2F%2Fnosana.medium.com%2Fnosanas-
