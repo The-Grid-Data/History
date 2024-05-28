@@ -1,0 +1,759 @@
+<!DOCTYPE html><html lang="fa"><head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Ø­ÙØ§ÛØª Ø§Ø² Ø¨ÛØª Ú©ÙÛÙ - Ø¨ÛØª Ú©ÙÛÙ</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+<link rel="stylesheet" href="/css/rtl.css?1716491272">
+
+<script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.org is a community funded project, donations are appreciated and used to improve the website.
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        Make a donation
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.org needs your support!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">Donate to Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">Use this QR code or address below</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="Or custom amount? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="Or custom amount? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="Optional description (for your wallet)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="/fa/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">ÙÙØ¯ÙÙ</a>
+    <ul>
+      <li><a href="/fa/bitcoin-for-individuals">Ø§ÙØ±Ø§Ø¯</a></li>
+      <li><a href="/fa/bitcoin-for-businesses">Ú©Ø³Ø¨ Ù Ú©Ø§Ø±ÙØ§</a></li>
+      <li><a href="https://developer.bitcoin.org/">ØªÙØ³Ø¹Ù Ø¯ÙÙØ¯Ú¯Ø§Ù</a></li>
+      <li><a href="/fa/getting-started">Ø¢ØºØ§Ø² Ø¨Ù Ú©Ø§Ø±</a></li>
+      <li><a href="/fa/how-it-works">ÚÚ¯ÙÙÙ Ú©Ø§Ø± ÙÛ Ú©ÙØ¯</a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">ÙÙØ§Ø¨Ø¹</a>
+    <ul>
+      <li><a href="/fa/resources">ÙÙØ§Ø¨Ø¹</a>
+      </li><li><a href="/fa/exchanges">Exchanges</a></li>
+      <li><a href="/fa/community">Ø¬Ø§ÙØ¹Ù</a></li>
+      
+      
+      <li><a href="/fa/vocabulary">Ø¯Ø§ÛØ±Ù ÙØ§ÚÚ¯Ø§Ù</a></li>
+      <li><a href="/fa/events">Ø±ÙÛØ¯Ø§Ø¯ ÙØ§</a></li>
+      
+        <li><a href="/fa/download">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li><a href="/fa/innovation">ÙÙ Ø¢ÙØ±Û</a></li>
+  <li><a class="is-expand">ÙØ´Ø§Ø±Ú©Øª</a>
+    <ul>
+      <li class="active"><a href="/fa/support-bitcoin">Ø­ÙØ§ÛØª Ø§Ø² Ø¨ÛØª Ú©ÙÛÙ</a>
+      </li><li><a href="/fa/buy">Buy Bitcoin</a></li>
+      
+      <li><a href="/fa/development">ØªÙØ³Ø¹Ù</a></li>
+    </ul>
+  </li>
+  <li><a href="/fa/faq">Ù¾Ø±Ø³Ø´âÙØ§Û Ø±Ø§ÛØ¬</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>ÙØ§Ø±Ø³Û</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/dukung-bitcoin">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/dona-suport-a-bitcoin">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/stoet-bitcoin">Dansk</a></li>
+        
+        
+          <li><a href="/de/bitcoin-unterstuetzen">Deutsch</a></li>
+        
+        
+          <li><a href="/en/support-bitcoin">English</a></li>
+        
+        
+          <li><a href="/es/apoya-bitcoin">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/supporter-bitcoin">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/sostieni-bitcoin">Italiano</a></li>
+        
+        
+          <li><a href="/hu/tamogassa-a-bitcoint">Magyar</a></li>
+        
+        
+          <li><a href="/nl/help-bitcoin">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/wesprzyj-bitcoin">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/suporte-bitcoin">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/sustine-bitcoin">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/podprite-bitcoin">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/podrzite-bitkoin">Srpski</a></li>
+        
+        
+          <li><a href="/sv/stod-bitcoin">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/bitcoini-destekleyin">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/support-bitcoin">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/support-bitcoin">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/support-bitcoin">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/support-bitcoin">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/support-bitcoin">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/support-bitcoin">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/support-bitcoin" class="active">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/support-bitcoin">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/support-bitcoin">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/support-bitcoin">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/support-bitcoin">ááááá</a></li>
+        
+        
+          <li><a href="/ja/support-bitcoin">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/support-bitcoin">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/support-bitcoin">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/dukung-bitcoin">Bahasa Indonesia</option>
+            
+            <option value="/ca/dona-suport-a-bitcoin">CatalÃ </option>
+            
+            <option value="/da/stoet-bitcoin">Dansk</option>
+            
+            <option value="/de/bitcoin-unterstuetzen">Deutsch</option>
+            
+            <option value="/en/support-bitcoin">English</option>
+            
+            <option value="/es/apoya-bitcoin">EspaÃ±ol</option>
+            
+            <option value="/fr/supporter-bitcoin">FranÃ§ais</option>
+            
+            <option value="/it/sostieni-bitcoin">Italiano</option>
+            
+            <option value="/hu/tamogassa-a-bitcoint">Magyar</option>
+            
+            <option value="/nl/help-bitcoin">Nederlands</option>
+            
+            <option value="/pl/wesprzyj-bitcoin">Polski</option>
+            
+            <option value="/pt_BR/suporte-bitcoin">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/sustine-bitcoin">RomÃ¢nÄ</option>
+            
+            <option value="/sl/podprite-bitcoin">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/podrzite-bitkoin">Srpski</option>
+            
+            <option value="/sv/stod-bitcoin">Svenska</option>
+            
+            <option value="/tr/bitcoini-destekleyin">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/support-bitcoin">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/support-bitcoin">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/support-bitcoin">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/support-bitcoin">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/support-bitcoin">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/support-bitcoin">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/support-bitcoin" selected="selected">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/support-bitcoin">×¢××¨××ª</option>
+            
+            <option value="/hi/support-bitcoin">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/support-bitcoin">íêµ­ì´</option>
+            
+            <option value="/km/support-bitcoin">ááááá</option>
+            
+            <option value="/ja/support-bitcoin">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/support-bitcoin">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/support-bitcoin">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">fa</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  <div class="hero">
+  <div class="container hero-container">
+    <h1>Ø­ÙØ§ÛØª Ø§Ø² Ø¨ÛØª Ú©ÙÛÙ</h1>
+    <p class="summarytxt">Ø¨ÛØª Ú©ÙÛÙ ÛÚ© Ù¾Ø±ÙØªÚ©Ù Ø§Ø³Øª Ú©Ù Ø¯Ø± ÛÚ© Ø¬Ø§ÙØ¹Ù Ú©ÙÚÚ© ÙØªÙÙØ¯ Ù Ø³Ù¾Ø³  Ø¨Ù Ø³Ø±Ø¹Øª Ø±Ø´Ø¯ Ú©Ø±Ø¯. Ø´ÙØ§ ÙÛØªÙØ§ÙÛØ¯ Ú©Ø§Ø±ÙØ§Û Ø²ÛØ§Ø¯Û Ø¨Ø±Ø§Û Ú©ÙÚ© Ø¨Ù Ú¯Ø³ØªØ±Ø´ Ù Ø¨ÙØ¨ÙØ¯ Ø¨ÛØª Ú©ÙÛÙ Ø¯Ø± Ø·ÙÙ Ø²ÙØ§Ù Ø§ÙØ¬Ø§Ù Ø¯ÙÛØ¯.</p>
+  </div>
+</div>
+
+<div class="container">
+  
+  <div class="row card-row">
+    <div class="card support-card">
+      <img class="titleicon" src="/img/icons/ico_multi.svg?1716491272" alt="Icon">
+      <h2 id="use" class=" anchorAf"><a href="#use"></a>Ø§Ø³ØªÙØ§Ø¯Ù Ø§Ø² Ø¨ÛØª Ú©ÙÛÙ</h2>
+      <p><a href="/fa/getting-started">Ø§Ø³ØªÙØ§Ø¯Ù Ø§Ø² Ø¨ÛØª Ú©ÙÛÙ</a> Ø§ÙÙÛÙ Ú¯Ø§ÙÛ Ø§Ø³Øª Ú©Ù Ø¨Ø±Ø§Û Ø­ÙØ§ÛØª Ø§Ø² Ø¨ÛØª Ú©ÙÛÙ Ø¨Ø± ÙÛ Ø¯Ø§Ø±ÛØ¯. Ø§Ø­ØªÙØ§ÙØ§Ù ÙÙØ§Ø±Ø¯ Ø¨Ø³ÛØ§Ø± Ø¯ÛÚ¯Ø±Û ÙØ³ØªÙØ¯ Ú©Ù ÙÛ ØªÙØ§ÙÙØ¯ Ø²ÙØ¯Ú¯Û Ø´ÙØ§ Ø±Ø§ Ø¢Ø³Ø§ÙØªØ± Ø³Ø§Ø²ÙØ¯. Ø´ÙØ§ ÙÛ ØªÙØ§ÙÛØ¯ Ø¨Ø§ Ø¨ÛØª Ú©ÙÛÙ Ø®Ø±ÛØ¯ Ú©Ø±Ø¯Ù Ù Ù¾Ø±Ø¯Ø§Ø®ØªÙØ§ Ø±Ø§ Ø¨Ù¾Ø°ÛØ±ÛØ¯.</p>
+    </div>
+    
+    <div class="card support-card">
+      <img class="titleicon" src="/img/icons/ico_network.svg?1716491272" alt="Icon">
+      <h2 id="node" class=" anchorAf"><a href="#node"></a> Ø¯Ø± Ø´Ø¨Ú©Ù Ø¨Ø§Ø´ÛØ¯</h2>
+      <p>Ø§Ú¯Ø± Ø§ØªØµØ§Ù Ø§ÛÙØªØ±ÙØª Ø®ÙØ¨Û Ø¯Ø§Ø±ÛØ¯Ø ÙÛ ØªÙØ§ÙÛØ¯ Ø¨Ø§ Ø¯Ø± Ø­Ø§Ù Ø§Ø¬Ø±Ø§ ÙÚ¯ÙØ¯Ø§Ø´ØªÙ <a href="/fa/download">ÙØ±Ù Ø§ÙØ²Ø§Ø± ÙÙÙ ÙÙØ¯ </a> Ø±ÙÛ Ú©Ø§ÙÙ¾ÛÙØªØ± ÛØ§ Ø³Ø±ÙØ±ØªØ§Ù Ù Ø¨Ø§Ø² Ú©Ø±Ø¯Ù Ù¾ÙØ±Øª 8333Ø Ø´Ø¨Ú©Ù Ø¨ÛØª Ú©ÙÛÙ Ø±Ø§ ØªÙÙÛØª Ú©ÙÛØ¯. ÙÙÙ ÙÙØ¯ÙØ§ ØªÙØ§ÙÛ ØªØ±Ø§Ú©ÙØ´ÙØ§ Ø±Ø§ Ø§ÛÙÙ Ú©Ø±Ø¯Ù Ù Ø±ÙÙ ÙÛ ÙÙØ§ÛÙØ¯.</p>
+    </div>
+    
+    <div class="card support-card">
+      <img class="titleicon" src="/img/icons/ico_mining.svg?1716491272" alt="Icon">
+      <h2 id="mining" class=" anchorAf"><a href="#mining"></a>Ø§Ø³ØªØ®Ø±Ø§Ø¬</h2>
+      <p>ÙÛ ØªÙØ§ÙÛØ¯ Ø¨Ø±Ø§Û Ú©ÙÚ© Ø¨Ù Ù¾Ø±Ø¯Ø§Ø²Ø´ ØªØ±Ø§Ú©ÙØ´ÙØ§ <a href="http://www.bitcoinmining.com/">Ø§Ø³ØªØ®Ø±Ø§Ø¬ Ø¨ÛØª Ú©ÙÛÙÙØ§</a> Ø±Ø§ Ø¢ØºØ§Ø² Ú©ÙÛØ¯. Ø¨Ù ÙÙØ¸ÙØ± Ø­ÙØ§Ø¸Øª Ø§Ø² Ø´Ø¨Ú©ÙØ Ø¨Ø§ÛØ¯ Ø¨Ù Ø­ÙØ¶ÚÙ ÙØ§Û Ú©ÙÚÚ©ØªØ± Ø§Ø³ØªØ®Ø±Ø§Ø¬ Ø¨Ù¾ÛÙÙØ¯ÛØ¯ Ù Ø­ÙØ¶ÚÙ ÙØ§Û ØªÙØ±Ú©Ø²Ø²Ø¯Ø§ÛÛ Ø´Ø¯Ù Ø§Û ÙØ§ÙÙØ¯  <a href="http://p2pool.in/">P2Pool</a> Ù ÛØ§ <a href="https://en.bitcoin.it/wiki/Comparison_of_mining_pools">pools</a> Ø¨Ø§ Ù¾Ø´ØªÛØ¨Ø§ÙÛ (getblocktemplate (GBT Ø±Ø§ Ø¯Ø± Ø§ÙÙÛØª ÙØ±Ø§Ø± Ø¯ÙÛØ¯.</p>
+    </div>
+    
+    <div class="card support-card">
+      <img class="titleicon" src="/img/icons/ico_translate.svg?1716491272" alt="Icon">
+      <h2 id="translate" class=" anchorAf"><a href="#translate"></a>ØªØ±Ø¬ÙÙ Ú©Ø±Ø¯Ù</h2>
+      <p>Ø´ÙØ§ ÙÛ ØªÙØ§ÙÛØ¯ Ø¨Ø§ ØªØ±Ø¬ÙÙ Ú©Ø±Ø¯Ù ÛØ§ Ø¨ÙØ¨ÙØ¯ ØªØ±Ø¬ÙÙ ÙØ§Û Ø¯Ø±ÙÙ Ø¨Ø®Ø´ÙØ§Û ÙÙÙ Ø²ÛØ³Øª Ø¨ÙÙÙ Ø¨ÛØª Ú©ÙÛÙØ Ø¯Ø³ØªØ±Ø³ Ù¾Ø°ÛØ±Û Ø¨ÛØª Ú©ÙÛÙ Ø±Ø§ Ø§ÙØ²Ø§ÛØ´ Ø¯ÙÛØ¯. ØªÙÙØ§ Ú©Ø§ÙÛ Ø§Ø³Øª Ù¾Ø±ÙÚÙ Ø§Û Ø±Ø§ Ú©Ù ÙÛØ®ÙØ§ÙÛØ¯ Ø¨Ù Ø¢Ù Ú©ÙÚ© Ú©ÙÛØ¯Ø Ø§ÙØªØ®Ø§Ø¨ ÙÙØ§ÛÛØ¯.</p>
+      <p>
+        <a href="https://www.transifex.com/projects/p/bitcoin/">Bitcoin Core</a> -
+        <a href="https://www.transifex.com/projects/p/bitcoinorg/">Bitcoin.org</a> -
+        <a href="https://en.bitcoin.it/wiki/Bitcoin.it_Wiki">Bitcoin Wiki</a> -
+        <a href="https://www.transifex.com/projects/p/bitcoin-wallet/">Bitcoin Wallet (Android)</a> -
+        <a href="https://crowdin.com/project/electrum">Electrum</a>
+      </p>
+    </div>
+    
+    <div class="card support-card">
+      <img class="titleicon" src="/img/icons/ico_conf.svg?1716491272" alt="Icon">
+      <h2 id="develop" class=" anchorAf"><a href="#develop"></a>ØªÙØ³Ø¹Ù</h2>
+      <p>ÙØ±Ù  Ø§ÙØ²Ø§Ø± Ø¨ÛØª Ú©ÙÛÙ Ø±Ø§ÛÚ¯Ø§Ù Ø§Ø³Øª.Ù¾Ø³ Ø§Ú¯Ø± Ø´ÙØ§ ÛÚ© ØªÙØ³Ø¹Ù Ø¯ÙÙØ¯Ù ÙØ±Ù Ø§ÙØ²Ø§Ø± ÙØ³ØªÛØ¯Ø ÙÛ ØªÙØ§ÙÛØ¯ Ø§Ø² ØªÙØ§ÙØ§ÛÛ ÙØ§Û ÙÙÙ Ø§ÙØ¹Ø§Ø¯Ù Ø®ÙØ¯ Ø¨Ø®ÙØ¨Û Ø§Ø³ØªÙØ§Ø¯Ù Ú©Ø±Ø¯Ù Ù  <a href="/fa/development"> Ø¨ÛØª Ú©ÙÛÙ Ø±Ø§ Ø¨ÙØ¨ÙØ¯ Ø¯ÙÛØ¯</a> ÛØ§  Ø³Ø±ÙÛØ³ÙØ§ Ù ÛØ§ ÙØ±Ù Ø§ÙØ²Ø§Ø±ÙØ§Û Ø¬Ø¯ÛØ¯ Ù ÙÙÙ Ø§ÙØ¹Ø§Ø¯Ù Ø§Û Ø¨Ø³Ø§Ø²ÛØ¯ Ú©Ù Ø¨ØªÙØ§ÙÙØ¯ Ø§Ø² Ø¨ÛØª Ú©ÙÛÙ Ø§Ø³ØªÙØ§Ø¯Ù Ú©ÙÙØ¯.</p>
+    </div>
+    
+    <div class="card support-card">
+      <img class="titleicon" src="/img/icons/ico_donate.svg?1716491272" alt="Icon">
+      <h2 id="donation" class=" anchorAf"><a href="#donation"></a>Ø§ÙØ¯Ø§</h2>
+      <p>Ø¢Ø³Ø§ÙØªØ±ÛÙ Ø±Ø§Ù Ø¨Ø±Ø§Û Ú©ÙÚ©Ø Ø¨Ø®Ø´ÛØ¯Ù ÚÙØ¯ÛÙ Ø¨ÛØª Ú©ÙÛÙ Ø¨Ù Ø¹ÙÙØ§Ù <a href="https://bitcoinfoundation.org/about/donate/">ÙØ¯ÛÙ</a> Ø¨Ù Ø¨ÙÛØ§Ø¯ Ø¨ÛØª Ú©ÙÛÙ Ø§Ø³Øª. Ø´ÙØ§ ÙÙÚÙÛÙ ÙÛ ØªÙØ§ÙÛØ¯  Ø¨Ù ÙØ± ÛÚ© Ø§Ø² Ù¾Ø±ÙÚÙ  ÙØ§Û ÙØ§Ø¨Ø³ØªÙ Ø¨Ù Ø¨ÛØª Ú©ÙÛÙØ Ú©Ù Ø¨Ù Ø¨Ø§ÙØ± Ø´ÙØ§ ÙÛ ØªÙØ§ÙÙØ¯ Ø¯Ø± Ø¢ÛÙØ¯Ù ÙÙÛØ¯ Ø¨Ø§Ø´ÙØ¯Ø Ø¨Ø·ÙØ± ÙØ³ØªÙÛÙ Ù¾ÙÙ Ø¨Ù¾Ø±Ø¯Ø§Ø²ÛØ¯.</p>
+    </div>
+    
+    <div class="card support-card">
+      <img class="titleicon" src="/img/icons/ico_law.svg?1716491272" alt="Icon">
+      <h2 id="nonprofit" class=" anchorAf"><a href="#nonprofit"></a>Ø³Ø§Ø²ÙØ§ÙÙØ§</h2>
+      <p><a href="https://bitcoinfoundation.org/">Ø¨ÙÛØ§Ø¯ Ø¨ÛØª Ú©ÙÛÙ</a> Ù Ø¨Ø³ÛØ§Ø±Û Ø¯ÛÚ¯Ø± Ø§Ø² <a href="/fa/community#non-profit">Ø³Ø§Ø²ÙØ§ÙÙØ§Û ØºÛØ±Ø§ÙØªÙØ§Ø¹Û</a> Ø®ÙØ¯ Ø±Ø§ ÙÙÙ Ø­ÙØ§ÛØª Ù Ø§Ø±ØªÙØ§Û Ø¨ÛØª Ú©ÙÛÙ Ú©Ø±Ø¯Ù Ø§ÙØ¯. Ø´ÙØ§ ÙÛ ØªÙØ§ÙÛØ¯ Ø¨Ø§ Ù¾ÛÙØ³ØªÙ Ø¨Ù Ø§ÛÙ Ø³Ø§Ø²ÙØ§ÙÙØ§Ø Ø³ÙÙÛ Ø¯Ø± Ù¾Ø±ÙÚÙ ÙØ§Ø Ø¨Ø­Ø« ÙØ§ Ù Ø±ÙÛØ¯Ø§Ø¯ÙØ§Û Ø¢ÙÙØ§ Ø¯Ø§Ø´ØªÙ Ù Ø¢ÙÙØ§ Ø±Ø§ ÛØ§Ø±Û ÙÙØ§ÛÛØ¯.</p>
+    </div>
+    
+    <div class="card support-card">
+      <img class="titleicon" src="/img/icons/ico_spread.svg?1716491272" alt="Icon">
+      <h2 id="spread" class=" anchorAf"><a href="#spread"></a>Ú¯Ø³ØªØ±Ø´</h2>
+      <p>Ø¯Ø± ÙÙØ±Ø¯ Ø¨ÛØª Ú©ÙÛÙØ Ø¨Ø§ Ø§ÙØ±Ø§Ø¯ Ø¹ÙØ§ÙÙÙØ¯ Ú¯ÙØªÚ¯Ù Ú©ÙÛØ¯. Ø¯Ø± ÙÙØ±Ø¯ Ø¢Ù Ø¯Ø± Ø¨ÙØ§Ú¯ Ø®ÙØ¯ Ø¨ÙÙÛØ³ÛØ¯Ø Ø¨Ù ÙØ±ÙØ´Ú¯Ø§ÙÙØ§Û ÙÙØ±Ø¯Ø¹ÙØ§ÙÙ ØªØ§Ù Ø¨Ú¯ÙÛÛØ¯ Ú©Ù ÙØ§ÛÙÛØ¯ Ø¨Ø§ Ø¨ÛØª Ú©ÙÛÙ Ø¨Ù Ø¢ÙÙØ§ Ù¾Ø±Ø¯Ø§Ø®Øª Ú©ÙÛØ¯. Ø¨Ù Ø¨Ø±ÙØ² ÙÚ¯ÙØ¯Ø§Ø´ØªÙ Ú©ØªØ§Ø¨ÙØ§Û Ø±Ø§ÙÙÙØ§Û Ø¨Ø§Ø²Ø±Ú¯Ø§ÙÛ Ú©ÙÚ© Ú©ÙÛØ¯. ÛØ§ Ø§ÛÙÚ©Ù Ø®ÙØ§Ù Ø¨Ø§Ø´ÛØ¯ Ù ÛÚ© ØªÛ Ø´Ø±Øª Ø²ÛØ¨Ø§Û Ø¨ÛØª Ú©ÙÛÙÛ Ø¨Ø±Ø§Û Ø®ÙØ¯ Ø± Ø¨Ø³Ø§Ø²ÛØ¯.</p>
+    </div>
+    
+    <div class="card support-card">
+      <img class="titleicon" src="/img/icons/ico_docs.svg?1716491272" alt="Icon">
+      <h2 id="wiki" class=" anchorAf"><a href="#wiki"></a>ÙØ³ØªÙØ¯Ø³Ø§Ø²Û</h2>
+      <p><a href="https://github.com/bitcoin-dot-org/bitcoin.org#how-to-participate">Bitcoin.org</a>  Ù <a href="https://en.bitcoin.it/">Bitcoin wiki</a> ÙØ³ØªÙØ¯Ø³Ø§Ø²Û ÙØ§Û ÙÙÛØ¯Û Ø§ÙØ¬Ø§Ù Ø¯Ø§Ø¯Ù Ø§ÙØ¯ Ù ÙØ§ Ø¨Ø·ÙØ± ÙØ¯Ø§ÙÙ Ø§Ø·ÙØ§Ø¹Ø§Øª ÙÙØ¯Ø±Ø¬ Ø¯Ø± Ø¢ÙÙØ§ Ø±Ø§ Ø¨ÙØ¨ÙØ¯ ÙÛ Ø¨Ø®Ø´ÛÙ. Ø´ÙØ§ ÙÛ ØªÙØ§ÙÛØ¯ Ø¨Ù Ø¨ÙØªØ± Ú©Ø±Ø¯Ù Ø§ÛÙ ÙÙØ§Ø¨Ø¹ Ú©ÙÚ© Ú©Ø±Ø¯Ù Ù Ø¢ÙÙØ§ Ø±Ø§ Ø¨Ø±ÙØ² ÙÚ¯ÙØ¯Ø§Ø±ÛØ¯.      </p>
+    </div>
+    
+    <div class="card support-card">
+      <img class="titleicon" src="/img/icons/ico_chat.svg?1716491272" alt="Icon">
+      <h2 id="help" class=" anchorAf"><a href="#help"></a>Ø¬ÙØ§ÙØ¹ Ø±Ø§ Ø¨Ø¨ÛÙÛØ¯</h2>
+      <p>ÙÛ ØªÙØ§ÙÛØ¯ Ø¨Ù <a href="/fa/community">Ø¬Ø§ÙØ¹Ù ÙØ§Û</a> Ø¨ÛØª Ú©ÙÛÙÛ Ø¨Ù¾ÛÙÙØ¯ÛØ¯ Ù Ø¨Ø§ Ø¯ÛÚ¯Ø± ÙØ´ØªØ§ÙØ§Ù Ø¨ÛØª Ú©ÙÛÙ Ú¯ÙØªÚ¯Ù Ú©ÙÛØ¯. ÙÛ ØªÙØ§ÙÛØ¯ Ø¯Ø± ÙÙØ±Ø¯ Ø¨ÛØª Ú©ÙÛÙ ÙØ± Ø±ÙØ² Ø¨ÛØ´ØªØ± Ø¨Ø¯Ø§ÙÛØ¯Ø Ø¨Ù Ú©Ø§Ø±Ø¨Ø±Ø§Ù Ø¬Ø¯ÛØ¯ Ú©ÙÚ© Ú©ÙÛØ¯ Ù Ø¯Ø± Ù¾Ø±ÙÚÙ ÙØ§Û Ø¬Ø§ÙØ¨ Ø´Ø±Ú©Øª ÙÙØ§ÛÛØ¯.</p>
+    </div>
+  </div>
+
+</div>
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="/fa/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Support Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Donate</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">ÙÙØ¯ÙÙ:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/fa/bitcoin-for-individuals">Ø§ÙØ±Ø§Ø¯</a>
+        </li>
+        <li>
+          <a href="/fa/bitcoin-for-businesses">Ú©Ø³Ø¨ Ù Ú©Ø§Ø±ÙØ§</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">ØªÙØ³Ø¹Ù Ø¯ÙÙØ¯Ú¯Ø§Ù</a>
+        </li>
+        <li>
+          <a href="/fa/getting-started">Ø¢ØºØ§Ø² Ø¨Ù Ú©Ø§Ø±</a>
+        </li>
+        <li>
+          <a href="/fa/how-it-works">ÚÚ¯ÙÙÙ Ú©Ø§Ø± ÙÛ Ú©ÙØ¯</a>
+        </li>
+        <li>
+          <a href="/fa/you-need-to-know">ÙØ§Ø²Ù Ø§Ø³Øª Ø¨Ø¯Ø§ÙÛØ¯</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">ÙÙØ§Ø¨Ø¹:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/fa/resources">ÙÙØ§Ø¨Ø¹</a>
+        </li><li>
+          <a href="/fa/exchanges">Exchanges</a>
+        </li>
+        <li>
+          <a href="/fa/community">Ø¬Ø§ÙØ¹Ù</a>
+        </li>
+        <li>
+          <a href="/fa/vocabulary">Ø¯Ø§ÛØ±Ù ÙØ§ÚÚ¯Ø§Ù
+          </a>
+        </li>
+        <li>
+          <a href="/fa/events">Ø±ÙÛØ¯Ø§Ø¯ ÙØ§</a>
+        </li>
+        
+          <li>
+            <a href="/fa/download">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">ÙØ´Ø§Ø±Ú©Øª:</p>
+      <ul class="footermenu-list">
+        <li class="active">
+          <a href="/fa/support-bitcoin">Ø­ÙØ§ÛØª Ø§Ø² Ø¨ÛØª Ú©ÙÛÙ</a>
+        
+        
+        </li><li>
+          <a href="/fa/development">ØªÙØ³Ø¹Ù</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Other:</p>
+      
+      <a href="/fa/legal">Ø­ÙÙÙÛ</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/fa/press">ÙØ·Ø¨ÙØ¹Ø§Øª</a>
+      <a href="/fa/about-us">Ø¯Ø±Ø¨Ø§Ø±Ù bitcoin.org</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>ÛÚ© ÙØ¨ Ø³Ø§ÛØª Ø¬Ø§ÙØ¹Ù Ø¨Ø§ ØªØ§ÙÛÙ ÙØ§ÙÛ Ø§Ø² Ø³ÙÛ</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1716491272" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024  ÙÙØªØ´Ø± Ø´Ø¯Ù ØªØ­Øª <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT license</a></div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">Network Status</a>
+        
+<ul class="lang is-expand">
+  <li><a>ÙØ§Ø±Ø³Û</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/dukung-bitcoin">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/dona-suport-a-bitcoin">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/stoet-bitcoin">Dansk</a></li>
+        
+        
+          <li><a href="/de/bitcoin-unterstuetzen">Deutsch</a></li>
+        
+        
+          <li><a href="/en/support-bitcoin">English</a></li>
+        
+        
+          <li><a href="/es/apoya-bitcoin">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/supporter-bitcoin">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/sostieni-bitcoin">Italiano</a></li>
+        
+        
+          <li><a href="/hu/tamogassa-a-bitcoint">Magyar</a></li>
+        
+        
+          <li><a href="/nl/help-bitcoin">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/wesprzyj-bitcoin">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/suporte-bitcoin">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/sustine-bitcoin">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/podprite-bitcoin">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/podrzite-bitkoin">Srpski</a></li>
+        
+        
+          <li><a href="/sv/stod-bitcoin">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/bitcoini-destekleyin">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/support-bitcoin">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/support-bitcoin">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/support-bitcoin">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/support-bitcoin">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/support-bitcoin">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/support-bitcoin">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/support-bitcoin" class="active">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/support-bitcoin">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/support-bitcoin">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/support-bitcoin">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/support-bitcoin">ááááá</a></li>
+        
+        
+          <li><a href="/ja/support-bitcoin">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/support-bitcoin">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/support-bitcoin">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/dukung-bitcoin">Bahasa Indonesia</option>
+              
+              <option value="/ca/dona-suport-a-bitcoin">CatalÃ </option>
+              
+              <option value="/da/stoet-bitcoin">Dansk</option>
+              
+              <option value="/de/bitcoin-unterstuetzen">Deutsch</option>
+              
+              <option value="/en/support-bitcoin">English</option>
+              
+              <option value="/es/apoya-bitcoin">EspaÃ±ol</option>
+              
+              <option value="/fr/supporter-bitcoin">FranÃ§ais</option>
+              
+              <option value="/it/sostieni-bitcoin">Italiano</option>
+              
+              <option value="/hu/tamogassa-a-bitcoint">Magyar</option>
+              
+              <option value="/nl/help-bitcoin">Nederlands</option>
+              
+              <option value="/pl/wesprzyj-bitcoin">Polski</option>
+              
+              <option value="/pt_BR/suporte-bitcoin">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/sustine-bitcoin">RomÃ¢nÄ</option>
+              
+              <option value="/sl/podprite-bitcoin">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/podrzite-bitkoin">Srpski</option>
+              
+              <option value="/sv/stod-bitcoin">Svenska</option>
+              
+              <option value="/tr/bitcoini-destekleyin">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/support-bitcoin">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/support-bitcoin">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/support-bitcoin">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/support-bitcoin">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/support-bitcoin">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/support-bitcoin">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/support-bitcoin" selected="selected">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/support-bitcoin">×¢××¨××ª</option>
+              
+              <option value="/hi/support-bitcoin">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/support-bitcoin">íêµ­ì´</option>
+              
+              <option value="/km/support-bitcoin">ááááá</option>
+              
+              <option value="/ja/support-bitcoin">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/support-bitcoin">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/support-bitcoin">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">fa</span>
+          </label>
+        </div>
+      </div>
+<!--      <div class="row">  -->
+        
+<!--    </div> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+
+
+
+
+
+
+</body></html>
