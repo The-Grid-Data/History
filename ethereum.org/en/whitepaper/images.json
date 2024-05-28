@@ -1,0 +1,13 @@
+{
+    "target_url": "https://ethereum.org/en/whitepaper/",
+    "domains": {
+        "ethereum.org": [
+            "https://ethereum.org/_next/image/?url=%2Fcontent%2Fwhitepaper%2Fether-state-transition.png&w=1920&q=75",
+            "https://ethereum.org/_next/image/?url=%2Fcontent%2Fwhitepaper%2Fethereum-apply-block-diagram.png&w=1920&q=75",
+            "https://ethereum.org/_next/image/?url=%2Fcontent%2Fwhitepaper%2Fethereum-blocks.png&w=1920&q=75",
+            "https://ethereum.org/_next/image/?url=%2Fcontent%2Fwhitepaper%2Fethereum-inflation.png&w=1920&q=75",
+            "https://ethereum.org/_next/image/?url=%2Fcontent%2Fwhitepaper%2Fethereum-state-transition.png&w=1920&q=75",
+            "https://ethereum.org/_next/image/?url=%2Fcontent%2Fwhitepaper%2Fspv-bitcoin.png&w=1920&q=75"
+        ]
+    }
+}

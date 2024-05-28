@@ -1,0 +1,185 @@
+{
+    "target_url": "https://ethereum.org/en/whitepaper/",
+    "domains": {
+        "": [
+            "mailto:press@ethereum.org"
+        ],
+        "bitcoin.org": [
+            "http://bitcoin.org/bitcoin.pdf"
+        ],
+        "bitcoinmagazine.com": [
+            "http://bitcoinmagazine.com/7050/bootstrapping-a-decentralized-autonomous-corporation-part-i/",
+            "http://bitcoinmagazine.com/8640/an-exploration-of-intrinsic-value-what-it-is-why-bitcoin-doesnt-have-it-and-why-bitcoin-does-have-it/"
+        ],
+        "blog.ethereum.org": [
+            "http://blog.ethereum.org/2014/03/28/schellingcoin-a-minimal-trust-universal-data-feed/",
+            "https://blog.ethereum.org/"
+        ],
+        "devcon.org": [
+            "https://devcon.org/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/ethereum-org"
+        ],
+        "docs.google.com": [
+            "https://docs.google.com/a/buterin.com/document/d/1AnkP_cVZTCMLIzw4DvsW6M8Q2JC0lIzrTLuoWu2z1BE/edit"
+        ],
+        "en.bitcoin.it": [
+            "https://en.bitcoin.it/wiki/Contracts",
+            "https://en.bitcoin.it/wiki/Scalability#Simplified_payment_verification",
+            "https://en.bitcoin.it/wiki/Smart_Property"
+        ],
+        "eprint.iacr.org": [
+            "https://eprint.iacr.org/2013/881.pdf"
+        ],
+        "esp.ethereum.foundation": [
+            "https://esp.ethereum.foundation"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/content/whitepaper/ether-state-transition.png",
+            "https://ethereum.org/content/whitepaper/ethereum-apply-block-diagram.png",
+            "https://ethereum.org/content/whitepaper/ethereum-blocks.png",
+            "https://ethereum.org/content/whitepaper/ethereum-inflation.png",
+            "https://ethereum.org/content/whitepaper/ethereum-state-transition.png",
+            "https://ethereum.org/content/whitepaper/spv-bitcoin.png",
+            "https://ethereum.org/content/whitepaper/whitepaper-pdf/Ethereum_Whitepaper_-_Buterin_2014.pdf",
+            "https://ethereum.org/en/",
+            "https://ethereum.org/en/about/",
+            "https://ethereum.org/en/about/#open-jobs",
+            "https://ethereum.org/en/assets/",
+            "https://ethereum.org/en/bug-bounty/",
+            "https://ethereum.org/en/community/",
+            "https://ethereum.org/en/community/code-of-conduct/",
+            "https://ethereum.org/en/community/events/",
+            "https://ethereum.org/en/community/grants/",
+            "https://ethereum.org/en/community/online/",
+            "https://ethereum.org/en/community/research/",
+            "https://ethereum.org/en/contributing/",
+            "https://ethereum.org/en/contributing/translation-program/",
+            "https://ethereum.org/en/cookie-policy/",
+            "https://ethereum.org/en/dao/",
+            "https://ethereum.org/en/dapps/",
+            "https://ethereum.org/en/decentralized-identity/",
+            "https://ethereum.org/en/defi/",
+            "https://ethereum.org/en/developers/",
+            "https://ethereum.org/en/developers/docs/",
+            "https://ethereum.org/en/developers/docs/design-and-ux/",
+            "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+            "https://ethereum.org/en/developers/learning-tools/",
+            "https://ethereum.org/en/developers/local-environment/",
+            "https://ethereum.org/en/developers/tutorials/",
+            "https://ethereum.org/en/eips/",
+            "https://ethereum.org/en/enterprise/",
+            "https://ethereum.org/en/enterprise/private-ethereum/",
+            "https://ethereum.org/en/eth/",
+            "https://ethereum.org/en/foundation/",
+            "https://ethereum.org/en/gas/",
+            "https://ethereum.org/en/get-eth/",
+            "https://ethereum.org/en/glossary/",
+            "https://ethereum.org/en/governance/",
+            "https://ethereum.org/en/guides/",
+            "https://ethereum.org/en/history/",
+            "https://ethereum.org/en/layer-2/",
+            "https://ethereum.org/en/learn/",
+            "https://ethereum.org/en/nft/",
+            "https://ethereum.org/en/privacy-policy/",
+            "https://ethereum.org/en/quizzes/",
+            "https://ethereum.org/en/roadmap/",
+            "https://ethereum.org/en/roadmap/security/",
+            "https://ethereum.org/en/run-a-node/",
+            "https://ethereum.org/en/security/",
+            "https://ethereum.org/en/smart-contracts/",
+            "https://ethereum.org/en/stablecoins/",
+            "https://ethereum.org/en/staking/",
+            "https://ethereum.org/en/terms-of-use/",
+            "https://ethereum.org/en/wallets/",
+            "https://ethereum.org/en/wallets/find-wallet/",
+            "https://ethereum.org/en/web3/",
+            "https://ethereum.org/en/what-is-ethereum/",
+            "https://ethereum.org/en/whitepaper/",
+            "https://ethereum.org/en/whitepaper/#a-next-generation-smart-contract-and-decentralized-application-platform",
+            "https://ethereum.org/en/whitepaper/#alternative-blockchain-applications",
+            "https://ethereum.org/en/whitepaper/#applications",
+            "https://ethereum.org/en/whitepaper/#bitcoin-as-a-state-transition-system",
+            "https://ethereum.org/en/whitepaper/#blockchain-and-mining",
+            "https://ethereum.org/en/whitepaper/#code-execution",
+            "https://ethereum.org/en/whitepaper/#computation-and-turing-completeness",
+            "https://ethereum.org/en/whitepaper/#conclusion",
+            "https://ethereum.org/en/whitepaper/#currency-and-issuance",
+            "https://ethereum.org/en/whitepaper/#decentralized-autonomous-organizations",
+            "https://ethereum.org/en/whitepaper/#decentralized-file-storage",
+            "https://ethereum.org/en/whitepaper/#ethereum",
+            "https://ethereum.org/en/whitepaper/#ethereum-accounts",
+            "https://ethereum.org/en/whitepaper/#ethereum-state-transition-function",
+            "https://ethereum.org/en/whitepaper/#fees",
+            "https://ethereum.org/en/whitepaper/#financial-derivatives-and-stable-value-currencies",
+            "https://ethereum.org/en/whitepaper/#further-applications",
+            "https://ethereum.org/en/whitepaper/#further-reading",
+            "https://ethereum.org/en/whitepaper/#history",
+            "https://ethereum.org/en/whitepaper/#identity-and-reputation-systems",
+            "https://ethereum.org/en/whitepaper/#introduction-to-bitcoin-and-existing-concepts",
+            "https://ethereum.org/en/whitepaper/#long-term-supply-growth-rate-(percent)",
+            "https://ethereum.org/en/whitepaper/#main-content",
+            "https://ethereum.org/en/whitepaper/#merkle-trees",
+            "https://ethereum.org/en/whitepaper/#messages",
+            "https://ethereum.org/en/whitepaper/#messages-and-transactions",
+            "https://ethereum.org/en/whitepaper/#mining",
+            "https://ethereum.org/en/whitepaper/#mining-centralization",
+            "https://ethereum.org/en/whitepaper/#miscellanea-and-concerns",
+            "https://ethereum.org/en/whitepaper/#modified-ghost-implementation",
+            "https://ethereum.org/en/whitepaper/#notes",
+            "https://ethereum.org/en/whitepaper/#notes-and-further-reading",
+            "https://ethereum.org/en/whitepaper/#scalability",
+            "https://ethereum.org/en/whitepaper/#scripting",
+            "https://ethereum.org/en/whitepaper/#token-systems"
+        ],
+        "garzikrants.blogspot.ca": [
+            "http://garzikrants.blogspot.ca/2013/01/storj-and-bitcoin-autonomous-agents.html"
+        ],
+        "github.com": [
+            "https://github.com/ethereum/ethereum-org-website",
+            "https://github.com/ethereum/wiki/blob/old-before-deleting-all-files-go-to-wiki-wiki-instead/old-whitepaper-for-historical-reference.md",
+            "https://github.com/ethereum/wiki/issues/447#issuecomment-316972260",
+            "https://github.com/ethereum/wiki/wiki/%5BEnglish%5D-Patricia-Tree",
+            "https://github.com/ethereum/wiki/wiki/%5BEnglish%5D-RLP",
+            "https://github.com/mastercoin-MSC/spec"
+        ],
+        "hanson.gmu.edu": [
+            "http://hanson.gmu.edu/futarchy.html"
+        ],
+        "nakamotoinstitute.org": [
+            "https://nakamotoinstitute.org/finney/rpow/",
+            "https://nakamotoinstitute.org/secure-property-titles/"
+        ],
+        "namecoin.org": [
+            "http://namecoin.org",
+            "http://namecoin.org/",
+            "https://namecoin.org/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ethdotorg"
+        ],
+        "web.archive.org": [
+            "https://web.archive.org/web/20140623061815/http://sourceforge.net/p/bitcoin/mailman/message/31709140/"
+        ],
+        "wikipedia.org": [
+            "https://wikipedia.org/wiki/Domain_Name_System",
+            "https://wikipedia.org/wiki/Liquid_democracy",
+            "https://wikipedia.org/wiki/Merkle_tree",
+            "https://wikipedia.org/wiki/Patricia_tree",
+            "https://wikipedia.org/wiki/Zooko's_triangle"
+        ],
+        "www.cl.cam.ac.uk": [
+            "http://www.cl.cam.ac.uk/~fms27/papers/2008-StajanoCla-cyberdice.pdf"
+        ],
+        "www.fon.hum.uva.nl": [
+            "http://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/Literature/LOTwinterschool2006/szabo.best.vwh.net/idea.html"
+        ],
+        "www.weidai.com": [
+            "http://www.weidai.com/bmoney.txt"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/watch?v=MVyv4t0OKe4"
+        ]
+    }
+}
