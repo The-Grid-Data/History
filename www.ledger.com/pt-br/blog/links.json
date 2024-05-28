@@ -1,0 +1,145 @@
+{
+    "target_url": "https://www.ledger.com/pt-br/blog",
+    "domains": {
+        "": [
+            "mailto:media@ledger.com"
+        ],
+        "co-branded.ledger.com": [
+            "https://co-branded.ledger.com/"
+        ],
+        "developers.ledger.com": [
+            "https://developers.ledger.com/"
+        ],
+        "discord.com": [
+            "https://discord.com/invite/ledger"
+        ],
+        "donjon.ledger.com": [
+            "https://donjon.ledger.com/bounty/"
+        ],
+        "enterprise.ledger.com": [
+            "https://enterprise.ledger.com/",
+            "https://enterprise.ledger.com?utm_source=mainsite&utm_medium=header"
+        ],
+        "quest.ledger.com": [
+            "https://quest.ledger.com/"
+        ],
+        "shop.ledger.com": [
+            "https://shop.ledger.com/pages/cookie-policy",
+            "https://shop.ledger.com/pages/disclaimers",
+            "https://shop.ledger.com/pt-br",
+            "https://shop.ledger.com/pt-br/#category-accessories",
+            "https://shop.ledger.com/pt-br/#category-bundle",
+            "https://shop.ledger.com/pt-br/cart",
+            "https://shop.ledger.com/pt-br/pages/hardware-wallets-comparison",
+            "https://shop.ledger.com/pt-br/pages/ledger-nano-s-plus",
+            "https://shop.ledger.com/pt-br/pages/ledger-nano-x",
+            "https://shop.ledger.com/pt-br/pages/ledger-stax",
+            "https://shop.ledger.com/pt-br/pages/privacy-notice#ledger-newsletter",
+            "https://shop.ledger.com/pt-br/pages/terms-and-conditions",
+            "https://shop.ledger.com/pt/pages/bitcoin-hardware-wallet",
+            "https://shop.ledger.com/pt/pages/ledger-recover"
+        ],
+        "status.ledger.com": [
+            "https://status.ledger.com/"
+        ],
+        "support.ledger.com": [
+            "https://support.ledger.com/hc/pt-br"
+        ],
+        "twitter.com": [
+            "https://twitter.com/Ledger"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/Ledger/"
+        ],
+        "www.instagram.com": [
+            "https://www.instagram.com/ledger/"
+        ],
+        "www.ledger.com": [
+            "https://www.ledger.com/academy/basic-basics/2-how-to-own-crypto/what-is-a-crypto-wallet",
+            "https://www.ledger.com/ar/blog",
+            "https://www.ledger.com/blog",
+            "https://www.ledger.com/coin/price",
+            "https://www.ledger.com/de/blog",
+            "https://www.ledger.com/es/blog",
+            "https://www.ledger.com/fr/blog",
+            "https://www.ledger.com/ja/blog",
+            "https://www.ledger.com/ko/blog",
+            "https://www.ledger.com/price",
+            "https://www.ledger.com/pt-br",
+            "https://www.ledger.com/pt-br/academy",
+            "https://www.ledger.com/pt-br/academy/what-is-web-30-everything-you-need-to-know",
+            "https://www.ledger.com/pt-br/apresentando-aba-trocar-da-ledger-o-lugar-definitivo-para-tudo-o-que-e-cripto",
+            "https://www.ledger.com/pt-br/apresentando-o-white-paper-do-protocolo-criptografico-do-ledger-recover",
+            "https://www.ledger.com/pt-br/bitcoin",
+            "https://www.ledger.com/pt-br/blog",
+            "https://www.ledger.com/pt-br/blog/page/2",
+            "https://www.ledger.com/pt-br/blog/page/3",
+            "https://www.ledger.com/pt-br/blog/page/4",
+            "https://www.ledger.com/pt-br/blog/page/5",
+            "https://www.ledger.com/pt-br/blog/page/6",
+            "https://www.ledger.com/pt-br/buy",
+            "https://www.ledger.com/pt-br/buy-bitcoin",
+            "https://www.ledger.com/pt-br/cardano",
+            "https://www.ledger.com/pt-br/career",
+            "https://www.ledger.com/pt-br/cartao-ledger",
+            "https://www.ledger.com/pt-br/category/blog-posts-pt-br",
+            "https://www.ledger.com/pt-br/category/nao-categorizado",
+            "https://www.ledger.com/pt-br/category/noticias-da-empresa",
+            "https://www.ledger.com/pt-br/category/noticias-sobre-produtos",
+            "https://www.ledger.com/pt-br/category/tecnologia-pt-br",
+            "https://www.ledger.com/pt-br/category/thought-leadership-pt-br",
+            "https://www.ledger.com/pt-br/cathay",
+            "https://www.ledger.com/pt-br/colaboracoes-ledger",
+            "https://www.ledger.com/pt-br/como-comprar-bitcoin-o-guia-de-bolso-para-sua-proxima-oportunidade-de-investimento",
+            "https://www.ledger.com/pt-br/comprar-bitcoin-com-paypal",
+            "https://www.ledger.com/pt-br/diversity",
+            "https://www.ledger.com/pt-br/ethereum",
+            "https://www.ledger.com/pt-br/jobs",
+            "https://www.ledger.com/pt-br/ledger-live",
+            "https://www.ledger.com/pt-br/ledger-recover-uma-mensagem-de-pascal-gauthier-chairman-e-ceo-da-ledger",
+            "https://www.ledger.com/pt-br/ledger-stax-construindo-o-futuro-dos-dispositivos-de-consumo",
+            "https://www.ledger.com/pt-br/ledger-stax-nosso-dispositivo-inventado-por-tony-fadell-construido-pela-ledger",
+            "https://www.ledger.com/pt-br/ledger-stax-que-venha-a-proxima-geracao-de-hardware-da-web3",
+            "https://www.ledger.com/pt-br/ledger-wallets-and-services",
+            "https://www.ledger.com/pt-br/legal-center",
+            "https://www.ledger.com/pt-br/monero",
+            "https://www.ledger.com/pt-br/o-selvagem-mundo-cripto-em-2022-fraudes-falhas-de-seguranca-e-criadores-resilientes",
+            "https://www.ledger.com/pt-br/partners",
+            "https://www.ledger.com/pt-br/press",
+            "https://www.ledger.com/pt-br/privacy-policy",
+            "https://www.ledger.com/pt-br/reseller",
+            "https://www.ledger.com/pt-br/ripple",
+            "https://www.ledger.com/pt-br/sobre-o-futuro-da-ethereum",
+            "https://www.ledger.com/pt-br/somos-ledger",
+            "https://www.ledger.com/pt-br/staking",
+            "https://www.ledger.com/pt-br/start",
+            "https://www.ledger.com/pt-br/supported-crypto-assets",
+            "https://www.ledger.com/pt-br/supported-services",
+            "https://www.ledger.com/pt-br/swap",
+            "https://www.ledger.com/pt-br/tether",
+            "https://www.ledger.com/pt-br/the-company",
+            "https://www.ledger.com/pt-br/the-people-behind-ledger",
+            "https://www.ledger.com/ru/blog",
+            "https://www.ledger.com/tr/blog",
+            "https://www.ledger.com/zh-hans/blog"
+        ],
+        "www.ledgerwallet.com": [
+            "https://www.ledgerwallet.com/affiliates/"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/ledgerhq"
+        ],
+        "www.onetrust.com": [
+            "https://www.onetrust.com/products/cookie-consent/"
+        ],
+        "www.reddit.com": [
+            "https://www.reddit.com/r/ledgerwallet/"
+        ],
+        "www.tiktok.com": [
+            "https://www.tiktok.com/@ledger"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/Ledger"
+        ]
+    }
+}
