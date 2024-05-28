@@ -1,0 +1,82 @@
+{
+    "target_url": "https://bitcoin.org/hu/adatvedelem",
+    "domains": {
+        "": [
+            "bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h",
+            "mailto:privacy@bitcoin.org?Subject=Privacy"
+        ],
+        "bitcoin.org": [
+            "https://bitcoin.org/ar/",
+            "https://bitcoin.org/bg/privacy",
+            "https://bitcoin.org/ca/privacitat",
+            "https://bitcoin.org/da/privatliv",
+            "https://bitcoin.org/de/privatsphaere",
+            "https://bitcoin.org/el/privacy",
+            "https://bitcoin.org/en/alerts",
+            "https://bitcoin.org/en/blog",
+            "https://bitcoin.org/en/privacy",
+            "https://bitcoin.org/es/",
+            "https://bitcoin.org/fa/privacy",
+            "https://bitcoin.org/fr/confidentialite",
+            "https://bitcoin.org/he/",
+            "https://bitcoin.org/hi/privacy",
+            "https://bitcoin.org/hu/",
+            "https://bitcoin.org/hu/adatvedelem",
+            "https://bitcoin.org/hu/adatvedelem#analytics",
+            "https://bitcoin.org/hu/adatvedelem#changes",
+            "https://bitcoin.org/hu/adatvedelem#contact",
+            "https://bitcoin.org/hu/adatvedelem#cookies",
+            "https://bitcoin.org/hu/adatvedelem#logdata",
+            "https://bitcoin.org/hu/amit-tudnia-erdemes",
+            "https://bitcoin.org/hu/bitcoin-maganszemelyeknek",
+            "https://bitcoin.org/hu/bitcoin-vallalkozasoknak",
+            "https://bitcoin.org/hu/fejlesztes",
+            "https://bitcoin.org/hu/gyik",
+            "https://bitcoin.org/hu/hogyan-mukodik",
+            "https://bitcoin.org/hu/informacios-anyagok",
+            "https://bitcoin.org/hu/innovacio",
+            "https://bitcoin.org/hu/jogi-vonatkozasok",
+            "https://bitcoin.org/hu/kozosseg",
+            "https://bitcoin.org/hu/letoltes",
+            "https://bitcoin.org/hu/papir-bitcoin",
+            "https://bitcoin.org/hu/rendezvenyek",
+            "https://bitcoin.org/hu/rolunk",
+            "https://bitcoin.org/hu/sajto",
+            "https://bitcoin.org/hu/szotar",
+            "https://bitcoin.org/hu/tamogassa-a-bitcoint",
+            "https://bitcoin.org/hu/tozsdek",
+            "https://bitcoin.org/hu/vagjon-bele",
+            "https://bitcoin.org/hu/vasarlas",
+            "https://bitcoin.org/hy/privacy",
+            "https://bitcoin.org/id/privasi",
+            "https://bitcoin.org/it/privacy",
+            "https://bitcoin.org/ja/privacy",
+            "https://bitcoin.org/km/privacy",
+            "https://bitcoin.org/ko/privacy",
+            "https://bitcoin.org/nl/privacy",
+            "https://bitcoin.org/pl/prywatnosc",
+            "https://bitcoin.org/pt_BR/privacidade",
+            "https://bitcoin.org/ro/confidentialitate",
+            "https://bitcoin.org/ru/privacy",
+            "https://bitcoin.org/sl/",
+            "https://bitcoin.org/sr/privatnost",
+            "https://bitcoin.org/sv/integritet",
+            "https://bitcoin.org/tr/gizlilik",
+            "https://bitcoin.org/uk/privacy",
+            "https://bitcoin.org/zh_CN/privacy",
+            "https://bitcoin.org/zh_TW/privacy"
+        ],
+        "developer.bitcoin.org": [
+            "https://developer.bitcoin.org/"
+        ],
+        "developers.google.com": [
+            "https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage"
+        ],
+        "opensource.org": [
+            "http://opensource.org/licenses/mit-license.php"
+        ],
+        "tools.google.com": [
+            "https://tools.google.com/dlpage/gaoptout"
+        ]
+    }
+}
