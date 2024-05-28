@@ -1,0 +1,915 @@
+<!DOCTYPE html><html lang="da"><head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Presse â Bitcoin</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+
+<script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.org is a community funded project, donations are appreciated and used to improve the website.
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        Make a donation
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.org needs your support!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">Donate to Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">Use this QR code or address below</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="Or custom amount? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="Or custom amount? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="Optional description (for your wallet)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="/da/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">Introduktion</a>
+    <ul>
+      <li><a href="/da/bitcoin-for-enkeltpersoner">Enkeltpersoner</a></li>
+      <li><a href="/da/bitcoin-for-virksomheder">Virksomheder</a></li>
+      <li><a href="https://developer.bitcoin.org/">Udviklere</a></li>
+      <li><a href="/da/kom-i-gang">Kom i gang</a></li>
+      <li><a href="/da/hvordan-det-fungerer">Hvordan det fungerer</a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">Ressourcer</a>
+    <ul>
+      <li><a href="/da/ressourcer">Ressourcer</a>
+      </li><li><a href="/da/udvekslinger">Exchanges</a></li>
+      <li><a href="/da/faellesskab">FÃ¦llesskab</a></li>
+      
+      
+      <li><a href="/da/ordliste">Ordliste</a></li>
+      <li><a href="/da/begivenheder">Begivenheder</a></li>
+      
+        <li><a href="/da/hent">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li><a href="/da/innovation">Innovation</a></li>
+  <li><a class="is-expand">Deltag</a>
+    <ul>
+      <li><a href="/da/stoet-bitcoin">StÃ¸t Bitcoin</a>
+      </li><li><a href="/da/kobe">Buy Bitcoin</a></li>
+      
+      <li><a href="/da/udvikling">Udvikling</a></li>
+    </ul>
+  </li>
+  <li><a href="/da/faq">FAQ</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>Dansk</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/pers">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/premsa">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/presse" class="active">Dansk</a></li>
+        
+        
+          <li><a href="/de/presse">Deutsch</a></li>
+        
+        
+          <li><a href="/en/press">English</a></li>
+        
+        
+          <li><a href="/es/prensa">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/presse">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/stampa">Italiano</a></li>
+        
+        
+          <li><a href="/hu/sajto">Magyar</a></li>
+        
+        
+          <li><a href="/nl/pers">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/prasa">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/imprensa">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/presa">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/mediji">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/mediji">Srpski</a></li>
+        
+        
+          <li><a href="/sv/press">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/basin">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/press">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/press">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/press">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/press">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/press">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/press">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/press">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/press">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/press">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/press">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/press">ááááá</a></li>
+        
+        
+          <li><a href="/ja/press">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/press">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/press">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/pers">Bahasa Indonesia</option>
+            
+            <option value="/ca/premsa">CatalÃ </option>
+            
+            <option value="/da/presse" selected="selected">Dansk</option>
+            
+            <option value="/de/presse">Deutsch</option>
+            
+            <option value="/en/press">English</option>
+            
+            <option value="/es/prensa">EspaÃ±ol</option>
+            
+            <option value="/fr/presse">FranÃ§ais</option>
+            
+            <option value="/it/stampa">Italiano</option>
+            
+            <option value="/hu/sajto">Magyar</option>
+            
+            <option value="/nl/pers">Nederlands</option>
+            
+            <option value="/pl/prasa">Polski</option>
+            
+            <option value="/pt_BR/imprensa">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/presa">RomÃ¢nÄ</option>
+            
+            <option value="/sl/mediji">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/mediji">Srpski</option>
+            
+            <option value="/sv/press">Svenska</option>
+            
+            <option value="/tr/basin">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/press">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/press">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/press">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/press">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/press">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/press">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/press">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/press">×¢××¨××ª</option>
+            
+            <option value="/hi/press">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/press">íêµ­ì´</option>
+            
+            <option value="/km/press">ááááá</option>
+            
+            <option value="/ja/press">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/press">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/press">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">da</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  <div class="hero">
+  <div class="container hero-container">
+    <h1>Pressecenter</h1>
+    
+      <p class="summarytxt">Find interviewemner, svar og pressemateriale i hÃ¸j kvalitet.</p>
+    
+  </div>
+</div>
+
+<div class="toc-container">
+  <div class="row toc-row">
+
+    <div id="toc" class="toc">
+      <div>
+        <button class="mob-sidebar-open" hidden="">View All</button>
+        <div class="sidebar">
+          <div class="sidebar-inner">
+            <button class="mob-sidebar-close" hidden=""></button>
+            
+
+<ul>
+  <li><a href="#volunteer">Interviewemner</a></li>
+  <li><a href="#layout">FAQ</a>
+    <ul>
+      <li><a href="#whatisbitcoin">Hvad er Bitcoin?</a></li>
+      <li><a href="#howitworks">Hvordan fungerer Bitcoin?</a></li>
+      <li><a href="#whatismining">Hvad er Bitcoin-mining?</a></li>
+      <li><a href="#acquire">Hvordan skaffer man bitcoin?</a></li>
+      <li><a href="#used">Bruges Bitcoin virkelig af folk?</a></li>
+      <li><a href="#makepayment">Hvor svÃ¦rt er det at lave en Bitcoin-betaling?</a></li>
+      <li><a href="#advantages">Hvad er fordelene ved Bitcoin?</a></li>
+      <li><a href="#disadvantages">Hvad er ulemperne ved Bitcoin?</a></li>
+      <li><a href="#secure">Er Bitcoin sikkert?</a></li>
+      <li><a href="#islegal">Er Bitcoin lovligt?</a></li>
+      <li><a href="#taxes">Hvad med Bitcoin og skat?</a></li>
+      <li><a href="#illegalactivities">Er Bitcoin brugbart til ulovlige formÃ¥l?</a></li>
+      <li><a href="#bubble">Er Bitcoin en boble?</a></li>
+      <li><a href="#whyvalue">Hvorfor har bitcoin vÃ¦rdi?</a></li>
+      <li><a href="#ponzi">Er Bitcoin et pyramidespil?</a></li>
+      <li><a href="#creator">Hvem skabte Bitcoin?</a></li>
+      <li><a href="#worthless">Kan bitcoin blive vÃ¦rdilÃ¸se?</a></li>
+      <li><a href="#virtual">Er Bitcoin fuldt ud virtuelt og immaterielt?</a></li>
+      <li><a href="#trust">Hvorfor stoler folk pÃ¥ Bitcoin?</a></li>
+      <li><a href="#anonymous">Er Bitcoin anonymt?</a></li>
+    </ul>
+  </li>
+</ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="toccontent">
+      <div class="toccontent-intro">
+  <h2 id="volunteer" class=" anchorAf"><a href="#volunteer"></a>Interviewemner</h2>
+  <p>KommunikÃ©r med <a href="https://bitcoinfoundation.org/contact/">Bitcoin Foundation</a> eller lokale <a href="/da/faellesskab#non-profit">non-profit-organisationer</a>.</p>
+</div>
+
+<div class="toccontent-block boxexpand expanded">
+  <h2 id="layout" class=" anchorAf"><a href="#layout"></a>FAQ</h2>
+  <div class="press-faq">
+    <div>
+      <h3 id="whatisbitcoin" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#whatisbitcoin"></a>Hvad er Bitcoin?</h3>
+      <div>
+        <p>Bitcoin er et konsensusnetvÃ¦rk, som giver mulighed for et nyt betalingssystem og fuldstÃ¦ndigt digitale penge. Det er det fÃ¸rste decentraliserede bruger-til-bruger-betalingsnetvÃ¦rk, som kÃ¸res af dets brugere uden nogen central autoritet eller mellemmand. Fra brugerens perspektiv minder Bitcoin meget om kontanter til Internet. Bitcoin kan ogsÃ¥ ses som det mest prominente <a href="http://financialcryptography.com/mt/archives/001325.html">system til tredobbelt bogholderi</a>, der findes.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="howitworks" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#howitworks"></a>Hvordan fungerer Bitcoin?</h3>
+      <div>
+        <p>Bra brugerens synspunkt er Bitcoin ikke andet end en mobil-app eller computerprogram, som giver en personlig Bitcoin-tegnebog og tillader en bruger at sende og modtage bitcoin. Det er sÃ¥dan, Bitcoin fungerer for de fleste brugere.</p>
+        <p>Under motorhjelmen deler Bitcoin-netvÃ¦rket en offentlig regnskabsbog, der hedder "blokkÃ¦den". Denne regnskabsbog indeholder alle transaktioner, der nogensinde er foretaget, og den tillader en brugers computer at verificere validiteten af hver transaktion. Autentiteten for hver transaktion beskyttes af digitale signaturer, der svarer til afsendelsesadresserne, hvilket tillader alle brugere at vÃ¦re i fuld kontrol over afsendelse af bitcoin fra deres egne Bitcoin-adresser. Der ud over kan enhver bearbejde transaktioner ved at bruge beregningskraften fra specialiseret hardware og optjene belÃ¸nninger i bitcoin for denne tjeneste. Dette kaldes ofte "mining". For at lÃ¦re mere om Bitcoin kan du se den <a href="/da/hvordan-det-fungerer">dedikerede side</a> og den <a href="/bitcoin.pdf">oprindelige videnskabelige artikel</a>.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="whatismining" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#whatismining"></a>Hvad er Bitcoin-mining?</h3>
+      <div>
+        <p>Mining er en proces, der gÃ¥r ud pÃ¥ at bruge regnekraft pÃ¥ at bearbejde transaktioner, sikre netvÃ¦rket og holde alle i netvÃ¦rket synkroniseret med hinanden. Det kan anskues som Bitcoins datacenter, undtaget for det faktum at det er designet til at vÃ¦re fuldt ud decentraliseret med minere, der opererer fra alle lande, og at ingen person har kontrol over netvÃ¦rket. Denne proces refereres til som "mining" som en analogi til guldminedrift, fordi den ogsÃ¥ fungerer som en midlertidig mekanisme til udstedelse af nye bitcoin. Til forskel fra guldminedrift giver Bitcoin-mining dog en belÃ¸nning til gengÃ¦ld for nyttig tjeneste, der krÃ¦ves for at kunne kÃ¸re et sikkert betalingsnetvÃ¦rk. Mining vil stadig vÃ¦re pÃ¥krÃ¦vet, nÃ¥r den sidste bitcoin er udstedt.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="acquire" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#acquire"></a>Hvordan skaffer man bitcoin?</h3>
+      <div>
+        <ul>
+          <li>Som betaling for varer eller tjenester.</li>
+          <li>KÃ¸b bitcoin pÃ¥ en <a href="https://www.buybitcoinworldwide.com">Bitcoin-bÃ¸rs</a>.</li>
+          <li>Udveksl bitcoin med <a href="https://localbitcoins.com/">en person i nÃ¦rheden af dig</a>.</li>
+          <li>Tjen bitcoin gennem konkurrenceprÃ¦get <a href="http://www.bitcoinmining.com/">mining</a>.</li>
+        </ul>
+        <p>Selvom det er muligt at finde enkeltpersoner, der vil sÃ¦lge bitcoin i bytte for en kreditkort- eller PayPal-betaling, tillader de fleste bÃ¸rser ikke betalinger via disse betalingsmetoder. Dette skyldes tilfÃ¦lde, hvor nogen kÃ¸ber bitcoin med PayPal, hvorefter vedkommende trÃ¦kker overfÃ¸rslen tilbage. Dette refereres ofte til som "chargeback".</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="used" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#used"></a>Bruges Bitcoin virkelig af folk?</h3>
+      <div>
+        <p>Ja. Der er et voksende antal virksomheder og enkeltpersoner, der bruger Bitcoin. Dette inkluderer fysiske forretninger, som fx restauranter, lejligheder, advokater, og populÃ¦re onlinetjenester, som fx Namecheap, WordPress, Reddit og Flattr. Selvom Bitcoin stadig er et relativt nyt fÃ¦nomen, vokser det hurtigt. I alutningen af august 2013 overstiger <a href="https://bitcoincharts.com/bitcoin/">vÃ¦rdien af alle bitcoin i cirkulation</a> 1,5 milliarder U.S.-dollar, med en dagsomsÃ¦tning der er flere millioner dollar vÃ¦rd.</p>
+        <p>
+          <img style="height:165px;width:380px;" src="/img/faq/merchants_map.png?1716491272" alt="Screenshot">
+        </p>
+      </div>
+    </div>
+    <div>
+      <h3 id="makepayment" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#makepayment"></a>Hvor svÃ¦rt er det at lave en Bitcoin-betaling?</h3>
+      <div>
+        <p>Bitcoin-betalinger er nemmere at lave end debet- eller kreditkortbetalinger, og de kan modtages uden en forhandlerkonto. Betalinger laves i et tegnebogsprogram, enten pÃ¥ din computer eller smartphone, ved at indtaste modtagerens adresse, betalingsbelÃ¸bet og klikke send. For at gÃ¸re det nemmere at indtaste modtagens adresse kan mange tegnebÃ¸ger lÃ¦se adressen ved at scanne en QR-kode eller ved at holde to telefoner mod hinanden med NFC-teknologi.</p>
+        <p>
+          <img src="/img/faq/mobile_send.png?1716491272" style="height:325px;width:190px;" alt="Screenshot">
+          <img src="/img/faq/mobile_receive.png?1716491272" style="height:325px;width:190px;" alt="Screenshot">
+        </p>
+      </div>
+    </div>
+    <div>
+      <h3 id="advantages" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#advantages"></a>Hvad er fordelene ved Bitcoin?</h3>
+      <div>
+        <ul>
+          <li><em><b>Betalingsfrihed</b></em> â Det er muligt at sende og modtage ethvert belÃ¸b Ã¸jeblikkeligt overalt i verden nÃ¥r som helst. Ingen banklukkedage, Ingen grÃ¦nser. Ingen pÃ¥tagede begrÃ¦nsninger. Bitcoin tillader brugerne at have fuld kontrol over deres penge.</li>
+          <li><em><b>Meget lave gebyrer</b></em> â Bitcoin-betalinger gennemfÃ¸res p.t. enten uden gebyrer eller med ekstremt lave gebyrer. Brugere kan vÃ¦lge at inkludere gebyrer i transaktioner for at fÃ¥ dem bearbejdet med hÃ¸jere prioritet, hvilket resulterer i hurtigere bekrÃ¦ftelser af transaktioner fra netvÃ¦rkets side. Der ud over findes der bearbejdningsvÃ¦rktÃ¸jer for handelsdrivende, der assisterer ved transaktionsbearbejdning, konverterer bitcoin til fiat-valuta og indsÃ¦tter penge direkte pÃ¥ de handelsdrivendes bankkonti dagligt. Da disse tjenester er baseret pÃ¥ Bitcoin, kan de tilbyde meget lavere gebyrer end PayPal- eller kreditkort-netvÃ¦rk.</li>
+          <li><em><b>FÃ¦rre risici for handelsdrivende</b></em> â Bitcoin-transaktioner er sikre, uigenkaldelige og indeholder ikke kunders sensitive eller personlige information. Dette beskytter handelsdrivende imod tab, der forÃ¥rsages af svindel eller svigagtige tilbagetrÃ¦kninger, og der er ingen grund til PCI-overholdelse. Handelsdrivende kan nemt udvide til nye markeder, hvor kreditkort ikke er tilgÃ¦ngelige, eller svindelniveauet er uacceptabelt hÃ¸jt. Resultatet er lavere gebyrer, stÃ¸rre markeder og fÃ¦rre administrative omkostninger.</li>
+          <li><em><b>Sikkerhed og kontrol</b></em> â Bitcoin-brugere har fuld kontrol over deres transaktioner; det er umuligt for handelsdrivende at gennemtvinge uÃ¸nskede eller ubemÃ¦rkede opkrÃ¦vninger, som det kan ske med andre betalingsmetoder. Bitcoin-betalinger kan oprettes uden personlig information tilknyttet til transaktionen. Dette tilbyder stÃ¦rk beskyttelse imod identitetstyveri. Bitcoin-brugere kan ogsÃ¥ beskytte deres penge ved hjÃ¦lp af sikkerhedskopier og kryptering.</li>
+          <li><em><b>Transparent og neutral</b></em> â <a href="https://live.blockcypher.com/btc/">Al information</a> om Bitcoin-pengemÃ¦ngden er tilgÃ¦ngelig pÃ¥ blokkÃ¦den, sÃ¥ enhver kan verificere og bruge i realtid. Intet individ eller organisation kan styre eller manipulere Bitcoin-protokollen, fordi den er kryptografisk sikker. Dette gÃ¸r, at man kan have tillid til kernen i Bitcoin med hensyn til at vÃ¦re fuldstÃ¦ndig neutral, transparent og forudsigelig.</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <h3 id="disadvantages" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#disadvantages"></a>Hvad er ulemperne ved Bitcoin?</h3>
+      <div>
+        <ul>
+          <li><em><b>Modtagelsesgrad</b></em> â Mange mennesker kender stadig ikke til Bitcoin. Hver dag begynder flere forretninger at modtage bitcoin, fordi de er interesserede i de fordele, det giver, men listen er stadig lille, og den skal vokse, fÃ¸r den kan drage fordel af <a href="http://da.wikipedia.org/wiki/Netv%C3%A6rkseffekt">netvÃ¦rkseffekten</a>.</li>
+          <li><em><b>Flygtighed</b></em> â Den <a href="https://bitcoincharts.com/bitcoin/">totale vÃ¦rdi</a> af alle bitcoin i cirkulation og antallet af virksomheder, der bruger Bitcoin, er stadig meget lavt sammenlignet med hvad de kunne vÃ¦re. Derfor kan relativt smÃ¥ hÃ¦ndelser, handler eller forretningsaktiviteter pÃ¥virke prisen betydeligt. Teoretisk set vil denne flygtighed formindskes efterhÃ¥nden som Bitcoin-markederne og teknologien modner. Aldrig fÃ¸r har verden set en opstartsvaluta, sÃ¥ det er i sandhed svÃ¦rt (og spÃ¦ndende) at forestille sig, hvordan det vil forlÃ¸be sig.</li>
+          <li><em><b>LÃ¸bende udvikling</b></em> â Bitcoin-software er stadig i beta, med mange ufÃ¦rdige funktionaliteter under aktiv udvikling. Nye vÃ¦rktÃ¸jer, funktionaliteter og tjenester er under udvikling for at gÃ¸re Bitcoin mere sikker og tilgÃ¦ngelig for masserne. Nogle af disse er stadig ikke klar til alle. De fleste Bitcoin-virksomheder er nye og tilbyder stadig ingen forsikring. Generelt set er Bitcoin stadig under modning.</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <h3 id="secure" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#secure"></a>Er Bitcoin sikkert?</h3>
+      <div>
+        <p>Bitcoin-teknologien â protokollen og kryptografien â har en stÃ¦rk historik, hvad angÃ¥r sikkerhed, og Bitcoin-netvÃ¦rket er formentlig det stÃ¸rste distribuerede computerprojekt i verden. Bitcoins mest almindelige sÃ¥rbarhed ligger i brugerfejl. Filer med Bitcoin-tegnebÃ¸ger, som opbevarer de nÃ¸dvendige private nÃ¸gler, kan blive slettet ved en fejl, mistet eller stjÃ¥let. Dette er meget lig fysiske kontanter, dog gemt i digital form. Heldigvis kan brugere implementere sunde <a href="/da/sikr-din-tegnebog">sikkerhedsprocedurer</a> for at beskytte deres penge og bruge tjenesteudbydere, som tilbyder et godt sikkerheds- og forsikringsniveau imod tyvery og tab.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="islegal" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#islegal"></a>Er Bitcoin lovligt?</h3>
+      <div>
+        <p>Efter vores bedste overbevisning er <a href="https://en.wikipedia.org/wiki/Legality_of_bitcoin_by_country">Bitcoin ikke blevet ulovliggjort</a> af lovgivningen i de fleste jurisdiktioner. Nogle myndigheder (sÃ¥ som Argentina og Rusland) pÃ¥lÃ¦gger udenlandske valutaer strenge begrÃ¦nsninger eller forbud. Andre myndigheder (sÃ¥ som Thailand) kan lÃ¦gge begrÃ¦nsninger pÃ¥ licenseringen af bestemte enheder, sÃ¥ som Bitcoin-bÃ¸rser.</p>
+        <p>Regulatorer fra adskillige myndigheder er undervejs til at fremlÃ¦gge regler for enkeltpersoner og virksomheder for hvordan denne ny teknologi skal integreres med det formelle, regulerede finanssystem. The Financial Crimes Enforcement Network (FinCEN), et bureau i U.S.A.s finansdepartement, udgav et ikke-bindende guidesÃ¦t omkring hvordan det karaktiserer bestemte aktiviteter, der involverer virtuelle valutaer.</p>
+        <ul>
+          <li>
+            <a href="https://www.ecb.europa.eu/pub/pdf/other/virtualcurrencyschemes201210en.pdf">Virtual Currency Schemes - European Central Bank</a>
+          </li>
+          <li>
+            <a href="https://www.fincen.gov/statutes_regs/guidance/pdf/FIN-2013-G001.pdf">Application of FinCENâs Regulations to Persons Administering, Exchanging, or Using Virtual Currencies</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <h3 id="taxes" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#taxes"></a>Hvad med Bitcoin og skat?</h3>
+      <div>
+        <p>Bitcoin er ikke en fiat-valuta med juridisk status af officiel betalingsmiddel i nogen jurisdiktion, men ofte kan skatteforpligtelser tilflyde, uanset det anvendte medium. Der er et bredt udvalg af lovgivninger i mange forskellige jurisdiktioner, som ville kunne foranledige indkomstskat, moms, arbejdsgiverskat, kapitalindkomstskat eller en anden form for skatteforpligtelse med Bitcoin.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="illegalactivities" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#illegalactivities"></a>Er Bitcoin brugbart til ulovlige formÃ¥l?</h3>
+      <div>
+        <p>Bitcoin er penge, og penge er altid blevet brugt til bÃ¥de lovlige og ulovlige formÃ¥l. Kontanter, kreditkort og nuvÃ¦rende banksystemer overgÃ¥r i stor udstrÃ¦kning Bitcoin, nÃ¥r det kommer til deres brug til at finansiere kriminalitet. Bitcoin kan bringe betydelig innovation til betalingssystemer, og fordelene ved sÃ¥dan innovation betragtes ofte som vÃ¦rende ulemperne langt opvejende.</p>
+        <p>Bitcoin er designet til at vÃ¦re et kÃ¦mpemÃ¦ssigt skridt foran i at gÃ¸re penge sikre, og ville ogsÃ¥ kunne optrÃ¦de som betydelig beskyttelse imod mange former for finansiel kriminalitet. For eksempel er bitcoin fuldstÃ¦ndig umulige at forfalske. Brugere har fuld kontrol over deres betalinger og kan ikke udsÃ¦ttes for ikke-godkendte opkrÃ¦vninger som fx ved kreditkortsvindel. Bitcoin-transaktioner er uigenkaldelige og immune overfor svigagtige chargebacks. Bitcoin lader penge vÃ¦re sikret imod tyveri og tab ved brug af stÃ¦rke og brugbare mekanismer, sÃ¥ som sikkerhedskopier, kryptering og multi-signaturer.</p>
+        <p>Enkelte bekymringer, der er nÃ¦vnt, gÃ¥r pÃ¥ at Bitcoin kan vÃ¦re mere attraktivt for kriminelle, fordi det kan bruges til at lave private og uigenkaldelige betalinger. Disse funktionaliteter eksisterer dog allerede med kontanter og bankoverfÃ¸rsler, som er i bred benyttelse og er veletablerede. Brugen af Bitcoin vil uden tvivl udsÃ¦ttes for lignende regulering, som allerede foregÃ¥r i eksisterende finansielle systemer, og Bitcoin synes ikke at kunne forhindre kriminalefterforskning fra at blive udfÃ¸rt. Generelt set er det normalt for vigtige gennembrudsteknologier at blive anset for at vÃ¦re kontroversielle, fÃ¸r der er bred forstÃ¥else for deres fordele. Internet er et godt eksempel imellem mange andre, der illustrerer dette.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="bubble" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#bubble"></a>Er Bitcoin en boble?</h3>
+      <div>
+        <p>En hurtig stigning i prisen udgÃ¸r ikke en boble. En kunstig overvurdeling, som leder til en pludselig nedadgÃ¥ende rettelse, udgÃ¸r en boble. Valg baseret pÃ¥ individuelle menneskelige handlinger fra hundrede tusinder af markedsdeltagere er Ã¥rsagen til, at bitcoins pris fluktuerer, efterhÃ¥nden som markedet sÃ¸ger prisopdagelse. Begrundelser for Ã¦ndringer i opfattelsen kan omfatte et fald i tiltroen til Bitcoin, en stor forskel mellem vÃ¦rdi og pris, der ikke er baseret pÃ¥ Bitcoin-Ã¸konomiens grundbegreber, forÃ¸ger pressedÃ¦kning der stimulerer spekulativ efterspÃ¸rgsel, frygt for usikkerhed, og gammeldags irrationel begejstring og grÃ¥dighed.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="whyvalue" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#whyvalue"></a>Hvorfor har bitcoin vÃ¦rdi?</h3>
+      <div>
+        <p>Bitcoin har vÃ¦rdi, fordi de er nyttige som en form for penge. Bitcoin har de samme karakteristika som penge (holdbarhed, mobilitet, ombyttelighed, knaphed, delelighed og genkendelighed) bareseret pÃ¥ matematikkens egenskaber frem for fysiske egenskaber (ligesom guld og sÃ¸lv) og tiltro til centrale autoriteter (ligesom fiat-valuta). Bitcoin opbakkes kort sagt af matematik. Med disse egenskaber er alt, hvad der behÃ¸ves for at en form for penge har vÃ¦rdi, er tillid og udbredelse. I Bitcoins tilfÃ¦lde kan dette mÃ¥les pÃ¥ den voksende mÃ¦ngde af brugere, handelsdrivende og opstartsvirksomheder. Som med alle valuta kommer bitcoins vÃ¦rdi direkte og kun fra det faktum, at folk er villige til at acceptere dem som betaling.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="ponzi" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#ponzi"></a>Er Bitcoin et pyramidespil?</h3>
+      <div>
+        <p>Et pyramidespil er en svigagtig investeringsforetagende, som tilbagebetaler investorerne ud fra deres egne penge eller fra penge, der er betalt af efterfÃ¸lgende investorer, i stedet for fra overskud, der tjenes af de personer, der kÃ¸re foretagenet. Pyramidespil er designet til at kollapse pÃ¥ bekostning af de sidste investorer, nÃ¥r der ikke lÃ¦ngere er nok nye deltagere.</p>
+        <p>Bitcoin er et projekt med fri software og ingen central autoritet. Dermed er ingen i en position til at fremsÃ¦tte svigagtige reprÃ¦sentationer af investeringsoverskud. Ligesom med andre store valutaer, sÃ¥ som guld, U.S.-dollar, euro, yen, etc. er der ikke nogen garanteret kÃ¸bekraft og vekselkursen flyder frit. Dette leder til flygtighed, hvor ejere af bitcoin uforudsigeligt kan tjene eller miste penge. Ud over spekulation er Bitcoin ogsÃ¥ et betalingssystem med brugbare og konkurrencedygtige egenskaber, som bliver brugt af tusinder af brugere og forretninger.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="creator" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#creator"></a>Hvem skabte Bitcoin?</h3>
+      <div>
+        <p>Bitcoin er den fÃ¸rste implementering af et koncept, der hedder "cryptocurrency" (altsÃ¥ kryptovaluta), som fÃ¸rst blev beskrevet i 1998 af Wei Dai pÃ¥ cypherpunkt-postlisten, og som foreslog idÃ©en om en ny slags penge, der bruger kryptografi til at styre sin oprettelse og transaktioner, frem for en central autoritet. Den fÃ¸rste Bitcoin-specifikation og "proof-of-concept"-prototype blev offentliggjort i 2009 pÃ¥ en postliste for kryptografi af Satoshi Nakamoto. Satoshi forlod projektet sidst i 2010 uden at afslÃ¸re meget om sig selv. FÃ¦llesskabet er siden vokset eksponentielt med <a href="/da/udvikling">mange udviklere</a>, der arbejder pÃ¥ Bitcoin.</p>
+        <p>Satoshis anonymitet har ofte rejst uberettigede bekymringer, hvoraf mange kan hÃ¦gtes sammen med misforstÃ¥else af Bitcoins karakter af Ã¥ben kildekode. Bitcoin-protokollen og -software udgives offentligt, og enhver udvikler rundt om i verden kan gennemse koden eller lave deres egen modificerede udgave af Bitcoin-softwaren. PrÃ¦cis som med aktuelle udviklere var Satoshis indflydelse begrÃ¦nset til, at de Ã¦ndringer han lavede, skulle tages i brug af andre, og derfor var han ikke i kontrol over Bitcoin. Som sÃ¥dan er identiteten af Bitcoins skaber i dag nogenlunde lige sÃ¥ relevant som identiteten pÃ¥ den person, som opfandt papiret.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="worthless" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#worthless"></a>Kan bitcoin blive vÃ¦rdilÃ¸se?</h3>
+      <div>
+        <p>Ja. Historien er fyldt med fejlslagne valutaer, som ikke lÃ¦ngere bruges, som fx den <a href="https://en.wikipedia.org/wiki/German_gold_mark">tyske mark</a> under Weimar-republikken og, mere nyligt, den <a href="https://en.wikipedia.org/wiki/Zimbabwean_dollar">zimbabwiske dollar</a>. Selvom tidligere valutafiaskoer typisk var pÃ¥ grund af hyperinflation, af en type som er umuligt med Bitcoin, er der altid potentiale for tekniske fiaskoer, konkurrerende valutaer, politiske problemstillinger og sÃ¥ videre. En basal tommelfingerregel siger, at ingen valuta bÃ¸r anses som absolut sikker, nÃ¥r det kommer til fiasko eller hÃ¥rde tider. Bitcoin har vist sig pÃ¥lidelig i flere Ã¥r siden dens begyndelse, og der er masser af potentiale for, at Bitcoin fortsÃ¦tter med at vokse. Ingen er dog i stand til at forudsige, hvad fremtiden vil bringe for Bitcoin.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="virtual" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#virtual"></a>Er Bitcoin fuldt ud virtuelt og immaterielt?</h3>
+      <div>
+        <p>Bitcoin er lige sÃ¥ virtuelt som de kreditkort og netbanker, folk bruger hver dag. Bitcoin kan bruges til at betale online og i fysiske forretninger, prÃ¦cis ligesom enhver anden form for penge. Bitcoin kan ogsÃ¥ veksles i fysisk form, som fx <a href="https://www.casascius.com/">Casascius coins</a>, men det er typisk mere belejligt at betale med en mobiltelefon. Bitcoin-saldi gemmes i et stort, distribueret netvÃ¦rk, og de kan ikke svigagtigt Ã¦ndres an nogen. Med andre ord: Bitcoin-brugere har eksklusiv kontrol over deres penge, og bitcoin kan ikke forsvinde, bare fordi de er virtuelle.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="trust" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#trust"></a>Hvorfor stoler folk pÃ¥ Bitcoin?</h3>
+      <div>
+        <p>Meget af tilliden til Bitcoin kommer fra det faktum, at det ikke krÃ¦ver nogen tillid overhovedet. Bitcoin har fuldt ud Ã¥ben kildekode og er fuldt ud decentraliseret. Dette betyder, at enhver til enhver tid har adgang til den komplette kildekode. Enhver udvikler i verden kan derfor verificere prÃ¦cis, hvordan Bitcoin fungerer. Alle transaktioner og bitcoins, der bliver udstedt, kan helt gennemskueligt fÃ¸lges i realtid af enhver. Alle betalinger kan laves uden tillid til tredjepart, og hele systemet er beskyttet af stÃ¦rkt peer-gennemtjekkede kryptografiske algoritmer, ligesom dem der benyttes i netbanker. Ingen organisation eller individ kan tage kontrol over Bitcoin, og netvÃ¦rket forbliver sikkert, selv hvis ikke alle brugerne kan stoles pÃ¥.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="anonymous" onclick="faqShow(event);" ontouchstart="faqShow(event);" class="link-js anchorAf"><a href="#anonymous"></a>Er Bitcoin anonymt?</h3>
+      <div>
+        <p>Bitcoin er designet til at tillade brugerne at sende og modtage betalinger med et acceptabelt niveau af privatlivsbeskyttelse, sÃ¥ vel som med enhver anden form for penge. Men Bitcoin er dog ikke anonymt og kan ikke tilbyde det samme privatlivsbeskyttelse som kontanter. Brugen af Bitcoin efterlader omfangsrige offentlige optegninger. <a href="/da/beskyt-dit-privatliv">Forskellige mekanismer</a> eksisterer, der kan beskytte brugeres privatliv, og flere er under udvikling. Men der er stadig arbejde, der skal gÃ¸res, fÃ¸r disse funktionaliteter kan bruges korrekt af de fleste Bitcoin-brugere.</p>
+        <p>Nogle bekymringer, der er nÃ¦vnt, gÃ¥r pÃ¥ at private transaktioner kan bruges til illegale formÃ¥l med Bitcoin. Det er dog vÃ¦rd at notere sig, at Bitcoin vil uden tvivl udsÃ¦ttes for lignende regulering, som allerede foregÃ¥r i eksisterende finansielle systemer. Bitcoin kan ikke vÃ¦re mere anonymt end kontanter, og det synes ikke at kunne forhindre kriminalefterforskning fra at blive udfÃ¸rt. Tilmed er Bitcoin designet til at forhindre en stor mÃ¦ngde financielle forbrydelser.</p>
+      </div>
+    </div>
+    <p>For at lÃ¦re mere om Bitcoin kan du besÃ¸ge den komplette <a href="/en/faq">FAQ</a> eller <a href="https://en.bitcoin.it/wiki/Help:FAQ">Bitcoin-wikien</a>.</p>
+  </div>
+</div>
+
+
+
+    </div>
+  </div>
+</div>
+
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="/da/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Support Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Donate</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">Introduktion:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/da/bitcoin-for-enkeltpersoner">Enkeltpersoner</a>
+        </li>
+        <li>
+          <a href="/da/bitcoin-for-virksomheder">Virksomheder</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">Udviklere</a>
+        </li>
+        <li>
+          <a href="/da/kom-i-gang">Kom i gang</a>
+        </li>
+        <li>
+          <a href="/da/hvordan-det-fungerer">Hvordan det fungerer</a>
+        </li>
+        <li>
+          <a href="/da/du-boer-vide">Du bÃ¸r vide</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">Ressourcer:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/da/ressourcer">Ressourcer</a>
+        </li><li>
+          <a href="/da/udvekslinger">Exchanges</a>
+        </li>
+        <li>
+          <a href="/da/faellesskab">FÃ¦llesskab</a>
+        </li>
+        <li>
+          <a href="/da/ordliste">Ordliste
+          </a>
+        </li>
+        <li>
+          <a href="/da/begivenheder">Begivenheder</a>
+        </li>
+        
+          <li>
+            <a href="/da/hent">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">Deltag:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/da/stoet-bitcoin">StÃ¸t Bitcoin</a>
+        
+        
+        </li><li>
+          <a href="/da/udvikling">Udvikling</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Other:</p>
+      
+      <a href="/da/juridisk">Juridisk</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/da/presse">Presse</a>
+      <a href="/da/om-os">Om bitcoin.org</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>En fÃ¦llesskabswebside sponsoreret af</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1716491272" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 Udgivet under <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT-licensen</a></div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">Network Status</a>
+        
+<ul class="lang is-expand">
+  <li><a>Dansk</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/pers">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/premsa">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/presse" class="active">Dansk</a></li>
+        
+        
+          <li><a href="/de/presse">Deutsch</a></li>
+        
+        
+          <li><a href="/en/press">English</a></li>
+        
+        
+          <li><a href="/es/prensa">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/presse">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/stampa">Italiano</a></li>
+        
+        
+          <li><a href="/hu/sajto">Magyar</a></li>
+        
+        
+          <li><a href="/nl/pers">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/prasa">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/imprensa">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/presa">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/mediji">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/mediji">Srpski</a></li>
+        
+        
+          <li><a href="/sv/press">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/basin">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/press">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/press">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/press">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/press">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/press">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/press">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/press">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/press">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/press">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/press">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/press">ááááá</a></li>
+        
+        
+          <li><a href="/ja/press">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/press">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/press">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/pers">Bahasa Indonesia</option>
+              
+              <option value="/ca/premsa">CatalÃ </option>
+              
+              <option value="/da/presse" selected="selected">Dansk</option>
+              
+              <option value="/de/presse">Deutsch</option>
+              
+              <option value="/en/press">English</option>
+              
+              <option value="/es/prensa">EspaÃ±ol</option>
+              
+              <option value="/fr/presse">FranÃ§ais</option>
+              
+              <option value="/it/stampa">Italiano</option>
+              
+              <option value="/hu/sajto">Magyar</option>
+              
+              <option value="/nl/pers">Nederlands</option>
+              
+              <option value="/pl/prasa">Polski</option>
+              
+              <option value="/pt_BR/imprensa">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/presa">RomÃ¢nÄ</option>
+              
+              <option value="/sl/mediji">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/mediji">Srpski</option>
+              
+              <option value="/sv/press">Svenska</option>
+              
+              <option value="/tr/basin">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/press">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/press">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/press">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/press">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/press">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/press">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/press">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/press">×¢××¨××ª</option>
+              
+              <option value="/hi/press">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/press">íêµ­ì´</option>
+              
+              <option value="/km/press">ááááá</option>
+              
+              <option value="/ja/press">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/press">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/press">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">da</span>
+          </label>
+        </div>
+      </div>
+<!--      <div class="row">  -->
+        
+<!--    </div> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+
+
+  <script>updateToc();</script>
+<script>accordion();</script>
+<script>onScrollButton();</script>
+<script>boxShow();</script>
+
+
+
+
+
+
+</body></html>
