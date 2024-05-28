@@ -1,0 +1,43 @@
+{
+    "target_url": "https://trustwallet.com/staking",
+    "domains": {
+        "trustwallet.com": [
+            "https://trustwallet.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage.5ee64b2e.png&w=256&q=75",
+            "https://trustwallet.com/_next/image?url=https%3A%2F%2Fassets-cdn.trustwallet.com%2Fblockchains%2Fagoric%2Finfo%2Flogo.png&w=128&q=75",
+            "https://trustwallet.com/_next/image?url=https%3A%2F%2Fassets-cdn.trustwallet.com%2Fblockchains%2Fakash%2Finfo%2Flogo.png&w=128&q=75",
+            "https://trustwallet.com/_next/image?url=https%3A%2F%2Fassets-cdn.trustwallet.com%2Fblockchains%2Faxelar%2Finfo%2Flogo.png&w=128&q=75",
+            "https://trustwallet.com/_next/image?url=https%3A%2F%2Fassets-cdn.trustwallet.com%2Fblockchains%2Fbinance%2Finfo%2Flogo.png&w=128&q=75",
+            "https://trustwallet.com/_next/image?url=https%3A%2F%2Fassets-cdn.trustwallet.com%2Fblockchains%2Fcardano%2Finfo%2Flogo.png&w=128&q=75",
+            "https://trustwallet.com/_next/image?url=https%3A%2F%2Fassets-cdn.trustwallet.com%2Fblockchains%2Fcosmos%2Finfo%2Flogo.png&w=128&q=75",
+            "https://trustwallet.com/_next/image?url=https%3A%2F%2Fassets-cdn.trustwallet.com%2Fblockchains%2Fcryptoorg%2Finfo%2Flogo.png&w=128&q=75",
+            "https://trustwallet.com/_next/image?url=https%3A%2F%2Fassets-cdn.trustwallet.com%2Fblockchains%2Fethereum%2Finfo%2Flogo.png&w=128&q=75",
+            "https://trustwallet.com/_next/image?url=https%3A%2F%2Fassets-cdn.trustwallet.com%2Fblockchains%2Fjuno%2Finfo%2Flogo.png&w=128&q=75",
+            "https://trustwallet.com/_next/image?url=https%3A%2F%2Fassets-cdn.trustwallet.com%2Fblockchains%2Fkava%2Finfo%2Flogo.png&w=128&q=75",
+            "https://trustwallet.com/_next/image?url=https%3A%2F%2Fassets-cdn.trustwallet.com%2Fblockchains%2Fkusama%2Finfo%2Flogo.png&w=128&q=75",
+            "https://trustwallet.com/_next/image?url=https%3A%2F%2Fassets-cdn.trustwallet.com%2Fblockchains%2Fnativeevmos%2Finfo%2Flogo.png&w=128&q=75",
+            "https://trustwallet.com/_next/image?url=https%3A%2F%2Fassets-cdn.trustwallet.com%2Fblockchains%2Fnativeevmos%2Finfo%2Flogo.png&w=64&q=75",
+            "https://trustwallet.com/_next/image?url=https%3A%2F%2Fassets-cdn.trustwallet.com%2Fblockchains%2Fnativeinjective%2Finfo%2Flogo.png&w=128&q=75",
+            "https://trustwallet.com/_next/image?url=https%3A%2F%2Fassets-cdn.trustwallet.com%2Fblockchains%2Fnear%2Finfo%2Flogo.png&w=128&q=75",
+            "https://trustwallet.com/_next/image?url=https%3A%2F%2Fassets-cdn.trustwallet.com%2Fblockchains%2Fosmosis%2Finfo%2Flogo.png&w=128&q=75",
+            "https://trustwallet.com/_next/image?url=https%3A%2F%2Fassets-cdn.trustwallet.com%2Fblockchains%2Fpolkadot%2Finfo%2Flogo.png&w=128&q=75",
+            "https://trustwallet.com/_next/image?url=https%3A%2F%2Fassets-cdn.trustwallet.com%2Fblockchains%2Fsei%2Finfo%2Flogo.png&w=128&q=75",
+            "https://trustwallet.com/_next/image?url=https%3A%2F%2Fassets-cdn.trustwallet.com%2Fblockchains%2Fsolana%2Finfo%2Flogo.png&w=128&q=75",
+            "https://trustwallet.com/_next/image?url=https%3A%2F%2Fassets-cdn.trustwallet.com%2Fblockchains%2Fstargaze%2Finfo%2Flogo.png&w=128&q=75",
+            "https://trustwallet.com/_next/image?url=https%3A%2F%2Fassets-cdn.trustwallet.com%2Fblockchains%2Fstride%2Finfo%2Flogo.png&w=128&q=75",
+            "https://trustwallet.com/_next/image?url=https%3A%2F%2Fassets-cdn.trustwallet.com%2Fblockchains%2Fsui%2Finfo%2Flogo.png&w=128&q=75",
+            "https://trustwallet.com/_next/image?url=https%3A%2F%2Fassets-cdn.trustwallet.com%2Fblockchains%2Fterra%2Finfo%2Flogo.png&w=128&q=75",
+            "https://trustwallet.com/_next/image?url=https%3A%2F%2Fassets-cdn.trustwallet.com%2Fblockchains%2Ftezos%2Finfo%2Flogo.png&w=128&q=75",
+            "https://trustwallet.com/_next/image?url=https%3A%2F%2Fassets-cdn.trustwallet.com%2Fblockchains%2Ftron%2Finfo%2Flogo.png&w=128&q=75",
+            "https://trustwallet.com/_next/static/media/image.7f0b3bc9.svg",
+            "https://trustwallet.com/_next/static/media/image.8354ab2c.svg",
+            "https://trustwallet.com/_next/static/media/raw.1211abf0.svg",
+            "https://trustwallet.com/_next/static/media/raw.4edbb099.svg",
+            "https://trustwallet.com/_next/static/media/raw.5f3a9181.svg",
+            "https://trustwallet.com/_next/static/media/raw.7dd85797.svg",
+            "https://trustwallet.com/_next/static/media/raw.9a6dd06f.svg",
+            "https://trustwallet.com/_next/static/media/raw.b373ab3f.svg",
+            "https://trustwallet.com/_next/static/media/raw.e7c57d68.svg",
+            "https://trustwallet.com/_next/static/media/raw.ef5ecf3d.svg"
+        ]
+    }
+}
