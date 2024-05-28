@@ -15,7 +15,7 @@ English
 
 # Advice and Answers from the Team
 
-### [Platform Basics74
+### [Platform Basics73
 articles](https://help.magiceden.io/en/collections/3426444-platform-basics)###
 [Transactions37
 articles](https://help.magiceden.io/en/collections/3287059-transactions)###
