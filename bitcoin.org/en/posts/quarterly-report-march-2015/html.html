@@ -1,0 +1,1341 @@
+<!DOCTYPE html><html lang="en"><head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Quarterly Report March 2015</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+
+<script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.org is a community funded project, donations are appreciated and used to improve the website.
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        Make a donation
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.org needs your support!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">Donate to Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">Use this QR code or address below</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="Or custom amount? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="Or custom amount? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="Optional description (for your wallet)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="/en/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">Introduction</a>
+    <ul>
+      <li><a href="/en/bitcoin-for-individuals">Individuals</a></li>
+      <li><a href="/en/bitcoin-for-businesses">Businesses</a></li>
+      <li><a href="https://developer.bitcoin.org/">Developers</a></li>
+      <li><a href="/en/getting-started">Getting started</a></li>
+      <li><a href="/en/how-it-works">How it works</a></li>
+      
+      <li><a href="/en/bitcoin-paper">White paper</a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">Resources</a>
+    <ul>
+      <li><a href="/en/resources">Resources</a>
+      </li><li><a href="/en/exchanges">Exchanges</a></li>
+      <li><a href="/en/community">Community</a></li>
+      
+      
+      <li><a href="https://developer.bitcoin.org/">Documentation</a></li>
+      
+      <li><a href="/en/vocabulary">Vocabulary</a></li>
+      <li><a href="/en/events">Events</a></li>
+      
+        <li><a href="/en/bitcoin-core/">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li><a href="/en/innovation">Innovation</a></li>
+  <li><a class="is-expand">Participate</a>
+    <ul>
+      <li><a href="/en/support-bitcoin">Support Bitcoin</a>
+      </li><li><a href="/en/buy">Buy Bitcoin</a></li>
+      <li><a href="/en/full-node">Running a full node</a></li>
+      <li><a href="/en/development">Development</a></li>
+    </ul>
+  </li>
+  <li><a href="/en/faq">FAQ</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>English</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/">Dansk</a></li>
+        
+        
+          <li><a href="/de/">Deutsch</a></li>
+        
+        
+          <li><a href="/en/" class="active">English</a></li>
+        
+        
+          <li><a href="/es/">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/">Italiano</a></li>
+        
+        
+          <li><a href="/hu/">Magyar</a></li>
+        
+        
+          <li><a href="/nl/">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/">Srpski</a></li>
+        
+        
+          <li><a href="/sv/">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/">ááááá</a></li>
+        
+        
+          <li><a href="/ja/">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/">Bahasa Indonesia</option>
+            
+            <option value="/ca/">CatalÃ </option>
+            
+            <option value="/da/">Dansk</option>
+            
+            <option value="/de/">Deutsch</option>
+            
+            <option value="/en/" selected="selected">English</option>
+            
+            <option value="/es/">EspaÃ±ol</option>
+            
+            <option value="/fr/">FranÃ§ais</option>
+            
+            <option value="/it/">Italiano</option>
+            
+            <option value="/hu/">Magyar</option>
+            
+            <option value="/nl/">Nederlands</option>
+            
+            <option value="/pl/">Polski</option>
+            
+            <option value="/pt_BR/">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/">RomÃ¢nÄ</option>
+            
+            <option value="/sl/">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/">Srpski</option>
+            
+            <option value="/sv/">Svenska</option>
+            
+            <option value="/tr/">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/">×¢××¨××ª</option>
+            
+            <option value="/hi/">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/">íêµ­ì´</option>
+            
+            <option value="/km/">ááááá</option>
+            
+            <option value="/ja/">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">en</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  <link rel="alternate" type="application/atom+xml" href="/en/rss/blog.xml" title="Bitcoin.org Site Blog">
+
+<div class="subhead-links">
+  <div class="container">
+    <a href="/en/blog">Blog home</a>
+    |
+    <a type="application/atom+xml" href="/en/rss/blog.xml">Subscribe to RSS feed</a>
+    |
+    <a href="https://github.com/bitcoin-dot-org/bitcoin.org/commits/master/_posts/2015-03-05-quarterly-report-decjanfeb2015.md">Post history</a>
+    |
+    <a href="https://github.com/bitcoin-dot-org/bitcoin.org/issues/new?body=Source%20File%3A%20_posts/2015-03-05-quarterly-report-decjanfeb2015.md%0A%0A">Report issue</a>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="container hero-container">
+    <h1>Quarterly Report March 2015</h1>
+  </div>
+</header>
+
+<div class="toc-container">
+  <div class="row toc-row">
+  
+    <div id="toc" class="toc">
+      <div>
+        <button class="mob-sidebar-open" hidden="">ALL TOPICS</button>
+        <div class="sidebar">
+          <div class="sidebar-inner" markdown="1">
+            <button class="mob-sidebar-close" hidden=""></button>
+            
+
+<ul>
+  <li><a href="#translations">Translations</a></li>
+  <li><a href="#developer-documentation">Developer documentation</a></li>
+  <li><a href="#regular-updates">Regular Updates</a></li>
+  <li><a href="#wallets">Wallets</a></li>
+  <li><a href="#new-full-node-guide">New Full Node Guide</a></li>
+  <li><a href="#website-improvements">Website Improvements</a></li>
+  <li><a href="#server-and-development-tools">Server And Development Tools</a></li>
+  <li><a href="#public-website-statistics">Public Website Statistics</a></li>
+  <li><a href="#expense-report">Expense Report</a></li>
+  <li><a href="#next-quarters-goals">Next Quarterâs Goals</a></li>
+  <li><a href="#thanks-to-sponsors-and-volunteers">Thanks To Sponsors And Volunteers</a></li>
+</ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="toccontent">
+      <article class="article" markdown="1">
+        <div class="post-content">
+  <p><em>Thanks to <a href="https://github.com/bitcoin-dot-org/bitcoin.org/graphs/contributors?from=2014-12-01&amp;to=2015-02-28&amp;type=c">our
+volunteers</a>
+and the financial sponsorship of <a href="https://bitcoinfoundation.org/">The Bitcoin
+Foundation</a>, weâve made the
+following accomplishments this quarter.</em></p>
+
+  <p>Summary for December 2014, January 2015, and February 2015.</p>
+
+  <ul>
+    <li>
+      <p><strong>Quarterly page views:</strong> <a href="https://bitcoin.org/stats/">over 7 million.</a></p>
+    </li>
+    <li>
+      <p><strong>Translations:</strong> Bitcoin.org now has fully proofread and complete
+translations for 26 languages. New and significantly-improved
+translations added this quarter include Bulgarian, Greek, Polish,
+and Turkish.</p>
+    </li>
+    <li>
+      <p><strong>Developer documentation:</strong> added 114 new or completely rewritten
+printed pages worth of text describing Bitcoin Coreâs RPC interface
+and 8 more pages describing its new HTTP REST interface. Bitcoin Core
+0.10.0âs new headers-first sync is now documented as is the older
+blocks-first sync. Begun in the previous quarter, this quarter also
+saw the completion of over 30 printed pages worth of text describing
+the Bitcoin peer-to-peer network.</p>
+    </li>
+    <li>
+      <p><strong>Contributors:</strong> long-time site maintainer SaÃ¯vann Carignan, who has
+made <a href="https://github.com/bitcoin-dot-org/bitcoin.org/commits/master?author=saivann">over 1,000
+commits</a>
+during the past two years, has announced he no longer has time to lead
+the project. A search is on for new volunteers who are willing to
+contribute to one of most trusted Bitcoin resources on the Internet.</p>
+    </li>
+    <li>
+      <p><strong>Wallets:</strong> reviewed and added three new wallets to the Choose Your
+Wallet page, and all previously-listed wallets now support HTTP Strict
+Transport Security (HSTS) for secure parts of their sites.</p>
+    </li>
+    <li>
+      <p><strong>User guides:</strong> A new guide has been published to the site providing
+detailed instructions for supporting the network by running the
+Bitcoin Core full node. The announcement of the page received over
+<a href="http://www.reddit.com/r/Bitcoin/comments/2wvdko/new_page_on_bitcoinorg_running_a_full_node/">200 upvotes on
+Reddit</a>.</p>
+    </li>
+  </ul>
+</div>
+
+<div class="toccontent-block boxexpand expanded">
+
+  <h2 id="translations" class=" anchorAf"><a href="#translations"></a>Translations</h2>
+
+  <blockquote>
+    <p>âMuchas gracias por atender esto inmediatamente, Â¡y por el trabajo
+realizado!â (Many thanks for doing this immediately, and for all the
+work done!) âAdamantike on Transifex.com</p>
+  </blockquote>
+
+  <p><img src="/img/blog/free/translations.png?1716491272" alt="Bitcoin.org available in 26 languages"></p>
+
+  <p>Non-US/UK visitors accounted for 35% percent of Bitcoin.orgâs traffic
+this quarter, about 2.5 million page views. Future translation work will
+likely depend on how the English portion of the site is changed in the
+coming months.</p>
+
+  <ul>
+    <li>
+      <p><strong>Newly proofread:</strong> Bulgarian, Polish, and Turkish translations</p>
+    </li>
+    <li>
+      <p><strong>FAQ translated:</strong> the longest localized page on the site, the
+<a href="http://btcorg.localhost/en/faq">FAQ</a> has now been translated into
+Polish and Turkish.</p>
+    </li>
+    <li>
+      <p><strong>Newly added:</strong> a Greek translation</p>
+    </li>
+    <li>
+      <p><strong>Updated:</strong> this quarter saw updates small and large for the
+translations to Bulgarian, Chinese (Traditional), Chinese
+(Simplified), Danish, Dutch, French, German, Greek, Hindi, Hungarian,
+Indonesian, Italian, Japanese, Korean, Persian, Polish, Portuguese,
+Romanian, Russian, Swedish, Turkish, and Ukrainian.</p>
+    </li>
+  </ul>
+
+  <p>We are extremely grateful for all the translations contributed by
+volunteers and paid translators on our <a href="https://www.transifex.com/projects/p/bitcoinorg/">Transifex project
+page</a> as well as the
+many reviews made by SaÃ¯vann Carignan.</p>
+</div>
+
+<div class="toccontent-block boxexpand expanded">
+
+  <h2 id="developer-documentation" class=" anchorAf"><a href="#developer-documentation"></a>Developer documentation</h2>
+
+  <blockquote>
+    <p>âNice work!â âJonas Schnelli about the new HTTP REST documentation
+(<a href="https://github.com/bitcoin-dot-org/bitcoin.org/pull/720#issuecomment-71515413">source</a>)</p>
+  </blockquote>
+
+  <p><img src="/img/blog/free/en-headers-first-moving-window.png?1716491272" alt="Illustration from new headers-first documentation"></p>
+
+  <p>The three main developer documentation webpages received a total
+of about 90,000 page views this quarter. Accomplishments this
+quarter include:</p>
+
+  <ul>
+    <li>
+      <p><strong>RPC rewrite:</strong> added <a href="https://github.com/bitcoin-dot-org/bitcoin.org/pull/693">114 new or completely
+rewritten</a> printed
+pages worth of text describing Bitcoin Coreâs RPC interface and <a href="https://github.com/bitcoin-dot-org/bitcoin.org/pull/720">8
+more pages</a>
+describing its new HTTP REST interface.</p>
+    </li>
+    <li>
+      <p><strong>Whatâs headers first?</strong> Bitcoin Core 0.10.0âs new
+headers-first sync <a href="https://github.com/bitcoin-dot-org/bitcoin.org/pull/736">is now
+documented</a> as is
+<a href="https://github.com/bitcoin-dot-org/bitcoin.org/pull/685">the older blocks-first
+sync</a>.</p>
+    </li>
+    <li>
+      <p><strong>P2P protocol:</strong> begun in the previous quarter, this quarter also saw
+the <a href="https://github.com/bitcoin-dot-org/bitcoin.org/pull/657">completion</a> of
+over 30 printed pages worth of text <a href="https://bitcoin.org/en/developer-reference#p2p-network">describing the Bitcoin
+peer-to-peer network</a>.</p>
+    </li>
+    <li>
+      <p><strong>Ease contribution:</strong> nearly every subheading <a href="https://github.com/bitcoin-dot-org/bitcoin.org/pull/682">now
+includes</a> links that
+allow instant submission of corrections or reporting of issues related
+to the text.</p>
+    </li>
+    <li>
+      <p><strong>Documentation is not a specification:</strong> relaying comments frequently
+made by Bitcoin Core developers, we now make clear that the
+<a href="https://github.com/bitcoin-dot-org/bitcoin.org/pull/679">documentation is not a
+specification</a></p>
+    </li>
+    <li>
+      <p><strong>Bitcoin Core 0.10.0:</strong> many small changes were made to update the
+documentation to accurately describe Bitcoin Core 0.10.0 behavior.</p>
+    </li>
+  </ul>
+
+  <p>Most documentation was written by David A. Harding, with reviews
+conducted by SaÃ¯vann Carignan, Jonas Schnelli, and others.</p>
+</div>
+
+<div class="toccontent-block boxexpand expanded">
+
+  <h2 id="regular-updates" class=" anchorAf"><a href="#regular-updates"></a>Regular Updates</h2>
+
+  <blockquote>
+    <p>âGreat!â
+âThanks.â
+âThank you!â
+âUsers after we helped promote their Bitcoin events (sources:
+<a href="https://github.com/bitcoin-dot-org/bitcoin.org/issues/702">1</a>,
+<a href="https://github.com/bitcoin-dot-org/bitcoin.org/issues/741">2</a>,
+<a href="https://github.com/bitcoin-dot-org/bitcoin.org/issues/741">3</a>)</p>
+  </blockquote>
+
+  <p><img src="/img/blog/free/events.png?1716491272" alt="Excerpt from the Events page map"></p>
+
+  <p>The English <a href="https://bitcoin.org/en/">homepage</a> and <a href="https://bitcoin.org/en/getting-started">Getting
+Started</a> page by themselves
+received over 2.0 million visits this quarter. These and other regular
+content pages are often updated based on suggestions by first-time
+contributors, with the bulk of updates going to the <a href="https://bitcoin.org/en/events">Events
+page</a> and the <a href="https://bitcoin.org/en/resources">Resources
+page</a> (and its many translations).</p>
+
+  <ul>
+    <li>
+      <p><strong>Update events:</strong> listed 20 new events in addition to the events
+automatically listed by the site software.</p>
+    </li>
+    <li>
+      <p><strong>Update links:</strong> updated redirected or broken links, as well as removed
+or redirected links that point to resources our contributors no longer
+think are useful.</p>
+    </li>
+    <li>
+      <p><strong>Localize links:</strong> pointed links to relevant local resources for some
+languages.</p>
+    </li>
+    <li>
+      <p><strong>Add non-profit link directory:</strong> added the excellent non-profit link
+directory compiled by GiveBTC.org.</p>
+    </li>
+    <li>
+      <p><strong>Mention innovative technology:</strong> added the Lighthouse P2P crowdfunding
+platform to the list of innovative Bitcoin technology.</p>
+    </li>
+  </ul>
+
+  <p>We are grateful to all of the contributors who opened issues and made
+pull requests to keep the site content current and useful.</p>
+</div>
+
+<div class="toccontent-block boxexpand expanded">
+
+  <h2 id="wallets" class=" anchorAf"><a href="#wallets"></a>Wallets</h2>
+
+  <blockquote>
+    <p>âThank you! Good catch!â âGreenAddress on GitHub after we discovered
+a bug in the new GreenBits wallet
+(<a href="https://github.com/bitcoin-dot-org/bitcoin.org/pull/725#issuecomment-73322654">source</a>)</p>
+  </blockquote>
+
+  <p><img src="/img/blog/free/wallets.png?1716491272" alt="Just some of the wallets currently listed"></p>
+
+  <p>The <a href="https://bitcoin.org/en/choose-your-wallet">Choose Your Wallet page</a>
+is one of our most visited pagesâjust the English version of the page
+alone has received over 400,000 visitors this quarter.  However,
+maintaining the page is also one of our most time-consuming activities due
+to the number of wallet authors who want us to include their wallet on
+the page.</p>
+
+  <ul>
+    <li>
+      <p><strong>New wallets:</strong> we reviewed and added three new wallets
+<a href="https://github.com/bitcoin-dot-org/bitcoin.org/pull/652">Airbitz</a>,
+<a href="https://github.com/bitcoin-dot-org/bitcoin.org/pull/697">Circle</a>, and
+<a href="https://github.com/bitcoin-dot-org/bitcoin.org/pull/577">Coinapult</a>.</p>
+    </li>
+    <li>
+      <p><strong>Made HSTS a requirement:</strong> after contacting eight wallet
+providers and asking them to enable HTTP Strict Transport Security
+(HSTS) on their sites, all eight eventually agreed to use this
+simple server setting to help prevent possibly-devastating
+man-in-the-middle attacks.</p>
+    </li>
+    <li>
+      <p><strong>Removed Blockchain.info:</strong> although a very popular wallet service,
+Blockchain.info was
+<a href="https://github.com/bitcoin-dot-org/bitcoin.org/pull/663">delisted</a> after a
+polite online discussion with its CEO. A period of 60 days was chosen,
+after which they may apply to be relisted.</p>
+    </li>
+    <li>
+      <p><strong>Published wallet requirements:</strong> a set of wallet requirements and
+guidelines <a href="https://github.com/bitcoin-dot-org/bitcoin.org/pull/670">were
+discussed</a> and
+published, allowing wallet authors to evaluate for themselves whether
+their wallet would be a good fit for Bitcoin.org.</p>
+    </li>
+  </ul>
+
+  <p>SaÃ¯vann Carignan spearheaded all the wallet efforts above, although we
+are also grateful to the many people who commented on the wallet issues
+and pull requests.</p>
+
+  <p>As SaÃ¯vann has become too busy to continue maintenance of the wallet
+section of the site, we are actively <a href="https://github.com/bitcoin-dot-org/bitcoin.org/issues/778">looking for a
+volunteer</a> to take
+over reviewing wallets and managing wallet requirements. This is a great
+volunteer position for anyone who likes trying new wallets and who wants
+to interact directly with wallet authors.</p>
+</div>
+
+<div class="toccontent-block boxexpand expanded">
+
+  <h2 id="new-full-node-guide" class=" anchorAf"><a href="#new-full-node-guide"></a>New Full Node Guide</h2>
+
+  <blockquote>
+    <p>âAwesome, thanks for writing this down!â âAndreas Schildbach on
+GitHub
+(<a href="https://github.com/bitcoin-dot-org/bitcoin.org/pull/711#issuecomment-70187037">source</a>)</p>
+  </blockquote>
+
+  <p><img src="/img/blog/free/bitcoin-core.png?1716491272" alt="Screenshot included in the full node guide"></p>
+
+  <p>Fulfilling a <a href="http://www.mail-archive.com/bitcoin-development%40lists.sourceforge.net/msg05406.html">request made by Wladimir J. van der
+Laan</a>,
+Bitcoin Coreâs lead developer, we were proud to write and publish a
+<a href="https://bitcoin.org/en/full-node">guide to running a full node</a> this
+quarter.  The goal is to encourage users to run full nodes when possible
+to support the Bitcoin network.</p>
+
+  <p>As of February 28th, the full node guide has been published for only
+five days and has received over 4,000 page views.</p>
+
+  <ul>
+    <li>
+      <p><strong>Target multiple OSes:</strong> initial instructions are provided for Ubuntu
+Desktop and Ubuntu Server, other Linux distributions (desktop or
+server), and Windows 7 (desktop only). New volunteers have <a href="https://github.com/bitcoin-dot-org/bitcoin.org/issues/763">begun the
+process</a> of
+contributing Windows 8.1 instructions, and we are still looking for a
+Mac user to contribute OS X instructions.</p>
+    </li>
+    <li>
+      <p><strong>Describe opening port 8333:</strong> thanks to the core developers, running
+Bitcoin Core is easy. The hard part for some users is opening port
+8333, so we <a href="https://bitcoin.org/en/full-node#network-configuration">provide detailed
+instructions</a>
+for just that aspect.</p>
+    </li>
+    <li>
+      <p><strong>Detail risks:</strong> feedback from a core developer encouraged us to make
+it clear that running a full node isnât always easy, so users who read
+our guide wonât become demoralized and give up on running a full node
+forever the first time they encounter a problem.</p>
+    </li>
+    <li>
+      <p><strong>Over 200 upvotes:</strong> soon after release, the guide was submitted to
+Reddit where it received <a href="http://www.reddit.com/r/Bitcoin/comments/2wvdko/new_page_on_bitcoinorg_running_a_full_node/">over 200
+upvotes</a>
+and a rare â98% upvotedâ quality score.</p>
+    </li>
+  </ul>
+
+  <p>The guide was primarily written by David A. Harding, with reviews by
+SaÃ¯vann Carignan and Jameson Lopp, and promotion also by Jameson.</p>
+</div>
+
+<div class="toccontent-block boxexpand expanded">
+
+  <h2 id="website-improvements" class=" anchorAf"><a href="#website-improvements"></a>Website Improvements</h2>
+
+  <blockquote>
+    <p>âConfirmed it works. Thanks a lot!â âWladimir J. van der Laan on
+GitHub about the updated Download page
+(<a href="https://github.com/bitcoin-dot-org/bitcoin.org/pull/664#issuecomment-74473907">source</a>)</p>
+  </blockquote>
+
+  <p>Sometimes small tweaks to the site can have a large impact. Some of the
+changes made this quarter include:</p>
+
+  <p><img src="/img/blog/free/torrent.png?1716491272" alt="New torrent and magnet links"></p>
+
+  <ul>
+    <li>
+      <p><strong>Bitcoin Core 0.10.0:</strong> it is our privilege to help the
+core developers release new versions of Bitcoin Core by
+<a href="https://github.com/bitcoin-dot-org/bitcoin.org/pull/664">updating</a> the
+<a href="https://bitcoin.org/en/download">Download page</a> and the <a href="https://bitcoin.org/en/version-history">hosted
+release notes.</a> For the
+0.10.0 release, we added a <a href="https://bitcoin.org/bin/bitcoin-core-0.10.0/bitcoin-0.10.0.torrent">torrent
+file</a>
+and <a href="magnet:?xt=urn:btih:170c61fe09dafecfbb97cb4dccd32173383f4e68&amp;dn=0.10.0&amp;tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.ccc.de%3A80%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&amp;tr=udp%3A%2F%2Fopen.demonii.com%3A1337&amp;ws=https%3A%2F%2Fbitcoin.org%2Fbin%2F">magnet
+link</a>
+to help ensure availability of the files even if Bitcoin.org
+goes down.</p>
+
+      <p>The new torrent has been downloaded over 900 times and there are at
+  least 44 active seeders as of February 28th.</p>
+    </li>
+    <li>
+      <p><strong>Image optimization:</strong> 83 SVG images were
+<a href="https://github.com/bitcoin-dot-org/bitcoin.org/pull/774">optimized,</a> saving
+over 250 KB of disk space and a significant amount of bandwidth, as
+well as helping users on slow connections read the site more quickly.</p>
+    </li>
+    <li>
+      <p><strong>Release ordering:</strong> as the core developers plan to backport the
+BIP66 changes to older versions of Bitcoin Core, weâve made sure the
+release notes on the site are ordered by version number rather than
+date so that we always recommend the highest version of Bitcoin Core
+to new users.</p>
+    </li>
+  </ul>
+
+  <p>SaÃ¯vann Carignan wrote the code to enable the torrent and magnet links
+as well as sorting releases by version number. J. Louis optimized the
+SVG images.</p>
+</div>
+
+<div class="toccontent-block boxexpand expanded">
+
+  <h2 id="server-and-development-tools" class=" anchorAf"><a href="#server-and-development-tools"></a>Server And Development Tools</h2>
+
+  <blockquote>
+    <p>âI donât know what people are complaining aboutâ¦ I think itâs pretty
+great actually!â â/u/itsgremlin on Reddit about Bitcoin.org in
+general
+(<a href="http://www.reddit.com/r/Bitcoin/comments/2oessw/bitcoinorg_what_would_you_want_here/cmmg9r7">source</a>)</p>
+  </blockquote>
+
+  <p><img src="/img/blog/free/travis.png?1716491272" alt="Travis CI verifying the site builds correctly"></p>
+
+  <p>With 7 million page views per quarter, Bitcoin.org serves an average of
+54 pages a minuteâso even a single second of downtime might prevent us
+from helping a Bitcoin user. This quarter we took additional steps to
+ensure that the site works correctly while also attempting to make it
+easier for new volunteers to contribute to keeping the site accurate and
+updated.</p>
+
+  <ul>
+    <li>
+      <p><strong>Continuous integration:</strong> each new pull request improving the site
+is now <a href="https://github.com/bitcoin-dot-org/bitcoin.org/pull/771">automatically built using Travis
+CI</a>, allowing
+contributors to quickly discover bugs in their code even if they donât
+compile the site themselves.</p>
+    </li>
+    <li>
+      <p><strong>Troubleshooting:</strong>
+<a href="https://github.com/bitcoin-dot-org/bitcoin.org/issues/712">investigated</a> slow
+bandwidth issues with downloads.</p>
+    </li>
+    <li>
+      <p><strong>Preventive maintenance:</strong> mitigated DDoS attacks and made sure stats
+are not affected by attacks. Also set Content-Security-Policy policies
+against XSS attacks.</p>
+    </li>
+    <li>
+      <p><strong>Guide volunteers:</strong> <a href="https://github.com/bitcoin-dot-org/bitcoin.org/pull/742">added a
+list</a> of <a href="https://github.com/bitcoin-dot-org/bitcoin.org#how-to-participate">suggestions
+for new
+contributors</a>
+so they can dive in immediately.</p>
+    </li>
+    <li>
+      <p><strong>Audits:</strong> wrote an automated script that will send an alert when
+sensitive parts of the site are changed or when Bitcoin Core downloads
+are missing correct signatures.</p>
+    </li>
+  </ul>
+
+  <p>Travis CI support was added by David A. Harding with advice and support
+from Cory Fields, Wladimir J. van der Laan, and Pieter Wuille.
+Troubleshooting was performed by SaÃ¯vann Carignan with the help of
+GitHub user @patrikr, Christopher Gurnee, and David. Preventative
+maintenance and audit code were contributions by SaÃ¯vann, and the
+volunteer quick start guide was contributed by David.</p>
+</div>
+
+<div class="toccontent-block boxexpand expanded">
+
+  <h2 id="public-website-statistics" class=" anchorAf"><a href="#public-website-statistics"></a>Public Website Statistics</h2>
+
+  <blockquote>
+    <p>â38,135,685 page views [since January 2014]â â<a href="https://bitcoin.org/stats/">The stats
+page</a></p>
+  </blockquote>
+
+  <p><img src="/img/blog/free/stats-2014-12.png?1716491272" alt="stats December 2014">
+![stats January 2015(/img/blog/free/stats-2015-01.png?1716491272)
+<img src="/img/blog/free/stats-2015-02.png?1716491272" alt="stats February 2015"></p>
+</div>
+
+<div class="toccontent-block boxexpand expanded">
+
+  <h2 id="expense-report" class=" anchorAf"><a href="#expense-report"></a>Expense Report</h2>
+
+  <blockquote>
+    <p>âThis is awesome and sorely needed. [â¦] Appreciate everything you do
+for the community, keep up the great work!â â/u/wserd on Reddit
+about the new Full Node page (<a href="http://www.reddit.com/r/Bitcoin/comments/2wvdko/new_page_on_bitcoinorg_running_a_full_node/cough5b">source</a>)</p>
+  </blockquote>
+
+  <p><img src="/img/blog/free/expenses.png?1716491272" alt="Expense graph"></p>
+
+  <p>| Previous balance         | 4.994 784 06 BTC
+|âââââââââ|ââââââ-
+| Foundationâs sponsorship | 20.779 976 01 BTC
+| Website maintenance      | -5.786 595 31 BTC
+| Translations 	           | -4.735 938 00 BTC
+| Server hosting 	   | -4.552 368 00 BTC
+| Developer documentation  | -2.614 684 15 BTC
+| <strong>New balance</strong>          | &nbsp;8.085 174 61  BTC</p>
+</div>
+
+<div class="toccontent-block boxexpand expanded">
+
+  <h2 id="next-quarters-goals" class=" anchorAf"><a href="#next-quarters-goals"></a>Next Quarterâs Goals</h2>
+
+  <blockquote>
+    <p>âIâm running a full node (~20 connections) with Bitcoin Core Version
+v0.10.0rc1 (64-Bit) on Windows 8.1 and willing to help out!â\
+âVolunteer on GitHub for the Full Node page
+(<a href="https://github.com/bitcoin-dot-org/bitcoin.org/issues/763">source</a>)</p>
+  </blockquote>
+
+  <p>In addition to Bitcoin.orgâs recurring goals, such as funding the
+servers (currently about $600 USD per month), we hope to accomplish the
+following three major goals during the next quarter:</p>
+
+  <ol>
+    <li>
+      <p><strong>New wallet maintainer:</strong> weâre <a href="https://github.com/bitcoin-dot-org/bitcoin.org/issues/778">seeking a
+volunteer</a> to
+review new wallets for inclusion on the Choose Your Wallet page, as
+well as to monitor existing wallets for problems and to propose new
+criteria that allow us to only recommend the very best wallets.</p>
+    </li>
+    <li>
+      <p><strong>New developer documentation:</strong> the developer documentation is
+currently 250 printed pages long, and on May 24th it will celebrate
+its <a href="https://github.com/bitcoin-dot-org/bitcoin.org/pull/393#issuecomment-44089996">one-year
+anniversary</a>
+on Bitcoin.org. In the upcoming quarter we plan to add about 50 more
+printed pages worth of content, including:</p>
+    </li>
+  </ol>
+
+  <ul>
+    <li>
+      <p>A <a href="https://groups.google.com/forum/#!topic/bitcoin-documentation/s_mL1syxYoQ">glossary/vocabulary
+page</a>
+providing definitions for the over 150 specialized terms and
+synonyms used in Bitcoin development</p>
+    </li>
+    <li>
+      <p>Documentation for at least the most common opcodes, and possibly
+all the enabled opcodes. This section will be essentially a more
+detailed version of the <a href="https://en.bitcoin.it/wiki/Script">Bitcoin Wiki script
+page</a></p>
+    </li>
+    <li>
+      <p><a href="https://github.com/bitcoin-dot-org/bitcoin.org/pull/753">Improved type
+information</a> in
+the RPC and REST sections, as
+<a href="http://www.mail-archive.com/bitcoin-development@lists.sourceforge.net/msg07069.html">requested</a>
+by Ocaml-Bitcoin developer Dario Teixeira.</p>
+    </li>
+    <li>
+      <p>Substantially revising and expanding the <a href="https://bitcoin.org/en/developer-guide#wallets">current wallet
+section</a>, likely
+leading to a new section focused on ECDSA keys and signatures.</p>
+    </li>
+    <li>
+      <p>Continuing to expand the <a href="https://bitcoin.org/en/developer-guide#p2p-network">overview of the Bitcoin P2P
+protocol</a>.</p>
+    </li>
+  </ul>
+
+  <ol>
+    <li><strong>Better volunteer resources:</strong> we want to make it easier for
+community members to volunteer to contribute to Bitcoin.org in ways
+both small and large. New documentation about site procedures is
+forthcoming and we will be looking for other ways to encourage and
+simplify first-time contributions.</li>
+  </ol>
+</div>
+
+<div class="toccontent-block boxexpand expanded">
+
+  <h2 id="thanks-to-sponsors-and-volunteers" class=" anchorAf"><a href="#thanks-to-sponsors-and-volunteers"></a>Thanks To Sponsors And Volunteers</h2>
+
+  <blockquote>
+    <p>âThank you for your sponsorship and your support of our work!â
+âSaÃ¯vann Carignan</p>
+  </blockquote>
+
+  <blockquote>
+    <p>âThe Foundation provides us a modest monthly grant so we can pay for
+servers and some other stuff, and we put their logo on the bottom of
+the page and write a quarterly report telling them what weâve
+accomplished thanks to their sponsorship. Beyond that, they let us
+make our own decisions, for which independence weâre quite grateful.â
+âDavid A. Harding on Reddit
+(<a href="http://www.reddit.com/r/Bitcoin/comments/2wvdko/new_page_on_bitcoinorg_running_a_full_node/couu1cv">source</a>)</p>
+  </blockquote>
+
+  <p>We thank <a href="https://bitcoinfoundation.org/">The Bitcoin Foundation</a> for
+their continued financial support of the site, and extend our heartfelt
+appreciation to the <a href="https://github.com/bitcoin-dot-org/bitcoin.org/graphs/contributors?from=2014-12-01&amp;to=2015-02-28&amp;type=c">15
+people</a>
+who contributed commits this quarter and the much larger number of
+people who provided valuable feedback in over 439 comments on pull
+requests and issues.</p>
+
+  <hr>
+
+  <p><em>If you have any questions about the content of this report, please
+<a href="https://github.com/bitcoin-dot-org/bitcoin.org/issues/new">open an issue</a> on
+GitHub or email Dave Harding, <a href="mailto:dave@dtrt.org">dave@dtrt.org</a>.</em></p>
+</div>
+
+        <p class="post-meta">Posted to the
+        <a href="/en/blog">Bitcoin.org Site Blog</a> on 05 March 2015  by David A. Harding (<a href="mailto:dave@dtrt.org">email</a>, <a href="https://github.com/harding">GitHub</a>, <a href="http://www.reddit.com/user/harda/">Reddit</a>)
+
+        </p>
+      </article>
+    </div>
+  </div>
+</div>
+
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="/en/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Support Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Donate</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">Introduction:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/en/bitcoin-for-individuals">Individuals</a>
+        </li>
+        <li>
+          <a href="/en/bitcoin-for-businesses">Businesses</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">Developers</a>
+        </li>
+        <li>
+          <a href="/en/getting-started">Getting started</a>
+        </li>
+        <li>
+          <a href="/en/how-it-works">How it works</a>
+        </li>
+        <li>
+          <a href="/en/you-need-to-know">You need to know</a>
+        </li>
+        
+        <li>
+          <a href="/en/bitcoin-paper">White paper</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">Resources:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/en/resources">Resources</a>
+        </li><li>
+          <a href="/en/exchanges">Exchanges</a>
+        </li>
+        <li>
+          <a href="/en/community">Community</a>
+        </li>
+        <li>
+          <a href="/en/vocabulary">Vocabulary
+          </a>
+        </li>
+        <li>
+          <a href="/en/events">Events</a>
+        </li>
+        
+        <li>
+          <a href="/en/bitcoin-core/">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">Participate:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/en/support-bitcoin">Support Bitcoin</a>
+        
+        </li><li>
+          <a href="/en/buy">Buy Bitcoin</a>
+        </li>
+        
+        
+        <li>
+          <a href="/en/full-node">Running a full node</a>
+        </li>
+        
+        <li>
+          <a href="/en/development">Development</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Other:</p>
+      
+      <a href="/en/scams">Avoid Scams</a>
+      
+      <a href="/en/legal">Legal</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/en/press">Press</a>
+      <a href="/en/about-us">About bitcoin.org</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>A community website sponsored by</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1716491272" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 Released under the <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT license</a></div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">Network Status</a>
+        
+<ul class="lang is-expand">
+  <li><a>English</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/">Dansk</a></li>
+        
+        
+          <li><a href="/de/">Deutsch</a></li>
+        
+        
+          <li><a href="/en/" class="active">English</a></li>
+        
+        
+          <li><a href="/es/">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/">Italiano</a></li>
+        
+        
+          <li><a href="/hu/">Magyar</a></li>
+        
+        
+          <li><a href="/nl/">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/">Srpski</a></li>
+        
+        
+          <li><a href="/sv/">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/">ááááá</a></li>
+        
+        
+          <li><a href="/ja/">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/">Bahasa Indonesia</option>
+              
+              <option value="/ca/">CatalÃ </option>
+              
+              <option value="/da/">Dansk</option>
+              
+              <option value="/de/">Deutsch</option>
+              
+              <option value="/en/" selected="selected">English</option>
+              
+              <option value="/es/">EspaÃ±ol</option>
+              
+              <option value="/fr/">FranÃ§ais</option>
+              
+              <option value="/it/">Italiano</option>
+              
+              <option value="/hu/">Magyar</option>
+              
+              <option value="/nl/">Nederlands</option>
+              
+              <option value="/pl/">Polski</option>
+              
+              <option value="/pt_BR/">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/">RomÃ¢nÄ</option>
+              
+              <option value="/sl/">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/">Srpski</option>
+              
+              <option value="/sv/">Svenska</option>
+              
+              <option value="/tr/">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/">×¢××¨××ª</option>
+              
+              <option value="/hi/">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/">íêµ­ì´</option>
+              
+              <option value="/km/">ááááá</option>
+              
+              <option value="/ja/">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">en</span>
+          </label>
+        </div>
+      </div>
+<!--      <div class="row">  -->
+        
+<!--    </div> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+
+
+  <script>updateToc();</script>
+<script>boxShow();</script>
+<script>onScrollButton();</script>
+
+
+
+
+
+
+</body></html>
