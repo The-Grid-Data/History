@@ -1,0 +1,49 @@
+{
+    "target_url": "https://hel.io/pricing",
+    "domains": {
+        "app.hel.io": [
+            "https://app.hel.io"
+        ],
+        "apps.shopify.com": [
+            "https://apps.shopify.com/solana-pay"
+        ],
+        "blog.hel.io": [
+            "https://blog.hel.io/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/helio"
+        ],
+        "docs.hel.io": [
+            "https://docs.hel.io/",
+            "https://docs.hel.io/introduction/pricing-and-fees",
+            "https://docs.hel.io/introduction/welcome-to-helio"
+        ],
+        "hel.io": [
+            "https://hel.io/",
+            "https://hel.io/#heliox-pass",
+            "https://hel.io/aboutus",
+            "https://hel.io/customer-stories",
+            "https://hel.io/media-kit",
+            "https://hel.io/solutions/nfts"
+        ],
+        "info.docs.hel.io": [
+            "https://info.docs.hel.io/privacy",
+            "https://info.docs.hel.io/terms-of-service"
+        ],
+        "join.hel.io": [
+            "https://join.hel.io/"
+        ],
+        "magiceden.io": [
+            "https://magiceden.io/marketplace/helions"
+        ],
+        "twitter.com": [
+            "https://twitter.com/helio_pay"
+        ],
+        "www.app.hel.io": [
+            "https://www.app.hel.io/"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/heliopay/"
+        ]
+    }
+}
