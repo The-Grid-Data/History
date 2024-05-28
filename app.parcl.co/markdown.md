@@ -119,7 +119,7 @@ Track market movements based on performance.
 
 Trending Up[View All](/collection/top-gainers)
 
-[1PittsburghPennsylvania27.62%$168.95](/parcls/5377717)[2ChicagoIllinois18.27%$266.90](/parcls/5387853)[3DallasTexas12.57%$269.70](/parcls/5381001)[4BostonMassachusetts11.64%$632.60](/parcls/5407714)[5AtlantaGeorgia10.92%$301.08](/parcls/5384169)
+[1PittsburghPennsylvania28.68%$169.34](/parcls/5377717)[2ChicagoIllinois18.16%$266.88](/parcls/5387853)[3DallasTexas12.37%$269.70](/parcls/5381001)[4BostonMassachusetts11.52%$631.75](/parcls/5407714)[5AtlantaGeorgia10.66%$300.93](/parcls/5384169)
 
 Trending Down[View All](/collection/top-losers)
 
