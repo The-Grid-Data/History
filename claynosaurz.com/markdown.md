@@ -193,3 +193,45 @@ logo.png&w=320&q=75)
   * [](https://www.tiktok.com/@claynosaurz "tiktok")
   * [](https://www.linkedin.com/company/claynosaurz "linkedin")
 
+![](/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F6ddd42dj%2Fproduction%2F900f39afe1a630e0636b81aadb440c9a3b31732a-444x444.svg%3Fw%3D444%26h%3D444&w=1200&q=75)
+
+[![Claynosaurz Logo](/_next/image?url=%2Fimages%2Fclaynosaurz-
+logo.png&w=320&q=75)](/)
+
+[ Connect](/account)
+
+**[About](/characters)**
+
+**[Characters](/characters)**
+
+![](/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F6ddd42dj%2Fproduction%2F1eafd016b752e36c8a218bc9f398c215324f32dc-1920x1080.jpg%3Frect%3D218%2C0%2C1485%2C1080%26w%3D330%26h%3D240&w=1200&q=75)
+
+**[Claynotopia](/claynotopia)**
+
+![](/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F6ddd42dj%2Fproduction%2F9c0a44819c15913bd5c4d54f24e49826076ee41c-3000x1563.jpg%3Frect%3D426%2C0%2C2149%2C1563%26w%3D330%26h%3D240&w=1200&q=75)
+
+**[Lore](/lore)**
+
+[ Collectibles](/collectibles)
+
+  * [What's new](/news)
+  * [Values & team](/team)
+  * [Media](/media)
+  * [Community](/community)
+
+[![Claynosaurz Logo](/_next/image?url=%2Fimages%2Fclaynosaurz-
+logo.png&w=320&q=75)](/)
+
+  * [Press](/press)
+  * [Terms and conditions](/terms-and-conditions)
+  * [Privacy policy](/privacy-policy)
+
+**Adventure is never really far...**
+
+  * [](https://x.com/claynosaurz "twitter")
+  * [](https://www.instagram.com/claynosaurz/ "instagram")
+  * [](https://discord.gg/claynosaurz "discord")
+  * [](https://www.youtube.com/@Claynosaurz_Official "youtube")
+  * [](https://www.tiktok.com/@claynosaurz "tiktok")
+  * [](https://www.linkedin.com/company/claynosaurz "linkedin")
+
