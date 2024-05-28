@@ -1,0 +1,82 @@
+{
+    "target_url": "https://bitcoin.org/zh_CN/privacy",
+    "domains": {
+        "": [
+            "bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h",
+            "mailto:privacy@bitcoin.org?Subject=Privacy"
+        ],
+        "bitcoin.org": [
+            "https://bitcoin.org/ar/",
+            "https://bitcoin.org/bg/privacy",
+            "https://bitcoin.org/ca/privacitat",
+            "https://bitcoin.org/da/privatliv",
+            "https://bitcoin.org/de/privatsphaere",
+            "https://bitcoin.org/el/privacy",
+            "https://bitcoin.org/en/alerts",
+            "https://bitcoin.org/en/blog",
+            "https://bitcoin.org/en/privacy",
+            "https://bitcoin.org/es/",
+            "https://bitcoin.org/fa/privacy",
+            "https://bitcoin.org/fr/confidentialite",
+            "https://bitcoin.org/he/",
+            "https://bitcoin.org/hi/privacy",
+            "https://bitcoin.org/hu/adatvedelem",
+            "https://bitcoin.org/hy/privacy",
+            "https://bitcoin.org/id/privasi",
+            "https://bitcoin.org/it/privacy",
+            "https://bitcoin.org/ja/privacy",
+            "https://bitcoin.org/km/privacy",
+            "https://bitcoin.org/ko/privacy",
+            "https://bitcoin.org/nl/privacy",
+            "https://bitcoin.org/pl/prywatnosc",
+            "https://bitcoin.org/pt_BR/privacidade",
+            "https://bitcoin.org/ro/confidentialitate",
+            "https://bitcoin.org/ru/privacy",
+            "https://bitcoin.org/sl/",
+            "https://bitcoin.org/sr/privatnost",
+            "https://bitcoin.org/sv/integritet",
+            "https://bitcoin.org/tr/gizlilik",
+            "https://bitcoin.org/uk/privacy",
+            "https://bitcoin.org/zh_CN/",
+            "https://bitcoin.org/zh_CN/about-us",
+            "https://bitcoin.org/zh_CN/bitcoin-for-businesses",
+            "https://bitcoin.org/zh_CN/bitcoin-for-individuals",
+            "https://bitcoin.org/zh_CN/bitcoin-paper",
+            "https://bitcoin.org/zh_CN/buy",
+            "https://bitcoin.org/zh_CN/community",
+            "https://bitcoin.org/zh_CN/development",
+            "https://bitcoin.org/zh_CN/download",
+            "https://bitcoin.org/zh_CN/events",
+            "https://bitcoin.org/zh_CN/exchanges",
+            "https://bitcoin.org/zh_CN/faq",
+            "https://bitcoin.org/zh_CN/getting-started",
+            "https://bitcoin.org/zh_CN/how-it-works",
+            "https://bitcoin.org/zh_CN/innovation",
+            "https://bitcoin.org/zh_CN/legal",
+            "https://bitcoin.org/zh_CN/press",
+            "https://bitcoin.org/zh_CN/privacy",
+            "https://bitcoin.org/zh_CN/privacy#analytics",
+            "https://bitcoin.org/zh_CN/privacy#changes",
+            "https://bitcoin.org/zh_CN/privacy#contact",
+            "https://bitcoin.org/zh_CN/privacy#cookies",
+            "https://bitcoin.org/zh_CN/privacy#logdata",
+            "https://bitcoin.org/zh_CN/resources",
+            "https://bitcoin.org/zh_CN/support-bitcoin",
+            "https://bitcoin.org/zh_CN/vocabulary",
+            "https://bitcoin.org/zh_CN/you-need-to-know",
+            "https://bitcoin.org/zh_TW/privacy"
+        ],
+        "developer.bitcoin.org": [
+            "https://developer.bitcoin.org/"
+        ],
+        "developers.google.com": [
+            "https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage"
+        ],
+        "opensource.org": [
+            "http://opensource.org/licenses/mit-license.php"
+        ],
+        "tools.google.com": [
+            "https://tools.google.com/dlpage/gaoptout"
+        ]
+    }
+}
