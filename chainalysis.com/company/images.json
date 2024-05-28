@@ -1,0 +1,47 @@
+{
+    "target_url": "https://chainalysis.com/company/",
+    "domains": {
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/i/adsct?bci=3&eci=2&event_id=e91ce6e9-99d8-4464-8bfa-bb6860e3036c&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=0b144aff-6465-49a0-a72c-48681eaa1cfe&tw_document_href=https%3A%2F%2Fwww.chainalysis.com%2Fcompany%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o942f&type=javascript&version=2.3.30"
+        ],
+        "bat.bing.com": [
+            "https://bat.bing.com/action/0?ti=136016409&tm=gtm002&Ver=2&mid=58c22246-4756-4508-b03f-56754f91ecff&sid=c72d94e01cfe11ef9fc38590b1c01791&vid=c72d9a301cfe11ef9a19571e83632b54&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&tl=About%20Us%20-%20Chainalysis&p=https%3A%2F%2Fwww.chainalysis.com%2Fcompany%2F&r=&lt=3378&evt=pageLoad&sv=1&rn=700083"
+        ],
+        "cdn.bizible.com": [
+            "https://cdn.bizible.com/ipv?_biz_r=&_biz_h=-417244810&_biz_u=460cb7bef9b44a579a2a1b40977f2ede&_biz_l=https%3A%2F%2Fwww.chainalysis.com%2Fcompany%2F&_biz_t=1716906605706&_biz_i=About%20Us%20-%20Chainalysis&_biz_n=0&rnd=897843&cdn_o=a&_biz_z=1716906605919"
+        ],
+        "cdn.bizibly.com": [
+            "https://cdn.bizibly.com/u?_biz_u=460cb7bef9b44a579a2a1b40977f2ede&_biz_l=https%3A%2F%2Fwww.chainalysis.com%2Fcompany%2F&_biz_t=1716906605920&_biz_i=About%20Us%20-%20Chainalysis&rnd=839623&cdn_o=a&_biz_z=1716906605920"
+        ],
+        "t.co": [
+            "https://t.co/i/adsct?bci=3&eci=2&event_id=e91ce6e9-99d8-4464-8bfa-bb6860e3036c&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=0b144aff-6465-49a0-a72c-48681eaa1cfe&tw_document_href=https%3A%2F%2Fwww.chainalysis.com%2Fcompany%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o942f&type=javascript&version=2.3.30"
+        ],
+        "ws.zoominfo.com": [
+            "https://ws.zoominfo.com/pixel/Na6GzfmL0i0pW4qWYEKS"
+        ],
+        "www.chainalysis.com": [
+            "https://www.chainalysis.com/wp-content/uploads/2019/08/chainalysis-team-meeting.jpg",
+            "https://www.chainalysis.com/wp-content/uploads/2019/09/chainalysis21909-1440-80.jpg",
+            "https://www.chainalysis.com/wp-content/uploads/2019/12/jacob-illum.jpg",
+            "https://www.chainalysis.com/wp-content/uploads/2019/12/jonathan-02.jpg",
+            "https://www.chainalysis.com/wp-content/uploads/2020/01/chainalysis-dk35328-1-750x1125.jpg",
+            "https://www.chainalysis.com/wp-content/uploads/2020/01/chainalysis-dk36475-750x1125.jpg",
+            "https://www.chainalysis.com/wp-content/uploads/2020/01/chainalysis24215-750x1125.jpg",
+            "https://www.chainalysis.com/wp-content/uploads/2020/08/ian-andrews.jpg",
+            "https://www.chainalysis.com/wp-content/uploads/2020/08/omesh-agam-2.jpg",
+            "https://www.chainalysis.com/wp-content/uploads/2021/10/20210729-chaina-01-sarahward-0062-copy-750x1125.jpg",
+            "https://www.chainalysis.com/wp-content/uploads/2021/10/pratima-arora.jpg",
+            "https://www.chainalysis.com/wp-content/uploads/2022/04/image-from-ios-750x1125.jpg",
+            "https://www.chainalysis.com/wp-content/uploads/2022/07/academy.png",
+            "https://www.chainalysis.com/wp-content/uploads/2022/10/about-company.jpg",
+            "https://www.chainalysis.com/wp-content/uploads/2022/11/icon-linkedin-lightblue.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2022/11/icon-youtube-lightblue.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2023/03/icon-telegram-lightblue.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/ct-state-police-featured-thumbnail.png",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/icon-footer-twitter-x-blue.svg",
+            "https://www.chainalysis.com/wp-content/uploads/2023/10/morabanc-featured-thumbnail.png",
+            "https://www.chainalysis.com/wp-content/uploads/2024/01/thumbnail-geos-2023.png",
+            "https://www.chainalysis.com/wp-content/uploads/2024/02/thumbnail-crime-report.png"
+        ]
+    }
+}
