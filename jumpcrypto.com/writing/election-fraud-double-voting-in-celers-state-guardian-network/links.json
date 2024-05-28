@@ -1,0 +1,50 @@
+{
+    "target_url": "https://jumpcrypto.com/writing/election-fraud-double-voting-in-celers-state-guardian-network/",
+    "domains": {
+        "github.com": [
+            "https://github.com/JumpCrypto",
+            "https://github.com/celer-network/sgn-v2-contracts/blob/1782ba66c6e510337e98f82c857f83d49aa4b13d/contracts/safeguard/DelayedTransfer.sol?ref=jumpcrypto.com",
+            "https://github.com/celer-network/sgn-v2-contracts/blob/1782ba66c6e510337e98f82c857f83d49aa4b13d/contracts/safeguard/Pauser.sol?ref=jumpcrypto.com",
+            "https://github.com/celer-network/sgn-v2-contracts/blob/1782ba66c6e510337e98f82c857f83d49aa4b13d/contracts/safeguard/VolumeControl.sol?ref=jumpcrypto.com",
+            "https://github.com/celer-network/sgn-v2-contracts/blob/main/contracts/liquidity-bridge/Bridge.sol?ref=jumpcrypto.com",
+            "https://github.com/celer-network/sgnv2/blob/80021bac14e908764ef900f90c85205d47654e04/relayer/cbr_onchain.go?ref=jumpcrypto.com#L78",
+            "https://github.com/celer-network/sgnv2/blob/80021bac14e908764ef900f90c85205d47654e04/relayer/cbr_verifier.go?ref=jumpcrypto.com",
+            "https://github.com/celer-network/sgnv2/commit/0d8b42904a7c53cf8bfadb3b10f004afedfb44af?diff=unified&ref=jumpcrypto.com",
+            "https://github.com/celer-network/sgnv2/tree/80021bac14e908764ef900f90c85205d47654e04/x/sync?ref=jumpcrypto.com",
+            "https://github.com/celer-network/sgnv2?ref=jumpcrypto.com"
+        ],
+        "im-docs.celer.network": [
+            "https://im-docs.celer.network/developer/development-guide/dapp-safeguard?ref=jumpcrypto.com"
+        ],
+        "immunefi.com": [
+            "https://immunefi.com/bounty/celer/?ref=jumpcrypto.com"
+        ],
+        "jumpcrypto.com": [
+            "https://jumpcrypto.com/",
+            "https://jumpcrypto.com/brand/",
+            "https://jumpcrypto.com/chronicle/",
+            "https://jumpcrypto.com/collaborations/",
+            "https://jumpcrypto.com/connect/",
+            "https://jumpcrypto.com/cyclone/",
+            "https://jumpcrypto.com/data-protection-and-privacy-policy/",
+            "https://jumpcrypto.com/firedancer/",
+            "https://jumpcrypto.com/media/",
+            "https://jumpcrypto.com/nfa/",
+            "https://jumpcrypto.com/research/",
+            "https://jumpcrypto.com/terms-of-use/",
+            "https://jumpcrypto.com/thepit/",
+            "https://jumpcrypto.com/validator-security/",
+            "https://jumpcrypto.com/writing/",
+            "https://jumpcrypto.com/writing/huckleberry-ibc-event-hallucinations/",
+            "https://jumpcrypto.com/writing/mapping-markets-blockchain-mass-adoption-potential/",
+            "https://jumpcrypto.com/writing/safu-creating-a-standard-for-whitehats/",
+            "https://jumpcrypto.com/writing/security/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/jump_"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/@jump_"
+        ]
+    }
+}
