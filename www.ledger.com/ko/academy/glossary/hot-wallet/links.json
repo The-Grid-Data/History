@@ -1,0 +1,147 @@
+{
+    "target_url": "https://www.ledger.com/ko/academy/glossary/hot-wallet",
+    "domains": {
+        "developers.ledger.com": [
+            "https://developers.ledger.com/"
+        ],
+        "donjon.ledger.com": [
+            "https://donjon.ledger.com/bounty/"
+        ],
+        "enterprise.ledger.com": [
+            "https://enterprise.ledger.com/"
+        ],
+        "quest.ledger.com": [
+            "https://quest.ledger.com/"
+        ],
+        "reddit.com": [
+            "http://reddit.com/submit?url=https%3A%2F%2Fwww.ledger.com%2Fko%2Facademy%2Fglossary%2Fhot-wallet&title=%ED%95%AB%EC%9B%94%EB%A0%9B%28Hot%20wallet%29"
+        ],
+        "shop.ledger.com": [
+            "https://shop.ledger.com/ko",
+            "https://shop.ledger.com/ko/#category-accessories",
+            "https://shop.ledger.com/ko/#category__bundle",
+            "https://shop.ledger.com/ko/pages/bitcoin-hardware-wallet",
+            "https://shop.ledger.com/ko/pages/hardware-wallets-comparison",
+            "https://shop.ledger.com/ko/pages/ledger-nano-s-plus",
+            "https://shop.ledger.com/ko/pages/ledger-nano-x",
+            "https://shop.ledger.com/ko/pages/ledger-recover",
+            "https://shop.ledger.com/ko/pages/ledger-stax",
+            "https://shop.ledger.com/ko/pages/privacy-policy",
+            "https://shop.ledger.com/ko/pages/terms-and-conditions",
+            "https://shop.ledger.com/pages/cookie-policy",
+            "https://shop.ledger.com/pages/disclaimers"
+        ],
+        "status.ledger.com": [
+            "https://status.ledger.com/"
+        ],
+        "support.ledger.com": [
+            "https://support.ledger.com/hc/ko"
+        ],
+        "twitter.com": [
+            "http://twitter.com/intent/tweet?via=ledger&text=%ED%95%AB%EC%9B%94%EB%A0%9B%28Hot%20wallet%29&url=https%3A%2F%2Fwww.ledger.com%2Fko%2Facademy%2Fglossary%2Fhot-wallet",
+            "https://twitter.com/Ledger"
+        ],
+        "www.facebook.com": [
+            "https://www.facebook.com/Ledger/",
+            "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.ledger.com%2Fko%2Facademy%2Fglossary%2Fhot-wallet"
+        ],
+        "www.instagram.com": [
+            "https://www.instagram.com/ledger"
+        ],
+        "www.ledger.com": [
+            "https://www.ledger.com/academy/glossary/hot-wallet",
+            "https://www.ledger.com/ar/academy/glossary/%D9%85%D8%AD%D9%81%D8%B8%D8%A9-%D8%B3%D8%A7%D8%AE%D9%86%D8%A9",
+            "https://www.ledger.com/blog/we-are-ledger-a-brand-vision",
+            "https://www.ledger.com/de/academy/glossary/hot-wallet",
+            "https://www.ledger.com/es/academy/glossary/hot-wallet",
+            "https://www.ledger.com/fr/academy/glossary/hot-wallet",
+            "https://www.ledger.com/ja/academy/glossary/hot-wallet",
+            "https://www.ledger.com/ko",
+            "https://www.ledger.com/ko/%EC%B1%84%EC%9A%A9",
+            "https://www.ledger.com/ko/academy",
+            "https://www.ledger.com/ko/academy/%EA%B0%80%EC%9E%A5-%EC%95%88%EC%A0%84%ED%95%9C-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%EC%A7%80%EA%B0%91%EC%9D%B8-ledger%EC%97%90-%EC%98%A4%EC%8B%A0-%EA%B2%83%EC%9D%84-%ED%99%98%EC%98%81%ED%95%A9%EB%8B%88%EB%8B%A4",
+            "https://www.ledger.com/ko/academy/%EA%B0%9C%EC%9D%B8-%ED%82%A4%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94",
+            "https://www.ledger.com/ko/academy/%EA%B0%9C%EC%9D%B8-%ED%82%A4%EB%A5%BC-%EB%B3%B4%ED%98%B8%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95",
+            "https://www.ledger.com/ko/academy/%EA%B7%B8%EB%A0%87%EB%8B%A4%EB%A9%B4-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90%EB%9E%80-%EC%A0%95%ED%99%95%ED%9E%88-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C%EC%9A%94",
+            "https://www.ledger.com/ko/academy/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94",
+            "https://www.ledger.com/ko/academy/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EC%84%B8%EB%8C%80%EC%97%90-%EA%B4%80%ED%95%9C-%EC%84%A4%EB%AA%85",
+            "https://www.ledger.com/ko/academy/%EB%B9%84%EB%B0%80-%EB%B3%B5%EA%B5%AC-%EB%AC%B8%EA%B5%AC%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C%EC%9A%94",
+            "https://www.ledger.com/ko/academy/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90%EB%A5%BC-ledger-nano%EB%A1%9C-%EB%A7%88%EC%9D%B4%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95",
+            "https://www.ledger.com/ko/academy/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%EC%9C%84%ED%98%91-%EC%9A%94%EC%86%8C-%EC%9A%A9%EC%96%B4%EC%A7%91",
+            "https://www.ledger.com/ko/academy/%EC%96%BC%EB%A7%88%EB%82%98-%EB%A7%8E%EC%9D%80-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90%EA%B0%80-%EC%A1%B4%EC%9E%AC%ED%95%9C%EB%8B%A4%EA%B3%A0-%EC%83%9D%EA%B0%81%ED%95%98%EC%8B%9C%EB%82%98%EC%9A%94",
+            "https://www.ledger.com/ko/academy/%EC%9A%A9%EC%96%B4%EC%A7%91",
+            "https://www.ledger.com/ko/academy/%EC%9B%B9-30%EC%97%90-%EB%8C%80%ED%95%B4-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-%EB%AA%A8%EB%93%A0-%EA%B2%83",
+            "https://www.ledger.com/ko/academy/%EC%9E%90%EC%B2%B4-%EC%A1%B0%EC%82%AC%ED%95%98%EA%B8%B0-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A5%BC-%EC%A1%B0%EC%82%AC%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95",
+            "https://www.ledger.com/ko/academy/basic-basics/2-how-to-own-crypto/what-is-a-crypto-wallet",
+            "https://www.ledger.com/ko/academy/blockchain/what-are-public-keys-and-private-keys",
+            "https://www.ledger.com/ko/academy/crypto/what-is-a-recovery-phrase",
+            "https://www.ledger.com/ko/academy/glossary/degen",
+            "https://www.ledger.com/ko/academy/glossary/hot-wallet",
+            "https://www.ledger.com/ko/academy/glossary/interplanetary-file-system-ipfs",
+            "https://www.ledger.com/ko/academy/glossary/utility-token",
+            "https://www.ledger.com/ko/academy/ledger-live-%EC%95%B1-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%EB%A7%A4%EB%A7%A4-%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%82%B9-%EB%B0%8F-%EC%8A%A4%EC%99%91",
+            "https://www.ledger.com/ko/academy/ledger-nano%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90%EB%A5%BC-%EB%B3%B4%ED%98%B8%ED%95%98%EB%82%98%EC%9A%94",
+            "https://www.ledger.com/ko/academy/library-ko",
+            "https://www.ledger.com/ko/academy/library-ko/topic/blockchain",
+            "https://www.ledger.com/ko/academy/library-ko/topic/crypto",
+            "https://www.ledger.com/ko/academy/library-ko/topic/hardwarewallet",
+            "https://www.ledger.com/ko/academy/library-ko/topic/nfts",
+            "https://www.ledger.com/ko/academy/library-ko/topic/security",
+            "https://www.ledger.com/ko/academy/library-ko/topic/tutorials",
+            "https://www.ledger.com/ko/academy/security/hack-malware-to-take-control-of-your-pc-or-mobile-phone",
+            "https://www.ledger.com/ko/academy/series/enter-the-trust-zone",
+            "https://www.ledger.com/ko/academy/series/on-the-ledger",
+            "https://www.ledger.com/ko/academy/series/reading-room",
+            "https://www.ledger.com/ko/academy/series/school-of-block",
+            "https://www.ledger.com/ko/academy/smart-contract-functions-essential-red-flags-to-know-about",
+            "https://www.ledger.com/ko/academy/web3-%EC%8A%A4%EC%BA%A0%EC%97%90-%EA%B4%80%ED%95%9C-%EC%84%A4%EB%AA%85",
+            "https://www.ledger.com/ko/academy/why-two-factor-authentication-2fa-matters-now-more-than-ever",
+            "https://www.ledger.com/ko/blog",
+            "https://www.ledger.com/ko/buy",
+            "https://www.ledger.com/ko/buy-bitcoin",
+            "https://www.ledger.com/ko/buy-bitcoin-how",
+            "https://www.ledger.com/ko/cardano-wallet",
+            "https://www.ledger.com/ko/cathay",
+            "https://www.ledger.com/ko/coin/price",
+            "https://www.ledger.com/ko/diversity",
+            "https://www.ledger.com/ko/join-us",
+            "https://www.ledger.com/ko/ledger-live",
+            "https://www.ledger.com/ko/ledger-wallets-and-services",
+            "https://www.ledger.com/ko/legal-center",
+            "https://www.ledger.com/ko/partners",
+            "https://www.ledger.com/ko/press",
+            "https://www.ledger.com/ko/reseller",
+            "https://www.ledger.com/ko/staking",
+            "https://www.ledger.com/ko/start",
+            "https://www.ledger.com/ko/supported-crypto-assets",
+            "https://www.ledger.com/ko/swap",
+            "https://www.ledger.com/ko/the-company",
+            "https://www.ledger.com/ko/the-people-behind-ledger",
+            "https://www.ledger.com/ko/\ub9ac\ud50c",
+            "https://www.ledger.com/ko/\ubaa8\ub124\ub85cmonero",
+            "https://www.ledger.com/ko/\ube44\ud2b8\ucf54\uc778",
+            "https://www.ledger.com/ko/\uc774\ub354\ub9ac\uc6c0-2",
+            "https://www.ledger.com/ko/\ud14c\ub354tether",
+            "https://www.ledger.com/pt-br/academy/glossary/hot-wallet",
+            "https://www.ledger.com/ru/academy/glossary/hot-wallet",
+            "https://www.ledger.com/tr/academy/glossary/hot-wallet",
+            "https://www.ledger.com/zh-hans/academy/glossary/hot-wallet"
+        ],
+        "www.ledgerwallet.com": [
+            "https://www.ledgerwallet.com/affiliates/"
+        ],
+        "www.linkedin.com": [
+            "https://www.linkedin.com/company/ledgerhq",
+            "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.ledger.com%2Fko%2Facademy%2Fglossary%2Fhot-wallet"
+        ],
+        "www.onetrust.com": [
+            "https://www.onetrust.com/products/cookie-consent/"
+        ],
+        "www.reddit.com": [
+            "https://www.reddit.com/r/ledgerwallet/"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/Ledger"
+        ]
+    }
+}
