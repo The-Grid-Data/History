@@ -1,0 +1,857 @@
+<!DOCTYPE html><html lang="en"><head>
+
+
+<link rel="stylesheet" href="/css/jquery-ui.min.css">
+
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Bitcoin-Qt version 0.7.1 released</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+
+<script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.org is a community funded project, donations are appreciated and used to improve the website.
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        Make a donation
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.org needs your support!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">Donate to Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">Use this QR code or address below</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="Or custom amount? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="Or custom amount? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="Optional description (for your wallet)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+    
+
+<a class="logo" href="/en/bitcoin-core/"><img src="/img/bitcoin-core/bitcoin-core.svg?1716491272" alt="Bitcoin"></a>
+
+    
+
+<ul id="menusimple" class="menusimple menucore" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">Features</a>
+    <ul>
+      <li><a href="/en/bitcoin-core/features/">Overview</a></li>
+      <li><a href="/en/bitcoin-core/features/validation">Validation</a></li>
+      <li><a href="/en/bitcoin-core/features/privacy">Privacy</a></li>
+      <li><a href="/en/bitcoin-core/features/requirements">Requirements</a></li>
+      <li><a href="/en/bitcoin-core/features/user-interface">User Interface</a></li>
+      <li><a href="/en/bitcoin-core/features/network-support">Network Support</a></li>
+    </ul>
+  </li>
+  <li><a href="/en/bitcoin-core/help">Get Help</a></li>
+  <li><a class="is-expand">Contribute</a>
+    <ul>
+      <li><a href="/en/bitcoin-core/contribute/issues">Bug reports</a></li>
+      <li><a href="/en/development">Code</a></li>
+      <li><a href="/en/bitcoin-core/contribute/documentation">Documentation</a></li>
+      <li><a href="/en/bitcoin-core/contribute/translations">Translations</a></li>
+      <li><a href="/en/bitcoin-core/contribute/support">Tech Support</a></li>
+    </ul>
+  </li>
+  <li><a href="/en/version-history">News</a></li>
+  <li><a href="/en/download">Download</a></li>
+</ul>
+
+  
+    
+<ul class="lang is-expand">
+  <li><a>English</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/">Dansk</a></li>
+        
+        
+          <li><a href="/de/">Deutsch</a></li>
+        
+        
+          <li><a href="/en/" class="active">English</a></li>
+        
+        
+          <li><a href="/es/">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/">Italiano</a></li>
+        
+        
+          <li><a href="/hu/">Magyar</a></li>
+        
+        
+          <li><a href="/nl/">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/">Srpski</a></li>
+        
+        
+          <li><a href="/sv/">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/">ááááá</a></li>
+        
+        
+          <li><a href="/ja/">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+    
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/">Bahasa Indonesia</option>
+            
+            <option value="/ca/">CatalÃ </option>
+            
+            <option value="/da/">Dansk</option>
+            
+            <option value="/de/">Deutsch</option>
+            
+            <option value="/en/" selected="selected">English</option>
+            
+            <option value="/es/">EspaÃ±ol</option>
+            
+            <option value="/fr/">FranÃ§ais</option>
+            
+            <option value="/it/">Italiano</option>
+            
+            <option value="/hu/">Magyar</option>
+            
+            <option value="/nl/">Nederlands</option>
+            
+            <option value="/pl/">Polski</option>
+            
+            <option value="/pt_BR/">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/">RomÃ¢nÄ</option>
+            
+            <option value="/sl/">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/">Srpski</option>
+            
+            <option value="/sv/">Svenska</option>
+            
+            <option value="/tr/">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/">×¢××¨××ª</option>
+            
+            <option value="/hi/">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/">íêµ­ì´</option>
+            
+            <option value="/km/">ááááá</option>
+            
+            <option value="/ja/">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">en</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+    
+
+<div class="breadcrumbs">
+  <div class="container">
+      
+    <a href="/en/">Bitcoin</a>
+     &gt;    
+    <a href="/en/bitcoin-core/">Core</a>
+     &gt;    
+    <a href="/en/version-history">News</a>
+     &gt;      0.7.1   
+  </div>
+</div>
+
+  
+  
+
+<div id="content" class="content">
+    <link rel="alternate" type="application/rss+xml" href="/en/rss/releases.rss" title="Bitcoin Core releases">
+<div class="versiontext hero">
+  <div class="container hero-container">
+    <h1>Bitcoin-Qt version 0.7.1 released</h1>
+    
+      <p class="summary">19 October 2012</p>
+    
+  </div>
+</div>
+
+<div class="toc-container release-content">
+  <div class="row toc-row">
+    
+
+    <div class="toccontent version-content">
+      <article class="article">
+        <p>Bitcoin-Qt version 0.7.1 is now available from:
+  <a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.7.1/">http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.7.1/</a></p>
+
+<p>This is a bug-fix minor release.</p>
+
+<p>Please report bugs using the issue tracker at github:
+  <a href="https://github.com/bitcoin/bitcoin/issues">https://github.com/bitcoin/bitcoin/issues</a></p>
+
+<p>Project source code is hosted at github; you can get
+source-only tarballs/zipballs directly from there:
+  <a href="https://github.com/bitcoin/bitcoin/tarball/v0.7.1">https://github.com/bitcoin/bitcoin/tarball/v0.7.1</a>  # .tar.gz
+  <a href="https://github.com/bitcoin/bitcoin/zipball/v0.7.1">https://github.com/bitcoin/bitcoin/zipball/v0.7.1</a>  # .zip</p>
+
+<p>Ubuntu Linux users can use the âPersonal Package Archiveâ (PPA)
+maintained by Matt Corallo to automatically keep 
+up-to-date.  Just type:
+  sudo apt-add-repository ppa:bitcoin/bitcoin
+  sudo apt-get update
+in your terminal, then install the bitcoin-qt package:
+  sudo apt-get install bitcoin-qt</p>
+
+<h2 id="known-issues" class=" anchorAf"><a href="#known-issues"></a>KNOWN ISSUES</h2>
+
+<p>Mac OSX 10.5 is no longer supported.</p>
+
+<h2 id="how-to-upgrade" class=" anchorAf"><a href="#how-to-upgrade"></a>How to Upgrade</h2>
+
+<p>If you are running an older version, shut it down. Wait
+until it has completely shut down (which might take a few minutes for older
+versions), then run the installer (on Windows) or just copy over
+/Applications/Bitcoin-Qt (on Mac) or bitcoind/bitcoin-qt (on Linux).</p>
+
+<p>If you were running on Linux with a version that might have been compiled
+with a different version of Berkeley DB (for example, if you were using an
+Ubuntu PPA version), then run the old version again with the -detachdb
+argument and shut it down; if you do not, then the new version will not
+be able to read the database files and will exit with an error.</p>
+
+<p>Explanation of -detachdb (and the new âstop trueâ RPC command):
+The Berkeley DB database library stores data in both â.datâ and
+âlogâ files, so the database is always in a consistent state,
+even in case of power failure or other sudden shutdown. The
+format of the â.datâ files is portable between different
+versions of Berkeley DB, but the âlogâ files are notâ even minor
+version differences may have incompatible âlogâ files. The
+-detachdb option moves any pending changes from the âlogâ files
+to the âblkindex.datâ file for maximum compatibility, but makes
+shutdown much slower. Note that the âwallet.datâ file is always
+detached, and versions prior to 0.6.0 detached all databases
+at shutdown.</p>
+
+<h2 id="new-features" class=" anchorAf"><a href="#new-features"></a>New features</h2>
+
+<ul>
+  <li>
+    <p>Added a boolean argument to the RPC <code class="language-text highlighter-rouge">stop</code> command, if true sets
+-detachdb to create standalone database .dat files before shutting down.</p>
+  </li>
+  <li>
+    <p>-salvagewallet command-line option, which moves any existing wallet.dat
+to wallet.{timestamp}.dat and then attempts to salvage public/private
+keys and master encryption keys (if the wallet is encrypted) into
+a new wallet.dat. This should only be used if your wallet becomes
+corrupted, and is not intended to replace regular wallet backups.</p>
+  </li>
+  <li>
+    <p>Import $DataDir/bootstrap.dat automatically, if it exists.</p>
+  </li>
+</ul>
+
+<h2 id="dependency-changes" class=" anchorAf"><a href="#dependency-changes"></a>Dependency changes</h2>
+
+<ul>
+  <li>
+    <p>Qt 4.8.2 for Windows builds</p>
+  </li>
+  <li>
+    <p>openssl 1.0.1c</p>
+  </li>
+</ul>
+
+<h2 id="bug-fixes" class=" anchorAf"><a href="#bug-fixes"></a>Bug fixes</h2>
+
+<ul>
+  <li>
+    <p>Clicking on a bitcoin: URI on Windows should now launch Bitcoin-Qt properly.</p>
+  </li>
+  <li>
+    <p>When running -testnet, use RPC port 18332 by default.</p>
+  </li>
+  <li>
+    <p>Better detection and handling of corrupt wallet.dat and blkindex.dat files.
+Previous versions would crash with a DB_RUNRECOVERY exception, this
+version detects most problems and tells you how to recover if it
+cannot recover itself.</p>
+  </li>
+  <li>
+    <p>Fixed an uninitialized variable bug that could cause transactions to
+be reported out of order.</p>
+  </li>
+  <li>
+    <p>Fixed a bug that could cause occasional crashes on exit.</p>
+  </li>
+  <li>
+    <p>Warn the user that they need to create fresh wallet backups after they
+encrypt their wallet.</p>
+  </li>
+</ul>
+
+<hr>
+<p>Thanks to everybody who contributed to this release:</p>
+
+<ul>
+  <li>Gavin Andresen</li>
+  <li>Jeff Garzik</li>
+  <li>Luke Dashjr</li>
+  <li>Mark Friedenbach</li>
+  <li>Matt Corallo</li>
+  <li>Philip Kaufmann</li>
+  <li>Pieter Wuille</li>
+  <li>Rune K. Svendsen</li>
+  <li>Virgil Dupras</li>
+  <li>Wladimir J. van der Laan</li>
+  <li>fanquake</li>
+  <li>kjj2</li>
+  <li>xanatos</li>
+</ul>
+
+      </article>
+    </div>
+
+  </div>
+</div>
+
+<a class="back-link" href="/en/version-history">Go back to the version history</a>
+
+</div>
+
+  <div class="footer">
+    <div class="container">
+      
+
+<a class="logo-footer" href="/en/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a>
+      
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Support Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Donate</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">Introduction:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/en/bitcoin-for-individuals">Individuals</a>
+        </li>
+        <li>
+          <a href="/en/bitcoin-for-businesses">Businesses</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">Developers</a>
+        </li>
+        <li>
+          <a href="/en/getting-started">Getting started</a>
+        </li>
+        <li>
+          <a href="/en/how-it-works">How it works</a>
+        </li>
+        <li>
+          <a href="/en/you-need-to-know">You need to know</a>
+        </li>
+        
+        <li>
+          <a href="/en/bitcoin-paper">White paper</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">Resources:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/en/resources">Resources</a>
+        </li><li>
+          <a href="/en/exchanges">Exchanges</a>
+        </li>
+        <li>
+          <a href="/en/community">Community</a>
+        </li>
+        <li>
+          <a href="/en/vocabulary">Vocabulary
+          </a>
+        </li>
+        <li>
+          <a href="/en/events">Events</a>
+        </li>
+        
+        <li>
+          <a href="/en/bitcoin-core/">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">Participate:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/en/support-bitcoin">Support Bitcoin</a>
+        
+        </li><li>
+          <a href="/en/buy">Buy Bitcoin</a>
+        </li>
+        
+        
+        <li>
+          <a href="/en/full-node">Running a full node</a>
+        </li>
+        
+        <li>
+          <a href="/en/development">Development</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Other:</p>
+      
+      <a href="/en/scams">Avoid Scams</a>
+      
+      <a href="/en/legal">Legal</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/en/press">Press</a>
+      <a href="/en/about-us">About bitcoin.org</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 Released under the <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT license</a>
+        <br> Bitcoin Core pages on Bitcoin.org are
+        <a href="/en/bitcoin-core/about-site">maintained separately</a> from the rest of the site.
+      </div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">Network Status</a>
+        
+<ul class="lang is-expand">
+  <li><a>English</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/">Dansk</a></li>
+        
+        
+          <li><a href="/de/">Deutsch</a></li>
+        
+        
+          <li><a href="/en/" class="active">English</a></li>
+        
+        
+          <li><a href="/es/">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/">Italiano</a></li>
+        
+        
+          <li><a href="/hu/">Magyar</a></li>
+        
+        
+          <li><a href="/nl/">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/">Srpski</a></li>
+        
+        
+          <li><a href="/sv/">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/">ááááá</a></li>
+        
+        
+          <li><a href="/ja/">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/">Bahasa Indonesia</option>
+              
+              <option value="/ca/">CatalÃ </option>
+              
+              <option value="/da/">Dansk</option>
+              
+              <option value="/de/">Deutsch</option>
+              
+              <option value="/en/" selected="selected">English</option>
+              
+              <option value="/es/">EspaÃ±ol</option>
+              
+              <option value="/fr/">FranÃ§ais</option>
+              
+              <option value="/it/">Italiano</option>
+              
+              <option value="/hu/">Magyar</option>
+              
+              <option value="/nl/">Nederlands</option>
+              
+              <option value="/pl/">Polski</option>
+              
+              <option value="/pt_BR/">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/">RomÃ¢nÄ</option>
+              
+              <option value="/sl/">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/">Srpski</option>
+              
+              <option value="/sv/">Svenska</option>
+              
+              <option value="/tr/">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/">×¢××¨××ª</option>
+              
+              <option value="/hi/">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/">íêµ­ì´</option>
+              
+              <option value="/km/">ááááá</option>
+              
+              <option value="/ja/">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">en</span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+
+
+  <script src="/js/bitcoin-core.js"></script>
+
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+
+
+  <script>updateToc();</script>
+<script>boxShow();</script>
+<script>onScrollButton();</script>
+
+
+
+
+
+
+</body></html>
