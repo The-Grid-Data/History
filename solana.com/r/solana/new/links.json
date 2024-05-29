@@ -1,0 +1,30 @@
+{
+    "target_url": "http://solana.com/r/solana/new/",
+    "domains": {
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "solana.com": [
+            "http://solana.com/",
+            "http://solana.com/branding",
+            "http://solana.com/discord",
+            "http://solana.com/ecosystem",
+            "http://solana.com/github",
+            "http://solana.com/news",
+            "http://solana.com/newsletter",
+            "http://solana.com/privacy-policy",
+            "http://solana.com/privacy-policy#collection-of-information",
+            "http://solana.com/reddit",
+            "http://solana.com/telegram",
+            "http://solana.com/tos",
+            "http://solana.com/twitter",
+            "http://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ]
+    }
+}
