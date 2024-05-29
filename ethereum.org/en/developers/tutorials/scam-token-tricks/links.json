@@ -1,0 +1,167 @@
+{
+    "target_url": "https://ethereum.org/en/developers/tutorials/scam-token-tricks/",
+    "domains": {
+        "": [
+            "mailto:press@ethereum.org"
+        ],
+        "arbitrum.foundation": [
+            "https://arbitrum.foundation/"
+        ],
+        "blog.ethereum.org": [
+            "https://blog.ethereum.org/"
+        ],
+        "devcon.org": [
+            "https://devcon.org/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/ethereum-org"
+        ],
+        "docs.arbitrum.foundation": [
+            "https://docs.arbitrum.foundation/deployment-addresses#token"
+        ],
+        "docs.openzeppelin.com": [
+            "https://docs.openzeppelin.com/contracts/2.x/access-control#ownership-and-ownable",
+            "https://docs.openzeppelin.com/contracts/4.x/api/proxy"
+        ],
+        "docs.soliditylang.org": [
+            "https://docs.soliditylang.org/en/v0.8.20/security-considerations.html#tx-origin"
+        ],
+        "eips.ethereum.org": [
+            "https://eips.ethereum.org/EIPS/eip-20",
+            "https://eips.ethereum.org/EIPS/eip-20#approval",
+            "https://eips.ethereum.org/EIPS/eip-20#transfer-1",
+            "https://eips.ethereum.org/EIPS/eip-55"
+        ],
+        "en.wikipedia.org": [
+            "https://en.wikipedia.org/wiki/False_positives_and_false_negatives#False_negative_error"
+        ],
+        "esp.ethereum.foundation": [
+            "https://esp.ethereum.foundation"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/el/developers/tutorials/erc20-annotated-code/#the-_mint-and-_burn-functions-_mint-and-_burn",
+            "https://ethereum.org/en/",
+            "https://ethereum.org/en/about/",
+            "https://ethereum.org/en/about/#open-jobs",
+            "https://ethereum.org/en/assets/",
+            "https://ethereum.org/en/bug-bounty/",
+            "https://ethereum.org/en/community/",
+            "https://ethereum.org/en/community/code-of-conduct/",
+            "https://ethereum.org/en/community/events/",
+            "https://ethereum.org/en/community/grants/",
+            "https://ethereum.org/en/community/online/",
+            "https://ethereum.org/en/community/research/",
+            "https://ethereum.org/en/contributing/",
+            "https://ethereum.org/en/contributing/translation-program/",
+            "https://ethereum.org/en/cookie-policy/",
+            "https://ethereum.org/en/dao/",
+            "https://ethereum.org/en/dapps/",
+            "https://ethereum.org/en/decentralized-identity/",
+            "https://ethereum.org/en/defi/",
+            "https://ethereum.org/en/developers/",
+            "https://ethereum.org/en/developers/docs/",
+            "https://ethereum.org/en/developers/docs/accounts/#externally-owned-accounts-and-key-pairs",
+            "https://ethereum.org/en/developers/docs/accounts/#types-of-account",
+            "https://ethereum.org/en/developers/docs/design-and-ux/",
+            "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+            "https://ethereum.org/en/developers/learning-tools/",
+            "https://ethereum.org/en/developers/local-environment/",
+            "https://ethereum.org/en/developers/tutorials/",
+            "https://ethereum.org/en/developers/tutorials/erc20-annotated-code/",
+            "https://ethereum.org/en/developers/tutorials/erc20-annotated-code/#approve",
+            "https://ethereum.org/en/developers/tutorials/erc20-annotated-code/#the-_transfer-function-_transfer",
+            "https://ethereum.org/en/developers/tutorials/scam-token-tricks/#code-quality-issues",
+            "https://ethereum.org/en/developers/tutorials/scam-token-tricks/#compare-legit-erc20",
+            "https://ethereum.org/en/developers/tutorials/scam-token-tricks/#conclusion",
+            "https://ethereum.org/en/developers/tutorials/scam-token-tricks/#constants-for-privileged-addresses",
+            "https://ethereum.org/en/developers/tutorials/scam-token-tricks/#main-content",
+            "https://ethereum.org/en/developers/tutorials/scam-token-tricks/#scam-tokens",
+            "https://ethereum.org/en/developers/tutorials/scam-token-tricks/#suspicious-approval-events",
+            "https://ethereum.org/en/developers/tutorials/scam-token-tricks/#suspicious-transfer-events",
+            "https://ethereum.org/en/developers/tutorials/scam-token-tricks/#the-burning-approve-function",
+            "https://ethereum.org/en/developers/tutorials/scam-token-tricks/#the-fake-events-function-dropnewtokens",
+            "https://ethereum.org/en/developers/tutorials/scam-token-tricks/#the-fake-transfer-function",
+            "https://ethereum.org/en/developers/tutorials/scam-token-tricks/#the-mount-function",
+            "https://ethereum.org/en/developers/tutorials/scam-token-tricks/#the-real-f-function",
+            "https://ethereum.org/en/developers/tutorials/scam-token-tricks/#warb-scam",
+            "https://ethereum.org/en/developers/tutorials/scam-token-tricks/#what-can-we-detect-automatically",
+            "https://ethereum.org/en/developers/tutorials/scam-token-tricks/#why-both-autho-and-approver-why-the-mod-that-does-nothing",
+            "https://ethereum.org/en/developers/tutorials/scam-token-tricks/#why-source",
+            "https://ethereum.org/en/eips/",
+            "https://ethereum.org/en/enterprise/",
+            "https://ethereum.org/en/enterprise/private-ethereum/",
+            "https://ethereum.org/en/eth/",
+            "https://ethereum.org/en/foundation/",
+            "https://ethereum.org/en/gas/",
+            "https://ethereum.org/en/get-eth/",
+            "https://ethereum.org/en/glossary/",
+            "https://ethereum.org/en/governance/",
+            "https://ethereum.org/en/guides/",
+            "https://ethereum.org/en/guides/how-to-id-scam-tokens/",
+            "https://ethereum.org/en/history/",
+            "https://ethereum.org/en/layer-2/",
+            "https://ethereum.org/en/learn/",
+            "https://ethereum.org/en/nft/",
+            "https://ethereum.org/en/privacy-policy/",
+            "https://ethereum.org/en/quizzes/",
+            "https://ethereum.org/en/roadmap/",
+            "https://ethereum.org/en/roadmap/security/",
+            "https://ethereum.org/en/run-a-node/",
+            "https://ethereum.org/en/security/",
+            "https://ethereum.org/en/smart-contracts/",
+            "https://ethereum.org/en/stablecoins/",
+            "https://ethereum.org/en/staking/",
+            "https://ethereum.org/en/terms-of-use/",
+            "https://ethereum.org/en/wallets/",
+            "https://ethereum.org/en/wallets/find-wallet/",
+            "https://ethereum.org/en/web3/",
+            "https://ethereum.org/en/what-is-ethereum/",
+            "https://ethereum.org/en/whitepaper/"
+        ],
+        "etherscan.io": [
+            "https://etherscan.io/address/0xad0c361ef902a7d9851ca7dcc85535da2d3c6fc7#code",
+            "https://etherscan.io/address/0xb40dE7b1beE84Ff2dc22B70a049A07A13a411A33",
+            "https://etherscan.io/address/0xb50721bcf8d664c30412cfbc6cf7a15145234ad1#code",
+            "https://etherscan.io/address/0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc#code",
+            "https://etherscan.io/token/0xb047c8032b99841713b8e3872f06cf32beb27b82#code",
+            "https://etherscan.io/token/0xb50721bcf8d664c30412cfbc6cf7a15145234ad1",
+            "https://etherscan.io/tx/0xdfd6e717157354e64bbd5d6adf16761e5a5b3f914b1948d3545d39633244d47b",
+            "https://etherscan.io/tx/0xf49136198c3f925fcb401870a669d43cecb537bde36eb8b41df77f06d5f6fbc2",
+            "https://etherscan.io/verifyContract"
+        ],
+        "github.com": [
+            "https://github.com/ethereum/ethereum-org-website",
+            "https://github.com/ethereum/ethereum-org-website/tree/dev/public/content/developers/tutorials/scam-token-tricks/index.md",
+            "https://github.com/pettinarip",
+            "https://github.com/qbzzt/20230915-scam-token-detection",
+            "https://github.com/qbzzt/20230915-scam-token-detection/blob/main/susTransfer.ts"
+        ],
+        "optimistic.etherscan.io": [
+            "https://optimistic.etherscan.io/token/0x026b623eb4aada7de37ef25256854f9235207178#code",
+            "https://optimistic.etherscan.io/token/0x15992f382d8c46d667b10dc8456dc36651af1452#code"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ethdotorg"
+        ],
+        "viem.sh": [
+            "https://viem.sh/"
+        ],
+        "www.investopedia.com": [
+            "https://www.investopedia.com/terms/c/caveatemptor.asp"
+        ],
+        "www.javascripttutorial.net": [
+            "https://www.javascripttutorial.net/es6/javascript-promise-all/"
+        ],
+        "www.tutorialspoint.com": [
+            "https://www.tutorialspoint.com/solidity/solidity_function_modifiers.htm"
+        ],
+        "www.typescriptlang.org": [
+            "https://www.typescriptlang.org/docs/"
+        ],
+        "www.w3schools.com": [
+            "https://www.w3schools.com/js/js_async.asp",
+            "https://www.w3schools.com/jsref/jsref_filter.asp",
+            "https://www.w3schools.com/jsref/jsref_map.asp"
+        ]
+    }
+}
