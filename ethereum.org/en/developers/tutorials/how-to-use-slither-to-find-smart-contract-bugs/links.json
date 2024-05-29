@@ -1,0 +1,148 @@
+{
+    "target_url": "https://ethereum.org/en/developers/tutorials/how-to-use-slither-to-find-smart-contract-bugs/",
+    "domains": {
+        "": [
+            "mailto:press@ethereum.org"
+        ],
+        "blog.ethereum.org": [
+            "https://blog.ethereum.org/"
+        ],
+        "blog.trailofbits.com": [
+            "https://blog.trailofbits.com/2018/10/19/slither-a-solidity-static-analysis-framework/",
+            "https://blog.trailofbits.com/2019/05/27/slither-the-leading-static-analyzer-for-smart-contracts/"
+        ],
+        "clang-analyzer.llvm.org": [
+            "https://clang-analyzer.llvm.org/"
+        ],
+        "codeclimate.com": [
+            "https://codeclimate.com/"
+        ],
+        "devcon.org": [
+            "https://devcon.org/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/ethereum-org"
+        ],
+        "esp.ethereum.foundation": [
+            "https://esp.ethereum.foundation"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/content/developers/tutorials/how-to-use-slither-to-find-smart-contract-bugs/ast.png",
+            "https://ethereum.org/content/developers/tutorials/how-to-use-slither-to-find-smart-contract-bugs/cfg.png",
+            "https://ethereum.org/en/",
+            "https://ethereum.org/en/about/",
+            "https://ethereum.org/en/about/#open-jobs",
+            "https://ethereum.org/en/assets/",
+            "https://ethereum.org/en/bug-bounty/",
+            "https://ethereum.org/en/community/",
+            "https://ethereum.org/en/community/code-of-conduct/",
+            "https://ethereum.org/en/community/events/",
+            "https://ethereum.org/en/community/grants/",
+            "https://ethereum.org/en/community/online/",
+            "https://ethereum.org/en/community/research/",
+            "https://ethereum.org/en/contributing/",
+            "https://ethereum.org/en/contributing/translation-program/",
+            "https://ethereum.org/en/cookie-policy/",
+            "https://ethereum.org/en/dao/",
+            "https://ethereum.org/en/dapps/",
+            "https://ethereum.org/en/decentralized-identity/",
+            "https://ethereum.org/en/defi/",
+            "https://ethereum.org/en/developers/",
+            "https://ethereum.org/en/developers/docs/",
+            "https://ethereum.org/en/developers/docs/design-and-ux/",
+            "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+            "https://ethereum.org/en/developers/learning-tools/",
+            "https://ethereum.org/en/developers/local-environment/",
+            "https://ethereum.org/en/developers/tutorials/",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-slither-to-find-smart-contract-bugs/#abstract-syntax-trees-ast",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-slither-to-find-smart-contract-bugs/#analysis",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-slither-to-find-smart-contract-bugs/#api-basics",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-slither-to-find-smart-contract-bugs/#code-representation",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-slither-to-find-smart-contract-bugs/#command-line",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-slither-to-find-smart-contract-bugs/#control-flow-graph-cfg",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-slither-to-find-smart-contract-bugs/#exploring-contracts-and-functions",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-slither-to-find-smart-contract-bugs/#fixed-point-computation",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-slither-to-find-smart-contract-bugs/#how-to-use-slither",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-slither-to-find-smart-contract-bugs/#installation",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-slither-to-find-smart-contract-bugs/#intermediate-representation",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-slither-to-find-smart-contract-bugs/#main-content",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-slither-to-find-smart-contract-bugs/#running-a-script",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-slither-to-find-smart-contract-bugs/#semantic-analysis",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-slither-to-find-smart-contract-bugs/#static-analysis",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-slither-to-find-smart-contract-bugs/#syntax-analysis",
+            "https://ethereum.org/en/eips/",
+            "https://ethereum.org/en/enterprise/",
+            "https://ethereum.org/en/enterprise/private-ethereum/",
+            "https://ethereum.org/en/eth/",
+            "https://ethereum.org/en/foundation/",
+            "https://ethereum.org/en/gas/",
+            "https://ethereum.org/en/get-eth/",
+            "https://ethereum.org/en/glossary/",
+            "https://ethereum.org/en/governance/",
+            "https://ethereum.org/en/guides/",
+            "https://ethereum.org/en/history/",
+            "https://ethereum.org/en/layer-2/",
+            "https://ethereum.org/en/learn/",
+            "https://ethereum.org/en/nft/",
+            "https://ethereum.org/en/privacy-policy/",
+            "https://ethereum.org/en/quizzes/",
+            "https://ethereum.org/en/roadmap/",
+            "https://ethereum.org/en/roadmap/security/",
+            "https://ethereum.org/en/run-a-node/",
+            "https://ethereum.org/en/security/",
+            "https://ethereum.org/en/smart-contracts/",
+            "https://ethereum.org/en/stablecoins/",
+            "https://ethereum.org/en/staking/",
+            "https://ethereum.org/en/terms-of-use/",
+            "https://ethereum.org/en/wallets/",
+            "https://ethereum.org/en/wallets/find-wallet/",
+            "https://ethereum.org/en/web3/",
+            "https://ethereum.org/en/what-is-ethereum/",
+            "https://ethereum.org/en/whitepaper/"
+        ],
+        "fbinfer.com": [
+            "https://fbinfer.com/"
+        ],
+        "findbugs.sourceforge.net": [
+            "http://findbugs.sourceforge.net/"
+        ],
+        "frama-c.com": [
+            "https://frama-c.com/"
+        ],
+        "github.com": [
+            "https://github.com/crytic",
+            "https://github.com/crytic/building-secure-contracts/tree/master/program-analysis/slither",
+            "https://github.com/crytic/slither#printers",
+            "https://github.com/crytic/slither#tools",
+            "https://github.com/crytic/slither/blob/0441338e055ab7151b30ca69258561a5a793f8ba/slither/detectors/erc/incorrect_erc20_interface.py#L34-L55",
+            "https://github.com/crytic/slither/blob/0441338e055ab7151b30ca69258561a5a793f8ba/slither/detectors/shadowing/state.py#L51-L62",
+            "https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L63-L64",
+            "https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L86-L87",
+            "https://github.com/crytic/slither/blob/b275bcc824b1b932310cf03b6bfb1a1fef0ebae1/slither/detectors/reentrancy/reentrancy_benign.py",
+            "https://github.com/crytic/slither/blob/b275bcc824b1b932310cf03b6bfb1a1fef0ebae1/slither/detectors/reentrancy/reentrancy_eth.py",
+            "https://github.com/crytic/slither/blob/b275bcc824b1b932310cf03b6bfb1a1fef0ebae1/slither/detectors/reentrancy/reentrancy_read_before_write.py",
+            "https://github.com/crytic/slither/blob/master/slither/detectors/reentrancy/reentrancy.py#L125-L131",
+            "https://github.com/crytic/slither/blob/master/slither/visitors/expression/expression.py",
+            "https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-strict-equalities",
+            "https://github.com/crytic/slither/wiki/Detector-Documentation#incorrect-erc20-interface",
+            "https://github.com/crytic/slither/wiki/Detector-Documentation#state-variable-shadowing",
+            "https://github.com/crytic/slither/wiki/Printer-documentation#slithir",
+            "https://github.com/crytic/slither/wiki/Printer-documentation#slithir-ssa",
+            "https://github.com/crytic/slither/wiki/SlithIR",
+            "https://github.com/crytic/slither/wiki/data-dependency",
+            "https://github.com/ethereum/ethereum-org-website",
+            "https://github.com/ethereum/ethereum-org-website/tree/dev/public/content/developers/tutorials/how-to-use-slither-to-find-smart-contract-bugs/index.md",
+            "https://github.com/nhsz",
+            "https://github.com/trailofbits/publications/blob/master/papers/wetseb19.pdf"
+        ],
+        "lwn.net": [
+            "https://lwn.net/Articles/806099/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ethdotorg"
+        ],
+        "www.mathworks.com": [
+            "https://www.mathworks.com/products/polyspace.html"
+        ]
+    }
+}

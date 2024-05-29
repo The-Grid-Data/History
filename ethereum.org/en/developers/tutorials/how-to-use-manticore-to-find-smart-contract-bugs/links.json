@@ -1,0 +1,137 @@
+{
+    "target_url": "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/",
+    "domains": {
+        "": [
+            "mailto:press@ethereum.org"
+        ],
+        "blog.ethereum.org": [
+            "https://blog.ethereum.org/"
+        ],
+        "blog.trailofbits.com": [
+            "https://blog.trailofbits.com/2017/11/06/hands-on-the-ethernaut-ctf/"
+        ],
+        "devcon.org": [
+            "https://devcon.org/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/ethereum-org"
+        ],
+        "esp.ethereum.foundation": [
+            "https://esp.ethereum.foundation"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/en/",
+            "https://ethereum.org/en/about/",
+            "https://ethereum.org/en/about/#open-jobs",
+            "https://ethereum.org/en/assets/",
+            "https://ethereum.org/en/bug-bounty/",
+            "https://ethereum.org/en/community/",
+            "https://ethereum.org/en/community/code-of-conduct/",
+            "https://ethereum.org/en/community/events/",
+            "https://ethereum.org/en/community/grants/",
+            "https://ethereum.org/en/community/online/",
+            "https://ethereum.org/en/community/research/",
+            "https://ethereum.org/en/contributing/",
+            "https://ethereum.org/en/contributing/translation-program/",
+            "https://ethereum.org/en/cookie-policy/",
+            "https://ethereum.org/en/dao/",
+            "https://ethereum.org/en/dapps/",
+            "https://ethereum.org/en/decentralized-identity/",
+            "https://ethereum.org/en/defi/",
+            "https://ethereum.org/en/developers/",
+            "https://ethereum.org/en/developers/docs/",
+            "https://ethereum.org/en/developers/docs/design-and-ux/",
+            "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+            "https://ethereum.org/en/developers/learning-tools/",
+            "https://ethereum.org/en/developers/local-environment/",
+            "https://ethereum.org/en/developers/tutorials/",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/#adding-constraints",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/#checking-constraint",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/#creating-accounts",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/#dynamic-symbolic-execution-in-a-nutshell",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/#executing-transactions",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/#getting-throwing-paths",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/#how-to-generate-testcase",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/#installation",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/#introduction-to-dynamic-symbolic-execution",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/#main-content",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/#manipulate-a-smart-contract-through-the-api",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/#manticore-through-docker",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/#manticore-through-pip",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/#named-transaction",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/#operators",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/#path-predicate-example",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/#raw-transaction",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/#run-a-standalone-exploration",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/#running-a-script",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/#running-under-manticore",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/#state-constraint",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/#summary",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/#summary-1",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/#summary-2",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/#summary-adding-constraints",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/#summary-getting-throwing-path",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/#summary-running-under-manticore",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/#terminate-the-exploration",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/#using-state-information",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/#verifying-properties",
+            "https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/#workspace",
+            "https://ethereum.org/en/eips/",
+            "https://ethereum.org/en/enterprise/",
+            "https://ethereum.org/en/enterprise/private-ethereum/",
+            "https://ethereum.org/en/eth/",
+            "https://ethereum.org/en/foundation/",
+            "https://ethereum.org/en/gas/",
+            "https://ethereum.org/en/get-eth/",
+            "https://ethereum.org/en/glossary/",
+            "https://ethereum.org/en/governance/",
+            "https://ethereum.org/en/guides/",
+            "https://ethereum.org/en/history/",
+            "https://ethereum.org/en/layer-2/",
+            "https://ethereum.org/en/learn/",
+            "https://ethereum.org/en/nft/",
+            "https://ethereum.org/en/privacy-policy/",
+            "https://ethereum.org/en/quizzes/",
+            "https://ethereum.org/en/roadmap/",
+            "https://ethereum.org/en/roadmap/security/",
+            "https://ethereum.org/en/run-a-node/",
+            "https://ethereum.org/en/security/",
+            "https://ethereum.org/en/smart-contracts/",
+            "https://ethereum.org/en/stablecoins/",
+            "https://ethereum.org/en/staking/",
+            "https://ethereum.org/en/terms-of-use/",
+            "https://ethereum.org/en/wallets/",
+            "https://ethereum.org/en/wallets/find-wallet/",
+            "https://ethereum.org/en/web3/",
+            "https://ethereum.org/en/what-is-ethereum/",
+            "https://ethereum.org/en/whitepaper/"
+        ],
+        "github.com": [
+            "https://github.com/crytic/building-secure-contracts/blob/master/program-analysis/manticore/examples/example.sol",
+            "https://github.com/crytic/building-secure-contracts/blob/master/program-analysis/manticore/examples/example_run.py",
+            "https://github.com/crytic/building-secure-contracts/tree/master/program-analysis/manticore",
+            "https://github.com/ethereum/ethereum-org-website",
+            "https://github.com/ethereum/ethereum-org-website/tree/dev/public/content/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/index.md",
+            "https://github.com/lukassim",
+            "https://github.com/trailofbits/manticore/blob/master/manticore/core/smtlib/operators.py"
+        ],
+        "manticore.readthedocs.io": [
+            "https://manticore.readthedocs.io/en/latest/evm.html?highlight=create_account#manticore.ethereum.ManticoreEVM.create_account",
+            "https://manticore.readthedocs.io/en/latest/evm.html?highlight=finalize#manticore.ethereum.ManticoreEVM.finalize",
+            "https://manticore.readthedocs.io/en/latest/evm.html?highlight=generate_testcase#manticore.ethereum.ManticoreEVM.generate_testcase",
+            "https://manticore.readthedocs.io/en/latest/evm.html?highlight=make_symbolic_buffer#manticore.ethereum.ManticoreEVM.make_symbolic_buffer",
+            "https://manticore.readthedocs.io/en/latest/evm.html?highlight=make_symbolic_value#manticore.ethereum.ManticoreEVM.make_symbolic_value",
+            "https://manticore.readthedocs.io/en/latest/evm.html?highlight=solidity_create#manticore.ethereum.ManticoreEVM.create_contract",
+            "https://manticore.readthedocs.io/en/latest/evm.html?highlight=transaction#manticore.ethereum.ManticoreEVM.transaction",
+            "https://manticore.readthedocs.io/en/latest/states.html#accessing",
+            "https://manticore.readthedocs.io/en/latest/states.html#accessings",
+            "https://manticore.readthedocs.io/en/latest/states.html?highlight=StateBase#manticore.core.state.StateBase.constrain"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ethdotorg"
+        ],
+        "wikipedia.org": [
+            "https://wikipedia.org/wiki/Satisfiability_modulo_theories"
+        ]
+    }
+}
