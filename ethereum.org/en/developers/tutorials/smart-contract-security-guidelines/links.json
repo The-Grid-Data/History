@@ -1,0 +1,126 @@
+{
+    "target_url": "https://ethereum.org/en/developers/tutorials/smart-contract-security-guidelines/",
+    "domains": {
+        "": [
+            "mailto:press@ethereum.org"
+        ],
+        "blog.ethereum.org": [
+            "https://blog.ethereum.org/"
+        ],
+        "blog.trailofbits.com": [
+            "https://blog.trailofbits.com/2018/09/05/contract-upgrade-anti-patterns/",
+            "https://blog.trailofbits.com/2018/10/29/how-contract-migration-works/",
+            "https://blog.trailofbits.com/2018/11/27/10-rules-for-the-secure-use-of-cryptocurrency-hardware-wallets/"
+        ],
+        "capturetheether.com": [
+            "https://capturetheether.com/"
+        ],
+        "crytic.io": [
+            "https://crytic.io/"
+        ],
+        "devcon.org": [
+            "https://devcon.org/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/ethereum-org"
+        ],
+        "esp.ethereum.foundation": [
+            "https://esp.ethereum.foundation"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/en/",
+            "https://ethereum.org/en/about/",
+            "https://ethereum.org/en/about/#open-jobs",
+            "https://ethereum.org/en/assets/",
+            "https://ethereum.org/en/bug-bounty/",
+            "https://ethereum.org/en/community/",
+            "https://ethereum.org/en/community/code-of-conduct/",
+            "https://ethereum.org/en/community/events/",
+            "https://ethereum.org/en/community/grants/",
+            "https://ethereum.org/en/community/online/",
+            "https://ethereum.org/en/community/research/",
+            "https://ethereum.org/en/contributing/",
+            "https://ethereum.org/en/contributing/translation-program/",
+            "https://ethereum.org/en/cookie-policy/",
+            "https://ethereum.org/en/dao/",
+            "https://ethereum.org/en/dapps/",
+            "https://ethereum.org/en/decentralized-identity/",
+            "https://ethereum.org/en/defi/",
+            "https://ethereum.org/en/developers/",
+            "https://ethereum.org/en/developers/docs/",
+            "https://ethereum.org/en/developers/docs/design-and-ux/",
+            "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+            "https://ethereum.org/en/developers/learning-tools/",
+            "https://ethereum.org/en/developers/local-environment/",
+            "https://ethereum.org/en/developers/tutorials/",
+            "https://ethereum.org/en/developers/tutorials/smart-contract-security-guidelines/#avoid-known-pitfalls",
+            "https://ethereum.org/en/developers/tutorials/smart-contract-security-guidelines/#dependencies",
+            "https://ethereum.org/en/developers/tutorials/smart-contract-security-guidelines/#deployment-guidelines",
+            "https://ethereum.org/en/developers/tutorials/smart-contract-security-guidelines/#design-guidelines",
+            "https://ethereum.org/en/developers/tutorials/smart-contract-security-guidelines/#documentation-and-specifications",
+            "https://ethereum.org/en/developers/tutorials/smart-contract-security-guidelines/#events",
+            "https://ethereum.org/en/developers/tutorials/smart-contract-security-guidelines/#function-composition",
+            "https://ethereum.org/en/developers/tutorials/smart-contract-security-guidelines/#implementation-guidelines",
+            "https://ethereum.org/en/developers/tutorials/smart-contract-security-guidelines/#inheritance",
+            "https://ethereum.org/en/developers/tutorials/smart-contract-security-guidelines/#main-content",
+            "https://ethereum.org/en/developers/tutorials/smart-contract-security-guidelines/#on-chain-vs-off-chain-computation",
+            "https://ethereum.org/en/developers/tutorials/smart-contract-security-guidelines/#solidity",
+            "https://ethereum.org/en/developers/tutorials/smart-contract-security-guidelines/#testing-and-verification",
+            "https://ethereum.org/en/developers/tutorials/smart-contract-security-guidelines/#upgradeability",
+            "https://ethereum.org/en/eips/",
+            "https://ethereum.org/en/enterprise/",
+            "https://ethereum.org/en/enterprise/private-ethereum/",
+            "https://ethereum.org/en/eth/",
+            "https://ethereum.org/en/foundation/",
+            "https://ethereum.org/en/gas/",
+            "https://ethereum.org/en/get-eth/",
+            "https://ethereum.org/en/glossary/",
+            "https://ethereum.org/en/governance/",
+            "https://ethereum.org/en/guides/",
+            "https://ethereum.org/en/history/",
+            "https://ethereum.org/en/layer-2/",
+            "https://ethereum.org/en/learn/",
+            "https://ethereum.org/en/nft/",
+            "https://ethereum.org/en/privacy-policy/",
+            "https://ethereum.org/en/quizzes/",
+            "https://ethereum.org/en/roadmap/",
+            "https://ethereum.org/en/roadmap/security/",
+            "https://ethereum.org/en/run-a-node/",
+            "https://ethereum.org/en/security/",
+            "https://ethereum.org/en/smart-contracts/",
+            "https://ethereum.org/en/stablecoins/",
+            "https://ethereum.org/en/staking/",
+            "https://ethereum.org/en/terms-of-use/",
+            "https://ethereum.org/en/wallets/",
+            "https://ethereum.org/en/wallets/find-wallet/",
+            "https://ethereum.org/en/web3/",
+            "https://ethereum.org/en/what-is-ethereum/",
+            "https://ethereum.org/en/whitepaper/"
+        ],
+        "ethernaut.openzeppelin.com": [
+            "https://ethernaut.openzeppelin.com/"
+        ],
+        "github.com": [
+            "https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC20",
+            "https://github.com/crytic/blockchain-security-contacts",
+            "https://github.com/crytic/building-secure-contracts/blob/master/development-guidelines/guidelines.md",
+            "https://github.com/crytic/echidna",
+            "https://github.com/crytic/not-so-smart-contracts/",
+            "https://github.com/crytic/slither",
+            "https://github.com/crytic/slither/wiki/Detector-Documentation#recommendation-33",
+            "https://github.com/crytic/slither/wiki/Printer-documentation",
+            "https://github.com/crytic/slither/wiki/Printer-documentation#inheritance-graph",
+            "https://github.com/ethereum/ethereum-org-website",
+            "https://github.com/ethereum/ethereum-org-website/tree/dev/public/content/developers/tutorials/smart-contract-security-guidelines/index.md",
+            "https://github.com/pettinarip",
+            "https://github.com/trailofbits/manticore"
+        ],
+        "solidity.readthedocs.io": [
+            "https://solidity.readthedocs.io/en/develop/natspec-format.html",
+            "https://solidity.readthedocs.io/en/latest/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ethdotorg"
+        ]
+    }
+}

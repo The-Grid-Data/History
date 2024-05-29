@@ -1,0 +1,148 @@
+{
+    "target_url": "https://ethereum.org/en/developers/tutorials/solidity-and-truffle-continuous-integration-setup/",
+    "domains": {
+        "": [
+            "mailto:press@ethereum.org"
+        ],
+        "blog.ethereum.org": [
+            "https://blog.ethereum.org/"
+        ],
+        "blog.mythx.io": [
+            "https://blog.mythx.io/howto/mythx-and-continuous-integration-part-1-circleci/"
+        ],
+        "circleci.com": [
+            "https://circleci.com/",
+            "https://circleci.com/docs/2.0/env-vars/#setting-an-environment-variable-in-a-project"
+        ],
+        "codechecks.io": [
+            "http://codechecks.io/"
+        ],
+        "coveralls.io": [
+            "https://coveralls.io/"
+        ],
+        "devcon.org": [
+            "https://devcon.org/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/ethereum-org"
+        ],
+        "docs.npmjs.com": [
+            "https://docs.npmjs.com/cli/ci.html"
+        ],
+        "docs.travis-ci.com": [
+            "https://docs.travis-ci.com/user/environment-variables/"
+        ],
+        "eslint.org": [
+            "https://eslint.org/",
+            "https://eslint.org/docs/user-guide/getting-started"
+        ],
+        "esp.ethereum.foundation": [
+            "https://esp.ethereum.foundation"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/content/developers/tutorials/solidity-and-truffle-continuous-integration-setup/coverall.png",
+            "https://ethereum.org/content/developers/tutorials/solidity-and-truffle-continuous-integration-setup/gas-reports.png",
+            "https://ethereum.org/en/",
+            "https://ethereum.org/en/about/",
+            "https://ethereum.org/en/about/#open-jobs",
+            "https://ethereum.org/en/assets/",
+            "https://ethereum.org/en/bug-bounty/",
+            "https://ethereum.org/en/community/",
+            "https://ethereum.org/en/community/code-of-conduct/",
+            "https://ethereum.org/en/community/events/",
+            "https://ethereum.org/en/community/grants/",
+            "https://ethereum.org/en/community/online/",
+            "https://ethereum.org/en/community/research/",
+            "https://ethereum.org/en/contributing/",
+            "https://ethereum.org/en/contributing/translation-program/",
+            "https://ethereum.org/en/cookie-policy/",
+            "https://ethereum.org/en/dao/",
+            "https://ethereum.org/en/dapps/",
+            "https://ethereum.org/en/decentralized-identity/",
+            "https://ethereum.org/en/defi/",
+            "https://ethereum.org/en/developers/",
+            "https://ethereum.org/en/developers/docs/",
+            "https://ethereum.org/en/developers/docs/design-and-ux/",
+            "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+            "https://ethereum.org/en/developers/learning-tools/",
+            "https://ethereum.org/en/developers/local-environment/",
+            "https://ethereum.org/en/developers/tutorials/",
+            "https://ethereum.org/en/developers/tutorials/solidity-and-truffle-continuous-integration-setup/#adding-the-eth-gas-reporter-plugin",
+            "https://ethereum.org/en/developers/tutorials/solidity-and-truffle-continuous-integration-setup/#adding-the-solidity-coverage-plugin",
+            "https://ethereum.org/en/developers/tutorials/solidity-and-truffle-continuous-integration-setup/#further-ideas",
+            "https://ethereum.org/en/developers/tutorials/solidity-and-truffle-continuous-integration-setup/#main-content",
+            "https://ethereum.org/en/developers/tutorials/solidity-and-truffle-continuous-integration-setup/#setting-up-circle-ci",
+            "https://ethereum.org/en/developers/tutorials/solidity-and-truffle-continuous-integration-setup/#setting-up-travis-ci",
+            "https://ethereum.org/en/developers/tutorials/solidity-and-truffle-continuous-integration-setup/#step-1-create-a-metacoin-project-and-install-coverage-tools",
+            "https://ethereum.org/en/developers/tutorials/solidity-and-truffle-continuous-integration-setup/#step-1-install-the-eth-gas-reporter-plugin-and-codechecks",
+            "https://ethereum.org/en/developers/tutorials/solidity-and-truffle-continuous-integration-setup/#step-2-add-solidity-coverage-to-the-plugins-array-in-truffle-configjs",
+            "https://ethereum.org/en/developers/tutorials/solidity-and-truffle-continuous-integration-setup/#step-2-add-the-plugin-to-the-mocha-settings-inside-your-truffle-configjs",
+            "https://ethereum.org/en/developers/tutorials/solidity-and-truffle-continuous-integration-setup/#step-3-add-a-codechecksyml-to-your-projects-root-directory",
+            "https://ethereum.org/en/developers/tutorials/solidity-and-truffle-continuous-integration-setup/#step-3-add-the-coverage-commands-to-the-travisyml-or-circle-ci-configyml",
+            "https://ethereum.org/en/developers/tutorials/solidity-and-truffle-continuous-integration-setup/#step-4-add-repository-to-coveralls",
+            "https://ethereum.org/en/developers/tutorials/solidity-and-truffle-continuous-integration-setup/#step-4-run-codechecks-after-the-test-command",
+            "https://ethereum.org/en/developers/tutorials/solidity-and-truffle-continuous-integration-setup/#step-5-create-a-codechecks-account",
+            "https://ethereum.org/en/eips/",
+            "https://ethereum.org/en/enterprise/",
+            "https://ethereum.org/en/enterprise/private-ethereum/",
+            "https://ethereum.org/en/eth/",
+            "https://ethereum.org/en/foundation/",
+            "https://ethereum.org/en/gas/",
+            "https://ethereum.org/en/get-eth/",
+            "https://ethereum.org/en/glossary/",
+            "https://ethereum.org/en/governance/",
+            "https://ethereum.org/en/guides/",
+            "https://ethereum.org/en/history/",
+            "https://ethereum.org/en/layer-2/",
+            "https://ethereum.org/en/learn/",
+            "https://ethereum.org/en/nft/",
+            "https://ethereum.org/en/privacy-policy/",
+            "https://ethereum.org/en/quizzes/",
+            "https://ethereum.org/en/roadmap/",
+            "https://ethereum.org/en/roadmap/security/",
+            "https://ethereum.org/en/run-a-node/",
+            "https://ethereum.org/en/security/",
+            "https://ethereum.org/en/smart-contracts/",
+            "https://ethereum.org/en/stablecoins/",
+            "https://ethereum.org/en/staking/",
+            "https://ethereum.org/en/terms-of-use/",
+            "https://ethereum.org/en/wallets/",
+            "https://ethereum.org/en/wallets/find-wallet/",
+            "https://ethereum.org/en/web3/",
+            "https://ethereum.org/en/what-is-ethereum/",
+            "https://ethereum.org/en/whitepaper/"
+        ],
+        "github.com": [
+            "https://github.com/cgewecke/eth-gas-reporter#options",
+            "https://github.com/ethereum/ethereum-org-website",
+            "https://github.com/ethereum/ethereum-org-website/tree/dev/public/content/developers/tutorials/solidity-and-truffle-continuous-integration-setup/index.md",
+            "https://github.com/gorgos/Truffle-CI-Example",
+            "https://github.com/gorgos/Truffle-CI-Example/blob/master/scripts/run_tests.sh",
+            "https://github.com/nhsz"
+        ],
+        "help.github.com": [
+            "https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request"
+        ],
+        "mythx.io": [
+            "https://mythx.io/"
+        ],
+        "protofire.github.io": [
+            "https://protofire.github.io/solhint/"
+        ],
+        "soliditydeveloper.com": [
+            "https://soliditydeveloper.com/continuous-integration"
+        ],
+        "travis-ci.org": [
+            "https://travis-ci.org/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ethdotorg"
+        ],
+        "wikipedia.org": [
+            "https://wikipedia.org/wiki/Lint_%28software%29"
+        ],
+        "www.trufflesuite.com": [
+            "https://www.trufflesuite.com/boxes/metacoin"
+        ]
+    }
+}
