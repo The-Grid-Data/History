@@ -1,0 +1,213 @@
+{
+    "target_url": "https://solana.com/news/2023-state-of-solana-developer-ecosystem",
+    "domains": {
+        "ackeeblockchain.com": [
+            "https://ackeeblockchain.com/"
+        ],
+        "beta.solpg.io": [
+            "https://beta.solpg.io/",
+            "https://beta.solpg.io/657691b9fb53fa325bfd0c58"
+        ],
+        "blocktorch.xyz": [
+            "https://blocktorch.xyz/"
+        ],
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "calyptus.co": [
+            "https://calyptus.co/"
+        ],
+        "careerbooster.io": [
+            "https://careerbooster.io/"
+        ],
+        "crates.io": [
+            "https://crates.io/crates/solana-program-test"
+        ],
+        "devsnest.in": [
+            "https://devsnest.in/"
+        ],
+        "docs.rs": [
+            "https://docs.rs/solana-program-test/latest/solana_program_test/",
+            "https://docs.rs/solana-sdk/latest/solana_sdk/"
+        ],
+        "docs.solana.com": [
+            "https://docs.solana.com/cli/install-solana-cli-tools",
+            "https://docs.solana.com/developing/on-chain-programs/debugging#source-level-debugging",
+            "https://docs.solana.com/developing/test-validator"
+        ],
+        "docs.solanapay.com": [
+            "https://docs.solanapay.com/"
+        ],
+        "eth-brownie.readthedocs.io": [
+            "https://eth-brownie.readthedocs.io/en/stable/"
+        ],
+        "gen3.network": [
+            "http://gen3.network"
+        ],
+        "github.com": [
+            "https://github.com/Ackee-Blockchain/trdelnik",
+            "https://github.com/Blade-Labs-Corp/bokken",
+            "https://github.com/bmresearch/Solnet",
+            "https://github.com/brytelands/sologger",
+            "https://github.com/coral-xyz/anchor/blob/master/tests/events/programs/events/src/lib.rs",
+            "https://github.com/espresso-cash/espresso-cash-public/tree/master/packages/solana",
+            "https://github.com/foundry-rs/foundry",
+            "https://github.com/gagliardetto/solana-go",
+            "https://github.com/heavy-duty/wallet-adapter",
+            "https://github.com/hyperledger/solang",
+            "https://github.com/metaplex-foundation/SolanaKT",
+            "https://github.com/michaelhly/solana-py",
+            "https://github.com/mschneider/solcpp",
+            "https://github.com/rpcpool/solana-geyser-park",
+            "https://github.com/rust-lang/rust-clippy",
+            "https://github.com/scaffold-eth/scaffold-eth-2",
+            "https://github.com/skynetcap/solanaj",
+            "https://github.com/solana-developers/create-solana-dapp",
+            "https://github.com/solana-developers/program-examples",
+            "https://github.com/solana-foundation/solana-developer-data",
+            "https://github.com/solana-foundation/solana-improvement-documents",
+            "https://github.com/solana-foundation/solana-improvement-documents/pull/57",
+            "https://github.com/solana-foundation/specs",
+            "https://github.com/solana-labs/dapp-scaffold",
+            "https://github.com/solana-labs/solana-web3.js",
+            "https://github.com/solana-labs/wallet-adapter",
+            "https://github.com/verze-app/solana-php-sdk"
+        ],
+        "hardhat.org": [
+            "https://hardhat.org/"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "kevinheavey.github.io": [
+            "https://kevinheavey.github.io/solana-bankrun/"
+        ],
+        "marketplace.visualstudio.com": [
+            "https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity",
+            "https://marketplace.visualstudio.com/items?itemName=solana-playground.solpg"
+        ],
+        "medium.sec3.dev": [
+            "https://medium.sec3.dev/announcing-official-soteria-pro-action-auto-auditor-in-github-ci-cd-175dfea05e2c"
+        ],
+        "nasacademy.com": [
+            "https://nasacademy.com/"
+        ],
+        "neon-labs.org": [
+            "https://neon-labs.org/"
+        ],
+        "riverguard.neodyme.io": [
+            "https://riverguard.neodyme.io/"
+        ],
+        "rust-analyzer.github.io": [
+            "https://rust-analyzer.github.io/"
+        ],
+        "sol.goscript.dev": [
+            "https://sol.goscript.dev/"
+        ],
+        "solana.com": [
+            "https://solana.com/",
+            "https://solana.com/branding",
+            "https://solana.com/developers",
+            "https://solana.com/developers/guides",
+            "https://solana.com/developers/guides/getstarted/hello-world-in-your-browser",
+            "https://solana.com/discord",
+            "https://solana.com/docs",
+            "https://solana.com/ecosystem",
+            "https://solana.com/github",
+            "https://solana.com/hyperdrive",
+            "https://solana.com/news",
+            "https://solana.com/news/measuring-developer-and-user-activity-on-solana-december-2022",
+            "https://solana.com/newsletter",
+            "https://solana.com/privacy-policy",
+            "https://solana.com/privacy-policy#collection-of-information",
+            "https://solana.com/reddit",
+            "https://solana.com/telegram",
+            "https://solana.com/tos",
+            "https://solana.com/twitter",
+            "https://solana.com/youtube"
+        ],
+        "solana.fm": [
+            "https://solana.fm/"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ],
+        "solanacookbook.com": [
+            "https://solanacookbook.com/"
+        ],
+        "solanafoundation.typeform.com": [
+            "https://solanafoundation.typeform.com/to/p1E5by5B"
+        ],
+        "solang.readthedocs.io": [
+            "https://solang.readthedocs.io/en/v0.3.3/"
+        ],
+        "superteam.fun": [
+            "https://superteam.fun"
+        ],
+        "survey.stackoverflow.co": [
+            "https://survey.stackoverflow.co/2023/#section-most-popular-technologies-web-frameworks-and-technologies"
+        ],
+        "trufflesuite.com": [
+            "https://trufflesuite.com/ganache/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/mtndao"
+        ],
+        "web3.freecodecamp.org": [
+            "https://web3.freecodecamp.org/solana"
+        ],
+        "web3builders.dev": [
+            "https://web3builders.dev/"
+        ],
+        "www.anchor-lang.com": [
+            "https://www.anchor-lang.com/"
+        ],
+        "www.developerreport.com": [
+            "https://www.developerreport.com/",
+            "https://www.developerreport.com/developer-report"
+        ],
+        "www.easya.io": [
+            "https://www.easya.io/"
+        ],
+        "www.encode.club": [
+            "https://www.encode.club/"
+        ],
+        "www.helius.dev": [
+            "https://www.helius.dev/",
+            "https://www.helius.dev/blog/evaluating-solana-for-enterprise-use-a-comprehensive-guide"
+        ],
+        "www.ironforge.cloud": [
+            "https://www.ironforge.cloud/"
+        ],
+        "www.jetbrains.com": [
+            "https://www.jetbrains.com/lp/devecosystem-2021/#Main_programming-languages"
+        ],
+        "www.metacamp.so": [
+            "https://www.metacamp.so/"
+        ],
+        "www.narra8ive.com": [
+            "https://www.narra8ive.com/"
+        ],
+        "www.npmjs.com": [
+            "https://www.npmjs.com/package/@solana/web3.js"
+        ],
+        "www.risein.com": [
+            "https://www.risein.com/"
+        ],
+        "www.seahorse.dev": [
+            "https://www.seahorse.dev/"
+        ],
+        "www.soldev.app": [
+            "https://www.soldev.app/course"
+        ],
+        "www.umbraresearch.xyz": [
+            "https://www.umbraresearch.xyz/"
+        ],
+        "xray.helius.xyz": [
+            "https://xray.helius.xyz/"
+        ],
+        "youtu.be": [
+            "https://youtu.be/0P8JeL3TURU?feature=shared"
+        ]
+    }
+}
