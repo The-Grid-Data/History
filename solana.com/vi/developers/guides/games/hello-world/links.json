@@ -1,0 +1,91 @@
+{
+    "target_url": "https://solana.com/vi/developers/guides/games/hello-world",
+    "domains": {
+        "beta.solpg.io": [
+            "https://beta.solpg.io/",
+            "https://beta.solpg.io/tutorials/tiny-adventure"
+        ],
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "github.com": [
+            "https://github.com/solana-developers/solana-game-examples/tree/main/tiny-adventure",
+            "https://github.com/solana-foundation/developer-content/tree/main/content/guides/games/hello-world.md"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "nextjs-tiny-adventure.vercel.app": [
+            "https://nextjs-tiny-adventure.vercel.app/"
+        ],
+        "solana.com": [
+            "https://solana.com/discord",
+            "https://solana.com/github",
+            "https://solana.com/reddit",
+            "https://solana.com/telegram",
+            "https://solana.com/twitter",
+            "https://solana.com/vi",
+            "https://solana.com/vi/branding",
+            "https://solana.com/vi/developers",
+            "https://solana.com/vi/developers/cookbook",
+            "https://solana.com/vi/developers/guides",
+            "https://solana.com/vi/developers/guides/games/energy-system",
+            "https://solana.com/vi/developers/guides/games/game-examples",
+            "https://solana.com/vi/developers/guides/games/game-sdks",
+            "https://solana.com/vi/developers/guides/games/getting-started-with-game-development",
+            "https://solana.com/vi/developers/guides/games/hello-world",
+            "https://solana.com/vi/developers/guides/games/hello-world#build-and-deploy",
+            "https://solana.com/vi/developers/guides/games/hello-world#defining-the-game-data-account",
+            "https://solana.com/vi/developers/guides/games/hello-world#derive-the-gamedataaccount-account-address",
+            "https://solana.com/vi/developers/guides/games/hello-world#get-started-with-the-client",
+            "https://solana.com/vi/developers/guides/games/hello-world#getting-started",
+            "https://solana.com/vi/developers/guides/games/hello-world#initial-program-code",
+            "https://solana.com/vi/developers/guides/games/hello-world#initialize-instruction",
+            "https://solana.com/vi/developers/guides/games/hello-world#initialize-the-game-state",
+            "https://solana.com/vi/developers/guides/games/hello-world#logging-the-player-s-position",
+            "https://solana.com/vi/developers/guides/games/hello-world#more-resources",
+            "https://solana.com/vi/developers/guides/games/hello-world#move-left-and-right",
+            "https://solana.com/vi/developers/guides/games/hello-world#move-left-instruction",
+            "https://solana.com/vi/developers/guides/games/hello-world#move-right-instruction",
+            "https://solana.com/vi/developers/guides/games/hello-world#part-two",
+            "https://solana.com/vi/developers/guides/games/hello-world#program-instructions",
+            "https://solana.com/vi/developers/guides/games/hello-world#run-the-client-program",
+            "https://solana.com/vi/developers/guides/games/hello-world#solana-playground",
+            "https://solana.com/vi/developers/guides/games/hello-world#video-walkthrough",
+            "https://solana.com/vi/developers/guides/games/hello-world#what-s-next",
+            "https://solana.com/vi/developers/guides/games/interact-with-tokens",
+            "https://solana.com/vi/developers/guides/games/nfts-in-games",
+            "https://solana.com/vi/developers/guides/games/store-sol-in-pda",
+            "https://solana.com/vi/developers/guides/getstarted/intro-to-anchor",
+            "https://solana.com/vi/developers/guides/getstarted/solana-token-airdrop-and-faucets",
+            "https://solana.com/vi/developers/guides?difficulty=beginner",
+            "https://solana.com/vi/developers/guides?tags=anchor",
+            "https://solana.com/vi/developers/guides?tags=games",
+            "https://solana.com/vi/developers/guides?tags=program",
+            "https://solana.com/vi/developers/guides?tags=quickstart",
+            "https://solana.com/vi/developers/guides?tags=rust",
+            "https://solana.com/vi/developers/guides?tags=web3js",
+            "https://solana.com/vi/docs",
+            "https://solana.com/vi/docs/core/pda",
+            "https://solana.com/vi/docs/core/transactions#instruction",
+            "https://solana.com/vi/docs/rpc",
+            "https://solana.com/vi/docs/terminology",
+            "https://solana.com/vi/ecosystem",
+            "https://solana.com/vi/news",
+            "https://solana.com/vi/newsletter",
+            "https://solana.com/vi/privacy-policy",
+            "https://solana.com/vi/privacy-policy#collection-of-information",
+            "https://solana.com/vi/tos",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ],
+        "www.soldev.app": [
+            "https://www.soldev.app/course"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/watch?v=_vQ3bSs3svs"
+        ]
+    }
+}

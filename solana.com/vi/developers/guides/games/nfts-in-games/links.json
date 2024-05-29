@@ -1,0 +1,111 @@
+{
+    "target_url": "https://solana.com/vi/developers/guides/games/nfts-in-games",
+    "domains": {
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "developers.metaplex.com": [
+            "https://developers.metaplex.com/community-guides",
+            "https://developers.metaplex.com/core"
+        ],
+        "discoverthreejs.com": [
+            "https://discoverthreejs.com/book/first-steps/load-models/"
+        ],
+        "docs.gameshift.dev": [
+            "https://docs.gameshift.dev/"
+        ],
+        "docs.helius.dev": [
+            "https://docs.helius.dev/compression-and-das-api/digital-asset-standard-das-api"
+        ],
+        "docs.honeycombprotocol.com": [
+            "https://docs.honeycombprotocol.com/"
+        ],
+        "docs.metaplex.com": [
+            "https://docs.metaplex.com/programs/candy-machine/how-to-guides/my-first-candy-machine-part1",
+            "https://docs.metaplex.com/programs/fusion/overview"
+        ],
+        "docs.raindrops.xyz": [
+            "https://docs.raindrops.xyz/services/boots"
+        ],
+        "docs.solana.com": [
+            "https://docs.solana.com/de/developing/clients/javascript-api"
+        ],
+        "github.com": [
+            "https://github.com/atteneder/glTFast",
+            "https://github.com/metaplex-foundation/js#readme",
+            "https://github.com/solana-developers/cube_shift",
+            "https://github.com/solana-developers/program-examples/tree/main/tokens/token-2022/nft-meta-data-pointer/anchor",
+            "https://github.com/solana-developers/solana-2048",
+            "https://github.com/solana-developers/solana-game-examples/tree/main/seven-seas",
+            "https://github.com/solana-developers/solana-game-preset/blob/main/app/components/DisplayNfts.tsx",
+            "https://github.com/solana-foundation/developer-content/tree/main/content/guides/games/nfts-in-games.md"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "solana.com": [
+            "https://solana.com/discord",
+            "https://solana.com/github",
+            "https://solana.com/reddit",
+            "https://solana.com/telegram",
+            "https://solana.com/twitter",
+            "https://solana.com/vi",
+            "https://solana.com/vi/branding",
+            "https://solana.com/vi/developers",
+            "https://solana.com/vi/developers/cookbook",
+            "https://solana.com/vi/developers/guides",
+            "https://solana.com/vi/developers/guides/games/interact-with-tokens",
+            "https://solana.com/vi/developers/guides/games/nfts-in-games",
+            "https://solana.com/vi/developers/guides/games/nfts-in-games#bonus-effects-with-nfts",
+            "https://solana.com/vi/developers/guides/games/nfts-in-games#customize-nfts-with-items-and-traits-with-raindrops-boots",
+            "https://solana.com/vi/developers/guides/games/nfts-in-games#fusing-nfts-together",
+            "https://solana.com/vi/developers/guides/games/nfts-in-games#how-to-create-an-nft-collection",
+            "https://solana.com/vi/developers/guides/games/nfts-in-games#how-to-create-nfts-in-a-program-and-add-additional-metadata",
+            "https://solana.com/vi/developers/guides/games/nfts-in-games#nft-staking-and-missions",
+            "https://solana.com/vi/developers/guides/games/nfts-in-games#token-gating-with-nfts",
+            "https://solana.com/vi/developers/guides/games/nfts-in-games#use-3d-nfts-in-a-game",
+            "https://solana.com/vi/developers/guides/games/nfts-in-games#use-nfts-to-save-a-game-state",
+            "https://solana.com/vi/developers/guides/games/nfts-in-games#using-nft-metadata-for-player-stats",
+            "https://solana.com/vi/developers/guides/games/nfts-in-games#using-solana-gameshift-to-create-nfts",
+            "https://solana.com/vi/developers/guides/games/porting-anchor-to-unity",
+            "https://solana.com/vi/developers/guides/token-extensions/getting-started",
+            "https://solana.com/vi/developers/guides/token-extensions/metadata-pointer",
+            "https://solana.com/vi/developers/guides?difficulty=intro",
+            "https://solana.com/vi/developers/guides?tags=anchor",
+            "https://solana.com/vi/developers/guides?tags=games",
+            "https://solana.com/vi/developers/guides?tags=nfts",
+            "https://solana.com/vi/developers/guides?tags=program",
+            "https://solana.com/vi/developers/guides?tags=token%202022",
+            "https://solana.com/vi/developers/guides?tags=token%20extensions",
+            "https://solana.com/vi/developers/guides?tags=web3js",
+            "https://solana.com/vi/docs",
+            "https://solana.com/vi/docs/core/pda#how-to-derive-a-pda",
+            "https://solana.com/vi/docs/rpc",
+            "https://solana.com/vi/docs/terminology",
+            "https://solana.com/vi/ecosystem",
+            "https://solana.com/vi/news",
+            "https://solana.com/vi/newsletter",
+            "https://solana.com/vi/privacy-policy",
+            "https://solana.com/vi/privacy-policy#collection-of-information",
+            "https://solana.com/vi/tos",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ],
+        "solanalabs.com": [
+            "https://solanalabs.com/"
+        ],
+        "solplay.de": [
+            "https://solplay.de/cubeshift"
+        ],
+        "solscan.io": [
+            "https://solscan.io/token/DzHPvbGzrHK4UcyeDurw2nuBFKNvt4Kb7K8Bx9dtsfn#metadata"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/playlist?list=PLilwLeBwGuK6NsYMPP_BlVkeQgff0NwvU",
+            "https://www.youtube.com/watch?v=hTCPXVn14TY",
+            "https://www.youtube.com/watch?v=n-ym1utpzhk&ab_channel=Solana"
+        ]
+    }
+}
