@@ -1,0 +1,162 @@
+{
+    "target_url": "https://solana.com/ru/developers/guides/games/game-examples",
+    "domains": {
+        "beta.solpg.io": [
+            "https://beta.solpg.io/tutorials/tiny-adventure",
+            "https://beta.solpg.io/tutorials/tiny-adventure-two"
+        ],
+        "book.anchor-lang.com": [
+            "https://book.anchor-lang.com/anchor_in_depth/milestone_project_tic-tac-toe.html"
+        ],
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "deezquest.vercel.app": [
+            "https://deezquest.vercel.app/"
+        ],
+        "docs.magicblock.gg": [
+            "https://docs.magicblock.gg/Onboarding/Session%20Keys/how-do-session-keys-work"
+        ],
+        "github.com": [
+            "https://github.com/JumpCrypto/sol-arc",
+            "https://github.com/Lightprotocol/light-protocol",
+            "https://github.com/RACE-Game",
+            "https://github.com/Solana-Workshops/tug-of-war-solana-pay",
+            "https://github.com/Woody4618/colosseum_2024",
+            "https://github.com/Woody4618/speedrun2",
+            "https://github.com/coral-xyz/anchor-book/tree/master/programs/tic-tac-toe",
+            "https://github.com/kevinrodriguez-io/bonk-paper-scissors",
+            "https://github.com/kimo-do/Speedrun2",
+            "https://github.com/magicblock-labs/Solana-Unity-Chess/",
+            "https://github.com/magicblock-labs/bolt",
+            "https://github.com/magicblock-labs/bolt-tic-tac-toe",
+            "https://github.com/nelsontky/web3-plays-pokemon",
+            "https://github.com/proxycapital/solana-civ",
+            "https://github.com/solana-developers/solana-game-examples",
+            "https://github.com/solana-developers/solana-game-examples/pulls",
+            "https://github.com/solana-developers/solana-game-examples/tree/main/city-builder",
+            "https://github.com/solana-developers/solana-game-examples/tree/main/seven-seas",
+            "https://github.com/solana-developers/solana-game-examples/tree/main/seven-seas/unity/Assets/SolPlay/Examples/TinyAdventure",
+            "https://github.com/solana-developers/solana-game-preset",
+            "https://github.com/solana-foundation/developer-content/tree/main/content/guides/games/game-examples.md",
+            "https://github.com/solanaGames",
+            "https://github.com/spacemandev-git/dominari-arc",
+            "https://github.com/super-turbo-society/turbo-demos/tree/main/solana-lumberjack",
+            "https://github.com/val-samonte/deezquest"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "lightprotocol.com": [
+            "https://lightprotocol.com/"
+        ],
+        "solana-civ.com": [
+            "https://solana-civ.com/"
+        ],
+        "solana.com": [
+            "https://solana.com/discord",
+            "https://solana.com/github",
+            "https://solana.com/reddit",
+            "https://solana.com/ru",
+            "https://solana.com/ru/branding",
+            "https://solana.com/ru/developers",
+            "https://solana.com/ru/developers/cookbook",
+            "https://solana.com/ru/developers/guides",
+            "https://solana.com/ru/developers/guides/games/energy-system",
+            "https://solana.com/ru/developers/guides/games/game-examples",
+            "https://solana.com/ru/developers/guides/games/game-examples#adventure-killing-monsters-and-gaining-xp",
+            "https://solana.com/ru/developers/guides/games/game-examples#arc-framework",
+            "https://solana.com/ru/developers/guides/games/game-examples#blob-wars-onchain-strategy-game-ala-dark-forest",
+            "https://solana.com/ru/developers/guides/games/game-examples#entity-component-system-examples",
+            "https://solana.com/ru/developers/guides/games/game-examples#game-dev-tutorial-videos",
+            "https://solana.com/ru/developers/guides/games/game-examples#hide-game-state-from-other-players",
+            "https://solana.com/ru/developers/guides/games/game-examples#how-to-build-a-round-based-multiplayer-game",
+            "https://solana.com/ru/developers/guides/games/game-examples#interacting-with-anchor-programs-from-unity",
+            "https://solana.com/ru/developers/guides/games/game-examples#light-protocol",
+            "https://solana.com/ru/developers/guides/games/game-examples#magicblock-bolt",
+            "https://solana.com/ru/developers/guides/games/game-examples#multiplayer-game-using-voting-system",
+            "https://solana.com/ru/developers/guides/games/game-examples#on-chain-city-builder-example",
+            "https://solana.com/ru/developers/guides/games/game-examples#onchain-chess",
+            "https://solana.com/ru/developers/guides/games/game-examples#onchain-matchmaking",
+            "https://solana.com/ru/developers/guides/games/game-examples#race-protocol",
+            "https://solana.com/ru/developers/guides/games/game-examples#real-time-pvp-onchain-game",
+            "https://solana.com/ru/developers/guides/games/game-examples#rebirth-rumble-pvp-battler",
+            "https://solana.com/ru/developers/guides/games/game-examples#roguelike-game",
+            "https://solana.com/ru/developers/guides/games/game-examples#saving-sol-in-a-pda",
+            "https://solana.com/ru/developers/guides/games/game-examples#seven-seas",
+            "https://solana.com/ru/developers/guides/games/game-examples#solana-civ",
+            "https://solana.com/ru/developers/guides/games/game-examples#stone-paper-scissors",
+            "https://solana.com/ru/developers/guides/games/game-examples#tale-of-kentridge",
+            "https://solana.com/ru/developers/guides/games/game-examples#tilted-fish-games",
+            "https://solana.com/ru/developers/guides/games/game-examples#use-solana-pay-qr-codes-to-control-a-game",
+            "https://solana.com/ru/developers/guides/games/game-examples#using-create-solana-game",
+            "https://solana.com/ru/developers/guides/games/game-sdks",
+            "https://solana.com/ru/developers/guides/games/gib.work",
+            "https://solana.com/ru/developers/guides/games/hello-world",
+            "https://solana.com/ru/developers/guides/games/store-sol-in-pda",
+            "https://solana.com/ru/developers/guides?difficulty=intro",
+            "https://solana.com/ru/developers/guides?tags=anchor",
+            "https://solana.com/ru/developers/guides?tags=games",
+            "https://solana.com/ru/developers/guides?tags=program",
+            "https://solana.com/ru/developers/guides?tags=react",
+            "https://solana.com/ru/developers/guides?tags=rust",
+            "https://solana.com/ru/developers/guides?tags=unity",
+            "https://solana.com/ru/developers/guides?tags=web3js",
+            "https://solana.com/ru/docs",
+            "https://solana.com/ru/docs/rpc",
+            "https://solana.com/ru/docs/terminology",
+            "https://solana.com/ru/ecosystem",
+            "https://solana.com/ru/news",
+            "https://solana.com/ru/newsletter",
+            "https://solana.com/ru/privacy-policy",
+            "https://solana.com/ru/privacy-policy#collection-of-information",
+            "https://solana.com/ru/tos",
+            "https://solana.com/telegram",
+            "https://solana.com/twitter",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ],
+        "solana.playspokemon.xyz": [
+            "https://solana.playspokemon.xyz/"
+        ],
+        "solanaspeedrun.com": [
+            "https://solanaspeedrun.com/"
+        ],
+        "solplay.de": [
+            "https://solplay.de/TinyAdventure/index.html",
+            "https://solplay.de/TinyAdventureTwo/index.html",
+            "https://solplay.de/ancientcave/",
+            "https://solplay.de/humansandgoblins/",
+            "https://solplay.de/sevenseas"
+        ],
+        "tug-of-war-solana-pay.vercel.app": [
+            "https://tug-of-war-solana-pay.vercel.app/?network=devnet"
+        ],
+        "turbo.computer": [
+            "https://turbo.computer/",
+            "https://turbo.computer/docs/intro/"
+        ],
+        "www.xnft.gg": [
+            "https://www.xnft.gg/app/8iGi6rMEPbjTHofEwU8MNsy5MTPfhorj9QXCfH8dKBme",
+            "https://www.xnft.gg/app/D2i3cz9juUPLwbpi8rV2XvAnB5nEe3f8fM5YUpgVprbT"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/playlist?list=PLilwLeBwGuK6NsYMPP_BlVkeQgff0NwvU",
+            "https://www.youtube.com/watch?v=0P8JeL3TURU&t=1s",
+            "https://www.youtube.com/watch?v=KT9anz_V9ns",
+            "https://www.youtube.com/watch?v=XNHxqdd6pz8",
+            "https://www.youtube.com/watch?v=YYQtRCXJBgs&t=3s",
+            "https://www.youtube.com/watch?v=_XBvEHwSqJc&ab_channel=SolPlay",
+            "https://www.youtube.com/watch?v=_vQ3bSs3svs",
+            "https://www.youtube.com/watch?v=ax0Si3Vkvbo&t=252s",
+            "https://www.youtube.com/watch?v=fnhivg_pemI",
+            "https://www.youtube.com/watch?v=gILXyWvXu7M",
+            "https://www.youtube.com/watch?v=jW8ep_bmaIw",
+            "https://www.youtube.com/watch?v=n-ym1utpzhk",
+            "https://www.youtube.com/watch?v=oKvWZoybv7Y",
+            "https://www.youtube.com/watch?v=zs_yU0IuJxc"
+        ]
+    }
+}
