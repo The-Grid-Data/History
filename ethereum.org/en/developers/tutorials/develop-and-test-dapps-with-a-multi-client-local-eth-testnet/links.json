@@ -1,0 +1,146 @@
+{
+    "target_url": "https://ethereum.org/en/developers/tutorials/develop-and-test-dapps-with-a-multi-client-local-eth-testnet/",
+    "domains": {
+        "": [
+            "mailto:feedback@kurtosistech.com",
+            "mailto:press@ethereum.org"
+        ],
+        "blog.ethereum.org": [
+            "https://blog.ethereum.org/"
+        ],
+        "classic.yarnpkg.com": [
+            "https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable"
+        ],
+        "consensys.net": [
+            "https://consensys.net/knowledge-base/ethereum-2/teku/"
+        ],
+        "devcon.org": [
+            "https://devcon.org/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/ethereum-org"
+        ],
+        "docs.kurtosis.com": [
+            "https://docs.kurtosis.com/concepts-reference/enclaves/",
+            "https://docs.kurtosis.com/concepts-reference/files-artifacts/",
+            "https://docs.kurtosis.com/next/install#i-install--start-docker",
+            "https://docs.kurtosis.com/next/install#ii-install-the-cli",
+            "https://docs.kurtosis.com/quickstart"
+        ],
+        "esp.ethereum.foundation": [
+            "https://esp.ethereum.foundation"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/en/",
+            "https://ethereum.org/en/about/",
+            "https://ethereum.org/en/about/#open-jobs",
+            "https://ethereum.org/en/assets/",
+            "https://ethereum.org/en/bug-bounty/",
+            "https://ethereum.org/en/community/",
+            "https://ethereum.org/en/community/code-of-conduct/",
+            "https://ethereum.org/en/community/events/",
+            "https://ethereum.org/en/community/grants/",
+            "https://ethereum.org/en/community/online/",
+            "https://ethereum.org/en/community/research/",
+            "https://ethereum.org/en/contributing/",
+            "https://ethereum.org/en/contributing/translation-program/",
+            "https://ethereum.org/en/cookie-policy/",
+            "https://ethereum.org/en/dao/",
+            "https://ethereum.org/en/dapps/",
+            "https://ethereum.org/en/decentralized-identity/",
+            "https://ethereum.org/en/defi/",
+            "https://ethereum.org/en/developers/",
+            "https://ethereum.org/en/developers/docs/",
+            "https://ethereum.org/en/developers/docs/design-and-ux/",
+            "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+            "https://ethereum.org/en/developers/learning-tools/",
+            "https://ethereum.org/en/developers/local-environment/",
+            "https://ethereum.org/en/developers/tutorials/",
+            "https://ethereum.org/en/developers/tutorials/develop-and-test-dapps-with-a-multi-client-local-eth-testnet/#conclusion",
+            "https://ethereum.org/en/developers/tutorials/develop-and-test-dapps-with-a-multi-client-local-eth-testnet/#configure-client-config-and-num-nodes",
+            "https://ethereum.org/en/developers/tutorials/develop-and-test-dapps-with-a-multi-client-local-eth-testnet/#configure-hardhat",
+            "https://ethereum.org/en/developers/tutorials/develop-and-test-dapps-with-a-multi-client-local-eth-testnet/#configure-testnet",
+            "https://ethereum.org/en/developers/tutorials/develop-and-test-dapps-with-a-multi-client-local-eth-testnet/#connect-your-dapp",
+            "https://ethereum.org/en/developers/tutorials/develop-and-test-dapps-with-a-multi-client-local-eth-testnet/#deploy-and-test-dapp",
+            "https://ethereum.org/en/developers/tutorials/develop-and-test-dapps-with-a-multi-client-local-eth-testnet/#instantiate-testnet",
+            "https://ethereum.org/en/developers/tutorials/develop-and-test-dapps-with-a-multi-client-local-eth-testnet/#introduction",
+            "https://ethereum.org/en/developers/tutorials/develop-and-test-dapps-with-a-multi-client-local-eth-testnet/#main-content",
+            "https://ethereum.org/en/developers/tutorials/develop-and-test-dapps-with-a-multi-client-local-eth-testnet/#other-examples-guides",
+            "https://ethereum.org/en/developers/tutorials/develop-and-test-dapps-with-a-multi-client-local-eth-testnet/#review-dapp-workflows",
+            "https://ethereum.org/en/developers/tutorials/develop-and-test-dapps-with-a-multi-client-local-eth-testnet/#review-instantiate-testnet",
+            "https://ethereum.org/en/developers/tutorials/develop-and-test-dapps-with-a-multi-client-local-eth-testnet/#set-up-dapp-env",
+            "https://ethereum.org/en/developers/tutorials/develop-and-test-dapps-with-a-multi-client-local-eth-testnet/#setting-up-kurtosis",
+            "https://ethereum.org/en/developers/tutorials/develop-and-test-dapps-with-a-multi-client-local-eth-testnet/#what-is-kurtosis",
+            "https://ethereum.org/en/eips/",
+            "https://ethereum.org/en/enterprise/",
+            "https://ethereum.org/en/enterprise/private-ethereum/",
+            "https://ethereum.org/en/eth/",
+            "https://ethereum.org/en/foundation/",
+            "https://ethereum.org/en/gas/",
+            "https://ethereum.org/en/get-eth/",
+            "https://ethereum.org/en/glossary/",
+            "https://ethereum.org/en/governance/",
+            "https://ethereum.org/en/guides/",
+            "https://ethereum.org/en/history/",
+            "https://ethereum.org/en/layer-2/",
+            "https://ethereum.org/en/learn/",
+            "https://ethereum.org/en/nft/",
+            "https://ethereum.org/en/privacy-policy/",
+            "https://ethereum.org/en/quizzes/",
+            "https://ethereum.org/en/roadmap/",
+            "https://ethereum.org/en/roadmap/security/",
+            "https://ethereum.org/en/run-a-node/",
+            "https://ethereum.org/en/security/",
+            "https://ethereum.org/en/smart-contracts/",
+            "https://ethereum.org/en/stablecoins/",
+            "https://ethereum.org/en/staking/",
+            "https://ethereum.org/en/terms-of-use/",
+            "https://ethereum.org/en/wallets/",
+            "https://ethereum.org/en/wallets/find-wallet/",
+            "https://ethereum.org/en/web3/",
+            "https://ethereum.org/en/what-is-ethereum/",
+            "https://ethereum.org/en/whitepaper/"
+        ],
+        "geth.ethereum.org": [
+            "https://geth.ethereum.org/"
+        ],
+        "github.com": [
+            "https://github.com/ethereum/ethereum-org-website",
+            "https://github.com/ethereum/ethereum-org-website/tree/dev/public/content/developers/tutorials/develop-and-test-dapps-with-a-multi-client-local-eth-testnet/index.md",
+            "https://github.com/ethpandaops/ethereum-genesis-generator",
+            "https://github.com/kurtosis-tech/awesome-kurtosis",
+            "https://github.com/kurtosis-tech/awesome-kurtosis/blob/main/smart-contract-example/hardhat.config.ts",
+            "https://github.com/kurtosis-tech/awesome-kurtosis/tree/main/ethereum-network-partition-test",
+            "https://github.com/kurtosis-tech/awesome-kurtosis/tree/main/smart-contract-example",
+            "https://github.com/kurtosis-tech/awesome-kurtosis/tree/main/smart-contract-example/contracts",
+            "https://github.com/kurtosis-tech/awesome-kurtosis/tree/main/smart-contract-example/scripts",
+            "https://github.com/kurtosis-tech/awesome-kurtosis/tree/main/smart-contract-example/test",
+            "https://github.com/kurtosis-tech/eth-network-package",
+            "https://github.com/kurtosis-tech/eth2-package",
+            "https://github.com/kurtosis-tech/kurtosis/issues/new/choose",
+            "https://github.com/pettinarip"
+        ],
+        "hardhat.org": [
+            "https://hardhat.org/"
+        ],
+        "lighthouse.sigmaprime.io": [
+            "https://lighthouse.sigmaprime.io/"
+        ],
+        "lodestar.chainsafe.io": [
+            "https://lodestar.chainsafe.io/"
+        ],
+        "nodejs.org": [
+            "https://nodejs.org/en"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ethdotorg"
+        ],
+        "www.kurtosis.com": [
+            "https://www.kurtosis.com/",
+            "https://www.kurtosis.com/blog/testing-the-ethereum-merge"
+        ],
+        "www.npmjs.com": [
+            "https://www.npmjs.com/package/npx"
+        ]
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "target_url": "https://ethereum.org/en/developers/tutorials/downsizing-contracts-to-fight-the-contract-size-limit/",
+    "domains": {
+        "": [
+            "mailto:press@ethereum.org"
+        ],
+        "blog.ethereum.org": [
+            "https://blog.ethereum.org/",
+            "https://blog.ethereum.org/2016/11/18/hard-fork-no-4-spurious-dragon/"
+        ],
+        "blog.soliditylang.org": [
+            "https://blog.soliditylang.org/2021/04/21/custom-errors/"
+        ],
+        "devcon.org": [
+            "https://devcon.org/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/ethereum-org"
+        ],
+        "eips.ethereum.org": [
+            "https://eips.ethereum.org/EIPS/eip-170"
+        ],
+        "esp.ethereum.foundation": [
+            "https://esp.ethereum.foundation"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/en/",
+            "https://ethereum.org/en/about/",
+            "https://ethereum.org/en/about/#open-jobs",
+            "https://ethereum.org/en/assets/",
+            "https://ethereum.org/en/bug-bounty/",
+            "https://ethereum.org/en/community/",
+            "https://ethereum.org/en/community/code-of-conduct/",
+            "https://ethereum.org/en/community/events/",
+            "https://ethereum.org/en/community/grants/",
+            "https://ethereum.org/en/community/online/",
+            "https://ethereum.org/en/community/research/",
+            "https://ethereum.org/en/contributing/",
+            "https://ethereum.org/en/contributing/translation-program/",
+            "https://ethereum.org/en/cookie-policy/",
+            "https://ethereum.org/en/dao/",
+            "https://ethereum.org/en/dapps/",
+            "https://ethereum.org/en/decentralized-identity/",
+            "https://ethereum.org/en/defi/",
+            "https://ethereum.org/en/developers/",
+            "https://ethereum.org/en/developers/docs/",
+            "https://ethereum.org/en/developers/docs/design-and-ux/",
+            "https://ethereum.org/en/developers/docs/gas/",
+            "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+            "https://ethereum.org/en/developers/learning-tools/",
+            "https://ethereum.org/en/developers/local-environment/",
+            "https://ethereum.org/en/developers/tutorials/",
+            "https://ethereum.org/en/developers/tutorials/downsizing-contracts-to-fight-the-contract-size-limit/#avoid-additional-variables",
+            "https://ethereum.org/en/developers/tutorials/downsizing-contracts-to-fight-the-contract-size-limit/#avoid-passing-structs-to-functions",
+            "https://ethereum.org/en/developers/tutorials/downsizing-contracts-to-fight-the-contract-size-limit/#big-impact",
+            "https://ethereum.org/en/developers/tutorials/downsizing-contracts-to-fight-the-contract-size-limit/#consider-a-low-run-value-in-the-optimizer",
+            "https://ethereum.org/en/developers/tutorials/downsizing-contracts-to-fight-the-contract-size-limit/#declare-correct-visibility-for-functions-and-variables",
+            "https://ethereum.org/en/developers/tutorials/downsizing-contracts-to-fight-the-contract-size-limit/#libraries",
+            "https://ethereum.org/en/developers/tutorials/downsizing-contracts-to-fight-the-contract-size-limit/#main-content",
+            "https://ethereum.org/en/developers/tutorials/downsizing-contracts-to-fight-the-contract-size-limit/#medium-impact",
+            "https://ethereum.org/en/developers/tutorials/downsizing-contracts-to-fight-the-contract-size-limit/#proxies",
+            "https://ethereum.org/en/developers/tutorials/downsizing-contracts-to-fight-the-contract-size-limit/#remove-functions",
+            "https://ethereum.org/en/developers/tutorials/downsizing-contracts-to-fight-the-contract-size-limit/#remove-modifiers",
+            "https://ethereum.org/en/developers/tutorials/downsizing-contracts-to-fight-the-contract-size-limit/#separate-your-contracts",
+            "https://ethereum.org/en/developers/tutorials/downsizing-contracts-to-fight-the-contract-size-limit/#shorten-error-message",
+            "https://ethereum.org/en/developers/tutorials/downsizing-contracts-to-fight-the-contract-size-limit/#small-impact",
+            "https://ethereum.org/en/developers/tutorials/downsizing-contracts-to-fight-the-contract-size-limit/#taking-on-the-fight",
+            "https://ethereum.org/en/developers/tutorials/downsizing-contracts-to-fight-the-contract-size-limit/#use-custom-errors-instead-of-error-messages",
+            "https://ethereum.org/en/developers/tutorials/downsizing-contracts-to-fight-the-contract-size-limit/#why-is-there-a-limit",
+            "https://ethereum.org/en/eips/",
+            "https://ethereum.org/en/enterprise/",
+            "https://ethereum.org/en/enterprise/private-ethereum/",
+            "https://ethereum.org/en/eth/",
+            "https://ethereum.org/en/foundation/",
+            "https://ethereum.org/en/gas/",
+            "https://ethereum.org/en/get-eth/",
+            "https://ethereum.org/en/glossary/",
+            "https://ethereum.org/en/governance/",
+            "https://ethereum.org/en/guides/",
+            "https://ethereum.org/en/history/",
+            "https://ethereum.org/en/history/#london",
+            "https://ethereum.org/en/layer-2/",
+            "https://ethereum.org/en/learn/",
+            "https://ethereum.org/en/nft/",
+            "https://ethereum.org/en/privacy-policy/",
+            "https://ethereum.org/en/quizzes/",
+            "https://ethereum.org/en/roadmap/",
+            "https://ethereum.org/en/roadmap/security/",
+            "https://ethereum.org/en/run-a-node/",
+            "https://ethereum.org/en/security/",
+            "https://ethereum.org/en/smart-contracts/",
+            "https://ethereum.org/en/stablecoins/",
+            "https://ethereum.org/en/staking/",
+            "https://ethereum.org/en/terms-of-use/",
+            "https://ethereum.org/en/wallets/",
+            "https://ethereum.org/en/wallets/find-wallet/",
+            "https://ethereum.org/en/web3/",
+            "https://ethereum.org/en/what-is-ethereum/",
+            "https://ethereum.org/en/whitepaper/"
+        ],
+        "ethereum.stackexchange.com": [
+            "https://ethereum.stackexchange.com/questions/12975/are-internal-functions-in-libraries-not-covered-by-linking"
+        ],
+        "github.com": [
+            "https://github.com/IoBuilders/truffle-contract-size",
+            "https://github.com/ethereum/ethereum-org-website",
+            "https://github.com/ethereum/ethereum-org-website/tree/dev/public/content/developers/tutorials/downsizing-contracts-to-fight-the-contract-size-limit/index.md",
+            "https://github.com/pettinarip"
+        ],
+        "hackernoon.com": [
+            "https://hackernoon.com/how-to-make-smart-contracts-upgradable-2612e771d5a2"
+        ],
+        "solidity.readthedocs.io": [
+            "https://solidity.readthedocs.io/en/v0.6.10/contracts.html#libraries",
+            "https://solidity.readthedocs.io/en/v0.6.10/contracts.html#using-for",
+            "https://solidity.readthedocs.io/en/v0.6.10/layout-of-source-files.html#abiencoderv2"
+        ],
+        "soliditydeveloper.com": [
+            "https://soliditydeveloper.com/max-contract-size"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ethdotorg"
+        ]
+    }
+}

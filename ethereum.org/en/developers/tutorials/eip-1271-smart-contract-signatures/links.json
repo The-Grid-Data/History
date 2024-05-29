@@ -1,0 +1,113 @@
+{
+    "target_url": "https://ethereum.org/en/developers/tutorials/eip-1271-smart-contract-signatures/",
+    "domains": {
+        "": [
+            "mailto:press@ethereum.org"
+        ],
+        "blog.ethereum.org": [
+            "https://blog.ethereum.org/"
+        ],
+        "devcon.org": [
+            "https://devcon.org/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/ethereum-org"
+        ],
+        "docs.alchemy.com": [
+            "https://docs.alchemy.com/docs/how-to-verify-a-message-signature-on-ethereum"
+        ],
+        "eips.ethereum.org": [
+            "https://eips.ethereum.org/EIPS/eip-1271",
+            "https://eips.ethereum.org/EIPS/eip-2028"
+        ],
+        "en.wikipedia.org": [
+            "https://en.wikipedia.org/wiki/Public-key_cryptography"
+        ],
+        "esp.ethereum.foundation": [
+            "https://esp.ethereum.foundation"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/en/",
+            "https://ethereum.org/en/about/",
+            "https://ethereum.org/en/about/#open-jobs",
+            "https://ethereum.org/en/assets/",
+            "https://ethereum.org/en/bug-bounty/",
+            "https://ethereum.org/en/community/",
+            "https://ethereum.org/en/community/code-of-conduct/",
+            "https://ethereum.org/en/community/events/",
+            "https://ethereum.org/en/community/grants/",
+            "https://ethereum.org/en/community/online/",
+            "https://ethereum.org/en/community/research/",
+            "https://ethereum.org/en/contributing/",
+            "https://ethereum.org/en/contributing/translation-program/",
+            "https://ethereum.org/en/cookie-policy/",
+            "https://ethereum.org/en/dao/",
+            "https://ethereum.org/en/dapps/",
+            "https://ethereum.org/en/decentralized-identity/",
+            "https://ethereum.org/en/defi/",
+            "https://ethereum.org/en/developers/",
+            "https://ethereum.org/en/developers/docs/",
+            "https://ethereum.org/en/developers/docs/design-and-ux/",
+            "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+            "https://ethereum.org/en/developers/learning-tools/",
+            "https://ethereum.org/en/developers/local-environment/",
+            "https://ethereum.org/en/developers/tutorials/",
+            "https://ethereum.org/en/developers/tutorials/eip-1271-smart-contract-signatures/#conclusion",
+            "https://ethereum.org/en/developers/tutorials/eip-1271-smart-contract-signatures/#example-eip-1271-implementation%3A-safe",
+            "https://ethereum.org/en/developers/tutorials/eip-1271-smart-contract-signatures/#how-does-eip-1271-work%3F",
+            "https://ethereum.org/en/developers/tutorials/eip-1271-smart-contract-signatures/#how-should-eip-1271-be-implemented-in-my-own-contracts%3F",
+            "https://ethereum.org/en/developers/tutorials/eip-1271-smart-contract-signatures/#interface",
+            "https://ethereum.org/en/developers/tutorials/eip-1271-smart-contract-signatures/#main-content",
+            "https://ethereum.org/en/developers/tutorials/eip-1271-smart-contract-signatures/#previous-eip-1271-specifications",
+            "https://ethereum.org/en/developers/tutorials/eip-1271-smart-contract-signatures/#what-exactly-is-the-_hash-parameter%3F-why-not-pass-the-whole-message%3F",
+            "https://ethereum.org/en/developers/tutorials/eip-1271-smart-contract-signatures/#what-is-a-signature%3F",
+            "https://ethereum.org/en/developers/tutorials/eip-1271-smart-contract-signatures/#why-does-eip-1271-exist%3F",
+            "https://ethereum.org/en/eips/",
+            "https://ethereum.org/en/enterprise/",
+            "https://ethereum.org/en/enterprise/private-ethereum/",
+            "https://ethereum.org/en/eth/",
+            "https://ethereum.org/en/foundation/",
+            "https://ethereum.org/en/gas/",
+            "https://ethereum.org/en/get-eth/",
+            "https://ethereum.org/en/glossary/",
+            "https://ethereum.org/en/governance/",
+            "https://ethereum.org/en/guides/",
+            "https://ethereum.org/en/history/",
+            "https://ethereum.org/en/layer-2/",
+            "https://ethereum.org/en/learn/",
+            "https://ethereum.org/en/nft/",
+            "https://ethereum.org/en/privacy-policy/",
+            "https://ethereum.org/en/quizzes/",
+            "https://ethereum.org/en/roadmap/",
+            "https://ethereum.org/en/roadmap/security/",
+            "https://ethereum.org/en/run-a-node/",
+            "https://ethereum.org/en/security/",
+            "https://ethereum.org/en/smart-contracts/",
+            "https://ethereum.org/en/stablecoins/",
+            "https://ethereum.org/en/staking/",
+            "https://ethereum.org/en/terms-of-use/",
+            "https://ethereum.org/en/wallets/",
+            "https://ethereum.org/en/wallets/find-wallet/",
+            "https://ethereum.org/en/web3/",
+            "https://ethereum.org/en/what-is-ethereum/",
+            "https://ethereum.org/en/whitepaper/"
+        ],
+        "ethereum.stackexchange.com": [
+            "https://ethereum.stackexchange.com/questions/122635/signing-messages-as-a-gnosis-safe-eip1271-support"
+        ],
+        "github.com": [
+            "https://github.com/ethereum/ethereum-org-website",
+            "https://github.com/ethereum/ethereum-org-website/tree/dev/public/content/developers/tutorials/eip-1271-smart-contract-signatures/index.md",
+            "https://github.com/nhsz",
+            "https://github.com/safe-global/safe-contracts/blob/main/contracts/handler/CompatibilityFallbackHandler.sol",
+            "https://github.com/safe-global/safe-contracts/blob/main/contracts/handler/CompatibilityFallbackHandler.sol#L32",
+            "https://github.com/safe-global/safe-contracts/issues/391#issuecomment-1075427206"
+        ],
+        "safe.global": [
+            "https://safe.global/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ethdotorg"
+        ]
+    }
+}
