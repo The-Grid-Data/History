@@ -1,0 +1,986 @@
+<!DOCTYPE html><html lang="en"><head>
+
+
+<link rel="stylesheet" href="/css/jquery-ui.min.css">
+
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Bitcoin Core version 0.12.1 released</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+
+<script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.org is a community funded project, donations are appreciated and used to improve the website.
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        Make a donation
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.org needs your support!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">Donate to Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">Use this QR code or address below</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="Or custom amount? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="Or custom amount? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="Optional description (for your wallet)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+    
+
+<a class="logo" href="/en/bitcoin-core/"><img src="/img/bitcoin-core/bitcoin-core.svg?1716491272" alt="Bitcoin"></a>
+
+    
+
+<ul id="menusimple" class="menusimple menucore" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">Features</a>
+    <ul>
+      <li><a href="/en/bitcoin-core/features/">Overview</a></li>
+      <li><a href="/en/bitcoin-core/features/validation">Validation</a></li>
+      <li><a href="/en/bitcoin-core/features/privacy">Privacy</a></li>
+      <li><a href="/en/bitcoin-core/features/requirements">Requirements</a></li>
+      <li><a href="/en/bitcoin-core/features/user-interface">User Interface</a></li>
+      <li><a href="/en/bitcoin-core/features/network-support">Network Support</a></li>
+    </ul>
+  </li>
+  <li><a href="/en/bitcoin-core/help">Get Help</a></li>
+  <li><a class="is-expand">Contribute</a>
+    <ul>
+      <li><a href="/en/bitcoin-core/contribute/issues">Bug reports</a></li>
+      <li><a href="/en/development">Code</a></li>
+      <li><a href="/en/bitcoin-core/contribute/documentation">Documentation</a></li>
+      <li><a href="/en/bitcoin-core/contribute/translations">Translations</a></li>
+      <li><a href="/en/bitcoin-core/contribute/support">Tech Support</a></li>
+    </ul>
+  </li>
+  <li><a href="/en/version-history">News</a></li>
+  <li><a href="/en/download">Download</a></li>
+</ul>
+
+  
+    
+<ul class="lang is-expand">
+  <li><a>English</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/">Dansk</a></li>
+        
+        
+          <li><a href="/de/">Deutsch</a></li>
+        
+        
+          <li><a href="/en/" class="active">English</a></li>
+        
+        
+          <li><a href="/es/">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/">Italiano</a></li>
+        
+        
+          <li><a href="/hu/">Magyar</a></li>
+        
+        
+          <li><a href="/nl/">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/">Srpski</a></li>
+        
+        
+          <li><a href="/sv/">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/">ááááá</a></li>
+        
+        
+          <li><a href="/ja/">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+    
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/">Bahasa Indonesia</option>
+            
+            <option value="/ca/">CatalÃ </option>
+            
+            <option value="/da/">Dansk</option>
+            
+            <option value="/de/">Deutsch</option>
+            
+            <option value="/en/" selected="selected">English</option>
+            
+            <option value="/es/">EspaÃ±ol</option>
+            
+            <option value="/fr/">FranÃ§ais</option>
+            
+            <option value="/it/">Italiano</option>
+            
+            <option value="/hu/">Magyar</option>
+            
+            <option value="/nl/">Nederlands</option>
+            
+            <option value="/pl/">Polski</option>
+            
+            <option value="/pt_BR/">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/">RomÃ¢nÄ</option>
+            
+            <option value="/sl/">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/">Srpski</option>
+            
+            <option value="/sv/">Svenska</option>
+            
+            <option value="/tr/">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/">×¢××¨××ª</option>
+            
+            <option value="/hi/">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/">íêµ­ì´</option>
+            
+            <option value="/km/">ááááá</option>
+            
+            <option value="/ja/">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">en</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+    
+
+<div class="breadcrumbs">
+  <div class="container">
+      
+    <a href="/en/">Bitcoin</a>
+     &gt;    
+    <a href="/en/bitcoin-core/">Core</a>
+     &gt;    
+    <a href="/en/version-history">News</a>
+     &gt;      0.12.1   
+  </div>
+</div>
+
+  
+  
+
+<div id="content" class="content">
+    <link rel="alternate" type="application/rss+xml" href="/en/rss/releases.rss" title="Bitcoin Core releases">
+<div class="versiontext hero">
+  <div class="container hero-container">
+    <h1>Bitcoin Core version 0.12.1 released</h1>
+    
+      <p class="summary">15 April 2016</p>
+    
+  </div>
+</div>
+
+<div class="toc-container release-content">
+  <div class="row toc-row">
+    
+    <div id="toc" class="toc">
+      <div>
+        <button class="mob-sidebar-open" hidden="">ALL TOPICS</button>
+        <div class="sidebar">
+          <div class="sidebar-inner" markdown="1">
+            <button class="mob-sidebar-close" hidden=""></button>
+            
+
+<ul>
+  <li><a href="#upgrading-and-downgrading">Upgrading and downgrading</a>
+    <ul>
+      <li><a href="#how-to-upgrade">How to Upgrade</a></li>
+      <li><a href="#downgrade-warning">Downgrade warning</a>
+        <ul>
+          <li><a href="#downgrade-to-a-version--0120">Downgrade to a version &lt; 0.12.0</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#notable-changes">Notable changes</a>
+    <ul>
+      <li><a href="#first-version-bits-bip9-softfork-deployment">First version bits BIP9 softfork deployment</a></li>
+      <li><a href="#bip68-soft-fork-to-enforce-sequence-locks-for-relative-locktime">BIP68 soft fork to enforce sequence locks for relative locktime</a></li>
+      <li><a href="#bip112-soft-fork-to-enforce-opchecksequenceverify">BIP112 soft fork to enforce OP_CHECKSEQUENCEVERIFY</a></li>
+      <li><a href="#bip113-locktime-enforcement-soft-fork">BIP113 locktime enforcement soft fork</a></li>
+      <li><a href="#miscellaneous">Miscellaneous</a></li>
+    </ul>
+  </li>
+  <li><a href="#change-log">0.12.1 Change log</a>
+      - {:.} <a href="#rpc-and-other-apis">RPC and other APIs</a>
+      - {:.} <a href="#block-and-transaction-handling">Block and transaction handling</a>
+      - {:.} <a href="#p2p-protocol-and-network-code">P2P protocol and network code</a>
+      - {:.} <a href="#validation">Validation</a>
+      - {:.} <a href="#build-system">Build system</a>
+      - {:.} <a href="#wallet">Wallet</a>
+      - {:.} <a href="#miscellaneous-1">Miscellaneous</a></li>
+  <li><a href="#credits">Credits</a></li>
+</ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="toccontent version-content">
+      <article class="article">
+        <div class="post-content">
+
+  <p>Bitcoin Core version 0.12.1 is now available from:</p>
+
+  <p><a href="https://bitcoin.org/bin/bitcoin-core-0.12.1/">https://bitcoin.org/bin/bitcoin-core-0.12.1/</a></p>
+
+  <p>This is a new minor version release, including the BIP9, BIP68 and BIP112
+softfork, various bugfixes and updated translations.</p>
+
+  <p>Please report bugs using the issue tracker at github:</p>
+
+  <p><a href="https://github.com/bitcoin/bitcoin/issues">https://github.com/bitcoin/bitcoin/issues</a></p>
+
+</div>
+
+<div class="toccontent-block boxexpand expanded">
+  <h1 id="upgrading-and-downgrading">Upgrading and downgrading</h1>
+
+  <h2 id="how-to-upgrade" class=" anchorAf"><a href="#how-to-upgrade"></a>How to Upgrade</h2>
+
+  <p>If you are running an older version, shut it down. Wait until it has completely
+shut down (which might take a few minutes for older versions), then run the
+installer (on Windows) or just copy over /Applications/Bitcoin-Qt (on Mac) or
+bitcoind/bitcoin-qt (on Linux).</p>
+
+  <h2 id="downgrade-warning" class=" anchorAf"><a href="#downgrade-warning"></a>Downgrade warning</h2>
+
+  <h3 id="downgrade-to-a-version--0120" class=" anchorAf"><a href="#downgrade-to-a-version--0120"></a>Downgrade to a version &lt; 0.12.0</h3>
+
+  <p>Because release 0.12.0 and later will obfuscate the chainstate on every
+fresh sync or reindex, the chainstate is not backwards-compatible with
+pre-0.12 versions of Bitcoin Core or other software.</p>
+
+  <p>If you want to downgrade after you have done a reindex with 0.12.0 or later,
+you will need to reindex when you first start Bitcoin Core version 0.11 or
+earlier.</p>
+
+</div>
+
+<div class="toccontent-block boxexpand expanded">
+  <h1 id="notable-changes">Notable changes</h1>
+
+  <h2 id="first-version-bits-bip9-softfork-deployment" class=" anchorAf"><a href="#first-version-bits-bip9-softfork-deployment"></a>First version bits BIP9 softfork deployment</h2>
+
+  <p>This release includes a soft fork deployment to enforce <a href="https://github.com/bitcoin/bips/blob/master/bip-0068.mediawiki">BIP68</a>,
+<a href="https://github.com/bitcoin/bips/blob/master/bip-0112.mediawiki">BIP112</a> and <a href="https://github.com/bitcoin/bips/blob/master/bip-0113.mediawiki">BIP113</a> using the <a href="https://github.com/bitcoin/bips/blob/master/bip-0009.mediawiki">BIP9</a> deployment mechanism.</p>
+
+  <p>The deployment sets the block version number to 0x20000001 between
+midnight 1st May 2016 and midnight 1st May 2017 to signal readiness for 
+deployment. The version number consists of 0x20000000 to indicate version
+bits together with setting bit 0 to indicate support for this combined
+deployment, shown as âcsvâ in the <code class="language-text highlighter-rouge">getblockchaininfo</code> RPC call.</p>
+
+  <p>For more information about the soft forking change, please see
+<a href="https://github.com/bitcoin/bitcoin/pull/7648">https://github.com/bitcoin/bitcoin/pull/7648</a></p>
+
+  <p>This specific backport pull-request can be viewed at
+<a href="https://github.com/bitcoin/bitcoin/pull/7543">https://github.com/bitcoin/bitcoin/pull/7543</a></p>
+
+  <h2 id="bip68-soft-fork-to-enforce-sequence-locks-for-relative-locktime" class=" anchorAf"><a href="#bip68-soft-fork-to-enforce-sequence-locks-for-relative-locktime"></a>BIP68 soft fork to enforce sequence locks for relative locktime</h2>
+
+  <p><a href="https://github.com/bitcoin/bips/blob/master/bip-0068.mediawiki">BIP68</a> introduces relative lock-time consensus-enforced semantics of
+the sequence number field to enable a signed transaction input to remain
+invalid for a defined period of time after confirmation of its corresponding
+outpoint.</p>
+
+  <p>For more information about the implementation, see
+<a href="https://github.com/bitcoin/bitcoin/pull/7184">https://github.com/bitcoin/bitcoin/pull/7184</a></p>
+
+  <h2 id="bip112-soft-fork-to-enforce-opchecksequenceverify" class=" anchorAf"><a href="#bip112-soft-fork-to-enforce-opchecksequenceverify"></a>BIP112 soft fork to enforce OP_CHECKSEQUENCEVERIFY</h2>
+
+  <p><a href="https://github.com/bitcoin/bips/blob/master/bip-0112.mediawiki">BIP112</a> redefines the existing OP_NOP3 as OP_CHECKSEQUENCEVERIFY (CSV)
+for a new opcode in the Bitcoin scripting system that in combination with
+<a href="https://github.com/bitcoin/bips/blob/master/bip-0068.mediawiki">BIP68</a> allows execution pathways of a script to be restricted based
+on the age of the output being spent.</p>
+
+  <p>For more information about the implementation, see
+<a href="https://github.com/bitcoin/bitcoin/pull/7524">https://github.com/bitcoin/bitcoin/pull/7524</a></p>
+
+  <h2 id="bip113-locktime-enforcement-soft-fork" class=" anchorAf"><a href="#bip113-locktime-enforcement-soft-fork"></a>BIP113 locktime enforcement soft fork</h2>
+
+  <p>Bitcoin Core 0.11.2 previously introduced mempool-only locktime
+enforcement using GetMedianTimePast(). This release seeks to
+consensus enforce the rule.</p>
+
+  <p>Bitcoin transactions currently may specify a locktime indicating when
+they may be added to a valid block.  Current consensus rules require
+that blocks have a block header time greater than the locktime specified
+in any transaction in that block.</p>
+
+  <p>Miners get to choose what time they use for their header time, with the
+consensus rule being that no node will accept a block whose time is more
+than two hours in the future.  This creates a incentive for miners to
+set their header times to future values in order to include locktimed
+transactions which werenât supposed to be included for up to two more
+hours.</p>
+
+  <p>The consensus rules also specify that valid blocks may have a header
+time greater than that of the median of the 11 previous blocks.  This
+GetMedianTimePast() time has a key feature we generally associate with
+time: it canât go backwards.</p>
+
+  <p><a href="https://github.com/bitcoin/bips/blob/master/bip-0113.mediawiki">BIP113</a> specifies a soft fork enforced in this release that
+weakens this perverse incentive for individual miners to use a future
+time by requiring that valid blocks have a computed GetMedianTimePast()
+greater than the locktime specified in any transaction in that block.</p>
+
+  <p>Mempool inclusion rules currently require transactions to be valid for
+immediate inclusion in a block in order to be accepted into the mempool.
+This release begins applying the BIP113 rule to received transactions,
+so transaction whose time is greater than the GetMedianTimePast() will
+no longer be accepted into the mempool.</p>
+
+  <p><strong>Implication for miners:</strong> you will begin rejecting transactions that
+would not be valid under BIP113, which will prevent you from producing
+invalid blocks when BIP113 is enforced on the network. Any
+transactions which are valid under the current rules but not yet valid
+under the BIP113 rules will either be mined by other miners or delayed
+until they are valid under BIP113. Note, however, that time-based
+locktime transactions are more or less unseen on the network currently.</p>
+
+  <p><strong>Implication for users:</strong> GetMedianTimePast() always trails behind the
+current time, so a transaction locktime set to the present time will be
+rejected by nodes running this release until the median time moves
+forward. To compensate, subtract one hour (3,600 seconds) from your
+locktimes to allow those transactions to be included in mempools at
+approximately the expected time.</p>
+
+  <p>For more information about the implementation, see
+<a href="https://github.com/bitcoin/bitcoin/pull/6566">https://github.com/bitcoin/bitcoin/pull/6566</a></p>
+
+  <h2 id="miscellaneous" class=" anchorAf"><a href="#miscellaneous"></a>Miscellaneous</h2>
+
+  <p>The p2p alert system is off by default. To turn on, use <code class="language-text highlighter-rouge">-alert</code> with
+startup configuration.</p>
+
+</div>
+
+<div class="toccontent-block boxexpand expanded">
+  <h1 id="change-log">0.12.1 Change log</h1>
+
+  <p>Detailed release notes follow. This overview includes changes that affect
+behavior, not code moves, refactors and string updates. For convenience in locating
+the code changes and accompanying discussion, both the pull request and
+git merge commit are mentioned.</p>
+
+  <h3 id="rpc-and-other-apis" class=" anchorAf"><a href="#rpc-and-other-apis"></a>RPC and other APIs</h3>
+  <ul>
+    <li><a href="https://github.com/bitcoin/bitcoin/pull/7739">#7739</a> <a href="https://github.com/bitcoin/bitcoin/commit/7ffc2bd"><code class="language-text highlighter-rouge">7ffc2bd</code></a> Add abandoned status to listtransactions (jonasschnelli)</li>
+  </ul>
+
+  <h3 id="block-and-transaction-handling" class=" anchorAf"><a href="#block-and-transaction-handling"></a>Block and transaction handling</h3>
+  <ul>
+    <li><a href="https://github.com/bitcoin/bitcoin/pull/7543">#7543</a> <a href="https://github.com/bitcoin/bitcoin/commit/834aaef"><code class="language-text highlighter-rouge">834aaef</code></a> Backport BIP9, BIP68 and BIP112 with softfork (btcdrak)</li>
+  </ul>
+
+  <h3 id="p2p-protocol-and-network-code" class=" anchorAf"><a href="#p2p-protocol-and-network-code"></a>P2P protocol and network code</h3>
+  <ul>
+    <li><a href="https://github.com/bitcoin/bitcoin/pull/7804">#7804</a> <a href="https://github.com/bitcoin/bitcoin/commit/90f1d24"><code class="language-text highlighter-rouge">90f1d24</code></a> Track block download times per individual block (sipa)</li>
+    <li><a href="https://github.com/bitcoin/bitcoin/pull/7832">#7832</a> <a href="https://github.com/bitcoin/bitcoin/commit/4c3a00d"><code class="language-text highlighter-rouge">4c3a00d</code></a> Reduce block timeout to 10 minutes (laanwj)</li>
+  </ul>
+
+  <h3 id="validation" class=" anchorAf"><a href="#validation"></a>Validation</h3>
+  <ul>
+    <li><a href="https://github.com/bitcoin/bitcoin/pull/7821">#7821</a> <a href="https://github.com/bitcoin/bitcoin/commit/4226aac"><code class="language-text highlighter-rouge">4226aac</code></a> init: allow shutdown during âActivating best chainâ¦â (laanwj)</li>
+    <li><a href="https://github.com/bitcoin/bitcoin/pull/7835">#7835</a> <a href="https://github.com/bitcoin/bitcoin/commit/46898e7"><code class="language-text highlighter-rouge">46898e7</code></a> Version 2 transactions remain non-standard until CSV activates (sdaftuar)</li>
+  </ul>
+
+  <h3 id="build-system" class=" anchorAf"><a href="#build-system"></a>Build system</h3>
+  <ul>
+    <li><a href="https://github.com/bitcoin/bitcoin/pull/7487">#7487</a> <a href="https://github.com/bitcoin/bitcoin/commit/00d57b4"><code class="language-text highlighter-rouge">00d57b4</code></a> Workaround Travis-side CI issues (luke-jr)</li>
+    <li><a href="https://github.com/bitcoin/bitcoin/pull/7606">#7606</a> <a href="https://github.com/bitcoin/bitcoin/commit/a10da9a"><code class="language-text highlighter-rouge">a10da9a</code></a> No need to set -L and âlocation for curl (MarcoFalke)</li>
+    <li><a href="https://github.com/bitcoin/bitcoin/pull/7614">#7614</a> <a href="https://github.com/bitcoin/bitcoin/commit/ca8f160"><code class="language-text highlighter-rouge">ca8f160</code></a> Add curl to packages (now needed for depends) (luke-jr)</li>
+    <li><a href="https://github.com/bitcoin/bitcoin/pull/7776">#7776</a> <a href="https://github.com/bitcoin/bitcoin/commit/a784675"><code class="language-text highlighter-rouge">a784675</code></a> Remove unnecessary executables from gitian release (laanwj)</li>
+  </ul>
+
+  <h3 id="wallet" class=" anchorAf"><a href="#wallet"></a>Wallet</h3>
+  <ul>
+    <li><a href="https://github.com/bitcoin/bitcoin/pull/7715">#7715</a> <a href="https://github.com/bitcoin/bitcoin/commit/19866c1"><code class="language-text highlighter-rouge">19866c1</code></a> Fix calculation of balances and available coins. (morcos)</li>
+  </ul>
+
+  <h3 id="miscellaneous-1" class=" anchorAf"><a href="#miscellaneous-1"></a>Miscellaneous</h3>
+  <ul>
+    <li><a href="https://github.com/bitcoin/bitcoin/pull/7617">#7617</a> <a href="https://github.com/bitcoin/bitcoin/commit/f04f4fd"><code class="language-text highlighter-rouge">f04f4fd</code></a> Fix markdown syntax and line terminate LogPrint (MarcoFalke)</li>
+    <li><a href="https://github.com/bitcoin/bitcoin/pull/7747">#7747</a> <a href="https://github.com/bitcoin/bitcoin/commit/4d035bc"><code class="language-text highlighter-rouge">4d035bc</code></a> added depends cross compile info (accraze)</li>
+    <li><a href="https://github.com/bitcoin/bitcoin/pull/7741">#7741</a> <a href="https://github.com/bitcoin/bitcoin/commit/a0cea89"><code class="language-text highlighter-rouge">a0cea89</code></a> Mark p2p alert system as deprecated (btcdrak)</li>
+    <li><a href="https://github.com/bitcoin/bitcoin/pull/7780">#7780</a> <a href="https://github.com/bitcoin/bitcoin/commit/c5f94f6"><code class="language-text highlighter-rouge">c5f94f6</code></a> Disable bad-chain alert (btcdrak)</li>
+  </ul>
+
+</div>
+
+<div class="toccontent-block boxexpand expanded">
+  <h1 id="credits">Credits</h1>
+
+  <p>Thanks to everyone who directly contributed to this release:</p>
+
+  <ul>
+    <li>accraze</li>
+    <li>Alex Morcos</li>
+    <li>BtcDrak</li>
+    <li>Jonas Schnelli</li>
+    <li>Luke Dashjr</li>
+    <li>MarcoFalke</li>
+    <li>Mark Friedenbach</li>
+    <li>NicolasDorier</li>
+    <li>Pieter Wuille</li>
+    <li>Suhas Daftuar</li>
+    <li>Wladimir J. van der Laan</li>
+  </ul>
+
+  <p>As well as everyone that helped translating on <a href="https://www.transifex.com/projects/p/bitcoin/">Transifex</a>.</p>
+
+</div>
+
+      </article>
+    </div>
+
+  </div>
+</div>
+
+<a class="back-link" href="/en/version-history">Go back to the version history</a>
+
+</div>
+
+  <div class="footer">
+    <div class="container">
+      
+
+<a class="logo-footer" href="/en/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a>
+      
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Support Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Donate</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">Introduction:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/en/bitcoin-for-individuals">Individuals</a>
+        </li>
+        <li>
+          <a href="/en/bitcoin-for-businesses">Businesses</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">Developers</a>
+        </li>
+        <li>
+          <a href="/en/getting-started">Getting started</a>
+        </li>
+        <li>
+          <a href="/en/how-it-works">How it works</a>
+        </li>
+        <li>
+          <a href="/en/you-need-to-know">You need to know</a>
+        </li>
+        
+        <li>
+          <a href="/en/bitcoin-paper">White paper</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">Resources:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/en/resources">Resources</a>
+        </li><li>
+          <a href="/en/exchanges">Exchanges</a>
+        </li>
+        <li>
+          <a href="/en/community">Community</a>
+        </li>
+        <li>
+          <a href="/en/vocabulary">Vocabulary
+          </a>
+        </li>
+        <li>
+          <a href="/en/events">Events</a>
+        </li>
+        
+        <li>
+          <a href="/en/bitcoin-core/">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">Participate:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/en/support-bitcoin">Support Bitcoin</a>
+        
+        </li><li>
+          <a href="/en/buy">Buy Bitcoin</a>
+        </li>
+        
+        
+        <li>
+          <a href="/en/full-node">Running a full node</a>
+        </li>
+        
+        <li>
+          <a href="/en/development">Development</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Other:</p>
+      
+      <a href="/en/scams">Avoid Scams</a>
+      
+      <a href="/en/legal">Legal</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/en/press">Press</a>
+      <a href="/en/about-us">About bitcoin.org</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 Released under the <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT license</a>
+        <br> Bitcoin Core pages on Bitcoin.org are
+        <a href="/en/bitcoin-core/about-site">maintained separately</a> from the rest of the site.
+      </div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">Network Status</a>
+        
+<ul class="lang is-expand">
+  <li><a>English</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/">Dansk</a></li>
+        
+        
+          <li><a href="/de/">Deutsch</a></li>
+        
+        
+          <li><a href="/en/" class="active">English</a></li>
+        
+        
+          <li><a href="/es/">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/">Italiano</a></li>
+        
+        
+          <li><a href="/hu/">Magyar</a></li>
+        
+        
+          <li><a href="/nl/">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/">Srpski</a></li>
+        
+        
+          <li><a href="/sv/">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/">ááááá</a></li>
+        
+        
+          <li><a href="/ja/">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/">Bahasa Indonesia</option>
+              
+              <option value="/ca/">CatalÃ </option>
+              
+              <option value="/da/">Dansk</option>
+              
+              <option value="/de/">Deutsch</option>
+              
+              <option value="/en/" selected="selected">English</option>
+              
+              <option value="/es/">EspaÃ±ol</option>
+              
+              <option value="/fr/">FranÃ§ais</option>
+              
+              <option value="/it/">Italiano</option>
+              
+              <option value="/hu/">Magyar</option>
+              
+              <option value="/nl/">Nederlands</option>
+              
+              <option value="/pl/">Polski</option>
+              
+              <option value="/pt_BR/">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/">RomÃ¢nÄ</option>
+              
+              <option value="/sl/">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/">Srpski</option>
+              
+              <option value="/sv/">Svenska</option>
+              
+              <option value="/tr/">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/">×¢××¨××ª</option>
+              
+              <option value="/hi/">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/">íêµ­ì´</option>
+              
+              <option value="/km/">ááááá</option>
+              
+              <option value="/ja/">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">en</span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+
+
+  <script src="/js/bitcoin-core.js"></script>
+
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+
+
+  <script>updateToc();</script>
+<script>boxShow();</script>
+<script>onScrollButton();</script>
+
+
+
+
+
+
+</body></html>
