@@ -1,0 +1,176 @@
+{
+    "target_url": "https://ethereum.org/en/developers/tutorials/kickstart-your-dapp-frontend-development-with-create-eth-app/",
+    "domains": {
+        "": [
+            "mailto:press@ethereum.org"
+        ],
+        "aave.com": [
+            "https://aave.com/"
+        ],
+        "blog.ethereum.org": [
+            "https://blog.ethereum.org/"
+        ],
+        "classic.yarnpkg.com": [
+            "https://classic.yarnpkg.com/en/docs/workspaces/"
+        ],
+        "compound.finance": [
+            "https://compound.finance/"
+        ],
+        "devcon.org": [
+            "https://devcon.org/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/bsS8T47",
+            "https://discord.gg/ethereum-org"
+        ],
+        "docs-beta.ethers.io": [
+            "https://docs-beta.ethers.io/"
+        ],
+        "docs.aave.com": [
+            "https://docs.aave.com/developers/getting-started/using-graphql",
+            "https://docs.aave.com/developers/guides/flash-loans"
+        ],
+        "docs.ethers.io": [
+            "https://docs.ethers.io/"
+        ],
+        "docs.web3js.org": [
+            "https://docs.web3js.org/"
+        ],
+        "esp.ethereum.foundation": [
+            "https://esp.ethereum.foundation"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/content/developers/tutorials/kickstart-your-dapp-frontend-development-with-create-eth-app/flashloan-meme.png",
+            "https://ethereum.org/en/",
+            "https://ethereum.org/en/about/",
+            "https://ethereum.org/en/about/#open-jobs",
+            "https://ethereum.org/en/assets/",
+            "https://ethereum.org/en/bug-bounty/",
+            "https://ethereum.org/en/community/",
+            "https://ethereum.org/en/community/code-of-conduct/",
+            "https://ethereum.org/en/community/events/",
+            "https://ethereum.org/en/community/grants/",
+            "https://ethereum.org/en/community/online/",
+            "https://ethereum.org/en/community/research/",
+            "https://ethereum.org/en/contributing/",
+            "https://ethereum.org/en/contributing/translation-program/",
+            "https://ethereum.org/en/cookie-policy/",
+            "https://ethereum.org/en/dao/",
+            "https://ethereum.org/en/dapps/",
+            "https://ethereum.org/en/decentralized-identity/",
+            "https://ethereum.org/en/defi/",
+            "https://ethereum.org/en/developers/",
+            "https://ethereum.org/en/developers/docs/",
+            "https://ethereum.org/en/developers/docs/design-and-ux/",
+            "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+            "https://ethereum.org/en/developers/learning-tools/",
+            "https://ethereum.org/en/developers/local-environment/",
+            "https://ethereum.org/en/developers/tutorials/",
+            "https://ethereum.org/en/developers/tutorials/kickstart-your-dapp-frontend-development-with-create-eth-app/#aave",
+            "https://ethereum.org/en/developers/tutorials/kickstart-your-dapp-frontend-development-with-create-eth-app/#apollo",
+            "https://ethereum.org/en/developers/tutorials/kickstart-your-dapp-frontend-development-with-create-eth-app/#compound",
+            "https://ethereum.org/en/developers/tutorials/kickstart-your-dapp-frontend-development-with-create-eth-app/#ethersjs",
+            "https://ethereum.org/en/developers/tutorials/kickstart-your-dapp-frontend-development-with-create-eth-app/#features",
+            "https://ethereum.org/en/developers/tutorials/kickstart-your-dapp-frontend-development-with-create-eth-app/#installation",
+            "https://ethereum.org/en/developers/tutorials/kickstart-your-dapp-frontend-development-with-create-eth-app/#main-content",
+            "https://ethereum.org/en/developers/tutorials/kickstart-your-dapp-frontend-development-with-create-eth-app/#react--create-react-app",
+            "https://ethereum.org/en/developers/tutorials/kickstart-your-dapp-frontend-development-with-create-eth-app/#sablier",
+            "https://ethereum.org/en/developers/tutorials/kickstart-your-dapp-frontend-development-with-create-eth-app/#templates",
+            "https://ethereum.org/en/developers/tutorials/kickstart-your-dapp-frontend-development-with-create-eth-app/#the-graph",
+            "https://ethereum.org/en/developers/tutorials/kickstart-your-dapp-frontend-development-with-create-eth-app/#uniswap",
+            "https://ethereum.org/en/developers/tutorials/kickstart-your-dapp-frontend-development-with-create-eth-app/#whats-next",
+            "https://ethereum.org/en/developers/tutorials/kickstart-your-dapp-frontend-development-with-create-eth-app/#yarn-workspaces",
+            "https://ethereum.org/en/eips/",
+            "https://ethereum.org/en/enterprise/",
+            "https://ethereum.org/en/enterprise/private-ethereum/",
+            "https://ethereum.org/en/eth/",
+            "https://ethereum.org/en/foundation/",
+            "https://ethereum.org/en/gas/",
+            "https://ethereum.org/en/get-eth/",
+            "https://ethereum.org/en/glossary/",
+            "https://ethereum.org/en/governance/",
+            "https://ethereum.org/en/guides/",
+            "https://ethereum.org/en/history/",
+            "https://ethereum.org/en/layer-2/",
+            "https://ethereum.org/en/learn/",
+            "https://ethereum.org/en/nft/",
+            "https://ethereum.org/en/privacy-policy/",
+            "https://ethereum.org/en/quizzes/",
+            "https://ethereum.org/en/roadmap/",
+            "https://ethereum.org/en/roadmap/security/",
+            "https://ethereum.org/en/run-a-node/",
+            "https://ethereum.org/en/security/",
+            "https://ethereum.org/en/smart-contracts/",
+            "https://ethereum.org/en/stablecoins/",
+            "https://ethereum.org/en/staking/",
+            "https://ethereum.org/en/terms-of-use/",
+            "https://ethereum.org/en/wallets/",
+            "https://ethereum.org/en/wallets/find-wallet/",
+            "https://ethereum.org/en/web3/",
+            "https://ethereum.org/en/what-is-ethereum/",
+            "https://ethereum.org/en/whitepaper/"
+        ],
+        "github.com": [
+            "https://github.com/PaulRBerg/create-eth-app",
+            "https://github.com/ethereum/ethereum-org-website",
+            "https://github.com/ethereum/ethereum-org-website/tree/dev/public/content/developers/tutorials/kickstart-your-dapp-frontend-development-with-create-eth-app/index.md",
+            "https://github.com/facebook/create-react-app",
+            "https://github.com/pettinarip"
+        ],
+        "graphql.org": [
+            "https://graphql.org/"
+        ],
+        "material-ui.com": [
+            "https://material-ui.com/"
+        ],
+        "medium.com": [
+            "https://medium.com/graphprotocol/graphql-will-power-the-decentralized-web-d7443a69c69a",
+            "https://medium.com/graphprotocol/https-medium-com-graphprotocol-compound-v2-subgraph-highlight-a5f38f094195"
+        ],
+        "reactjs.org": [
+            "https://reactjs.org/",
+            "https://reactjs.org/docs/hooks-effect.html"
+        ],
+        "restfulapi.net": [
+            "https://restfulapi.net/"
+        ],
+        "sablier.com": [
+            "http://sablier.com/",
+            "https://sablier.com/"
+        ],
+        "soliditydeveloper.com": [
+            "https://soliditydeveloper.com/create-eth-app",
+            "https://soliditydeveloper.com/solidity-overview-2020"
+        ],
+        "thegraph.com": [
+            "https://thegraph.com/docs/define-a-subgraph",
+            "https://thegraph.com/explorer/",
+            "https://thegraph.com/explorer/subgraph/aave/protocol",
+            "https://thegraph.com/explorer/subgraph/aave/protocol-raw",
+            "https://thegraph.com/explorer/subgraph/aave/protocol-ropsten",
+            "https://thegraph.com/explorer/subgraph/sablierhq/sablier"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ethdotorg"
+        ],
+        "uniswap.exchange": [
+            "https://uniswap.exchange/"
+        ],
+        "uniswap.org": [
+            "https://uniswap.org/blog/uniswap-v2/"
+        ],
+        "vuejs.org": [
+            "https://vuejs.org/"
+        ],
+        "wikipedia.org": [
+            "https://wikipedia.org/wiki/Round-trip_delay_time"
+        ],
+        "www.apollographql.com": [
+            "https://www.apollographql.com/blog/apollo-client-now-with-react-hooks-676d116eeae2",
+            "https://www.apollographql.com/docs/react/get-started/"
+        ],
+        "www.netlify.com": [
+            "https://www.netlify.com/"
+        ]
+    }
+}

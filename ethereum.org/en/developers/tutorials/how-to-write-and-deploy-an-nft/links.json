@@ -1,0 +1,177 @@
+{
+    "target_url": "https://ethereum.org/en/developers/tutorials/how-to-write-and-deploy-an-nft/",
+    "domains": {
+        "": [
+            "mailto:press@ethereum.org"
+        ],
+        "alchemy.com": [
+            "https://alchemy.com/signup/eth"
+        ],
+        "blog.ethereum.org": [
+            "https://blog.ethereum.org/"
+        ],
+        "code.visualstudio.com": [
+            "https://code.visualstudio.com/"
+        ],
+        "composer.alchemyapi.io": [
+            "https://composer.alchemyapi.io?composer_state=%7B%22network%22%3A0%2C%22methodName%22%3A%22eth_getBalance%22%2C%22paramValues%22%3A%5B%22%22%2C%22latest%22%5D%7D"
+        ],
+        "dashboard.alchemyapi.io": [
+            "https://dashboard.alchemyapi.io/explorer"
+        ],
+        "devcon.org": [
+            "https://devcon.org/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/ethereum-org",
+            "https://discord.gg/gWuC7zB",
+            "https://discord.gg/u72VCg3"
+        ],
+        "docs.alchemy.com": [
+            "https://docs.alchemy.com/alchemy/enhanced-apis/nft-api"
+        ],
+        "docs.alchemyapi.io": [
+            "https://docs.alchemyapi.io/alchemy/documentation/alchemy-api-reference/json-rpc#eth_getbalance",
+            "https://docs.alchemyapi.io/alchemy/guides/alchemy-for-macs#1-install-nodejs-and-npm",
+            "https://docs.alchemyapi.io/guides/choosing-a-network"
+        ],
+        "docs.openzeppelin.com": [
+            "https://docs.openzeppelin.com/contracts/3.x/access-control",
+            "https://docs.openzeppelin.com/contracts/3.x/erc721"
+        ],
+        "docs.soliditylang.org": [
+            "https://docs.soliditylang.org/en/v0.8.0/"
+        ],
+        "eips.ethereum.org": [
+            "https://eips.ethereum.org/EIPS/eip-721"
+        ],
+        "esp.ethereum.foundation": [
+            "https://esp.ethereum.foundation"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/content/developers/tutorials/how-to-write-and-deploy-an-nft/alchemy-explorer-goerli.png",
+            "https://ethereum.org/content/developers/tutorials/how-to-write-and-deploy-an-nft/alchemy-explorer-sepolia.png",
+            "https://ethereum.org/content/developers/tutorials/how-to-write-and-deploy-an-nft/copy-alchemy-api-url.gif",
+            "https://ethereum.org/content/developers/tutorials/how-to-write-and-deploy-an-nft/create-your-app.png",
+            "https://ethereum.org/content/developers/tutorials/how-to-write-and-deploy-an-nft/etherscan-sepoila-contract-creation.png",
+            "https://ethereum.org/content/developers/tutorials/how-to-write-and-deploy-an-nft/etherscan-sepolia-tx-details.png",
+            "https://ethereum.org/content/developers/tutorials/how-to-write-and-deploy-an-nft/metamask-goerli.png",
+            "https://ethereum.org/en/",
+            "https://ethereum.org/en/about/",
+            "https://ethereum.org/en/about/#open-jobs",
+            "https://ethereum.org/en/assets/",
+            "https://ethereum.org/en/bug-bounty/",
+            "https://ethereum.org/en/community/",
+            "https://ethereum.org/en/community/code-of-conduct/",
+            "https://ethereum.org/en/community/events/",
+            "https://ethereum.org/en/community/grants/",
+            "https://ethereum.org/en/community/online/",
+            "https://ethereum.org/en/community/research/",
+            "https://ethereum.org/en/contributing/",
+            "https://ethereum.org/en/contributing/translation-program/",
+            "https://ethereum.org/en/cookie-policy/",
+            "https://ethereum.org/en/dao/",
+            "https://ethereum.org/en/dapps/",
+            "https://ethereum.org/en/decentralized-identity/",
+            "https://ethereum.org/en/defi/",
+            "https://ethereum.org/en/developers/",
+            "https://ethereum.org/en/developers/docs/",
+            "https://ethereum.org/en/developers/docs/apis/json-rpc/",
+            "https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_gettransactionbyhash",
+            "https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_sendrawtransaction",
+            "https://ethereum.org/en/developers/docs/design-and-ux/",
+            "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+            "https://ethereum.org/en/developers/docs/transactions/",
+            "https://ethereum.org/en/developers/learning-tools/",
+            "https://ethereum.org/en/developers/local-environment/",
+            "https://ethereum.org/en/developers/tutorials/",
+            "https://ethereum.org/en/developers/tutorials/how-to-mint-an-nft/",
+            "https://ethereum.org/en/developers/tutorials/how-to-view-nft-in-metamask/",
+            "https://ethereum.org/en/developers/tutorials/how-to-write-and-deploy-an-nft/#add-project-folders",
+            "https://ethereum.org/en/developers/tutorials/how-to-write-and-deploy-an-nft/#check-balance",
+            "https://ethereum.org/en/developers/tutorials/how-to-write-and-deploy-an-nft/#compile-contract",
+            "https://ethereum.org/en/developers/tutorials/how-to-write-and-deploy-an-nft/#connect-metamask-and-alchemy",
+            "https://ethereum.org/en/developers/tutorials/how-to-write-and-deploy-an-nft/#connect-to-ethereum",
+            "https://ethereum.org/en/developers/tutorials/how-to-write-and-deploy-an-nft/#create-eth-address",
+            "https://ethereum.org/en/developers/tutorials/how-to-write-and-deploy-an-nft/#create-hardhat-project",
+            "https://ethereum.org/en/developers/tutorials/how-to-write-and-deploy-an-nft/#deploy-contract",
+            "https://ethereum.org/en/developers/tutorials/how-to-write-and-deploy-an-nft/#initialize-project",
+            "https://ethereum.org/en/developers/tutorials/how-to-write-and-deploy-an-nft/#install-ethers",
+            "https://ethereum.org/en/developers/tutorials/how-to-write-and-deploy-an-nft/#install-hardhat",
+            "https://ethereum.org/en/developers/tutorials/how-to-write-and-deploy-an-nft/#main-content",
+            "https://ethereum.org/en/developers/tutorials/how-to-write-and-deploy-an-nft/#make-api-key",
+            "https://ethereum.org/en/developers/tutorials/how-to-write-and-deploy-an-nft/#step-4-add-ether-from-a-faucet",
+            "https://ethereum.org/en/developers/tutorials/how-to-write-and-deploy-an-nft/#update-hardhat-config",
+            "https://ethereum.org/en/developers/tutorials/how-to-write-and-deploy-an-nft/#write-contract",
+            "https://ethereum.org/en/developers/tutorials/how-to-write-and-deploy-an-nft/#write-deploy",
+            "https://ethereum.org/en/developers/tutorials/sending-transactions-using-web3-and-alchemy/",
+            "https://ethereum.org/en/eips/",
+            "https://ethereum.org/en/enterprise/",
+            "https://ethereum.org/en/enterprise/private-ethereum/",
+            "https://ethereum.org/en/eth/",
+            "https://ethereum.org/en/foundation/",
+            "https://ethereum.org/en/gas/",
+            "https://ethereum.org/en/get-eth/",
+            "https://ethereum.org/en/glossary/",
+            "https://ethereum.org/en/governance/",
+            "https://ethereum.org/en/guides/",
+            "https://ethereum.org/en/history/",
+            "https://ethereum.org/en/layer-2/",
+            "https://ethereum.org/en/learn/",
+            "https://ethereum.org/en/nft/",
+            "https://ethereum.org/en/privacy-policy/",
+            "https://ethereum.org/en/quizzes/",
+            "https://ethereum.org/en/roadmap/",
+            "https://ethereum.org/en/roadmap/security/",
+            "https://ethereum.org/en/run-a-node/",
+            "https://ethereum.org/en/security/",
+            "https://ethereum.org/en/smart-contracts/",
+            "https://ethereum.org/en/stablecoins/",
+            "https://ethereum.org/en/staking/",
+            "https://ethereum.org/en/terms-of-use/",
+            "https://ethereum.org/en/wallets/",
+            "https://ethereum.org/en/wallets/find-wallet/",
+            "https://ethereum.org/en/web3/",
+            "https://ethereum.org/en/what-is-ethereum/",
+            "https://ethereum.org/en/whitepaper/"
+        ],
+        "github.com": [
+            "https://github.com/ethereum/ethereum-org-website",
+            "https://github.com/ethereum/ethereum-org-website/tree/dev/public/content/developers/tutorials/how-to-write-and-deploy-an-nft/index.md",
+            "https://github.com/ethers-io/ethers.js/",
+            "https://github.com/nhsz"
+        ],
+        "hardhat.org": [
+            "https://hardhat.org/",
+            "https://hardhat.org/getting-started/#overview",
+            "https://hardhat.org/plugins/",
+            "https://hardhat.org/plugins/nomiclabs-hardhat-ethers.html",
+            "https://hardhat.org/tutorial/testing-contracts.html#writing-tests"
+        ],
+        "metamask.io": [
+            "https://metamask.io/",
+            "https://metamask.io/download.html"
+        ],
+        "metamask.zendesk.com": [
+            "https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key"
+        ],
+        "nodejs.org": [
+            "https://nodejs.org/en/download/"
+        ],
+        "openzeppelin.com": [
+            "https://openzeppelin.com/"
+        ],
+        "pinata.cloud": [
+            "https://pinata.cloud/"
+        ],
+        "sepolia.etherscan.io": [
+            "https://sepolia.etherscan.io/"
+        ],
+        "sepoliafaucet.com": [
+            "https://sepoliafaucet.com/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ethdotorg"
+        ]
+    }
+}
