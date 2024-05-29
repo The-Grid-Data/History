@@ -1,0 +1,18 @@
+{
+    "target_url": "https://solana.com/de/developers/guides/setup-local-development#windows-users-only",
+    "domains": {
+        "analytics.twitter.com": [
+            "https://analytics.twitter.com/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=b36cf0d1-4d2d-4e7b-a3aa-31da460e0817&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=dec96035-c945-48d7-afec-6ebceb34dfe1&tw_document_href=https%3A%2F%2Fsolana.com%2Fde%2Fdevelopers%2Fguides%2Fgetstarted%2Fsetup-local-development%23windows-users-only&tw_iframe_status=0&txn_id=o6jgu&type=javascript&version=2.3.30"
+        ],
+        "solana-developer-content.vercel.app": [
+            "https://solana-developer-content.vercel.app/assets/guides/setup-local-environment/setup-xcode.png"
+        ],
+        "solana.com": [
+            "https://solana.com/_next/image?url=%2Fopengraph%2Fdevelopers%2Fguides%2Fgetstarted%2Fsetup-local-development&w=3840&q=75",
+            "https://solana.com/_next/static/media/logotype-dark.f79d530d.svg"
+        ],
+        "t.co": [
+            "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=b36cf0d1-4d2d-4e7b-a3aa-31da460e0817&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=dec96035-c945-48d7-afec-6ebceb34dfe1&tw_document_href=https%3A%2F%2Fsolana.com%2Fde%2Fdevelopers%2Fguides%2Fgetstarted%2Fsetup-local-development%23windows-users-only&tw_iframe_status=0&txn_id=o6jgu&type=javascript&version=2.3.30"
+        ]
+    }
+}
