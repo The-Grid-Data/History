@@ -1,0 +1,13 @@
+{
+    "target_url": "https://ethereum.org/en/guides/how-to-swap-tokens/",
+    "domains": {
+        "cdnjs.cloudflare.com": [
+            "https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/2/svg/1f440.svg"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/_next/image/?url=%2Fcontent%2Fguides%2Fhow-to-swap-tokens%2Fswap1.png&w=1080&q=75",
+            "https://ethereum.org/_next/image/?url=%2Fcontent%2Fguides%2Fhow-to-swap-tokens%2Fswap2.png&w=1080&q=75",
+            "https://ethereum.org/_next/image/?url=%2Fcontent%2Fguides%2Fhow-to-swap-tokens%2Fswap3.png&w=1080&q=75"
+        ]
+    }
+}
