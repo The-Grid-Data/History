@@ -1,0 +1,25 @@
+{
+    "target_url": "https://bitcoin.org/bin/bitcoin-core-25.0/",
+    "domains": {
+        "bitcoin.org": [
+            "https://bitcoin.org/bin/",
+            "https://bitcoin.org/bin/bitcoin-core-25.0/SHA256SUMS",
+            "https://bitcoin.org/bin/bitcoin-core-25.0/SHA256SUMS.asc",
+            "https://bitcoin.org/bin/bitcoin-core-25.0/SHA256SUMS.ots",
+            "https://bitcoin.org/bin/bitcoin-core-25.0/bitcoin-25.0-aarch64-linux-gnu.tar.gz",
+            "https://bitcoin.org/bin/bitcoin-core-25.0/bitcoin-25.0-arm-linux-gnueabihf.tar.gz",
+            "https://bitcoin.org/bin/bitcoin-core-25.0/bitcoin-25.0-arm64-apple-darwin.dmg",
+            "https://bitcoin.org/bin/bitcoin-core-25.0/bitcoin-25.0-arm64-apple-darwin.tar.gz",
+            "https://bitcoin.org/bin/bitcoin-core-25.0/bitcoin-25.0-powerpc64-linux-gnu.tar.gz",
+            "https://bitcoin.org/bin/bitcoin-core-25.0/bitcoin-25.0-powerpc64le-linux-gnu.tar.gz",
+            "https://bitcoin.org/bin/bitcoin-core-25.0/bitcoin-25.0-riscv64-linux-gnu.tar.gz",
+            "https://bitcoin.org/bin/bitcoin-core-25.0/bitcoin-25.0-win64-setup.exe",
+            "https://bitcoin.org/bin/bitcoin-core-25.0/bitcoin-25.0-win64.zip",
+            "https://bitcoin.org/bin/bitcoin-core-25.0/bitcoin-25.0-x86_64-apple-darwin.dmg",
+            "https://bitcoin.org/bin/bitcoin-core-25.0/bitcoin-25.0-x86_64-apple-darwin.tar.gz",
+            "https://bitcoin.org/bin/bitcoin-core-25.0/bitcoin-25.0-x86_64-linux-gnu.tar.gz",
+            "https://bitcoin.org/bin/bitcoin-core-25.0/bitcoin-25.0.tar.gz",
+            "https://bitcoin.org/bin/bitcoin-core-25.0/bitcoin-25.0.torrent"
+        ]
+    }
+}

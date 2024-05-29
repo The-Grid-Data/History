@@ -1,0 +1,18 @@
+{
+    "target_url": "https://bitcoin.org/bin/bitcoin-core-0.10.3/",
+    "domains": {
+        "bitcoin.org": [
+            "https://bitcoin.org/bin/",
+            "https://bitcoin.org/bin/bitcoin-core-0.10.3/SHA256SUMS.asc",
+            "https://bitcoin.org/bin/bitcoin-core-0.10.3/bitcoin-0.10.3-linux32.tar.gz",
+            "https://bitcoin.org/bin/bitcoin-core-0.10.3/bitcoin-0.10.3-linux64.tar.gz",
+            "https://bitcoin.org/bin/bitcoin-core-0.10.3/bitcoin-0.10.3-osx.dmg",
+            "https://bitcoin.org/bin/bitcoin-core-0.10.3/bitcoin-0.10.3-osx64.tar.gz",
+            "https://bitcoin.org/bin/bitcoin-core-0.10.3/bitcoin-0.10.3-win32-setup.exe",
+            "https://bitcoin.org/bin/bitcoin-core-0.10.3/bitcoin-0.10.3-win32.zip",
+            "https://bitcoin.org/bin/bitcoin-core-0.10.3/bitcoin-0.10.3-win64-setup.exe",
+            "https://bitcoin.org/bin/bitcoin-core-0.10.3/bitcoin-0.10.3-win64.zip",
+            "https://bitcoin.org/bin/bitcoin-core-0.10.3/bitcoin-0.10.3.tar.gz"
+        ]
+    }
+}
