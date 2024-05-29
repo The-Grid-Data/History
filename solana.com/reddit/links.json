@@ -1,0 +1,208 @@
+{
+    "target_url": "http://solana.com/reddit",
+    "domains": {
+        "accounts.reddit.com": [
+            "https://accounts.reddit.com/adsregister?utm_source=web3x_consumer&utm_name=left_nav_cta",
+            "https://accounts.reddit.com/adsregister?utm_source=web3x_consumer&utm_name=user_menu_cta"
+        ],
+        "apps.apple.com": [
+            "https://apps.apple.com/US/app/id1064216828"
+        ],
+        "discord.com": [
+            "https://discord.com/invite/ApZRBDqYcN"
+        ],
+        "discord.gg": [
+            "https://discord.gg/solana"
+        ],
+        "docs.solana.com": [
+            "https://docs.solana.com",
+            "https://docs.solana.com/"
+        ],
+        "explorer.solana.com": [
+            "https://explorer.solana.com/"
+        ],
+        "github.com": [
+            "https://github.com/SolanaNatives/Solana-Programming-Resources",
+            "https://github.com/solana-labs"
+        ],
+        "medium.com": [
+            "https://medium.com/@laine_sa/solana-how-to-pick-a-validator-52b3f17ff616",
+            "https://medium.com/solana-labs"
+        ],
+        "new.reddit.com": [
+            "https://new.reddit.com/r/solana/comments/1c69vuz/weekly_discussion_thread/"
+        ],
+        "play.google.com": [
+            "https://play.google.com/store/apps/details?id=com.reddit.frontpage"
+        ],
+        "preview.redd.it": [
+            "https://preview.redd.it/ceo-jito-labs-ama-answering-all-your-burning-questions-may-v0-2ibohaqxjvxc1.png?width=512&format=png&auto=webp&s=f8298355db5bdea4b41f149b520cd4fe78491a01"
+        ],
+        "reddit.com": [
+            "https://reddit.com/r/solana/",
+            "https://reddit.com/t/3d_printing/",
+            "https://reddit.com/t/action_games/",
+            "https://reddit.com/t/action_movies_and_series/",
+            "https://reddit.com/t/adventure_games/",
+            "https://reddit.com/t/amazing/",
+            "https://reddit.com/t/animals_and_pets/",
+            "https://reddit.com/t/animated_movies_and_series/",
+            "https://reddit.com/t/artificial_intelligence_and_machine_learning/",
+            "https://reddit.com/t/celebrities/",
+            "https://reddit.com/t/comedy_movies_and_series/",
+            "https://reddit.com/t/computers_and_hardware/",
+            "https://reddit.com/t/consumer_electronics/",
+            "https://reddit.com/t/creators_and_influencers/",
+            "https://reddit.com/t/crime_mystery_and_thriller_movies_and_series/",
+            "https://reddit.com/t/cringe_and_facepalm/",
+            "https://reddit.com/t/diy_electronics/",
+            "https://reddit.com/t/documentary_movies_and_series/",
+            "https://reddit.com/t/drama_movies_and_series/",
+            "https://reddit.com/t/esports/",
+            "https://reddit.com/t/fantasy_movies_and_series/",
+            "https://reddit.com/t/funny/",
+            "https://reddit.com/t/gaming_consoles_and_gear/",
+            "https://reddit.com/t/gaming_news_and_discussion/",
+            "https://reddit.com/t/generations_and_nostalgia/",
+            "https://reddit.com/t/horror_movies_and_series/",
+            "https://reddit.com/t/interesting/",
+            "https://reddit.com/t/memes/",
+            "https://reddit.com/t/mobile_games/",
+            "https://reddit.com/t/movie_news_and_discussion/",
+            "https://reddit.com/t/oddly_satisfying/",
+            "https://reddit.com/t/other_games/",
+            "https://reddit.com/t/podcasts/",
+            "https://reddit.com/t/programming/",
+            "https://reddit.com/t/q_and_as/",
+            "https://reddit.com/t/reality_tv/",
+            "https://reddit.com/t/reddit_meta/",
+            "https://reddit.com/t/role_playing_games/",
+            "https://reddit.com/t/romance_movies_and_series/",
+            "https://reddit.com/t/scifi_movies_and_series/",
+            "https://reddit.com/t/simulation_games/",
+            "https://reddit.com/t/software_and_apps/",
+            "https://reddit.com/t/sports_and_racing_games/",
+            "https://reddit.com/t/stories_and_confessions/",
+            "https://reddit.com/t/strategy_games/",
+            "https://reddit.com/t/streamers/",
+            "https://reddit.com/t/streaming_services/",
+            "https://reddit.com/t/superhero_movies_and_series/",
+            "https://reddit.com/t/tabletop_games/",
+            "https://reddit.com/t/tarot_and_astrology/",
+            "https://reddit.com/t/tech_news_and_discussion/",
+            "https://reddit.com/t/tv_news_and_discussion/",
+            "https://reddit.com/t/virtual_and_augmented_reality/",
+            "https://reddit.com/t/wholesome_and_heartwarming/"
+        ],
+        "redditblog.com": [
+            "https://redditblog.com/"
+        ],
+        "redditinc.com": [
+            "https://redditinc.com"
+        ],
+        "solana.com": [
+            "http://solana.com",
+            "http://solana.com/",
+            "http://solana.com/avatar/shop",
+            "http://solana.com/developers",
+            "http://solana.com/r/solana",
+            "http://solana.com/r/solana/",
+            "http://solana.com/r/solana/?f=flair_name%3A%22Ask%20Me%20Anything%22",
+            "http://solana.com/r/solana/?f=flair_name%3A%22DeFi%22",
+            "http://solana.com/r/solana/?f=flair_name%3A%22Dev%2FTech%22",
+            "http://solana.com/r/solana/?f=flair_name%3A%22Ecosystem%22",
+            "http://solana.com/r/solana/?f=flair_name%3A%22Important%22",
+            "http://solana.com/r/solana/?f=flair_name%3A%22Meme%22",
+            "http://solana.com/r/solana/?f=flair_name%3A%22NFT%2FGaming%22",
+            "http://solana.com/r/solana/?f=flair_name%3A%22Staking%22",
+            "http://solana.com/r/solana/?f=flair_name%3A%22Wallet%2FExchange%22",
+            "http://solana.com/r/solana/about/",
+            "http://solana.com/r/solana/comments/1chwdb9/ceo_jito_labs_buffalu_ama_answering_all_your/",
+            "http://solana.com/r/solana/comments/1d2v3ev/what_is_this_doing_being_the_most_popular_app_on/",
+            "http://solana.com/r/solana/comments/ci8qx2/welcome_to_rsolana_read_this_to_get_started/",
+            "http://solana.com/r/solana/hot/",
+            "http://solana.com/r/solana/new/",
+            "http://solana.com/r/solana/rising/",
+            "http://solana.com/r/solana/top/",
+            "http://solana.com/reddit#main-content",
+            "http://solana.com/reddit?feedViewType=cardView",
+            "http://solana.com/reddit?feedViewType=compactView",
+            "http://solana.com/user/SolanaLabs/",
+            "http://solana.com/user/ansi09/",
+            "http://solana.com/user/kateblue22/",
+            "https://solana.com",
+            "https://solana.com/developers",
+            "https://solana.com/discord",
+            "https://solana.com/newsletter",
+            "https://solana.com/podcast",
+            "https://solana.com/solana-whitepaper.pdf",
+            "https://solana.com/tokens",
+            "https://solana.com/validators"
+        ],
+        "solana.fm": [
+            "https://solana.fm/"
+        ],
+        "solana.foundation": [
+            "https://solana.foundation/stake-pools"
+        ],
+        "solana.stackexchange.com": [
+            "https://solana.stackexchange.com/"
+        ],
+        "solanabeach.io": [
+            "https://solanabeach.io/"
+        ],
+        "solanacookbook.com": [
+            "https://solanacookbook.com/"
+        ],
+        "solfate.com": [
+            "https://solfate.com/devlist"
+        ],
+        "solscan.io": [
+            "https://solscan.io/"
+        ],
+        "t.me": [
+            "https://t.me/solana"
+        ],
+        "twitter.com": [
+            "https://twitter.com/Reddit",
+            "https://twitter.com/buffalu__",
+            "https://twitter.com/i/lists/1452853465210933252",
+            "https://twitter.com/jito_sol/status/1785691542721888469",
+            "https://twitter.com/solana?s=21"
+        ],
+        "www.metaplex.com": [
+            "https://www.metaplex.com"
+        ],
+        "www.reddit.com": [
+            "https://www.reddit.com/best/communities/1/",
+            "https://www.reddit.com/best/communities/9/#t5_hcs2n/",
+            "https://www.reddit.com/login/",
+            "https://www.reddit.com/policies/privacy-policy",
+            "https://www.reddit.com/posts/2024/global/",
+            "https://www.reddit.com/r/solana/comments/18er2c8/how_to_avoid_the_biggest_crypto_scams_and/",
+            "https://www.reddit.com/r/solana/comments/ci8qx2/welcome_to_rsolana_read_this_to_get_started/",
+            "https://www.reddit.com/t/cryptocurrency/",
+            "https://www.reddit.com/t/solana/",
+            "https://www.reddit.com/topics/a-1/"
+        ],
+        "www.reddithelp.com": [
+            "https://www.reddithelp.com"
+        ],
+        "www.redditinc.com": [
+            "https://www.redditinc.com",
+            "https://www.redditinc.com/careers",
+            "https://www.redditinc.com/policies/content-policy",
+            "https://www.redditinc.com/policies/user-agreement",
+            "https://www.redditinc.com/press"
+        ],
+        "www.soldev.app": [
+            "https://www.soldev.app/"
+        ],
+        "www.validators.app": [
+            "https://www.validators.app/"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/playlist?list=PLilwLeBwGuK5-Qri7Pg9zd-Vvhz9kX2-R"
+        ]
+    }
+}

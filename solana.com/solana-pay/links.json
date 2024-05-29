@@ -1,0 +1,27 @@
+{
+    "target_url": "http://solana.com/solana-pay?ref=solana.ghost.io",
+    "domains": {
+        "apps.shopify.com": [
+            "https://apps.shopify.com/solana-pay"
+        ],
+        "commercedocs.solanapay.com": [
+            "https://commercedocs.solanapay.com/"
+        ],
+        "docs.solanapay.com": [
+            "https://docs.solanapay.com"
+        ],
+        "github.com": [
+            "https://github.com/solana-labs/solana-pay"
+        ],
+        "share.hsforms.com": [
+            "https://share.hsforms.com/16TKDVtIWTImO12ruFCpPIgd8swn"
+        ],
+        "solana.com": [
+            "http://solana.com/",
+            "http://solana.com/branding",
+            "http://solana.com/solanapay101",
+            "http://solana.com/tos",
+            "https://solana.com/news/solana-pay-announcement"
+        ]
+    }
+}
