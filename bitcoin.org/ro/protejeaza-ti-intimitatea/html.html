@@ -1,0 +1,753 @@
+<!DOCTYPE html><html lang="ro"><head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>ProtejeazÄ-Èi intimitatea - Bitcoin</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+<link rel="stylesheet" href="/css/sans.css?1716491272">
+<script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.org is a community funded project, donations are appreciated and used to improve the website.
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        Make a donation
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.org needs your support!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">Donate to Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">Use this QR code or address below</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="Or custom amount? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="Or custom amount? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="Optional description (for your wallet)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="/ro/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">Introducere</a>
+    <ul>
+      <li><a href="/ro/bitcoin-pentru-persoane-fizice">Persoane fizice</a></li>
+      <li><a href="/ro/bitcoin-pentru-companii">Companii</a></li>
+      <li><a href="https://developer.bitcoin.org/">Dezvoltatori</a></li>
+      <li><a href="/ro/notiuni-de-baza">NoÈiuni de bazÄ</a></li>
+      <li><a href="/ro/cum-functioneaza">Cum funcÈioneazÄ</a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">Resurse</a>
+    <ul>
+      <li><a href="/ro/resurse">Resurse</a>
+      </li><li><a href="/ro/schimburi">Exchanges</a></li>
+      <li><a href="/ro/comunitate">Comunitate</a></li>
+      
+      
+      <li><a href="/ro/vocabular">Vocabular</a></li>
+      <li><a href="/ro/evenimente">Evenimente</a></li>
+      
+        <li><a href="/ro/descarca">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li><a href="/ro/inovatie">InovaÅ£ie</a></li>
+  <li><a class="is-expand">ParticipÄ</a>
+    <ul>
+      <li><a href="/ro/sustine-bitcoin">SusÅ£ine Bitcoin</a>
+      </li><li><a href="/ro/cumpara">Buy Bitcoin</a></li>
+      
+      <li><a href="/ro/dezvoltare">Dezvoltare</a></li>
+    </ul>
+  </li>
+  <li><a href="/ro/intrebari-frecvente">ÃntrebÄri Frecvente</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>RomÃ¢nÄ</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/lindungi-privasi-anda">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/protegeix-la-teva-privacitat">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/beskyt-dit-privatliv">Dansk</a></li>
+        
+        
+          <li><a href="/de/schuetzen-sie-ihre-privatsphaere">Deutsch</a></li>
+        
+        
+          <li><a href="/en/protect-your-privacy">English</a></li>
+        
+        
+          <li><a href="/es/proteja-su-privacidad">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/proteger-votre-vie-privee">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/proteggi-la-tua-privacy">Italiano</a></li>
+        
+        
+          <li><a href="/hu/vedje-meg-szemelyes-adatait">Magyar</a></li>
+        
+        
+          <li><a href="/nl/bescherm-uw-privacy">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/chron-swoja-prywatnosc">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/proteger-sua-privacidade">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/protejeaza-ti-intimitatea" class="active">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/zascita-zasebnosti">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/zastitite-svoju-privatnost">Srpski</a></li>
+        
+        
+          <li><a href="/sv/skydda-din-integritet">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/gizliliginizi-koruyun">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/protect-your-privacy">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/protect-your-privacy">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/protect-your-privacy">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/protect-your-privacy">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/protect-your-privacy">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/protect-your-privacy">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/protect-your-privacy">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/protect-your-privacy">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/protect-your-privacy">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/protect-your-privacy">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/protect-your-privacy">ááááá</a></li>
+        
+        
+          <li><a href="/ja/protect-your-privacy">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/protect-your-privacy">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/protect-your-privacy">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/lindungi-privasi-anda">Bahasa Indonesia</option>
+            
+            <option value="/ca/protegeix-la-teva-privacitat">CatalÃ </option>
+            
+            <option value="/da/beskyt-dit-privatliv">Dansk</option>
+            
+            <option value="/de/schuetzen-sie-ihre-privatsphaere">Deutsch</option>
+            
+            <option value="/en/protect-your-privacy">English</option>
+            
+            <option value="/es/proteja-su-privacidad">EspaÃ±ol</option>
+            
+            <option value="/fr/proteger-votre-vie-privee">FranÃ§ais</option>
+            
+            <option value="/it/proteggi-la-tua-privacy">Italiano</option>
+            
+            <option value="/hu/vedje-meg-szemelyes-adatait">Magyar</option>
+            
+            <option value="/nl/bescherm-uw-privacy">Nederlands</option>
+            
+            <option value="/pl/chron-swoja-prywatnosc">Polski</option>
+            
+            <option value="/pt_BR/proteger-sua-privacidade">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/protejeaza-ti-intimitatea" selected="selected">RomÃ¢nÄ</option>
+            
+            <option value="/sl/zascita-zasebnosti">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/zastitite-svoju-privatnost">Srpski</option>
+            
+            <option value="/sv/skydda-din-integritet">Svenska</option>
+            
+            <option value="/tr/gizliliginizi-koruyun">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/protect-your-privacy">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/protect-your-privacy">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/protect-your-privacy">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/protect-your-privacy">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/protect-your-privacy">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/protect-your-privacy">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/protect-your-privacy">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/protect-your-privacy">×¢××¨××ª</option>
+            
+            <option value="/hi/protect-your-privacy">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/protect-your-privacy">íêµ­ì´</option>
+            
+            <option value="/km/protect-your-privacy">ááááá</option>
+            
+            <option value="/ja/protect-your-privacy">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/protect-your-privacy">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/protect-your-privacy">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">ro</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  <div class="hero">
+  <div class="container hero-container">
+    <h1>ProtejeazÄ-Èi intimitatea</h1>
+    <p class="summarytxt">Bitcoin este adesea perceput ca o reÅ£ea de plÄÅ£i anonimÄ. Dar Ã®n realitate, Bitcoin este probabil cea mai transparenÅ£Ä reÅ£ea de plÄti din lume. Ãn acelaÅi timp, Bitcoin poate oferi nivele acceptabile de confidenÅ£ialitate atunci cÃ¢nd este folosit corect.  <b>Ãntotdeauna Å£ine minte cÄ este responsabilitatea ta sÄ iei mÄsurile necesare pentru a-Å£i proteja confidenÅ£ialitate </b>.</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="two-column-layout">
+
+    <div class="row two-column-row">
+      <div>
+        <img class="column-img" src="/img/icons/traceability.svg?1716491272" alt="icon">
+      </div>
+      <div class="column-text">
+        <h2 class="section-title anchorAf" id="traceable"><a href="#traceable"></a>ÃnÈelegerea trasabilitÄÈii Bitcoinului</h2>
+        <p>Bitcoin funcÅ£ioneazÄ la un nivel nemaiÃ®ntÃ¢lnit de transparenÅ£Ä cu care majoritatea oamenilor nu sunt obiÅnuiÅ£i. Toate tranzacÅ£iile Bitcoin sunt publice, urmÄribile Åi stocate permanent Ã®n reÅ£eaua Bitcoin. Adresele Bitcoin sunt singura informaÅ£ie folositÄ pentru a defini unde sunt bitcoinii alocaÅ£i Åi unde sunt ei trimiÅi. Aceste adrese sunt create Ã®n mod privat de portofelele fiecÄrui utilizator Ã®n parte. Dar, odatÄ ce adresele sunt folosite, ele devin pÄtate de istoricul tuturor tranzacÅ£iilor Ã®n care au fost implicate. Oricine poate vedea <a href="https://live.blockcypher.com/btc">balanÅ£ele Åi toate tranzacÅ£iile</a> a oricÄrei adrese. Din moment ce utilizatorii Ã®n mod normal sunt nevoiÅ£i la un moment dat sÄ-Åi dezvÄluie identitatea pentru a primi bunuri sau servicii, adresele Bitcoin nu pot rÄmÃ¢ne Ã®n Ã®ntregime anonime. Pentru aceste motive, adresele Bitcoin ar trebui sÄ fie folosite o singurÄ datÄ Åi utilizatorii trebuie sÄ fie atenÅ£i sÄ nu-Åi dezvÄluie adresele.</p>
+      </div>
+    </div>
+
+    <div class="row two-column-row">
+      <div>
+        <img class="column-img" src="/img/icons/addresses.svg?1716491272" alt="icon">
+      </div>
+      <div class="column-text">
+        <h2 class="section-title anchorAf" id="receive"><a href="#receive"></a>UtilizeazÄ noi adrese pentru a primi plÄÈi</h2>
+        <p>Pentru a-Å£i proteja identitatea, ar trebui sÄ foloseÅti o nouÄ adresÄ Bitcoin de fiecare datÄ cÃ¢nd primeÅti o nouÄ platÄ. AdiÅ£ional, poÅ£i folosi mai multe portofele pentru diferite scopuri. FÄcÃ¢nd asta Ã®Å£i permite sÄ izolezi fiecare din tranzacÅ£iile tale Ã®n aÅa fel Ã®ncÃ¢t nu va fi posibil sÄ le asociezi pe toate Ã®mpreunÄ. Persoanele ce Ã®Å£i trimit banii nu pot vedea ce alte adrese Bitcoin deÅ£ii Åi ce faci cu ele. Aceste este probabil ce mai important sfat pe care ar trebui sÄ-l Å£ii minte.</p>
+      </div>
+    </div>
+
+    <div class="row two-column-row">
+      <div>
+        <img class="column-img" src="/img/icons/public-spaces.svg?1716491272" alt="icon">
+      </div>
+      <div class="column-text">
+        <h2 class="section-title anchorAf" id="public"><a href="#public"></a>Fii atent cu spaÈiile publice</h2>
+        <p>ExceptÃ¢nd cazul Ã®n care intenÅ£ia ta este sÄ primeÅti donaÅ£ii publice sau plÄÅ£i cu transparenÅ£Ä deplinÄ, publicarea unei adrese Bitcoin Ã®n orice spaÅ£iu public cum ar fi un website sau reÅ£ea de socializare nu este o idee bunÄ cÃ¢nd vine vorba de confidenÅ£ialitate. DacÄ alegi totuÅi sÄ faci asta, aminteÅte-Å£i Ã®ntotdeauna cÄ dacÄ muÅ£i fonduri folosind aceastÄ adresÄ cÄtre o altÄ adresÄ a ta, ele vor fi pÄtate public de cÄtre istoricul adreselor tale publice. AdiÅ£ional, ar trebui sÄ ai grijÄ sÄ nu publici informaÅ£ii despre tranzacÅ£iile sau cumpÄrÄturile fÄcute de Å£ine care ar permite cuiva sÄ-Å£i identifice adresele Bitcoin.</p>
+      </div>
+    </div>
+
+    <div class="row two-column-row">
+      <div>
+        <img class="column-img" src="/img/icons/ip-address.svg?1716491272" alt="icon">
+      </div>
+      <div class="column-text">
+        <h2 class="section-title anchorAf" id="iplog"><a href="#iplog"></a>Adresa ta IP poate fi Ã®nregistratÄ</h2>
+        <p>Pentru cÄ reÅ£eaua Bitcoin este o reÅ£ea peer-to-peer, este posibil sÄ asculÅ£i emiterile tranzacÅ£iilor Åi sÄ Å£ii evidenÅ£a adreselor IP folosite. ClienÅ£ii nod Ã®ntreg emit toate tranzacÅ£iile utilizatorilor cÄ Åi cum ar fi ale lor. Asta Ã®nseamnÄ cÄ a gÄsi sursa unei singure tranzacÅ£ii poate fi dificil Åi orice nod Bitcoin poate fi confundat ca fiind sursa unei tranzacÅ£ii cÃ¢nd de fapt nu este. S-ar putea sÄ Ã®Å£i doreÅti sÄ ascunzi IP-ul calculatorului tÄu cu o unealtÄ ca <a href="https://www.torproject.org/">Tor</a> pentru ca IP-ul tÄu sÄ nu fie Ã®nregistrat.</p>
+      </div>
+    </div>
+
+    <div class="row two-column-row">
+      <div>
+        <img class="column-img" src="/img/icons/mixing-services.svg?1716491272" alt="icon">
+      </div>
+      <div class="column-text">
+        <h2 class="section-title anchorAf" id="mixing"><a href="#mixing"></a>LimitÄri ale serviciilor de mixat</h2>
+        <p>Unele servicii online numite servicii de mixat oferÄ mixarea identificabilitatii dintre utilizatori prin primirea Åi trimiterea Ã®napoi a aceleiaÅi sume folosind adrese Bitcoin independente. Este important de notat faptul cÄ legalitatea unui astfel de serviciu poate varia Åi poate fi subiectul mai multor reguli Ã®n fiecare jurisdicÅ£ie.  De asemenea semenea servicii necesitÄ sÄ ai Ã®ncredere Ã®n persoanele din spatele lor sÄ nu Ã®Å£i piardÄ sau fure fondurile Åi sÄ nu salveze cererile tale. DeÅi serviciile de mixare pot Ã®mpiedica identificabilitatea pentru sume mici, aceast lucru devine din ce Ã®n ce mai dificil pentru tranzacÅ£ii mai mari.</p>
+      </div>
+    </div>
+
+    <div class="row two-column-row">
+      <div>
+        <img class="column-img" src="/img/icons/future-improvements.svg?1716491272" alt="icon">
+      </div>
+      <div class="column-text">
+        <h2 class="section-title anchorAf" id="future"><a href="#future"></a>ÃmbunÄtÄÈiri viitoare</h2>
+        <p>Multe Ã®mbunÄtÄÅ£iri pot fi aÅteptate Ã®n viitor pentru a mÄri gradul de confidenÅ£ialitate. De exemplu, se depun unele eforturi ca mesajele de plata API sÄ evite pÄtarea mai multor adrese Ã®n timpul unei plÄÅ£i. Adresele de schimb ale Bitcoin Core ar putea fi implementate Ã®n timp Åi Ã®n alte portofele. Interfetele grafice de utilizare pot fi Ã®mbunÄtÄÅ£ite pentru a oferi opÅ£iuni de cereri de platÄ uÅor de folosit Åi sÄ descurajeze reutilizarea adreselor. De asemenea se lucreazÄ Åi cerceteazÄ Åi alte opÅ£iuni pentru a mÄri gradul de confidenÅ£ialitate cum ar fi abilitatea de a amesteca Ã®mpreunÄ tranzacÅ£iile unor utilizatori aleatorii.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="/ro/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Support Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Donate</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">Introducere:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/ro/bitcoin-pentru-persoane-fizice">Persoane fizice</a>
+        </li>
+        <li>
+          <a href="/ro/bitcoin-pentru-companii">Companii</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">Dezvoltatori</a>
+        </li>
+        <li>
+          <a href="/ro/notiuni-de-baza">NoÈiuni de bazÄ</a>
+        </li>
+        <li>
+          <a href="/ro/cum-functioneaza">Cum funcÈioneazÄ</a>
+        </li>
+        <li>
+          <a href="/ro/ce-trebuie-sa-stii">Trebuie sÄ Ètii</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">Resurse:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/ro/resurse">Resurse</a>
+        </li><li>
+          <a href="/ro/schimburi">Exchanges</a>
+        </li>
+        <li>
+          <a href="/ro/comunitate">Comunitate</a>
+        </li>
+        <li>
+          <a href="/ro/vocabular">Vocabular
+          </a>
+        </li>
+        <li>
+          <a href="/ro/evenimente">Evenimente</a>
+        </li>
+        
+          <li>
+            <a href="/ro/descarca">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">ParticipÄ:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/ro/sustine-bitcoin">SusÅ£ine Bitcoin</a>
+        
+        
+        </li><li>
+          <a href="/ro/dezvoltare">Dezvoltare</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Other:</p>
+      
+      <a href="/ro/legal">Legal</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/ro/presa">PresÄ</a>
+      <a href="/ro/despre-noi">Despre bitcoin.org</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>Un site comunitar sponsorizat de</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1716491272" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 Lansat sub <a href="http://opensource.org/licenses/mit-license.php" target="_blank">licenÈa MIT</a></div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">Network Status</a>
+        
+<ul class="lang is-expand">
+  <li><a>RomÃ¢nÄ</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/lindungi-privasi-anda">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/protegeix-la-teva-privacitat">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/beskyt-dit-privatliv">Dansk</a></li>
+        
+        
+          <li><a href="/de/schuetzen-sie-ihre-privatsphaere">Deutsch</a></li>
+        
+        
+          <li><a href="/en/protect-your-privacy">English</a></li>
+        
+        
+          <li><a href="/es/proteja-su-privacidad">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/proteger-votre-vie-privee">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/proteggi-la-tua-privacy">Italiano</a></li>
+        
+        
+          <li><a href="/hu/vedje-meg-szemelyes-adatait">Magyar</a></li>
+        
+        
+          <li><a href="/nl/bescherm-uw-privacy">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/chron-swoja-prywatnosc">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/proteger-sua-privacidade">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/protejeaza-ti-intimitatea" class="active">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/zascita-zasebnosti">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/zastitite-svoju-privatnost">Srpski</a></li>
+        
+        
+          <li><a href="/sv/skydda-din-integritet">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/gizliliginizi-koruyun">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/protect-your-privacy">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/protect-your-privacy">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/protect-your-privacy">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/protect-your-privacy">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/protect-your-privacy">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/protect-your-privacy">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/protect-your-privacy">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/protect-your-privacy">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/protect-your-privacy">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/protect-your-privacy">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/protect-your-privacy">ááááá</a></li>
+        
+        
+          <li><a href="/ja/protect-your-privacy">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/protect-your-privacy">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/protect-your-privacy">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/lindungi-privasi-anda">Bahasa Indonesia</option>
+              
+              <option value="/ca/protegeix-la-teva-privacitat">CatalÃ </option>
+              
+              <option value="/da/beskyt-dit-privatliv">Dansk</option>
+              
+              <option value="/de/schuetzen-sie-ihre-privatsphaere">Deutsch</option>
+              
+              <option value="/en/protect-your-privacy">English</option>
+              
+              <option value="/es/proteja-su-privacidad">EspaÃ±ol</option>
+              
+              <option value="/fr/proteger-votre-vie-privee">FranÃ§ais</option>
+              
+              <option value="/it/proteggi-la-tua-privacy">Italiano</option>
+              
+              <option value="/hu/vedje-meg-szemelyes-adatait">Magyar</option>
+              
+              <option value="/nl/bescherm-uw-privacy">Nederlands</option>
+              
+              <option value="/pl/chron-swoja-prywatnosc">Polski</option>
+              
+              <option value="/pt_BR/proteger-sua-privacidade">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/protejeaza-ti-intimitatea" selected="selected">RomÃ¢nÄ</option>
+              
+              <option value="/sl/zascita-zasebnosti">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/zastitite-svoju-privatnost">Srpski</option>
+              
+              <option value="/sv/skydda-din-integritet">Svenska</option>
+              
+              <option value="/tr/gizliliginizi-koruyun">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/protect-your-privacy">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/protect-your-privacy">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/protect-your-privacy">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/protect-your-privacy">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/protect-your-privacy">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/protect-your-privacy">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/protect-your-privacy">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/protect-your-privacy">×¢××¨××ª</option>
+              
+              <option value="/hi/protect-your-privacy">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/protect-your-privacy">íêµ­ì´</option>
+              
+              <option value="/km/protect-your-privacy">ááááá</option>
+              
+              <option value="/ja/protect-your-privacy">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/protect-your-privacy">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/protect-your-privacy">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">ro</span>
+          </label>
+        </div>
+      </div>
+<!--      <div class="row">  -->
+        
+<!--    </div> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+
+
+
+
+
+
+</body></html>
