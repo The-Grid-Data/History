@@ -1,0 +1,92 @@
+{
+    "target_url": "https://solana.com/vi/developers/guides/token-extensions/getting-started",
+    "domains": {
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "docs.rs": [
+            "https://docs.rs/spl-token-2022/latest/spl_token_2022/"
+        ],
+        "github.com": [
+            "https://github.com/solana-foundation/developer-content/pull/43/files",
+            "https://github.com/solana-foundation/developer-content/tree/main/content/guides/token-extensions/getting-started.md",
+            "https://github.com/solana-labs/security-audits/blob/master/spl/HalbornToken2022Audit-2022-07-27.pdf",
+            "https://github.com/solana-labs/security-audits/blob/master/spl/NCCToken2022Audit-2023-04-05.pdf",
+            "https://github.com/solana-labs/security-audits/blob/master/spl/OtterSecToken2022Audit-2023-11-03.pdf",
+            "https://github.com/solana-labs/security-audits/blob/master/spl/OtterSecZkTokenSdkAudit-2023-11-04.pdf",
+            "https://github.com/solana-labs/security-audits/blob/master/spl/TrailOfBitsToken2022Audit-2023-02-10.pdf",
+            "https://github.com/solana-labs/security-audits/blob/master/spl/ZellicToken2022Audit-2022-12-05.pdf",
+            "https://github.com/solana-labs/solana-program-library/tree/50abadd819df2e406567d6eca31c213264c1c7cd/token/program-2022",
+            "https://github.com/solana-labs/solana-program-library/tree/54695b233484722458b18c0e26ebb8334f98422c/token/program-2022",
+            "https://github.com/solana-labs/solana-program-library/tree/c3137af9dfa2cc0873cc84c4418dea88ac542965/token/program-2022",
+            "https://github.com/solana-labs/solana-program-library/tree/e924132d65ba0896249fb4983f6f97caff15721a",
+            "https://github.com/solana-labs/solana-program-library/tree/master/token/program-2022",
+            "https://github.com/solana-labs/solana/tree/4e43aa6c18e6bb4d98559f80eb004de18bc6b418/zk-token-sdk",
+            "https://github.com/solana-labs/solana/tree/9e703f8/zk-token-sdk"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "solana.com": [
+            "https://solana.com/discord",
+            "https://solana.com/github",
+            "https://solana.com/reddit",
+            "https://solana.com/telegram",
+            "https://solana.com/twitter",
+            "https://solana.com/vi",
+            "https://solana.com/vi/branding",
+            "https://solana.com/vi/developers",
+            "https://solana.com/vi/developers/cookbook",
+            "https://solana.com/vi/developers/guides",
+            "https://solana.com/vi/developers/guides/getstarted/setup-local-development",
+            "https://solana.com/vi/developers/guides/token-extensions/default-account-state",
+            "https://solana.com/vi/developers/guides/token-extensions/dynamic-meta-data-nft",
+            "https://solana.com/vi/developers/guides/token-extensions/getting-started",
+            "https://solana.com/vi/developers/guides/token-extensions/getting-started#has-the-token-extensions-program-been-audited",
+            "https://solana.com/vi/developers/guides/token-extensions/getting-started#how-do-i-add-custom-logic-to-my-tokens-with-token-extensions",
+            "https://solana.com/vi/developers/guides/token-extensions/getting-started#how-do-i-create-a-token-with-token-extensions",
+            "https://solana.com/vi/developers/guides/token-extensions/getting-started#how-do-i-migrate-tokens-from-one-standard-to-another",
+            "https://solana.com/vi/developers/guides/token-extensions/getting-started#metadata",
+            "https://solana.com/vi/developers/guides/token-extensions/getting-started#transfer-hooks",
+            "https://solana.com/vi/developers/guides/token-extensions/getting-started#what-extensions-are-compatible-with-each-other",
+            "https://solana.com/vi/developers/guides/token-extensions/getting-started#what-is-the-instruction-layout-for-token-extensions",
+            "https://solana.com/vi/developers/guides/token-extensions/getting-started#what-is-the-layout-of-mints-and-accounts",
+            "https://solana.com/vi/developers/guides/token-extensions/getting-started#where-is-the-source-code-for-token-extensions",
+            "https://solana.com/vi/developers/guides/token-extensions/immutable-owner",
+            "https://solana.com/vi/developers/guides/token-extensions/interest-bearing-tokens",
+            "https://solana.com/vi/developers/guides/token-extensions/metadata-pointer",
+            "https://solana.com/vi/developers/guides/token-extensions/mint-close-authority",
+            "https://solana.com/vi/developers/guides/token-extensions/non-transferable",
+            "https://solana.com/vi/developers/guides/token-extensions/permanent-delegate",
+            "https://solana.com/vi/developers/guides/token-extensions/required-memo",
+            "https://solana.com/vi/developers/guides/token-extensions/transfer-fee",
+            "https://solana.com/vi/developers/guides/token-extensions/transfer-hook",
+            "https://solana.com/vi/developers/guides?difficulty=beginner",
+            "https://solana.com/vi/developers/guides?tags=token%202022",
+            "https://solana.com/vi/developers/guides?tags=token%20extensions",
+            "https://solana.com/vi/docs",
+            "https://solana.com/vi/docs/rpc",
+            "https://solana.com/vi/docs/terminology",
+            "https://solana.com/vi/ecosystem",
+            "https://solana.com/vi/news",
+            "https://solana.com/vi/newsletter",
+            "https://solana.com/vi/privacy-policy",
+            "https://solana.com/vi/privacy-policy#collection-of-information",
+            "https://solana.com/vi/tos",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ],
+        "spl.solana.com": [
+            "https://spl.solana.com/token",
+            "https://spl.solana.com/token-2022",
+            "https://spl.solana.com/token-2022#security-audits",
+            "https://spl.solana.com/token-2022/extensions#cpi-guard",
+            "https://spl.solana.com/token-upgrade"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/playlist?list=PLilwLeBwGuK6imBuGLSLmzMEyj6yVHGDO"
+        ]
+    }
+}
