@@ -1,0 +1,92 @@
+{
+    "target_url": "https://solana.com/ru/developers/guides/games/hello-world",
+    "domains": {
+        "beta.solpg.io": [
+            "https://beta.solpg.io/",
+            "https://beta.solpg.io/tutorials/tiny-adventure"
+        ],
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "github.com": [
+            "https://github.com/solana-developers/solana-game-examples/tree/main/tiny-adventure",
+            "https://github.com/solana-foundation/developer-content/tree/main/content/guides/games/hello-world.md"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "nextjs-tiny-adventure.vercel.app": [
+            "https://nextjs-tiny-adventure.vercel.app/"
+        ],
+        "solana.com": [
+            "https://solana.com/discord",
+            "https://solana.com/github",
+            "https://solana.com/reddit",
+            "https://solana.com/ru",
+            "https://solana.com/ru/branding",
+            "https://solana.com/ru/developers",
+            "https://solana.com/ru/developers/cookbook",
+            "https://solana.com/ru/developers/guides",
+            "https://solana.com/ru/developers/guides/games/energy-system",
+            "https://solana.com/ru/developers/guides/games/game-examples",
+            "https://solana.com/ru/developers/guides/games/game-sdks",
+            "https://solana.com/ru/developers/guides/games/getting-started-with-game-development",
+            "https://solana.com/ru/developers/guides/games/hello-world",
+            "https://solana.com/ru/developers/guides/games/hello-world#build-and-deploy",
+            "https://solana.com/ru/developers/guides/games/hello-world#defining-the-game-data-account",
+            "https://solana.com/ru/developers/guides/games/hello-world#derive-the-gamedataaccount-account-address",
+            "https://solana.com/ru/developers/guides/games/hello-world#get-started-with-the-client",
+            "https://solana.com/ru/developers/guides/games/hello-world#getting-started",
+            "https://solana.com/ru/developers/guides/games/hello-world#initial-program-code",
+            "https://solana.com/ru/developers/guides/games/hello-world#initialize-instruction",
+            "https://solana.com/ru/developers/guides/games/hello-world#initialize-the-game-state",
+            "https://solana.com/ru/developers/guides/games/hello-world#logging-the-player-s-position",
+            "https://solana.com/ru/developers/guides/games/hello-world#more-resources",
+            "https://solana.com/ru/developers/guides/games/hello-world#move-left-and-right",
+            "https://solana.com/ru/developers/guides/games/hello-world#move-left-instruction",
+            "https://solana.com/ru/developers/guides/games/hello-world#move-right-instruction",
+            "https://solana.com/ru/developers/guides/games/hello-world#part-two",
+            "https://solana.com/ru/developers/guides/games/hello-world#program-instructions",
+            "https://solana.com/ru/developers/guides/games/hello-world#run-the-client-program",
+            "https://solana.com/ru/developers/guides/games/hello-world#solana-playground",
+            "https://solana.com/ru/developers/guides/games/hello-world#video-walkthrough",
+            "https://solana.com/ru/developers/guides/games/hello-world#what-s-next",
+            "https://solana.com/ru/developers/guides/games/interact-with-tokens",
+            "https://solana.com/ru/developers/guides/games/nfts-in-games",
+            "https://solana.com/ru/developers/guides/games/store-sol-in-pda",
+            "https://solana.com/ru/developers/guides/getstarted/intro-to-anchor",
+            "https://solana.com/ru/developers/guides/getstarted/solana-token-airdrop-and-faucets",
+            "https://solana.com/ru/developers/guides?difficulty=beginner",
+            "https://solana.com/ru/developers/guides?tags=anchor",
+            "https://solana.com/ru/developers/guides?tags=games",
+            "https://solana.com/ru/developers/guides?tags=program",
+            "https://solana.com/ru/developers/guides?tags=quickstart",
+            "https://solana.com/ru/developers/guides?tags=rust",
+            "https://solana.com/ru/developers/guides?tags=web3js",
+            "https://solana.com/ru/docs",
+            "https://solana.com/ru/docs/core/pda",
+            "https://solana.com/ru/docs/core/transactions#instruction",
+            "https://solana.com/ru/docs/rpc",
+            "https://solana.com/ru/docs/terminology",
+            "https://solana.com/ru/ecosystem",
+            "https://solana.com/ru/news",
+            "https://solana.com/ru/newsletter",
+            "https://solana.com/ru/privacy-policy",
+            "https://solana.com/ru/privacy-policy#collection-of-information",
+            "https://solana.com/ru/tos",
+            "https://solana.com/telegram",
+            "https://solana.com/twitter",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ],
+        "www.soldev.app": [
+            "https://www.soldev.app/course"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/watch?v=_vQ3bSs3svs",
+            "https://www.youtube.com/watch?v=_vQ3bSs3svs&embeds_referring_euri=https%3A%2F%2Fsolana.com%2F&feature=emb_imp_woyt"
+        ]
+    }
+}
