@@ -1,0 +1,118 @@
+{
+    "target_url": "https://ethereum.org/en/roadmap/verkle-trees",
+    "domains": {
+        "": [
+            "mailto:press@ethereum.org"
+        ],
+        "blog.ethereum.org": [
+            "https://blog.ethereum.org/",
+            "https://blog.ethereum.org/2021/12/02/verkle-tree-structure"
+        ],
+        "dankradfeist.de": [
+            "https://dankradfeist.de/ethereum/2021/06/18/verkle-trie-for-eth1.html"
+        ],
+        "devcon.org": [
+            "https://devcon.org/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/ethereum-org"
+        ],
+        "esp.ethereum.foundation": [
+            "https://esp.ethereum.foundation"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/content/roadmap/verkle-trees/verkle.png",
+            "https://ethereum.org/en/",
+            "https://ethereum.org/en/about/",
+            "https://ethereum.org/en/about/#open-jobs",
+            "https://ethereum.org/en/assets/",
+            "https://ethereum.org/en/bug-bounty/",
+            "https://ethereum.org/en/community/",
+            "https://ethereum.org/en/community/code-of-conduct/",
+            "https://ethereum.org/en/community/events/",
+            "https://ethereum.org/en/community/grants/",
+            "https://ethereum.org/en/community/online/",
+            "https://ethereum.org/en/community/research/",
+            "https://ethereum.org/en/contributing/",
+            "https://ethereum.org/en/contributing/translation-program/",
+            "https://ethereum.org/en/cookie-policy/",
+            "https://ethereum.org/en/dao/",
+            "https://ethereum.org/en/dapps/",
+            "https://ethereum.org/en/decentralized-identity/",
+            "https://ethereum.org/en/defi/",
+            "https://ethereum.org/en/developers/",
+            "https://ethereum.org/en/developers/docs/",
+            "https://ethereum.org/en/developers/docs/design-and-ux/",
+            "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+            "https://ethereum.org/en/developers/learning-tools/",
+            "https://ethereum.org/en/developers/local-environment/",
+            "https://ethereum.org/en/developers/tutorials/",
+            "https://ethereum.org/en/eips/",
+            "https://ethereum.org/en/enterprise/",
+            "https://ethereum.org/en/enterprise/private-ethereum/",
+            "https://ethereum.org/en/eth/",
+            "https://ethereum.org/en/foundation/",
+            "https://ethereum.org/en/gas/",
+            "https://ethereum.org/en/get-eth/",
+            "https://ethereum.org/en/glossary/",
+            "https://ethereum.org/en/governance/",
+            "https://ethereum.org/en/guides/",
+            "https://ethereum.org/en/history/",
+            "https://ethereum.org/en/layer-2/",
+            "https://ethereum.org/en/learn/",
+            "https://ethereum.org/en/nft/",
+            "https://ethereum.org/en/privacy-policy/",
+            "https://ethereum.org/en/quizzes/",
+            "https://ethereum.org/en/roadmap/",
+            "https://ethereum.org/en/roadmap/security/",
+            "https://ethereum.org/en/roadmap/verkle-trees#current-progress",
+            "https://ethereum.org/en/roadmap/verkle-trees#further-reading",
+            "https://ethereum.org/en/roadmap/verkle-trees#main-content",
+            "https://ethereum.org/en/roadmap/verkle-trees#statelessness",
+            "https://ethereum.org/en/roadmap/verkle-trees#what-is-a-witness",
+            "https://ethereum.org/en/roadmap/verkle-trees#what-is-the-structure-of-a-verkle-tree",
+            "https://ethereum.org/en/roadmap/verkle-trees#why-do-verkle-trees-enable-smaller-witnesses",
+            "https://ethereum.org/en/roadmap/verkle-trees/",
+            "https://ethereum.org/en/run-a-node/",
+            "https://ethereum.org/en/security/",
+            "https://ethereum.org/en/smart-contracts/",
+            "https://ethereum.org/en/stablecoins/",
+            "https://ethereum.org/en/staking/",
+            "https://ethereum.org/en/terms-of-use/",
+            "https://ethereum.org/en/wallets/",
+            "https://ethereum.org/en/wallets/find-wallet/",
+            "https://ethereum.org/en/web3/",
+            "https://ethereum.org/en/what-is-ethereum/",
+            "https://ethereum.org/en/whitepaper/"
+        ],
+        "github.com": [
+            "https://github.com/ethereum/ethereum-org-website",
+            "https://github.com/ethereum/ethereum-org-website/tree/dev/public/content/roadmap/verkle-trees/index.md"
+        ],
+        "notes.ethereum.org": [
+            "https://notes.ethereum.org/@vbuterin/verkle_tree_eip#Illustration"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ethdotorg"
+        ],
+        "verkle-gen-devnet-2.ethpandaops.io": [
+            "https://verkle-gen-devnet-2.ethpandaops.io/"
+        ],
+        "verkle.info": [
+            "https://verkle.info/"
+        ],
+        "vitalik.eth.limo": [
+            "https://vitalik.eth.limo/general/2021/06/18/verkle.html"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/watch?v=0yiZJNciIJ4",
+            "https://www.youtube.com/watch?v=Q7rStTKwuYs",
+            "https://www.youtube.com/watch?v=RGJOQHzg3UQ",
+            "https://www.youtube.com/watch?v=cPLHFBeC0Vg",
+            "https://www.youtube.com/watch?v=f7bEtX3Z57o"
+        ],
+        "zeroknowledge.fm": [
+            "https://zeroknowledge.fm/episode-202-stateless-ethereum-verkle-tries-with-dankrad-feist/"
+        ]
+    }
+}
