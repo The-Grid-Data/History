@@ -1,0 +1,95 @@
+{
+    "target_url": "https://solana.com/ru/developers/guides/advanced/introduction-to-durable-nonces",
+    "domains": {
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "docs.solana.com": [
+            "https://docs.solana.com/cli/install-solana-cli-tools",
+            "https://docs.solana.com/implemented-proposals/durable-tx-nonces",
+            "https://docs.solana.com/offline-signing/durable-nonce"
+        ],
+        "durable-nonces-demo.vercel.app": [
+            "https://durable-nonces-demo.vercel.app/"
+        ],
+        "github.com": [
+            "https://github.com/0xproflupin/solana-durable-nonces",
+            "https://github.com/0xproflupin/solana-durable-nonces/blob/main/durable-nonces-demo/README.md#how-to-build-the-dapp-locally",
+            "https://github.com/0xproflupin/solana-durable-nonces/blob/main/durable-nonces-demo/README.md#how-to-use-the-dapp",
+            "https://github.com/solana-foundation/developer-content/tree/main/content/guides/advanced/introduction-to-durable-nonces.md"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "neodyme.io": [
+            "https://neodyme.io/blog/nonce-upon-a-time/"
+        ],
+        "solana-labs.github.io": [
+            "https://solana-labs.github.io/solana-web3.js/"
+        ],
+        "solana.com": [
+            "https://solana.com/discord",
+            "https://solana.com/github",
+            "https://solana.com/reddit",
+            "https://solana.com/ru",
+            "https://solana.com/ru/branding",
+            "https://solana.com/ru/developers",
+            "https://solana.com/ru/developers/cookbook",
+            "https://solana.com/ru/developers/guides",
+            "https://solana.com/ru/developers/guides/advanced/how-to-use-priority-fees",
+            "https://solana.com/ru/developers/guides/advanced/introduction-to-durable-nonces",
+            "https://solana.com/ru/developers/guides/advanced/introduction-to-durable-nonces#advancing-nonce",
+            "https://solana.com/ru/developers/guides/advanced/introduction-to-durable-nonces#create-nonce-account",
+            "https://solana.com/ru/developers/guides/advanced/introduction-to-durable-nonces#create-nonce-accounts",
+            "https://solana.com/ru/developers/guides/advanced/introduction-to-durable-nonces#create-nonce-authority",
+            "https://solana.com/ru/developers/guides/advanced/introduction-to-durable-nonces#displace-nonce-account",
+            "https://solana.com/ru/developers/guides/advanced/introduction-to-durable-nonces#double-spend",
+            "https://solana.com/ru/developers/guides/advanced/introduction-to-durable-nonces#durable-nonce-applications",
+            "https://solana.com/ru/developers/guides/advanced/introduction-to-durable-nonces#durable-nonces",
+            "https://solana.com/ru/developers/guides/advanced/introduction-to-durable-nonces#durable-nonces-with-solana-cli",
+            "https://solana.com/ru/developers/guides/advanced/introduction-to-durable-nonces#durable-nonces-with-solana-object-object",
+            "https://solana.com/ru/developers/guides/advanced/introduction-to-durable-nonces#durable-nonces-with-solana-web3-js",
+            "https://solana.com/ru/developers/guides/advanced/introduction-to-durable-nonces#fetch-initialised-nonce-account",
+            "https://solana.com/ru/developers/guides/advanced/introduction-to-durable-nonces#fetch-nonce",
+            "https://solana.com/ru/developers/guides/advanced/introduction-to-durable-nonces#introduction-to-durable-nonces",
+            "https://solana.com/ru/developers/guides/advanced/introduction-to-durable-nonces#live-app",
+            "https://solana.com/ru/developers/guides/advanced/introduction-to-durable-nonces#live-example-dao-offline-co-signing",
+            "https://solana.com/ru/developers/guides/advanced/introduction-to-durable-nonces#live-example-poll-simulation-app",
+            "https://solana.com/ru/developers/guides/advanced/introduction-to-durable-nonces#nonce-account",
+            "https://solana.com/ru/developers/guides/advanced/introduction-to-durable-nonces#nonce-authority",
+            "https://solana.com/ru/developers/guides/advanced/introduction-to-durable-nonces#recent-blockhashes",
+            "https://solana.com/ru/developers/guides/advanced/introduction-to-durable-nonces#references",
+            "https://solana.com/ru/developers/guides/advanced/introduction-to-durable-nonces#sign-transaction-using-durable-nonce",
+            "https://solana.com/ru/developers/guides/advanced/introduction-to-durable-nonces#using-durable-nonces",
+            "https://solana.com/ru/developers/guides/advanced/introduction-to-durable-nonces#using-recent-blockhashes",
+            "https://solana.com/ru/developers/guides/advanced/introduction-to-durable-nonces#withdraw-from-nonce-account",
+            "https://solana.com/ru/developers/guides/advanced/stake-weighted-qos",
+            "https://solana.com/ru/developers/guides?difficulty=intermediate",
+            "https://solana.com/ru/developers/guides?tags=cli",
+            "https://solana.com/ru/developers/guides?tags=web3js",
+            "https://solana.com/ru/docs",
+            "https://solana.com/ru/docs/rpc",
+            "https://solana.com/ru/docs/terminology",
+            "https://solana.com/ru/ecosystem",
+            "https://solana.com/ru/news",
+            "https://solana.com/ru/newsletter",
+            "https://solana.com/ru/privacy-policy",
+            "https://solana.com/ru/privacy-policy#collection-of-information",
+            "https://solana.com/ru/tos",
+            "https://solana.com/telegram",
+            "https://solana.com/twitter",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ],
+        "solana.stackexchange.com": [
+            "https://solana.stackexchange.com/questions/1161/how-to-avoid-sendtransactionerror-this-transaction-has-already-been-processed?rq=1"
+        ],
+        "solscan.io": [
+            "https://solscan.io/blocks?cluster=devnet",
+            "https://solscan.io/tx/anQ8VtQgeSMoKTnQCubTenq1J7WKxAa1dbFMDLsbDWgV6GGL135G1Ydv4QTNd6GptP3TxDQ2ZWi3Y5qnEtjM7yg?cluster=devnet",
+            "https://solscan.io/tx/skkfzUQrZF2rcmrhAQV6SuLa7Hj3jPFu7cfXAHvkVep3Lk3fNSVypwULhqMRinsa6Zj5xjj8zKZBQ1agMxwuABZ?cluster=devnet"
+        ]
+    }
+}
