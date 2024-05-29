@@ -1,0 +1,16 @@
+{
+    "target_url": "https://solana.com/de/solutions/games-tooling",
+    "domains": {
+        "cdn.builder.io": [
+            "https://cdn.builder.io/api/v1/pixel?apiKey=ce0c7323a97a4d91bd0baa7490ec9139"
+        ],
+        "solana.com": [
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F0da0236d7c7342328aa45f164c6fa253&w=1920&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F4047398c82dd4a1799a798b67c6df076&w=1200&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F8ce3c7c7567b497a9851f6b57e5629f7&w=1200&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252Fb57903c93f9545fc807b8e4beaed04fc&w=1200&q=75",
+            "https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252Fdfb1773873354d118d134beca2334288&w=3840&q=75",
+            "https://solana.com/_next/static/media/logotype.e4df684f.svg"
+        ]
+    }
+}
