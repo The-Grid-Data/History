@@ -1,0 +1,165 @@
+{
+    "target_url": "https://ethereum.org/en/developers/tutorials/reverse-engineering-a-contract/",
+    "domains": {
+        "": [
+            "mailto:press@ethereum.org"
+        ],
+        "blog.ethereum.org": [
+            "https://blog.ethereum.org/"
+        ],
+        "blog.openzeppelin.com": [
+            "https://blog.openzeppelin.com/proxy-patterns/"
+        ],
+        "devcon.org": [
+            "https://devcon.org/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/ethereum-org"
+        ],
+        "docs.google.com": [
+            "https://docs.google.com/spreadsheets/d/1tKmTJiNjUwHbW64wCKOSJxHjmh0bAUapt6btUYE7kDA/edit?usp=sharing"
+        ],
+        "docs.soliditylang.org": [
+            "https://docs.soliditylang.org/en/v0.8.10/abi-spec.html"
+        ],
+        "eips.ethereum.org": [
+            "https://eips.ethereum.org/EIPS/eip-145"
+        ],
+        "esp.ethereum.foundation": [
+            "https://esp.ethereum.foundation"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/content/developers/tutorials/reverse-engineering-a-contract/calldata-empty.png",
+            "https://ethereum.org/content/developers/tutorials/reverse-engineering-a-contract/claim-tx.png",
+            "https://ethereum.org/content/developers/tutorials/reverse-engineering-a-contract/create-tx.png",
+            "https://ethereum.org/content/developers/tutorials/reverse-engineering-a-contract/flowchart-abi.png",
+            "https://ethereum.org/content/developers/tutorials/reverse-engineering-a-contract/flowchart-entry.png",
+            "https://ethereum.org/content/developers/tutorials/reverse-engineering-a-contract/flowchart-proxy.png",
+            "https://ethereum.org/content/developers/tutorials/reverse-engineering-a-contract/opcode-view.png",
+            "https://ethereum.org/content/developers/tutorials/reverse-engineering-a-contract/storage6.png",
+            "https://ethereum.org/en/",
+            "https://ethereum.org/en/about/",
+            "https://ethereum.org/en/about/#open-jobs",
+            "https://ethereum.org/en/assets/",
+            "https://ethereum.org/en/bug-bounty/",
+            "https://ethereum.org/en/community/",
+            "https://ethereum.org/en/community/code-of-conduct/",
+            "https://ethereum.org/en/community/events/",
+            "https://ethereum.org/en/community/grants/",
+            "https://ethereum.org/en/community/online/",
+            "https://ethereum.org/en/community/research/",
+            "https://ethereum.org/en/contributing/",
+            "https://ethereum.org/en/contributing/translation-program/",
+            "https://ethereum.org/en/cookie-policy/",
+            "https://ethereum.org/en/dao/",
+            "https://ethereum.org/en/dapps/",
+            "https://ethereum.org/en/decentralized-identity/",
+            "https://ethereum.org/en/defi/",
+            "https://ethereum.org/en/developers/",
+            "https://ethereum.org/en/developers/docs/",
+            "https://ethereum.org/en/developers/docs/design-and-ux/",
+            "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+            "https://ethereum.org/en/developers/learning-tools/",
+            "https://ethereum.org/en/developers/local-environment/",
+            "https://ethereum.org/en/developers/tutorials/",
+            "https://ethereum.org/en/developers/tutorials/reverse-engineering-a-contract/#0x1f135823",
+            "https://ethereum.org/en/developers/tutorials/reverse-engineering-a-contract/#0x81e580d3",
+            "https://ethereum.org/en/developers/tutorials/reverse-engineering-a-contract/#1e7df9d3",
+            "https://ethereum.org/en/developers/tutorials/reverse-engineering-a-contract/#abi-calls",
+            "https://ethereum.org/en/developers/tutorials/reverse-engineering-a-contract/#claim",
+            "https://ethereum.org/en/developers/tutorials/reverse-engineering-a-contract/#conclusion",
+            "https://ethereum.org/en/developers/tutorials/reverse-engineering-a-contract/#currentwindow",
+            "https://ethereum.org/en/developers/tutorials/reverse-engineering-a-contract/#delegatecall-failed",
+            "https://ethereum.org/en/developers/tutorials/reverse-engineering-a-contract/#introduction",
+            "https://ethereum.org/en/developers/tutorials/reverse-engineering-a-contract/#main-content",
+            "https://ethereum.org/en/developers/tutorials/reverse-engineering-a-contract/#merkeroot",
+            "https://ethereum.org/en/developers/tutorials/reverse-engineering-a-contract/#merkleroot",
+            "https://ethereum.org/en/developers/tutorials/reverse-engineering-a-contract/#method-summary",
+            "https://ethereum.org/en/developers/tutorials/reverse-engineering-a-contract/#prepare-the-executable-code",
+            "https://ethereum.org/en/developers/tutorials/reverse-engineering-a-contract/#scaleamountbypercentage",
+            "https://ethereum.org/en/developers/tutorials/reverse-engineering-a-contract/#splitter",
+            "https://ethereum.org/en/developers/tutorials/reverse-engineering-a-contract/#the-constructor",
+            "https://ethereum.org/en/developers/tutorials/reverse-engineering-a-contract/#the-da-code",
+            "https://ethereum.org/en/developers/tutorials/reverse-engineering-a-contract/#the-e4-code",
+            "https://ethereum.org/en/developers/tutorials/reverse-engineering-a-contract/#the-entry-point-0x00",
+            "https://ethereum.org/en/developers/tutorials/reverse-engineering-a-contract/#the-handler-at-0x5e-for-non-abi-call-data",
+            "https://ethereum.org/en/developers/tutorials/reverse-engineering-a-contract/#the-handler-at-0x7c",
+            "https://ethereum.org/en/developers/tutorials/reverse-engineering-a-contract/#the-proxy-contract",
+            "https://ethereum.org/en/eips/",
+            "https://ethereum.org/en/enterprise/",
+            "https://ethereum.org/en/enterprise/private-ethereum/",
+            "https://ethereum.org/en/eth/",
+            "https://ethereum.org/en/foundation/",
+            "https://ethereum.org/en/gas/",
+            "https://ethereum.org/en/get-eth/",
+            "https://ethereum.org/en/glossary/",
+            "https://ethereum.org/en/governance/",
+            "https://ethereum.org/en/guides/",
+            "https://ethereum.org/en/history/",
+            "https://ethereum.org/en/layer-2/",
+            "https://ethereum.org/en/learn/",
+            "https://ethereum.org/en/nft/",
+            "https://ethereum.org/en/privacy-policy/",
+            "https://ethereum.org/en/quizzes/",
+            "https://ethereum.org/en/roadmap/",
+            "https://ethereum.org/en/roadmap/security/",
+            "https://ethereum.org/en/run-a-node/",
+            "https://ethereum.org/en/security/",
+            "https://ethereum.org/en/smart-contracts/",
+            "https://ethereum.org/en/stablecoins/",
+            "https://ethereum.org/en/staking/",
+            "https://ethereum.org/en/terms-of-use/",
+            "https://ethereum.org/en/wallets/",
+            "https://ethereum.org/en/wallets/find-wallet/",
+            "https://ethereum.org/en/web3/",
+            "https://ethereum.org/en/what-is-ethereum/",
+            "https://ethereum.org/en/whitepaper/"
+        ],
+        "etherscan.io": [
+            "https://etherscan.io/address/0x2510c039cc3b061d79e564b38836da87e31b342f",
+            "https://etherscan.io/address/0x2510c039cc3b061d79e564b38836da87e31b342f#code",
+            "https://etherscan.io/address/0x2510c039cc3b061d79e564b38836da87e31b342f#events",
+            "https://etherscan.io/address/0x2f81e57ff4f4d83b40a9f719fd892d8e806e0761",
+            "https://etherscan.io/address/0xb8901acb165ed027e32754e0ffe830802919727f#code",
+            "https://etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "https://etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2#code",
+            "https://etherscan.io/bytecode-decompiler?a=0x2510c039cc3b061d79e564b38836da87e31b342f",
+            "https://etherscan.io/bytecode-decompiler?a=0x2f81e57ff4f4d83b40a9f719fd892d8e806e0761",
+            "https://etherscan.io/stat/supply",
+            "https://etherscan.io/tx/0xa1ea0549fb349eb7d3aff90e1d6ce7469fdfdcd59a2fd9b8d1f5e420c0d05b58#statechange",
+            "https://etherscan.io/tx/0xe7d3b7e00f645af17dfbbd010478ef4af235896c65b6548def1fe95b3b7d2274",
+            "https://etherscan.io/tx/0xeec75287a583c36bcc7ca87685ab41603494516a0f5986d18de96c8e630762e7",
+            "https://etherscan.io/tx/0xf708d306de39c422472f43cb975d97b66fd5d6a6863db627067167cbf93d84d1#statechange"
+        ],
+        "github.com": [
+            "https://github.com/ethereum/ethereum-org-website",
+            "https://github.com/ethereum/ethereum-org-website/tree/dev/public/content/developers/tutorials/reverse-engineering-a-contract/index.md",
+            "https://github.com/wackerow",
+            "https://github.com/wolflo/evm-opcodes"
+        ],
+        "medium.com": [
+            "https://medium.com/crypto-0-nite/merkle-proofs-explained-6dd429623dc5",
+            "https://medium.com/mycrypto/the-ethereum-virtual-machine-how-does-it-work-9abac2b7c9e",
+            "https://medium.com/upstate-interactive/solidity-override-vs-virtual-functions-c0a5dfb83aaf"
+        ],
+        "solidity-by-example.org": [
+            "https://solidity-by-example.org/payable/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ethdotorg"
+        ],
+        "weth.tkn.eth.limo": [
+            "https://weth.tkn.eth.limo/"
+        ],
+        "www.4byte.directory": [
+            "https://www.4byte.directory/",
+            "https://www.4byte.directory/signatures/?bytes4_signature=0x2e7ba6ef",
+            "https://www.4byte.directory/signatures/?bytes4_signature=0x2eb4a7ab",
+            "https://www.4byte.directory/signatures/?bytes4_signature=0x338b1d31",
+            "https://www.4byte.directory/signatures/?bytes4_signature=0x3cd8045e",
+            "https://www.4byte.directory/signatures/?bytes4_signature=0xba0bafb4",
+            "https://www.4byte.directory/signatures/?bytes4_signature=0xd2ef0795",
+            "https://www.4byte.directory/x/?bytes4_signature=0x8ffb5c97"
+        ]
+    }
+}

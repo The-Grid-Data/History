@@ -1,0 +1,132 @@
+{
+    "target_url": "https://ethereum.org/en/developers/tutorials/monitoring-geth-with-influxdb-and-grafana/",
+    "domains": {
+        "": [
+            "mailto:press@ethereum.org"
+        ],
+        "blog.ethereum.org": [
+            "https://blog.ethereum.org/"
+        ],
+        "devcon.org": [
+            "https://devcon.org/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/ethereum-org"
+        ],
+        "docs.influxdata.com": [
+            "https://docs.influxdata.com/influxdb/v1.8/tools/shell/"
+        ],
+        "esp.ethereum.foundation": [
+            "https://esp.ethereum.foundation"
+        ],
+        "ethbian.org": [
+            "https://ethbian.org/index.html"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/content/developers/tutorials/monitoring-geth-with-influxdb-and-grafana/grafana1.png",
+            "https://ethereum.org/content/developers/tutorials/monitoring-geth-with-influxdb-and-grafana/grafana2.png",
+            "https://ethereum.org/content/developers/tutorials/monitoring-geth-with-influxdb-and-grafana/grafana3.png",
+            "https://ethereum.org/content/developers/tutorials/monitoring-geth-with-influxdb-and-grafana/grafana4.png",
+            "https://ethereum.org/content/developers/tutorials/monitoring-geth-with-influxdb-and-grafana/grafana5.png",
+            "https://ethereum.org/content/developers/tutorials/monitoring-geth-with-influxdb-and-grafana/grafana6.png",
+            "https://ethereum.org/content/developers/tutorials/monitoring-geth-with-influxdb-and-grafana/grafana7.png",
+            "https://ethereum.org/content/developers/tutorials/monitoring-geth-with-influxdb-and-grafana/grafana8.png",
+            "https://ethereum.org/en/",
+            "https://ethereum.org/en/about/",
+            "https://ethereum.org/en/about/#open-jobs",
+            "https://ethereum.org/en/assets/",
+            "https://ethereum.org/en/bug-bounty/",
+            "https://ethereum.org/en/community/",
+            "https://ethereum.org/en/community/code-of-conduct/",
+            "https://ethereum.org/en/community/events/",
+            "https://ethereum.org/en/community/grants/",
+            "https://ethereum.org/en/community/online/",
+            "https://ethereum.org/en/community/research/",
+            "https://ethereum.org/en/contributing/",
+            "https://ethereum.org/en/contributing/translation-program/",
+            "https://ethereum.org/en/cookie-policy/",
+            "https://ethereum.org/en/dao/",
+            "https://ethereum.org/en/dapps/",
+            "https://ethereum.org/en/decentralized-identity/",
+            "https://ethereum.org/en/defi/",
+            "https://ethereum.org/en/developers/",
+            "https://ethereum.org/en/developers/docs/",
+            "https://ethereum.org/en/developers/docs/design-and-ux/",
+            "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+            "https://ethereum.org/en/developers/learning-tools/",
+            "https://ethereum.org/en/developers/local-environment/",
+            "https://ethereum.org/en/developers/tutorials/",
+            "https://ethereum.org/en/developers/tutorials/monitoring-geth-with-influxdb-and-grafana/#main-content",
+            "https://ethereum.org/en/developers/tutorials/monitoring-geth-with-influxdb-and-grafana/#monitoring-stack",
+            "https://ethereum.org/en/developers/tutorials/monitoring-geth-with-influxdb-and-grafana/#preparing-geth",
+            "https://ethereum.org/en/developers/tutorials/monitoring-geth-with-influxdb-and-grafana/#prerequisites",
+            "https://ethereum.org/en/developers/tutorials/monitoring-geth-with-influxdb-and-grafana/#setting-up-grafana",
+            "https://ethereum.org/en/developers/tutorials/monitoring-geth-with-influxdb-and-grafana/#setting-up-influxdb",
+            "https://ethereum.org/en/eips/",
+            "https://ethereum.org/en/enterprise/",
+            "https://ethereum.org/en/enterprise/private-ethereum/",
+            "https://ethereum.org/en/eth/",
+            "https://ethereum.org/en/foundation/",
+            "https://ethereum.org/en/gas/",
+            "https://ethereum.org/en/get-eth/",
+            "https://ethereum.org/en/glossary/",
+            "https://ethereum.org/en/governance/",
+            "https://ethereum.org/en/guides/",
+            "https://ethereum.org/en/history/",
+            "https://ethereum.org/en/layer-2/",
+            "https://ethereum.org/en/learn/",
+            "https://ethereum.org/en/nft/",
+            "https://ethereum.org/en/privacy-policy/",
+            "https://ethereum.org/en/quizzes/",
+            "https://ethereum.org/en/roadmap/",
+            "https://ethereum.org/en/roadmap/security/",
+            "https://ethereum.org/en/run-a-node/",
+            "https://ethereum.org/en/security/",
+            "https://ethereum.org/en/smart-contracts/",
+            "https://ethereum.org/en/stablecoins/",
+            "https://ethereum.org/en/staking/",
+            "https://ethereum.org/en/terms-of-use/",
+            "https://ethereum.org/en/wallets/",
+            "https://ethereum.org/en/wallets/find-wallet/",
+            "https://ethereum.org/en/web3/",
+            "https://ethereum.org/en/what-is-ethereum/",
+            "https://ethereum.org/en/whitepaper/"
+        ],
+        "github.com": [
+            "https://github.com/ethereum/ethereum-org-website",
+            "https://github.com/ethereum/ethereum-org-website/tree/dev/public/content/developers/tutorials/monitoring-geth-with-influxdb-and-grafana/index.md",
+            "https://github.com/hunterlong/gethexporter",
+            "https://github.com/nhsz"
+        ],
+        "grafana.com": [
+            "https://grafana.com/docs/grafana/latest/alerting/",
+            "https://grafana.com/docs/grafana/latest/dashboards/",
+            "https://grafana.com/grafana/dashboards/13877/"
+        ],
+        "portal.influxdata.com": [
+            "https://portal.influxdata.com/downloads/"
+        ],
+        "prometheus.io": [
+            "https://prometheus.io/"
+        ],
+        "repos.influxdata.com": [
+            "https://repos.influxdata.com/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ethdotorg"
+        ],
+        "www.datadoghq.com": [
+            "https://www.datadoghq.com/"
+        ],
+        "www.grafana.com": [
+            "https://www.grafana.com/"
+        ],
+        "www.influxdata.com": [
+            "https://www.influxdata.com/get-influxdb/",
+            "https://www.influxdata.com/time-series-platform/chronograf/"
+        ],
+        "www.youtube.com": [
+            "https://www.youtube.com/watch?v=cOBab8IJMYI"
+        ]
+    }
+}
