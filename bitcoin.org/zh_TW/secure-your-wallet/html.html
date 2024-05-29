@@ -1,0 +1,821 @@
+<!DOCTYPE html><html lang="zh_TW"><head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>ç¢ºä¿é¢åå®å¨ - Bitcoin</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+<link rel="stylesheet" href="/css/sans.css?1716491272">
+<script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.org is a community funded project, donations are appreciated and used to improve the website.
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        Make a donation
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.org needs your support!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">Donate to Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">Use this QR code or address below</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="Or custom amount? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="Or custom amount? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="Optional description (for your wallet)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="/zh_TW/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">ä»ç´¹</a>
+    <ul>
+      <li><a href="/zh_TW/bitcoin-for-individuals">åäºº</a></li>
+      <li><a href="/zh_TW/bitcoin-for-businesses">åå</a></li>
+      <li><a href="https://developer.bitcoin.org/">éç¼äººå¡</a></li>
+      <li><a href="/zh_TW/getting-started">éå§ä½¿ç¨</a></li>
+      <li><a href="/zh_TW/how-it-works">éä½åç</a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">è³æº</a>
+    <ul>
+      <li><a href="/zh_TW/resources">è³æº</a>
+      </li><li><a href="/zh_TW/exchanges">Exchanges</a></li>
+      <li><a href="/zh_TW/community">ç¤¾ç¾¤</a></li>
+      
+      
+      <li><a href="/zh_TW/vocabulary">è©å½</a></li>
+      <li><a href="/zh_TW/events">æ´»å</a></li>
+      
+        <li><a href="/zh_TW/download">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li><a href="/zh_TW/innovation">åµæ°</a></li>
+  <li><a class="is-expand">åè</a>
+    <ul>
+      <li><a href="/zh_TW/support-bitcoin">æ¯æ Bitcoin</a>
+      </li><li><a href="/zh_TW/buy">Buy Bitcoin</a></li>
+      
+      <li><a href="/zh_TW/development">éç¼</a></li>
+    </ul>
+  </li>
+  <li><a href="/zh_TW/faq">å¸¸è¦åé¡</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>ç¹é«ä¸­æ</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/amankan-wallet-anda">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/assegura-el-teu-moneder">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/sikr-din-tegnebog">Dansk</a></li>
+        
+        
+          <li><a href="/de/sichern-sie-ihre-wallet">Deutsch</a></li>
+        
+        
+          <li><a href="/en/secure-your-wallet">English</a></li>
+        
+        
+          <li><a href="/es/asegure-su-monedero">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/securiser-porte-monnaie">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/proteggi-il-portafoglio">Italiano</a></li>
+        
+        
+          <li><a href="/hu/vedje-meg-penztarcajat">Magyar</a></li>
+        
+        
+          <li><a href="/nl/beveilig-uw-portemonnee">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/zabezpiecz-swoj-portfel">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/proteja-sua-carteira">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/securizeaza-portofelul">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/zavarujte-svojo-denarnico">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/sigurnost-vaseg-novcanik">Srpski</a></li>
+        
+        
+          <li><a href="/sv/sakra-din-planbok">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/cuzdaninizi-guvenceye-almak">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/secure-your-wallet">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/secure-your-wallet">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/secure-your-wallet">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/secure-your-wallet">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/secure-your-wallet">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/secure-your-wallet">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/secure-your-wallet">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/secure-your-wallet">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/secure-your-wallet">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/secure-your-wallet">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/secure-your-wallet">ááááá</a></li>
+        
+        
+          <li><a href="/ja/secure-your-wallet">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/secure-your-wallet">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/secure-your-wallet" class="active">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/amankan-wallet-anda">Bahasa Indonesia</option>
+            
+            <option value="/ca/assegura-el-teu-moneder">CatalÃ </option>
+            
+            <option value="/da/sikr-din-tegnebog">Dansk</option>
+            
+            <option value="/de/sichern-sie-ihre-wallet">Deutsch</option>
+            
+            <option value="/en/secure-your-wallet">English</option>
+            
+            <option value="/es/asegure-su-monedero">EspaÃ±ol</option>
+            
+            <option value="/fr/securiser-porte-monnaie">FranÃ§ais</option>
+            
+            <option value="/it/proteggi-il-portafoglio">Italiano</option>
+            
+            <option value="/hu/vedje-meg-penztarcajat">Magyar</option>
+            
+            <option value="/nl/beveilig-uw-portemonnee">Nederlands</option>
+            
+            <option value="/pl/zabezpiecz-swoj-portfel">Polski</option>
+            
+            <option value="/pt_BR/proteja-sua-carteira">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/securizeaza-portofelul">RomÃ¢nÄ</option>
+            
+            <option value="/sl/zavarujte-svojo-denarnico">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/sigurnost-vaseg-novcanik">Srpski</option>
+            
+            <option value="/sv/sakra-din-planbok">Svenska</option>
+            
+            <option value="/tr/cuzdaninizi-guvenceye-almak">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/secure-your-wallet">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/secure-your-wallet">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/secure-your-wallet">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/secure-your-wallet">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/secure-your-wallet">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/secure-your-wallet">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/secure-your-wallet">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/secure-your-wallet">×¢××¨××ª</option>
+            
+            <option value="/hi/secure-your-wallet">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/secure-your-wallet">íêµ­ì´</option>
+            
+            <option value="/km/secure-your-wallet">ááááá</option>
+            
+            <option value="/ja/secure-your-wallet">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/secure-your-wallet">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/secure-your-wallet" selected="selected">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">zh_TW</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  <div class="hero">
+  <div class="container hero-container">
+    <h1>ç¢ºä¿é¢åå®å¨</h1>
+    
+      <p class="summarytxt">åå¨ç¾å¯¦ä¸­ä¸æ¨£ï¼ä½ éè¦ä¿è­·å¥½ä½ çé¢åãBitcoin è®éå¸¸å®¹æå°é²è¡è·¨åå¯æ¬¾æçºå¯è½ï¼åæå®è½è®ä½ å°ä½ çé¢æææ§å¶æ¬ãéäºå¾æ£çåè½ä¹ä¼´é¨èå®å¨æ§é¡§æ®èä¾ãä¸éåªè¦ä½ æ­£ç¢ºä½¿ç¨ï¼Bitcoin è½æä¾ç¸ç¶é«ç­ç´çå®å¨ä¿éã<b>æ°¸é è¨ä½ï¼æ¡åè¯å¥½çæªæ½ä¾ä¿è­·ä½ çé¢æ¯ä½ è²¬ä»»</b>ã</p>
+    
+  </div>
+</div>
+
+<div class="toc-container">
+  <div class="row toc-row">
+
+    <div id="toc" class="toc">
+      <div>
+        <button class="mob-sidebar-open" hidden="">View All</button>
+        <div class="sidebar">
+          <div class="sidebar-inner">
+            <button class="mob-sidebar-close" hidden=""></button>
+            
+
+<ul>
+  <li><a href="#online">è¬¹æä½¿ç¨ç¶²è·¯æå</a></li>
+  <li><a href="#everyday">æ¥å¸¸ç¨éçå°é¡æ¬¾é </a></li>
+  <li><a href="#backup">åä»½é¢å</a>
+    <ul>
+      <li><a href="#backupwhole">åä»½æ´åé¢å</a></li>
+      <li><a href="#backuponline">å°ç·ä¸åä»½å å¯</a></li>
+      <li><a href="#backupmany">ä½¿ç¨å¤åå®å¨ç©ºé</a></li>
+      <li><a href="#backupregular">å®æåä»½</a></li>
+    </ul>
+  </li>
+  <li><a href="#encrypt">å°é¢åå å¯</a>
+    <ul>
+      <li><a href="#encryptforget">ä¸è¦å¿è¨å¯ç¢¼</a></li>
+      <li><a href="#encryptstrong">ä½¿ç¨å¼·å¼å¯ç¢¼</a></li>
+    </ul>
+  </li>
+  <li><a href="#offline">ä½¿ç¨é¢ç·é¢åä¿ç®¡è²¡ç¢</a>
+    <ul>
+      <li><a href="#offlinetx">é¢ç·äº¤æç°½ç½²</a></li>
+      <li><a href="#hardwarewallet">ç¡¬é«é¢å</a></li>
+    </ul>
+  </li>
+  <li><a href="#update">ç¸½æ¯æ´æ°æ¨çè»é«</a></li>
+  <li><a href="#offlinemulti">é²ç«ç¨å¤éç°½ç« </a></li>
+  <li><a href="#offlinetestament">èæ®ä¸ä¸æ¨çéºå</a></li>
+</ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="toccontent">
+      <div class="toccontent-intro">
+    <h2 id="online" class=" anchorAf"><a href="#online"></a>è¬¹æä½¿ç¨ç¶²è·¯æå</h2>
+    <p>æ¨æè©²è­¦æææçºå¨ç·å²å­æ¨çé¢èè¨­è¨çæåãå¾å¤åæåç¶²è·¯é¢åå¨éå»é½éå°äºå®å¨æ¼æ´åé¡ï¼èä¸éäºæåéå¸¸é½ä¸åéè¡ä¸æ¨£æä¾è¶³å¤ çä¿éªåå®å¨ä¿éä¾å²å­éé¢ãæä»¥ï¼æ¨å¯è½æ³è¦ä½¿ç¨å¶ä»ç<a href="/zh_TW/choose-your-wallet">Bitcoin é¢å</a>ãå¦åæ¨æç¶å°å¿é¸æéæ¨£çæåãå¦å¤ï¼ä½¿ç¨ééé©è­ä¹æ¯å¼å¾æ¨è¦çã</p>
+</div>
+
+<div class="toccontent-block secure-content-block boxexpand expanded">
+  <h2 id="everyday" class=" anchorAf"><a href="#everyday"></a>æ¥å¸¸ç¨éçå°é¡æ¬¾é </h2>
+  <p>Bitcoin é¢åå°±åä¸åéç¥¨é¢åä¸æ¨£ãå¦ææ¨ä¸æ³é¨èº«æå¸¶å¤§ééç¥¨ï¼æ¨å¯è½ä¹æéæ¨£çºæ¨ç Bitcoin é¢åèæ®ãéå¸¸ï¼æ¨æå¥½åªæå°éçæ¯ç¹å¹£æ¾å¨æ¨çé»è¦ãè¡åææ©ææåå¨ä¸ä»¥åæ¥å¸¸ä¹éï¼ç¶å¾æå©ä¸çå¶ä»è³éæ¾å¨ä¸åæ´å®å¨çå°æ¹ã</p>
+</div>
+
+<div class="toccontent-block secure-content-block boxexpand expanded">
+  <h2 id="backup" class=" anchorAf"><a href="#backup"></a>åä»½é¢å</h2>
+  <p>å²å­å¨ä¸åå®å¨çå°æ¹ï¼åä»½æ¨çé¢åå¯ä»¥ä¿è­·æ¨ååè¨ç®å¨ç¶æ©æäººçºé¯èª¤çå½±é¿ãå¦ææ¨çé¢åå å¯äºçè©±ï¼éä¹è®æ¨å¨è¡åé»è©±æè¨ç®å¨è¢«çåå¯ä»¥æ¢å¾©æ¨çé¢åã</p>
+  <div class="box">
+    <h3 id="backupwhole" class=" anchorAf"><a href="#backupwhole"></a>åä»½æ´åé¢å</h3>
+    <p>ä¸äºé¢åå§é¨ä½¿ç¨å¾å¤é±èçç§å¯éé°ãå¦ææ¨åªæ¯å°æ¨å¯è¦ç Bitcoin å°åçç§å¯éé°é²è¡åä»½ï¼æ¨å¯è½ä¸å¯ä»¥ç¨æ¨çåä»½ä¾è¦èæ¨çè³éçå¾å¤§ä¸é¨ä»½ã</p>
+  
+    <h3 id="backuponline" class=" anchorAf"><a href="#backuponline"></a>å°ç·ä¸åä»½å å¯</h3>
+    <p>å²å­å¨ç¶²è·¯ä¸çåä»½å¾å®¹æé­ç«ï¼é»è¦åªè¦é£ä¸ç¶²è·¯å°±é¢è¨è¨±å¤æ¡æè»é«çå¨èãå æ­¤ï¼å å¯æææé²å¨ç¶²è·¯ä¸çåä»½æ¯ææçå®å¨æ§å¯¦åä½æ³ã</p>
+  
+    <h3 id="backupmany" class=" anchorAf"><a href="#backupmany"></a>ä½¿ç¨å¤åå®å¨ç©ºé</h3>
+    <p>å®é»åä»½å¤±å¸¸å°å®å¨æ§æ¯ä»¶å£äºãå¦æä½ çåä»½æå¤åä¿å­ç©ºéï¼å°±æ¯è¼ä¸æå çºä¸å¹¸äºä»¶èç¡æ³éåé¢åãä½ ä¹å¯ä»¥èæ®ä½¿ç¨ USB é¨èº«ç¢ãç´æ¬æä»¶èçæåç¢ç­å¤ç¨®åä»½æ¹å¼ã</p>
+  
+    <h3 id="backupregular" class=" anchorAf"><a href="#backupregular"></a>å®æåä»½</h3>
+    <p>é¢åéè¦å®æåä»½ï¼ä»¥ç¢ºä¿ä½ çåä»½ä¸­åå«æè¿ææç Bitcoin å°åè®æ´ï¼ä»¥åæææ°å»ºç«ç Bitcoin å°åãä¸éï¼å¾å¿«å°ææä½¿ç¨ Bitcoin é¢åçæç¨ç¨å¼é½æåªéä¸æ¬¡åä»½ã</p>
+  </div>
+</div>
+
+<div class="toccontent-block secure-content-block boxexpand expanded">
+  <h2 id="encrypt" class=" anchorAf"><a href="#encrypt"></a>å°é¢åå å¯</h2>
+  <p>å°é¢åæèä½ çææ©å å¯è®ä½ å¯ä»¥è¨­å®ä¸åä»»ä½äººåæ¬¾æé½å¿é çå¯ç¢¼ï¼éæ¨£å¯ä»¥é¿åéé¢é­ç«ï¼ä½ä½ ä»ç¶è¦æé²æäººééè»ç¡¬é«å´éæå­å§å®¹ä¾çåå¯ç¢¼ã</p>
+  
+  <div class="box">
+  
+    <h3 id="encryptforget" class=" anchorAf"><a href="#encryptforget"></a>ä¸è¦å¿è¨å¯ç¢¼</h3>
+    <p>åè¬å¥å¿è¨ä½ çå¯ç¢¼ï¼ä¸ç¶ä½ ææ°¸é æ¾ä¸åæ¨çè³éãBitcoin è·éè¡ä¸åï¼å®çéç½®å¯ç¢¼åè½éå¸¸æéãå³ä¾¿å¤å¹´ä¸ç¨éåå¯ç¢¼ï¼æ¨æè©²éè½è¨ä½å®ãå¦ææ¨æ²æä¿¡å¿ï¼ä½ å¯ä»¥æå¯ç¢¼å¯«ä¸ä¾éå¨ä¿éªç®±ä¹é¡å®å¨çå°æ¹ã</p>
+  
+    <h3 id="encryptstrong" class=" anchorAf"><a href="#encryptstrong"></a>ä½¿ç¨å¼·å¼å¯ç¢¼</h3>
+    <p>åªåå«å­æ¯æå¯è¾¨è­å®å­çå¯ç¢¼å¤ªå¼±èå®¹æè¢«ç ´è§£ãå¼·å¼å¯ç¢¼å¿é åæä½¿ç¨å­æ¯ãæ¸å­èæ¨é»ç¬¦èï¼èä¸é·åº¦é å¤§æ¼16åå­åãæå®å¨çå¯ç¢¼æ¯é£äºç±ç¨å¼å°éè¨­è¨ç¢ççå¯ç¢¼ãå¼·å¼å¯ç¢¼ä¸è¬é½å¾é£è¨æ¶ï¼æä»¥ä½ å¿é åªåè¨ä½å®ãn</p>
+  
+  </div>
+</div>
+
+<div class="toccontent-block secure-content-block boxexpand expanded">
+  <h2 id="offline" class=" anchorAf"><a href="#offline"></a>ä½¿ç¨é¢ç·é¢åä¿ç®¡è²¡ç¢</h2>
+  <p>é¢ç·é¢åï¼æç¨±å·è³æå²å­ï¼ çºå²å­è³ææä¾äºæé«ç­ç´çå®å¨æ§ãå®æ¯æå°é¢åå²å­å¨ä¸åå®å¨çæ²æç¶²è·¯é£ç·çå°æ¹ãå¦ææ­£ç¢ºæä½ï¼å®å¯ä»¥å°åç¨®é»è¦å®å¨æ§æ¼æ´æä¾ç¸ç¶çä¿éãä½¿ç¨é¢ç·é¢åææ­éåä»½èå å¯ä¹æ¯ä¸åå¥½çä½¿ç¨æ¹å¼ãä¸é¢ç°¡è¿°ä¸äºå¯è¡çè¾¦æ³ã</p>
+  
+  <div class="box">
+    <h3 id="offlinetx" class=" anchorAf"><a href="#offlinetx"></a>é¢ç·äº¤æç°½ç½²</h3>
+    <p>éååæ³ä½¿ç¨å©å°é»è¦å±äº«åä¸åé¢åå§çé¨åè³è¨ãå¶ä¸­ä¸å°èæ¼é¢ç·çæï¼å®æ¯å¯ä¸å­æå®æ´é¢åä¸¦è½ç°½ç½²äº¤æçé»è¦ãå¦ä¸å°é»è¦èç¶²è·¯é£ç·ï¼å®åªææä¸åè§ç¨é¢åï¼ç¨ä¾å»ºç«æªç°½ç½²çäº¤æãå¦æ­¤ä¸ä¾ï¼ä½ å°±å¯ä»¥æç§ä¸åæ­¥é©ä¾é²è¡å®å¨çäº¤æï¼</p>
+    <ol>
+      <li>å¨é£ç·çé»è¦ä¸å»ºç«æ°äº¤æï¼ä¸¦å°äº¤æå­å° USB éèº«ç¢ã</li>
+      <li>å¨é¢ç·é»è¦ä¸ç°½ç½²äº¤æã</li>
+      <li>ä»¥é£ç·çé»è¦å³éå·²ç°½ç½²çäº¤æã</li>
+    </ol>
+    <p>å çºèç¶²è·¯é£ç·çé»è¦ç¡æ³ç°½ç½²äº¤æï¼æä»¥å¦æå®åå°å®å¨å¨èçè©±ï¼å®æ¯ä¸è½ç¨æ¥æ¯åä»»ä½è³éçã<a href="https://bitcoinarmory.com/tutorials/armory-advanced-features/offline-wallets/">Armory</a>å¯ä»¥ç¨ä¾é²è¡é¢ç·äº¤æç°½ç½²ã</p>
+  </div>
+
+  <div class="box">
+    <h3 id="hardwarewallet" class=" anchorAf"><a href="#hardwarewallet"></a>ç¡¬é«é¢å</h3>
+    <p>ç¡¬é«é¢åæå¥½å°å¹³è¡¡äºé«å®å¨æ§èå®¹æä½¿ç¨éå©æ¹é¢çéæ±ãéäºå°è£ç½®ææ ¹æ¬çè¨­è¨å³æ¯é¢åï¼èä¸æ¯å¶ä»æ±è¥¿ãæ²¡æè»é«å¯ä»¥å®è£å°ç¡¬é«é¢åä¸­ï¼éä½¿å¾å®åå¯ä»¥å°æé»è¦å®å¨æ¼æ´èç¶²è·¯å°å·ãç¡¬é«é¢åéå¯ä»¥åä»½ï¼å³ä¾¿ä½ ä¸äºå®ä¹è½ååä½ çè³éã</p>
+  </div>
+</div>
+
+<div class="toccontent-block secure-content-block boxexpand expanded">
+  <h2 id="update" class=" anchorAf"><a href="#update"></a>ç¸½æ¯æ´æ°æ¨çè»é«</h2>
+  <p>ä½¿ç¨ææ°çæ¬ç Bitcoin è»é«è½è®æ¨å¨ç©©å®æ§åå®å¨æ§æ¹é¢å¾å°éè¦çä¿®è­·ãæ´æ°å¯ä»¥é²æ­¢åç¨®å´éåé¡çç¼çï¼æ°çå¯¦ç¨åè½ä¹è½å¹«æ¨ä¿éé¢åçå®å¨ãå¨æ¨çé»è¦æè¡åææ©ä¸çµ¦ææå¶ä»çè»é«å®è£æ´æ°ä¹æ¯å¾éè¦çï¼éæ¨£å¯ä»¥ä¿éæ¨çé¢åçç°å¢æ´å å®å¨ã</p>
+</div>
+
+<div class="toccontent-block secure-content-block boxexpand expanded">
+  <h2 id="offlinemulti" class=" anchorAf"><a href="#offlinemulti"></a>é²ç«ç¨å¤éç°½ç« </h2>
+  <p>Bitcoin æä¸ç¨®å¤éç°½ç½²åè½ï¼å®è¦æ±ä¸åäº¤æå¨å¾å°å¤åç¨ç«çè¨±å¯ä¹å¾æè½æäº¤ãéå¯ä»¥æç¨æ¼ä¸åçµç¹ä¹ä¸­ãçµç¹ä¸­çæå¡é½å¯ä»¥æ¥è§¸å®çè³ç¢ï¼ä½æ¯åªæå¨3/5çæå¡ç°½ç½²äº¤æåæè½ææ¬¾ãä¸äºç¶²é é¢åä¹æä¾å¤éç°½ç½²é¢åï¼è®ç¨æ¶å¯ä»¥å°ä»åçé¢æææ§æ¬ï¼åæé²æ­¢å°å·ééå¥ä¾µä¸åå®ç¨çè¨­åæä¼ºæå¨å°±è½çåè³éã</p>
+</div>
+
+<div class="toccontent-block secure-content-block boxexpand expanded">
+  <h2 id="offlinetestament" class=" anchorAf"><a href="#offlinetestament"></a>èæ®ä¸ä¸æ¨çéºå</h2>
+  <p>å¦ææ¨æ²æä¸ååä»½çè¨åçµ¦æ¨çååæå®¶äººï¼æ¨çæ¯ç¹å¹£å°±æå¯è½æ°¸é ä¸å¤±ãç¶ä½ é¢éäººä¸å¾ï¼å¦ææ²æäººç¥éæ¨é¢åå­æ¾çå°é»æå¯ç¢¼çè©±ï¼æ¨çè²¡ç¢å°±æ²æå¸ææéæ°è¢«ç¼ç¾ãå¥½å¥½è±é»æéæ³ä¸ä¸éäºäºæï¼çµæå°±æå¾ä¸ä¸æ¨£ã</p>
+</div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="/zh_TW/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Support Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Donate</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">ä»ç´¹:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/zh_TW/bitcoin-for-individuals">åäºº</a>
+        </li>
+        <li>
+          <a href="/zh_TW/bitcoin-for-businesses">åå</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">éç¼äººå¡</a>
+        </li>
+        <li>
+          <a href="/zh_TW/getting-started">éå§ä½¿ç¨</a>
+        </li>
+        <li>
+          <a href="/zh_TW/how-it-works">éä½åç</a>
+        </li>
+        <li>
+          <a href="/zh_TW/you-need-to-know">ä½¿ç¨é ç¥</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">è³æº:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/zh_TW/resources">è³æº</a>
+        </li><li>
+          <a href="/zh_TW/exchanges">Exchanges</a>
+        </li>
+        <li>
+          <a href="/zh_TW/community">ç¤¾ç¾¤</a>
+        </li>
+        <li>
+          <a href="/zh_TW/vocabulary">è©å½
+          </a>
+        </li>
+        <li>
+          <a href="/zh_TW/events">æ´»å</a>
+        </li>
+        
+          <li>
+            <a href="/zh_TW/download">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">åè:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/zh_TW/support-bitcoin">æ¯æ Bitcoin</a>
+        
+        
+        </li><li>
+          <a href="/zh_TW/development">éç¼</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Other:</p>
+      
+      <a href="/zh_TW/legal">åæ³</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/zh_TW/press">æ°èåªé«</a>
+      <a href="/zh_TW/about-us">éæ¼ bitcoin.org</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>ä¸åç±å¶è´å©çç¤¾ç¾¤ç¶²ç«</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1716491272" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 ä»¥ <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT ææ¬</a>ç¼ä½</div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">Network Status</a>
+        
+<ul class="lang is-expand">
+  <li><a>ç¹é«ä¸­æ</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/amankan-wallet-anda">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/assegura-el-teu-moneder">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/sikr-din-tegnebog">Dansk</a></li>
+        
+        
+          <li><a href="/de/sichern-sie-ihre-wallet">Deutsch</a></li>
+        
+        
+          <li><a href="/en/secure-your-wallet">English</a></li>
+        
+        
+          <li><a href="/es/asegure-su-monedero">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/securiser-porte-monnaie">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/proteggi-il-portafoglio">Italiano</a></li>
+        
+        
+          <li><a href="/hu/vedje-meg-penztarcajat">Magyar</a></li>
+        
+        
+          <li><a href="/nl/beveilig-uw-portemonnee">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/zabezpiecz-swoj-portfel">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/proteja-sua-carteira">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/securizeaza-portofelul">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/zavarujte-svojo-denarnico">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/sigurnost-vaseg-novcanik">Srpski</a></li>
+        
+        
+          <li><a href="/sv/sakra-din-planbok">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/cuzdaninizi-guvenceye-almak">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/secure-your-wallet">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/secure-your-wallet">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/secure-your-wallet">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/secure-your-wallet">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/secure-your-wallet">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/secure-your-wallet">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/secure-your-wallet">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/secure-your-wallet">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/secure-your-wallet">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/secure-your-wallet">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/secure-your-wallet">ááááá</a></li>
+        
+        
+          <li><a href="/ja/secure-your-wallet">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/secure-your-wallet">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/secure-your-wallet" class="active">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/amankan-wallet-anda">Bahasa Indonesia</option>
+              
+              <option value="/ca/assegura-el-teu-moneder">CatalÃ </option>
+              
+              <option value="/da/sikr-din-tegnebog">Dansk</option>
+              
+              <option value="/de/sichern-sie-ihre-wallet">Deutsch</option>
+              
+              <option value="/en/secure-your-wallet">English</option>
+              
+              <option value="/es/asegure-su-monedero">EspaÃ±ol</option>
+              
+              <option value="/fr/securiser-porte-monnaie">FranÃ§ais</option>
+              
+              <option value="/it/proteggi-il-portafoglio">Italiano</option>
+              
+              <option value="/hu/vedje-meg-penztarcajat">Magyar</option>
+              
+              <option value="/nl/beveilig-uw-portemonnee">Nederlands</option>
+              
+              <option value="/pl/zabezpiecz-swoj-portfel">Polski</option>
+              
+              <option value="/pt_BR/proteja-sua-carteira">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/securizeaza-portofelul">RomÃ¢nÄ</option>
+              
+              <option value="/sl/zavarujte-svojo-denarnico">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/sigurnost-vaseg-novcanik">Srpski</option>
+              
+              <option value="/sv/sakra-din-planbok">Svenska</option>
+              
+              <option value="/tr/cuzdaninizi-guvenceye-almak">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/secure-your-wallet">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/secure-your-wallet">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/secure-your-wallet">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/secure-your-wallet">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/secure-your-wallet">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/secure-your-wallet">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/secure-your-wallet">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/secure-your-wallet">×¢××¨××ª</option>
+              
+              <option value="/hi/secure-your-wallet">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/secure-your-wallet">íêµ­ì´</option>
+              
+              <option value="/km/secure-your-wallet">ááááá</option>
+              
+              <option value="/ja/secure-your-wallet">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/secure-your-wallet">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/secure-your-wallet" selected="selected">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">zh_TW</span>
+          </label>
+        </div>
+      </div>
+<!--      <div class="row">  -->
+        
+<!--    </div> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+
+
+  <script>updateToc();</script>
+<script>accordion();</script>
+<script>onScrollButton();</script>
+<script>boxShow();</script>
+
+
+
+
+
+
+</body></html>
