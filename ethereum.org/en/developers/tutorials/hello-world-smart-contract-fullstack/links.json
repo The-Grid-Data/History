@@ -1,0 +1,249 @@
+{
+    "target_url": "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/",
+    "domains": {
+        "": [
+            "mailto:press@ethereum.org"
+        ],
+        "alchemyapi.io": [
+            "https://alchemyapi.io/eth"
+        ],
+        "blog.bitsrc.io": [
+            "https://blog.bitsrc.io/understanding-asynchronous-javascript-the-event-loop-74cd408419ff"
+        ],
+        "blog.ethereum.org": [
+            "https://blog.ethereum.org/"
+        ],
+        "composer.alchemyapi.io": [
+            "https://composer.alchemyapi.io/?composer_state=%7B%22network%22%3A0%2C%22methodName%22%3A%22eth_getBalance%22%2C%22paramValues%22%3A%5B%22%22%2C%22latest%22%5D%7D"
+        ],
+        "dashboard.alchemyapi.io": [
+            "https://dashboard.alchemyapi.io/explorer",
+            "https://dashboard.alchemyapi.io/mempool"
+        ],
+        "devcon.org": [
+            "https://devcon.org/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/ethereum-org",
+            "https://discord.gg/gWuC7zB",
+            "https://discord.gg/u72VCg3"
+        ],
+        "docs.alchemy.com": [
+            "https://docs.alchemy.com/alchemy/documentation/alchemy-web3",
+            "https://docs.alchemy.com/alchemy/tutorials/hello-world-smart-contract#step-10-write-our-contract",
+            "https://docs.alchemy.com/alchemy/tutorials/hello-world-smart-contract/interacting-with-a-smart-contract#step-1-install-web3-library"
+        ],
+        "docs.alchemyapi.io": [
+            "https://docs.alchemyapi.io/alchemy/documentation/alchemy-api-reference/json-rpc",
+            "https://docs.alchemyapi.io/alchemy/documentation/alchemy-api-reference/json-rpc#eth_getbalance",
+            "https://docs.alchemyapi.io/alchemy/documentation/alchemy-api-reference/json-rpc#eth_gettransactionbyhash",
+            "https://docs.alchemyapi.io/alchemy/documentation/alchemy-api-reference/json-rpc#eth_sendrawtransaction",
+            "https://docs.alchemyapi.io/alchemy/guides/alchemy-for-macs#1-install-nodejs-and-npm",
+            "https://docs.alchemyapi.io/alchemy/tutorials/sending-transactions-using-web3-and-alchemy",
+            "https://docs.alchemyapi.io/guides/choosing-a-network"
+        ],
+        "docs.ethers.io": [
+            "https://docs.ethers.io/v5/"
+        ],
+        "docs.metamask.io": [
+            "https://docs.metamask.io/guide/ethereum-provider.html#table-of-contents",
+            "https://docs.metamask.io/guide/rpc-api.html#eth-requestaccounts"
+        ],
+        "docs.soliditylang.org": [
+            "https://docs.soliditylang.org/en/v0.8.0/"
+        ],
+        "docs.web3js.org": [
+            "https://docs.web3js.org/",
+            "https://docs.web3js.org/api/web3-eth-contract/class/Contract"
+        ],
+        "en.wikipedia.org": [
+            "https://en.wikipedia.org/wiki/Factory_(object-oriented_programming)",
+            "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller"
+        ],
+        "esp.ethereum.foundation": [
+            "https://esp.ethereum.foundation"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/content/developers/tutorials/hello-world-smart-contract-fullstack/create-app-view-hello-world.png",
+            "https://ethereum.org/content/developers/tutorials/hello-world-smart-contract-fullstack/etherscan-contract.png",
+            "https://ethereum.org/content/developers/tutorials/hello-world-smart-contract-fullstack/etherscan-transaction.png",
+            "https://ethereum.org/content/developers/tutorials/hello-world-smart-contract-fullstack/get-alchemy-api-key.gif",
+            "https://ethereum.org/content/developers/tutorials/hello-world-smart-contract-fullstack/hello-world-create-app.png",
+            "https://ethereum.org/content/developers/tutorials/hello-world-smart-contract-fullstack/hello-world-explorer.png",
+            "https://ethereum.org/en/",
+            "https://ethereum.org/en/about/",
+            "https://ethereum.org/en/about/#open-jobs",
+            "https://ethereum.org/en/assets/",
+            "https://ethereum.org/en/bug-bounty/",
+            "https://ethereum.org/en/community/",
+            "https://ethereum.org/en/community/code-of-conduct/",
+            "https://ethereum.org/en/community/events/",
+            "https://ethereum.org/en/community/grants/",
+            "https://ethereum.org/en/community/online/",
+            "https://ethereum.org/en/community/research/",
+            "https://ethereum.org/en/contributing/",
+            "https://ethereum.org/en/contributing/translation-program/",
+            "https://ethereum.org/en/cookie-policy/",
+            "https://ethereum.org/en/dao/",
+            "https://ethereum.org/en/dapps/",
+            "https://ethereum.org/en/decentralized-identity/",
+            "https://ethereum.org/en/defi/",
+            "https://ethereum.org/en/developers/",
+            "https://ethereum.org/en/developers/docs/",
+            "https://ethereum.org/en/developers/docs/design-and-ux/",
+            "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+            "https://ethereum.org/en/developers/docs/networks/#goerli",
+            "https://ethereum.org/en/developers/docs/transactions/",
+            "https://ethereum.org/en/developers/learning-tools/",
+            "https://ethereum.org/en/developers/local-environment/",
+            "https://ethereum.org/en/developers/tutorials/",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#add-ether-from-a-faucet",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#add-the-connectwallet-function-to-your-helloworld-js-ui-component",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#check-out-the-starter-files",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#check-out-your-smart-contract-on-etherscan",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#check-your-balance",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#clone-the-starter-files",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#connect-to-the-ethereum-network",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#connect-updatemessage-to-the-helloworld-js-frontend",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#create-a-interactjs-file",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#create-an-ethereum-account",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#create-an-instance-of-your-contract",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#create-your-app-and-api-key",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#download-metamask",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#establish-an-api-connection-to-the-ethereum-chain",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#get-your-react-project-running",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#grab-your-contract-abi",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#hardhat-deployed-smart-contracts",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#how-to-get-your-contract-abi-from-etherscan",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#implement-addsmartcontractlistener",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#implement-addwalletlistener",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#implementing-loadcurrentmessage-in-your-interact-js-file",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#input-error-handling",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#install-hardhat-etherscan",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#loading-your-hello-world-smart-contract",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#main-content",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#make-your-own-custom-dapp",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#part-1",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#part-2-interact-with-your-smart-contract",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#part-3",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#part-3-publish-your-smart-contract-to-etherscan",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#part-3-publish-your-smart-contract-to-etherscan-part-3-publish-your-smart-contract-to-etherscan",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#part-4-integrating-your-smart-contract-with-the-frontend",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#read-the-init-message",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#read-the-new-message",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#signing-our-transaction",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#step-1-generate-an-api-key-on-your-etherscan-account",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#step-10-write-our-contract",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#step-11-connect-metamask-&-alchemy-to-your-project",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#step-11-connect-metamask-alchemy-to-your-project",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#step-12-install-ethersjs",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#step-13-update-hardhat.configjs",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#step-14-compile-our-contract",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#step-15-write-our-deploy-script",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#step-16-deploy-our-contract",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#step-3-read-from-your-smart-contract",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#step-4-add-ether-from-a-faucet",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#step-4-set-up-your-ethereum-wallet",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#step-5-check-your-balance",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#step-5-connect-metamask-to-your-ui",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#step-6-implement-the-updatemessage-function",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#step-6-initialize-our-project",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#step-7-download-hardhat",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#step-8-create-hardhat-project",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#step-9-add-project-folders",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#the-connectwallet-function",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#the-getcurrentwalletconnected-function",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#the-helloworld-js-component",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#the-interact-js-file",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#update-the-message",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#update-your-env-file",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#verify-your-smart-contract-on-etherscan",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#write-our-deploy-script",
+            "https://ethereum.org/en/developers/tutorials/hello-world-smart-contract-fullstack/#your-ui-should-now-reflect-the-message-stored-in-the-smart-contract",
+            "https://ethereum.org/en/developers/tutorials/sending-transactions-using-web3-and-alchemy/",
+            "https://ethereum.org/en/eips/",
+            "https://ethereum.org/en/enterprise/",
+            "https://ethereum.org/en/enterprise/private-ethereum/",
+            "https://ethereum.org/en/eth/",
+            "https://ethereum.org/en/foundation/",
+            "https://ethereum.org/en/gas/",
+            "https://ethereum.org/en/get-eth/",
+            "https://ethereum.org/en/glossary/",
+            "https://ethereum.org/en/governance/",
+            "https://ethereum.org/en/guides/",
+            "https://ethereum.org/en/history/",
+            "https://ethereum.org/en/layer-2/",
+            "https://ethereum.org/en/learn/",
+            "https://ethereum.org/en/nft/",
+            "https://ethereum.org/en/privacy-policy/",
+            "https://ethereum.org/en/quizzes/",
+            "https://ethereum.org/en/roadmap/",
+            "https://ethereum.org/en/roadmap/security/",
+            "https://ethereum.org/en/run-a-node/",
+            "https://ethereum.org/en/security/",
+            "https://ethereum.org/en/smart-contracts/",
+            "https://ethereum.org/en/stablecoins/",
+            "https://ethereum.org/en/staking/",
+            "https://ethereum.org/en/terms-of-use/",
+            "https://ethereum.org/en/wallets/",
+            "https://ethereum.org/en/wallets/find-wallet/",
+            "https://ethereum.org/en/web3/",
+            "https://ethereum.org/en/what-is-ethereum/",
+            "https://ethereum.org/en/whitepaper/"
+        ],
+        "etherscan.io": [
+            "https://etherscan.io/register"
+        ],
+        "fauceth.komputing.org": [
+            "https://fauceth.komputing.org"
+        ],
+        "github.com": [
+            "https://github.com/alchemyplatform/alchemy-web3",
+            "https://github.com/alchemyplatform/hello-world-part-four-tutorial",
+            "https://github.com/ethereum/ethereum-org-website",
+            "https://github.com/ethereum/ethereum-org-website/tree/dev/public/content/developers/tutorials/hello-world-smart-contract-fullstack/index.md",
+            "https://github.com/wackerow"
+        ],
+        "goerli.etherscan.io": [
+            "https://goerli.etherscan.io",
+            "https://goerli.etherscan.io/address/0x6f3f635a9762b47954229ea479b4541eaf402a6a#code"
+        ],
+        "hardhat.org": [
+            "https://hardhat.org",
+            "https://hardhat.org/getting-started/#overview",
+            "https://hardhat.org/plugins/",
+            "https://hardhat.org/plugins/nomiclabs-hardhat-ethers.html",
+            "https://hardhat.org/tutorial/testing-contracts.html#writing-tests"
+        ],
+        "localhost:3000": [
+            "http://localhost:3000/"
+        ],
+        "metamask.io": [
+            "https://metamask.io",
+            "https://metamask.io/",
+            "https://metamask.io/download.html"
+        ],
+        "metamask.zendesk.com": [
+            "https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key"
+        ],
+        "reactjs.org": [
+            "https://reactjs.org/",
+            "https://reactjs.org/docs/forms.html#controlled-components",
+            "https://reactjs.org/docs/hooks-effect.html",
+            "https://reactjs.org/tutorial/tutorial.html"
+        ],
+        "twitter.com": [
+            "https://twitter.com/AlchemyPlatform",
+            "https://twitter.com/ethdotorg"
+        ],
+        "www.alchemy.com": [
+            "https://www.alchemy.com/"
+        ],
+        "www.npmjs.com": [
+            "https://www.npmjs.com/package/dotenv"
+        ],
+        "youtu.be": [
+            "https://youtu.be/r6sjRxBZJuU"
+        ]
+    }
+}
