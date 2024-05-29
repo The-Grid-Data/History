@@ -1,0 +1,203 @@
+{
+    "target_url": "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/",
+    "domains": {
+        "": [
+            "mailto:press@ethereum.org"
+        ],
+        "blog.ethereum.org": [
+            "https://blog.ethereum.org/"
+        ],
+        "chainid.network": [
+            "https://chainid.network/"
+        ],
+        "coders-errand.com": [
+            "https://coders-errand.com/ecrecover-signature-verification-ethereum/"
+        ],
+        "devcon.org": [
+            "https://devcon.org/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/ethereum-org"
+        ],
+        "docs.openzeppelin.com": [
+            "https://docs.openzeppelin.com/contracts/2.x/api/math"
+        ],
+        "docs.soliditylang.org": [
+            "https://docs.soliditylang.org/en/v0.8.3/abi-spec.html",
+            "https://docs.soliditylang.org/en/v0.8.3/assembly.html",
+            "https://docs.soliditylang.org/en/v0.8.3/contracts.html#constant-and-immutable-state-variables",
+            "https://docs.soliditylang.org/en/v0.8.3/contracts.html#function-modifiers",
+            "https://docs.soliditylang.org/en/v0.8.3/contracts.html#returning-multiple-values",
+            "https://docs.soliditylang.org/en/v0.8.3/control-structures.html#salted-contract-creations-create2",
+            "https://docs.soliditylang.org/en/v0.8.3/units-and-global-variables.html#abi-encoding-and-decoding-functions",
+            "https://docs.soliditylang.org/en/v0.8.4/yul.html"
+        ],
+        "docs.uniswap.org": [
+            "https://docs.uniswap.org/contracts/v2/concepts/core-concepts/swaps/",
+            "https://docs.uniswap.org/contracts/v2/guides/smart-contract-integration/supporting-meta-transactions",
+            "https://docs.uniswap.org/contracts/v2/reference/smart-contracts/router-01",
+            "https://docs.uniswap.org/contracts/v2/reference/smart-contracts/router-02"
+        ],
+        "eips.ethereum.org": [
+            "https://eips.ethereum.org/EIPS/eip-1014",
+            "https://eips.ethereum.org/EIPS/eip-20#approve",
+            "https://eips.ethereum.org/EIPS/eip-20#transfer",
+            "https://eips.ethereum.org/EIPS/eip-20#transferfrom",
+            "https://eips.ethereum.org/EIPS/eip-3298",
+            "https://eips.ethereum.org/EIPS/eip-712#rationale-for-domainseparator",
+            "https://eips.ethereum.org/EIPS/eip-712#rationale-for-typehash"
+        ],
+        "esp.ethereum.foundation": [
+            "https://esp.ethereum.foundation"
+        ],
+        "ethereum.github.io": [
+            "https://ethereum.github.io/yellowpaper/paper.pdf"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/content/developers/tutorials/uniswap-v2-annotated-code/liquidityProviderDeposit.png",
+            "https://ethereum.org/en/",
+            "https://ethereum.org/en/about/",
+            "https://ethereum.org/en/about/#open-jobs",
+            "https://ethereum.org/en/assets/",
+            "https://ethereum.org/en/bug-bounty/",
+            "https://ethereum.org/en/community/",
+            "https://ethereum.org/en/community/code-of-conduct/",
+            "https://ethereum.org/en/community/events/",
+            "https://ethereum.org/en/community/grants/",
+            "https://ethereum.org/en/community/online/",
+            "https://ethereum.org/en/community/research/",
+            "https://ethereum.org/en/contributing/",
+            "https://ethereum.org/en/contributing/translation-program/",
+            "https://ethereum.org/en/cookie-policy/",
+            "https://ethereum.org/en/dao/",
+            "https://ethereum.org/en/dapps/",
+            "https://ethereum.org/en/decentralized-identity/",
+            "https://ethereum.org/en/defi/",
+            "https://ethereum.org/en/developers/",
+            "https://ethereum.org/en/developers/docs/",
+            "https://ethereum.org/en/developers/docs/design-and-ux/",
+            "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+            "https://ethereum.org/en/developers/docs/scaling/",
+            "https://ethereum.org/en/developers/learning-tools/",
+            "https://ethereum.org/en/developers/local-environment/",
+            "https://ethereum.org/en/developers/tutorials/",
+            "https://ethereum.org/en/developers/tutorials/erc20-annotated-code/",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#FixedPoint",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#Math",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#UniswapV2ERC20",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#UniswapV2Router02",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#add-liquidity",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#add-liquidity-flow",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#back-in-the-periphery-contract-uniswapv2router02-sol",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#caller",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#caller-2",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#caller-3",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#conclusion",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#contract-types",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#core-contracts",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#fixedpoint",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#flows",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#in-the-core-contract-uniswapv2pairsol-2",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#in-the-core-contract-uniswapv2pairsol-3",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#in-the-periphery-contract-uniswapv2router02-sol",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#in-the-periphery-contract-uniswapv2router02sol-2",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#in-the-periphery-contract-uniswapv2router02sol-3",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#introduction",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#libraries",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#main-content",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#math",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#pair-events",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#pair-external",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#pair-lock",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#pair-misc",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#pair-setup",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#pair-update-internal",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#pair-vars",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#periphery-contracts",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#remove-liquidity",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#remove-liquidity-flow",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#swap-flow",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#trade",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#transfer-helper",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#uniswapV2library",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#uniswapv2erc20",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#uniswapv2factory",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#uniswapv2library",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#uniswapv2migrator",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#uniswapv2pair",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#uniswapv2router01",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#uniswapv2router02",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#what-does-uniswap-do",
+            "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/#why-v2",
+            "https://ethereum.org/en/eips/",
+            "https://ethereum.org/en/enterprise/",
+            "https://ethereum.org/en/enterprise/private-ethereum/",
+            "https://ethereum.org/en/eth/",
+            "https://ethereum.org/en/foundation/",
+            "https://ethereum.org/en/gas/",
+            "https://ethereum.org/en/get-eth/",
+            "https://ethereum.org/en/glossary/",
+            "https://ethereum.org/en/governance/",
+            "https://ethereum.org/en/guides/",
+            "https://ethereum.org/en/history/",
+            "https://ethereum.org/en/layer-2/",
+            "https://ethereum.org/en/learn/",
+            "https://ethereum.org/en/nft/",
+            "https://ethereum.org/en/privacy-policy/",
+            "https://ethereum.org/en/quizzes/",
+            "https://ethereum.org/en/roadmap/",
+            "https://ethereum.org/en/roadmap/security/",
+            "https://ethereum.org/en/run-a-node/",
+            "https://ethereum.org/en/security/",
+            "https://ethereum.org/en/smart-contracts/",
+            "https://ethereum.org/en/stablecoins/",
+            "https://ethereum.org/en/staking/",
+            "https://ethereum.org/en/terms-of-use/",
+            "https://ethereum.org/en/wallets/",
+            "https://ethereum.org/en/wallets/find-wallet/",
+            "https://ethereum.org/en/web3/",
+            "https://ethereum.org/en/what-is-ethereum/",
+            "https://ethereum.org/en/whitepaper/"
+        ],
+        "etherscan.io": [
+            "https://etherscan.io/chart/address",
+            "https://etherscan.io/tokens"
+        ],
+        "github.com": [
+            "https://github.com/Uniswap/uniswap-interface/issues/835",
+            "https://github.com/Uniswap/uniswap-lib/blob/master/contracts/libraries/TransferHelper.sol",
+            "https://github.com/Uniswap/uniswap-v2-core/blob/master/contracts/UniswapV2ERC20.sol",
+            "https://github.com/Uniswap/uniswap-v2-core/blob/master/contracts/UniswapV2Factory.sol",
+            "https://github.com/Uniswap/uniswap-v2-core/blob/master/contracts/UniswapV2Pair.sol",
+            "https://github.com/Uniswap/uniswap-v2-core/blob/master/contracts/UniswapV2Pair.sol#L110",
+            "https://github.com/Uniswap/uniswap-v2-periphery/blob/master/contracts/UniswapV2Router01.sol",
+            "https://github.com/Uniswap/uniswap-v2-periphery/blob/master/contracts/UniswapV2Router02.sol",
+            "https://github.com/Uniswap/uniswap-v2-periphery/blob/master/contracts/libraries/UniswapV2Library.sol#L35",
+            "https://github.com/ethereum/dapp-bin/blob/master/library/iterable_mapping.sol",
+            "https://github.com/ethereum/ethereum-org-website",
+            "https://github.com/ethereum/ethereum-org-website/tree/dev/public/content/developers/tutorials/uniswap-v2-annotated-code/index.md",
+            "https://github.com/wackerow"
+        ],
+        "medium.com": [
+            "https://medium.com/coinmonks/ethernaut-lvl-10-re-entrancy-walkthrough-how-to-abuse-execution-ordering-and-reproduce-the-dao-7ec88b912c14"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ethdotorg"
+        ],
+        "uniswap.org": [
+            "https://uniswap.org/whitepaper-v3.pdf",
+            "https://uniswap.org/whitepaper.pdf"
+        ],
+        "weth.tkn.eth.limo": [
+            "https://weth.tkn.eth.limo/"
+        ],
+        "wikipedia.org": [
+            "https://wikipedia.org/wiki/Cryptographic_nonce",
+            "https://wikipedia.org/wiki/Methods_of_computing_square_roots#Babylonian_method",
+            "https://wikipedia.org/wiki/Replay_attack"
+        ],
+        "yos.io": [
+            "https://yos.io/2018/11/16/ethereum-signatures/"
+        ]
+    }
+}
