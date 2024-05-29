@@ -1,0 +1,827 @@
+<!DOCTYPE html><html lang="nl"><head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1716491272">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Beveilig uw portemonnee - Bitcoin</title>
+
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1716491272">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+
+<script type="text/javascript" src="/js/base.js?1716491272"></script>
+<script type="text/javascript" src="/js/main.js?1716491272"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png?1716491272">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1716491272">
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1716491272"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script><script src="/js/analytics.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1716491272" alt="Close">
+      </button>
+      <p>
+        Bitcoin.org is een door de gemeenschap gefinancierd project, donaties worden gewaardeerd en gebruikt om de website te verbeteren.
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        Doneer
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Bitcoin.org heeft uw steun nodig!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">Ã</div>
+      <p class="modal-header-text section-title">Doneer aan Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">Gebruik deze QR of onderstaand adres</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h"></div>
+    </div>
+    <div>
+      <a class="donation-btc-address" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">
+        bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input style="margin-right: 15px" type="text" placeholder="Of aangepast bedrag? (BTC)" id="donation-input-amount-btc" class="donation-amount-input">
+        <input type="text" placeholder="Of aangepast bedrag? (USD)" id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea class="donation-amount-input" id="donation-input-message" placeholder="Optionele beschrijving (voor uw portefeuille)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="/nl/"><img src="/img/icons/logotop.svg?1716491272" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">Inleiding</a>
+    <ul>
+      <li><a href="/nl/bitcoin-voor-particulieren">Particulieren</a></li>
+      <li><a href="/nl/bitcoin-voor-bedrijven">Bedrijven</a></li>
+      <li><a href="https://developer.bitcoin.org/">Ontwikkelaars</a></li>
+      <li><a href="/nl/aan-de-slag">Aan de slag</a></li>
+      <li><a href="/nl/hoe-het-werkt">Hoe het werkt</a></li>
+      
+      <li><a href="/nl/bitcoin-document">Whitepaper</a></li>
+      
+    </ul>
+  </li>
+  <li><a class="is-expand">Hulpmiddelen</a>
+    <ul>
+      <li><a href="/nl/hulpmiddelen">Hulpmiddelen</a>
+      </li><li><a href="/nl/beurzen">Beurzen</a></li>
+      <li><a href="/nl/community">Community</a></li>
+      
+      
+      <li><a href="/nl/woordenlijst">Woordenlijst</a></li>
+      <li><a href="/nl/evenementen">Evenementen</a></li>
+      
+        <li><a href="/nl/download">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li><a href="/nl/innovatie">Innovatie</a></li>
+  <li><a class="is-expand">Meedoen</a>
+    <ul>
+      <li><a href="/nl/help-bitcoin">Ondersteun Bitcoin</a>
+      </li><li><a href="/nl/kopen">Koop Bitcoin</a></li>
+      
+      <li><a href="/nl/ontwikkeling">Ontwikkeling</a></li>
+    </ul>
+  </li>
+  <li><a href="/nl/faq">FAQ</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>Nederlands</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/amankan-wallet-anda">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/assegura-el-teu-moneder">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/sikr-din-tegnebog">Dansk</a></li>
+        
+        
+          <li><a href="/de/sichern-sie-ihre-wallet">Deutsch</a></li>
+        
+        
+          <li><a href="/en/secure-your-wallet">English</a></li>
+        
+        
+          <li><a href="/es/asegure-su-monedero">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/securiser-porte-monnaie">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/proteggi-il-portafoglio">Italiano</a></li>
+        
+        
+          <li><a href="/hu/vedje-meg-penztarcajat">Magyar</a></li>
+        
+        
+          <li><a href="/nl/beveilig-uw-portemonnee" class="active">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/zabezpiecz-swoj-portfel">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/proteja-sua-carteira">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/securizeaza-portofelul">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/zavarujte-svojo-denarnico">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/sigurnost-vaseg-novcanik">Srpski</a></li>
+        
+        
+          <li><a href="/sv/sakra-din-planbok">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/cuzdaninizi-guvenceye-almak">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/secure-your-wallet">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/secure-your-wallet">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/secure-your-wallet">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/secure-your-wallet">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/secure-your-wallet">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/secure-your-wallet">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/secure-your-wallet">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/secure-your-wallet">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/secure-your-wallet">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/secure-your-wallet">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/secure-your-wallet">ááááá</a></li>
+        
+        
+          <li><a href="/ja/secure-your-wallet">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/secure-your-wallet">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/secure-your-wallet">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="/id/amankan-wallet-anda">Bahasa Indonesia</option>
+            
+            <option value="/ca/assegura-el-teu-moneder">CatalÃ </option>
+            
+            <option value="/da/sikr-din-tegnebog">Dansk</option>
+            
+            <option value="/de/sichern-sie-ihre-wallet">Deutsch</option>
+            
+            <option value="/en/secure-your-wallet">English</option>
+            
+            <option value="/es/asegure-su-monedero">EspaÃ±ol</option>
+            
+            <option value="/fr/securiser-porte-monnaie">FranÃ§ais</option>
+            
+            <option value="/it/proteggi-il-portafoglio">Italiano</option>
+            
+            <option value="/hu/vedje-meg-penztarcajat">Magyar</option>
+            
+            <option value="/nl/beveilig-uw-portemonnee" selected="selected">Nederlands</option>
+            
+            <option value="/pl/zabezpiecz-swoj-portfel">Polski</option>
+            
+            <option value="/pt_BR/proteja-sua-carteira">PortuguÃªs Brasil</option>
+            
+            <option value="/ro/securizeaza-portofelul">RomÃ¢nÄ</option>
+            
+            <option value="/sl/zavarujte-svojo-denarnico">SlovenÅ¡Äina</option>
+            
+            <option value="/sr/sigurnost-vaseg-novcanik">Srpski</option>
+            
+            <option value="/sv/sakra-din-planbok">Svenska</option>
+            
+            <option value="/tr/cuzdaninizi-guvenceye-almak">TÃ¼rkÃ§e</option>
+            
+            <option value="/el/secure-your-wallet">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+            
+            <option value="/bg/secure-your-wallet">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+            
+            <option value="/ru/secure-your-wallet">Ð ÑÑÑÐºÐ¸Ð¹</option>
+            
+            <option value="/uk/secure-your-wallet">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+            
+            <option value="/hy/secure-your-wallet">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+            
+            <option value="/ar/secure-your-wallet">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+            
+            <option value="/fa/secure-your-wallet">ÙØ§Ø±Ø³Û</option>
+            
+            <option value="/he/secure-your-wallet">×¢××¨××ª</option>
+            
+            <option value="/hi/secure-your-wallet">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+            
+            <option value="/ko/secure-your-wallet">íêµ­ì´</option>
+            
+            <option value="/km/secure-your-wallet">ááááá</option>
+            
+            <option value="/ja/secure-your-wallet">æ¥æ¬èª</option>
+            
+            <option value="/zh_CN/secure-your-wallet">ç®ä½ä¸­æ</option>
+            
+            <option value="/zh_TW/secure-your-wallet">ç¹é«ä¸­æ</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">nl</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  <div class="hero">
+  <div class="container hero-container">
+    <h1>Beveilig uw portemonnee</h1>
+    
+      <p class="summarytxt">Net als in het gewone leven moet u goed op uw portemonnee letten. Bitcoin maakt het eenvoudiger dan ooit om geld wereldwijd te versturen. Daarnaast houdt u altijd controle over uw geld. Aan zulke grote mogelijkheden kleven echter grote veiligheidszorgen. Tegelijkertijd kan Bitcoin heel erg veilig zijn als het correct wordt gebruikt. <b>Onthoud dat u verantwoordelijk bent voor het aanwenden van goede gewoonten om de veiligheid van uw geld te waarborgen</b>.</p>
+    
+  </div>
+</div>
+
+<div class="toc-container">
+  <div class="row toc-row">
+
+    <div id="toc" class="toc">
+      <div>
+        <button class="mob-sidebar-open" hidden="">View All</button>
+        <div class="sidebar">
+          <div class="sidebar-inner">
+            <button class="mob-sidebar-close" hidden=""></button>
+            
+
+<ul>
+  <li><a href="#online">Wees voorzichtig met online diensten</a></li>
+  <li><a href="#everyday">Kleine bedragen voor alledaags gebruik</a></li>
+  <li><a href="#backup">Maak back-ups van uw portemonnee</a>
+    <ul>
+      <li><a href="#backupwhole">Maak een back-up van uw gehele portemonnee</a></li>
+      <li><a href="#backuponline">Versleutel online back-ups</a></li>
+      <li><a href="#backupmany">Gebruik veel veilige locaties</a></li>
+      <li><a href="#backupregular">Maak regelmatig back-ups</a></li>
+    </ul>
+  </li>
+  <li><a href="#encrypt">Versleutel uw portemonnee</a>
+    <ul>
+      <li><a href="#encryptforget">Vergeet uw wachtwoord nooit</a></li>
+      <li><a href="#encryptstrong">Gebruik een sterk wachtwoord</a></li>
+    </ul>
+  </li>
+  <li><a href="#offline">Offline portemonnee voor spaargeld</a>
+    <ul>
+      <li><a href="#offlinetx">Offline transactieondertekening</a></li>
+      <li><a href="#hardwarewallet">Hardwareportemonnees</a></li>
+    </ul>
+  </li>
+  <li><a href="#update">Houd uw software up-to-date</a></li>
+  <li><a href="#offlinemulti">Meervoudige handtekeningen om te beschermen tegen diefstal</a></li>
+  <li><a href="#offlinetestament">Denk aan uw testament</a></li>
+</ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="toccontent">
+      <div class="toccontent-intro">
+    <h2 id="online" class=" anchorAf"><a href="#online"></a>Wees voorzichtig met online diensten</h2>
+    <p>Wees op uw hoede voor services die zijn ontworpen om uw geld online op te slaan. Veel wisselkantoren en online portemonnees hebben in het verleden te maken gehad met beveiligingsschendingen en dergelijke services bieden over het algemeen nog steeds niet genoeg verzekering en beveiliging om te kunnen worden gebruikt voor het opslaan van geld zoals een bank. Daarom wilt u misschien andere <a href="/nl/kies-uw-portemonnee"> Bitcoin-portemonnees</a> gebruiken. Wees in andere gevallen voorzichtig bij het kiezen van dergelijke services. Daarnaast raden we u aan om een tweevoudige authenticatie te gebruiken.</p>
+</div>
+
+<div class="toccontent-block secure-content-block boxexpand expanded">
+  <h2 id="everyday" class=" anchorAf"><a href="#everyday"></a>Kleine bedragen voor alledaags gebruik</h2>
+  <p>Een Bitcoin-portemonnee is als een portemonnee met cash. Als u niet met duizend euro in uw zak zou rondlopen, kunt u dezelfde bedenkingen hebben bij uw Bitcoin-portemonnee. Over het algemeen is het het beste om kleine hoeveelheden bitcoins op uw computer of mobiele apparaat te hebben voor alledaags gebruik en de resterende hoeveelheid in een veilige omgeving te bewaren.</p>
+</div>
+
+<div class="toccontent-block secure-content-block boxexpand expanded">
+  <h2 id="backup" class=" anchorAf"><a href="#backup"></a>Maak back-ups van uw portemonnee</h2>
+  <p>Indien op een veilige plek opgeslagen, kan een back-up van uw portemonnee u beschermen tegen computeruitval en menselijke vergissingen. U kunt op deze manier ook uw portemonnee herstellen als uw mobiele apparaat of computer is gestolen, mits u uw portemonnee hebt versleuteld.</p>
+  <div class="box">
+    <h3 id="backupwhole" class=" anchorAf"><a href="#backupwhole"></a>Maak een back-up van uw gehele portemonnee</h3>
+    <p>Sommige portemonnees gebruiken intern vele verborgen geheime sleutels. Als u slechts een back-up heeft van uw geheime sleutels voor uw zichtbare Bitcoin-adressen, zou het kunnen dat u niet in staat bent om een groot deel van uw geld uit de back-up terug te halen.</p>
+  
+    <h3 id="backuponline" class=" anchorAf"><a href="#backuponline"></a>Versleutel online back-ups</h3>
+    <p>Elke back-up die online is opgeslagen is zeer gevoelig voor diefstal. Zelfs een computer die slechts is verbonden met het internet is kwetsbaar voor kwaadaardige software. Daarom is het een goed gebruik om elke back-up die op Ã©Ã©n of andere manier met het internet in contact staat te versleutelen.</p>
+  
+    <h3 id="backupmany" class=" anchorAf"><a href="#backupmany"></a>Gebruik veel veilige locaties</h3>
+    <p>Het is goed om niet afhankelijk te zijn van Ã©Ã©n enkel punt waar iets mis kan gaan, een zogenaamd 'single point of failure'. Als u een kopie van uw back-up op verschillende plaatsen opslaat is het onwaarschijnlijker dat een ramp u van uw bitcoins berooft; bijvoorbeeld als uw huis afbrandt. U kunt ook overwegen om uw back-up op verschillende media op te slaan, zoals op USB-sticks, op papier en op cd's.</p>
+  
+    <h3 id="backupregular" class=" anchorAf"><a href="#backupregular"></a>Maak regelmatig back-ups</h3>
+    <p>U dient regelmatig een back-up te maken om ervoor te zorgen dat alle nieuwe Bitcoin-adressen en alle recente wisselgeldadressen opgenomen zijn in de back-up. Echter, binnenkort zullen alle programma's portemonnees gebruiken waarvan maar Ã©Ã©n keer een back-up gemaakt hoeft te worden.</p>
+  </div>
+</div>
+
+<div class="toccontent-block secure-content-block boxexpand expanded">
+  <h2 id="encrypt" class=" anchorAf"><a href="#encrypt"></a>Versleutel uw portemonnee</h2>
+  <p>Als u uw portemonnee of smartphone versleutelt, kan er niets worden uitgehaald zonder wachtwoord. Zo bent u beter beveiligd tegen dieven, maar het kan u niet beschermen tegen software of hardware die uw toetsaanslagen uitleest.</p>
+  
+  <div class="box">
+  
+    <h3 id="encryptforget" class=" anchorAf"><a href="#encryptforget"></a>Vergeet uw wachtwoord nooit</h3>
+    <p>U moet ervoor zorgen dat u nooit uw wachtwoord vergeet of verliest, anders bent u uw geld voor altijd kwijt! Er zijn in tegenstelling tot banken vrij weinig mogelijkheden om uw Bitcoin-wachtwoord te herstellen. Zelfs na jaren uw wachtwoord niet gebruikt te hebben, dient u deze nog te kunnen herinneren. Als u twijfelt, kunt u wellicht uw wachtwoord op een briefje schrijven en op een veilige plek bewaren, zoals in een kluis.</p>
+  
+    <h3 id="encryptstrong" class=" anchorAf"><a href="#encryptstrong"></a>Gebruik een sterk wachtwoord</h3>
+    <p>Een wachtwoord dat slechts bestaat uit letters of herkenbare woorden moet worden beschouwd als zeer zwak en makkelijk te kraken. Een sterk wachtwoord bevat letters, cijfers en leestekens en is ten minste 16 tekens lang. De veiligste wachtwoorden worden gegenereerd door programma's die speciaal voor dat doeleinde zijn gemaakt. Sterke wachtwoorden zijn vaak moeilijker te onthouden, dus u moet ervoor zorgen dat u dit goed in uw hoofd houdt.</p>
+  
+  </div>
+</div>
+
+<div class="toccontent-block secure-content-block boxexpand expanded">
+  <h2 id="offline" class=" anchorAf"><a href="#offline"></a>Offline portemonnee voor spaargeld</h2>
+  <p>Een offline portemonnee, ook wel cold storage genoemd, biedt het hoogste veiligheidsniveau om geld te bewaren. U doet dit door een portemonnee te bewaren op een beveiligde plek die niet is verbonden met het internet. Als dit correct wordt uitgevoerd, biedt het een goede beveiliging tegen kwetsbaarheden van computers. Een offline portemonnee samen met back-ups en versleuteling gebruiken wordt aanbevolen. Hier volgt een overzicht van enkele benaderingen.</p>
+  
+  <div class="box">
+    <h3 id="offlinetx" class=" anchorAf"><a href="#offlinetx"></a>Offline transactieondertekening</h3>
+    <p>Voor deze aanpak hebt u twee computers nodig die een portemonnee gedeeltelijk delen. De eerste mag met geen enkel netwerk zijn verbonden. Dit is degene die de volledige portemonnee bevat en in staat is transacties te ondertekenen. De tweede computer is verbonden met het internet en heeft een alleen-bekijken-versie van de portemonnee. Hiermee kunnen transacties wel worden gemaakt, maar niet worden ondertekend. Zo kunt u op veilige wijze nieuwe transacties uitgeven via de volgende stappen:</p>
+    <ol>
+      <li>Maak een nieuwe transactie aan op de online computer en sla deze op een USB-stick op.</li>
+      <li>Stop de USB-stick in de offline computer en onderteken de transactie.</li>
+      <li>Stop de USB-stick weer in de online computer en verstuur de ondertekende transactie.</li>
+    </ol>
+    <p>Omdat de computer die is verbonden met het internet geen transacties kan ondertekenen, kan deze ook niet worden gebruikt om geld te verzenden als deze is gekraakt. <a href="https://bitcoinarmory.com/tutorials/armory-advanced-features/offline-wallets/">Armory</a> kan offline transactieondertekening uitvoeren.</p>
+  </div>
+
+  <div class="box">
+    <h3 id="hardwarewallet" class=" anchorAf"><a href="#hardwarewallet"></a>Hardwareportemonnees</h3>
+    <p>Hardwareportemonnees zijn de beste balans tussen zeer hoge veiligheid en gebruiksgemak. Deze portemonnees zijn kleine apparaatjes die van het begin af aan als portemonnee zijn ontworpen. Er kan geen software op worden geÃ¯nstalleerd, waardoor deze portemonnees erg veilig zijn wat betreft kwetsbaarheid van computers en online dieven. Omdat ze back-ups toestaan, kunt u uw geld terugkrijgen als u het apparaat verliest.</p>
+  </div>
+</div>
+
+<div class="toccontent-block secure-content-block boxexpand expanded">
+  <h2 id="update" class=" anchorAf"><a href="#update"></a>Houd uw software up-to-date</h2>
+  <p>Met de nieuwste versie van de Bitcoin-software beschikt u altijd over de belangrijkste stabiliteits- en beveiligingsfixes. Updates kunnen verschillende problemen voorkomen dankzij nieuwe handige functies en een betere beveiliging van uw portemonnee. Het installeren van updates voor alle andere software op uw computer of mobiele apparaat is tevens van belang om uw portemonnee-omgeving veiliger te maken.</p>
+</div>
+
+<div class="toccontent-block secure-content-block boxexpand expanded">
+  <h2 id="offlinemulti" class=" anchorAf"><a href="#offlinemulti"></a>Meervoudige handtekeningen om te beschermen tegen diefstal</h2>
+  <p>Bitcoin heeft een functionaliteit voor meerdere handtekeningen, wat ervoor zorgt dat een transactie meerdere onafhankelijke goedkeuringen vereist om uitgevoerd te worden. Dit kan gebruikt worden door een organisatie om zijn leden toegang te geven tot de schatkist, waarbij een opname alleen toegestaan wordt als 3 of 5 leden de transactie ondertekenen. Sommige webportemonnees leveren ook portemonnees met meerdere handtekeningen, wat de gebruikers in staat stelt om controle over hun geld te houden terwijl ze voorkomen dat een dief fondsen steelt door in te breken op een enkel apparaat of server.</p>
+</div>
+
+<div class="toccontent-block secure-content-block boxexpand expanded">
+  <h2 id="offlinetestament" class=" anchorAf"><a href="#offlinetestament"></a>Denk aan uw testament</h2>
+  <p>Uw bitcoins kunnen voorgoed verloren gaan als u geen back-upplan heeft voor uw naasten en familie. Als niemand de locatie van uw portemonnees en wachtwoorden kent als u er niet meer bent, dan is er geen hoop meer dat uw geld kan worden teruggehaald. Als u hier een beetje tijd in investeert, kan dat een wereld van verschil maken.</p>
+</div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="/nl/">
+  <img src="/img/icons/logo-footer.svg?1716491272" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Steun Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Doneer</a>
+        <p class="donate-text">
+          <a class="donate-link" href="bitcoin:bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h" target="_blank">bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">Inleiding:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/nl/bitcoin-voor-particulieren">Particulieren</a>
+        </li>
+        <li>
+          <a href="/nl/bitcoin-voor-bedrijven">Bedrijven</a>
+        </li>
+        <li>
+          <a href="https://developer.bitcoin.org/">Ontwikkelaars</a>
+        </li>
+        <li>
+          <a href="/nl/aan-de-slag">Aan de slag</a>
+        </li>
+        <li>
+          <a href="/nl/hoe-het-werkt">Hoe het werkt</a>
+        </li>
+        <li>
+          <a href="/nl/wat-u-moet-weten">Wat u moet weten</a>
+        </li>
+        
+        <li>
+          <a href="/nl/bitcoin-document">Whitepaper</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">Hulpmiddelen:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/nl/hulpmiddelen">Hulpmiddelen</a>
+        </li><li>
+          <a href="/nl/beurzen">Beurzen</a>
+        </li>
+        <li>
+          <a href="/nl/community">Community</a>
+        </li>
+        <li>
+          <a href="/nl/woordenlijst">Woordenlijst
+          </a>
+        </li>
+        <li>
+          <a href="/nl/evenementen">Evenementen</a>
+        </li>
+        
+          <li>
+            <a href="/nl/download">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">Meedoen:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/nl/help-bitcoin">Ondersteun Bitcoin</a>
+        
+        
+        </li><li>
+          <a href="/nl/ontwikkeling">Ontwikkeling</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Overige:</p>
+      
+      <a href="/nl/juridisch">Juridisch</a>
+      
+      <a href="/en/privacy">Privacy Policy</a>
+      
+      <a href="/nl/pers">Pers</a>
+      <a href="/nl/over-ons">Over bitcoin.org</a>
+      <a href="/en/blog">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>Een communitywebsite gesponsord door</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1716491272" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">Â© Bitcoin Project 2009-2024 Beschikbaar onder de <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT-licentie</a></div>
+      <div class="row footer-status-block">
+        <a href="/en/alerts" class="statusmenu">Netwerk status</a>
+        
+<ul class="lang is-expand">
+  <li><a>Nederlands</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="/id/amankan-wallet-anda">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="/ca/assegura-el-teu-moneder">CatalÃ </a></li>
+        
+        
+          <li><a href="/da/sikr-din-tegnebog">Dansk</a></li>
+        
+        
+          <li><a href="/de/sichern-sie-ihre-wallet">Deutsch</a></li>
+        
+        
+          <li><a href="/en/secure-your-wallet">English</a></li>
+        
+        
+          <li><a href="/es/asegure-su-monedero">EspaÃ±ol</a></li>
+        
+        
+          <li><a href="/fr/securiser-porte-monnaie">FranÃ§ais</a></li>
+        
+        
+          <li><a href="/it/proteggi-il-portafoglio">Italiano</a></li>
+        
+        
+          <li><a href="/hu/vedje-meg-penztarcajat">Magyar</a></li>
+        
+        
+          <li><a href="/nl/beveilig-uw-portemonnee" class="active">Nederlands</a></li>
+        
+        
+          <li><a href="/pl/zabezpiecz-swoj-portfel">Polski</a></li>
+        
+        
+          <li><a href="/pt_BR/proteja-sua-carteira">PortuguÃªs Brasil</a></li>
+        
+        
+          <li><a href="/ro/securizeaza-portofelul">RomÃ¢nÄ</a></li>
+        
+        
+          <li><a href="/sl/zavarujte-svojo-denarnico">SlovenÅ¡Äina</a></li>
+        
+        
+          <li><a href="/sr/sigurnost-vaseg-novcanik">Srpski</a></li>
+        
+        
+          <li><a href="/sv/sakra-din-planbok">Svenska</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="/tr/cuzdaninizi-guvenceye-almak">TÃ¼rkÃ§e</a></li>
+        
+        
+          <li><a href="/el/secure-your-wallet">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</a></li>
+        
+        
+          <li><a href="/bg/secure-your-wallet">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</a></li>
+        
+        
+          <li><a href="/ru/secure-your-wallet">Ð ÑÑÑÐºÐ¸Ð¹</a></li>
+        
+        
+          <li><a href="/uk/secure-your-wallet">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</a></li>
+        
+        
+          <li><a href="/hy/secure-your-wallet">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</a></li>
+        
+        
+          <li><a href="/ar/secure-your-wallet">Ø§ÙØ¹Ø±Ø¨ÙØ©</a></li>
+        
+        
+          <li><a href="/fa/secure-your-wallet">ÙØ§Ø±Ø³Û</a></li>
+        
+        
+          <li><a href="/he/secure-your-wallet">×¢××¨××ª</a></li>
+        
+        
+          <li><a href="/hi/secure-your-wallet">à¤¹à¤¿à¤¨à¥à¤¦à¥</a></li>
+        
+        
+          <li><a href="/ko/secure-your-wallet">íêµ­ì´</a></li>
+        
+        
+          <li><a href="/km/secure-your-wallet">ááááá</a></li>
+        
+        
+          <li><a href="/ja/secure-your-wallet">æ¥æ¬èª</a></li>
+        
+        
+          <li><a href="/zh_CN/secure-your-wallet">ç®ä½ä¸­æ</a></li>
+        
+        
+          <li><a href="/zh_TW/secure-your-wallet">ç¹é«ä¸­æ</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="/id/amankan-wallet-anda">Bahasa Indonesia</option>
+              
+              <option value="/ca/assegura-el-teu-moneder">CatalÃ </option>
+              
+              <option value="/da/sikr-din-tegnebog">Dansk</option>
+              
+              <option value="/de/sichern-sie-ihre-wallet">Deutsch</option>
+              
+              <option value="/en/secure-your-wallet">English</option>
+              
+              <option value="/es/asegure-su-monedero">EspaÃ±ol</option>
+              
+              <option value="/fr/securiser-porte-monnaie">FranÃ§ais</option>
+              
+              <option value="/it/proteggi-il-portafoglio">Italiano</option>
+              
+              <option value="/hu/vedje-meg-penztarcajat">Magyar</option>
+              
+              <option value="/nl/beveilig-uw-portemonnee" selected="selected">Nederlands</option>
+              
+              <option value="/pl/zabezpiecz-swoj-portfel">Polski</option>
+              
+              <option value="/pt_BR/proteja-sua-carteira">PortuguÃªs Brasil</option>
+              
+              <option value="/ro/securizeaza-portofelul">RomÃ¢nÄ</option>
+              
+              <option value="/sl/zavarujte-svojo-denarnico">SlovenÅ¡Äina</option>
+              
+              <option value="/sr/sigurnost-vaseg-novcanik">Srpski</option>
+              
+              <option value="/sv/sakra-din-planbok">Svenska</option>
+              
+              <option value="/tr/cuzdaninizi-guvenceye-almak">TÃ¼rkÃ§e</option>
+              
+              <option value="/el/secure-your-wallet">ÎÎ»Î»Î·Î½Î¹ÎºÎ¬</option>
+              
+              <option value="/bg/secure-your-wallet">Ð±ÑÐ»Ð³Ð°ÑÑÐºÐ¸</option>
+              
+              <option value="/ru/secure-your-wallet">Ð ÑÑÑÐºÐ¸Ð¹</option>
+              
+              <option value="/uk/secure-your-wallet">Ð£ÐºÑÐ°ÑÐ½ÑÑÐºÐ°</option>
+              
+              <option value="/hy/secure-your-wallet">ÕÕ¡ÕµÕ¥ÖÕ¥Õ¶</option>
+              
+              <option value="/ar/secure-your-wallet">Ø§ÙØ¹Ø±Ø¨ÙØ©</option>
+              
+              <option value="/fa/secure-your-wallet">ÙØ§Ø±Ø³Û</option>
+              
+              <option value="/he/secure-your-wallet">×¢××¨××ª</option>
+              
+              <option value="/hi/secure-your-wallet">à¤¹à¤¿à¤¨à¥à¤¦à¥</option>
+              
+              <option value="/ko/secure-your-wallet">íêµ­ì´</option>
+              
+              <option value="/km/secure-your-wallet">ááááá</option>
+              
+              <option value="/ja/secure-your-wallet">æ¥æ¬èª</option>
+              
+              <option value="/zh_CN/secure-your-wallet">ç®ä½ä¸­æ</option>
+              
+              <option value="/zh_TW/secure-your-wallet">ç¹é«ä¸­æ</option>
+              
+            </select>
+            <span class="center-select__text">nl</span>
+          </label>
+        </div>
+      </div>
+<!--      <div class="row">  -->
+        
+<!--    </div> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+
+
+  <script>updateToc();</script>
+<script>accordion();</script>
+<script>onScrollButton();</script>
+<script>boxShow();</script>
+
+
+
+
+
+
+</body></html>
