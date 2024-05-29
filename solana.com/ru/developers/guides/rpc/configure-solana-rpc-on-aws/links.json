@@ -1,0 +1,85 @@
+{
+    "target_url": "https://solana.com/ru/developers/guides/rpc/configure-solana-rpc-on-aws",
+    "domains": {
+        "aws-samples.github.io": [
+            "https://aws-samples.github.io/aws-blockchain-node-runners/"
+        ],
+        "aws.amazon.com": [
+            "https://aws.amazon.com/ebs/general-purpose/",
+            "https://aws.amazon.com/ec2/instance-types/r6a/",
+            "https://aws.amazon.com/savingsplans/compute-pricing/"
+        ],
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "calculator.aws": [
+            "https://calculator.aws/#/"
+        ],
+        "docs.aws.amazon.com": [
+            "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/InstanceStorage.html",
+            "https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html"
+        ],
+        "docs.solana.com": [
+            "https://docs.solana.com/api/http#getprogramaccounts",
+            "https://docs.solana.com/api/http#gettokenaccountsbydelegate"
+        ],
+        "github.com": [
+            "https://github.com/aws-samples/aws-blockchain-node-runners/blob/main/lib/solana/sample-configs/.env-sample-baserpc",
+            "https://github.com/aws-samples/aws-blockchain-node-runners/blob/main/lib/solana/sample-configs/.env-sample-consensus",
+            "https://github.com/aws-samples/aws-blockchain-node-runners/blob/main/lib/solana/sample-configs/.env-sample-extendedrpc",
+            "https://github.com/aws-samples/aws-blockchain-node-runners/tree/main/lib/solana",
+            "https://github.com/solana-foundation/developer-content/tree/main/content/guides/rpc/configure-solana-rpc-on-aws.md"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "solana.com": [
+            "https://solana.com/discord",
+            "https://solana.com/github",
+            "https://solana.com/reddit",
+            "https://solana.com/ru",
+            "https://solana.com/ru/branding",
+            "https://solana.com/ru/developers",
+            "https://solana.com/ru/developers/cookbook",
+            "https://solana.com/ru/developers/guides",
+            "https://solana.com/ru/developers/guides/permissioned-environments",
+            "https://solana.com/ru/developers/guides/rpc/configure-solana-rpc-on-aws",
+            "https://solana.com/ru/developers/guides/rpc/configure-solana-rpc-on-aws#base-rpc-nodes",
+            "https://solana.com/ru/developers/guides/rpc/configure-solana-rpc-on-aws#consensus-node",
+            "https://solana.com/ru/developers/guides/rpc/configure-solana-rpc-on-aws#cost-optimization",
+            "https://solana.com/ru/developers/guides/rpc/configure-solana-rpc-on-aws#extended-rpc-nodes-with-secondary-indexes",
+            "https://solana.com/ru/developers/guides/rpc/configure-solana-rpc-on-aws#history-nodes",
+            "https://solana.com/ru/developers/guides/rpc/configure-solana-rpc-on-aws#solana-node-configurations-on-aws",
+            "https://solana.com/ru/developers/guides/rpc/configure-solana-rpc-on-aws#solana-on-aws",
+            "https://solana.com/ru/developers/guides/solang/getting-started",
+            "https://solana.com/ru/developers/guides?difficulty=intermediate",
+            "https://solana.com/ru/developers/guides?tags=infrastructure",
+            "https://solana.com/ru/developers/guides?tags=rpc",
+            "https://solana.com/ru/docs",
+            "https://solana.com/ru/docs/rpc",
+            "https://solana.com/ru/docs/terminology",
+            "https://solana.com/ru/ecosystem",
+            "https://solana.com/ru/news",
+            "https://solana.com/ru/newsletter",
+            "https://solana.com/ru/privacy-policy",
+            "https://solana.com/ru/privacy-policy#collection-of-information",
+            "https://solana.com/ru/staking",
+            "https://solana.com/ru/tos",
+            "https://solana.com/telegram",
+            "https://solana.com/twitter",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ],
+        "www.antimetal.com": [
+            "https://www.antimetal.com/"
+        ],
+        "www.stakingrewards.com": [
+            "https://www.stakingrewards.com/asset/solana"
+        ],
+        "zesty.co": [
+            "https://zesty.co/"
+        ]
+    }
+}
