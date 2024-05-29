@@ -1,0 +1,89 @@
+{
+    "target_url": "https://solana.com/vi/developers/guides/dapps/journal",
+    "domains": {
+        "book.anchor-lang.com": [
+            "https://book.anchor-lang.com/introduction/introduction.html"
+        ],
+        "break.solana.com": [
+            "https://break.solana.com/"
+        ],
+        "examples.anchor-lang.com": [
+            "https://examples.anchor-lang.com/"
+        ],
+        "github.com": [
+            "https://github.com/solana-developers/create-solana-dapp",
+            "https://github.com/solana-foundation/CRUD-dApp",
+            "https://github.com/solana-foundation/developer-content/tree/main/content/guides/dapps/journal.md"
+        ],
+        "jobs.solana.com": [
+            "https://jobs.solana.com/"
+        ],
+        "nodejs.org": [
+            "https://nodejs.org/en/download"
+        ],
+        "solana-journal-eight.vercel.app": [
+            "https://solana-journal-eight.vercel.app"
+        ],
+        "solana.com": [
+            "https://solana.com/discord",
+            "https://solana.com/github",
+            "https://solana.com/reddit",
+            "https://solana.com/telegram",
+            "https://solana.com/twitter",
+            "https://solana.com/vi",
+            "https://solana.com/vi/branding",
+            "https://solana.com/vi/developers",
+            "https://solana.com/vi/developers/cookbook",
+            "https://solana.com/vi/developers/guides",
+            "https://solana.com/vi/developers/guides/advanced/stake-weighted-qos",
+            "https://solana.com/vi/developers/guides/dapps/journal",
+            "https://solana.com/vi/developers/guides/dapps/journal#build-and-deploy-your-anchor-program",
+            "https://solana.com/vi/developers/guides/dapps/journal#connecting-a-solana-program-to-a-ui",
+            "https://solana.com/vi/developers/guides/dapps/journal#create-a-journal-entry",
+            "https://solana.com/vi/developers/guides/dapps/journal#define-your-anchor-program",
+            "https://solana.com/vi/developers/guides/dapps/journal#define-your-program-state",
+            "https://solana.com/vi/developers/guides/dapps/journal#delete-a-journal-entry",
+            "https://solana.com/vi/developers/guides/dapps/journal#prerequisites",
+            "https://solana.com/vi/developers/guides/dapps/journal#resources",
+            "https://solana.com/vi/developers/guides/dapps/journal#setting-up-the-project",
+            "https://solana.com/vi/developers/guides/dapps/journal#updating-a-journal-entry",
+            "https://solana.com/vi/developers/guides/dapps/journal#what-you-will-learn",
+            "https://solana.com/vi/developers/guides/dapps/journal#writing-a-solana-program-with-anchor",
+            "https://solana.com/vi/developers/guides/games/energy-system",
+            "https://solana.com/vi/developers/guides/getstarted/setup-local-development",
+            "https://solana.com/vi/developers/guides?difficulty=intro",
+            "https://solana.com/vi/developers/guides?tags=anchor",
+            "https://solana.com/vi/developers/guides?tags=crud",
+            "https://solana.com/vi/developers/guides?tags=dApp",
+            "https://solana.com/vi/developers/guides?tags=program",
+            "https://solana.com/vi/developers/guides?tags=quickstart",
+            "https://solana.com/vi/developers/guides?tags=react",
+            "https://solana.com/vi/developers/guides?tags=rust",
+            "https://solana.com/vi/docs",
+            "https://solana.com/vi/docs/rpc",
+            "https://solana.com/vi/docs/terminology",
+            "https://solana.com/vi/docs/terminology#instruction-handler",
+            "https://solana.com/vi/docs/terminology#program",
+            "https://solana.com/vi/docs/terminology#rent",
+            "https://solana.com/vi/ecosystem",
+            "https://solana.com/vi/news",
+            "https://solana.com/vi/newsletter",
+            "https://solana.com/vi/privacy-policy",
+            "https://solana.com/vi/privacy-policy#collection-of-information",
+            "https://solana.com/vi/tos",
+            "https://solana.com/youtube"
+        ],
+        "solana.org": [
+            "https://solana.org/grants"
+        ],
+        "solanacookbook.com": [
+            "https://solanacookbook.com/core-concepts/pdas.html#facts"
+        ],
+        "www.anchor-lang.com": [
+            "https://www.anchor-lang.com/docs/space#the-init-space-macro"
+        ],
+        "www.rust-lang.org": [
+            "https://www.rust-lang.org/tools/install"
+        ]
+    }
+}
