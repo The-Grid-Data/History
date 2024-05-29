@@ -1,0 +1,139 @@
+{
+    "target_url": "https://ethereum.org/en/developers/tutorials/all-you-can-cache/",
+    "domains": {
+        "": [
+            "mailto:press@ethereum.org"
+        ],
+        "blog.ethereum.org": [
+            "https://blog.ethereum.org/"
+        ],
+        "book.getfoundry.sh": [
+            "https://book.getfoundry.sh/cheatcodes/expect-emit",
+            "https://book.getfoundry.sh/cheatcodes/expect-revert#expectrevert",
+            "https://book.getfoundry.sh/forge/tests",
+            "https://book.getfoundry.sh/getting-started/installation",
+            "https://book.getfoundry.sh/reference/forge-std/std-assertions"
+        ],
+        "community.optimism.io": [
+            "https://community.optimism.io/docs/useful-tools/networks/#optimism-goerli"
+        ],
+        "devcon.org": [
+            "https://devcon.org/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/ethereum-org"
+        ],
+        "docs.soliditylang.org": [
+            "https://docs.soliditylang.org/en/v0.8.16/contracts.html#fallback-function",
+            "https://docs.soliditylang.org/en/v0.8.16/types.html#implicit-conversions",
+            "https://docs.soliditylang.org/en/v0.8.16/types.html#members-of-addresses",
+            "https://docs.soliditylang.org/en/v0.8.16/types.html#the-functions-bytes-concat-and-string-concat",
+            "https://docs.soliditylang.org/en/v0.8.16/yul.html"
+        ],
+        "en.wikipedia.org": [
+            "https://en.wikipedia.org/wiki/Nibble"
+        ],
+        "esp.ethereum.foundation": [
+            "https://esp.ethereum.foundation"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/en/",
+            "https://ethereum.org/en/about/",
+            "https://ethereum.org/en/about/#open-jobs",
+            "https://ethereum.org/en/assets/",
+            "https://ethereum.org/en/bug-bounty/",
+            "https://ethereum.org/en/community/",
+            "https://ethereum.org/en/community/code-of-conduct/",
+            "https://ethereum.org/en/community/events/",
+            "https://ethereum.org/en/community/grants/",
+            "https://ethereum.org/en/community/online/",
+            "https://ethereum.org/en/community/research/",
+            "https://ethereum.org/en/contributing/",
+            "https://ethereum.org/en/contributing/translation-program/",
+            "https://ethereum.org/en/cookie-policy/",
+            "https://ethereum.org/en/dao/",
+            "https://ethereum.org/en/dapps/",
+            "https://ethereum.org/en/decentralized-identity/",
+            "https://ethereum.org/en/defi/",
+            "https://ethereum.org/en/developers/",
+            "https://ethereum.org/en/developers/docs/",
+            "https://ethereum.org/en/developers/docs/design-and-ux/",
+            "https://ethereum.org/en/developers/docs/evm/",
+            "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+            "https://ethereum.org/en/developers/learning-tools/",
+            "https://ethereum.org/en/developers/local-environment/",
+            "https://ethereum.org/en/developers/tutorials/",
+            "https://ethereum.org/en/developers/tutorials/all-you-can-cache/#a-sample-app",
+            "https://ethereum.org/en/developers/tutorials/all-you-can-cache/#cache-manipulation",
+            "https://ethereum.org/en/developers/tutorials/all-you-can-cache/#conclusion",
+            "https://ethereum.org/en/developers/tutorials/all-you-can-cache/#main-content",
+            "https://ethereum.org/en/developers/tutorials/all-you-can-cache/#overall-design",
+            "https://ethereum.org/en/developers/tutorials/all-you-can-cache/#testing-the-cache",
+            "https://ethereum.org/en/developers/tutorials/all-you-can-cache/#the-client",
+            "https://ethereum.org/en/developers/tutorials/all-you-can-cache/#the-contract",
+            "https://ethereum.org/en/developers/tutorials/all-you-can-cache/#the-testing-code",
+            "https://ethereum.org/en/eips/",
+            "https://ethereum.org/en/enterprise/",
+            "https://ethereum.org/en/enterprise/private-ethereum/",
+            "https://ethereum.org/en/eth/",
+            "https://ethereum.org/en/foundation/",
+            "https://ethereum.org/en/gas/",
+            "https://ethereum.org/en/get-eth/",
+            "https://ethereum.org/en/glossary/",
+            "https://ethereum.org/en/governance/",
+            "https://ethereum.org/en/guides/",
+            "https://ethereum.org/en/history/",
+            "https://ethereum.org/en/layer-2/",
+            "https://ethereum.org/en/learn/",
+            "https://ethereum.org/en/nft/",
+            "https://ethereum.org/en/privacy-policy/",
+            "https://ethereum.org/en/quizzes/",
+            "https://ethereum.org/en/roadmap/",
+            "https://ethereum.org/en/roadmap/security/",
+            "https://ethereum.org/en/run-a-node/",
+            "https://ethereum.org/en/security/",
+            "https://ethereum.org/en/smart-contracts/",
+            "https://ethereum.org/en/stablecoins/",
+            "https://ethereum.org/en/staking/",
+            "https://ethereum.org/en/terms-of-use/",
+            "https://ethereum.org/en/wallets/",
+            "https://ethereum.org/en/wallets/find-wallet/",
+            "https://ethereum.org/en/web3/",
+            "https://ethereum.org/en/what-is-ethereum/",
+            "https://ethereum.org/en/whitepaper/"
+        ],
+        "github.com": [
+            "https://github.com/ethereum/ethereum-org-website",
+            "https://github.com/ethereum/ethereum-org-website/tree/dev/public/content/developers/tutorials/all-you-can-cache/index.md",
+            "https://github.com/nhsz",
+            "https://github.com/qbzzt/20220915-all-you-can-cache",
+            "https://github.com/qbzzt/20220915-all-you-can-cache/blob/main/javascript/index.js",
+            "https://github.com/qbzzt/20220915-all-you-can-cache/blob/main/src/Cache.sol",
+            "https://github.com/qbzzt/20220915-all-you-can-cache/blob/main/src/Cache.sol#L144-L171",
+            "https://github.com/qbzzt/20220915-all-you-can-cache/blob/main/src/WORM.sol",
+            "https://github.com/qbzzt/20220915-all-you-can-cache/blob/main/test/Cache.t.sol",
+            "https://github.com/qbzzt/20220915-all-you-can-cache/blob/main/test/WORM.t.sol"
+        ],
+        "goerli-optimism.etherscan.io": [
+            "https://goerli-optimism.etherscan.io/address/0xd34335b1d818cee54e3323d3246bd31d94e6a78a"
+        ],
+        "optimismfaucet.xyz": [
+            "https://optimismfaucet.xyz/"
+        ],
+        "quoteinvestigator.com": [
+            "https://quoteinvestigator.com/2011/09/08/640k-enough/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ethdotorg"
+        ],
+        "www.evm.codes": [
+            "https://www.evm.codes/#55"
+        ],
+        "www.geeksforgeeks.org": [
+            "https://www.geeksforgeeks.org/solidity-mappings/"
+        ],
+        "www.optimism.io": [
+            "https://www.optimism.io/"
+        ]
+    }
+}

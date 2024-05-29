@@ -1,0 +1,137 @@
+{
+    "target_url": "https://ethereum.org/en/developers/tutorials/a-developers-guide-to-ethereum-part-one/",
+    "domains": {
+        "": [
+            "mailto:press@ethereum.org"
+        ],
+        "blog.ethereum.org": [
+            "https://blog.ethereum.org/"
+        ],
+        "devcon.org": [
+            "https://devcon.org/"
+        ],
+        "discord.gg": [
+            "https://discord.gg/ethereum-org"
+        ],
+        "esp.ethereum.foundation": [
+            "https://esp.ethereum.foundation"
+        ],
+        "ethereum.org": [
+            "https://ethereum.org/content/developers/tutorials/a-developers-guide-to-ethereum-part-one/blockchain-diagram.png",
+            "https://ethereum.org/content/developers/tutorials/a-developers-guide-to-ethereum-part-one/ethereumtesterprovider.png",
+            "https://ethereum.org/content/developers/tutorials/a-developers-guide-to-ethereum-part-one/web3py-and-nodes.png",
+            "https://ethereum.org/en/",
+            "https://ethereum.org/en/about/",
+            "https://ethereum.org/en/about/#open-jobs",
+            "https://ethereum.org/en/assets/",
+            "https://ethereum.org/en/bug-bounty/",
+            "https://ethereum.org/en/community/",
+            "https://ethereum.org/en/community/code-of-conduct/",
+            "https://ethereum.org/en/community/events/",
+            "https://ethereum.org/en/community/grants/",
+            "https://ethereum.org/en/community/online/",
+            "https://ethereum.org/en/community/research/",
+            "https://ethereum.org/en/contributing/",
+            "https://ethereum.org/en/contributing/translation-program/",
+            "https://ethereum.org/en/cookie-policy/",
+            "https://ethereum.org/en/dao/",
+            "https://ethereum.org/en/dapps/",
+            "https://ethereum.org/en/decentralized-identity/",
+            "https://ethereum.org/en/defi/",
+            "https://ethereum.org/en/developers/",
+            "https://ethereum.org/en/developers/docs/",
+            "https://ethereum.org/en/developers/docs/accounts/",
+            "https://ethereum.org/en/developers/docs/blocks/",
+            "https://ethereum.org/en/developers/docs/design-and-ux/",
+            "https://ethereum.org/en/developers/docs/gas/#post-london",
+            "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+            "https://ethereum.org/en/developers/docs/nodes-and-clients/",
+            "https://ethereum.org/en/developers/docs/programming-languages/python/",
+            "https://ethereum.org/en/developers/docs/transactions/",
+            "https://ethereum.org/en/developers/learning-tools/",
+            "https://ethereum.org/en/developers/local-environment/",
+            "https://ethereum.org/en/developers/tutorials/",
+            "https://ethereum.org/en/developers/tutorials/a-developers-guide-to-ethereum-part-one/#a-new-paradigm",
+            "https://ethereum.org/en/developers/tutorials/a-developers-guide-to-ethereum-part-one/#and-breathe",
+            "https://ethereum.org/en/developers/tutorials/a-developers-guide-to-ethereum-part-one/#blockchains-briefly",
+            "https://ethereum.org/en/developers/tutorials/a-developers-guide-to-ethereum-part-one/#installation",
+            "https://ethereum.org/en/developers/tutorials/a-developers-guide-to-ethereum-part-one/#introducing-the-web3-module",
+            "https://ethereum.org/en/developers/tutorials/a-developers-guide-to-ethereum-part-one/#main-content",
+            "https://ethereum.org/en/developers/tutorials/a-developers-guide-to-ethereum-part-one/#soft-prerequisites",
+            "https://ethereum.org/en/developers/tutorials/a-developers-guide-to-ethereum-part-one/#spin-up-a-sandbox",
+            "https://ethereum.org/en/developers/tutorials/a-developers-guide-to-ethereum-part-one/#talk-to-the-chain",
+            "https://ethereum.org/en/developers/tutorials/a-developers-guide-to-ethereum-part-one/#the-quick-tour",
+            "https://ethereum.org/en/developers/tutorials/a-developers-guide-to-ethereum-part-one/#tour-stop-1-accounts",
+            "https://ethereum.org/en/developers/tutorials/a-developers-guide-to-ethereum-part-one/#tour-stop-2-block-data",
+            "https://ethereum.org/en/developers/tutorials/a-developers-guide-to-ethereum-part-one/#tour-stop-3-transactions",
+            "https://ethereum.org/en/eips/",
+            "https://ethereum.org/en/enterprise/",
+            "https://ethereum.org/en/enterprise/private-ethereum/",
+            "https://ethereum.org/en/eth/",
+            "https://ethereum.org/en/foundation/",
+            "https://ethereum.org/en/gas/",
+            "https://ethereum.org/en/get-eth/",
+            "https://ethereum.org/en/glossary/",
+            "https://ethereum.org/en/governance/",
+            "https://ethereum.org/en/guides/",
+            "https://ethereum.org/en/history/",
+            "https://ethereum.org/en/layer-2/",
+            "https://ethereum.org/en/learn/",
+            "https://ethereum.org/en/nft/",
+            "https://ethereum.org/en/privacy-policy/",
+            "https://ethereum.org/en/quizzes/",
+            "https://ethereum.org/en/roadmap/",
+            "https://ethereum.org/en/roadmap/security/",
+            "https://ethereum.org/en/run-a-node/",
+            "https://ethereum.org/en/security/",
+            "https://ethereum.org/en/smart-contracts/",
+            "https://ethereum.org/en/stablecoins/",
+            "https://ethereum.org/en/staking/",
+            "https://ethereum.org/en/terms-of-use/",
+            "https://ethereum.org/en/wallets/",
+            "https://ethereum.org/en/wallets/find-wallet/",
+            "https://ethereum.org/en/web3/",
+            "https://ethereum.org/en/what-is-ethereum/",
+            "https://ethereum.org/en/whitepaper/"
+        ],
+        "geth.ethereum.org": [
+            "https://geth.ethereum.org/"
+        ],
+        "github.com": [
+            "https://github.com/ethereum/eth-tester",
+            "https://github.com/ethereum/ethereum-org-website",
+            "https://github.com/ethereum/ethereum-org-website/tree/dev/public/content/developers/tutorials/a-developers-guide-to-ethereum-part-one/index.md",
+            "https://github.com/pettinarip"
+        ],
+        "ipython.org": [
+            "https://ipython.org/"
+        ],
+        "medium.com": [
+            "https://medium.com/ethereum-grid/ethereum-101-how-are-transactions-included-in-a-block-9ae5f491853f"
+        ],
+        "realpython.com": [
+            "https://realpython.com/effective-python-environment/#virtual-environments"
+        ],
+        "snakecharmers.ethereum.org": [
+            "https://snakecharmers.ethereum.org/a-developers-guide-to-ethereum-pt-1/"
+        ],
+        "twitter.com": [
+            "https://twitter.com/ethdotorg",
+            "https://twitter.com/wolovim"
+        ],
+        "web3py.readthedocs.io": [
+            "https://web3py.readthedocs.io/",
+            "https://web3py.readthedocs.io/en/stable/examples.html#converting-currency-denominations",
+            "https://web3py.readthedocs.io/en/stable/overview.html#base-api",
+            "https://web3py.readthedocs.io/en/stable/web3.main.html#web3.Web3.from_wei",
+            "https://web3py.readthedocs.io/en/stable/web3.main.html#web3.Web3.isAddress",
+            "https://web3py.readthedocs.io/en/stable/web3.main.html#web3.Web3.keccak",
+            "https://web3py.readthedocs.io/en/stable/web3.main.html#web3.Web3.toHex",
+            "https://web3py.readthedocs.io/en/stable/web3.main.html#web3.Web3.to_wei"
+        ],
+        "wikipedia.org": [
+            "https://wikipedia.org/wiki/Hash_function",
+            "https://wikipedia.org/wiki/Inter-process_communication"
+        ]
+    }
+}
